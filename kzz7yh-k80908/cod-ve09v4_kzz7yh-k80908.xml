@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="111-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k80908"><!-- l4d21prae -->
+            <head xml:id="kzz7yh-k80908-Hd1e101">Praeambulum</head>
+            <p xml:id="kzz7yh-k80908-d1e103">
+               <lb ed="#V" n="115"/>¶ De peccatis que post hanc vitam 
+      dimittun<lb ed="#V" n="116" break="no"/>tur. Distin. XXI
+  </p>
+            <p xml:id="kzz7yh-k80908-d1e110">
+               <lb ed="#V" n="117"/>SOlet etiam queri vtrum 
+      <lb ed="#V" n="118"/>post hanc vt 
+      <lb ed="#V" n="119"/>tam aliqua peccata remittantur: Quod 
+      <lb ed="#V" n="120"/>saliqua post hanc vitam remittantur 
+      <lb ed="#V" n="121"/>christus ostendit in euangelio vbi ait. Qui 
+      <lb ed="#V" n="122"/>peccauerit in spiritum sanctum non remittetur ei neque in 
+      <lb ed="#V" n="123"/>hoc seculo neque in futuro. Ex quo datur 
+      intelli<lb ed="#V" n="124" break="no"/>gi: sicut sancti doctores tradunt: quod quadam 
+      pecca<lb ed="#V" n="125" break="no"/>ta in futuro dimittentur. Quedam enim culpe in 
+      <lb ed="#V" n="126"/>hoc seculo relaxantur: quadam vero pene etiam in 
+      <lb ed="#V" n="127"/>futuro: que quidem post mortem grauant: sed dimit 
+      <lb ed="#V" n="128"/>tuntur si digni sunt: si bonis actibus in hac vita 
+      <lb ed="#V" n="129"/>meruerunt vt dimittatur eis. De illis etiam quae 
+      edifi<lb ed="#V" n="130" break="no"/>cant lignum: fenum: stipulam: dicit Aug. quod ignem 
+      <lb ed="#V" n="131"/>tribulationis transitorie inueniet cremabilia edi 
+      <lb ed="#V" n="132"/>ficia que secum portauerunt cremantem. Ait enim sic. 
+      <!--00255.xml-->
+      <pb ed="#V" n="112-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>Post istius sane corporis mortem donec de 
+      igne<lb ed="#V" n="2" break="no"/>purgatorio veniantur ad diem damnationis et 
+      remu<lb ed="#V" n="3" break="no"/>nerationis: si hoc temporis interuallo spiritus defuncto 
+      <lb ed="#V" n="4"/>rum qui edificauerunt: lignum: fenum: stipulam: 
+      <lb ed="#V" n="5"/>huiusmodi ignem dicantur perpeti: quem alii non 
+      sen<lb ed="#V" n="6" break="no"/>tiunt qui huiusmodi edificia portauerunt vt inueniant 
+      <lb ed="#V" n="7"/>ignem transitorie tribulationis venialia 
+      concre<lb ed="#V" n="8" break="no"/>mantem: non redarguo quia forsitam verum est. Sed 
+      <lb ed="#V" n="9"/>quia dicitur saluus erit quasi per ignem: contennitur 
+      <lb ed="#V" n="10"/>ille ignis. Grauior tamen erit ignis ille: quam quicquid 
+      <lb ed="#V" n="11"/>potest homo pati in hac vita. Hic aperte insinuatur 
+      <lb ed="#V" n="12"/>quod illi qui edificant lignum fenum stipulam quadam 
+      <lb ed="#V" n="13"/>cremabilia edificia id est venialia peccata secum 
+      por<lb ed="#V" n="14" break="no"/>tant: que in igne emendatorio cremantur. Unde 
+      <lb ed="#V" n="15"/>constat quaedam venialia peccata post hanc vitam deleri. 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e186">
+               <lb ed="#V" n="16"/>¶ Quod alii citius alii tardius purgantur in igne. 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e191">
+               <lb ed="#V" n="17"/>In illo autem igne purgatorio ali 
+      tar<lb ed="#V" n="18" break="no"/>dius alii citius purgantur 
+      <lb ed="#V" n="19"/>secundum quod ista pereuntia magis vel minus 
+      amaue<lb ed="#V" n="20" break="no"/>runt: vnde Aug. Post hanc vitam incredibile non 
+      <lb ed="#V" n="21"/>est: nonnullos fideles per ignem quendam 
+      purga<lb ed="#V" n="22" break="no"/>torium: quanto magis minusue bona pereuntia 
+      di<lb ed="#V" n="23" break="no"/>lexerunt tanto tardius citiusque saluari. Unde non 
+      <lb ed="#V" n="24"/>frustra illa tria distinxit apostolus: lignum: fenum: 
+      sti<lb ed="#V" n="25" break="no"/>pulam: que illi edificant: qui et si aliena non rapiunt: 
+      <lb ed="#V" n="26"/>rebus tamen infirmitati conccisis aliqua dilectione 
+      in<lb ed="#V" n="27" break="no"/>herent. Qui secundum suos amandi modos vel diutius 
+      <lb ed="#V" n="28"/>vt lignum vel minus vt fenum: vel minimum vt 
+      <lb ed="#V" n="29"/>stipulam ignem sustinebunt. Qui vero 
+      super<lb ed="#V" n="30" break="no"/>edificant aurum: argentum lapidem praeciosum: de 
+      <lb ed="#V" n="31"/>vtroque igne securi sunt: non solum de illo eterno quod 
+      <lb ed="#V" n="32"/>cruciaturus est impios ineternum: sed et de illo 
+      emen<lb ed="#V" n="33" break="no"/>datorio quo purgabuntur quidam saluandi. 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e231">
+               <lb ed="#V" n="34"/>¶ e siio. 
+      <lb ed="#V" n="35"/>hic obuci potest: si per ianum se 
+      <lb ed="#V" n="36"/>num stipulam 
+      ve<lb ed="#V" n="37" break="no"/>nialia intelliguntur peccata et nullus adeo perfectus est 
+      <lb ed="#V" n="38"/>qui venialiter no peccet. Ergo qui edificant aurum 
+      <lb ed="#V" n="39"/>argentum lapidem praeciosum: edificant etiam 
+      li<lb ed="#V" n="40" break="no"/>gnum: fenum: stipulam: ergo per ignem transibunt. 
+      <lb ed="#V" n="41"/>Ad quod dicimus quia non omnis qui venialiter peccat: 
+      <lb ed="#V" n="42"/>lignum: fenum: stipulam edificat: sicut 
+      econuerso<lb ed="#V" n="43" break="no"/>non omnis qui contemplatur deum et diligit proximum 
+      <lb ed="#V" n="44"/>et opera bona facit edificat aurum argentum 
+      la<lb ed="#V" n="45" break="no"/>pidem praeciosum: et tamen in auro intelligitur 
+      con<lb ed="#V" n="46" break="no"/>templatio dei: in argento dilectio proximi: in 
+      la<lb ed="#V" n="47" break="no"/>pide precioso bona opera. Sed illi qui edificant 
+      <lb ed="#V" n="48"/>lignum: fenum: stipulam deum contemplantur et 
+      proxi<lb ed="#V" n="49" break="no"/>mum diligunt et opera bona faciunt: nec tamen edificant 
+      <lb ed="#V" n="50"/>aurum: argentum lapidem praeciosum. Hec enim 
+      edi<lb ed="#V" n="51" break="no"/>ficat qui sic illa tria facit: vt cogitet quae sunt dei: 
+      <lb ed="#V" n="52"/>et quomodo placeat deo: non mundo. Lignum vero et 
+      <lb ed="#V" n="53"/>fenum et stipulam accipi possunt secularium rerum 
+      <lb ed="#V" n="54"/>quamuis licite concessarum tales cupiditates vt amit 
+      <lb ed="#V" n="55"/>ti sine animi dolore non possint. Hec ergo 
+      edifi<lb ed="#V" n="56" break="no"/>ficat is qui cogitat que mundi sunt: et quomodo placeat 
+      <!--00255.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>mundo: qui circa diuitias suas quodammodo 
+      car<lb ed="#V" n="58" break="no"/>nali affectu tenetur: et tamen ex eis multa 
+      beneficia<lb ed="#V" n="59" break="no"/>facit: nec pro eis aliquid fraudis vel rapine 
+      moli<lb ed="#V" n="60" break="no"/>tur. Ex his ergo patet quod non idem homo simul hec et 
+      <lb ed="#V" n="61"/>illa edificat. Illa enim edificatio perfectorum tantum 
+      <lb ed="#V" n="62"/>est: qui non cogitant placere mundo: sed tantum deo: qui 
+      <lb ed="#V" n="63"/>et si venialiter aliquando peccant: feruore charitatis 
+      <lb ed="#V" n="64"/>ita assumitur in eis peccatum sicut gutta aque in cami 
+      <lb ed="#V" n="65"/>no ignis: et ideo nunquam secum portant 
+      cremabi<lb ed="#V" n="66" break="no"/>lia. Hec autem inferior edificatio minorum est: qui non 
+      <lb ed="#V" n="67"/>tantum deo: sed etiam mundo placere cogitant: deum 
+      <lb ed="#V" n="68"/>tamen praeponunt. Si vero mundum praeponerent: non 
+      su<lb ed="#V" n="69" break="no"/>peredificarent: sed destruerent fundamentum. 
+      Af<lb ed="#V" n="70" break="no"/>fectiones ergo carnales quibus debiti sunt 
+      domi<lb ed="#V" n="71" break="no"/>bus: coniugibus: possessionibus: ita vt nihil praeponant 
+      <lb ed="#V" n="72"/>christo: illis tribus significantur que in mentes 
+      per<lb ed="#V" n="73" break="no"/>fectorum non cadunt: et si alia venialia admittant. 
+      <lb ed="#V" n="74"/>In cordibus vero minorum interdum durant vsque 
+      <lb ed="#V" n="75"/>in finem qui cum talibus edificiis transeunt: sed 
+      dis<lb ed="#V" n="76" break="no"/>soluentur in igne. Ipsi vero meritor 
+      fundamen<lb ed="#V" n="77" break="no"/>ti salui erunt: grauissimam tamen penam sentiant. Ex 
+      <lb ed="#V" n="78"/>quo apparet quantam hic misericordiam 
+      exhi<lb ed="#V" n="79" break="no"/>bet deus et quantam ibi exerceat seueritatem cum 
+      <lb ed="#V" n="80"/>pro eodem peccato multo grauius ibi puniat quam hic. 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e340">
+               <lb ed="#V" n="81"/>¶ Opinio quorundam cum obiectione. 
+      <lb ed="#V" n="82"/>Sed forte dices illud esse accipiendum 
+      <lb ed="#V" n="83"/>de pena peccati: non de ipso 
+      <lb ed="#V" n="84"/>peccato quod Greg. dicit quadam leuia in futuro 
+      di<lb ed="#V" n="85" break="no"/>mittenda. Si enim veram penitentiam habuerit 
+      <lb ed="#V" n="86"/>quis: peccata omnia dimissa sunt ei: sed pena forte 
+      re<lb ed="#V" n="87" break="no"/>mansit. Ideoque si vere penitens obiit sine peccato 
+      <lb ed="#V" n="88"/>transit. Si autem vere penitens est in obitu: 
+      macu<lb ed="#V" n="89" break="no"/>lam portat que nunquam delebitur. Qui vero edi 
+      <lb ed="#V" n="90"/>ficat lignum: senum: stipulam vere penitet: quia 
+      <lb ed="#V" n="91"/>bonus est et charitatem habet et in charitate de 
+      <lb ed="#V" n="92"/>hac vita transit: ergo sine peccato transit: non se 
+      <lb ed="#V" n="93"/>quitur. Uerum quidem est quia bonus est et 
+      chari<lb ed="#V" n="94" break="no"/>tatem habet et vere penitet: et tamen cum veniali 
+      pec<lb ed="#V" n="95" break="no"/>cato transit quod non deleuit penitentia. 
+      Peniten<lb ed="#V" n="96" break="no"/>tia enim non delet nisi peccatum illud quod deserit 
+      <lb ed="#V" n="97"/>homo. Tale autem peccatum sepe in hac vita non 
+      <lb ed="#V" n="98"/>delinquitur ab homine: et tamen vere penitens est: et 
+      <lb ed="#V" n="99"/>si non de omnibus venialibus peniteat. Potest 
+      <lb ed="#V" n="100"/>enim quis de omni mortali et de omni veniali 
+      pe<lb ed="#V" n="101" break="no"/>nitere excepto vno vel pluribus venialibus quidem. 
+      <lb ed="#V" n="102"/>Sicut habet quis charitatem et vnum vel plura 
+      ve<lb ed="#V" n="103" break="no"/>nialia. Quod de criminalibus nullatenus esse potest 
+      <lb ed="#V" n="104"/>Est enim aliquis bonus charitatem habens: sed 
+      <lb ed="#V" n="105"/>adhuc quodam cupiditatis affectu amans hec 
+      <lb ed="#V" n="106"/>secularia. Talis existens subita morte 
+      opprimi<lb ed="#V" n="107" break="no"/>tur. In illo terreno affectu mortuus est: et tamen 
+      <lb ed="#V" n="108"/>saluabitur: a quo non sehic absoluit: ergo post hanc 
+      <lb ed="#V" n="109"/>vitam ab illo purgabitur. Constat ergo quaedam 
+      <lb ed="#V" n="110"/>peccata: sed leuia post hanc vitam dimitti. 
+      Si<lb ed="#V" n="111" break="no"/>vero de pena peccati illud intelligi voluissent 
+      <lb ed="#V" n="112"/>auctores: curmagis commemorassent leuia quam¬ 
+      <!--00256.xml-->
+      <pb ed="#V" n="113-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>grauia: cum etiam grauium pena hic 
+      inexple<lb ed="#V" n="2" break="no"/>ta post hanc vitam restet: 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e423">
+               <lb ed="#V" n="3"/>¶ De generali confessione quid prosit. 
+      <lb ed="#V" n="4"/>ost hec considerandum est quiui piosit 
+      <lb ed="#V" n="5"/>confessio illa vbi singula 
+      pec<lb ed="#V" n="6" break="no"/>cata que quisque fecit non exprimuntur. Sane dici 
+      <lb ed="#V" n="7"/>potest: quod omnia criminalia semel saltem oportet in 
+      con<lb ed="#V" n="8" break="no"/>fessione exprimi nisi aliqua a mente exciderit. 
+      <lb ed="#V" n="9"/>Sed quia nemo delicta intelligit omnia: genera 
+      <lb ed="#V" n="10"/>liter saltem ea confitere quorum memoriam non 
+      <lb ed="#V" n="11"/>habes: et sic nihil celasti de sceleribus tuis. Ue 
+      <lb ed="#V" n="12"/>nialia vero quia innumerabilia sunt sufficit 
+      gene<lb ed="#V" n="13" break="no"/>raliter confiteri: nisi aliqua sint frequenter 
+      itera<lb ed="#V" n="14" break="no"/>ta: perfectius est tamen etiam illa exprimere si 
+      va<lb ed="#V" n="15" break="no"/>les. Ideoque quotidie generaliter sit confessio in ec 
+      <lb ed="#V" n="16"/>clesia pro venialibus scilicet peccatis que quotidie ad 
+      <lb ed="#V" n="17"/>mittimus: et pro illis mortiferis quorum noticiam 
+      <lb ed="#V" n="18"/>non habemus. Unde Aug. Ueritatem dicit deo 
+      <lb ed="#V" n="19"/>penitens quando nihil illi de commissis sceleribus 
+      <lb ed="#V" n="20"/>celat: non quod et si voluntate celauerit: deus ignoret: 
+      <lb ed="#V" n="21"/>sed veritatem sibi dici vult ab eo vt veniam 
+      con<lb ed="#V" n="22" break="no"/>sequatur. Si vero mente aliqua exciderint: 
+      confite<lb ed="#V" n="23" break="no"/>tur veritatem deo cum generaliter dixerit. Deus 
+      <lb ed="#V" n="24"/>qui nosti occulta cordis et opera mea et delicta 
+      <lb ed="#V" n="25"/>a te non sunt abscondita: quibus veniam 
+      largia<lb ed="#V" n="26" break="no"/>ris praecor: et hec est veritas confitentis quam diligit 
+      <lb ed="#V" n="27"/>deus. Unde. Ecce enim veritatem dilexisti. Hic 
+      <lb ed="#V" n="28"/>insinuatur quod generalis confessio etiam mortalia 
+      <lb ed="#V" n="29"/>delet quorum intelligentia non habetur. 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e484">
+               <lb ed="#V" n="30"/>¶ Nemo confiteatur peccata que non fecit. 
+      <lb ed="#V" n="31"/>Sicut autem penitens celarenon 
+      <lb ed="#V" n="32"/>debet peccatum suum: quia 
+      <lb ed="#V" n="33"/>superbia est: ita nec humilitatis causa fateri se 
+      <lb ed="#V" n="34"/>reum illius quod se non commisisse noscit: quia 
+      incau<lb ed="#V" n="35" break="no"/>ta est talis humilitas et peccatorem constituit. 
+      <lb ed="#V" n="36"/>Unde Aug. Cum humilitatis causa mentiris: 
+      <lb ed="#V" n="37"/>si non eras peccator antequam mentireris 
+      mentien<lb ed="#V" n="38" break="no"/>do efficeris quod vitaras. Ueritas in te non est nisi 
+      <lb ed="#V" n="39"/>ita te dixeris peccatorem: vt etiam esse cognoscas. 
+      <lb ed="#V" n="40"/>Ueritas autem ipsa est vt quod eis dicas. Nam quo 
+      <lb ed="#V" n="41"/>modo est veritas vbi regnat falsitas: 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e513">
+               <lb ed="#V" n="42"/>¶ De penis sacerdotis qui peccatum publicat confitentis. 
+      <lb ed="#V" n="43"/>Caueat autem sacerdos ne pec 
+      <lb ed="#V" n="44"/>cata confitentium 
+      <lb ed="#V" n="45"/>aliis prodat: alioquin deponatur. Unde Grego. 
+      <lb ed="#V" n="46"/>Sacerdos ante omnia caueat ne de his quae ei 
+      consi<lb ed="#V" n="47" break="no"/>tentur peccata alicui recitet: non propinquis: non extra 
+      <lb ed="#V" n="48"/>neis: nec quod absit pro aliquo scandalo. Nam 
+      si<lb ed="#V" n="49" break="no"/>hoc fecerit deponatur et omnibus diebus vite sue 
+      <lb ed="#V" n="50"/>ignominiosus peregrinando pergat. Quod vero 
+      <lb ed="#V" n="51"/>dictum est vt penites eligat sacerdotem scientem 
+      <lb ed="#V" n="52"/>ligare et soluere: videtur contrarium ei quod in cano 
+      <lb ed="#V" n="53"/>nibus reperitur vt nemo scilicet alterius parrochianum 
+      <lb ed="#V" n="54"/>iudicare praesumat. Sed aliud est fauore vel 
+      odio<lb ed="#V" n="55" break="no"/>proprium sacerdotem contemnere: quod canones 
+      <lb ed="#V" n="56"/>prohibent: aliud cecum vitare: quod vrbanus face¬ 
+      <!--00256.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>re monet: ne si cecus cecum ducat ambo in 
+      fo<lb ed="#V" n="58" break="no"/>ueam cadant. Ait enim Urbanus secundus. 
+      <lb ed="#V" n="59"/>Placuit vt nulli sacerdotum deinceps liceat 
+      <lb ed="#V" n="60"/>quemlibet commissum alteri sacerdoti ad 
+      peniten<lb ed="#V" n="61" break="no"/>tiam suscipere: sine eius consensum cui se prius 
+      <lb ed="#V" n="62"/>commisit nisi pro ignorantia illius cui prius 
+      confes<lb ed="#V" n="63" break="no"/>sus est. Qui vero contra hoc facere tentauerit 
+      <lb ed="#V" n="64"/>gradus sui periculo subiacebit. 
+      <lb ed="#V" n="65"/>Uperius determinauit magister de modo 
+      <lb ed="#V" n="66"/>remissionis mortalium. Hic 
+      <lb ed="#V" n="67"/>determinat de modo remissionis venialium. Et 
+      <lb ed="#V" n="68"/>diuiditur in duas.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e578">
+      ¶ Primo determinat de 
+      remis<lb ed="#V" n="69" break="no"/>sione venialium post hanc vitam.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e584">
+      ¶ Secundo de 
+      <lb ed="#V" n="70"/>eorum remissione in hac vita. ibi. Post hoc. Prima in 4 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e589">
+               <lb ed="#V" n="71"/>¶ Primo ostendit quod quaedam peccata post hanc vitam remit 
+      <lb ed="#V" n="72"/>tuntur.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e596">
+      ¶ Secundo quod quaedam citius: quaedam tardius 
+      purgan<lb ed="#V" n="73" break="no"/>tur. ibi. In illo aute.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e601">
+      ¶ Tertio ostendit que sunt illa peccata 
+      <lb ed="#V" n="74"/>que in purgatorio purgantur. ibi. Hic obiicitur
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e606">
+      ¶ 
+      Quar<lb ed="#V" n="75" break="no"/>to ostendit quod hec purgatorio non tantum quantum ad penam: 
+      <lb ed="#V" n="76"/>sed etiam quatum ad culpam intelligitur. ibi. Sed forte. 
+      Secun<lb ed="#V" n="77" break="no"/>da pars principalis diuiditur id est 2.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e615">
+      ¶ Primo determinat de 
+      <lb ed="#V" n="78"/>generali confessione.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e621">
+      ¶ Secundo de sigilli confessionis 
+      obser<lb ed="#V" n="79" break="no"/>uatione. ibi. Caueat autem.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e626">
+      ¶ Prima in duas.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e628">
+      ¶ Primo 
+      <lb ed="#V" n="80"/>ostendit que confitenda sunt.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e633">
+      ¶ Secundo que 
+      confiten<lb ed="#V" n="81" break="no"/>da non sunt. ibi. Sicut autem 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e638">
+    Distin. XXI. 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e640">
+               <lb ed="#V" n="82"/>CIrca hanc dist. est querendum de. 5 
+      princi<lb ed="#V" n="83" break="no"/>paliter.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e648">
+      ¶ Primo de purgatorio¬ 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e650">
+               <lb ed="#V" n="84"/>¶ Secundo de his que ibi purgantur.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e655">
+      ¶ 
+      Ter<lb ed="#V" n="85" break="no"/>o de ggneti cgione 
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e660">
+    ¶ Quarto de ui 
+      <lb ed="#V" n="86"/>confessionis obseruatione.
+   </p>
+            <p xml:id="kzz7yh-k80908-d1e665">
+      ¶ Quinto de obseruatione 
+      <lb ed="#V" n="87"/>secreti ex parte penitentis. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

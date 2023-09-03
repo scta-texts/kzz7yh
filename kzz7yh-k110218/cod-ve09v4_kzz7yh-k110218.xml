@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="153-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k110218"><!-- l4d31cl -->
+            <head xml:id="kzz7yh-k110218-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-k110218-d1e103">
+               <lb ed="#V" n="97"/>Circa litteram. Sacramentaliter vero se 
+      <lb ed="#V" n="98"/>parari nequeunt dum viuunt. 
+      sup<lb ed="#V" n="99" break="no"/>ple si est matrimoniu consumatum. alias 
+      pos<lb ed="#V" n="100" break="no"/>sent per religionis ingressum. Sacramentum 
+      <lb ed="#V" n="101"/>fidei id est characterem qui est res et sacramentum. Immo 
+      fir<lb ed="#V" n="102" break="no"/>mius erit scilicet quantum ad amorem spiritualem in 
+      domi<lb ed="#V" n="103" break="no"/>no. vel potest dici quod non loquitur hic magister de 
+      conti<lb ed="#V" n="104" break="no"/>nentia a prima carnali copula qua matrimonium 
+      consu<lb ed="#V" n="105" break="no"/>matur: sed de continentia a sequentibus Si coniunx non 
+      <lb ed="#V" n="106"/>esset: adultera non foret. tamen esset fornicaria. 
+      Coniu<lb ed="#V" n="107" break="no"/>ges dicuntur qui solius concubitus causa conueniunt. 
+      <lb ed="#V" n="108"/>dum tamen affectu matrimoniali copulentur. Si tamen 
+      <lb ed="#V" n="109"/>prolis generationem aliquo dolo malo non vitent scilicet 
+      con<lb ed="#V" n="110" break="no"/>sentiendo in talem dolum: dum contrahitur 
+      matrimo<lb ed="#V" n="111" break="no"/>nium: quia si talis dolus post matrimonium contractum 
+      <lb ed="#V" n="112"/>superueniret vinculum matrimoniale non solueret. 
+      Si<lb ed="#V" n="113" break="no"/>ambo tales sunt coniuges non sunt. hoc est non faciunt actus 
+      <lb ed="#V" n="114"/>debitos coniugio. Si ambo non sunt tales: aut illa est mere 
+      <lb ed="#V" n="115"/>trix mariti etc id est ad modum meretricis se habens. Sapiens 
+      <lb ed="#V" n="116"/>iudicio amat coniugem non affectu scilicet effrenato. Nihil est 
+      <lb ed="#V" n="117"/>fedius vxorem amare quasi adulteram. quod non est sic 
+      intelli<lb ed="#V" n="118" break="no"/>gendum quod non sit aliquod peccatum grauitus illo: sed vult 
+      di<lb ed="#V" n="119" break="no"/>cere quod est valde fedum. Incontinentie malum est quod vir 
+      co<lb ed="#V" n="120" break="no"/>gnoscit vxorem vltra necessitatem procreandi liberos. 
+      lo<lb ed="#V" n="121" break="no"/>quitur de actu cognoscendi exigendo debitum non reddendo. 
+      <lb ed="#V" n="122"/>Ipse solus nuptialis est scilicet principaliter: quia ad 
+      procreatio<lb ed="#V" n="123" break="no"/>nem liberorum principaliter ordinatus est concubitus 
+      nu<lb ed="#V" n="124" break="no"/>ptialis. Uoluptas ipsa sine culpa esse nullatenus potest. 
+      <lb ed="#V" n="125"/>boc nomine culpe intelligit feditatem vitiosam que in 
+      no<lb ed="#V" n="126" break="no"/>bis est ex culpa primorum parentum. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

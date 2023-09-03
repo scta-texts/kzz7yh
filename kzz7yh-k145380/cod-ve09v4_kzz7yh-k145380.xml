@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="200-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k145380"><!-- l4d45a1 -->
+            <head xml:id="kzz7yh-k145380-Hd1e101">Articulus 1</head>
+            <p xml:id="kzz7yh-k145380-d1e103">
+     Arti. 
+      <lb ed="#V" n="21"/>Circa primum queruntur quatuor.
+   </p>
+            <p xml:id="kzz7yh-k145380-d1e108">
+      ¶ Primo 
+      <lb ed="#V" n="22"/>vtrum animarum post sui separationem a 
+      su<lb ed="#V" n="23" break="no"/>is corporibus sint aliqua corporalia receptacula. 
+   </p>
+            <p xml:id="kzz7yh-k145380-d1e115">
+               <lb ed="#V" n="24"/>¶ Secundo que et quot sunt illa.
+   </p>
+            <p xml:id="kzz7yh-k145380-d1e120">
+      ¶ Tertio 
+      <lb ed="#V" n="25"/>vtrum exeant aliquando de receptaculis suis.
+   </p>
+            <p xml:id="kzz7yh-k145380-d1e126">
+      ¶ Quarto vtrum 
+      <lb ed="#V" n="26"/>corporalia receptacula animarum in aliquo augeant earum 
+      <lb ed="#V" n="27"/>delectationem vel afflictionem. 
+   </p>
+            <div xml:id="kzz7yh-k145380-Dd1e133">
+               <head xml:id="kzz7yh-k145380-Hd1e135">Quaestio 1</head>
+               <p xml:id="kzz7yh-k145380-d1e137">
+      Questio I
+    </p>
+               <p xml:id="kzz7yh-k145380-d1e139">
+                  <lb ed="#V" n="28"/>PRimo ostendendo quod anime non habent aliqui 
+      cor<lb ed="#V" n="29" break="no"/>poralia receptacula. Aug. xii. 
+      su<lb ed="#V" n="30" break="no"/>per Gen. versus finem dicit. Animam cum de 
+      cor<lb ed="#V" n="31" break="no"/>pore exierit ad loca corporalia non ferri. et parum 
+      <lb ed="#V" n="32"/>post dicit: quod videtur esse in locis non corporalibus: sed 
+      corpora<lb ed="#V" n="33" break="no"/>lium similibus siue in requie: siue in doloribus.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e155">
+      ¶ Item 
+      spiri<lb ed="#V" n="34" break="no"/>tus non magis conueniut cum vno loco corporali quam cum alio 
+      <lb ed="#V" n="35"/>quia a loco corporali non dependent. ergo non esset ratio: quare 
+      <lb ed="#V" n="36"/>magis essent in vno corporali receptaculo quam in alio. 
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e164">
+                  <lb ed="#V" n="37"/>Contra magister huius dist. c. i1. et glo. super illud id est 
+      <lb ed="#V" n="38"/>ad Thesus 4 simul rapiemur cum illis in 
+      nu<lb ed="#V" n="39" break="no"/>bibus. dicunt quod omnes anime cum de hoc seculo exierint 
+      di<lb ed="#V" n="40" break="no"/>uersas habent receptationes. Item Grego. 4. libo dialo. parum 
+      <lb ed="#V" n="41"/>ante medium. refert quendam virum sanctum retulisse quod vidit 
+      <lb ed="#V" n="42"/>Theodoricum post mortem inter Ioannem papam: et Symma 
+      <lb ed="#V" n="43"/>chum patritium discinctum atque discalciatum deductum in 
+      vulcani<lb ed="#V" n="44" break="no"/>ollam iactari. eodem etiam libo inter medium et finem refert Ger 
+      <lb ed="#V" n="45"/>manum capuanum episcopum inuenisse Pascasium diaconem qui 
+      <lb ed="#V" n="46"/>erat defunctus stantem et obsequentem in balneis. ergo 
+      ant<lb ed="#V" n="47" break="no"/>me post mortem corporalia receptacula habent. 
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e191">
+                  <lb ed="#V" n="48"/>Respondeo quod anime potest mortem sunt in aliqui 
+      <lb ed="#V" n="49"/>bus corporalibus receptaculis: vt 
+      <lb ed="#V" n="50"/>enim declaratum est lib. i. di. 37. angeli qui sunt spiritus: sunt in 
+      <lb ed="#V" n="51"/>aliquibus corporalibus locis non circunscriptiue: sed 
+      diffiniti<lb ed="#V" n="52" break="no"/>ue: ergo similiter anima separata non obstante quod sit spiritus. 
+    </p>
+               <p xml:id="kzz7yh-k145380-d1e204">
+                  <lb ed="#V" n="53"/>Ad primum in oppositum dicendum quod ibi Aug. loquie 
+      <lb ed="#V" n="54"/>tur de loco circunscribente. quod patet 
+      <lb ed="#V" n="55"/>quia postquam dixit animam ad loca corporalia non ferri nisi cum 
+      ali<lb ed="#V" n="56" break="no"/>quo corpore statim subiungit vel non localiter serri. 
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e215">
+                  <lb ed="#V" n="57"/>¶ Ad secundum dicendum: quod quamuis anima separata 
+      <lb ed="#V" n="58"/>non magis conueniat cum vno loco quam cum alio ratione 
+      <lb ed="#V" n="59"/>sue essentie cum ex loco natura eius non dependeat: 
+      ta<lb ed="#V" n="60" break="no"/>men propter operationes quas in loco debet exercere vel 
+      <lb ed="#V" n="61"/>circa eam debet exerceri: magis sibi conuenit vnus locus 
+      <lb ed="#V" n="62"/>quam alius: non quod velim dicere suam passionem vel 
+      operatio<lb ed="#V" n="63" break="no"/>nem ess formalem rationem vel effectiuam sue 
+      existen<lb ed="#V" n="64" break="no"/>tie in loco sed simultas existentie sue cum corporali loco 
+      <lb ed="#V" n="65"/>vel cum re existente in loco est formalis ratio sue 
+      appli<lb ed="#V" n="66" break="no"/>cationis ad locum sicut de spiritu angelico declaratum 
+      <lb ed="#V" n="67"/>est libro primo. distin. 37 in illa questione vtrum angelus 
+      <lb ed="#V" n="68"/>sit nusquam. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-k145380-Dd1e245">
+               <head xml:id="kzz7yh-k145380-Hd1e247">Quaestio 2</head>
+               <p xml:id="kzz7yh-k145380-d1e249">
+      Quaestio. II.
+    </p>
+               <p xml:id="kzz7yh-k145380-d1e251">
+      <!--00432.xml-->
+                  <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="69"/>SEcundo queritur que et quot sunt 
+      il<lb ed="#V" n="70" break="no"/>la receptacula. 
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e262">
+                  <lb ed="#V" n="71"/>Respondeo quod quedam 
+      recepta<lb ed="#V" n="72" break="no"/>cula corporalia 
+      depu<lb ed="#V" n="73" break="no"/>tantur animabus de lege communi: quedam ex lege speciali 
+      <lb ed="#V" n="74"/>prima ante christi aduentum erant. 4. et omnia sub terra: 
+      <lb ed="#V" n="75"/>quedam in infimo deputata animabus damnatis pro 
+      actua<lb ed="#V" n="76" break="no"/>li peccato mortali: et pro originali cum aliquo veniali: anima 
+      <lb ed="#V" n="77"/>enim decedens cum originali peccato: quamuis non habeat 
+      <lb ed="#V" n="78"/>actuale peccatum nisi veniale: tamen punietur eternaliter pena 
+      <lb ed="#V" n="79"/>sensus: et in eodem loco cum illis qui puniuntur pro 
+      pecca<lb ed="#V" n="80" break="no"/>to mortali punitur: tamen multo remissius: quod autem veniale 
+      <lb ed="#V" n="81"/>puniatur pena eterna declaratum est supra. dist. 21.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e288">
+      ¶ Supra 
+      <lb ed="#V" n="82"/>predictum receptaculum aliud est in quo sunt anime 
+      pro<lb ed="#V" n="83" break="no"/>solo peccato originali damnate: que non puniuntur pena 
+      sen<lb ed="#V" n="84" break="no"/>sus: sed sola pena damni: vt ostensum est lib. 2.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e298">
+      ¶ Supra quod 
+      <lb ed="#V" n="85"/>aliud est in quo purgantur anime que decesserunt cum 
+      cha<lb ed="#V" n="86" break="no"/>ritate.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e305">
+      ¶ Supra quod est quartum in quo requiescebant 
+      <lb ed="#V" n="87"/>anime decedentes cum charitate que nihil purgabile secum 
+      <lb ed="#V" n="88"/>portabant: vel que portauerant: et purgate erant: quod 
+      rece<lb ed="#V" n="89" break="no"/>ptaculum ante christi aduentum sinus Abrae dicebatur quia 
+      <lb ed="#V" n="90"/>enim Abraam primus ab infidelibus sese separauit: et 
+      fi<lb ed="#V" n="91" break="no"/>dei signaculum distinctiuum accepit: ideo locus 
+      requier<lb ed="#V" n="92" break="no"/>que debetur anime propter fidem charitate formatam sinus abrae dict 
+      <lb ed="#V" n="93"/>est. post etiam christi aduentum sunt. 4 receptacula animarum 
+      <lb ed="#V" n="94"/>eadem que prius: quarto excepto: in quo modo nulla 
+      ani<lb ed="#V" n="95" break="no"/>ma recipitur: quia decedentes cum charitate nihil portantes 
+      <lb ed="#V" n="96"/>purgabile cum nullum habeant retardatiuum statim 
+      ascen<lb ed="#V" n="97" break="no"/>dunt in celum empyreum: quod est receptaculum 
+      bono<lb ed="#V" n="98" break="no"/>rum: sicut ignis purus nihil habens retardatiuum statim 
+      <lb ed="#V" n="99"/>ascendit sursum.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e336">
+      ¶ Decedentes autem sine charitate cum 
+      <lb ed="#V" n="100"/>actuali peccato statim descendunt ad locum infimum: sicut grauia 
+      <lb ed="#V" n="101"/>non habentia aliquid quod prohibeat eorum descensum statim 
+      descen<lb ed="#V" n="102" break="no"/>dunt ad locum infimum.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e345">
+      ¶ Decedentes autem sine charitate cum 
+      <lb ed="#V" n="103"/>solo originali peccato statim descendunt ad locum qui consequenter 
+      <lb ed="#V" n="104"/>est supra illum.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e352">
+      ¶ Decedentes autem cum charitate aliquod 
+      purga<lb ed="#V" n="105" break="no"/>bile secum portantes descendunt ad locum tertium post expletam 
+      <lb ed="#V" n="106"/>penitentiam statim ascensure in empyreum celum: qui modo sinus 
+      <lb ed="#V" n="107"/>abrae dicitur. vnde patet quod non eundem locum intelligimus modo per 
+      fi<lb ed="#V" n="108" break="no"/>num habrae cum rogamus animas deferri in ipsum: cum illo qui ante 
+      <lb ed="#V" n="109"/>christi aduentum sinus abrae dicebatur: diuerse autem mansiones in 
+      <lb ed="#V" n="110"/>celo diuersa receptacula corporalia non dicuntur: sed 
+      diuersi<lb ed="#V" n="111" break="no"/>gradus primiorum: immo totum caelum empyreum vnum dicitur recepta 
+      <lb ed="#V" n="112"/>culum: receptacula autem que ex lege speciali aliquibus 
+      anima<lb ed="#V" n="113" break="no"/>bus assignantur indeterminata sunt quo ad nos.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e374">
+      ¶ 
+      Que<lb ed="#V" n="114" break="no"/>dam enim aime ex aliquibus specialibus causis: in locis purgantur: 
+      <lb ed="#V" n="115"/>in quibus deliquerunt: vt dictum est supra. di. 12. vbi de 
+      pur<lb ed="#V" n="116" break="no"/>gatorio plura dicta sunt: et etiam lib. 3. di. 22. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-k145380-Dd1e384">
+               <head xml:id="kzz7yh-k145380-Hd1e386">Quaestio 3</head>
+               <p xml:id="kzz7yh-k145380-d1e388">
+      Questio. III.
+    </p>
+               <p xml:id="kzz7yh-k145380-d1e390">
+                  <lb ed="#V" n="117"/>TErtio queritur vtrum anime aliquando exeautem de 
+      re<lb ed="#V" n="118" break="no"/>ceptaculis suis que habent post 
+      mor<lb ed="#V" n="119" break="no"/>tem. Et videtur quod non. Iob. 7. qui descenderit ad inferos 
+      <lb ed="#V" n="120"/>non ascendet
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e401">
+      ¶ Item Aug. libro de cura pro mortuis 
+      <lb ed="#V" n="121"/>agenda vltra medium. Si in rebus viuentium intere ent anime modotuo 
+      <lb ed="#V" n="122"/>rum me pia mater nulla nocte desereret: que me mari 
+      ter<lb ed="#V" n="123" break="no"/>raque secuta est: vt mecum viueret: sed si exiret aliquando de 
+      rece<lb ed="#V" n="124" break="no"/>ptaculis suis aliquando interessent rebus viuentium. 
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e412">
+                  <lb ed="#V" n="125"/>Contra Math. 17. Moyses legitur apparuisse cum 
+      <lb ed="#V" n="126"/>Helia. per quod Aug. probat libro predicto 
+      in<lb ed="#V" n="127" break="no"/>ter medium et finem. ad viuos aliquos mitti ex mortuis. 
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e422">
+                  <lb ed="#V" n="128"/>¶ Item hiero. contra vigilantium dicit animas sanctorum 
+      <lb ed="#V" n="129"/>posse cum voluerint suis tumulis esse presentes. 
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e429">
+                  <lb ed="#V" n="130"/>Respondeo aliquando animas exire de 
+      rece<lb ed="#V" n="131" break="no"/>ptaculis suis dupliciter potest 
+      in<lb ed="#V" n="132" break="no"/>telligi: vel per diuinam potentiam: vel per naturam propriam 
+      <lb ed="#V" n="133"/>primo modo de inferno et de celo exeunt alique anime non 
+      in<lb ed="#V" n="134" break="no"/>perpetuum: sed ad tempus: nec de lege communi: sed ex aliqua 
+      <lb ed="#V" n="135"/>speciali causa: sic etiam de purgatorio alique exeunt ad modicum 
+      tem<lb ed="#V" n="136" break="no"/>pus ante completionem pene sue post cuius completionem 
+      <!--00433.xml-->
+      <pb ed="#V" n="201-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>inde exeunt illuc amplius non reuersure. in iudicio 
+      au<lb ed="#V" n="2" break="no"/>tem omnes tam existentes in celo quam in inferno exibut secundum 
+      con<lb ed="#V" n="3" break="no"/>munem legem diuine iustitie ad eadem iterum loca cum suis 
+      cor<lb ed="#V" n="4" break="no"/>poribus reuersure: et in eis in perpetuum remansure. Per 
+      <lb ed="#V" n="5"/>naturam autem propriam nulle anime de suis receptaculis possunt 
+      <lb ed="#V" n="6"/>exire: vt quidam dicunt: dictum suum confirmantes auctoritate et 
+      <lb ed="#V" n="7"/>ratione. Dicit enim Augu. de cura pro mortuis agenda. inter 
+      <lb ed="#V" n="8"/>medium et finem quod defuncti per naturam propriam viuorum rebus 
+      <lb ed="#V" n="9"/>interesse non possunt. ratione sic. secundum philosophum. i. de anima. potentie que 
+      <lb ed="#V" n="10"/>sunt coniuncte non sunt separabiles. ones aut dicuntur coniuncte 
+      <lb ed="#V" n="11"/>esse que operantur mediante organo corporeo. huiusmodi 
+      <lb ed="#V" n="12"/>autem est in homine potentia motiua secundum locum. 
+      ani<lb ed="#V" n="13" break="no"/>me ergo separate non habent potentiam qua de loco ad locum 
+      <lb ed="#V" n="14"/>possint se mouere.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e484">
+      ¶ Sed contra a domino Stephano 
+      pari<lb ed="#V" n="15" break="no"/>siensis episco excommunicatus est hic articulus quod anima humana 
+      nul<lb ed="#V" n="16" break="no"/>lo modo est mobilis secundum locum nee per se nec per accidens: 
+      <lb ed="#V" n="17"/>et si ponatur alicubi per substantiam suam nunquam mouebitur de vbi 
+      <lb ed="#V" n="18"/>ad vbi.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e495">
+      ¶ Dicendum ergo quod de suis receptaculis exire 
+      pos<lb ed="#V" n="19" break="no"/>sent ille quie vellent per suam propriam virtutem nisi 
+      prohiberen<lb ed="#V" n="20" break="no"/>tur a virtute superiori: sed de lege communi exire prohibentur 
+      il<lb ed="#V" n="21" break="no"/>le que sunt in purgatorio ante completam penitentiam: et ille quae 
+      <lb ed="#V" n="22"/>sunt in inferno ante iudicium. Ille aute que sunt in celo 
+      <lb ed="#V" n="23"/>exire nolunt vsque ad tempus resumptionis corporum suorum. 
+      <lb ed="#V" n="24"/>nisi alique videat aliquando hoc placere deo ex aliqua 
+      specia<lb ed="#V" n="25" break="no"/>li causa. vnde videtur aliquibus quod omnes descenderunt de celo in 
+      <lb ed="#V" n="26"/>obiectu beate marie virginis propter eius reuerentiam: et cum 
+      <lb ed="#V" n="27"/>ea iterum ascenderunt in caelum. ab Augustino ergo 
+      dicun<lb ed="#V" n="28" break="no"/>tur anime non posse interesse rebus viuorum per 
+      pro<lb ed="#V" n="29" break="no"/>priam naturam: quia earum virtus non potest 
+      contraria<lb ed="#V" n="30" break="no"/>re superiori virtuti qua prohibentur.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e524">
+      ¶ Ex dictis patet 
+      <lb ed="#V" n="31"/>solutio ad argumenta in oppositum. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-k145380-Dd1e530">
+               <head xml:id="kzz7yh-k145380-Hd1e532">Quaestio 4</head>
+               <p xml:id="kzz7yh-k145380-d1e534">
+      Questio. IIII
+    </p>
+               <p xml:id="kzz7yh-k145380-d1e536">
+                  <lb ed="#V" n="32"/>QUarto queritur vtrum corporalia 
+      recepta<lb ed="#V" n="33" break="no"/>cula animarum in aliquo augeant 
+      <lb ed="#V" n="34"/>earum delectationem vel afflictionem. Et 
+      vide<lb ed="#V" n="35" break="no"/>etur quod non: quia in angelis mnistrantibus 
+      minue<lb ed="#V" n="36" break="no"/>retur delectatio: et in animabus que aliquando exeunt de 
+      in<lb ed="#V" n="37" break="no"/>ferno minueretur afflictio: quod falsum est.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e552">
+      ¶ Item locus 
+      <lb ed="#V" n="38"/>purgatorii deputatus est animabus ad purgationem sed 
+      <lb ed="#V" n="39"/>ille anime que ibi sunt desiderant purgari. ergo locus 
+      il<lb ed="#V" n="40" break="no"/>le in nullo auget earum afflictionem. 
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e561">
+                  <lb ed="#V" n="41"/>Contra si receptacula animarum corporalia in nullo 
+      au<lb ed="#V" n="42" break="no"/>gerent earum delectationem vel afflictionem 
+      <lb ed="#V" n="43"/>inutiliter essent eis deputata determinata loca et frustra: 
+      <lb ed="#V" n="44"/>quod falsum est. 
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e573">
+                  <lb ed="#V" n="45"/>Respondeo quod receptacula corporalia nimarum 
+      <lb ed="#V" n="46"/>in aliquolaugent earum delectationem 
+      <lb ed="#V" n="47"/>vel afflictionem: caelum enim empyreum: quamuis in nullo 
+      <lb ed="#V" n="48"/>augeat animarum beatarum delectationem essentialem in 
+      ali<lb ed="#V" n="49" break="no"/>quo: tamen auget in eis delectationem accidentalem: 
+      sinquan<lb ed="#V" n="50" break="no"/>tum ille anime. locum illum plusquam alia diligunt: presentia 
+      au<lb ed="#V" n="51" break="no"/>tem rei dilecte aliquam causat delectationem.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e591">
+      ¶ Ratio 
+      <lb ed="#V" n="52"/>autem quare locum illum plus ceteris diligunt triplex est. 
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e596">
+                  <lb ed="#V" n="53"/>¶ Una quia locum illum sciunt sibi esse deputatum a deo 
+      <lb ed="#V" n="54"/>quem summe diligunt.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e603">
+      ¶ Alia quia in illo propter excessum 
+      <lb ed="#V" n="55"/>nobilitatis sue nature super alia corpora expressius quam in 
+      <lb ed="#V" n="56"/>aliis locis refulgeret tanquam in effectu diuinam bonitatem 
+      <lb ed="#V" n="57"/>conspiciunt.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e612">
+      ¶ Tertia quia illius loci sublimitas 
+      luminosi<lb ed="#V" n="58" break="no"/>tas et immobilitas suam spiritualem sublimitatem et 
+      luminosi<lb ed="#V" n="59" break="no"/>tatem: et quietis perpetuitatem expressius quam qualitates loco 
+      <lb ed="#V" n="60"/>rum alioru representat. vnusquisque autem ceteris paribus 
+      plus<lb ed="#V" n="61" break="no"/>diligit locum qui magis est representatiuus sue nobilitatis 
+      <lb ed="#V" n="62"/>quam diligit.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e625">
+      ¶ Receptaculum etiam damnatorum in aliquo 
+      au<lb ed="#V" n="63" break="no"/>get eorum afflictionem. quia locum illum odiunt triplici de 
+      caus<lb ed="#V" n="64" break="no"/>sa.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e633">
+      ¶ Una est quia sciunt illum sibi esse deputatum a 
+      diuina<lb ed="#V" n="65" break="no"/>iustitia: quam odiunt.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e638">
+      ¶ Alia quia illius loci vilitas est sue 
+      <lb ed="#V" n="66"/>obligationis ad penam perpetuam rememoratiua seu 
+      repre<lb ed="#V" n="67" break="no"/>sentatiua.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e645">
+      ¶ Tertia quia est contentiuus ignis illius quo 
+      <lb ed="#V" n="68"/>affliguntur.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e650">
+      ¶ Receptaculum autem animarum que purgan¬ 
+      <!--00433.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="69"/>tur in aliquo earum auget afflictionem: non quia ipsum 
+      oddi<lb ed="#V" n="70" break="no"/>ant voluntate deliberatiua: cum sint in charitate: et sciant 
+      <lb ed="#V" n="71"/>illum locum sibi esse assignatum ad tempus ad earum purgationem 
+      <lb ed="#V" n="72"/>et a diuina iustitia quam disigunt: sed quia ipsum naturali 
+      mo<lb ed="#V" n="73" break="no"/>tu voluntatis refugiunt sub ratione qua suam obligationem 
+      <lb ed="#V" n="74"/>ad penam: quamuis ad temporaneam representat: et sub 
+      ratio<lb ed="#V" n="75" break="no"/>ne qua ignem continet quo affliguntur. 
+    </p>
+               <p xml:id="kzz7yh-k145380-d1e672">
+                  <lb ed="#V" n="76"/>Ad primum in oppositum dicendum quod non valet: 
+      <lb ed="#V" n="77"/>quia et angeli ministrantes sciunt se 
+      <lb ed="#V" n="78"/>cum eis placuerit ad celum empyreum reuersuros: et ministram 
+      <lb ed="#V" n="79"/>do nobis delectantur. anime autem que ad tempus exeunt de 
+      <lb ed="#V" n="80"/>inferno sciunt se ad ipsum cito reuersuras: et pro illo 
+      mo<lb ed="#V" n="81" break="no"/>dico tempore quo a turpi loco exeunt equalens pena eis a 
+      <lb ed="#V" n="82"/>diuina iustitia recompensatur.
+   </p>
+               <p xml:id="kzz7yh-k145380-d1e690">
+      ¶ Ad secundum pateis 
+      solu<lb ed="#V" n="83" break="no"/>tio ex dictis in questione. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

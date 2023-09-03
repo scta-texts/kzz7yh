@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 10</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 10</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="99-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k72093"><!-- l4d18a10 -->
+            <head xml:id="kzz7yh-k72093-Hd1e101">Articulus 10</head>
+            <p xml:id="kzz7yh-k72093-d1e103">
+     Dist. X
+    </p>
+            <p xml:id="kzz7yh-k72093-d1e105">
+               <lb ed="#V" n="118"/>Consequenter quaeritur de decimo 
+      <lb ed="#V" n="119"/>principali. Et circa 
+      <lb ed="#V" n="120"/>hoc queruntur quinque.
+   </p>
+            <p xml:id="kzz7yh-k72093-d1e114">
+      ¶ Primo vtrum 
+      excomt<lb ed="#V" n="121" break="no"/>catus possit absolui inuitus.
+   </p>
+            <p xml:id="kzz7yh-k72093-d1e119">
+      ¶ Secundo vtrum 
+      <lb ed="#V" n="122"/>absens possit absolui per litteras.
+   </p>
+            <p xml:id="kzz7yh-k72093-d1e125">
+      ¶ Tertio vtrum 
+      excomuni<lb ed="#V" n="123" break="no"/>catus pluribus de causis absoluatur simpliciter si non omnes 
+      <lb ed="#V" n="124"/>causas excommunicationis sue exprimat.
+   </p>
+            <p xml:id="kzz7yh-k72093-d1e132">
+      ¶ Quarto vtrum 
+      <lb ed="#V" n="125"/>absolutus ab officiali episcopi excommunicati sit vere ab 
+      <lb ed="#V" n="126"/>solutus.
+   </p>
+            <p xml:id="kzz7yh-k72093-d1e139">
+      ¶ Quinto vtrum excommunicatus cui excommu 
+      <lb ed="#V" n="127"/>nicator dicit. reuoco excommunicationem seu relaxo quam 
+      <lb ed="#V" n="128"/>in te tuli: et non dicit absoluo seu absoluimus: vere sit 
+      ab<lb ed="#V" n="129" break="no"/>solutus.
+   </p>
+            <div xml:id="kzz7yh-k72093-Dd1e148">
+               <head xml:id="kzz7yh-k72093-Hd1e150">Quaestio 1</head>
+               <p xml:id="kzz7yh-k72093-d1e152">
+     Questio I
+  </p>
+               <p xml:id="kzz7yh-k72093-d1e154">
+                  <lb ed="#V" n="130"/>PRimo ostendo quod excommunica 
+      <lb ed="#V" n="131"/>tus non potest 
+      <lb ed="#V" n="132"/>absolui inuitus. nullus potest absolui inuitus 
+      <lb ed="#V" n="133"/>in foro conscientie: ergo a simili nec in foro ex 
+      <lb ed="#V" n="134"/>teriori.
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e167">
+      ¶ Item manente causa manet effectus: sed 
+      cau<lb ed="#V" n="135" break="no"/>sa quare excommunicatio infligitur est contumacia: ergo 
+      <lb ed="#V" n="136"/>illa manente non potest absolui.
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e174">
+      <!--00231.xml-->
+                  <pb ed="#V" n="100-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>Contra multa bona prestantur inuitis: ergo 
+      vide<lb ed="#V" n="2" break="no"/>tur quod beneficium absolutionis prestari 
+      pos<lb ed="#V" n="3" break="no"/>sit inuito.
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e191">
+      ¶ Item proniora sunt iura ad absoluendum 
+      <lb ed="#V" n="4"/>quam ad condemnandum: sed inuitus potest 
+      excommuni<lb ed="#V" n="5" break="no"/>cari: ergo et absolui. 
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e198">
+                  <lb ed="#V" n="6"/>Respondeo quod duplex est excommunicatio: quiedam 
+      <lb ed="#V" n="7"/>a iudice: quaedam a iure. Prima si in 
+      <lb ed="#V" n="8"/>iusta est: tenetur iudex relaxare etiam excommunicato 
+      inui<lb ed="#V" n="9" break="no"/>to: si iusta est: non debet inuitum ab illa absoluere: tamen si 
+      ab<lb ed="#V" n="10" break="no"/>soluit: ille vere absolutus est: vt quidam dicunt: sicut enim contra 
+      vo<lb ed="#V" n="11" break="no"/>luntatem suam potuit ipsum excommunicare: ita contra 
+      volun<lb ed="#V" n="12" break="no"/>tatem suam potest excommunicationem retractare: quamuis 
+      pec<lb ed="#V" n="13" break="no"/>cet hoc faciendo: nisi sorte in casu in quo videret quod illa ab 
+      <lb ed="#V" n="14"/>solutio esset magis medicinalis anime contumacis quam ipsa 
+      excom<lb ed="#V" n="15" break="no"/>municatio. excommunicatus autem excommunicatione a iure: inuitus 
+      <lb ed="#V" n="16"/>absolui non potest: et hoc est rationabile: quia cum voluntarie 
+      fece<lb ed="#V" n="17" break="no"/>rit illud cui excommunicatio annexa est ipso iure aliquo modo ex 
+      <lb ed="#V" n="18"/>voluntate sua excommunicatus est: et ideo sine sua voluntate et 
+      requisi<lb ed="#V" n="19" break="no"/>tione non potest absolui. 24. q. 2. nec quisquam. et. c. sequem. Et 
+      ar<lb ed="#V" n="20" break="no"/>ad hoc extra de offi. iudi. delis. Cum contingat. in fi. et. ff. de re. 
+      <lb ed="#V" n="21"/>iur. dicitur quod inuito beneficium non datur: si tamen negat se fecisse 
+      fa<lb ed="#V" n="22" break="no"/>ctum pro quo dicitur excommunicatus: vel sic esse excommunicatum pro 
+      <lb ed="#V" n="23"/>tali facto: dum tamen petat ad cautelam absolutionem: si 
+      absol<lb ed="#V" n="24" break="no"/>uitur: non debet dici absolui inuitus et tenet absolutio. 
+    </p>
+               <p xml:id="kzz7yh-k72093-d1e242">
+                  <lb ed="#V" n="25"/>Ad primum dicendum: quod non est simile: quia fprus 
+      <lb ed="#V" n="26"/>poenitentie quantum ad absolutione requirit 
+      <lb ed="#V" n="27"/>poenitentiam eo quod absolutio est ex peccatis que non nisi voluntate 
+      <lb ed="#V" n="28"/>committente vel omittente fiunt: excommunicatio autem a iudice est 
+      <lb ed="#V" n="29"/>contra excommunicati voluntatem.
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e255">
+      ¶ Ad secundum dicendum: quod causa 
+      <lb ed="#V" n="30"/>meritoria inflictionis est contumacia: sed causa efficiens est iudex: 
+      <lb ed="#V" n="31"/>quando autem ad aliquem effectum concurrunt due cause per 
+      <lb ed="#V" n="32"/>mutationem factam circa alteram causam maxime circa 
+      <lb ed="#V" n="33"/>efficientem potest effectus destrui. 
+    </p>
+               <p xml:id="kzz7yh-k72093-d1e266">
+                  <lb ed="#V" n="34"/>Ad primum ad partem alia dicendum: quod muitis quaneque 
+      <lb ed="#V" n="35"/>possunt praestari et debent beneficia quae eis 
+      <lb ed="#V" n="36"/>prosunt: absolutio autem ab excommunicatione non prodest inuitis. 
+      <lb ed="#V" n="37"/>Preterea non sunt inuitis praestanda beneficia in 
+      praeiudicium<lb ed="#V" n="38" break="no"/>aliorum. Sed si excommunicatus maxime excommunicatione iuris 
+      ab<lb ed="#V" n="39" break="no"/>solueretur inuitus fieret praeiudicium bono communi: quia excommu. 
+      <lb ed="#V" n="40"/>nicatio non tantum est propter vtilitatem illius in quem fertur: sed etiam 
+      <lb ed="#V" n="41"/>propter vtilitatem aliorum: quia pena vnius metus est multorum. 
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e286">
+                  <lb ed="#V" n="42"/>¶ Ad secundum potest dici quod procedit de absolutione ab excommu 
+      <lb ed="#V" n="43"/>nicatione quae est a iudice. Uel potest dici quod inflictio iuste 
+      excom<lb ed="#V" n="44" break="no"/>municationis vtilis est: absoluere autem inuitum nulli est 
+      vti<lb ed="#V" n="45" break="no"/>le nec sibi nec aliis.
+   </p>
+            </div>
+            <div xml:id="kzz7yh-k72093-Dd1e298">
+               <head xml:id="kzz7yh-k72093-Hd1e300">Quaestio 2</head>
+               <p xml:id="kzz7yh-k72093-d1e302">
+     Questio. II. 
+  </p>
+               <p xml:id="kzz7yh-k72093-d1e304">
+                  <lb ed="#V" n="46"/>SEcundo quaeritur vtrum excommunicatus 
+      <lb ed="#V" n="47"/>absens possit per litteras absolui. 
+      <lb ed="#V" n="48"/>Et videtur quod non: quia absens non potest absolui 
+      inforo<lb ed="#V" n="49" break="no"/>poenitentie: ergo a simili nec in foro exteriori.
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e315">
+      ¶ Item 
+      <lb ed="#V" n="50"/>extra de sen. excom. A nobis est. in fi. absolutionis forma ser 
+      <lb ed="#V" n="51"/>uetur vt siat cum poenitentiali psalmo et tam oratione dominica quam alia 
+      <lb ed="#V" n="52"/>consueta: sed hec non possunt obseruari circa absentem: 
+      <lb ed="#V" n="53"/>ergo absens ab solui non potest. 
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e326">
+                  <lb ed="#V" n="54"/>Contra 2 q. 1. de manisesta: dicitur quod apostlus excommuni 
+      <lb ed="#V" n="55"/>cauit absens: sed sicut dicitur extra de reg. iur. 
+      <lb ed="#V" n="56"/>c. I. Omnis res per quascumque causas nascitur per easdem 
+      dis<lb ed="#V" n="57" break="no"/>soluitur: ergo potest absolui absens. Item eadem. causa q. 4. quanto. 
+      <lb ed="#V" n="58"/>habetur de quodam quod fuit per epluram absolutus. 
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e340">
+                  <lb ed="#V" n="59"/>Respondeo quod excommunicatus absens potest per 
+      <lb ed="#V" n="60"/>lras absolui sicut expresse dicit 
+      gl<lb ed="#V" n="61" break="no"/>2. q. 1. de manifesta: et super decretum etiam vltimo 
+      allega<lb ed="#V" n="62" break="no"/>tum: et hoc est rationabile ex quo absens potest excommunicari: 
+      <lb ed="#V" n="63"/>et si littera ad excommunicatum non perueniat vsque post mortem 
+      <lb ed="#V" n="64"/>absoluentis: tamen absolutus est: sicut extunc quod sigillatur littera 
+      <lb ed="#V" n="65"/>excommunicationis alicuius excommunicatus est: quamuis non 
+      <lb ed="#V" n="66"/>teneatur se gerere pro excommunicato antequam possit ad eius 
+      <lb ed="#V" n="67"/>notitiam peruenire: talis enim error facti non nocet: extra 
+      <lb ed="#V" n="68"/>de clerico exco. mi. Illud. 
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e364">
+      <!--00231.xml-->
+                  <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="69"/>Ad primum in oppositum dicendum: quod non est 
+      si<lb ed="#V" n="70" break="no"/>mile: absolutio enim in foro 
+      peniten<lb ed="#V" n="71" break="no"/>tie est forma sacramenti: alia autem absolutio non.
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e377">
+      ¶ Ad 
+      <lb ed="#V" n="72"/>secundum dicendum: quod sic fieri debet sicut dicit illa 
+      decre<lb ed="#V" n="73" break="no"/>et illud quod habetur 8 e ti. Cum desideres: et aliter faciens si non 
+      <lb ed="#V" n="74"/>subsit necessitas vel euides vtilitas aliter faciendi: peccat 
+      <lb ed="#V" n="75"/>tamen hoc omittens vere nihilominus absoluit: vnde glo. super 
+      <lb ed="#V" n="76"/>illam decretalem. Cum desideres: dicit quod iuramentum non 
+      <lb ed="#V" n="77"/>est de substantia absolutionis: sed recipitur potius ad caute 
+      <lb ed="#V" n="78"/>lam: ne decetero talia praesumat: quod probat per hoc quod aliqui 
+      <lb ed="#V" n="79"/>absoluuntur sine iuramento i e super eo. quod non fieret si esset 
+      <lb ed="#V" n="80"/>de substantia. Simile habetur in illa decre. A nobis. in glo. 
+      <lb ed="#V" n="81"/>dominus autem hosti. dicit iuramentum esse de substantia 
+      abso<lb ed="#V" n="82" break="no"/>lutionis. Si autem ille qui absoluitur erat excommunicatus a 
+      <lb ed="#V" n="83"/>canone iniungendum est ei sub debito praestiti iuramenti: vt 
+      <lb ed="#V" n="84"/>contra illum canonem scienter de cetero non veniat: nisi 
+      for<lb ed="#V" n="85" break="no"/>te in casibus exceptis a iure. Unde percussori clerici 
+      iniungen<lb ed="#V" n="86" break="no"/>dum est ne de cetero in clericum vel religiosam personam 
+      <lb ed="#V" n="87"/>manus iniiciat violentas: nisi se defendendo: aut de mandato 
+      <lb ed="#V" n="88"/>prelatorum illius: vel nisi super eum praelationis ministerium 
+      <lb ed="#V" n="89"/>aut magisterium habeat: autem cum ipso in eadem ecclesia socius 
+      <lb ed="#V" n="90"/>esse noscatur: extra de sen. exco. ex tenore.
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e421">
+      ¶ Excipiendi 
+      <lb ed="#V" n="91"/>etiam sunt omnes casus in quibus iniiciens manus violentas 
+      <lb ed="#V" n="92"/>in clericum non incurrit excommunicationem. Ratio autem 
+      <lb ed="#V" n="93"/>quare tale iuramentum non indicitur illis qui in eadem 
+      eccle<lb ed="#V" n="94" break="no"/>sia socii esse noscuntur id est illis qui communiter viuunt et sub 
+      <lb ed="#V" n="95"/>vno tecto dormiunt: et in eadem domo vescuntur: etiam 
+      si<lb ed="#V" n="96" break="no"/>sint seculares est propter periculum periurii: quia praesumitur quod 
+      <lb ed="#V" n="97"/>facilius veniunt ad verba: et inde ad factum: videtur etiam multis 
+      <lb ed="#V" n="98"/>quod pro leui iniectione non est saltem passim tale iuramentum 
+      <lb ed="#V" n="99"/>exigendum propter periculum periurii: quia homines et maxime 
+      <lb ed="#V" n="100"/>iuuenes faciliter recidiuant in leuem iniectionem.
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e445">
+      ¶ Alii 
+      <lb ed="#V" n="101"/>autem dicunt quod etiam ante absolutionem a leui iniectione 
+      praedi<lb ed="#V" n="102" break="no"/>ctum iuramentum est regulariter exigendum: quia decre. alle 
+      <lb ed="#V" n="103"/>gate non excipiunt leuem iniectionem: glo. etiam super illa 
+      <lb ed="#V" n="104"/>decre. super eo. dicit quod illa forma quam habes 8 eo. ti. ex 
+      te<lb ed="#V" n="105" break="no"/>nore: obseruanda est in absolutione cuiuslibet qui incidit 
+      <lb ed="#V" n="106"/>in canonem. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-k72093-Dd1e462">
+               <head xml:id="kzz7yh-k72093-Hd1e464">Quaestio 3</head>
+               <p xml:id="kzz7yh-k72093-d1e466">
+      Questio. III.
+    </p>
+               <p xml:id="kzz7yh-k72093-d1e468">
+                  <lb ed="#V" n="107"/>Tertio queritur vtrum 
+      excommum<lb ed="#V" n="108" break="no"/>nicatus pluribus 
+      <lb ed="#V" n="109"/>de causis: absoluatur simpliciter si non omnes 
+      cau<lb ed="#V" n="110" break="no"/>sas excommunicationis sue exprimat. 
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e479">
+                  <lb ed="#V" n="111"/>Respondeo quod ille autem est excommunicatus a 
+      iudi<lb ed="#V" n="112" break="no"/>ce: autm a iure. Si a iudice: aut ab 
+      <lb ed="#V" n="113"/>vno: autem a pluribus. Si a pluribus: nisi absoluatur a quolibet 
+      <lb ed="#V" n="114"/>non est simpliciter absolutus: nisi absoluatur a superiori eorum. 
+      <lb ed="#V" n="115"/>Si ab vno: aut vna excommunicatione: aut pluribus: si 
+      plu<lb ed="#V" n="116" break="no"/>ribus non est simpliciter absolutus nisi exprimatur causa 
+      cuiusli<lb ed="#V" n="117" break="no"/>bet excommunicationis. Si vna: aut ille qui absoluitur sue 
+      ex<lb ed="#V" n="118" break="no"/>communicationis tacet causas aliquas fraudulenter: et alias 
+      <lb ed="#V" n="119"/>exprimit: et talis absolutio sic accepta per surreptionem 
+      <lb ed="#V" n="120"/>vel fraudem inanis est: extra de sen. exco. Cum pro causa aut 
+      <lb ed="#V" n="121"/>eas tacet ignoranter: quia tunc non recolit: et tunc credo quod 
+      si<lb ed="#V" n="122" break="no"/>absoluens habet intentionem simpliciter relaxandi excommunica 
+      <lb ed="#V" n="123"/>tionem quam tulit in eum simpliciter absolutus est. Si autem non 
+      <lb ed="#V" n="124"/>intendit eum absoluere ab excommunicatione nisi per 
+      comparatio<lb ed="#V" n="125" break="no"/>nem ad causas quas ipse exprimit: credo quod absolutus non est: 
+      <lb ed="#V" n="126"/>nisi forte sint cause tales: quod vna sine alia non meretur 
+      excomuni<lb ed="#V" n="127" break="no"/>cationem.
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e518">
+      ¶ Ex dictis patet quid dicendum est de absolutione 
+      excom<lb ed="#V" n="128" break="no"/>municati a iure ex pluribus causis. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-k72093-Dd1e525">
+               <head xml:id="kzz7yh-k72093-Hd1e527">Quaestio 4</head>
+               <p xml:id="kzz7yh-k72093-d1e529">
+      Quaestio IIII.
+    </p>
+               <p xml:id="kzz7yh-k72093-d1e531">
+                  <lb ed="#V" n="129"/>QUarto queritur vtrum absolutus ab 
+      offi<lb ed="#V" n="130" break="no"/>ciali episcopi excommunicati: sit 
+      <lb ed="#V" n="131"/>vere absolutus. 
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e540">
+                  <lb ed="#V" n="132"/>¶ Respondeo quod aute eprisctmus instituit illum 
+      officia<lb ed="#V" n="133" break="no"/>lem suum postquam erat iam excommunicatus: aut non. Si primo 
+      <lb ed="#V" n="134"/>modo absolutus ab illo officiali vere non est absolutus: quia episopus 
+      <lb ed="#V" n="135"/>excommunicatus maiori excommunicatione de qua loquor ab 
+      <lb ed="#V" n="136"/>omni actu legitimo est suspensus: et ideo excommunicatus non 
+      <!--00232.xml-->
+      <pb ed="#V" n="101-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>potuit instituere officialem. Si autem instituit eum antequam 
+      <lb ed="#V" n="2"/>esset excommunicatus: tunc distinguo: quia aut ceperat vti 
+      officio<lb ed="#V" n="3" break="no"/>antequam eprisotus excommunicaretur: aut non. Si sic: tuc planum est quod 
+      <lb ed="#V" n="4"/>absolutus ab illo vere est absolutus: nisi sit aliud quod 
+      obsi<lb ed="#V" n="5" break="no"/>stat. Si non: vt dicunt aliqui: absolutus ab illo non est vere 
+      <lb ed="#V" n="6"/>absolutus: quia ex quo non cepit vti officio ante episcopi 
+      ex<lb ed="#V" n="7" break="no"/>communicationem superueniente episcoi excommunicatione expirat 
+      <lb ed="#V" n="8"/>iurisdictio que illi ab episcopo fuerat commissa: quod 
+      decla<lb ed="#V" n="9" break="no"/>rant per hoc: quia si episcotuos corporaliter moreretur: autm deponeretur 
+      <lb ed="#V" n="10"/>antequam officialis inciperet vti officio suo: iurisditio ab episco 
+      <lb ed="#V" n="11"/>sibi commissa expiraret. extra de offi. delis. Licet in glo. A 
+      simili<lb ed="#V" n="12" break="no"/>volunt aliqui dicere de excommunicatione superueniente: sed opinio 
+      il<lb ed="#V" n="13" break="no"/>lorum non mihi placet: et quod in sua ratione adducunt pro simili non 
+      <lb ed="#V" n="14"/>est simile: quia mors aufert potestatem: et depositio aufert in 
+      perpe<lb ed="#V" n="15" break="no"/>tuum potestatis executionem. excommunicatio autem non: sed suspendit eam 
+      <lb ed="#V" n="16"/>ad tempus. Unde mihi videtur dicendum: quod posset procedere non 
+      obstan<lb ed="#V" n="17" break="no"/>te illius qui commisit excommunicatione superueniente post 
+      commissio<lb ed="#V" n="18" break="no"/>nem: quamuis superueniat ante inceptionem executionis sui 
+      offi<lb ed="#V" n="19" break="no"/>cii: quod si verum est absolutus ab eo: vere debet absolutus reputari: 
+      <lb ed="#V" n="20"/>et hec que dicta sunt possent aliquo modo probari per ea quae 
+      dicun<lb ed="#V" n="21" break="no"/>tur extra de officio vicarii. Rom. in textu. et in glo. etiam 
+      <lb ed="#V" n="22"/>supra de officio delis Licet in glo. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-k72093-Dd1e608">
+               <head xml:id="kzz7yh-k72093-Hd1e610">Quaestio 5</head>
+               <p xml:id="kzz7yh-k72093-d1e612">
+      Quaestio
+    </p>
+               <p xml:id="kzz7yh-k72093-d1e614">
+                  <lb ed="#V" n="23"/>QUinto queritur vtrum excommunicatus cui 
+      ex<lb ed="#V" n="24" break="no"/>communicator dicit reuoco 
+      ex<lb ed="#V" n="25" break="no"/>communicationem seu relaxo quam in te tuli. et non dicit: 
+      <lb ed="#V" n="26"/>absoluo te seu absoluimus: vere sit absolutus. 
+   </p>
+               <p xml:id="kzz7yh-k72093-d1e625">
+                  <lb ed="#V" n="27"/>Respondeo quod non est simile de absolutione quae fit 
+      <lb ed="#V" n="28"/>ex vi clauium in foro poenitentie: et de illa 
+      <lb ed="#V" n="29"/>que sit ex vi iurisditionis in foro exteriori: quia prima est pers 
+      <lb ed="#V" n="30"/>sacramenti poenitentie: alia non: et ideo in primo magis obseruanda sunt 
+      ver<lb ed="#V" n="31" break="no"/>ba praecisa quam in secunda. Unde in prima absolutione debet dicere 
+      <lb ed="#V" n="32"/>sacerdos: absoluo: quamuis autem hoc sit congruum obseruare in 
+      <lb ed="#V" n="33"/>secunda non credo tamen quod hoc sit necessarium: immo sufficerent verba 
+      <lb ed="#V" n="34"/>alia: significantia tamen excommunicationis remotionem: vnde si 
+      <lb ed="#V" n="35"/>diceret excommunicator: reuoco vel relaxo excommunica 
+      <lb ed="#V" n="36"/>tionem: quam in te tuli: ille vere esset absolutus: nisi aliquid 
+      <lb ed="#V" n="37"/>aliud esset obsistens. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

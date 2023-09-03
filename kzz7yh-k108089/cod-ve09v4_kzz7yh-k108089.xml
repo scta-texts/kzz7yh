@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="150-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k108089"><!-- l4d31prae -->
+            <head xml:id="kzz7yh-k108089-Hd1e101">Praeambulum</head>
+            <p xml:id="kzz7yh-k108089-d1e103">
+               <lb ed="#V" n="71"/>¶ De tribus bonis coniugi. Di. XXXI 
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e108">
+               <lb ed="#V" n="72"/>Post hec de bonis coniugi quae 
+      <lb ed="#V" n="73"/>sint: et qualitur coitum 
+      <lb ed="#V" n="74"/>excusent: dicendum est. Tria sunt 
+      prin<lb ed="#V" n="75" break="no"/>cipaliter bona coniugii. vnde Angu. 
+      <lb ed="#V" n="76"/>Nuptiale bonum tripartitum est scilicet fides 
+      <lb ed="#V" n="77"/>proles: sacramentum. In fide attenditur: ne post 
+      vin<lb ed="#V" n="78" break="no"/>culum coniugale cum alio vel alia coeatur. In prole vt 
+      <lb ed="#V" n="79"/>amanter suscipiatur: religiose educetur. In 
+      sacramen<lb ed="#V" n="80" break="no"/>to vt coniugium non separetur: et dimissus vel 
+      <lb ed="#V" n="81"/>dimissa nec causa prolis alteri coniugatur. 
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e132">
+               <lb ed="#V" n="82"/>¶ De duplici separatione. 
+      <lb ed="#V" n="83"/>Separatio autem gemina est 
+      cor<lb ed="#V" n="84" break="no"/>poralis scilicet et sacramenta 
+      <lb ed="#V" n="85"/>lis. Corporaliter possunt separari causa 
+      forni<lb ed="#V" n="86" break="no"/>cationis: et ex communi consensu causa religionis siue 
+      <lb ed="#V" n="87"/>vsque ad tempus fiue vsque ad finem Sacramentali 
+      <lb ed="#V" n="88"/>ter vero separari non possunt dum viuunt: si legiti 
+      <lb ed="#V" n="89"/>me persone sint. Manet enim vinculum coniugale 
+      <lb ed="#V" n="90"/>inter eos ctiam si aliis a se discedentes adheserit. 
+      <lb ed="#V" n="91"/>Unde Aug. Usque adeo manent inter viuentes 
+      <lb ed="#V" n="92"/>semel inita iura nuptiarum vt potius sint inter se 
+      <lb ed="#V" n="93"/>coniuges etiam separati quam cum aliis quibus adhese 
+      <lb ed="#V" n="94"/>runt. Item Manet interviuentes quoddam 
+      coniuga<lb ed="#V" n="95" break="no"/>le vinculum: quod nec separatio: nec cum altero 
+      copu<lb ed="#V" n="96" break="no"/>latio possit auferre. Sicut apostata anima de 
+      coniu<lb ed="#V" n="97" break="no"/>gio christi recedens: est fideperdita sacramentum fidei non 
+      <lb ed="#V" n="98"/>amittit: quod lauacro regenenationis accepit. 
+      Redde<lb ed="#V" n="99" break="no"/>retur enim redeunti si amisisset abscedens. Habet autem 
+      <lb ed="#V" n="100"/>hoc qui recesserit ad cumulum supplicii non ad 
+      me<lb ed="#V" n="101" break="no"/>ritum premii. Item Quibus placuit ex consensu ab 
+      <lb ed="#V" n="102"/>vsu carnalis concupiscentie in perpetuum continere: ab 
+      <lb ed="#V" n="103"/>sit vt vinculum inter illos coniugale rumpatur 
+      imo<lb ed="#V" n="104" break="no"/>firmius heret quo magis ea pacta secum gerit: 
+      quam<lb ed="#V" n="105" break="no"/>carius concordiusque seruanda sunt: non voluntariis 
+      <lb ed="#V" n="106"/>corporum nexibus sed voluntariis animorum affectibus. 
+      <lb ed="#V" n="107"/>Et attende quod tertium bonum coniugii dicitur 
+      sacra<lb ed="#V" n="108" break="no"/>mentum: non quod sit ipsum coniugium: sed quia eiusdem 
+      <lb ed="#V" n="109"/>rei sacre signum est id est spiritualis et 
+      inseparabi<lb ed="#V" n="110" break="no"/>lis coniunctionis christi et ecclesie. 
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e197">
+               <lb ed="#V" n="111"/>¶ Hec tria non assunt omni coniugio. 
+      <lb ed="#V" n="112"/>Et est sciendum ab aliquibus contrabi 
+      con<lb ed="#V" n="113" break="no"/>iugium vbi hec tria bona non 
+      comi<lb ed="#V" n="114" break="no"/>tantur. Deest enim fides vbi vir cum alia: et mulier 
+      <lb ed="#V" n="115"/>cum alio coit. Hoc ergo bonum ita coniugio ad 
+      <lb ed="#V" n="116"/>heret vt ex eo si assit amplius commendetur 
+      con<lb ed="#V" n="117" break="no"/>iugium. Si non assit: non inde annihiletur. Que enim 
+      <lb ed="#V" n="118"/>adultera est non ideo coniunx non est. immo 
+      si<lb ed="#V" n="119" break="no"/>coniunx non esset: adultera non foret. Quod cum sit: 
+      <lb ed="#V" n="120"/>culpa committitur: sacramentum vero non cassatur. 
+      Bo<lb ed="#V" n="121" break="no"/>num quoque prolis non ominibus adest coniugibus. 
+      <lb ed="#V" n="122"/>Quidam enm pari voto continentiam seruant: 
+      <lb ed="#V" n="123"/>alii pro etatis defectu: vel alterius rei causa 
+      genera<lb ed="#V" n="124" break="no"/>re non valent. Nec omnes illi est qui prolem recipi¬ 
+      <!--00330.xml-->
+      <pb ed="#V" n="150-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>unt bonum prolis habent. Nam bonum 
+      pro<lb ed="#V" n="2" break="no"/>lis dicitur non ipsa proles: sed prolis spes: quae ad 
+      <lb ed="#V" n="3"/>religionem non refertur: immo ad hereditariam 
+      succes<lb ed="#V" n="4" break="no"/>sionem: vt cum quis heredes terrene possessionis 
+      ha<lb ed="#V" n="5" break="no"/>bere desiderat: sed spes ac desiderium quo proles ad 
+      <lb ed="#V" n="6"/>hec quaritur vt religone informetur. Multi ergo prolem 
+      ha<lb ed="#V" n="7" break="no"/>bent qui tamen bono prolis carent: nec ideo tamen coniugium 
+      <lb ed="#V" n="8"/>esse desinit. Sacramentum vero ita inseparabili 
+      <lb ed="#V" n="9"/>ter con iugio heret legitimarum personarum: vt sine 
+      il<lb ed="#V" n="10" break="no"/>lo coniugium non esse videatur: quia semper materiet inter 
+      vi<lb ed="#V" n="11" break="no"/>uentes vinculum coniugale: vt etiam interueniente 
+      di<lb ed="#V" n="12" break="no"/>uortio fornicationis causa: coniugalis vinculi 
+      fir<lb ed="#V" n="13" break="no"/>mitas non soluatur. Ubi vero non inter legitimas 
+      <lb ed="#V" n="14"/>personas contrahitur coniugium non adest illud bonum 
+      <lb ed="#V" n="15"/>quod dicitur sacramentu: quia potest solui talium 
+      copula<lb ed="#V" n="16" break="no"/>de quibus post dicetur. Quod vero coniugium sit inter eos 
+      <lb ed="#V" n="17"/>qui coniugali affectu non tamen gratia prolis sed 
+      explen<lb ed="#V" n="18" break="no"/>de libidinis conueniunt: nec fornicarii sed coniuges 
+      <lb ed="#V" n="19"/>appellentur ostendit Aug. inquiens. Solet 
+      queri<lb ed="#V" n="20" break="no"/>cum masculus et femina: nec ille maritus: nec 
+      il<lb ed="#V" n="21" break="no"/>la vxor alterius: sibimet non filiorum procreandorum: 
+      <lb ed="#V" n="22"/>sed pro incontinentia solius concubitus causa 
+      copu<lb ed="#V" n="23" break="no"/>lantur ea fide media vt nec illa cum altero: nec 
+      <lb ed="#V" n="24"/>ille cum altera faciat id: vtrum nuptie sint vocande: 
+      <lb ed="#V" n="25"/>Et potest fortasse non absurde hoc appellari 
+      con<lb ed="#V" n="26" break="no"/>nubium: si vsque ad mortem alicuius eorum id inter 
+      <lb ed="#V" n="27"/>eos placuerit: et prolis generationem quamuis non ea 
+      <lb ed="#V" n="28"/>causa coniuncti sunt no tamen. vitauerint vt vel 
+      <lb ed="#V" n="29"/>nolint sibi nasci filios: vel etiam opere malo aliquo 
+      <lb ed="#V" n="30"/>agant ne nascantur. Ceterum si vel vtrumque vel vnum 
+      <lb ed="#V" n="31"/>horum desit non inuenio quomodo has nuptias 
+      <lb ed="#V" n="32"/>appellare possimus. Eteni si aliquam sibi ad 
+      tem<lb ed="#V" n="33" break="no"/>pus adhibuerit donec aliquam dignam hono 
+      <lb ed="#V" n="34"/>ribus aut suis facultatibus inueniat quam in 
+      <lb ed="#V" n="35"/>coniugio adducat: animo ipso adulter est: nec 
+      <lb ed="#V" n="36"/>cum illa quam cupit inuenire: sed cum ista cum 
+      <lb ed="#V" n="37"/>qua sic cubat: vt cum ea non habeat maritale 
+      <lb ed="#V" n="38"/>consortium. Ecce coniuges dicuntur qui solius 
+      con<lb ed="#V" n="39" break="no"/>cubitus causa conueniunt: si tamen prolis: 
+      genera<lb ed="#V" n="40" break="no"/>tionem aliquo malo dolo non vitent. 
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e324">
+               <lb ed="#V" n="41"/>¶ De his qui procurant venena sterilitatis. 
+      <lb ed="#V" n="42"/>Qui vero venena sterilitatis procurant: 
+      <lb ed="#V" n="43"/>non coniuges sed fornicarii sunt. 
+      <lb ed="#V" n="44"/>Unde Aug. Aliquando eousque peruenit hec 
+      libi<lb ed="#V" n="45" break="no"/>dinosa crudelitas vel libido crudelis vt etiam 
+      ve<lb ed="#V" n="46" break="no"/>nena sterilitatis procuret: et si nihil valuerint: 
+      con<lb ed="#V" n="47" break="no"/>ceptos fetus inter viscera aliquomodo 
+      extingu<lb ed="#V" n="48" break="no"/>at vel fundat: volendo prolem suam prius interire 
+      <lb ed="#V" n="49"/>quam viuere: aut si in vtero viuebat: occidi antequam 
+      <lb ed="#V" n="50"/>nasci. Prorsus si ambo tales sint coniuges non 
+      <lb ed="#V" n="51"/>sunt: et si ab initio tales fuerunt non sibi per 
+      com<lb ed="#V" n="52" break="no"/>nubium sed per stuprum potius conuenerunt. 
+      <lb ed="#V" n="53"/>Si vero ambo tales non sunt audeo dicere aut 
+      <lb ed="#V" n="54"/>illa quodammodo est mariti meretrix: aut ille 
+      <lb ed="#V" n="55"/>adulter vxoris. 
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e359">
+               <lb ed="#V" n="56"/>¶ Quando sunt homicide qui procurant abortum. 
+      <!--00330.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>Hic queri solet de his qui abortum 
+      <lb ed="#V" n="58"/>procurant quando 
+      iudicen<lb ed="#V" n="59" break="no"/>tur homicide vel non: Tunc puerperium ad 
+      ho<lb ed="#V" n="60" break="no"/>micidium pertinet: quando formatum est et animam 
+      <lb ed="#V" n="61"/>habet: vt Augu. super exodum. asserit. Informe 
+      <lb ed="#V" n="62"/>autem puerperium vbi non est anima viua: lex ad 
+      ho<lb ed="#V" n="63" break="no"/>micidium pertinere noluit. Dicit etiam Augu. quod 
+      in<lb ed="#V" n="64" break="no"/>forme puerperium non habet animam: ideoque mulcta 
+      <lb ed="#V" n="65"/>tur pecunia: non redditur anima pro anima: sed iam 
+      <lb ed="#V" n="66"/>formato corpori anima datur: non in conceptu 
+      cor<lb ed="#V" n="67" break="no"/>poris nascitur cum semine deriuata. Nam si cum 
+      <lb ed="#V" n="68"/>semine et anima existit de anima: tunc et multe 
+      <lb ed="#V" n="69"/>anime quotidie pereunt: cum semen fluxu non 
+      <lb ed="#V" n="70"/>proficit natiuitati. Primum oportet domum 
+      <lb ed="#V" n="71"/>compaginari: et sic habitatorem induci. Cum 
+      <lb ed="#V" n="72"/>ergo lineamenta compacta non fuerint: vbi erit 
+      <lb ed="#V" n="73"/>anima: Item Hiero. ad Algasiam. 
+      Semina<lb ed="#V" n="74" break="no"/>paulatim formantur in vtero: et tamdiu non 
+      re<lb ed="#V" n="75" break="no"/>putatur homicidium: donec elementa 
+      confe<lb ed="#V" n="76" break="no"/>cta suas imagines membraque suscipiant. His 
+      <lb ed="#V" n="77"/>apparet tunc eos homicidas esse: qui abortum 
+      <lb ed="#V" n="78"/>procurant: cum formatum est et animatum puerperium. 
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e416">
+               <lb ed="#V" n="79"/>¶ De excusatione coitus qui sit per hec bona. 
+      <lb ed="#V" n="80"/>Cum ergo hec tria bona in aliquo 
+      <lb ed="#V" n="81"/>coniugio simul concurrunt: 
+      <lb ed="#V" n="82"/>ad excusationem coitus carnalis valent. 
+      Quam<lb ed="#V" n="83" break="no"/>do enim seruata fide thori causa prolis 
+      coniu<lb ed="#V" n="84" break="no"/>ges conueniunt: sic excusatur coitus vt culpam non 
+      ha<lb ed="#V" n="85" break="no"/>beat. Quando vero deficiente bono prolis: fide tamen 
+      <lb ed="#V" n="86"/>seruata conueniunt causa incontinentie: non sic excusatur 
+      <lb ed="#V" n="87"/>vt non habeat culpam: sed venialem. Unde Augu. 
+      <lb ed="#V" n="88"/>Coniugalis concubitus generandi gratia: non habet cul 
+      <lb ed="#V" n="89"/>pam. Concupiscentie vero satiande: sed tamen cum coniugem: 
+      <lb ed="#V" n="90"/>propter thori fidem venialem habet culpam. Item. 
+      <lb ed="#V" n="91"/>Hoc quod coniugati victi concupiscentia vtuntur 
+      in<lb ed="#V" n="92" break="no"/>uicem: vltra necessitatem liberos procreandi: 
+      po<lb ed="#V" n="93" break="no"/>nam in his pro quibus quotidie dicimus. 
+      Di<lb ed="#V" n="94" break="no"/>mitte nobis debita nostra etc. Ubi autem hec 
+      bomna<lb ed="#V" n="95" break="no"/>desunt fide scilicet et proles: non videtur coitus defendi 
+      <lb ed="#V" n="96"/>a crimine. Unde in sententiolis sexti 
+      pythagorici<lb ed="#V" n="97" break="no"/>legitur. Omnis ardentior amator proprie vxoris 
+      <lb ed="#V" n="98"/>adulter est. Item Hiero. Sapiens iudicio amat 
+      <lb ed="#V" n="99"/>coniugem: non affectu non regnat in eo impetus 
+      vo<lb ed="#V" n="100" break="no"/>luptatis: nec preceps fertur ad coitum. Nihil est 
+      fe<lb ed="#V" n="101" break="no"/>dius quam vxorem amatr quasi adulteram. Qui dicunt 
+      <lb ed="#V" n="102"/>se causa humani generis vxoribus iungi: 
+      imitem<lb ed="#V" n="103" break="no"/>tur saltem pecudes et postquam venter vxoris intumue 
+      <lb ed="#V" n="104"/>rit: non perdant filios: nec amatores se vxoribus 
+      ex<lb ed="#V" n="105" break="no"/>hibeant sed maritos. Idem. In matrimonio 
+      opera<lb ed="#V" n="106" break="no"/>liberorum concessa sunt. voluptates autem quae de mere 
+      <lb ed="#V" n="107"/>tricum amplexibus capiuntur: in vxore damnate. 
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e481">
+               <lb ed="#V" n="108"/>¶ De indulgentia apostoli quomodo sit accipienda. 
+      <lb ed="#V" n="109"/>Sed si concubitus qui sit causa prolis culpa caua 
+      <lb ed="#V" n="110"/>ret: quod apostolus secundum in 
+      <lb ed="#V" n="111"/>dulgentiam permittit: ita enim ait. hoc autem 
+      <lb ed="#V" n="112"/>dico secundum indulgentiam. Cui enim prestatur venia ni¬ 
+      <!--00331.xml-->
+      <pb ed="#V" n="150-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>si culpe: Per hoc etiam quidam probare volunsts 
+      <lb ed="#V" n="2"/>nuptias esse peccatum: sed vt predictum est: 
+      indul<lb ed="#V" n="3" break="no"/>gentia alia est concessionis. Egerat apostolus de 
+      <lb ed="#V" n="4"/>nuptiis et de carnali coitum et ad vtrunque retulit 
+      <lb ed="#V" n="5"/>illud: hoc autem dico secundum indulgentiam. 
+      Indul<lb ed="#V" n="6" break="no"/>gentur enim nuptie secundum concessionem et 
+      concubi<lb ed="#V" n="7" break="no"/>tus nuptialis qui sit tantum causa prolis. Concubitus 
+      <lb ed="#V" n="8"/>vero qui est preter necessitatem generandi: ob 
+      incon<lb ed="#V" n="9" break="no"/>tinentiam indulgetur secundum permissionem: quia ibi est 
+      <lb ed="#V" n="10"/>aliqua culpa: sed leuis. Ideoque non iubetur nec 
+      <lb ed="#V" n="11"/>conceditur: sed permittitur: quia non est laudabilis 
+      <lb ed="#V" n="12"/>sed venialis. De hoc Aug. sic ait. Forte aliquis 
+      <lb ed="#V" n="13"/>dicet: si veniam concessit apostolus ergo peccatum 
+      <lb ed="#V" n="14"/>sunt nuptie: cui enim venia nisi peccato 
+      conce<lb ed="#V" n="15" break="no"/>ditur: Plane quod infirmitati permisit secundum 
+      ve<lb ed="#V" n="16" break="no"/>niam: audeo dicere peccatum esse. veniam namque 
+      <lb ed="#V" n="17"/>concedens apostolus concubitum attendit 
+      con<lb ed="#V" n="18" break="no"/>iugatorum vbi est incontinentie malum. 
+      Inconrinen<lb ed="#V" n="19" break="no"/>tie malum est quod vir cognoscit vxorem etiam vltra 
+      <lb ed="#V" n="20"/>necessitatem procreandi liberos: sed et ibi est 
+      nuptia<lb ed="#V" n="21" break="no"/>rum bonum. Non enim quia incontinentia malum est: ideo 
+      com<lb ed="#V" n="22" break="no"/>iugium: vbi est concubitus praeter intentionem 
+      generatio<lb ed="#V" n="23" break="no"/>nis non est bonum. non propter illud malum culpabile est 
+      <lb ed="#V" n="24"/>hoc bonum: sed illud malum sit veniale propter bonum 
+      <lb ed="#V" n="25"/>nuptiale. Quod non reprehendit apostolus: sed malum 
+      in<lb ed="#V" n="26" break="no"/>continentie. Item. Concubitum qui non fit causa prolis: 
+      nu<lb ed="#V" n="27" break="no"/>ptie non cogunt fieri: sed impetrant ignosci: si tamen non 
+      <lb ed="#V" n="28"/>ita sit nimius vt impediat tempora que orationi 
+      de<lb ed="#V" n="29" break="no"/>bentur: nec immutentur in eum vsum qui est contra naturam. 
+      <lb ed="#V" n="30"/>Concubitus enim necessarius causa generandi 
+      inculpa<lb ed="#V" n="31" break="no"/>bilis: et solus ipse nuptialis est. Ille vero qui vltra 
+      <lb ed="#V" n="32"/>necessitatem progreditur: non rationi sed libidini 
+      ob<lb ed="#V" n="33" break="no"/>sequitur: et hunc non exigere: sed reddere 
+      coniugi<lb ed="#V" n="34" break="no"/>ne fornicetur ad coniugem pertinet. Si vero ambo tali 
+      <lb ed="#V" n="35"/>ccupiscentie subiguntur: et rem faciunt que non est 
+      <lb ed="#V" n="36"/>nuptiarum. Cuius delicti non sunt nuptie horta 
+      <lb ed="#V" n="37"/>trices sed deprecatrices. Decus quidem 
+      coniuga<lb ed="#V" n="38" break="no"/>le est castitas procreandi et reddendi carnalis de 
+      <lb ed="#V" n="39"/>biti fides. Hoc est opus nuptiarum: quod ab 
+      omnri<lb ed="#V" n="40" break="no"/>peccato defendit apostolus dicens. Non peccat 
+      vir<lb ed="#V" n="41" break="no"/>go si nupserit. Cum ergo culpabilis non sit 
+      ge<lb ed="#V" n="42" break="no"/>nerandi intentione concubitus: qui proprie nuptiis 
+      <lb ed="#V" n="43"/>imputandus est. Quid secundum veniam concedit apostolus: 
+      <lb ed="#V" n="44"/>nisi quod coniuges debitum carnis exposcunt: non 
+      <lb ed="#V" n="45"/>propaginis voluntate: sed libidinis voluptate. Que 
+      <lb ed="#V" n="46"/>tamen voluptas non propter nuptias cadit in 
+      culpa<lb ed="#V" n="47" break="no"/>sed propter nuptias accipit veniam. Immode 
+      <lb ed="#V" n="48"/>rata ergo progressio: secundum veniam conceditur. 
+      Quo<lb ed="#V" n="49" break="no"/>circa et hic laudabiles sunt nuptie quia etiam 
+      il<lb ed="#V" n="50" break="no"/>lud quod non pertinet ad se: ignosci faciunt propter 
+      <lb ed="#V" n="51"/>se. Non enim concubitus est quo seruitur 
+      concupiscen<lb ed="#V" n="52" break="no"/>tie: agitur vt impleatur fetus quem postulant 
+      nu<lb ed="#V" n="53" break="no"/>ptie. Omnino ergo in genere suo nuptie bone sunt: 
+      <lb ed="#V" n="54"/>quia fidem thori seruant: et prolis suscipiende 
+      cau<lb ed="#V" n="55" break="no"/>sa vtrunque sexum commiscent: et impietatem sepa 
+      <lb ed="#V" n="56"/>rationis horrent. Sanctitati etiam coniugii nec 
+      <!--00331.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>coniunx infidelis obesse potest: sed potius 
+      fide<lb ed="#V" n="58" break="no"/>lis prodest infideli: vt apostolus docet. Ex his 
+      osten<lb ed="#V" n="59" break="no"/>ditur quod coniuges qui causa prolis tantum conueniunt 
+      <lb ed="#V" n="60"/>vel qui exigentibus debitum reddunt: defendit a 
+      <lb ed="#V" n="61"/>peccato sanctitas coniugii: bonumque nuptiale. 
+      Si<lb ed="#V" n="62" break="no"/>enim absque peccato non posset fieri concubitus 
+      con<lb ed="#V" n="63" break="no"/>iugalis non precepisset dominus post diluuium eos 
+      <lb ed="#V" n="64"/>copulari dicens. Crescite et mltiplicamini: cum iam 
+      <lb ed="#V" n="65"/>sine carnali concupiscentia non possint commisceri. 
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e646">
+               <lb ed="#V" n="66"/>¶ Quod non omnis delectatio carnis peccatum est. 
+      <lb ed="#V" n="67"/>Sed forte aliquis dicet omnem carnis 
+      con<lb ed="#V" n="68" break="no"/>cupiscentiam et 
+      delectatio<lb ed="#V" n="69" break="no"/>nem que est in coitu malam esse et peccatum: quia ex 
+      pec<lb ed="#V" n="70" break="no"/>cato est et inordinata. Et nos dicimus illam 
+      con<lb ed="#V" n="71" break="no"/>cupiscentiam sper malam esse: quia feda est: et pena 
+      pec<lb ed="#V" n="72" break="no"/>cati: sed non sper peccantum est. Spe enim delectatur 
+      vir<lb ed="#V" n="73" break="no"/>sanctus secundum carnem in aliqua re vt requiescendo 
+      <lb ed="#V" n="74"/>post laborem: edendo post esuriem: nec tamen talis de 
+      <lb ed="#V" n="75"/>lectatio est peccatum: nisi sit immoderata. Sic et 
+      <lb ed="#V" n="76"/>delectatio que sit in coitu cuniugali: cui assunt 
+      <lb ed="#V" n="77"/>illa trima bona a peccato defenditur. Uidetur 
+      <lb ed="#V" n="78"/>tamen beatus Greg. aliter sentirem scilicet quod sine 
+      pecca<lb ed="#V" n="79" break="no"/>to non possit fieri carnalis commixtio dicens. Uit 
+      <lb ed="#V" n="80"/>cum propria coniuge dorminens: nisi lotus aqua 
+      <lb ed="#V" n="81"/>ecclesiam intrare non debet. Quamuis diuerse 
+      <lb ed="#V" n="82"/>hominum nationes de hac re diuersa sentiant: et 
+      <lb ed="#V" n="83"/>alia custodire videantur. Romanorum tamen semper 
+      <lb ed="#V" n="84"/>ab antiquoribus vsus fuit: post ammixtionem 
+      pro<lb ed="#V" n="85" break="no"/>prie coniugis: et lauacri purificationem querere: 
+      <lb ed="#V" n="86"/>et ab ingressu ecclesie paululum temperare. Nec 
+      <lb ed="#V" n="87"/>hoc dicentes culpam deputamus esse coniugium: 
+      <lb ed="#V" n="88"/>sed quia ipsa licita adm: xtio coniugis sine volupta 
+      <lb ed="#V" n="89"/>te carnis fieri non potest a sacri loci ingressu est 
+      <lb ed="#V" n="90"/>abstinendum: quia voluptas illa sine culpa 
+      <lb ed="#V" n="91"/>nullatenus esse potest. 
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e705">
+               <lb ed="#V" n="92"/>¶ Determinat auctoritatem. 
+      <lb ed="#V" n="93"/>hoc autem ne predictis obuiet in 
+      <lb ed="#V" n="94"/>telligendum est in illis 
+      <lb ed="#V" n="95"/>qui non gratia prolis conueniunt: quorum voluptas non 
+      <lb ed="#V" n="96"/>non est sine peccato: et vix aliqui reperiri possunt adhuc 
+      <lb ed="#V" n="97"/>amplexus carnales experientes qui non interdum 
+      conue<lb ed="#V" n="98" break="no"/>niant preter intentionem procreande prolis. Hoc autem 
+      <lb ed="#V" n="99"/>quotiens fit: ab ingressu ecclesie abstinendum est. 
+      <lb ed="#V" n="100"/>Et quod ita intelligendum sit: Greg. conserostendit. 
+      Se<lb ed="#V" n="101" break="no"/>quis vero sua coniuge: non cupidine voluptatis 
+      ra<lb ed="#V" n="102" break="no"/>ptus: sed tantum creandorum liberorum gratia vtitur: iste 
+      <lb ed="#V" n="103"/>profeeto siue de ingressu ecclesie: siue de sumendo 
+      <lb ed="#V" n="104"/>corporis dominici mysterio: suo est iudicio 
+      relinquen<lb ed="#V" n="105" break="no"/>dus: quia prohiberi a nobis non debet accipere qui in 
+      <lb ed="#V" n="106"/>igne positus nescit ardere. Cum vero non 
+      amor<lb ed="#V" n="107" break="no"/>procreande sobolis: sed voluptas dominatur in 
+      opere<lb ed="#V" n="108" break="no"/>commixtionis: habeant coniuges etiam de 
+      commixtio<lb ed="#V" n="109" break="no"/>ne sua quod defleant. Tunt autem vir qui post 
+      am<lb ed="#V" n="110" break="no"/>mixtionem coniugis lotus aqua fuerit etiam 
+      sacran<lb ed="#V" n="111" break="no"/>commixtionem valeat accipere: cum ei secundum praefinitam 
+      <lb ed="#V" n="112"/>sententiam ecclesiam etiam licuerit intrare. 
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e754">
+      <!--00332.xml-->
+               <pb ed="#V" n="151-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>SUperius deteriauit magister de 
+      ma<lb ed="#V" n="2" break="no"/>trimonio quo ad causam forma 
+      <lb ed="#V" n="3"/>lem et efficientem. Hic deteriat de ipso quo ad fina 
+      <lb ed="#V" n="4"/>lem que in bonis matrimonii consistit.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e772">
+      ¶ Et 
+      di<lb ed="#V" n="5" break="no"/>uiditur in tres.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e777">
+      ¶ Primo deteriat de tribus bonis 
+      con<lb ed="#V" n="6" break="no"/>iugii communiter.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e782">
+      ¶ Secundo de bono fidei in quocumque 
+      con<lb ed="#V" n="7" break="no"/>iugio specialiter de se. ibi. Sciendum est etiam.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e787">
+      ¶ Tertio 
+      <lb ed="#V" n="8"/>de bono fidei in coniugio patrum antiquorum specialissime 
+      <lb ed="#V" n="9"/>di. 33. ibi. Queritur hic de antiquis.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e794">
+      ¶ Prima in duas. 
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e797">
+               <lb ed="#V" n="10"/>¶ Primo deterinat que et quot sint coniugii bona.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e802">
+      ¶ 
+      Se<lb ed="#V" n="11" break="no"/>cundo qualiter excusant concubitum coniugalem. ibi Cum 
+      igi<lb ed="#V" n="12" break="no"/>tur.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e809">
+      ¶ Prima in tres.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e811">
+      ¶ Primo ostendit quod tria sunt 
+      <lb ed="#V" n="13"/>coniugii bona
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e816">
+      ¶ Secundo ostendit quod intentio vitande 
+      <lb ed="#V" n="14"/>prolis in contrahendo matrimonium excludit. ibi. Qui vero 
+      <lb ed="#V" n="15"/>venenat.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e823">
+      ¶ Tertio ostendit incidenter quando iudicandi 
+      <lb ed="#V" n="16"/>sunt homicide qui procurant aborsum: et quando non. ibi. Hic 
+      <lb ed="#V" n="17"/>queri solet.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e831">
+      ¶ Illa pars que ibi incipit. Cum igitur. 
+      diui<lb ed="#V" n="18" break="no"/>ditur in tres partes.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e836">
+      ¶ Primo ostendit quando hec bona 
+      <lb ed="#V" n="19"/>excusant coniugalem concubitum: et quando non. Secundo 
+      oppos<lb ed="#V" n="20" break="no"/>nit in contrarium ibi. Sed si concubitus.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e843">
+      ¶ Tertio 
+      osten<lb ed="#V" n="21" break="no"/>dit quo ambo coniuges se habent ad actu illum. ibi. 
+      Sci<lb ed="#V" n="22" break="no"/>endum etiam. Secunda in tres.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e850">
+      ¶ Primo opponit per 
+      aucto<lb ed="#V" n="23" break="no"/>ritatem
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e855">
+      ¶ Secundo per rationem: et Gregorii auctoritatem. 
+      <lb ed="#V" n="24"/>ibi. Si forte.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e860">
+      ¶ Tertio ponit auctoritatis Greg. 
+      deter<lb ed="#V" n="25" break="no"/>minationem. ibi. Hoc autem. Dinctio XXXI 
+      <lb ed="#V" n="26"/>Circa hanc di. querendum est principaliter 
+      <lb ed="#V" n="27"/>de tribus.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e870">
+      ¶ Primo de bonis 
+      ma<lb ed="#V" n="28" break="no"/>trimonium excusantibus.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e875">
+      ¶ Secundo de eorum 
+      <lb ed="#V" n="29"/>habitudine ad matrimonium.
+   </p>
+            <p xml:id="kzz7yh-k108089-d1e880">
+      ¶ Tertio de 
+      mo<lb ed="#V" n="30" break="no"/>do excusandi per illa coniugalem concubitum. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

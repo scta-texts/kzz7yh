@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="64-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k46532"><!-- l4d14cl -->
+            <head xml:id="kzz7yh-k46532-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-k46532-d1e103">
+               <lb ed="#V" n="118"/>CIrca litteram. Penitentia est 
+      se<lb ed="#V" n="119" break="no"/>cunda tabula post 
+      <lb ed="#V" n="120"/>naufragium hoc per similitudinem dictum est 
+      <lb ed="#V" n="121"/>Prima enim tabula in mari est nauis que cum 
+      <lb ed="#V" n="122"/>aliquando frangitur: contingit quandoque quod aliqui adherent alicui 
+      tabu<lb ed="#V" n="123" break="no"/>le nauis: per cuius adiutorium applicant ad portum salu 
+      <lb ed="#V" n="124"/>tis. Sic dico quod existentibus in mari huius mundi: 
+      baptis<lb ed="#V" n="125" break="no"/>mus est sicut prima tabula scild cet sicut nauis a cuius gratia cum 
+      <lb ed="#V" n="126"/>homines cadunt restat eis poenitentia tanquam tabula secunda: cum cuius 
+      <lb ed="#V" n="127"/>adiutorio deduci possunt ad portum salutis: construe ergo sic: 
+      <lb ed="#V" n="128"/>quod ipoenitentia est tabula post naufragium secunda ab illa que est ante 
+      <lb ed="#V" n="129"/>naufragium: posset tamen dici baptismus prima tabula post 
+      <lb ed="#V" n="130"/>naufragium vocando primum naufragium originale peccatum: 
+      <lb ed="#V" n="131"/>eo quod originale peccatum et eius sequele sunt quedam 
+      fractio<lb ed="#V" n="132" break="no"/>integritatis nature quam in primis parentibus a sua 
+      condi<lb ed="#V" n="133" break="no"/>tione habuerat. Inanis est scilicet carens fructu illius poenitentie: 
+      <lb ed="#V" n="134"/>supple quam habet illa poenitentia quam sequens culpera non inqunat. De 
+      <lb ed="#V" n="135"/>poenitentia peccatorum id est in qua aliquo perseuerat. Etiam si ad summum 
+      <lb ed="#V" n="136"/>quo perueniat malorum scilicet in comparatione aliorum.
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="128-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k91944"><!-- l4d24cl -->
+            <head xml:id="kzz7yh-k91944-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-k91944-d1e103">
+               <lb ed="#V" n="52"/>CIrca litteram. Mathias 
+      elect<lb ed="#V" n="53" break="no"/>est sorte: hoc 
+      sacum<lb ed="#V" n="54" break="no"/>fuit consilio spiritus sancti. Unde non est trahendum ad 
+      <lb ed="#V" n="55"/>conseqentiam: vsus enim fortis in electionibus 
+      perpetua<lb ed="#V" n="56" break="no"/>prohibitione damnatus est: extra de fortilegiis. Ecclesia videtura. 
+      <lb ed="#V" n="57"/>Scia debet esse instructus: non est intelligendum quod sciat theologiam: 
+      <lb ed="#V" n="58"/>sufficit enim quod sciat distincte legere et sensum grammaticalem 
+      <lb ed="#V" n="59"/>intelligere. Canones duos tantum ordines sacros appellari 
+      <lb ed="#V" n="60"/>censent. Hoc intelligendum est secundum canones antiquos: quia 
+      <lb ed="#V" n="61"/>modo subdiaconatus est sacer ordo: et sibi votum continentie 
+      an<lb ed="#V" n="62" break="no"/>nexum est. Ordo episcorum: qualiter episcoatus ordo dici debeat in 
+      <lb ed="#V" n="63"/>quaestionibus dictum est: Romanus: Anthiochenus: 
+      Alexandri<lb ed="#V" n="64" break="no"/>nus.
+   </p>
+            <p xml:id="kzz7yh-k91944-d1e134">
+      ¶ Contra decre. disti. 22. Sacro sancta: dicitur quod prima 
+      se<lb ed="#V" n="65" break="no"/>des est Romana ecclesia. 2. Alexandrina. tertia 
+      Anthioche<lb ed="#V" n="66" break="no"/>na.
+   </p>
+            <p xml:id="kzz7yh-k91944-d1e141">
+      ¶ Respondeo quod aliquando Alexandrina fuit secunda sedes: sed 
+      <lb ed="#V" n="67"/>postea Constantinopolitana facta est secunda: eo quod sit noua 
+      <lb ed="#V" n="68"/>Roma. ea. di. Constantinopolitane. Unde hic est ordo sediun¬ 
+      <!--00285.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="69"/>Primo Romana. Secundo Constantinopolitana. 
+      Tertio<lb ed="#V" n="70" break="no"/>Alexandrina. Quarto Anthiochena. Quinto 
+      Hierosoly<lb ed="#V" n="71" break="no"/>mitana. ea. di. Renouantes: potest dici quod magister in littera 
+      <lb ed="#V" n="72"/>nominat Anthiochenam post Romanam quia in Anthio. 
+      <lb ed="#V" n="73"/>chena primo nomen christianorum est exortum eadem di. 
+      <lb ed="#V" n="74"/>Sacro sancta: quamuis omnes ante fideles dicerentur 
+      di<lb ed="#V" n="75" break="no"/>scipuli et fratres: vt dicit glo. ibidem. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

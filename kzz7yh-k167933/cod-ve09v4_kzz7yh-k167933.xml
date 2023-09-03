@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="230-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k167933"><!-- l4d49cl -->
+            <head xml:id="kzz7yh-k167933-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-k167933-d1e103">
+               <lb ed="#V" n="131"/>CIrca littteram. Fines suos habebunt 
+      ci<lb ed="#V" n="132" break="no"/>uitates due etc. Sed nunquid si omnes 
+      <lb ed="#V" n="133"/>illi qui modo sunt viuentes saluarentur impleretur 
+      nu<lb ed="#V" n="134" break="no"/>merus ciuium ciuitatis dei de istis cum illis qui iam 
+      <lb ed="#V" n="135"/>saluati sunt. Rspondeo quod hoc nobis incertum est: secundum tum dicta 
+      <lb ed="#V" n="136"/>Aug. videtur dicendum quod sic. videtur enim sentite in libo de bono coniu¬ 
+      <!--00493.xml-->
+      <pb ed="#V" n="231-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>galilonge ante medium: quod si omnes homines qui viuebant 
+      <lb ed="#V" n="2"/>tempore suo saluarentur quod ipsi cum illis qui iam salua 
+      <lb ed="#V" n="3"/>ti erant suffecissent ad repletionem numeri electorum. vnde 
+      <lb ed="#V" n="4"/>inquirentibus si omnes homines vellent ab omni concubitu 
+      con<lb ed="#V" n="5" break="no"/>tinere. vnde subsisteret genus humanum. respondet per hec 
+      ver<lb ed="#V" n="6" break="no"/>ba.
+   </p>
+            <p xml:id="kzz7yh-k167933-d1e138">
+      ¶ Utinam omnes hoc vellent duntaxat de corde 
+      puro<lb ed="#V" n="7" break="no"/>et conscientia bona et fide non ficta: multo citius dei ciuitas 
+      <lb ed="#V" n="8"/>compleretur et acceleraretur terminus seculi. Ex his verbis 
+      <lb ed="#V" n="9"/>sequi videtur quod ante dictum est. de hoc tamen nullus scit 
+      certitu<lb ed="#V" n="10" break="no"/>dinem nisi solus deus vel ille cui deus hoc reuelauit. Sed 
+      <lb ed="#V" n="11"/>alii aliis plenius: quia sicut nullus beatus ipsum videt 
+      <lb ed="#V" n="12"/>quantum ex parte sua visibilis est: quamuis quilibet ipsum 
+      <lb ed="#V" n="13"/>clare videat. et vnus alio clarius: sic nullus alius ab eo 
+      <lb ed="#V" n="14"/>fruitur eo quantum ex parte sua fruibilis est: quamuis eo 
+      <lb ed="#V" n="15"/>omnes fruantur perfecte: vnus alio perfectius. Ita quisque 
+      gau<lb ed="#V" n="16" break="no"/>debit de bono alterius qualiter gauderet si in se haberet. 
+      <lb ed="#V" n="17"/>hoc non videtur verum si ita sit nota equalitatis: quamuis vera 
+      <lb ed="#V" n="18"/>sit secundum quod ita est nota similitudinis. Si ita esset par gaudium 
+      <lb ed="#V" n="19"/>vt est par esset cognitio. hec solutio non valet: quia 
+      quam<lb ed="#V" n="20" break="no"/>tum cognoscent tantum gaudebunt. vnde sequens solutio 
+      me<lb ed="#V" n="21" break="no"/>lior est que refert paritatem gaudii non esse ad 
+      intensio<lb ed="#V" n="22" break="no"/>nem affectionis gaudentium: sed ad vniuersitatem rerum de quibus 
+      <lb ed="#V" n="23"/>gaudebitur: quia de omni re de quae gaudebit vnus gaudebunt omnes. 
+      <lb ed="#V" n="24"/>Si quem mouet quid opus sit spiritibus defunctorum 
+      cor<lb ed="#V" n="25" break="no"/>pora sua in resurrectione recipere etc. Huius ratio 
+      red<lb ed="#V" n="26" break="no"/>dita est superius eadem distin. in in illa quaestione. vtrum 
+      bea<lb ed="#V" n="27" break="no"/>titudo electorum erit maior post iudicium quam ante. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

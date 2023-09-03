@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="79-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k57244"><!-- l4d16cl -->
+            <head xml:id="kzz7yh-k57244-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-k57244-d1e103">
+               <lb ed="#V" n="20"/>CIrca litteram. Ut sicut dictum 
+      <lb ed="#V" n="21"/>est. tribus 
+      modi<lb ed="#V" n="22" break="no"/>offendimus: hoc intellige dictum per quandam 
+      <lb ed="#V" n="23"/>adaptationem seu appropriationem: non per 
+      praeci<lb ed="#V" n="24" break="no"/>sionem: quia quamuis mortale peccatum compleri possit in actu cordis: 
+      <lb ed="#V" n="25"/>tamen satisfactio non completur in actu cordis sine confessione 
+      si<lb ed="#V" n="26" break="no"/>possit haberi. Unde nunquam sufficit sola detestatio 
+      pecca<lb ed="#V" n="27" break="no"/>ti sine proposito confitendi explicite vel implicite. Putens id est 
+      <lb ed="#V" n="28"/>fetens. Unde versus. Nemo placere putet cuius praesentia 
+      <lb ed="#V" n="29"/>putet. Non enim par debet esse fructus: hoc intelligi debet de 
+      ten<lb ed="#V" n="30" break="no"/>tione necessitatis. qui enim minus peccauit non tenetur de 
+      <lb ed="#V" n="31"/>necessitate ad tantam satisfactionem sicut ille qui plus 
+      pec<lb ed="#V" n="32" break="no"/>cauit. Omnis ista varietas confitenda est et deflenda. hoc 
+      <lb ed="#V" n="33"/>exponendum est secundum consilium: non secundum praeceptum: vt in 
+      sequen<lb ed="#V" n="34" break="no"/>ti di. patebit: vbi agetur de confessione. Omnis virtus patitur 
+      <lb ed="#V" n="35"/>detrimentum ab vno vitio. hoc planum est consideranti 
+      di<lb ed="#V" n="36" break="no"/>ligenter quo modo vna virtus adiuuat aliam. Falsas poenitentias 
+      di<lb ed="#V" n="37" break="no"/>cimus que non secundum auctoritates sanctorum pro qualitate 
+      cri<lb ed="#V" n="38" break="no"/>minum imponuntur. hoc intelligas non quo ad poenitentie 
+      quan<lb ed="#V" n="39" break="no"/>titatem a canonibus taxatam: sed qualitatem. Podest eorum 
+      <lb ed="#V" n="40"/>fides a quibus offeruntur: non dicit necessaria est: quia sufficit 
+      paruu<lb ed="#V" n="41" break="no"/>lo fides ecclesie: dumtamen ille qui paruulum baptizat 
+      <lb ed="#V" n="42"/>intendat facere quod intendit ecclesia: et seruet ecclesie 
+      for<lb ed="#V" n="43" break="no"/>mam. Que si collecta contra nos fuerint etc. hoc in 
+      que<lb ed="#V" n="44" break="no"/>stionibus expositum est. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

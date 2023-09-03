@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="160-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k116384"><!-- l4d34cl -->
+            <head xml:id="kzz7yh-k116384-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-k116384-d1e103">
+               <lb ed="#V" n="130"/>Circa litteram. Ut permaneanti. scilicet 
+      si<lb ed="#V" n="131" break="no"/>cut frater et soror. Et nubere non 
+      <lb ed="#V" n="132"/>possunt. scilicet cum effectu carnalis copule. 
+      <lb ed="#V" n="133"/>De quibus scriptum est. scilicet in legibus 
+      hu<lb ed="#V" n="134" break="no"/>manis. Maneant vtrique innuptii. scilicet quando non tan¬ 
+      <!--00353.xml-->
+      <pb ed="#V" n="161-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>tummodo est frigiditas ex parte viri: sed etiam tanta 
+      ar<lb ed="#V" n="2" break="no"/>tatio ex parte mulieris quod nulli viro esset apta. Molitur. 
+      <lb ed="#V" n="3"/>moliri est cum difficultate conari: et dicitur a mole. Tunc 
+      <lb ed="#V" n="4"/>hi qui iurauerant periurii rei crimine teneantur. hoc 
+      in<lb ed="#V" n="5" break="no"/>telligitur de viro et muliere: non de porpinquis: qui non 
+      <lb ed="#V" n="6"/>iurauerunt nisi de credulitate. In veritate viri consistat 
+      <lb ed="#V" n="7"/>scilicet nisi mulier per aspectum corporis sui probare 
+      vo<lb ed="#V" n="8" break="no"/>luerit virum esse mentitum. Reconciliari nequibunt. 
+      <lb ed="#V" n="9"/>expone sicut statim exponit magister in littera. vel dic 
+      <lb ed="#V" n="10"/>quod hoc non est tenendum vt dictum est in questionibus. 
+      <lb ed="#V" n="11"/>Neutrum ex ipsis habeat. scilicet quantum ad ius 
+      exigen<lb ed="#V" n="12" break="no"/>di carnale debitum: si incestus secutus est matrimonium 
+      <lb ed="#V" n="13"/>cum altera. Si autem antecessit: cum nulla potest 
+      con<lb ed="#V" n="14" break="no"/>trahere matrimoniale vinculum: loquitur enim de illo 
+      <lb ed="#V" n="15"/>qui dormiuit cum duabus sororibus: non licet proprie 
+      <lb ed="#V" n="16"/>vxori reddere debitum: hoc nontenetur nisi vir incestum 
+      <lb ed="#V" n="17"/>commiserit de consensu vxoris. Nubat in domino. scilicet 
+      <lb ed="#V" n="18"/>post mortem mariti: vt magister quasi statim post 
+      expo<lb ed="#V" n="19" break="no"/>nit in littera. In adulterio. scilicet incestuoso: vt 
+      expo<lb ed="#V" n="20" break="no"/>nit glo. super illud decretum. Nam quod alii adulteri 
+      contra<lb ed="#V" n="21" break="no"/>here possunt habes 3I1. q. 1. c. 2. Quicunque excepta 
+      forni<lb ed="#V" n="22" break="no"/>cationis causa. quia post consumationem matrimonii non 
+      <lb ed="#V" n="23"/>sit separatio:nisi sit in alterius penam: coniunx autem 
+      <lb ed="#V" n="24"/>periurari non debet nisi pro sua culpa. et ideo quamuis 
+      <lb ed="#V" n="25"/>maritus magis esset grauatus si vxor sua fieret leprosa et 
+      <lb ed="#V" n="26"/>feda. tamen non sic separari posset ab ea quantum ad 
+      to<lb ed="#V" n="27" break="no"/>rum propter illam seditatem: sicuti propter illam fornicationem. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

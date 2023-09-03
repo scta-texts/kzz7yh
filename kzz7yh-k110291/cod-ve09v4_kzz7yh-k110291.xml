@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="153-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k110291"><!-- l4d32prae -->
+            <head xml:id="kzz7yh-k110291-Hd1e101">Praeambulum</head>
+            <p xml:id="kzz7yh-k110291-d1e103">
+               <lb ed="#V" n="127"/>¶ De solutione carnalis debiti. Di. XXXII 
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e108">
+               <lb ed="#V" n="128"/>SCiendum etiam 
+      <lb ed="#V" n="129"/>est quia cum in omnibus aliis virpre 
+      <lb ed="#V" n="130"/>sit mulieri vt caput corpori. Est enim 
+      vir<lb ed="#V" n="131" break="no"/>caput mulieris: in soluendo tamen 
+      car<lb ed="#V" n="132" break="no"/>nis debito pares sunt. Ideo apostolus vtrique 
+      pari<lb ed="#V" n="133" break="no"/>ter precipit in hac causa sibi inuicem subiict: mqui 
+      <!--00336.xml-->
+      <pb ed="#V" n="153-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>ens. Uir debitum reddat vxori: similiter et 
+      vxorvi<lb ed="#V" n="2" break="no"/>ro: quia mulier non habet potestatem sui corporis: sed 
+      <lb ed="#V" n="3"/>vir. similiter et virnon habet potestatem sui 
+      corpo<lb ed="#V" n="4" break="no"/>ris: sed mulier. Quia nec mulier ad alium virum 
+      <lb ed="#V" n="5"/>nec vir ad aliam mulierem potestatem sui corporis 
+      <lb ed="#V" n="6"/>habet: nec vir ad continendum: nec mulier 
+      pote<lb ed="#V" n="7" break="no"/>statem habet sine mutuo consensu: sed alter 
+      alte<lb ed="#V" n="8" break="no"/>rius potestatem habet corporis: vt poscenti alteri 
+      <lb ed="#V" n="9"/>non liceat alteri negare debitum. In hoc enim 
+      <lb ed="#V" n="10"/>pares sunt: quia nec viro nec mulieri corpus suum 
+      <lb ed="#V" n="11"/>licet alii tradere. Sed sibi inuicem debitores 
+      <lb ed="#V" n="12"/>sunt in hac causa: ne peccandi detur occasio: per 
+      <lb ed="#V" n="13"/>quod non dominium tollitur viro: sed vitium. De 
+      <lb ed="#V" n="14"/>bet enim sibi coniugati non solum ipsius sexus sui 
+      <lb ed="#V" n="15"/>commiscendi fidem liberorum procreandorum causa 
+      <lb ed="#V" n="16"/>que prima est in ista mortalitate societas: 
+      verun<lb ed="#V" n="17" break="no"/>etiam infirmitatis inuicem excipiende ad illicitos 
+      <lb ed="#V" n="18"/>concubitus deuitandos mutuam quodammodo 
+      ser<lb ed="#V" n="19" break="no"/>uitutem: vt et si alteri eorum continentia placeat: 
+      ni<lb ed="#V" n="20" break="no"/>si ex alterius consensu non possit. Ad hoc enim 
+      neu<lb ed="#V" n="21" break="no"/>ter habet potestatem sui corporis: quod adeo 
+      ve<lb ed="#V" n="22" break="no"/>rum est: vt etiam quod non filiorum procreandorum sed 
+      <lb ed="#V" n="23"/>infirmitatis et incontinentie causa expetit vel ille 
+      <lb ed="#V" n="24"/>de matrimonio vel illa non sibi alterutrum 
+      ne<lb ed="#V" n="25" break="no"/>gent: ne per hoc incidant in damnabiles 
+      corru<lb ed="#V" n="26" break="no"/>ptelas. Reddere enim debitum coniugale 
+      nul<lb ed="#V" n="27" break="no"/>lius est criminis: exigere autem vltra generandi 
+      <lb ed="#V" n="28"/>necessitatem: culpe est venialis. Fornicari vero 
+      <lb ed="#V" n="29"/>vel mechari: puniendi est criminis. 
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e193">
+               <lb ed="#V" n="30"/>¶ Quod neuter continere valeat nisi ex communi consensu. 
+      <lb ed="#V" n="31"/>Quod vero sine consensu vtoris vit 
+      <lb ed="#V" n="32"/>continere non valcat: sub 
+      <lb ed="#V" n="33"/>ditis probatur testimoniis. Ait enim Aug. 
+      Si<lb ed="#V" n="34" break="no"/>dicat vir continere iam volo: nolo autem vxor 
+      pos<lb ed="#V" n="35" break="no"/>test. Quod enim tu vis: illa non vult. Nunqud 
+      <lb ed="#V" n="36"/>per continentiam tuam illa debeat fieri fornicaria: 
+      <lb ed="#V" n="37"/>Si alii nupserit te viuo: adultera erit. Non vult 
+      <lb ed="#V" n="38"/>tali lucro deus tale damnum compensari. 
+      Red<lb ed="#V" n="39" break="no"/>de debitum et si non exigis: redde: pro sanctificatio 
+      <lb ed="#V" n="40"/>ne perfecta deus tibi computabit: si non quod tibi 
+      de<lb ed="#V" n="41" break="no"/>betur exigis: sed reddis quod debes vxori. Idem. 
+      <lb ed="#V" n="42"/>Secundu verba apostolica etiam si vir continere 
+      volu<lb ed="#V" n="43" break="no"/>isset et tu noluisses: debitum tibi reddere cogeretur: 
+      <lb ed="#V" n="44"/>et illi deus imputaret continentiam: si non sue sed 
+      <lb ed="#V" n="45"/>tue concederetur infirmitati: ne in adulterium cade 
+      <lb ed="#V" n="46"/>res. Quisquis ergo compatiens infirmitatis 
+      vxo<lb ed="#V" n="47" break="no"/>ris reddit non exigit debitum: aut si propter propriam 
+      <lb ed="#V" n="48"/>infirmitatem ducit vxorem plangens potius quia sine 
+      <lb ed="#V" n="49"/>vxore esse non potuit quam gaudens quia duxit: securus 
+      <lb ed="#V" n="50"/>expectat diem nouissimum. Idem Una sola 
+      cau<lb ed="#V" n="51" break="no"/>sa esse potest: qua te ad id quod vouisti non 
+      mo<lb ed="#V" n="52" break="no"/>do non hortaremur: sed etia prohiberemus 
+      imple<lb ed="#V" n="53" break="no"/>re: si forte tua coniunx hoc tecum suscipere 
+      animi<lb ed="#V" n="54" break="no"/>vel carnis infirmitate recusaret. Nam vouenda 
+      <lb ed="#V" n="55"/>talia non sunt a coniugatis: nisi ex consensu et volum 
+      <lb ed="#V" n="56"/>tate communi: et si prepropere factum fuerit: ma¬ 
+      <!--00336.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>gis est corrigenda temeritas quam persoluenda 
+      pro<lb ed="#V" n="58" break="no"/>missio. Non enim deus exigit si quis ex alieno 
+      <lb ed="#V" n="59"/>aliquid vouerit: sed potius vsurpare vetat alie 
+      <lb ed="#V" n="60"/>num. Idem. Apostolus nec ad tempus vt vacet 
+      <lb ed="#V" n="61"/>orationi nisi ex consensu voluit coniugem 
+      carnali<lb ed="#V" n="62" break="no"/>inuicem fraudari debito. Idem. Manifestum est 
+      <lb ed="#V" n="63"/>ita voluisse legem: feminam sub viro esse: vt nulla 
+      <lb ed="#V" n="64"/>eius vota que abstinentie causa vouerit reddam 
+      <lb ed="#V" n="65"/>tur ab ea: nisi auctor fuerit vir permittendo. Nam 
+      <lb ed="#V" n="66"/>cum ad peccatum eiusdem viri pertinere: 
+      volue<lb ed="#V" n="67" break="no"/>rit lex: si prius permiserit et postea prohibuerit: non 
+      <lb ed="#V" n="68"/>tamen dixit vt faciat mulier quod vouerat: quia 
+      per<lb ed="#V" n="69" break="no"/>missa iam prius a viro fuerat: viri dixit esse 
+      pec<lb ed="#V" n="70" break="no"/>catum: quia abnuit quod prius concesserat: non tamen 
+      <lb ed="#V" n="71"/>mulieri ex hoc iussum dedit: cum prius vir ei 
+      con<lb ed="#V" n="72" break="no"/>cesserit: postea si prohibuerit contennatur. Ex his 
+      <lb ed="#V" n="73"/>apparet quod vir vniuersaliter continentiam deo 
+      of<lb ed="#V" n="74" break="no"/>ferre non potest scea ne communi consensu: nec alter 
+      <lb ed="#V" n="75"/>alteri debitum negare debet. Si vero quilibet 
+      <lb ed="#V" n="76"/>eorum alterum a suo iure absoluerit: ad 
+      preteritan<lb ed="#V" n="77" break="no"/>seruitutem numquid reuocare poterit: Hoc enim 
+      <lb ed="#V" n="78"/>videtur Aug. supra voluisse. Quibusdam videtur 
+      <lb ed="#V" n="79"/>quod mulier non discedens a domo viri: que viro 
+      <lb ed="#V" n="80"/>permittente continentiam vouerit vel promiserit: eo 
+      <lb ed="#V" n="81"/>dem prohibente soluere non valeat. et hoc propter 
+      <lb ed="#V" n="82"/>dignitatem viri qui est caput mulieris. Sed 
+      me<lb ed="#V" n="83" break="no"/>lius hoc intelligitur in tali casu: vbi vir concedit 
+      <lb ed="#V" n="84"/>mulieri vouere continentiam: et ante votum 
+      prohi<lb ed="#V" n="85" break="no"/>bet implere. Si vero habitum mutauerit non 
+      <lb ed="#V" n="86"/>potest reuocari secundum illud. Qui vxorem 
+      <lb ed="#V" n="87"/>suam valere permiserit: aliam non accipiat: sed 
+      <lb ed="#V" n="88"/>similiter conuertatur. 
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e328">
+               <lb ed="#V" n="89"/>¶ Quibus temporibus cessandum sit a 
+      coitu<lb ed="#V" n="90" break="no"/>Et licet debitum poscenti sit sempersol 
+      <lb ed="#V" n="91"/>uendum: non licet tamen qualibet 
+      <lb ed="#V" n="92"/>die poscere vnde Aug. Christiamo cum vxore sua 
+      <lb ed="#V" n="93"/>aliquando cet conuenire aliquando non. Propter 
+      <lb ed="#V" n="94"/>processionis enim dies et ieiuniorum aliquando non 
+      <lb ed="#V" n="95"/>licet conuenire: quia etiam a licitis abstinendum est: vt 
+      <lb ed="#V" n="96"/>facilius impetrari possit quod postulatur. Idem 
+      quo<lb ed="#V" n="97" break="no"/>tiens enim vel dies natiuitatis vel relique 
+      fe<lb ed="#V" n="98" break="no"/>stiuitates aduenerint: non solum concubinarum 
+      con<lb ed="#V" n="99" break="no"/>sortio: sed etiam a propriis vxoribus abstinete. Item 
+      <lb ed="#V" n="100"/>amb. Si causa procreandorum filiorum ducitur vxor: 
+      <lb ed="#V" n="101"/>non multum tempus concessum videtur ad ipsum vsum 
+      <lb ed="#V" n="102"/>quia et dies festi et dies processionis et ipsa ratio 
+      concer<lb ed="#V" n="103" break="no"/>ptus et partus iuxta legem cessare vsum carnis 
+      <lb ed="#V" n="104"/>his debere temporibus demonstrant. 
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e366">
+               <lb ed="#V" n="105"/>¶ Hieronymus videtur dissentire a premissis: 
+      <lb ed="#V" n="106"/>Illi autem quod dictum est reddere 
+      <lb ed="#V" n="107"/>debitum non esse peccatum. 
+      <lb ed="#V" n="108"/>videtur obuiare quod ait Hiero. Quicunque 
+      vxori<lb ed="#V" n="109" break="no"/>debitum reddit: vacare non potest orationi: nec carnes 
+      <lb ed="#V" n="110"/>agni edere. Item si panes propositionis ab his qui 
+      <lb ed="#V" n="111"/>vxores suas tetigerant comedi non poterant. 
+      Quamn<lb ed="#V" n="112" break="no"/>tomagis panis qui de celo descendit: non potest 
+      <!--00337.xml-->
+      <pb ed="#V" n="153-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>ab his qui coniugalibus paulo ante hesere 
+      complexi<lb ed="#V" n="2" break="no"/>bus violari atque contingi. Non quod nuptias 
+      conden<lb ed="#V" n="3" break="no"/>nemus sed quod eo tempore quo carnes agni mandu 
+      <lb ed="#V" n="4"/>caturi sumus: vacare a carnalibus operibus 
+      de<lb ed="#V" n="5" break="no"/>beamus. Hoc capitulum maxime ad ministros 
+      <lb ed="#V" n="6"/>ecclesie pertinere videtur quibus non licebat sacra 
+      offi<lb ed="#V" n="7" break="no"/>cia celebratr atque mysteria tempore coniugalis 
+      am<lb ed="#V" n="8" break="no"/>plexus: quo etia presentia spiritus sancti non 
+      da<lb ed="#V" n="9" break="no"/>tur. Unde idem ait. Connubia legitima carent 
+      <lb ed="#V" n="10"/>quidem peccato: nec tamen tempore illo quo coniugales 
+      <lb ed="#V" n="11"/>actus geruntur: presentia spiritus sancti dabitur 
+      <lb ed="#V" n="12"/>etiam si propheta esse videatur: qui officio 
+      gene<lb ed="#V" n="13" break="no"/>rationis obsequitur. 
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e421">
+               <lb ed="#V" n="14"/>¶ Quibus temporibus non sunt celebrande nuptie. 
+      <lb ed="#V" n="15"/>Nec solum in opere camali obseruam 
+      <lb ed="#V" n="16"/>da sunt tempora: sed etiam 
+      <lb ed="#V" n="17"/>in celebrandis nuptiis: secundum illud. Non 
+      opor<lb ed="#V" n="18" break="no"/>tet a septuagesima vsque in octauam pasche et tribus 
+      <lb ed="#V" n="19"/>hebdomadibus ante festum sancti Ioannis: et ab 
+      <lb ed="#V" n="20"/>aduentu domini vsque post epiphaniam celebrare 
+      <lb ed="#V" n="21"/>nuptias. Qnod si factum fuerit separentur: 
+      <lb ed="#V" n="22"/>Item Nicolaus papa. Nec vxtorem duceremec 
+      <lb ed="#V" n="23"/>coniugia facere quadragesimali tempore 
+      con<lb ed="#V" n="24" break="no"/>uenire posse vllo modo arbitror. 
+      <lb ed="#V" n="25"/>Uperius determinauit magister de 
+      tri<lb ed="#V" n="26" break="no"/>bus bonis coniugi. Hic deter 
+      <lb ed="#V" n="27"/>minat de bono fidei in quocunque coniugio 
+      spe<lb ed="#V" n="28" break="no"/>cialiter. Et diuiditur in duas partes.
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e456">
+      ¶ 
+      Pri<lb ed="#V" n="29" break="no"/>mo determinat magister de necessitate reddendi debitum. 
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e461">
+               <lb ed="#V" n="30"/>¶ Secundo de tempre exigendi. ibi. Et licet. Primalinduas. 
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e466">
+               <lb ed="#V" n="31"/>¶ Primo ostendit quod non potest vnus coniunx sine licentia 
+      al<lb ed="#V" n="32" break="no"/>terius vouere.
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e473">
+      ¶ Secundo querit vtrum datam licentiam 
+      <lb ed="#V" n="33"/>possit reuocare. ibi. Si vero quilibet  Prima in duas. 
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e479">
+               <lb ed="#V" n="34"/>¶ Primo ostendit quod vnus coniunx tenetur alteri debitum 
+      <lb ed="#V" n="35"/>reddere.
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e486">
+      ¶ Secundo auctoritatibus probat quod vnus sine 
+      <lb ed="#V" n="36"/>alterius consensu non potest continere. ibi.
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e491">
+      ¶ Quod vero. Illa 
+      pere<lb ed="#V" n="37" break="no"/>que. ibi. incipit. Et licet. diuiditur in tres.
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e496">
+      ¶ Primo quod 
+      <lb ed="#V" n="38"/>aliquando est cessandum a debiti exactione.
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e501">
+      ¶ Secundo 
+      inqui<lb ed="#V" n="39" break="no"/>rit an cessandum sit aliquando a redditione. ibi. Illi autem. 
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e506">
+               <lb ed="#V" n="40"/>¶ Tertio ostendit quando cessandum sit a nuptiarum 
+      <lb ed="#V" n="41"/>colebratione. ibi. Nec solum. 
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e514">
+    Disti. 1XXXII 
+  </p>
+            <p xml:id="kzz7yh-k110291-d1e516">
+               <lb ed="#V" n="42"/>. CIrca hanc distin. queritur principaliter de 
+      <lb ed="#V" n="43"/>quatuor.
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e523">
+      ¶ Primo de carnalis de 
+      <lb ed="#V" n="44"/>biti redditione: et exactione.
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e528">
+      ¶ Secundo de 
+      ii<lb ed="#V" n="45" break="no"/>centia continendi.
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e533">
+      ¶ Tertio de tempore 
+      redden<lb ed="#V" n="46" break="no"/>di carnale debitum vel exigendi.
+   </p>
+            <p xml:id="kzz7yh-k110291-d1e538">
+      ¶ Quarto de 
+      tempo<lb ed="#V" n="47" break="no"/>re nuptias celebrandi. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

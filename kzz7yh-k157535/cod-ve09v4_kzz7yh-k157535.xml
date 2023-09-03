@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="216-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k157535"><!-- l4d48cl -->
+            <head xml:id="kzz7yh-k157535-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-k157535-d1e103">
+               <lb ed="#V" n="84"/>Circa litteram In humanitate suscepit 
+      il<lb ed="#V" n="85" break="no"/>iud quod est causa nostre 
+      resurrectio<lb ed="#V" n="86" break="no"/>nis idest passionem et resurrectionem: quod sic est in 
+      <lb ed="#V" n="87"/>telligendum quod eius passio est causa meritoria 
+      no<lb ed="#V" n="88" break="no"/>stre resurrectionis spiritualis: et in futuro nostre 
+      resurrectio<lb ed="#V" n="89" break="no"/>nis gliosa. sua autem resurrectio predicte duplicis 
+      resurre<lb ed="#V" n="90" break="no"/>ctionis fuit causa exemplaris. Per verbum factum in 
+      <lb ed="#V" n="91"/>carne filii hominis sit corporum resurrectio. huius 
+      expo<lb ed="#V" n="92" break="no"/>sitio patet per expositionem verbi praedicti. Angeli deferent 
+      <lb ed="#V" n="93"/>anteus eum signum crucis. dicunt aliqui quod non erit signum crucis 
+      <lb ed="#V" n="94"/>in quo crucifixus est christus: sed quoddam signum illius crucis 
+      re<lb ed="#V" n="95" break="no"/>presentatiuum. Ego autem credo quod illa eadem crux in 
+      nume<lb ed="#V" n="96" break="no"/>ro in qua crucifixus est portabitur ad iudicium ministerio 
+      <lb ed="#V" n="97"/>sanctorum angelorum: qui enim corpora humana redacta in pulueres 
+      <lb ed="#V" n="98"/>eadem in numero restaurabit: illam eandem crucem in numero 
+      <lb ed="#V" n="99"/>poterit restaurare: et multo rationabilius est quod ipsamet ad 
+      <lb ed="#V" n="100"/>iudicium portetur quam aliud signum pro ea. ex hoc enim 
+      ele<lb ed="#V" n="101" break="no"/>ctis erit maior honor: et erit expressior materia assurgendi 
+      <lb ed="#V" n="102"/>in laudem Iesu christi: et erit reprobis maior confusio. nec 
+      <lb ed="#V" n="103"/>video inconueniens: si propter rationes predictas ponatur quod 
+      <lb ed="#V" n="104"/>per diuinam potentiam in perpetuum conseruetur. Ne 
+      <lb ed="#V" n="105"/>impii in tormentis positi sub terra fruantur lucem eorum. 
+      <lb ed="#V" n="106"/>(Potest dici vt volunt aliqui quod in alio hemisperio est 
+      ali<lb ed="#V" n="107" break="no"/>quis terre hiatus: per quem deriuaretur solare lumen ad 
+      im<lb ed="#V" n="108" break="no"/>pios: si modo solito circulariter moueretur. ssed hoc nihil 
+      <lb ed="#V" n="109"/>est: quia post iudicium terra erit vndique clausa: aliter enim 
+      <lb ed="#V" n="110"/>si esset in aliqua parte eius hiatus vsque ad infernum lumen 
+      <lb ed="#V" n="111"/>stellarum existentium super hemisperium in quo esset ille 
+      <lb ed="#V" n="112"/>biatus illuminaret infernum. Unde potest dici quod illud 
+      <lb ed="#V" n="113"/>verbum quod dicit Isido. secundum falsam imaginationem 
+      quorun<lb ed="#V" n="114" break="no"/>dam imaginantium esse infernum in superficie terre 
+      in<lb ed="#V" n="115" break="no"/>hemisperio isti contraposito. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

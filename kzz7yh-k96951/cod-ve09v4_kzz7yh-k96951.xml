@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="135-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k96951"><!-- l4d25cl -->
+            <head xml:id="kzz7yh-k96951-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-k96951-d1e103">
+               <lb ed="#V" n="16"/>CIrca litteram. Srisntus degradatus 
+      <lb ed="#V" n="17"/>non habet potestatem 
+      <lb ed="#V" n="18"/>largiendi sacros ordines: quid autem de hoc 
+      te<lb ed="#V" n="19" break="no"/>nendum sit in questionibus dictum est. Eorum 
+      <lb ed="#V" n="20"/>consecratio omnino irrita est. hoc dicitur de illis qui se scienter et 
+      vo<lb ed="#V" n="21" break="no"/>luntarie fecerunt ordinari a symoniacis: quorum 
+      ordinatio<lb ed="#V" n="22" break="no"/>irrita est quantum ad executionem: t quia de consuetudine 
+      <lb ed="#V" n="23"/>cum talibus non dispensatur. maxime si cum hoc est symonia 
+      <lb ed="#V" n="24"/>ex parte illius qui ordinatur.
+   </p>
+            <p xml:id="kzz7yh-k96951-d1e125">
+      ¶ Nota versus in quibus 
+      con<lb ed="#V" n="25" break="no"/>tinentur casus quidam in quibus de consuetudine non dispensatur. 
+      <lb ed="#V" n="26"/>Siue bis ordo datur. seu baptismus repetatur. 
+      <lb ed="#V" n="27"/>Uel si prestetur vt vtrumque symon operetur. 
+      <lb ed="#V" n="28"/>Sen quod vertatur fidei status ordo petatur. 
+      <lb ed="#V" n="29"/>Ut dispensetur spes irrita prorsus habetur. Quisquis 
+      ho<lb ed="#V" n="30" break="no"/>rum alterum vendit sine quo alterum non habetur neu 
+      <lb ed="#V" n="31"/>trum inuenditum derelinquit. 
+   </p>
+            <p xml:id="kzz7yh-k96951-d1e143">
+               <lb ed="#V" n="32"/>Contra vt in questionibus visum est: ius 
+      patrona<lb ed="#V" n="33" break="no"/>tus non debet vendi: et tamen transit cum 
+      <lb ed="#V" n="34"/>venditur villa vel castrum nisi excipiatur. 
+   </p>
+            <p xml:id="kzz7yh-k96951-d1e152">
+               <lb ed="#V" n="35"/>Respondeo verbum magistri non est 
+      intelligen<lb ed="#V" n="36" break="no"/>dum de venditione temporalium cum 
+      <lb ed="#V" n="37"/>quibus transit aliquid spiritualibus annexum: vt ius 
+      patrona<lb ed="#V" n="38" break="no"/>tus: sed de venditione temporalium que ordinantur ad spiri 
+      <lb ed="#V" n="39"/>tualia et ea consequuntur: quod patet: quia verbum magistri sum 
+      <lb ed="#V" n="40"/>ptum est ex decreto Paschalis pape scilicet q. 3. Si qus obiece 
+      <lb ed="#V" n="41"/>rit: vbi predictus papa loqutur contra illos qui emunt 
+      red<lb ed="#V" n="42" break="no"/>ditus ecclesie: qui de iure consequuntur illum: seu debentur 
+      il<lb ed="#V" n="43" break="no"/>li quo ordinatur illi ecclesie in prelatum: nec ius percipiendi 
+      is<lb ed="#V" n="44" break="no"/>los redditus alii de iure potest deuenire quam prelato. Alias 
+      <lb ed="#V" n="45"/>expositiones verbi predicti inuenies in glo. super allegatum 
+      <lb ed="#V" n="46"/>decretum.
+   </p>
+            <p xml:id="kzz7yh-k96951-d1e182">
+      ¶ Nota hic quod ius patronatus transsertur 
+      ven<lb ed="#V" n="47" break="no"/>ditione: vt superius habitum est in quaestionibus: et successione: 
+      <lb ed="#V" n="48"/>extra de iure patronatus. c. i. et. c. In quibusdam: et permuta 
+      <lb ed="#V" n="49"/>tione. 66. q. vlti. Nemini regum. et donatione de 
+      consensu<lb ed="#V" n="50" break="no"/>epristi facta: extra de iure patrona. Nullus. Unde versus. 
+      <lb ed="#V" n="51"/>Iura patronatus transire facit nouus heres. Res 
+      permu<lb ed="#V" n="52" break="no"/>tata. donatio. venditioque. Symoniacos damnatos ac de 
+      <lb ed="#V" n="53"/>ponendos etc. Huic pene non subduntur qui pactionem 
+      re<lb ed="#V" n="54" break="no"/>uocant efficaciter et fideliter re integra: quia quamuis tales 
+      pa<lb ed="#V" n="55" break="no"/>ctum fecerint illicitum: et in hoc peccauerint. tamen non 
+      pro<lb ed="#V" n="56" break="no"/>ceditur ad pacti effectum. Nec etiam ille vt symoniacus 
+      <lb ed="#V" n="57"/>irregularitatem incurrit secundum iudicium conscientie: quod quamuis 
+      <lb ed="#V" n="58"/>pactum fecerit patri pro dando beneficio ecclesiastico filio 
+      <lb ed="#V" n="59"/>hoc pactum ignoranti: vel pro adiuuando ipsum: vt sibi 
+      con<lb ed="#V" n="60" break="no"/>feratur: et postea pactum obliuioni tradens dat illi eidem 
+      <lb ed="#V" n="61"/>illud beneficium pure intuitu pietatis: vel ipsum 
+      adiu<lb ed="#V" n="62" break="no"/>uet vt conferatur eidem: nisi ex post facto illud quod in 
+      <lb ed="#V" n="63"/>pacto fuerat positum scienter recipiat: quia talis secundum 
+      di<lb ed="#V" n="64" break="no"/>uinum iudicium interpretatiue recessit a pacto re inte 
+      <lb ed="#V" n="65"/>gra. Nec ille tanquam symoniacus irregularitatem incurritus 
+      <lb ed="#V" n="66"/>qui patri alicuius clerici promittit adiuuare filium suum si 
+      ip<lb ed="#V" n="67" break="no"/>se pater desistat a committendo aliquod pactum: quod 
+      com<lb ed="#V" n="68" break="no"/>mittere intendebat: nec clericus per adiutorium tale 
+      benesi<lb ed="#V" n="69" break="no"/>cium assecutus tenetur ad illius beneficii resignationem 
+      <!--00299.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="70"/>postquam sibi constiterit se per supradictum modum beneficium 
+      <lb ed="#V" n="71"/>assecutum: predicta enim pactio quam ille qui ipsum 
+      adin<lb ed="#V" n="72" break="no"/>uit fecit cum eius patre: non videtur illicita fuisse: cum 
+      <lb ed="#V" n="73"/>etiam prelato licitum sit alicui dicere. Pomitto tibi quod 
+      <lb ed="#V" n="74"/>ego tibi prouidebo de beneficio competenti: si mala opera 
+      de<lb ed="#V" n="75" break="no"/>clinando: et bona opera faciendo te beneficio ecclesiastico 
+      <lb ed="#V" n="76"/>reddideris dignum: talis enim conditio est ad honorem et 
+      re<lb ed="#V" n="77" break="no"/>uerentiam dei: nec per talem conditionem obligatur hoc 
+      su<lb ed="#V" n="78" break="no"/>scepturus beneficium ad aliquod ad quod alias non esset 
+      <lb ed="#V" n="79"/>obligatus: vnde per supradictam promissionem prelatus non 
+      <lb ed="#V" n="80"/>tam obligat suscepturum beneficium quam inducit ad faciendum 
+      <lb ed="#V" n="81"/>illud quod tenetur facere per legem diuiuam. A proprio gradu 
+      deci<lb ed="#V" n="82" break="no"/>dant: hoc dicitur de symoniacis symoniace ordinatis vel 
+      ordi<lb ed="#V" n="83" break="no"/>natoribus qui secndum canones a proprio gradu decidunt scilicet 
+      quam<lb ed="#V" n="84" break="no"/>tum ad executionem: quamuis secundum rem retineant characterem 
+      <lb ed="#V" n="85"/>et gradum. Subdinaconus non ordinatur ante 14. annos. 
+      <lb ed="#V" n="86"/>hoc dicitur secundum antiqua iura: quia modo non debet 
+      <lb ed="#V" n="87"/>ordinari ante. 20. decre. 78 di. Subdiaconus. Nec 
+      praesbi<lb ed="#V" n="88" break="no"/>ter ante. 30. hoc modo non tenetur: potest enim 
+      ordinari<lb ed="#V" n="89" break="no"/>presbyter. 25 annorum. extra de elec. Cum in cunctis §. 
+      <lb ed="#V" n="90"/>Inferiora. Epristi tamen promoueri non debent nisi trigesimum 
+      <lb ed="#V" n="91"/>annum compleuerint: vt habetur indecre. predicta. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

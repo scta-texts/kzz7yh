@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="109-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k78050"><!-- l4d19cl -->
+            <head xml:id="kzz7yh-k78050-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-k78050-d1e103">
+               <lb ed="#V" n="4"/>CIrca litteram. Alteram istarum 
+      <lb ed="#V" n="5"/>clauium: idest 
+      scien<lb ed="#V" n="6" break="no"/>tiam discernendi non habent omnes sacerdotes 
+      <lb ed="#V" n="7"/>hic non est tenenda magistri opinio: vt dictum 
+      <lb ed="#V" n="8"/>est in questionibus. Moysen et Aaron sacerdotes. 
+      Moy<lb ed="#V" n="9" break="no"/>ses sacerdos dicitur non officio ordinis: sed potestate sibi 
+      con<lb ed="#V" n="10" break="no"/>missa a deo: quia Aaron consecrauit. Cum esset pontifex 
+      <lb ed="#V" n="11"/>amni illius prophetauit: quamuis enim intentio Cayphe 
+      ma<lb ed="#V" n="12" break="no"/>la fuerit: tamen locutio vera fuit: et a spiritu sancto mouente 
+      <lb ed="#V" n="13"/>linguam non intentionem peruersam. Iudicans alium quod 
+      <lb ed="#V" n="14"/>est iudicandus condennat seipsum. Si hoc referatur ad 
+      iu<lb ed="#V" n="15" break="no"/>dicium quo sacerdos iudicat penitentem in foro 
+      peniten<lb ed="#V" n="16" break="no"/>tie: planum est. Sacerdos enim criminosus sacramentum 
+      <lb ed="#V" n="17"/>penitentie ministrando grauiter peccat. Si autem 
+      refe<lb ed="#V" n="18" break="no"/>ratur verbum ad iudicium exterius non sic est dicendum 
+      <lb ed="#V" n="19"/>vniuersaliter: quia iudex habens crimen occultum in dando 
+      <lb ed="#V" n="20"/>iustam sententiam contra aliquem non condemnat seipsum. Non tamen 
+      <lb ed="#V" n="21"/>mox restituit in potestatem pristinam scilicet quantum ad 
+      officii<lb ed="#V" n="22" break="no"/>executionem: et etiam quia per penitentiam non statim 
+      remouen<lb ed="#V" n="23" break="no"/>tur de lege communi sequele peccati. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

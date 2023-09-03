@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="36-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k25721"><!-- l4d8cl -->
+            <head xml:id="kzz7yh-k25721-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-k25721-d1e103">
+               <lb ed="#V" n="25"/>CIrca litteram. hec duo 
+      sacra<lb ed="#V" n="26" break="no"/>ecum entaa 
+      demonstra<lb ed="#V" n="27" break="no"/>ta sunt etc.
+   </p>
+            <p xml:id="kzz7yh-k25721-d1e112">
+      ¶ Nota quod sanguis qui fluxit de late 
+      <lb ed="#V" n="28"/>re christi significauit sacramentum eucharistie 
+      in<lb ed="#V" n="29" break="no"/>quantum ibi est sanguis christi sub vini specie: et sacramentum 
+      <lb ed="#V" n="30"/>penitentie inquantum est penalis purgatio: quia quamuis in 
+      <lb ed="#V" n="31"/>effusione illius sanguinis corpus christi penam no senserit 
+      <lb ed="#V" n="32"/>quia iam mortuum erat: tamen de lege communi effusio 
+      sangui<lb ed="#V" n="33" break="no"/>nis penalitatem significat. Forma est quam ipse ibidem edi 
+      <lb ed="#V" n="34"/>dit dicens: doc est corpus meum: et post. hic est sanguis 
+      <lb ed="#V" n="35"/>meus. Hic nota quod secundum quosdam magister non intendit 
+      <lb ed="#V" n="36"/>hic precise dicere formam consecrationis vini: melius tamen 
+      <lb ed="#V" n="37"/>est vt dicatur: quia per hec verba: hic est sanguis meus: idem 
+      <lb ed="#V" n="38"/>intelligitur: sicut per ista: hic est calix sanguinis mei. 
+      Un<lb ed="#V" n="39" break="no"/>de si illa ponerentur loco istorum eadem esset virtus: tamen 
+      <lb ed="#V" n="40"/>fieri non debet propter institutionem ecclesie et 
+      eonsuetu<lb ed="#V" n="41" break="no"/>dinem. Cum enim hec verba proferuntur. Hic nota quod per 
+      <lb ed="#V" n="42"/>formas predictas possunt dici consecrari panis et vinum 
+      <lb ed="#V" n="43"/>inquantum per formam que dicitur super panem: substantia 
+      pa<lb ed="#V" n="44" break="no"/>nis transubstantiatur in rem sacram que est corpus christi: et 
+      <lb ed="#V" n="45"/>per formam que dicitur super vinum: transubstantiatur sub 
+      <lb ed="#V" n="46"/>stantia vini in rem sacram que est sanguis christi. Potest etiam 
+      <lb ed="#V" n="47"/>dici species consecrari inquantum per predictas formas 
+      effi<lb ed="#V" n="48" break="no"/>ciuntur continentes rem sacram: vna corpus: alia 
+      sangui<lb ed="#V" n="49" break="no"/>nem: possunt etiam dici consecrari corpus et sanguis 
+      in<lb ed="#V" n="50" break="no"/>quantum per transubstantiationes: que siunt per formas 
+      predi<lb ed="#V" n="51" break="no"/>ctas: et deputantur ad nouum et specialem sanctificandi 
+      <lb ed="#V" n="52"/>modum: quamuis enim christus sine sacramento 
+      sanctisi<lb ed="#V" n="53" break="no"/>cet hominem in eum credentem: tamen hoc facit alio 
+      <lb ed="#V" n="54"/>modo quam vt est sub sacramento: quia primo modo 
+      dar<lb ed="#V" n="55" break="no"/>christus homini sanctitatem propter suam operationem 
+      <lb ed="#V" n="56"/>tanquam propter dispositionem congruam:a sed secunde 
+      <lb ed="#V" n="57"/>modo vltra hoc dat sibi sanctitatem ratione rei 
+      susee<lb ed="#V" n="58" break="no"/>parte: et quia magis proprie dicitur consecrari quod transmu 
+      <lb ed="#V" n="59"/>tatur in rem sacram quam illud quod deputatur ad vsum 
+      <lb ed="#V" n="60"/>facrum: quodlibet istorum magis dicitur consecrari quae 
+      <lb ed="#V" n="61"/>illud quod efficit continens tantum rem sacram: ideo sub 
+      <lb ed="#V" n="62"/>stantia panis et vini magis proprie dicitur consecrari per formas 
+      <lb ed="#V" n="63"/>predictas: quam corpus et sanguis: et ista quam species panis et 
+      <lb ed="#V" n="64"/>vini. Reliqua vero ad laudem dei dicuntur. Hic nota quod 
+      <lb ed="#V" n="65"/>quamuis non sint de essentia sacramenti: tamen non debent 
+      omit<lb ed="#V" n="66" break="no"/>ti ppter ordinationem et reuerentium sacramenti: per hoc tamen 
+      <!--00102.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="67"/>quod dicit magister: et hic est sanguis meus: 
+      intelligun<lb ed="#V" n="68" break="no"/>tur comprehendi omnia verba que sequuniur vsque in 
+      <lb ed="#V" n="69"/>remissionem peccatorum inclusiue secundum opinionem 
+      <lb ed="#V" n="70"/>que ponit illam esse de essentia forme. Sicut ex multis 
+      <lb ed="#V" n="71"/>granis. Nota quod vna est multorum granorum adunatio: 
+      ra<lb ed="#V" n="72" break="no"/>cemus vnum granum: botrus congregatio vuarum: 
+      gla<lb ed="#V" n="73" break="no"/>rea humor racemi: vinacium folliculus in quo continetur 
+      <lb ed="#V" n="74"/>glarea: et arillus est gran llum quod est in racemo: quod 
+      <lb ed="#V" n="75"/>alio nomine dicitur acinu). 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

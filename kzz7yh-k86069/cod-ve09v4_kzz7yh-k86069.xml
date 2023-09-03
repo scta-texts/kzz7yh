@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-02">September 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="118-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-k86069"><!-- l4d22cl -->
+            <head xml:id="kzz7yh-k86069-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-k86069-d1e103">
+               <lb ed="#V" n="75"/>CIrca litteram <quote xml:id="kzz7yh-k86069-Qd1e107" source="http://scta.info/resource/pl-l4d22c1-d1e134@27-28">Peccata 
+      origia<lb ed="#V" n="76" break="no"/>lia</quote>: non 
+      significa<lb ed="#V" n="77" break="no"/>tur hoc peccatum originale in plurali: quia in 
+      <lb ed="#V" n="78"/>eodem homine sint plura: sed quia multiplex in 
+     <lb ed="#V" n="79"/>effectu inquantum corrumpit diuersas vires anime. <quote xml:id="kzz7yh-k86069-Qd1e119" source="http://scta.info/resource/pl-l4d22c1-d1e182@13-18">Mox 
+      <lb ed="#V" n="80"/>omnium prosterneret in via vitiorum</quote>: idest cito nisi peniteat 
+      <lb ed="#V" n="81"/>quia peccatum quod per penitentiam non difuit: mox suo 
+      pon<lb ed="#V" n="82" break="no"/>dere ad aliud trahit. Ita reus et peccator constituitur vt 
+      <lb ed="#V" n="83"/>ante fuerat: idest similiter: sed non tantum: vel refert hoc 
+      <lb ed="#V" n="84"/>ad reatum pene damni: non seruus. Quidam dicunt 
+      pe<lb ed="#V" n="85" break="no"/>nitentiam exteriorem et interiorem esse sacramentum: nec 
+      <lb ed="#V" n="86"/>duo sacramenta: sed vnum: et isti bene dicunt: est enim 
+      con<lb ed="#V" n="87" break="no"/>munis opinio et vera. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>
