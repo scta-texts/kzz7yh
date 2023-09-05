@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="90-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g63881"><!-- l3d26prae -->
+            <head xml:id="kzz7yh-g63881-Hd1e101">Praeambulum</head>
+            <p xml:id="kzz7yh-g63881-d1e103">
+               <lb ed="#V" n="31"/>¶ De spe quid sit. Dintio XXVII
+    </p>
+            <p xml:id="kzz7yh-g63881-d1e108">
+               <lb ed="#V" n="32"/>St autem spes virtus 
+      <lb ed="#V" n="33"/>qua 
+      spiritua<lb ed="#V" n="34" break="no"/>lia et eterna bona sperantur idest cum 
+      <lb ed="#V" n="35"/>fiducia expectantur. Est enim spes 
+      <lb ed="#V" n="36"/>certa expectatio future beatitudinis. 
+      <lb ed="#V" n="37"/>veniens ex dei gratia et ex meritis precedenti 
+      <lb ed="#V" n="38"/>bus vel ipsam spem quam natura preit charitas 
+      <lb ed="#V" n="39"/>vel rem speratam id est beatitudinem eternam. 
+      Si<lb ed="#V" n="40" break="no"/>ne meritis enim aliquid sperare non spes sed 
+      <lb ed="#V" n="41"/>presumptio dici potest. 
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e132">
+               <lb ed="#V" n="42"/>¶ De quibus sit spes. 
+      <lb ed="#V" n="43"/>Et sicut fides ita et spes est de in 
+      <lb ed="#V" n="44"/>uisibilibus. 
+      Un<lb ed="#V" n="45" break="no"/>de Augu. Fidem appellamus earum rerum que 
+      <lb ed="#V" n="46"/>non videntur. De spe quoque dicitur: spes que 
+      <lb ed="#V" n="47"/>videtur non est spes. Quod enim videt quis quid 
+      <lb ed="#V" n="48"/>sperat: quod attinet ad non videre: vel que 
+      cre<lb ed="#V" n="49" break="no"/>duntur vel que sperantur fidei speique commune 
+      <lb ed="#V" n="50"/>est. Distinguitur tamen fides a spe sicut 
+      voca<lb ed="#V" n="51" break="no"/>bulo ita rationabili differentia. Est enim fides 
+      <lb ed="#V" n="52"/>malarum rerum et bonarum: quia et bona 
+      credun<lb ed="#V" n="53" break="no"/>tur et mala et hoc fide bona non mala. Est 
+      eti<lb ed="#V" n="54" break="no"/>am fides et preteritarum rerum et presentium et 
+      <lb ed="#V" n="55"/>futurarum. Credimus enim mortem christi que 
+      <lb ed="#V" n="56"/>iam preteriit. credimus sessionem que nunc est. 
+      <lb ed="#V" n="57"/>Credimus venturum ad iudicandum quod 
+      futu<lb ed="#V" n="58" break="no"/>rum est. Item fides et suarum rerum est et alienarum. 
+      <lb ed="#V" n="59"/>Nam et se quisque credit esse cepisse nec fuissevti 
+      <lb ed="#V" n="60"/>quod sempiternum. Et alia atque alia non modo 
+      <lb ed="#V" n="61"/>de aliis hominibus multa que ad religionem. 
+      <!--00192.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="62"/>ertinent verum etiam de angelis credimus. 
+      <lb ed="#V" n="63"/>Spes autem non nisi bonarum rerum est: nec 
+      <lb ed="#V" n="64"/>nisi futurarum et ad eum pertinentium qui ea 
+      <lb ed="#V" n="65"/>rum spe gerere perhibetur. 
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e191">
+               <lb ed="#V" n="66"/>¶ Redit ad premissam questionem scilicet an fides et 
+      <lb ed="#V" n="67"/>spes in christo fuerint. 
+      <lb ed="#V" n="68"/>Post hoc superest inuestigare vtrum 
+      <lb ed="#V" n="69"/>ndes et spes in christo 
+      fue<lb ed="#V" n="70" break="no"/>rint vnde tractatus iste sumpsit exordium: 
+      Qui<lb ed="#V" n="71" break="no"/>busdam non indocte videtur fidem virtutem 
+      <lb ed="#V" n="72"/>et speem in eo non fuisse: sicut in sanctis iam 
+      beati<lb ed="#V" n="73" break="no"/>ficatis: vel in angelis non sunt: et tamen 
+      sancti<lb ed="#V" n="74" break="no"/>eredunt et sperant resurrectionem futuram: et 
+      an<lb ed="#V" n="75" break="no"/>geli eandem credunt: nec tamen in eis fides vel 
+      <lb ed="#V" n="76"/>spes virtus est: quia et deo per speciem 
+      contemplam<lb ed="#V" n="77" break="no"/>do fruuntur: et in dei verbo resurrectionem 
+      futu<lb ed="#V" n="78" break="no"/>ram siue iudicium non per speculum in 
+      enigma<lb ed="#V" n="79" break="no"/>te: sed preclarissime inspiciunt. Si enim quia 
+      cre<lb ed="#V" n="80" break="no"/>dunt resurrectionem futuram: ideo verum est 
+      <lb ed="#V" n="81"/>eos fidem habere: ergo ea consumata post 
+      iudi<lb ed="#V" n="82" break="no"/>cium similiter et fidem habere dicentur: quia 
+      cre<lb ed="#V" n="83" break="no"/>dent eam preteritam. Sed sicut tunc credent: nec 
+      <lb ed="#V" n="84"/>tamen fidem que fideles facit habebunt: quia non 
+      <lb ed="#V" n="85"/>credent absque scientia: que non erit 
+      enigmati<lb ed="#V" n="86" break="no"/>ca: sed per speciem: ita et modo credunt et sperant 
+      <lb ed="#V" n="87"/>resurectionem: nec tamen fidem habent quia 
+      <lb ed="#V" n="88"/>credendo cognoscunt. Uenit enim eis quod 
+      per<lb ed="#V" n="89" break="no"/>fectum et euacuatum est quod ex parte est. Uenit 
+      <lb ed="#V" n="90"/>enim cognitio et euacuata est fides. Uenit 
+      spe<lb ed="#V" n="91" break="no"/>cies et desiit spes. Ita et christus in quo fuerunt 
+      <lb ed="#V" n="92"/>bona patrie credidit quidem et sperauit 
+      resurre<lb ed="#V" n="93" break="no"/>ctionem tertia die futuram: pro qua et patrem 
+      <lb ed="#V" n="94"/>orauit: nec tamen fidem virtutem et spem 
+      ha<lb ed="#V" n="95" break="no"/>buit: quia non enigmaticam et specularem: sed 
+      cla<lb ed="#V" n="96" break="no"/>rissimam de ea cognitionem habuit: quia non 
+      per<lb ed="#V" n="97" break="no"/>fectius eam cognouit preteritam quam intellexit 
+      futu<lb ed="#V" n="98" break="no"/>ram. Sperauit tamen christus sicut in psalmo 
+      <lb ed="#V" n="99"/>ait. In te domine speraui: nec tamen fidem vel 
+      <lb ed="#V" n="100"/>spem virtutem habuit: quia per speciem videbat ea 
+      <lb ed="#V" n="101"/>que credebat. De antiquis vero patribus qui 
+      <lb ed="#V" n="102"/>apud inferos vsque ad passionem tenebantur non 
+      <lb ed="#V" n="103"/>incongrue dici potest quod fidem et spem virtutem 
+      ha<lb ed="#V" n="104" break="no"/>buerint: quia credebant et sperabant se visuros deum 
+      <lb ed="#V" n="105"/>per speciem qualiter eum tunc non videbant: quia 
+      <lb ed="#V" n="106"/>non patuit eis cognitio dei per speciem ante 
+      <lb ed="#V" n="107"/>passionem christi. Qua consumata a fide 
+      tran<lb ed="#V" n="108" break="no"/>sierunt ad speciem. Distinctio XXVII 
+      <lb ed="#V" n="109"/>St autem spes virtus etc. Superius 
+      <lb ed="#V" n="110"/>dterminauit magister de 
+      si<lb ed="#V" n="111" break="no"/>de: hic determinat de spe et diuiditur in partes 
+      <lb ed="#V" n="112"/>quatuor.
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e296">
+      ¶ Primmo ostendit quid est spes.
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e298">
+      ¶ 
+      Secun<lb ed="#V" n="113" break="no"/>do ostendit differentiam inter ipsam et fidem. ibi. 
+      <lb ed="#V" n="114"/>Et sicut fides.
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e305">
+      ¶ Tertio inquirit vtrum spes fuerit in 
+      <lb ed="#V" n="115"/>christo ibi. Post hec superest.
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e310">
+      ¶ Quarto inquirit vtrum 
+      <lb ed="#V" n="116"/>spes fuerit in sanctis patribus dum erant 
+      in<lb ed="#V" n="117" break="no"/>limbo ibi. De antiquis vero patribus. 
+      <lb ed="#V" n="118"/>firca hanc distinctionem querendum est 
+      <lb ed="#V" n="119"/>principaliter de sex.
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e321">
+      ¶ Primo de pas. 
+      <!--00193.xml-->
+      <pb ed="#V" n="91-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>sionibus in generali.
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e332">
+      ¶ Secundo in speciali de passione 
+      <lb ed="#V" n="2"/>spei.
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e338">
+      ¶ Tertio de virtute spei quantum ad eius essentiam 
+      absolu<lb ed="#V" n="3" break="no"/>te.
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e343">
+      ¶ Quarto de ipsa in comparatione ad eius obiectum actum et causa: 
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e345">
+               <lb ed="#V" n="4"/>¶ Quinto de ipsa in comparatione ad eius subiectum.
+   </p>
+            <p xml:id="kzz7yh-g63881-d1e350">
+      ¶ Sexto de 
+      <lb ed="#V" n="5"/>vitiis oppositis spei. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

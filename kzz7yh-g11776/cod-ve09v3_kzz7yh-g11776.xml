@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="17-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g11776"><!-- l3d5cl -->
+            <head xml:id="kzz7yh-g11776-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-g11776-d1e103">
+               <lb ed="#V" n="4"/>Irca litteram. hic deus 
+      huma<lb ed="#V" n="5" break="no"/>nam naturam: nec in 
+      <lb ed="#V" n="6"/>conuenienter additur iste articulus hic: quia quamuis 
+      <lb ed="#V" n="7"/>deus sit terminus discretus: quantum ad 
+      significa<lb ed="#V" n="8" break="no"/>tionem: est tamen communis: quantum ad suppositionem: quia potest 
+      <lb ed="#V" n="9"/>supponere pro pluribus personis. Solus filius accepit 
+      homi<lb ed="#V" n="10" break="no"/>nem: hic hec dictio solus non excludit diuinam naturam: quia 
+      <lb ed="#V" n="11"/>non est realiter distincta a filio: sed excludit alias personas: quia 
+      <lb ed="#V" n="12"/>secundum rem relatiuam a persona filii sunt distincte. In forma dei 
+      <lb ed="#V" n="13"/>erat: hic notandum quod forma accipi potest pro pura 
+      actualita<lb ed="#V" n="14" break="no"/>te: et sic diuina natura est forma: vel pro actualitate in qua est 
+      <lb ed="#V" n="15"/>possibilitas ad aliquam perfectionem accidentalem: vel subistantialem: 
+      <lb ed="#V" n="16"/>et sic tota essentia cuiuscumque rei create existentis in actu est 
+      <lb ed="#V" n="17"/>forma: vel pro actualitate in qua possibilitas ad 
+      perfectio<lb ed="#V" n="18" break="no"/>nem substantialem: et sic infimus gradus actualitatis qui 
+      <lb ed="#V" n="19"/>fundamentum est tramsmutationis naturalis ab aliquibus dicitur 
+      for<lb ed="#V" n="20" break="no"/>ma incompleta: seu aliquis gradus forme: sed isti loquuntur 
+      im<lb ed="#V" n="21" break="no"/>proprie: quia ille infimus gradus actualitatis magis proprie 
+      <lb ed="#V" n="22"/>maeriam debet dici. Alio modo pro actualitate generali: vel 
+      cor<lb ed="#V" n="23" break="no"/>ruptibili eo modo quo forme competit generari: et corrum 
+      <lb ed="#V" n="24"/>pi: et hoc est quod vocatur forma a philosophis secundum modum loquem 
+      <lb ed="#V" n="25"/>di consuetum. Ideo non sic dicitur diuina natura est homo. 
+      <lb ed="#V" n="26"/>vel facta homo: sicut dei filius: hoc inferius in quaestione 
+      po<lb ed="#V" n="27" break="no"/>netur. Anima absoluta a corpore persona est: in hoc non est 
+      con<lb ed="#V" n="28" break="no"/>sentiendum magistro: vt dictum est in questionibus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

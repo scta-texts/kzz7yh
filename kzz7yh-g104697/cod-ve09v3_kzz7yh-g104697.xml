@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="148-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g104697"><!-- l3d38cl -->
+            <head xml:id="kzz7yh-g104697-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-g104697-d1e103">
+               <lb ed="#V" n="106"/>CIrca litteram in erfectis 
+      ve<lb ed="#V" n="107" break="no"/>ro illud quod est 
+         <lb ed="#V" n="108"/>pro commodo alicuius dicitur esse damnabile: 
+         <lb ed="#V" n="109"/>quod est intelligendum si per votum 
+      obliga<lb ed="#V" n="110" break="no"/>tua est ad contrarium. Uel si ex hoc imminet probabiliter 
+         <lb ed="#V" n="111"/>graue scandalum: vel alterius notabile nocumentum: 
+      pre<lb ed="#V" n="112" break="no"/>cipue si sepe iteretur: quod non est intelligendum quod 
+      inte<lb ed="#V" n="113" break="no"/>ratio venialium equiualeat vni mortali. Sed quia ex ite 
+         <lb ed="#V" n="114"/>ratione aliquando oritur scandalum. Aliquando 
+      dispo<lb ed="#V" n="115" break="no"/>nitur homo ad contentum ratione quorum aliquid 
+      po<lb ed="#V" n="116" break="no"/>test esse mortale: quod alias esset veniale propter hanc 
+         <lb ed="#V" n="117"/>misericordiam veniale fuit peccatum: quod sic 
+      intelligen<lb ed="#V" n="118" break="no"/>dum est secundum aliquos quod quia iudex ab illis obstetricibus 
+         <lb ed="#V" n="119"/>requisiuit veritatem in iudicio: vbi quelibet tenetur non 
+         <lb ed="#V" n="120"/>negare veritatem pro cuius recognitione sciret se 
+      occiden<lb ed="#V" n="121" break="no"/>dum: quia homo interrogatus a iudice secundum formam 
+      re<lb ed="#V" n="122" break="no"/>ctam: et de pertinentibus ad potestatem eius tenetur ex legis 
+         <lb ed="#V" n="123"/>necessitate non mentiri: ideo obstentrices mentiendo 
+      mor<lb ed="#V" n="124" break="no"/>taliter peccassent: nisi fuisset opus misericordie: cuius in 
+         <lb ed="#V" n="125"/>quisitio seu reprehensio ad potestatem pharaonis non 
+      pertine<lb ed="#V" n="126" break="no"/>bat: quia non est data aliqua potestas homini ad aliquido 
+         <lb ed="#V" n="127"/>agendum contra deum. Sunt que nescire sit melius quam 
+         <lb ed="#V" n="128"/>scire quod est intelligendum per accidens: et inquantum 
+         <lb ed="#V" n="129"/>scilicet homo aliquando ex cognitione alicuius mali 
+      pe<lb ed="#V" n="130" break="no"/>ne prorumpit in impatientiam. Et aliquando ex 
+      cogni<lb ed="#V" n="131" break="no"/>tione alicuius delectabilis secundum sensum inclinatur 
+         <lb ed="#V" n="132"/>ad inordinatam prosecutionem: per se tamen: nullius 
+      rei<lb ed="#V" n="133" break="no"/>scientia mala est: immo scientia malorum per se est bona: 
+         <lb ed="#V" n="134"/>Et intelligo de scientia que vere scientia est: quod dico 
+         <lb ed="#V" n="135"/>ad excludendum superstitiones: que per se male sunt. 
+       </p>
+         </div>
+      </body>
+   </text>
+</TEI>

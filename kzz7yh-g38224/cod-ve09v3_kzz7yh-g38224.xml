@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="54-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g38224"><!-- l3d16prae -->
+            <head xml:id="kzz7yh-g38224-Hd1e101">Praeambulum</head>
+            <p xml:id="kzz7yh-g38224-d1e103">
+               <lb ed="#V" n="25"/>¶ An in christo fuerit necessitas patiendi et 
+      mo<lb ed="#V" n="26" break="no"/>riendi que est defectus generalis. 
+      <lb ed="#V" n="27"/>Distin. XVII 
+    </p>
+            <p xml:id="kzz7yh-g38224-d1e112">
+               <lb ed="#V" n="28"/>HIc oritur questio ex 
+      predi<lb ed="#V" n="29" break="no"/>ctis ducens 
+      ori<lb ed="#V" n="30" break="no"/>ginem. Dictum est enim supra quod christus in se 
+      <lb ed="#V" n="31"/>nteros defectus suscepit preter peccatum. 
+      <lb ed="#V" n="32"/>Est autem hominis quidam generalis 
+      defe<lb ed="#V" n="33" break="no"/>ctus: qui peccatum non est scilicet necessitas patiendi vel 
+      <lb ed="#V" n="34"/>moriendi. Unde corpus nostrum non tantum mortale: 
+      <lb ed="#V" n="35"/>sed est mortuum dicitur quia non tantum aptitudinem 
+      morien<lb ed="#V" n="36" break="no"/>di sed est necessitatem habet. Ion queritur vtrum 
+      necessi<lb ed="#V" n="37" break="no"/>tas talis in christi carne fuerit: De aptitudine enim 
+      <lb ed="#V" n="38"/>moriendi quod in eo fuerit ambiguum non est: que 
+      <lb ed="#V" n="39"/>est ante peccatum in homine fuit: quando aliquis in eo non fuit 
+      <lb ed="#V" n="40"/>defectus nec ergo mortalitas illa tunc in eo fuit 
+      <lb ed="#V" n="41"/>defectus: quia nature ei erat. Unde est quidam 
+      ta<lb ed="#V" n="42" break="no"/>lem mortalitatem in nobis non esse defcctum non 
+      <lb ed="#V" n="43"/>improbe tradunt: sed necessitatem moriendi vel 
+      <lb ed="#V" n="44"/>patiendi que est mortalitas dicitur vel passibilitas. 
+      <lb ed="#V" n="45"/>Dicitur. n. homo nunc passibilis vel mortalis: non modo 
+      <lb ed="#V" n="46"/>propter egritudinem: sed etiam propter necessitatem. Sed 
+      nun<lb ed="#V" n="47" break="no"/>quid hic defectus fuit in christi carne: Aima quo 
+      <lb ed="#V" n="48"/>que eius cum passibilis extiterit ante mortem: numquid 
+      <lb ed="#V" n="49"/>necessitatem patiendi habuit: Si enim necessitas 
+      <lb ed="#V" n="50"/>patiendi vel moriendi fuit in christo: non videtur sola 
+      vo<lb ed="#V" n="51" break="no"/>luntate miserationis defectus nostros accepisse. 
+      <lb ed="#V" n="52"/>Ad quod dici potest: christum voluntate non necessita 
+      <lb ed="#V" n="53"/>te sue nature hos defectus sicut alios 
+      suscepis<lb ed="#V" n="54" break="no"/>se scilicet necessitatem patiendi in anima: simul autem patio 
+      <lb ed="#V" n="55"/>di et moriendi in carne. Uerum hanc necessitatem 
+      <lb ed="#V" n="56"/>non habuit ex necessitate sue conditionis: quia a peccato 
+      <lb ed="#V" n="57"/>imunis: sed ex sola voluntate accepit: de nostra 
+      in<lb ed="#V" n="58" break="no"/>firmitate ponens tabernaculum suum in sole scilicet sub 
+      <lb ed="#V" n="59"/>temporali mutabilitate et labore. Unde super epilulam 
+      <lb ed="#V" n="60"/>ad hebreos auctoritas dicit: quia sicut hominibus 
+      <!--00120.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="61"/>aliis iure et lege nature statutum est semel mori: 
+      <lb ed="#V" n="62"/>ita et christus eadem necessitate et iure nature semel 
+      <lb ed="#V" n="63"/>oblatus est et non sepe. Nec ideo dicit iure 
+      na<lb ed="#V" n="64" break="no"/>ture quod ex natura sue conditionis hunc defectum 
+      <lb ed="#V" n="65"/>traxerit: qui est non prouenit nobis ex natura secundum 
+      <lb ed="#V" n="66"/>quod proprius est instituta: sed ex ea peccato viciata: et 
+      <lb ed="#V" n="67"/>ideo dicitur hic defectus naturalis: quia quasi 
+      pro<lb ed="#V" n="68" break="no"/>natura inoleuit in omnibus diffusus. 
+   </p>
+            <p xml:id="kzz7yh-g38224-d1e208">
+               <lb ed="#V" n="69"/>¶ De statibus hominis et quid de singulis 
+      chri<lb ed="#V" n="70" break="no"/>stus accepit. 
+      <lb ed="#V" n="71"/>Et est hic notandum christum de omni statu 
+      <lb ed="#V" n="72"/>hominis aliquid accepisse qui omnes 
+      <lb ed="#V" n="73"/>venit salutare. Sunt enim quatuor status hominis: 
+      <lb ed="#V" n="74"/>primus ante peccatum: secundus post peccatum et ante gratiam: 
+      <lb ed="#V" n="75"/>tertius sub gratia: quartus in gloria. De primo 
+      <lb ed="#V" n="76"/>statu accepit immunitatem peccati. Unde Augu. illud 
+      <lb ed="#V" n="77"/>Ioannis euangeliste exponens. Qui desursum 
+      <lb ed="#V" n="78"/>venit super omnes est. Dicit christum venisse desursum id est 
+      <lb ed="#V" n="79"/>de altitudine humaene nature ante peccatum: quia de 
+      <lb ed="#V" n="80"/>illa altitudine assumpsit verbum dei humana 
+      na<lb ed="#V" n="81" break="no"/>turam dum non assumpsit ipsam culpam cuius 
+      <lb ed="#V" n="82"/>assumpsit penam. Sed penam assumpsit de statu 
+      <lb ed="#V" n="83"/>secundo et alios defectus. De tertio vero gratiae 
+      pleni<lb ed="#V" n="84" break="no"/>tudinem. De quarto non posse peccare: et dei per 
+      <lb ed="#V" n="85"/>fectam contemplationem. Habuit enim simul bona 
+      vie<lb ed="#V" n="86" break="no"/>quedam et bona patrie: sicut et quedam mala vie. 
+      <lb ed="#V" n="87"/>Ic oritur Questio etc. Superius de 
+      <lb ed="#V" n="88"/>terminauit magister de 
+      de<lb ed="#V" n="89" break="no"/>fectibus quos filius dei cum humana natura 
+      assum<lb ed="#V" n="90" break="no"/>psit: hic determinat de modo: quo eos assumpsit 
+      <lb ed="#V" n="91"/>et diuiditur pars ista in partes tres primo querit: et 
+      <lb ed="#V" n="92"/>quaestionem deducit et vtrum filius dei cum humana natura 
+      <lb ed="#V" n="93"/>assumpsit defectum passibilitatis de necessitate.
+   </p>
+            <p xml:id="kzz7yh-g38224-d1e265">
+      ¶ Secundo 
+      <lb ed="#V" n="94"/>ponit quaestionis solutionem. ibi. Ad quod dici potest
+   </p>
+            <p xml:id="kzz7yh-g38224-d1e271">
+      ¶ Tertio 
+      <lb ed="#V" n="95"/>solutionis explanationem. ibi. Et est hic notandum. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

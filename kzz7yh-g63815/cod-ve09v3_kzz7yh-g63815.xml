@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="90-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g63815"><!-- l3d25cl -->
+            <head xml:id="kzz7yh-g63815-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-g63815-d1e103">
+               <lb ed="#V" n="5"/>Circa litteram. Rrediderunt in carnem 
+      <lb ed="#V" n="6"/>apostasie non sunt infidelitatis species. 
+      <lb ed="#V" n="7"/>venturum isecet implicite vel 
+      explici<lb ed="#V" n="8" break="no"/>te. Nec vixerint nec viuent nisi ex fide 
+      incar<lb ed="#V" n="9" break="no"/>nationis ifide scilicet implicita vel explicita. (Ne 
+      <lb ed="#V" n="10"/>mo liberatur a damnatione que per Adam facta est nisi per 
+      <lb ed="#V" n="11"/>fidem iesu christi. per fidem scilicet explicitam vel implicitam. 
+      Tre<lb ed="#V" n="12" break="no"/>dunt enim que ignorant habentes fidem velatam in mysterio. 
+      <lb ed="#V" n="13"/>Credunt scilicet implicite que ignorant id est que nesciunt 
+      explici<lb ed="#V" n="14" break="no"/>te. Quibusdam videtur quod suffecerit illis quatuor tantum 
+      cre<lb ed="#V" n="15" break="no"/>dere scilicet natiuitatem: mortem: resurrectionem: aduentum ad 
+      iudi<lb ed="#V" n="16" break="no"/>cium. sub natiuitate comprehendens incarnationem: per 
+      re<lb ed="#V" n="17" break="no"/>surrectionem et aduentum ad iudicium: dantur etiam nobis 
+      <lb ed="#V" n="18"/>intelligi christi in celum ascensio. Et ita per fidem venit ad 
+      <lb ed="#V" n="19"/>opera: quia propter fidem incarnationis et spem redemptionis 
+      <lb ed="#V" n="20"/>multas elemosynas: et multa alia bona opera faciebat. 
+      <lb ed="#V" n="21"/>Et quantum amamus tantum de spe presumimus.
+   </p>
+            <p xml:id="kzz7yh-g63815-d1e142">
+      ¶ 
+      Pre<lb ed="#V" n="22" break="no"/>sumimus id est speramus. Et quia charitas mater est omnium 
+      <lb ed="#V" n="23"/>virtutum. inquantum per charitatem formantur: in quo tamen 
+      <lb ed="#V" n="24"/>proprie loquendo realiter magis assimilatur patri quam 
+      ma<lb ed="#V" n="25" break="no"/>tri: eo quod vis formatiua conceptus est a patre. Non quod 
+      si<lb ed="#V" n="26" break="no"/>des et spes causa vel tempore charitatem omnium bonorum 
+      ma<lb ed="#V" n="27" break="no"/>trem precedant. Quod intelligendum est de fide et spe forma 
+      <lb ed="#V" n="28"/>ta: vel hoc ideo dicit: quia cum charitate: fides et spes simul 
+      <lb ed="#V" n="29"/>infunduntur. Sed illa sine charitate esse possunt. secuet 
+      pro<lb ed="#V" n="30" break="no"/>ut sunt informes: vt patet per litteram sequentem. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

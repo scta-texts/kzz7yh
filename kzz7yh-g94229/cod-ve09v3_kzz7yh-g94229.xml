@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="134-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g94229"><!-- l3d34cl -->
+            <head xml:id="kzz7yh-g94229-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-g94229-d1e103">
+               <lb ed="#V" n="41"/>CIrca litteram Reuerentia que 
+      <lb ed="#V" n="42"/>est mixta cum 
+      subie<lb ed="#V" n="43" break="no"/>ctione dilectio: quod sic intelligendum est quod 
+      subie<lb ed="#V" n="44" break="no"/>no minegaduimoe denetentie dicut deus 
+      <lb ed="#V" n="45"/>eius et dilectio sicut concomitans. Perfecta charitas foras 
+      <lb ed="#V" n="46"/>mittit timorem: quod non est intelligendum de timore 
+      ser<lb ed="#V" n="47" break="no"/>uili tantum inquantum seruilis est: quia sic quecunque charitas 
+      fo<lb ed="#V" n="48" break="no"/>ras eum mittit. Sed secundum aliquos intelligendum est de 
+      ip<lb ed="#V" n="49" break="no"/>so habitu timoris seruilis: qui per perfectam patrie 
+      chari<lb ed="#V" n="50" break="no"/>tatem euacuabitur: quia sibi non conuenit aliquis actus qui 
+      <lb ed="#V" n="51"/>possit in patria remanere et etiam de timore initiali: qui secundum 
+      <lb ed="#V" n="52"/>aliquos per perfectam charitatem vie foras mittitur 
+      quam<lb ed="#V" n="53" break="no"/>tum ad illum actum qui est timere penam. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

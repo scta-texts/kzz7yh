@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="14-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g09664"><!-- l3d4cl -->
+            <head xml:id="kzz7yh-g09664-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-g09664-d1e103">
+               <lb ed="#V" n="125"/>CIrca litteram. Ano nomiato tres 
+      <lb ed="#V" n="126"/>intelliguntur: hoc 
+      <lb ed="#V" n="127"/>intelligendum est respectu eorum que sunt a deo 
+      <lb ed="#V" n="128"/>per ea que communia sunt tribus personis.
+   </p>
+            <p xml:id="kzz7yh-g09664-d1e114">
+      ¶ Non 
+      <lb ed="#V" n="129"/>est concedendum quicquid de alia re nascitur 
+      continue<lb ed="#V" n="130" break="no"/>eiusdem rei filium nuncupandum: quia ad hoc quod aliquis 
+      <lb ed="#V" n="131"/>sit filius alterius requiritur quod sit sibi similis in natura 
+      <lb ed="#V" n="132"/>et productus ab eodem de eius substantia per modum 
+      na<lb ed="#V" n="133" break="no"/>ture. Dicuntur etiam filii gehenne: dicuntur enim aliqui 
+      <lb ed="#V" n="134"/>filii alicuius vel proprie: et sic ille dicitur filius alicuius a 
+      <lb ed="#V" n="135"/>quo et de cuius substantia est genitus in similitudine nature: vel per 
+      <lb ed="#V" n="136"/>similitudinem: et hoc quadrupliciter: vet vel per creationem: 
+      <!--00038.xml-->
+      <pb ed="#V" n="14-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>et sic omnes homines angeli sunt filii dei: vel per adoptionem: et 
+      <lb ed="#V" n="2"/>sic homines iusti: et angeli sancti sunt filii dei: vel per 
+      imita<lb ed="#V" n="3" break="no"/>tionem: et sic mali dicuntur filii diaboli: vel per 
+      successio<lb ed="#V" n="4" break="no"/>nem: sicut dicuntur filii regni: ad quos pertinet regni 
+      succes<lb ed="#V" n="5" break="no"/>sio: vel propter praeparationem sicut dicuntur filii mortis 
+      prepa<lb ed="#V" n="6" break="no"/>rati ad mortem: et sic reprobi dicuntur filii gehenne: quia in illam 
+      <lb ed="#V" n="7"/>preparati: secundum quod dicit magister in littera. Ut in nature 
+      humane<lb ed="#V" n="8" break="no"/>susceptione fieret quodam modo ipsa gratia homini 
+      natura<lb ed="#V" n="9" break="no"/>lis hoc in vltima quaestione huius dist. sufficienter expositum est. 
+   </p>
+            <p xml:id="kzz7yh-g09664-d1e160">
+               <lb ed="#V" n="10"/>¶ Non humano seine concreta est domini caro in vtero 
+      virgi<lb ed="#V" n="11" break="no"/>nis: hoc intelligendum est de semine: in quo est vis actiua: 
+      <lb ed="#V" n="12"/>per quam formatur corpus pueri de materia ministrata a matre. 
+      <lb ed="#V" n="13"/>Tale enim semen non est in mulieribus: sed in viris: caro autem 
+      <lb ed="#V" n="14"/>christi fuit facta non humano semine id est a semine virili: sed a 
+      <lb ed="#V" n="15"/>spiritu sancto de materia ministrata a matre. Possunt 
+      homi<lb ed="#V" n="16" break="no"/>nes generare filios homines: sed non facere: hic non accipitur 
+      <lb ed="#V" n="17"/>facere secundum commune quod dicitur ad communem productionem creature: sed secundum 
+      <lb ed="#V" n="18"/>quod importat productionem que non est per modum voluntatis tantum. 
+      <lb ed="#V" n="19"/>Tali enim modo homo non potest facere hominem. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

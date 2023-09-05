@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 2</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 2</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="97-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g68977"><!-- l3d27a2 -->
+            <head xml:id="kzz7yh-g68977-Hd1e101">Articulus 2</head>
+            <p xml:id="kzz7yh-g68977-d1e103">
+               <lb ed="#V" n="62"/>COnsequenter queritur sde 
+      secun<lb ed="#V" n="63" break="no"/>do principali: et 
+      <lb ed="#V" n="64"/>circa hoc queruntur tria.
+   </p>
+            <p xml:id="kzz7yh-g68977-d1e112">
+      ¶ Primo vtrum causa 
+      <lb ed="#V" n="65"/>passionis amoris sit solum bonum cognitum 
+      si<lb ed="#V" n="66" break="no"/>mile amantis.
+   </p>
+            <p xml:id="kzz7yh-g68977-d1e119">
+      ¶ Secundo vtrum omnis alia mpassio ab 
+      <lb ed="#V" n="67"/>amore sit effectus amoris.
+   </p>
+            <p xml:id="kzz7yh-g68977-d1e124">
+      ¶ Tertio vtrum passio 
+      amo<lb ed="#V" n="68" break="no"/>tis sit essentialiter transformatio appetitus sensitiui in 
+      <!--00206.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="69"/>amatum.
+   </p>
+            <div xml:id="kzz7yh-g68977-Dd1e136">
+               <head xml:id="kzz7yh-g68977-Hd1e138">Quaestio 1</head>
+               <p xml:id="kzz7yh-g68977-d1e140">
+     Questio I. 
+      <lb ed="#V" n="70"/>PRimo ostendo quod non solum bonum 
+      co<lb ed="#V" n="71" break="no"/>gnitum simile amanti est causa 
+      <lb ed="#V" n="72"/>passionis amoris: quia vt superius habitum est 
+      <lb ed="#V" n="73"/>amor inuenitur in rebus carentibus 
+      cognitio<lb ed="#V" n="74" break="no"/>nem: et constat quod ille amor non electiuus: ergo est passio. 
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e153">
+                  <lb ed="#V" n="75"/>¶ Item secundum Diony. 4. c. de di. no. Non solum bonum: sed 
+      eti<lb ed="#V" n="76" break="no"/>am pulchrum est amabile: ergo non solum bonum est causa 
+      <lb ed="#V" n="77"/>amoris.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e162">
+      ¶ Item eno sub ratione qua obiectum intellectus 
+      <lb ed="#V" n="78"/>non est causa amoris: quia sub illa ratione non est obiectum 
+      ap<lb ed="#V" n="79" break="no"/>petitus in quo est amor: sed ens sub ratione qua bonum 
+      <lb ed="#V" n="80"/>est obiectum intellectus: quia non tantum apprehendit rei en 
+      <lb ed="#V" n="81"/>titatem: sed etiam rationem bonitatis sue: ergo ens sub 
+      ra<lb ed="#V" n="82" break="no"/>tione qua bonum non est causa amoris. Item carentia 
+      <lb ed="#V" n="83"/>mali est amabilis: sed non importat aliquod bonum: quia 
+      ni<lb ed="#V" n="84" break="no"/>hil positiuum dicit cum possit vere dici de non ente: non est: ens 
+      <lb ed="#V" n="85"/>enim nullum habet malum: ergo non solum bonum est 
+      cau<lb ed="#V" n="86" break="no"/>sa amoris.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e184">
+      ¶ Iiem quod prouer. 13. Inter superbos semper 
+      iur<lb ed="#V" n="87" break="no"/>gia sunt. Illi etiam qui sunt vnius opificii magis rixantur 
+      <lb ed="#V" n="88"/>inter se quam alii: et aues viuentes de eadem preda magis 
+      pu<lb ed="#V" n="89" break="no"/>gnant inter se quam alii: ergo similitudo non est causa amoris: 
+      <lb ed="#V" n="90"/>sed magis odii: non est ergo verum quod solum bonum cognitum 
+      <lb ed="#V" n="91"/>amanti simile sit causa amoris. 
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e198">
+                  <lb ed="#V" n="92"/>Contra Augu. 8. de tri. c. 3. Non amatur nisi bonum 
+      <lb ed="#V" n="93"/>et. x. li. c. 1. Quod quilibet prorsus ignorat 
+      <lb ed="#V" n="94"/>hoc amare nullo modo potest: etiam Eccls. 13 dicitur quod 
+      <lb ed="#V" n="95"/>omnis caro ad similem sui coniungetur: et omnis 
+      homo<lb ed="#V" n="96" break="no"/>simili sui sociabitur: ergo solum bonum cognitum 
+      aman<lb ed="#V" n="97" break="no"/>ti simile est causa amoris. 
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e214">
+                  <lb ed="#V" n="98"/>¶ Respondeo quod solum bonum cognitum simile amanti est causa 
+      pas<lb ed="#V" n="99" break="no"/>sionis amoris: quod autem solum bonum sit causa 
+      amo<lb ed="#V" n="100" break="no"/>ris eo modo quo obiectum est passionis causa patet per hoc 
+      <lb ed="#V" n="101"/>quia sensitiuus appetitus nunquam potest aliquid appetere nisi 
+      <lb ed="#V" n="102"/>illud apprehendat vt conueniens sibi. omne autm tale 
+      appre<lb ed="#V" n="103" break="no"/>henditur vt bonum appetenti. Quod autem oporteat illuid 
+      es<lb ed="#V" n="104" break="no"/>se cognitum ad hoc vt causet passionem amoris animalem 
+      <lb ed="#V" n="105"/>experientia docet: quod etiam oporteat illud est simile 
+      appe<lb ed="#V" n="106" break="no"/>tenti: ita quod amans illud habeat in actu quod amatum habet 
+      <lb ed="#V" n="107"/>in actu: vel ita quod vnum habeat in actu quod aliud habet in 
+      <lb ed="#V" n="108"/>potentia: aut ita quod proportio amantis ad aliquid sit simili 
+      <lb ed="#V" n="109"/>proportioni rei amate ad illud idem que similitudo est 
+      cau<lb ed="#V" n="110" break="no"/>sa amoris inter aliquos: quia sunt inimici eiusdem vel 
+      <lb ed="#V" n="111"/>amici ad aliud que similitudo est causa amoris inter 
+      ali<lb ed="#V" n="112" break="no"/>quos qui sunt inimici eiusdem: vel amici: vel ad aliud que 
+      <lb ed="#V" n="113"/>similitudo est causa amoris quo bonus miles quandoque 
+      di<lb ed="#V" n="114" break="no"/>ligit bonum clericum: hoc patet: quia appetitus sensitiuus 
+      ni<lb ed="#V" n="115" break="no"/>hil appetit nisi quod apprehendit: vt conueniens sibi: nihil 
+      <lb ed="#V" n="116"/>autem apprehenditur vt conueniens nisi simile sit apprehendem 
+      <lb ed="#V" n="117"/>ti et appetenti aliquo predicto:um modorum. 
+    </p>
+               <p xml:id="kzz7yh-g68977-d1e260">
+                  <lb ed="#V" n="118"/>Ad primum in oppositum dicendum: quod quamuis 
+      amor<lb ed="#V" n="119" break="no"/>rerum carentium cognitionem non 
+      <lb ed="#V" n="120"/>sit electiuus: tamen non est passio animalis de qua hic est 
+      ser<lb ed="#V" n="121" break="no"/>mo. Et preterea bonum quod appetunt quamuis non sit 
+      co<lb ed="#V" n="122" break="no"/>gnitum ab eis: est tamen cognitum ab institutore nature qui 
+      appeti<lb ed="#V" n="123" break="no"/>tum eis indidit ad illud bonum quod appetunt.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e276">
+      ¶ Ad secundum 
+      <lb ed="#V" n="124"/>dicendum: quod pulchrum est amabile per hoc quod idem est quod 
+      <lb ed="#V" n="125"/>bonum. Anullo enim pulchro excluditur ratio boni. Uel potest 
+      <lb ed="#V" n="126"/>dici quod si pulchrum inquantum pulchrum ametur: et hoc est quia 
+      in<lb ed="#V" n="127" break="no"/>quantum tale est bonum cognitiue virtutis que in eo 
+      quie<lb ed="#V" n="128" break="no"/>tatur sicut videmus quod amabilis est ratio veri inquantum est 
+      bo<lb ed="#V" n="129" break="no"/>num intellectus.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e292">
+      ¶ Ad tertium cum dicitur quod ens sub ratione qua 
+      bo<lb ed="#V" n="130" break="no"/>num est obiectum intellectus etc. dico quod verum est: quia quamuis 
+      co<lb ed="#V" n="131" break="no"/>gnoscat rei entitate et boni rationem: non tamen cognoscit eam 
+      ni<lb ed="#V" n="132" break="no"/>si inquantum est ens vel verum.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e301">
+      ¶ Ad quartum dicendum quod sicut secundum 
+      <lb ed="#V" n="133"/>philosophum. 5 ethi. c. vi. In boni ratione sit minus malum ad 
+      ma<lb ed="#V" n="134" break="no"/>ius malum: ita dico quod carentia mali in comparatione ad 
+      ma<lb ed="#V" n="135" break="no"/>lam apprehenditur sub ratione boni. Unde et per se est appetibilis 
+      <lb ed="#V" n="136"/>sed non primo.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e313">
+      ¶ Ad quantum dicendum: quod predicti non repugnant. 
+      <!--00207.xml-->
+      <pb ed="#V" n="98-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>nter se: quia similes: sed inquantum vnus timet ab alio 
+      si<lb ed="#V" n="2" break="no"/>bi auferri vel minui rem magis amatam. vnde ideo 
+      super<lb ed="#V" n="3" break="no"/>bus odit superbum: quia per eum timet sibi auferri vel 
+      minui<lb ed="#V" n="4" break="no"/>prop. iam gloriam quam magis amat: et opifex lucrum et 
+      <lb ed="#V" n="5"/>auis predam. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g68977-Dd1e334">
+               <head xml:id="kzz7yh-g68977-Hd1e336">Quaestio 2</head>
+               <p xml:id="kzz7yh-g68977-d1e338">
+      Questio. II. 
+      <lb ed="#V" n="6"/>SEcundo queritur vtrum omnis alia 
+      pas<lb ed="#V" n="7" break="no"/>sio ab amore sit effectus 
+      amo<lb ed="#V" n="8" break="no"/>ris. Et videtur quod non. Effectus non est fortior 
+      <lb ed="#V" n="9"/>sua causa: sed odium est fortior passio quam amor: 
+      <lb ed="#V" n="10"/>quia secundum Augu. libro 83. quaestionum. quaestione. 36. Nemo est qui non 
+      ma<lb ed="#V" n="11" break="no"/>gis dolorem fugiat quam appetat voluptatem: ergo odium non 
+      <lb ed="#V" n="12"/>est effectus amoris.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e356">
+      ¶ Item extasis est passio quedam et 
+      <lb ed="#V" n="13"/>non est effectus amoris: quia per extasim aliquis quasi 
+      egre<lb ed="#V" n="14" break="no"/>ditur extra se: sed amans per amorem conatur attrahere 
+      <lb ed="#V" n="15"/>amatum ad se non extra se exire: vt pergat in amatum: ergo non 
+      <lb ed="#V" n="16"/>omnis passio est effectus amoris.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e367">
+      ¶ Item delus est origo 
+      con<lb ed="#V" n="17" break="no"/>tentionis vel sibi concordans: vnde Aposto. 1. Cor. 3. iungit 
+      <lb ed="#V" n="18"/>illa simul dicens: cum sit inter nos zelus et contentio: sed 
+      ori<lb ed="#V" n="19" break="no"/>go dissensionis non est effectus amoris: ergo cum zelus sit 
+      <lb ed="#V" n="20"/>passio: non omnis passio est effectus amoris.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e378">
+      ¶ Item 
+      corru<lb ed="#V" n="21" break="no"/>ptiuum amoris non est effectus eius: sed passio ire 
+      corrun<lb ed="#V" n="22" break="no"/>pit amorem: quia generat odium: ergo non omnis passio est 
+      ef<lb ed="#V" n="23" break="no"/>fectus amoris.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e388">
+      ¶ Item causa amoris non est effectus 
+      amo<lb ed="#V" n="24" break="no"/>ris: sed delectatio est causa amoris. Amant enim multi propter 
+      <lb ed="#V" n="25"/>delectationem vt habetur ex verbis. phlosophi. 8. ethi. c. 3. et. 4. et 
+      <lb ed="#V" n="26"/>go non omnis passio est effectus amoris. 
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e397">
+                  <lb ed="#V" n="27"/>Contra prima omnium passionum est causa omnium alia 
+      <lb ed="#V" n="28"/>rum: sed amor prima est omnium passionum 
+      <lb ed="#V" n="29"/>primis enim motus appetitus est inclinatio ad bonum. 
+      <lb ed="#V" n="30"/>ergo omnes alie passiones sunt effectus amo: is.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e408">
+      ¶ Item 
+      su<lb ed="#V" n="31" break="no"/>perius ostensum est actionem cuiuslibet creature pocedere 
+      <lb ed="#V" n="32"/>ex amore: sed quelibet passio in aliqua actione consistit vel 
+      <lb ed="#V" n="33"/>ex aliqua actione causatur: ergo quelibet passio est ex 
+      amo<lb ed="#V" n="34" break="no"/>re mediate vel immediate.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e419">
+      ¶ Ite augu. 14. de ci. dei. c. vi. 
+      <lb ed="#V" n="35"/>dicit amorem esse cupiditatem timorem letitiam tristitiam quod 
+      <lb ed="#V" n="36"/>non est verum loquendo de predicatione per essentiam: ergo 
+      <lb ed="#V" n="37"/>hoc intelligitur causaliter. Sed qua ratione predicte 
+      passio<lb ed="#V" n="38" break="no"/>nes sunt effectus amoris eadem ratione et alie. 
+      <lb ed="#V" n="39"/>quod omnis alia passio ab amore est 
+      <lb ed="#V" n="40"/>effectus amoris. Omnis enim pas¬ 
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e435">
+                  <lb ed="#V" n="41"/>Respondeo 
+      <lb ed="#V" n="42"/>sio: aut est respectu boni: aut est respectu mali: si 
+      respectu<lb ed="#V" n="43" break="no"/>boni aut est inclinatio in bonum absolute seu complacentia 
+      <lb ed="#V" n="44"/>respectu boni absoluti: et si est amor autem tendentia in 
+      bo<lb ed="#V" n="45" break="no"/>num futurum: aut quies in praesenti bono. Tendentia autem in 
+      ali<lb ed="#V" n="46" break="no"/>quod et quies in illo dum praesens est causantur inclinatio 
+      <lb ed="#V" n="47"/>ne ad illud: sicut ex inclinatione grauis ad locum 
+      dehor<lb ed="#V" n="48" break="no"/>sum causatur eius motus ad illum cum absens est: et quies in 
+      <lb ed="#V" n="49"/>illo dum praesens est. Omnis ergo passio respectu bomni est effectus 
+      amo<lb ed="#V" n="50" break="no"/>ris. Si autem passio sit respectu mali autem in displicentia respectu 
+      <lb ed="#V" n="51"/>mali absolute dicti: et sic est odium aut fuga ipsius dum futurorum 
+      <lb ed="#V" n="52"/>est aut quasi violenta quies in ipso dum praesens est. Fuga autem 
+      mali<lb ed="#V" n="53" break="no"/>futuri seu eius inuasio ad destruendum effectus est 
+      displicen<lb ed="#V" n="54" break="no"/>tia mali. Similiter violentia quietis in ipso dum presens 
+      <lb ed="#V" n="55"/>est sicut ex disconuenientia grauis ad locum sursum refugit 
+      <lb ed="#V" n="56"/>graue locum sursum nec ibi quiescit nisi violenter. Omnis 
+      <lb ed="#V" n="57"/>ergo passio que est respectu mali est effectus odii: et quia 
+      <lb ed="#V" n="58"/>appetitui non displicet malum nisi inquantum est contrarium 
+      <lb ed="#V" n="59"/>bono amato. ideo oportet concedere quod odium sit effectus 
+      <lb ed="#V" n="60"/>amoris: et sic patet quod omnis est immediate et mediate alicuius 
+      <lb ed="#V" n="61"/>amoris effectus. 
+    </p>
+               <p xml:id="kzz7yh-g68977-d1e483">
+                  <lb ed="#V" n="62"/>Ad primum in oppositum dicendum: quod odium non 
+      <lb ed="#V" n="63"/>uerso: apparet tamen quandoque odium fortius quam amor propter hoc 
+      <lb ed="#V" n="64"/>est fortior passio quam amor sed 
+      ecom<lb ed="#V" n="65" break="no"/>quod magis sentitur. eo quod actus sentiendi in quadam immutatione 
+      <lb ed="#V" n="66"/>consistit: res autem odita est repugnans obiecti: et res amata 
+      <lb ed="#V" n="67"/>est amanti quasi naturalis facta: quapropter amor non ita 
+      senti<lb ed="#V" n="68" break="no"/>tur in praesentia rei ama e sicut in absentia secundum Aug. x. de tri. 
+      <lb ed="#V" n="69"/>versus finem: et tamen est fortior in praesentia amati. Ex quo pa¬ 
+      <!--00207.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="70"/>tet: quare desiderium magis sentitur quam amor quamuis non 
+      <lb ed="#V" n="71"/>sit passio ita fortis. Ad auctoritatem autem augu. dicendum quod non 
+      <lb ed="#V" n="72"/>est intelligenda ceteris paribus: sed respectu doloris multu 
+      <lb ed="#V" n="73"/>oditi vtpote est dolor corrumpens vitam: et respectu volupta 
+      <lb ed="#V" n="74"/>tis parum vel minus amate: non est autem inconueniens quod aliquod 
+      <lb ed="#V" n="75"/>odium fortissimum sit for ior passio aliquo debili amore. 
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e521">
+                  <lb ed="#V" n="76"/>¶ Ad secundum dicendum: quod exi asis est extra se positio vel 
+      exces<lb ed="#V" n="77" break="no"/>sus mentis secundum papia: quod potest homini contingere et secundum 
+      cognitio<lb ed="#V" n="78" break="no"/>nem scilicet cum ponitur extra sibi proportionatam cognitionem vel per 
+      <lb ed="#V" n="79"/>excessiuam eleuationem ad contem lationem superiorum: vel per 
+      ex<lb ed="#V" n="80" break="no"/>cessiuam depressionem ad imaginationem inferiorum: et secundum appe 
+      <lb ed="#V" n="81"/>titum quando vehementi motu sertur appetitus in aliquid quasi 
+      exi<lb ed="#V" n="82" break="no"/>ens extra proportionatum sibi desiderium: vnde ista extasis 
+      vt<lb ed="#V" n="83" break="no"/>detur esse desiderium excessiuum: prime extasis est amor causa 
+      dispo<lb ed="#V" n="84" break="no"/>sitiue inquantum quasi continue facit cogitare de amato. Secunde 
+      <lb ed="#V" n="85"/>autem extasis est causa directe. Cum autem dicitur quod amor 
+      tra<lb ed="#V" n="86" break="no"/>hit ad se amatum: potest dici quod in amore amicitie anor tendit 
+      <lb ed="#V" n="87"/>in amatum quasi nitens in amato esse. vnde Ber. lib. de 
+      praece<lb ed="#V" n="88" break="no"/>pto et dispensatione versus finem dicit quod non est praesentior spiritus 
+      <lb ed="#V" n="89"/>noster vbi animat quam vbi amat quod intelligendum est quantum 
+      <lb ed="#V" n="90"/>ad ornatum affectionis sue: quia gerit curam per prouidentiam 
+      <lb ed="#V" n="91"/>amati sicut sui ipsius. In amo. e autem concupiseentie amans 
+      <lb ed="#V" n="92"/>primo tendit in amatum: vt ipsum attrahat ad se: quia tali 
+      amo<lb ed="#V" n="93" break="no"/>re amans non diligit amatum nisi per se. Ad tertium dicendum: quod 
+      de<lb ed="#V" n="94" break="no"/>lus accipi potest pro amore intenso compatiente consortium in 
+      re<lb ed="#V" n="95" break="no"/>amata. Alio modo pro emulatione rerum meliorum: alio 
+      mo<lb ed="#V" n="96" break="no"/>do pro inuidia: et quocunque istorum modorum accipiatur 
+      amor<lb ed="#V" n="97" break="no"/>est aliquo modo causa eius. Intensio esim amoris est 
+      acci<lb ed="#V" n="98" break="no"/>dens amoris: subiectum autem est accidentis aliquo modo causa 
+      <lb ed="#V" n="99"/>Emulari etiam res meliores procedit ex amore earum: 
+      inui<lb ed="#V" n="100" break="no"/>dia etiam procedit ex amore mediante odo.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e578">
+      ¶ Ad quartum 
+      <lb ed="#V" n="101"/>dicendum: quod passio ire respectu vindicte in quam tendit vt in 
+      rem<lb ed="#V" n="102" break="no"/>apprehensam vt bonum sibi est etiam respectu illius de quo 
+      <lb ed="#V" n="103"/>querit vindi tam tanquam de re apprehensa vt mala sibi. vnde 
+      <lb ed="#V" n="104"/>ira praesupponit tristitiam et includit spem. Tritistia autem et 
+      <lb ed="#V" n="105"/>spes sunt effectus amoris: et ex consequenti ira non illius 
+      amo<lb ed="#V" n="106" break="no"/>ris quem destruit: sed alterius.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e594">
+      ¶ Ad quantum dicendum: quamuis 
+      <lb ed="#V" n="107"/>delectatio sit causa alicuius amoris: tamen necessarium est de 
+      <lb ed="#V" n="108"/>lectationem praesupponere aliquem amorem. Nullus enim 
+      dele<lb ed="#V" n="109" break="no"/>ctatur nisi in re amata. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g68977-Dd1e604">
+               <head xml:id="kzz7yh-g68977-Hd1e606">Quaestio 3</head>
+               <p xml:id="kzz7yh-g68977-d1e608">
+     Questio. III. 
+      <lb ed="#V" n="110"/>Et tio queritur vtrum passio amoris sit 
+      es<lb ed="#V" n="111" break="no"/>sentialiter transformatio appetitus 
+      <lb ed="#V" n="112"/>sensitiui in amatum. Et videtur quod non: quia effectus 
+      <lb ed="#V" n="113"/>amoris non est amor: sed transfo. matio est effectus 
+      <lb ed="#V" n="114"/>amoris. Unde Hugo in soliloquio de arra anime. Ca vis 
+      <lb ed="#V" n="115"/>amoris est vt talem te esse necesse sit quale est illud quod amas 
+      <lb ed="#V" n="116"/>et cui per effectum coniungeris in ipsius similitudinem: ipsa quodam 
+      <lb ed="#V" n="117"/>modo dilectionis socie tate transformaris: ergo nullus 
+      amor<lb ed="#V" n="118" break="no"/>est ipsa transformatio.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e630">
+      ¶ Item secundum augu. 8. de tri. c. 7. Amor 
+      <lb ed="#V" n="119"/>est inherentia: sed vnam rem inherere alii non est eam 
+      transforma<lb ed="#V" n="120" break="no"/>ri in aliam cum videamus aliquando aliquam rem alii inherere absque 
+      <lb ed="#V" n="121"/>hoc quod trasformetur in eam: ergo nullus amor est 
+      transforma<lb ed="#V" n="122" break="no"/>tio in rem amatam.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e641">
+      ¶ Item actus intelligendi causatur ex 
+      assi<lb ed="#V" n="123" break="no"/>milatione intellectus ad rem intellectam: ergo a simili amor 
+      cau<lb ed="#V" n="124" break="no"/>satur ex assimilatione appetitus ad rem amatam: et si sic non 
+      <lb ed="#V" n="125"/>videtur quod amor sit transformatio in amatum: sed ex 
+      trans<lb ed="#V" n="126" break="no"/>formatione causatur. 
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e652">
+                  <lb ed="#V" n="127"/>Contra secundum augu. xi. de tri. c. i. Uisio est forma que in 
+      <lb ed="#V" n="128"/>visibili imiprimitur sensui: ergo a simili amor 
+      sensi<lb ed="#V" n="129" break="no"/>bilis est ipsa informatio appetitus sensitiui a re que 
+      amau<lb ed="#V" n="130" break="no"/>sed informari a re aliqua est transformari in simul. tudinem illius 
+      <lb ed="#V" n="131"/>ergo passio amoris est transformatio appetitus sensitiui 
+      in<lb ed="#V" n="132" break="no"/>similitudinem amati.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e669">
+      ¶ Item vt superius visum est: amor est 
+      incli<lb ed="#V" n="133" break="no"/>natio appetitus in re amantam: Sed inclinatio vnius rei in 
+      <lb ed="#V" n="134"/>rem aliam est transformatio in similitudinem illius quod patet in 
+      inelina<lb ed="#V" n="135" break="no"/>tione que est per motum localem: cum enim homo inclinatur versus 
+      ter<lb ed="#V" n="136" break="no"/>ram transformatur in aliquam similitudinem terre que est inferioritas 
+      <lb ed="#V" n="137"/>Similiter patet in inclinatione que est per alterationem: aquam enm 
+      <!--00208.xml-->
+      <pb ed="#V" n="98-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>inclinari per alterationem ad ignem est ipsam 
+      transfor<lb ed="#V" n="2" break="no"/>mari in caliditatem que est aliqua similitudo ignis: ergo 
+      simili<lb ed="#V" n="3" break="no"/>inclinatio que est amor: est transformatio appetitus sensitiui 
+      <lb ed="#V" n="4"/>in aliquam similitudinem amati. 
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e697">
+                  <lb ed="#V" n="5"/>Respondeo quod passio amoris est essentialter trans 
+      <lb ed="#V" n="6"/>formatio appetitus sensitiui in 
+      ali<lb ed="#V" n="7" break="no"/>quam similitudinem amati. Talis enim amor passio est non 
+      destru<lb ed="#V" n="8" break="no"/>ctiua que assimilatur corruptioni cuiusmodi passio secundum 
+      ali<lb ed="#V" n="9" break="no"/>quos est odium: sed est passio saluatiua que in hoc magis 
+      assi<lb ed="#V" n="10" break="no"/>milatur generationi. Talis autem passio est transformatio 
+      patien<lb ed="#V" n="11" break="no"/>tis in similitudinem agentis: vnde aerem pati a luce est ipsum 
+      trans<lb ed="#V" n="12" break="no"/>formari similitudinem lucis que est lumen. Passio ergo 
+      amo<lb ed="#V" n="13" break="no"/>ris est transformatio potentie appetitiue: in qua immediate est 
+      <lb ed="#V" n="14"/>amoris passio in similitudinem agentis istam passionem. Agens 
+      au<lb ed="#V" n="15" break="no"/>tem passionem amoris est bonum cognitum conueniens seu simile 
+      ap<lb ed="#V" n="16" break="no"/>petitui: eo modo quo obiectum est causa passionis: ergo 
+      amor<lb ed="#V" n="17" break="no"/>est transformatio appetitus sensitiui in similitudinem talis 
+      bo<lb ed="#V" n="18" break="no"/>ni: et quia tale bonum est amatum recte dictum est quod sit transforma 
+      <lb ed="#V" n="19"/>tio in similitudinem amati. 
+    </p>
+               <p xml:id="kzz7yh-g68977-d1e732">
+                  <lb ed="#V" n="20"/>Ad primum in oppositum dicendum: quod amor et est 
+      <lb ed="#V" n="21"/>tramsformatio que dicta est: et 
+      cau<lb ed="#V" n="22" break="no"/>sa est alterius transformationis corporalis sicut nititur ad 
+      rea<lb ed="#V" n="23" break="no"/>lem vnitatem amatorum.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e743">
+      ¶ Ad secundum dicendum: quod et si vna res 
+      <lb ed="#V" n="24"/>possit alii corporaliter inherere absque sui tranfformatione in 
+      <lb ed="#V" n="25"/>similitudinem illius: tamen hoc non est verum de inherentia sensitiui 
+      <lb ed="#V" n="26"/>appetitus. Uel potest dici quod est de inherentia corporali 
+      minor<lb ed="#V" n="27" break="no"/>argi non habet viverlaiter veritatem. Cum enim aliqua res corporalis prius 
+      <lb ed="#V" n="28"/>non inherens terre efficitur inherens terre accedit ad aliquam 
+      <lb ed="#V" n="29"/>similitudinem terre scilicet ad inferioritatem.
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e759">
+      ¶ Ad tertium dicendum quod 
+      tran<lb ed="#V" n="30" break="no"/>formatio appetitus que est amor non praesupponit aliam 
+      trans<lb ed="#V" n="31" break="no"/>formatione nisi in virtute cognitiua. Sicut enim 
+      cogniti<lb ed="#V" n="32" break="no"/>tita per suum obiectum mediante obiecti similitudine transforma 
+      <lb ed="#V" n="33"/>tur transformatione que est cognitio: sic appetitus sensiti 
+      <lb ed="#V" n="34"/>uus per bonum sensibile cognitum immediate transformatur 
+      trans<lb ed="#V" n="35" break="no"/>formatione que est amor. Sic ergo ex praedictis vides tres 
+      <lb ed="#V" n="36"/>transformationes. vnam scilicet in vi cognitiua quam praesupponit 
+      <lb ed="#V" n="37"/>animalis amor. aliam in appetitu sensitiuo que est ipse amor 
+      quae<lb ed="#V" n="38" break="no"/>est passio animalis tertiam in corpore que est amoris effectus. 
+   </p>
+               <p xml:id="kzz7yh-g68977-d1e781">
+                  <lb ed="#V" n="39"/>¶ Argumenta ad partem aliam gratia conclusionis possunt concedi. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="146-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g102861"><!-- l3d37cl -->
+            <head xml:id="kzz7yh-g102861-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-g102861-d1e103">
+      <!--00301.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#V" n="69"/>Circa litteram Tria sunt que in prima 
+      <lb ed="#V" n="70"/>tabula. Nota quod secundum 
+      ordi<lb ed="#V" n="71" break="no"/>nem rei geste quinque fuerunt in vna tabula: et quinque 
+      <lb ed="#V" n="72"/>in alia: et sic intelligit Iosephus: secundum autem 
+      ordi<lb ed="#V" n="73" break="no"/>nem rei gerende: trima sunt in prima septem in secunda: et sic 
+      <lb ed="#V" n="74"/>intelligit Augusti. Inter creaturas mundi non est idoli 
+      <lb ed="#V" n="75"/>forma scilicet quod natura nullam talem formam fecit: sed hominium 
+      <lb ed="#V" n="76"/>stultitia adinuenit. Unde vt dicitur in littera. Si quis humanis 
+      <lb ed="#V" n="77"/>membris caput canis vel arietis formet vel in habitu vno 
+      <lb ed="#V" n="78"/>hominis duas facies non similitudinem: sed idolum facit: quia 
+      <lb ed="#V" n="79"/>facit quod non habet aliquod simile sui. (Honora patrem et 
+      ma<lb ed="#V" n="80" break="no"/>trem tuam vt sis longeuus super terram il: huic 
+      precepto<lb ed="#V" n="81" break="no"/>potius additur promissio quam aliis: quia ad hoc preceptum 
+      <lb ed="#V" n="82"/>obseruandum est maior inclinatio et debitum nature 
+      ma<lb ed="#V" n="83" break="no"/>ius excepto debito: quod deo debetur: et ideo ne propter hoc 
+      <lb ed="#V" n="84"/>posset timeri impletioni illius precepti non deberi 
+      mer<lb ed="#V" n="85" break="no"/>ces: ideo subiungitur promissio vt intelligatur 
+      impletio<lb ed="#V" n="86" break="no"/>ni cuiuslibet precepti merces deberi Usura est cum quis 
+      <lb ed="#V" n="87"/>plus exigit in iniuria vel qualibet re quam acceperit. Hic 
+      ac<lb ed="#V" n="88" break="no"/>cipit vsuram ita large quod se extendit vsque ad vsuram 
+      me<lb ed="#V" n="89" break="no"/>taphorice dictam. Si in hieme demus decem modios: et 
+      <lb ed="#V" n="90"/>in messe. 15 recipiamus: nisi contingeret talis casus quod pro 
+      <lb ed="#V" n="91"/>babile esset quod non plus valerent quindecim modii in 
+      <lb ed="#V" n="92"/>messe quam decem in hieme. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="96-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g68274"><!-- l3d27a1 -->
+            <head xml:id="kzz7yh-g68274-Hd1e101">Articulus 1</head>
+            <p xml:id="kzz7yh-g68274-d1e103">
+      ¶ Circa 
+      <lb ed="#V" n="63"/>primum queruntur tria. Primo vtrum in qualibet creatu 
+      <lb ed="#V" n="64"/>ra sit aliquis amor. Secundo vtrum quelibet actio cuiusli¬ 
+      <!--00204.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="65"/>bet creature sit ex amore. Tertio vtrum vnitas cuiuslibet 
+      <lb ed="#V" n="66"/>creature sit ex amore. 
+   </p>
+            <div xml:id="kzz7yh-g68274-Dd1e119">
+               <head xml:id="kzz7yh-g68274-Hd1e121">Quaestio 1</head>
+               <p xml:id="kzz7yh-g68274-d1e123">
+      Questio. 
+      <lb ed="#V" n="67"/>PRimo ostendo quod non in qualibet 
+      crea<lb ed="#V" n="68" break="no"/>tura est aliquis amor: quia secundum 
+      Au<lb ed="#V" n="69" break="no"/>gu. 10. de trini. c. I. Non possunt amari: nisi 
+      co<lb ed="#V" n="70" break="no"/>gnita: sed multe sunt creature carentes 
+      cogni<lb ed="#V" n="71" break="no"/>tione: ergo multe sunt creature in quibus nullus est amor. 
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e136">
+                  <lb ed="#V" n="72"/>¶ Item amor actus quidam est: sed aliqua est creatura: 
+      <lb ed="#V" n="73"/>cui nullus debetur actu scilicet materia prima: ergo in ipsa nullus est 
+      <lb ed="#V" n="74"/>amor.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e145">
+      ¶ Item secundum auctorem sex principiorum. Omnis actio 
+      <lb ed="#V" n="75"/>est in motu: sed multa sunt que quiescunt: ergo in eis 
+      nul<lb ed="#V" n="76" break="no"/>la est actio: sed omnis amor actio quedam est: ergo multa sunt 
+      <lb ed="#V" n="77"/>in quibus nullus est amor. 
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e154">
+                  <lb ed="#V" n="78"/>Contra: omnis appetitus boni est amor: vel 
+      proceden<lb ed="#V" n="79" break="no"/>ex amore: sed secundum philosophum I ethi. c. I. Omnia 
+      bo<lb ed="#V" n="80" break="no"/>num appetunt: ergo in omnibus est aliquis amor.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e164">
+      ¶ Item 
+      <lb ed="#V" n="81"/>secundum philosophum. 2. de anima. Omnia appetunt participationem diuini esse: 
+      <lb ed="#V" n="82"/>sed talis appetitus aliquis amor est: ergo in omni creatu 
+      <lb ed="#V" n="83"/>ra est amor efsendi. 
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e173">
+                  <lb ed="#V" n="84"/>Respondeo quod amor generalissime dictus 
+      con<lb ed="#V" n="85" break="no"/>prehendit quamlibet inclinationem 
+      <lb ed="#V" n="86"/>in bonum: vnde quelibet talis inclinatio amor dici potest 
+      extem<lb ed="#V" n="87" break="no"/>dendo nomen amoris. Si autem talis inclinatio non 
+      praesuppo<lb ed="#V" n="88" break="no"/>nat in eo in quo est aliquam cognitionem: sic amor est conueni 
+      <lb ed="#V" n="89"/>eno cuilibet creature. In qualibet enim creatura est 
+      inclina<lb ed="#V" n="90" break="no"/>tio ad conseruationem sui esse que est quid bonum que 
+      incli<lb ed="#V" n="91" break="no"/>natio nullam in eo in quo est praesupponit cognitionem: et 
+      <lb ed="#V" n="92"/>est indita cuilibet creature a conditore: et hunc amorem vocat 
+      <lb ed="#V" n="93"/>Diony. 4. c. de diuinis nomibus naturalem secundum quod exponit 
+      Con<lb ed="#V" n="94" break="no"/>men. dicens. Nalem amorem dicit in animalium et insensibili 
+      <lb ed="#V" n="95"/>um secundum affectualem necessitatem id est qualitatem conditoris 
+      <lb ed="#V" n="96"/>amoris. Si autem illa inclinatio presupponat cognitionem anima 
+      <lb ed="#V" n="97"/>lem sic est amor quem Diony. 4. c. de di. no. vocat animalem. 
+      <lb ed="#V" n="98"/>Sed hic amor: non est: nisi in creaturis in quibus est 
+      sensibi<lb ed="#V" n="99" break="no"/>lis appetitus cuiusmodi sunt homines: et animalia bruta. Si autem 
+      <lb ed="#V" n="100"/>inclinatio in bonum presupponat cognitionem rationis: 
+      <lb ed="#V" n="101"/>sic est amor quem Diony. vbi prius vocat intellectualem. 
+      Une<lb ed="#V" n="102" break="no"/>de secundum Commen. ibidem. Rationabiles hominum animas in 
+      <lb ed="#V" n="103"/>tellectuales appellauit: et hic amor distinguitur in tres: quia in 
+      <lb ed="#V" n="104"/>clinatio in bonum que non presupponit: nisi naturalem 
+      cogni<lb ed="#V" n="105" break="no"/>tionem boni absolute: et est a volutate vt natura: amor naturalis 
+      <lb ed="#V" n="106"/>est alius: tamen ab amore naturali primo modo dicto. Illa autem in 
+      <lb ed="#V" n="107"/>clinatio in bonum: que presupponit cognitionem boni in 
+      <lb ed="#V" n="108"/>relatione ad aliud: et est a volutate vt deliberatiua 
+      respe<lb ed="#V" n="109" break="no"/>ctu boni relati ad aliud: vt ad finem: vel circumstantias: vel 
+      <lb ed="#V" n="110"/>ad aliquid aliud: amor electiuus est: qui proprie dicitur 
+      dile<lb ed="#V" n="111" break="no"/>ctio. Si autem ille amor sit per aliquem habitum: per quem sit 
+      ac<lb ed="#V" n="112" break="no"/>ceptus deo: et dignus remunerari in vita eterna amor 
+      cha<lb ed="#V" n="113" break="no"/>ritatiuus est. Si autem inclinatio in bonum presupponat 
+      al<lb ed="#V" n="114" break="no"/>tiorem cognitionem: quam sit cognitio anime creatam tamen sic est 
+      <lb ed="#V" n="115"/>ille amor quem Diony. vbi supra vocat angelicum. Ex 
+      di<lb ed="#V" n="116" break="no"/>ctis patet: quod nullus amor est communis omni creature: nisi 
+      <lb ed="#V" n="117"/>amor primo modo dictus. Nec tibi videatur absurdum 
+      <lb ed="#V" n="118"/>naturalem appetitum creaturarum cognitione carentium 
+      vo<lb ed="#V" n="119" break="no"/>care amorem cum Diony. ipsum amorem dicat vt dictum 
+      <lb ed="#V" n="120"/>est: et cum dicat sacra scriptura. Iob 37. Quod frumentum 
+      de<lb ed="#V" n="121" break="no"/>siderat nubes. Et cum videamus amorem nostrum inquam 
+      <lb ed="#V" n="122"/>tum distinguitur contra omnemcognitionem non esse nisi 
+      <lb ed="#V" n="123"/>inclinationem volutatis in bonum: quamuis incomparabiliter 
+      <lb ed="#V" n="124"/>altiorem: quam sit in rebus carentibus cognitione.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e264">
+      ¶ De 
+      amo<lb ed="#V" n="125" break="no"/>re: primo modo dicto procedunt argumenta ad partem secundam. 
+    </p>
+               <p xml:id="kzz7yh-g68274-d1e269">
+                  <lb ed="#V" n="126"/>Ad primum in oppositum dicendum quod 
+      proce<lb ed="#V" n="127" break="no"/>dit de amore qui est inclinatio in 
+      bo<lb ed="#V" n="128" break="no"/>num presupponens cognitionem in eo in quo est.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e278">
+      ¶ Ad 
+      <lb ed="#V" n="129"/>secundum dicendum quod materie prime debetur aliquis actus: 
+      <lb ed="#V" n="130"/>quamuis in entibus teneatisimum actualitatis gradum. 
+      <lb ed="#V" n="131"/>vnde et in ipsa est naturalis inclinatio ad perfectionem sui esse: 
+      <lb ed="#V" n="132"/>quod est per formam. Unde Diony. 4. c. de di. no. dicit ipsum 
+      <lb ed="#V" n="133"/>quod non est appetere bonum aliquo modo: vocans quod non est 
+      <!--00205.xml-->
+      <pb ed="#V" n="97-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>materiam secundum quod exponitur in commen. que dicitur qui 
+      <lb ed="#V" n="2"/>non est: non est omnino nihil sit: sed quod exponitur ibidem.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e302">
+      ¶ Ad 
+      <lb ed="#V" n="3"/>tertium dicendum: quod si illa auctoritas intelligatur de motu 
+      pro<lb ed="#V" n="4" break="no"/>prie dicto qui est actus entis in potentia secundum quod huius: sic 
+      <lb ed="#V" n="5"/>non est vera nisi de actione que est in passo sicut in 
+      subie<lb ed="#V" n="6" break="no"/>cto. Preter autem talem actione est in qualibet creatura actu 
+      <lb ed="#V" n="7"/>existente aliqua actio sine omni motu proprie dicto. Unde 
+      <lb ed="#V" n="8"/>Auicenna 9 meta. c. 2. dicit quod inclinatio ad motum qui est in 
+      <lb ed="#V" n="9"/>re quiescente per violentiam est aliud quam ipse motus: et quam 
+      vir<lb ed="#V" n="10" break="no"/>tus mouens: et hec actio continue est in graui per 
+      violen<lb ed="#V" n="11" break="no"/>tiam quiescente. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g68274-Dd1e325">
+               <head xml:id="kzz7yh-g68274-Hd1e327">Quaestio 2</head>
+               <p xml:id="kzz7yh-g68274-d1e329">
+      Questio II. 
+      <lb ed="#V" n="12"/>SEcundo queritur vtrum quelibet actio 
+      <lb ed="#V" n="13"/>cuiuslibet creature sit ex 
+      amo<lb ed="#V" n="14" break="no"/>re. Et videtur quod non idem in numero non est actio 
+      <lb ed="#V" n="15"/>nis finis et principium: quia secundum philosophum. 2. physico. 
+      <lb ed="#V" n="16"/>Efficiens et finis non coincidut in idem numero: sed 
+      amor<lb ed="#V" n="17" break="no"/>est finis actionis cuiuslibet creature: vnde in commento 
+      <lb ed="#V" n="18"/>4. de diuinis no. dicitur quod amor est naturalis motus 
+      om<lb ed="#V" n="19" break="no"/>nium rerum que in motu sunt finis: ergo non omnis actio 
+      <lb ed="#V" n="20"/>crearure est ex amore.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e351">
+      ¶ Item actio que est ex odio non est 
+      <lb ed="#V" n="21"/>ex amore: quia eadem actio non est ex oppositis causis: sed 
+      crea<lb ed="#V" n="22" break="no"/>ture multa agut ex odio: ergo non omnis actio cuiuslibet 
+      crea<lb ed="#V" n="23" break="no"/>ture est ex amore.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e360">
+      ¶ Item cognitio in anima nostra non est 
+      <lb ed="#V" n="24"/>ex amore: quia cum anima nostra sit ad imaginem dei: tunc 
+      <lb ed="#V" n="25"/>emanatio que est in diuinis per modum intellectus esset per 
+      <lb ed="#V" n="26"/>terminationem que est per modum amoris: et sic spiritus 
+      san<lb ed="#V" n="27" break="no"/>ctus secundum rationem intelligendi esset prior verbo: quod falsum est 
+      <lb ed="#V" n="28"/>ergo in nobis non omnis actio est ex amore. 
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e373">
+                  <lb ed="#V" n="29"/>Contra omne quod agit propter aliquid mouetur ad 
+      agen<lb ed="#V" n="30" break="no"/>dum ex amore illius propter quod agit: sed 
+      <lb ed="#V" n="31"/>secundum philosophum. 2. physi. Intellectus et natura agunt propter 
+      ali<lb ed="#V" n="32" break="no"/>quid: ergo cum omnis actio creature reducatur ad 
+      actio<lb ed="#V" n="33" break="no"/>nem intellectualem vel naturalem: omnis actio cuiuslibet 
+      crea<lb ed="#V" n="34" break="no"/>ture est ex amore.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e390">
+      ¶ Item secundum Auicena 9 metaphy. c. 2. Nul 
+      <lb ed="#V" n="35"/>la virtus mouet nisi mediante inclinatione: sed inclinatio 
+      <lb ed="#V" n="36"/>in aliquod amor est: vt haberi potest ex precedenti quaestione: 
+      er<lb ed="#V" n="37" break="no"/>go nulla virtus mouer vel agit nisi mediante amore. 
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e399">
+                  <lb ed="#V" n="38"/>Respondeo quod extendendo nomen amoris ad 
+      <lb ed="#V" n="39"/>omnem inclinationem in bonum 
+      que<lb ed="#V" n="40" break="no"/>libet actio cuiuslibet creature est ex amore. Actiones enim 
+      <lb ed="#V" n="41"/>rerum corruptibilium cognitione carentium: omnes sunt ex 
+      <lb ed="#V" n="42"/>naturali amore quo naturaliter appetunt conseruationem 
+      <lb ed="#V" n="43"/>sui esse in se vel in suo simili. Unde philosophus. 2. de anima dicit quod 
+      <lb ed="#V" n="44"/>omnia esse appetunt et illius causa agunt quecumquem agunt secundum 
+      <lb ed="#V" n="45"/>naturam: quod in aliquibus potest exemplifcari. Quia enim elala 
+      <lb ed="#V" n="46"/>naturaliter appetunt conseruationem sui esse: ideo mouent 
+      <lb ed="#V" n="47"/>se ad loca in quibus est celestis influentia in illa 
+      propor<lb ed="#V" n="48" break="no"/>tione in qua est saluatiua esse eorum. Ex naturali etiam 
+      ap<lb ed="#V" n="49" break="no"/>petitu quo appetunt saluari in suo simili educit vnum 
+      ele<lb ed="#V" n="50" break="no"/>mentum formam suam de materia alterius elementi. Et ex 
+      <lb ed="#V" n="51"/>naturali appetitu quo omnia existentia appetunt suam 
+      <lb ed="#V" n="52"/>diffusionem et communicationem inquantum bona sunt 
+      mul<lb ed="#V" n="53" break="no"/>tiplicant similitudines suas: vnde ex hoc appetitum lux 
+      edu<lb ed="#V" n="54" break="no"/>cit sui similitudinem de medio et color. Actiones etiam 
+      <lb ed="#V" n="55"/>brutorum omnes ex aliquo amore procedunt: quia omnes eorum 
+      <lb ed="#V" n="56"/>actiones sunt: aut apprehendere: autem appetere: aut procedem 
+      <lb ed="#V" n="57"/>tes existis: aut sunt non presupponentes cognitionem. 
+      Si<lb ed="#V" n="58" break="no"/>non presupponunt cognitionem procedunt ex naturali 
+      appeti<lb ed="#V" n="59" break="no"/>tu non presupponente cognitionem. Si autem 
+      presuppo<lb ed="#V" n="60" break="no"/>nunt cognitionem et appetitum planum est quod ex amore 
+      <lb ed="#V" n="61"/>procedunt presupponente cognitionem. Ipsa etiam eorum 
+      co<lb ed="#V" n="62" break="no"/>gnitio omnem motum sensitiui appetitus precedens 
+      pro<lb ed="#V" n="63" break="no"/>cedit ex naturali appetitu quo eorum apprehensiua suam 
+      ap<lb ed="#V" n="64" break="no"/>petit perfectionem que est in cognoscendo. Omnes 
+      eti<lb ed="#V" n="65" break="no"/>am actiones hominum ex aliquo amore pocedunt: quia 
+      <lb ed="#V" n="66"/>si sint tales quod non presupponunt cognitionem procedunt 
+      <lb ed="#V" n="67"/>ex naturali appetitu non presupponente cognitionem. 
+      In<lb ed="#V" n="68" break="no"/>dellectualis etiam eorum cogntio procedit ex naturali ap¬ 
+      <!--00205.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="69"/>petitu: quo intellectus appetit suam perfectionem que est 
+      <lb ed="#V" n="70"/>intelligendo: et loquor de intellectione quam motus 
+      volun<lb ed="#V" n="71" break="no"/>tatis presupponit. Perfectior etiam intellectio est per 
+      mo<lb ed="#V" n="72" break="no"/>tum voluntatis qui est amor perfectionis in intelligendo de 
+      <lb ed="#V" n="73"/>qua dicit Augu. 9. de tri. versus finem. Quod partum mentis 
+      <lb ed="#V" n="74"/>antecedit appetitus: et liro 83. q. quaestione 335 Nullum bonum 
+      <lb ed="#V" n="75"/>perfecte noscitur quod non perfecte amatur. Actiones 
+      <lb ed="#V" n="76"/>autem eorum presupponentes intellectualem cognitionem: aut 
+      <lb ed="#V" n="77"/>sunt motus a voluntate eliciti: aut imperati per aliquem 
+      mo<lb ed="#V" n="78" break="no"/>tum a voluntate elicitum: sed omnis motus a voluntate 
+      eli<lb ed="#V" n="79" break="no"/>citus aut est amor: aut ex amore procedens: ergo omnes 
+      ho<lb ed="#V" n="80" break="no"/>minis actiones presupponentes intellectualem 
+      cognitio<lb ed="#V" n="81" break="no"/>nem: aut ex amore procedunt: aut videtur aliquis amor: et 
+      <lb ed="#V" n="82"/>sic patet nulla penitus esse hominis actionem aliam ab 
+      <lb ed="#V" n="83"/>amore que ex aliquo amore non procedat: et patet ex dictis 
+      <lb ed="#V" n="84"/>quomodo posset hoc declarari de actionibus angelorum. 
+      Om<lb ed="#V" n="85" break="no"/>nium autem creaturarum actiones volens significare diony. ex 
+      <lb ed="#V" n="86"/>aliquo amore procedere dicit. 4. c. de di. no. Amorem fiue 
+      <lb ed="#V" n="87"/>diuinum: siue angelicum: siue intellectualem: siue animalem: 
+      <lb ed="#V" n="88"/>siue naturalem dicamus vnitiuam quandam et 
+      continuati<lb ed="#V" n="89" break="no"/>uam intelligemus virtutem superiora quidem mouentem 
+      impro<lb ed="#V" n="90" break="no"/>uidentiam inferiorum equiformia iterum insociabilem 
+      vi<lb ed="#V" n="91" break="no"/>cissitudinem et nouissima subiecta ad meliorum et 
+      superposi<lb ed="#V" n="92" break="no"/>torum conuersionem. 
+    </p>
+               <p xml:id="kzz7yh-g68274-d1e525">
+                  <lb ed="#V" n="93"/>Ad primum in oppositum potest dici quod non est idem 
+      <lb ed="#V" n="94"/>amor in numero ex quo procedit 
+      <lb ed="#V" n="95"/>actio creature cum illo qui est finis naturalis motus 
+      om<lb ed="#V" n="96" break="no"/>nium rerum que in motu sunt. Hic enim amor est 
+      amor<lb ed="#V" n="97" break="no"/>dei perfectius: ad quem ordinantur omnium creaturarum 
+      mo<lb ed="#V" n="98" break="no"/>tus mediate vel immediate. Actiones elementorum ordinantur 
+      <lb ed="#V" n="99"/>ad actiones mixtorum: et actiones mixtorum non viuentium ad 
+      <lb ed="#V" n="100"/>actiones viuentium et actiones viuentium vegetali vita tantum ad actio 
+      <lb ed="#V" n="101"/>nes sensibilium et actiones sensibilium: ad actiones intellectualium 
+      <lb ed="#V" n="102"/>vel rationalium: et actio rationis ad actionem voluntatis: et 
+      <lb ed="#V" n="103"/>omnis actio voluntatis ad illam que imperfectio dei 
+      amo<lb ed="#V" n="104" break="no"/>re consistit: vnde in commento preallegato dicitur quod vltra 
+      <lb ed="#V" n="105"/>amorem qui est finis nullus creature progreditur motus. 
+      <lb ed="#V" n="106"/>Potest etiam dici ad argumentum quod in primo principio sua 
+      <lb ed="#V" n="107"/>propositio non habet virtutem. Idem enim in numero est 
+      <lb ed="#V" n="108"/>primum principium et vltimus est finis: nec demotiuo ad 
+      <lb ed="#V" n="109"/>agendum: quia finis mouet efficientem ad agendum. vnde idem 
+      <lb ed="#V" n="110"/>amor in numero potest esse motiuum ad aliquid agendum et fi 
+      <lb ed="#V" n="111"/>nis actionis illius.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e569">
+      ¶ Ad secundum dicendum quod omnis actio 
+      <lb ed="#V" n="112"/>procedens ex odio procedit ex amore inquantum omne 
+      odi<lb ed="#V" n="113" break="no"/>um ex amore procedit. Nulla enim creatura odit aliquid: 
+      ni<lb ed="#V" n="114" break="no"/>si quia repugnans est vel contrarium bono amato: quia enim 
+      crea<lb ed="#V" n="115" break="no"/>ture amat esse: ideo odit corruptionem essendi: et sic de aliis. 
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e580">
+                  <lb ed="#V" n="116"/>¶ Ad tertium cum dicitur: quod cognitio in anima nostra non est ex 
+      amo<lb ed="#V" n="117" break="no"/>re etc. dico quod verum est loquendo de amore qui est pars 
+      ima<lb ed="#V" n="118" break="no"/>ginis. Naturalis autem amor ex quo procedit in nobis 
+      in<lb ed="#V" n="119" break="no"/>tellectio precedens omnem volutatis actum pars 
+      imagi<lb ed="#V" n="120" break="no"/>nis no est. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g68274-Dd1e594">
+               <head xml:id="kzz7yh-g68274-Hd1e596">Quaestio 3</head>
+               <p xml:id="kzz7yh-g68274-d1e598">
+      Questio. III. 
+      <lb ed="#V" n="121"/>Ertio queritur vtrum vnitas cuiuslibet 
+      crea<lb ed="#V" n="122" break="no"/>tur e sit ex amore. Et videtur quod non 
+      <lb ed="#V" n="123"/>quia ex amore non est esse rei. Amor enim 
+      presup<lb ed="#V" n="124" break="no"/>ponit esse. Sed per illud per quod res habet 
+      <lb ed="#V" n="125"/>esse est vna: vt ex quartorum decimo metaphy. potest 
+      habe<lb ed="#V" n="126" break="no"/>ri: ergo nulla essentiatialis vnitas rei est ex amore.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e614">
+      ¶ Item 
+      <lb ed="#V" n="127"/>vnitas ex contrariis constituta non est ex amore: quia inter 
+      con<lb ed="#V" n="128" break="no"/>traria inquantum contraria non est amor: sed secundum philosophum primo 
+      <lb ed="#V" n="129"/>physi. principia nature sunt contraria: ergo nullius 
+      vni<lb ed="#V" n="130" break="no"/>us producti per naturam est vnitas ex amore causata. 
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e625">
+                  <lb ed="#V" n="131"/>¶ Item vnitas creata ex rebus inter se pugnantibus: et se 
+      <lb ed="#V" n="132"/>mutuo corrumpentibus non est ex amore causata: quia 
+      inter<lb ed="#V" n="133" break="no"/>talia non est amor: sed vnitas machine mundialis est ex 
+      ele<lb ed="#V" n="134" break="no"/>mentis contra se inuicem pugnantibus: et se mutuo 
+      cor<lb ed="#V" n="135" break="no"/>rumpentibus: ergo vnitas machine mundialis non est 
+      <lb ed="#V" n="136"/>ex amore. 
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e641">
+      <!--00206.xml-->
+                  <pb ed="#V" n="97-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>Contra super illud quarto de di. no. Amorem fiue 
+      <lb ed="#V" n="2"/>diuinum etc. dicit commentum. amor est 
+      conmne<lb ed="#V" n="3" break="no"/>xio ac vinculum quo omnium vniuersitas ineffabili 
+      ami<lb ed="#V" n="4" break="no"/>citia insolubilique vnitate copulatur: ergo amor est omnis 
+      <lb ed="#V" n="5"/>vnitatis causa.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e662">
+      ¶ Item odiu est causa cuiuslibet diuisionis 
+      <lb ed="#V" n="6"/>ergo per contrarium amor est causa cuiuslibet vnitatis. 
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e667">
+                  <lb ed="#V" n="7"/>Respondeo quod vnitas cuiuslibet creature est ex 
+      <lb ed="#V" n="8"/>amore vel existente inter principia 
+      <lb ed="#V" n="9"/>creature que est vna vel existente in causa principiorum 
+      <lb ed="#V" n="10"/>causatorum. Causa enim prima que deus est ex amore 
+      pro<lb ed="#V" n="11" break="no"/>duxit creaturam: et eius prima principia scilicet materiam et formam 
+      <lb ed="#V" n="12"/>Ex amore autem naturali inter materiam et formam est vnitas 
+      <lb ed="#V" n="13"/>compositi ex materia et forma in virtute tamen illius 
+      amo<lb ed="#V" n="14" break="no"/>ris quo deus produxit creaturam: nisi enim esset naturalis 
+      inclina<lb ed="#V" n="15" break="no"/>tio inter materiam et formam non constitueretur per essentiam vnum 
+      <lb ed="#V" n="16"/>ex ipsis ex amore etiam elementorum ad celeste influentiam in 
+      <lb ed="#V" n="17"/>illa proportione in qua est saluatiua nature eorum que 
+      pro<lb ed="#V" n="18" break="no"/>portio respectu ignis: maxime viget in concauo orbis 
+      lu<lb ed="#V" n="19" break="no"/>ne et respectu terre in centro et respectu aque et aeris in 
+      lo<lb ed="#V" n="20" break="no"/>cis vbi sunt quam influentiam non potest recipere inferius 
+      ele<lb ed="#V" n="21" break="no"/>mentum nisi super ior: mediate est coniunctio ignis cum 
+      orbe<lb ed="#V" n="22" break="no"/>lune et omnium elementorum inter se ex quorum 
+      coniunctio<lb ed="#V" n="23" break="no"/>ne consistit vnitas machine mundialis ordinata. Ex 
+      amo<lb ed="#V" n="24" break="no"/>re est etiam vnitas societatis animalium brutorum et hominum. 
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e709">
+                  <lb ed="#V" n="25"/>¶ Unde super illud. 4 de diuinis nominibus vnitiuam 
+      quam<lb ed="#V" n="26" break="no"/>dam etc. dicit commen. ex hac amatoria virtute etiam 
+      volu<lb ed="#V" n="27" break="no"/>cres gregatim conuolant: vt cigni et anxeres et grues etc. 
+      <lb ed="#V" n="28"/>et vt generaliter dicam nunquam plura in aliquam vnitatem 
+      con<lb ed="#V" n="29" break="no"/>ueniut nisi per aliquem amorem: vnde et vnitas hominis 
+      in<lb ed="#V" n="30" break="no"/>seipso et familie in domo et ciuium in ciuitate et 
+      multitu<lb ed="#V" n="31" break="no"/>dinis in regno ex amore processerunt et conseruantur per 
+      <lb ed="#V" n="32"/>amorem: et propter hoc Diony. 4. c. de di. no. bene vocat 
+      <lb ed="#V" n="33"/>omnem amorem vnitiuam et continuatiuam virtutem. 
+    </p>
+               <p xml:id="kzz7yh-g68274-d1e731">
+                  <lb ed="#V" n="34"/>Ad primum in oppositum cum dicitur quod ex 
+      <lb ed="#V" n="35"/>amore non est esse rei etc. dico quod 
+      ve<lb ed="#V" n="36" break="no"/>rum est loquendo de re simplici et de amore existente in ipsa: 
+      <lb ed="#V" n="37"/>esse tamen rei composite aliquo modo est ex amore existente in 
+      <lb ed="#V" n="38"/>ipsa inquantum est ex amore principiorum suorum que in 
+      ip<lb ed="#V" n="39" break="no"/>sa sunt quamuis prius in ordine nature habeat eise quam ille 
+      <lb ed="#V" n="40"/>amor in ipsa sit sicut est prius ordine nature compositum 
+      <lb ed="#V" n="41"/>quam principia sua sint in ipso quamuis prius ordine nature 
+      <lb ed="#V" n="42"/>sint principia quam compositum.
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e753">
+      ¶ Ad secundum dicendum: quod 
+      il<lb ed="#V" n="43" break="no"/>la principia de quibus loqutur philosophus sunt sorma 
+      <lb ed="#V" n="44"/>et priuatio quorum vnum scilicet priuatio non est principium 
+      essen<lb ed="#V" n="45" break="no"/>di quamuis requiratur ad tramsmutationem: quia nihil trant 
+      <lb ed="#V" n="46"/>mutatur ad illud quod iam habet. vnde ex foma et 
+      priua<lb ed="#V" n="47" break="no"/>tione non constituitur vnitas rei genite: sed ex materia et 
+      <lb ed="#V" n="48"/>forma inter quas non est contrarietas: sed proportionalis et 
+      <lb ed="#V" n="49"/>mutua inclinatio naturalis ad constitutionem vnius. 
+   </p>
+               <p xml:id="kzz7yh-g68274-d1e771">
+                  <lb ed="#V" n="50"/>¶ Ad tertium dicendum: quod vnitas machine mundialis non est 
+      <lb ed="#V" n="51"/>ex elementis sub ratione qua inter se pugnant et mutuo se 
+      <lb ed="#V" n="52"/>corrumpunt: sed inquantum forma vnius est in potentia in 
+      <lb ed="#V" n="53"/>materia alterius quam naturaliter appetit educere in actum 
+      <lb ed="#V" n="54"/>et inquantum vnum recipit influentiam celestem sui 
+      salua<lb ed="#V" n="55" break="no"/>tiuam mediante alio propter quod cum in vrinali euerso 
+      in<lb ed="#V" n="56" break="no"/>aqua inter existente candela aer per accidens inspissatur 
+      ascen<lb ed="#V" n="57" break="no"/>dit aqua vt semper remaneat aeri iuncta: et inquantum 
+      ele<lb ed="#V" n="58" break="no"/>menta naturalem inclinationem habent ad bonum vni 
+      <lb ed="#V" n="59"/>uersi totius sic et multi homines inter. se multum 
+      con<lb ed="#V" n="60" break="no"/>trarii quandoque coadunant se propter amorem 
+      com<lb ed="#V" n="61" break="no"/>munis boni. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

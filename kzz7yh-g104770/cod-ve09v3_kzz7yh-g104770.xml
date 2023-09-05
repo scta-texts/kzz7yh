@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="149-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g104770"><!-- l3d39prae -->
+            <head xml:id="kzz7yh-g104770-Hd1e101">Praeambulum</head>
+            <p xml:id="kzz7yh-g104770-d1e103">
+      <!--00307.xml-->
+               <pb ed="#V" n="149-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>¶ De periurio. Dintio 3XXXIX
+    </p>
+            <p xml:id="kzz7yh-g104770-d1e114">
+               <lb ed="#V" n="2"/>NUnc de periurio videamus. 
+      <lb ed="#V" n="3"/>Periurium est 
+      men<lb ed="#V" n="4" break="no"/>dacium iuramento firmatum. Hic que 
+      <lb ed="#V" n="5"/>ritur: vtrum sit periurium vbi non est 
+      men<lb ed="#V" n="6" break="no"/>dacium: Quod quibusdam videtur ex 
+      au<lb ed="#V" n="7" break="no"/>ctoritate Hieronymi dicentis. Aduertendum est quod 
+      <lb ed="#V" n="8"/>iusiurandum tres habet comites: veritatem: iudicium: et iu 
+      <lb ed="#V" n="9"/>stitiam. Si ista de fuerint: non erit iuramentum: sed 
+      <lb ed="#V" n="10"/>periurium. Ubi autem falsum iuratur: veritas deest. 
+      <lb ed="#V" n="11"/>Si ergo falsum iuretur: et si non fit ibi intentio 
+      falen<lb ed="#V" n="12" break="no"/>di: videtur esse periurium quia deest veritas. Quibusdam 
+      <lb ed="#V" n="13"/>placet non esse periurium vbi non est mendacium: et si 
+      <lb ed="#V" n="14"/>cut dicitur aliquando falsum sine mendacio: ita iuratur 
+      fal<lb ed="#V" n="15" break="no"/>sum sine periurio. Falsum forte dixit apostolus cum se 
+      <lb ed="#V" n="16"/>venturum ad corinthios promisit. Nec tamen sicut ei 
+      <lb ed="#V" n="17"/>imponebatur culpam mendacii contraxit: quia sic animo 
+      sen<lb ed="#V" n="18" break="no"/>tiebat: etiam si iuramento illud firmasset non 
+      periu<lb ed="#V" n="19" break="no"/>rium incurrisset: quia quantum in ipso fuit verum dixit et 
+      <lb ed="#V" n="20"/>si iurationem addidisset quantum in se foret verum 
+      iu<lb ed="#V" n="21" break="no"/>rasset: et si aliter euenerit quam dixit. Idon sicut quis 
+      <lb ed="#V" n="22"/>non est mendax nisi aliter sentiat animo quam dixite siue 
+      <lb ed="#V" n="23"/>ita sit siue non: ita videtur quibusdam neminem periurum 
+      consti<lb ed="#V" n="24" break="no"/>tui: nisi aliter sentiat animo quam loquitur: siue ita sit siue non. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e166">
+               <lb ed="#V" n="25"/>¶ De triplici modo periurii. 
+      <lb ed="#V" n="26"/>Sed melius creditur et ille peierare: 
+      <lb ed="#V" n="27"/>qui falsum voluntate 
+      <lb ed="#V" n="28"/>fallendi iurat: et qui falsum putans quod verum est 
+      iu<lb ed="#V" n="29" break="no"/>rat: et qui verum putans quod falsum est iurat. Unde 
+      <lb ed="#V" n="30"/>Augu. Homines falsum iurant vel cum fallunt vel cum 
+      <lb ed="#V" n="31"/>falluntur. Aut putat homo verum esse quod falsum est: et 
+      te<lb ed="#V" n="32" break="no"/>mere iurat: aut scit vel putat falsum esse et tamen 
+      pro<lb ed="#V" n="33" break="no"/>vero iurat: et nihilominus cum scelere iurat. 
+      Diu<lb ed="#V" n="34" break="no"/>stant autem illa duo periuria que commemoraui. Fac 
+      <lb ed="#V" n="35"/>illum iurare qui verum esse putat. Pro quo iurat 
+      ve<lb ed="#V" n="36" break="no"/>rum putat esse et tamen falsum est. Non ex animo iste peierat 
+      <lb ed="#V" n="37"/>sed fallitur. Hoc pro vero habet quod falsum est: non pro 
+      fal<lb ed="#V" n="38" break="no"/>sa resciens iurationem interponit. Da alium qui scit 
+      <lb ed="#V" n="39"/>falsum esse et iurat tanquam verum sit quod scit falium esse. 
+      <lb ed="#V" n="40"/>Uidetis quam ista detestanda sit belua. Fac alium quod 
+      <lb ed="#V" n="41"/>putat falsum esse et iurat tanquam verum sit et forte verum 
+      <lb ed="#V" n="42"/>est. Uerbi gratia: vt intelligatis. Pluit in illo loco. 
+      <lb ed="#V" n="43"/>Interrogas hominem: et dicit pluisse: et tunc pluit ibi: 
+      <lb ed="#V" n="44"/>sed putat non pluisse: periurus es. Interest 
+      quem<lb ed="#V" n="45" break="no"/>admodum verbum procedat ex anime. ream linguam no 
+      fa<lb ed="#V" n="46" break="no"/>cit nisi rea mens sit. His euidenter traditur quod 
+      eri<lb ed="#V" n="47" break="no"/>pliciter peierat homo: vt supra diximus: dum vel 
+      sci<lb ed="#V" n="48" break="no"/>ens falsum iurat: vel putans falsum quod verum est 
+      iu<lb ed="#V" n="49" break="no"/>rat: vel estimans verum quod falsum est iurat. Sed hoc 
+      <lb ed="#V" n="50"/>extremum non videtur esse periurium: etiam si periurium 
+      no<lb ed="#V" n="51" break="no"/>minetur: eo quod falsum iuratur: non videtur reus esse periurii 
+      <lb ed="#V" n="52"/>qui sic iurat: quia non est mens eius rea: et ideo nec lin 
+      <lb ed="#V" n="53"/>gua. immo eius mens rea est dum iurare praesumit 
+      <lb ed="#V" n="54"/>quod perspicue verum non deprehendit. Non ergo omne 
+      <lb ed="#V" n="55"/>periurium mendacium est: nec omnis qui peierat 
+      menti<lb ed="#V" n="56" break="no"/>tur: sed omnis mentiendo iurans peierat: et omnis qui fal¬ 
+      <!--00307.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>sum iurat: siue mentiens siue non: peierat. Cum 
+      <lb ed="#V" n="58"/>vero quis iurat quod verum est timens esse falsum: queri 
+      <lb ed="#V" n="59"/>tur quid sit ibi periurium. Ipsa enim significatio vocis 
+      <lb ed="#V" n="60"/>vera est: quia verum nescienter loquitur. Non ergo ipsa 
+      <lb ed="#V" n="61"/>significatio vel falsum vel mendacium est: quia vera est: 
+      <lb ed="#V" n="62"/>et quod verum est: periurium non videtur esse. Ad hoc dicimus loqu 
+      <lb ed="#V" n="63"/>sic scilicet contra mentem sub attestatione iuramenti esse 
+      periu<lb ed="#V" n="64" break="no"/>rium. Mentiri ergo adhibita iuratione periurium est 
+      <lb ed="#V" n="65"/>Periurium ergo est: vel iurando loqui falsum cum 
+      intem<lb ed="#V" n="66" break="no"/>tione fallendi: vel iurando loqui falsum sine intentione 
+      <lb ed="#V" n="67"/>fallendi: vel iurando loqui verum cum intentione fallendi. 
+      <lb ed="#V" n="68"/>Hic oppotinitur. Si omnis qui falsum iurat peierat: tunc 
+      <lb ed="#V" n="69"/>qui alicui promittit dare sub certo termino aliquid 
+      <lb ed="#V" n="70"/>quod tamen non faciet ex quo iurauit peierauit: quia 
+      fal<lb ed="#V" n="71" break="no"/>sum iurauit. Non enim ita futurum erat vt iurauit. Ad 
+      <lb ed="#V" n="72"/>hoc dici potest: quia non omnis qui iurat quod falsum est: ex 
+      <lb ed="#V" n="73"/>quo iurat periurus est sicut iste d quo agimus 
+      <lb ed="#V" n="74"/>sed ex quo propositum mutat vel terminum trans) 
+      <lb ed="#V" n="75"/>greditur: iuratio talis fit periurium reatu. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e283">
+               <lb ed="#V" n="76"/>¶ An iuratio sit malum. 
+      <lb ed="#V" n="77"/>Si autem quru etr urare 
+      sitmaiu<lb ed="#V" n="78" break="no"/>Dicimus aliquando malum esse: 
+      <lb ed="#V" n="79"/>aliquando non. Spotiote enim et sine necessitate iurare vel 
+      <lb ed="#V" n="80"/>falsum iurare peccatum grande est. Ex necessitate autem 
+      <lb ed="#V" n="81"/>iurare scilicet vel ad asserendum innocentiam: vel ad 
+      fede<lb ed="#V" n="82" break="no"/>ra pacis confirmanda: vel ad persuadendum auditoribus 
+      <lb ed="#V" n="83"/>quod est eis vtile: malum non est: quia necessarium eis est. 
+      <lb ed="#V" n="84"/>Unde Augu. Iuramentum faciendum est in 
+      ne<lb ed="#V" n="85" break="no"/>cessariis cum pigri sunt homines credere quod eis est 
+      <lb ed="#V" n="86"/>vtile. Iuratio non est bona: non tamen mala cum est 
+      ne<lb ed="#V" n="87" break="no"/>cessaria id est non est appetenda sicut bona: non tamen 
+      fugi<lb ed="#V" n="88" break="no"/>enda tanquam mala cum est necessaria. Non est enim 
+      com<lb ed="#V" n="89" break="no"/>tra prae ceptum dei iuratio. Sed ita intelligitur dominus 
+      prohi<lb ed="#V" n="90" break="no"/>buisse a iuramento vt quantum in ipso est quisque non 
+      iu<lb ed="#V" n="91" break="no"/>ret. Quod multi faciunt in ore habentes iurationem tamquam 
+      <lb ed="#V" n="92"/>magnum atque suaue aliquid. Apostolus enim nouit 
+      praece<lb ed="#V" n="93" break="no"/>ptum domini et tamen iurauit. Prohibemur enim iurare 
+      <lb ed="#V" n="94"/>cupiditate vel delectatione iurandi. Quod ergo christus 
+      <lb ed="#V" n="95"/>ait in euangelio. Ego edico vobis non iurate omnino 
+      <lb ed="#V" n="96"/>ita intelligitur precepissene quisquam ficut bonum 
+      ap<lb ed="#V" n="97" break="no"/>petat iuramentum et assiduitate iurandi labatur 
+      <lb ed="#V" n="98"/>in periurium. Quod vero addidit sit sermo vester est 
+      <lb ed="#V" n="99"/>est: non non: bonum est appetendum. Quod autem 
+      ampli<lb ed="#V" n="100" break="no"/>us etla malo est id est si iurare cogeris scias de 
+      necessi<lb ed="#V" n="101" break="no"/>tate venire infirmitatis eorum quibus aliquid suades. 
+      <lb ed="#V" n="102"/>Que infirmitas vtique malum est. Unde nos 
+      quo<lb ed="#V" n="103" break="no"/>tidie liberari precamur dicentes. Libera nos a 
+      <lb ed="#V" n="104"/>malo. Ideoque non dixit quod amplius est malum 
+      <lb ed="#V" n="105"/>est. Tu enim non facis malum qui bene vteris iura 
+      <lb ed="#V" n="106"/>tione: sed a malo est illius qui aliter non credit id est 
+      <lb ed="#V" n="107"/>ab infirmitate que aliquando pena est: aliquando pena et 
+      <lb ed="#V" n="108"/>culpa. Ibi ergo dominus prohibuit malum 
+      sua<lb ed="#V" n="109" break="no"/>sit bonum. indulsit necessarium. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e360">
+               <lb ed="#V" n="110"/>¶ De iuramento quod per creaturas sit. 
+      <lb ed="#V" n="111"/>Queritur etiam vtrum iceat in 
+      <lb ed="#V" n="112"/>rare per crean¬ 
+      <!--00308.xml-->
+      <pb ed="#V" n="149-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>turam: Quod non videtur cum in lege scriptum sit. Reddes 
+      <lb ed="#V" n="2"/>autem domino iuramenta tua. Et christus in euangelio 
+      pre<lb ed="#V" n="3" break="no"/>cipit non iurare omnino nec per celum: nec per terram: 
+      <lb ed="#V" n="4"/>nec per hierosolymam: nec per caput tuum. 
+      Iu<lb ed="#V" n="5" break="no"/>deis quasi paruulis est concessum iurare per 
+      <lb ed="#V" n="6"/>creatorem: et praeceptum: vt si iurare contingeret: non nisi 
+      <lb ed="#V" n="7"/>per cratorem iurarent non per creatura: quia iurantes 
+      <lb ed="#V" n="8"/>per angelos et elementa: creaturas venerabantur 
+      <lb ed="#V" n="9"/>honore: et melius erat hoc exhibere deo quam 
+      crea<lb ed="#V" n="10" break="no"/>turis. Infirmis ergo illud prohibuit: scientis vero qui in 
+      <lb ed="#V" n="11"/>creaturis creatorem venerabantur tantum: non prohibuit. 
+      <lb ed="#V" n="12"/>Unde Ioseph per salutem pharaonis iurauit: dei 
+      iu<lb ed="#V" n="13" break="no"/>dicium in eo veneratus quo positus erat in 
+      infi<lb ed="#V" n="14" break="no"/>mis. Christus vero ita per creaturas iurare 
+      prohi<lb ed="#V" n="15" break="no"/>buit: ne vel aliquid diuinum in eis crederetur pro quo 
+      <lb ed="#V" n="16"/>reuerentia eis debetur: vel ne per ea iurantes falsum 
+      <lb ed="#V" n="17"/>homines se iuramento teneri non putarent. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e412">
+               <lb ed="#V" n="18"/>¶ Que iuratio magis teneatur an que sit per deum 
+      <lb ed="#V" n="19"/>an que sit per euangelium: vel per creaturas. 
+      <lb ed="#V" n="20"/>queritur quis magis teneatur 
+      <lb ed="#V" n="21"/>Si autem 
+      <lb ed="#V" n="22"/>an qui per deum: an qui per 
+      <lb ed="#V" n="23"/>euangelium vel per creaturas iurat: Dicimus qui 
+      <lb ed="#V" n="24"/>per deum: quia per eum hec facta sunt. Unde Chryso. 
+      Si<lb ed="#V" n="25" break="no"/>qua causa fuerit modicum videtur facere qui iurat per deum. 
+      <lb ed="#V" n="26"/>Qui vero per euangelium magis aliquid fecisse videtur. 
+      Qui<lb ed="#V" n="27" break="no"/>bus dicendum est. Stulti scripture sancte propter deum 
+      <lb ed="#V" n="28"/>facte sunt: non deus propter scripturas: ita et 
+      crea<lb ed="#V" n="29" break="no"/>ture facte sunt propter deum. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e441">
+               <lb ed="#V" n="30"/>¶ Quid est dicere per deum. 
+      <lb ed="#V" n="31"/>quid sit dicere per 
+      <lb ed="#V" n="32"/>ic queritume onea lutor hoc ete 
+      <lb ed="#V" n="33"/>stem adhibere deum: Iurauit enim apostolus dicens. Testis 
+      <lb ed="#V" n="34"/>est mihi deus: ac si dixisset per deum ita est. Unde 
+      Au<lb ed="#V" n="35" break="no"/>gu. Ridiculum est putare hoc si dicas per deum iu 
+      <lb ed="#V" n="36"/>ras. Quid est enim per deum nisi testis est deus: aut quid 
+      <lb ed="#V" n="37"/>est testis est deus nisi per deum: Quid est autem iurare 
+      <lb ed="#V" n="38"/>nisi ius deo reddere quando per deum iuras: Ius scilicet 
+      <lb ed="#V" n="39"/>veritatis et non falsitatis. Item ecce dico 
+      charita<lb ed="#V" n="40" break="no"/>ti videre et qui per lapidem iurat falsum: periurus est: quia 
+      <lb ed="#V" n="41"/>non lapidem qui non audit: sed eius creatorem adhibet 
+      <lb ed="#V" n="42"/>testem. Hoc est ergo iurare per quamlibet creaturam 
+      <lb ed="#V" n="43"/>idest creatorem eius testem adhibere. Est est quoddam 
+      <lb ed="#V" n="44"/>genus iuramenti grauissimum quod fit per 
+      execratio<lb ed="#V" n="45" break="no"/>nem: vt cum homo dicit: si illud feci illud patiar: vel illud 
+      <lb ed="#V" n="46"/>contingat filiis meis. Secundum quem modum accipitur etiam 
+      <lb ed="#V" n="47"/>interdum cum aliquis iurando dicit: per salutem meam 
+      <lb ed="#V" n="48"/>vel per filios meos et huiusmodni. Obligat enim hoc 
+      <lb ed="#V" n="49"/>deo. Unde Augu. Cum quis ait per salutem meam: 
+      <lb ed="#V" n="50"/>salutem suam deo obligat. Cum dicit per filios 
+      me<lb ed="#V" n="51" break="no"/>os: oppignerat deos eo: vt hoc veniat in caput 
+      <lb ed="#V" n="52"/>eorum quod exit de ore ipsius. Si verum: verum: si falsum: 
+      <lb ed="#V" n="53"/>falsum. Et sicut per hoc iurans aliquando hoc deo 
+      ob<lb ed="#V" n="54" break="no"/>ligat: ita per deum iurans ipsum adhibet testem. 
+      In<lb ed="#V" n="55" break="no"/>omni ergo iuratione aut deus testis adhibetur: aut 
+      <lb ed="#V" n="56"/>creatura deo obligatur: et oppigneratur. Ut hoc sit 
+      <lb ed="#V" n="57"/>iurare scilicet deum testem adhibere: vel deo aliquid oppi¬ 
+      <!--00308.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="58"/>gnerare. Hoc est ergo iurare per quamlibet 
+      crea<lb ed="#V" n="59" break="no"/>turam scilicet creatorem eius testem adhibere. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e513">
+               <lb ed="#V" n="60"/>¶ De illis qui iurant per falsos deos. 
+      <lb ed="#V" n="61"/>orie trude eis vterl 
+      <lb ed="#V" n="62"/>Post hec 
+      <lb ed="#V" n="63"/>sit qui per demonia vel 
+      ido<lb ed="#V" n="64" break="no"/>la iurauerit: De hoc Augu. scribens ad 
+      publi<lb ed="#V" n="65" break="no"/>colam ait. Te prius considerare volo. vtrum si 
+      quispi<lb ed="#V" n="66" break="no"/>am per deos falsos iurauerit: et fidem non 
+      seruaue<lb ed="#V" n="67" break="no"/>rit non tibi videtur bis peccasse: Gis vtique peccauit quia 
+      <lb ed="#V" n="68"/>iurauit per quos non debuit: et contra politicam 
+      fe<lb ed="#V" n="69" break="no"/>cit fidem quod non debuit. Ideoque qui vtitur fide illi: 
+      <lb ed="#V" n="70"/>quem constat iurasse per deos falsos: et vtitur non ad 
+      <lb ed="#V" n="71"/>malum sed ad bonum non peccato iliius se sociat quo 
+      <lb ed="#V" n="72"/>per demonia iurauit: sed bono pacto eius quo 
+      fi<lb ed="#V" n="73" break="no"/>dem seruauit: et sine dubitatione minus malum 
+      <lb ed="#V" n="74"/>est per deos falsos iurare veraciter: quam per deum 
+      <lb ed="#V" n="75"/>verum fallaciter. Quanto enim per quod 
+      iura<lb ed="#V" n="76" break="no"/>tur magis sanctum tanto magis est penale periurium. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e552">
+               <lb ed="#V" n="77"/>¶ Quod iuramentum quo incaute iuratur non est 
+      obser<lb ed="#V" n="78" break="no"/>uandum nec votum nec promissio iniuste facta. 
+      <lb ed="#V" n="79"/>videre vtrum 
+      om<lb ed="#V" n="80" break="no"/>Nunc superest neurametum in 
+      <lb ed="#V" n="81"/>plendum sit: Si enim quis aliquid iurauerit contra 
+      fi<lb ed="#V" n="82" break="no"/>dem et charitatem quod obseruatu peiorem vergat in 
+      exi<lb ed="#V" n="83" break="no"/>tum: potius est mutandum quam adimplendum. Unde Am. 
+      <lb ed="#V" n="84"/>bro. Sed est contra officium dei nonnunquam promissum 
+      <lb ed="#V" n="85"/>soluere sacramentum vt herodes fecit. Item Isido. 
+      <lb ed="#V" n="86"/>tus. In malis promissis rescinde fidem: in turpi 
+      vo<lb ed="#V" n="87" break="no"/>to muta decretum. Quod incaute vouisti non facias. 
+      <lb ed="#V" n="88"/>impia est promissio que scelere adimpletur. Ideni. 
+      <lb ed="#V" n="89"/>Non est obseruandum sacramentum quo malum 
+      incau<lb ed="#V" n="90" break="no"/>te promittitur: vt si quis adultere perpetuam fidem cum 
+      <lb ed="#V" n="91"/>ea permanendi polliceatur. Tolerabilius enim est non 
+      <lb ed="#V" n="92"/>implere sacramentum quam permanere in stupro. Item 
+      <lb ed="#V" n="93"/>beda. Si quid nos incautius iurare contigerit quod 
+      <lb ed="#V" n="94"/>obseruatum peiorem vergat in exitum: libere illud 
+      salu<lb ed="#V" n="95" break="no"/>briori consilio mutandum nouerimus: ac magis 
+      in<lb ed="#V" n="96" break="no"/>stante necessitate peierandum esse nobis quam pro 
+      vi<lb ed="#V" n="97" break="no"/>tando periurio in aliud crimen grauius esse 
+      di<lb ed="#V" n="98" break="no"/>uertendum. Denique iurauit Dauid per deum 
+      occi<lb ed="#V" n="99" break="no"/>dere Nabal virum stultum: sed ad primam 
+      interces<lb ed="#V" n="100" break="no"/>sionem abigail femine prudentis remisit minas. 
+      <lb ed="#V" n="101"/>reuocauit ensem in vaginam: nec aliquid culpe se 
+      <lb ed="#V" n="102"/>tali periurio contraxisse doluit. Item Augu. Quod 
+      <lb ed="#V" n="103"/>dauid iuramentum per sanguinis effusionem non 
+      im<lb ed="#V" n="104" break="no"/>pleuit: maior pietas fuit. Iurauit dauid 
+      teme<lb ed="#V" n="105" break="no"/>re: sed non impleuit iurationem maiori pietate. Ex 
+      <lb ed="#V" n="106"/>his aliisque pluribus ostenditur quedam iuramanta non 
+      <lb ed="#V" n="107"/>esse obseruanda: et qui sic iurat vehementer peccat. 
+      <lb ed="#V" n="108"/>Qui autem mutat benefacit. Qui autem non 
+      <lb ed="#V" n="109"/>mutat dupliciter peccat: et quia iniuste iurauit: 
+      <lb ed="#V" n="110"/>et quia facit quod non debet. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e628">
+               <lb ed="#V" n="111"/>¶ Si est periurus qui non facit quod incaute iurauit. 
+      <lb ed="#V" n="112"/>mutat vtrum periurus 
+      de<lb ed="#V" n="113" break="no"/>Qui vero 
+      <lb ed="#V" n="114"/>beat dici: solet queri: Seda 
+      <lb ed="#V" n="115"/>supra tale iuramentum vocauit periurium. Io¬ 
+      <!--00309.xml-->
+      <pb ed="#V" n="150-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>annes etiam apochrisarius orientalium sedium 
+      di<lb ed="#V" n="2" break="no"/>xit. Sermo patris nostri sophronii significat: quod 
+      meli<lb ed="#V" n="3" break="no"/>us est iurantem peierare quam seruare 
+      sacramen<lb ed="#V" n="4" break="no"/>tum in fractione sanctarum imaginum. Sed 
+      per<lb ed="#V" n="5" break="no"/>iurium dicitur tale iuramentum non 
+      obserua<lb ed="#V" n="6" break="no"/>tum: et peierare dicitur qui non implet quia falsum 
+      <lb ed="#V" n="7"/>iurat: non quia idem reus sit quod non obseruat: sed quia 
+      iu<lb ed="#V" n="8" break="no"/>rauit iniustum: ex quo reus est: sicut ille qui peierat. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e666">
+               <lb ed="#V" n="9"/>¶ De eo qui verborum calliditate iurat. 
+      <lb ed="#V" n="10"/>Hoc etiam sciendum est quod quacunque 
+      <lb ed="#V" n="11"/>arte verborum quis 
+      iu<lb ed="#V" n="12" break="no"/>ret: deus tamen qui conscientie testis est: ita hoc accipit 
+      si<lb ed="#V" n="13" break="no"/>cut ille cut iuratur intelligit. Dupliciter 
+      au<lb ed="#V" n="14" break="no"/>tem reus sit qui et nomen dei inuanum assumit 
+      <lb ed="#V" n="15"/>et proximum in dolo capit. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e684">
+               <lb ed="#V" n="16"/>¶ De illo qui cogit aliquem iurare. 
+      <lb ed="#V" n="17"/>Queritur etiam si peccat qui 
+      <lb ed="#V" n="18"/>hominem 
+      iu<lb ed="#V" n="19" break="no"/>rare cogit: De hoc Augu. ait. Qui exigit iura 
+      <lb ed="#V" n="20"/>tionem multum interest si nescit illum iuraturum 
+      <lb ed="#V" n="21"/>falsum an scit. Si enim nescit: et ideo dicit: iura 
+      mi<lb ed="#V" n="22" break="no"/>hi vt fides ei sit: non est peccatum: tum humana 
+      tem<lb ed="#V" n="23" break="no"/>ptatioest. Si vero scit eum fecisse et cogit eum 
+      iu<lb ed="#V" n="24" break="no"/>rare homicida est. Idem qui prouocat hominem ad 
+      <lb ed="#V" n="25"/>iurationem et scit eum falsum iurare vincit 
+      ho<lb ed="#V" n="26" break="no"/>micidam: quia homicida corpus occisurus est: 
+      il<lb ed="#V" n="27" break="no"/>le animam: immo duas animas: et eius quem 
+      iu<lb ed="#V" n="28" break="no"/>rare prouocauit: et suam. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e715">
+               <lb ed="#V" n="29"/>¶ De concilio aurelianensi. n 
+      <lb ed="#V" n="30"/>Saneta synodiis decreuit 
+      ni<lb ed="#V" n="31" break="no"/>si pro 
+      pace<lb ed="#V" n="32" break="no"/>facienda vt omnes fideles ineiuni ad 
+      sacramen<lb ed="#V" n="33" break="no"/>ta accedant. Distin. XXXIX 
+      <lb ed="#V" n="34"/>Unc de periurio videamus etc. Superius 
+      <lb ed="#V" n="35"/>determinauit magister de 
+      mendacio<lb ed="#V" n="36" break="no"/>in hac parte determinat de periurio: et diuiditur 
+      <lb ed="#V" n="37"/>in partes duas.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e737">
+      ¶ Primo determinat de 
+      periu<lb ed="#V" n="38" break="no"/>rio
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e742">
+      ¶ Secundo de iuramento: ibi. Si autem queritur I. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e744">
+               <lb ed="#V" n="39"/>¶ Prima in duas.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e750">
+      ¶ Primo diffinit periurium.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e752">
+      ¶ 
+      Se<lb ed="#V" n="40" break="no"/>cundo mouet quaestionem super diffinitione periurii: ibi. Hic 
+      <lb ed="#V" n="41"/>queritu . Et ista in quinque.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e759">
+      ¶ Primo mouet quaestionem et 
+      op<lb ed="#V" n="42" break="no"/>
+               <lb ed="#V" n="43"/>busdam placet Tertio ponit quaestionis determinationem: 
+      <lb ed="#V" n="44"/>ibi. Sed melius
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e768">
+      ¶ Quarto mouet et soluit incidentem 
+      <lb ed="#V" n="45"/>dubitationem: ibi. Cum vero
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e773">
+      ¶ Quinto opponit 
+      con<lb ed="#V" n="46" break="no"/>tra suam determinationem: et soluit oppositionem: ibi. Hic 
+      op<lb ed="#V" n="47" break="no"/>ponitur . Illa pars in qua determinat de iuramento 
+      diui<lb ed="#V" n="48" break="no"/>ditur in partes quatuor.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e782">
+      ¶ Primo quaerit vtrum iurare sit 
+      li<lb ed="#V" n="49" break="no"/>citum.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e788">
+      ¶ Secundo per quid est iurandum: ibi. Queritur etiam. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e790">
+               <lb ed="#V" n="50"/>¶ Tertio vtrum omne iuramentum sit implendum: ibi. Nuc 
+      <lb ed="#V" n="51"/>superest. Quarto vtrum peccet ille qui cogit hominem ad 
+      iu<lb ed="#V" n="52" break="no"/>randum: ibi. Queritur est si peccat
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e799">
+      ¶ Secunda istarum diuidit in 
+      <lb ed="#V" n="53"/>partes quatuor.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e804">
+      ¶ Primo inquirit: vtrum sit licitum per 
+      creatu<lb ed="#V" n="54" break="no"/>ram iurare.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e809">
+      ¶ Secundo quis magis obligatur: vel ille qui iurat 
+      per<lb ed="#V" n="55" break="no"/>deum: vel ille qui iurat per creaturam: ibi. Si autem.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e814">
+      ¶ 
+      Ter<lb ed="#V" n="56" break="no"/>tio quid sit iurare per deum: vel creaturam: ibi. Hic queritur I 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e820">
+               <lb ed="#V" n="57"/>¶ Quarto vtrum recipiendum sit iuramentum iurantis per 
+      ido<lb ed="#V" n="58" break="no"/>lum: ibi. 6Post hoc sequitur I
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e827">
+      ¶ Illa pars que ibi incipit. 
+      <lb ed="#V" n="59"/>Nunc superest: diuiditur in partes tres.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e832">
+      ¶ Primo ostendit quod 
+      <lb ed="#V" n="60"/>iuramentum illicitum non est implendum.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e837">
+      ¶ Secundo inquirit: an sit 
+      <lb ed="#V" n="61"/>periurus qui non implet huiusmoni iuramentum: ibi. Qui vero mu¬ 
+      <!--00309.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="62"/>tat
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e848">
+      ¶ Tertio ostendit secundum cuius acceptionem inuramentum 
+      <lb ed="#V" n="63"/>sit interpretandum: ibi. hoc est  Illa pars que incipit. Que 
+      <lb ed="#V" n="64"/>ritur est si peccat: diuiditur in partes duas.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e855">
+      ¶ Primo ostendit quando 
+      <lb ed="#V" n="65"/>peccat: et quando non: qui exigit iuramentum.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e861">
+      ¶ Secundo quando sit 
+      iu<lb ed="#V" n="66" break="no"/>randum: et quando non: ibi. Sancta Synodus 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e866">
+               <lb ed="#V" n="67"/>CIrca hanc distin. quamuis magister 
+      pri<lb ed="#V" n="68" break="no"/>mo determinet de 
+      per<lb ed="#V" n="69" break="no"/>iurio quam de iuramento: tamen quia omne periurium includit 
+      <lb ed="#V" n="70"/>suramentum: sed non conuertitur.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e877">
+      ¶ Primo mihi videtur quae 
+      ren<lb ed="#V" n="71" break="no"/>dum de iuramento quam de periurio: ita vt primo quaeratur de forma 
+      <lb ed="#V" n="72"/>turamenti.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e884">
+      ¶ Secundo de obligatione causata per iuramentum. 
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e886">
+               <lb ed="#V" n="73"/>¶ Tertio de periurio.
+   </p>
+            <p xml:id="kzz7yh-g104770-d1e891">
+      ¶ Quarto de comparatione periurii ad 
+      <lb ed="#V" n="74"/>alia peccata. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

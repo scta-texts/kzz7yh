@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="21-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g14565"><!-- l3d6cl -->
+            <head xml:id="kzz7yh-g14565-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-g14565-d1e103">
+               <lb ed="#V" n="36"/>Irca litteram. Alii enim dicunt hec 
+      <lb ed="#V" n="37"/>est opinio prima quae falsa 
+      <lb ed="#V" n="38"/>est: et non intelligibilis: ponit enim ex anima christi et eius 
+      <lb ed="#V" n="39"/>corpore: non tantum constitutam esse vnam humanam naturam: 
+      <lb ed="#V" n="40"/>sed est vnum creatum suppositum. Unde dicit quod filius dei 
+      assun<lb ed="#V" n="41" break="no"/>psit aliquem hominem non tantum modo naturam humanam. Ad quod 
+      <lb ed="#V" n="42"/>sequeretur quod in christo essent duo supposita: quod falsum est: et 
+      po<lb ed="#V" n="43" break="no"/>nit quod persona verbi est ille homo assumptus: quod intelligibile 
+      <lb ed="#V" n="44"/>non est: non tamen ponit quod ille homo assumptus sit persona: quia 
+      vni<lb ed="#V" n="45" break="no"/>tus est digniori se. Uterque etiam simul non duo: sed vnus 
+      <lb ed="#V" n="46"/>est christus. Hic nominatiuus christus debet resolui in 
+      ge<lb ed="#V" n="47" break="no"/>nitiuum: vt sit sensus: quia substantia diuina et humana non 
+      <lb ed="#V" n="48"/>sunt duo christi: sed vnius christi. Sunt autem et alii. Hec 
+      <lb ed="#V" n="49"/>secunda opinio que ponit ex vnione anime christi cum 
+      cor<lb ed="#V" n="50" break="no"/>pore esse constitutam naturam humanam non aliquod 
+      ho<lb ed="#V" n="51" break="no"/>minis suppositum: nec dicit hunc hominem esse 
+      assum<lb ed="#V" n="52" break="no"/>ptum: sed humanam naturam: non tamen dicit eam filio dei 
+      ac<lb ed="#V" n="53" break="no"/>tualiter vnitam: sed in vnitate persone. Unde cum dico 
+      <lb ed="#V" n="54"/>hunc hominem demonstrato christo: nec nomine 
+      supposi<lb ed="#V" n="55" break="no"/>tum: nisi eternum: quia secundum hanc opinionem in christo non 
+      <lb ed="#V" n="56"/>est nisi vnum suppositum: et hec vera sunt. In 
+      incarnatio<lb ed="#V" n="57" break="no"/>ne factam compositam. Hoc enim in questionibus 
+      exposi<lb ed="#V" n="58" break="no"/>tum est. Omnis res illarum rerum naturam et veritatem 
+      <lb ed="#V" n="59"/>in se continet: ex quibus conficitur: hoc intelligendum 
+      <lb ed="#V" n="60"/>est de his que ita vniuntur quod eorum nature remanent 
+      sal<lb ed="#V" n="61" break="no"/>ue: sicut est in proposito. Sunt etiam et alii. Hec est tertia 
+      <lb ed="#V" n="62"/>opinio que ponit: ex anima christi et corpore non esse 
+      com<lb ed="#V" n="63" break="no"/>stitutum aliquod vnum: neque naturam: neque suppositum: 
+      <lb ed="#V" n="64"/>sed pro tanto dicit filium dei assumpsisse naturam humanam: 
+      <lb ed="#V" n="65"/>quia assumpsit partes illius: et istas duas naturas ponit 
+      <lb ed="#V" n="66"/>esse coniunctas persone filii dei accidentaliter: sicut 
+      di<lb ed="#V" n="67" break="no"/>ceremus vestem esse vnitam homini: que opinio in hoc 
+      <lb ed="#V" n="68"/>quod dicit ex anima christi et corpore nihil vnum esse con¬ 
+      <!--00052.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="69"/>stitutum: et illas partes accidentaliter esse vnitas 
+      perso<lb ed="#V" n="70" break="no"/>ne filii dei falsa est: et improbata. Potuit deus 
+      assumpsis<lb ed="#V" n="71" break="no"/>se hominem in sexu muliebri: quod si fecisset nullum 
+      incon<lb ed="#V" n="72" break="no"/>ueniens fuisset: quia alium ordinem statuisset: sed secundum 
+      or<lb ed="#V" n="73" break="no"/>dinem institutum inconueniens fuisset ipsum humanam 
+      <lb ed="#V" n="74"/>naturam in sexu muliebri assumere. Sapientia accedens 
+      <lb ed="#V" n="75"/>homini non ipsa mutatur: scilicet alteratione mutetur: licet 
+      <lb ed="#V" n="76"/>mutetur de non esse ad esse: quod intelligo de sapientia 
+      <lb ed="#V" n="77"/>creata. Cibus ammittens speciem suam in corpus 
+      verti<lb ed="#V" n="78" break="no"/>tur: modus istius conuersionis in secundo libro 
+      declara<lb ed="#V" n="79" break="no"/>tus est. Sicut anulus positus in digyto. Intellectus est 
+      <lb ed="#V" n="80"/>quod per positionem anuli in digyto non oportet ipsum 
+      di<lb ed="#V" n="81" break="no"/>gytum mutari secundum aliquod absolutum: quamuis in eo fiat 
+      ali<lb ed="#V" n="82" break="no"/>qua relatio per solius anuli mutationem: si ipse digytus 
+      to<lb ed="#V" n="83" break="no"/>taliter quiescat quando anulus ponitur circa eum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

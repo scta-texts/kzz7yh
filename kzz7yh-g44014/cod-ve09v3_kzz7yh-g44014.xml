@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="62-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g44014"><!-- l3d19a1 -->
+            <head xml:id="kzz7yh-g44014-Hd1e101">Articulus 1</head>
+            <p xml:id="kzz7yh-g44014-d1e103">
+      ¶ Circa primum queruntur qua 
+      <lb ed="#V" n="115"/>tuor.
+   </p>
+            <p xml:id="kzz7yh-g44014-d1e108">
+      ¶ Primo vtrum per passionem christi simus 
+      libe<lb ed="#V" n="116" break="no"/>rati ab omni culpa.
+   </p>
+            <p xml:id="kzz7yh-g44014-d1e113">
+      ¶ Secundo vtrum a potestate diabo 
+      <lb ed="#V" n="117"/>lica.
+   </p>
+            <p xml:id="kzz7yh-g44014-d1e118">
+      ¶ Tertio vtrum a pena eterna.
+   </p>
+            <p xml:id="kzz7yh-g44014-d1e121">
+      ¶ Quarto vtrum 
+      <!--00137.xml-->
+      <pb ed="#V" n="63-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>a temporali pena.
+   </p>
+            <div xml:id="kzz7yh-g44014-Dd1e132">
+               <head xml:id="kzz7yh-g44014-Hd1e134">Quaestio 1</head>
+               <p xml:id="kzz7yh-g44014-d1e136">
+     Questio I. 
+      <lb ed="#V" n="2"/>Rimo ostendo quod per passionem christi non 
+      <lb ed="#V" n="3"/>simus liberati ab omni culpa. 
+    </p>
+               <p xml:id="kzz7yh-g44014-d1e143">
+                  <lb ed="#V" n="4"/>Ad Ro 4. dicitur de christo quod resurrexit propter in 
+      <lb ed="#V" n="5"/>stificationem nostram: ergo libatio a peccato: non est 
+      <lb ed="#V" n="6"/>per christi passionem: sed per eius resurrectionem.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e152">
+      ¶ Item omne 
+      <lb ed="#V" n="7"/>quod agit in aliud coniunctum est ei: sed passio christi non est 
+      con<lb ed="#V" n="8" break="no"/>iuncta nostris animabus: ergo nihil agit in animas nostras. Per ea 
+      <lb ed="#V" n="9"/>ergo non purgantur a peccatis.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e161">
+      ¶ Item eorum quae sunt equalia vnum 
+      <lb ed="#V" n="10"/>non superatur ab alio: sed tantum malum: ex parte occidentium fuit 
+      <lb ed="#V" n="11"/>christi occisio: quantum bonum ex parte patientis fuit passio: 
+      <lb ed="#V" n="12"/>quia sicut patiebatur ille qui est infinite bonitatis: ita occidentes 
+      <lb ed="#V" n="13"/>occiderunt eum: qui est infinite bonitatis: ergo per passionem 
+      <lb ed="#V" n="14"/>christi non fuit deleta culpa crucifigentium christum.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e175">
+      ¶ Item 
+      <lb ed="#V" n="15"/>per passionem christi non potuimus a peccatis liberari: qui nondum 
+      <lb ed="#V" n="16"/>erant: quia tunc postea nunquam facta fuissent: sed multa peccata post 
+      <lb ed="#V" n="17"/>christi passionem sacta sunt: ergo per christi passionem deleta nonrfuerunt. 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e184">
+                  <lb ed="#V" n="18"/>Contra magister in littera. Morte sua vno verissimo 
+      <lb ed="#V" n="19"/>sacrificio quicquid culparum erat: vnde nos 
+      diabo<lb ed="#V" n="20" break="no"/>lus ad luenda supplicia detinebat christus extinxit.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e193">
+      ¶ Item 
+      <lb ed="#V" n="21"/>passio christi: quantum fuit ex parte sua equaliter se habuit ad 
+      libe<lb ed="#V" n="22" break="no"/>randum nos a quolibet peccato: sed planum est: quod per passionem 
+      <lb ed="#V" n="23"/>christi fuimus liberati ab aliquibus peccatis: dicitur enim in canone 
+      <lb ed="#V" n="24"/>misse de sanguine christi: quod pro nobis et pro multis effundetur 
+      <lb ed="#V" n="25"/>in remissionem peccatorum: ergo per passionem christi fuimus 
+      libe<lb ed="#V" n="26" break="no"/>rati ab omnibus peccatis. 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e209">
+                  <lb ed="#V" n="27"/>Respondeo quod nos esse liberatos ab omni cul 
+      <lb ed="#V" n="28"/>pa: per christi passionem quinque modis 
+      po<lb ed="#V" n="29" break="no"/>test intelligi: aut tanquam per causam formalem: aut tanquam per causam 
+      <lb ed="#V" n="30"/>principaliter efficientem: aut tanquam per causam tantum de congruo 
+      dis<lb ed="#V" n="31" break="no"/>ponentem: aut tanquam per causam efficientem instrumentalem: aut 
+      <lb ed="#V" n="32"/>tanquam per causam sufficienter et de condigno: quantum est ex parte 
+      <lb ed="#V" n="33"/>sua nos disponentem ad hoc: vt ab omni culpa liberati 
+      <lb ed="#V" n="34"/>simus.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e229">
+      ¶ Primo modo non sumus liberati per christi 
+      passio<lb ed="#V" n="35" break="no"/>nem ab aliqua pena: quia sola gratia dei est formale principium 
+      <lb ed="#V" n="36"/>quo liberamur a culpa. Est enim formale principium 
+      iustifica<lb ed="#V" n="37" break="no"/>tionis nostre. Nec est secundo modo: quia solus deus est causa 
+      principa<lb ed="#V" n="38" break="no"/>lis efficiens liberationis a peccato. Ipse enim solus efficit et 
+      infun<lb ed="#V" n="39" break="no"/>dit nobis formale principium id est gratiam: quo formaliter a culpa 
+      libe<lb ed="#V" n="40" break="no"/>ramur. Unde tanque causa principaliter efficiens nullus potest 
+      re<lb ed="#V" n="41" break="no"/>mittere peccata: nisi solus deus: vnde et illa remittebat christus 
+      <lb ed="#V" n="42"/>non ratione humane nature: sed ratione diuine: quia est homo et deus. 
+      <lb ed="#V" n="43"/>Nec est tertio modo: quia quamuis christus per suam passionem: ad hoc 
+      <lb ed="#V" n="44"/>vt simus ab omni culpa liberati: nos de congruo disposue 
+      <lb ed="#V" n="45"/>rit: inquantum in dispositione sufficienti et completa includitur 
+      <lb ed="#V" n="46"/>virtualiter dispositio congrua: tamen non disposuit nos de 
+      congruo<lb ed="#V" n="47" break="no"/>tantum secundum quem modum purus homo iustus orans pro peccatore quam 
+      <lb ed="#V" n="48"/>tum est ex parte sua disponit peccatorem: ad hoc vt a peccato 
+      li<lb ed="#V" n="49" break="no"/>beretur. Nec est proprie loquendo quarto modo: sed sic libec 
+      <lb ed="#V" n="50"/>ramur a peccatis per sacramenta: quia sunt insttera diuine 
+      miseri<lb ed="#V" n="51" break="no"/>cordie: per quam remittuntur peccata.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e268">
+      ¶ Quinto autem modo per 
+      pas<lb ed="#V" n="52" break="no"/>sionem christi liberati sumus ab omni culpa quantum ad 
+      suffici<lb ed="#V" n="53" break="no"/>entiam. Christus enim per suam passionem omnibus nobis sufficienter 
+      <lb ed="#V" n="54"/>meruit merito condigni omnium peccatorum remissionem: quod 
+      pa<lb ed="#V" n="55" break="no"/>tet per hoc quod in vltima quaestione praecedentis di. dec laratum est 
+      <lb ed="#V" n="56"/>scilicet quod christus per suam passionem nobis sufficienter meruit 
+      meri<lb ed="#V" n="57" break="no"/>to condigni: primam gratiam gratum facientem. Unde hec quaestio 
+      <lb ed="#V" n="58"/>multum est illi quaestioni vicina quamuis autem per passionem christi 
+      li<lb ed="#V" n="59" break="no"/>berati sumus ab omni culpa: quantum ad sufficientiam non tamen 
+      <lb ed="#V" n="60"/>omnes recipiunt istius meriti efficaciam propter multorum 
+      indisposi<lb ed="#V" n="61" break="no"/>tionem: et ideo in canone misse dicitur de sanguine christi quod 
+      pro<lb ed="#V" n="62" break="no"/>nobis et pro multis effundetur: ad notandu quod et si sint multi: 
+      <lb ed="#V" n="63"/>qui meriti christi efficaciam recipiunt: non tamen omnes. 
+    </p>
+               <p xml:id="kzz7yh-g44014-d1e298">
+                  <lb ed="#V" n="64"/>Ad primum in oppositum dicendum quod po tanto 
+      <lb ed="#V" n="65"/>christi resurrectio dicitur fuisse 
+      pro<lb ed="#V" n="66" break="no"/>pter nostram iustificationem: quia fuit exemplar iustificationis 
+      <lb ed="#V" n="67"/>nostre: quia secundum glosam ibidem in resurrectione noua vita 
+      signi<lb ed="#V" n="68" break="no"/>ficatur: que a iustificatione incipit et in immortalitate perficietur. 
+      <!--00137.xml-->
+      <cb ed="#P" n="b"/>
+               </p>
+               <p xml:id="kzz7yh-g44014-d1e316">
+                  <lb ed="#V" n="69"/>¶ Ad secundum dicendum: quod quamuis passio christi non sit nostris 
+      <lb ed="#V" n="70"/>animabus essentialiter coniuncta est tamen eis coniuncta virtualiter per 
+      fi<lb ed="#V" n="71" break="no"/>dem christi et dilectionem: et hoc sufficit ad hoc: vt per eam simus 
+      <lb ed="#V" n="72"/>liberati ab omni culpa modo supradicto in corpore quaestionis 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e327">
+                  <lb ed="#V" n="73"/>¶ Ad tertium dicendum quod non fuit tantum malum ex parte occidenti 
+      <lb ed="#V" n="74"/>um christum quantum fuit bonum ex parte christi pa ientis. Non enim in 
+      vo<lb ed="#V" n="75" break="no"/>luntate christum occidentium: fuit tanta malignitas quanta in 
+      vo<lb ed="#V" n="76" break="no"/>luntate christi patientis fuit bonitas. Unde passionem ex maiori 
+      <lb ed="#V" n="77"/>affectu bonitatis sustinuit: quam fuerit affectus malignitatis 
+      <lb ed="#V" n="78"/>in voluntate ipsorum qui ipsam passionem intulerunt. Et pterea 
+      il<lb ed="#V" n="79" break="no"/>le qui patiebatur non tantum erat homo: sed est deus ratione cuius ipsi 
+      <lb ed="#V" n="80"/>us meritum extendebat in bonitate malignitatem omnium pecctorum 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e347">
+                  <lb ed="#V" n="81"/>¶ Ad quartum dicendum quod peccata quae nondum erant commissa 
+      deleri<lb ed="#V" n="82" break="no"/>potuerunt per passionem christi quantum ad causae delentis sufficientiam: sed 
+      <lb ed="#V" n="83"/>non quantum ad efficientiam sicut morbis futuris: potest 
+      medici<lb ed="#V" n="84" break="no"/>na sufficiens preparari.
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g44014-Dd1e359">
+               <head xml:id="kzz7yh-g44014-Hd1e361">Quaestio 2</head>
+               <p xml:id="kzz7yh-g44014-d1e363">
+      Questio II. 
+      <lb ed="#V" n="85"/>SEcundo queritur vtrum per passionem christiper 
+      <lb ed="#V" n="86"/>mus liberati a potestate diabo 
+      <lb ed="#V" n="87"/>lica: et videtur quod non: quia adhuc habet potestatem vexandi 
+      <lb ed="#V" n="88"/>corpora: sicut docet multiplex experientia: et 
+      po<lb ed="#V" n="89" break="no"/>testatem nocendi anime. Unde. 2. corinth. 4. dicitur: quod deus huius sclati 
+      ex<lb ed="#V" n="90" break="no"/>cecauit mentes infidelium. Cum ergo per deum huius scitati: ibi 
+      intelli<lb ed="#V" n="91" break="no"/>gatur diabolus: videtur quod per passionem christi non simus liberati ab eius 
+      <lb ed="#V" n="92"/>potestate: nec quantum ad animam: nec quantum ad corpus.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e383">
+      ¶ Item 
+      si<lb ed="#V" n="93" break="no"/>cut nec potest modo cogere nosterm liberum arbitrium: ita non 
+      pote<lb ed="#V" n="94" break="no"/>rat cogere ante christi passionem: rgo non plus eramus in sua pta 
+      <lb ed="#V" n="95"/>te ante christi passionem quam modo.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e392">
+      ¶ Item glo. super illud Apoca. 2o 
+      <lb ed="#V" n="96"/>Cum consumati fuerit mille anni soluetur sathanas de carcere 
+      <lb ed="#V" n="97"/>suo. dicit id est recepit priorem potestatem: ergo tunc ita 
+      eri<lb ed="#V" n="98" break="no"/>mus in eius potestate sicut ante christi passionem. 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e401">
+                  <lb ed="#V" n="99"/>Contra Io. 12. hebetur quod christus appropiquante tempore 
+      pas<lb ed="#V" n="100" break="no"/>nonis sue dixit. Hunc princeps huius mudi ei 
+      <lb ed="#V" n="101"/>cietur foras.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e411">
+      ¶ Item Apoc. 5. Uicit leo de tribum iuda: sed 
+      vi<lb ed="#V" n="102" break="no"/>ctoria ducis est victoria exercitus sui: ergo per passionem christi: 
+      <lb ed="#V" n="103"/>qua diabolum vicit: sumus de potestate diabolica liberati. 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e418">
+                  <lb ed="#V" n="104"/>Respondeo quod per passionem christi: sumus a ptestate 
+      <lb ed="#V" n="105"/>diabolica liberati. Unde Augu. 4 de 
+      <lb ed="#V" n="106"/>tri. c. 13. christus occisus innocens: diabolum iure equissimo superauit 
+      <lb ed="#V" n="107"/>nosque liberauit a captiuitate facta propter peccatum suo iusto 
+      sangui<lb ed="#V" n="108" break="no"/>ne effuso iniuste: quod non est sic intelligendum: quod per passionem christi 
+      <lb ed="#V" n="109"/>sit a diabolo ablata totaliter potestas nocendi: et temptandi: sed quod idn 
+      <lb ed="#V" n="110"/>eam potestas detinendi animas iustorum nihil habentes purgabile totaliter 
+      <lb ed="#V" n="111"/>ab eo est ablata: et potestas nocendi et temptandi: si est restricta quod 
+      si<lb ed="#V" n="112" break="no"/>gnatum est Apoc. 0. per ligationem diaboli: sed quod patet per glo. ibidem. 
+      <lb ed="#V" n="113"/>Per passionem est christi virtus nostra multipliciter est adiuta: quia per eam 
+      <lb ed="#V" n="114"/>gratiae adiutorium nobis abundantius infunditur: et veritas patet 
+      mani<lb ed="#V" n="115" break="no"/>festius: et angeli nos custodiunt diligentius. Et ideo diabolus non 
+      <lb ed="#V" n="116"/>ita potest humana corpora violentare: sicut ante. Nec ita 
+      ve<lb ed="#V" n="117" break="no"/>hementer potest nos per suas temptationes: ad peccatum 
+      <lb ed="#V" n="118"/>inclinare: nec ita faciliter decipere hominum intellectus. 
+    </p>
+               <p xml:id="kzz7yh-g44014-d1e453">
+                  <lb ed="#V" n="119"/>Ad primum in oppositum dicendum quod non plus concludit 
+      <lb ed="#V" n="120"/>nisi quod potestas vexandi corpus et tempta 
+      <lb ed="#V" n="121"/>di animas nostras: non est a diabolo totaliter ablata: et hoc est verum: sed 
+      <lb ed="#V" n="122"/>ex hoc non sequitur quin sit restricta.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e464">
+      ¶ Ad 2m dicendum quod quamuis 
+      <lb ed="#V" n="123"/>diabolus nunquam potuerit cogere nosterm liberum arbitrium: tamen 
+      <lb ed="#V" n="124"/>temptando magis poterat ipsum inclinare ad malum ante christi 
+      pas<lb ed="#V" n="125" break="no"/>sionem quam post.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e473">
+      ¶ Ad 3m dicendum quod quamuis tempore antechristi diabolus 
+      <lb ed="#V" n="126"/>hiturus sit maximam temptandi potentiam: hoc tamen no erit propter 
+      in<lb ed="#V" n="127" break="no"/>sufficientiam meriti passionis christi: sed propter maximam hominum per 
+      <lb ed="#V" n="128"/>uersitatem: quia sicut dicitur Math. 24. Abundabit iniquitas 
+      <lb ed="#V" n="129"/>et refrigescet charitas multorum. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g44014-Dd1e485">
+               <head xml:id="kzz7yh-g44014-Hd1e487">Quaestio 3</head>
+               <p xml:id="kzz7yh-g44014-d1e489">
+      Questio. III 
+      <lb ed="#V" n="130"/>TErtio queritur vtrum per passionem christi simus libe 
+      <lb ed="#V" n="131"/>rati a pena eterna: et videtur quod non: quia 
+      <lb ed="#V" n="132"/>passio christi fuit finita: pena eterna est infinita: sed 
+      fi<lb ed="#V" n="133" break="no"/>nitum non proportionatur infinito: ergo cum emenda 
+      libe<lb ed="#V" n="134" break="no"/>rans a pena proportionari debeati pene: non sumus per 
+      pas<lb ed="#V" n="135" break="no"/>sionem christi liberati a pena eterna.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e505">
+      ¶ Item minus bonum 
+      <lb ed="#V" n="136"/>non potest esse emenda sufficiens pro amissione maioris boni: sed 
+      <!--00138.xml-->
+      <pb ed="#V" n="63-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>melior est vita spiritualis quam corporalis: ergo nec per illam 
+      passio<lb ed="#V" n="2" break="no"/>nem sumus a pena eterna liberati: quae spirituali vite opponitur. 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e521">
+                  <lb ed="#V" n="3"/>¶ Item si christus nunquam fuisset passus: tamen iusti non 
+      remansis<lb ed="#V" n="4" break="no"/>sent in pena eterna: quia secundum Augu. iI li. retracta. c. 8. Omnis 
+      pe<lb ed="#V" n="5" break="no"/>na si iusta est: peccati pena est: ergo non videtur quod per praeassionem 
+      <lb ed="#V" n="6"/>christi homines iusti liberati sint a pena eterna. 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e532">
+                  <lb ed="#V" n="7"/>Contra Augu. 4. libro de tri. c. 13. dicit de ipso. Quod 
+      mor<lb ed="#V" n="8" break="no"/>te sua aboleuit quicquid culparum erat. Unde 
+      princi<lb ed="#V" n="9" break="no"/>patus et potestates: nos ad luenda supplicia detinebant. 
+      Si<lb ed="#V" n="10" break="no"/>ergo per passionem christi amotum est illud quo nobis debebatur 
+      <lb ed="#V" n="11"/>pena eterna: vere per passionem illam sumus liberati a pena 
+      eter<lb ed="#V" n="12" break="no"/>na.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e549">
+      ¶ Item glo. super illud dacharie. 9. Tu vero in sanguine 
+      <lb ed="#V" n="13"/>testamenti tui emisisti victos tuos de lacu: in quo non est 
+      <lb ed="#V" n="14"/>aqua dicit. O christe fili in sanguine passionis tue eos quod 
+      <lb ed="#V" n="15"/>tenebantur vincti in carceribus inferni: in quo non est vlla 
+      refri<lb ed="#V" n="16" break="no"/>gerans misericordia: quam diues quaerebat liberasti tua miseri 
+      <lb ed="#V" n="17"/>cordia: ergo per passionem christi omnes sunt a pena eterna liberati. 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e562">
+                  <lb ed="#V" n="18"/>Respondeo quod aliquos liberari a pena eterna: 
+      <lb ed="#V" n="19"/>tripliciter potest intelligi scilicet aut eos a 
+      <lb ed="#V" n="20"/>pena eterna iam habita eripi: autem a reatu illius pene absol 
+      <lb ed="#V" n="21"/>ui: autem ab illo reatu praeseruari. Quolibet autem istorum 
+      modo<lb ed="#V" n="22" break="no"/>rum accipiatur liberari a pena eterna: dico quod omnes homines 
+      <lb ed="#V" n="23"/>per meritum passionis christi liberati sunt a pena eterna: 
+      <lb ed="#V" n="24"/>quantum ad sufficientiam: non tamen quantum ad efficientiam: quia nullus de 
+      <lb ed="#V" n="25"/>illis: qui iam habet eternam pena in actu potest se disponere ad 
+      re<lb ed="#V" n="26" break="no"/>cipiendum efficaciam meriti passionis christi: quia omnes illi in sua 
+      <lb ed="#V" n="27"/>malitia obstinati sunt: et ideo nullus de illis meriti 
+      passio<lb ed="#V" n="28" break="no"/>nis christi recipit efficaciam. Multi est de illis qui per peccatum 
+      <lb ed="#V" n="29"/>mortale: ad illam penam sunt obligati: non disponunt se ad 
+      reci<lb ed="#V" n="30" break="no"/>piendum meriti passionis christi efficaciam: et ideo ab illo rea 
+      <lb ed="#V" n="31"/>tu per passionem christi: non absoluuntur. Multi est qui nec penam 
+      <lb ed="#V" n="32"/>eternam habent secundum actum nec secundum reatum: postea praecipitant se in 
+      <lb ed="#V" n="33"/>peccatum mortale: et sic incurrunt reatum pene eterne: et ideo per 
+      <lb ed="#V" n="34"/>meritum passionis christi a reatu pene eterne: quantum ad 
+      es<lb ed="#V" n="35" break="no"/>ficaciam non praeseruantur. Sed omnes illi qui se disponunt ad 
+      reci<lb ed="#V" n="36" break="no"/>piendum meriti passionis christi efficaciam: per illam passionem 
+      <lb ed="#V" n="37"/>a reatu pene eterne absoluunt: si ad illam erant obligati: vel 
+      <lb ed="#V" n="38"/>praeseruantur: si ad illam non erant obligati: et in sua dispositione 
+      <lb ed="#V" n="39"/>perseuerent: et hec quaodo quaestioni prime dist. huius multum est 
+      vici<lb ed="#V" n="40" break="no"/>na: quia cum nulli: nisi propter peccatum mortale debeatur pena 
+      <lb ed="#V" n="41"/>eterna: ostenso quomodo per meritum passionis christi liberati 
+      su<lb ed="#V" n="42" break="no"/>mus ab omni culpa aliquo modo ostensum est: quomodo per 
+      me<lb ed="#V" n="43" break="no"/>ritum passionis christi liberati sumus a pena eterna. 
+    </p>
+               <p xml:id="kzz7yh-g44014-d1e621">
+                  <lb ed="#V" n="44"/>Ad primum in oppositum dicendum: quod quamuis 
+      pas<lb ed="#V" n="45" break="no"/>sio christi fuerit finita intensiue et 
+      <lb ed="#V" n="46"/>extensiue inquantum natura: secundum quam christus patiebatur: etat res 
+      si<lb ed="#V" n="47" break="no"/>nita: tamen quia ille qui patiebatur: non tantum erat homo: sed est deus 
+      <lb ed="#V" n="48"/>quamuis non pateretur secundum naturam diuinam: nec tantum acceptabatur illa 
+      <lb ed="#V" n="49"/>passio a voluntate christi humana quae finita est: sed etiam a 
+      vo<lb ed="#V" n="50" break="no"/>luntate eius diuina quae est infinita: ideo meritum illius 
+      pas<lb ed="#V" n="51" break="no"/>sionis virtutem secundum respectum aliquem habuit infinitam.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e641">
+      ¶ Ad 
+      <lb ed="#V" n="52"/>secundum dicendum: quod in emenda ille qui recipit emendam: non tantum 
+      <lb ed="#V" n="53"/>ponderat: si iustus est: quantum offertur: sicut ponderatex 
+      quamn<lb ed="#V" n="54" break="no"/>ta intentione et voluntate offertur: christus autem ex rectissima in 
+      <lb ed="#V" n="55"/>tentione: et feruentissima voluntate: vitam suam corporalem a 
+      <lb ed="#V" n="56"/>nobis obtulit pro emenda: cuius voluntas et intentio in 
+      con<lb ed="#V" n="57" break="no"/>spectu patris plus ponderabat in bonum: quam amissio nostre 
+      <lb ed="#V" n="58"/>vite spiritualis in malum.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e659">
+      ¶ Ad tertium dicendum: quod maior vera 
+      <lb ed="#V" n="59"/>est: quia si christus nunquam fuisset passus: deus aliam viazordi 
+      <lb ed="#V" n="60"/>nasset: per quam iusti fuissent liberati: nec ex hocsequtur: quin 
+      <lb ed="#V" n="61"/>per meritum passionis christi liberati sint: cum per illam viam deus 
+      <lb ed="#V" n="62"/>eos voluit liberare.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e670">
+      ¶ Argumenta ad partem aliam gratia 
+      conclu<lb ed="#V" n="63" break="no"/>sionis possunt concedi: quia tamen vltimum apparenter videtur 
+      conclude<lb ed="#V" n="64" break="no"/>re: quod per meritum passionis christi aliqui de inferno damnatorum 
+      li<lb ed="#V" n="65" break="no"/>berati fuerunt: quodfalsum est: sicut patuit in corpore 
+      passio<lb ed="#V" n="66" break="no"/>nis: ideo auctoritas indiget expositione. Potest ergo dici quod 
+      <lb ed="#V" n="67"/>refrigerantem misericordiam: ibi vocat glo. misericordiam tota 
+      <lb ed="#V" n="68"/>liter liberantem a pena: quam maxime illediues optabat: et 
+      <!--00138.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="69"/>sic dicendum quod in nulla parte inferni: etiam in limbo erat talis 
+      <lb ed="#V" n="70"/>misericordia: quia sancti patres in limbo habebant penam damni scilicet 
+      ca<lb ed="#V" n="71" break="no"/>rentiam visionis dei: per illum ergo infernum de quo loquitur glo. et 
+      <lb ed="#V" n="72"/>quem textus vocat locum intelligi debet: limbus in quo erant 
+      <lb ed="#V" n="73"/>sancti patres ante christi passionem: qui est vocatur infernus 
+      inferi<lb ed="#V" n="74" break="no"/>or: non respectu aliarum partium inferni: imo respectu illarum est 
+      <lb ed="#V" n="75"/>superior: sed respectu huius mundi: et sic potest exponi illud 
+      <lb ed="#V" n="76"/>verbum psalmi. Eruisti animam meam ex inferno inferiori: et patet 
+      <lb ed="#V" n="77"/>solutio ad illam quaestionem: quam aliqui faciunt di. 22 scilicet vtrum 
+      <lb ed="#V" n="78"/>christus aliquos de inferno damnatorum liberauerit. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g44014-Dd1e713">
+               <head xml:id="kzz7yh-g44014-Hd1e715">Quaestio 4</head>
+               <p xml:id="kzz7yh-g44014-d1e717">
+                  <lb ed="#V" n="79"/>Questio. IIII. 
+      <lb ed="#V" n="80"/>Uarto queritur vtrum per passionem 
+      christi<lb ed="#V" n="81" break="no"/>simus liberati a pena temporali: et videtur 
+      <lb ed="#V" n="82"/>quod non: quia experientia docet nos post passionem 
+      <lb ed="#V" n="83"/>christi in pena multiplici remansisse.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e730">
+      ¶ Item 
+      il<lb ed="#V" n="84" break="no"/>lud quod prouocat ad sustinendum penam temporalem: non videtur 
+      libe<lb ed="#V" n="85" break="no"/>rare a temporali pena: sed christi passio nos prouocat ad penam 
+      <lb ed="#V" n="86"/>temporalem sustinendum: quia sicut dicit Beatus Petrus in prima sua. c. 
+      <lb ed="#V" n="87"/>2. christus passus est pro nobis: nobis relinquens exemplum: vt 
+      <lb ed="#V" n="88"/>sequamini vestigia eius: ergo per passionem christi non 
+      sumu<lb ed="#V" n="89" break="no"/>liberati a temporali pena.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e746">
+      ¶ Item si passio christi numquam fusset 
+      <lb ed="#V" n="90"/>nec futura esset: tamen esset futura iustorum resurrectio gliosa: 
+      <lb ed="#V" n="91"/>sed resurrectio gluriosa ab omni pena temporali liberabit: ergo 
+      <lb ed="#V" n="92"/>videtur quod per passionem christi non sit illa libatio futura. 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e755">
+                  <lb ed="#V" n="93"/>Contra baptismus a passione christi habet virtutem: sed 
+      <lb ed="#V" n="94"/>per baptismum liberatur homo ab omni culpa: 
+      <lb ed="#V" n="95"/>et omni pena peccato debita: sicut in quarto patebit: 
+      er<lb ed="#V" n="96" break="no"/>go per meritum passionis christi liberantur ab omni pena tempora 
+      <lb ed="#V" n="97"/>li.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e769">
+      ¶ Item secundum Augu. 22 de ci. dei. c. 24. propter vicium peccati est in 
+      <lb ed="#V" n="98"/>nobis necessitas mortis: sed christus per suam passionem 
+      libe<lb ed="#V" n="99" break="no"/>rauit nos ab omni culpa: tam origimali quam actuali: quantum 
+      <lb ed="#V" n="100"/>fuit ex parte sua: ergo ex consequenti liberauit nos a 
+      neces<lb ed="#V" n="101" break="no"/>sitate moriendi: ergo a simili a quacunque temporali pena. 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e780">
+                  <lb ed="#V" n="102"/>Respondeo quo pena temporalis: quantu sufficit ad 
+      pre<lb ed="#V" n="103" break="no"/>sens: tripliciter potest accipi scilicet pro 
+      pe<lb ed="#V" n="104" break="no"/>na nature: quae est originali peccato debita: et pro pena persone debita 
+      <lb ed="#V" n="105"/>peccato actuali. Et pro pena persone volutarie assumpta ad 
+      au<lb ed="#V" n="106" break="no"/>gumentum meriti. A prima pena et secunda liberati sumus per 
+      pas<lb ed="#V" n="107" break="no"/>sionem christi quantum ad sufficientiam: quia passio christi fuit tante 
+      <lb ed="#V" n="108"/>efficacie: quod fuit sufficiens satisfactio pro omnibus penis: nostris 
+      <lb ed="#V" n="109"/>peccatis debitis. Unde Isa. 53. Uere langores nros ipse 
+      tu<lb ed="#V" n="110" break="no"/>lit: et dolores nosteros ipse portauit: non omnes tum per illam passionem 
+      <lb ed="#V" n="111"/>liberati sunt a penis praedictis quantum ad efficientiam: quia non 
+      <lb ed="#V" n="112"/>omnes sic disponuntur: vt quantum ad hoc recipiant meriti 
+      passio<lb ed="#V" n="113" break="no"/>nis christi efficaciam: qui autem efficaciam passionis christi quantum 
+      <lb ed="#V" n="114"/>ad praedictam liberationem recipiunt: non adipiscuntur 
+      liberatio<lb ed="#V" n="115" break="no"/>nem a pena nature in praesenti vita: quia secundum Augu. 13 de triate. c. 16. 
+      <lb ed="#V" n="116"/>Remissis peccatis remanere debet: vt per eam exerceatur virtus 
+      fide<lb ed="#V" n="117" break="no"/>lium: et nouus homo inter mala huius seculi: nouo seculo 
+      <lb ed="#V" n="118"/>praepararetur miseriam quam meruit vita ista damnata: sapienter 
+      <lb ed="#V" n="119"/>tolerans: et quia finietur prudenter gratulans: beatitudinem 
+      ve<lb ed="#V" n="120" break="no"/>ro quam liberata vita futura: sine fine habitura est: fideliter 
+      <lb ed="#V" n="121"/>et patienter expectans: vnde praedictam liberationem 
+      adipiscen<lb ed="#V" n="122" break="no"/>tur in futuro.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e828">
+      ¶ Liberationem autem a pena persone 
+      de<lb ed="#V" n="123" break="no"/>bita pro actuali peccato totaliter quantum ad efficaciam in 
+      praesenti<lb ed="#V" n="124" break="no"/>vita adipiscuntur illi qui participes fiunt meriti passionis 
+      <lb ed="#V" n="125"/>christi in baptismo: vnde in baptizato nulla pena 
+      satisfa<lb ed="#V" n="126" break="no"/>ctoria exigitur. Qui autem peccant post baptismum: et postea 
+      <lb ed="#V" n="127"/>participes fiunt meriti passionis christi per penitentie 
+      sa<lb ed="#V" n="128" break="no"/>cramentum liberationem a parte pene predicte 
+      adipiscun<lb ed="#V" n="129" break="no"/>tur virtute clauium.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e846">
+      ¶ A tertia autem pena passio 
+      chri<lb ed="#V" n="130" break="no"/>sti in presenti non liberat: sed ad illam nos prouocat: 
+      quan<lb ed="#V" n="131" break="no"/>diu sumus in statu merendi: quanuis christus per suam 
+      <lb ed="#V" n="132"/>passionem meruerit: vt in illis qui vsque in finem sunt participes 
+      <lb ed="#V" n="133"/>meriti passionis sue: nulla talis pena in futuro possit esse. 
+    </p>
+               <p xml:id="kzz7yh-g44014-d1e857">
+                  <lb ed="#V" n="134"/>Ad primum et secundum ad partem primam 
+      <lb ed="#V" n="135"/>patent solutiones ex iam dictis. 
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e864">
+                  <lb ed="#V" n="136"/>¶ Ad 3m dicendum quod non conludit: quin praedicta liberatio sit per 
+      <!--00139.xml-->
+      <pb ed="#V" n="64-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>passionem christi: sed quod deus sic ordinare potuit vt fieret 
+      <lb ed="#V" n="2"/>par aliam viam.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e881">
+      ¶ Primum argumentum ad partem aliam bene 
+      <lb ed="#V" n="3"/>concludit.
+   </p>
+               <p xml:id="kzz7yh-g44014-d1e886">
+      ¶ Secundum etiam bene concludit de liberatione: quam 
+      <lb ed="#V" n="4"/>tum ad sufficientiam: et quantum ad efficientiam in futuro: 
+      <lb ed="#V" n="5"/>non tamen in presenti: quia quamuis pena nature: nobis debeatur: 
+      <lb ed="#V" n="6"/>propter originale peccatum: non tamen statim remoueri debut a 
+      <lb ed="#V" n="7"/>nobis: deleto originali peccato: per rationes allegatas ab 
+      Au<lb ed="#V" n="8" break="no"/>gu. in corpore questionis. Et quia est vt dicit Augu. in. c. 
+      su<lb ed="#V" n="9" break="no"/>pra allegato: valet ad demonstrandam huius vite miseri 
+      <lb ed="#V" n="10"/>am: vt illa vbi erit beatitudo vera: atque perpetua: 
+      deside<lb ed="#V" n="11" break="no"/>ratur ardentius: et instantius inquiratur. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

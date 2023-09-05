@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="36-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g25680"><!-- l3d12cl -->
+            <head xml:id="kzz7yh-g25680-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-g25680-d1e103">
+               <lb ed="#V" n="125"/>CIrca litteram. hic distinctione 
+      <lb ed="#V" n="126"/>ropus est: non 
+      inten<lb ed="#V" n="127" break="no"/>tio magistri: quin de virtute sermonis hec 
+      propo<lb ed="#V" n="128" break="no"/>sitio: iste homo: demonstrato christo potuit 
+      pec<lb ed="#V" n="129" break="no"/>care: sit falsa. Sed vult ostendere in quo sensu posset esse 
+      <lb ed="#V" n="130"/>vera: si ille sensus de virtute sermonis haberetur. 
+      Qui<lb ed="#V" n="131" break="no"/>dam arbitrantur: simpliciter concedendum est: quod filius dei 
+      <lb ed="#V" n="132"/>humanam naturam assumere potuit in sexu femineo: de 
+      <lb ed="#V" n="133"/>potestate absoluta: magis tamen congruum fuit: vt eam 
+      <lb ed="#V" n="134"/>in sexu masculino assumeret: vt superius ostensum est. Ille 
+      <lb ed="#V" n="135"/>vir de semina natus est: hic vocatur christi mater: 
+      femi<lb ed="#V" n="136" break="no"/>na: non quia corrupta: sed propter sexum: quod ideo dico: 
+      <!--00085.xml-->
+      <pb ed="#V" n="37-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>quia nomen femine et mulieris aliquando accipitur secundum 
+      <lb ed="#V" n="2"/>quod sonat corruptionem: vt Matth. i10. vbi dicit Saluator 
+      <lb ed="#V" n="3"/>Inter natos mulierum non surrexit maior Ioanne 
+      Bapti<lb ed="#V" n="4" break="no"/>sta. Notandum et quod non fuit congruum: vt filius dei carnem 
+      as<lb ed="#V" n="5" break="no"/>sumeret de viro tantum: quia nullam naturalem habitudinem 
+      consagui<lb ed="#V" n="6" break="no"/>neitatis habuisset ad aliquem de genere humano: quia illius 
+      <lb ed="#V" n="7"/>hominis de quo carnem assumpsisset non fuisset filius: 
+      si<lb ed="#V" n="8" break="no"/>cut nec Eua filia Ade potuit dici.
+   </p>
+            <p xml:id="kzz7yh-g25680-d1e155">
+      ¶ Preterea in hoc quod 
+      <lb ed="#V" n="9"/>assumpsit carnem de sola muliere vterque sexus sublimat: 
+      <lb ed="#V" n="10"/>est scilicet femineus in virgine et masculinus in christo: quod non 
+      <lb ed="#V" n="11"/>fuisset si carnem assumpsisset de viro. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="7-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g05018"><!-- l3d2cl -->
+            <head xml:id="kzz7yh-g05018-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-g05018-d1e103">
+               <lb ed="#V" n="114"/>CIrca litteram. Totam assumpse 
+      <lb ed="#V" n="115"/>rit quod non est 
+      in<lb ed="#V" n="116" break="no"/>telligendum de totalitate partium subiectiuarum 
+      <lb ed="#V" n="117"/>quia non assumpsit cuiuslibet hominis 
+      singula<lb ed="#V" n="118" break="no"/>rem naturam: sed de totalitate partium integralium quod patet: 
+      <lb ed="#V" n="119"/>quia postquam dixerat totam assumpsit statim subiunxit: idest 
+      <lb ed="#V" n="120"/>animam et carnem: vt totum curaret scilicet culpam remouendo: et 
+      san<lb ed="#V" n="121" break="no"/>ctificaret scilicet gratiam conferendo. Aperte ostendit humanitatis 
+      <lb ed="#V" n="122"/>nomine animam et corpus intelligi: quod non est sic intelligendum: 
+      <lb ed="#V" n="123"/>quod corpus et anima sunt humana natura que nomine 
+      hu<lb ed="#V" n="124" break="no"/>manitatis signatur: sed quod constituitur ex eorum coniunctione: 
+      si<lb ed="#V" n="125" break="no"/>cut esse cuiusque rei habentis naturam et formam constituitur 
+      <lb ed="#V" n="126"/>ex earum coniunctione: ita quod materia et forma partes sunt 
+      il<lb ed="#V" n="127" break="no"/>lius esse: et ideo concedendum corpus et animam esse partes 
+      <lb ed="#V" n="128"/>humane nature. Errant qui nomine humanitatis non 
+      <lb ed="#V" n="129"/>substantiam: sed proprietatem quandam a qua homo nomina 
+      <lb ed="#V" n="130"/>tur signari concedunt vbique humanitas christi memoratur. Hoc 
+      <lb ed="#V" n="131"/>dicitur contra quosdam: qui humanitatem christi qui estimabant 
+      <lb ed="#V" n="132"/>formam vniuersalem immaterialem: et contra illas qui estima 
+      <lb ed="#V" n="133"/>bant eam esse formam accidentalem dicentes illam 
+      humanita<lb ed="#V" n="134" break="no"/>tem esse habitum in christo occasionem accipientes ex illo verbo 
+      <lb ed="#V" n="135"/>apstuli ad Philip. 2. Habitum inuentus vt homo: et tam 
+      isti<lb ed="#V" n="136" break="no"/>quam alii errabant. Natura enim non sic accipitur in christo non 
+      <!--00025.xml-->
+      <pb ed="#V" n="8-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>scilicet vna communis resultans ex vnione nature humane ad 
+      di<lb ed="#V" n="2" break="no"/>uinam in domino iesu christo non est communem speciem accipere id est non sic est 
+      po<lb ed="#V" n="3" break="no"/>nere in christo vnam naturam communem constitutam ex diuina natura et humana: 
+      <lb ed="#V" n="4"/>vel ex divina persona et natura humana: sicut in nobis ex vnione 
+      cor<lb ed="#V" n="5" break="no"/>poris et anime quod in assumptibile est: incurabile est id est si 
+      ali<lb ed="#V" n="6" break="no"/>quid de nostra natura non assumpsisset illud non curatum 
+      <lb ed="#V" n="7"/>fuisset: non congruerit. Nota quod non dicit non potuerit: 
+      predi<lb ed="#V" n="8" break="no"/>cant istum visibilem solem radios per omnes feces spargere: 
+      <lb ed="#V" n="9"/>et eos mundos et sinceros seruare: cuius ratio est: quia sol cum 
+      <lb ed="#V" n="10"/>inserioribus corporibus non communicat in materia: neque cum 
+      <lb ed="#V" n="11"/>materia: ex qua neque cum materia in qua sicut dicimus quod 
+      <lb ed="#V" n="12"/>anima est in corpore: vt in materia: cum ergo deus in 
+      nul<lb ed="#V" n="13" break="no"/>lo cum istis inferioribus communicet nullo modo potuit per 
+      car<lb ed="#V" n="14" break="no"/>nis assumptionem inquinari per spiritum animam: idest per 
+      <lb ed="#V" n="15"/>portionem anime superiorem: portionem anime inferiorem 
+      <lb ed="#V" n="16"/>vel per intellectiuam sensitiuam et vegetatiuam. Ex quo 
+      ho<lb ed="#V" n="17" break="no"/>minem deus assumpsit: idest naturam hominis nec caro 
+      <lb ed="#V" n="18"/>prius fuit concepta et postmodum assumpta: verum est 
+      <lb ed="#V" n="19"/>secundum ordinem temporis non nature. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

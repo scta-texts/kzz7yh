@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 5</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 5</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="128-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g90050"><!-- l3d33a5 -->
+            <head xml:id="kzz7yh-g90050-Hd1e101">Articulus 5</head>
+            <p xml:id="kzz7yh-g90050-d1e103">
+               <lb ed="#V" n="82"/>COnsequenter queritur de quinto 
+      <lb ed="#V" n="83"/>principali: et circa 
+      <lb ed="#V" n="84"/>hoc queruntur octo.
+   </p>
+            <p xml:id="kzz7yh-g90050-d1e112">
+      ¶ Primo vtrum 
+      temperan<lb ed="#V" n="85" break="no"/>tia sit virtus.
+   </p>
+            <p xml:id="kzz7yh-g90050-d1e117">
+      ¶ Secundo vtrum sit virtus ab aliis 
+      <lb ed="#V" n="86"/>distincta.
+   </p>
+            <p xml:id="kzz7yh-g90050-d1e122">
+      ¶ Tertio vtrum actus virtutis temporantie sit solum 
+      <lb ed="#V" n="87"/>respectu delectabilis vel tristabilis presentis.
+   </p>
+            <p xml:id="kzz7yh-g90050-d1e128">
+      ¶ Quarto 
+      <lb ed="#V" n="88"/>vtrum melior sit temporantia quam continentia.
+   </p>
+            <p xml:id="kzz7yh-g90050-d1e133">
+      ¶ Quinto vtrum 
+      <lb ed="#V" n="89"/>magis sit exprobrabilis intemperantia quam iracundia.
+   </p>
+            <p xml:id="kzz7yh-g90050-d1e138">
+      ¶ Sex. 
+      <lb ed="#V" n="90"/>to vtrum magis sit vitium intemperantia quam timiditas. 
+   </p>
+            <p xml:id="kzz7yh-g90050-d1e143">
+               <lb ed="#V" n="91"/>¶ Septimo de partibus temperantie.
+   </p>
+            <p xml:id="kzz7yh-g90050-d1e148">
+      ¶ Octauo vtrum 
+      <lb ed="#V" n="92"/>verecundia sit virtus. 
+   </p>
+            <div xml:id="kzz7yh-g90050-Dd1e153">
+               <head xml:id="kzz7yh-g90050-Hd1e155">Quaestio 1</head>
+               <p xml:id="kzz7yh-g90050-d1e157">
+      Quaestio I. 
+      <lb ed="#V" n="93"/>Rimo ostendo quod tempantia non sit virtus 
+      <lb ed="#V" n="94"/>secundum Damas. libro 2. c. vltim. Uirtus est 
+      <lb ed="#V" n="95"/>secundum naturam: sed temporantia non est secundum naturam: quia illud 
+      <lb ed="#V" n="96"/>quod est secundum naturam non reprimit motum naturalem: 
+      <lb ed="#V" n="97"/>temperantia autem reprimit naturalem motum appetitus 
+      senfitiui<lb ed="#V" n="98" break="no"/>in delectationem sensibilem: ergo non est virtus.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e173">
+      ¶ Item 
+      <lb ed="#V" n="99"/>Augu. 4 de ciui. c. 21. Dicit quod ars bene recteque viuendi 
+      <lb ed="#V" n="100"/>virtus a veteribus diffinita est: sed temporantia non est ars: 
+      <lb ed="#V" n="101"/>quia secundum philosophum 6 Ethi. c. 4. Ars pertinet ad potentiam 
+      cor<lb ed="#V" n="102" break="no"/>gnitiuam: ergo temporantia: non est virtus.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e184">
+      ¶ Item 
+      temporan<lb ed="#V" n="103" break="no"/>tia est circa delectabile: sed virtus est circa tristabile: quia 
+      si<lb ed="#V" n="104" break="no"/>cut dicit philosophus 2 Ethi. c. 3. Uirtus est circa bonum difficile: 
+      <lb ed="#V" n="105"/>difficile autem est tristabile quod importat rationem penalis mali: 
+      <lb ed="#V" n="106"/>ergo temperantia non est virtus. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e195">
+                  <lb ed="#V" n="107"/>Contra Augu. libr. 83. quaestionum q. 61. dicit. Quatuor 
+      ant<lb ed="#V" n="108" break="no"/>mi virtutes quibus in hac vita spiritualiter viuitur 
+      <lb ed="#V" n="109"/>esse prudentiam: temperantiam: ortitudinem: iustitiam. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e205">
+                  <lb ed="#V" n="110"/>Respondeo quod tempantis virtus est: propter hoc. ni quoe 
+      <lb ed="#V" n="111"/>secundum beatum Diony. 4. c. de diui. 
+      nomi<lb ed="#V" n="112" break="no"/>nibus. Bonum hominis est esse secundum rationem: et difficile est secundum 
+      <lb ed="#V" n="113"/>rationem esse: ideo secundum quod dicit Tul. 2. Rheto. Habitus 
+      in<lb ed="#V" n="114" break="no"/>modum nature rationi consentaneus: virtus est. Sed talis 
+      habi<lb ed="#V" n="115" break="no"/>tus est temporantia secundum quod patet per philosophum. 3. Ethi. c. penul. Qui 
+      <lb ed="#V" n="116"/>declarat ibidem: temparatu per temporantiam medio modo se habere 
+      <lb ed="#V" n="117"/>ad delectationes per comparationem ad rectum iudicium rationis. 
+    </p>
+               <p xml:id="kzz7yh-g90050-d1e225">
+                  <lb ed="#V" n="118"/>Ad primum in oppositum dicendum quod nama de qua 
+      ibi<lb ed="#V" n="119" break="no"/>loquitur Damas. non est naum generis 
+      <lb ed="#V" n="120"/>sed speciei. vnde pro tanto dicit virtutem esse secundum naturam: quia 
+      <lb ed="#V" n="121"/>concordat naturali iudicio recte rationis: et motum nature sic dicte 
+      tem<lb ed="#V" n="122" break="no"/>perantia non reprimit: nec impedit.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e238">
+      ¶ Ad secundum dicendum quod 
+      for<lb ed="#V" n="123" break="no"/>te illi veteres qui virtutem diffinierunt artem recte 
+      vi<lb ed="#V" n="124" break="no"/>uendi: fuerunt de opinione illorum qui estimabant: omnes 
+      vir<lb ed="#V" n="125" break="no"/>tutes esse prudentias quam opinionem tangit philosophus: et 
+      repro<lb ed="#V" n="126" break="no"/>bat 6 Ethi. c. 17.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e249">
+      ¶ Uel potest dici quod ipsi non dederunt illam 
+      <lb ed="#V" n="127"/>diffinitionem de virtute in generali: sed de prudentia tantum. 
+      <lb ed="#V" n="128"/>Uel voluerunt dicere quod virtus vel est ars recte viuendi 
+      <lb ed="#V" n="129"/>que est prudentia: vel non est sine illa arte. Et bene verum 
+      <lb ed="#V" n="130"/>est virtutem non esse sine prudentia secundum quod dicit philoso 
+      <lb ed="#V" n="131"/>phus 6 Ethico. cap. preallegato.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e262">
+      ¶ Ad tertium 
+      dicen<lb ed="#V" n="132" break="no"/>dum quod cum dicitur esse virtus circa bonum et difficile: 
+      <lb ed="#V" n="133"/>non est hoc intelligendum: sicut circa obiectum: sed sicut 
+      <lb ed="#V" n="134"/>circa actum bene ibi voluit dicere philosophus quod omnis 
+      <lb ed="#V" n="135"/>actus virtutis est bonus et difficilis. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g90050-Dd1e275">
+               <head xml:id="kzz7yh-g90050-Hd1e277">Quaestio 2</head>
+               <p xml:id="kzz7yh-g90050-d1e279">
+                  <lb ed="#V" n="136"/>estio. II. 
+      <!--00266.xml-->
+      <pb ed="#V" n="128-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>SEcundo queritur: vtrum tempantia sit 
+      vir<lb ed="#V" n="2" break="no"/>tus ab aliis distincta: et videtur quod 
+      <lb ed="#V" n="3"/>non: quia temparare actum appetitus: commune est omni 
+      virtu<lb ed="#V" n="4" break="no"/>ti. Sed actus temporantie est temparare actum 
+      appeti<lb ed="#V" n="5" break="no"/>tus secundum regulam rationis: ergo non est aliqua virtus distincta 
+      <lb ed="#V" n="6"/>ab aliis.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e303">
+      ¶ Item Augu. liro 83. quaestionum. q. 61. Dicit quod 
+      temporan<lb ed="#V" n="7" break="no"/>tia est refrenatio cupiditatis ab his que temporaliter delectant: 
+      <lb ed="#V" n="8"/>sed hoc conuenit pluribus virtutibus. Conuenit enim 
+      eutra<lb ed="#V" n="9" break="no"/>pelie que est circa delectationes que sunt in ludis: ergo videtur 
+      <lb ed="#V" n="10"/>quod temperantia: non sit virtus distincta ab aliis. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e314">
+                  <lb ed="#V" n="11"/>Contra secundum Augu. 19 libro de ciui. c. 4. Tempeantia est 
+      <lb ed="#V" n="12"/>qua carnales frenantur libidines: ne in queque 
+      <lb ed="#V" n="13"/>flagitia mentem consentientem trahant. Sed hic actus 
+      distin<lb ed="#V" n="14" break="no"/>ctus est ab actibus aliarum virtutum: ergo temperantia 
+      <lb ed="#V" n="15"/>virtus est ab aliis distincta. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e327">
+                  <lb ed="#V" n="16"/>Respondeo quod tempantia tripliter potest accipi: vno 
+      <lb ed="#V" n="17"/>modo pro habitu temperante actum 
+      <lb ed="#V" n="18"/>appetitus secundum regulam rationis: et sic non est virtus distincta 
+      <lb ed="#V" n="19"/>ab aliis. Temparare enim actum appetitus modo praedicto conuenit 
+      <lb ed="#V" n="20"/>cuilibet morali virtuti. Alio modo potest accipi pro 
+      habi<lb ed="#V" n="21" break="no"/>tu: cuius principalior actus est retrahere moderate 
+      appe<lb ed="#V" n="22" break="no"/>titum ab his que contra rationem ipsum alliciunt. Et sic quamuis 
+      di<lb ed="#V" n="23" break="no"/>stinguatur a fortitudine: inquantum principalis actus 
+      fortitudi<lb ed="#V" n="24" break="no"/>nis est moderate impellere appetitum ad firmiter 
+      sustinen<lb ed="#V" n="25" break="no"/>dum mala ardua: ne propter ea vitanda refugiatur rationis bonum 
+      <lb ed="#V" n="26"/>tamen sic modo distinguitur ab aliis virtutibus que sunt 
+      respe<lb ed="#V" n="27" break="no"/>ctu boni delectabilis.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e357">
+      ¶ Tertio modo potest accipi speciealiter 
+      <lb ed="#V" n="28"/>et proprie scilicet pro habitum moderante delectationes sensibiles 
+      <lb ed="#V" n="29"/>que sunt respectu venereorum et respectu cibi et potus: et sic 
+      <lb ed="#V" n="30"/>est specialis virtus distincta ab aliis: principalius tamen est 
+      cir<lb ed="#V" n="31" break="no"/>ca delectationes venereorum quam circa illas que sunt 
+      respe<lb ed="#V" n="32" break="no"/>ctu cibi et potus. Unde philosophus. 3. ethi. c. 12. Dicit quod temparati videntur 
+      <lb ed="#V" n="33"/>gustu in parum vel in nihil vti: quod intelligendum est quantum 
+      <lb ed="#V" n="34"/>ad delectationem que est in sapere cibi et potus.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e375">
+      ¶ Circa 
+      <lb ed="#V" n="35"/>tamen delectationem que est in vsu cibi et potus inquantum 
+      requi<lb ed="#V" n="36" break="no"/>runtur ad conseruationem naturalis vite et ad repellendam famem et 
+      <lb ed="#V" n="37"/>sitim magis proprie est virtus temporantie quam circa 
+      delectatio<lb ed="#V" n="38" break="no"/>nes saporum. Non est autem intelligendum quod temporantia hoc 
+      mo<lb ed="#V" n="39" break="no"/>do accepta ita sit speciealis virtus ab aliis distincta quod non 
+      <lb ed="#V" n="40"/>distinguatur in plures species: quia plures sunt species temporantie: vt 
+      <lb ed="#V" n="41"/>in septima questione presentis articuli patebit. 
+      <lb ed="#V" n="42"/>Primum argumentum ad partem primam procaedit de 
+      <lb ed="#V" n="43"/>tempaerantia primo modo dicta: et secundum de 
+      tem<lb ed="#V" n="44" break="no"/>perantia secundo modo dicta.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e399">
+      ¶ Argumentum ad partem secundam 
+      <lb ed="#V" n="45"/>procedit de temperantia: tertio modo dicta.
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g90050-Dd1e405">
+               <head xml:id="kzz7yh-g90050-Hd1e407">Quaestio 3</head>
+               <p xml:id="kzz7yh-g90050-d1e409">
+      Quaestio III 
+      <lb ed="#V" n="46"/>TErtio queritur: vtrum actus temprantie sit solum 
+      <lb ed="#V" n="47"/>respectu delectabilis vel trstabilis 
+      <lb ed="#V" n="48"/>praesentis: et videtur quod non: vt enim superius habitum est: 
+      susti<lb ed="#V" n="49" break="no"/>nere qui est percipuus actus fortitudinis est 
+      re<lb ed="#V" n="50" break="no"/>spectu mali ardui praesentis: aliquis est actus eius est respectu 
+      <lb ed="#V" n="51"/>mali ardui futuri: ergo a simili aliquis actus temporantie est 
+      re<lb ed="#V" n="52" break="no"/>spectu delectabilis praesentis: et aliquis respectu delectabilis 
+      fu<lb ed="#V" n="53" break="no"/>turi.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e429">
+      ¶ Item temperantia non tantum est moderatiua 
+      delectatio<lb ed="#V" n="54" break="no"/>nis: sed et concupiscentie: sed sicut delectabile poesens causat de 
+      <lb ed="#V" n="55"/>lectationem: ita futurum causat concupiscentiam: ergo non tantum 
+      <lb ed="#V" n="56"/>est actus temporantie respectu delectabilis praesentis: sed est 
+      futu<lb ed="#V" n="57" break="no"/>ri.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e440">
+      ¶ Item memoria rei delectabilis et spes eius causant 
+      de<lb ed="#V" n="58" break="no"/>lectationem secundum quod potest accipi ex sententia phlosophi. 9. Ethi. c. 8. Sed 
+      <lb ed="#V" n="59"/>delectatio est tempaerantie immediatum obiectum: ergo non tantum est virt: 
+      <lb ed="#V" n="60"/>temperantie respectum delectabilis praesentis: sed est praeteriti et futuri. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e449">
+                  <lb ed="#V" n="61"/>Contra secundum philosophum. 3. Ethi. c. 12. Temprantia est 
+      medie<lb ed="#V" n="62" break="no"/>tas circa delectationes et tristitias: sed 
+      dele<lb ed="#V" n="63" break="no"/>ctatio et tristitia sunt respectu boni vel mali praesentis: sicut 
+      <lb ed="#V" n="64"/>concupiscentia vel fuga respectu boni vel mali futuri: ergo 
+      <lb ed="#V" n="65"/>actus temporantie solum est respectu delectabilis vel 
+      tristabi<lb ed="#V" n="66" break="no"/>lis praesentis.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e466">
+      ¶ Item actus temperantie non est respectu 
+      de<lb ed="#V" n="67" break="no"/>lectabilis: nisi inquantum parit delectationem: sed 
+      absen<lb ed="#V" n="68" break="no"/>tia delectabilis non parit delectationem sed tristitiam: sicut 
+      <!--00266.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="69"/>absentia tristabilis non parit tristitiam: sed delectationem: 
+      <lb ed="#V" n="70"/>ergo actus temporantie non est respectu delectabilis absentis. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e482">
+                  <lb ed="#V" n="71"/>Respondeo quod delectabile dupliciter potest 
+      intelli<lb ed="#V" n="72" break="no"/>gi esse praesens scilicet vel in re vel in spe: et 
+      <lb ed="#V" n="73"/>vtroque istorum modorum causat delectationem. Unde est secundum 
+      <lb ed="#V" n="74"/>philosophum. 3. Ethi. c. 12. Odoribus leporum canes non gaudent 
+      <lb ed="#V" n="75"/>nisi pro cibatione: nec leo voce bouis: nisi pro comestione 
+      <lb ed="#V" n="76"/>cuius ratio est: quia canibus per odores leporum et leoni per 
+      vo<lb ed="#V" n="77" break="no"/>cem bouis delectabile secundum gustum: iam est proaesens in spe: quia 
+      <lb ed="#V" n="78"/>tamen verior est praesentia in re quam in spe: ideo delectatio: quam 
+      cau<lb ed="#V" n="79" break="no"/>sat delectabile proaesens in re est fortior et purior quam illa quam 
+      <lb ed="#V" n="80"/>causat proaesens in spe. Illa enim est admista cum aliqua afflictione 
+      <lb ed="#V" n="81"/>propter abesentiam realis praesentie: quia sic sap. prouer. 13. Spes quae differtur 
+      <lb ed="#V" n="82"/>affligit animam. Et ideo dicendum quod principaliter actus temporantie non 
+      <lb ed="#V" n="83"/>est nisi respectu delectabilis praesentis in re: ex consequenti tamen est 
+      re<lb ed="#V" n="84" break="no"/>spectu delectabilis praesentis in spe: et in imaginatione 
+      inquan<lb ed="#V" n="85" break="no"/>tum speratum causat aliquam concupiscentiam et delectationem. 
+      <lb ed="#V" n="86"/>dicendum quod non plus concludit nisi quod 
+    </p>
+               <p xml:id="kzz7yh-g90050-d1e519">
+                  <lb ed="#V" n="87"/>Ad primum 
+      <lb ed="#V" n="88"/>aliquis actus minus principalis 
+      te<lb ed="#V" n="89" break="no"/>perantie est respectu delectabilis abesentis in re 
+      distinguen<lb ed="#V" n="90" break="no"/>do delectabile a delectatione: quod ideo dico: quia delectatio est 
+      <lb ed="#V" n="91"/>etiam delectabilis non multum tamen valet forma argumenti: quia 
+      <lb ed="#V" n="92"/>malum arduum proesens non minus est difficile: sed magis quam 
+      fu<lb ed="#V" n="93" break="no"/>turum: obiectum autem delectationis futurum: non ita est delecta 
+      <lb ed="#V" n="94"/>bile: sicut poesenus. et ideo non sic potest praecipuus actus temporantie esse 
+      <lb ed="#V" n="95"/>respectu delectabilis futuri: sicut principalis actus 
+      fortitu<lb ed="#V" n="96" break="no"/>dinis qui est sustinere respectu ardui mali praesentis.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e543">
+      ¶ Ad 
+      <lb ed="#V" n="97"/>secundum dicendum quod quamuis temporantia sit respectu concupiscentie: quia tamen 
+      <lb ed="#V" n="98"/>hoc non est: nisi in ordine ad delectationem: ideo non ita 
+      prin<lb ed="#V" n="99" break="no"/>cipaliter est respectu delectabilis futuri causantis 
+      concupiscen<lb ed="#V" n="100" break="no"/>tiam: sicut respectum praesentis
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e554">
+      ¶ Ad 3m patet solutio ex dictis in quaestione. 
+      <lb ed="#V" n="101"/>Primum argumentum ad partem iliam non plus concludit 
+      <lb ed="#V" n="102"/>nisi quod actus temporantie principalius est 
+      re<lb ed="#V" n="103" break="no"/>spectu delectabilis praesentis in re quam praesentis in spe vel in 
+      ima<lb ed="#V" n="104" break="no"/>ginatione tantum.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e565">
+      ¶ Ad secundum dicendum quod delectabile abesens sub 
+      <lb ed="#V" n="105"/>ratione qua absens nullam causat delectationem: sed ab 
+      <lb ed="#V" n="106"/>sens in re sub ratione qua presens in spe vel in 
+      imagina<lb ed="#V" n="107" break="no"/>ione aliquam causat delectationem.
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g90050-Dd1e575">
+               <head xml:id="kzz7yh-g90050-Hd1e577">Quaestio 4</head>
+               <p xml:id="kzz7yh-g90050-d1e579">
+      Quaestio IIII 
+      <lb ed="#V" n="108"/>QUarto queritur: vtrum melior sit temporantia 
+      <lb ed="#V" n="109"/>quam continentia: et videtur quod non melior 
+      <lb ed="#V" n="110"/>virtus non est in minus nobili subiecto: sed 
+      con<lb ed="#V" n="111" break="no"/>tinentia est in voluntate: temporantia autem non est: 
+      <lb ed="#V" n="112"/>quia in voluntate non est aliqua virtus circa passionem existens 
+      <lb ed="#V" n="113"/>cum in voluntate non sit passio sensibilis: sed in parte in 
+      ratio<lb ed="#V" n="114" break="no"/>nali secundum philosophum. 2. Ethi. c. 12. Ergo non est melior quam 
+      conti<lb ed="#V" n="115" break="no"/>nentia.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e599">
+      ¶ Item melior est virtus que fortioribus 
+      impu<lb ed="#V" n="116" break="no"/>gnationibus resistit. Sed continentia fortioribus 
+      impugna<lb ed="#V" n="117" break="no"/>tionibus resistit quam temperantia: quia secundum philosophum. 7. Ethi. c. 14. 
+      <lb ed="#V" n="118"/>Continens habet prauos concupiscentias quas non habet 
+      tempora<lb ed="#V" n="119" break="no"/>tus: ergo melior est continentia quam temporantia.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e610">
+      ¶ Item eccle. 26. 
+      <lb ed="#V" n="120"/>Omnis ponderatio non est digna continentis anime: quod non 
+      <lb ed="#V" n="121"/>esset verum si temperantia melior esset continentia. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e617">
+                  <lb ed="#V" n="122"/>Contram philosophus. 7. Ethi. c. 1. Pobat quod intempratus 
+      pe<lb ed="#V" n="123" break="no"/>ior est incontinente. Sed ipse dicit. 8. Ethi. 
+      <lb ed="#V" n="124"/>c. 10. Quod pessimum est contrarium optimo: ergo temporantia melior est 
+      <lb ed="#V" n="125"/>quam continentia cum sit contraria peiori vitio.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e629">
+      ¶ Item nobilius 
+      <lb ed="#V" n="126"/>est totum quam pars: sed secundum Tul. 2. Rhet. Continentia est pars 
+      <lb ed="#V" n="127"/>temperantie: ergo temperantia est melior continentia. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e636">
+                  <lb ed="#V" n="128"/>Respondeo quod continentia dupliter potest accipi: vno 
+      <lb ed="#V" n="129"/>modo secundum quod importat abstinentiam 
+      <lb ed="#V" n="130"/>ab omnibus actibus venereis: sicut est continentia virginalis 
+      <lb ed="#V" n="131"/>vel vidualis: et hec nobilior est quam temporantia communiter dicta: quod 
+      <lb ed="#V" n="132"/>ideo dico: quia continentia virginalis perfecta temporantia est seu 
+      perfe<lb ed="#V" n="133" break="no"/>cta species temporantie: sed sic non loquimur hic de continentia. 
+      <lb ed="#V" n="134"/>Alio modo pro habitu voluntatis firmante volutatem in 
+      bo<lb ed="#V" n="135" break="no"/>no rationis contra concupiscentias prauas. Unde dicit philosophus. 7. Ethi. 
+      <lb ed="#V" n="136"/>c. 2. Quod continens non sequitur prauas concupiscentias propter 
+      ratio<lb ed="#V" n="137" break="no"/>nem. Et. c. 14 quod a prauis concupiscentiis non ducit: et sic lo¬ 
+      <!--00267.xml-->
+      <pb ed="#V" n="129-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>quendo de continentia melior est temporantia quam continentia secundum 
+      <lb ed="#V" n="2"/>quod dicit philosophus capitulo immediate allegato. Per temperantiam enim 
+      <lb ed="#V" n="3"/>non tantum habilitatur voluntas ad volendum seruare bonum 
+      ratio<lb ed="#V" n="4" break="no"/>nis circa delectationes: que sunt secundum tactum et gustum: sed etiam 
+      <lb ed="#V" n="5"/>habilitatur sensitiua concupiscibilis ad faciliter obediendum 
+      <lb ed="#V" n="6"/>imperio rationis: vnde temparatus: non habet concupiscentias 
+      indo<lb ed="#V" n="7" break="no"/>mitas: et est illa habilitatio in concupiscibili: autem ex assuetu 
+      <lb ed="#V" n="8"/>dine causata: aut per redundantiam perfectionis temporantie: 
+      <lb ed="#V" n="9"/>in voluntate quasi quedam eius impressio: habitus autem 
+      con<lb ed="#V" n="10" break="no"/>tinentie tante perfectionis non est quod per ipsum sit 
+      concupisci<lb ed="#V" n="11" break="no"/>bilis habilitata: nec est in concupiscibili continentis acquisitus 
+      <lb ed="#V" n="12"/>aliquis habitus: quo saciliter obediat rationi: vnde eius 
+      con<lb ed="#V" n="13" break="no"/>cupiscibilis senantiua inordinate mouetur. Quapropter bene diciter 
+      <lb ed="#V" n="14"/>quod continens habet concupiscentias prauas. Melius autem est 
+      bo<lb ed="#V" n="15" break="no"/>num rationis communicatum voluntati et sensitiue parti quam communica 
+      <lb ed="#V" n="16"/>tum voluntati tantum ceteris paribus: et ideo melior est 
+      tem<lb ed="#V" n="17" break="no"/>perantia quam continentia: et videtur differre a continentia: sicut 
+      perfe<lb ed="#V" n="18" break="no"/>ctum ab imperfecto. Quapropter dicit philosophus de continentia. 7. ethi. 
+      <lb ed="#V" n="19"/>c. 2. Quod nec est virtus: nec alterum genus a virtute volens 
+      <lb ed="#V" n="20"/>dicere quod non attingit ad perfectionem virtutis ita plene: 
+      si<lb ed="#V" n="21" break="no"/>cut temperantia et ratione eius quod sibi deficit ab illa perfectione 
+      <lb ed="#V" n="22"/>que in temporantia reperitur: distinguitur a philosopho. 7. Ethi. c. 2. contra virtutem. 
+      <lb ed="#V" n="23"/>in oppositum dicendum quod philosophus ibi loqut 
+    </p>
+               <p xml:id="kzz7yh-g90050-d1e717">
+                  <lb ed="#V" n="24"/>Ad primum de tempantia quantum adilam 
+      ha<lb ed="#V" n="25" break="no"/>bilitationem: que est per assuetudinem in concupiscibili 
+      acquisi<lb ed="#V" n="26" break="no"/>ta: vel per redundantiam perfectionis temperantie: que est in 
+      <lb ed="#V" n="27"/>voluntate: et planum est quod illa habilitatioconcupiscibilis per 
+      <lb ed="#V" n="28"/>se non est melior quam continentia. Sed temperantia et praedictam 
+      <lb ed="#V" n="29"/>habilitationem: et voluntatis habitum comprehendit.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e733">
+      ¶ Ad 
+      <lb ed="#V" n="30"/>secundum dicendum quod maior non est vera: nisi intelligatur ceteris 
+      pa<lb ed="#V" n="31" break="no"/>ribus: quamuis autem continens habeat fortiores impugnationes 
+      <lb ed="#V" n="32"/>quam temperatus: tamen voluntas per continentiam non resistit: ita 
+      <lb ed="#V" n="33"/>perfecte: nec ita stabiliter: sicut per temperantiam: nec ita per 
+      <lb ed="#V" n="34"/>continentiam perficitur anima plene: sicut per temperantiam: per 
+      quam<lb ed="#V" n="35" break="no"/>perficitur: non tantum in voluntate: sed est in sensualitate.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e749">
+      ¶ Ad 
+      <lb ed="#V" n="36"/>tertium dicendum quod si continentia accipiatur pro abstinentia ab omni 
+      <lb ed="#V" n="37"/>actu venereo: sicut est in continentia virginali: tunc nihil 
+      <lb ed="#V" n="38"/>est eque dignum ei: non dico simpliciter: sed in genere castitatis: 
+      <lb ed="#V" n="39"/>quia martyrium dignius est virginitate: quod potest probare per 
+      il<lb ed="#V" n="40" break="no"/>lud: quod dicitur Io. 15. Maiorem hac dilectionem nemo habet. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e762">
+                  <lb ed="#V" n="41"/>¶ Si autem accipiatur continentia pro abstinentia ab omni illicito 
+      <lb ed="#V" n="42"/>simplicite: tunc planum est sine glo. quod non est digna 
+      pondera<lb ed="#V" n="43" break="no"/>tio anime continentis: Sed nec isto modo: nec primo loquimur: hic de 
+      <lb ed="#V" n="44"/>continentia: secundum quod patet ex dictis in corpore quaestionis.
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g90050-Dd1e774">
+               <head xml:id="kzz7yh-g90050-Hd1e776">Quaestio 5</head>
+               <p xml:id="kzz7yh-g90050-d1e778">
+      Quaestio V 
+      <lb ed="#V" n="45"/>QUinto queritur vtrum magis sit 
+      exprobra<lb ed="#V" n="46" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#V" n="47"/>bilis intemperantia quam iracundia: 
+      <lb ed="#V" n="48"/>et videtur quod non. Quanto vitium magis nocet reipu. 
+      <lb ed="#V" n="49"/>tanto est exprobrabilius. Sed iracundia magis 
+      <lb ed="#V" n="50"/>nocet reipu. quam intemperantia: quia sicut dicit Grego. 5. 
+      mo<lb ed="#V" n="51" break="no"/>ralium super illud Iob. 5. Uirum stultum interficit 
+      iracun<lb ed="#V" n="52" break="no"/>dia per iram perditur sapientia: iustitia: concordia: sine quibus non 
+      <lb ed="#V" n="53"/>potest stare reipu. bonum: iustitia autem et concordia: non ita 
+      per<lb ed="#V" n="54" break="no"/>duntur per temperantiam: ergo exprobrabilius vitium est 
+      ira<lb ed="#V" n="55" break="no"/>cundia quam intemperantia.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e807">
+      ¶ Item tanto vitium est exprobra 
+      <lb ed="#V" n="56"/>bilius: quanto potest caueri facilius. Unde philosophus. 7. Ethi. c. 
+      <lb ed="#V" n="57"/>1o. Non enim si quis a fortibus: et superexcellentibus 
+      dele<lb ed="#V" n="58" break="no"/>ctationibus vincitur vel tristitiis admirabile est: sed fortior 
+      <lb ed="#V" n="59"/>est impetus carnalis concupiscentie circa quam est 
+      intempe<lb ed="#V" n="60" break="no"/>rantia quam passionis ire circa quam est iracundia. Motus enim 
+      <lb ed="#V" n="61"/>irascibilis oriuntur ex motibus concupiscibilis: et tanta 
+      forti<lb ed="#V" n="62" break="no"/>tudo non est in effectu: sicut in causa: ergo exprobrabilius est 
+      <lb ed="#V" n="63"/>iracundia quam intemperantia.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e827">
+      ¶ Item duorum vitiorum: illud est 
+      <lb ed="#V" n="64"/>exprobrabilius: quod est propinquius peiori vitio: sed 
+      iracun<lb ed="#V" n="65" break="no"/>dia: propinquior est odio quam intemperantia. Ira enim odium 
+      ge<lb ed="#V" n="66" break="no"/>nerat: odium autem pessimum vitium est cum contrarietur optime virtuti: quae est 
+      <lb ed="#V" n="67"/>charitas: ergo exprobrabilius vitium est iracundia quam intemperantia. 
+      <lb ed="#V" n="68"/>coum philosophus. 7. Ethi. c. 8. Turpior est incontinentia: 
+      <lb ed="#V" n="69"/>Conti  que est circa concupiscentias quam illa que est cir¬ 
+      <!--00267.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="70"/>ca iram: et si turpior: ergo exprobrabilior.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e849">
+      ¶ Item 
+      expro<lb ed="#V" n="71" break="no"/>brabilius est illud vitium per quod homo similior redditur 
+      <lb ed="#V" n="72"/>brutis: sed per intemperantiam redditur homo similior brutis: 
+      <lb ed="#V" n="73"/>quam per iracundiam: quia secundum philosophum. 3. Ethi. c. 17. 
+      Intemperan<lb ed="#V" n="74" break="no"/>tia nobis inest: non secundum quod homines sumus: sed secundum quod animalia. 
+      <lb ed="#V" n="75"/>Unde et philosophus. 3. Ethi. c. vlti. Uitium intemperantie vocat 
+      vi<lb ed="#V" n="76" break="no"/>tium puerile: ergo intemperantia magis est exprobrabilis: 
+      <lb ed="#V" n="77"/>quam iracundia.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e868">
+      ¶ Item secundum philosophum. 7. Ethi. c. 8. Ira est 
+      natu<lb ed="#V" n="78" break="no"/>ralior et difficilior passio quam concupiscentia non necessaria: 
+      <lb ed="#V" n="79"/>ergo plus habet de excusatione iracundia quam intemperantia: 
+      <lb ed="#V" n="80"/>et ex consequenti minus de exprobrabilitate. 
+      <lb ed="#V" n="81"/>quod vnum vitium esse exprobrabilius 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e879">
+                  <lb ed="#V" n="82"/>Respondeo 
+      <lb ed="#V" n="83"/>alio intelligi potestdupliter scilicet autem in 
+      con<lb ed="#V" n="84" break="no"/>spectu dei: aut in conspectu hominum.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e888">
+      ¶ Primo modo 
+      expro<lb ed="#V" n="85" break="no"/>brabilius est vitium quo magis homo deordinatur a fine 
+      <lb ed="#V" n="86"/>vltimo.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e895">
+      ¶ Secundo modo exprobrabilius est vitium quod 
+      ma<lb ed="#V" n="87" break="no"/>gis impedit rationis vsum et reddit hominem similiorem 
+      bru<lb ed="#V" n="88" break="no"/>tis.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e902">
+      ¶ Primo modo secundum multos exprobrabilior est iracum 
+      <lb ed="#V" n="89"/>dia que est superabundantia ire quam intemperantia: que est super 
+      <lb ed="#V" n="90"/>abundantia carnalis concupiscentie respectu delectabilium 
+      <lb ed="#V" n="91"/>secundum tactum et gustum: quia in appetendo malum proximo conuenit 
+      <lb ed="#V" n="92"/>cum odio: et inuidia quamuis sub alia ratione: quia odium appetit 
+      <lb ed="#V" n="93"/>malum proximo absolute: inuidia propter appetitum proprie glorie 
+      <lb ed="#V" n="94"/>et iracundia sub ratione iuste vindicte. Quapropter peius est odium 
+      <lb ed="#V" n="95"/>quam inuidia: et inuidia quam iracundia. Intemperantia aut nullum 
+      <lb ed="#V" n="96"/>malum appetit proximo: nec illud quod appetit malum est: nisi 
+      <lb ed="#V" n="97"/>sub ratione superabundantie. Minus ergo est nociua 
+      intempe<lb ed="#V" n="98" break="no"/>rantia per quam homo non nocet: nisi sibi ipsi quam iracundia: 
+      <lb ed="#V" n="99"/>per quam homo nocet proximo: et sibi.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e928">
+      ¶ Preterea 
+      iracun<lb ed="#V" n="100" break="no"/>dia propinquior est ad peiores effectus quam intempernatia: que 
+      <lb ed="#V" n="101"/>sunt homicidi: m: odium: discordia: et sic de multis aliis. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e936">
+                  <lb ed="#V" n="102"/>¶ Preterea quanto deordinatio committitur ab illo qui 
+      ma<lb ed="#V" n="103" break="no"/>gis habere potest rationis vsum tanto ceteris paribus peior est in 
+      <lb ed="#V" n="104"/>conspectu dei: quia tanto magis est voluntaria: sed in actu ira 
+      <lb ed="#V" n="105"/>cundie homo magis potest habere rationis vsum quam in actu 
+      inten<lb ed="#V" n="106" break="no"/>perantie: quia sicut dicit philosophus. 7. Ethi. c. 8. Uter ira audire 
+      qui<lb ed="#V" n="107" break="no"/>dem secundum quid rationem: et parum post dicit quod syllogizans: quoniam 
+      <lb ed="#V" n="108"/>opertet talem repugnare irascitur confestim: actus autem 
+      intempe<lb ed="#V" n="109" break="no"/>rantie: maxime circa venerea vsum rationis absorbet. Unde 
+      <lb ed="#V" n="110"/>philosophus in eo. li. c. 9. Dicit quod est deceptio que furata est 
+      intel<lb ed="#V" n="111" break="no"/>lectum spisse sapientis: peius ergo vitium est iracundia quam 
+      <lb ed="#V" n="112"/>intemperantia. Nec ex hoc sequitur quod peior sit quecumque 
+      super<lb ed="#V" n="113" break="no"/>abundantia ire quam fornicatio: sed quod peior est pessimus 
+      ac<lb ed="#V" n="114" break="no"/>tus iracundie quam pessimus actus intemperantie loquendo 
+      <lb ed="#V" n="115"/>de intemperantia: que non est contra naturam: de qua loquor hic. 
+      <lb ed="#V" n="116"/>Et certum est quod multo peius est hominem occidere per iracum 
+      <lb ed="#V" n="117"/>diam quam per intemperantiam fornicari.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e973">
+      ¶ In conspectu autem 
+      <lb ed="#V" n="118"/>hominum exprobrabilior est intemperantia quam iracundia: quia per 
+      <lb ed="#V" n="119"/>illam magis impeditur rationis vsus: et efficitur homo similior 
+      <lb ed="#V" n="120"/>brutis. Unde philosophus. 3. Ethi. c. 12. Intemperantia videtur iuste 
+      expro<lb ed="#V" n="121" break="no"/>brabilis esse: quoniam non secundum quod homines sumus existit: sed secundum quod 
+      <lb ed="#V" n="122"/>animalia: talibus vtique gaudere: et maxime diligere bestiale 
+      <lb ed="#V" n="123"/>est: vnde in detestatione praedicti vitii dicit psalmum. Nolite fieri 
+      si<lb ed="#V" n="124" break="no"/>cut equus et mulus quibus non est intellectus.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e991">
+      ¶ 
+      Argumen<lb ed="#V" n="125" break="no"/>ta ad partem primam loquuntur de exprobrabilitate in conspectu dei. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e996">
+                  <lb ed="#V" n="126"/>¶ Duo prima argumenta ad partem aliam procedunt de 
+      ex<lb ed="#V" n="127" break="no"/>probrabilitate in conspectu hominum. Quod tamen dicit philosophus 
+      intem<lb ed="#V" n="128" break="no"/>perantiam esse puerile vitium non est sic intelligendum quod illud 
+      vi<lb ed="#V" n="129" break="no"/>tium conueniat pueris: sed hoc intelligitur per quandam similitudinem: quia 
+      si<lb ed="#V" n="130" break="no"/>cut pueri frequenter appetunt turpia: sic et intemparati.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1009">
+      ¶ 
+      Prete<lb ed="#V" n="131" break="no"/>rea: sicut puer non attendit ad ordinem rationis: sicut nec 
+      concu<lb ed="#V" n="132" break="no"/>piscentia audit rationem secundum philosophum. 7. ethi. c. 8.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1016">
+      ¶ Preterea sicut 
+      <lb ed="#V" n="133"/>puer dimissus sue voluntati crescit in mala consuetudine: sic 
+      <lb ed="#V" n="134"/>concupiscentia venereorum: si ei satisfiat maius robur accipit: quia 
+      <lb ed="#V" n="135"/>sicut dic phi. 3. ethi. c. vel. Opertio concupiscentie auget conatum. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1026">
+                  <lb ed="#V" n="136"/>¶ Ad tertium dicendum quod de natura hominis possumus loqui 
+      <lb ed="#V" n="137"/>tripliciter: aut secundum genus scilicet inquantum est animal: aut secundum speciem scilicet 
+      <lb ed="#V" n="138"/>inquantum est homo: aut secundum indiuiduum scilicet inquantum 
+      <!--00268.xml-->
+      <pb ed="#V" n="129-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>est hic homo: sic complexionatus: verbi gratia complexione 
+      cho<lb ed="#V" n="2" break="no"/>lerica.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1046">
+      ¶ Primo modo naturaliter est concupiscentia quam ira. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1048">
+                  <lb ed="#V" n="3"/>¶ Secundo modo econuerso: quia homo est homo formaliter 
+      <lb ed="#V" n="4"/>per rationem: et in passione ire: plus immiscet se actus rationis: 
+      <lb ed="#V" n="5"/>quamuis peruersus quam in passione concupiscentie.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1057">
+      ¶ 
+      Tertio<lb ed="#V" n="6" break="no"/>modo potest dici quod in homine complexionato complexione 
+      maxi<lb ed="#V" n="7" break="no"/>me apta ad iram eius est cholerica respectu hominis 
+      comple<lb ed="#V" n="8" break="no"/>xionati complexione maxime apta ad concupiscentiam eius 
+      <lb ed="#V" n="9"/>est sanguinea: se habet passio ire in difficultate et 
+      naturalita<lb ed="#V" n="10" break="no"/>te: sicut excedens concupiscentia: et ab ea excessa: quia propter 
+      mo<lb ed="#V" n="11" break="no"/>bilitatem cholere: que assimilatur igni difficilius est 
+      prohi<lb ed="#V" n="12" break="no"/>bere insurrectionem ire quam concupiscentie: tamen postquam iam 
+      <lb ed="#V" n="13"/>vtraque passio insurrexit difficilius est sedare concupiscentiam 
+      <lb ed="#V" n="14"/>quam tram: quia facta est in magis tenaci materia: et quia delectationes 
+      <lb ed="#V" n="15"/>ciborum et venereorum magis alliciunt quam vindicta et 
+      natu<lb ed="#V" n="16" break="no"/>raliores sunt: et sic potest intelligi illud verbum philosophi. 2. Ethi. 
+      <lb ed="#V" n="17"/>c. 3. Quod difficilius est repugnare voluptati: quam ire. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g90050-Dd1e1087">
+               <head xml:id="kzz7yh-g90050-Hd1e1089">Quaestio 6</head>
+               <p xml:id="kzz7yh-g90050-d1e1091">
+      Quaestio VI 
+      <lb ed="#V" n="18"/>Exto queritur vtrum maius sit vitium 
+      in<lb ed="#V" n="19" break="no"/>temperantia quam timiditas: et videtur 
+      <lb ed="#V" n="20"/>quod non: quia illud vitium est maius: quod opponitur 
+      <lb ed="#V" n="21"/>maiori virtuti: quia sicut dicit philosophus. 8. Ethi. c. 10. 
+      <lb ed="#V" n="22"/>Pessimum est contrarium optimo. Sed fortitudo est maior 
+      <lb ed="#V" n="23"/>virtus quam temperantia: ergo timiditas: que opponitur 
+      for<lb ed="#V" n="24" break="no"/>titudini est maius vitium quam intemperantia.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1109">
+      ¶ Item 
+      ira<lb ed="#V" n="25" break="no"/>fortior est passio quam timor: sed concupiscentia venereorum 
+      for<lb ed="#V" n="26" break="no"/>tior est passio quam ira. Dicit enim philosophus. 2. Ethi. c. 3. Quod 
+      diffici<lb ed="#V" n="27" break="no"/>lius est repugnare voluptati quam ire: sed vinci a fortiori 
+      pas<lb ed="#V" n="28" break="no"/>sione minus est vitium quam vinci a debiliori: ergo vitium 
+      <lb ed="#V" n="29"/>intemperantie minus est: quam vitium timiditatis. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1122">
+                  <lb ed="#V" n="30"/>Contra quanto vitium est magis voluntarium: tanto 
+      <lb ed="#V" n="31"/>est maius. Sed secundum philosophum 3. Ethi. c. vlti. 
+      In<lb ed="#V" n="32" break="no"/>temperantia magis assimilatur voluntario quam timiditas 
+      <lb ed="#V" n="33"/>ergo est maius vitium quam timiditas. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1133">
+                  <lb ed="#V" n="34"/>Ad istam quaestionem dicunt quidam quod intemperantia 
+      <lb ed="#V" n="35"/>est maius vitium quam timiditas: et ratione 
+      <lb ed="#V" n="36"/>sue comparationis ad obiectum: et ratione sue comparationis ad 
+      <lb ed="#V" n="37"/>peccantem: quia obiectum timiditatis est periculum 
+      mor<lb ed="#V" n="38" break="no"/>tis: ad quod refugiendum inducit amor conseruationis 
+      natu<lb ed="#V" n="39" break="no"/>ralis vite: obiectum autem intemperantie maxime est delecta 
+      <lb ed="#V" n="40"/>tio venerea: cuius appetitus non sic est necessarius ad 
+      na<lb ed="#V" n="41" break="no"/>turalis vite indiuidui conseruationem. Amor autem 
+      conserua<lb ed="#V" n="42" break="no"/>tionis naturalis vite: multo fortior est: et connaturalior quam 
+      appe<lb ed="#V" n="43" break="no"/>titus delectationum venerearum. Ille enim delectationes 
+      <lb ed="#V" n="44"/>sunt apposite et quasi fundate super delectationem qua 
+      <lb ed="#V" n="45"/>delectatur viuens de sua vita. quanto autem illud quod mouet 
+      <lb ed="#V" n="46"/>ad peccandum est magis necessarium: tanto ceteris 
+      pari<lb ed="#V" n="47" break="no"/>bus leuius est peccatum.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1167">
+      ¶ Ex parte est comparationis istorum 
+      <lb ed="#V" n="48"/>vitiorum ad peccantem intemperantia est grauius peccatum 
+      <lb ed="#V" n="49"/>quia timor violente mortis cum probabiliter: et de propinquo 
+      <lb ed="#V" n="50"/>imminet eius periculum magis stupefacit hominis mentem quam 
+      <lb ed="#V" n="51"/>concupiscentia venereorum. Quanto autem homo minus est 
+      <lb ed="#V" n="52"/>compos mentis sue: tanto ceteris paribus minus est eius 
+      <lb ed="#V" n="53"/>peccatum.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1183">
+      ¶ Preterea actus intemperantie magis est volunta 
+      <lb ed="#V" n="54"/>rium in particulari quam actus timiditatis: quamuis 
+      econtrario<lb ed="#V" n="55" break="no"/>sit in vniuersali: secundum quod dicit philosophus. 3. Ethi. ca. vlti. Magis 
+      <lb ed="#V" n="56"/>autem est voluntarium: quod est voluntarium in particulari quam 
+      <lb ed="#V" n="57"/>illud quod est voluntarium in vniversali. Et ideo vitium 
+      intemperan<lb ed="#V" n="58" break="no"/>tie: est magis voluntarium quam vitium timiditatis. Sed 
+      <lb ed="#V" n="59"/>quanto vitium est magis voluntarium: tanto ceteris 
+      pa<lb ed="#V" n="60" break="no"/>ribus est maius.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1201">
+      ¶ Preterea sine periculo et frequenter 
+      <lb ed="#V" n="61"/>potest homo exercitare se exercitio ordinato ad acquerendum 
+      <lb ed="#V" n="62"/>habitum temperantie: quia delectationes circa quas est 
+      tem<lb ed="#V" n="63" break="no"/>perantia: et intemperantia frequentius occurrunt quam 
+      proba<lb ed="#V" n="64" break="no"/>bile periculum violente mortis de propinquo imminens. 
+      Ta<lb ed="#V" n="65" break="no"/>le enim periculum rarius imminet: et quando imminet est periculosius 
+      <lb ed="#V" n="66"/>quam concupiscentie venereorum: sed quanto homo facilius et 
+      se<lb ed="#V" n="67" break="no"/>curius potest acquirere virtutem vitio contrariam tanto ceteris 
+      <lb ed="#V" n="68"/>paribus illud vitium est grauius. Grauius ergo vitium est 
+      <!--00268.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="69"/>intemperantia quam timiditas. quia tamen fortitudo magis videtur 
+      ordi<lb ed="#V" n="70" break="no"/>nari ad bonum commune quam temperantia. Ideo secundum istum respectum 
+      <lb ed="#V" n="71"/>timiditas peior est intemperantia: inquantum homines quandoque per 
+      <lb ed="#V" n="72"/>timiditatem desistunt a defensione boni communis. 
+    </p>
+               <p xml:id="kzz7yh-g90050-d1e1234">
+                  <lb ed="#V" n="73"/>Ad primum in oppositum dicendum quod non semper ortet 
+      <lb ed="#V" n="74"/>quod vitium oppositum maiori 
+      virtuti<lb ed="#V" n="75" break="no"/>simpliciter sit grauius vitio opposito minori virtuti: quando scilicet 
+      vir<lb ed="#V" n="76" break="no"/>tus prefertur virtuti per hoc: quod est circa illud: quod 
+      diffici<lb ed="#V" n="77" break="no"/>lius potest vinci: quia sicut gloriosius est vincere difficilius: ita 
+      <lb ed="#V" n="78"/>vituperabilius est vinci a minus difficili. Difficilius autem 
+      <lb ed="#V" n="79"/>est vincere violente mortis magnum periculum de propinquo 
+      <lb ed="#V" n="80"/>iminens quam concupiscentiam veneream. Unde a minus 
+      diffi<lb ed="#V" n="81" break="no"/>cili vincitur intemperatus quam timidus.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1256">
+      ¶ Ad secundum dicendum 
+      <lb ed="#V" n="82"/>quod sicut amor conseruationis naturalis vite est fortior: et connaturalior 
+      <lb ed="#V" n="83"/>quam amor delectationis veneree: et quam amor vindicte: sic 
+      di<lb ed="#V" n="84" break="no"/>co quod timor violente mortis apprehense vt possibilis de pro 
+      <lb ed="#V" n="85"/>pinquo euenire: et vt non possibilis: nisi cum magna 
+      diffi<lb ed="#V" n="86" break="no"/>cultate vitari est fortior passio quam ira: et quam venereorum 
+      concu<lb ed="#V" n="87" break="no"/>piscentia: quamuis timor causatus ex amore diuitiarum vel 
+      <lb ed="#V" n="88"/>bonorum vel delectationum: que sunt in ludis: et sic de aliis: 
+      <lb ed="#V" n="89"/>non sit ita fortis passio: sicut passio ire: et concupiscentie 
+      ve<lb ed="#V" n="90" break="no"/>nereorum.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1278">
+      ¶ Alii dicunt quod cum peccatum sit formaliter 
+      caren<lb ed="#V" n="91" break="no"/>tia boni debiti: et carentia debiti boni iudicetur maior vel 
+      <lb ed="#V" n="92"/>minor: secundum quod est maioris vel minoris boni. Ad 
+      iudican<lb ed="#V" n="93" break="no"/>dum vnum peccatum grauius alio magis respiciendum est ad 
+      <lb ed="#V" n="94"/>bonum: cuius peccatum est corruptio seu priuatio: quam ad 
+      maio<lb ed="#V" n="95" break="no"/>rem vel minorem facilitatem vel difficultatem: 
+      abstinen<lb ed="#V" n="96" break="no"/>di ab illo peccato: et ideo quamuis facilius sit abstinere a vitio 
+      <lb ed="#V" n="97"/>intemperantie quam a vitio timiditatis: propter rationes dictas: in 
+      pre<lb ed="#V" n="98" break="no"/>cedenti opinione: tamen quia maius est bonum rationis in 
+      fortitu<lb ed="#V" n="99" break="no"/>dine: quod per vitium timiditatis corrumpitur quam sit bonum 
+      ratio<lb ed="#V" n="100" break="no"/>nis in temperantia: quod corrumpitur per vitium intemperantie 
+      <lb ed="#V" n="101"/>quia fortitudo minor est virtus quam temperantia: ideo simpliciter 
+      <lb ed="#V" n="102"/>per se: et absolute timiditas que fortitudini opponitur 
+      ma<lb ed="#V" n="103" break="no"/>ius est vitium quam intemperantia in conspectu dei: quamuis secundum 
+      <lb ed="#V" n="104"/>quid et quo ad alia accidentalia intemperantia maius sit vitium 
+      <lb ed="#V" n="105"/>quam timiditas de tali maioritate videntur procedere rationes pro 
+      <lb ed="#V" n="106"/>opinione prima.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1316">
+      ¶ Ad argumentum ad partem secundam: cum 
+      <lb ed="#V" n="107"/>dicitur quod quanto vitium est magis voluntarium: tanto maius 
+      <lb ed="#V" n="108"/>est etc. Dico quod verum est ceteris paribus. Sed tanti boni 
+      <lb ed="#V" n="109"/>potest esse vuum peccatum corruptio: quod commissum ex minus intensa 
+      <lb ed="#V" n="110"/>voluntate erit maius quam aliud vitium: quod est boni parui 
+      cor<lb ed="#V" n="111" break="no"/>ruptiuum: quamuis sit ex intensiori voluntate commissum. Con 
+      <lb ed="#V" n="112"/>tingere enim potest quod homo ex intensiori voluntate quandoque 
+      di<lb ed="#V" n="113" break="no"/>cat simplex mendacium quam sit illa voluntas: qua committit 
+      <lb ed="#V" n="114"/>solenne periurium: nec tamen propter hoc sequitur quod dicendo simplex 
+      <lb ed="#V" n="115"/>mendacium: magis peccauerit quam periurium committendo. 
+      Ma<lb ed="#V" n="116" break="no"/>gnitudo enim voluntatis malitie non solum ponderatur secundum 
+      <lb ed="#V" n="117"/>magnitudinem intensionis actus: sed est secundum magnitudinem 
+      <lb ed="#V" n="118"/>boni debiti: cuius est carentia in malo voluntatis actu: 
+      <lb ed="#V" n="119"/>vel quod corrumpitur per malum voluntatis actum.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1347">
+      ¶ 
+      Pre<lb ed="#V" n="120" break="no"/>terea potest dici quod cum philosophus dicit: intemperantiam magis esse 
+      <lb ed="#V" n="121"/>voluntariam quam timiditatem extendit voluntarium ad 
+      mo<lb ed="#V" n="122" break="no"/>tum non tantum deliberatiue voluntatis: sed est ad motum 
+      sen<lb ed="#V" n="123" break="no"/>sitiui appetitus. Unde et 3 Ethi. ca. 4. Philosophus vult quod alia 
+      <lb ed="#V" n="124"/>animalia ab homine: et est pueri voluntarie operantur: et quod sic 
+      ma<lb ed="#V" n="125" break="no"/>gis est voluntarium: non propter hoc oportet quod sit grauius peccatum. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1363">
+                  <lb ed="#V" n="126"/>¶ Sed hec secunda solutio non multum valeret: quia in 
+      fugien<lb ed="#V" n="127" break="no"/>do periculum mortis fortius mouet sensitiuus appetitus: 
+      <lb ed="#V" n="128"/>quam in prosequendo delectationem venereorum.
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g90050-Dd1e1373">
+               <head xml:id="kzz7yh-g90050-Hd1e1375">Quaestio 7</head>
+               <p xml:id="kzz7yh-g90050-d1e1377">
+      Quaestio VII 
+      <lb ed="#V" n="129"/>Eptimo queritur que etquot sunt 
+      par<lb ed="#V" n="130" break="no"/>tes temperantie. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1384">
+                  <lb ed="#V" n="131"/>Respondeo quod secundum aliquos partes 
+      <lb ed="#V" n="132"/>eius quasi integrales 
+      <lb ed="#V" n="133"/>due sunt scilicet Uerecundia per quam homo refugit 
+      turpitu<lb ed="#V" n="134" break="no"/>dinem contrariam temperantie: et tamen secundum eos verecundia virtus 
+      <lb ed="#V" n="135"/>non est. Et honestas per quam amat pulchritudinem 
+      tem<lb ed="#V" n="136" break="no"/>perantie: que dicuntur partes temperantie: quasi integrales 
+      <!--00269.xml-->
+      <pb ed="#V" n="130-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>quia requiruntur in nobis ad perfectum temperantie 
+      di<lb ed="#V" n="2" break="no"/>ctum.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1410">
+      ¶ Partes subiectiue sunt quatuor vt aliqui 
+      di<lb ed="#V" n="3" break="no"/>cunt due respectu delectationum secundum gustum. 
+      sci<lb ed="#V" n="4" break="no"/>licet abstinentia: que est moderantia delectationum: que 
+      <lb ed="#V" n="5"/>sunt respectu cibi: et sobrietas: et que est moderatiua 
+      dele<lb ed="#V" n="6" break="no"/>ctationum: que sunt respectu potus. Due respectu 
+      dele<lb ed="#V" n="7" break="no"/>ctationum: que sunt secundum tactum scilicet castitas: que 
+      <lb ed="#V" n="8"/>est respectu maxime delectationis: que respicit tactum: 
+      <lb ed="#V" n="9"/>que est delectatio venerea. Et pudicitia que est 
+      modera<lb ed="#V" n="10" break="no"/>tiua delectationum predicte delectationi circum ad 
+      inacen<lb ed="#V" n="11" break="no"/>tium: et ad illam disponentium cuiusmodi sunt delecta 
+      <lb ed="#V" n="12"/>tiones in osculis tactibus et amplexibus: et dicuntur 
+      pre<lb ed="#V" n="13" break="no"/>dicte quatuor partes subiectiue temperantie: quia queliber 
+      <lb ed="#V" n="14"/>recipit predicationem totius: pudicitia tamen magis 
+      vi<lb ed="#V" n="15" break="no"/>detur pertinere ad essentiam castitatis: vel saltem ad eius 
+      <lb ed="#V" n="16"/>perfectionem quam esset virtus ab ea distincta: quia cum ad 
+      vir<lb ed="#V" n="17" break="no"/>tutem moralem pertineat conseruare bonum rationis 
+      cir<lb ed="#V" n="18" break="no"/>ca ea in quibus potest impediri: non est specialis virtus: 
+      <lb ed="#V" n="19"/>nisi vbi est specialis ratio difficultatis in seruando bonum 
+      <lb ed="#V" n="20"/>rationis: quamuis autem sit specialis ratio difficultatis: in 
+      <lb ed="#V" n="21"/>seruando bonum rationis circa cibum et potum: que non 
+      <lb ed="#V" n="22"/>est circa delectabilia venereorum et econuerso: et aliqua re 
+      <lb ed="#V" n="23"/>spectu cibi que non est respectu potus inebriare valentis 
+      <lb ed="#V" n="24"/>et econuerso: tamen non est aliqua specialis circa 
+      ample<lb ed="#V" n="25" break="no"/>xus et oscula que non sit circa venerea. Unde perfecte 
+      ha<lb ed="#V" n="26" break="no"/>bituatus ad seruandum bonum rationis circa venerea eo ipso 
+      <lb ed="#V" n="27"/>habituatus est ad seruandum bonum rationis circa 
+      am<lb ed="#V" n="28" break="no"/>plexus et osctula.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1469">
+      ¶ Partes autem potentiales plures sunt: 
+      <lb ed="#V" n="29"/>quarum tres videntur assignate a Tul. 2. Rheto. Scilicet 
+      <lb ed="#V" n="30"/>continentia: clementia: modestia: cuius partem dicunt 
+      ali<lb ed="#V" n="31" break="no"/>qui esse humilitatem. Et per clementiam potest 
+      intelligi<lb ed="#V" n="32" break="no"/>mansuetudo: quia non differunt: nisi secundum rationem et 
+      re<lb ed="#V" n="33" break="no"/>lationem. Dicitur enim mansuetudo sub ratione qua est mode 
+      <lb ed="#V" n="34"/>ratiua passionis ire interius. Et clementia sub ratione: qua 
+      <lb ed="#V" n="35"/>est moderatiua punitionis exterius. Per continentiam 
+      <lb ed="#V" n="36"/>frenatur voluntas ne sequatur concupiscentias prauas: 
+      <lb ed="#V" n="37"/>que sunt in continente. Unde de hac dicit Tul. 2. Rheto. 
+      <lb ed="#V" n="38"/>Continentia est per quam cupiditas consilii gubernatio 
+      <lb ed="#V" n="39"/>ne regitur. Per clementiam frenatur passio ire tendentio 
+      <lb ed="#V" n="40"/>in vindictam. Unde de illa dicit Tul. Clementia est per 
+      <lb ed="#V" n="41"/>quam animi temere in odium alicuius concitati 
+      benigni<lb ed="#V" n="42" break="no"/>tate retinentur. Per modestiam in seriosa conuersatione 
+      <lb ed="#V" n="43"/>actus exteriores corporis moderantur. De hac dicit Tul 
+      <lb ed="#V" n="44"/>lius quod modestia est per quam pudor honestus charam et 
+      <lb ed="#V" n="45"/>stabilem compararat auctoritatem. Per modestiam enim 
+      <lb ed="#V" n="46"/>pudicitia charior efficitur et stabilitur et auctenticatur. Quod 
+      <lb ed="#V" n="47"/>antem dictum est verecundiam non esse virtutem non 
+      ap<lb ed="#V" n="48" break="no"/>probo. potest enim accipi pro passione vel virtute. Habitus enim 
+      <lb ed="#V" n="49"/>passionem verecundie modificans virtus est.
+   </p>
+            </div>
+            <div xml:id="kzz7yh-g90050-Dd1e1519">
+               <head xml:id="kzz7yh-g90050-Hd1e1521">Quaestio 8</head>
+               <p xml:id="kzz7yh-g90050-d1e1523">
+      Quaestio VIII 
+      <lb ed="#V" n="50"/>Etauo queritur vtrum verecundia sit 
+      vir<lb ed="#V" n="51" break="no"/>tus: et videtur quod non philosophus 
+      <lb ed="#V" n="52"/>4. Ethi. c. 23. Dicit quod de verecundia: vt quadam 
+      <lb ed="#V" n="53"/>virtute non conuenit dicere. Passioni enim 
+      ma<lb ed="#V" n="54" break="no"/>gis assimilatur quam habitui. Sed secundum eundem lib. 2. c. 5. Uir 
+      <lb ed="#V" n="55"/>tus est habitus.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1539">
+      ¶ Item illud propter quod non 
+      lauda<lb ed="#V" n="56" break="no"/>tur senex nec reperitur in studioso non est virtus: sed secundum 
+      <lb ed="#V" n="57"/>philosophum. 4. Ethi. c. 23. Senem nullus laudabit quoniam 
+      ve<lb ed="#V" n="58" break="no"/>recundabilis: et parum post dicit quod studiosi non est 
+      vere<lb ed="#V" n="59" break="no"/>cundia: ergo verecundia non est virtus.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1550">
+      ¶ Item nullum 
+      vi<lb ed="#V" n="60" break="no"/>tium est necessarium ad acquisitionem virtutis: sed ad 
+      ac<lb ed="#V" n="61" break="no"/>quirendum habitum verecundie necessarium est vitium: 
+      <lb ed="#V" n="62"/>quia sicut dicit Damas. libro 2. c. 14. Uerecundia est timor de 
+      <lb ed="#V" n="63"/>turpori acto: ergo habitus verecundie non est virtus. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1561">
+                  <lb ed="#V" n="64"/>Contra secundum philosophum. 2. Ethi. c. 1. Ex operationibus 
+      si<lb ed="#V" n="65" break="no"/>milibus acquiruntur habitus similes illis. 
+      <lb ed="#V" n="66"/>Sed secundum eundem 4 Ethi. c. 23. Ueretundia est laudabilis: 
+      <lb ed="#V" n="67"/>ergo ex multotiens verecundari acquiritur laudabilis 
+      ha<lb ed="#V" n="68" break="no"/>bitus: sed laudabilis hitus est virtus: ergo verecundia est vertus. 
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1575">
+      <!--00269.xml-->
+                  <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="69"/>Ad istam quaestionem dicunt quidam quod virtus 
+      du<lb ed="#V" n="70" break="no"/>pliciter potest capi scilicet proprie et 
+      communi<lb ed="#V" n="71" break="no"/>ter. Primo modo cum virtus sit perfectio quedam secundum 
+      <lb ed="#V" n="72"/>philosophum. 7. physico. Omne illud quod repugnat 
+      perfectio<lb ed="#V" n="73" break="no"/>ni etiam si sit bonum deficit a ratione virtutis: sed vere 
+      <lb ed="#V" n="74"/>cundia perfectioni repugnat vt enim iam dictum est in 
+      <lb ed="#V" n="75"/>arguendo. Uerecundia est timor confusionis pro aliquo 
+      <lb ed="#V" n="76"/>turpi facto. Unde etiam dicit philosophus. 7. Ethico. 
+      <lb ed="#V" n="77"/>cap. 23. Quod est quidam timor iugulationis: et perficitur 
+      <lb ed="#V" n="78"/>circa pericula timoris consimiliter. Cum ergo timor non 
+      <lb ed="#V" n="79"/>sit nisi respectu ardui mali difficilis ad vitandum. Et per 
+      <lb ed="#V" n="80"/>fectus non apprehendat aliquid turpe seu exprobrabile: 
+      <lb ed="#V" n="81"/>vt difficile ad vitandum: quia perfecto facile est talia 
+      vi<lb ed="#V" n="82" break="no"/>tare. Uerecundia perfectioni repugnat: ergo proprie 
+      loquen<lb ed="#V" n="83" break="no"/>do non est virtus.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1614">
+      ¶ Si autem accipiatur virtus commu 
+      <lb ed="#V" n="84"/>niter pro quolibet bono laudabili in humanis actibus: 
+      <lb ed="#V" n="85"/>vel passionibus: sic verecundia potest dici virtus: cum sit 
+      <lb ed="#V" n="86"/>quedam passio laudabilis. Sed hec opinio non mihi 
+      pla<lb ed="#V" n="87" break="no"/>cet. Planum est enim quod nullus intelligens diceret quod 
+      vere<lb ed="#V" n="88" break="no"/>cundia: prout accipitur pro passione esset virtus: sed de 
+      ha<lb ed="#V" n="89" break="no"/>bitu habilitante appetitum ad actum verecundandi: secundum 
+      <lb ed="#V" n="90"/>rectum iudicium rationis multi dicerent quod virtus est: 
+      <lb ed="#V" n="91"/>non obstante ratione que pro alia opinione posita est: in 
+      <lb ed="#V" n="92"/>corpore questionis. Si enim illa ratio valeret gratia 
+      for<lb ed="#V" n="93" break="no"/>me: sequeretur quod fides et spes non essent virtutes: quia 
+      re<lb ed="#V" n="94" break="no"/>pugnant perfectioni patrie. Cum fides sit respectu 
+      veri<lb ed="#V" n="95" break="no"/>non apparent. Et spes respectu boni ardui absentis. 
+      Pe<lb ed="#V" n="96" break="no"/>nitentia etiam virtus non esset: quia penitentia: est de 
+      ali<lb ed="#V" n="97" break="no"/>quo malefacto: et repugnat perfectioni status innocentie. 
+      <lb ed="#V" n="98"/>Unde sine preiudicio mihi videtur dicendum ad 
+      <lb ed="#V" n="99"/>questionem quod verecundia potest 
+      acci<lb ed="#V" n="100" break="no"/>pi tripliciter: vno modo pro passione: alio modo pro actu. 
+      <lb ed="#V" n="101"/>Tertio modo pro habitum.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1656">
+      ¶ Primo modo concedo cum 
+      <lb ed="#V" n="102"/>philosopho quod verecundia non est virtus: sed laudabilis 
+      <lb ed="#V" n="103"/>passio. Passiones autem secundum eundem 2 li. Ethi. c. 5. Non 
+      <lb ed="#V" n="104"/>sunt virtutes. Secundo modo est actus virtutis. 
+      Tertio<lb ed="#V" n="105" break="no"/>modo est virtus. habitns enim determinans appetitum 
+      <lb ed="#V" n="106"/>inclinando ad actum existentem secundum rectum iudicium 
+      ra<lb ed="#V" n="107" break="no"/>tionis virtus est: quia talis habitus est bonus: et 
+      habentenm<lb ed="#V" n="108" break="no"/>perficit: et opus eius bonum reddit. Sed esse talem 
+      habi<lb ed="#V" n="109" break="no"/>tum est esse virtutem secundum philosophum 2 Ethi. c. 5. Cum ergo 
+      mo<lb ed="#V" n="110" break="no"/>dificatio verecundie sit actus secundum rectum iudicium 
+      ratio<lb ed="#V" n="111" break="no"/>nis habitus habilitans ad talem actum virtus est. 
+    </p>
+               <p xml:id="kzz7yh-g90050-d1e1680">
+                  <lb ed="#V" n="112"/>Ad primum in oppositum dicendum quod philosophus 
+      <lb ed="#V" n="113"/>ibi loquitur de verecundia proui 
+      <lb ed="#V" n="114"/>accipitur pro passione.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1689">
+      ¶ Ad secundum dicendum quod 
+      quan<lb ed="#V" n="115" break="no"/>uis nullus debeat inaudari: sed vituperari peo facto 
+      expro<lb ed="#V" n="116" break="no"/>brabili: de quo est verecundia: tamen et senes et iuuenes 
+      lan<lb ed="#V" n="117" break="no"/>dandi sunt ex hoc quod sic sunt dispositi: vt si aliquid 
+      expro<lb ed="#V" n="118" break="no"/>brabile committerent verecundarentur. vnde talis 
+      disposi<lb ed="#V" n="119" break="no"/>tio seu talis habitus bene est in studioso: immo quanto 
+      ho<lb ed="#V" n="120" break="no"/>mo est melior in statu: in quo potest peccare: tanto magis 
+      <lb ed="#V" n="121"/>sic est dispositus: vt verecundaretur: si committeret aliquid 
+      <lb ed="#V" n="122"/>turpe. Sed quia philosophus ibi restringit nomen 
+      vir<lb ed="#V" n="123" break="no"/>tutis ad virtutem: que nullam presupponit in virtuoso 
+      <lb ed="#V" n="124"/>moralem turpitudinem fuisse: ideo non tantum verecum 
+      <lb ed="#V" n="125"/>diam secundum quod est passio: sed etiam secundum quod accipitur 
+      <lb ed="#V" n="126"/>pro habitu: negat esse virtutem.
+   </p>
+               <p xml:id="kzz7yh-g90050-d1e1718">
+      ¶ Ad tertium cum 
+      di<lb ed="#V" n="127" break="no"/>citur quod nullum vitium est necessarium ad acquisitionem 
+      <lb ed="#V" n="128"/>virtutis etc. Dico quod verum est de virtute: que non 
+      suppo<lb ed="#V" n="129" break="no"/>nit aliquod peccatum in virtuoso fuisse: sed virtus 
+      vere<lb ed="#V" n="130" break="no"/>cundie: non est talis: presupponit enim eum qui talem 
+      ac<lb ed="#V" n="131" break="no"/>quisiuit virtutem exprobrabilia commisisse. Uel potest dici 
+      <lb ed="#V" n="132"/>quod ex multotiens timere secundum rectam rationem ingloria. 
+      <lb ed="#V" n="133"/>tionem pro facto exprobrabili: si committeretur quod timens 
+      <lb ed="#V" n="134"/>apprehendit vt committi possibile potest causari virtus: 
+      <lb ed="#V" n="135"/>que passionem verecundie secundum rectum iudicium rationis 
+      <lb ed="#V" n="136"/>modificareteam aliquod turpe committeretur. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

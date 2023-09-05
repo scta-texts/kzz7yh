@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="61-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g43385"><!-- l3d19prae -->
+            <head xml:id="kzz7yh-g43385-Hd1e101">Praeambulum</head>
+            <p xml:id="kzz7yh-g43385-d1e103">
+               <lb ed="#V" n="115"/>¶ Hic qualiter a diabolo et a peccato nos 
+      rede<lb ed="#V" n="116" break="no"/>mit per mortem. Distin. XIX 
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e110">
+               <lb ed="#V" n="117"/>NUnc ergo queramus quod 
+      <lb ed="#V" n="118"/>per mortem ipsius 
+      <lb ed="#V" n="119"/>a diabolo et a peccato et a pena 
+      reden<lb ed="#V" n="120" break="no"/>pti sumus. A diabolo ergo et a 
+      pecca<lb ed="#V" n="121" break="no"/>to per christi mortem liberati sumus: quia 
+      <lb ed="#V" n="122"/>vt ait apostolus in sanguine ipsius iustificati sumus: 
+      <lb ed="#V" n="123"/>et in eo quod sumus iustificati id est a peccatis soluti: a 
+      <lb ed="#V" n="124"/>diabolo sumus liberati: qui nos vinculis 
+      pecca<lb ed="#V" n="125" break="no"/>tortm tenebat. Sed quomodo a peccatis per 
+      <lb ed="#V" n="126"/>eius mortem soinuti sumus: Quia per eius 
+      mor<lb ed="#V" n="127" break="no"/>tem vt ait apostolus commendatur nobis charitas 
+      <lb ed="#V" n="128"/>dei id est apparet eximia et commendabilis charitas dei 
+      <lb ed="#V" n="129"/>erga nos in hoc quod filium suum tradidit in mortem pro 
+      <lb ed="#V" n="130"/>nobis peccatoribus. Exhibita autem tante erga nos 
+      <lb ed="#V" n="131"/>dilectionis arra: et nos mouemur: accendimur 
+      <lb ed="#V" n="132"/>que ad diligendum deum qui pro nobis tantum fecit 
+      <!--00135.xml-->
+      <pb ed="#V" n="62-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>et per hoc iustisicamur id est soluti a peccatis 
+      iusti<lb ed="#V" n="2" break="no"/>efficimur. Mors ergo christi nos iustificat: dum 
+      <lb ed="#V" n="3"/>per eam charitas excitatur in cordibus nostris. 
+      <lb ed="#V" n="4"/>Dicimur quoque et aliter per mortem christi 
+      iusti<lb ed="#V" n="5" break="no"/>ficari: quia per fidem mortis eius a peccatis 
+      munda<lb ed="#V" n="6" break="no"/>mur. Unde apostolus iustitia dei est per fidem Iesu christi. 
+      <lb ed="#V" n="7"/>Et item. Quem deus proposuit propiciatorem per fidem 
+      <lb ed="#V" n="8"/>in sanguine ipsius id est per fidem passionis: vt olim 
+      <lb ed="#V" n="9"/>aspicientes in serpentem eneum in ligno erectum: a 
+      <lb ed="#V" n="10"/>morsibus serpentum sanabantur. Si ergo recte 
+      <lb ed="#V" n="11"/>fidei intuitu illum respicimus qui pro nobis pependit 
+      <lb ed="#V" n="12"/>in ligno: a vinculis diaboli soluimur id est a 
+      pecca<lb ed="#V" n="13" break="no"/>tis: et ita a diabolo liberamur: vt nec post hanc 
+      <lb ed="#V" n="14"/>vitam in nobis inueniat quod puniat. Morte quip. 
+      <lb ed="#V" n="15"/>pesua vno verissimo sacrificio quicquid 
+      culpa<lb ed="#V" n="16" break="no"/>tum erat: vnde nos diabolus ad luenda 
+      suppli<lb ed="#V" n="17" break="no"/>cia detinebat: christus extraxit: vt in hac vita 
+      tem<lb ed="#V" n="18" break="no"/>petando nobis non praeualeat. Licet enim nos temptet 
+      <lb ed="#V" n="19"/>post christi mortem: quibus modis ante temptabat: non 
+      <lb ed="#V" n="20"/>tamen vincere potest: sicut ante vincebat. Nam 
+      <lb ed="#V" n="21"/>petrus qui aute christi mortem voce ancille territus 
+      <lb ed="#V" n="22"/>negauit: post mortem ante reges et presides 
+      du<lb ed="#V" n="23" break="no"/>ctus non cessit. Quare: quia fortior id est christus veniens 
+      <lb ed="#V" n="24"/>in domum fortis id est in corda nostra vbi diabolus 
+      <lb ed="#V" n="25"/>habitabat: alligauit fortem id est a seductione 
+      compe<lb ed="#V" n="26" break="no"/>scuit fidelium: vt temptationem que ei adhuc permittiu 
+      <lb ed="#V" n="27"/>non sequatur seductio. Ita in christi sanguine qui 
+      sol<lb ed="#V" n="28" break="no"/>uit que non rapuit: redempti sumus a peccato: et per 
+      <lb ed="#V" n="29"/>hoc a diabolo. Nam vt ait aug. in ipso vincuntur 
+      <lb ed="#V" n="30"/>inimice nobis inuisibiles potestates vbi vincuntur 
+      <lb ed="#V" n="31"/>inuisibiles cupiditates. Fuso enim sanguine 
+      si<lb ed="#V" n="32" break="no"/>ne culpa: omnium culparum chirographa deleta sunt: 
+      <lb ed="#V" n="33"/>quibus debitores qui in eum credunt a diabolo ante 
+      <lb ed="#V" n="34"/>tenebantur. Unde qui pro multis effundetur. Per illum 
+      <lb ed="#V" n="35"/>ergo redempti sumus: in quo princeps mundi nihil in 
+      <lb ed="#V" n="36"/>uenit. Unde aug. causam et modum nostre redemptionis 
+      <lb ed="#V" n="37"/>insinuans ait. Nihil inuenit diabolus in christo vt 
+      <lb ed="#V" n="38"/>moreretur sed pro voluntate patris mori christus voluit. 
+      <lb ed="#V" n="39"/>non habens mortis causam de peccato sed de obedientia 
+      <lb ed="#V" n="40"/>et iustitia mortem gustauit: per quam nos redemit a 
+      <lb ed="#V" n="41"/>seruitute diaboli. Incideramus enim in principem 
+      hu<lb ed="#V" n="42" break="no"/>ius seculi: qui seduxit adam et seruum fecit cepitque 
+      <lb ed="#V" n="43"/>nos quasi vernaculos possidere: sed venit redem 
+      <lb ed="#V" n="44"/>ptor: et victus est deceptor. Et quid fecit redempto: 
+      <lb ed="#V" n="45"/>captiuatori nostro: Tetendit ei muscipulam crucem 
+      su<lb ed="#V" n="46" break="no"/>am: posuit ibi quasi escam in sanguinem suum. Ille 
+      <lb ed="#V" n="47"/>autem sanguinem fudit non debitoris per quod recessit a 
+      <lb ed="#V" n="48"/>debitoribus. Ille quppe ad sanguinem suum fudit vt 
+      <lb ed="#V" n="49"/>peccata nostra deleret. Unde ergo nos diabolus 
+      tene<lb ed="#V" n="50" break="no"/>bat: deletum est sanguine redemptoris. Non enim 
+      tene<lb ed="#V" n="51" break="no"/>bat nos nisi vinculis peccatorum nostrorum. iste erant 
+      ca<lb ed="#V" n="52" break="no"/>thene captiuorum. Uenit ille alligauit fortem 
+      vin<lb ed="#V" n="53" break="no"/>culis passionis sue. intrauit in domum eius id est in 
+      cor<lb ed="#V" n="54" break="no"/>da eorum vbi ipse habitabat: et vasa eius scilicet nos 
+      eri<lb ed="#V" n="55" break="no"/>puit: qua ille impleuerat amaritudine sua. Deus autem 
+      <lb ed="#V" n="56"/>noster vasa eius eripiens et sua faciens: fudit ama¬ 
+      <!--00135.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>ritudinem: et impleuit dulcedine per mortem suam a 
+      <lb ed="#V" n="58"/>peccatis redimens et adoptionem glie filiorum largiens. 
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e284">
+               <lb ed="#V" n="59"/>¶ Cur deus homo et mortuus. 
+      <lb ed="#V" n="60"/>Ractus est ergo homo mortalis: vt 
+      <lb ed="#V" n="61"/>moriendo diabolum 
+      vin<lb ed="#V" n="62" break="no"/>ceret. Nisi enim homo esset qui diabolum 
+      vin<lb ed="#V" n="63" break="no"/>ceret non iuste sed violenter homo ei tolli 
+      vide<lb ed="#V" n="64" break="no"/>retur qui se illi sponte subiecit. Sed si eum 
+      ho<lb ed="#V" n="65" break="no"/>mo vicit: iure manifesto hominem perdidit: et vt 
+      <lb ed="#V" n="66"/>homo vincat necesse est vt deus in eo sit qui eum 
+      <lb ed="#V" n="67"/>a peccatis immunem faciat. Si enim per se 
+      ho<lb ed="#V" n="68" break="no"/>mo esset: vel angelus in homine: facile peccaret: 
+      <lb ed="#V" n="69"/>cum vtranque naturam per se constet cecidisse. 
+      <lb ed="#V" n="70"/>Ideo dei filius hominem passibilem sumpsit: 
+      <lb ed="#V" n="71"/>in quo et mortem gustauit: quo celum nobis 
+      ape<lb ed="#V" n="72" break="no"/>ruit: et a seruitute diaboli: idest a peccato: 
+      serui<lb ed="#V" n="73" break="no"/>tus enim diaboli peccatum est: et a pena redemit. 
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e319">
+               <lb ed="#V" n="74"/>¶ Quomodo et a qua pena christus nos redemit 
+      <lb ed="#V" n="75"/>per mortem. 
+      <lb ed="#V" n="76"/>Aqua pena temporali et eterna. 
+      <lb ed="#V" n="77"/>Ab eterna quidem 
+      re<lb ed="#V" n="78" break="no"/>laxando debitum. A temporali vero penitus 
+      <lb ed="#V" n="79"/>nos liberabit in futuro quando nouissima mors 
+      <lb ed="#V" n="80"/>inimica destruetur. Adhuc enim expectamus 
+      <lb ed="#V" n="81"/>redemptionem corporis: secundum animas vero iam 
+      <lb ed="#V" n="82"/>redempti sumus ex parte non ex toto: a culpa: 
+      <lb ed="#V" n="83"/>non a pena. Nec omnino a culpa. Non enim ab ea sic 
+      <lb ed="#V" n="84"/>redempti sumus: vt non sit: sed vt non dominetur. 
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e346">
+               <lb ed="#V" n="85"/>¶ Quomodo penam nostram portauit. 
+      <lb ed="#V" n="86"/>Reccata quoque ntra idest pes 
+      <lb ed="#V" n="87"/>nam peccato 
+      <lb ed="#V" n="88"/>rum nostrorum dicitur in corpore suo super 
+      li<lb ed="#V" n="89" break="no"/>gnum portasse: quia per ipsius penam quam in 
+      cru<lb ed="#V" n="90" break="no"/>ce tulit: omnis pena temporalis que pro 
+      pecca<lb ed="#V" n="91" break="no"/>to conuersis debetur: in baptismo penitus 
+      rela<lb ed="#V" n="92" break="no"/>xatur vt nulla a baptizato exigatur et in 
+      peniten<lb ed="#V" n="93" break="no"/>tia minoratur. Non enim sufficeret illa pena qua 
+      <lb ed="#V" n="94"/>penitentes ligat ecclesia nisi pena christi 
+      coope<lb ed="#V" n="95" break="no"/>raretur qui pro nobis soluit. Unde peccata 
+      iu<lb ed="#V" n="96" break="no"/>storum qui fuerunt ante aduentum: in 
+      susten<lb ed="#V" n="97" break="no"/>tatione dei fuisse vsque ad christi mortem dicit 
+      <lb ed="#V" n="98"/>apostolus ad ostensionem iustitie eius in hoc 
+      tem<lb ed="#V" n="99" break="no"/>pore. Ecce aperte expositum est quomodo et quid 
+      <lb ed="#V" n="100"/>christus per mortem nobis meruit et impetrauit. 
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e383">
+               <lb ed="#V" n="101"/>¶ Si solus christus debet dici redemptor vt solus 
+      <lb ed="#V" n="102"/>dicitur mediator. 
+      <lb ed="#V" n="103"/>Unde ipse vere dicitur redemptor mundi: 
+      <lb ed="#V" n="104"/>et dei hominumque mediator 
+      <lb ed="#V" n="105"/>Sed mediator in scriptura dicitur solus filius 
+      <lb ed="#V" n="106"/>Redemptor vero aliquando etiam pater vel 
+      spi<lb ed="#V" n="107" break="no"/>ritus sanctus. Sed hoc propter vsum potestatis 
+      <lb ed="#V" n="108"/>non propter exhibitionem humilitatis et 
+      obedien<lb ed="#V" n="109" break="no"/>tie. Nam secundum potestatis simul et obedientie vsum 
+      <lb ed="#V" n="110"/>filius proprie dicitur redemptor: quia et in se 
+      exple<lb ed="#V" n="111" break="no"/>uit per que iustificati sumus: et ipsam 
+      iustificatio<lb ed="#V" n="112" break="no"/>nem est operatus potentia deitatis cum patre et 
+      <!--00136.xml-->
+      <pb ed="#V" n="62-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>spiritum sancto. Est ergo redemptor inquantum est deus 
+      <lb ed="#V" n="2"/>potestatis vsu: inquantum homo humilitatis 
+      effe<lb ed="#V" n="3" break="no"/>ctu. Et sepius dicitur redemptor secundum 
+      humani<lb ed="#V" n="4" break="no"/>tatem: quia secundum eam et in ea suscepit et impleuit 
+      <lb ed="#V" n="5"/>illa sacramenta que sunt causa nostre 
+      redem<lb ed="#V" n="6" break="no"/>ptionis: proprie ergo filius dicitur redemptor. 
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e431">
+               <lb ed="#V" n="7"/>¶ De mediatore. 
+      <lb ed="#V" n="8"/>Qui solus dicitur mediator: non pater 
+      <lb ed="#V" n="9"/>vel spiritus sanctus. De quo apostolus 
+      <lb ed="#V" n="10"/>Unus mediator dei et hominim homo christus iesus id est 
+      <lb ed="#V" n="11"/>per hominem quasi inmedio arbiter est ad componendam 
+      <lb ed="#V" n="12"/>pacem id est ad reconciliandum homines deo: hic est 
+      arbi<lb ed="#V" n="13" break="no"/>ter quem iob desiderat. Utinam esset nobis 
+      arbi<lb ed="#V" n="14" break="no"/>ter. Reconciliati enim sumus deo vt ait apostolus 
+      per<lb ed="#V" n="15" break="no"/>mortem christi. Quod non sic intelligendum est: quasi nos 
+      <lb ed="#V" n="16"/>ei sic reconciliauerit christus: vt inciperet amare quos 
+      <lb ed="#V" n="17"/>oderat sicut reconciliatur inimicus inimico: vt dei 
+      <lb ed="#V" n="18"/>de sint amici qui ante se oderant: sed iam nos 
+      dili<lb ed="#V" n="19" break="no"/>genti deo reconciliati sumus. Non enim ex quo ei 
+      re<lb ed="#V" n="20" break="no"/>conciliati sumus per sanguinem filii nos cepit 
+      dilige<lb ed="#V" n="21" break="no"/>re: sed ante mundum priusquam nos aliquid essemus. 
+      <lb ed="#V" n="22"/>Quomodo ergo nos diligenti deo sumus reconciliati: 
+      <lb ed="#V" n="23"/>Propter peccatum cum eo habebamus inimicitias: qui 
+      ha<lb ed="#V" n="24" break="no"/>bebat erga nos charitatem: etam cum inimicitias 
+      ex<lb ed="#V" n="25" break="no"/>ercebamus aduersus eum operando iniquitatem. Ita 
+      <lb ed="#V" n="26"/>ergo inimici eramus deo sicut iusticie sunt 
+      inimi<lb ed="#V" n="27" break="no"/>ca peccata: et ideo remissis peccatis: tales inimicitie 
+      fi<lb ed="#V" n="28" break="no"/>niuntur et reconciliantur iusto quos ipse iustificat. 
+      <lb ed="#V" n="29"/>Christus autem dicitur mediator eo quod medius inter 
+      <lb ed="#V" n="30"/>deum et homines ipsos reconciliat deo. Reconciliat autem 
+      <lb ed="#V" n="31"/>dum offendicula hominum tollit aboculis dei id est dum 
+      <lb ed="#V" n="32"/>peccata delet: quibus deus offendebatur et nos 
+      inimi<lb ed="#V" n="33" break="no"/>ci eius eramus. Sed cum peccata deleat non solus 
+      fi<lb ed="#V" n="34" break="no"/>lius: sed et pater spiritus sanctus quorum deletio est nostra 
+      <lb ed="#V" n="35"/>ad deum reconciliatio quare solus filius dicitur 
+      me<lb ed="#V" n="36" break="no"/>diator: Nam de patre legitur quod reconciliauerit sibi 
+      <lb ed="#V" n="37"/>mundum. Ait enim apostolus. Deus enim erat in christo 
+      <lb ed="#V" n="38"/>mundum sibi reconcilians. Cum ergo reconciliet. qua 
+      <lb ed="#V" n="39"/>re non dicitur mediator: Quia nec medius est inter 
+      <lb ed="#V" n="40"/>deum et homines: nec in se habuit illa sacramenta quorum 
+      fide<lb ed="#V" n="41" break="no"/>et imitatione iustisicamur id est reconciliamur deo. 
+      <lb ed="#V" n="42"/>Reconciliauit ergo nos tota trinitas virtutis 
+      <lb ed="#V" n="43"/>vsu scilicet dum peccata delet: sed filius solus impletione 
+      obe<lb ed="#V" n="44" break="no"/>dientie: in quo patrata sunt secundum humanam 
+      natu<lb ed="#V" n="45" break="no"/>ram: ea per qua credentes et imitantes iustisicantur. 
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e518">
+               <lb ed="#V" n="46"/>¶ Secundum quam naturam sit mediator. 
+      <lb ed="#V" n="47"/>Unde et mediator dicitur 
+      sec<lb ed="#V" n="48" break="no"/>cundum 
+      hu<lb ed="#V" n="49" break="no"/>manitatem: non secundum diuinitatem. Non est enim 
+      <lb ed="#V" n="50"/>mediator inter deum et deum: quia tantum vnus est 
+      <lb ed="#V" n="51"/>deus sed inter deum et hominem quasi inter duo extre 
+      <lb ed="#V" n="52"/>ma: quia medius esse non potest nisi inter aliqua: 
+      me<lb ed="#V" n="53" break="no"/>diator est ergo inquantum homo. Nam inquantum 
+      <lb ed="#V" n="54"/>deus non mediator: sed equalis patri est. Hoc idem 
+      <lb ed="#V" n="55"/>quod pater: cum patre vnus deus. Mediat 
+      er<lb ed="#V" n="56" break="no"/>go inter homines et deum trinitatem: secundum hominis na¬ 
+      <!--00136.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>turam in qua suscepst illa per que reconciliamur 
+      <lb ed="#V" n="58"/>deo trinitati: et secundum eandem habet aliquid simile 
+      <lb ed="#V" n="59"/>deo: et aliquid simile hominibus: quod mediatori 
+      conm<lb ed="#V" n="60" break="no"/>gruebat: ne per omnia similis hominibus 
+      lon<lb ed="#V" n="61" break="no"/>ge esset a deo aut per omnia deo similis longe 
+      <lb ed="#V" n="62"/>esset ab hominibus: et ita mediator non esset. 
+      Ue<lb ed="#V" n="63" break="no"/>rus ergo mediator christus inter mortales peccato 
+      <lb ed="#V" n="64"/>res et immortalem iustum apparuit mortalis cum homini 
+      <lb ed="#V" n="65"/>bus iustus cum deo: per infirmitatem propinquans 
+      no<lb ed="#V" n="66" break="no"/>bis: per iustitiam deo. Recte ergo mediator dictus 
+      <lb ed="#V" n="67"/>est: quia inter deum immortalem: et hominem mortalem est 
+      de<lb ed="#V" n="68" break="no"/>us et homo: reconcilians hominem deo. Intantum 
+      <lb ed="#V" n="69"/>mediator inquantum est homo. Inquantum autem 
+      <lb ed="#V" n="70"/>verbum non est medius quia vnus cum patre de 
+      <lb ed="#V" n="71"/>us. Si ergo christus secundum vos o heretici vnam tantum 
+      <lb ed="#V" n="72"/>habet naturam vnde medius erit: nisi ita sit 
+      me<lb ed="#V" n="73" break="no"/>dius vt deus sit propter diuinitatis naturam: et 
+      ho<lb ed="#V" n="74" break="no"/>mo propter humanitatis naturam. Quomodo 
+      humana<lb ed="#V" n="75" break="no"/>in eo reconciliantur diuinis: Nam ipse viuens prius 
+      <lb ed="#V" n="76"/>in se humana sociauit diuinis per vtriusque 
+      na<lb ed="#V" n="77" break="no"/>ture coniunctionem in vna persona. Deinde 
+      om<lb ed="#V" n="78" break="no"/>nes fideles per mortem reconciliauit deo dum 
+      <lb ed="#V" n="79"/>sanati sunt ab impietate quicunque humilitatem 
+      <lb ed="#V" n="80"/>christi credendo dilexerunt et diligendo imitati sunt. 
+      <lb ed="#V" n="81"/>Ecce hic aliquatenus insinuatur quare christus 
+      <lb ed="#V" n="82"/>solus mediator dei dicitur et hominum: et secundum quam 
+      <lb ed="#V" n="83"/>naturam mediet scilicet humanam: et cui mediet scilicet 
+      <lb ed="#V" n="84"/>deo trinitati. Trinitati enim nos reconciliauit 
+      <lb ed="#V" n="85"/>per mortem per quam etiam nos redemit a 
+      ser<lb ed="#V" n="86" break="no"/>uitute diaboli. Nam vt petrus ait. Non 
+      corru<lb ed="#V" n="87" break="no"/>ptibilibus auro et argento redempti sumus: sed 
+      <lb ed="#V" n="88"/>praecioso sanguine agni immanculati. 
+      <lb ed="#V" n="89"/>Unc igitur querimus etc. Suprius de 
+      <lb ed="#V" n="90"/>terminauit magister de 
+      <lb ed="#V" n="91"/>effectu passionis christi consistenti in adeptione 
+      bo<lb ed="#V" n="92" break="no"/>ni. Hic determinat de effectibus passionis 
+      consisten<lb ed="#V" n="93" break="no"/>tibus in remotione mali: et ista pars diuiditur in partes 
+      du<lb ed="#V" n="94" break="no"/>as.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e631">
+      ¶ Primo ostendit quod christus per suam passionem nos liberauit 
+      <lb ed="#V" n="95"/>a culpa: et a potestate diabolica et a pena.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e636">
+      ¶ Secundo ostendit 
+      <lb ed="#V" n="96"/>quod per hoc sibi vendicatur nomen redemptoris et mediatoris ibi. 
+      <lb ed="#V" n="97"/>Unde ipse vere dicitur.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e644">
+      ¶ Prima in tres. Primo ostendit quod 
+      <lb ed="#V" n="98"/>per suam passionem liberauit nos a culpa.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e649">
+      ¶ Secundo a potestate 
+      <lb ed="#V" n="99"/>diabolica: ibi et a diabolo.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e654">
+      ¶ Tertio quod a pena: ibi Aqua 
+      <lb ed="#V" n="100"/>pena.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e659">
+      ¶ Secunda istarum in duas.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e661">
+      ¶ Primo ostenlit quod christus 
+      <lb ed="#V" n="101"/>per suam passionem liberauit nos a potestate diabolica.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e666">
+      ¶ 
+      Se<lb ed="#V" n="102" break="no"/>cundo quomodo in hac liberatione fuit iustitia: ibi Factus est igitur 
+      <lb ed="#V" n="103"/>homo.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e674">
+      ¶ Illa pars quae incipit ibi Aqua pena: diuiditur in 
+      <lb ed="#V" n="104"/>partes duas.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e679">
+      ¶ Primo ostendit a qua pena sumus 
+      libera<lb ed="#V" n="105" break="no"/>ti.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e684">
+      ¶ Secundo ostendit qualiter ibi.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e686">
+      ¶ Peccata quoque nostra. Illa pars 
+      <lb ed="#V" n="106"/>que incipit: vnde et ipse diuiditur in duas.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e691">
+      ¶ Primo 
+      osten<lb ed="#V" n="107" break="no"/>dit christum esse redemptorem.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e696">
+      ¶ Secundo mediatorem ibi. Qui 
+      so<lb ed="#V" n="108" break="no"/>lus dicitur mediator. Et ista in duas.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e702">
+      ¶ Primo ostedit qua 
+      <lb ed="#V" n="109"/>ratione: christus dicitur mediator.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e707">
+      ¶ Secundo secundum quam naturam conuenit 
+      <lb ed="#V" n="110"/>sibi esse mediatorem. ibi vnde et mediator dicitur. 
+      <lb ed="#V" n="111"/>Circa hanc distinctionem quaerendum est 
+      princi<lb ed="#V" n="112" break="no"/>pale de duobus.
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e716">
+      ¶ Primo de 
+      effi<lb ed="#V" n="113" break="no"/>cacia passionis
+   </p>
+            <p xml:id="kzz7yh-g43385-d1e721">
+      ¶ Secundo de persona redemptoris 
+      <lb ed="#V" n="114"/>et mediatoris.
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

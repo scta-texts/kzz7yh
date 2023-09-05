@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-04">September 04, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="83-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-g59021"><!-- l3d23cl -->
+            <head xml:id="kzz7yh-g59021-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-g59021-d1e103">
+               <lb ed="#V" n="62"/>CIrca litteram. Si n. hius 
+      caru<lb ed="#V" n="63" break="no"/>it: non videtur 
+      ple<lb ed="#V" n="64" break="no"/>nitudinem gratiarum habuisse shoc dicit 
+      ma<lb ed="#V" n="65" break="no"/>gister opponendo: sed oppositio fallit: quia 
+      quan<lb ed="#V" n="66" break="no"/>uis christus non habuerit fidem: nec spem proprie 
+      loquem<lb ed="#V" n="67" break="no"/>do: habuit tamen claram visionem: et securam tentionem 
+      <lb ed="#V" n="68"/>que requirunt gratiam pleniorem quam fides et spes. Cha¬ 
+      <!--00178.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="69"/>ritas est mater omnium virtutum nota quod fides potest 
+      di<lb ed="#V" n="70" break="no"/>ci mater virtutum: quia concipit: charitas quia conceptum 
+      for<lb ed="#V" n="71" break="no"/>mat: humilitas quia formatum nutrit: patientia quia nutritum 
+      <lb ed="#V" n="72"/>custodit: modestia quia conseruat disciplinat et erudit 
+      Cre<lb ed="#V" n="73" break="no"/>dere in deum: est credendo amare.
+   </p>
+            <p xml:id="kzz7yh-g59021-d1e136">
+      ¶ Contra ergo 
+      pec<lb ed="#V" n="74" break="no"/>cator dicendo. Credo in deum mentitur: et ex 
+      consequen<lb ed="#V" n="75" break="no"/>ti peccat. Omne enim mendacium peccatum est.
+   </p>
+            <p xml:id="kzz7yh-g59021-d1e143">
+      ¶ Respon 
+      <lb ed="#V" n="76"/>deo quod peccator si hoc dicit in persona talis qualis debet 
+      <lb ed="#V" n="77"/>esse: vel hoc materialiter recitans ad laudem dei non 
+      memn<lb ed="#V" n="78" break="no"/>titur: nec peccat: sed si in persona propria significatiue: et 
+      <lb ed="#V" n="79"/>secundum proprietatem vocabuli diceret hoc mentiretur. 
+      Ip<lb ed="#V" n="80" break="no"/>sa enim dilectio opus fidei dicitur quod pro tanto dictum est: 
+      <lb ed="#V" n="81"/>quia fides disponit ad dilectionem. Non enim fides numero 
+      <lb ed="#V" n="82"/>est vna: sed genere hic accipitur genus pro specie. Sed 
+      <lb ed="#V" n="83"/>eam tenet certissima scientia. hic accipit fidem pro actu 
+      <lb ed="#V" n="84"/>credendi inquantum potest esse: vel a fide infusa: vel a 
+      cre<lb ed="#V" n="85" break="no"/>dulitate acquisita: quia non credo: quod de lege communi: 
+      homo<lb ed="#V" n="86" break="no"/>possit esse certus se fidem infusam habere: quia propter simi 
+      <lb ed="#V" n="87"/>litudinem inter actum fidei infuse et credulitatis 
+      acquisi<lb ed="#V" n="88" break="no"/>te noster intellectus dum est vnitus corpori corruptibili 
+      <lb ed="#V" n="89"/>non potest certitudinaliter vnum ab alio distinguere: et 
+      <lb ed="#V" n="90"/>ideo cum de lege communi in cognitionem habituum non 
+      <lb ed="#V" n="91"/>deueniamus: nisi per actus non possumus esse certi: de 
+      le<lb ed="#V" n="92" break="no"/>ge communi vtrum habeamus fidem infusam. Sed 
+      cha<lb ed="#V" n="93" break="no"/>ritas ipsius virtutis fidei causa est. Nota quod non dicit quod 
+      <lb ed="#V" n="94"/>sit causa habitus fidei: sed virtutis fidei: quia vt supra 
+      osten<lb ed="#V" n="95" break="no"/>sum est: ille habitus non est plene virtus: nisi sit formatus: 
+      <lb ed="#V" n="96"/>sue autem forme communis causa charitas est. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>
