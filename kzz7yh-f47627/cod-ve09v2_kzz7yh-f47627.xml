@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="66-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f47627"><!-- l2d15cl -->
+            <head xml:id="kzz7yh-f47627-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f47627-d1e103">
+      <!--00146.xml-->
+               <pb ed="#V" n="66-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>Circa litteram Iumenta et 
+      repti<lb ed="#V" n="#2" break="no"/>lia. Nota haec quod 
+      re<lb ed="#V" n="#2" break="no"/>ptilium tria sunt genera. Quedam trahunt se 
+      <lb ed="#V" n="4"/>vi penularum: vt pisces in aqua: Quedam vi 
+      co<lb ed="#V" n="#2" break="no"/>starum vt lacerte: Quedam ore vt vermes fuerunt 
+      <lb ed="#V" n="6"/>creata innoxiam quod non est sic intelligendum quod serpens 
+      <lb ed="#V" n="7"/>primo factus non habuerit venenum: quia spectat ad 
+      <lb ed="#V" n="8"/>eius vitam: vt videtur velle Ambro. in exameron. Sed 
+      <lb ed="#V" n="9"/>quia si non fuisset peccatum vsum nocendi hominibus 
+      <lb ed="#V" n="10"/>non habuissent: non potuit simul a deo dici quod a deo simul 
+      <lb ed="#V" n="11"/>potuit fieri. Sed hoc non multum valet contra 
+      opinio<lb ed="#V" n="#2" break="no"/>nem illam: que dicit deum fecisse operata narrata Gen. 
+      <lb ed="#V" n="13"/>primo. per interualla sex dierum: quia quamuis Moyses 
+      <lb ed="#V" n="14"/>non potuerit simul dicere omnia: potuisset tamen dicere 
+      <lb ed="#V" n="15"/>omnia simul fuisse facta: si omnia simul facta fuissent. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

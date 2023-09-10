@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="174-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f123832"><!-- l2d43cl -->
+            <head xml:id="kzz7yh-f123832-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f123832-d1e103">
+               <lb ed="#V" n="10"/>CIrca litteram. Est peccatum ad 
+      mor<lb ed="#V" n="#2" break="no"/>tem non pro eo dico vt 
+      <lb ed="#V" n="12"/>quis oret: exponas sicut expositum est in quaestionibus: 
+      <lb ed="#V" n="13"/>vel dicas quod non intendit dissuadere orare pro 
+      ta<lb ed="#V" n="#2" break="no"/>li peccatore: sed insinuare quod talis indiget: vt aliquis homo 
+      perfe<lb ed="#V" n="#2" break="no"/>ctus oret pro eo: quia non est cuiuslibet orantis apud deum 
+      impe<lb ed="#V" n="#2" break="no"/>trare remissionem talis peccati. Sed hominis multum 
+      deuote<lb ed="#V" n="#2" break="no"/>orantis. Credo tamen magis esse secundum intentionem apostoli 
+      <lb ed="#V" n="18"/>responsionem positam in quaestionibus.
+   </p>
+            <p xml:id="kzz7yh-f123832-d1e125">
+      ¶ Existimans suam 
+      mali<lb ed="#V" n="#2" break="no"/>tiam diuine bonitatis magnitudinem excedere: non simpliciter 
+      <lb ed="#V" n="20"/>quia hoc esset peccatum infidelitatis: sed quia existimat suam iniquitatem 
+      <lb ed="#V" n="21"/>tantam esse: quod non sperat vnquam se ita digne posse penitere 
+      <lb ed="#V" n="22"/>quod misericordia bonitatis diuine illam remittere iniquitatem 
+      <lb ed="#V" n="23"/>quibus placet malitia propter se.
+   </p>
+            <p xml:id="kzz7yh-f123832-d1e138">
+      ¶ Contra vt superius 
+      habi<lb ed="#V" n="#2" break="no"/>tum est: nullus aliquid vult: nisi sub ratione boni: nulli ergo 
+      <lb ed="#V" n="25"/>placet malitia. propter se.
+   </p>
+            <p xml:id="kzz7yh-f123832-d1e145">
+      ¶ Ad hoc respondent aliqui quod et si 
+      ma<lb ed="#V" n="#2" break="no"/>litia nulli placeat propter se formaliter: placet tamen aliquibus propter se 
+      <lb ed="#V" n="27"/>finaliter.
+   </p>
+            <p xml:id="kzz7yh-f123832-d1e153">
+      ¶ Sed contra hoc arguo: finis est principium obiectum voluntatis: 
+      <lb ed="#V" n="28"/>ergo si malitia alicui voluntati placeret propter se finaliter: 
+      ali<lb ed="#V" n="#2" break="no"/>qua voluntas vellet aliquid sub ratione mali. Exponendum est 
+      <lb ed="#V" n="30"/>ergo aliter verbum praedictum: dicendo quod ibi accipitur malitia 
+      <lb ed="#V" n="31"/>pro sceleratissimo malo quod homini placet ex sola electione. 
+      <lb ed="#V" n="32"/>Unde ponitur ibi abstractum pro concreto ad maiorem 
+      expressio<lb ed="#V" n="#2" break="no"/>nem magnitudinis illius mali: quod eligit peccans in spiritum 
+      <lb ed="#V" n="34"/>sanctum: quod tamen non eligit: nisi sub aliquali ratione boni. 
+      Tan<lb ed="#V" n="#2" break="no"/>ta labes est illius peccati: vt deprecandi humilitatem subire non 
+      <lb ed="#V" n="36"/>possit. Supple nisi cum difficultate magna valde: et cum 
+      <lb ed="#V" n="37"/>speciali: et quasi priuilegiato adiutorio spiritus sancti. Dum in 
+      <lb ed="#V" n="38"/>hac vita est: nec peccatum illius iudicare etc.
+   </p>
+            <p xml:id="kzz7yh-f123832-d1e179">
+      ¶ Contra de 
+      quoli<lb ed="#V" n="#2" break="no"/>bet peccato et manifesto potest iudicariquod sit peccatum.
+   </p>
+            <p xml:id="kzz7yh-f123832-d1e184">
+      ¶ Respondeo 
+      <lb ed="#V" n="40"/>quod iudicare peccatum dupliciter potest intelligi. Uno modo pro 
+      iudi<lb ed="#V" n="#2" break="no"/>care peccatum: nunquam esse remittendum: et sic intelligitur verbum 
+      <lb ed="#V" n="42"/>propositum: sic enim nullius debemus iudicare peccatum: dum est 
+      <lb ed="#V" n="43"/>in hac vita peccator. Alio modo pro iudicare dictum: vel 
+      fa<lb ed="#V" n="#2" break="no"/>ctum: esse peccatum: et si est tale dictum: vel factum: quod possit bene: 
+      <lb ed="#V" n="45"/>vel male fieri debemus interpretari in partem meliorem: sed 
+      <lb ed="#V" n="46"/>manifesta que non possunt bono animo fieri: possumus 
+      iudi<lb ed="#V" n="#2" break="no"/>care peccata. Unde extra de regu. iuris: Ea facta que dubium 
+      <lb ed="#V" n="48"/>est quo animo fiant in meliorem partem interpretemur. Quod enim 
+      <lb ed="#V" n="49"/>scriptum est ex fructibus eorum cognoscentis eos de manifestis 
+      <lb ed="#V" n="50"/>dictum est: que non possunt bono animo fieri: vt stuprum: 
+      blas<lb ed="#V" n="#2" break="no"/>phemia: furta: ebrietates: et similia: de quibus nobis 
+      permit<lb ed="#V" n="#2" break="no"/>titur iudicare: non omnis qui non penitet impenitens dici potest: 
+      <lb ed="#V" n="53"/>quod est intelligendum secundum quod in poenitentia accipitur pro proposito non 
+      <lb ed="#V" n="54"/>penitendi: secundum enim quod accipitur pro priuatione actus penitendi: 
+      <lb ed="#V" n="55"/>omnis qui non penitet impenitens dici potest: peccatum in patrem idem 
+      <lb ed="#V" n="56"/>intelligitur quod fit per infirmitatem.
+   </p>
+            <p xml:id="kzz7yh-f123832-d1e223">
+      ¶ Contra potentia 
+      pec<lb ed="#V" n="#2" break="no"/>candi est infirmitas que est quaedam in potentia: ergo peccatum 
+      <lb ed="#V" n="58"/>in stismensanctum fit per infirmitatem.
+   </p>
+            <p xml:id="kzz7yh-f123832-d1e230">
+      ¶ Respondeo verbum 
+      te<lb ed="#V" n="#2" break="no"/>stus intelligendum est de infirmitate: que est pena nature 
+      <lb ed="#V" n="60"/>destitute que est corruptibilis carnis fragilitas. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

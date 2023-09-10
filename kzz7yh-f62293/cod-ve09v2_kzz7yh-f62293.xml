@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="87-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f62293"><!-- l2d22prae -->
+            <head xml:id="kzz7yh-f62293-Hd1e101">Praeambulum</head>
+            <p xml:id="kzz7yh-f62293-d1e103">
+               <lb ed="#V" n="67"/>¶ De origine illius peccati. Dis. XLXII 
+      <!--00187.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="68"/>Ic videtur diligenter inet 
+      <lb ed="#V" n="69"/>uestigandum 
+      <lb ed="#V" n="70"/>esse que fuerit origo et radix illius 
+      pec<lb ed="#V" n="#2" break="no"/>cati. Quidam putant quandam 
+      ela<lb ed="#V" n="#2" break="no"/>tionem in animo hominis 
+      precessis<lb ed="#V" n="#2" break="no"/>se: ex qua diaboli suggestioni consensit. Quod 
+      <lb ed="#V" n="74"/>videtur Aug. innuere super Gensm ita inquiens. 
+      <lb ed="#V" n="75"/>Non est putandum quod homo deiiceretur nisi 
+      <lb ed="#V" n="76"/>precessisset in eo quedam elato comprimenda: 
+      <lb ed="#V" n="77"/>vt per humilitatem peccati sciret quam falso de se 
+      <lb ed="#V" n="78"/>presumpserit: et quod non bene se habet natura si 
+      <lb ed="#V" n="79"/>a faciente recesserit. Item in eodem. 
+      Quomo<lb ed="#V" n="#2" break="no"/>do verbis temptatoris crederet mulier 
+      deum<lb ed="#V" n="#2" break="no"/>se a re bona et vtili prohibuisse: nisi inesset eius 
+      <lb ed="#V" n="82"/>menti amor ille proprie potestatis: et de se 
+      super<lb ed="#V" n="#2" break="no"/>ba presumptio: que per temptationem fuerat 
+      <lb ed="#V" n="84"/>conuincenda aut perimenda. Denique non 
+      con<lb ed="#V" n="#2" break="no"/>tenta suasione serpentis aspexit lignum bonum 
+      <lb ed="#V" n="86"/>esu: decorum aspectu: nec credens se inde posse 
+      <lb ed="#V" n="87"/>mori: forte putauit deum alicuius causa 
+      signi<lb ed="#V" n="#2" break="no"/>ficationis illa dixisse: ideo manducauit et dedit 
+      <lb ed="#V" n="89"/>viro suo fortassis cum aliqua suasione: quam 
+      scri<lb ed="#V" n="#2" break="no"/>ptura intelligendam reliquit. Uel forte non fuit 
+      <lb ed="#V" n="91"/>suaderi necesse: cum eam mortuam esse illo 
+      ci<lb ed="#V" n="#2" break="no"/>bo non videret vir. Sicut ergo non est permissus 
+      <lb ed="#V" n="93"/>diabolus temptare feminam nisi per serpentem 
+      <lb ed="#V" n="94"/>ita nec virum nisi per feminam. Ut sicut 
+      prece<lb ed="#V" n="#2" break="no"/>ptum dei per virum venit ad mulierem: ita 
+      dia<lb ed="#V" n="#2" break="no"/>boli temptatio per mulierem transiret ad virum. 
+      <lb ed="#V" n="97"/>In muliere vero que rationalis erat non est ipse 
+      <lb ed="#V" n="98"/>locutus vt in serpente: sed persuasio eius quamuis 
+      <lb ed="#V" n="99"/>instinctu adiuuaret interius quod per 
+      serpen<lb ed="#V" n="#2" break="no"/>tem gerebat exterius. Ex predictis 
+      temptatio<lb ed="#V" n="#2" break="no"/>nibus modus atque progressus insinuatur: nec 
+      <lb ed="#V" n="102"/>non etiam quod prediximus innui videtur scilicet quod 
+      <lb ed="#V" n="103"/>temptationem precesserat aliqua elatio et 
+      pre<lb ed="#V" n="#2" break="no"/>sumptio in mente hominis. 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e192">
+               <lb ed="#V" n="105"/>¶ Obiectio contra illos qui dicunt elationem 
+      <lb ed="#V" n="106"/>precessisse in mente. 
+      <lb ed="#V" n="107"/>Quod si ita fuit non ergo alte 
+      <lb ed="#V" n="108"/>rius 
+      suggestio<lb ed="#V" n="#2" break="no"/>ne prius peccauit cum auctoritas tradat: ideo 
+      <lb ed="#V" n="110"/>peccatum diaboli incurabile esse: quia non 
+      sug<lb ed="#V" n="#2" break="no"/>gestione sed propria superbia cecidit: hominis 
+      <lb ed="#V" n="112"/>vero curabile: quia non per se sed per alium 
+      ce<lb ed="#V" n="#2" break="no"/>cidit: et ideo per alium resurgere potuit. Quo 
+      <lb ed="#V" n="114"/>circa predicta verba Augu. pium ac 
+      diligen<lb ed="#V" n="#2" break="no"/>tem lectorem efflagit ant que sic intelligere 
+      sa<lb ed="#V" n="#2" break="no"/>ne quimus. Non deiiceretur homo in actum 
+      <lb ed="#V" n="117"/>illius peccati: vt scilicet lignum vetitum ederet et 
+      in<lb ed="#V" n="#2" break="no"/>has miserias per temptationem diaboli nisi 
+      ela<lb ed="#V" n="#2" break="no"/>tio comprimenda precessisset: non vtique tempta 
+      <lb ed="#V" n="120"/>tionem sed opus peccati. Talis enim fuit 
+      ordi<lb ed="#V" n="#2" break="no"/>nis processus. Diabolus temptando dixit. 
+      Si<lb ed="#V" n="#2" break="no"/>comederitis eritis sicut dii scientes bonum et 
+      <lb ed="#V" n="123"/>malum: quo audito statim menti mulieris sur¬ 
+      <!--00188.xml-->
+      <pb ed="#V" n="87-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>repsit elatio quedam et amor proprie 
+      potesta<lb ed="#V" n="#2" break="no"/>tis: ex quo placuit ei facere quod diabolus suade 
+      <lb ed="#V" n="3"/>bat et vtique fecit. Suggestione igitur peccauit: 
+      <lb ed="#V" n="4"/>quia temptatio precessit: ex qua in mente eius 
+      <lb ed="#V" n="5"/>orta est elatio quam peccatum operis secutum 
+      <lb ed="#V" n="6"/>est et pena peccati 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e255">
+               <lb ed="#V" n="7"/>¶ Que fuit elatio mulieris. 
+      <lb ed="#V" n="8"/>Et talis quidem elatio in 
+      men<lb ed="#V" n="#2" break="no"/>te mulieris 
+      fu<lb ed="#V" n="#2" break="no"/>it pro certo qua credidit et voluit habere simi: 
+      <lb ed="#V" n="11"/>litudinem dei cum equalitate quadam putans 
+      <lb ed="#V" n="12"/>esse verum quod diabolus dicebat. Et ideo 
+      spe<lb ed="#V" n="#2" break="no"/>cialiter mulierem commemorat Aug. inquiens 
+      <lb ed="#V" n="14"/>Quomodo erederet mulier diabolo nisi esset 
+      <lb ed="#V" n="15"/>in mente eius superba presumptio. Et quod 
+      <lb ed="#V" n="16"/>ibi sequitur: scilicet que per temptationem 
+      fue<lb ed="#V" n="#2" break="no"/>rat conuincenda vel perimenda: ad mulierem 
+      <lb ed="#V" n="18"/>referendum est: vt intelligatur que mulier: non 
+      <lb ed="#V" n="19"/>elatio fuerat per temptationem etc. 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e286">
+               <lb ed="#V" n="20"/>¶ Que fuit elatio viri an crediderit et voluerit 
+      <lb ed="#V" n="21"/>quod mulier. 
+      <lb ed="#V" n="22"/>Solet queri vtrum illa talis 
+      ela<lb ed="#V" n="#2" break="no"/>tio et amor proprie 
+      po<lb ed="#V" n="#2" break="no"/>testatis in viro fuit sicut in muliere: ad quod 
+      di<lb ed="#V" n="#2" break="no"/>cimus: quia adam non fuit seductus eo modo 
+      <lb ed="#V" n="26"/>quo mulier. Non enim putauit esse verum quod 
+      <lb ed="#V" n="27"/>diabolus suggerebat. In eo tamen fuisse 
+      sedu<lb ed="#V" n="#2" break="no"/>ctum credi potest quod commissum veniale putaue 
+      <lb ed="#V" n="29"/>rit quod peremptorium erat. Sed nec prior 
+      se<lb ed="#V" n="#2" break="no"/>ductus fuit nec in eo in quo muliervt crederet 
+      <lb ed="#V" n="31"/>deum illud lignum ideo tangere prohibuisse: 
+      <lb ed="#V" n="32"/>quoniam si tangerent fierent sicut dii. Uerunta 
+      <lb ed="#V" n="33"/>men preuaricator fuit adam vt testatur 
+      aposto<lb ed="#V" n="#2" break="no"/>lus. Poterat enim aliqua elatio menti eius 
+      <lb ed="#V" n="35"/>inesse illico post temptationem: ex qua voluit 
+      li<lb ed="#V" n="#2" break="no"/>gnum vetitum experiri cum mulierem non 
+      vide<lb ed="#V" n="#2" break="no"/>ret mortuam esca illa percepta. Unde Aug. 
+      su<lb ed="#V" n="#2" break="no"/>per Gen. Cum apostolus adam 
+      preuaricato<lb ed="#V" n="#2" break="no"/>rem fuisse ostendit dicens. In similitudinem 
+      <lb ed="#V" n="40"/>preuaricationis ade: seductum tamen negat vbi 
+      <lb ed="#V" n="41"/>ait. Adam non est seductus sed mulier. Unde 
+      <lb ed="#V" n="42"/>et interrogatus non ait: mulier seduxit me: sed 
+      de<lb ed="#V" n="#2" break="no"/>dit mihi et comedi. Mulier vero dixit. Serpens 
+      <lb ed="#V" n="44"/>seduxit me. Hanc autem seductionem proprie 
+      <lb ed="#V" n="45"/>vocauit apostolus per quam id quod 
+      suadeba<lb ed="#V" n="#2" break="no"/>tur cum falsum esset verum putatum est: scilicet 
+      <lb ed="#V" n="47"/>quod deus lignum illud ideo tangere prohibuerit: 
+      <lb ed="#V" n="48"/>quia sciebat eos si tetigissent: sicut futuros 
+      de<lb ed="#V" n="#2" break="no"/>os: tamquam eis diuinitatem inuideret: qui eos 
+      ho<lb ed="#V" n="#2" break="no"/>mines fecerat. Sed et si virum propter aliquam 
+      <lb ed="#V" n="51"/>mentis elationem que deum latere non poterat 
+      <lb ed="#V" n="52"/>sollicitauit aliqua experiendi cupiditas: cum 
+      mu<lb ed="#V" n="#2" break="no"/>lierem videret accepta illa esca non esse mortuam 
+      <lb ed="#V" n="54"/>Nec tamen eum arbitror si iam spirituali 
+      men<lb ed="#V" n="#2" break="no"/>te preditus erat nullo modo credidisse quod 
+      <lb ed="#V" n="56"/>diabolus suggerebat. 
+      <!--00188.xml-->
+      <cb ed="#P" n="b"/>
+            </p>
+            <p xml:id="kzz7yh-f62293-d1e374">
+               <lb ed="#V" n="57"/>¶ Quis plus peccauit adam vel eua. 
+      <lb ed="#V" n="58"/>Ex quo manifeste asaduer 
+      <lb ed="#V" n="59"/>ti potest: 
+      <lb ed="#V" n="60"/>quis eorum plus peccauerit: Adam secet vel 
+      Eua<lb ed="#V" n="#2" break="no"/>Plus enim videtur peccasse mulier que voluit 
+      <lb ed="#V" n="62"/>vsurpare diuinitatis equalitatem: et nimia 
+      pre<lb ed="#V" n="#2" break="no"/>sumptione elata credidit ita esse futuram. Adam 
+      <lb ed="#V" n="64"/>vero nec illud credidit et de penitentia et dei 
+      mi<lb ed="#V" n="#2" break="no"/>sericodia cogitauit: dum vxori morem gerens eius 
+      <lb ed="#V" n="66"/>persuasioni consensit: nolens eam contristari et 
+      <lb ed="#V" n="67"/>a se alienatam relinquere ne periret: arbitratus 
+      <lb ed="#V" n="68"/>illud esse veniale non mortale delictum. Unde 
+      <lb ed="#V" n="69"/>Augustinus: apostolus ait. Adam non est 
+      sedu<lb ed="#V" n="#2" break="no"/>ctus. Quod vtique ita accipi potest vt intelligatur 
+      <lb ed="#V" n="71"/>non esse seductus prior: secet vt in eo in quo mulier 
+      <lb ed="#V" n="72"/>vt scet crederet illud esse verum. Eritis sicut 
+      dii<lb ed="#V" n="#2" break="no"/>sed putauit vtrumque posse fieri: vt vxori morem 
+      ge<lb ed="#V" n="#2" break="no"/>reret: et per penitentiam veniam haberet. 
+      Mi<lb ed="#V" n="#2" break="no"/>nus ergo peccauit qui de penitentia et dei mise 
+      <lb ed="#V" n="76"/>ricordia cogitauit. Postquam enim mulier 
+      sedu<lb ed="#V" n="#2" break="no"/>cta manducauit: eique dedit vt simul ederent: 
+      <lb ed="#V" n="78"/>noluit eam contristari quam credebat sine suo 
+      so<lb ed="#V" n="#2" break="no"/>latio contabescere: et a se alienatam omnino 
+      in<lb ed="#V" n="#2" break="no"/>terire. Non quidem carnali victus 
+      concupiscen<lb ed="#V" n="#2" break="no"/>tia quam nondum senserat: sed amicabili 
+      qua<lb ed="#V" n="#2" break="no"/>dam beniuolentia qua plerumque sit: vt 
+      offenda<lb ed="#V" n="#2" break="no"/>tur deus: ne offendatur amicus quod eum 
+      face<lb ed="#V" n="#2" break="no"/>re non debuisse diuine sententie iustus exitus 
+      <lb ed="#V" n="85"/>indicauit. Ergo alio quodammodo ipse etiam 
+      de<lb ed="#V" n="#2" break="no"/>ceptus est. Inexpertus enim diuine 
+      seuerita<lb ed="#V" n="#2" break="no"/>tis in eo falli potuit vt veniale crederet esse 
+      com<lb ed="#V" n="#2" break="no"/>missum: sed dolo illo serpentino quo mulier 
+      se<lb ed="#V" n="#2" break="no"/>ducta est nullo modo arbitror illum potuisse 
+      se<lb ed="#V" n="#2" break="no"/>duci. Ex his datur intelligi quod mulier plus 
+      pec<lb ed="#V" n="#2" break="no"/>cauerit in qua maioris tumoris praesumptio fuit 
+      <lb ed="#V" n="92"/>Que etiam in se et in proximum et in deum 
+      pec<lb ed="#V" n="#2" break="no"/>cauit: vir autem tantum in se et in deum. Inde est 
+      <lb ed="#V" n="94"/>colligitur quod mulier plus peccauerit: quia 
+      gra<lb ed="#V" n="#2" break="no"/>uius punita est: cui dictum fuit. In dolore 
+      pa<lb ed="#V" n="#2" break="no"/>ries filios etc. 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e463">
+               <lb ed="#V" n="97"/>¶ Quid praedicte sententie aduersari videtur. 
+      <lb ed="#V" n="98"/>Sed huic videtur 
+      contra<lb ed="#V" n="#2" break="no"/>rium quod 
+      <lb ed="#V" n="100"/>Augu. super Gensm de viro et muliere peccatum 
+      <lb ed="#V" n="101"/>suum excusantibus ait. Dixit adam mulier 
+      quam<lb ed="#V" n="#2" break="no"/>dedisti mihi dedit mihi de ligno et comedi: non 
+      <lb ed="#V" n="103"/>dicit peccaui. Superbia enim habet confusio 
+      <lb ed="#V" n="104"/>nis deformitatem: non confessionis 
+      humilita<lb ed="#V" n="#2" break="no"/>tem. Nec etiam mulier confitetur peccatum: sed 
+      <lb ed="#V" n="106"/>refert in alterum dicens. Serpens decepit 
+      me<lb ed="#V" n="#2" break="no"/>et comedi in impari sexu: sed pari fastu. Ecce 
+      <lb ed="#V" n="108"/>hic dicit Aug. quia parem fastum habuit 
+      mu<lb ed="#V" n="#2" break="no"/>lier cum viro. Pariter ergo superbierunt et 
+      pa<lb ed="#V" n="#2" break="no"/>riter peccauerunt. Sed hoc ita determinari 
+      po<lb ed="#V" n="#2" break="no"/>test vt dicamus parem vtriusque fuisse fastum in 
+      <lb ed="#V" n="112"/>excusatione peccati: et etiam in esu ligni vetiti: 
+      <!--00189.xml-->
+      <pb ed="#V" n="88-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>sed disparem et in muliere multo maiorem in eo 
+      <lb ed="#V" n="2"/>quod credidit et voluit esse sicut deus: quod non 
+      vir<lb ed="#V" n="#2" break="no"/>Ueruntamen et de viro legitur quod voluit esse sicut 
+      <lb ed="#V" n="4"/>deus. Dicit enim Augu. super illum locum psalmo 
+      <lb ed="#V" n="5"/>Que non rapui tunc exoluebam. Rapuit Adam 
+      <lb ed="#V" n="6"/>et Eua praesumens vt diabolus de diuinitate: 
+      ra<lb ed="#V" n="#2" break="no"/>pere voluerunt diuinitatem: et perdiderunt 
+      feli<lb ed="#V" n="#2" break="no"/>citatem. Item super illum locum. Deus quis 
+      simi<lb ed="#V" n="#2" break="no"/>lis tibi. Qui per se vult esse vt deus: peruerse vult 
+      <lb ed="#V" n="10"/>esse similis deo: vt diabolus qui noluit sub eo esse: 
+      <lb ed="#V" n="11"/>et homo qui vt seruus noluit teneri praecepto: sed 
+      <lb ed="#V" n="12"/>voluit vt nullo sibi dominante esset quasi deus. 
+      <lb ed="#V" n="13"/>Item super illum epistole locum. Non rapinam 
+      <lb ed="#V" n="14"/>arbitratus est se esse equalem deo: quia non vsur 
+      <lb ed="#V" n="15"/>pauit quod suum non esset: vt diabolus et primus homo. 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e539">
+               <lb ed="#V" n="16"/>¶ Quorundam sententia quod Adam ambierit esse vt 
+      <lb ed="#V" n="17"/>deus: sed non crediderit possibile. 
+      <lb ed="#V" n="18"/>Ideo quibusdam viletur quod est 
+      <lb ed="#V" n="19"/>Adam ambie 
+      <lb ed="#V" n="20"/>rit esse sicut deus non tamen credidit id fieri 
+      <lb ed="#V" n="21"/>posse: et ideo falsum esse quod diabolus promitte 
+      <lb ed="#V" n="22"/>bat cognouit. Et licet diuinitatis equalitatem 
+      <lb ed="#V" n="23"/>concupierit: non tamen adeo exarsit: nec ttama est affectus 
+      <lb ed="#V" n="24"/>ambitione sicut mulier que illud fieri posse 
+      pu<lb ed="#V" n="#2" break="no"/>tauit: et ideo magis illud ambiendo superbiuit. 
+      <lb ed="#V" n="26"/>Uirum autem aliqua forte ambitionis 
+      subreptio<lb ed="#V" n="#2" break="no"/>mouit: sed non ita vt illud verum vel possibile 
+      <lb ed="#V" n="28"/>fore putaret. Aliis autem videtur ideo dictum esse 
+      <lb ed="#V" n="29"/>quod Adam illud voluerit: quia mulier de eo 
+      sum<lb ed="#V" n="#2" break="no"/>pta illud voluit: sicut inquunt. Peccatum dicitur 
+      <lb ed="#V" n="31"/>per vnum hominem intrasse in mundum: idest in 
+      <lb ed="#V" n="32"/>humanam naturam: cum tamen mulier ante 
+      vi<lb ed="#V" n="#2" break="no"/>rum peccauerit: quia per mulierem intrauerit 
+      <lb ed="#V" n="34"/>de viro factam. Uel potius ideo per hominem 
+      <lb ed="#V" n="35"/>dicitur intrasse: quia etiam peccante muliere 
+      si<lb ed="#V" n="#2" break="no"/>vir non peccasset: humanum genus minime 
+      pec<lb ed="#V" n="#2" break="no"/>catis corruptum periret. Minus ergo 
+      pecca<lb ed="#V" n="#2" break="no"/>uit vir quam mulier. 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e591">
+               <lb ed="#V" n="39"/>¶ Obiectio contra id quod dicntum est virum minus peccasse. 
+      <lb ed="#V" n="40"/>His autem oppotini solet hoc modo. 
+      <lb ed="#V" n="41"/>Teribus modis: vt 
+      Isi<lb ed="#V" n="#2" break="no"/>dorus ait: peccatum geritur scilicet ignorantia 
+      infir<lb ed="#V" n="#2" break="no"/>mitate: industria. Et grauius est infirmitate 
+      pec<lb ed="#V" n="#2" break="no"/>care quam ignorantia grauiusque industria quam 
+      infir<lb ed="#V" n="#2" break="no"/>mitate. Eua autem videtur ex ignorantia 
+      pec<lb ed="#V" n="#2" break="no"/>casse: quia seducta fuit. Adam vero ex industria: 
+      <lb ed="#V" n="47"/>quia non fuit seductus vt apostolus ait. Ad quod 
+      <lb ed="#V" n="48"/>dicimus quia licet Eua in hoc per ignorantiam 
+      <lb ed="#V" n="49"/>deliquerit quod putauit verum esse quod 
+      dia<lb ed="#V" n="#2" break="no"/>bolus suadebat: non tamen in hoc quin nouerit 
+      <lb ed="#V" n="51"/>illud dei esse mandatum: et peccatum esse 
+      con<lb ed="#V" n="#2" break="no"/>tra agere. Et ideo excusari a peccato per 
+      igno<lb ed="#V" n="#2" break="no"/>rantiam non potuit. 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e626">
+               <lb ed="#V" n="54"/>¶ Quod ignorantia alia excusat: alia non. 
+      <lb ed="#V" n="55"/>Est enim ignorantia que excusat 
+      pec<lb ed="#V" n="#2" break="no"/>cantem: et est ignorantia ta¬ 
+      <!--00189.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>lis que non excusat. Est autem ingnorantia 
+      vin<lb ed="#V" n="#2" break="no"/>cibilis: et ignorantia inuincibilis. Excusatio 
+      om<lb ed="#V" n="#2" break="no"/>nis tollitur: vbi mandatum non ignoratur. 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e646">
+               <lb ed="#V" n="60"/>¶ De triplici ignorantia que excusat et que non. 
+      <lb ed="#V" n="61"/>Est autem ignorantia triplex et eorum 
+      <lb ed="#V" n="62"/>scilicet qui scire nolunt cum 
+      <lb ed="#V" n="63"/>possint que non excusat: quia et ipsa peccatum 
+      <lb ed="#V" n="64"/>est. Et eorum qui volunt: sed non possunt: que 
+      ex<lb ed="#V" n="#2" break="no"/>cusat: et est pena peccati non peccatum. Et 
+      eo<lb ed="#V" n="#2" break="no"/>rum qui quasi simpliciter nesciunt non 
+      renuen<lb ed="#V" n="#2" break="no"/>tes vel proponentes scire: que neminem plene ex 
+      <lb ed="#V" n="68"/>cusat: sed sic fortasse vt minus puniatur. Unde 
+      <lb ed="#V" n="69"/>Augstinus ad Ualentinum. Eis aufertur 
+      ex<lb ed="#V" n="#2" break="no"/>cusatio qui mandata dei nouerunt quam solent 
+      <lb ed="#V" n="71"/>habere homines de ignorantia. Et licet grauius 
+      <lb ed="#V" n="72"/>fit peccare scienter quam nescienter: non ideo tamen 
+      <lb ed="#V" n="73"/>fugiendum est ad ignorantie tenebras: vt in eis 
+      <lb ed="#V" n="74"/>quisquam excusationem requirat. Aliud est enim 
+      <lb ed="#V" n="75"/>nescisse: aliud scire noluisse: quia in eis qui 
+      intel<lb ed="#V" n="#2" break="no"/>ligere noluerunt: ipsa ignorantia peccatum est: 
+      <lb ed="#V" n="77"/>in eis vero qui non potuerunt pena peccati. 
+      <lb ed="#V" n="78"/>Ignorantia vero que non est eorum qui scire 
+      no<lb ed="#V" n="#2" break="no"/>lunt: sed qui tanquam simpliciter nesciunt: nullum 
+      <lb ed="#V" n="80"/>sic excusat vt eterno igne non ardeat: sed 
+      for<lb ed="#V" n="#2" break="no"/>tasse vt minus ardeat: Non igitur mulier 
+      excu<lb ed="#V" n="#2" break="no"/>sationem habuit de ignorantia cum et mandatum 
+      no<lb ed="#V" n="#2" break="no"/>uerit: et peccatum esse secus agere non ignorauerit. 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e702">
+               <lb ed="#V" n="84"/>¶ Unde processerit consensus illius peccati cum 
+      <lb ed="#V" n="85"/>natura hominis esset incorrupta. 
+      <lb ed="#V" n="86"/>Solet etiam queri cum sine vitio 
+      <lb ed="#V" n="87"/>esset natura hominis 
+      <lb ed="#V" n="88"/>vnde consensus mali processerit. Ad quod 
+      respo<lb ed="#V" n="#2" break="no"/>deri potest quia ex libero arbitrio proprie volum 
+      <lb ed="#V" n="90"/>tatis fuit. In ipso enim et in alio causa extitit vt 
+      <lb ed="#V" n="91"/>fieret deterior. In alio quia in diabolo qui 
+      sua<lb ed="#V" n="#2" break="no"/>sit: in ipso quia voluntate liberi arbitrii 
+      consen<lb ed="#V" n="#2" break="no"/>sit: et cum liberum arbitrium sit bonum: ex 
+      re<lb ed="#V" n="#2" break="no"/>vtique bona malus ille consensus prouenit: et ita 
+      <lb ed="#V" n="95"/>ex bono malum manauit. De hoc autem in se 
+      <lb ed="#V" n="96"/>quenti plenius tractabimus cum origo mali et 
+      <lb ed="#V" n="97"/>in qua recoalescat inuestigabitur. 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e735">
+               <lb ed="#V" n="98"/>¶ An voluntas precesserit illud peccatum. 
+      <lb ed="#V" n="99"/>Si vero queritur vtrum voluntas 
+      il<lb ed="#V" n="#2" break="no"/>iud peccatum precesserit. Dici 
+      <lb ed="#V" n="101"/>mus quia peccatum illud et in voluntate et in actu 
+      <lb ed="#V" n="102"/>consistit: et voluntas actum precessit: sed ipsam 
+      <lb ed="#V" n="103"/>voluntatem alia hominis voluntas mala non 
+      <lb ed="#V" n="104"/>precessit: atque ex diaboli persuasione et hominis 
+      <lb ed="#V" n="105"/>arbitrio illa voluntas mala prodiit: qua 
+      iustiti<lb ed="#V" n="#2" break="no"/>am deseruit et iniquitatem inchoauit: et ipsa 
+      vo<lb ed="#V" n="#2" break="no"/>luntas iniqutas fuit. Dist. XXII 
+      <lb ed="#V" n="108"/>Ic videtur diligenter est inestigandum 
+      <lb ed="#V" n="109"/>Superius determinauit 
+      <lb ed="#V" n="110"/>magister de temptatione primorum parentum: ex 
+      <lb ed="#V" n="111"/>parte temptantis.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e768">
+      ¶ In ista parte determinat 
+      <lb ed="#V" n="112"/>de eorundem temptatione: ex parte temptati: et diuidi¬ 
+      <!--00190.xml-->
+      <pb ed="#V" n="88-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>tur in partes duas.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e781">
+      ¶ Primo determinat magister de 
+      <lb ed="#V" n="2"/>origine illius transgressionis.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e786">
+      ¶ Secundo inquirit causam illius 
+      <lb ed="#V" n="3"/>otiginis. ibi. Solet etiam queri cum sine vitio.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e791">
+      ¶ Prima in 
+      <lb ed="#V" n="4"/>duas.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e797">
+      ¶ Primo determinat communiter de origine peccati in 
+      <lb ed="#V" n="5"/>viro et muliere.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e802">
+      ¶ Secundo comparat peccatum vnius ad 
+      <lb ed="#V" n="6"/>peccatum alterius: in grauitate. ibi. Ex quo manifeste. 
+      <lb ed="#V" n="7"/>Prima in duas.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e809">
+      ¶ Primo ostendit quod in viro et muliere 
+      <lb ed="#V" n="8"/>elatio fuit prima transgressionis origo.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e814">
+      ¶ Secundo inquie 
+      <lb ed="#V" n="9"/>rit quanta fuit illa elatio. ibi. Et talis quidem.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e819">
+      ¶ Prima 
+      <lb ed="#V" n="10"/>in duas.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e824">
+      ¶ Primo procedit veritatem narrando.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e827">
+      ¶ 
+      Secun<lb ed="#V" n="#2" break="no"/>do ad contrarium opponendo. ibi.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e832">
+      ¶ Quod si ita fuit. Pars illa 
+      <lb ed="#V" n="12"/>que incipit. Et talis. In qua inquirit quanta fuit illa 
+      <lb ed="#V" n="13"/>elatio. Diuiditur in duas.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e839">
+      ¶ Primo inquirit quanta fuit 
+      <lb ed="#V" n="14"/>in muliere.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e844">
+      ¶ Secundo quanta fuit in viro. ibi. Solet 
+      quae<lb ed="#V" n="#2" break="no"/>ri vtrum illa elatio. Illa paros que incipit ibi. Ex quo 
+      ma<lb ed="#V" n="#2" break="no"/>nifeste. In qua comparat peccatum vnius ad peccatum 
+      al<lb ed="#V" n="#2" break="no"/>terius in grauitate diuiditur in duas.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e853">
+      ¶ Primo ostendit 
+      <lb ed="#V" n="18"/>quod mulier grauius peccauit.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e858">
+      ¶ Secundo in contrarium 
+      op<lb ed="#V" n="#2" break="no"/>ponit et soluit. ibi. Sed huic videtur contrarium. Et ista 
+      <lb ed="#V" n="20"/>diuiditur in tres.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e866">
+      ¶ In prima opponit ex parte 
+      appareti<lb ed="#V" n="#2" break="no"/>tus.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e871">
+      ¶ In secunda ex parte appetibilis. ibi. Uerutu. I 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e873">
+               <lb ed="#V" n="22"/>¶ In tertia ex parte intellectus. ibi. His autem solet 
+      op<lb ed="#V" n="#2" break="no"/>poni. Et ista in tres.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e880">
+      ¶ Primo ponit oppositionem
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e882">
+      ¶ 
+      Se<lb ed="#V" n="#2" break="no"/>cundo responsionem. ibi. Ad quod dicimus.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e887">
+      ¶ Tertio vti 
+      <lb ed="#V" n="25"/>lem de ignorantia distinctionem. ibi. Est autem ignorantia triplex. 
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e893">
+               <lb ed="#V" n="26"/>CIrca hanc disti. queruntur duo 
+      prin<lb ed="#V" n="#2" break="no"/>cipaliter.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e900">
+      ¶ Primo 
+      quae<lb ed="#V" n="#2" break="no"/>ritur de peccato primorum parentum quantum ad 
+      <lb ed="#V" n="29"/>inordinationem affectus.
+   </p>
+            <p xml:id="kzz7yh-f62293-d1e907">
+      ¶ Secundo per 
+      com<lb ed="#V" n="#2" break="no"/>paratione ad ignorantiam intellectus.
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praefatio</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praefatio</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="1-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f00004"><!-- l2praefatio -->
+            <head xml:id="kzz7yh-f00004-Hd1e101">Praefatio</head>
+            <p xml:id="kzz7yh-f00004-d1e103">
+      <!--00015.xml-->
+               <pb ed="#V" n="1-r"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="kzz7yh-f00004-d1e112">
+               <lb ed="#V" n="1"/>¶ Scriptum super secundum sententiarum 
+      edi<lb ed="#V" n="#2" break="no"/>tum a Fratre Ricardo de 
+      Me<lb ed="#V" n="#2" break="no"/>dia Uilla ordinis Minorum doctore 
+      <lb ed="#V" n="4"/>Clarissimio. 
+      <lb ed="#V" n="5"/>OMnia per ipsum 
+      <lb ed="#V" n="6"/>facta sunt: et sine ipso factum 
+      <lb ed="#V" n="7"/>est nihil. Hec verba scripta 
+      <lb ed="#V" n="8"/>Ioannis primo sic possunt exponi 
+      <lb ed="#V" n="9"/>omnia scilicet entia alia a deo facta 
+      <lb ed="#V" n="10"/>sunt per ipsum idest per verbum 
+      <lb ed="#V" n="11"/>dei. Unde Augu. xi. confessio. 
+      <lb ed="#V" n="12"/>longe post principium sermonem 
+      <lb ed="#V" n="13"/>dirigens ad deum sic ait. 
+      Uer<lb ed="#V" n="#2" break="no"/>bo tibi coeterno simul et 
+      sem<lb ed="#V" n="#2" break="no"/>piterno: dicis omnia quae dicis: et fit quicquid dicis vt fiat: nec 
+      ali<lb ed="#V" n="#2" break="no"/>ter quam dicendo facis. Et sine ipso idest sine verbo dei 
+      <lb ed="#V" n="17"/>patris factum est nihil idest peccatum. Unde Augu. 
+      predi<lb ed="#V" n="#2" break="no"/>ctum verbum exponens tractatum primo super Io. vltra medium 
+      <lb ed="#V" n="19"/>sic ait. Peccatum quidem non per ipsum factum est et 
+      mani<lb ed="#V" n="#2" break="no"/>festum est: quia peccatum nihil est: et nihil fiunt homines 
+      <lb ed="#V" n="21"/>cum peccant.
+   </p>
+            <p xml:id="kzz7yh-f00004-d1e160">
+      ¶ Et secundum hanc expositionem tangitur in 
+      ver<lb ed="#V" n="#2" break="no"/>bis propositis secundi libri sententiarum materia in generali. Nam 
+      <lb ed="#V" n="23"/>per hoc quod dicitur omnia per ipsum facta sunt: tangitur creatu 
+      <lb ed="#V" n="24"/>re emanatio siue eius exitus in esse: de quo determinatur 
+      <lb ed="#V" n="25"/>in prima parte huius secundi.
+   </p>
+            <p xml:id="kzz7yh-f00004-d1e171">
+      ¶ Et per hoc quod dicitur et 
+      fi<lb ed="#V" n="#2" break="no"/>ne ipso factum est nihil. tangitur creature rationalis 
+      de<lb ed="#V" n="#2" break="no"/>uiatio et eius recessus a bene esse: quod factum est per 
+      pecca<lb ed="#V" n="#2" break="no"/>tum de quo determinatur in secunda parte huius secundi.
+   </p>
+            <p xml:id="kzz7yh-f00004-d1e181">
+      ¶ 
+      Scien<lb ed="#V" n="#2" break="no"/>dum autem quod quedam facta sunt per verbum dei non de 
+      ali<lb ed="#V" n="#2" break="no"/>quo: vt prima principia que sunt de essentia entium 
+      crea<lb ed="#V" n="#2" break="no"/>torum. De qua factione potest exponi illud quod dicitur Gen. xiii. 
+      <lb ed="#V" n="32"/>iste sunt generationes celi et terre quando create sunt in die 
+      <lb ed="#V" n="33"/>quo fecit deus caelum et terram. Si per caelum et terram 
+      intel<lb ed="#V" n="#2" break="no"/>ligamus materiam corporum superiorum et inferiorum cum aliqua 
+      dis<lb ed="#V" n="#2" break="no"/>positione ad formam: multa etiam alia entia a deo facta 
+      <lb ed="#V" n="36"/>sunt non de aliquo: et hec factio proprie dicitur creatio. 
+   </p>
+            <p xml:id="kzz7yh-f00004-d1e201">
+               <lb ed="#V" n="37"/>¶ Quedam autem facta sunt per verbum dei: de 
+      princi<lb ed="#V" n="#2" break="no"/>piis vnum constituentibus per essentiam. De qua factione potest 
+      <lb ed="#V" n="39"/>exponi illud verbum quod dicitur Gen. ii. Formauit dominus 
+      <lb ed="#V" n="40"/>deus hominem de limo terre: et inspirauit in faciem eius 
+      spi<lb ed="#V" n="#2" break="no"/>raculum vite: et factus est homo in animam viuentem. et sic 
+      <lb ed="#V" n="42"/>patet quod hominem fecit ex suis principiis: quamuis ipsam animam 
+      <lb ed="#V" n="43"/>intellectiuam deus in eodem instanti creauerit: et corpori Ade 
+      <lb ed="#V" n="44"/>ipsam infuderit.
+   </p>
+            <p xml:id="kzz7yh-f00004-d1e221">
+      ¶ Quedam autem facta sunt per verbum 
+      <lb ed="#V" n="45"/>dei de compositis non constituentibus vnum per essentiam: 
+      <lb ed="#V" n="46"/>sed per quendam ordinem. Et sic facta est machina 
+      mun<lb ed="#V" n="#2" break="no"/>di siue ipsum vniuersum de quatuor elementis et corporibus 
+      cele<lb ed="#V" n="#2" break="no"/>stibus et aliis partibus vniuersi. De qua factione potest 
+      <lb ed="#V" n="49"/>aliquo modo exponi illud verbum Ioan. primo mundus per ipsum 
+      <lb ed="#V" n="50"/>factus est: idest mundus qui quantum ad eius partes 
+      fa<lb ed="#V" n="#2" break="no"/>ctus est non de aliquo: per eum id est per verbum dei: sicut patet 
+      <lb ed="#V" n="52"/>per illud quod ante dictum est in eodem capitulo omnia per ipsum 
+      <lb ed="#V" n="53"/>facta sunt: de suis partibus factus est per ordinem ipsarum 
+      <lb ed="#V" n="54"/>partium adinuicem. Facere autem aliquid non de aliquo soli 
+      <lb ed="#V" n="55"/>deo conuenit: posse facere aliquid de materia naturali: deus per 
+      ver<lb ed="#V" n="#2" break="no"/>bum suum nature create indidit: et de aliquibus rebus 
+      compos<lb ed="#V" n="#2" break="no"/>sitis aliquod artificiatum constituere: datum est per verbum dei 
+      <lb ed="#V" n="58"/>et hominibus et angelis: quamuis non equaliter.
+   </p>
+            <p xml:id="kzz7yh-f00004-d1e254">
+      ¶ Factio ergo 
+      <lb ed="#V" n="59"/>nature create qua operatur praesupponit illam operationem: 
+      <lb ed="#V" n="60"/>que conuenit soli creatori: et operatio creati artificis 
+      pre<lb ed="#V" n="#2" break="no"/>supponit vtrumque.
+   </p>
+            <p xml:id="kzz7yh-f00004-d1e263">
+      ¶ Quantum autem ad secundam partem 
+      <lb ed="#V" n="62"/>thematis sciendum quod peccatum propter triplicem rationem 
+      <lb ed="#V" n="63"/>significatur per nihil.
+   </p>
+            <p xml:id="kzz7yh-f00004-d1e270">
+      ¶ Una est: quia a defectibilitate 
+      si<lb ed="#V" n="#2" break="no"/>ue per defectibilitatem libere voluntatis originatur: que 
+      defe<lb ed="#V" n="#2" break="no"/>ctibilitas est in ea inquantum est non de aliquo de quo 
+      <!--00015.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="66"/>potest exponi illud verbum Esa. xiii. Ecce vos estis ex 
+      ni<lb ed="#V" n="#2" break="no"/>hilo et opus vestrum ex eo quod non est.
+   </p>
+            <p xml:id="kzz7yh-f00004-d1e287">
+      ¶ Alia ratio est: quia 
+      pec<lb ed="#V" n="#2" break="no"/>cator per peccatum bonis gratuitis euacuatur: et in bonis 
+      <lb ed="#V" n="69"/>naturalibus vulneratur. De quo potest exponi illud verbum 
+      <lb ed="#V" n="70"/>Hiere. iiii Aspexi terram et ecce vacua erat et nihil 
+      in<lb ed="#V" n="#2" break="no"/>telligendo per terram peccatores: quia principaliter adherent 
+      <lb ed="#V" n="72"/>terrenis: et vacui sunt munere gratie.
+   </p>
+            <p xml:id="kzz7yh-f00004-d1e300">
+      ¶ Alia ratio est: quia 
+      <lb ed="#V" n="73"/>peccator sub ratione qua peccator: quasi pro nihilo reputatur. De 
+      <lb ed="#V" n="74"/>quo potest exponi illud verbum Sap. iii. et siquidem longe 
+      <lb ed="#V" n="75"/>vite erunt in nihilum computabuntur eo quod auertentes se 
+      <lb ed="#V" n="76"/>ab illo qui summe est: versus non entitatem declinant. Unde 
+      <lb ed="#V" n="77"/>de Augu. iii. de ciui. dei. c. vii. Deficere ab eo quod summe 
+      <lb ed="#V" n="78"/>est ad id quod minus est: hoc est incipere habere voluntatem malam. 
+      <lb ed="#V" n="79"/>Econtrario illi de quibus dicitur in psal. Honorabile 
+      no<lb ed="#V" n="#2" break="no"/>men eorum coram illo. ab eo quod minus est recedentes: 
+      ten<lb ed="#V" n="#2" break="no"/>dunt ad id quod summe est: quousque in vita eterna perfecte 
+      <lb ed="#V" n="82"/>coniugitur cum eo. Quod nobis prestare dignetur dominus 
+      Ie<lb ed="#V" n="#2" break="no"/>sus christus: qui cum patre et spiritu sancto viuit et 
+      re<lb ed="#V" n="#2" break="no"/>gnat deus per omnia secula seculorum Amen. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

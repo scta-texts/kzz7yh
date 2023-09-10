@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="115-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f82231"><!-- l2d27cl -->
+            <head xml:id="kzz7yh-f82231-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f82231-d1e103">
+               <lb ed="#V" n="9"/>Circa litteram: virtus est vt ait Aug. 
+      Nota<lb ed="#V" n="#2" break="no"/>quod diffinitio virtutis hic posita non 
+      se<lb ed="#V" n="#2" break="no"/>extendit nisi ad virtutem infusam formatam per 
+      <lb ed="#V" n="12"/>gratiam. Quam describit per causam formalem cum dicit 
+      <lb ed="#V" n="13"/>quod est bona qualitas: et per causam materialem in qua est: quia non 
+      <lb ed="#V" n="14"/>habet causam materialem ex qua sit: cum dicitur mentis: et per 
+      <lb ed="#V" n="15"/>causam finalem que est operatio boni et declinatio mali cum 
+      di<lb ed="#V" n="#2" break="no"/>citur: qua recte viuitur: et qua nullus male vtitur: et per causam 
+      <lb ed="#V" n="17"/>efficientem: cum dicitur: quam deus solus in homine operatur. 
+      Iu<lb ed="#V" n="#2" break="no"/>stificati sumus non per liberam voluntatem: quia quamuis 
+      <lb ed="#V" n="19"/>cooperetur in disponendo nos ad iustisicationis 
+      susceptio<lb ed="#V" n="#2" break="no"/>nem: solus tamen deus nobis infundit formam 
+      iustisican<lb ed="#V" n="#2" break="no"/>tem id est gratiam: gratia gratis data intelligitur ex qua incipiunt 
+      <lb ed="#V" n="22"/>bona merita: non accipitur hic gratia gratis data: secundum quod 
+      di<lb ed="#V" n="#2" break="no"/>stinguitur contra gratiam gratum facientem. Sed secundum quod 
+      ac<lb ed="#V" n="#2" break="no"/>cipitur pro gratia gratum faciente que maxime gratis datur: 
+      <lb ed="#V" n="25"/>que ipsa id est voluntas bona: charitas est spiritus sanctus: hoc 
+      di<lb ed="#V" n="#2" break="no"/>cit magister secundum suam opinionem: que non tenetur: quia loquitur 
+      <lb ed="#V" n="27"/>de charitate qua deum diligimus: alii dicunt virtutes esse 
+      <lb ed="#V" n="28"/>bonos vsus naturalium potentiarum: et hii male dicunt: 
+      <lb ed="#V" n="29"/>quia secundum hoc in dormientibus non essent virtutes. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

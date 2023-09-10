@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="62-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f44427"><!-- l2d14cl -->
+            <head xml:id="kzz7yh-f44427-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f44427-d1e103">
+               <lb ed="#V" n="8"/>CIrca litteram crystallinus enim 
+      <lb ed="#V" n="9"/>lapis cui magis in 
+      <lb ed="#V" n="10"/>atermitas et perspicuitas de aquis factus est. Quoa 
+      <lb ed="#V" n="11"/>non est intelligendum de omni specie crystalli: 
+      <lb ed="#V" n="12"/>quia est quedam crystalli species generati in 
+      ter<lb ed="#V" n="#2" break="no"/>ra multum calida: alia est species crystalli que sit ex aqua 
+      <lb ed="#V" n="14"/>congelata: supra quam tantum postera inualescit frigus vt 
+      cor<lb ed="#V" n="#2" break="no"/>rumpatur in illa materia forma substantialis aque et in aliam 
+      <lb ed="#V" n="16"/>materiam transmutetur. Glaciali soliditatem: potest dici quod 
+      <lb ed="#V" n="17"/>aque que super celos sunt comparantur glaciali soliditati: 
+      <lb ed="#V" n="18"/>non propter grauitatem sed propter continuitatem et stabilitatem 
+      <lb ed="#V" n="19"/>quia nec fluunt nec deorsum descendunt. Congregentur 
+      <lb ed="#V" n="20"/>aque in locum vnum et appareat arida. Nota hoc ad 
+      imaginan<lb ed="#V" n="#2" break="no"/>dum figuram mundi: quod terra est rotunda. et ambitur 
+      sphe<lb ed="#V" n="#2" break="no"/>ra aque preter quartam eius: cuius maior est dimensio ab 
+      <lb ed="#V" n="23"/>extremitate eius versus orientem vsque ad extremitatem ei 
+      <lb ed="#V" n="24"/>versus occidentem quam dimensio que est ab extremitate 
+      ver<lb ed="#V" n="#2" break="no"/>sus aquilonem ad extremitatem eius versus austrum: et hoc pars 
+      <lb ed="#V" n="26"/>discooperta est propter habitationem hominum et sic deus 
+      <lb ed="#V" n="27"/>ordinauit virtutem et proportionem corporum celestium: vt 
+      <lb ed="#V" n="28"/>per suam influentiam: terram et aquam teneant in dispositione 
+      <lb ed="#V" n="29"/>predicta: non tamen punctualiter: quia aliquando acquirit 
+      <lb ed="#V" n="30"/>mare super terram ex parte vna: et terra super mare ex 
+      per<lb ed="#V" n="#2" break="no"/>te alia: terra autem et mare vndique circundantur sphera 
+      ae<lb ed="#V" n="#2" break="no"/>ris: et sphera aeris sphera ignis. Et sphera ignis 
+      sphera<lb ed="#V" n="#2" break="no"/>lune: et sphera lune sphera mercurii. Et sphera 
+      mercu<lb ed="#V" n="#2" break="no"/>riisphera veneris. Et sphera veneris sphera solis: et 
+      sphe<lb ed="#V" n="#2" break="no"/>ra solis: sphera martis. Et sphera martis: sphera iouis. 
+      <lb ed="#V" n="36"/>Et sphera iouis: sphera saturni: et quelibet istarum septem 
+      <lb ed="#V" n="37"/>spherarum non habet nisi vnam stellam. Sphera autem 
+      satur<lb ed="#V" n="#2" break="no"/>ni circundatur ab octaua sphera in qua sunt stelle multe: 
+      <lb ed="#V" n="39"/>vnde plus confert ad vitam istorum inferiorum quam orbes 
+      pla<lb ed="#V" n="#2" break="no"/>netarum. Unde philosophus. 2. celi et mundi. orbis primus est 
+      prin<lb ed="#V" n="#2" break="no"/>cipium et virtus et causa in vita omnis viui: plusquam 
+      reli<lb ed="#V" n="#2" break="no"/>qui orbes valde: quapropter sit quod orbis primus 
+      compre<lb ed="#V" n="#2" break="no"/>hendit corpora multa: et omnis orbis ex reliquis orbibus 
+      <lb ed="#V" n="44"/>comprehendit stellam vnam: et illa octaua sphera que dici 
+      <lb ed="#V" n="45"/>tur primus orbis nobis sensibilis ambitur celo crystalli 
+      <lb ed="#V" n="46"/>no: et caelum crystallinum celo empyreo: vltra quod nulla 
+      pe<lb ed="#V" n="#2" break="no"/>nitus est creatura neque plenum: neque vacuum: et sic ista 
+      ma<lb ed="#V" n="#2" break="no"/>china mundialis computando quatuor spheras elementorum 
+      <lb ed="#V" n="49"/>et caelum empyreum et crystallinum constat ex. 14. spheris. 
+      <lb ed="#V" n="50"/>nec est inter spheram et spheram aliquod vacuum. Sunt 
+      <lb ed="#V" n="51"/>insigna scilicet naturalium euentuum: et tempora scilicet 
+      indistinctio<lb ed="#V" n="#2" break="no"/>nes quattuor temporum scilicet veris estatis autumni et hyemis. 
+      <lb ed="#V" n="53"/>Et dies id est distinctiones dierum et noctium et annos id est 
+      disti<lb ed="#V" n="#2" break="no"/>ctiones annorum. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

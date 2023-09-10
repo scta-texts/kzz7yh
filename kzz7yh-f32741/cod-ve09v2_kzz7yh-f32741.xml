@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="45-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f32741"><!-- l2d11cl -->
+            <head xml:id="kzz7yh-f32741-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f32741-d1e103">
+               <lb ed="#V" n="95"/>CIrca litteram ab exordio 
+      natiui<lb ed="#V" n="#2" break="no"/>tatis. non tantum 
+      <lb ed="#V" n="97"/>modo ex vtero: sed etiam in vtero. cum electi tot 
+      <lb ed="#V" n="98"/>sint: quot et boni angeli sunt etc. Et haec opinio 
+      pro<lb ed="#V" n="#2" break="no"/>balior est quam illa que dicit homines electos esse 
+      <lb ed="#V" n="100"/>secundum numerum angelorum qui ceciderunt. et eorum 
+      chari<lb ed="#V" n="#2" break="no"/>tas qua deum et nos diligunt et meritum et preminm. 
+      me<lb ed="#V" n="#2" break="no"/>ritum scilicet respectu proximi. inquantum per eam nobis 
+      obse<lb ed="#V" n="#2" break="no"/>quia impendunt. Premium autem respectu dei inquantum 
+      <lb ed="#V" n="104"/>per eam deum consumate diligunt. in beatitudine proficiunt. 
+      <lb ed="#V" n="105"/>quod intetlligendum est de beatitudine quantum ad premium 
+      <lb ed="#V" n="106"/>accidentale non essentiale non latuit angelos misterium 
+      <lb ed="#V" n="107"/>regni caelorum quod opportuno tempore reuelatum est pro salute 
+      <lb ed="#V" n="108"/>nostra quod sic aliqui exponunt scilicet quod non latuit 
+      ange<lb ed="#V" n="#2" break="no"/>los superiores. latuit: tamen inferiores quousque hoc 
+      imple<lb ed="#V" n="#2" break="no"/>ta sunt. Alii sic exponunt scilicet quod substantia facti et 
+      conditio<lb ed="#V" n="#2" break="no"/>nes generales bonos angelos non latuerunt. Sed alique 
+      <lb ed="#V" n="112"/>circustantie particulares angelos inferiores latuerunt quo 
+      <lb ed="#V" n="113"/>usque hoc impleta sunt. angeli in verbo dei omnia sciunt ante 
+      <lb ed="#V" n="114"/>quam fiant: non simpliciter et absolute sed secundum proportionem 
+      <lb ed="#V" n="115"/>vel proportionalitatem ad illam cognitionem qua vident 
+      de<lb ed="#V" n="#2" break="no"/>um. qui clarius deum vident: et plura vident in ipso. Uel 
+      <lb ed="#V" n="117"/>sic quod ly omnia tantum distribuat pro mundi partibus 
+      in<lb ed="#V" n="#2" break="no"/>corruptibilibus simpliciter vt sunt corpora celestia et 
+      substan<lb ed="#V" n="#2" break="no"/>tie spirituales. et pro partibus mundi incorruptibilibus secundum se 
+      to<lb ed="#V" n="#2" break="no"/>tas: corruptibiles tamen secundum partes: vt sunt elemta. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

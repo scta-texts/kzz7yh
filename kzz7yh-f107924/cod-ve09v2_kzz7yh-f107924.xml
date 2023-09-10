@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="151-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f107924"><!-- l2d38cl -->
+            <head xml:id="kzz7yh-f107924-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f107924-d1e103">
+               <lb ed="#V" n="118"/>CIrca litteram Opera diaboli quae 
+      <lb ed="#V" n="119"/>vitia dicuntur 
+      ac<lb ed="#V" n="#2" break="no"/>tus sunt non res. Ad cuius intelligentiam 
+      notan<lb ed="#V" n="#2" break="no"/>ninn uco dntndecen citere ec cnne died 
+      <lb ed="#V" n="122"/>dit omne illud quod cadit in cognitione: et sic dicitur a 
+      <lb ed="#V" n="123"/>reor reris. Alio modo proprie: et sic conuertitur cum ente. 
+      <lb ed="#V" n="124"/>Tertio modo magis proprie: et fic tantum modo dicitur de ente 
+      <lb ed="#V" n="125"/>per se: quod est substantia.
+   </p>
+            <p xml:id="kzz7yh-f107924-d1e123">
+      ¶ Primo modo peccatum potest 
+      <lb ed="#V" n="126"/>dici res ratione deformitatis.
+   </p>
+            <p xml:id="kzz7yh-f107924-d1e128">
+      ¶ Secundo modo non 
+      po<lb ed="#V" n="#2" break="no"/>test dici res ratione deformitatis: sed ratione actus substra 
+      <lb ed="#V" n="128"/>ti.
+   </p>
+            <p xml:id="kzz7yh-f107924-d1e135">
+      ¶ Tertio modo non potest dici res nec ratione actus 
+      <lb ed="#V" n="129"/>substrati: nec tatione deformitatis. Quod natura non est deus 
+      <lb ed="#V" n="130"/>non fecit.
+   </p>
+            <p xml:id="kzz7yh-f107924-d1e143">
+      ¶ Ad cuius intelligentiam sciendum quod natura 
+      <lb ed="#V" n="131"/>tripliciter potest accipi. Uno modo pro qualibet 
+      proprie<lb ed="#V" n="#2" break="no"/>tate: que naturaliter inest. Secundo modo pro omni esse 
+      <lb ed="#V" n="133"/>quod conseruat naturam. Tertio modo pro quolibet ente 
+      quod<lb ed="#V" n="#2" break="no"/>cumque sit illud: et hoc tertio modo accipitur natura in 
+      ver<lb ed="#V" n="#2" break="no"/>bo proposito. Quid mirum si deus non dicitur esse actor 
+      <lb ed="#V" n="136"/>eorum: inquantum nihil sunt. Uidetur enim efficacite 
+      <!--00317.xml-->
+      <pb ed="#V" n="152-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>guerem. Cum enim peccatum aliquo modo habeat 
+      acto<lb ed="#V" n="#2" break="no"/>rem et non secundum quod nihil est: oportet quod habeat secundum quod aliquid 
+      <lb ed="#V" n="3"/>est. Si ergo deum non habet actorem: videtur quod a deo non 
+      <lb ed="#V" n="4"/>sit inquantum actus est. Ad hoc potest responderi quod aliter 
+      <lb ed="#V" n="5"/>deformitas peccati nihil est aliter illud quod nullo 
+      mo<lb ed="#V" n="#2" break="no"/>do est: quia deformitas circa aliquid est: et alicuius boni 
+      <lb ed="#V" n="7"/>priuatio est: et ideo potest habere actorem non efficientem 
+      <lb ed="#V" n="8"/>sed deficientem: quod dici non potest de illo: quod simpliciter 
+      ni<lb ed="#V" n="#2" break="no"/>hil est. Iniquitas ipsa non est substantia. Nota hic quod potest 
+      <lb ed="#V" n="10"/>dici substantia. Uno modo ens per se stans naturaliter: 
+      <lb ed="#V" n="11"/>et sic accipitur proprie. Alio modo accipitur comnissime: et 
+      <lb ed="#V" n="12"/>sic accipitur pro quolibet ente. et hoc modo accipiendo 
+      <lb ed="#V" n="13"/>substantiam dicimus quod illud quod nulla substantia est 
+      ni<lb ed="#V" n="#2" break="no"/>hil est: et vtroque modo verum est quod deformitas iniquita 
+      <lb ed="#V" n="15"/>tis non est substantia. Penarum deus actor est. Contra 
+      nul<lb ed="#V" n="#2" break="no"/>lius rei deus est actor: que non habeat exemplar in deo. 
+      <lb ed="#V" n="17"/>Sed pena in deo exemplar non habet: quia nullius 
+      ma<lb ed="#V" n="#2" break="no"/>li deus exemplar est. Hic respondetur quod pena sub ratio 
+      <lb ed="#V" n="19"/>ne qua ordinata est: in deo exemplar habet: et sub hac 
+      ra<lb ed="#V" n="#2" break="no"/>tione omnis pena a deo est. Pene etiam que non sunt 
+      pe<lb ed="#V" n="#2" break="no"/>na et aliquam positionem dicunt: vt sunt actio rei ledentis: 
+      <lb ed="#V" n="22"/>et passio rei lese in deo habent exemplar et a deo sunt. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

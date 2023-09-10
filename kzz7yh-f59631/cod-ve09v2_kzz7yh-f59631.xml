@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="83-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f59631"><!-- l2d20cl -->
+            <head xml:id="kzz7yh-f59631-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f59631-d1e103">
+               <lb ed="#V" n="18"/>CIrca litteram. Uterentur membris sine aliquo 
+      <lb ed="#V" n="19"/>pruritu carnis. In hoc non intendit 
+      ex<lb ed="#V" n="#2" break="no"/>cludere delectationem ab actu carnalis 
+      copule<lb ed="#V" n="#2" break="no"/>sed delectationis inordinationem: potuerunt in 
+      pa<lb ed="#V" n="#2" break="no"/>radiso eis esse nuptie honorabiles. Sed cum est modo sint 
+      nu<lb ed="#V" n="#2" break="no"/>ptie honorabiles: quare hoc dixerit: Aug. merito quaeritur.
+   </p>
+            <p xml:id="kzz7yh-f59631-d1e119">
+      ¶ R 
+      <lb ed="#V" n="24"/>quod ibi loquitur de nuptiis quantum ad actum carnalis copule 
+      coniu<lb ed="#V" n="#2" break="no"/>gum: et honorabilitatem vocat exclusionem verecundie et 
+      eru<lb ed="#V" n="#2" break="no"/>bescentie quam modo patiuntur coniuges in illo actu: quapropter. nolunt 
+      <lb ed="#V" n="27"/>in illo actu ab aliis conspici. Deus non iusserat. Contra antequam 
+      <lb ed="#V" n="28"/>expellerentur de paradiso dictum fuit eis: vt habetur Gen id est 
+      cresci<lb ed="#V" n="#2" break="no"/>te et multiplicate.
+   </p>
+            <p xml:id="kzz7yh-f59631-d1e135">
+      ¶ Rmens quod illud mandatum datum fuit eis: 
+      <lb ed="#V" n="30"/>non pro semper cum fuerit praeceptum affirmatiuum: sed pro loco et tempore: 
+      <lb ed="#V" n="31"/>quorum determinatio ex reuelatione diuine volutatis 
+      depende<lb ed="#V" n="#2" break="no"/>bat: quae quia deus eis non reuelauerat. Idoeo dictum est: quod non iusserat 
+      <lb ed="#V" n="33"/>vnde in paradiso simul carnaliter non conuenerunt. Sed incertum nobis 
+      <lb ed="#V" n="34"/>relinquitur vtrum simul transferrentur an per successiones: magis tamen 
+      exti<lb ed="#V" n="#2" break="no"/>mandum quod per successiones. Infirmitati mentis congruit hoc 
+      infir<lb ed="#V" n="#2" break="no"/>mitas carnis.
+   </p>
+            <p xml:id="kzz7yh-f59631-d1e153">
+      ¶ Contra infirmitas carnis fuit in christo: non 
+      <lb ed="#V" n="37"/>tamen infirmitas mentis.
+   </p>
+            <p xml:id="kzz7yh-f59631-d1e159">
+      ¶ Respondeo loquitur de infirmitate 
+      concreta<lb ed="#V" n="#2" break="no"/>ex necessitate: teneritudo autem in carne christi non fuit ex 
+      <lb ed="#V" n="39"/>necessitate: sed assumpta ex voluntate: quia perfectum vsum 
+      mem<lb ed="#V" n="#2" break="no"/>brorum a principio natiuitatis habuisset si voluisset. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

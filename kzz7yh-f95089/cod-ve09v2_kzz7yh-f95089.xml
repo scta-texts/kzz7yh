@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="133-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f95089"><!-- l2d32cl -->
+            <head xml:id="kzz7yh-f95089-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f95089-d1e103">
+               <lb ed="#V" n="61"/>CIrca litteram: Manet in 
+      cor<lb ed="#V" n="#2" break="no"/>pore carnis 
+      hu<lb ed="#V" n="#2" break="no"/>ius carnalis concupiscentia scilicet causaliter: 
+      concupiscen<lb ed="#V" n="#2" break="no"/>tia quotidie minuitur in proficiscentibus: quia tamen 
+      <lb ed="#V" n="65"/>remanet radix nunquam de lege communi in ista corruptibili vita 
+      <lb ed="#V" n="66"/>totaliter destruitur: sed iterum pululat: sicut herba corrosa: cuius 
+      <lb ed="#V" n="67"/>radix in terra remanet. Alia peccata non pretereunt actu et 
+      <lb ed="#V" n="68"/>remanent reatu: non propter hoc est intelligendum quin transeum 
+      <!--00280.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="69"/>te actu remaneat aliqua priuatio ex actu causata que aliqumo 
+      <lb ed="#V" n="70"/>modo dici potest peccatum: vt inferius ostendetur: quamuis 
+      feti<lb ed="#V" n="#2" break="no"/>dior et immundior sit caro prolis: et ideo magis corrupta: quam 
+      <lb ed="#V" n="72"/>caro parentis: non ex hoc intelligendum: tamquam ita sit de 
+      neces<lb ed="#V" n="#2" break="no"/>sitate: sed quia interdum ex immunda vita parentum pronior ad 
+      <lb ed="#V" n="74"/>malum redditur natura filiorum: vtrum concupiscentia que post 
+      ba<lb ed="#V" n="#2" break="no"/>ptismum remanet: et tantum est penalitas.
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e142">
+      ¶ Hic queritur vtrum 
+      <lb ed="#V" n="76"/>sit pena inflicta. Et videtur quod non: quia a paruulo contracta 
+      <lb ed="#V" n="77"/>per adam fuit acta: pena aute acta et contracta non est inflicta. 
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e149">
+               <lb ed="#V" n="78"/>¶ Contra Aug. 13. de ciui. cap. 15. dicit mortem non esse ex 
+      <lb ed="#V" n="79"/>lege nature: sed merito inflictam esse peccanti: sed quia ipsa 
+      mor<lb ed="#V" n="#2" break="no"/>talitas ex carnis vitiositate procedit vel ab eadem causa sunt: 
+      <lb ed="#V" n="81"/>ergo vitiositas quam concupiscentiam dicimus pena est 
+      me<lb ed="#V" n="#2" break="no"/>rito inflicta peccanti.
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e162">
+      ¶ Respondeo quod penam esse 
+      infliotan<lb ed="#V" n="#2" break="no"/>dupliciter potest intelligi: aut effecttue aut permissiue. 
+      Pri<lb ed="#V" n="#2" break="no"/>mo modo concupiscentia inquantum inordinata: non est a deo 
+      <lb ed="#V" n="85"/>inflicta: quia nulla inordinatio a deo est: nec a paruulo: quia ab 
+      <lb ed="#V" n="86"/>illo contracta est: nec ab adam: quia per peccatum actuale 
+      <lb ed="#V" n="87"/>ipsius acta est: nec a diabolo: quia et si suadere possit: et 
+      tem<lb ed="#V" n="#2" break="no"/>ptare: nullam tamen inordinationem in anima efficere potest. 
+      <lb ed="#V" n="89"/>Secundo modo a deo inflicta est: propter peccatum enim 
+      <lb ed="#V" n="90"/>primorum parentum deus iuste permittit paruulos per 
+      pro<lb ed="#V" n="#2" break="no"/>pagationem descendentes ab eis in tali deordinatione 
+      na<lb ed="#V" n="#2" break="no"/>sci: non restituendo ipsos ad originalem iustitiam. Est ergo 
+      <lb ed="#V" n="93"/>predicta concupiscentia acta: contracta: inflicta: secundum 
+      re<lb ed="#V" n="#2" break="no"/>spectus diuersos: non ideo immutabilis deus humane 
+      con<lb ed="#V" n="#2" break="no"/>ditionis primariam legem mutare debuit.
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e194">
+      ¶ Hic queritur 
+      <lb ed="#V" n="96"/>vtrum decuit deum animam infundere carni infecte. Et 
+      <lb ed="#V" n="97"/>videtur quod non: quia non est vere innocens qui potest alii 
+      pre<lb ed="#V" n="#2" break="no"/>cauere a culpa nec precauet. Sed deus non infundendo 
+      ani<lb ed="#V" n="#2" break="no"/>mam carni infecte posset sibi precauere a culpa.
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e205">
+      ¶ Item 
+      <lb ed="#V" n="100"/>non decet sapientem rem preciosam ponere in loco immudo. 
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e210">
+               <lb ed="#V" n="101"/>¶ Contrarium sentit Magister in littera.
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e215">
+      ¶ Respondeo quod 
+      <lb ed="#V" n="102"/>decet deum animam corpori infundere non obstante quod sit 
+      in<lb ed="#V" n="#2" break="no"/>fectum: et propter bonum vniuersi: et propter bonum persone: 
+      ni<lb ed="#V" n="#2" break="no"/>si enim deus animas corporibus talibus infunderet 
+      cessa<lb ed="#V" n="#2" break="no"/>ret multiplicatio generis humani: quod est bonum magnum 
+      <lb ed="#V" n="106"/>in vniuerso: personam etiam melius est sic esse quam non esse: vt 
+      <lb ed="#V" n="107"/>in sequenti dist. declarabitur.
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e231">
+      ¶ Ad primum in oppositum 
+      <lb ed="#V" n="108"/>dicendum quod maior argumenti intelligenda est de homine non 
+      <lb ed="#V" n="109"/>de deo: deus enim iuste permittit mala fieri: eo quod sicut 
+      vni<lb ed="#V" n="#2" break="no"/>uersalis rector de malis maiora bona elicit pro vniuerso. 
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e240">
+               <lb ed="#V" n="111"/>¶ Ad secundum dicendum quod illa propositio vera est: 
+      quam<lb ed="#V" n="#2" break="no"/>do habetur vas mundum in quo potest res pretiosa 
+      re<lb ed="#V" n="#2" break="no"/>poni: omnia autem corpora propagata immunda sunt: 
+      <lb ed="#V" n="114"/>que deus sine vitio fecit.
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e252">
+      ¶ Contra fieri terminantur ad 
+      <lb ed="#V" n="115"/>esse: ergo si anima adeo fuit facta sine vitio: aliquando 
+      si<lb ed="#V" n="#2" break="no"/>ne vitio fuit.
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e259">
+      ¶ Respondeo quod pro tanto deus dicitur sine 
+      <lb ed="#V" n="117"/>vitio eam fecisse: quia illud vitium quod in instanti sue 
+      infusio<lb ed="#V" n="#2" break="no"/>nis habet a deo non accepit: sed contraxit a carne: et ex 
+      <lb ed="#V" n="119"/>hoc non sequitur quod in illo instanti sine vitio fuerit. 
+      Ta<lb ed="#V" n="#2" break="no"/>men ante baptismum a corpore descendentes parem 
+      pe<lb ed="#V" n="#2" break="no"/>nam: et post baptismum statim equalem coronam 
+      fortium<lb ed="#V" n="#2" break="no"/>tur.
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e275">
+      ¶ Contra: inequales potentie cum equalibus 
+      adiu<lb ed="#V" n="#2" break="no"/>toriis inequaliter operantur. Fortior ergo intellectus cum 
+      <lb ed="#V" n="124"/>equali habitu glorie illi habitui: quem habet intellectus 
+      <lb ed="#V" n="125"/>debilior: clarius deum videt quam alius intellectus 
+      natu<lb ed="#V" n="#2" break="no"/>raliter debilior.
+   </p>
+            <p xml:id="kzz7yh-f95089-d1e286">
+      ¶ Respondeo quod verbum Magistri 
+      in<lb ed="#V" n="#2" break="no"/>telligendum est de corona: quantum ad habitum non 
+      <lb ed="#V" n="128"/>quantum ad actum. Argumentum autem concludit 
+      in<lb ed="#V" n="#2" break="no"/>equalitatem quantum ad actum. Quod autem dicit 
+      Magi<lb ed="#V" n="#2" break="no"/>ster de equalitate pene expositione non indiget: quia 
+      pe<lb ed="#V" n="#2" break="no"/>na illa est carentia visionis dei: que carentia n paruu 
+      <lb ed="#V" n="132"/>lis ante baptismum descendentibus: non recipit 
+      ma<lb ed="#V" n="#2" break="no"/>gis et minus. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

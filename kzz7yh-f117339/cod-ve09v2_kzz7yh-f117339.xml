@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="164-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f117339"><!-- l2d40cl -->
+            <head xml:id="kzz7yh-f117339-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f117339-d1e103">
+               <lb ed="#V" n="127"/>CIrca litteram. affectus tuus 
+      ope<lb ed="#V" n="#2" break="no"/>ri tuo nomen 
+      impo<lb ed="#V" n="#2" break="no"/>nit. hoc intelligendum est de nomine generali quo dicitur 
+      <lb ed="#V" n="130"/>bonus: vel malus: et ibi debet accipi affectus pro 
+      inten<lb ed="#V" n="#2" break="no"/>tione: et debet verbum referri ad actus quae possint bene et male fieri. 
+      <lb ed="#V" n="132"/>Intentionem fides dirigit.
+   </p>
+            <p xml:id="kzz7yh-f117339-d1e119">
+      ¶ Contra secundum Ber. iI libo de 
+      consi<lb ed="#V" n="#2" break="no"/>deratione ca. 6 prudentia est mater virtutum: et ca. 7. dicit quod 
+      <lb ed="#V" n="134"/>est virtutum medulla: ergo videtur quod prudentia sufficienter 
+      <lb ed="#V" n="135"/>dirigit alias virtutes et ex consequenti nostram intentionem. 
+   </p>
+            <p xml:id="kzz7yh-f117339-d1e128">
+               <lb ed="#V" n="136"/>¶ Respondeo quod intentio nostra non est dirigenda in aliqud 
+      <!--00343.xml-->
+      <pb ed="#V" n="165-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>treatum sicut in vltimum finem et principalem: sed in deum qui 
+      princi<lb ed="#V" n="#2" break="no"/>paliter finis est et vltimus. Et quia prudentia cum sit respectu 
+      <lb ed="#V" n="3"/>obeti creati: et quaecumque alia virtus directiua non habens obiectum 
+      <lb ed="#V" n="4"/>increatum insufficienter ducunt nos iudei cognitionem: non 
+      <lb ed="#V" n="5"/>possunt sufficienter dirigere nostram intentionem: et ideo ad etus 
+      dire<lb ed="#V" n="#2" break="no"/>ctionem necessaria est fides: quae deum habet pro obieto: et pro fine: per 
+      quam<lb ed="#V" n="#2" break="no"/>de deo habemus: ita sufficientem cognitionem pro statu vie: 
+      <lb ed="#V" n="8"/>quod sufficienter potest dirigere nostram intentionem in ipsum per modum 
+      <lb ed="#V" n="9"/>ostendentis: et charitas per modum inclinantis et mouentis. Uer 
+      <lb ed="#V" n="10"/>ba autem Ber. intelligimur de prudentia per comparationem ad 
+      <lb ed="#V" n="11"/>alias tres virtutes cardinales. Quis dicat furemur 
+      diuiti<lb ed="#V" n="#2" break="no"/>bus: vt habeamus quid demus pauperibus.
+   </p>
+            <p xml:id="kzz7yh-f117339-d1e165">
+      ¶ Contra resecare 
+      <lb ed="#V" n="13"/>superflua bonum est.
+   </p>
+            <p xml:id="kzz7yh-f117339-d1e171">
+      ¶ Rmpeno verum est de proprio superfluo non 
+      <lb ed="#V" n="14"/>de alieno nisi fiat per prouidentiam illius cui incumbit cura et 
+      solli<lb ed="#V" n="#2" break="no"/>citudo prouidentie communis boni. Non omnis mala voluntas ex fine 
+      <lb ed="#V" n="16"/>mala est: quia potest habere bonum finem: et tamen mala erit: quia 
+      ma<lb ed="#V" n="#2" break="no"/>la sunt per que tendit in illum finem. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

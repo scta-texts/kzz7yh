@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="112-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f80066"><!-- l2d26cl -->
+            <head xml:id="kzz7yh-f80066-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f80066-d1e103">
+               <lb ed="#V" n="129"/>Circa litteram voluntas est animi motus: 
+      <lb ed="#V" n="130"/>quam enim voluntas possit accipi pro 
+      po<lb ed="#V" n="#2" break="no"/>tentia et pro volito et pro actu volendi: hoc pro actu 
+      <lb ed="#V" n="132"/>volendi accipitur: premittendum est tria esse 
+      <lb ed="#V" n="133"/>genera bonorum. Sciendum quod quamuis sint plura 
+      genera<lb ed="#V" n="#2" break="no"/>bonorum quam tria: tamen hoc non loquitur nisi de tribus generibus: 
+      <lb ed="#V" n="135"/>quia non diuidit bonum generaliter: sed bonum quod ordinatur ad 
+      <lb ed="#V" n="136"/>bene viuendum: ad quod concurrunt membra corporis sicut bona 
+      <!--00238.xml-->
+      <pb ed="#V" n="112-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>minima: virtutes sicut bona magna: et potentie anime 
+      <lb ed="#V" n="2"/>sicut bona media: virtutibus nemo male vtitur: quod est 
+      <lb ed="#V" n="3"/>intelligendum secundum quod virtus comparatur ad potentiam: 
+      <lb ed="#V" n="4"/>vt ipsam dirigens: quia per virtutem nunquam mouetur 
+      po<lb ed="#V" n="#2" break="no"/>tentia ad malum vsum: tamen inquantum comparatur volun 
+      <lb ed="#V" n="6"/>tati vt obiectum voluntas potest male vti virtute ipsam 
+      <lb ed="#V" n="7"/>diligendo principaliter propter aliquod commodum temporale: 
+      <lb ed="#V" n="8"/>vel superbiendo pro illa: bonus vsus eius id est liberi 
+      arbi<lb ed="#V" n="#2" break="no"/>trii iam virtus est: quamuis enim proprie virtus sit habitus: 
+      <lb ed="#V" n="10"/>tamen aliquando accipitur pro vsu virtutis: et sicin 
+      pro<lb ed="#V" n="#2" break="no"/>posito sumitur. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

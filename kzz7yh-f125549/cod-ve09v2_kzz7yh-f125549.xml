@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f125549"><!-- l2d44cl -->
+            <head xml:id="kzz7yh-f125549-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f125549-d1e103">
+               <lb ed="#V" n="90"/>Circa litteram qubau voiuitat 
+      <lb ed="#V" n="91"/>non a deo nobis 
+      <lb ed="#V" n="92"/>est id est actus male voluntatis: inquantum malus 
+      <lb ed="#V" n="93"/>esta deo non est sciendum est apostolum ibi 
+      lo<lb ed="#V" n="#2" break="no"/>qui de seculari potestatem scilicet rege et principe: et huiusmodi quod 
+      <lb ed="#V" n="95"/>bus non est resistendum: quod est intelligendum in his que 
+      <lb ed="#V" n="96"/>spectant ad eorum potestatem de iure: quod patet per litte peo 
+      <lb ed="#V" n="97"/>tam immediate sequentem: postquam enim dictum est: 
+      qui<lb ed="#V" n="#2" break="no"/>bus non est resistendum: statim subiungitur: in his 
+      qui<lb ed="#V" n="#2" break="no"/>bus deus iubet eis exhiberi scilicet in tributis et huiusmodi: 
+      <lb ed="#V" n="100"/>ipsos humanarum rerum gradus auertere scilicet in 
+      obedien<lb ed="#V" n="#2" break="no"/>do.
+   </p>
+            <p xml:id="kzz7yh-f125549-d1e132">
+      ¶ Sed contra hoc arguitur sic: glosa super illud Apoc. 
+      <lb ed="#V" n="102"/>2. et angelo pergami etc. dicit quod non audet arch 
+      episco<lb ed="#V" n="#2" break="no"/>pus super subditos episcopi manum imponere sine eo: 
+      er<lb ed="#V" n="#2" break="no"/>go non semper magis est obediendum superiori.
+   </p>
+            <p xml:id="kzz7yh-f125549-d1e141">
+      ¶ 
+      Re<lb ed="#V" n="#2" break="no"/>spondeo archiepiscopus: quamuis sit episcopo superior: non 
+      <lb ed="#V" n="106"/>tamen super episcopum: nec super eius subditos habet 
+      ple<lb ed="#V" n="#2" break="no"/>nariam potestatem. Et ideo subditi episcopi magis 
+      tenen<lb ed="#V" n="#2" break="no"/>tur obedire episcopo: quam archiepiscopo: nisi in aliquibus 
+      <lb ed="#V" n="109"/>casibus: sed prelato superiori qui super subditos habet 
+      <lb ed="#V" n="110"/>plenitudinem potestatis cuiusmodi est Papa semper 
+      ma<lb ed="#V" n="#2" break="no"/>gis obediendum est quam prelatio inferiori. Et quia deus 
+      su<lb ed="#V" n="#2" break="no"/>per omnes habet potestatis plenitudinem. Ideo sibi 
+      prin<lb ed="#V" n="#2" break="no"/>cipalissime obediendum est: et perseueranter: quia sicut 
+      scri<lb ed="#V" n="#2" break="no"/>bitur Matth. 10. Qui perseuerauerit vsque in finem: hic 
+      <lb ed="#V" n="115"/>saluus erit. Ad quam salutem per obedientie 
+      perseueran<lb ed="#V" n="#2" break="no"/>tiam: nos perducere dignetur et spiritualiter me dominus 
+      <lb ed="#V" n="117"/>noster Iesus Cchristus qui cum patre et spiritu sancto viuit et 
+      <lb ed="#V" n="118"/>regnat deus per omnia secula seculorum. Amen. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

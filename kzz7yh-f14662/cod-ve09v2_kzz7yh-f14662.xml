@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="20-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f14662"><!-- l2d3cl -->
+            <head xml:id="kzz7yh-f14662-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f14662-d1e103">
+               <lb ed="#V" n="115"/>CIrca litteram. Et quatuor ange 
+      <lb ed="#V" n="116"/>lis videntur esse 
+      at<lb ed="#V" n="#2" break="no"/>tributa: et quamuis enumeret sex. Tamen tria illorum 
+      <lb ed="#V" n="118"/>pertinent ad vnum: quia memoria: intelligentia et 
+      vo<lb ed="#V" n="#2" break="no"/>lluntas: sunt partes vmaginis. Differentem 
+      essen<lb ed="#V" n="#2" break="no"/>tie tenuitatem: quia quamuis in nullo angelo sit quantitas 
+      mo<lb ed="#V" n="#2" break="no"/>bilis: tamen vnus angelus est alio simplicior: quia in vno 
+      for<lb ed="#V" n="#2" break="no"/>tius vnum vel perfectius constituunt materia et forma quam in alio. 
+      <lb ed="#V" n="123"/>Et secundum illos qui ponunt realem differentiam inter essentiam et 
+      <lb ed="#V" n="124"/>esse minus differunt in vno angelo quam in alio. Et similiter 
+      poten<lb ed="#V" n="#2" break="no"/>tia et essentia: et actus et potentia. Et minus est de 
+      possibili<lb ed="#V" n="#2" break="no"/>tate in vno quam in alio: et illi qui sunt possibiles: et in quibus 
+      <lb ed="#V" n="127"/>ea que prenominata sunt: magis tendunt ad vnitatem sunt 
+      <lb ed="#V" n="128"/>simpliciores: qui natura magis subtiles et sapientia. 
+      Am<lb ed="#V" n="#2" break="no"/>plius perspicaces creati sunt. Hi etiam maioribus muneri 
+      <lb ed="#V" n="130"/>bus gratiae prediti sunt. Non quia debetur de necessitate secundum 
+      natu<lb ed="#V" n="#2" break="no"/>re exigentiam: sed quia inter angelos qui steterunt: illi qui 
+      <lb ed="#V" n="132"/>nobiliora naturalia acceperant: efficacius se disposuerunt 
+      <lb ed="#V" n="133"/>libera voluntate deo fortius adherendo: in ipsa facultate 
+      arbi<lb ed="#V" n="#2" break="no"/>tri: differentia animaduertenda est: hoc inferius exponetur. cum 
+      <lb ed="#V" n="135"/>queritur de liberi arbitrii ab exordio quo facta est: et perfecta est 
+      <lb ed="#V" n="136"/>et beata est semper. Hec dicitur de angelica natura stante. Sed ibi 
+      <lb ed="#V" n="137"/>deceir 
+      <!--00055.xml-->
+      <pb ed="#V" n="21-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>accipitur beatitudo pro priuatione omnis mali: que 
+      beati<lb ed="#V" n="#2" break="no"/>tudo fuit in omnibus angelis: ante auersionem illorum qui sunt 
+      <lb ed="#V" n="3"/>auersi: non potuit creator optimus auctor mali esse 
+      loquem<lb ed="#V" n="#2" break="no"/>do scilicet de malo culpe: quia potest esse auctor mali pene: sed non 
+      <lb ed="#V" n="5"/>decebat quod in angelis precederet culpa. Sapientia fructus 
+      <lb ed="#V" n="6"/>est pietatis: non accipiuntur hoc sapientia et pietas secundum quod 
+      nu<lb ed="#V" n="#2" break="no"/>merantur inter septem dona: quia sapientia donum est nobilius 
+      pie<lb ed="#V" n="#2" break="no"/>tate. Sed accipitur hic pietas pro bono merito: ratione cuius 
+      <lb ed="#V" n="9"/>datur aliquando futurorum aliquorum supernaturalis praecognitio: que 
+      <lb ed="#V" n="10"/>hic vocatur sapientia. Erat in eis naturalis cognitio triplex: quam 
+      <lb ed="#V" n="11"/>sciebant quod facti erant: et hoc sciebant per essentiam suam. Quia 
+      <lb ed="#V" n="12"/>per eam se ipsos perfecte cognoscebant. Loquendo de 
+      perfe<lb ed="#V" n="#2" break="no"/>cta cognitione naturali. Et a quo facti erant: hoc cognoscebant 
+      <lb ed="#V" n="14"/>per cognitionem sue proprie essentie: cognoscendo in effectu 
+      <lb ed="#V" n="15"/>causam. vel per aliquam similitudinem expressam non 
+      perfe<lb ed="#V" n="#2" break="no"/>cte representantem factorem. Et cum quo facti erant: hoc 
+      cogno<lb ed="#V" n="#2" break="no"/>scebant per concreatam similitudinem. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

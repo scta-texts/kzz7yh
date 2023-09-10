@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="68-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f48992"><!-- l2d17prae -->
+            <head xml:id="kzz7yh-f48992-Hd1e101">Praeambulum</head>
+            <p xml:id="kzz7yh-f48992-d1e103">
+               <lb ed="#V" n="125"/>¶ De creatione anime vtrum de aliquo facta sit 
+      <lb ed="#V" n="126"/>vel non: et quando facta: et quam gratiam 
+      ha<lb ed="#V" n="#2" break="no"/>buerit in creatione. Dist. XVIII 
+      <lb ed="#V" n="128"/>c de origine anime 
+      <lb ed="#V" n="129"/>plura 
+      <lb ed="#V" n="130"/>queri solent: scilicet vnde creata 
+      fue<lb ed="#V" n="#2" break="no"/>rit: et quando: et quam gratiam 
+      ha<lb ed="#V" n="#2" break="no"/>buerit in creatione. Sicut hominis 
+      <lb ed="#V" n="133"/>formatio secundum corpus describitur cum dicitur: 
+      <!--00150.xml-->
+      <pb ed="#V" n="68-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>Formauit deus hominem de limo terre: ita 
+      eius<lb ed="#V" n="#2" break="no"/>dem secundum animam factura describitur cum 
+      sub<lb ed="#V" n="#2" break="no"/>ditur et inspirauit in faciem eius spiraculum 
+      vi<lb ed="#V" n="#2" break="no"/>te. Corpus enim de limo terre formauit deus 
+      <lb ed="#V" n="5"/>cui animam inspirauit. Uel secundum aliam litteram 
+      <lb ed="#V" n="6"/>flauit vel sufflauit: non quod faucibus sufflauerit 
+      <lb ed="#V" n="7"/>vel manibus corporeis corpus formauerit. 
+      Spi<lb ed="#V" n="#2" break="no"/>ritus enim deus est: nec lineamentis 
+      membro<lb ed="#V" n="#2" break="no"/>rum compositus. Non ergo carnaliter putemus 
+      <lb ed="#V" n="10"/>deum corporeis manibus formasse corpus vel 
+      <lb ed="#V" n="11"/>faucibus inspirasse animam: sed potius 
+      homi<lb ed="#V" n="#2" break="no"/>nem de limo terre secundum corpus formauit 
+      iuben<lb ed="#V" n="#2" break="no"/>do: volendo: idest voluit et verbo suo iussit: vt ita 
+      <lb ed="#V" n="14"/>fieret: et inspirauit in faciem eius spiraculum 
+      vi<lb ed="#V" n="#2" break="no"/>te: idest substantiam anime in qua viueret: 
+      crea<lb ed="#V" n="#2" break="no"/>uit: non de materia aliqua corporali vel 
+      spiri<lb ed="#V" n="#2" break="no"/>tuali: sed de nihilo. 
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e168">
+               <lb ed="#V" n="18"/>¶ Opinio quorundam hereticorum qui 
+      putaue<lb ed="#V" n="#2" break="no"/>runt animam esse de substantia dei. 
+      <lb ed="#V" n="20"/>Putauerunt enim quidam 
+      he<lb ed="#V" n="#2" break="no"/>retici 
+      de<lb ed="#V" n="#2" break="no"/>um de sua substantia animam creasse verbis 
+      scri<lb ed="#V" n="#2" break="no"/>pture pertinaciter inherentes: quibus dicitur 
+      <lb ed="#V" n="24"/>inspirauit vel insufflauit etc. Cum flat inquiunt 
+      <lb ed="#V" n="25"/>vel spirat homo de se flatum emittit. Sic ergo 
+      <lb ed="#V" n="26"/>cum dicitur deus flasse vel spirasse spiraculum 
+      <lb ed="#V" n="27"/>in faciem hominis: ex se spiritum hominis 
+      emi<lb ed="#V" n="#2" break="no"/>sisse intelligitur: idest de sua substantia. Qui hoc 
+      <lb ed="#V" n="29"/>dicunt non capiunt tropica locutione dictum 
+      <lb ed="#V" n="30"/>esse sufflauit vel flauit: idest flatum hominis scilicet 
+      <lb ed="#V" n="31"/>animam fecit. Flare enim est flatum facere: 
+      fla<lb ed="#V" n="#2" break="no"/>tum facere est animam facere. Unde dominus 
+      <lb ed="#V" n="33"/>per Esaiam. Omnem flatum ego feci. Non sunt 
+      <lb ed="#V" n="34"/>ergo audiendi qui putant animam esse partem 
+      <lb ed="#V" n="35"/>dei. Si enim hoc esset: nec a se nec ab alio 
+      deci<lb ed="#V" n="#2" break="no"/>pi posset: nec ad malum faciendum vel 
+      patien<lb ed="#V" n="#2" break="no"/>dum compelli: nec in melius vel deterius 
+      mu<lb ed="#V" n="#2" break="no"/>tari. Flatus ergo quo hominem animauit 
+      fa<lb ed="#V" n="#2" break="no"/>ctus est a deo: non de deo nec de aliqua 
+      ma<lb ed="#V" n="#2" break="no"/>teria: sed de nihilo. 
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e220">
+               <lb ed="#V" n="41"/>¶ Hic quando facta sit animam: an ante corpus 
+      <lb ed="#V" n="42"/>an in corpore. 
+      <lb ed="#V" n="43"/>Sed vtrum in corpore vel extra 
+      cor<lb ed="#V" n="#2" break="no"/>pus etiam inter 
+      do<lb ed="#V" n="#2" break="no"/>ctos scrupulosa questio est. Augu. enim super 
+      <lb ed="#V" n="46"/>Gen. tradit animam cum angelis sine corpore 
+      <lb ed="#V" n="47"/>fuisse creatam postea vero ad corpus accessisse: 
+      <lb ed="#V" n="48"/>neque compulsa est incorporari: sed naturaliter 
+      <lb ed="#V" n="49"/>illud voluit: idest sic creata fuit vt vellet: sicut 
+      <lb ed="#V" n="50"/>naturale nobis est velle viuere. Male autem 
+      <lb ed="#V" n="51"/>velle viuere: non nature sed voluntatis est 
+      per<lb ed="#V" n="#2" break="no"/>uerse. Alii vero dicunt animam primi 
+      homi<lb ed="#V" n="#2" break="no"/>nis in corpore fuisse creatam: ita exponentes 
+      ver<lb ed="#V" n="#2" break="no"/>ba illa. Inspirauit in faciem eius spiraculum 
+      <lb ed="#V" n="55"/>vite: idest animam in corpore creauit que totum 
+      <lb ed="#V" n="56"/>corpus animaret: faciem tamen specialiter ex¬ 
+      <!--00150.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>pressit: quia hec pars sensibus ornata est ad 
+      in<lb ed="#V" n="#2" break="no"/>tuenda superiora. Sed quicquid de anima 
+      pri<lb ed="#V" n="#2" break="no"/>mi hominis estimetur de aliis certissime 
+      senti<lb ed="#V" n="#2" break="no"/>endum est quod in corpore creentur. Creando eniam 
+      <lb ed="#V" n="61"/>infundit eas deus: et infundendo creat. 
+      Dicen<lb ed="#V" n="#2" break="no"/>dum est etiam animam illam non sic esse creatam 
+      <lb ed="#V" n="63"/>vt prescia esset operis futuri iusti vel iniusti. 
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e277">
+               <lb ed="#V" n="64"/>¶ In qua etate deus hominem fecerit. 
+      <lb ed="#V" n="65"/>Solet etiam queri vtrum deus 
+      ho<lb ed="#V" n="#2" break="no"/>minem repente in 
+      vi<lb ed="#V" n="#2" break="no"/>rili etate fecerit an proficiendo et etates 
+      augen<lb ed="#V" n="#2" break="no"/>do: sicut nunc format in matris vtero: Augu. 
+      <lb ed="#V" n="69"/>super Gen. dicit Quod Adam in virili etate 
+      con<lb ed="#V" n="#2" break="no"/>tinuo factus est: et hoc secundum superiores non 
+      infe<lb ed="#V" n="#2" break="no"/>riores causas: idest secundum voluntatem et potentiam 
+      <lb ed="#V" n="72"/>dei: quam nature generibus non alligauit: qua 
+      <lb ed="#V" n="73"/>liter et virga Moysi conuersa est in draconem: 
+      <lb ed="#V" n="74"/>nec talia contra naturam fiunt: nisi nobis 
+      qui<lb ed="#V" n="#2" break="no"/>bus aliter nature cursus innotuit: deo autem 
+      <lb ed="#V" n="76"/>natura est quod facit. Non ergo contra 
+      dispositio<lb ed="#V" n="#2" break="no"/>nem suam illud fecit deus. Erat enim prima 
+      <lb ed="#V" n="78"/>creaturarum conditione sic hominem posse 
+      fie<lb ed="#V" n="#2" break="no"/>ri: sed non sibi erat necesse vt sic fieret: hoc enim 
+      <lb ed="#V" n="80"/>non erat in conditione creature: sed in 
+      benepla<lb ed="#V" n="#2" break="no"/>cito creatoris: cuius voluntas necessitas est. Hoc 
+      <lb ed="#V" n="82"/>enim necessario futurum est quod vult et prescit. 
+      <lb ed="#V" n="83"/>Multa vero secundum inferiores causas futura sunt: 
+      <lb ed="#V" n="84"/>sed in prescientia dei futura non sunt. Si 
+      au<lb ed="#V" n="#2" break="no"/>tem ibi aliter futura sunt: potius futura sunt: 
+      <lb ed="#V" n="86"/>sicut ibi sunt vbi prescit ille qui non potest falli. 
+      <lb ed="#V" n="87"/>Sic ergo factus est Adam non secundum inferiores 
+      <lb ed="#V" n="88"/>causas: quia non erat in rerum causis 
+      semina<lb ed="#V" n="#2" break="no"/>libus: vt ita fieret: sed secundum superiores non contra 
+      <lb ed="#V" n="90"/>naturam operantes: quia in rerum causis 
+      natu<lb ed="#V" n="#2" break="no"/>ralibus erat: vt ita posset fieri. 
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e341">
+               <lb ed="#V" n="92"/>¶ Quod homo extra paradisum creatus in paradiso 
+      <lb ed="#V" n="93"/>sit positus: et quare ita factum sit. 
+      <lb ed="#V" n="94"/>Hominem autem ita forma 
+      <lb ed="#V" n="95"/>tum tulit 
+      <lb ed="#V" n="96"/>deus: vt scriptura docet: et posuit in paradiso 
+      vo<lb ed="#V" n="#2" break="no"/>luptatis quem plantauerat a principio. His 
+      ver<lb ed="#V" n="#2" break="no"/>bis aperte Moyses insinuat quod homo extra 
+      pa<lb ed="#V" n="#2" break="no"/>radisum creatus postmodum in paradiso sit 
+      po<lb ed="#V" n="#2" break="no"/>situs. Quod ideo factum dicitur: quia non erat in 
+      <lb ed="#V" n="101"/>eo permansurus: vel vt non nature: sed gratie 
+      <lb ed="#V" n="102"/>hoc assignaretur. Intelligitur autem 
+      paradi<lb ed="#V" n="#2" break="no"/>sus localis et corporalis in quo homo locatus 
+      <lb ed="#V" n="104"/>est. Tres enim generales de paradiso sententie 
+      <lb ed="#V" n="105"/>sunt. Una eorum qui corporaliter intelligi volunt 
+      <lb ed="#V" n="106"/>tantum. Alia eorum qui spiritualiter tantum. 
+      Ter<lb ed="#V" n="#2" break="no"/>tia eorum qui vtroque modo paradisum accipiunt 
+      <lb ed="#V" n="108"/>Tertiam mihi placere fateor vt homo in 
+      cor<lb ed="#V" n="#2" break="no"/>porali paradiso sit positus: qui ab illo principio 
+      <lb ed="#V" n="110"/>plantatus accipi potest: quo terram omnem 
+      re<lb ed="#V" n="#2" break="no"/>motis aquis herbas et ligna producere iussit. 
+      <lb ed="#V" n="112"/>Qui et si presentis ecclesie vel future typum te¬ 
+      <!--00151.xml-->
+      <pb ed="#V" n="69-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>net: ad litteram tamen intelligendum est esse 
+      lo<lb ed="#V" n="#2" break="no"/>cum amenissimum fructuosis arboribus 
+      ma<lb ed="#V" n="#2" break="no"/>gnum: et magno fonte fecundum: quod dicimus a 
+      <lb ed="#V" n="4"/>principio: antiqua translatio dicit ad orientem 
+      <lb ed="#V" n="5"/>Unde volunt in orientali parte esse paradisum 
+      <lb ed="#V" n="6"/>longo interiacente spatio vel maris vel terre 
+      re<lb ed="#V" n="#2" break="no"/>gionibus quas incolunt homines secretum: et 
+      <lb ed="#V" n="8"/>in alto situm vsque ad lunarem circulum 
+      pertingen<lb ed="#V" n="#2" break="no"/>tem. Unde nec aque diluuii illuc peruenerunt. 
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e415">
+               <lb ed="#V" n="10"/>¶ De lignis paradisi inter que erat lignum 
+      vi<lb ed="#V" n="#2" break="no"/>te et lignum scientie boni et mali. 
+      <lb ed="#V" n="12"/>In hoc autem paradiso erant 
+      li<lb ed="#V" n="#2" break="no"/>gna diuersi 
+      ge<lb ed="#V" n="#2" break="no"/>neris inter que vnum erat quod vocatum est lignum 
+      <lb ed="#V" n="15"/>vite: alterum vero lignum scientie boni et mali 
+      <lb ed="#V" n="16"/>Lignum autem vite dictum est sicut docet De 
+      <lb ed="#V" n="17"/>da et Strabus: quia diuinitus accepit hanc vim: 
+      <lb ed="#V" n="18"/>vt qui ex eius fructu comederet: corpus eius 
+      sta<lb ed="#V" n="#2" break="no"/>bili sanitate et perpetua soliditate firmaretur: 
+      <lb ed="#V" n="20"/>nec vlla infirmitate: vel etatis imbecillitate in 
+      <lb ed="#V" n="21"/>deterius: vel in occasum laberetur. Lignum 
+      au<lb ed="#V" n="#2" break="no"/>tem scientie boni et mali: non a natura hoc 
+      no<lb ed="#V" n="#2" break="no"/>men accepit: sed ab occasione rei postea secute 
+      <lb ed="#V" n="24"/>Arbor enim illa non erat mala: sed scientie 
+      bo<lb ed="#V" n="#2" break="no"/>ni et mali: ideo dicta est: quia post prohibitionem 
+      <lb ed="#V" n="26"/>erat in illa transgressio futura: qua homo 
+      expe<lb ed="#V" n="#2" break="no"/>riendo disceret qui esset inter obedientie bonum 
+      <lb ed="#V" n="28"/>et inobedientie malum. Non ergo de fructu qui 
+      <lb ed="#V" n="29"/>nosceretur inde positum est illud nomen: sed de 
+      <lb ed="#V" n="30"/>retransgressioue secuta. Cognouit enim 
+      homo<lb ed="#V" n="#2" break="no"/>priusquam tangeret hoc lignum bonum et malum: 
+      <lb ed="#V" n="32"/>sed bonum per prudentiam et experientiam: 
+      ma<lb ed="#V" n="#2" break="no"/>lum vero per prudentiam tantum. Quod etiam 
+      <lb ed="#V" n="34"/>per experientiam nouit vsurpato ligno vetito: 
+      <lb ed="#V" n="35"/>quia per experientiam mali didicit quid sit 
+      inter<lb ed="#V" n="#2" break="no"/>bonum obedientie et malum inobedientie. 
+      Si<lb ed="#V" n="#2" break="no"/>vero primi parentes obedientes essent nec 
+      con<lb ed="#V" n="#2" break="no"/>tra preceptum peccassent: non ideo tamen 
+      mi<lb ed="#V" n="#2" break="no"/>nus diceretur lignum scientie boni et mali: quia 
+      <lb ed="#V" n="40"/>hoc ex eius tactu accideret si vsurparetur. 
+      Ali<lb ed="#V" n="#2" break="no"/>gno ergo homo prohibitus est: quod malum non 
+      <lb ed="#V" n="42"/>erat: vt ipsa precepti conseruatio bonum illi 
+      es<lb ed="#V" n="#2" break="no"/>set: transgressio malum. Nec melius 
+      considera<lb ed="#V" n="#2" break="no"/>tur quantum malum sit inobedientia quam hoc 
+      mo<lb ed="#V" n="#2" break="no"/>do: cum scilicet ideo reus factus esse homo intelligitur 
+      <lb ed="#V" n="46"/>quia prohibitus rem tetigit: quam si non 
+      prohi<lb ed="#V" n="#2" break="no"/>bitus tetigisset: nec peccasset nec penam 
+      sensis<lb ed="#V" n="#2" break="no"/>set. Si enim venenosam herbam prohibitus 
+      te<lb ed="#V" n="#2" break="no"/>tigeris: pena sequitur: et si nemo prohibuisset: 
+      si<lb ed="#V" n="#2" break="no"/>militer prosequeretur. Si etiam prohibetur res 
+      <lb ed="#V" n="51"/>tangi que non tangenti tantum: sed 
+      prohiben<lb ed="#V" n="#2" break="no"/>ti obest: sicut aliena pecunia: ideo prohibitum 
+      <lb ed="#V" n="53"/>est peccatum: quia prohibenti est damnosum. 
+      <lb ed="#V" n="54"/>Cum vero tangitur: quod nec tangenti obest: si non 
+      <lb ed="#V" n="55"/>prohibetur: nec cuilibet si tangatur: ideo 
+      prohi<lb ed="#V" n="#2" break="no"/>betur vt per se bonum obedientie et malum in 
+      <!--00151.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>obedientie monstretur. Sicut primus homo a 
+      <lb ed="#V" n="58"/>re bona prohibitus penam incurrit: vt non ex 
+      <lb ed="#V" n="59"/>re mala: sed ex inobedientia pena esse monstretur 
+      <lb ed="#V" n="60"/>sicut ex obedientia palma. Dis. XVIII 
+      <lb ed="#V" n="61"/>ec de origine anime etc. 
+      Supe<lb ed="#V" n="#2" break="no"/>rius determinauit 
+      <lb ed="#V" n="63"/>magister de productione hominis in communi.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e539">
+      ¶ 
+      In<lb ed="#V" n="#2" break="no"/>hac parte determinat de productione viri specialiter 
+      <lb ed="#V" n="65"/>et diuiditur in partes tres.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e546">
+      ¶ Primo determi 
+      <lb ed="#V" n="66"/>nat de viro quantum ad anime naturam.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e551">
+      ¶ Secundo 
+      quan<lb ed="#V" n="#2" break="no"/>tum ad corporis staturam. ibi Solet etiam.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e556">
+      ¶ Tertio de 
+      lo<lb ed="#V" n="#2" break="no"/>co habitationis sue: quamdiu seruauit innocentiam. ibi. 
+      Ho<lb ed="#V" n="#2" break="no"/>minem autem.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e564">
+      ¶ Prima in duas.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e566">
+      ¶ Primo ostendit 
+      <lb ed="#V" n="70"/>vnde anima fuerit producta.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e571">
+      ¶ Secundo vbi scilicet vtrum in 
+      <lb ed="#V" n="71"/>corpore vel extra. ibi. Sed vtrum in corpore.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e576">
+      ¶ Tunc 
+      <lb ed="#V" n="72"/>sequitur illa pars que ibi incipit. hominem autem. Et 
+      <lb ed="#V" n="73"/>diuiditur in partes duas.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e583">
+      ¶ In prima determinat de 
+      ter<lb ed="#V" n="#2" break="no"/>restri paradiso.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e588">
+      ¶ In secunda de conditione lignorum 
+      existen<lb ed="#V" n="#2" break="no"/>tium in eo. ibi. In hoc autem paradiso. 
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e594">
+               <lb ed="#V" n="76"/>CIrca hanc dist. queruntur de duobus 
+      <lb ed="#V" n="77"/>principaliter.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e601">
+      ¶ Primo 
+      <lb ed="#V" n="78"/>de anima Ade.
+   </p>
+            <p xml:id="kzz7yh-f48992-d1e606">
+      ¶ Secundo de eius corpore. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

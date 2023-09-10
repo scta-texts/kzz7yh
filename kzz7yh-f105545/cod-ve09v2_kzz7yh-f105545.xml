@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="148-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f105545"><!-- l2d36cl -->
+            <head xml:id="kzz7yh-f105545-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f105545-d1e103">
+               <lb ed="#V" n="29"/>CIrca litteram. peccatum est causa 
+      pec<lb ed="#V" n="#2" break="no"/>cati id est dispotio inclinans 
+      <lb ed="#V" n="31"/>ad aliud peccatum tam ratione auersionis quam ratione 
+      con<lb ed="#V" n="#2" break="no"/>uersionis. Sed ratione auersionis inquantum per 
+      ip<lb ed="#V" n="#2" break="no"/>sam remouetur: vel diminuitur diuinum auxilium prohibens 
+      <lb ed="#V" n="34"/>peccatum disponit: vel inclinat peccantem ad quodlibet aliud 
+      <lb ed="#V" n="35"/>peccatum: quia in illa remotione: vel diminutione prohibentis 
+      con<lb ed="#V" n="#2" break="no"/>municant omnia peccata secundum plus et minus. Raitione autem 
+      conuer<lb ed="#V" n="#2" break="no"/>sionis secundum quam distinguuntur peccata non quodlibet inclinat 
+      <lb ed="#V" n="38"/>ad quodlibet: sed peccatum vnius generis: disponit ad peccatum 
+      <lb ed="#V" n="39"/>eiusdem generis: vt superbia ad superbiam: gula ad gulam: vel 
+      <lb ed="#V" n="40"/>proximi generis: vt superbia ad inuidiam: gula ad luxuriam: 
+      <lb ed="#V" n="41"/>per peccatum illico: vt peccat homo fit in homine illa corruptio: 
+      quam<lb ed="#V" n="#2" break="no"/>tamen sit deo auctore: quod non est intelligendum secundum id quod est: 
+      <lb ed="#V" n="43"/>sed ratione ordinis ad demeritum: seu causam corruptionis illius. 
+      <lb ed="#V" n="44"/>peccatum quod poenitentia non diluitur: mox suo pondere ad aliud 
+      <lb ed="#V" n="45"/>trahit scilicet vehementer inclinando non cogendo: ipsa eadem que 
+      <lb ed="#V" n="46"/>peccata sunt essentialiter: vt ita dicam esse penas id est punitiones: 
+      <lb ed="#V" n="47"/>praecedentium peccatorum que iuste sunt et a deo: nec tamen 
+      in<lb ed="#V" n="#2" break="no"/>quantum peccata sunt a deo sunt. Hic notandum quod cum peccatum ratione 
+      <lb ed="#V" n="49"/>sue deformitatis non dicat aliquam essentiam. Quia sicut dicit 
+      <lb ed="#V" n="50"/>Auic. lib. 8. meta. ca. 6. malitia non habet essentiam: sed est vel 
+      pri<lb ed="#V" n="#2" break="no"/>uatio substantie: vel priuatio vtilitatis dispositionis substantie: 
+      <lb ed="#V" n="52"/>quod in praedicta littera accipiendum est essentialiter non secundum quod dicitur 
+      ab<lb ed="#V" n="#2" break="no"/>essentia: sed secundum quod dicitur a priuatione quae est ipsi peccato loco essentie. 
+   </p>
+            <p xml:id="kzz7yh-f105545-d1e160">
+               <lb ed="#V" n="54"/>¶ Notandum etiam quod ipsa deformitas peccati sub alia ratione est 
+      <lb ed="#V" n="55"/>culpa: et sub alia est pena: vnde sub vna ratione est a deo: hoc est ratio 
+      <lb ed="#V" n="56"/>ne ipsius ordinis ad demeritum. sed sub ratione qua culpa est: a 
+      <lb ed="#V" n="57"/>deo non est. Sunt necessitate facta improbanda. Hoc 
+      intelli<lb ed="#V" n="#2" break="no"/>gitur de peccatis venialibus in communi: et quomodo hoc habeat veritatem 
+      <lb ed="#V" n="59"/>inferius declarabitur. Execramus eorum blasphemiam qui dicunt 
+      <lb ed="#V" n="60"/>impossibile aliquid homini a deo praeceptum.
+   </p>
+            <p xml:id="kzz7yh-f105545-d1e178">
+      ¶ Contra homini quantuncumque sit 
+      <lb ed="#V" n="61"/>in actu peccati praeceptum est non peccare: et tamen quando est in actu 
+      pec<lb ed="#V" n="#2" break="no"/>causadi non potest non peccare: quia sicut dicit philosophus in li. Periher. 
+      <lb ed="#V" n="63"/>omne quod est quando est necesse est esse.
+   </p>
+            <p xml:id="kzz7yh-f105545-d1e187">
+      ¶ Respondeo textus littere 
+      intelligi<lb ed="#V" n="#2" break="no"/>tur de impossibiti per se: non de impossibili per accidens. Adduntur quoque 
+      <lb ed="#V" n="65"/>quosdam non tantum essentia: sed etiam genere bonos esse: vt reficere 
+      <lb ed="#V" n="66"/>esurientem qui est actus de genere operum misicordie. Hic notandum quod 
+      <lb ed="#V" n="67"/>actuum: Quidam habent solam bonitatem efficientis: vt leuare 
+      festu<lb ed="#V" n="#2" break="no"/>causa: Quidam bonitatem misericordie moralis: vt reficere pau¬ 
+      <!--00310.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="69"/>perem: Quidam bonitatem circumstantie informantis: vt 
+      da<lb ed="#V" n="#2" break="no"/>re elemosynam ex compassione et liberalitate: Quidam habent 
+      <lb ed="#V" n="71"/>bonitatem finis et vere forme: vt dare eiemosynam propter 
+      <lb ed="#V" n="72"/>deum et ex charitate. Et quomodo hec in speciali 
+      intelli<lb ed="#V" n="#2" break="no"/>genda sint propono inferius declarare. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

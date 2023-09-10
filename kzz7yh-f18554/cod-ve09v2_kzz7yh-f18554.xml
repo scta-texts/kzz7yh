@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="26-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f18554"><!-- l2d5cl -->
+            <head xml:id="kzz7yh-f18554-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f18554-d1e103">
+               <lb ed="#V" n="45"/>CIrca litteram auerti est odio 
+      ha<lb ed="#V" n="#2" break="no"/>dere.
+   </p>
+            <p xml:id="kzz7yh-f18554-d1e110">
+      ¶ Contra 
+      <lb ed="#V" n="47"/>quicquid oditur sub ratione mali oditur deus 
+      <lb ed="#V" n="48"/>autem summum bonum est.
+   </p>
+            <p xml:id="kzz7yh-f18554-d1e117">
+      ¶ Respondeo quod quamuis 
+      <lb ed="#V" n="49"/>deus non possit odiri per se potest tamen odiri per accidens 
+      in<lb ed="#V" n="#2" break="no"/>quantum scilicet redarguit peccatores: quod eis non placet. Unde 
+      <lb ed="#V" n="51"/>Aug. x. confes. quasi in medio: dicit de malis: quod amant 
+      veri<lb ed="#V" n="#2" break="no"/>tatem lucentem: oderunt redarguentem: non indigebant gratia 
+      <lb ed="#V" n="53"/>per quam iustificarentur. hoc expositum est. 4. q. huius dist. 
+      In<lb ed="#V" n="#2" break="no"/>solutione primi argumenti: et ita premium precessit meritum: et 
+      <lb ed="#V" n="55"/>hoc mihi placere fateor: aliis tamen magis communiter placet contrium: 
+      <lb ed="#V" n="56"/>vnde in hoc non tenetur magister communiter. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

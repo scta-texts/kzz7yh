@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="137-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f97651"><!-- l2d33cl -->
+            <head xml:id="kzz7yh-f97651-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f97651-d1e103">
+               <lb ed="#V" n="113"/>CIrca litteram Et sacrilegium: quia 
+      <lb ed="#V" n="114"/>deo non credidit 
+      <lb ed="#V" n="115"/>Nota hic quod hec genera peccatorum non accipium 
+      <lb ed="#V" n="116"/>tur hoc proprie: sed similitudinarie. Non enim 
+      <lb ed="#V" n="117"/>fuit ibi furtum: autem sacrilegium: aut homicidium proprie 
+      <lb ed="#V" n="118"/>Sed aliquid his simile quantum ad aliquas illius 
+      pec<lb ed="#V" n="#2" break="no"/>cati circustantias. Mitissima sane pena erit eorum.
+   </p>
+            <p xml:id="kzz7yh-f97651-d1e121">
+      ¶ Con 
+      <lb ed="#V" n="120"/>tra Glo. super illud Deutero 32 Abscondam faciem mea 
+      <lb ed="#V" n="121"/>ab eis: dicit quod nihil grauius quam visione dei priuari.
+   </p>
+            <p xml:id="kzz7yh-f97651-d1e128">
+      ¶ 
+      Re<lb ed="#V" n="#2" break="no"/>spondeo quod hec grauitas intelligenda est quantum ad 
+      <lb ed="#V" n="123"/>penam damni non sensus nisi quo ad illos qui eam per 
+      <lb ed="#V" n="124"/>peccata actualia perdiderunt in loco scilicet paradisi. 
+      <lb ed="#V" n="125"/>In habitum scilicet immortalitatis et sine pronitate. 
+      Di<lb ed="#V" n="#2" break="no"/>cimus eos per penitentiam veniam consecutos. Sed 
+      <lb ed="#V" n="127"/>nunquid sicut per penitentiam potuerunt reparare 
+      per<lb ed="#V" n="#2" break="no"/>sonam: potuerunt etiam reparare naturam. Uidetur quod 
+      <lb ed="#V" n="129"/>sic. quia si peccando potuit totam inficere: quia omnes 
+      <lb ed="#V" n="130"/>propagandi ab ipso seminaliter erant in ipso peccante. 
+      <lb ed="#V" n="131"/>Uidetur etiam quod per penitentiam omnes reparare 
+      po<lb ed="#V" n="#2" break="no"/>tuit qui adhuc seminaliter erant in ipso penitente: cum 
+      <!--00288.xml-->
+      <pb ed="#V" n="137-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>pronior sit deus ad miserendum quam ad condemnandum. 
+   </p>
+            <p xml:id="kzz7yh-f97651-d1e163">
+               <lb ed="#V" n="2"/>¶ Respondeo quod Adam penitendo non potuit 
+      natu<lb ed="#V" n="#2" break="no"/>ram humanam reparare: per penitentiam enim reddit 
+      <lb ed="#V" n="4"/>deus homini gratiam gratum facientem: que ordinatur 
+      <lb ed="#V" n="5"/>ad perfectionem proprie persone ipsius penitentis: non 
+      <lb ed="#V" n="6"/>gratiam gratis datam que erat ad perfectionem totius 
+      <lb ed="#V" n="7"/>nature: qualis est iustitia originalis. Penitentia enim 
+      ac<lb ed="#V" n="#2" break="no"/>tus est persone: non nature: nisi inquantum natura est in 
+      <lb ed="#V" n="9"/>persona. Potopatheis vocant id est primas passiones a protos 
+      <lb ed="#V" n="10"/>quod est primum et pathos quod est passio. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

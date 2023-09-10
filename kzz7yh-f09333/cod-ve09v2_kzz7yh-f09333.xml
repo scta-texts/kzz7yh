@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-10">September 10, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-10" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="13-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-f09333"><!-- l2d2cl -->
+            <head xml:id="kzz7yh-f09333-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-f09333-d1e103">
+               <lb ed="#V" n="55"/>Circa litteram. Deus fuit 
+      domi<lb ed="#V" n="#2" break="no"/>nus antequam 
+      es<lb ed="#V" n="#2" break="no"/>set tempus. hoc intelligendum est de tempore 
+      pro<lb ed="#V" n="#2" break="no"/>prie dicto: si intelligatur de prioritate 
+      duratio<lb ed="#V" n="#2" break="no"/>ns Quia tamen instans ordine nature precessit tempus 
+         <lb ed="#V" n="60"/>commumiter dictum non tamen duratione: ideo botestur 
+      di<lb ed="#V" n="#2" break="no"/>ci quam deus fuit dominus instantis antequam esset tempbus: 
+         <lb ed="#V" n="62"/>loquendo de prioritate secundum naturam: non secundum 
+      duratio<lb ed="#V" n="#2" break="no"/>nem. Sanctis angelis est repletum non repletione 
+      occupa<lb ed="#V" n="#2" break="no"/>tionis: Sed quia omnes angeli ibi creati fuerunt. Sicut 
+         <lb ed="#V" n="65"/>ciuitas dicitur repieri hominibus quando habitatores 
+         <lb ed="#V" n="66"/>eius in sufficienti et apto numero sunt. TEum me laudam 
+         <lb ed="#V" n="67"/>rent astra matutina. idest angeli boni qui spiritualiter 
+         <lb ed="#V" n="68"/>liaudant deum. 
+      </p>
+            <p xml:id="kzz7yh-f09333-d1e136">
+         <!--00040.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#V" n="69"/>¶ Quales facti fuerint angeli: et quod quattuor eis 
+         <lb ed="#V" n="70"/>attributa sunt in ipso initio sue conditionis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>
