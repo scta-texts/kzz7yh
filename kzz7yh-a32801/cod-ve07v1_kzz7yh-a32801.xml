@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="48-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a32801"><!-- l1d14cl -->
+            <head xml:id="kzz7yh-a32801-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a32801-d1e103">
+               <lb ed="#V" n="23"/>CIrca litteram Spiritus sanctus non 
+      <lb ed="#V" n="24"/>de patre procedit in 
+      fi<lb ed="#V" n="25" break="no"/>sium non scilicet sicut in susceptibile subientum. (Ad 
+      sanctifican<lb ed="#V" n="26" break="no"/>dam creaturam scilicet de non sancta faciendo 
+      san<lb ed="#V" n="27" break="no"/>ctam: vel in sancta confirmando sanctitatem suam: 
+      <lb ed="#V" n="28"/>vel in creatura sanctitatem augendo: vel sanctitatem 
+      mani<lb ed="#V" n="29" break="no"/>festando. (Ipse est virtus que de ipso exibat.) Nota quod 
+      vir<lb ed="#V" n="30" break="no"/>tus appropriatur patri inquantum virtus est vltimum 
+      <lb ed="#V" n="31"/>potentie: quia patri appropriatur potentia filio prout 
+      in<lb ed="#V" n="32" break="no"/>telligitur quasi media inter substantiam et operationem: quia 
+      <lb ed="#V" n="33"/>filius secundum rationem intelligendi est in trinitate persona 
+      me<lb ed="#V" n="34" break="no"/>dia: sed appropriatur spiritui sancto inquantum est principium 
+      <lb ed="#V" n="35"/>boni operis: quia spiritui sancto appropriatur bonitas cum 
+      <lb ed="#V" n="36"/>affluentia. (Spiritus sanctus qui deus est: est trina in 
+      tri<lb ed="#V" n="37" break="no"/>nitate persona.) Hoc debet intelligi secundum ordinem originis: 
+      <lb ed="#V" n="38"/>quia pater est a nullo: filius a patre. spiritus sanctus a 
+      pa<lb ed="#V" n="39" break="no"/>tre et a filio. Non ergo debet intelligi secundum ordinem 
+      natu<lb ed="#V" n="40" break="no"/>re vel temporis vel dignitatis. (Non mutabilis est 
+      spiri<lb ed="#V" n="41" break="no"/>tus sanctus.) Contra sapientie. 7. dicitur de spiritu 
+      sapien<lb ed="#V" n="42" break="no"/>tie quod est mobilis.
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="61-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a41235"><!-- l1d17cl -->
+            <head xml:id="kzz7yh-a41235-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a41235-d1e103">
+               <lb ed="#V" n="8"/>Circa litteram. (Nnotiorem potes habere deum 
+      <lb ed="#V" n="9"/>quam fratrem.) quod si intelligatur per naturam 
+      <lb ed="#V" n="10"/>debet exponi quo ad conditiones generales. verbi gratia. 
+      <lb ed="#V" n="11"/>Certior possum esse quod deus est bonus: quam tu sis 
+      <lb ed="#V" n="12"/>ille qui tu es. quia primu scio per necessariam 
+      demo<lb ed="#V" n="13" break="no"/>strationem: te aut cognosco per speciem sensibilem: in qua potest 
+      <lb ed="#V" n="14"/>esse deceptio. Quandoque enim per speciem sensibilem estimat 
+      <lb ed="#V" n="15"/>homo illud esse quod non est. (Nullum est isto dono dei 
+      excel<lb ed="#V" n="16" break="no"/>lentius.)
+   </p>
+            <p xml:id="kzz7yh-a41235-d1e125">
+      ¶ Contra: quia sapientia est primum et nobilissimum 
+      <lb ed="#V" n="17"/>donorum. Unde inter dona primo numeratur. Isaie. xi.
+   </p>
+            <p xml:id="kzz7yh-a41235-d1e130">
+      ¶ 
+      Re<lb ed="#V" n="18" break="no"/>spondeo inter illa septem dona enumerata Isa. xi. Sapientia 
+      <lb ed="#V" n="19"/>donum excellentius est. extendendo tamen nome doni ad omnes 
+      ha<lb ed="#V" n="20" break="no"/>bitus infusos. Charitas nobilius donum est quam sapientia. 
+      <lb ed="#V" n="21"/>Principalis enim valor sapientie est ex charitate. (Cum 
+      <lb ed="#V" n="22"/>vbique sit et in omni creatura totus.)
+   </p>
+            <p xml:id="kzz7yh-a41235-d1e143">
+      ¶ Contra ergo est in 
+      demo<lb ed="#V" n="23" break="no"/>nibus.
+   </p>
+            <p xml:id="kzz7yh-a41235-d1e149">
+      ¶ Respondeo demon non solum nominat creaturam: 
+      <lb ed="#V" n="24"/>sed cum hoc etiam nominat initium creature secundum communem 
+      vsum<lb ed="#V" n="25" break="no"/>loquendi. Ideo non est concedendum quod spiritus sanctus sit in 
+      de<lb ed="#V" n="26" break="no"/>monibus sine determinatione. dicendo sic quod est in 
+      demo<lb ed="#V" n="27" break="no"/>nibus per essentiam inquantum creatura dei sunt: non 
+      inquan<lb ed="#V" n="28" break="no"/>tum per peccata sunt deformati. (Spiritus qui est in te 
+      du<lb ed="#V" n="29" break="no"/>plu sit in me.) Et nota quod Heliseus hoc petiit non ex 
+      in<lb ed="#V" n="30" break="no"/>ordinato appetitu proprie excellentie: sed pro vtilitate 
+      eccle<lb ed="#V" n="31" break="no"/>sie et necessitate periculosi temporis imminentis. Nec petiuit 
+      <lb ed="#V" n="32"/>excellentius habere spiritum sanctum quam magister suus 
+      habe<lb ed="#V" n="33" break="no"/>bat: sed duplex officium spiritus sancti quod erat in Helya scilicet 
+      <lb ed="#V" n="34"/>ad prophetiam et operationem miraculorum petiit sibi dari. 
+      <lb ed="#V" n="35"/>(Christo qui est dei filius non ad mensuram datus est 
+      spiri<lb ed="#V" n="36" break="no"/>tus sanctus.)
+   </p>
+            <p xml:id="kzz7yh-a41235-d1e180">
+      ¶ Contra charitas christi inquantum est 
+      ho<lb ed="#V" n="37" break="no"/>mo finita est. ergo mensurata.
+   </p>
+            <p xml:id="kzz7yh-a41235-d1e185">
+      ¶ Respondeo charitas 
+      chri<lb ed="#V" n="38" break="no"/>sti mensurata est in se et absolute: sed sine mensura in 
+      com<lb ed="#V" n="39" break="no"/>parationem ad hominum aliorum charitatem. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

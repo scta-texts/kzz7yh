@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="112-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a77062"><!-- l1d36cl -->
+            <head xml:id="kzz7yh-a77062-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a77062-d1e103">
+               <lb ed="#V" n="31"/>CIrca litteram. (Et non omnima que sunt in eius 
+      <lb ed="#V" n="32"/>praesentia: vel in eius cognitionis in eius 
+      <lb ed="#V" n="33"/>essentia esse dici debent:: quia quanuis essentia et 
+      sci<lb ed="#V" n="34" break="no"/>eutia idem secundum rem significent in deo: disserunt tamen 
+      <lb ed="#V" n="35"/>secundum rationem: quia scientia importat respectum rationis ad 
+      <lb ed="#V" n="36"/>scibile ratione cuius aliqua possunt dici esse in dei scientia que 
+      <lb ed="#V" n="37"/>non sunt in eius essentia. Omnia enim dicuntur esse in dei 
+      <lb ed="#V" n="38"/>scientia: que ab ipso sciuntur. (Sed quis nisi insanus 
+      dice<lb ed="#V" n="39" break="no"/>ret mala esse in deo) quia non est concedendum aliqua esse in deo 
+      <lb ed="#V" n="40"/>nisi deus sit causa illorum: vel nisi sint in deo per modum rei 
+      <lb ed="#V" n="41"/>intrinsece. Mala autem nec sunt in deo per modum rei 
+      in<lb ed="#V" n="42" break="no"/>trinsece: nec eorum inquantum mala sunt: deus est causa nec 
+      ef<lb ed="#V" n="43" break="no"/>ficiens nec exemplaris: nec finalis: et ideo quamuis concedatur 
+      <lb ed="#V" n="44"/>quod mala sint in dei cognitione inquantum ab eo cognita: non 
+      <lb ed="#V" n="45"/>tamen concedi debet mala in deo esse. Omnia autem que in deo 
+      <lb ed="#V" n="46"/>sunt: sunt in eius cognitione: sed non conuertitur. (Eandem 
+      <lb ed="#V" n="47"/>vim etc). Uerum est quantum ad rem: quam significant 
+      <lb ed="#V" n="48"/>ex ipso dicit principium primum per ipsum principium 
+      suffi<lb ed="#V" n="49" break="no"/>cientissimum: in ipso dicit principium infinitissimum: et hec 
+      <lb ed="#V" n="50"/>in deo vnde sunt: et secundum hoc loqutur Ambro. Sed si loqua 
+      <lb ed="#V" n="51"/>mur quantum ad ordinem quem connotant propositiones secundum 
+      diuer<lb ed="#V" n="52" break="no"/>sas habitudines sic sunt appropriata tribus personis: ex ipso 
+      <lb ed="#V" n="53"/>dicit rationem principii primi: vnde primi appropriatur per ipsum dicit 
+      <lb ed="#V" n="54"/>rationem medii: vnde filio appropriatur per ipsum dicit ratio 
+      <lb ed="#V" n="55"/>nem vltimi: ideo spiritui sancto appropriatur. (In ipso 
+      <lb ed="#V" n="56"/>viuimus mouemur et sumus scilicet sicut in causa efficienter 
+      <lb ed="#V" n="57"/>et conseruante et exemplari et finali: et quia divina immensitas 
+      om<lb ed="#V" n="58" break="no"/>nem creaturam intra se concludit loquendo per quandam 
+      <lb ed="#V" n="59"/>similitudinem: sicut circunferentia: centrum: secundum quam trans 
+      <lb ed="#V" n="60"/>lationem loquitur Alanus. 7. propositione de maximis theolui: quod 
+      <lb ed="#V" n="61"/>dicit quod deus est sphera intelligibilis: cuius centrum vbique 
+      <lb ed="#V" n="62"/>circumferentia nusquam: per centrum intelligens creaturam: et per circu 
+      <lb ed="#V" n="63"/>ferentia divinam immensitatem: sic exponit super eandem propositionem. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

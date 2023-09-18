@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="86-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a58801"><!-- l1d27prae -->
+            <p xml:id="kzz7yh-a58801-d1e101">
+               <lb ed="#V" n="65"/>¶ An easdem proprietates assignent Augustinus et 
+      <lb ed="#V" n="66"/>Hylarius: et an iste sint que dicuntur paternitas 
+      <lb ed="#V" n="67"/>et filiatio et processio. Di. XXVII 
+      <!--00185.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="68"/>HIc queri potestu: vtrum propene 
+      <lb ed="#V" n="69"/>tates quas 
+      Hyla<lb ed="#V" n="70" break="no"/>rius supra assignauit scilicet quod pater semper est 
+      <lb ed="#V" n="71"/>pater: et filius semper est filius: sint ille eedem 
+      proprie<lb ed="#V" n="72" break="no"/>tates quas Aug. superius distinxit dicens proprium 
+      <lb ed="#V" n="73"/>esse patris quod genuit filium: et proprium filii quod genitus 
+      <lb ed="#V" n="74"/>est a patre: et spiritus sancti quod ab vtroque procedit: ac 
+      de<lb ed="#V" n="75" break="no"/>inde: vtrum et iste sint ille quae dicuntur paternitas 
+      <lb ed="#V" n="76"/>filiatio: processio: Uidetur quod non sint eedem 
+      pro<lb ed="#V" n="77" break="no"/>prietates quas ponit Hylarius: et ille quas 
+      po<lb ed="#V" n="78" break="no"/>nit Aug. Si enim eedem sunt idem est ergo 
+      patri<lb ed="#V" n="79" break="no"/>esse patrem: et genuisse filium: quod vtique quidam 
+      conce<lb ed="#V" n="80" break="no"/>dunt. Si aut hoc est: cui ergo conuenit vt sit pater: ei 
+      <lb ed="#V" n="81"/>conuenit genuisse filium. Natura ergo diuina 
+      si<lb ed="#V" n="82" break="no"/>pater est genuit filium. Si vero non genuit: 
+      pater<lb ed="#V" n="83" break="no"/>non est. Sed quis audeat dicere: aut quod ipa genuit 
+      <lb ed="#V" n="84"/>filium: aut quod ipsa pater non sit. Si autem ipsa pater en 
+      <lb ed="#V" n="85"/>nec filium genuit: non est ergo idem dicere 
+      ali<lb ed="#V" n="86" break="no"/>quid esse patrem: et gignere filium. Et ita non 
+      vi<lb ed="#V" n="87" break="no"/>detur vna eademque esse proprietas. 
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e158">
+               <lb ed="#V" n="88"/>¶ Responsio vbi ostendit easdem esse proprietates: 
+      <lb ed="#V" n="89"/>Ad quod sine preiudicio aliorum 
+      di<lb ed="#V" n="90" break="no"/>cimus: quod easdem proprietates 
+      <lb ed="#V" n="91"/>notauit vterque: licet diuersis verbis. Quod enim 
+      <lb ed="#V" n="92"/>Hylarius ait ita intelligi debet. Proprium patris 
+      <lb ed="#V" n="93"/>est quod semper pater est id est proprietas patris est qua 
+      sem<lb ed="#V" n="94" break="no"/>per pater est. Semper vero pater est: quia semper genuit 
+      <lb ed="#V" n="95"/>filium. Ita et proprium filii est quod semper filius est id est 
+      <lb ed="#V" n="96"/>proprietas filii est qua semper filius est. Filius 
+      <lb ed="#V" n="97"/>vero semper est: quia semper genitus est. Ergo 
+      proprie<lb ed="#V" n="98" break="no"/>tas qua pater pater est. est quia semper genuit. Et hec 
+      <lb ed="#V" n="99"/>eadem dicitur paternitas vel generatio. Et proprietas 
+      <lb ed="#V" n="100"/>qua filius semper est filius: quia semper genitus est a 
+      <lb ed="#V" n="101"/>patre: et hec eadem dicitur filiatio vel genitura: vel 
+      <lb ed="#V" n="102"/>natiuitas: vel origo: vel nascibilitas. Sic et 
+      proprie<lb ed="#V" n="103" break="no"/>tas qua spiritus sanctus est: spiritus sanctus vel donum: 
+      <lb ed="#V" n="104"/>est: quia procedit ab vtroque: et hec eadem dicitur 
+      pro<lb ed="#V" n="105" break="no"/>cessio. In premissis ergo locutionibus eedem 
+      <lb ed="#V" n="106"/>significate sunt proprietates. 
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e202">
+               <lb ed="#V" n="107"/>¶ Quomdo non est omnio idem dicere esse patrem et 
+      genu<lb ed="#V" n="108" break="no"/>isse vel habere filium: ita et de aliis. 
+      <lb ed="#V" n="109"/>Nec tamen viletur nobis omnio esse 
+      <lb ed="#V" n="110"/>idem dicere aliquid esse 
+      <lb ed="#V" n="111"/>patrem et genuisse filium: vel aliquid esse filium: et 
+      ha<lb ed="#V" n="112" break="no"/>bere patrem: vel esse spritumscntum et procedere ab vtroque: 
+      <lb ed="#V" n="113"/>alioqun pater non esset nomen hypostasis id est persone: 
+      <lb ed="#V" n="114"/>sed proprietatis tantum: simliter filius et spiritus sanctus. Et 
+      <lb ed="#V" n="115"/>ita non per tria nomina significarentur tres persone. 
+      <lb ed="#V" n="116"/>Ideoque dicimus: quia patris nomen non tantum 
+      rela<lb ed="#V" n="117" break="no"/>tionem notat: sed est hypostasim id est subiesistentiam 
+      <lb ed="#V" n="118"/>significat: ita et filius et spiritus sanctus. Relationum 
+      <lb ed="#V" n="119"/>vero vocabula scilicet paternitas: filiatio: processio: vel 
+      <lb ed="#V" n="120"/>gignere: vel gigni: procedere: ipsas tantum relationes: 
+      <lb ed="#V" n="121"/>non hypostases significant: siue hebere filium: et 
+      ha<lb ed="#V" n="122" break="no"/>bere patrem: vt verbi gratia. Cum dicimus deus ian 
+      <lb ed="#V" n="123"/>pater: nomine patris et relationem notamus: et diui¬ 
+      <!--00186.xml-->
+      <pb ed="#V" n="86-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>nam hypostasim significamus: vt sit intelligentia 
+      <lb ed="#V" n="2"/>talis. Deus vel diuina essentia est pater id est ille quod 
+      <lb ed="#V" n="3"/>genuit id est hypostasis que habet filium. Similiter deus 
+      <lb ed="#V" n="4"/>est filius id est hypostasis genita vel habens patrem. 
+      <lb ed="#V" n="5"/>Ita est deus est spiritus sanctus id est hypostasis 
+      proce<lb ed="#V" n="6" break="no"/>dens ab vtroque: siue ille qui procedit. Cum vero 
+      <lb ed="#V" n="7"/>nomina relationum ponimus in praedicatis: notiones ipsas 
+      <lb ed="#V" n="8"/>significamus: non hypostases: vt cum dicimus 
+      <lb ed="#V" n="9"/>deus genuit id est habet filium: et deus genitus est id est hebet 
+      <lb ed="#V" n="10"/>patrem. Et tunc oportet intelligi in subiectis hypostases 
+      <lb ed="#V" n="11"/>tantum: non essentiam quae illis proprietatibus determinantur. 
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e272">
+               <lb ed="#V" n="12"/>¶ Quod proprietates determinant hypostases: non 
+      <lb ed="#V" n="13"/>substantiam: idest naturam. 
+      <lb ed="#V" n="14"/>Ille enim propetates singule 
+      singu<lb ed="#V" n="15" break="no"/>lis praepsie conueniunt personis 
+      <lb ed="#V" n="16"/>et per eas persone determinantur et a se inuicem 
+      diffe<lb ed="#V" n="17" break="no"/>runt: sed a se non secedunt. Unde Ioannes 
+      Da<lb ed="#V" n="18" break="no"/>ma. Non differunt ab inuicem hypostases secundum 
+      <lb ed="#V" n="19"/>substantiam: sed secundum characteristica idiomata id est 
+      deter<lb ed="#V" n="20" break="no"/>minatiuas praoprietates. Characteristica vero id est 
+      <lb ed="#V" n="21"/>determinatiua sunt hypostaseon et non nature: 
+      <lb ed="#V" n="22"/>etenim hypostases determinant. Item esse quidem 
+      <lb ed="#V" n="23"/>intemporaliter et eternaliter dicimus diuina verbi 
+      <lb ed="#V" n="24"/>hypostasim simplicem omnia habentem quae habet pater: vt 
+      <lb ed="#V" n="25"/>eius homousion id est consubstantialem: natiuitatis 
+      <lb ed="#V" n="26"/>modo et habitudine a paternali hypostasius 
+      diffe<lb ed="#V" n="27" break="no"/>rentem: nunquam vero a patrnali hypostasi secedentem. 
+      <lb ed="#V" n="28"/>Idem apertius exprimens personales proprietates in 
+      <lb ed="#V" n="29"/>eodem ait. Differentiam hypostaseon id est personarum: 
+      <lb ed="#V" n="30"/>in tribus proprietatibus id est patrnali et filiali et 
+      proces<lb ed="#V" n="31" break="no"/>sibili recognoscimus. Incessibiles autipsas 
+      hy<lb ed="#V" n="32" break="no"/>postases et indistabiles inuicem: et vnitas quidem 
+      <lb ed="#V" n="33"/>inconfusibiliter. Tres enim sunt et si vnite. diuisas 
+      <lb ed="#V" n="34"/>autem indistanter. Et enim singula perfecta est 
+      hy<lb ed="#V" n="35" break="no"/>postasis: et propstam proprietatem scilicet existentie modum 
+      <lb ed="#V" n="36"/>proprium posfidet: sed vnite sunt substantia: et non 
+      <lb ed="#V" n="37"/>distant neque secedunt a patrnali hypostasi. Ecce hic 
+      <lb ed="#V" n="38"/>habes distinctas tres illas proprietates: que 
+      su<lb ed="#V" n="39" break="no"/>pra diuersis significate sunt modis. 
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e335">
+               <lb ed="#V" n="40"/>¶ Quod sunt alia nomina personarum easdem proprietates 
+      no<lb ed="#V" n="41" break="no"/>tantia scilicet genitus: genitor: verbum: imago. 
+      <lb ed="#V" n="42"/>Hic non est praetermittendum: quod sicut pater 
+      <lb ed="#V" n="43"/>et filius et spiritus sanctus nomina 
+      <lb ed="#V" n="44"/>personarum sunt: et propretates personales designant: 
+      <lb ed="#V" n="45"/>ita est sunt et alia nomina personarum id est que ipsas 
+      perso<lb ed="#V" n="46" break="no"/>nas significant et earum propretates denotant: et 
+      eas<lb ed="#V" n="47" break="no"/>dem quas et nomina praedicta. Unde et relatiue dicun 
+      <lb ed="#V" n="48"/>tur scilicet genitor: genitus: verbum: imago. Unde Augustinus 
+      <lb ed="#V" n="49"/>in. v. libro de triate ait. Uidendum est inquit hoc 
+      signi<lb ed="#V" n="50" break="no"/>ficari cum dicitur genitus: quod significatur cum dicitur 
+      <lb ed="#V" n="51"/>filius. Ideo enim filius: quia genitus et quia filius vtique 
+      <lb ed="#V" n="52"/>genitus. Sicut autem filius ad patrem: sic genitus 
+      <lb ed="#V" n="53"/>ad genitorem refertur: et sicut pater ad filium: ita 
+      <lb ed="#V" n="54"/>genitor ad genitum. Idem in. vi. lib. de trinitate 
+      <lb ed="#V" n="55"/>Uerbum quidem solus filius accipitur: non simul 
+      <lb ed="#V" n="56"/>pater et filius tamquam ambo sint vnum verbum. Sic 
+      <!--00186.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>enim verbum dicitur quomodo imago: non autem pater et filius 
+      <lb ed="#V" n="58"/>simul ambo imago: sed filius solus est imago 
+      pa<lb ed="#V" n="59" break="no"/>tris: quemadmodum et filius. Idem in. vii. libro de 
+      <lb ed="#V" n="60"/>tri. Uerbum secundum quod sapientia est et essentia: hoc est 
+      <lb ed="#V" n="61"/>quod pater: secundum quod verbum: non hoc est quod pater: quia 
+      <lb ed="#V" n="62"/>verbum non est pater: et verbum relatiue dicitur: 
+      <lb ed="#V" n="63"/>sicut filius. Item in eodem. Sicut filius ad 
+      pa<lb ed="#V" n="64" break="no"/>trem refertur: ita et verbum ad eum cuius est verbum 
+      <lb ed="#V" n="65"/>refertur: cum dicitur verbum. Et propterca non eo 
+      ver<lb ed="#V" n="66" break="no"/>bum quo sapientia dicitur: quia verbum non ad se dicitur: 
+      <lb ed="#V" n="67"/>sed tantum relatiue dicitur ad eum cuius est verbum sicut 
+      <lb ed="#V" n="68"/>filius ad patrem. Eo quppe est filius quo verbum et eo 
+      <lb ed="#V" n="69"/>est verbum quod filius. Sapientia vero quod essentia: et ideo 
+      <lb ed="#V" n="70"/>quia pater et filius sunt vna essentia et vna sapientia. 
+      <lb ed="#V" n="71"/>Item in eodem. Non est pater ipse verbum: sicut 
+      <lb ed="#V" n="72"/>nec filius nec imago. Quid autem absurdius quam 
+      <lb ed="#V" n="73"/>imaginem ad se dici: Idem in v. Dicitur 
+      rela<lb ed="#V" n="74" break="no"/>tiue filius: relatiue etiam dicitur verbum et 
+      ima<lb ed="#V" n="75" break="no"/>go: et in omnibus his vocabulis ad patrem 
+      re<lb ed="#V" n="76" break="no"/>fertur. Nihil autem horum pater dicitur. 
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e423">
+               <lb ed="#V" n="77"/>¶ PGreuiter sumam colligit intelligentiam praedictorum. 
+      <lb ed="#V" n="78"/>Apte ostensum est quod sicut filius vel 
+      <lb ed="#V" n="79"/>genitus relatiue dicitur 
+      <lb ed="#V" n="80"/>ad patrem: ita verbum et imago. Et quod eo dicitur 
+      ver<lb ed="#V" n="81" break="no"/>bum siue imago: quo filius: id est eadem proprietate siue 
+      <lb ed="#V" n="82"/>notione dicitur verbum et imago qua filius: sed non eo 
+      <lb ed="#V" n="83"/>quo verbum dicitur sapientiam vel essentia: quia non notione 
+      <lb ed="#V" n="84"/>qua dicitur verbum dicitur fapientia. Nam 
+      sapi<lb ed="#V" n="85" break="no"/>entia dicitur secundum essentiam non secundum relationem. 
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e445">
+               <lb ed="#V" n="86"/>¶ Generalis regula eorum que ad se: et eorum que 
+      <lb ed="#V" n="87"/>relatiue dicuntur: quicquid enim ad se simul auibo 
+      di<lb ed="#V" n="88" break="no"/>cuntur: sed non ita in predictis relatiuis. 
+      <lb ed="#V" n="89"/>Eet est hic aduertenda quaedam gencralis 
+      re<lb ed="#V" n="90" break="no"/>gula eorum que ad se: et eorum que 
+      relati<lb ed="#V" n="91" break="no"/>ue dicuntur de patreet filio. Quicquid enim ad se 
+      dicun<lb ed="#V" n="92" break="no"/>tur: vt ait Augustinus ienm vi. libro de tri. non dicitur alter sine 
+      <lb ed="#V" n="93"/>altero id est quicquid dicuntur quod substantia eorum ostendat: 
+      am<lb ed="#V" n="94" break="no"/>bo simul dicuntur. Ergo nec pater est deus sine 
+      <lb ed="#V" n="95"/>filio. nec filius sine patre: sed ambo simul deus 
+      <lb ed="#V" n="96"/>sed non ambo simul pater: non ambo simul 
+      fi<lb ed="#V" n="97" break="no"/>lius: vel verbum vel imago. 
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e474">
+               <lb ed="#V" n="98"/>¶ An secundum substantiam dicatur deus de deo ethuiusmodi. 
+      <lb ed="#V" n="99"/>hic queritur cum dicitur deus 
+      <lb ed="#V" n="100"/>de deo: lumen de 
+      <lb ed="#V" n="101"/>lumine: et huiusmodi: vtrum dicantur secundum substantiam. 
+      <lb ed="#V" n="102"/>Nam secundum relationem constat ista non dici. Si vero 
+      <lb ed="#V" n="103"/>secundum substantiam dicuntur simul ambo scilicet pater et filius: 
+      <lb ed="#V" n="104"/>possunt dici deus de deo: lumen de lumine secundum 
+      <lb ed="#V" n="105"/>predictam regulam. Ad quod dicimus: quia licet deus 
+      <lb ed="#V" n="106"/>secundum substantiam dicatur et lumen: et sapientia: et 
+      hu<lb ed="#V" n="107" break="no"/>iusmodi: et nunquam relatiue accipiantur: aliquando 
+      <lb ed="#V" n="108"/>tamen pro relatiuis id est pro personis: sed non relatiue 
+      <lb ed="#V" n="109"/>accipiuntur: vt cum dicitur deus genuit deum: alterum 
+      <lb ed="#V" n="110"/>pro patre: alterum pro filio ponimus: similiter cum 
+      <lb ed="#V" n="111"/>dicitur: deus de deo: lumen de lumine. In aliis 
+      <lb ed="#V" n="112"/>quoque locutionibus sepe reperiuntur nomina essen¬ 
+      <!--00187.xml-->
+      <pb ed="#V" n="87-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>tie ad significationem personarum deducta: vt et 
+      <lb ed="#V" n="2"/>cum dicitur: deus natus: deus mortuus: deus 
+      <lb ed="#V" n="3"/>passus: vbi filius tantum significatur. Ita et de solo et 
+      <lb ed="#V" n="4"/>filio intelligitur cum dicitur deus de deo et 
+      hu<lb ed="#V" n="5" break="no"/>iusmodi. Unde Aug. querens quomodo huiusmodi 
+      <lb ed="#V" n="6"/>dicantur in. vii. libro de tri. ait. Quomodo deus de deo: 
+      lu<lb ed="#V" n="7" break="no"/>men de lumine dicitur: Non enim simul 
+      ambo<lb ed="#V" n="8" break="no"/>deus de deo: sed solus filius de deo scilicet patre. 
+      <lb ed="#V" n="9"/>Nec ambo simul lumen de lumine: sed solus 
+      <lb ed="#V" n="10"/>filius de lumine patre. 
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e537">
+               <lb ed="#V" n="11"/>¶ Quod tantum secundum nomen substantiae dicitur illud de illo: non 
+      <lb ed="#V" n="12"/>secundum nomina personarum. 
+      <lb ed="#V" n="13"/>et est sciendum quod eunum 
+      nomina<lb ed="#V" n="14" break="no"/>subiecntie tantum dicitur 
+      <lb ed="#V" n="15"/>illud de illo: licet ibi illa nomina substantiam non 
+      signi<lb ed="#V" n="16" break="no"/>ficent. Secundum vero eadem nomina personarum 
+      <lb ed="#V" n="17"/>nunquam dicitur illud de illo: sicut verbum de 
+      ver<lb ed="#V" n="18" break="no"/>bo: vel filius de filio: quia huiusmodi nomina 
+      di<lb ed="#V" n="19" break="no"/>uersis personis conuenire non possunt. Quod 
+      Au<lb ed="#V" n="20" break="no"/>gu. licet obscure: in eodem liro ita dicit. Hoc solum 
+      <lb ed="#V" n="21"/>de eis dici non potest: illud de illo quod simul 
+      <lb ed="#V" n="22"/>ambo non sunt id est illo solo nomine non possumus 
+      <lb ed="#V" n="23"/>vti ad ostendendum vnum de vno: quod simul 
+      am<lb ed="#V" n="24" break="no"/>bobus non conuenit. Sicut verbum de verbo 
+      di<lb ed="#V" n="25" break="no"/>ci non potest: quia non simul ambo verbum: nec 
+      <lb ed="#V" n="26"/>imago de imagine nec filius de filio: quia non 
+      si<lb ed="#V" n="27" break="no"/>mul ambo filius vel imago. Et sicut nomina 
+      <lb ed="#V" n="28"/>substantiae aliquando intelligentiam personarum distincte 
+      <lb ed="#V" n="29"/>faciunt: ita etiam interdum totius trinitatis simul 
+      <lb ed="#V" n="30"/>Unde Aug. in eodem libro ait. In patris nomine ipse 
+      <lb ed="#V" n="31"/>pater per se pronunciatur. In dei vero nomine et ipse 
+      pa<lb ed="#V" n="32" break="no"/>ter et filius et spiritus sanctus: vt cum dicitur. 
+      <lb ed="#V" n="33"/>Nemo bonus nisi solus deus: quia trinitas est 
+      <lb ed="#V" n="34"/>vnus deus. 
+   </p>
+            <!-- </div>
+  <div> l1d27prae 
+    <head>Praeambulum</head> -->
+            <p xml:id="kzz7yh-a58801-d1e594">
+               <lb ed="#V" n="35"/>Hic queri potest etc. Superius determinauit 
+      <lb ed="#V" n="36"/>magister de proprietatibus 
+      persona<lb ed="#V" n="37" break="no"/>libus in generali: hic descendit ad specialem 
+      assigna<lb ed="#V" n="38" break="no"/>tionem. Hylarii et Augu. comperando vnam ad aliam 
+      <lb ed="#V" n="39"/>secundum conuenientiam et differentiam: et diuiditur in tres partes: quia primo super 
+      <lb ed="#V" n="40"/>hoc mouet quaestionem.
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e611">
+      ¶ Secundo mouet quaestionis solutionem ibi. 
+      <lb ed="#V" n="41"/>Ad quod sine praeiudicio etc.
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e616">
+      ¶ Tertio solutionis explanationem 
+      <lb ed="#V" n="42"/>ibi. Nec tamen nobis. Et ista diuiditur in duas.
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e621">
+      ¶ Primo 
+      po<lb ed="#V" n="43" break="no"/>nit praedicte solutionis explanationem: vt dictum est.
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e626">
+      ¶ Secundo 
+      <lb ed="#V" n="44"/>ostendit per proprietates esse hypostasim: et non substantiae determina 
+      <lb ed="#V" n="45"/>tionem ibi. Ille enim proprietates etc: tunc sequitur illa pars que 
+      ibi<lb ed="#V" n="46" break="no"/>incipit. Hic non est praetermittendum: in qua determinat de 
+      <lb ed="#V" n="47"/>proprietatibus personalibus secundum nomina minus vsitata et diuiditur 
+      <lb ed="#V" n="48"/>in partes quattuor.
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e639">
+      ¶ Primo assignat nominum differentias per quae 
+      conue<lb ed="#V" n="49" break="no"/>nit ipsas proprietates exprimi.
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e644">
+      ¶ Secundo ponit quandam 
+      re<lb ed="#V" n="50" break="no"/>gulam ad discernendum propria ibi. Et est verius 
+      aduerten<lb ed="#V" n="51" break="no"/>da.
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e652">
+      ¶ Tertio opponit contra predictam regulam et respondet 
+      <lb ed="#V" n="52"/>ibitrii. Hic queritur.
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e657">
+      ¶ Quarto ex illa solutione elicit aliam 
+      <lb ed="#V" n="53"/>regulam ibi. Et sciendum est. 
+      <lb ed="#V" n="54"/>Circa hanc distanitionem queruntur duo 
+      princi<lb ed="#V" n="55" break="no"/>paliter.
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e666">
+      ¶ Primo de proprietatibus 
+      perso<lb ed="#V" n="56" break="no"/>nalibus in generali.
+   </p>
+            <p xml:id="kzz7yh-a58801-d1e671">
+      ¶ Secundo de proprietatibus 
+      ver<lb ed="#V" n="57" break="no"/>bi in speciali.
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

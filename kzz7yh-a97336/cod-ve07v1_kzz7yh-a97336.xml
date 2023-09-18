@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="141-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a97336"><!-- l1d45cl -->
+            <head xml:id="kzz7yh-a97336-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a97336-d1e103">
+               <lb ed="#V" n="111"/>Circa litteram voluntas relatiue nunquam 
+      dicit<lb ed="#V" n="112" break="no"/>hoc intelligendum est de relatione secundum rem 
+      <lb ed="#V" n="113"/>(Qui dicit quare fecit deus caelum et terram: 
+      rasten<lb ed="#V" n="114" break="no"/>iendine edendinite Contto exoo decrine 
+      de<lb ed="#V" n="115" break="no"/>omni effectu bono superfluum esset reddere aliam rationem. 
+   </p>
+            <p xml:id="kzz7yh-a97336-d1e116">
+               <lb ed="#V" n="116"/>¶ Respondeo quod effectuum qui egrediuntur a deo mediante 
+      cau<lb ed="#V" n="117" break="no"/>sa secunda potest reddi causa secunda: sed tandem resoluendo vsque 
+      <lb ed="#V" n="118"/>ad causam primam oportebit stare in voluntate dei: quod 
+      vi<lb ed="#V" n="119" break="no"/>detur sensisse philosophus i. libro metheurorum dicit quod aqua est existens 
+      <lb ed="#V" n="120"/>ex aere: et aer est exisis ex aqua per hoc quod disposuit vtraque 
+      <lb ed="#V" n="121"/>sit deus gloriosus et sublimis: effectuum etiam qui egrediuntur a 
+      <lb ed="#V" n="122"/>deo non. mediante causa secunda aliquorum potest reddi 
+      ra<lb ed="#V" n="123" break="no"/>tio congruitatis: et tandem resoluendo oporteret stare in dei 
+      <lb ed="#V" n="124"/>simplici voluntate sine alia congruitate vt si queratur quare 
+      <lb ed="#V" n="125"/>voluit deus creare mundum potest dici quia voluit bonitatem 
+      <lb ed="#V" n="126"/>suam communicare. Et si queratur quare voluit bonitatem suam 
+      <lb ed="#V" n="127"/>communicare: dicemus quia uoluit: et ibi standum est: quia si 
+      nunquan<lb ed="#V" n="128" break="no"/>creaturam produxisset in malo: derogaretur perfectioni sue. (Et 
+      <lb ed="#V" n="129"/>monstruosi animantium pertus). Nota quod monstrum duo dicit 
+      na<lb ed="#V" n="130" break="no"/>turam et natute vitium: ratione primi a deo est: non ratione se 
+      <lb ed="#V" n="131"/>cundi. (Placuit vanitati philosophorum est causis aliis ea attribue 
+      <lb ed="#V" n="132"/>re: hic non reprehenduntur philosophi: quia istos effectus qui egrediun 
+      <lb ed="#V" n="133"/>tur a deo mediantibus causis secundis attribuantur causis aliis a 
+      <lb ed="#V" n="134"/>deo: sed quia inde excludebant voluntatem dei: cum tamen sit 
+      eo<lb ed="#V" n="135" break="no"/>rum principalissima causa. Nec multiplicitatem recepit quia 
+      <lb ed="#V" n="136"/>vnico actu simplicissimo voluntas dei vult omnia quae vult 
+      <!--00296.xml-->
+      <pb ed="#V" n="141-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>et ideo nullo modo multiplicatur propter plura volita. (Nec 
+      <lb ed="#V" n="2"/>mutabilitatem. Contra Genm 6 dicitur de deo quod penituit eum 
+      <lb ed="#V" n="3"/>hominem fecisse.
+   </p>
+            <p xml:id="kzz7yh-a97336-d1e177">
+      ¶ Item Iob. 30. dixit. Iob ad deum: 
+      mu<lb ed="#V" n="4" break="no"/>tatus es mihi incrudelem. Rspendeo per Aug. 22 lib.o de 
+      ci<lb ed="#V" n="5" break="no"/>ui. dei. c. 2. dicentem. Cum deus mutare dicitur voluntatem: vt 
+      <lb ed="#V" n="6"/>quibus leuis erat veru. gratia reddatur iratus illi postquam ipse. 
+      mu<lb ed="#V" n="7" break="no"/>tatur: vnde dicitur iratus: quia ad modum irati se habet dum 
+      <lb ed="#V" n="8"/>punit penitens: quia ad modum penitentis se habet: dum 
+      <lb ed="#V" n="9"/>aliquem suum effectum destruit sicut homines quos fecerat per 
+      <lb ed="#V" n="10"/>diluuium destruxerit: quod non fecit deus propter aliquam muta 
+      <lb ed="#V" n="11"/>tionem ex parte sue voluntatis: sed propter mutationem 
+      ho<lb ed="#V" n="12" break="no"/>minum ad magna mala. Ipsa ergo voluntas dei non 
+      mu<lb ed="#V" n="13" break="no"/>tatur quamuis mutetur aliquod eius volitum. (Sub tropi 
+      nu<lb ed="#V" n="14" break="no"/>bilo obumbratur). Tropus sicut dicit donatus est dictio trans 
+      <lb ed="#V" n="15"/>lata a propria signatione ad non propriam vnde tropus grece: 
+      conuer<lb ed="#V" n="16" break="no"/>sio latine: quasi conuersio dictionis a significatione propria 
+      <lb ed="#V" n="17"/>ad non propriam. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

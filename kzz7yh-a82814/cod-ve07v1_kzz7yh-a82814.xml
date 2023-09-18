@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="120-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a82814"><!-- l1d38cl -->
+            <head xml:id="kzz7yh-a82814-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a82814-d1e103">
+               <lb ed="#V" n="102"/>3 CIrca litteram. (Nec aliter sciuit creata noscilicet quo 
+      <lb ed="#V" n="103"/>ad modum cognitonis exparte 
+      cognoscen<lb ed="#V" n="104" break="no"/>tis: sed aliter quantum ad modum ex parte 
+      cognoscibi<lb ed="#V" n="105" break="no"/>lis: quia creanda cognoscit esse futura per 
+      comperatio<lb ed="#V" n="106" break="no"/>nem ad praesens creatum et creata cognoscit esse: et praesentia: et 
+      per<lb ed="#V" n="107" break="no"/>comperationem ad presens creatum. (Dicimus scientiam vel 
+      praesci<lb ed="#V" n="108" break="no"/>entia dei non esse causam eorum que fiunt nisi talem sine quae non 
+      <lb ed="#V" n="109"/>fiunt: si tamen scientiam ad notitiam tantum referamus). Hoc ideo 
+      <lb ed="#V" n="110"/>dicit: quia si necessarium accipiatur pro notitia approbatiua que 
+      <lb ed="#V" n="111"/>diuinum includit beneplacitum: sic dei scientia vere est causa eorum 
+      <lb ed="#V" n="112"/>bonorum que siunt: non tamen malorum inquantum mala sunt. 
+      <lb ed="#V" n="113"/>(Per prophetam praedixit infidelitatem iudeorum). Contra deus. 
+      <lb ed="#V" n="114"/>nulli reuelat casum suum ne de desperet. Respondeo casum 
+      <lb ed="#V" n="115"/>irreparabilem creature: deus illi creature non reuelat sub 
+      cer<lb ed="#V" n="116" break="no"/>titudine et absolute: ne illa creatura desperare cogeretur: 
+      ta<lb ed="#V" n="117" break="no"/>men casum creature reperabilem aliquando illi reuelat. et quandoque 
+      <lb ed="#V" n="118"/>reuelat illi casum suum irreparabilem conditionaliter: tamen et 
+      commi<lb ed="#V" n="119" break="no"/>natorie: quia quando sit illa reuelatio: sit salua liberi ar. libertate 
+      <lb ed="#V" n="120"/>(Illorum peccata praesciuit non sua). q. d. si sua praescientia eos ad 
+      pec<lb ed="#V" n="121" break="no"/>candum cogeret non ipsi peccarent: quia coacti facerent 
+      <lb ed="#V" n="122"/>sed ipse coactor. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

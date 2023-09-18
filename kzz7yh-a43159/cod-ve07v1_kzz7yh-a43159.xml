@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="63-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a43159"><!-- l1d18cl -->
+            <head xml:id="kzz7yh-a43159-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a43159-d1e103">
+               <lb ed="#V" n="104"/>Circa litteram. (Spiritus sanctus patris et filii spiritus 
+      <lb ed="#V" n="105"/>est: sed ipsa relatio non apparet in hoc 
+      <lb ed="#V" n="106"/>nomine. Apparet autem cum dicitur donum dei scilicet quioa 
+      <lb ed="#V" n="107"/>non ita bene sonat secundum communem modum 
+      loque<lb ed="#V" n="108" break="no"/>di: vt dicatur spiritus sanctus spiratoris spiritus sanctus: 
+      si<lb ed="#V" n="109" break="no"/>cut cum dicitur donum donatoris donum: vel quia hoc quod est 
+      <lb ed="#V" n="110"/>esse spiritum frequentius per scripturas essentialiter accipitur 
+      <lb ed="#V" n="111"/>quam hoc nomen donum. (Eoipso quod daturus erat eum deus 
+      <lb ed="#V" n="112"/>iam donum erat.)
+   </p>
+            <p xml:id="kzz7yh-a43159-d1e125">
+      ¶ Contra tunc filius ab eterno fuit 
+      do<lb ed="#V" n="113" break="no"/>num: quia ipsum daturus erat deus. dedit enim ipsum 
+      no<lb ed="#V" n="114" break="no"/>bis ex tempore.
+   </p>
+            <p xml:id="kzz7yh-a43159-d1e132">
+      ¶ Respondeo sic debet exponi eoipso quod daturus 
+      <lb ed="#V" n="115"/>erat eum deus id est eoipso quod procedebat tali modo vt sibi ex 
+      <lb ed="#V" n="116"/>suo modo procedendi conueniret ratio doni: iam donum erat. 
+      <lb ed="#V" n="117"/>filio autem conuenit dari ex natura sua: non ex suo procedendi 
+      <lb ed="#V" n="118"/>modo. Et ideo quamuis nobis datus sit rationem tamen doni non 
+      ha<lb ed="#V" n="119" break="no"/>bet: secundum quod expositum est in principalibus. q. huius distin. 
+      <lb ed="#V" n="120"/>(Filius natiuitate essentia est. scilicet secundum quod ablatiuus 
+      impor<lb ed="#V" n="121" break="no"/>tat habitudinem originis: quia nascendo accepit vt sit esse. 
+      <lb ed="#V" n="122"/>(Non enim: vt ait Hylarius in 6 libro de triniate. per defectum 
+      <lb ed="#V" n="123"/>aut protensionem aut diuinationem ex deo deus est. Hic 
+      ex<lb ed="#V" n="124" break="no"/>cludit triplicem modum imperfecte productionis in creaturis. 
+      <lb ed="#V" n="125"/>Quorum vnus modus est quo generatur vnum per 
+      corru<lb ed="#V" n="126" break="no"/>ptionem alterius vt vermis ex equo. Contra quod dicit. 
+      <lb ed="#V" n="127"/>(Neque per defectum.) Alius per extensionem quantitatis vt vas 
+      <lb ed="#V" n="128"/>ex auro. Contra quod dicit. (Aut protensionem.) Alius quo 
+      <lb ed="#V" n="129"/>generatur riuulus de fonte. Contra quod dicit. Aut 
+      diuina<lb ed="#V" n="130" break="no"/>tionem. (Tollam de spiritu tuo.) Hec propositio de: non 
+      di<lb ed="#V" n="131" break="no"/>cit ibi partitionem substantie spiritus scienti: vel gratiae que fuit in Moyse: 
+      <lb ed="#V" n="132"/>sed quod aliis daretur gratia spiritus scinti minori abundantia: ita quod haberet 
+      <lb ed="#V" n="133"/>quasi ratione partis respectu abundantie gratiae quae erat in Moyse. Uel 
+      <lb ed="#V" n="134"/>loquitur de ablatione quo ad vsum solicitudis: non quo ad hitum.
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

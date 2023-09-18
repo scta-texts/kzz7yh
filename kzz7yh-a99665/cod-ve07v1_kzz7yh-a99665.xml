@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="144-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a99665"><!-- l1d46cl -->
+            <head xml:id="kzz7yh-a99665-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a99665-d1e103">
+               <lb ed="#V" n="96"/>Circa litteram respondent dicentes deum nec 
+      velle<lb ed="#V" n="97" break="no"/>mala fieri: nec velle non fieri: vel 
+      nol<lb ed="#V" n="98" break="no"/>le fieri: Sed tantum non velle fieri). Innuit responsionem 
+      <lb ed="#V" n="99"/>talem quod falsum est deum velle mala fieri: et deum 
+      <lb ed="#V" n="100"/>velle mala non fieri quod idem est quod nolle fieri: sed verum 
+      <lb ed="#V" n="101"/>est deum non velle mala fieri. (Ut bene faceret etiam de 
+      ma<lb ed="#V" n="102" break="no"/>lor: hic ista praepositio de non est nota habitudinis naturalis: nec 
+      <lb ed="#V" n="103"/>efficientis: nec alicuius cause proorie dicte: sed est nota 
+      or<lb ed="#V" n="104" break="no"/>dinis et occasionis vt sit sensus: vt bonum faceret post 
+      ma<lb ed="#V" n="105" break="no"/>lum occasione mali. (Ex malis que siunt bonis: qui secundum 
+      propo<lb ed="#V" n="106" break="no"/>situm vocati sunt sancti accedit bonitas id est vtilitas.) . huius 
+      <lb ed="#V" n="107"/>expositio accipi potest ex dictis in illa quaestione vtrum bonum 
+      <lb ed="#V" n="108"/>sit mala fieri. Illud quod dicitur malum fieri ordinatum et 
+      lo<lb ed="#V" n="109" break="no"/>co suo positum. Contra. quod non est ens non habet locum 
+   </p>
+            <p xml:id="kzz7yh-a99665-d1e136">
+               <lb ed="#V" n="110"/>Respondeo quamuis malum ratione deformitatis non sit 
+      nis<lb ed="#V" n="111" break="no"/>priuatio tamen subiectum illius deformitatis res positiua est que 
+      <lb ed="#V" n="112"/>rationem illius deformitatis in suo loco congrue collocatur. (
+      Si<lb ed="#V" n="113" break="no"/>qui eorum deuiant et exorbitant hoc ipsum eis faciet proficere in 
+      bo<lb ed="#V" n="114" break="no"/>num hoc intelligitur de illis qui secundum propositum vocati sunt 
+      san<lb ed="#V" n="115" break="no"/>cti: sicut patet ex littera que procedit quibus exorbitatio: et si per 
+      se<lb ed="#V" n="116" break="no"/>noceat proficit tamen per occasionem inquantum redeunt 
+      humi<lb ed="#V" n="117" break="no"/>liores atque doctiores vt patuit in beato Petro. (Ipse non 
+      <lb ed="#V" n="118"/>est causa tribuendi ad non esse). hoc dicitur de deo. 
+   </p>
+            <p xml:id="kzz7yh-a99665-d1e158">
+      Con<lb ed="#V" n="119" break="no"/>tra. deuter. 32. Ego occidam. Respondeo verbum 
+      proposi<lb ed="#V" n="120" break="no"/>tum in littera vel intelligendum est de non esse moris: vt sit 
+      sen<lb ed="#V" n="121" break="no"/>sus quod deus non est causa tenendi ad non esse moris 
+      intel<lb ed="#V" n="122" break="no"/>ligatur de non esse nature: tunc exponendum est quod deus 
+      <lb ed="#V" n="123"/>non est causa tenendi ad non esse ex nature institutione 
+      <lb ed="#V" n="124"/>sed ex inflictione. Uel quia non deducit rem ad non esse 
+      ef<lb ed="#V" n="125" break="no"/>ficiendo: sed non conseruando. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

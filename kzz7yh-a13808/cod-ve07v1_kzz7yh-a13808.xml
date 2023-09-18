@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="20-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a13808"><!-- l1d3p2cl -->
+            <head xml:id="kzz7yh-a13808-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a13808-d1e103">
+               <lb ed="#V" n="122"/>Irca itram. 5mago dei permanet. sce 
+      quan<lb ed="#V" n="123" break="no"/>tum eusuosiatiaua: quors son semper 
+      <lb ed="#V" n="124"/>sit in anima secundum suum esse perfectissimum quod in 
+      h<lb ed="#V" n="125" break="no"/>consistit quod potentie sint in actibus suis per 
+      compara<lb ed="#V" n="126" break="no"/>tionem ad deum. (hoc tria ad se inuicem referuntur. 
+      <lb ed="#V" n="127"/>quod est intelligendum quantum ad relationem originis 
+      actu<lb ed="#V" n="128" break="no"/>um quorum vnus oritur ab alio: scilicet actus intelligentie ab 
+      <lb ed="#V" n="129"/>actu memorie: et actus voluntatis ab vtroque. (Ex 
+      maxi<lb ed="#V" n="130" break="no"/>ma parte sit dissimilis.) Uerum est simpliciter valde 
+      ta<lb ed="#V" n="131" break="no"/>men similis ad res sui generis comparata. (Fides 
+      patriar<lb ed="#V" n="132" break="no"/>charum prophetarum atque apostolorum.) scilicet quia a 
+      patriar<lb ed="#V" n="133" break="no"/>chis credita: a prophetis credita et signata: ab apostolis 
+      <lb ed="#V" n="134"/>credita et expresse et aperte predicata.
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

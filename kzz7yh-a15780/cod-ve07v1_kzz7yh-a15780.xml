@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="23-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a15780"><!-- l1d5a1 -->
+            <head xml:id="kzz7yh-a15780-Hd1e101">Articulus 1</head>
+            <p xml:id="kzz7yh-a15780-d1e103">
+               <lb ed="#V" n="50"/>CIrca hanc distinctionem queruntur quattuor. 
+      <lb ed="#V" n="51"/>e totame vtrum essentia diuina 
+      ge<lb ed="#V" n="52" break="no"/>neret
+   </p>
+            <p xml:id="kzz7yh-a15780-d1e112">
+      ¶ Secundo vtrum generetur.
+   </p>
+            <p xml:id="kzz7yh-a15780-d1e114">
+      ¶ Tertio vtrum 
+      <lb ed="#V" n="53"/>filius generetur de substantia patris.
+   </p>
+            <p xml:id="kzz7yh-a15780-d1e119">
+      ¶ 
+      Quar<lb ed="#V" n="54" break="no"/>to vtrum pater sit a seipso.
+   </p>
+            <div xml:id="kzz7yh-a15780-Dd1e125">
+               <head xml:id="kzz7yh-a15780-Hd1e127">Quaestio 1</head>
+               <p xml:id="kzz7yh-a15780-d1e129">
+      ¶ Questio I. 
+      <lb ed="#V" n="55"/>PRimo ergo quero vtrum essentia diuina 
+      ge<lb ed="#V" n="56" break="no"/>nercinist vtuet quod no. quia pater 
+      gene<lb ed="#V" n="57" break="no"/>rat: sed diuina essentia est pater: ergo diuina 
+      essen<lb ed="#V" n="58" break="no"/>tia generat.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e140">
+      ¶ Item actus essentiales sicut creare et 
+      gu<lb ed="#V" n="59" break="no"/>bernare predicantur de persona. ergo a simili actus 
+      notiona<lb ed="#V" n="60" break="no"/>les sicut generare potest predicari de essentia.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e147">
+      ¶ Item quicquid 
+      <lb ed="#V" n="61"/>predicatur de aliquo potest supponere pro illo: sed essentia prae¬ 
+      <!--00060.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="62"/>dicatur de patre: ergo pro patre potest supponere: sicut 
+      er<lb ed="#V" n="63" break="no"/>go ista conceditur: deus genuit deum ratione suppositi: videtur 
+      <lb ed="#V" n="64"/>quod ista similiter essentia generat concedi debeat ratione 
+      sup<lb ed="#V" n="65" break="no"/>positi.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e165">
+      ¶ Item de quocumque dicitur subiectum et propria 
+      pas<lb ed="#V" n="66" break="no"/>sio. Unde de quocumque predicatur homo predicatur risibile: sed 
+      <lb ed="#V" n="67"/>generare est proprietas patris: ergo cum sit hoc vera: 
+      diui<lb ed="#V" n="68" break="no"/>na essentia est pater. hoc est etiam vera: diuina essentia 
+      gene<lb ed="#V" n="69" break="no"/>rat.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e177">
+      ¶ Item qui est pater est filii pater: sed essentia est 
+      pa<lb ed="#V" n="70" break="no"/>ter: ergo essentia est pater filii: sed filius est genitus a 
+      pa<lb ed="#V" n="71" break="no"/>tre: ergo essentia filium genuit.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e184">
+      ¶ Item quamuis ista non 
+      <lb ed="#V" n="72"/>recipiatur forma agit: sed suppositum per formam: tamen ista 
+      reci<lb ed="#V" n="73" break="no"/>pienda videtur forma vt in supposito agit: ergo et si ista non 
+      <lb ed="#V" n="74"/>recipiatur simpliciter essentia generat: ista tamen vt videtur debet 
+      re<lb ed="#V" n="75" break="no"/>cipi essentia vt in supposito patris generat.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e195">
+      ¶ Item de 
+      <lb ed="#V" n="76"/>ratione patris est essentia et proprietas relatiua: sed totum 
+      <lb ed="#V" n="77"/>suppositum patris generat: ergo saltem hoc scilicet proprie 
+      <lb ed="#V" n="78"/>tas et essentia simul generant. 
+    </p>
+               <p xml:id="kzz7yh-a15780-d1e204">
+                  <lb ed="#V" n="79"/>Contra extra de summa tri: et lie. ca. c. damnamus 6. cnos 
+      <lb ed="#V" n="80"/>teu: eribieids aut: saco approbate 
+      conci<lb ed="#V" n="81" break="no"/>lio credimus et confitemur et ita quelibet trium personarum 
+      <lb ed="#V" n="82"/>est illa res. v3t substantia essentia seu natura diuina que 
+      so<lb ed="#V" n="83" break="no"/>la est vniuersorum principium preterquam etiam aliud 
+      inueni<lb ed="#V" n="84" break="no"/>ri non potest: et illa res non est generans nec genita neque procedens. 
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e220">
+                  <lb ed="#V" n="85"/>Respondeo quod diuina essentia non generat: et ratio 
+      hu<lb ed="#V" n="86" break="no"/>ius est deserans diitinguit a genito: quia 
+      <lb ed="#V" n="87"/>secundum Aug. primo de trinitate. c. primo nulla omnino res est que seipsam gignat 
+      <lb ed="#V" n="88"/>vt sit: essentia autem non distinguitur neque a diuina essentia: 
+      <lb ed="#V" n="89"/>quia a seipsa non: nec ab alia essentia diuina quia non sunt 
+      plu<lb ed="#V" n="90" break="no"/>res diuine essentie: nec a persona: quia persona predicatur de 
+      essen<lb ed="#V" n="91" break="no"/>tia: et econtra: et est essentia de ratione persone: restat ergo quod 
+      di<lb ed="#V" n="92" break="no"/>uina essentia non generat. Unde et abbatem Ioachim 
+      con<lb ed="#V" n="93" break="no"/>trarium asserentem: reprehendit sancta ecclesia: et libellum 
+      <lb ed="#V" n="94"/>siue tractatum quem edidit contra magistrum Petrum 
+      lom<lb ed="#V" n="95" break="no"/>bardum in quo asserebat diuinam essentiam generare 
+      dan<lb ed="#V" n="96" break="no"/>nauit. vt habetur extra de sum. trini. et fi. ca. c. Damnamus.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e249">
+                  <lb ed="#V" n="97"/>Ad primum in oppostus cum dictr quod diuina essentia est 
+      pa<lb ed="#V" n="98" break="no"/>te se et4rum est: sed in 
+      proces<lb ed="#V" n="99" break="no"/>su fallacia est: quia mutatur modus predicadi. Cum enim dicitur 
+      <lb ed="#V" n="100"/>essentia est pater est predicatio per idemptitatem: et cum 
+      die<lb ed="#V" n="101" break="no"/>pater generat est predicatio ad similitudinem illius 
+      predi<lb ed="#V" n="102" break="no"/>cationis que est per inherentiam. et dico ad similitudinem: 
+      <lb ed="#V" n="103"/>quia proprie loquendo in diuinis inherentia non est. 
+      mutatio<lb ed="#V" n="104" break="no"/>aut in modo predicandi bene impedit illationem: si autem 
+      ser<lb ed="#V" n="105" break="no"/>uaretur vniformis modus predicandi teneret consequentia. hoc 
+      <lb ed="#V" n="106"/>modo essentia est pater: pater est ille qui generat: ergo 
+      essen<lb ed="#V" n="107" break="no"/>tia est ille qui generat: et hoc est verum: quia essentia est pater qui 
+      ge<lb ed="#V" n="108" break="no"/>nerat. Uel potest dici quod per aliam rationem pater dicitur de 
+      essen<lb ed="#V" n="109" break="no"/>tia: quam sit illa per qua generare dicitur de patre: quia pater dicitur 
+      <lb ed="#V" n="110"/>de essentia: quia est realiter idem cum ea: et generare dicitur de patre: quia habet 
+      <lb ed="#V" n="111"/>diuinam naturam non ab alio: ideo in processu videtur esse 
+      <lb ed="#V" n="112"/>defectus similis defectui qui est in fallacia accidentis. 
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e287">
+                  <lb ed="#V" n="113"/>¶ Ad 2m dicendum quod actus essentialis vt creare et 
+      gu<lb ed="#V" n="114" break="no"/>bernare dicuntur de persona ratione essentie: quia essentia est de 
+      <lb ed="#V" n="115"/>ratione persone: non sic autem est persona de ratione essentie sicut 
+      <lb ed="#V" n="116"/>de ratione hominis non est sortes: quamuis in diuinis propter 
+      <lb ed="#V" n="117"/>summam simplicitatem: ipsa persona et essentia realiter idem sint. 
+      <lb ed="#V" n="118"/>et ideo non valet iste processus: pater creat ergo essentia 
+      <lb ed="#V" n="119"/>generat.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e305">
+      ¶ Ad 3m cum dicitur quod quicquid predicatur de aliquo 
+      <lb ed="#V" n="120"/>potest supponere pro illo etc. Dico quod verum est de 
+      predica<lb ed="#V" n="121" break="no"/>to quod signt rem suam per modum concretionis ad illud 
+      subie<lb ed="#V" n="122" break="no"/>ctum sicut deus signt diuinam essentiam per modum 
+      concre<lb ed="#V" n="123" break="no"/>tionis ad diuinum suppositum. et ideo dcitur de supposito et 
+      sup<lb ed="#V" n="124" break="no"/>ponit pro eo: essentia autem signat per modum abstractionis non 
+      <lb ed="#V" n="125"/>per modum concretionis ad suppositum. Et ideo quamuis dicatur 
+      <lb ed="#V" n="126"/>de supposito predicatione que est per idemptitatem: non tamen 
+      <lb ed="#V" n="127"/>supponit pro eo. Unde in ratione suppositionis termini: non 
+      ta<lb ed="#V" n="128" break="no"/>tumodo respiciendum est ad rem signatam: sed ad modum si¬ 
+      <!--00061.xml-->
+      <pb ed="#V" n="24-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>gnificandi.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e336">
+      ¶ Ad 4m dicitur quod de quocumque dicitur subiectum 
+      <lb ed="#V" n="2"/>et propria passio etc. Dico quod verum est quando subiectum 
+      pred<lb ed="#V" n="3" break="no"/>catur de aliquo per illam rationem per quam propria passio 
+      com<lb ed="#V" n="4" break="no"/>uenit illi subiecto: aliter non opetet quod sit verum: verbi gratia 
+      <lb ed="#V" n="5"/>esse speciem conuenit homini: quia tamen non conuenit ei ratione hio quod 
+      <lb ed="#V" n="6"/>dicitur de sorte: ideo non opetet quod si homo dicatur de sorte: quod 
+      pro<lb ed="#V" n="7" break="no"/>pter hoc species dicatur de sorte: homo enim dicitur de sorte 
+      inquan<lb ed="#V" n="8" break="no"/>tum dicunt idem secundum rem: quamuis sub ratione alia et alia: quia quod 
+      <lb ed="#V" n="9"/>dicitur sortes modo signato dicit homo modo non signato: 
+      <lb ed="#V" n="10"/>sed indeterminato: et ratione huius conuenit homini esse 
+      spe<lb ed="#V" n="11" break="no"/>ciem: vt autem ostensum est in solutione argumenti primi per 
+      <lb ed="#V" n="12"/>aliam rationem pater dicitur de essentia quam sit illa per quam 
+      ge<lb ed="#V" n="13" break="no"/>nerare dicitur de patre.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e365">
+      ¶ Ad 5 dico quod eo modo quo ista 
+      ve<lb ed="#V" n="14" break="no"/>ra est: essentia est pater: et ista potest concedi essentia est filii 
+      pa<lb ed="#V" n="15" break="no"/>ter: quia cum dicitur essentia est pater sensus est: quod essentia est 
+      il<lb ed="#V" n="16" break="no"/>le qui est pater: et sicut essentia est ille qui est pater: ita 
+      es<lb ed="#V" n="17" break="no"/>sentia est ille qui est filii pater: nec ex hoc licet inferre: quid 
+      <lb ed="#V" n="18"/>essentia generet filium: quia in ista ipse actus attribuitur 
+      essen<lb ed="#V" n="19" break="no"/>tie vt emanans ab ea: in ista autem essentia est ille qui est 
+      pa<lb ed="#V" n="20" break="no"/>ter suppositum proprietatis dicitur de essentia predicatione tamen 
+      <lb ed="#V" n="21"/>que est per idemptitatem optime dicitur proprietas de essentia. hoc 
+      <lb ed="#V" n="22"/>est enim vera essentia est generatio. sic enim dicendo non 
+      <lb ed="#V" n="23"/>significatur generatio emanare ab essentia: sicut dicendo 
+      es<lb ed="#V" n="24" break="no"/>sentia generat.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e391">
+      ¶ Ad 6m cum dicitur quod forma vt in 
+      supposi<lb ed="#V" n="25" break="no"/>to agit etc. Dico quod hoc argumentum peccat in materia et in forma: 
+      <lb ed="#V" n="26"/>ista enim non debet recipi: fortitudo vt in homine 
+      fran<lb ed="#V" n="27" break="no"/>git lapidem: sed homo per fortitudinem: actus enim non 
+      <lb ed="#V" n="28"/>est forme vt agentis sed vt illius per quod suppositum agit: 
+      <lb ed="#V" n="29"/>ita dico quod non debet concedi: diuina natura vt in patre 
+      ge<lb ed="#V" n="30" break="no"/>nerat: sed pater per diuinam naturam vt non habens eam 
+      ab<lb ed="#V" n="31" break="no"/>alio: peccat etiam argumentum in forma: quia si concederemus istam in 
+      <lb ed="#V" n="32"/>creaturis potentia generatiua vel natura vt in 
+      supposi<lb ed="#V" n="33" break="no"/>to generat: non tamen debemus concedere istam in diuinis 
+      na<lb ed="#V" n="34" break="no"/>tura vt in supposito generat: quia in creaturis natura 
+      exi<lb ed="#V" n="35" break="no"/>stens in supposito generantis distinguitur a natura geniti in 
+      <lb ed="#V" n="36"/>diuinis aut non: diuina enim natura vt in patre: non est 
+      <lb ed="#V" n="37"/>distincta a diuina natura vt in filio: quia eadem natura est: 
+      <lb ed="#V" n="38"/>Fuerunt tamen aliqui qui dixerunt quod diuina essentia vt in 
+      <lb ed="#V" n="39"/>patre distincta est a seipsa vt in filio: quia hoc non est ponere 
+      <lb ed="#V" n="40"/>distinctionem circa essentiam: sed circa modum habedi eam. 
+      <lb ed="#V" n="41"/>Unde etiam istam concedere volebant: essentia vt in patre 
+      <lb ed="#V" n="42"/>generat: magis tamen placet mihi responsio prima: quia secundum 
+      mo<lb ed="#V" n="43" break="no"/>dum eorum sequeretur quod essentia vt in patre generaret semetip 
+      <lb ed="#V" n="44"/>sam vt in filio: quod non est mihi intelligibile: quia per 
+      gene<lb ed="#V" n="45" break="no"/>rari accipit res esse simpliciter: non tantum esse in aliquo.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e439">
+      ¶ Ad 
+      <lb ed="#V" n="46"/>vltimum dico quod non plus potest concludere nisi quod pater 
+      ge<lb ed="#V" n="47" break="no"/>nerat: per essentia: et verum est quia pater generat per essentiam sub ratione qua 
+      <lb ed="#V" n="48"/>natura quam habet pater non ab alio.
+   </p>
+            </div>
+            <div xml:id="kzz7yh-a15780-Dd1e449">
+               <head xml:id="kzz7yh-a15780-Hd1e451">Quaestio 2</head>
+               <p xml:id="kzz7yh-a15780-d1e453">
+      ¶ Questio. II. 
+      <lb ed="#V" n="49"/>queritur vtrum diuina essentia 
+      <lb ed="#V" n="50"/>Ecundo aneret. Et videtur quodsic. quia 
+      <lb ed="#V" n="51"/>secundum philosophum. 2. thop. mouentibus nobis mouentur ea 
+      <lb ed="#V" n="52"/>que in nobis sunt: ergo a simili cum filius 
+      gene<lb ed="#V" n="53" break="no"/>retur generatur essentia cum sit in filio.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e466">
+      ¶ Item secundum philosophum 
+      <lb ed="#V" n="54"/>5o phy. in adaliquid non est motus nec generatio simili 
+      <lb ed="#V" n="55"/>ter: cum ergo secundum Boem libro primo de trinitate. c. vlti. non sit in 
+      diui<lb ed="#V" n="56" break="no"/>nis nisi substantia et relatio: in diuinis terminatur 
+      generatio<lb ed="#V" n="57" break="no"/>immediate ad essentiam.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e477">
+      ¶ Item auctor sex principiorum: 
+      lo<lb ed="#V" n="58" break="no"/>quens de substantiis secundis: dicit quod natura occulte 
+      ope<lb ed="#V" n="59" break="no"/>ratur in hiis volens dicere quod in generatione prime substantie 
+      <lb ed="#V" n="60"/>generatur secunda. qui enim generat sortem: generat hominem. cum 
+      <lb ed="#V" n="61"/>ergo suppositu in diuinis se habeat ad similitudinem 
+      pri<lb ed="#V" n="62" break="no"/>me substantie essentia vero ad similitudinem secunde: videtur 
+      <lb ed="#V" n="63"/>quod quia generatur suppositum generetur essentia in supposito. 
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e493">
+                  <lb ed="#V" n="64"/>¶ Item secundum philosophum primo de generatione. Genienatio simpliciter 
+      termi<lb ed="#V" n="65" break="no"/>natur ad substantiam: sed in diuinis est generatio simpliciter et vere vt 
+      im<lb ed="#V" n="66" break="no"/>fra declarabitur: ergo ibi vere generatur substantia: cum ergo idem sit 
+      <lb ed="#V" n="67"/>in diuinis substantia et essentia: videtur quod essentia generetur.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e505">
+      <!--00061.xml-->
+                  <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="68"/>Contra genitum de generante non predicatur: sed essentia 
+      <lb ed="#V" n="69"/>predicatur de se et de qualibet persona: ergo nec a 
+      <lb ed="#V" n="70"/>se nec ab aliqua persona generatur.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e518">
+      ¶ Item extra de sum. 
+      tri<lb ed="#V" n="71" break="no"/>ni. et fi. ca. c. Damnamus. dicitur quod substantia essentia seu 
+      natu<lb ed="#V" n="72" break="no"/>ra diuina non est genita nec procedens. 
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e525">
+                  <lb ed="#V" n="73"/>Respondeo quod estentia diuina non genetatur.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e530">
+      ¶ Ad 
+      intel<lb ed="#V" n="74" break="no"/>tigetum autsvionis allquorum argumentorum 
+      <lb ed="#V" n="75"/>notandum est quod in creaturis dicimus esse substantiam primam et se 
+      <lb ed="#V" n="76"/>cundam: secundum philosophum in prediceti. vocantem sortem primam substantiam. 
+      <lb ed="#V" n="77"/>et hominem secundam substantiam: in diuinis autem secundum aliqualem 
+      simili<lb ed="#V" n="78" break="no"/>tudinem quasi pro prima substantia est hypostasis et 
+      essentia<lb ed="#V" n="79" break="no"/>secunda. Sed quia in creaturis substantia secunda numeratur in primis 
+      <lb ed="#V" n="80"/>substantiis non autem in diuinis: ideo in creaturis quamuis 
+      ter<lb ed="#V" n="81" break="no"/>minetur generatio ad primam substantiam primo terminatur tamen ad secundam 
+      <lb ed="#V" n="82"/>substantiam ex consequenti: in diuinis autem ita generatur vpostasis: quod ipsa 
+      <lb ed="#V" n="83"/>essentia non generatur nec primo nec ex consequenti: 
+      si<lb ed="#V" n="84" break="no"/>cut bene ostendebat ratio adducta pro parte ista.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e556">
+                  <lb ed="#V" n="85"/>Ad primum in oppostum cum diciter quod mouentibus 
+      no<lb ed="#V" n="86" break="no"/>bis etc. dicunt quidam quod non est simile 
+      <lb ed="#V" n="87"/>quia quicquid est in nobis dependet ab esse nostro: essentia 
+      au<lb ed="#V" n="88" break="no"/>tem non dependet a filio: quia tota est in patre: quia tamen 
+      no<lb ed="#V" n="89" break="no"/>men dependentie non bene sonat in diuinis: ideo dicendum 
+      <lb ed="#V" n="90"/>aliter ad argumentum sic: quod si essentia diuina numeretur in 
+      supposi<lb ed="#V" n="91" break="no"/>tis: tunc teneret illud simile. Sed modo non tenet: quia es 
+      <lb ed="#V" n="92"/>sentia in suppositis non numeratur.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e576">
+      ¶ Ad 2m dico quod 
+      gene<lb ed="#V" n="93" break="no"/>ratio in diuinis non terminatur immediate ad relationem 
+      sub<lb ed="#V" n="94" break="no"/>ratione qua relatio est: Sed sub ratione qua est persona in se sub 
+      <lb ed="#V" n="95"/>sistens: vel sic: quod sicut compositum ex materia et forma 
+      ge<lb ed="#V" n="96" break="no"/>neratur: et tamen materia non generatur: Sic aliqualiter a simili 
+      <lb ed="#V" n="97"/>persona de cuius ratione est essentia et proprietas generatur: et 
+      <lb ed="#V" n="98"/>tamen essentia non generatur.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e593">
+      ¶ Tertium argumentum solutum est per 
+      <lb ed="#V" n="99"/>hoc quod dictum est in corpore quaestionis: procedebat enim de sub 
+      <lb ed="#V" n="100"/>stantia secunda que numeratur in primis.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e600">
+      ¶ Ad 4m dico quod in 
+      <lb ed="#V" n="101"/>diuinis terminatur generatio ad substantiam primam que est 
+      vpo<lb ed="#V" n="102" break="no"/>stasis: non ad essentiam quamuis per generationem 
+      commu<lb ed="#V" n="103" break="no"/>nicetur.
+   </p>
+            </div>
+            <div xml:id="kzz7yh-a15780-Dd1e610">
+               <head xml:id="kzz7yh-a15780-Hd1e612">Quaestio 3</head>
+               <p xml:id="kzz7yh-a15780-d1e614">
+      ¶ Questio. III. 
+      <lb ed="#V" n="104"/>Tertio queritur vtrum filius generetur de 
+      substa<lb ed="#V" n="105" break="no"/>tium peutrislt videt quod non: quia hec 
+      prae<lb ed="#V" n="106" break="no"/>positio de: cum sit transitiua importat aliquam 
+      di<lb ed="#V" n="107" break="no"/>suersitatem: nulla autem est diuersitas nec realis 
+      di<lb ed="#V" n="108" break="no"/>stinctio inter filium et substantiam patris.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e627">
+      ¶ Item 
+      <lb ed="#V" n="109"/>hec prepositio de: aut accipitur materialiter: vt cum dicitur 
+      cultel<lb ed="#V" n="110" break="no"/>lus de ferro: aut originaliter vt radius de sole: aut 
+      ordi<lb ed="#V" n="111" break="no"/>naliter vt de mane sit meridies. Sed nullo istorum 
+      modo<lb ed="#V" n="112" break="no"/>rum filius potest dici esse de substantia patris: ergo nullo modo. 
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e638">
+                  <lb ed="#V" n="113"/>¶ Item aut hoc dicitur propter originem aut propter consubstantialitatem: 
+      <lb ed="#V" n="114"/>non propter originem quia filius non oritur a subsitantia patris: nec 
+      <lb ed="#V" n="115"/>propter consubstantialitatem: quia pari ratione posset dici quod pater est de 
+      <lb ed="#V" n="116"/>substantia filii: ergo nullo modo potest dici filium esse de substantia patris. 
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e649">
+                  <lb ed="#V" n="117"/>¶ Item Anselis in libro de process. spiritus sancti. c. primi nec 
+      natu<lb ed="#V" n="118" break="no"/>ra permittit nec intellectus capit existentem de aliquo esse. 
+      <lb ed="#V" n="119"/>secuet illum de quo existit: sed filius est substantia patris: 
+      er<lb ed="#V" n="120" break="no"/>go non est de substantia patris. 
+    </p>
+               <p xml:id="kzz7yh-a15780-d1e661">
+                  <lb ed="#V" n="121"/>Contra Anelt monote quo c verbum summi spiritus 
+      <lb ed="#V" n="122"/>tt eime ex ipnsus sonia essentia:
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e668">
+      ¶ Item Augustinus 
+      <lb ed="#V" n="123"/>15 de triniate. c. 19 filius charitatis eius nullus est alius quiam quid 
+      <lb ed="#V" n="124"/>de substantia eius est genitus.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e675">
+      ¶ Item Damas. libro primo c. 8 genera 
+      <lb ed="#V" n="125"/>tio est de substantia generantis: sed filius vere generatur a patre. 
+      er<lb ed="#V" n="126" break="no"/>go vere de substantia patris generatur.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e682">
+      ¶ Item pater producit 
+      fi<lb ed="#V" n="127" break="no"/>lium: non de nihilo quia sic esset creatura: ergo de aliquo. non 
+      <lb ed="#V" n="128"/>de aliquo alio quam de substantia sua: ergo vere generat filium de sua substantia. 
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e689">
+                  <lb ed="#V" n="129"/>Respondeo quod patergenuit filium de sua 
+      substan<lb ed="#V" n="130" break="no"/>traner xuit: sic comunicado sibi: 
+      <lb ed="#V" n="131"/>sed totam. Unde sequitur quod ita perfectum genuit filium sicut 
+      <lb ed="#V" n="132"/>est pater cum eadem sit substantia patris et filii.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e700">
+      ¶ Argumenta pro parte
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e703">
+                  <lb ed="#V" n="133"/>Ad primum  cila gtra conctonis peit 
+      concedi<lb ed="#V" n="134" break="no"/>tt vxa rtu et quod vec prepositio de cum 
+      <!--00062.xml-->
+      <pb ed="#V" n="24-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>sit transitiua importat aliquam diuersitatem etc. Dico quod non 
+      <lb ed="#V" n="2"/>semper diuersitatem importat realem respectu casus cui 
+      im<lb ed="#V" n="3" break="no"/>mediate adiungitur: sed vel respectu illius vel alterius qui 
+      <lb ed="#V" n="4"/>cum illo construitur: et oportet extendere nomen diuersitatis 
+      <lb ed="#V" n="5"/>ad distinctionem. Dico ergo quod respectu substantie patris 
+      no<lb ed="#V" n="6" break="no"/>tat differentiam secundum rationem: quia substantia diuina et filius ratione differunt. 
+      <lb ed="#V" n="7"/>inter autem patrem et filium notat realem distinctionem 
+      no<lb ed="#V" n="8" break="no"/>tionalem.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e734">
+      ¶ Ad 2m dico quod hec praepositio de: non accipitur ibi 
+      <lb ed="#V" n="9"/>materialiter: quia in diuinis non est materia: nec accipitur ibi 
+      or<lb ed="#V" n="10" break="no"/>dinaliter loquendo de ordine in quo considerantur post et ante: 
+      <lb ed="#V" n="11"/>quia in diuinis non est ante et post nec accipitur substantialiter tantum: sed 
+      <lb ed="#V" n="12"/>dico quod accipitur substantialiter et originaliter simul. Unde cum dicitur 
+      <lb ed="#V" n="13"/>filium esse de substantia patris notatur origo filii a patre et ipsum 
+      accepis<lb ed="#V" n="14" break="no"/>se a patre eandem essentiam quam habet pater. Per hoc patet responsio 
+      <lb ed="#V" n="15"/>ad 3m.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e752">
+      ¶ Ad 4mdico quod Anselis in auctoritate preallegata loqutur 
+      <lb ed="#V" n="16"/>secundum quod hec praepositio de: accipitur originaliter tantum: nolens 
+      dice<lb ed="#V" n="17" break="no"/>re quod nec natura permittit nec intellectus capit quod ille qui 
+      <lb ed="#V" n="18"/>oritur ab aliquo sit ille a quo oritur.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e761">
+      ¶ Fuerunt autem aliqui qui 
+      <lb ed="#V" n="19"/>aliter voluerunt exponere filium esse de substantia patris 
+      dicen<lb ed="#V" n="20" break="no"/>tes hoc debere intelligi accipiendo substantiam pro vpostasi que est 
+      <lb ed="#V" n="21"/>in diuinis ad similitudinem substantiae prime in creaturis: et 
+      dixe<lb ed="#V" n="22" break="no"/>runt quodsicut sol gignit sui similitudinem per 
+      multiplicatio<lb ed="#V" n="23" break="no"/>nem: et tamen illa similitudo dicitur genita de sole et a sole: ita 
+      di<lb ed="#V" n="24" break="no"/>cunt quod vpostasis patris multiplicando se: naturaliter 
+      perfectissi<lb ed="#V" n="25" break="no"/>me genuit vpostasim filii perfectissimam communicans tamen 
+      <lb ed="#V" n="26"/>sibi totam essentiam suam. Dicunt enim quod non satis proprie dicitur fi 
+      <lb ed="#V" n="27"/>lius esse de essentia cum totam essentiam accipiat.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e783">
+      ¶ Sed hoc 
+      <lb ed="#V" n="28"/>modum respondendi est expresse contra Anselis monolis. xi. c. sicut 
+      <lb ed="#V" n="29"/>patet in sua auctoritate allegata in opponendo pro parte ista.
+   </p>
+               <p xml:id="kzz7yh-a15780-d1e790">
+      ¶ Et 
+      <lb ed="#V" n="30"/>preterea pari ratione spiritus sanctus esset a patre et filio per hoc quod 
+      per<lb ed="#V" n="31" break="no"/>sona patris et filii voluntarie multiplicassent se: et tunc 
+      seque<lb ed="#V" n="32" break="no"/>retur quod essent duo spiritus sancti: quod falsum est. 
+   </p>
+            </div>
+            <div xml:id="kzz7yh-a15780-Dd1e800">
+               <head xml:id="kzz7yh-a15780-Hd1e802">Quaestio 4</head>
+               <p xml:id="kzz7yh-a15780-d1e804">
+                  <lb ed="#V" n="33"/>¶ Questio. IIII. 
+      <lb ed="#V" n="34"/>QUarto queritur fne argumenti: citrum 
+      pa<lb ed="#V" n="35" break="no"/>te: sit ieit 6 2 sdest 
+      intelli<lb ed="#V" n="36" break="no"/>gatur esse a seipso: quia producitur a se falsum est: quia 
+      im<lb ed="#V" n="37" break="no"/>possibile est aliquid seipsum producere. Unde Aug. primo 
+      <lb ed="#V" n="38"/>de trinitate. c. primo nulla res est que seipsam gignat. si aut 
+      <lb ed="#V" n="39"/>intelligatur esse a seipso: quia est non productus ab aliquo 
+      <lb ed="#V" n="40"/>sic verum est: et sic debet intelligi cum dicitur pater esse a seipso.
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

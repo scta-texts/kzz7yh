@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="39-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a26334"><!-- l1d10cl -->
+            <head xml:id="kzz7yh-a26334-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a26334-d1e103">
+               <lb ed="#V" n="44"/>CIrca literame cuampiritussianctus amor est 
+      i<lb ed="#V" n="45" break="no"/>at chraritas. nic diixctio patris et filii) 
+      <lb ed="#V" n="46"/>Nota quod amor dicit quendam actum voluntatis 
+      re<lb ed="#V" n="47" break="no"/>spectu boni. Unde in creaturis dicit quendam 
+      af<lb ed="#V" n="48" break="no"/>fectus adhesionem ad bonum dilectio vltra hoc 
+      impor<lb ed="#V" n="49" break="no"/>tat quandam electionem. et charitas vltra hoc quandam 
+      ap<lb ed="#V" n="50" break="no"/>propriationem. (Proprie verbum dei sapientia dicitur.) 
+      Glo<lb ed="#V" n="51" break="no"/>sandum est sic: proprie id est appropriate. (Siue enim vnitas 
+      <lb ed="#V" n="52"/>sit amborum.) Inquantum est nexus patris et filii: hoc est vni 
+      <lb ed="#V" n="53"/>tas in qua vniuntur: non vnitas qua sunt formaliter vnum: 
+      <lb ed="#V" n="54"/>sic est: pater et filius vnum sunt deitate. (Siue sanctitas 
+      in<lb ed="#V" n="55" break="no"/>quantum eorum munditiam et immaterialitatem ostendit. 
+      <lb ed="#V" n="56"/>(Siue charitas.) Inquantum per modum liberalitatis 
+      proce<lb ed="#V" n="57" break="no"/>dit. (Transtulit nos in regnum filii charitatis suem id est filii sui 
+      <lb ed="#V" n="58"/>charissimi. Unde ille genitiuus construitur ex vi 
+      designa<lb ed="#V" n="59" break="no"/>tionis essentie non quod velim dicere quod filius sit filius essentie: 
+      <lb ed="#V" n="60"/>sed talis modus construendi in grammatica sic notatur. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

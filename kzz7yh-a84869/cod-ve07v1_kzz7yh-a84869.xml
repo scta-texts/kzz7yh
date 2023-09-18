@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="123-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a84869"><!-- l1d40prae -->
+            <p xml:id="kzz7yh-a84869-d1e101">
+               <lb ed="#V" n="77"/>¶ Quid sit praedestinatio et in quod differat a praescientia. di. xl. 
+      <lb ed="#V" n="78"/>Redestinatio 
+      <lb ed="#V" n="79"/>nis 
+      salu<lb ed="#V" n="80" break="no"/>taribus est: et de hominibus saluandis. vt enim 
+      <lb ed="#V" n="81"/>ait Aug. in libro de praedestinatione sanctorum. 
+      Pre<lb ed="#V" n="82" break="no"/>destinatio est gratie praeparatio: que sine praescientia 
+      <lb ed="#V" n="83"/>esse non potest. Potest autem sine perdestinatione esse 
+      <lb ed="#V" n="84"/>praescientia. Predestinatione quippe deus ea 
+      pre<lb ed="#V" n="85" break="no"/>sciuit que fuerat ipse facturus: sed praesciuit ea deus 
+      <lb ed="#V" n="86"/>etiam que non est ipse facturus id est omnia mala. 
+      Pre<lb ed="#V" n="87" break="no"/>destinauit eos quos elegit: reliquos vero 
+      reproba<lb ed="#V" n="88" break="no"/>uit id est ad mortem eternam presciuit peccaturos. 
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e130">
+               <lb ed="#V" n="89"/>¶ An aliquis praedestinatorum possit damnari vel 
+      <lb ed="#V" n="90"/>reproborum saluari. 
+      <lb ed="#V" n="91"/>Predestinatorum nullus 
+      <lb ed="#V" n="92"/>videtur 
+      <lb ed="#V" n="93"/>posse damnari: nec reproborum aliquis posse saluari 
+      <lb ed="#V" n="94"/>Unde Aug. in libro de correctione et gratia. In 
+      apo<lb ed="#V" n="95" break="no"/>calis inquit: dicitur: Tene quod habes ne alius 
+      acci<lb ed="#V" n="96" break="no"/>piat coronam tuam. Si alius non est accepturus 
+      <lb ed="#V" n="97"/>nisi iste perdiderit: certus est electorum numerus id est 
+      <lb ed="#V" n="98"/>non potest augeri vel minui. Ad hoc autem quidam 
+      <lb ed="#V" n="99"/>obiiciunt nitentes probare numerum electorum 
+      <lb ed="#V" n="100"/>posse augeri et minui sic. Posset deus non 
+      appo<lb ed="#V" n="101" break="no"/>nere gratiam quibus apponit: et posset subtrahere 
+      qui<lb ed="#V" n="102" break="no"/>bus non subtrahit: quod si faceret vtique 
+      damnaren<lb ed="#V" n="103" break="no"/>tur. Possent ergo damnari isti qui tamen saluabuntur 
+      <lb ed="#V" n="104"/>Posset itaque minui electorum numerus. Ita etiam 
+      <lb ed="#V" n="105"/>posset augeri: quia posset apponi gratia quibus non 
+      <lb ed="#V" n="106"/>apponitur per quam saluarentur. Possent ergo 
+      <lb ed="#V" n="107"/>saluari habita gratia: qui tum sine ea damnabun 
+      <lb ed="#V" n="108"/>posset itaque augeri numerus electorum. Quibus 
+      <lb ed="#V" n="109"/>respondemus ex ea ratione dictum esse: et verum esse: 
+      <lb ed="#V" n="110"/>numerum electorum non posse augeri vel minui: 
+      <lb ed="#V" n="111"/>quia non potest vtrumque simul esse scilicet vt aliquis 
+      sal<lb ed="#V" n="112" break="no"/>uetur et non sit praedestinatus: vel vt aliquis 
+      praedesti<lb ed="#V" n="113" break="no"/>natus sit et damnetur. Intelligentia enim 
+      conditio<lb ed="#V" n="114" break="no"/>nis implicite veritatem facit in dicto: et 
+      impossi<lb ed="#V" n="115" break="no"/>bilitatem in vero. Si vero simpliciter 
+      intelliga<lb ed="#V" n="116" break="no"/>tur: impossibilitas non admittitur: vt cum dicitur. 
+      <lb ed="#V" n="117"/>praedestinatus potest vel non potest damnari: et 
+      repro<lb ed="#V" n="118" break="no"/>bus potest saluari. In his eni et huiusmodi 
+      locutioni<lb ed="#V" n="119" break="no"/>bus ex ratione dicti diiudicanda est sententia dictio 
+      <lb ed="#V" n="120"/>nis. Alia namque sit intelligentia: si per coniunctionem 
+      <lb ed="#V" n="121"/>hec accipiantur dicta: atque alia: si per disiunctionem: 
+      <lb ed="#V" n="122"/>vt supra cum de praescientia agebatur praetaxatum 
+      <lb ed="#V" n="123"/>est. Si enim cum dicis praedestinatus non potest 
+      dam<lb ed="#V" n="124" break="no"/>nari intelligas: ita id est non potest esse vt praedestina¬ 
+      <!--00261.xml-->
+      <pb ed="#V" n="124-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>tus sit et damnetur: verum dicis: quia coniunctim 
+      in<lb ed="#V" n="2" break="no"/>telligis: falsum autem si disiunctim: vt si intelligas 
+      <lb ed="#V" n="3"/>istum non posse damnari quem dico praedestinatum 
+      <lb ed="#V" n="4"/>potuit enim non esse praedestinatus: et ita damnaretur. 
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e226">
+               <lb ed="#V" n="5"/>¶ Quomodo adhuc instant questioni. 
+      <lb ed="#V" n="6"/>Uerumtamen adhuc instant. 
+      <lb ed="#V" n="7"/>et secundum coniunctionem 
+      <lb ed="#V" n="8"/>argumentando ita procedunt. Non enim inqunt potest 
+      <lb ed="#V" n="9"/>esse vt aliquis praedestinatus sit et damnetur. Utrumque 
+      <lb ed="#V" n="10"/>istorum simul esse non potest. sed alterum horum non 
+      <lb ed="#V" n="11"/>potest non esse scilicet quan iste sit praedestinatus: ab eterno enim 
+      <lb ed="#V" n="12"/>praedestinatus est: et non potest modo non esse 
+      praedesti<lb ed="#V" n="13" break="no"/>natus. Cum ergo impossibile sit simul vtrumque esse. 
+      <lb ed="#V" n="14"/>et impossibile sit alterum non esse: videtur non posse alterum 
+      <lb ed="#V" n="15"/>esse scilicet vt damnetur. Quod si est: ergo non potest esse: 
+      <lb ed="#V" n="16"/>vt non saluetur. In huius quaestionis solutione: 
+      mal<lb ed="#V" n="17" break="no"/>lem alios audire quam docere. Dicimus tamen de praescientia 
+      <lb ed="#V" n="18"/>similem posse moueri quaestionem. Ioque tam hic quam 
+      ibi<lb ed="#V" n="19" break="no"/>vnam facimus respensionem dicentes determtinandum 
+      <lb ed="#V" n="20"/>fore illud cui innititur tota hec quaesto scilicet mpossibile est 
+      <lb ed="#V" n="21"/>alterum istorum non esse scilicet quin isto modo sit 
+      praedesti<lb ed="#V" n="22" break="no"/>natus: ab eterno enim iste praedestinatus est. 
+      Distin<lb ed="#V" n="23" break="no"/>guendum enim est cum ait. Iste non potest modo non 
+      <lb ed="#V" n="24"/>esse praedestinatus: vel non pot modo esse quan sit 
+      praede<lb ed="#V" n="25" break="no"/>stinatus: hoc enim coniunctim et disiuncti intelligi potest 
+      <lb ed="#V" n="26"/>Non enim potest esse: vt ab eterno sit praedestinatus: et 
+      <lb ed="#V" n="27"/>modo non sit praedestinatus: nec potest esse simul vt 
+      <lb ed="#V" n="28"/>sit praedestinatus: et non sit praedestinatus: sed tamen 
+      po<lb ed="#V" n="29" break="no"/>tuit esse ab eterno quod non esset praedestinatus. et 
+      po<lb ed="#V" n="30" break="no"/>tuit ab eterno non esse praedestinatus. Et sicut ab 
+      <lb ed="#V" n="31"/>eterno deus potuit eum non praedestinare: ita 
+      concedi<lb ed="#V" n="32" break="no"/>tur a quibusdam quod et modo potest deus eum no 
+      praede<lb ed="#V" n="33" break="no"/>stinasse: ab eterno ergo potest deus non praedestinasse 
+      <lb ed="#V" n="34"/>eum: ergo potest iste no fuisse praedestinatus. Si vero 
+      <lb ed="#V" n="35"/>non fuisset praedestinatus nec modo esset praedestinatus 
+      <lb ed="#V" n="36"/>ergo modo potest non esse praedestinatus. Ita et de 
+      pre<lb ed="#V" n="37" break="no"/>scientia et de praescitis dicunt: quod in actionibus vel in 
+      opera<lb ed="#V" n="38" break="no"/>tionibus dei et hominum nullatenus concedunt. 
+      Ex<lb ed="#V" n="39" break="no"/>quo enim aliquid factum est vel dictum non concedunt: quod 
+      <lb ed="#V" n="40"/>possit non esse vel non fuisse: immo impossibile est non 
+      <lb ed="#V" n="41"/>esse vel non fuisse quod factum est vel dictum: 
+      refe<lb ed="#V" n="42" break="no"/>rentes possibilitatem vel impossibilitatem ad 
+      natu<lb ed="#V" n="43" break="no"/>ram rei existentis. Cum vero de praescientia vel de 
+      praede<lb ed="#V" n="44" break="no"/>stinatione dei agitur: possibilitas vel 
+      impossibili<lb ed="#V" n="45" break="no"/>tas ad potentia dei refertur: quae semper eadem fuit et est: 
+      <lb ed="#V" n="46"/>quia praedestinatio: praescientia: potentia vnum in deo est. 
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e320">
+               <lb ed="#V" n="47"/>¶ Quid sit reprobatio dei: et in qubus consideretur: 
+      <lb ed="#V" n="48"/>et quis sit praedestinationis effectus. 
+      <lb ed="#V" n="49"/>Cuque praedestinatio sit gratie prepatio nst 
+      dina<lb ed="#V" n="50" break="no"/>electio qua elegit quos voluit ante 
+      <lb ed="#V" n="51"/>mundi constitutionem: vt ait apostolus. Reprobatio 
+      ecom<lb ed="#V" n="52" break="no"/>uerso intelligenda est praescientia iniquitatis quorundam 
+      <lb ed="#V" n="53"/>et preperatio damnationis eorundem. Sicut enim 
+      praede<lb ed="#V" n="54" break="no"/>stinationis effectus illa gratia est: qua in praesenti 
+      iusti<lb ed="#V" n="55" break="no"/>ficamur atque ad recte viuendum et in bono 
+      perse<lb ed="#V" n="56" break="no"/>uerandum adiuuamur: et illa qua in futuro bea 
+      <!--00261.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="57"/>tificamur. Ita reprobatio dei qua ab eterno non 
+      <lb ed="#V" n="58"/>cligendo quosdam reprobauit: secundum duo consideratur: 
+      <lb ed="#V" n="59"/>quorum alterum praescit et non preperat id est iniquitatem: 
+      <lb ed="#V" n="60"/>alterum praescit et preperat scilicet eternam penam. Unde 
+      <lb ed="#V" n="61"/>Aug. ad Posperum et Hylarium. Hec inquit 
+      re<lb ed="#V" n="62" break="no"/>gula inconcusse tenenda est: peccatores in peccatis 
+      <lb ed="#V" n="63"/>prescitos esse non praeparatos: penam autem esse 
+      prepera<lb ed="#V" n="64" break="no"/>tam. Prepaerauit enim deus: vt ait Aug. in libro de 
+      bo<lb ed="#V" n="65" break="no"/>no perseueratie. in praescientia sua quibus voluit bona sua: 
+      <lb ed="#V" n="66"/>et quibuscumque donat proculdubio se donaturum esse 
+      <lb ed="#V" n="67"/>praesciuit. Preperauit ctiam deus: vt ait Fulgentius: 
+      <lb ed="#V" n="68"/>malis ignem eternum: illis vtique quos iuste 
+      pre<lb ed="#V" n="69" break="no"/>parauit ad luenda supplicia: nec tamen preparauit 
+      <lb ed="#V" n="70"/>ad facienda peccata. Preparauit enim deus quod 
+      <lb ed="#V" n="71"/>divina equitas redderet: non quod humana iniquitas 
+      <lb ed="#V" n="72"/>admitteret. Non enim sicut preperauit sanctos ad 
+      <lb ed="#V" n="73"/>iusticiam percipiendam: sic preperauit iniquos ad 
+      <lb ed="#V" n="74"/>iniusticiam amittendam: quia prauitatis 
+      prepara<lb ed="#V" n="75" break="no"/>tor numquam fuit. Sicut ergo praedestinatio dei proporie 
+      <lb ed="#V" n="76"/>est prescientia et preperatio beneficiorum dei quibus 
+      cer<lb ed="#V" n="77" break="no"/>tissime liberantur quicumque liberantur: ita 
+      reproba<lb ed="#V" n="78" break="no"/>tio dei est prescientia malitie in quibusdam non 
+      fini<lb ed="#V" n="79" break="no"/>ende: et preperatio pene non terminande. Et sicut 
+      <lb ed="#V" n="80"/>praedestinationis effectus est gratiae appositio: ita 
+      re<lb ed="#V" n="81" break="no"/>probationis eterne quodammodo effectus esse 
+      vi<lb ed="#V" n="82" break="no"/>detur obduratio. Nec obdurat deus: vt ait 
+      Au<lb ed="#V" n="83" break="no"/>gu. ad Sixtum: impartiendo maliciam: sed non 
+      <lb ed="#V" n="84"/>impertiendo gratiam sicut nec digni sunt. Quibus 
+      <lb ed="#V" n="85"/>enim non impertitur: nec digni sunt nec merentur. 
+      <lb ed="#V" n="86"/>potius vt non impartiatur: hoc digni sunt hom merentur 
+      <lb ed="#V" n="87"/>Unde apostolus ait. Cuius vult miseretur deus et quem 
+      <lb ed="#V" n="88"/>vult indurat misericordiam appellans 
+      praedestina<lb ed="#V" n="89" break="no"/>nationem: et praecipue praedestinationis effectum id est gratiae 
+      <lb ed="#V" n="90"/>appositionem: obdurationem vero gratiae priuationem. 
+      <lb ed="#V" n="91"/>Non enim vt ait Aug. ad Simplicianum: 
+      intelligen<lb ed="#V" n="92" break="no"/>dum est quod deus ita induret: quasi quemquam peccare 
+      <lb ed="#V" n="93"/>cogat: sed tamen quibusdam peccatoribus 
+      misericor<lb ed="#V" n="94" break="no"/>diam iustificationis sue non largitur: et ob hoc eos 
+      <lb ed="#V" n="95"/>indurare dicitur: quia non eorum miseretur: non quia impellit vt 
+      pec<lb ed="#V" n="96" break="no"/>cent. Eorum autem non miseretur: quibus gratiam non esse praebendam 
+      <lb ed="#V" n="97"/>equitate occltissima et ab humanis sensibus ermotissia 
+      <lb ed="#V" n="98"/>iudicat: quam non aperit sed miratur apostolus dicens. O 
+      al<lb ed="#V" n="99" break="no"/>titudo diuitiarum sapientie et scientie dei. 
+   </p>
+            <!-- </div>
+  <div> l1d40prae 
+    <head>Praeambulum</head> -->
+            <p xml:id="kzz7yh-a84869-d1e445">
+               <lb ed="#V" n="100"/>PRedestinatio vero etc. Superius 
+      <lb ed="#V" n="101"/>determinauit 
+      magi<lb ed="#V" n="102" break="no"/>ster de scientia dei in generali. Hic determinat de 
+      prede<lb ed="#V" n="103" break="no"/>stinatione: reprobatione: et electione in speciali: et 
+      <lb ed="#V" n="104"/>diuiditur pars ista in partes duas. Quia primo agit de 
+      prede<lb ed="#V" n="105" break="no"/>stinatione: reprobatione: et electione quantum ad causalitatem 
+      acti<lb ed="#V" n="106" break="no"/>uam. Secundo inquirit vtrum ex parte praedestinatorum et 
+      re<lb ed="#V" n="107" break="no"/>probatorum predestinatio et reprobatio habeant aliquam 
+      <lb ed="#V" n="108"/>causalitatem motiuam in principio sequentis Di. ibi. Si autem 
+      <lb ed="#V" n="109"/>querimus.
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e469">
+      ¶ Prima in duas. Primo agit de 
+      praedestina<lb ed="#V" n="110" break="no"/>tione. Secundo de reprobatione. ibi. Cumque predestinatio. 
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e474">
+               <lb ed="#V" n="111"/>¶ Prima in duas. Primo quid est praedestinatio manifestat. 
+      <lb ed="#V" n="112"/>Secundo inquirit. vtrum perdestinatus necessitatem salutis 
+      <lb ed="#V" n="113"/>imponat. ibi. Predestinatorum nullus.
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e483">
+      ¶ Prima in tres. Primo 
+      <lb ed="#V" n="114"/>mouet dubitationem et apponit et subiungit solutionem. 
+      <!--00262.xml-->
+      <pb ed="#V" n="124-v"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="kzz7yh-a84869-d1e494">
+               <lb ed="#V" n="1"/>¶ Secundo opponit contra solutionem: ibi. Uerumtum adhuc 
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e499">
+               <lb ed="#V" n="2"/>¶ Tertio subiungit solutionem illius oppositionis. ibi. 
+      In<lb ed="#V" n="3" break="no"/>huius quaestionis solutione. Tunc sequitur illa pars in qua agit 
+      <lb ed="#V" n="4"/>de reprobatione que incipit. Cunque praedestinatio: et 
+      diui<lb ed="#V" n="5" break="no"/>ditur in partes duas.
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e511">
+      ¶ Primo ostendit quid est 
+      repro<lb ed="#V" n="6" break="no"/>batio: et quid connotat.
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e516">
+      ¶ Secundo ostendit quis sit effectus 
+      <lb ed="#V" n="7"/>eius. ibi. Et sic predenatio effectus est etc. 
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e521">
+               <lb ed="#V" n="8"/>CIrca hanc distinctionem queruntur tria 
+      <lb ed="#V" n="9"/>principaliter.
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e528">
+      ¶ Primo de in 
+      <lb ed="#V" n="10"/>destinationis significatione. et connotatione.
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e533">
+      ¶ 
+      Se<lb ed="#V" n="11" break="no"/>cundo de eius infallibilitate.
+   </p>
+            <p xml:id="kzz7yh-a84869-d1e538">
+      ¶ Tertio de 
+      repro<lb ed="#V" n="12" break="no"/>batione.
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

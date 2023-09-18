@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="26-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a17586"><!-- l1d6cl -->
+            <head xml:id="kzz7yh-a17586-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a17586-d1e103">
+               <lb ed="#V" n="49"/>Circa litteram. (Nec voluntate nec 
+      necessi<lb ed="#V" n="50" break="no"/>tate.) Nota quod non oportuit 
+      <lb ed="#V" n="51"/>Rquam distingueret de necessitate sicut fuit distinctu 
+      <lb ed="#V" n="52"/>in questionibus: quia respondebat ad intellectum 
+      <lb ed="#V" n="53"/>querentis: qui intendebat querere de 
+      necessita<lb ed="#V" n="54" break="no"/>te coactionis. (Preire sapientiam voluntas non potest. 
+    </p>
+            <p xml:id="kzz7yh-a17586-d1e119">
+               <lb ed="#V" n="55"/>Contra Quia Sapientiam genitam que est filius 
+      <lb ed="#V" n="56"/>preit secundum rationem intelligendi: 
+      volun<lb ed="#V" n="57" break="no"/>tas paterna: quia absolutum prius est secundum rationem 
+      intel<lb ed="#V" n="58" break="no"/>ligendi ipso relatiuo. 
+   </p>
+            <p xml:id="kzz7yh-a17586-d1e130">
+               <lb ed="#V" n="59"/>Respondeo Potest sic exponi voluntas: idet 
+      <lb ed="#V" n="60"/>csm sanatio per modum voluntatis 
+      <lb ed="#V" n="61"/>non potest preire sapientiam genitam. Preiret autem 
+      <lb ed="#V" n="62"/>secundum rationem intelligendi si filius produceretur per 
+      vo<lb ed="#V" n="63" break="no"/>luntatem elicientem ipsam productionem.
+   </p>
+            <p xml:id="kzz7yh-a17586-d1e143">
+      ¶ Uel sic in 
+      <lb ed="#V" n="64"/>patre prius est secundum rationem intelligendi sapientia quam 
+      vo<lb ed="#V" n="65" break="no"/>luntas sicut intelligere quam velle: nec potest esse 
+      contrari<lb ed="#V" n="66" break="no"/>im. Contrarium autem esset si emanatio filii quam oportu¬ 
+      <!--00065.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="67"/>it esse emanationem primam secundum rationem intelligendi 
+      <lb ed="#V" n="68"/>esset per modum voluntatis: quasi dicat non producitur 
+      <lb ed="#V" n="69"/>filius per modum voluntatis: quia tunc voluntas prior 
+      <lb ed="#V" n="70"/>esset in patre secundum rationem intelligendi quam sapientia: quod 
+      <lb ed="#V" n="71"/>esse non potest. Et hec ratio procedit ex hac 
+      suppositio<lb ed="#V" n="72" break="no"/>ne verissima: quod oportuit emanationem filii esse 
+      emana<lb ed="#V" n="73" break="no"/>tionem primam.
+   </p>
+            <p xml:id="kzz7yh-a17586-d1e173">
+      ¶ Uel potest littera adhuc alio modo 
+      <lb ed="#V" n="74"/>exponi quod in imagine voluntas non potest preire 
+      sapien<lb ed="#V" n="75" break="no"/>tiam hoc est cognitionem: quia actus intelligentie est 
+      ab<lb ed="#V" n="76" break="no"/>actu memorie: et actus voluntatis procedit ab vtroque: 
+      er<lb ed="#V" n="77" break="no"/>go cum actus intelligentie respondeat filio: filius per 
+      mo<lb ed="#V" n="78" break="no"/>dum voluntatis produci non potuit. (Ex predictis 
+      do<lb ed="#V" n="79" break="no"/>cetur non esse concedendum quod deus etc.) Et paucis 
+      in<lb ed="#V" n="80" break="no"/>terpositis sequitur. (Uel volens vel nolens genuerit 
+      fi<lb ed="#V" n="81" break="no"/>lium.)
+   </p>
+            <p xml:id="kzz7yh-a17586-d1e193">
+      ¶ Contra Uidetur diuisio per immediata.
+   </p>
+            <p xml:id="kzz7yh-a17586-d1e195">
+      ¶ 
+      Re<lb ed="#V" n="82" break="no"/>spondeo dicendo quod falsum est: quia velle et nolle non sunt 
+      <lb ed="#V" n="83"/>contradictorie opposita: quia vterque affirmat actum 
+      vo<lb ed="#V" n="84" break="no"/>luntatis: quia nolle aliquam rem fieri est ipsam velle non 
+      <lb ed="#V" n="85"/>feri: sed velle et non velle contradicunt. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

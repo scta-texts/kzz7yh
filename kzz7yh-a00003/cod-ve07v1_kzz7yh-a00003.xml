@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praefatio</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praefatio</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="1-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a00003"><!-- l1praefatio -->
+            <head xml:id="kzz7yh-a00003-Hd1e101">Praefatio</head>
+            <p xml:id="kzz7yh-a00003-d1e103">
+      <!--00013.xml-->
+               <pb ed="#V" n="1-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>¶ Scriptum super primum sententiarum 
+      Edi<lb ed="#V" n="2" break="no"/>tum a Fratre Richardo de Media Uilla 
+      <lb ed="#V" n="3"/>ordinis Minorum doctore clarissimo. 
+      <lb ed="#V" n="4"/>Bscondita 
+      <lb ed="#V" n="5"/>produxit in lucem. Hec 
+      <lb ed="#V" n="6"/>verba scripta sunt Iob. 28o 
+      <lb ed="#V" n="7"/>Ad litteram de deo dicta: 
+      <lb ed="#V" n="8"/>secundum sensum allegoricum 
+      <lb ed="#V" n="9"/>de Magistro / possunt 
+      <lb ed="#V" n="10"/>exponi sic: abscondita id est 
+      <lb ed="#V" n="11"/>diuina produxit in 
+      lu<lb ed="#V" n="12" break="no"/>cem id est manifestauit 
+      sup<lb ed="#V" n="13" break="no"/>ple nobis secundum quod patitur 
+      <lb ed="#V" n="14"/>materie sublimitas et 
+      no<lb ed="#V" n="15" break="no"/>stri ingenii debilitas. Et secundum hanc expositionem in verbis 
+      <lb ed="#V" n="16"/>propositis dantur intelligi quatuor cause huius 
+      ope<lb ed="#V" n="17" break="no"/>ris. materia in hoc quod dicitur abscondita. forma in hoc 
+      <lb ed="#V" n="18"/>quod dicitur produxit in lucem. efficiens in supposito 
+      hu<lb ed="#V" n="19" break="no"/>ius verbi produxit. finis in effectu ipsius 
+      productio<lb ed="#V" n="20" break="no"/>nis in lucem.
+   </p>
+            <p xml:id="kzz7yh-a00003-d1e155">
+      ¶ Diuina sunt materia huius libri que 
+      <lb ed="#V" n="21"/>dicuntur nobis abscondita et propter suam sublimitatem 
+      <lb ed="#V" n="22"/>et propter nostre carnis corruptibilitatem. et multis etiam 
+      <lb ed="#V" n="23"/>sunt abscondita propter voluntatis peruersitatem. 
+   </p>
+            <p xml:id="kzz7yh-a00003-d1e164">
+               <lb ed="#V" n="24"/>¶ Dico ergo primo quod diuina sunt nobis abscondita 
+      pro<lb ed="#V" n="25" break="no"/>pter suam sublimitatem. sicut enim tempus et motus 
+      <lb ed="#V" n="26"/>et materia et consimilia nobis sunt abscondita eo quod ex 
+      <lb ed="#V" n="27"/>parte sua sunt parum cognoscibilia propter suam in 
+      essen<lb ed="#V" n="28" break="no"/>do debilitatem: sic econuerso diuina que ex parte sua 
+      <lb ed="#V" n="29"/>maxime sunt cognoscibilia. tamen nobis sunt abscondita 
+      <lb ed="#V" n="30"/>propter suam in essendo sublimitatem. Unde Auicenna 6o 
+      <lb ed="#V" n="31"/>naturalium libro 5o capitulo res subtilissimas non potest 
+      intel<lb ed="#V" n="32" break="no"/>lectus apprehendere quia excedunt eum: que vero sunt 
+      de<lb ed="#V" n="33" break="no"/>bilis esse vt motus tempus et materia. aliquando difficile 
+      <lb ed="#V" n="34"/>est intelligere eo quod sunt debilis esse. De absconsione 
+      <lb ed="#V" n="35"/>autem diuinorum propter suam sublimitatem potest exponi 
+      il<lb ed="#V" n="36" break="no"/>lud quod scribit Eccl. guiousrs. multa sunt abscondita maio 
+      <lb ed="#V" n="37"/>ra his. multa vera de deo maiora his supple que 
+      co<lb ed="#V" n="38" break="no"/>gnoscimus in istis inferioribus sunt abscondita 
+      sup<lb ed="#V" n="39" break="no"/>ple nobis. In quibus verbis satis datur intelligi quod 
+      <lb ed="#V" n="40"/>multa de diuinis abscondita sunt nobis propter suam 
+      <lb ed="#V" n="41"/>sublimitatem. et quia non dixit omnia sed multa datur 
+      <lb ed="#V" n="42"/>intelligi etiam nobis: quia diuina non ideo dicuntur 
+      <lb ed="#V" n="43"/>nobis abscondita quia penitus et totaliter nos lateant. 
+      <lb ed="#V" n="44"/>sed quia de illis pauca cognoscimus et secundum debilem 
+      cogni<lb ed="#V" n="45" break="no"/>tionem. Unde philosophus. xi. de animalibus. opinio nostra et 
+      ser<lb ed="#V" n="46" break="no"/>mo de substantia diuina vna est et pauca. vna dicitur 
+      pro<lb ed="#V" n="47" break="no"/>pter paucitatem eorum que cognoscimus de ea. et pauca 
+      <lb ed="#V" n="48"/>propter cognitionis debilitatem
+   </p>
+            <p xml:id="kzz7yh-a00003-d1e221">
+      ¶ Secundo dico quod 
+      diui<lb ed="#V" n="49" break="no"/>na sunt nobis abscondita propter nostri corporis 
+      corru<lb ed="#V" n="50" break="no"/>ptibilitatem. quia enim nostrum intelligere in hac vita 
+      <lb ed="#V" n="51"/>secundum legem communem dependet a ministerio virium 
+      sensitiua<lb ed="#V" n="52" break="no"/>rum que organis corporalibus sunt alligate. ita vt secundum quod 
+      <lb ed="#V" n="53"/>dicit philosophus primo de anima. intelligere et considerare consumuntur 
+      <lb ed="#V" n="54"/>alio quodam interius corrupto id est organo memorie vel 
+      <lb ed="#V" n="55"/>imaginatiue vel extimatiue. et iterum quia esse 
+      intellecti<lb ed="#V" n="56" break="no"/>ue est nostri corporis forma: et forma impeditur in actu 
+      <lb ed="#V" n="57"/>suo non tantum propter indispositionem materie in quam agit: 
+      <lb ed="#V" n="58"/>sed etiam propter indispositionem materie quam perficit. Ideo 
+      <lb ed="#V" n="59"/>hac duplici causa corpus quod corrumpitur aggrauat animam. 
+      <lb ed="#V" n="60"/>Sapientia 9 vt minus possit intelligere diuina. Unde de 
+      <lb ed="#V" n="61"/>sapientia diuina dicitur Iob. 28 Abscondita est ab 
+      ocu<lb ed="#V" n="62" break="no"/>lis omnium viuentium supple in corpore corruptibili. quia 
+      <lb ed="#V" n="63"/>sicut dicitur Greg. 28o. moralis. versus finem libri. Quandiu 
+      <lb ed="#V" n="64"/>hic mortaliter viuitur videri per quasdam imagines deus 
+      <lb ed="#V" n="65"/>potest. sed per ipsam nature sue speciem non potest: supple ni¬ 
+      <!--00013.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="66"/>si ex priuilegio speciali. hoc ideo dico quia Augustinus in ante 
+      <lb ed="#V" n="67"/>penultima. q. ad Orosium loquens de raptu Pauli 
+      di<lb ed="#V" n="68" break="no"/>cit. Ad hoc profecto peruenerat Paulus vt deum sic in 
+      <lb ed="#V" n="69"/>ista vita videret sicut sancti post hanc vitam videbunt. 
+   </p>
+            <p xml:id="kzz7yh-a00003-d1e274">
+               <lb ed="#V" n="70"/>¶ Tertio dico quod diuina multis sunt abscondita propter 
+      <lb ed="#V" n="71"/>sue voluntatis perversitatem: propter hoc enim quod per 
+      vo<lb ed="#V" n="72" break="no"/>luntatis peruersita enim anima elongatur a patre luminum. 
+      <lb ed="#V" n="73"/>ideo propter voluntatis peruersitatem minus intellectus 
+      <lb ed="#V" n="74"/>illuminatur et ex consequenti in diuinorum cognitione 
+      impe<lb ed="#V" n="75" break="no"/>ditur. Item sicut propter colligantiam naturalem inter membra 
+      <lb ed="#V" n="76"/>in eodem corpore per vnius peruersitatem contingit quod aliud 
+      <lb ed="#V" n="77"/>in actu suo impeditur: sic propter colligantiam naturalem inter 
+      <lb ed="#V" n="78"/>voluntatem et intellectum in esse anime per voluntatis 
+      per<lb ed="#V" n="79" break="no"/>uersitatem impeditur intellectus in diuinorum cognitione. 
+      <lb ed="#V" n="80"/>et ideo recte dictum est quod diuina multis sunt 
+      abscon<lb ed="#V" n="81" break="no"/>dita propter sue voluntatis peruersitatem. et de hoc potest 
+      <lb ed="#V" n="82"/>exponi quod dicitur Deuteron 32 in persona domini. Abscondam 
+      <lb ed="#V" n="83"/>faciem meam ab eis et paucis interpositis sequitur. 
+      gene<lb ed="#V" n="84" break="no"/>ratio enim peruersa est. In quo satis datur intelligi quod 
+      <lb ed="#V" n="85"/>multa de deo abscondita sunt multis propter sue 
+      volun<lb ed="#V" n="86" break="no"/>tatis peruersitatem.
+   </p>
+            <p xml:id="kzz7yh-a00003-d1e313">
+      ¶ Causa formalis duplex est: forma 
+      <lb ed="#V" n="87"/>tractatus et forma tractandi. forma tractatus est diuisio 
+      <lb ed="#V" n="88"/>libri in libros partiales et librorum partialium in 
+      distin<lb ed="#V" n="89" break="no"/>ctiones et distinctionum in capitula. Forma tractandi est 
+      <lb ed="#V" n="90"/>modus agendi qui tangitur in hoc quod dicitur produxit in 
+      <lb ed="#V" n="91"/>lucem. optimus enim modus producendi in lucem 
+      intel<lb ed="#V" n="92" break="no"/>ligibilia abscondita est procedere per auctoritaes et rationes: quia 
+      <lb ed="#V" n="93"/>auctoritas inclinat ad credendum: et ratio illuminat ad 
+      intelli<lb ed="#V" n="94" break="no"/>gendum: et credere preparat viam intellectui ad veritatis 
+      <lb ed="#V" n="95"/>intelligibilem cognitionem. Iuxta illud Esa. 7. secundum aliam 
+      <lb ed="#V" n="96"/>translationem. nisi credideritis non intelligentis. hunc autem 
+      <lb ed="#V" n="97"/>modum procedendi obseruat Magister. Pocedit enim 
+      per<lb ed="#V" n="98" break="no"/>rationes auctoritatibus confirmatas. Unde per quandam 
+      similitu<lb ed="#V" n="99" break="no"/>dinem potest dici posuisse stellas in firmamento celi id est in 
+      <lb ed="#V" n="100"/>ecclesia. rationes enium Magistri stellis comparari possunt per 
+      quam<lb ed="#V" n="101" break="no"/>dam similitudinem: stelle enim habent in situ sublimitatem 
+      <lb ed="#V" n="102"/>in esse subtilitatem: in figura rotunditatem: in qualitate 
+      <lb ed="#V" n="103"/>claritatem: in essendo incorruptibilitatem. Sic et rationes 
+      <lb ed="#V" n="104"/>Magistri quia sunt de valde sublimi materia: in qua 
+      qua<lb ed="#V" n="105" break="no"/>si site sunt: per metaphoram possunt dici habere in situ 
+      sublimi<lb ed="#V" n="106" break="no"/>tatem. Et quia partes rationum subtiliter sunt conexe: possunt 
+      di<lb ed="#V" n="107" break="no"/>ci habere in esse subtilitatem. Et quia adeo illuminate per 
+      Ma<lb ed="#V" n="108" break="no"/>gistrum processerunt. et quantum in se est directe intellectum 
+      <lb ed="#V" n="109"/>reducunt in deum: ideo ad modum circuli possunt dici habere 
+      <lb ed="#V" n="110"/>in figura rotunditatem. Et quia secundum quod altitudo materiae 
+      pati<lb ed="#V" n="111" break="no"/>tur: valde intelligibiles sunt: ideo possunt dici habere in 
+      qua<lb ed="#V" n="112" break="no"/>litate claritatem. Et quia per solidas auctoritates confirmate sunt: 
+      <lb ed="#V" n="113"/>vt interimi nequeant: ideo possunt dici habere quasi quandam in 
+      <lb ed="#V" n="114"/>corruptibilitatem.
+   </p>
+            <p xml:id="kzz7yh-a00003-d1e376">
+      ¶ Causa efficiens duplex est: primaria 
+      <lb ed="#V" n="115"/>et principalis: que solus deus est: et cuiuslibet etiam 
+      alte<lb ed="#V" n="116" break="no"/>rius doctrine. Unde Augustinus 5o confessionum bene ante medium 
+      lo<lb ed="#V" n="117" break="no"/>quens ad deum dixit: nec quisquam praeter te alius est doctor 
+      <lb ed="#V" n="118"/>veritatis vbicumque et vndecumque claruerit. Doctor dico 
+      <lb ed="#V" n="119"/>primarius et principalis: huius etiam doctrine est causa 
+      <lb ed="#V" n="120"/>ministerialis et secundaria. Et hec causa fuit Magister 
+      <lb ed="#V" n="121"/>Petrus Lombardus doctor theologie postmodum 
+      <lb ed="#V" n="122"/>Parisiensis episcopus. et hec causa datur intelligi in 
+      supposi<lb ed="#V" n="123" break="no"/>to huius verbi produxit. Et quia sicut dicitur in prima 
+      propositio<lb ed="#V" n="124" break="no"/>ne de causis. Omnis causa primaria plus influit super suum 
+      <lb ed="#V" n="125"/>causatum quam causa secundaria. ideo deus magis est causa 
+      hu<lb ed="#V" n="126" break="no"/>ius doctrine et cuiuslibet alterius quam aliqua alia causa. 
+      <lb ed="#V" n="127"/>Et quia sicut scribitur in Commento super praedictam propositionem non 
+      <lb ed="#V" n="128"/>figitur causatum cause secunde nisi per virtutem cause prime. 
+      <lb ed="#V" n="129"/>Ideo verum est quod dicit Augustinus 8 de ciui. dei. 4. cap. quod 
+      <lb ed="#V" n="130"/>sine deo nulla doctrina instruit. Et quia sicut scribitur in 
+      <lb ed="#V" n="131"/>Commento libri de causis super preallegatam propositionem: cum 
+      <lb ed="#V" n="132"/>remouet causa secunda a re virtutem suam causa vniversalis prima 
+      <!--00014.xml-->
+      <pb ed="#V" n="1-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>non remouet virtutem suam ab ea. Ideo deus sine alio 
+      <lb ed="#V" n="2"/>doctore medio instruit quem voluerit et quando sicut 
+      pa<lb ed="#V" n="3" break="no"/>tuit in apostolis et prophetis et forte sine doctore medio 
+      mul<lb ed="#V" n="4" break="no"/>ta de se per aliquam gratiam gratis datam aliquibus philosophis 
+      reue<lb ed="#V" n="5" break="no"/>lauit. Unde apostolus ad Rom. i. deus enim illis 
+      manifesta<lb ed="#V" n="6" break="no"/>uit. quod forte signare voluit Trimegistus in libro de 
+      diuini<lb ed="#V" n="7" break="no"/>tate ad Asclepium versus finem. Cum dixit gratias 
+      agi<lb ed="#V" n="8" break="no"/>mus tibi summe et exuperatissime: tua enim gratia tantum 
+      su<lb ed="#V" n="9" break="no"/>mus cognitionis tue lumen consecuti.
+   </p>
+            <p xml:id="kzz7yh-a00003-d1e444">
+      ¶ Causa finalis 
+      <lb ed="#V" n="10"/>datur intelligi in effectu ipsius productionis in lucem qui 
+      <lb ed="#V" n="11"/>est illuminatio intellectus ad diuinorum cognitionem. 
+      <lb ed="#V" n="12"/>Ad hoc enim est iste liber: vt diuina in intellectu 
+      no<lb ed="#V" n="13" break="no"/>stro luceant et luce acquisite scientie et luce gratie et luce 
+      glo<lb ed="#V" n="14" break="no"/>rie. Hac enim triplici luce contingit diuina in intellectu 
+      <lb ed="#V" n="15"/>humano lucere: sed secunda lux est clarior prima: et tertia quam 
+      <lb ed="#V" n="16"/>secunda. In prima enim luce potest cognosci quid deus est: non 
+      <lb ed="#V" n="17"/>perfecte nec in speciali: sed imperfecte valde et in generali. sicut 
+      <lb ed="#V" n="18"/>quod est prima veritas et prima bonitas et similia: non 
+      cogni<lb ed="#V" n="19" break="no"/>tione clara sed obscura: non simplici sed discursiua: non 
+      <lb ed="#V" n="20"/>immediata que est per propriam speciem: sed mediata que est 
+      <lb ed="#V" n="21"/>per speciem creature. Arguendo et discurrendo in talem 
+      pos<lb ed="#V" n="22" break="no"/>sumus accedere creatoris cognitionem. Unde apostolus ad 
+      <lb ed="#V" n="23"/>Rom. 1. Inuisibilia enim ipsius a creatura mundi per ea 
+      <lb ed="#V" n="24"/>que facta sunt intellecta conspiciuntur. sempiterna quoque 
+      <lb ed="#V" n="25"/>eius virtus et diuinitas. In secunda luce cognoscitur quod deus 
+      <lb ed="#V" n="26"/>est vnus tamen in generali et minus imperfecte quam ante. non tamen 
+      <lb ed="#V" n="27"/>cognitione clara et immediata. sed adhuc per speculum 
+      <lb ed="#V" n="28"/>in enigmate. In tertia luce et si deus a nulla creatura 
+      <lb ed="#V" n="29"/>cognoscatur quantum cognoscibilis est propter suam 
+      infinita<lb ed="#V" n="30" break="no"/>tem et creature sublimitatem: tamen cognoscitur immediate per 
+      <lb ed="#V" n="31"/>speciem propriam vel sine specie per essentiam: que cognitio 
+      <lb ed="#V" n="32"/>dicitur visio propter sui claritatem et immediationem.
+   </p>
+            <p xml:id="kzz7yh-a00003-d1e496">
+      ¶ Prima 
+      <lb ed="#V" n="33"/>luce quamuis ceteris paribus magis luceat in intellectu 
+      <lb ed="#V" n="34"/>beatorum: tamen etiam illa lucet in mentibus peccatorum. Unde 
+      <lb ed="#V" n="35"/>Ioan. 1. Lux in tenebris lucet tenebre. hic possunt intelligi 
+      <lb ed="#V" n="36"/>mentes peccatorum. Unde Augustinus 13 de trinita. cap. primo 
+      expo<lb ed="#V" n="37" break="no"/>nens verbum predictum dicit tenebras quippe intelligi 
+      <lb ed="#V" n="38"/>voluit auersa ab huiusmodi luce eamque minus idonea contueri 
+      <lb ed="#V" n="39"/>corda mortalium. In talibus cordibus lux prima que deus 
+      <lb ed="#V" n="40"/>est frequenter lucet luce acquisite scientie debiliter tamen: debilis 
+      <lb ed="#V" n="41"/>est enim lux acquisite scientie ad intelligendum diuina: et 
+      <lb ed="#V" n="42"/>tamen sicut dicit philosophus. xi. de animalibus: illud minimum quod potest 
+      <lb ed="#V" n="43"/>heberi de cognitione rerum altissimarum desiderabilius est 
+      <lb ed="#V" n="44"/>quam certissimum quod habetur de istis rebus.
+   </p>
+            <p xml:id="kzz7yh-a00003-d1e525">
+      ¶ Secundo dico 
+      <lb ed="#V" n="45"/>quod diuina lucent in intellectu humano luce gratie: et de 
+      <lb ed="#V" n="46"/>hoc potest exponi illud verbum apostoli ad Ephes. 5. Eratis 
+      <lb ed="#V" n="47"/>aliquando tenebre nunc autem lux in domino. tenebre propter 
+      pec<lb ed="#V" n="48" break="no"/>cata: lux autem propter gratiam. Quod autem in hac luce 
+      cognosca<lb ed="#V" n="49" break="no"/>mus aliqua ad que cognoscenda non sufficeret lux acquisite 
+      scien<lb ed="#V" n="50" break="no"/>tie: potest probari per testimonium fidelium et infidelium. 
+      Di<lb ed="#V" n="51" break="no"/>cit enim Auicenna. 9. metaphy. cap. 7. loquens de dispositione 
+      <lb ed="#V" n="52"/>animarum. postquam sunt exute a corporibus suis sic. oportet autem 
+      <lb ed="#V" n="53"/>te scire quod promissio aliqua est que fide recipitur: quia non est 
+      <lb ed="#V" n="54"/>via ad probandum eam nisi credendo testimonio prophete 
+      <lb ed="#V" n="55"/>Sicut est illa que est de eo quod anima hebebit corpus apud 
+      <lb ed="#V" n="56"/>resurrectionem. Ecce testimonio istius. resurrectio non 
+      <lb ed="#V" n="57"/>potest cognosci luce acquisite scientie tantum: et tamen cognoscitur 
+      fi<lb ed="#V" n="58" break="no"/>de. Et Augustinus 13 de trinitate. c. 9. dicit sic. Fides aut ista totum 
+      <lb ed="#V" n="59"/>hominem immortalem futurum qui vtique constat ex anima et corpore. et 
+      <lb ed="#V" n="60"/>ob hoc vere beatum et non argumentatione humana sed 
+      <lb ed="#V" n="61"/>diuina auctorite promittit: cui consonat sententia Dionysii. 6 de 
+      <lb ed="#V" n="62"/>diui no. et Dam. libro 4. cap. vltimo.
+   </p>
+            <p xml:id="kzz7yh-a00003-d1e568">
+      ¶ Tertio dico quod 
+      di<lb ed="#V" n="63" break="no"/>uina lucent in intellectu humano luce glorie: et sic lucet 
+      <lb ed="#V" n="64"/>in intellectu beatorum tantum. Unde Thob. 13. dicitur. luce 
+      splendi<lb ed="#V" n="65" break="no"/>da fulgebis. lux enim gratie in respectu lucis glorie aliquo 
+      <lb ed="#V" n="66"/>modo est subobscura que deum nobis ostendit in enigmate. 
+      <lb ed="#V" n="67"/>Unde apostolus 1. ad Corinthi. 13. Uidemus nunc per specu¬ 
+      <!--00014.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="68"/>lum in enigmate. sed lux glorie ita est splendida quod deum 
+      <lb ed="#V" n="69"/>facit videri facie ad faciem. que visio. sicut dicit glo. 
+      su<lb ed="#V" n="70" break="no"/>per illum locum psalmi. ostendam illi salutare meum: est tota 
+      <lb ed="#V" n="71"/>merces supple inquantum includit consumatam dilectionem 
+      <lb ed="#V" n="72"/>hanc mercedem nobis praestare dignetur Iesus christus qui cum patre 
+      <lb ed="#V" n="73"/>et spiritu sancto viuit et regnat deus per omnia saecula saeculorum Amen. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

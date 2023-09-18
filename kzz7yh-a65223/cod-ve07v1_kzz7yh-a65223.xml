@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="95-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a65223"><!-- l1d30cl -->
+            <head xml:id="kzz7yh-a65223-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a65223-d1e103">
+               <lb ed="#V" n="104"/>Circa litteram cfit aliqua mutatio voluntatis vt 
+      <lb ed="#V" n="105"/>amicus dicatur:) quod non habet distantiam inter 
+      <lb ed="#V" n="106"/>amantes vbi est mutuus amor. (Nummus cum 
+      di<lb ed="#V" n="107" break="no"/>citur precium relatiue dicitur ralationem scilicet que est secndum 
+      ratio<lb ed="#V" n="108" break="no"/>nem. Nec enim efficitur nummus praecium nisi interueniente opere 
+      ratio<lb ed="#V" n="109" break="no"/>nisc: hic potest solui quaestio: questio est hec: cum spiritus sanctus dat 
+      <lb ed="#V" n="110"/>seipsum: vtrum ad seipsum relatiue dicatur: et solutio eius 
+      <lb ed="#V" n="111"/>est: quia per hoc non refertur ad seipsum secundum esse sine relatione 
+      <lb ed="#V" n="112"/>reali: sed secundum dici sine relatione secundum rationem. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

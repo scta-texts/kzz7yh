@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="21-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a14793"><!-- l1d4cl -->
+            <head xml:id="kzz7yh-a14793-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a14793-d1e103">
+               <lb ed="#V" n="119"/>Circa litteram (Lumen de lumine.) ¶ Contra 
+      <lb ed="#V" n="120"/>propositio importat <sic>transitiouem</sic>: ergo et
+      <lb ed="#V" n="121"/>distinctionem.
+   </p>
+            <p xml:id="kzz7yh-a14793-d1e114">
+      ¶ Respondeo hanc distinctionem 
+      exer<lb ed="#V" n="122" break="no"/>cet non circa essentiam sed circa supposita. (Nolunt 
+      <lb ed="#V" n="123"/>concedere vnum deum siue vnam substantiam esse tres 
+      per<lb ed="#V" n="124" break="no"/>sonas.) Sciendum quod hi dicuntur fuisse discipuli <name xml:id="kzz7yh-a14793-Nd1e122">Giliberti 
+      <lb ed="#V" n="125"/>Porretani</name>: et fuit ratio eorum hec quod terminus aperte subiti stat 
+      pro<lb ed="#V" n="126" break="no"/>supposito: et nullum deinde suppositum est tres persone
+   </p>
+            <p xml:id="kzz7yh-a14793-d1e130">
+      ¶ Sed 
+      <lb ed="#V" n="127"/>ratio eorum non valet: quia terminus aperte subti potest stare vel ua 
+      <lb ed="#V" n="128"/>supposito vel pro ipsa natura: et pro quocumque istorum 
+      conue<lb ed="#V" n="129" break="no"/>niat sibi predicatum: vera est propotio simpliciter et certum est quod ipsa 
+      <lb ed="#V" n="130"/>diuina natura est ipsa tria supposita praedicatione per 
+      idem<lb ed="#V" n="131" break="no"/>titatem. Sed si aliquis vellet instare contra dicta in 
+      termi<lb ed="#V" n="132" break="no"/>no non habente naturam termini discreti: non tamen posset 
+      insta<lb ed="#V" n="133" break="no"/>re in hoc nomine deus: quia non tantum habet naturam 
+      termini<lb ed="#V" n="134" break="no"/>communis quam habet inquantum natura eadem in numero est 
+      <!--00057.xml-->
+      <pb ed="#V" n="22-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#V" n="1"/>communis tribus suppositis: sed etimam habet rationem 
+      ter<lb ed="#V" n="2" break="no"/>mini discreti: et certum est de tali termino quod potest 
+      suppo<lb ed="#V" n="3" break="no"/>nere illud quod signt siue ponatur a parte subiecti siue a 
+      parte<lb ed="#V" n="4" break="no"/>predicati. (Satis est christianorum etc.) non satis loquendo 
+      <lb ed="#V" n="5"/>de sufficientia quo ad fidem: sed quantum ad scientiam 
+      <lb ed="#V" n="6"/>et necessariorum ad salutem. 
+   </p>
+            <p xml:id="kzz7yh-a14793-d1e169">
+               <lb ed="#V" n="7"/>¶ Hic queritur an pater genuit diuinam essentiam vel 
+      <lb ed="#V" n="8"/>ipsa filium an essentia genuit essentiam vel ipsa 
+      <lb ed="#V" n="9"/>nec genuit nec genita est.
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

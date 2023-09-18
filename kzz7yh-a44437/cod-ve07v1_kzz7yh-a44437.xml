@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Articulus 1</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Articulus 1</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="66-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a44437"><!-- l1d19a1 -->
+            <head xml:id="kzz7yh-a44437-Hd1e101">Articulus 1</head>
+            <p xml:id="kzz7yh-a44437-d1e103">
+      ¶ Circa 
+      <lb ed="#V" n="57"/>primum queruntur tria.
+   </p>
+            <p xml:id="kzz7yh-a44437-d1e108">
+      ¶ Primo vtrum inter divinas personas 
+      <lb ed="#V" n="58"/>sit equalitas vera.
+   </p>
+            <p xml:id="kzz7yh-a44437-d1e113">
+      ¶ Secundo vtrum equalitas mutua. 
+   </p>
+            <p xml:id="kzz7yh-a44437-d1e115">
+               <lb ed="#V" n="59"/>¶ Tertio vtrum equalitas numero vna. 
+   </p>
+            <div xml:id="kzz7yh-a44437-Dd1e121">
+               <head xml:id="kzz7yh-a44437-Hd1e123">Quaestio 1</head>
+               <p xml:id="kzz7yh-a44437-d1e125">
+     Quaodo I. 
+      <lb ed="#V" n="60"/>Rimo igitur ostendo quod in diuinis non fit 
+      equali<lb ed="#V" n="61" break="no"/>tas vera: quia secundum philosophum in libro praedicamentorum 
+      <lb ed="#V" n="62"/>Proprsium est quantitati secundum ipsam equale vel inequale dici 
+      <lb ed="#V" n="63"/>sed indeo non est quantitas. quia secundum Aug. v. de tri. c. i. 
+      <lb ed="#V" n="64"/>Ipse est sine quantitate magnus. ergo in deo non est equalitas. 
+      <lb ed="#V" n="65"/>Item vbicumqueest aliquorum equalitas: ibi est eorum 
+      commensuratio<lb ed="#V" n="66" break="no"/>quia equale est quonec excedit nec exceditur: sed in diuis personis 
+      <lb ed="#V" n="67"/>cum non heant mensuram non potest esse commensuratio: ergo nec 
+      <!--00145.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="68"/>vera equalitas. Item secundum philosophum. v. Metaphi. c. de simili. Similia 
+      <lb ed="#V" n="69"/>dicuntur quorum qualitas vna: sed in diuis non est quantitas nisi virtu 
+      <lb ed="#V" n="70"/>tis. Uirtus autem qualitas est: ergo in diuis non est qualitas vera: 
+      <lb ed="#V" n="71"/>sed similitudo. Item persona habens plures proprietates: et persona 
+      ha<lb ed="#V" n="72" break="no"/>bens vnam tantum: non videtur esse vere equales: sed spiritus sanctus habet vnam 
+      <lb ed="#V" n="73"/>proprietatem tantum scilicet spirationem passiuam: pater vero habet tres scilicet 
+      <lb ed="#V" n="74"/>inscibilitatem paternitatem et spirationem actiuam. Filius duas scilicet 
+      <lb ed="#V" n="75"/>generationem passiuam et spirationem actiuam: ergo spiritus sanctus 
+      <lb ed="#V" n="76"/>non videtur vere esse equalis patri et filio. 
+    </p>
+               <p xml:id="kzz7yh-a44437-d1e169">
+                  <lb ed="#V" n="77"/>Contra in simbolo Athana dicitur quod tres persone coeterne 
+      <lb ed="#V" n="78"/>sibi sunt et coequalas. Item Augu. viii. libo de tri. 
+      <lb ed="#V" n="79"/>. c. i. Nec pater nec filius simul maius quid est quam ipse scilicet spiritus sanctus 
+      <lb ed="#V" n="80"/>ergo est ibi equalitas non tantummodo vera: sed etiam summa ex quo 
+      <lb ed="#V" n="81"/>plures persone simul non sunt aliquid maius quam vna. 
+    </p>
+               <p xml:id="kzz7yh-a44437-d1e182">
+                  <lb ed="#V" n="82"/>Respondeo quod in diuis est equalitas non tantummodo vera sed etiam 
+      <lb ed="#V" n="83"/>suma: quia illa sunt equalia quorum est quantitas vna. 
+      <lb ed="#V" n="84"/>In divinis autem quamuis non sit quantitas molis tamen est ibi quantitas 
+      <lb ed="#V" n="85"/>virtutis quam plus voluit Aug. nominare nomine magnitudinis 
+      <lb ed="#V" n="86"/>quam nomine quantitatis nec ex hoc sapientes eternaliter de deo 
+      acci<lb ed="#V" n="87" break="no"/>perent occasionem errandi estimando in deo esse quantitatem 
+      mo<lb ed="#V" n="88" break="no"/>lis replentem orbem. Super autem quantitatem virtutis cum sit 
+      al<lb ed="#V" n="89" break="no"/>tior quam quantitas molis fundatur nobilior equalitas quam illa que 
+      <lb ed="#V" n="90"/>fundatur super quantitatem molis. In diuis autem personis vna est 
+      <lb ed="#V" n="91"/>magnitudo non tantummodo viitate proportonis: sed etiam vnitate 
+      <lb ed="#V" n="92"/>secundum numerum maior est autem equalitas que fundatur super vnam 
+      quam<lb ed="#V" n="93" break="no"/>titatem sed numerum quam que fundatur super duas secundum numerum: que 
+      <lb ed="#V" n="94"/>dicuntur vna secundum proportionem: eo quod commensurate sunt. 
+      Magnitu<lb ed="#V" n="95" break="no"/>do autem in divinis non tantummodo est vna numero: sed etiam 
+      sum<lb ed="#V" n="96" break="no"/>me vna propter summe illius essentie simplicitatem propter quam dicit 
+      <lb ed="#V" n="97"/>beatus Ber. v. de consideratione ad Cugenium. c. xx. quod inter 
+      <lb ed="#V" n="98"/>omnia que ratione vuum dicuntur arcem tenet vnitas trinitatis: qua 
+      <lb ed="#V" n="99"/>tres persone vna substantia sunt. Oportet ergoquod ibi sit summa equalitas quia si 
+      <lb ed="#V" n="100"/>est equalitas in vno quod sit equalitas in omnibus. Unde Aug. vi. de trinitate. c. Vv. 
+      <lb ed="#V" n="101"/>loquens de equalitate spiritus sancti dicit sic. Equalis est ergo 
+      <lb ed="#V" n="102"/>etiam spiritus sanctus: et si equalis omnibus equalis 
+      pro<lb ed="#V" n="103" break="no"/>pter summam simplicitatem que in illa substantia est. 
+    </p>
+               <p xml:id="kzz7yh-a44437-d1e232">
+                  <lb ed="#V" n="104"/>Ad primum in oppositum cum dicitur quod in deo non est quantitas etc. dico 
+      <lb ed="#V" n="105"/>quod verum est loquendo de quantitate molis tamen est ibi 
+      quanti<lb ed="#V" n="106" break="no"/>tas virtutis secundum quam bene attenditur equalitas.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e242">
+      ¶ Ad 2m cum 
+      de<lb ed="#V" n="107" break="no"/>quod in diuis personis non potest esse commensuratio etc. Dico quod eue 
+      <lb ed="#V" n="108"/>litas que est ex conuenientia in vna quantitate vnitate 
+      proporti<lb ed="#V" n="109" break="no"/>onis commensurationem includit: non sic autem illa equalitas: quae fundai 
+      <lb ed="#V" n="110"/>super eandem quantitatem in numero propritie loquendo de commensuratio 
+      <lb ed="#V" n="111"/>ne: quia commensuratio includit commensuratorum terinationem: et 
+      ade<lb ed="#V" n="112" break="no"/>quationem. Terminatio autem in divinis esse non potest: et ideo nec 
+      con<lb ed="#V" n="113" break="no"/>mensuratio proprie loquendo. Equalitas vera de suo signato non 
+      <lb ed="#V" n="114"/>importat nisi adequationem et ideo in divinis bene est equalitas: quamuis non 
+      <lb ed="#V" n="115"/>ibi sit commensuratio.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e264">
+      ¶ Ad 3m cum dicitur quod virtus est qualitas 
+      <lb ed="#V" n="116"/>etc. Dico quod virtus in creatura bene qualitas est per comparationem ad illud 
+      <lb ed="#V" n="117"/>cuius est tamen per compositionem ad obstia in que potest modum quantitatis 
+      <lb ed="#V" n="118"/>habet: virtus tamen in creatore quamlitas non est sed est realiter idem cum 
+      <lb ed="#V" n="119"/>ipsa divina substantia. quia ergo substantia virtus et magnitudo idem sunt re in 
+      <lb ed="#V" n="120"/>deo secundum rationem differentia: ideo identitas similitudo et equalitas idem 
+      <lb ed="#V" n="121"/>sunt re in deo: differunt tamen secundum rationem
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e280">
+      ¶ Ad 4m cum dicitur quod 
+      per<lb ed="#V" n="122" break="no"/>habens plures proprietates: et per habens vnam tantum non sunt vere equales 
+      <lb ed="#V" n="123"/>etc dico quod suntum est quia non plus est de virtute in persona habente plurles 
+      <lb ed="#V" n="124"/>proprietates quam in habente vnam tantum: quia eadem virtus 
+      <lb ed="#V" n="125"/>est in vtrisque.
+   </p>
+            </div>
+            <div xml:id="kzz7yh-a44437-Dd1e292">
+               <head xml:id="kzz7yh-a44437-Hd1e294">Quaestio 2</head>
+               <p xml:id="kzz7yh-a44437-d1e296">
+      Quaestio II. 
+      <lb ed="#V" n="126"/>SEcundo queritur: vtrum inter personas 
+      diu<lb ed="#V" n="127" break="no"/>nas sit equalitas mutua: et videtur quod 
+      <lb ed="#V" n="128"/>non Dionysi. libro de diui. nomi. c. ix. incausatis et 
+      <lb ed="#V" n="129"/>causalibus non recipimus reciprocationem: ergo cum 
+      <lb ed="#V" n="130"/>pater sit: principium filii: filius est equalis patri non econuerso. 
+      <lb ed="#V" n="131"/>Item Augu. vi. de tritate. c. X. imago si perfecte implet illud cum 
+      <lb ed="#V" n="132"/>ius est imago ipsa coequatur ei: non illud imaginisue: ergo 
+      <lb ed="#V" n="133"/>cum filius sit imago patris ipse est equalis patri non eoous. 
+    </p>
+               <p xml:id="kzz7yh-a44437-d1e316">
+                  <lb ed="#V" n="134"/>Contra in ratis equipantie fit reciprocatio: 
+      equali<lb ed="#V" n="135" break="no"/>cas vero est relatio equiperantie: ergo si vna 
+      <!--00146.xml-->
+      <pb ed="#V" n="66-v"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>persona est equalis alii: ita et econuerso.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e332">
+      ¶ Item maior est 
+      <lb ed="#V" n="2"/>equalitas mutua quam non mutua: sed equalitas diuinarum 
+      <lb ed="#V" n="3"/>personarum est: maxima ergo mutua. 
+    </p>
+               <p xml:id="kzz7yh-a44437-d1e339">
+                  <lb ed="#V" n="4"/>Respondeo quod equalitas potest accipi prout dicit relationem 
+      <lb ed="#V" n="5"/>equiparantie tantum: et sic filius est equalis patri et 
+      <lb ed="#V" n="6"/>econuerso: aut prout vltra illum respectum importat coequa 
+      <lb ed="#V" n="7"/>tionem passiuo modo dictum: et hoc modo filius est 
+      equa<lb ed="#V" n="8" break="no"/>tis patri: quia coequatur ei. Pater enim generando ipsum in 
+      <lb ed="#V" n="9"/>vnitate sue substantie coequat sibi eum: hoc est dat ei vt 
+      <lb ed="#V" n="10"/>sit sibi equalis.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e358">
+      ¶ Sed hoc modo. pater non est equalis filio: 
+      <lb ed="#V" n="11"/>quia filius non dat patri vt sibi sit equalis. Sed quia de virtute 
+      <lb ed="#V" n="12"/>sermonis hoc nomen equale: non videtur importare nisi 
+      <lb ed="#V" n="13"/>relationem equiperantie: quia quod importet coequationem: videtur 
+      <lb ed="#V" n="14"/>magis ex modo loquendi secundum quem non consueuimus dicere 
+      <lb ed="#V" n="15"/>proprie veritatem. Rex est cum milite: sed miles est cum 
+      <lb ed="#V" n="16"/>rege. Ideo de virtute sermonis nisi essent auctoritates que 
+      <lb ed="#V" n="17"/>videntur sonare ad contrarium: videretur posse concedi 
+      sim<lb ed="#V" n="18" break="no"/>pliciter quod pater est equalis filio.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e378">
+      ¶ Per hoc patet Rmidens 
+      <lb ed="#V" n="19"/>ad argumeta ad vtranque partem.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e383">
+      ¶ Argumenta enim ad 
+      <lb ed="#V" n="20"/>partem primam procedut de equalitate secundum quod vltra 
+      rela<lb ed="#V" n="21" break="no"/>tionem equiperantie importat illam coequationem passiuo 
+      <lb ed="#V" n="22"/>modo dictam.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e392">
+      ¶ Argumenta ad partem aliam procedunt de 
+      <lb ed="#V" n="23"/>equitate secundum quod dicit equiperantie relationem tantum.
+   </p>
+            </div>
+            <div xml:id="kzz7yh-a44437-Dd1e398">
+               <head xml:id="kzz7yh-a44437-Hd1e400">Quaestio 3</head>
+               <p xml:id="kzz7yh-a44437-d1e402">
+      Quaestio III. 
+      <lb ed="#V" n="24"/>Tertio queritur: vtrum inter diuinas personas 
+      <lb ed="#V" n="25"/>sit equalitas vna numero: et videtur quod 
+      <lb ed="#V" n="26"/>non: quia relationes numerantur secundum subiecta: ergo 
+      <lb ed="#V" n="27"/>cum equalitas sit relatio in tribus personis sunt tres 
+      <lb ed="#V" n="28"/>equalitates.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e415">
+      ¶ Item Aui. iii. Metaphysi. c. de relatione 
+      <lb ed="#V" n="29"/>dicit quod in duobus fratribus sunt due fraternitates: ergo 
+      <lb ed="#V" n="30"/>similiter in duobus equalibus sunt due equalitates.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e422">
+      ¶ Item 
+      <lb ed="#V" n="31"/>diuersorum patrum in specie: sunt diuerse paternitates in 
+      <lb ed="#V" n="32"/>specie: vt ostendam: ergo similiter distinctorum equalium in 
+      <lb ed="#V" n="33"/>numero sunt distincte equalitates in uumero: sed pater 
+      <lb ed="#V" n="34"/>et filius et spiritus sanctus sunt tres distincti in numero et equa 
+      <lb ed="#V" n="35"/>les: ergo in eis sunt tres equalitates in numero: maior videtur 
+      <lb ed="#V" n="36"/>sic probari. Philosophus enim videtur velle. v. Phys. quod motus 
+      <lb ed="#V" n="37"/>circularis et rectus differunt specie: quia linea circularis et 
+      <lb ed="#V" n="38"/>recta super quas fundatur differunt specie: ergo similiter 
+      <lb ed="#V" n="39"/>videtur quod ille paternitates differant specie: quarum 
+      subie<lb ed="#V" n="40" break="no"/>cta in quibus radicantur differunt specie.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e446">
+      ¶ Item 
+      diuer<lb ed="#V" n="41" break="no"/>sorum in specie: diuersa est simplicitas in specie: ergo a 
+      simili<lb ed="#V" n="42" break="no"/>distinctorum in numero distincte sunt equalitates in numero 
+      <lb ed="#V" n="43"/>Minor patet per Philosophum. vii. physi. Qui vult quod duplicitas 
+      di<lb ed="#V" n="44" break="no"/>catur equiuoce de duplicitate in aere et aqua: et ideo non 
+      <lb ed="#V" n="45"/>comperantur: quod non esset verum: si essent in eadem specie. 
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e460">
+                  <lb ed="#V" n="46"/>¶ Item subiecto manente vno numero respectu plurium 
+      <lb ed="#V" n="47"/>terminorum in numero numerantur relationes eiusdem 
+      spe<lb ed="#V" n="48" break="no"/>ciei: vt ostendam: ergo videtur a simili quod respectu plurium 
+      perso<lb ed="#V" n="49" break="no"/>narum non obstant quod in eisdem sit vnum fundamentum 
+      <lb ed="#V" n="50"/>equalitatis scilicet vna magnitudo numerantur equalitates: 
+      an<lb ed="#V" n="51" break="no"/>tecedens patet: quia in vno patre plures filios habente vt 
+      Ia<lb ed="#V" n="52" break="no"/>cobum et Ioannem: alius est respectus ad Ioannem filium 
+      <lb ed="#V" n="53"/>vt ad illum qui est de substantia sua: et alius respectus ad 
+      Ia<lb ed="#V" n="54" break="no"/>cobum vt ad illum qui est de substantia sua: cum ergo 
+      pater<lb ed="#V" n="55" break="no"/>nitas formaliter non dicat nisi respectum ad alium vt ad 
+      <lb ed="#V" n="56"/>genitum in similitudine substantiae sue: videtur quod in vno patre 
+      re<lb ed="#V" n="57" break="no"/>spectu plurium filiorum plures sunt paternitates. Et ita 
+      numeran<lb ed="#V" n="58" break="no"/>tur relationes per numerationem terminorum subaniecto manente vno. 
+    </p>
+               <p xml:id="kzz7yh-a44437-d1e491">
+                  <lb ed="#V" n="59"/>Contra. Si in duobus homnibus esset vna superficies 
+      nu<lb ed="#V" n="60" break="no"/>mero: si essent albi in illis: esset vna albedo 
+      <lb ed="#V" n="61"/>in numero: eo quod superficies est immediatum subiectum 
+      albedi<lb ed="#V" n="62" break="no"/>nis: ergo similiter cum quantitas sit immediata causa equalitatis 
+      <lb ed="#V" n="63"/>cum in tribus personis sit vna quantitas virtutis in numero: in illis 
+      <lb ed="#V" n="64"/>est vna equalitas virtutis in numero.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e507">
+      ¶ Item Auic. vi. 
+      <lb ed="#V" n="65"/>naturalium parte ii. c. v. dicit quod in pluribus amicis est vna 
+      ami<lb ed="#V" n="66" break="no"/>citia: ergo similiter in tribus personis equalibus vna est 
+      equali<lb ed="#V" n="67" break="no"/>tas.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e516">
+      ¶ Item similitudo hominis albi ad alium album est eadem 
+      <lb ed="#V" n="68"/>similitudo in specie: quia causa huius similitudinis scilicet albedoest 
+      <!--00146.xml-->
+      <cb ed="#P" n="b"/>
+                  <lb ed="#V" n="69"/>eadem specie in vtroque: ergo similiter trium personarum est eadem 
+      <lb ed="#V" n="70"/>equalitas in numero: cum vna sit simplex quantitas in vtroque. 
+    </p>
+               <p xml:id="kzz7yh-a44437-d1e529">
+                  <lb ed="#V" n="71"/>Respondeo quod in tribus personis est vna equalitas in nure 
+      <lb ed="#V" n="72"/>ro: quia equalitas numerari non potest nisi 
+      nume<lb ed="#V" n="73" break="no"/>retur proximum et proprium fundamentum illius: proximum autem et 
+      <lb ed="#V" n="74"/>proprium fundamentum relationis qui est equalitas: est quantitas: ideo 
+      <lb ed="#V" n="75"/>non numeratur equalitas in illis in quibus non numeratur 
+      quanti<lb ed="#V" n="76" break="no"/>tas: quia ergo in tribus personis non numeratur spiritualis quantitas: quia 
+      <lb ed="#V" n="77"/>virtus que est quantitas spiritualis vna numero est in tribus: ideo 
+      <lb ed="#V" n="78"/>dico quod in illis non numeratur equalitas: est ergo vna equalitas in 
+      <lb ed="#V" n="79"/>numero in tribus personis.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e551">
+      ¶ In creaturis vero in quibus 
+      nu<lb ed="#V" n="80" break="no"/>meratur quantitas: numeratur hec relatio quae est equalitas. 
+      <lb ed="#V" n="81"/>Sd primum in oppositum cum dicitur quod relationes numerantur secundum 
+      <lb ed="#V" n="82"/>subiecta etc. dico quod non est verum nisi proprium et proximum 
+      <lb ed="#V" n="83"/>fundamentum illius relationis numeretur in illis subcniectis. 
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e563">
+                  <lb ed="#V" n="84"/>¶ Uel potest dici quod tres persone non sunt plura subiecta 
+      equa<lb ed="#V" n="85" break="no"/>litatis: sed vnum subiectum: si nomen subiecti reciperetur in 
+      di<lb ed="#V" n="86" break="no"/>uinis: quia in illis est equalitas ratione vnius fundamenti.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e572">
+      ¶ Ad 
+      <lb ed="#V" n="87"/>secundum cum dicitur quod in duobus fratribus sunt due fraternitates etc. 
+      <lb ed="#V" n="88"/>dico quod verum est: quia in duobus fratribus sunt duo proposia et. 
+      <lb ed="#V" n="89"/>proxima fundamenta fraternitatis: quia aliam substantiam habet vnus 
+      <lb ed="#V" n="90"/>frater a patre: et alius aliam: et per aliud et aliud genitum esse: 
+      <lb ed="#V" n="91"/>etiam si gemelli nascerentur. In tribus autem personis vnum numero 
+      <lb ed="#V" n="92"/>est fundamentum equalitatis: et ideo in arguendo bonam similitudi 
+      <lb ed="#V" n="93"/>nem non accepit.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e590">
+      ¶ Ad 3m cum dicitur quod diuersorum patrum 
+      <lb ed="#V" n="94"/>in specie sunt diuerse paternitates in specie etc. dico quod verum 
+      <lb ed="#V" n="95"/>quia in diuersis patribus in specie causa propostia et proxima paternitatis 
+      <lb ed="#V" n="96"/>est: alia et alia in specie siue causa illa ponatur potentia generatiua siue 
+      <lb ed="#V" n="97"/>actus generandi: siue dispositio ex actu generandi in generante 
+      <lb ed="#V" n="98"/>derelicta: siue aliquid aliud quodcumque sit illud. In diuinis vero 
+      <lb ed="#V" n="99"/>personis non numeratur causa propositia et proxima equalitatis vt supra 
+      <lb ed="#V" n="100"/>visum est: et ideo in illis est equalitas numero vna
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e608">
+      ¶ Ad 4d 
+      <lb ed="#V" n="101"/>cum dicitur quod diuersorum in specie diuersa est duplicitas in 
+      spe<lb ed="#V" n="102" break="no"/>cie etc. dico quod verum est de illa duplicitate: cuius causa 
+      proxima<lb ed="#V" n="103" break="no"/>et immediata est alia et alia in specie: aliter non. vnde quia illa 
+      du<lb ed="#V" n="104" break="no"/>plicitas quae est in aere: et illa quaie est in aliqua ratione quantitatis non 
+      <lb ed="#V" n="105"/>habet in aere: et in aqua causam differentem specie: quia quantitas 
+      in<lb ed="#V" n="106" break="no"/>aere et aqua eiusdem est speciei: ideo ille duplicitates non 
+      diffe<lb ed="#V" n="107" break="no"/>runt in specie: sed quia substantia acris et aque differunt 
+      specie<lb ed="#V" n="108" break="no"/>ideo duplicitas: que est ibi ratione substantie est alia et alia 
+      <lb ed="#V" n="109"/>in specie.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e630">
+      ¶ Ad 5um dicitur quod in vno patre respectu plurium 
+      <lb ed="#V" n="110"/>filiorum sunt plures patruitates etc. Dicunt aliqui quod falsum est 
+      <lb ed="#V" n="111"/>quia quamuis hebeat plures respectus ad plures filios: vna tamen 
+      pater<lb ed="#V" n="112" break="no"/>nitas est: quia plura accidentia solo numero differentia: non possunt esse 
+      <lb ed="#V" n="113"/>in eodem subiecto.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e641">
+      ¶ Sed hec responsio dupliciter peccat. distinguit enim 
+      <lb ed="#V" n="114"/>inter ralationem et respectum: cum tamen relatio formaliter non 
+      di<lb ed="#V" n="115" break="no"/>cat nisi respectum: aliter enim non distingueretur contra alia. ix. praesmta. 
+      <lb ed="#V" n="116"/>Unde in hoc quod dicunt in vno patre respectu plurium filiorum 
+      <lb ed="#V" n="117"/>vnam esse paternitatem: et tamen esse plures respectus ad illos: vt ad 
+      <lb ed="#V" n="118"/>eos qui producti sunt ab eo de substantia sua per generationem. 
+      Contra<lb ed="#V" n="119" break="no"/>dictoria dicunt sub diuersis vocabulis. Preterea si non 
+      <lb ed="#V" n="120"/>plurificarentur ibi paternitates: aut hoc esset propter absentiam 
+      cau<lb ed="#V" n="121" break="no"/>se proxime educenti in esse plures paternitates: aut propter defectum esse 
+      consi<lb ed="#V" n="122" break="no"/>derant conseruantis: aut propter in dispositionem subiteanti suscipientis: quia 
+      si<lb ed="#V" n="123" break="no"/>adest numeratio causarum proximarum producentium et conseruantium 
+      <lb ed="#V" n="124"/>et dispositionem in suscipiente effectu: plurificantur effectus: sed 
+      <lb ed="#V" n="125"/>generatio similis in natura in facto esse: est causa efficiens et conseruans 
+      pater<lb ed="#V" n="126" break="no"/>nitatem: et iste generationes plurificantur in patre habente plures 
+      <lb ed="#V" n="127"/>filios: et si gemelli nascerentur quia alia et alia esset actio quae vert 
+      <lb ed="#V" n="128"/>informata formasset vnum et alium. Preterea patr propter 
+      respe<lb ed="#V" n="129" break="no"/>ctum ad vnum filium non est indispositus ad suscipiendum 
+      <lb ed="#V" n="130"/>respectum ad alium filium: ergo in vno patre respectu plurium 
+      <lb ed="#V" n="131"/>filiorum multiplicatur respectus quibus illos respicit: vt a se 
+      pro<lb ed="#V" n="132" break="no"/>ductos de substantia sua per generationem sibi similis in natura: paternitates 
+      <lb ed="#V" n="133"/>autem formaliter loquendo non nominant nisi illos respectus in vno 
+      <lb ed="#V" n="134"/>ergo patre respectu plurium filiorum plures sunt paternitates. 
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e690">
+                  <lb ed="#V" n="135"/>¶ Preterea cum ipsi dicunt quod plura accidentia solo numero 
+      <lb ed="#V" n="136"/>diffentia non possunt esse in eodem subecto: quia numeratus distinctio acciden¬ 
+      <!--00147.xml-->
+      <pb ed="#V" n="67-r"/>
+                  <cb ed="#P" n="a"/>
+                  <lb ed="#V" n="1"/>tium est per substantia falsum est de illis accidentibus que aliunde habent 
+      <lb ed="#V" n="2"/>causam sue distinctionis quam a subiento. hec autem est rlulo. Suum enim 
+      <lb ed="#V" n="3"/>esse dependet non tantum a subieanto: sed etiam a terio et a causa.
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e710">
+      ¶ 
+      Sol<lb ed="#V" n="4" break="no"/>uendu est ergo aliter ad argumentum concedendo maiorem illius. 
+      dicen<lb ed="#V" n="5" break="no"/>do quod ex hoc non sequitur conlusio: quia plures filii inquantum sunt 
+      teri<lb ed="#V" n="6" break="no"/>paternitatis plules sunt: quia cause per quas sunt termini plures 
+      <lb ed="#V" n="7"/>sunt. Similiter aperte patris respectu plurium filiorum causae paternitatis pro 
+      <lb ed="#V" n="8"/>prie et proxime plures sunt. Plures aut persone in re per quam 
+      <lb ed="#V" n="9"/>est in esia equalitas vnum sunt quia tres persione vnum sunt in 
+      quam<lb ed="#V" n="10" break="no"/>titate virtutis
+   </p>
+               <p xml:id="kzz7yh-a44437-d1e728">
+      ¶ Argumenta ad oppositum gratia conclusionis possunt concedi. 
+      <lb ed="#V" n="11"/>Medium tamen argumentum peccat in processu: quia cum dicit Aui. quod in 
+      <lb ed="#V" n="12"/>pluribus amicis est vna amicicia non accepit amiciciam prout e 
+      no<lb ed="#V" n="13" break="no"/>men relatiuum: sed prout est nomen collectiuum plutrium amiciciarum. 
+   </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

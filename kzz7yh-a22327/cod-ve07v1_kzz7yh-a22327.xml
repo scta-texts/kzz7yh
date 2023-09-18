@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="33-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a22327"><!-- l1d8cl -->
+            <head xml:id="kzz7yh-a22327-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a22327-d1e103">
+               <lb ed="#V" n="56"/>CIrca litteram Divinae naturae) scilicet prout est
+     <lb ed="#V" n="57"/>principium agendi. Uel 
+      sub<lb ed="#V" n="58" break="no"/>stantie) scilicet prout est ratio subsistendi. (summe 
+      es<lb ed="#V" n="59" break="no"/>sentie ) scilicet prout est ratio essendi. (Uel si melius 
+      <lb ed="#V" n="60"/>hoec appellatur essentia) scilicet quia essentia magis significat 
+      <lb ed="#V" n="61"/>in abstractione: et ita magis significat diuinam 
+      simplicita<lb ed="#V" n="62" break="no"/>tem quam nomen substantie. (Ab eo quod est sapere dicta est 
+      sa<lb ed="#V" n="63" break="no"/>pientia scilicet quantum ad originem nominandi secundum 
+      grammati<lb ed="#V" n="64" break="no"/>cum: quia actus sunt nobis notiores quam habitus: et sicut res 
+      <lb ed="#V" n="65"/>cognoscimus: ita nomina imponimus. non autem est verum 
+      <lb ed="#V" n="66"/>simpliciter: quia per sapientiam est sapiendi actio. (Non nouit 
+      <lb ed="#V" n="67"/>preteritum: vel futurum. uon scilicet notitia experientie: quia 
+      <!--00079.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="68"/>non variatur tempus: quamuis certissime cognoscat ommia 
+      <lb ed="#V" n="69"/>preterita et futura: et possibilia fieri que nunquam erunt. 
+      <lb ed="#V" n="70"/>(Solus deus vere est. verum est secundum quod veritas essendi 
+      ex<lb ed="#V" n="71" break="no"/>cludit permixtionem cum possibilitate. (Cuius essentie 
+      com<lb ed="#V" n="72" break="no"/>paratum nostrum esse non est. hoc verbum debet 
+      intel<lb ed="#V" n="73" break="no"/>ligi de operatione secundum determinatam proportionem: quia 
+      no<lb ed="#V" n="74" break="no"/>strum esse quantuncumque multiplicetur: nunquam 
+      equipara<lb ed="#V" n="75" break="no"/>tur diuino esse: sicut nec prunctus linee: immo minus: tammen 
+      <lb ed="#V" n="76"/>nostrum esse aliquam habet habitudinem ad diuinum esse: 
+      <lb ed="#V" n="77"/>quia per illam habitudinem sumus. Tantum enim 
+      habe<lb ed="#V" n="78" break="no"/>mus de esse: quantum diuinum imitamur. (Esse non est 
+      ac<lb ed="#V" n="79" break="no"/>cidens deo.) Nota quod esse proprie loquendo etiam non est 
+      <lb ed="#V" n="80"/>accidens in creatura saltem absolutum. hoc ideo dixi: quia 
+      <lb ed="#V" n="81"/>aliquam relationem importat secundum essentiam creature: tamen 
+      <lb ed="#V" n="82"/>aliqualiter assimilatur accidenti in creatura: in deo autem 
+      <lb ed="#V" n="83"/>non sic: quia deus est purum esse: quod dici non potest de 
+      <lb ed="#V" n="84"/>creatura habente esse. Esse etiam creature est 
+      destructibi<lb ed="#V" n="85" break="no"/>le: non autem esse diuinum. Unde Augustinus 5 de trinita. cap. 4. 
+      <lb ed="#V" n="86"/>dicit. Nihil itaque accidens in deo quia nihil imitabile: aut 
+      <lb ed="#V" n="87"/>ammissibile: et sic autem extendit nomen accidentis ad 
+      om<lb ed="#V" n="88" break="no"/>ne illud quod admitti potest vel mutari. (Subsistens 
+      ve<lb ed="#V" n="89" break="no"/>ritas.) quia non dependet ab aliqua alia essentia. (
+      Ma<lb ed="#V" n="90" break="no"/>nens causa:) quia immutabiliter in seipso permanens caufa 
+      <lb ed="#V" n="91"/>est omnis creature. (Naturalis generis proprietas:) quia 
+      er<lb ed="#V" n="92" break="no"/>se diuinum non est admissibile: vnum tamen signnt: scilicet 
+      <lb ed="#V" n="93"/>diuinam naturam: nec propter hoc sunt nomina synoni 
+      <lb ed="#V" n="94"/>ma scilicet bonus: magnus: sapiens: beatus: verus etc. quia 
+      quam<lb ed="#V" n="95" break="no"/>uis significant vnum re: tamen sub alia et alia ratione. 
+      <lb ed="#V" n="96"/>(Deus autem non subsistit: vt substantia proprie dici possit. 
+      Ue<lb ed="#V" n="97" break="no"/>rum est secundum rationem impositionis. dicitur enim a substando: 
+      <lb ed="#V" n="98"/>quia subsistit aliis nouem generibus. Secundum vero quod habent 
+      <lb ed="#V" n="99"/>rationem per se existentis: sic maxime conuenit deo et 
+      sun<lb ed="#V" n="100" break="no"/>mo. (Non ex compositis.) per hoc excludit compositionem 
+      <lb ed="#V" n="101"/>ex principiis essentialibus quecunque sint illa. (Neque qui 
+      <lb ed="#V" n="102"/>virtus est ex infirmis continetur.) per hoc excludit 
+      com<lb ed="#V" n="103" break="no"/>positionem ex materia naturali et forma. Talis enim 
+      ma<lb ed="#V" n="104" break="no"/>teria est cum priuatione: et reddit formam instabilem et 
+      <lb ed="#V" n="105"/>infirmam. (Neque qui lux est: ex obscuris coaptatur.) per 
+      <lb ed="#V" n="106"/>hoc excludit compositionem ex missibilibus. quia enim 
+      <lb ed="#V" n="107"/>in mixtione est quedam qualitatum quasi confusio: ideo est 
+      <lb ed="#V" n="108"/>ibi quasi obscuritas quedam. (Neque qui spiritus est ex 
+      dif<lb ed="#V" n="109" break="no"/>paribus formulis est:) per hoc excludit compositionem 
+      <lb ed="#V" n="110"/>ex natura corporali et spirituali: vt est in homine. Ecce 
+      <lb ed="#V" n="111"/>quantum est idemptitas.) Per hoc excludit diuersitatem in 
+      <lb ed="#V" n="112"/>teressentiam et personam. (Quanta est vnitas.) per hoc 
+      <lb ed="#V" n="113"/>excludit multiplicationem essentie in personis. (Immu 
+      <lb ed="#V" n="114"/>tabilitas: ) per hoc excludit communem mutabilitatem. 
+      <lb ed="#V" n="115"/>(Puritas.) per hoc excludit omnis priuationis 
+      possibi<lb ed="#V" n="116" break="no"/>litatis permixtionem. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

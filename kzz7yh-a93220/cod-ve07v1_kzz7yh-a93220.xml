@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circa litteram</title>
+            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Circa litteram</title>
+               <date when="2023-09-18">September 18, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-09-18" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="135-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="kzz7yh-a93220"><!-- l1d43cl -->
+            <head xml:id="kzz7yh-a93220-Hd1e101">Circa litteram</head>
+            <p xml:id="kzz7yh-a93220-d1e103">
+               <lb ed="#V" n="38"/>Circa litteram. (Iustitia dei ipsius equssima 
+      vo<lb ed="#V" n="39" break="no"/>luntas accipitur) . In quo datur 
+      intelli<lb ed="#V" n="40" break="no"/>gi quod voluntas dei est ipsa reglibura iustitie: et quod de eo 
+      <lb ed="#V" n="41"/>ipso iustum est aliquid fieri vel non fieri: quod deus vult 
+      <lb ed="#V" n="42"/>vt fiat: vel non fiat. (Poterat per potentiam: sed non poterat 
+      <lb ed="#V" n="43"/>per iustitiam) secundum enim quod dicit Ansel. prosoluis. c. x. Iustitia dicitur vel 
+      <lb ed="#V" n="44"/>exigentia meritorum: vel concedescentia divinae bonitatis: dico er 
+      <lb ed="#V" n="45"/>go quod poterat per iustitiam punire loth. secundum quod dicit 
+      conceden<lb ed="#V" n="46" break="no"/>tiam bonitatis diuine: quia si hoc fecisset bonitatem suam 
+      de<lb ed="#V" n="47" break="no"/>cuisset: sed non poterat de iustitia secundum exigentiam 
+      merito<lb ed="#V" n="48" break="no"/>rum: quia secundum quod dicit Petrus. 2 cano. sua. c. 2. ipse Loth 
+      as<lb ed="#V" n="49" break="no"/>pectu etauditu iustus erat habitans apud eos qui de die in 
+      <lb ed="#V" n="50"/>diem animam iusti iniquis operibus cruciabant. (hoc verbum 
+      <lb ed="#V" n="51"/>debet venenum habet. Hoc ideo dicit: quia debitum ex commis 
+      <lb ed="#V" n="52"/>so obligat de necessitate: et tale debitum non cadit in deo 
+      <lb ed="#V" n="53"/>sed debitum ex promisso magis sonat in gratiam et liberalitatem 
+      <lb ed="#V" n="54"/>quam in obligationem: et tale debitum aliquomon est in deo. (Non 
+      <lb ed="#V" n="55"/>est debitor nobis nisi forte ex promisso: et dicit sorte quia etiam 
+      <lb ed="#V" n="56"/>hoc quod promittit deus ex gratia est: et per conseqens promissum 
+      redde<lb ed="#V" n="57" break="no"/>re gratia est. Dicitur enim debitum quasi de alio habitum: 
+      <lb ed="#V" n="58"/>ideo quicquid possumus ei debemus. Ipse vero proprie 
+      loquen<lb ed="#V" n="59" break="no"/>do nulli debitor est. Eadem manente ratione et causa alia 
+      po<lb ed="#V" n="60" break="no"/>tuit facere: et ista dimittere: hic non loquitur de ratione secundum quod 
+      <lb ed="#V" n="61"/>accipitur pro idea: sed secundum quod accipitur pro rationali voluntate: qua 
+      <lb ed="#V" n="62"/>velle potuit alia facere quam ista que facta sunt: non 
+      mutatio<lb ed="#V" n="63" break="no"/>ne sua: sed mutatione volitorum: (Plura sunt subdita eius 
+      po<lb ed="#V" n="64" break="no"/>tentie quam eius voluntatis: sic intelligendo quod plura potest 
+      fa<lb ed="#V" n="65" break="no"/>cere quam proposuerit se facturum quamuis non possit plura facere 
+      <lb ed="#V" n="66"/>quam possit velle se facturum. (Cur apud quosdam non sunt 
+      <lb ed="#V" n="67"/>facte virtutes). Respondeo secundum Glo. Matth. xi. super illud. Si in 
+      <lb ed="#V" n="68"/>thyro etes. Quod proposuerit christus fines: iudee non excedere ne¬ 
+      <!--00284.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#V" n="69"/>iustam phariseits et sacerdotibus persecutionis occasionem 
+      da<lb ed="#V" n="70" break="no"/>ret: et erant tunc qui incoronati essent vocandi in tyro qui 
+      <lb ed="#V" n="71"/>non essent vocandi: nec tamen de contemptu grauius puniendi. 
+      <lb ed="#V" n="72"/>(Nunquid dicendum est non potuit iudam suscitare in 
+      men<lb ed="#V" n="73" break="no"/>te. Dico quod non ipso iuda remanente in actu voluntatis 
+      <lb ed="#V" n="74"/>male: sed deus illum malum actum potuisset remouere et 
+      gra<lb ed="#V" n="75" break="no"/>tiam sibi conferre. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>
