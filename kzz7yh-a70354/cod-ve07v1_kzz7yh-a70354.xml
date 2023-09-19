@@ -1,463 +1,464 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title/>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title/>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="102-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a70354"><!-- l1d34prae -->
-            <p xml:id="kzz7yh-a70354-d1e101">
-               <lb ed="#V" n="127"/>¶ Opinio quorundam non idem esse personam et 
-      essen<lb ed="#V" n="128" break="no"/>tiam vel naturam dicentium et eadem essentiam non posse 
-      <lb ed="#V" n="129"/>esse patrem et filium et spiritumscntum. Distinitio XXXIIII 
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e110">
-               <lb ed="#V" n="130"/>PRedictis autem adiciendum 
-      <lb ed="#V" n="131"/>est: quod quidam 
-      per<lb ed="#V" n="132" break="no"/>uersi sensus homines in tantam prosilierunt 
-      in<lb ed="#V" n="133" break="no"/>saniam: vt dicerent non idem esse naturam dei 
-      <lb ed="#V" n="134"/>et personam siue hypostasim: dicentes eandem essen¬ 
-      <!--00219.xml-->
-      <pb ed="#V" n="103-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>tiam non posse esse patrem et filium sine personarum 
-      <lb ed="#V" n="2"/>confusione. Si enim inqunt ea essentia que pater est: 
-      <lb ed="#V" n="3"/>filius est: idem sibi pater est et filius. Si hanc 
-      rem<lb ed="#V" n="4" break="no"/>dicis esse patrem: aliam quere quam dicis esse filium. 
-      <lb ed="#V" n="5"/>Si vero aliam non quasieris: sed eandem dixeris: 
-      <lb ed="#V" n="6"/>idem genuit et genitus est. Propter hec et 
-      hu<lb ed="#V" n="7" break="no"/>iusmodi inter naturam et personam diuidunt ita: 
-      <lb ed="#V" n="8"/>vt non recipiant vnam deitatis naturam et 
-      sim<lb ed="#V" n="9" break="no"/>plicem esse tres personas. Idque testimonio 
-      Hyla<lb ed="#V" n="10" break="no"/>rii defendere nituntur: qui in. vii. libro de tri. quaerens: 
-      <lb ed="#V" n="11"/>vtrum apostolus spiritum dei nominans: et spiritum christi idem 
-      <lb ed="#V" n="12"/>significauerit vtroque verbo: inquit ita. Gentium 
-      <lb ed="#V" n="13"/>praedicator volens nature vnitatem in patre et 
-      filio<lb ed="#V" n="14" break="no"/>docere ait. Spiritus dei in vobis est. Si quis autem 
-      <lb ed="#V" n="15"/>spiritum christi non habet: hic non est eius. Si autem 
-      <lb ed="#V" n="16"/>spiritus eius qui suscitauit Iesum etc. Spirituales omnes 
-      <lb ed="#V" n="17"/>sumus si in nobis est dei spiritus: sed et hic spiritus dei 
-      <lb ed="#V" n="18"/>est et spiritus christi. Et cum christi spiritus in nobis est: eius 
-      <lb ed="#V" n="19"/>spiritus in nobis est qui suscitauit christum. Et cum eius 
-      <lb ed="#V" n="20"/>qui suscitauit christum in nobis est spiritus: et spiritus in 
-      no<lb ed="#V" n="21" break="no"/>bis est christi. Nec tamen non dei est spiritus qui in nobis est 
-      <lb ed="#V" n="22"/>Discerne ergo o heretice spiritum christi a spiritu dei: 
-      <lb ed="#V" n="23"/>et excitati a mortuis spiritum christi: a spiritu dei christum 
-      <lb ed="#V" n="24"/>a mortuis excitantis. Cum qui habitat in nobis 
-      <lb ed="#V" n="25"/>spiritus christi: spiritus dei sit: et spiritus christi a mortuis 
-      exci<lb ed="#V" n="26" break="no"/>tati spiritus dei tantum sit christum a mortuis excitantis. 
-      <lb ed="#V" n="27"/>Et quero nunc in spiritu dei: vtrum naturam 
-      an<lb ed="#V" n="28" break="no"/>rem nature significatam existimes: Non est enim 
-      <lb ed="#V" n="29"/>idem natura quod res nature: sicut non idem 
-      <lb ed="#V" n="30"/>est homo: et quod hominis est: nec idem est ignis et 
-      <lb ed="#V" n="31"/>quod ipreius ignis nobis est: et secundum hoc non est idem 
-      <lb ed="#V" n="32"/>deus et quod dei est. Huius dicti occasione 
-      pre<lb ed="#V" n="33" break="no"/>fati heretici dogmatizauerunt non idem esse 
-      perso<lb ed="#V" n="34" break="no"/>nam et naturam dei: asserentes naturam dei non 
-      <lb ed="#V" n="35"/>esse tres personas. Intelligentes in his premissis 
-      <lb ed="#V" n="36"/>verbis Hylarii per rem nature personam: et nomine 
-      <lb ed="#V" n="37"/>nature diuinam naturam. Et ideo dicunt 
-      Hyla<lb ed="#V" n="38" break="no"/>rium interrogasse hereticum. Utrum per spiritum 
-      <lb ed="#V" n="39"/>dei putaret significatam esse naturam an 
-      rem<lb ed="#V" n="40" break="no"/>nature: vt sic ostenderet distinguendum esse 
-      in<lb ed="#V" n="41" break="no"/>ter naturam et rem nature idest personam. 
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e219">
-               <lb ed="#V" n="42"/>¶ Hic docet quomodo eis obuiat ipseius scripture 
-      <lb ed="#V" n="43"/>circumstantia: et qualiter predicta intelligi debeant: 
-      <lb ed="#V" n="44"/>et quod spiritus sanctus est res vnius nature patris et 
-      <lb ed="#V" n="45"/>filii et est ipsa natura. 
-      <lb ed="#V" n="46"/>hoc quidem diunt non 
-      inteligen<lb ed="#V" n="47" break="no"/>tes pia diligentia 
-      scri<lb ed="#V" n="48" break="no"/>pture circumstantiam qua considerata percipi potest 
-      <lb ed="#V" n="49"/>quomodo praemissa dixerit Hylarius. Subsequenter enim 
-      <lb ed="#V" n="50"/>in eadem serie ostendit in spiritu dei aliquando 
-      signifi<lb ed="#V" n="51" break="no"/>cari patrem: vt cum dicitur. Spiritus domini super 
-      <lb ed="#V" n="52"/>me: aliquando significari filium: vt cum dicitur. 
-      In<lb ed="#V" n="53" break="no"/>spiritu dei eiicio demonia: nature sue potestate 
-      <lb ed="#V" n="54"/>se demones eiicere demonstrans: aliquando spritum 
-      san<lb ed="#V" n="55" break="no"/>ctum: vt ibi. Effundam de spiritu meo super 
-      om<lb ed="#V" n="56" break="no"/>nem carnem. Quod dicit consumatum fuisse 
-      <!--00219.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>cum apostoli spiritu sancto misso omnibus linguis 
-      <lb ed="#V" n="58"/>locuti sunt. Deinde quare hanc distinctionem 
-      fe<lb ed="#V" n="59" break="no"/>cerit: et quod in superioribus per verba apostoli idem 
-      <lb ed="#V" n="60"/>spiritus sanctus significatus sit: et quod ipse sit res vnius 
-      <lb ed="#V" n="61"/>nature patris et filii: aperte ostendit inquiens ita. Hec 
-      <lb ed="#V" n="62"/>iccirco sunt demonstrata: vt quacumque parte 
-      he<lb ed="#V" n="63" break="no"/>retica falsitas se contulisset: finibus veritatis 
-      con<lb ed="#V" n="64" break="no"/>cluderetur. Habitat enim in nobis christus: quo 
-      habi<lb ed="#V" n="65" break="no"/>tante hab: tat deus: et cum habitat in nobis spiritus 
-      <lb ed="#V" n="66"/>christi: non aliud habitat quam spiritus dei. Quod si per spiritum.¬ 
-      <lb ed="#V" n="67"/>sanctum christus in nobis intelligitur esse: hunc tamen 
-      <lb ed="#V" n="68"/>ita spiritum dei vt spiritum christi esse noscendum est: et cum 
-      <lb ed="#V" n="69"/>per naturam dei natura ipsa habitat in nobis: 
-      in<lb ed="#V" n="70" break="no"/>differens natura filii creditur esse a patre: cum 
-      <lb ed="#V" n="71"/>spiritus sanctus qui est spiritus christi et spiritus dei: res nature 
-      <lb ed="#V" n="72"/>demonstretur vnius. Quero nunc ergo quomodo non 
-      ex<lb ed="#V" n="73" break="no"/>natura vnum sunt: A patre procedit spiritus 
-      <lb ed="#V" n="74"/>veritatis: a filio mittitur: et a filio accipit. Sed omnia 
-      <lb ed="#V" n="75"/>que habet pater filii sunt. Iccirco qui ab eo accepit: 
-      <lb ed="#V" n="76"/>dei spiritus est: et idem spiritus christi est. Res nature 
-      fi<lb ed="#V" n="77" break="no"/>lii est: sed et eadem res et nature patris est: et dei 
-      ex<lb ed="#V" n="78" break="no"/>citantis christum a mortuis spiritus est: et idem spiritus christi 
-      <lb ed="#V" n="79"/>est a mortuis excitati. In aliquo differt christi et dei 
-      <lb ed="#V" n="80"/>natura: ne eadem sit si prestari potest: vt spiritus quod 
-      <lb ed="#V" n="81"/>dei est: non sit etiam christi. Est ergo in nobis spiritus 
-      <lb ed="#V" n="82"/>dei: et est in nobis spiritus christi: et cum spiritus christi inest: 
-      <lb ed="#V" n="83"/>inest spiritus dei. Ita cum quod dei est et christi est: et quod 
-      <lb ed="#V" n="84"/>christi est dei est: non potest quid aliud diuersum christus 
-      <lb ed="#V" n="85"/>esse quam deus est. Deus igitur christus est vnus cum 
-      <lb ed="#V" n="86"/>deo spiritus: secundum illud. Ego et pater vnum sumus. 
-      In<lb ed="#V" n="87" break="no"/>quo docet veritas vnitatem esse nature: non 
-      so<lb ed="#V" n="88" break="no"/>litudinem vnionis. Ecce si hec verba diligenter 
-      <lb ed="#V" n="89"/>attendas inuenis spitum sanctum rem nature dici 
-      <lb ed="#V" n="90"/>patris et filii: et eundem dici esse naturam dei: vbi 
-      <lb ed="#V" n="91"/>dicitur per naturam dei natura ipsa habitat in nobis: 
-      <lb ed="#V" n="92"/>si per spritum sanctum christus est in nobis. Itaque in 
-      tri<lb ed="#V" n="93" break="no"/>nitate non ita distinguendum est inter naturam 
-      <lb ed="#V" n="94"/>et rem nature: sicut in rebus creatis: quia vt ait 
-      Hy<lb ed="#V" n="95" break="no"/>larius: comperatio terrenorum ad deum nulla est: 
-      <lb ed="#V" n="96"/>et si qua comparationum exempla interdum afferuntur 
-      <lb ed="#V" n="97"/>nemo ea existimet absolute in se rationis perfectionem 
-      <lb ed="#V" n="98"/>continere. Non enim humano sensu de deo loquendum est. 
-      <lb ed="#V" n="99"/>¶Quod propter res creatas illud dixerit: non idem 
-      <lb ed="#V" n="100"/>est natura et res nature. 
-    </p>
-            <p xml:id="kzz7yh-a70354-d1e354">
-               <lb ed="#V" n="101"/>Ad naturaem ergo rerum creatarum 
-      <lb ed="#V" n="102"/>respiciens inquit. Non 
-      <lb ed="#V" n="103"/>idem est natura quod res nature: subiicens 
-      exem<lb ed="#V" n="104" break="no"/>pla de ipsis creaturis. Inde ostendens erroris esse 
-      <lb ed="#V" n="105"/>sub mensura creaturarum metiri creatorem addit 
-      <lb ed="#V" n="106"/>et secundum hoc non idem est deus et quod dei est: ac si 
-      di<lb ed="#V" n="107" break="no"/>ceret. Si ad instar creaturarum de creatore sentis 
-      <lb ed="#V" n="108"/>cogeris fateri: quia non idem est deus: et quod 
-      <lb ed="#V" n="109"/>dei est: quod dicere impium est: cum spiritus dei 
-      <lb ed="#V" n="110"/>deus sit: et dei filius sit deus. 
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e378">
-               <lb ed="#V" n="111"/>¶ Quod non aliud est deus: et quae sua sunt: ita vt insint 
-      <lb ed="#V" n="112"/>alia enim sunt que insunt: alia qune non insunt. 
-      <!--00220.xml-->
-      <pb ed="#V" n="103-v"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>Non ergo secundum corporales modos: vt 
-      <lb ed="#V" n="2"/>in eadem subdit serie: 
-      ac<lb ed="#V" n="3" break="no"/>cipienda sunt hec que de deo dicuntur: vbi 
-      eua<lb ed="#V" n="4" break="no"/>cuans opinionem eorum qui ita putant aliud deum 
-      <lb ed="#V" n="5"/>esse: et aliud quod dei est: aliudque naturam dei et 
-      <lb ed="#V" n="6"/>rem nature: vt est in creaturis. Aperte docet non 
-      <lb ed="#V" n="7"/>aliud esse deum et que sua sunt: ita vt insint illi 
-      <lb ed="#V" n="8"/>sic dicens. Homo aut aliquid ei simile cum 
-      ali<lb ed="#V" n="9" break="no"/>cubi erit: alibi non erit: quia id quod est: illic 
-      con<lb ed="#V" n="10" break="no"/>tinetur vbi fuerit in forma: vt non vbique sit qui 
-      <lb ed="#V" n="11"/>insistens alicubi sit. Deus autem immense virtutis 
-      <lb ed="#V" n="12"/>viuens potestas: que nusquam non assit nec desit 
-      <lb ed="#V" n="13"/>vsquam: que se omnem per sua edocet: et sua non aliud 
-      <lb ed="#V" n="14"/>quam se esse significat: vt vbi sua insint ipse esse 
-      per<lb ed="#V" n="15" break="no"/>sua intelligatur. Non autem corporali modo cum 
-      <lb ed="#V" n="16"/>alicubi sit: non est vbique esse credatur: cum per sua 
-      <lb ed="#V" n="17"/>in ominibus esse non desinat. Non autem aliud sunt 
-      <lb ed="#V" n="18"/>quam quod est ipse que sua sunt. Et hec propter 
-      natu<lb ed="#V" n="19" break="no"/>re intelligentiam dicta sunt. His verbis aperte 
-      <lb ed="#V" n="20"/>significatur. Si tamen intelligis heretice: quia 
-      <lb ed="#V" n="21"/>diuina natura non aliud est ab his quae sua sunt: 
-      <lb ed="#V" n="22"/>ita vt insint: et per illa in omnibus suis est que non 
-      <lb ed="#V" n="23"/>insunt. Sua enim sunt etiam que non insunt id est 
-      <lb ed="#V" n="24"/>omnes creature: et sua sunt que insunt vt tres 
-      perso<lb ed="#V" n="25" break="no"/>ne que sunt eiusdem nature et eadem natura 
-      si<lb ed="#V" n="26" break="no"/>cut supra Augustini testimonio firmauimus 
-      di<lb ed="#V" n="27" break="no"/>centis tres personas esse eiusdem essentie vel 
-      eam<lb ed="#V" n="28" break="no"/>dem essentiam: sed non ex eadem essentia: ne aliud 
-      <lb ed="#V" n="29"/>intelligatur essentia: aliud persona. Non tamen 
-      <lb ed="#V" n="30"/>diffitemur aliquam distinctionem habendam 
-      fore<lb ed="#V" n="31" break="no"/>secundum intelligentie rationem cum dicitur 
-      hyposta<lb ed="#V" n="32" break="no"/>sis: et cum dicitur essentia: quia ibi significatur quod 
-      <lb ed="#V" n="33"/>est commune tribus: hic vero non. Est tamen hypostasis 
-      <lb ed="#V" n="34"/>essentia: et econuerso. Fateamur ergo vnum atque 
-      <lb ed="#V" n="35"/>idem esse tres personas secundum essentiam: differentes 
-      <lb ed="#V" n="36"/>autem proporietatibus. Unde Augu. super locum praeta 
-      <lb ed="#V" n="37"/>xatum psal. ait. Queris quid sit pater: 
-      respon<lb ed="#V" n="38" break="no"/>detur deus. Queris quid sit filius: respondetur 
-      <lb ed="#V" n="39"/>deus. Queris quid sit pater et filius: respondetur 
-      <lb ed="#V" n="40"/>deus. De singulis interrogatus deum responde. 
-      <lb ed="#V" n="41"/>De vtroque interrogatus: non deos sed deum 
-      re<lb ed="#V" n="42" break="no"/>sponde. Non sic in hominibus. Tanta enim est ibi 
-      <lb ed="#V" n="43"/>substantiae vnitas vt equalitatem admittat 
-      pluralita<lb ed="#V" n="44" break="no"/>tem non admittat. Si ergo tibi dictum fuerit 
-      <lb ed="#V" n="45"/>cum dicis filium esse quod pater est: profecto filius 
-      <lb ed="#V" n="46"/>pater est. Responde secundum substantiam tibi dixi hoc esse 
-      <lb ed="#V" n="47"/>filium quod pater est non secundum id quod ad aliud 
-      <lb ed="#V" n="48"/>dicitur. Ad se enim dicitur deus: ad patrem dicitur filius. 
-    </p>
-            <p xml:id="kzz7yh-a70354-d1e496">
-               <lb ed="#V" n="49"/>Responsumque pater ad se dicitur deus: ad filium 
-      <lb ed="#V" n="50"/>dicitur pater. Quod pater ad filium dicitur non est filius. 
-      <lb ed="#V" n="51"/>Quod dicitur filius ad patrem non est pater. 
-      <lb ed="#V" n="52"/>Quod dicitur pater ad se: filius ad se hoc est 
-      pa<lb ed="#V" n="53" break="no"/>pater et filius idest deus. 
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e509">
-               <lb ed="#V" n="54"/>¶ Utrum ita possit dici deus trium personarum vel 
-      <lb ed="#V" n="55"/>tres persone vnius dei vt dicitur: vna essentia trium 
-      <lb ed="#V" n="56"/>personarum et tres persone vnius essentie. 
-      <!--00220.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>hic considerandum est: 
-      cqum<lb ed="#V" n="58" break="no"/>deus 
-      <lb ed="#V" n="59"/>sit diuina essentia: et ita dicatur vnus deus esse 
-      <lb ed="#V" n="60"/>tres persone: sicut vna essentia dicitur tres persone: vtrum 
-      <lb ed="#V" n="61"/>ita valeat sane dici: vnus deus trium personarum 
-      <lb ed="#V" n="62"/>vel tres persone vnius dei: sicut dicitur vna essentia 
-      <lb ed="#V" n="63"/>trium persona rum: et tres persone vnius essentie: 
-      <lb ed="#V" n="64"/>In his locutionibus scripture vsus nobis 
-      emu<lb ed="#V" n="65" break="no"/>landus videtur: vbi frequenter reperitur ita 
-      di<lb ed="#V" n="66" break="no"/>ctum. Una est essentia trium: et tres sunt persone vnius 
-      <lb ed="#V" n="67"/>essentie: nusquam autem occurrit legisse vnum 
-      deum<lb ed="#V" n="68" break="no"/>trium personarum: vel tres personas vnius dei. Quod 
-      <lb ed="#V" n="69"/>ideo puto sanctos doctores vitasse: ne ita forte 
-      <lb ed="#V" n="70"/>acciperetur in diuinis personis: vt accipitur cum 
-      <lb ed="#V" n="71"/>de creaturis simile quid dicitur. Dicitur enim 
-      <lb ed="#V" n="72"/>deus Abraam Isaac et Iacob: et deus omnis 
-      crea<lb ed="#V" n="73" break="no"/>ture. Quod vtique dicitur propter principium creatio 
-      <lb ed="#V" n="74"/>nis vel gratie praeuilegium: et creature 
-      subiectio<lb ed="#V" n="75" break="no"/>nem vel seruitutem. Cum ergo in trinitate nihil 
-      <lb ed="#V" n="76"/>sit creatum vel seruiens vel subiectum: non 
-      ad<lb ed="#V" n="77" break="no"/>misit fides in trinitate talem loeutionis modum. 
-      <lb ed="#V" n="78"/>Ita etiam econuerso non dicitur de dei essentia 
-      <lb ed="#V" n="79"/>quod ipsa sit essentia Abraam Isaac et Iacob: vel 
-      <lb ed="#V" n="80"/>alicuius creature: ne creatoris vel creature 
-      na<lb ed="#V" n="81" break="no"/>turam confundere videamur. 
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e577">
-               <lb ed="#V" n="82"/>¶ Quod licet potentia: sapientia: bonitas: de deo secundum 
-      <lb ed="#V" n="83"/>substantiam dicantur in scritura: tamen solent hec nomina 
-      di<lb ed="#V" n="84" break="no"/>stincte ad personas interdum referri. 
-      <lb ed="#V" n="85"/>per predictis constat quod sicut 
-      een<lb ed="#V" n="86" break="no"/>cia: ita potentia: 
-      sa<lb ed="#V" n="87" break="no"/>pientia: bonitas de deo dicuntur secundum substantiam. Que 
-      <lb ed="#V" n="88"/>autem secundum substantiam de deo dicuntur: tribus personis 
-      pa<lb ed="#V" n="89" break="no"/>riter conueniunt. Una est ergo potentia: sapienita 
-      <lb ed="#V" n="90"/>bonitas patris et filii et spiritus sancti: et hi tres eadem 
-      <lb ed="#V" n="91"/>potentia: eadem sapientia: eadem bonitas. Unde 
-      <lb ed="#V" n="92"/>aperitur in trinitate summa esse perfectio. Si enim 
-      <lb ed="#V" n="93"/>ibi deesset potentia vel bonitas: non esset summum 
-      <lb ed="#V" n="94"/>bonum. Sed quia ibi est perfecta potentia: 
-      infinita<lb ed="#V" n="95" break="no"/>sapientia: incompehensibilis bonitas: recte dicitur 
-      <lb ed="#V" n="96"/>et creditur summum bonum. Cumque vnum et idem 
-      <lb ed="#V" n="97"/>penitus sit in deo potentia: sapientia: bonitas: 
-      <lb ed="#V" n="98"/>in sacra tamen scriptura frequenter solent hec nomina 
-      <lb ed="#V" n="99"/>distincte ad personas referri: vt patri potentia: 
-      <lb ed="#V" n="100"/>filio sapieutia: spiritui sancto bonitas attribuatur 
-      <lb ed="#V" n="101"/>quod quare fiat: non est ociosum inquirere. 
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e623">
-               <lb ed="#V" n="102"/>¶ Quare id fiat scilicet quod patri potentia: filio 
-      sa<lb ed="#V" n="103" break="no"/>pientia attribuatur. 
-      <lb ed="#V" n="104"/>Id ergo sacri eloqui prudentia 
-      <lb ed="#V" n="105"/>facere curauit: 
-      ne<lb ed="#V" n="106" break="no"/>dei immensitatem similitudine creature metiretur. 
-      <lb ed="#V" n="107"/>Dixerat enim scriptura sacra. Quia deus pater est 
-      <lb ed="#V" n="108"/>et quod deus filius est: et audiuit hoc homo qui hominem 
-      <lb ed="#V" n="109"/>patrem viderat: deum patrem non viderat: et 
-      cogi<lb ed="#V" n="110" break="no"/>tare cepit: ita esse in creatore: vt viderat esse in 
-      cre<lb ed="#V" n="111" break="no"/>aturis: a quibus hec nomina translata sunt ad 
-      cre<lb ed="#V" n="112" break="no"/>atorem. In quibus pater est prior filio: filius est 
-      <!--00221.xml-->
-      <pb ed="#V" n="104-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>posterior patre: et ex antiquitate in patre defectus: 
-      <lb ed="#V" n="2"/>ex posteritate in filio imperfectio sensus solet 
-      no<lb ed="#V" n="3" break="no"/>tari. Ion occurrit scriptura dicens patrem potentem 
-      <lb ed="#V" n="4"/>ne videatur prior filio et ideo minus potens: et filium sapientem 
-      <lb ed="#V" n="5"/>ne videatur posterior patre et ideo minus sapiens. 
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e667">
-               <lb ed="#V" n="6"/>¶ Quare spiritui sancto bonitas attribuatur. 
-      <lb ed="#V" n="7"/>Dictus est etiam spiritus sanctus deus: 
-      <lb ed="#V" n="8"/>et dictus est habere spiritum 
-      <lb ed="#V" n="9"/>deus: et videbatur hoc quasi nomen inflationis 
-      <lb ed="#V" n="10"/>et tumoris. Unde humana conscientia ad deum 
-      <lb ed="#V" n="11"/>pro rigore et crudelitate accedere metuit. Ideo 
-      <lb ed="#V" n="12"/>scriptura temperauit sermonem suum spiritum bonum 
-      <lb ed="#V" n="13"/>nominans: ne crudelis putaretur qui mitis erat: 
-      <lb ed="#V" n="14"/>non quod pater solus sit potens vel magis potens: 
-      <lb ed="#V" n="15"/>et filius solus sapiens vel magis sapiens: et spiritus 
-      <lb ed="#V" n="16"/>sanctus solus bonus vel magis bonus. Una est 
-      <lb ed="#V" n="17"/>ergo potentia: sapientia: bonitas trium: sicut vna 
-      <lb ed="#V" n="18"/>essentia. Ideoque sicut dicitur filius homousios id est 
-      com<lb ed="#V" n="19" break="no"/>substantialis patri: et ita coomnipotens. 
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e700">
-               <lb ed="#V" n="20"/>¶ De hoc nomine homousion: vbi in 
-      auctorita<lb ed="#V" n="21" break="no"/>tem receptum sit: et quid significet. 
-      <lb ed="#V" n="22"/>hic non est praetermitendum quod 
-      <lb ed="#V" n="23"/>Augustinus in lib. ii. contra 
-      <lb ed="#V" n="24"/>Maximinum dicit de hoc nomine homousion: 
-      <lb ed="#V" n="25"/>quo latini tractatores frequenter vtuntur. 
-      Pa<lb ed="#V" n="26" break="no"/>ter inquit et filius vnius sunt eiusdemque substantie 
-      <lb ed="#V" n="27"/>hoc est illud homousion: quod in concilio niceno 
-      <lb ed="#V" n="28"/>aduersus hereticos arrianos a catholicis 
-      patri<lb ed="#V" n="29" break="no"/>bus veritatis auctoritate firmatum est. Quod 
-      <lb ed="#V" n="30"/>postea in concilio arimenensi propter nouitatem verbi 
-      <lb ed="#V" n="31"/>minus quam potuit intellectam: quam tamen fides 
-      an<lb ed="#V" n="32" break="no"/>tiqua pepererat multis paucorum fraude dece¬ e 
-      <lb ed="#V" n="33"/>ptis: heretica impietas sub heretico imperatore 
-      <lb ed="#V" n="34"/>Constantino labefacta retentauit. Sed post non 
-      <lb ed="#V" n="35"/>longum tempus libertate fidei catholicc 
-      preua<lb ed="#V" n="36" break="no"/>lente: postquam vis verbi sicut debuit intellecta est: 
-      <lb ed="#V" n="37"/>homousion illud catholice fidei sanitate longe 
-      <lb ed="#V" n="38"/>lateque defensum est et diffusum. Quid enim est 
-      ho<lb ed="#V" n="39" break="no"/>mousion nisi vnius eiusdemque substantie: Quid est 
-      inquan<lb ed="#V" n="40" break="no"/>homousion nisi ego et pater vnum sumus: Non ergo 
-      <lb ed="#V" n="41"/>inter prophanas vocum nouitates ho vitandum est. 
-      <lb ed="#V" n="42"/>De nominibus que transsatiue et per 
-      similitudi<lb ed="#V" n="43" break="no"/>nem de deo dicuntur. 
-      <lb ed="#V" n="44"/>Greterea sciendum est quod in 
-      assigna<lb ed="#V" n="45" break="no"/>tione distinctionis nominum 
-      <lb ed="#V" n="46"/>inter alia que supra diligenter executi sumus: 
-      <lb ed="#V" n="47"/>quedam diximus translatiue et per similitudinem 
-      <lb ed="#V" n="48"/>de deo dici: vt speculum: splendor: character: 
-      fi<lb ed="#V" n="49" break="no"/>gura: et huiusmodi: de quibus pio lectori 
-      breui<lb ed="#V" n="50" break="no"/>ter trado quod sentio: vt scilicet ratione similitudinis 
-      <lb ed="#V" n="51"/>considerata ex causis dicendi dictorum 
-      intelli<lb ed="#V" n="52" break="no"/>gentiam assumat: sed cathosicam. 
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e775">
-               <lb ed="#V" n="53"/>¶ Nihil dignum excellentia ineffabilis trinitatis 
-      <lb ed="#V" n="54"/>se tradidisse dicit ad alia transiturus. 
-      <lb ed="#V" n="55"/>De sacramento vnitatis atque 
-      <lb ed="#V" n="56"/>trinitatis sum¬ 
-      <!--00221.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>me et ineffabilis multa iam diximus. Nihil tamen 
-      <lb ed="#V" n="58"/>eius ineffabilitate dignum tradidisse profitemur: 
-      <lb ed="#V" n="59"/>sed potius ex nobis mirificam eius scientiam: nec 
-      po<lb ed="#V" n="60" break="no"/>tuisse nos ad illam peruenire. 
-   </p>
-            <!-- </div>
-  <div> l1d34prae 
-    <head>Praeambulum</head> -->
-            <p xml:id="kzz7yh-a70354-d1e801">
-     Disi. XXXIIII 
-      <lb ed="#V" n="61"/>Redictis est aduciendum etc. Superius 
-      <lb ed="#V" n="62"/>determinauit magister de 
-      <lb ed="#V" n="63"/>comperatione proprietatum ad personas: et essentiam. 
-      <lb ed="#V" n="64"/>In hac parte determinat de comperatione personarum 
-      <lb ed="#V" n="65"/>ad essentiam. Et diuiditur pars ista in quattuor partes.
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e814">
-      ¶ 
-      In<lb ed="#V" n="66" break="no"/>prima comperat personas ad essentiam quantum ad realem 
-      <lb ed="#V" n="67"/>identitatem.
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e821">
-      ¶ Secundo quantum ad praedicationem ibi: choc 
-      consideran<lb ed="#V" n="68" break="no"/>dum est).
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e826">
-      ¶ Tertio quantum ad quorundam attributorum 
-      essen<lb ed="#V" n="69" break="no"/>tialium appropriationem: ibi. (Ex pedictis constat).
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e832">
-      ¶ 
-      Quar<lb ed="#V" n="70" break="no"/>to de quibusdam dictis de deo per metaphoram: ibi. (
-      Pre<lb ed="#V" n="71" break="no"/>teretea sciendum est). Prima iterum in tres.
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e839">
-      ¶ Primo potesit 
-      <lb ed="#V" n="72"/>errorem quorundam dicentium personas non esse diuinam 
-      na<lb ed="#V" n="73" break="no"/>turam et illius opinionis sophysticam confirmationem.
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e846">
-      ¶ 
-      Se<lb ed="#V" n="74" break="no"/>cundo ponit ipsorum errantium confutationem. ibi. (hoc 
-      qui<lb ed="#V" n="75" break="no"/>dem dicunt non intelligentes).
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e853">
-      ¶ Tertio subdit eorum 
-      <lb ed="#V" n="76"/>per que conantur suam opinionem munire solutionem. ibi. 
-      <lb ed="#V" n="77"/>(Ad naturam ergo rerum. Tunc sequitur illa pars que ibi 
-      in<lb ed="#V" n="78" break="no"/>cipit Ex dictis et diuiditur in partes tres.
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e862">
-      ¶ In prima ponit 
-      <lb ed="#V" n="79"/>quorundam atributorum essentialium appropriatione.
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e867">
-      ¶ 2oreddit 
-      <lb ed="#V" n="80"/>appropriationis rationem: ibi. (Id ergo sacri eloquii).
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e873">
-      ¶ 
-      Ter<lb ed="#V" n="81" break="no"/>tio determinat huius nominis homousios significationem: ibi. 
-      <lb ed="#V" n="82"/>chic non est pretermitendum.) 
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e880">
-               <lb ed="#V" n="83"/>CIrca hanc distinctionem queruntur tria. 
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e885">
-               <lb ed="#V" n="84"/>¶ Primo de his que 
-      re<lb ed="#V" n="85" break="no"/>spiciunt persone et substantie comperationem.
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e892">
-      ¶ 
-      Se<lb ed="#V" n="86" break="no"/>rindo de dectuntird potatione
-   </p>
-            <p xml:id="kzz7yh-a70354-d1e897">
-      ¶ 
-      Rr<lb ed="#V" n="87" break="no"/>tio de pertinentibus ad translationem.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="104-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a70354"><!-- l1d34prae -->
+        <head>Praeambulum</head>
+        <!-- <p xml:id="kzz7yh-a70354-d1e101">
+          <lb ed="#V" n="127"/>¶ Opinio quorundam non idem esse personam et 
+          essen<lb ed="#V" n="128" break="no"/>tiam vel naturam dicentium et eadem essentiam non posse 
+          <lb ed="#V" n="129"/>esse patrem et filium et spiritumscntum. Distinitio XXXIIII 
+          </p>
+          <p xml:id="kzz7yh-a70354-d1e110">
+          <lb ed="#V" n="130"/>PRedictis autem adiciendum 
+          <lb ed="#V" n="131"/>est: quod quidam 
+          per<lb ed="#V" n="132" break="no"/>uersi sensus homines in tantam prosilierunt 
+          in<lb ed="#V" n="133" break="no"/>saniam: vt dicerent non idem esse naturam dei 
+          <lb ed="#V" n="134"/>et personam siue hypostasim: dicentes eandem essen¬ 
+          <!-\-00219.xml-\->
+          <pb ed="#V" n="103-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>tiam non posse esse patrem et filium sine personarum 
+          <lb ed="#V" n="2"/>confusione. Si enim inqunt ea essentia que pater est: 
+          <lb ed="#V" n="3"/>filius est: idem sibi pater est et filius. Si hanc 
+          rem<lb ed="#V" n="4" break="no"/>dicis esse patrem: aliam quere quam dicis esse filium. 
+          <lb ed="#V" n="5"/>Si vero aliam non quasieris: sed eandem dixeris: 
+          <lb ed="#V" n="6"/>idem genuit et genitus est. Propter hec et 
+          hu<lb ed="#V" n="7" break="no"/>iusmodi inter naturam et personam diuidunt ita: 
+          <lb ed="#V" n="8"/>vt non recipiant vnam deitatis naturam et 
+          sim<lb ed="#V" n="9" break="no"/>plicem esse tres personas. Idque testimonio 
+          Hyla<lb ed="#V" n="10" break="no"/>rii defendere nituntur: qui in. vii. libro de tri. quaerens: 
+          <lb ed="#V" n="11"/>vtrum apostolus spiritum dei nominans: et spiritum christi idem 
+          <lb ed="#V" n="12"/>significauerit vtroque verbo: inquit ita. Gentium 
+          <lb ed="#V" n="13"/>praedicator volens nature vnitatem in patre et 
+          filio<lb ed="#V" n="14" break="no"/>docere ait. Spiritus dei in vobis est. Si quis autem 
+          <lb ed="#V" n="15"/>spiritum christi non habet: hic non est eius. Si autem 
+          <lb ed="#V" n="16"/>spiritus eius qui suscitauit Iesum etc. Spirituales omnes 
+          <lb ed="#V" n="17"/>sumus si in nobis est dei spiritus: sed et hic spiritus dei 
+          <lb ed="#V" n="18"/>est et spiritus christi. Et cum christi spiritus in nobis est: eius 
+          <lb ed="#V" n="19"/>spiritus in nobis est qui suscitauit christum. Et cum eius 
+          <lb ed="#V" n="20"/>qui suscitauit christum in nobis est spiritus: et spiritus in 
+          no<lb ed="#V" n="21" break="no"/>bis est christi. Nec tamen non dei est spiritus qui in nobis est 
+          <lb ed="#V" n="22"/>Discerne ergo o heretice spiritum christi a spiritu dei: 
+          <lb ed="#V" n="23"/>et excitati a mortuis spiritum christi: a spiritu dei christum 
+          <lb ed="#V" n="24"/>a mortuis excitantis. Cum qui habitat in nobis 
+          <lb ed="#V" n="25"/>spiritus christi: spiritus dei sit: et spiritus christi a mortuis 
+          exci<lb ed="#V" n="26" break="no"/>tati spiritus dei tantum sit christum a mortuis excitantis. 
+          <lb ed="#V" n="27"/>Et quero nunc in spiritu dei: vtrum naturam 
+          an<lb ed="#V" n="28" break="no"/>rem nature significatam existimes: Non est enim 
+          <lb ed="#V" n="29"/>idem natura quod res nature: sicut non idem 
+          <lb ed="#V" n="30"/>est homo: et quod hominis est: nec idem est ignis et 
+          <lb ed="#V" n="31"/>quod ipreius ignis nobis est: et secundum hoc non est idem 
+          <lb ed="#V" n="32"/>deus et quod dei est. Huius dicti occasione 
+          pre<lb ed="#V" n="33" break="no"/>fati heretici dogmatizauerunt non idem esse 
+          perso<lb ed="#V" n="34" break="no"/>nam et naturam dei: asserentes naturam dei non 
+          <lb ed="#V" n="35"/>esse tres personas. Intelligentes in his premissis 
+          <lb ed="#V" n="36"/>verbis Hylarii per rem nature personam: et nomine 
+          <lb ed="#V" n="37"/>nature diuinam naturam. Et ideo dicunt 
+          Hyla<lb ed="#V" n="38" break="no"/>rium interrogasse hereticum. Utrum per spiritum 
+          <lb ed="#V" n="39"/>dei putaret significatam esse naturam an 
+          rem<lb ed="#V" n="40" break="no"/>nature: vt sic ostenderet distinguendum esse 
+          in<lb ed="#V" n="41" break="no"/>ter naturam et rem nature idest personam. 
+          </p>
+          <p xml:id="kzz7yh-a70354-d1e219">
+          <lb ed="#V" n="42"/>¶ Hic docet quomodo eis obuiat ipseius scripture 
+          <lb ed="#V" n="43"/>circumstantia: et qualiter predicta intelligi debeant: 
+          <lb ed="#V" n="44"/>et quod spiritus sanctus est res vnius nature patris et 
+          <lb ed="#V" n="45"/>filii et est ipsa natura. 
+          <lb ed="#V" n="46"/>hoc quidem diunt non 
+          inteligen<lb ed="#V" n="47" break="no"/>tes pia diligentia 
+          scri<lb ed="#V" n="48" break="no"/>pture circumstantiam qua considerata percipi potest 
+          <lb ed="#V" n="49"/>quomodo praemissa dixerit Hylarius. Subsequenter enim 
+          <lb ed="#V" n="50"/>in eadem serie ostendit in spiritu dei aliquando 
+          signifi<lb ed="#V" n="51" break="no"/>cari patrem: vt cum dicitur. Spiritus domini super 
+          <lb ed="#V" n="52"/>me: aliquando significari filium: vt cum dicitur. 
+          In<lb ed="#V" n="53" break="no"/>spiritu dei eiicio demonia: nature sue potestate 
+          <lb ed="#V" n="54"/>se demones eiicere demonstrans: aliquando spritum 
+          san<lb ed="#V" n="55" break="no"/>ctum: vt ibi. Effundam de spiritu meo super 
+          om<lb ed="#V" n="56" break="no"/>nem carnem. Quod dicit consumatum fuisse 
+          <!-\-00219.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>cum apostoli spiritu sancto misso omnibus linguis 
+          <lb ed="#V" n="58"/>locuti sunt. Deinde quare hanc distinctionem 
+          fe<lb ed="#V" n="59" break="no"/>cerit: et quod in superioribus per verba apostoli idem 
+          <lb ed="#V" n="60"/>spiritus sanctus significatus sit: et quod ipse sit res vnius 
+          <lb ed="#V" n="61"/>nature patris et filii: aperte ostendit inquiens ita. Hec 
+          <lb ed="#V" n="62"/>iccirco sunt demonstrata: vt quacumque parte 
+          he<lb ed="#V" n="63" break="no"/>retica falsitas se contulisset: finibus veritatis 
+          con<lb ed="#V" n="64" break="no"/>cluderetur. Habitat enim in nobis christus: quo 
+          habi<lb ed="#V" n="65" break="no"/>tante hab: tat deus: et cum habitat in nobis spiritus 
+          <lb ed="#V" n="66"/>christi: non aliud habitat quam spiritus dei. Quod si per spiritum.¬ 
+          <lb ed="#V" n="67"/>sanctum christus in nobis intelligitur esse: hunc tamen 
+          <lb ed="#V" n="68"/>ita spiritum dei vt spiritum christi esse noscendum est: et cum 
+          <lb ed="#V" n="69"/>per naturam dei natura ipsa habitat in nobis: 
+          in<lb ed="#V" n="70" break="no"/>differens natura filii creditur esse a patre: cum 
+          <lb ed="#V" n="71"/>spiritus sanctus qui est spiritus christi et spiritus dei: res nature 
+          <lb ed="#V" n="72"/>demonstretur vnius. Quero nunc ergo quomodo non 
+          ex<lb ed="#V" n="73" break="no"/>natura vnum sunt: A patre procedit spiritus 
+          <lb ed="#V" n="74"/>veritatis: a filio mittitur: et a filio accipit. Sed omnia 
+          <lb ed="#V" n="75"/>que habet pater filii sunt. Iccirco qui ab eo accepit: 
+          <lb ed="#V" n="76"/>dei spiritus est: et idem spiritus christi est. Res nature 
+          fi<lb ed="#V" n="77" break="no"/>lii est: sed et eadem res et nature patris est: et dei 
+          ex<lb ed="#V" n="78" break="no"/>citantis christum a mortuis spiritus est: et idem spiritus christi 
+          <lb ed="#V" n="79"/>est a mortuis excitati. In aliquo differt christi et dei 
+          <lb ed="#V" n="80"/>natura: ne eadem sit si prestari potest: vt spiritus quod 
+          <lb ed="#V" n="81"/>dei est: non sit etiam christi. Est ergo in nobis spiritus 
+          <lb ed="#V" n="82"/>dei: et est in nobis spiritus christi: et cum spiritus christi inest: 
+          <lb ed="#V" n="83"/>inest spiritus dei. Ita cum quod dei est et christi est: et quod 
+          <lb ed="#V" n="84"/>christi est dei est: non potest quid aliud diuersum christus 
+          <lb ed="#V" n="85"/>esse quam deus est. Deus igitur christus est vnus cum 
+          <lb ed="#V" n="86"/>deo spiritus: secundum illud. Ego et pater vnum sumus. 
+          In<lb ed="#V" n="87" break="no"/>quo docet veritas vnitatem esse nature: non 
+          so<lb ed="#V" n="88" break="no"/>litudinem vnionis. Ecce si hec verba diligenter 
+          <lb ed="#V" n="89"/>attendas inuenis spitum sanctum rem nature dici 
+          <lb ed="#V" n="90"/>patris et filii: et eundem dici esse naturam dei: vbi 
+          <lb ed="#V" n="91"/>dicitur per naturam dei natura ipsa habitat in nobis: 
+          <lb ed="#V" n="92"/>si per spritum sanctum christus est in nobis. Itaque in 
+          tri<lb ed="#V" n="93" break="no"/>nitate non ita distinguendum est inter naturam 
+          <lb ed="#V" n="94"/>et rem nature: sicut in rebus creatis: quia vt ait 
+          Hy<lb ed="#V" n="95" break="no"/>larius: comperatio terrenorum ad deum nulla est: 
+          <lb ed="#V" n="96"/>et si qua comparationum exempla interdum afferuntur 
+          <lb ed="#V" n="97"/>nemo ea existimet absolute in se rationis perfectionem 
+          <lb ed="#V" n="98"/>continere. Non enim humano sensu de deo loquendum est. 
+          <lb ed="#V" n="99"/>¶Quod propter res creatas illud dixerit: non idem 
+          <lb ed="#V" n="100"/>est natura et res nature. 
+          </p>
+          <p xml:id="kzz7yh-a70354-d1e354">
+          <lb ed="#V" n="101"/>Ad naturaem ergo rerum creatarum 
+          <lb ed="#V" n="102"/>respiciens inquit. Non 
+          <lb ed="#V" n="103"/>idem est natura quod res nature: subiicens 
+          exem<lb ed="#V" n="104" break="no"/>pla de ipsis creaturis. Inde ostendens erroris esse 
+          <lb ed="#V" n="105"/>sub mensura creaturarum metiri creatorem addit 
+          <lb ed="#V" n="106"/>et secundum hoc non idem est deus et quod dei est: ac si 
+          di<lb ed="#V" n="107" break="no"/>ceret. Si ad instar creaturarum de creatore sentis 
+          <lb ed="#V" n="108"/>cogeris fateri: quia non idem est deus: et quod 
+          <lb ed="#V" n="109"/>dei est: quod dicere impium est: cum spiritus dei 
+          <lb ed="#V" n="110"/>deus sit: et dei filius sit deus. 
+          </p>
+          <p xml:id="kzz7yh-a70354-d1e378">
+          <lb ed="#V" n="111"/>¶ Quod non aliud est deus: et quae sua sunt: ita vt insint 
+          <lb ed="#V" n="112"/>alia enim sunt que insunt: alia qune non insunt. 
+          <!-\-00220.xml-\->
+          <pb ed="#V" n="103-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>Non ergo secundum corporales modos: vt 
+          <lb ed="#V" n="2"/>in eadem subdit serie: 
+          ac<lb ed="#V" n="3" break="no"/>cipienda sunt hec que de deo dicuntur: vbi 
+          eua<lb ed="#V" n="4" break="no"/>cuans opinionem eorum qui ita putant aliud deum 
+          <lb ed="#V" n="5"/>esse: et aliud quod dei est: aliudque naturam dei et 
+          <lb ed="#V" n="6"/>rem nature: vt est in creaturis. Aperte docet non 
+          <lb ed="#V" n="7"/>aliud esse deum et que sua sunt: ita vt insint illi 
+          <lb ed="#V" n="8"/>sic dicens. Homo aut aliquid ei simile cum 
+          ali<lb ed="#V" n="9" break="no"/>cubi erit: alibi non erit: quia id quod est: illic 
+          con<lb ed="#V" n="10" break="no"/>tinetur vbi fuerit in forma: vt non vbique sit qui 
+          <lb ed="#V" n="11"/>insistens alicubi sit. Deus autem immense virtutis 
+          <lb ed="#V" n="12"/>viuens potestas: que nusquam non assit nec desit 
+          <lb ed="#V" n="13"/>vsquam: que se omnem per sua edocet: et sua non aliud 
+          <lb ed="#V" n="14"/>quam se esse significat: vt vbi sua insint ipse esse 
+          per<lb ed="#V" n="15" break="no"/>sua intelligatur. Non autem corporali modo cum 
+          <lb ed="#V" n="16"/>alicubi sit: non est vbique esse credatur: cum per sua 
+          <lb ed="#V" n="17"/>in ominibus esse non desinat. Non autem aliud sunt 
+          <lb ed="#V" n="18"/>quam quod est ipse que sua sunt. Et hec propter 
+          natu<lb ed="#V" n="19" break="no"/>re intelligentiam dicta sunt. His verbis aperte 
+          <lb ed="#V" n="20"/>significatur. Si tamen intelligis heretice: quia 
+          <lb ed="#V" n="21"/>diuina natura non aliud est ab his quae sua sunt: 
+          <lb ed="#V" n="22"/>ita vt insint: et per illa in omnibus suis est que non 
+          <lb ed="#V" n="23"/>insunt. Sua enim sunt etiam que non insunt id est 
+          <lb ed="#V" n="24"/>omnes creature: et sua sunt que insunt vt tres 
+          perso<lb ed="#V" n="25" break="no"/>ne que sunt eiusdem nature et eadem natura 
+          si<lb ed="#V" n="26" break="no"/>cut supra Augustini testimonio firmauimus 
+          di<lb ed="#V" n="27" break="no"/>centis tres personas esse eiusdem essentie vel 
+          eam<lb ed="#V" n="28" break="no"/>dem essentiam: sed non ex eadem essentia: ne aliud 
+          <lb ed="#V" n="29"/>intelligatur essentia: aliud persona. Non tamen 
+          <lb ed="#V" n="30"/>diffitemur aliquam distinctionem habendam 
+          fore<lb ed="#V" n="31" break="no"/>secundum intelligentie rationem cum dicitur 
+          hyposta<lb ed="#V" n="32" break="no"/>sis: et cum dicitur essentia: quia ibi significatur quod 
+          <lb ed="#V" n="33"/>est commune tribus: hic vero non. Est tamen hypostasis 
+          <lb ed="#V" n="34"/>essentia: et econuerso. Fateamur ergo vnum atque 
+          <lb ed="#V" n="35"/>idem esse tres personas secundum essentiam: differentes 
+          <lb ed="#V" n="36"/>autem proporietatibus. Unde Augu. super locum praeta 
+          <lb ed="#V" n="37"/>xatum psal. ait. Queris quid sit pater: 
+          respon<lb ed="#V" n="38" break="no"/>detur deus. Queris quid sit filius: respondetur 
+          <lb ed="#V" n="39"/>deus. Queris quid sit pater et filius: respondetur 
+          <lb ed="#V" n="40"/>deus. De singulis interrogatus deum responde. 
+          <lb ed="#V" n="41"/>De vtroque interrogatus: non deos sed deum 
+          re<lb ed="#V" n="42" break="no"/>sponde. Non sic in hominibus. Tanta enim est ibi 
+          <lb ed="#V" n="43"/>substantiae vnitas vt equalitatem admittat 
+          pluralita<lb ed="#V" n="44" break="no"/>tem non admittat. Si ergo tibi dictum fuerit 
+          <lb ed="#V" n="45"/>cum dicis filium esse quod pater est: profecto filius 
+          <lb ed="#V" n="46"/>pater est. Responde secundum substantiam tibi dixi hoc esse 
+          <lb ed="#V" n="47"/>filium quod pater est non secundum id quod ad aliud 
+          <lb ed="#V" n="48"/>dicitur. Ad se enim dicitur deus: ad patrem dicitur filius. 
+          </p>
+          <p xml:id="kzz7yh-a70354-d1e496">
+          <lb ed="#V" n="49"/>Responsumque pater ad se dicitur deus: ad filium 
+          <lb ed="#V" n="50"/>dicitur pater. Quod pater ad filium dicitur non est filius. 
+          <lb ed="#V" n="51"/>Quod dicitur filius ad patrem non est pater. 
+          <lb ed="#V" n="52"/>Quod dicitur pater ad se: filius ad se hoc est 
+          pa<lb ed="#V" n="53" break="no"/>pater et filius idest deus. 
+          </p>
+          <p xml:id="kzz7yh-a70354-d1e509">
+          <lb ed="#V" n="54"/>¶ Utrum ita possit dici deus trium personarum vel 
+          <lb ed="#V" n="55"/>tres persone vnius dei vt dicitur: vna essentia trium 
+          <lb ed="#V" n="56"/>personarum et tres persone vnius essentie. 
+          <!-\-00220.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>hic considerandum est: 
+          cqum<lb ed="#V" n="58" break="no"/>deus 
+          <lb ed="#V" n="59"/>sit diuina essentia: et ita dicatur vnus deus esse 
+          <lb ed="#V" n="60"/>tres persone: sicut vna essentia dicitur tres persone: vtrum 
+          <lb ed="#V" n="61"/>ita valeat sane dici: vnus deus trium personarum 
+          <lb ed="#V" n="62"/>vel tres persone vnius dei: sicut dicitur vna essentia 
+          <lb ed="#V" n="63"/>trium persona rum: et tres persone vnius essentie: 
+          <lb ed="#V" n="64"/>In his locutionibus scripture vsus nobis 
+          emu<lb ed="#V" n="65" break="no"/>landus videtur: vbi frequenter reperitur ita 
+          di<lb ed="#V" n="66" break="no"/>ctum. Una est essentia trium: et tres sunt persone vnius 
+          <lb ed="#V" n="67"/>essentie: nusquam autem occurrit legisse vnum 
+          deum<lb ed="#V" n="68" break="no"/>trium personarum: vel tres personas vnius dei. Quod 
+          <lb ed="#V" n="69"/>ideo puto sanctos doctores vitasse: ne ita forte 
+          <lb ed="#V" n="70"/>acciperetur in diuinis personis: vt accipitur cum 
+          <lb ed="#V" n="71"/>de creaturis simile quid dicitur. Dicitur enim 
+          <lb ed="#V" n="72"/>deus Abraam Isaac et Iacob: et deus omnis 
+          crea<lb ed="#V" n="73" break="no"/>ture. Quod vtique dicitur propter principium creatio 
+          <lb ed="#V" n="74"/>nis vel gratie praeuilegium: et creature 
+          subiectio<lb ed="#V" n="75" break="no"/>nem vel seruitutem. Cum ergo in trinitate nihil 
+          <lb ed="#V" n="76"/>sit creatum vel seruiens vel subiectum: non 
+          ad<lb ed="#V" n="77" break="no"/>misit fides in trinitate talem loeutionis modum. 
+          <lb ed="#V" n="78"/>Ita etiam econuerso non dicitur de dei essentia 
+          <lb ed="#V" n="79"/>quod ipsa sit essentia Abraam Isaac et Iacob: vel 
+          <lb ed="#V" n="80"/>alicuius creature: ne creatoris vel creature 
+          na<lb ed="#V" n="81" break="no"/>turam confundere videamur. 
+          </p>
+          <p xml:id="kzz7yh-a70354-d1e577">
+          <lb ed="#V" n="82"/>¶ Quod licet potentia: sapientia: bonitas: de deo secundum 
+          <lb ed="#V" n="83"/>substantiam dicantur in scritura: tamen solent hec nomina 
+          di<lb ed="#V" n="84" break="no"/>stincte ad personas interdum referri. 
+          <lb ed="#V" n="85"/>per predictis constat quod sicut 
+          een<lb ed="#V" n="86" break="no"/>cia: ita potentia: 
+          sa<lb ed="#V" n="87" break="no"/>pientia: bonitas de deo dicuntur secundum substantiam. Que 
+          <lb ed="#V" n="88"/>autem secundum substantiam de deo dicuntur: tribus personis 
+          pa<lb ed="#V" n="89" break="no"/>riter conueniunt. Una est ergo potentia: sapienita 
+          <lb ed="#V" n="90"/>bonitas patris et filii et spiritus sancti: et hi tres eadem 
+          <lb ed="#V" n="91"/>potentia: eadem sapientia: eadem bonitas. Unde 
+          <lb ed="#V" n="92"/>aperitur in trinitate summa esse perfectio. Si enim 
+          <lb ed="#V" n="93"/>ibi deesset potentia vel bonitas: non esset summum 
+          <lb ed="#V" n="94"/>bonum. Sed quia ibi est perfecta potentia: 
+          infinita<lb ed="#V" n="95" break="no"/>sapientia: incompehensibilis bonitas: recte dicitur 
+          <lb ed="#V" n="96"/>et creditur summum bonum. Cumque vnum et idem 
+          <lb ed="#V" n="97"/>penitus sit in deo potentia: sapientia: bonitas: 
+          <lb ed="#V" n="98"/>in sacra tamen scriptura frequenter solent hec nomina 
+          <lb ed="#V" n="99"/>distincte ad personas referri: vt patri potentia: 
+          <lb ed="#V" n="100"/>filio sapieutia: spiritui sancto bonitas attribuatur 
+          <lb ed="#V" n="101"/>quod quare fiat: non est ociosum inquirere. 
+          </p>
+          <p xml:id="kzz7yh-a70354-d1e623">
+          <lb ed="#V" n="102"/>¶ Quare id fiat scilicet quod patri potentia: filio 
+          sa<lb ed="#V" n="103" break="no"/>pientia attribuatur. 
+          <lb ed="#V" n="104"/>Id ergo sacri eloqui prudentia 
+          <lb ed="#V" n="105"/>facere curauit: 
+          ne<lb ed="#V" n="106" break="no"/>dei immensitatem similitudine creature metiretur. 
+          <lb ed="#V" n="107"/>Dixerat enim scriptura sacra. Quia deus pater est 
+          <lb ed="#V" n="108"/>et quod deus filius est: et audiuit hoc homo qui hominem 
+          <lb ed="#V" n="109"/>patrem viderat: deum patrem non viderat: et 
+          cogi<lb ed="#V" n="110" break="no"/>tare cepit: ita esse in creatore: vt viderat esse in 
+          cre<lb ed="#V" n="111" break="no"/>aturis: a quibus hec nomina translata sunt ad 
+          cre<lb ed="#V" n="112" break="no"/>atorem. In quibus pater est prior filio: filius est 
+          <!-\-00221.xml-\->
+          <pb ed="#V" n="104-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>posterior patre: et ex antiquitate in patre defectus: 
+          <lb ed="#V" n="2"/>ex posteritate in filio imperfectio sensus solet 
+          no<lb ed="#V" n="3" break="no"/>tari. Ion occurrit scriptura dicens patrem potentem 
+          <lb ed="#V" n="4"/>ne videatur prior filio et ideo minus potens: et filium sapientem 
+          <lb ed="#V" n="5"/>ne videatur posterior patre et ideo minus sapiens. 
+          </p>
+          <p xml:id="kzz7yh-a70354-d1e667">
+          <lb ed="#V" n="6"/>¶ Quare spiritui sancto bonitas attribuatur. 
+          <lb ed="#V" n="7"/>Dictus est etiam spiritus sanctus deus: 
+          <lb ed="#V" n="8"/>et dictus est habere spiritum 
+          <lb ed="#V" n="9"/>deus: et videbatur hoc quasi nomen inflationis 
+          <lb ed="#V" n="10"/>et tumoris. Unde humana conscientia ad deum 
+          <lb ed="#V" n="11"/>pro rigore et crudelitate accedere metuit. Ideo 
+          <lb ed="#V" n="12"/>scriptura temperauit sermonem suum spiritum bonum 
+          <lb ed="#V" n="13"/>nominans: ne crudelis putaretur qui mitis erat: 
+          <lb ed="#V" n="14"/>non quod pater solus sit potens vel magis potens: 
+          <lb ed="#V" n="15"/>et filius solus sapiens vel magis sapiens: et spiritus 
+          <lb ed="#V" n="16"/>sanctus solus bonus vel magis bonus. Una est 
+          <lb ed="#V" n="17"/>ergo potentia: sapientia: bonitas trium: sicut vna 
+          <lb ed="#V" n="18"/>essentia. Ideoque sicut dicitur filius homousios id est 
+          com<lb ed="#V" n="19" break="no"/>substantialis patri: et ita coomnipotens. 
+          </p>
+          <p xml:id="kzz7yh-a70354-d1e700">
+          <lb ed="#V" n="20"/>¶ De hoc nomine homousion: vbi in 
+          auctorita<lb ed="#V" n="21" break="no"/>tem receptum sit: et quid significet. 
+          <lb ed="#V" n="22"/>hic non est praetermitendum quod 
+          <lb ed="#V" n="23"/>Augustinus in lib. ii. contra 
+          <lb ed="#V" n="24"/>Maximinum dicit de hoc nomine homousion: 
+          <lb ed="#V" n="25"/>quo latini tractatores frequenter vtuntur. 
+          Pa<lb ed="#V" n="26" break="no"/>ter inquit et filius vnius sunt eiusdemque substantie 
+          <lb ed="#V" n="27"/>hoc est illud homousion: quod in concilio niceno 
+          <lb ed="#V" n="28"/>aduersus hereticos arrianos a catholicis 
+          patri<lb ed="#V" n="29" break="no"/>bus veritatis auctoritate firmatum est. Quod 
+          <lb ed="#V" n="30"/>postea in concilio arimenensi propter nouitatem verbi 
+          <lb ed="#V" n="31"/>minus quam potuit intellectam: quam tamen fides 
+          an<lb ed="#V" n="32" break="no"/>tiqua pepererat multis paucorum fraude dece¬ e 
+          <lb ed="#V" n="33"/>ptis: heretica impietas sub heretico imperatore 
+          <lb ed="#V" n="34"/>Constantino labefacta retentauit. Sed post non 
+          <lb ed="#V" n="35"/>longum tempus libertate fidei catholicc 
+          preua<lb ed="#V" n="36" break="no"/>lente: postquam vis verbi sicut debuit intellecta est: 
+          <lb ed="#V" n="37"/>homousion illud catholice fidei sanitate longe 
+          <lb ed="#V" n="38"/>lateque defensum est et diffusum. Quid enim est 
+          ho<lb ed="#V" n="39" break="no"/>mousion nisi vnius eiusdemque substantie: Quid est 
+          inquan<lb ed="#V" n="40" break="no"/>homousion nisi ego et pater vnum sumus: Non ergo 
+          <lb ed="#V" n="41"/>inter prophanas vocum nouitates ho vitandum est. 
+          <lb ed="#V" n="42"/>De nominibus que transsatiue et per 
+          similitudi<lb ed="#V" n="43" break="no"/>nem de deo dicuntur. 
+          <lb ed="#V" n="44"/>Greterea sciendum est quod in 
+          assigna<lb ed="#V" n="45" break="no"/>tione distinctionis nominum 
+          <lb ed="#V" n="46"/>inter alia que supra diligenter executi sumus: 
+          <lb ed="#V" n="47"/>quedam diximus translatiue et per similitudinem 
+          <lb ed="#V" n="48"/>de deo dici: vt speculum: splendor: character: 
+          fi<lb ed="#V" n="49" break="no"/>gura: et huiusmodi: de quibus pio lectori 
+          breui<lb ed="#V" n="50" break="no"/>ter trado quod sentio: vt scilicet ratione similitudinis 
+          <lb ed="#V" n="51"/>considerata ex causis dicendi dictorum 
+          intelli<lb ed="#V" n="52" break="no"/>gentiam assumat: sed cathosicam. 
+          </p>
+          <p xml:id="kzz7yh-a70354-d1e775">
+          <lb ed="#V" n="53"/>¶ Nihil dignum excellentia ineffabilis trinitatis 
+          <lb ed="#V" n="54"/>se tradidisse dicit ad alia transiturus. 
+          <lb ed="#V" n="55"/>De sacramento vnitatis atque 
+          <lb ed="#V" n="56"/>trinitatis sum¬ 
+          <!-\-00221.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>me et ineffabilis multa iam diximus. Nihil tamen 
+          <lb ed="#V" n="58"/>eius ineffabilitate dignum tradidisse profitemur: 
+          <lb ed="#V" n="59"/>sed potius ex nobis mirificam eius scientiam: nec 
+          po<lb ed="#V" n="60" break="no"/>tuisse nos ad illam peruenire. 
+          </p>-->
+        <!-- </div>
+          <div> l1d34prae 
+          <head>Praeambulum</head> -->
+        <p xml:id="kzz7yh-a70354-d1e801">
+          Disi. XXXIIII 
+          <lb ed="#V" n="61"/>Redictis est aduciendum etc. Superius 
+          <lb ed="#V" n="62"/>determinauit magister de 
+          <lb ed="#V" n="63"/>comperatione proprietatum ad personas: et essentiam. 
+          <lb ed="#V" n="64"/>In hac parte determinat de comperatione personarum 
+          <lb ed="#V" n="65"/>ad essentiam. Et diuiditur pars ista in quattuor partes.
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e814">
+          ¶ 
+          In<lb ed="#V" n="66" break="no"/>prima comperat personas ad essentiam quantum ad realem 
+          <lb ed="#V" n="67"/>identitatem.
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e821">
+          ¶ Secundo quantum ad praedicationem ibi: choc 
+          consideran<lb ed="#V" n="68" break="no"/>dum est).
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e826">
+          ¶ Tertio quantum ad quorundam attributorum 
+          essen<lb ed="#V" n="69" break="no"/>tialium appropriationem: ibi. (Ex pedictis constat).
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e832">
+          ¶ 
+          Quar<lb ed="#V" n="70" break="no"/>to de quibusdam dictis de deo per metaphoram: ibi. (
+          Pre<lb ed="#V" n="71" break="no"/>teretea sciendum est). Prima iterum in tres.
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e839">
+          ¶ Primo potesit 
+          <lb ed="#V" n="72"/>errorem quorundam dicentium personas non esse diuinam 
+          na<lb ed="#V" n="73" break="no"/>turam et illius opinionis sophysticam confirmationem.
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e846">
+          ¶ 
+          Se<lb ed="#V" n="74" break="no"/>cundo ponit ipsorum errantium confutationem. ibi. (hoc 
+          qui<lb ed="#V" n="75" break="no"/>dem dicunt non intelligentes).
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e853">
+          ¶ Tertio subdit eorum 
+          <lb ed="#V" n="76"/>per que conantur suam opinionem munire solutionem. ibi. 
+          <lb ed="#V" n="77"/>(Ad naturam ergo rerum. Tunc sequitur illa pars que ibi 
+          in<lb ed="#V" n="78" break="no"/>cipit Ex dictis et diuiditur in partes tres.
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e862">
+          ¶ In prima ponit 
+          <lb ed="#V" n="79"/>quorundam atributorum essentialium appropriatione.
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e867">
+          ¶ 2oreddit 
+          <lb ed="#V" n="80"/>appropriationis rationem: ibi. (Id ergo sacri eloquii).
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e873">
+          ¶ 
+          Ter<lb ed="#V" n="81" break="no"/>tio determinat huius nominis homousios significationem: ibi. 
+          <lb ed="#V" n="82"/>chic non est pretermitendum.) 
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e880">
+          <lb ed="#V" n="83"/>CIrca hanc distinctionem queruntur tria. 
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e885">
+          <lb ed="#V" n="84"/>¶ Primo de his que 
+          re<lb ed="#V" n="85" break="no"/>spiciunt persone et substantie comperationem.
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e892">
+          ¶ 
+          Se<lb ed="#V" n="86" break="no"/>rindo de dectuntird potatione
+        </p>
+        <p xml:id="kzz7yh-a70354-d1e897">
+          ¶ 
+          Rr<lb ed="#V" n="87" break="no"/>tio de pertinentibus ad translationem.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

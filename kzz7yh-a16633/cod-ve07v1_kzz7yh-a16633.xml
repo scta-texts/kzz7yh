@@ -1,178 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title/>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title/>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="24-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a16633"><!-- l1d6prae -->
-            <p xml:id="kzz7yh-a16633-d1e101">
-               <lb ed="#V" n="83"/>¶ Distinctio. vi. 
-      <lb ed="#V" n="84"/>PReterea queri solet: vtrum 
-      pa<lb ed="#V" n="85" break="no"/>ter genuerit filium 
-      <lb ed="#V" n="86"/>voluntate: an necessitate. De hoc 
-      Oro<lb ed="#V" n="87" break="no"/>sius ad Aug. ita ait. voluntate genuit 
-      pa<lb ed="#V" n="88" break="no"/>ter filium: vel necessitate. sed nec voluntate: nec 
-      <lb ed="#V" n="89"/>necessitate: quia necessitas in deo non est: preire 
-      vo<lb ed="#V" n="90" break="no"/>luntas sapientiam non potuit. Quocirca vt 
-      Au<lb ed="#V" n="91" break="no"/>gu. ait. in. xv. libro de tri. Ridenda est dialetica 
-      Eu<lb ed="#V" n="92" break="no"/>nomii: a quo eunomiani heretici orti sunt. Qui 
-      <lb ed="#V" n="93"/>cum non potuisset intelligere nec credere 
-      voluis<lb ed="#V" n="94" break="no"/>set vnigenitum dei filium verbum dei esse natura 
-      <lb ed="#V" n="95"/>idest de substantia patris genitum: non nature vel substantiae 
-      <lb ed="#V" n="96"/>dixit esse filium: sed filium voluntatis dei: volens 
-      <lb ed="#V" n="97"/>asserere accedentem deo voluntatem: qua 
-      gigne<lb ed="#V" n="98" break="no"/>ret filium: sicut nos aliquando aliquid volumus quod 
-      <lb ed="#V" n="99"/>antea non volebamus: propter quod mutabilis 
-      in<lb ed="#V" n="100" break="no"/>telligitur nostra natura: quod absit vt in deo esse 
-      cre<lb ed="#V" n="101" break="no"/>damus. Dicamus ergo verbum dei esse filium 
-      <lb ed="#V" n="102"/>dei natura: non voluntate: vt docet Augu. in 
-      <lb ed="#V" n="103"/>xv. libro de triati. vbi quendam catholicum heretico 
-      reston<lb ed="#V" n="104" break="no"/>dentem commendat dicens. Acute sane quidam 
-      re<lb ed="#V" n="105" break="no"/>spondit heretico versutissime interroganti: vtrum 
-      <lb ed="#V" n="106"/>deus filium volens vel nolens genuerit: vt si 
-      di<lb ed="#V" n="107" break="no"/>ceret nolens absurdissima dei miseria 
-      sequere<lb ed="#V" n="108" break="no"/>tur. Si autem volens: continuo quod intendebat 
-      conclu<lb ed="#V" n="109" break="no"/>deret scilicet non nature esse filium sed voluntatis. 
-      <lb ed="#V" n="110"/>At ille vigilantissime vicissim quesiuit ab eo: 
-      <lb ed="#V" n="111"/>vtrum deus pater volens aut nolens sit deus: vt 
-      <lb ed="#V" n="112"/>fi responderet: nolens: sequeretur grandis 
-      absur<lb ed="#V" n="113" break="no"/>ditas et miseria: quam de deo credere magna est 
-      <lb ed="#V" n="114"/>insania. Si autem diceret volens: responderetur ei: 
-      <lb ed="#V" n="115"/>ergo et ipse voluntate sua deus est non natura. 
-      <lb ed="#V" n="116"/>Quid ergo restabat nisi vt obmutesceret sua 
-      im<lb ed="#V" n="117" break="no"/>terrogatione: obligatum indissolubili vinculo se 
-      <lb ed="#V" n="118"/>videns: Ex predictis docetur non esse concedendum 
-      <lb ed="#V" n="119"/>quod deus voluntate vel necessitate: vel volens vel 
-      <lb ed="#V" n="120"/>nolens sit deus. Item quod voluntate vel 
-      necessi<lb ed="#V" n="121" break="no"/>tate vel volens vel nolens genuerit filium. 
-   </p>
-            <p xml:id="kzz7yh-a16633-d1e188">
-               <lb ed="#V" n="122"/>¶ Oppositio contra predicta. 
-      <lb ed="#V" n="123"/>De i rint. 7u eni. Iriun . 
-      <lb ed="#V" n="124"/>est ntur nstus essont: . 
-      <!--00063.xml-->
-      <pb ed="#V" n="25-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>aliud deo esse: aliud velle. et ideo sicut vna 
-      essen<lb ed="#V" n="2" break="no"/>tia trium personarum: ita et vna voluntas. Si ergo de 
-      <lb ed="#V" n="3"/>us natura deus est: et voluntate deus est. et si verbum 
-      <lb ed="#V" n="4"/>dei natura filius dei est: et voluntate filius dei est. 
-      <lb ed="#V" n="5"/>Hoc autem facile est refellere. Nam et praescientia dei siue 
-      <lb ed="#V" n="6"/>scientia qua scit vel praescit bona et mala: diuina 
-      na<lb ed="#V" n="7" break="no"/>tura siue essentia est. et praedestinatio siue voluntas 
-      <lb ed="#V" n="8"/>eius eadem diuina essentia est. nec est aliud deo 
-      <lb ed="#V" n="9"/>scire et velle quam esse. et cum sit vnum et idem scientia dei vel 
-      <lb ed="#V" n="10"/>voluntas: non tamen dicitur de voluntate quicquid dicitur de scientia 
-      <lb ed="#V" n="11"/>et econuerso. nec omnia illa sua voluntate deus vult 
-      <lb ed="#V" n="12"/>que sua scientia scit: cum sua scientia nouerit tam bona quam 
-      <lb ed="#V" n="13"/>mala. voluntate autem non velit nisi bona. Scientia 
-      <lb ed="#V" n="14"/>quippe dei et praescientia de bonis est et malis: 
-      volun<lb ed="#V" n="15" break="no"/>tas vero et praedestinatio de bonis est tantum. et tamen 
-      <lb ed="#V" n="16"/>vnum et idem in deo est scientia et voluntas et 
-      pre<lb ed="#V" n="17" break="no"/>scientia et predestinatio. Ita cum vnum sit 
-      na<lb ed="#V" n="18" break="no"/>tura dei et voluntas: dicitur tamen pater 
-      ge<lb ed="#V" n="19" break="no"/>nuisse filium natura: non voluntate: et esse deus 
-      <lb ed="#V" n="20"/>natura non voluntate. 
-   </p>
-            <p xml:id="kzz7yh-a16633-d1e247">
-               <lb ed="#V" n="21"/>Qualiter intelligenda sint illa verba pater nec 
-      <lb ed="#V" n="22"/>nolens nec volens deus est. nec volens nec 
-      no<lb ed="#V" n="23" break="no"/>lens genuit filium. 
-    </p>
-            <p xml:id="kzz7yh-a16633-d1e256">
-               <lb ed="#V" n="24"/>Predicta tame verba quibus 
-      pruden<lb ed="#V" n="25" break="no"/>ter dietum est quod de pater 
-      <lb ed="#V" n="26"/>nec volens nec nolens est deus: nec nolens nec 
-      <lb ed="#V" n="27"/>volens genuit filium: siue voluntate siue 
-      neces<lb ed="#V" n="28" break="no"/>sitate: ex tali sensu videntur accipienda vt 
-      volunta<lb ed="#V" n="29" break="no"/>tem precedentem vel accedentem intelligamus 
-      <lb ed="#V" n="30"/>qualiter Eunomius intelligebat. Non enim 
-      <lb ed="#V" n="31"/>ipse deus est voluntate precedenti vel efficienti: 
-      <lb ed="#V" n="32"/>vel volens priusquam deus: nec voluntate 
-      pre<lb ed="#V" n="33" break="no"/>cedenti vel accedenti genuit filium: nec prius 
-      <lb ed="#V" n="34"/>volens quam generans genuit filium. nec prius 
-      <lb ed="#V" n="35"/>generans quam volens genuit filium: volens tamen 
-      <lb ed="#V" n="36"/>genuit: sicut potens genuit: et bonus genuit 
-      fili<lb ed="#V" n="37" break="no"/>um et sapiens genuit: et huiusmodi. Si enim 
-      pa<lb ed="#V" n="38" break="no"/>ter sapiens et bonus dicitur genuisse filium: cur non 
-      <lb ed="#V" n="39"/>et volens. Cum ita sit deo idem esse volentem 
-      <lb ed="#V" n="40"/>quod est esse deum: sicut idem est esse sapientem quod 
-      <lb ed="#V" n="41"/>est esse deum. Dicamus ergo quia pater sicut 
-      sa<lb ed="#V" n="42" break="no"/>piens: ita volens genuit filium: sed non 
-      volunta<lb ed="#V" n="43" break="no"/>te praecedenti vel accedenti. Quem sensum aperit Aug. 
-      <lb ed="#V" n="44"/>et confirmat ita dicens super epitulam ad Ephe. De 
-      fi<lb ed="#V" n="45" break="no"/>lio dei id est domino nostro Iesu christo scriptum est: quia cum 
-      patre<lb ed="#V" n="46" break="no"/>semper fuit: et nunquam eum vt esset: patrna voluntas 
-      praeces<lb ed="#V" n="47" break="no"/>sit: et ille quidem natura filius est. 
-   </p>
-            <!-- </div>
-  <div> l1d6prae 
-    <head>Praeambulum</head> -->
-            <p xml:id="kzz7yh-a16633-d1e314">
-               <lb ed="#V" n="48"/>¶ Ditinctio. 1I 
-      <lb ed="#V" n="49"/>PReterea querisolet.) ostquam ostendit 
-      <lb ed="#V" n="50"/>tesa agister quio est generans 
-      <lb ed="#V" n="51"/>et quid est genitum: in quo ostendit quos 
-      termi<lb ed="#V" n="52" break="no"/>nos habeat ipsa generatio. In hac parte 
-      decla<lb ed="#V" n="53" break="no"/>rat modum per quem est ipsa generatio. Et diuiditur pars 
-      <lb ed="#V" n="54"/>ista in partes tres. Primo inquirit vtrum pater 
-      volunta<lb ed="#V" n="55" break="no"/>te vel necessitate genuit filium: et ponit huius questionis 
-      <lb ed="#V" n="56"/>determinationem. Secundo contra haec obicit: et ponit sue 
-      <!--00063.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>obiectionis solutionem: ibi. (Sed contra haec opponitur sic.) 
-      <lb ed="#V" n="58"/>Tertio reuertitur ad sue determinationis explanationem 
-      <lb ed="#V" n="59"/>ibi. (Predicta tamen verba.) 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="25-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a16633"><!-- l1d6prae -->
+        <head>Praeambulum</head>
+        <!-- <p xml:id="kzz7yh-a16633-d1e101">
+          <lb ed="#V" n="83"/>¶ Distinctio. vi. 
+          <lb ed="#V" n="84"/>PReterea queri solet: vtrum 
+          pa<lb ed="#V" n="85" break="no"/>ter genuerit filium 
+          <lb ed="#V" n="86"/>voluntate: an necessitate. De hoc 
+          Oro<lb ed="#V" n="87" break="no"/>sius ad Aug. ita ait. voluntate genuit 
+          pa<lb ed="#V" n="88" break="no"/>ter filium: vel necessitate. sed nec voluntate: nec 
+          <lb ed="#V" n="89"/>necessitate: quia necessitas in deo non est: preire 
+          vo<lb ed="#V" n="90" break="no"/>luntas sapientiam non potuit. Quocirca vt 
+          Au<lb ed="#V" n="91" break="no"/>gu. ait. in. xv. libro de tri. Ridenda est dialetica 
+          Eu<lb ed="#V" n="92" break="no"/>nomii: a quo eunomiani heretici orti sunt. Qui 
+          <lb ed="#V" n="93"/>cum non potuisset intelligere nec credere 
+          voluis<lb ed="#V" n="94" break="no"/>set vnigenitum dei filium verbum dei esse natura 
+          <lb ed="#V" n="95"/>idest de substantia patris genitum: non nature vel substantiae 
+          <lb ed="#V" n="96"/>dixit esse filium: sed filium voluntatis dei: volens 
+          <lb ed="#V" n="97"/>asserere accedentem deo voluntatem: qua 
+          gigne<lb ed="#V" n="98" break="no"/>ret filium: sicut nos aliquando aliquid volumus quod 
+          <lb ed="#V" n="99"/>antea non volebamus: propter quod mutabilis 
+          in<lb ed="#V" n="100" break="no"/>telligitur nostra natura: quod absit vt in deo esse 
+          cre<lb ed="#V" n="101" break="no"/>damus. Dicamus ergo verbum dei esse filium 
+          <lb ed="#V" n="102"/>dei natura: non voluntate: vt docet Augu. in 
+          <lb ed="#V" n="103"/>xv. libro de triati. vbi quendam catholicum heretico 
+          reston<lb ed="#V" n="104" break="no"/>dentem commendat dicens. Acute sane quidam 
+          re<lb ed="#V" n="105" break="no"/>spondit heretico versutissime interroganti: vtrum 
+          <lb ed="#V" n="106"/>deus filium volens vel nolens genuerit: vt si 
+          di<lb ed="#V" n="107" break="no"/>ceret nolens absurdissima dei miseria 
+          sequere<lb ed="#V" n="108" break="no"/>tur. Si autem volens: continuo quod intendebat 
+          conclu<lb ed="#V" n="109" break="no"/>deret scilicet non nature esse filium sed voluntatis. 
+          <lb ed="#V" n="110"/>At ille vigilantissime vicissim quesiuit ab eo: 
+          <lb ed="#V" n="111"/>vtrum deus pater volens aut nolens sit deus: vt 
+          <lb ed="#V" n="112"/>fi responderet: nolens: sequeretur grandis 
+          absur<lb ed="#V" n="113" break="no"/>ditas et miseria: quam de deo credere magna est 
+          <lb ed="#V" n="114"/>insania. Si autem diceret volens: responderetur ei: 
+          <lb ed="#V" n="115"/>ergo et ipse voluntate sua deus est non natura. 
+          <lb ed="#V" n="116"/>Quid ergo restabat nisi vt obmutesceret sua 
+          im<lb ed="#V" n="117" break="no"/>terrogatione: obligatum indissolubili vinculo se 
+          <lb ed="#V" n="118"/>videns: Ex predictis docetur non esse concedendum 
+          <lb ed="#V" n="119"/>quod deus voluntate vel necessitate: vel volens vel 
+          <lb ed="#V" n="120"/>nolens sit deus. Item quod voluntate vel 
+          necessi<lb ed="#V" n="121" break="no"/>tate vel volens vel nolens genuerit filium. 
+          </p>
+          <p xml:id="kzz7yh-a16633-d1e188">
+          <lb ed="#V" n="122"/>¶ Oppositio contra predicta. 
+          <lb ed="#V" n="123"/>De i rint. 7u eni. Iriun . 
+          <lb ed="#V" n="124"/>est ntur nstus essont: . 
+          <!-\-00063.xml-\->
+          <pb ed="#V" n="25-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>aliud deo esse: aliud velle. et ideo sicut vna 
+          essen<lb ed="#V" n="2" break="no"/>tia trium personarum: ita et vna voluntas. Si ergo de 
+          <lb ed="#V" n="3"/>us natura deus est: et voluntate deus est. et si verbum 
+          <lb ed="#V" n="4"/>dei natura filius dei est: et voluntate filius dei est. 
+          <lb ed="#V" n="5"/>Hoc autem facile est refellere. Nam et praescientia dei siue 
+          <lb ed="#V" n="6"/>scientia qua scit vel praescit bona et mala: diuina 
+          na<lb ed="#V" n="7" break="no"/>tura siue essentia est. et praedestinatio siue voluntas 
+          <lb ed="#V" n="8"/>eius eadem diuina essentia est. nec est aliud deo 
+          <lb ed="#V" n="9"/>scire et velle quam esse. et cum sit vnum et idem scientia dei vel 
+          <lb ed="#V" n="10"/>voluntas: non tamen dicitur de voluntate quicquid dicitur de scientia 
+          <lb ed="#V" n="11"/>et econuerso. nec omnia illa sua voluntate deus vult 
+          <lb ed="#V" n="12"/>que sua scientia scit: cum sua scientia nouerit tam bona quam 
+          <lb ed="#V" n="13"/>mala. voluntate autem non velit nisi bona. Scientia 
+          <lb ed="#V" n="14"/>quippe dei et praescientia de bonis est et malis: 
+          volun<lb ed="#V" n="15" break="no"/>tas vero et praedestinatio de bonis est tantum. et tamen 
+          <lb ed="#V" n="16"/>vnum et idem in deo est scientia et voluntas et 
+          pre<lb ed="#V" n="17" break="no"/>scientia et predestinatio. Ita cum vnum sit 
+          na<lb ed="#V" n="18" break="no"/>tura dei et voluntas: dicitur tamen pater 
+          ge<lb ed="#V" n="19" break="no"/>nuisse filium natura: non voluntate: et esse deus 
+          <lb ed="#V" n="20"/>natura non voluntate. 
+          </p>
+          <p xml:id="kzz7yh-a16633-d1e247">
+          <lb ed="#V" n="21"/>Qualiter intelligenda sint illa verba pater nec 
+          <lb ed="#V" n="22"/>nolens nec volens deus est. nec volens nec 
+          no<lb ed="#V" n="23" break="no"/>lens genuit filium. 
+          </p>
+          <p xml:id="kzz7yh-a16633-d1e256">
+          <lb ed="#V" n="24"/>Predicta tame verba quibus 
+          pruden<lb ed="#V" n="25" break="no"/>ter dietum est quod de pater 
+          <lb ed="#V" n="26"/>nec volens nec nolens est deus: nec nolens nec 
+          <lb ed="#V" n="27"/>volens genuit filium: siue voluntate siue 
+          neces<lb ed="#V" n="28" break="no"/>sitate: ex tali sensu videntur accipienda vt 
+          volunta<lb ed="#V" n="29" break="no"/>tem precedentem vel accedentem intelligamus 
+          <lb ed="#V" n="30"/>qualiter Eunomius intelligebat. Non enim 
+          <lb ed="#V" n="31"/>ipse deus est voluntate precedenti vel efficienti: 
+          <lb ed="#V" n="32"/>vel volens priusquam deus: nec voluntate 
+          pre<lb ed="#V" n="33" break="no"/>cedenti vel accedenti genuit filium: nec prius 
+          <lb ed="#V" n="34"/>volens quam generans genuit filium. nec prius 
+          <lb ed="#V" n="35"/>generans quam volens genuit filium: volens tamen 
+          <lb ed="#V" n="36"/>genuit: sicut potens genuit: et bonus genuit 
+          fili<lb ed="#V" n="37" break="no"/>um et sapiens genuit: et huiusmodi. Si enim 
+          pa<lb ed="#V" n="38" break="no"/>ter sapiens et bonus dicitur genuisse filium: cur non 
+          <lb ed="#V" n="39"/>et volens. Cum ita sit deo idem esse volentem 
+          <lb ed="#V" n="40"/>quod est esse deum: sicut idem est esse sapientem quod 
+          <lb ed="#V" n="41"/>est esse deum. Dicamus ergo quia pater sicut 
+          sa<lb ed="#V" n="42" break="no"/>piens: ita volens genuit filium: sed non 
+          volunta<lb ed="#V" n="43" break="no"/>te praecedenti vel accedenti. Quem sensum aperit Aug. 
+          <lb ed="#V" n="44"/>et confirmat ita dicens super epitulam ad Ephe. De 
+          fi<lb ed="#V" n="45" break="no"/>lio dei id est domino nostro Iesu christo scriptum est: quia cum 
+          patre<lb ed="#V" n="46" break="no"/>semper fuit: et nunquam eum vt esset: patrna voluntas 
+          praeces<lb ed="#V" n="47" break="no"/>sit: et ille quidem natura filius est. 
+          </p>-->
+        <!-- </div>
+          <div> l1d6prae 
+          <head>Praeambulum</head> -->
+        <p xml:id="kzz7yh-a16633-d1e314">
+          <lb ed="#V" n="48"/>¶ Distinctio. 1I 
+          <lb ed="#V" n="49"/>PReterea queri solet.) Postquam ostendit 
+          <lb ed="#V" n="50"/>tesa Magister quio est generans 
+          <lb ed="#V" n="51"/>et quid est genitum: in quo ostendit quos 
+          termi<lb ed="#V" n="52" break="no"/>nos habeat ipsa generatio. In hac parte 
+          decla<lb ed="#V" n="53" break="no"/>rat modum per quem est ipsa generatio. Et diuiditur pars 
+          <lb ed="#V" n="54"/>ista in partes tres. Primo inquirit vtrum pater 
+          volunta<lb ed="#V" n="55" break="no"/>te vel necessitate genuit filium: et ponit huius questionis 
+          <lb ed="#V" n="56"/>determinationem. Secundo contra haec obicit: et ponit sue 
+          <!--00063.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>obiectionis solutionem: ibi. (Sed contra haec opponitur sic.) 
+          <lb ed="#V" n="58"/>Tertio reuertitur ad sue determinationis explanationem 
+          <lb ed="#V" n="59"/>ibi. (Predicta tamen verba.) 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

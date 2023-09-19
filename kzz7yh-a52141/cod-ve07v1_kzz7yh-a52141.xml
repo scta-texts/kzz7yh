@@ -1,253 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title/>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title/>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="76-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a52141"><!-- l1d24prae -->
-            <p xml:id="kzz7yh-a52141-d1e101">
-               <lb ed="#V" n="93"/>¶ Quid significetur his nomibus vnus vel vna duo vel 
-      <lb ed="#V" n="94"/>due tres vel tria: trinus vel trinitas plules vel 
-      plu<lb ed="#V" n="95" break="no"/>ralitas distinctio vel distincte: cum his vtimur 
-      <lb ed="#V" n="96"/>de deo loquentes. Distinctio XXIIII 
-      <lb ed="#V" n="97"/>Ic dili gen ter inquri 
-      opraecun<lb ed="#V" n="98" break="no"/>in trinitate non 
-      <lb ed="#V" n="99"/>sit diuersitas vel singularitas: nec 
-      multi<lb ed="#V" n="100" break="no"/>plicitas vel solitudo quid significetur his nomin 
-      <lb ed="#V" n="101"/>bus scilicet vnus vel vna duo vel due: tres vel tria: 
-      tri<lb ed="#V" n="102" break="no"/>nus vel trinitas: plures vel pluralitas: distincte 
-      <lb ed="#V" n="103"/>vel distinctio cum dicitur vnus deus: due persone vel 
-      <lb ed="#V" n="104"/>tres persone: plures persone distincte sunt persone: vel 
-      <lb ed="#V" n="105"/>cum dicitur distinctio personarum pluralitas: personarum 
-      <lb ed="#V" n="106"/>trinitas personarum: et huiusmodi. Uidemur enim hoc 
-      dicen<lb ed="#V" n="107" break="no"/>tes numerorum quantitates et rerum multitudinem vel 
-      <lb ed="#V" n="108"/>multiplicitatem in deo ponere. Quid ergo ista ibi si 
-      <lb ed="#V" n="109"/>gnificent ipso de quod loqumur aperiente insinuatur curemus. 
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e140">
-               <lb ed="#V" n="110"/>¶ Magis illa dicuntur ad excludendum ea que 
-      <lb ed="#V" n="111"/>non sunt in deo quam ad ponendum aliqua. 
-      <lb ed="#V" n="112"/>Si diligen ter premissis auctoritatum 
-      <lb ed="#V" n="113"/>verbis intendimus: vt 
-      di<lb ed="#V" n="114" break="no"/>ctorum intelligentiam capiamus: magis videtur 
-      ho<lb ed="#V" n="115" break="no"/>rum verborum vsus introductus ratione remouendi 
-      <lb ed="#V" n="116"/>atque excludendi a simplicitate deitatis que ibi 
-      <lb ed="#V" n="117"/>non sunt: quam ponendi aliqua. 
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e160">
-               <lb ed="#V" n="118"/>¶ Quid per vnum significetur cum dicitur vnus deus. 
-      <lb ed="#V" n="119"/>Cum enim dicitur vnus deus multitudo deo 
-      <lb ed="#V" n="120"/>rum excluditur: nec numeri quantitas 
-      <lb ed="#V" n="121"/>in divinitate ponitur tamquam diceretur: deus est: nec 
-      mul<lb ed="#V" n="122" break="no"/>ti sunt vel plures dii. Unde Amb. in. libro de triniat. 
-      <lb ed="#V" n="123"/>ait. Enum vnus dicimus deum: vnitas excludit 
-      nu<lb ed="#V" n="124" break="no"/>merum deorum nec quantitatem in deo poni 
-      <lb ed="#V" n="125"/>quia nec numerus nec quantitas ibi est. 
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e180">
-               <lb ed="#V" n="126"/>¶ Quo sensu dicitur vnus est pater: vel vnus est filius. 
-      <lb ed="#V" n="127"/>Similiter cum dicitur. vnus est patur vel 
-      <lb ed="#V" n="128"/>vnus est filius: et huiusmodi: ratio 
-      <!--00167.xml-->
-      <pb ed="#V" n="77-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>dicti hec est: quod non sunt multi patres vel multi 
-      fi<lb ed="#V" n="2" break="no"/>lii: ita et de similibus. Item cum dicimus plures 
-      <lb ed="#V" n="3"/>esse personas singularitatem atque solitudinem 
-      ex<lb ed="#V" n="4" break="no"/>cludimus nec diuersitatem nec multiplicitatem 
-      <lb ed="#V" n="5"/>ibi ponimus: quasi diceretur. Sine solitudine 
-      ac<lb ed="#V" n="6" break="no"/>singularitate personas confitemur. Unde hylarius in 
-      <lb ed="#V" n="7"/>iiii. lib. de trinita. sic ait. Dixit deus. Faciamus 
-      <lb ed="#V" n="8"/>hominem ad imaginem et similitudinem nostram. 
-      <lb ed="#V" n="9"/>Quero nunc an solum deum sibi locutum existines 
-      <lb ed="#V" n="10"/>an hunc sermonem eius intelligas ad alterum 
-      ex<lb ed="#V" n="11" break="no"/>titisse: Si solum fuisse dicis: ipsius vocem 
-      argue<lb ed="#V" n="12" break="no"/>ris dicentis: Faciamus et nostram. Sustulit enim 
-      <lb ed="#V" n="13"/>singularitatis ac solitudinis intelligentiam 
-      profes<lb ed="#V" n="14" break="no"/>sio consortii: quia aliquod confortium esse non potest ipsi soli 
-      <lb ed="#V" n="15"/>tario: neque solitudo solitarii: recipit faciamus nec 
-      <lb ed="#V" n="16"/>alieno a se diceret nostram. Attende lector his 
-      <lb ed="#V" n="17"/>verbis et vide: quia nomine confortii pluralitatem 
-      signifi<lb ed="#V" n="18" break="no"/>cauit. Pofessio ergo confortii est professio 
-      plurali<lb ed="#V" n="19" break="no"/>tatis: quam professus est dicens. Faciamus et nastram 
-      <lb ed="#V" n="20"/>pluraliter enim vtrumque dicitur. Sed hac professione 
-      plu<lb ed="#V" n="21" break="no"/>ralitatis non diuersitatem vel multitudinem posu 
-      <lb ed="#V" n="22"/>it: sed solitudinem et singularitatem negauit. Sic 
-      <lb ed="#V" n="23"/>ergo cum dicimus plures et personas vel pluralita 
-      <lb ed="#V" n="24"/>tem personarum: singularitatis et soltudinis 
-      in<lb ed="#V" n="25" break="no"/>telligentiam excludimus. 
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e250">
-               <lb ed="#V" n="26"/>¶ Quid per ternarium significetur cum dicitur tres persone. 
-      <lb ed="#V" n="27"/>Ita etiam cum dicimus tres personas: 
-      no<lb ed="#V" n="28" break="no"/>mine ternarii non quantitatem 
-      <lb ed="#V" n="29"/>numeri in deo ponimus vel aliquam 
-      diuersita<lb ed="#V" n="30" break="no"/>tatem sed intelligentiam non ad alium nisi ad 
-      pa<lb ed="#V" n="31" break="no"/>trem et filium et spritum sanctum dirigendam 
-      significa<lb ed="#V" n="32" break="no"/>mus: vt sit huius dicti intelligentiam. Tres per 
-      <lb ed="#V" n="33"/>sone sunt: vel tres sunt pater et filius et spiritus sanctus 
-      <lb ed="#V" n="34"/>id est nec tantum pater: nec tantum filius: nec tantum patur et filius 
-      <lb ed="#V" n="35"/>in deitate sunt: sed etiam spiritus sanctus: et non 
-      ali<lb ed="#V" n="36" break="no"/>us ab his. Similiter non tantum est ibi hec persona: vel 
-      <lb ed="#V" n="37"/>illa: vel hoc et illa: sed hec et illa et illa: et non alia. 
-      <lb ed="#V" n="38"/>Et hoc fore ita intelligendum Aug. satis ostendit 
-      <lb ed="#V" n="39"/>vbi dicit quod illo nomine non diuersitatem 
-      inteli<lb ed="#V" n="40" break="no"/>ligi voluit: sed singularitatem noluit. 
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e286">
-               <lb ed="#V" n="41"/>¶ Quid per duo cum diter due peter: vel pater et filius duo sunt. 
-      <lb ed="#V" n="42"/>Similiter cum dicitur duo sunt 
-      pa<lb ed="#V" n="43" break="no"/>ter et filius: non 
-      dualita<lb ed="#V" n="44" break="no"/>tis quantitatem ibi ponimus sed hoc significamus: 
-      <lb ed="#V" n="45"/>quod non est tantum pater nec tantum filius: sed pater et filius: 
-      <lb ed="#V" n="46"/>et hic non est ille: ita et de aliis huiusmodi. Ita etiam 
-      <lb ed="#V" n="47"/>cum dicimus: pater et filius sunt due persone: hoc 
-      si<lb ed="#V" n="48" break="no"/>gnificamus quod non tantum pater est persona nec tantum filius est 
-      <lb ed="#V" n="49"/>poss sed pater est persona: et filius est persona et hoc non est illa. 
-      <lb ed="#V" n="50"/>Ex quo sensu dicitur in personis distio vel petrs distincte. 
-      <lb ed="#V" n="51"/>Cum autem dicimus distincte sunt persone: 
-      vien<lb ed="#V" n="52" break="no"/>distinctio est in personis confusionem atque 
-      <lb ed="#V" n="53"/>permixtionem excludimus: et hanc non esse illam 
-      signi<lb ed="#V" n="54" break="no"/>ficamus. Cunque addimus distincte sunt persone 
-      <lb ed="#V" n="55"/>prprietatibus: siue differentes proporietatibus: aliam 
-      <lb ed="#V" n="56"/>esse hanc personam: et aliam illam suis prporietatibus 
-      <!--00167.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>significamus. Et cum dicimus: aliam et aliam: 
-      <lb ed="#V" n="58"/>non diuersitatem vel alienationem ibi ponimus: 
-      <lb ed="#V" n="59"/>sed confusionem sabellianam excludimus. 
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e334">
-               <lb ed="#V" n="60"/>¶ Quomodo ibi accipiatur discretio. 
-      <lb ed="#V" n="61"/>Ita etiam dicuntur discrete persone: vel cum 
-      <lb ed="#V" n="62"/>or discretio in personis esse: eandem 
-      intemlligen<lb ed="#V" n="63" break="no"/>tiam facimus. Eodem enim modo ibi accipitur distinctio quod 
-      <lb ed="#V" n="64"/>discretio. Et congrue dicitur ibi esse discretio vel 
-      disti<lb ed="#V" n="65" break="no"/>ctio: non diuersitas vel diuisio siue separatio. Unde 
-      <lb ed="#V" n="66"/>Amb. in primo libro de tri. Non est ipse pater qui filius 
-      <lb ed="#V" n="67"/>sed inter patrem et filium expressa distinctio est. 
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e354">
-               <lb ed="#V" n="68"/>¶ Quomodo trinitas ibi accipiatur. 
-      <lb ed="#V" n="69"/>um vero dicitur trinitas: id significari videtur quod 
-      <lb ed="#V" n="70"/>significatur cum dicitur tres persone: vt sicut non 
-      <lb ed="#V" n="71"/>potest dici: pater est tres persone: vel filius est tres persone: ita 
-      <lb ed="#V" n="72"/>non debet dici: pater est trinitas: vel filius est trinitas. 
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e367">
-               <lb ed="#V" n="73"/>¶ Hoc videtur contrarium esse predictis. 
-      <lb ed="#V" n="74"/>Hic non est praetermitendum quod cum 
-      supra<lb ed="#V" n="75" break="no"/>dictum sit deum nec singularem 
-      <lb ed="#V" n="76"/>nec multiplicem esse confitendum: idque sanctorum 
-      au<lb ed="#V" n="77" break="no"/>ctoritatibus sit confirmatum. In contrarum videtur sentire 
-      <lb ed="#V" n="78"/>Isido. dicens. Distinguendum est inter 
-      trinita<lb ed="#V" n="79" break="no"/>tem et vnitatem. Est enim vnitas simplex et 
-      singula<lb ed="#V" n="80" break="no"/>ris: trinitas vero multiplex et numerabilis: quia 
-      tri<lb ed="#V" n="81" break="no"/>nitas est trium vnitas. Ecce vnitatem dicit esse 
-      <lb ed="#V" n="82"/>singularem: et trinitatem multiplicem et numerabilem. 
-      <lb ed="#V" n="83"/>Sed ad hoc dicimus: quia singlarem accepit sicut 
-      <lb ed="#V" n="84"/>et alii accipiunt vnum: multiplicem vero et 
-      numera<lb ed="#V" n="85" break="no"/>bilem sicut alii dicunt trinum. 
-   </p>
-            <!-- </div>
-  <div> l1d24prae 
-    <head>Praeambulum</head> -->
-            <p xml:id="kzz7yh-a52141-d1e400">
-               <lb ed="#V" n="86"/>Iic diligenter inquri oportet Superius 
-      deter<lb ed="#V" n="87" break="no"/>minauit magister de nomine 
-      <lb ed="#V" n="88"/>persone substantiae et essentie. In hac parte determinat de 
-      no<lb ed="#V" n="89" break="no"/>minibus numeralibus et diuiditur pars ista in partes 
-      quat<lb ed="#V" n="90" break="no"/>tuor.
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e414">
-      ¶ In prima parte ostendit quid significent ista nomina vnus vel 
-      <lb ed="#V" n="91"/>plures.
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e419">
-      ¶ In 2o quid significent ista duo et tres ibi.
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e421">
-      ¶ Ita 
-      <lb ed="#V" n="92"/>etiam cum dicimus tres personas.
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e426">
-      ¶ In tertia quid significent 
-      <lb ed="#V" n="93"/>ista nomina discrectus et distinctus ibi. Cum autem dicimus 
-      disti<lb ed="#V" n="94" break="no"/>cte sunt persone.
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e433">
-      ¶ In quarta quid significent ista nomina tritas et 
-      <lb ed="#V" n="95"/>trinus ibi. Cum vero dicitur trinitas. 
-      <lb ed="#V" n="96"/>Circa hanc distanitionem querenda sunt tria 
-      princi<lb ed="#V" n="97" break="no"/>paliter.
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e442">
-      ¶ Primo enim quaerendum est: deterio 
-      <lb ed="#V" n="98"/>significante vnitatem.
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e448">
-      ¶ Secundo determino 
-      signifi<lb ed="#V" n="99" break="no"/>cante numerum.
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e453">
-      ¶ Tertio determino signante simul 
-      <lb ed="#V" n="100"/>vnitatem enim numerum.
-   </p>
-            <p xml:id="kzz7yh-a52141-d1e458">
-      ¶ Circa primum queruntur tria. 
-      Suppo<lb ed="#V" n="101" break="no"/>sito cum quod deus sit vnus: quia hoc probatum est superius. Di.o 7v. 
-      <lb ed="#V" n="102"/>in quaestione illa in qua queritur vtrum vna sit divina essentia tantum 
-      <lb ed="#V" n="103"/>vel plures.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="77-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a52141"><!-- l1d24prae -->
+        <head>Praeambulum</head>
+        <!-- <p xml:id="kzz7yh-a52141-d1e101">
+          <lb ed="#V" n="93"/>¶ Quid significetur his nomibus vnus vel vna duo vel 
+          <lb ed="#V" n="94"/>due tres vel tria: trinus vel trinitas plules vel 
+          plu<lb ed="#V" n="95" break="no"/>ralitas distinctio vel distincte: cum his vtimur 
+          <lb ed="#V" n="96"/>de deo loquentes. Distinctio XXIIII 
+          <lb ed="#V" n="97"/>Ic dili gen ter inquri 
+          opraecun<lb ed="#V" n="98" break="no"/>in trinitate non 
+          <lb ed="#V" n="99"/>sit diuersitas vel singularitas: nec 
+          multi<lb ed="#V" n="100" break="no"/>plicitas vel solitudo quid significetur his nomin 
+          <lb ed="#V" n="101"/>bus scilicet vnus vel vna duo vel due: tres vel tria: 
+          tri<lb ed="#V" n="102" break="no"/>nus vel trinitas: plures vel pluralitas: distincte 
+          <lb ed="#V" n="103"/>vel distinctio cum dicitur vnus deus: due persone vel 
+          <lb ed="#V" n="104"/>tres persone: plures persone distincte sunt persone: vel 
+          <lb ed="#V" n="105"/>cum dicitur distinctio personarum pluralitas: personarum 
+          <lb ed="#V" n="106"/>trinitas personarum: et huiusmodi. Uidemur enim hoc 
+          dicen<lb ed="#V" n="107" break="no"/>tes numerorum quantitates et rerum multitudinem vel 
+          <lb ed="#V" n="108"/>multiplicitatem in deo ponere. Quid ergo ista ibi si 
+          <lb ed="#V" n="109"/>gnificent ipso de quod loqumur aperiente insinuatur curemus. 
+          </p>
+          <p xml:id="kzz7yh-a52141-d1e140">
+          <lb ed="#V" n="110"/>¶ Magis illa dicuntur ad excludendum ea que 
+          <lb ed="#V" n="111"/>non sunt in deo quam ad ponendum aliqua. 
+          <lb ed="#V" n="112"/>Si diligen ter premissis auctoritatum 
+          <lb ed="#V" n="113"/>verbis intendimus: vt 
+          di<lb ed="#V" n="114" break="no"/>ctorum intelligentiam capiamus: magis videtur 
+          ho<lb ed="#V" n="115" break="no"/>rum verborum vsus introductus ratione remouendi 
+          <lb ed="#V" n="116"/>atque excludendi a simplicitate deitatis que ibi 
+          <lb ed="#V" n="117"/>non sunt: quam ponendi aliqua. 
+          </p>
+          <p xml:id="kzz7yh-a52141-d1e160">
+          <lb ed="#V" n="118"/>¶ Quid per vnum significetur cum dicitur vnus deus. 
+          <lb ed="#V" n="119"/>Cum enim dicitur vnus deus multitudo deo 
+          <lb ed="#V" n="120"/>rum excluditur: nec numeri quantitas 
+          <lb ed="#V" n="121"/>in divinitate ponitur tamquam diceretur: deus est: nec 
+          mul<lb ed="#V" n="122" break="no"/>ti sunt vel plures dii. Unde Amb. in. libro de triniat. 
+          <lb ed="#V" n="123"/>ait. Enum vnus dicimus deum: vnitas excludit 
+          nu<lb ed="#V" n="124" break="no"/>merum deorum nec quantitatem in deo poni 
+          <lb ed="#V" n="125"/>quia nec numerus nec quantitas ibi est. 
+          </p>
+          <p xml:id="kzz7yh-a52141-d1e180">
+          <lb ed="#V" n="126"/>¶ Quo sensu dicitur vnus est pater: vel vnus est filius. 
+          <lb ed="#V" n="127"/>Similiter cum dicitur. vnus est patur vel 
+          <lb ed="#V" n="128"/>vnus est filius: et huiusmodi: ratio 
+          <!-\-00167.xml-\->
+          <pb ed="#V" n="77-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>dicti hec est: quod non sunt multi patres vel multi 
+          fi<lb ed="#V" n="2" break="no"/>lii: ita et de similibus. Item cum dicimus plures 
+          <lb ed="#V" n="3"/>esse personas singularitatem atque solitudinem 
+          ex<lb ed="#V" n="4" break="no"/>cludimus nec diuersitatem nec multiplicitatem 
+          <lb ed="#V" n="5"/>ibi ponimus: quasi diceretur. Sine solitudine 
+          ac<lb ed="#V" n="6" break="no"/>singularitate personas confitemur. Unde hylarius in 
+          <lb ed="#V" n="7"/>iiii. lib. de trinita. sic ait. Dixit deus. Faciamus 
+          <lb ed="#V" n="8"/>hominem ad imaginem et similitudinem nostram. 
+          <lb ed="#V" n="9"/>Quero nunc an solum deum sibi locutum existines 
+          <lb ed="#V" n="10"/>an hunc sermonem eius intelligas ad alterum 
+          ex<lb ed="#V" n="11" break="no"/>titisse: Si solum fuisse dicis: ipsius vocem 
+          argue<lb ed="#V" n="12" break="no"/>ris dicentis: Faciamus et nostram. Sustulit enim 
+          <lb ed="#V" n="13"/>singularitatis ac solitudinis intelligentiam 
+          profes<lb ed="#V" n="14" break="no"/>sio consortii: quia aliquod confortium esse non potest ipsi soli 
+          <lb ed="#V" n="15"/>tario: neque solitudo solitarii: recipit faciamus nec 
+          <lb ed="#V" n="16"/>alieno a se diceret nostram. Attende lector his 
+          <lb ed="#V" n="17"/>verbis et vide: quia nomine confortii pluralitatem 
+          signifi<lb ed="#V" n="18" break="no"/>cauit. Pofessio ergo confortii est professio 
+          plurali<lb ed="#V" n="19" break="no"/>tatis: quam professus est dicens. Faciamus et nastram 
+          <lb ed="#V" n="20"/>pluraliter enim vtrumque dicitur. Sed hac professione 
+          plu<lb ed="#V" n="21" break="no"/>ralitatis non diuersitatem vel multitudinem posu 
+          <lb ed="#V" n="22"/>it: sed solitudinem et singularitatem negauit. Sic 
+          <lb ed="#V" n="23"/>ergo cum dicimus plures et personas vel pluralita 
+          <lb ed="#V" n="24"/>tem personarum: singularitatis et soltudinis 
+          in<lb ed="#V" n="25" break="no"/>telligentiam excludimus. 
+          </p>
+          <p xml:id="kzz7yh-a52141-d1e250">
+          <lb ed="#V" n="26"/>¶ Quid per ternarium significetur cum dicitur tres persone. 
+          <lb ed="#V" n="27"/>Ita etiam cum dicimus tres personas: 
+          no<lb ed="#V" n="28" break="no"/>mine ternarii non quantitatem 
+          <lb ed="#V" n="29"/>numeri in deo ponimus vel aliquam 
+          diuersita<lb ed="#V" n="30" break="no"/>tatem sed intelligentiam non ad alium nisi ad 
+          pa<lb ed="#V" n="31" break="no"/>trem et filium et spritum sanctum dirigendam 
+          significa<lb ed="#V" n="32" break="no"/>mus: vt sit huius dicti intelligentiam. Tres per 
+          <lb ed="#V" n="33"/>sone sunt: vel tres sunt pater et filius et spiritus sanctus 
+          <lb ed="#V" n="34"/>id est nec tantum pater: nec tantum filius: nec tantum patur et filius 
+          <lb ed="#V" n="35"/>in deitate sunt: sed etiam spiritus sanctus: et non 
+          ali<lb ed="#V" n="36" break="no"/>us ab his. Similiter non tantum est ibi hec persona: vel 
+          <lb ed="#V" n="37"/>illa: vel hoc et illa: sed hec et illa et illa: et non alia. 
+          <lb ed="#V" n="38"/>Et hoc fore ita intelligendum Aug. satis ostendit 
+          <lb ed="#V" n="39"/>vbi dicit quod illo nomine non diuersitatem 
+          inteli<lb ed="#V" n="40" break="no"/>ligi voluit: sed singularitatem noluit. 
+          </p>
+          <p xml:id="kzz7yh-a52141-d1e286">
+          <lb ed="#V" n="41"/>¶ Quid per duo cum diter due peter: vel pater et filius duo sunt. 
+          <lb ed="#V" n="42"/>Similiter cum dicitur duo sunt 
+          pa<lb ed="#V" n="43" break="no"/>ter et filius: non 
+          dualita<lb ed="#V" n="44" break="no"/>tis quantitatem ibi ponimus sed hoc significamus: 
+          <lb ed="#V" n="45"/>quod non est tantum pater nec tantum filius: sed pater et filius: 
+          <lb ed="#V" n="46"/>et hic non est ille: ita et de aliis huiusmodi. Ita etiam 
+          <lb ed="#V" n="47"/>cum dicimus: pater et filius sunt due persone: hoc 
+          si<lb ed="#V" n="48" break="no"/>gnificamus quod non tantum pater est persona nec tantum filius est 
+          <lb ed="#V" n="49"/>poss sed pater est persona: et filius est persona et hoc non est illa. 
+          <lb ed="#V" n="50"/>Ex quo sensu dicitur in personis distio vel petrs distincte. 
+          <lb ed="#V" n="51"/>Cum autem dicimus distincte sunt persone: 
+          vien<lb ed="#V" n="52" break="no"/>distinctio est in personis confusionem atque 
+          <lb ed="#V" n="53"/>permixtionem excludimus: et hanc non esse illam 
+          signi<lb ed="#V" n="54" break="no"/>ficamus. Cunque addimus distincte sunt persone 
+          <lb ed="#V" n="55"/>prprietatibus: siue differentes proporietatibus: aliam 
+          <lb ed="#V" n="56"/>esse hanc personam: et aliam illam suis prporietatibus 
+          <!-\-00167.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>significamus. Et cum dicimus: aliam et aliam: 
+          <lb ed="#V" n="58"/>non diuersitatem vel alienationem ibi ponimus: 
+          <lb ed="#V" n="59"/>sed confusionem sabellianam excludimus. 
+          </p>
+          <p xml:id="kzz7yh-a52141-d1e334">
+          <lb ed="#V" n="60"/>¶ Quomodo ibi accipiatur discretio. 
+          <lb ed="#V" n="61"/>Ita etiam dicuntur discrete persone: vel cum 
+          <lb ed="#V" n="62"/>or discretio in personis esse: eandem 
+          intemlligen<lb ed="#V" n="63" break="no"/>tiam facimus. Eodem enim modo ibi accipitur distinctio quod 
+          <lb ed="#V" n="64"/>discretio. Et congrue dicitur ibi esse discretio vel 
+          disti<lb ed="#V" n="65" break="no"/>ctio: non diuersitas vel diuisio siue separatio. Unde 
+          <lb ed="#V" n="66"/>Amb. in primo libro de tri. Non est ipse pater qui filius 
+          <lb ed="#V" n="67"/>sed inter patrem et filium expressa distinctio est. 
+          </p>
+          <p xml:id="kzz7yh-a52141-d1e354">
+          <lb ed="#V" n="68"/>¶ Quomodo trinitas ibi accipiatur. 
+          <lb ed="#V" n="69"/>um vero dicitur trinitas: id significari videtur quod 
+          <lb ed="#V" n="70"/>significatur cum dicitur tres persone: vt sicut non 
+          <lb ed="#V" n="71"/>potest dici: pater est tres persone: vel filius est tres persone: ita 
+          <lb ed="#V" n="72"/>non debet dici: pater est trinitas: vel filius est trinitas. 
+          </p>
+          <p xml:id="kzz7yh-a52141-d1e367">
+          <lb ed="#V" n="73"/>¶ Hoc videtur contrarium esse predictis. 
+          <lb ed="#V" n="74"/>Hic non est praetermitendum quod cum 
+          supra<lb ed="#V" n="75" break="no"/>dictum sit deum nec singularem 
+          <lb ed="#V" n="76"/>nec multiplicem esse confitendum: idque sanctorum 
+          au<lb ed="#V" n="77" break="no"/>ctoritatibus sit confirmatum. In contrarum videtur sentire 
+          <lb ed="#V" n="78"/>Isido. dicens. Distinguendum est inter 
+          trinita<lb ed="#V" n="79" break="no"/>tem et vnitatem. Est enim vnitas simplex et 
+          singula<lb ed="#V" n="80" break="no"/>ris: trinitas vero multiplex et numerabilis: quia 
+          tri<lb ed="#V" n="81" break="no"/>nitas est trium vnitas. Ecce vnitatem dicit esse 
+          <lb ed="#V" n="82"/>singularem: et trinitatem multiplicem et numerabilem. 
+          <lb ed="#V" n="83"/>Sed ad hoc dicimus: quia singlarem accepit sicut 
+          <lb ed="#V" n="84"/>et alii accipiunt vnum: multiplicem vero et 
+          numera<lb ed="#V" n="85" break="no"/>bilem sicut alii dicunt trinum. 
+          </p>-->
+        <!-- </div>
+          <div> l1d24prae 
+          <head>Praeambulum</head> -->
+        <p xml:id="kzz7yh-a52141-d1e400">
+          <lb ed="#V" n="86"/>Iic diligenter inquri oportet Superius 
+          deter<lb ed="#V" n="87" break="no"/>minauit magister de nomine 
+          <lb ed="#V" n="88"/>persone substantiae et essentie. In hac parte determinat de 
+          no<lb ed="#V" n="89" break="no"/>minibus numeralibus et diuiditur pars ista in partes 
+          quat<lb ed="#V" n="90" break="no"/>tuor.
+        </p>
+        <p xml:id="kzz7yh-a52141-d1e414">
+          ¶ In prima parte ostendit quid significent ista nomina vnus vel 
+          <lb ed="#V" n="91"/>plures.
+        </p>
+        <p xml:id="kzz7yh-a52141-d1e419">
+          ¶ In 2o quid significent ista duo et tres ibi.
+        </p>
+        <p xml:id="kzz7yh-a52141-d1e421">
+          ¶ Ita 
+          <lb ed="#V" n="92"/>etiam cum dicimus tres personas.
+        </p>
+        <p xml:id="kzz7yh-a52141-d1e426">
+          ¶ In tertia quid significent 
+          <lb ed="#V" n="93"/>ista nomina discrectus et distinctus ibi. Cum autem dicimus 
+          disti<lb ed="#V" n="94" break="no"/>cte sunt persone.
+        </p>
+        <p xml:id="kzz7yh-a52141-d1e433">
+          ¶ In quarta quid significent ista nomina tritas et 
+          <lb ed="#V" n="95"/>trinus ibi. Cum vero dicitur trinitas.
+        </p>
+        <p xml:id="kzz7yh-a52141-d1e144">
+          <lb ed="#V" n="96"/>Circa hanc distinctionem querenda sunt tria 
+          princi<lb ed="#V" n="97" break="no"/>paliter.
+        </p>
+        <p xml:id="kzz7yh-a52141-d1e442">
+          ¶ Primo enim quaerendum est: deterio 
+          <lb ed="#V" n="98"/>significante vnitatem.
+        </p>
+        <p xml:id="kzz7yh-a52141-d1e448">
+          ¶ Secundo determino 
+          signifi<lb ed="#V" n="99" break="no"/>cante numerum.
+        </p>
+        <p xml:id="kzz7yh-a52141-d1e453">
+          ¶ Tertio determino signante simul 
+          <lb ed="#V" n="100"/>vnitatem enim numerum.
+        </p>
+        <p xml:id="kzz7yh-a52141-d1e458">
+          ¶ Circa primum queruntur tria. 
+          Suppo<lb ed="#V" n="101" break="no"/>sito cum quod deus sit vnus: quia hoc probatum est superius. Di.o 7v. 
+          <lb ed="#V" n="102"/>in quaestione illa in qua queritur vtrum vna sit divina essentia tantum 
+          <lb ed="#V" n="103"/>vel plures.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

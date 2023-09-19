@@ -1,222 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title/>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title/>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="4-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a02616"><!-- l1prolprae -->
-            <p xml:id="kzz7yh-a02616-d1e101">
-               <lb ed="#V" n="45"/>¶ Magistri sententiarum liber primus incipit. 
-   </p>
-            <p xml:id="kzz7yh-a02616-d1e106">
-               <lb ed="#V" n="46"/>¶ Prologus boni sancte 
-      catholi<lb ed="#V" n="47" break="no"/>ce veritatis. 
-   </p>
-            <p xml:id="kzz7yh-a02616-d1e113">
-               <lb ed="#V" n="48"/>CUpientes aliqud de 
-      <lb ed="#V" n="49"/>penuria et 
-      <lb ed="#V" n="50"/>ac tenuitate nostra cum paupercula 
-      <lb ed="#V" n="51"/>in gazophilacium domini mittert: 
-      <lb ed="#V" n="52"/>ardua scandere. opus vltra vires 
-      <lb ed="#V" n="53"/>ntras agere praesumpsimus: 
-      consumma<lb ed="#V" n="54" break="no"/>tionis fiduciam laborisque mercedem in 
-      samarita<lb ed="#V" n="55" break="no"/>no statuentes. qui prolatis in curationem 
-      semiuiui<lb ed="#V" n="56" break="no"/>duobus denariis supereroganti cuncta reddere 
-      pro<lb ed="#V" n="57" break="no"/>fessus est. Delectat nos veritas pollicentis: sed 
-      <lb ed="#V" n="58"/>terret immensitas laboris. Desiderium hortatur 
-      pro<lb ed="#V" n="59" break="no"/>ficiendi: sed dehortatur infirmitas deficiendi. quam 
-      <lb ed="#V" n="60"/>vincit 3elus domus dei. Quo inardescentes: si¬ 
-      <!--00020.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="61"/>dem nostram adunsus errores carnalium atquam animalium 
-      <lb ed="#V" n="62"/>hominum dauidice turris clipeis munire. vel 
-      po<lb ed="#V" n="63" break="no"/>tius munitam ostendere. ac theologicarum inquisitionum 
-      <lb ed="#V" n="64"/>abdita aperire. necnon et sacramentorum eccliasticorum pro 
-      <lb ed="#V" n="65"/>modulo intelligentie nostre noticiam tradere studui 
-      <lb ed="#V" n="66"/>mus. non valentes studiosorum fratrum votis iure 
-      <lb ed="#V" n="67"/>resistere. eorum in christo laudabilibus studiis 
-      ligua<lb ed="#V" n="68" break="no"/>ac stilo nos seruire flagitantium. quas bigas in 
-      no<lb ed="#V" n="69" break="no"/>bis agitat christi charitas. Quamuis non ambiga 
-      <lb ed="#V" n="70"/>mus omnem humani eloquii sermonem calumnie atque 
-      <lb ed="#V" n="71"/>contradictioni emulorum semper fuisse obnoxium. Quia 
-      <lb ed="#V" n="72"/>dissentientibus voluntatum motibus dissentiens 
-      <lb ed="#V" n="73"/>quoque sit animorum sensus. vt cum omne dictum veri 
-      ratio<lb ed="#V" n="74" break="no"/>ne perfectum sit: tamen dum aliud aliis aut videtur 
-      <lb ed="#V" n="75"/>aut complacet. veritati vel non intellecte: vel 
-      offen<lb ed="#V" n="76" break="no"/>denti: impietatis error obnitatur: ac voluntatis 
-      inui<lb ed="#V" n="77" break="no"/>dia resultet. quam deus seculi huius operatur in illis 
-      <lb ed="#V" n="78"/>diffidentie filiis: qui non rationi voluntatem subiicunt: 
-      <lb ed="#V" n="79"/>nec doctrime studium impendunt. sed his quae somniarunt 
-      <lb ed="#V" n="80"/>sapientie verba coaptare nituntur non veri sed 
-      placi<lb ed="#V" n="81" break="no"/>ti rationem sectantes. Quos iniqua voluntas non ad 
-      <lb ed="#V" n="82"/>intelligentiam veritatis: sed ad defensionem 
-      placen<lb ed="#V" n="83" break="no"/>tium incitat. non desiderantes doceri veritatem: sed 
-      <lb ed="#V" n="84"/>ab ea ad fabulas conuertentes auditum. Quorum 
-      <lb ed="#V" n="85"/>professio est magis placita quam docenda conquirere 
-      <lb ed="#V" n="86"/>nec docenda desiderare. sed desideratis 
-      doctri<lb ed="#V" n="87" break="no"/>nam coaptare. habent rationem sapientie in superstitione: quia 
-      si<lb ed="#V" n="88" break="no"/>dei defectionem sequitur hypocrisis mendax. vt sit 
-      <lb ed="#V" n="89"/>vel in verbis pietas quam amiserit conscientia: ipsamque 
-      <lb ed="#V" n="90"/>simulatam pietatem omni verborum mendacio impiam 
-      red<lb ed="#V" n="91" break="no"/>dunt false doctrime institutis: fidei scinitatem corrum 
-      <lb ed="#V" n="92"/>pere molientes. auriumque pruriginem sub nouello 
-      <lb ed="#V" n="93"/>sui defiderii dogmate aliis ingerentes. qui 
-      conten<lb ed="#V" n="94" break="no"/>tioni studentes: cont veritatem sine federe bellant. 
-      <lb ed="#V" n="95"/>Inter veri namque assertionem et placiti defensio 
-      <lb ed="#V" n="96"/>nem: pertinax pugna est: dum se et veritas tenet: et 
-      <lb ed="#V" n="97"/>se voluntas erroris tuetur. Horum igitur deo odibilem 
-      <lb ed="#V" n="98"/>ecclesiam euertere atque ora opilare: ne virus 
-      ne<lb ed="#V" n="99" break="no"/>quitie in alios effundere queant. et lucernam 
-      ve<lb ed="#V" n="100" break="no"/>ritatis in candelabro exaltare volentes. in labo 
-      <lb ed="#V" n="101"/>re mlto ac sudore: hoc volumen deo praestante 
-      com<lb ed="#V" n="102" break="no"/>pegimus. ex testimoniis veritatis in eternum fundatis: 
-      <lb ed="#V" n="103"/>in quatuor libris distinctum. In quo maiorum exius 
-      <lb ed="#V" n="104"/>doctrinamque reperies: in quo per dominice fidei 
-      since<lb ed="#V" n="105" break="no"/>ram professionem: viperee doctrime fraudulentiam 
-      prodidi<lb ed="#V" n="106" break="no"/>mus. aditum demonstrande veritatis complexi: nec 
-      peri<lb ed="#V" n="107" break="no"/>culo impie professionis inserti. temperato inter vtrumque 
-      <lb ed="#V" n="108"/>moderamine vtentes. Sicubi vero parum vox nostra 
-      in<lb ed="#V" n="109" break="no"/>sonuit: non a paternis discessit limitibus. Non igitur 
-      <lb ed="#V" n="110"/>debet hic labor cuiquam pigro vel multum docto 
-      <lb ed="#V" n="111"/>videri superfluus. cum mltis impigris mllisque 
-      indo<lb ed="#V" n="112" break="no"/>ctis: inter quos est mihi sit necessarius: breui 
-      vo<lb ed="#V" n="113" break="no"/>lumine complicans patrum sententias: appositis eorum testi 
-      <lb ed="#V" n="114"/>moniis: vt non sit necesse quaerenti: librorum 
-      numerosi<lb ed="#V" n="115" break="no"/>tatem euoluere. cui breuitas quod queritur offert sins 
-      <!--00021.xml-->
-      <pb ed="#V" n="5-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>labore. In hoc autem tractatum: non solum 
-      <lb ed="#V" n="2"/>pium lectorem: sed etiam liberum correcto 
-      <lb ed="#V" n="3"/>rem desidero. maxime vbi profunda 
-      ver<lb ed="#V" n="4" break="no"/>satur veritatis questio que vtinam tot 
-      ha<lb ed="#V" n="5" break="no"/>beret inuentores: quot habet contradicto 
-      <lb ed="#V" n="6"/>res. Ut autem quod queritur facilius 
-      oc<lb ed="#V" n="7" break="no"/>currat: titulos quibus singulorum librorum 
-      <lb ed="#V" n="8"/>capitula distinguuntur: praemisimus.
-   </p>
-            <!-- </div>
-  <div> l1prolprae 
-    <head>Praeambulum</head> -->
-            <p xml:id="kzz7yh-a02616-d1e293">
-               <lb ed="#V" n="9"/>Prologis. 
-      <lb ed="#V" n="10"/>CUpietes aliquid 
-      <lb ed="#V" n="11"/>de penuria etc.) Hic liber primaria 
-      <lb ed="#V" n="12"/>sui diuisione diuiditur in partes 3 
-      <lb ed="#V" n="13"/>Quia primo premittitur prologus: 
-      <lb ed="#V" n="14"/>Secundo tractatus: ibi. (Ueteris 
-      ac<lb ed="#V" n="15" break="no"/>noue legustis.) Tertio recapitulatio 
-      ali<lb ed="#V" n="16" break="no"/>qualis in fine quarti libri: ibi. (hic de pedibus sedem 
-      <lb ed="#V" n="17"/>tis.)
-   </p>
-            <p xml:id="kzz7yh-a02616-d1e316">
-      ¶ Prima pars que continet prologum diuiditur 
-      <lb ed="#V" n="18"/>in tres partes. Primo enim intendit reddere audito 
-      <lb ed="#V" n="19"/>trem intentum. Secundo docilem: ibi. (horum igitur 
-      <lb ed="#V" n="20"/>et deo odibilem ecclesiam.) Tertio beniuolum: ibi. 
-      <lb ed="#V" n="21"/>(Non igitur debet hoc labor.) Et in hoc procedit 
-      or<lb ed="#V" n="22" break="no"/>dinate. quia secundum Boetium in libro de disciplina 
-      sco<lb ed="#V" n="23" break="no"/>larium. cap. 6. debet discipuli subiectio in tribus 
-      con<lb ed="#V" n="24" break="no"/>sistere. In attentione: beniuolentia: et docilitate vt 
-      <lb ed="#V" n="25"/>sit docilis ingenio: attentus exercitio: beniuolus 
-      ani<lb ed="#V" n="26" break="no"/>mo. Attentus inquantum ad audiendum: docilis ad 
-      <lb ed="#V" n="27"/>intelligendum: beniuolus ad retinendum.
-   </p>
-            <p xml:id="kzz7yh-a02616-d1e340">
-      ¶ Prima 
-      <lb ed="#V" n="28"/>diuiditur in tres partes secundum tria que reddunt 
-      audi<lb ed="#V" n="29" break="no"/>torem attentum. Quorum vnum est materie arduitas: 
-      <lb ed="#V" n="30"/>quod tangit cum dicit (Cupientes etc.) Secundum 
-      <lb ed="#V" n="31"/>est doctoris intelligentia. Et hoc tangit ibi. (
-      Deside<lb ed="#V" n="32" break="no"/>rium hortatur proficiendi.) Tertium est 
-      impugnan<lb ed="#V" n="33" break="no"/>tium malitia: quam tangit ibi. (Quamuis non ambiga 
-      <lb ed="#V" n="34"/>mus.)
-   </p>
-            <p xml:id="kzz7yh-a02616-d1e358">
-      ¶ Prima in duas. Primo enim tangit 
-      ar<lb ed="#V" n="35" break="no"/>duitas operis aggrediendi. Secundo fiducia 
-      consu<lb ed="#V" n="36" break="no"/>mandi: ibi. (Consummationis fiduciam.)
-   </p>
-            <p xml:id="kzz7yh-a02616-d1e365">
-      ¶ Illa pars 
-      <lb ed="#V" n="37"/>in qua tangitur doctoris diligentia que ibi incipit. 
-      <lb ed="#V" n="38"/>(Desiderium etc.) Diuiditur in partes duas: secundum 
-      <lb ed="#V" n="39"/>duo que reddunt doctorem diligentem. Unum est 
-      <lb ed="#V" n="40"/>elus ecclesie. Aliud est instantia supplicationis 
-      fra<lb ed="#V" n="41" break="no"/>terne: que tangitur ibi. (Non valentes studiosorum 
-      <lb ed="#V" n="42"/>fratrum.)
-   </p>
-            <p xml:id="kzz7yh-a02616-d1e381">
-      ¶ Illa pars in qua tangitur 
-      impugnan<lb ed="#V" n="43" break="no"/>tium malitia que ibi incipit(Quamuis non ambiga 
-      <lb ed="#V" n="44"/>mus.) Diuiditur in partes duas: quia primo notatr 
-      <lb ed="#V" n="45"/>eorum malitiam quantum ad impugnationem 
-      ve<lb ed="#V" n="46" break="no"/>ritatis. Secundo quantum ad doctrinam falsitatis 
-      <lb ed="#V" n="47"/>ibi. (Quorum professio.) Tunc sequitur illa pars 
-      <lb ed="#V" n="48"/>in qua intendit reddere auditorem docilem ad 
-      in<lb ed="#V" n="49" break="no"/>telligendum: que ibi incipit. (horum igitur etc. 
-      <lb ed="#V" n="50"/>Et diuiditur in partes duas: secundum duo que disponunt 
-      <lb ed="#V" n="51"/>auditorem ad hoc vt sit docilis ad intelligendum: 
-      <lb ed="#V" n="52"/>scilicet doctrine euidens vtilitas: et quod primo tangit. 
-      <lb ed="#V" n="53"/>Secundo doctrine certa veritas quam tangit ibi. 
-      <lb ed="#V" n="54"/>(Ex testimoniis veritatis in eternum fundatis.) 
-      <lb ed="#V" n="55"/>Tunc sequitur illa pars in qua intendit reddere 
-      au<lb ed="#V" n="56" break="no"/>ditorem beniuolum: que ibi incipit. (Non igitur de 
-      <lb ed="#V" n="57"/>bet.) Et diuiditur in duas partes: secundum duo que 
-      <lb ed="#V" n="58"/>reddunt auditorem beniuolum: scilicet operis boni 
-      <lb ed="#V" n="59"/>tas contra superfluitatem: et doctoris humilitas 
-      con<lb ed="#V" n="60" break="no"/>tra proprii iudicii pertinacitatem quam 
-      humilita<lb ed="#V" n="61" break="no"/>tem tangit ibi. (In hoc autem tractatu.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="5-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a02616"><!-- l1prolprae -->
+        <head>Praeambulum</head>
+        <!--           <p xml:id="kzz7yh-a02616-d1e101">
+          <lb ed="#V" n="45"/>¶ Magistri sententiarum liber primus incipit. 
+          </p>
+          <p xml:id="kzz7yh-a02616-d1e106">
+          <lb ed="#V" n="46"/>¶ Prologus boni sancte 
+          catholi<lb ed="#V" n="47" break="no"/>ce veritatis. 
+          </p>
+          <p xml:id="kzz7yh-a02616-d1e113">
+          <lb ed="#V" n="48"/>CUpientes aliqud de 
+          <lb ed="#V" n="49"/>penuria et 
+          <lb ed="#V" n="50"/>ac tenuitate nostra cum paupercula 
+          <lb ed="#V" n="51"/>in gazophilacium domini mittert: 
+          <lb ed="#V" n="52"/>ardua scandere. opus vltra vires 
+          <lb ed="#V" n="53"/>ntras agere praesumpsimus: 
+          consumma<lb ed="#V" n="54" break="no"/>tionis fiduciam laborisque mercedem in 
+          samarita<lb ed="#V" n="55" break="no"/>no statuentes. qui prolatis in curationem 
+          semiuiui<lb ed="#V" n="56" break="no"/>duobus denariis supereroganti cuncta reddere 
+          pro<lb ed="#V" n="57" break="no"/>fessus est. Delectat nos veritas pollicentis: sed 
+          <lb ed="#V" n="58"/>terret immensitas laboris. Desiderium hortatur 
+          pro<lb ed="#V" n="59" break="no"/>ficiendi: sed dehortatur infirmitas deficiendi. quam 
+          <lb ed="#V" n="60"/>vincit 3elus domus dei. Quo inardescentes: si¬ 
+          <!-\-00020.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="61"/>dem nostram adunsus errores carnalium atquam animalium 
+          <lb ed="#V" n="62"/>hominum dauidice turris clipeis munire. vel 
+          po<lb ed="#V" n="63" break="no"/>tius munitam ostendere. ac theologicarum inquisitionum 
+          <lb ed="#V" n="64"/>abdita aperire. necnon et sacramentorum eccliasticorum pro 
+          <lb ed="#V" n="65"/>modulo intelligentie nostre noticiam tradere studui 
+          <lb ed="#V" n="66"/>mus. non valentes studiosorum fratrum votis iure 
+          <lb ed="#V" n="67"/>resistere. eorum in christo laudabilibus studiis 
+          ligua<lb ed="#V" n="68" break="no"/>ac stilo nos seruire flagitantium. quas bigas in 
+          no<lb ed="#V" n="69" break="no"/>bis agitat christi charitas. Quamuis non ambiga 
+          <lb ed="#V" n="70"/>mus omnem humani eloquii sermonem calumnie atque 
+          <lb ed="#V" n="71"/>contradictioni emulorum semper fuisse obnoxium. Quia 
+          <lb ed="#V" n="72"/>dissentientibus voluntatum motibus dissentiens 
+          <lb ed="#V" n="73"/>quoque sit animorum sensus. vt cum omne dictum veri 
+          ratio<lb ed="#V" n="74" break="no"/>ne perfectum sit: tamen dum aliud aliis aut videtur 
+          <lb ed="#V" n="75"/>aut complacet. veritati vel non intellecte: vel 
+          offen<lb ed="#V" n="76" break="no"/>denti: impietatis error obnitatur: ac voluntatis 
+          inui<lb ed="#V" n="77" break="no"/>dia resultet. quam deus seculi huius operatur in illis 
+          <lb ed="#V" n="78"/>diffidentie filiis: qui non rationi voluntatem subiicunt: 
+          <lb ed="#V" n="79"/>nec doctrime studium impendunt. sed his quae somniarunt 
+          <lb ed="#V" n="80"/>sapientie verba coaptare nituntur non veri sed 
+          placi<lb ed="#V" n="81" break="no"/>ti rationem sectantes. Quos iniqua voluntas non ad 
+          <lb ed="#V" n="82"/>intelligentiam veritatis: sed ad defensionem 
+          placen<lb ed="#V" n="83" break="no"/>tium incitat. non desiderantes doceri veritatem: sed 
+          <lb ed="#V" n="84"/>ab ea ad fabulas conuertentes auditum. Quorum 
+          <lb ed="#V" n="85"/>professio est magis placita quam docenda conquirere 
+          <lb ed="#V" n="86"/>nec docenda desiderare. sed desideratis 
+          doctri<lb ed="#V" n="87" break="no"/>nam coaptare. habent rationem sapientie in superstitione: quia 
+          si<lb ed="#V" n="88" break="no"/>dei defectionem sequitur hypocrisis mendax. vt sit 
+          <lb ed="#V" n="89"/>vel in verbis pietas quam amiserit conscientia: ipsamque 
+          <lb ed="#V" n="90"/>simulatam pietatem omni verborum mendacio impiam 
+          red<lb ed="#V" n="91" break="no"/>dunt false doctrime institutis: fidei scinitatem corrum 
+          <lb ed="#V" n="92"/>pere molientes. auriumque pruriginem sub nouello 
+          <lb ed="#V" n="93"/>sui defiderii dogmate aliis ingerentes. qui 
+          conten<lb ed="#V" n="94" break="no"/>tioni studentes: cont veritatem sine federe bellant. 
+          <lb ed="#V" n="95"/>Inter veri namque assertionem et placiti defensio 
+          <lb ed="#V" n="96"/>nem: pertinax pugna est: dum se et veritas tenet: et 
+          <lb ed="#V" n="97"/>se voluntas erroris tuetur. Horum igitur deo odibilem 
+          <lb ed="#V" n="98"/>ecclesiam euertere atque ora opilare: ne virus 
+          ne<lb ed="#V" n="99" break="no"/>quitie in alios effundere queant. et lucernam 
+          ve<lb ed="#V" n="100" break="no"/>ritatis in candelabro exaltare volentes. in labo 
+          <lb ed="#V" n="101"/>re mlto ac sudore: hoc volumen deo praestante 
+          com<lb ed="#V" n="102" break="no"/>pegimus. ex testimoniis veritatis in eternum fundatis: 
+          <lb ed="#V" n="103"/>in quatuor libris distinctum. In quo maiorum exius 
+          <lb ed="#V" n="104"/>doctrinamque reperies: in quo per dominice fidei 
+          since<lb ed="#V" n="105" break="no"/>ram professionem: viperee doctrime fraudulentiam 
+          prodidi<lb ed="#V" n="106" break="no"/>mus. aditum demonstrande veritatis complexi: nec 
+          peri<lb ed="#V" n="107" break="no"/>culo impie professionis inserti. temperato inter vtrumque 
+          <lb ed="#V" n="108"/>moderamine vtentes. Sicubi vero parum vox nostra 
+          in<lb ed="#V" n="109" break="no"/>sonuit: non a paternis discessit limitibus. Non igitur 
+          <lb ed="#V" n="110"/>debet hic labor cuiquam pigro vel multum docto 
+          <lb ed="#V" n="111"/>videri superfluus. cum mltis impigris mllisque 
+          indo<lb ed="#V" n="112" break="no"/>ctis: inter quos est mihi sit necessarius: breui 
+          vo<lb ed="#V" n="113" break="no"/>lumine complicans patrum sententias: appositis eorum testi 
+          <lb ed="#V" n="114"/>moniis: vt non sit necesse quaerenti: librorum 
+          numerosi<lb ed="#V" n="115" break="no"/>tatem euoluere. cui breuitas quod queritur offert sins 
+          <!-\-00021.xml-\->
+          <pb ed="#V" n="5-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>labore. In hoc autem tractatum: non solum 
+          <lb ed="#V" n="2"/>pium lectorem: sed etiam liberum correcto 
+          <lb ed="#V" n="3"/>rem desidero. maxime vbi profunda 
+          ver<lb ed="#V" n="4" break="no"/>satur veritatis questio que vtinam tot 
+          ha<lb ed="#V" n="5" break="no"/>beret inuentores: quot habet contradicto 
+          <lb ed="#V" n="6"/>res. Ut autem quod queritur facilius 
+          oc<lb ed="#V" n="7" break="no"/>currat: titulos quibus singulorum librorum 
+          <lb ed="#V" n="8"/>capitula distinguuntur: praemisimus.
+          </p>-->
+        <!-- </div>
+          <div> l1prolprae 
+          <head>Praeambulum</head> -->
+        <p xml:id="kzz7yh-a02616-d1e293">
+          <lb ed="#V" n="9"/>Prologis. 
+          <lb ed="#V" n="10"/>CUpientes aliquid 
+          <lb ed="#V" n="11"/>de penuria etc.) Hic liber primaria 
+          <lb ed="#V" n="12"/>sui diuisione diuiditur in partes 3 
+          <lb ed="#V" n="13"/>Quia primo premittitur prologus: 
+          <lb ed="#V" n="14"/>Secundo tractatus: ibi. (Ueteris 
+          ac<lb ed="#V" n="15" break="no"/>noue legustis.) Tertio recapitulatio 
+          ali<lb ed="#V" n="16" break="no"/>qualis in fine quarti libri: ibi. (hic de pedibus sedem 
+          <lb ed="#V" n="17"/>tis.)
+        </p>
+        <p xml:id="kzz7yh-a02616-d1e316">
+          ¶ Prima pars que continet prologum diuiditur 
+          <lb ed="#V" n="18"/>in tres partes. Primo enim intendit reddere audito 
+          <lb ed="#V" n="19"/>trem intentum. Secundo docilem: ibi. (horum igitur 
+          <lb ed="#V" n="20"/>et deo odibilem ecclesiam.) Tertio beniuolum: ibi. 
+          <lb ed="#V" n="21"/>(Non igitur debet hoc labor.) Et in hoc procedit 
+          or<lb ed="#V" n="22" break="no"/>dinate. quia secundum Boetium in libro de disciplina 
+          sco<lb ed="#V" n="23" break="no"/>larium. cap. 6. debet discipuli subiectio in tribus 
+          con<lb ed="#V" n="24" break="no"/>sistere. In attentione: beniuolentia: et docilitate vt 
+          <lb ed="#V" n="25"/>sit docilis ingenio: attentus exercitio: beniuolus 
+          ani<lb ed="#V" n="26" break="no"/>mo. Attentus inquantum ad audiendum: docilis ad 
+          <lb ed="#V" n="27"/>intelligendum: beniuolus ad retinendum.
+        </p>
+        <p xml:id="kzz7yh-a02616-d1e340">
+          ¶ Prima 
+          <lb ed="#V" n="28"/>diuiditur in tres partes secundum tria que reddunt 
+          audi<lb ed="#V" n="29" break="no"/>torem attentum. Quorum vnum est materie arduitas: 
+          <lb ed="#V" n="30"/>quod tangit cum dicit (Cupientes etc.) Secundum 
+          <lb ed="#V" n="31"/>est doctoris intelligentia. Et hoc tangit ibi. (
+          Deside<lb ed="#V" n="32" break="no"/>rium hortatur proficiendi.) Tertium est 
+          impugnan<lb ed="#V" n="33" break="no"/>tium malitia: quam tangit ibi. (Quamuis non ambiga 
+          <lb ed="#V" n="34"/>mus.)
+        </p>
+        <p xml:id="kzz7yh-a02616-d1e358">
+          ¶ Prima in duas. Primo enim tangit 
+          ar<lb ed="#V" n="35" break="no"/>duitas operis aggrediendi. Secundo fiducia 
+          consu<lb ed="#V" n="36" break="no"/>mandi: ibi. (Consummationis fiduciam.)
+        </p>
+        <p xml:id="kzz7yh-a02616-d1e365">
+          ¶ Illa pars 
+          <lb ed="#V" n="37"/>in qua tangitur doctoris diligentia que ibi incipit. 
+          <lb ed="#V" n="38"/>(Desiderium etc.) Diuiditur in partes duas: secundum 
+          <lb ed="#V" n="39"/>duo que reddunt doctorem diligentem. Unum est 
+          <lb ed="#V" n="40"/>elus ecclesie. Aliud est instantia supplicationis 
+          fra<lb ed="#V" n="41" break="no"/>terne: que tangitur ibi. (Non valentes studiosorum 
+          <lb ed="#V" n="42"/>fratrum.)
+        </p>
+        <p xml:id="kzz7yh-a02616-d1e381">
+          ¶ Illa pars in qua tangitur 
+          impugnan<lb ed="#V" n="43" break="no"/>tium malitia que ibi incipit(Quamuis non ambiga 
+          <lb ed="#V" n="44"/>mus.) Diuiditur in partes duas: quia primo notatr 
+          <lb ed="#V" n="45"/>eorum malitiam quantum ad impugnationem 
+          ve<lb ed="#V" n="46" break="no"/>ritatis. Secundo quantum ad doctrinam falsitatis 
+          <lb ed="#V" n="47"/>ibi. (Quorum professio.) Tunc sequitur illa pars 
+          <lb ed="#V" n="48"/>in qua intendit reddere auditorem docilem ad 
+          in<lb ed="#V" n="49" break="no"/>telligendum: que ibi incipit. (horum igitur etc. 
+          <lb ed="#V" n="50"/>Et diuiditur in partes duas: secundum duo que disponunt 
+          <lb ed="#V" n="51"/>auditorem ad hoc vt sit docilis ad intelligendum: 
+          <lb ed="#V" n="52"/>scilicet doctrine euidens vtilitas: et quod primo tangit. 
+          <lb ed="#V" n="53"/>Secundo doctrine certa veritas quam tangit ibi. 
+          <lb ed="#V" n="54"/>(Ex testimoniis veritatis in eternum fundatis.) 
+          <lb ed="#V" n="55"/>Tunc sequitur illa pars in qua intendit reddere 
+          au<lb ed="#V" n="56" break="no"/>ditorem beniuolum: que ibi incipit. (Non igitur de 
+          <lb ed="#V" n="57"/>bet.) Et diuiditur in duas partes: secundum duo que 
+          <lb ed="#V" n="58"/>reddunt auditorem beniuolum: scilicet operis boni 
+          <lb ed="#V" n="59"/>tas contra superfluitatem: et doctoris humilitas 
+          con<lb ed="#V" n="60" break="no"/>tra proprii iudicii pertinacitatem quam 
+          humilita<lb ed="#V" n="61" break="no"/>tem tangit ibi. (In hoc autem tractatu.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,219 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title/>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title/>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="135-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a93314"><!-- l1d44prae -->
-            <p xml:id="kzz7yh-a93314-d1e101">
-               <lb ed="#V" n="76"/>¶ An deus possit facere aliquid melius quae 
-      <lb ed="#V" n="77"/>facit. Distintio XIIII. 
-      <lb ed="#V" n="78"/>NUnc illud restat 
-      discutien<lb ed="#V" n="79" break="no"/>dum: vtrum 
-      me<lb ed="#V" n="80" break="no"/>lius aliquid possit facere quam facit: Solent 
-      <lb ed="#V" n="81"/>enim illi scrutatores dicere: quod ea que facit deus 
-      <lb ed="#V" n="82"/>non potest meliora facere: quia si posset facere et non 
-      <lb ed="#V" n="83"/>faceret: inuidus esset et non summe bonus. Et hoc 
-      <lb ed="#V" n="84"/>ex simili astruere conantur. Ait enim Aug. in 
-      <lb ed="#V" n="85"/>libro lxxxiii. q. Deus quem genuit: cum meliorem 
-      <lb ed="#V" n="86"/>se generare non potuit: nihil enim deo melius: 
-      de<lb ed="#V" n="87" break="no"/>buit equalem. Si enim voluit et non potuit: 
-      infir<lb ed="#V" n="88" break="no"/>mus est. Si potuit et noluit: inuidus. Ex quo 
-      con<lb ed="#V" n="89" break="no"/>ficitur equalem genuisse filium. A simili volunt 
-      <lb ed="#V" n="90"/>dicere quod si potest deus rem meliorem facere quam 
-      <lb ed="#V" n="91"/>facit: inuidus est. Sed non valet huius similitu 
-      <lb ed="#V" n="92"/>dinis inductio: quia filium genuit de substantia sua. Iomque 
-      <lb ed="#V" n="93"/>si posset gignere equalem et non gigneret: iuidus esset 
-      <lb ed="#V" n="94"/>alia vero quae non de substantia sua facit: meliora facere potest: 
-   </p>
-            <p xml:id="kzz7yh-a93314-d1e145">
-               <lb ed="#V" n="95"/>¶ Questio qua illi arrantur. 
-      <lb ed="#V" n="96"/>Uerum hic ab eis reponderi 
-      de<lb ed="#V" n="97" break="no"/>posco: cur dicunt 
-      rem<lb ed="#V" n="98" break="no"/>aliquam siue etiam rerum vniuersitatem in qua 
-      <lb ed="#V" n="99"/>maior consummantio expressa est: nonn posse esse melio 
-      <lb ed="#V" n="100"/>rem quam est: siue ideo quia summe bona est: ita vt 
-      nul<lb ed="#V" n="101" break="no"/>la omnio boni perfectio ei desit: siue ideo quia maius 
-      bo<lb ed="#V" n="102" break="no"/>num quod ei deest capere ipsa non valeat. Sed si 
-      <lb ed="#V" n="103"/>ita summe bona dicitur: vt nulla ei perfectio boni 
-      de<lb ed="#V" n="104" break="no"/>sit: iam creatura creatori equatur. Si vero iam 
-      <lb ed="#V" n="105"/>non potest melior esse: quia bonum amplius quod 
-      <lb ed="#V" n="106"/>ei deest capere ipsa non valet: iam hoc ipsum non 
-      <lb ed="#V" n="107"/>posse defectionis est: non consummationis: et potest esse 
-      <lb ed="#V" n="108"/>melior si fiant capax melioris boni quod ipse potest 
-      <lb ed="#V" n="109"/>qui eam fecit. Potest ergo deus meliorem rem 
-      <lb ed="#V" n="110"/>facere quam facit. Unde Aug. super Gens. Talem 
-      <lb ed="#V" n="111"/>potuit deus hominem fecisse qui nec pecare 
-      pos<lb ed="#V" n="112" break="no"/>set nec vellet: et si talem fecisset: quis dubitat eum 
-      <lb ed="#V" n="113"/>meliorem fusse: Ex predicitis costat quod potest 
-      <lb ed="#V" n="114"/>deus et alia facere quam facit: et que facit meliora 
-      <lb ed="#V" n="115"/>ea facere quam facit. 
-   </p>
-            <p xml:id="kzz7yh-a93314-d1e193">
-               <lb ed="#V" n="116"/>¶ Utrum alio vel meliori modo possit facere quam facit. 
-      <lb ed="#V" n="117"/>Post hec considerandum est vtrum alio 
-      <lb ed="#V" n="118"/>modo vel meliori quam facit possit 
-      <lb ed="#V" n="119"/>ea facere quae facit: Si modus operatois ad 
-      sapien<lb ed="#V" n="120" break="no"/>tiam opificis referatur: nec alius nec melior modus 
-      <lb ed="#V" n="121"/>esse potest. Non enim potest facere aliquid aliter vel melius 
-      <lb ed="#V" n="122"/>quam facit: idest alia sapientia vel maiori sapientia. 
-      <lb ed="#V" n="123"/>Nihil enim sapientius potest facere quam facit. Si 
-      ve<lb ed="#V" n="124" break="no"/>ro referatur modus ad rem ipsam quam facit deus 
-      <lb ed="#V" n="125"/>dicimus: quia et alius et melior potest esse modus. 
-      <!--00285.xml-->
-      <pb ed="#V" n="136-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>Et secundum hoc concedi potest quia ea que facit potest 
-      fa<lb ed="#V" n="2" break="no"/>cere melius et aliter quam facit: quia potest quibusdam 
-      <lb ed="#V" n="3"/>meliorem modum existendi prestare et 
-      quibusdame<lb ed="#V" n="4" break="no"/>alium. Unde Augu. in. xiii. libro de trinitate dicit. Qo 
-      <lb ed="#V" n="5"/>fuit et alius modus nostre liberationis possibilis 
-      <lb ed="#V" n="6"/>deo: qui omnia potest: sed nullus alius nostre 
-      mi<lb ed="#V" n="7" break="no"/>serie sanande fuit conuenientior. Potest ergo de 
-      <lb ed="#V" n="8"/>eorum que facit quedam alio modo meliori: 
-      <lb ed="#V" n="9"/>quaedam alio modo eque bono: quedam est minus 
-      <lb ed="#V" n="10"/>bono facere quam facit. Ut tamen modus tarferatur ad 
-      <lb ed="#V" n="11"/>qualitatem operis id est creature non ad sapientiam creatoris 
-   </p>
-            <p xml:id="kzz7yh-a93314-d1e248">
-               <lb ed="#V" n="12"/>¶ Utrum deus semper possit omne quod olim potuit. 
-      <lb ed="#V" n="13"/>Preterea queri solet vtrum 
-      de<lb ed="#V" n="14" break="no"/>semper possit omne 
-      <lb ed="#V" n="15"/>quod olim potuit: Quod quibusdam non videtur dicentibus 
-      <lb ed="#V" n="16"/>Potuit deus incarnari: et potuit mori: et 
-      resurge<lb ed="#V" n="17" break="no"/>re et alia huiusmodi que modo non potest. Potuit 
-      <lb ed="#V" n="18"/>ergo que modo non pot: et ita habuit potentiam 
-      <lb ed="#V" n="19"/>quam modo non habet: vnde videtur potentia eius im 
-      <lb ed="#V" n="20"/>minuta. Ad quod dicimus: quia sicut omnia semper scit 
-      <lb ed="#V" n="21"/>que aliquando sciuit: et semper vult qui aliquando voluit: nec 
-      <lb ed="#V" n="22"/>vnquam aliquam scientiam amittit vel voluntatem mutat 
-      <lb ed="#V" n="23"/>quam habuerit: ita omnia semper potest qua aliquando 
-      <lb ed="#V" n="24"/>potuit: nec vnquam aliqua potentia sua priuatur. Non 
-      <lb ed="#V" n="25"/>est ergo priuatus potentia incarnandi vel resurgendi 
-      <lb ed="#V" n="26"/>licet non possit modo incarnari vel resugere. 
-      Si<lb ed="#V" n="27" break="no"/>cut enim potuit olim incarnari: ita et pot modoe 
-      <lb ed="#V" n="28"/>incarnatus esse: in quo eiusdem rei potentia 
-      mon<lb ed="#V" n="29" break="no"/>stratur. Ut enim oli sciuit se resurrecturum: et modo scit se 
-      <lb ed="#V" n="30"/>resurrexisse: nec est alia scientia illud olim sciuis 
-      <lb ed="#V" n="31"/>se: et hoc modo scire: sed eadem omnino. Et 
-      si<lb ed="#V" n="32" break="no"/>cut voluit olim resurgere et modo resurrexisse: 
-      <lb ed="#V" n="33"/>in quo vnius rei voluntas exprimitur. Ita potuit 
-      <lb ed="#V" n="34"/>olim nasci et resurgere: et modo ipse potest natus 
-      <lb ed="#V" n="35"/>fuisse et resurrexisse. et est eiusdem rei potentia. 
-      Si<lb ed="#V" n="36" break="no"/>enim posset modo nasci et resurgere: non esset idem 
-      <lb ed="#V" n="37"/>posse. Uerba: enim diuersorum tempororum: diuersis 
-      prola<lb ed="#V" n="38" break="no"/>ta temporibus et diuersis adiuncta aduerbiis eundem 
-      <lb ed="#V" n="39"/>faciunt sensum: vt modo loquentes dicimus. Iste potest 
-      <lb ed="#V" n="40"/>legere hodie: cras autem dicimus: iste potest legisse 
-      <lb ed="#V" n="41"/>vel potuit legere heri: vbique vnius rei monstratur 
-      <lb ed="#V" n="42"/>potentia. Si autem diuersis temporibus loquentes 
-      <lb ed="#V" n="43"/>eiusdem temporis verbis et aduerbiis vtamur 
-      di<lb ed="#V" n="44" break="no"/>centes hodie: iste potest legcarer hodie: et dicentes cras: 
-      <lb ed="#V" n="45"/>iste potest hodie legere: non idem sed diuersa 
-      di<lb ed="#V" n="46" break="no"/>cimus eum posse. Fateamur ergo deum semper 
-      <lb ed="#V" n="47"/>posse quicquid semel potuit id est habere omnem illam 
-      po<lb ed="#V" n="48" break="no"/>tentiam quam semel hunit: et illius omnis rei potentiam cui 
-      <lb ed="#V" n="49"/>semel hunit: sed non semper posse facere omne illud quod 
-      <lb ed="#V" n="50"/>aliquando potuit facere: potest quidem facere: aut fecisse quod 
-      <lb ed="#V" n="51"/>aliquando potuit. Similiter quicquid voluit et vult id est 
-      <lb ed="#V" n="52"/>omnem quam habuit voluntatem: et modo habet: et 
-      <lb ed="#V" n="53"/>cuiuscumque rei voluntatem. habuerit: et modo habet: non 
-      <lb ed="#V" n="54"/>tamen vult esse vel fieri omne quod aliquando 
-      vo<lb ed="#V" n="55" break="no"/>luit esse vel fieri: sed vult fuisse vel factum esse. 
-      <lb ed="#V" n="56"/>Ita et de scientia dei dicendum est. 
-   </p>
-            <!-- </div>
-  <div> l1d44prae 
-    <head>Praeambulum</head> -->
-            <p xml:id="kzz7yh-a93314-d1e351">
-      <!--00285.xml-->
-               <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>Unc illud restat etc. Superius 
-      deter<lb ed="#V" n="58" break="no"/>minauit magister de diuine 
-      <lb ed="#V" n="59"/>et potentie vniuersalitate et immensitate. Hic determi¬. 
-      <lb ed="#V" n="60"/>nat de eiusdem perfectione et diditur in partes duas. 
-   </p>
-            <p xml:id="kzz7yh-a93314-d1e367">
-               <lb ed="#V" n="61"/>¶ Primo inquirit si potuit res facere meliores.
-   </p>
-            <p xml:id="kzz7yh-a93314-d1e372">
-      ¶ 
-      Se<lb ed="#V" n="62" break="no"/>cundo vtrum possit facere meliori modo. ibi. Post hoc 
-      com<lb ed="#V" n="63" break="no"/>siderandum est.
-   </p>
-            <p xml:id="kzz7yh-a93314-d1e379">
-      ¶ Prima in duas. Primo ponit errorem 
-      <lb ed="#V" n="64"/>quorundam dicentium quod deus non potest facere meliora: et 
-      <lb ed="#V" n="65"/>ponit sue rationis solutioem. Secundo opponit contra eorum 
-      opi<lb ed="#V" n="66" break="no"/>nionem ibi: Uerum hoc ab eis.
-   </p>
-            <p xml:id="kzz7yh-a93314-d1e388">
-      ¶ Tunc sequitur illa pars que 
-      <lb ed="#V" n="67"/>ibi incipit. Post hoc considerandum: in qua inquirit vtrum 
-      me<lb ed="#V" n="68" break="no"/>liori modo possit facere quam facit. et diditur in partes duas: Quia 
-      <lb ed="#V" n="69"/>primo proponit quaestionem: et respondet per distinctionem. Secundo 
-      <lb ed="#V" n="70"/>confirmat suam respensionem per auctoritatem ibi. Unde Augu. 
-      <lb ed="#V" n="71"/>Tunc sequitur illa pars quae disa fuit superius. Preterea 
-      que<lb ed="#V" n="72" break="no"/>ri solet in qua agit de divinae potentie immutabilitate. et 
-      didi<lb ed="#V" n="73" break="no"/>tur in partes tres.
-   </p>
-            <p xml:id="kzz7yh-a93314-d1e406">
-      ¶ Primo proponit quaestionem vtrum deus 
-      <lb ed="#V" n="74"/>possit quicquid olim potuit. Secundo quaestionis solutionem potesit. 
-      <lb ed="#V" n="75"/>ibi. Ad quod dicimus.
-   </p>
-            <p xml:id="kzz7yh-a93314-d1e414">
-      ¶ 3o recapitulat. ibi. Fateamur igitur. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="136-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a93314"><!-- l1d44prae -->
+        <head>Praeambulum</head>
+        <!-- <p xml:id="kzz7yh-a93314-d1e101">
+          <lb ed="#V" n="76"/>¶ An deus possit facere aliquid melius quae 
+          <lb ed="#V" n="77"/>facit. Distintio XIIII. 
+          <lb ed="#V" n="78"/>NUnc illud restat 
+          discutien<lb ed="#V" n="79" break="no"/>dum: vtrum 
+          me<lb ed="#V" n="80" break="no"/>lius aliquid possit facere quam facit: Solent 
+          <lb ed="#V" n="81"/>enim illi scrutatores dicere: quod ea que facit deus 
+          <lb ed="#V" n="82"/>non potest meliora facere: quia si posset facere et non 
+          <lb ed="#V" n="83"/>faceret: inuidus esset et non summe bonus. Et hoc 
+          <lb ed="#V" n="84"/>ex simili astruere conantur. Ait enim Aug. in 
+          <lb ed="#V" n="85"/>libro lxxxiii. q. Deus quem genuit: cum meliorem 
+          <lb ed="#V" n="86"/>se generare non potuit: nihil enim deo melius: 
+          de<lb ed="#V" n="87" break="no"/>buit equalem. Si enim voluit et non potuit: 
+          infir<lb ed="#V" n="88" break="no"/>mus est. Si potuit et noluit: inuidus. Ex quo 
+          con<lb ed="#V" n="89" break="no"/>ficitur equalem genuisse filium. A simili volunt 
+          <lb ed="#V" n="90"/>dicere quod si potest deus rem meliorem facere quam 
+          <lb ed="#V" n="91"/>facit: inuidus est. Sed non valet huius similitu 
+          <lb ed="#V" n="92"/>dinis inductio: quia filium genuit de substantia sua. Iomque 
+          <lb ed="#V" n="93"/>si posset gignere equalem et non gigneret: iuidus esset 
+          <lb ed="#V" n="94"/>alia vero quae non de substantia sua facit: meliora facere potest: 
+          </p>
+          <p xml:id="kzz7yh-a93314-d1e145">
+          <lb ed="#V" n="95"/>¶ Questio qua illi arrantur. 
+          <lb ed="#V" n="96"/>Uerum hic ab eis reponderi 
+          de<lb ed="#V" n="97" break="no"/>posco: cur dicunt 
+          rem<lb ed="#V" n="98" break="no"/>aliquam siue etiam rerum vniuersitatem in qua 
+          <lb ed="#V" n="99"/>maior consummantio expressa est: nonn posse esse melio 
+          <lb ed="#V" n="100"/>rem quam est: siue ideo quia summe bona est: ita vt 
+          nul<lb ed="#V" n="101" break="no"/>la omnio boni perfectio ei desit: siue ideo quia maius 
+          bo<lb ed="#V" n="102" break="no"/>num quod ei deest capere ipsa non valeat. Sed si 
+          <lb ed="#V" n="103"/>ita summe bona dicitur: vt nulla ei perfectio boni 
+          de<lb ed="#V" n="104" break="no"/>sit: iam creatura creatori equatur. Si vero iam 
+          <lb ed="#V" n="105"/>non potest melior esse: quia bonum amplius quod 
+          <lb ed="#V" n="106"/>ei deest capere ipsa non valet: iam hoc ipsum non 
+          <lb ed="#V" n="107"/>posse defectionis est: non consummationis: et potest esse 
+          <lb ed="#V" n="108"/>melior si fiant capax melioris boni quod ipse potest 
+          <lb ed="#V" n="109"/>qui eam fecit. Potest ergo deus meliorem rem 
+          <lb ed="#V" n="110"/>facere quam facit. Unde Aug. super Gens. Talem 
+          <lb ed="#V" n="111"/>potuit deus hominem fecisse qui nec pecare 
+          pos<lb ed="#V" n="112" break="no"/>set nec vellet: et si talem fecisset: quis dubitat eum 
+          <lb ed="#V" n="113"/>meliorem fusse: Ex predicitis costat quod potest 
+          <lb ed="#V" n="114"/>deus et alia facere quam facit: et que facit meliora 
+          <lb ed="#V" n="115"/>ea facere quam facit. 
+          </p>
+          <p xml:id="kzz7yh-a93314-d1e193">
+          <lb ed="#V" n="116"/>¶ Utrum alio vel meliori modo possit facere quam facit. 
+          <lb ed="#V" n="117"/>Post hec considerandum est vtrum alio 
+          <lb ed="#V" n="118"/>modo vel meliori quam facit possit 
+          <lb ed="#V" n="119"/>ea facere quae facit: Si modus operatois ad 
+          sapien<lb ed="#V" n="120" break="no"/>tiam opificis referatur: nec alius nec melior modus 
+          <lb ed="#V" n="121"/>esse potest. Non enim potest facere aliquid aliter vel melius 
+          <lb ed="#V" n="122"/>quam facit: idest alia sapientia vel maiori sapientia. 
+          <lb ed="#V" n="123"/>Nihil enim sapientius potest facere quam facit. Si 
+          ve<lb ed="#V" n="124" break="no"/>ro referatur modus ad rem ipsam quam facit deus 
+          <lb ed="#V" n="125"/>dicimus: quia et alius et melior potest esse modus. 
+          <!-\-00285.xml-\->
+          <pb ed="#V" n="136-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>Et secundum hoc concedi potest quia ea que facit potest 
+          fa<lb ed="#V" n="2" break="no"/>cere melius et aliter quam facit: quia potest quibusdam 
+          <lb ed="#V" n="3"/>meliorem modum existendi prestare et 
+          quibusdame<lb ed="#V" n="4" break="no"/>alium. Unde Augu. in. xiii. libro de trinitate dicit. Qo 
+          <lb ed="#V" n="5"/>fuit et alius modus nostre liberationis possibilis 
+          <lb ed="#V" n="6"/>deo: qui omnia potest: sed nullus alius nostre 
+          mi<lb ed="#V" n="7" break="no"/>serie sanande fuit conuenientior. Potest ergo de 
+          <lb ed="#V" n="8"/>eorum que facit quedam alio modo meliori: 
+          <lb ed="#V" n="9"/>quaedam alio modo eque bono: quedam est minus 
+          <lb ed="#V" n="10"/>bono facere quam facit. Ut tamen modus tarferatur ad 
+          <lb ed="#V" n="11"/>qualitatem operis id est creature non ad sapientiam creatoris 
+          </p>
+          <p xml:id="kzz7yh-a93314-d1e248">
+          <lb ed="#V" n="12"/>¶ Utrum deus semper possit omne quod olim potuit. 
+          <lb ed="#V" n="13"/>Preterea queri solet vtrum 
+          de<lb ed="#V" n="14" break="no"/>semper possit omne 
+          <lb ed="#V" n="15"/>quod olim potuit: Quod quibusdam non videtur dicentibus 
+          <lb ed="#V" n="16"/>Potuit deus incarnari: et potuit mori: et 
+          resurge<lb ed="#V" n="17" break="no"/>re et alia huiusmodi que modo non potest. Potuit 
+          <lb ed="#V" n="18"/>ergo que modo non pot: et ita habuit potentiam 
+          <lb ed="#V" n="19"/>quam modo non habet: vnde videtur potentia eius im 
+          <lb ed="#V" n="20"/>minuta. Ad quod dicimus: quia sicut omnia semper scit 
+          <lb ed="#V" n="21"/>que aliquando sciuit: et semper vult qui aliquando voluit: nec 
+          <lb ed="#V" n="22"/>vnquam aliquam scientiam amittit vel voluntatem mutat 
+          <lb ed="#V" n="23"/>quam habuerit: ita omnia semper potest qua aliquando 
+          <lb ed="#V" n="24"/>potuit: nec vnquam aliqua potentia sua priuatur. Non 
+          <lb ed="#V" n="25"/>est ergo priuatus potentia incarnandi vel resurgendi 
+          <lb ed="#V" n="26"/>licet non possit modo incarnari vel resugere. 
+          Si<lb ed="#V" n="27" break="no"/>cut enim potuit olim incarnari: ita et pot modoe 
+          <lb ed="#V" n="28"/>incarnatus esse: in quo eiusdem rei potentia 
+          mon<lb ed="#V" n="29" break="no"/>stratur. Ut enim oli sciuit se resurrecturum: et modo scit se 
+          <lb ed="#V" n="30"/>resurrexisse: nec est alia scientia illud olim sciuis 
+          <lb ed="#V" n="31"/>se: et hoc modo scire: sed eadem omnino. Et 
+          si<lb ed="#V" n="32" break="no"/>cut voluit olim resurgere et modo resurrexisse: 
+          <lb ed="#V" n="33"/>in quo vnius rei voluntas exprimitur. Ita potuit 
+          <lb ed="#V" n="34"/>olim nasci et resurgere: et modo ipse potest natus 
+          <lb ed="#V" n="35"/>fuisse et resurrexisse. et est eiusdem rei potentia. 
+          Si<lb ed="#V" n="36" break="no"/>enim posset modo nasci et resurgere: non esset idem 
+          <lb ed="#V" n="37"/>posse. Uerba: enim diuersorum tempororum: diuersis 
+          prola<lb ed="#V" n="38" break="no"/>ta temporibus et diuersis adiuncta aduerbiis eundem 
+          <lb ed="#V" n="39"/>faciunt sensum: vt modo loquentes dicimus. Iste potest 
+          <lb ed="#V" n="40"/>legere hodie: cras autem dicimus: iste potest legisse 
+          <lb ed="#V" n="41"/>vel potuit legere heri: vbique vnius rei monstratur 
+          <lb ed="#V" n="42"/>potentia. Si autem diuersis temporibus loquentes 
+          <lb ed="#V" n="43"/>eiusdem temporis verbis et aduerbiis vtamur 
+          di<lb ed="#V" n="44" break="no"/>centes hodie: iste potest legcarer hodie: et dicentes cras: 
+          <lb ed="#V" n="45"/>iste potest hodie legere: non idem sed diuersa 
+          di<lb ed="#V" n="46" break="no"/>cimus eum posse. Fateamur ergo deum semper 
+          <lb ed="#V" n="47"/>posse quicquid semel potuit id est habere omnem illam 
+          po<lb ed="#V" n="48" break="no"/>tentiam quam semel hunit: et illius omnis rei potentiam cui 
+          <lb ed="#V" n="49"/>semel hunit: sed non semper posse facere omne illud quod 
+          <lb ed="#V" n="50"/>aliquando potuit facere: potest quidem facere: aut fecisse quod 
+          <lb ed="#V" n="51"/>aliquando potuit. Similiter quicquid voluit et vult id est 
+          <lb ed="#V" n="52"/>omnem quam habuit voluntatem: et modo habet: et 
+          <lb ed="#V" n="53"/>cuiuscumque rei voluntatem. habuerit: et modo habet: non 
+          <lb ed="#V" n="54"/>tamen vult esse vel fieri omne quod aliquando 
+          vo<lb ed="#V" n="55" break="no"/>luit esse vel fieri: sed vult fuisse vel factum esse. 
+          <lb ed="#V" n="56"/>Ita et de scientia dei dicendum est. 
+          </p>-->
+        <!-- </div>
+          <div> l1d44prae 
+          <head>Praeambulum</head> -->
+        <p xml:id="kzz7yh-a93314-d1e351">
+          <!--00285.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>Unc illud restat etc. Superius 
+          deter<lb ed="#V" n="58" break="no"/>minauit magister de diuine 
+          <lb ed="#V" n="59"/>et potentie vniuersalitate et immensitate. Hic determi¬. 
+          <lb ed="#V" n="60"/>nat de eiusdem perfectione et diditur in partes duas. 
+        </p>
+        <p xml:id="kzz7yh-a93314-d1e367">
+          <lb ed="#V" n="61"/>¶ Primo inquirit si potuit res facere meliores.
+        </p>
+        <p xml:id="kzz7yh-a93314-d1e372">
+          ¶ 
+          Se<lb ed="#V" n="62" break="no"/>cundo vtrum possit facere meliori modo. ibi. Post hoc 
+          com<lb ed="#V" n="63" break="no"/>siderandum est.
+        </p>
+        <p xml:id="kzz7yh-a93314-d1e379">
+          ¶ Prima in duas. Primo ponit errorem 
+          <lb ed="#V" n="64"/>quorundam dicentium quod deus non potest facere meliora: et 
+          <lb ed="#V" n="65"/>ponit sue rationis solutioem. Secundo opponit contra eorum 
+          opi<lb ed="#V" n="66" break="no"/>nionem ibi: Uerum hoc ab eis.
+        </p>
+        <p xml:id="kzz7yh-a93314-d1e388">
+          ¶ Tunc sequitur illa pars que 
+          <lb ed="#V" n="67"/>ibi incipit. Post hoc considerandum: in qua inquirit vtrum 
+          me<lb ed="#V" n="68" break="no"/>liori modo possit facere quam facit. et diditur in partes duas: Quia 
+          <lb ed="#V" n="69"/>primo proponit quaestionem: et respondet per distinctionem. Secundo 
+          <lb ed="#V" n="70"/>confirmat suam respensionem per auctoritatem ibi. Unde Augu. 
+          <lb ed="#V" n="71"/>Tunc sequitur illa pars quae disa fuit superius. Preterea 
+          que<lb ed="#V" n="72" break="no"/>ri solet in qua agit de divinae potentie immutabilitate. et 
+          didi<lb ed="#V" n="73" break="no"/>tur in partes tres.
+        </p>
+        <p xml:id="kzz7yh-a93314-d1e406">
+          ¶ Primo proponit quaestionem vtrum deus 
+          <lb ed="#V" n="74"/>possit quicquid olim potuit. Secundo quaestionis solutionem potesit. 
+          <lb ed="#V" n="75"/>ibi. Ad quod dicimus.
+        </p>
+        <p xml:id="kzz7yh-a93314-d1e414">
+          ¶ 3o recapitulat. ibi. Fateamur igitur. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

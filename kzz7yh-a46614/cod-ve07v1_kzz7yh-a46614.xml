@@ -1,192 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title/>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title/>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="69-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a46614"><!-- l1d20prae -->
-            <p xml:id="kzz7yh-a46614-d1e101">
-               <lb ed="#V" n="30"/>¶ ostenso quod aliqua personarum aliam non superatr 
-      ma<lb ed="#V" n="31" break="no"/>gnitudine: nunc ostendit quod alia non excedit 
-      ali<lb ed="#V" n="32" break="no"/>am potentia. Distinctio XX 
-      <lb ed="#V" n="33"/>Unc ostendere restat quuoeo aliqua 
-      ha<lb ed="#V" n="34" break="no"/>rum personarum aliam non excellat 
-      <lb ed="#V" n="35"/>potentia: vt sicut vna et indifferens est 
-      ma<lb ed="#V" n="36" break="no"/>gnitudo trium: ita vna et indifferens 
-      modo<lb ed="#V" n="37" break="no"/>stretur potentia trium. Sciendum est ergo quia 
-      <lb ed="#V" n="38"/>non est potentior pater filio: nec filius vel pater spiritu 
-      san<lb ed="#V" n="39" break="no"/>cto. Nec maiorem potentiam habent duo vel tres 
-      fi<lb ed="#V" n="40" break="no"/>mul quam singulus eorum quia nec plus potest pater simul 
-      <lb ed="#V" n="41"/>et filius quam solus spiritus sanctus. Nec hi tres simul 
-      <lb ed="#V" n="42"/>plus possunt quam singulus eorum: quia omnipotentiam quam habet 
-      <lb ed="#V" n="43"/>pater et filius accepit nascendo: et spiritus sanctus 
-      proceden<lb ed="#V" n="44" break="no"/>do. Quod Aug. rationibus et auctoritatibus 
-      proba<lb ed="#V" n="45" break="no"/>biliter astruit in li. contra Maximinum: qui dicebat 
-      <lb ed="#V" n="46"/>patrem meliorem ac potentiorem filio. 
-   </p>
-            <p xml:id="kzz7yh-a46614-d1e140">
-               <lb ed="#V" n="47"/>¶ Quod non potest minus filius quam pater. 
-      <lb ed="#V" n="48"/>Nihi linquit patre minus habet ille qui dicit Oomnia 
-      <lb ed="#V" n="49"/>quae habet pater mea sunt. Nam si minus 
-      ha<lb ed="#V" n="50" break="no"/>in potestate aliquid quam pater: non sunt eius omnia quae habet patr. 
-      <lb ed="#V" n="51"/>Sed eius sunt omnia que habet pater: tantam ergo habet potestatem 
-      <lb ed="#V" n="52"/>filius quantam patr. Equalis ergo est patri. Non enim 
-      <lb ed="#V" n="53"/>potest qui accipit: inequalis esse ei qui dedit. Tu autem 
-      <lb ed="#V" n="54"/>hoc de potentia sapis: quod potens sit filius sed 
-      po<lb ed="#V" n="55" break="no"/>tentior pater: vt secundum doctrinam videtram potens 
-      poten<lb ed="#V" n="56" break="no"/>tem potuerit generare vel gignere: et non 
-      omni<lb ed="#V" n="57" break="no"/>potens omnipotentem. Habet ergo pater omnipotentiam 
-      <lb ed="#V" n="58"/>quam non habet filius: et si hoc est: falsum est: quod ait 
-      <lb ed="#V" n="59"/>filius: omnia que habet pater mea sunt. 
-   </p>
-            <p xml:id="kzz7yh-a46614-d1e171">
-               <lb ed="#V" n="60"/>¶ Hoc verum fatebatur hereticus ex quo 
-      pro<lb ed="#V" n="61" break="no"/>grediebatur ad falsa. 
-      <!--00151.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="62"/>Se d inquis pater a nemine potentiam accepit: 
-      fi<lb ed="#V" n="63" break="no"/>lius autem a patre. Fatemur et nos filium 
-      <lb ed="#V" n="64"/>accepisse potentiam ab illo de quo natus est 
-      po<lb ed="#V" n="65" break="no"/>tens: patri vero potentiam nullus dedit: quia nullus 
-      <lb ed="#V" n="66"/>eum genuit. Gignendo enim dedit pater potentiam 
-      fi<lb ed="#V" n="67" break="no"/>lio: sicut omnia que habet in substantia sua 
-      gi<lb ed="#V" n="68" break="no"/>gnendo dedit eiquem genuit de substantia. 
-   </p>
-            <p xml:id="kzz7yh-a46614-d1e197">
-               <lb ed="#V" n="69"/>¶ Questio Augu. qua artat hereticum. 
-      <lb ed="#V" n="70"/>Se dqueritur vtrum ei tantam: quanta ipsi est 
-      <lb ed="#V" n="71"/>potentia pater filio dederit an minorem: 
-      Si<lb ed="#V" n="72" break="no"/>tantam non solum potentem: sed est omnipotentem 
-      ge<lb ed="#V" n="73" break="no"/>nuisse omnipotens intelligitur. Si vero minorem quomodo 
-      <lb ed="#V" n="74"/>omnia quae habet pater filii sunt: Si patris omnipotentia filii non 
-      <lb ed="#V" n="75"/>est: non omnia proculdubio que habet pater filii sunt. At 
-      <lb ed="#V" n="76"/>omnia filii sunt: omnipotentia ergo patris etiam est filii. 
-      <lb ed="#V" n="77"/>Non est ergo pater potentior filio. 
-   </p>
-            <p xml:id="kzz7yh-a46614-d1e219">
-               <lb ed="#V" n="78"/>¶ Aliter probat filium equalem patri. 
-      <lb ed="#V" n="79"/>Item alio modo prbat filium equalem patris 
-      <lb ed="#V" n="80"/>Maximinum ita dicens. Tu dicis quod 
-      <lb ed="#V" n="81"/>pater genuit filium minorem seipso: in quo et patri 
-      de<lb ed="#V" n="82" break="no"/>rogas: qui si filium vnicum minorem genuit: aut non 
-      <lb ed="#V" n="83"/>potuit: aut non voluit gignere equalem. Si dicis 
-      <lb ed="#V" n="84"/>quia non voluit: eum inuidum esse dixisti. Si autem non 
-      <lb ed="#V" n="85"/>potuit: vbi est omnipotentia dei patris: Prorsus ad 
-      <lb ed="#V" n="86"/>hunc articulum res colligitur: vt deus pater equalem sibi 
-      gi<lb ed="#V" n="87" break="no"/>gnere filium: aut non potuerit aut noluerit. 
-      Si<lb ed="#V" n="88" break="no"/>non potuit: infirmus. Si noluit: inuidus inuenitur. 
-      <lb ed="#V" n="89"/>Sed vtrumque hoc falsum est. Piaterti ergo filius verus 
-      <lb ed="#V" n="90"/>equalis est. Genuit ergo pater sibi equalem filium: 
-      <lb ed="#V" n="91"/>et ab vtroque procedit vtrique equalis spiritus sanctus. 
-      <lb ed="#V" n="92"/>Si enim formam suam: vt ait Aug. contra eundem: pater in 
-      <lb ed="#V" n="93"/>vnico filio plenam gignere potuit: nec tamen plenam 
-      <lb ed="#V" n="94"/>genuit: sed minorem: cogimini patrem inuidum dicere. 
-      <lb ed="#V" n="95"/>Plenum ergo deum: et equalem sibi genuit filium. 
-   </p>
-            <p xml:id="kzz7yh-a46614-d1e262">
-               <lb ed="#V" n="96"/>¶ Per simile ostendit quod non minorem pater filium genuit. 
-      <lb ed="#V" n="97"/>Hocaunt per similitudinem humanam ita esse 
-      <lb ed="#V" n="98"/>demonstrat inquens. Nomn pater si potuisset: 
-      <lb ed="#V" n="99"/>equalem filium genuisset. Quis ergo audeat 
-      di<lb ed="#V" n="100" break="no"/>cere: quod hoc omnipotens non potuit: Addo est. 
-      Si<lb ed="#V" n="101" break="no"/>posset homo maiorem melioremque seipo gigneret filium. 
-      <lb ed="#V" n="102"/>Sed maius vel melius deo quicquam esse non potest: 
-      <lb ed="#V" n="103"/>deus ergo cur non equalem vt ais filium genuit: cui 
-      <lb ed="#V" n="104"/>nec anni necessarii fuerunt: per quos adipletur 
-      equa<lb ed="#V" n="105" break="no"/>litas: nec omnipotentia defuit. An forte noluit: ergoo: 
-      <lb ed="#V" n="106"/>quod absit inuidit. Sed non inuidit: equalem ergo 
-      ge<lb ed="#V" n="107" break="no"/>nuit filium. Credamus ergo filium ei esse equalem. 
-   </p>
-            <p xml:id="kzz7yh-a46614-d1e291">
-               <lb ed="#V" n="108"/>¶ Opinionem heretici ponit vt destruat. 
-      <lb ed="#V" n="109"/>Se dforte dices eo ipso pater est maior filio: quia 
-      <lb ed="#V" n="110"/>de nullo genitus genuit tamen equalem. Ad 
-      <lb ed="#V" n="111"/>quod cito respondebo: immo ideo non est pater maior filio 
-      <lb ed="#V" n="112"/>quia equalem genuit. Originis enim quastio est ista: quis 
-      <lb ed="#V" n="113"/>de quo sit: Equalitatis autem qualis aut quantus 
-      <lb ed="#V" n="114"/>sit quod est dicere. Ad originem pertinet quastio qua 
-      <lb ed="#V" n="115"/>quaritur: quis de quo sit: ad equalitatem vero illa qua 
-      <lb ed="#V" n="116"/>queritur: qualis aut quantus quis sit. Nec eum 
-      <lb ed="#V" n="117"/>ditur filius a patre genitus: ostenditur inequalitas sub¬ 
-      <!--00152.xml-->
-      <pb ed="#V" n="69-v"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>stantie: sed ordo nature: non quo alter prior esset 
-      <lb ed="#V" n="2"/>altero: sed quo alter est ex altero. Non ergo secundum hoc 
-      <lb ed="#V" n="3"/>quam pater genuit: et filius genitus est: vel spiritus sanctus 
-      <lb ed="#V" n="4"/>ab vtroque procedit: equalitas vel inequalitas ibi 
-      <lb ed="#V" n="5"/>existit: quia non secundum hoc alia persona alii equalis vel 
-      <lb ed="#V" n="6"/>inequalis dicitur. Ecce equalitas trinitatis: et 
-      <lb ed="#V" n="7"/>vna eademque substantia: quantum breuiter potuimus 
-      <lb ed="#V" n="8"/>demonstrata est in superioribus: qualiter scilicet aliqua 
-      <lb ed="#V" n="9"/>trium personarum quamlibet aliam nec eternitate nec 
-      <lb ed="#V" n="10"/>magnitudine: nec potentia excellat. 
-   </p>
-            <!-- </div>
-  <div> l1d20prae 
-    <head>Praeambulum</head> -->
-            <p xml:id="kzz7yh-a46614-d1e345">
-               <lb ed="#V" n="11"/>NUnc ostendere restat etc. Superius ostendit 
-      ma<lb ed="#V" n="12" break="no"/>gister in diuinis personis esse equalem 
-      ma<lb ed="#V" n="13" break="no"/>gnitudinem in essendo: hic ostendit in eis esse 
-      equae<lb ed="#V" n="14" break="no"/>lem potestatem in operando: et debet diuidi in partes duas. 
-      <lb ed="#V" n="15"/>Quia primo ponit suam intentionem. Secundo ponit sui 
-      <lb ed="#V" n="16"/>propositi probationem. ibi. Nihil inquit patre minus habet: et ista 
-      <lb ed="#V" n="17"/>diuidit in partes duas: quia primo ponit sui propositi probationem. 
-      <lb ed="#V" n="18"/>Secundo soluit contrariam obiectionem. ibi. Sed forte dices. 
-      Pri<lb ed="#V" n="19" break="no"/>ma diuiditur in partes tres secundum tres rationes: quas adducit 
-      <lb ed="#V" n="20"/>ad sui propositi probationem. Secunda. ibi. Item alio modo 
-      <lb ed="#V" n="21"/>probat. Tertia. ibi. Hoc autem per similitudinem. 
-     </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="69-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a46614"><!-- l1d20prae -->
+        <head>Praeambulum</head>
+        <!--<p xml:id="kzz7yh-a46614-d1e101">
+          <lb ed="#V" n="30"/>¶ ostenso quod aliqua personarum aliam non superatr 
+          ma<lb ed="#V" n="31" break="no"/>gnitudine: nunc ostendit quod alia non excedit 
+          ali<lb ed="#V" n="32" break="no"/>am potentia. Distinctio XX 
+          <lb ed="#V" n="33"/>Unc ostendere restat quuoeo aliqua 
+          ha<lb ed="#V" n="34" break="no"/>rum personarum aliam non excellat 
+          <lb ed="#V" n="35"/>potentia: vt sicut vna et indifferens est 
+          ma<lb ed="#V" n="36" break="no"/>gnitudo trium: ita vna et indifferens 
+          modo<lb ed="#V" n="37" break="no"/>stretur potentia trium. Sciendum est ergo quia 
+          <lb ed="#V" n="38"/>non est potentior pater filio: nec filius vel pater spiritu 
+          san<lb ed="#V" n="39" break="no"/>cto. Nec maiorem potentiam habent duo vel tres 
+          fi<lb ed="#V" n="40" break="no"/>mul quam singulus eorum quia nec plus potest pater simul 
+          <lb ed="#V" n="41"/>et filius quam solus spiritus sanctus. Nec hi tres simul 
+          <lb ed="#V" n="42"/>plus possunt quam singulus eorum: quia omnipotentiam quam habet 
+          <lb ed="#V" n="43"/>pater et filius accepit nascendo: et spiritus sanctus 
+          proceden<lb ed="#V" n="44" break="no"/>do. Quod Aug. rationibus et auctoritatibus 
+          proba<lb ed="#V" n="45" break="no"/>biliter astruit in li. contra Maximinum: qui dicebat 
+          <lb ed="#V" n="46"/>patrem meliorem ac potentiorem filio. 
+          </p>
+          <p xml:id="kzz7yh-a46614-d1e140">
+          <lb ed="#V" n="47"/>¶ Quod non potest minus filius quam pater. 
+          <lb ed="#V" n="48"/>Nihi linquit patre minus habet ille qui dicit Oomnia 
+          <lb ed="#V" n="49"/>quae habet pater mea sunt. Nam si minus 
+          ha<lb ed="#V" n="50" break="no"/>in potestate aliquid quam pater: non sunt eius omnia quae habet patr. 
+          <lb ed="#V" n="51"/>Sed eius sunt omnia que habet pater: tantam ergo habet potestatem 
+          <lb ed="#V" n="52"/>filius quantam patr. Equalis ergo est patri. Non enim 
+          <lb ed="#V" n="53"/>potest qui accipit: inequalis esse ei qui dedit. Tu autem 
+          <lb ed="#V" n="54"/>hoc de potentia sapis: quod potens sit filius sed 
+          po<lb ed="#V" n="55" break="no"/>tentior pater: vt secundum doctrinam videtram potens 
+          poten<lb ed="#V" n="56" break="no"/>tem potuerit generare vel gignere: et non 
+          omni<lb ed="#V" n="57" break="no"/>potens omnipotentem. Habet ergo pater omnipotentiam 
+          <lb ed="#V" n="58"/>quam non habet filius: et si hoc est: falsum est: quod ait 
+          <lb ed="#V" n="59"/>filius: omnia que habet pater mea sunt. 
+          </p>
+          <p xml:id="kzz7yh-a46614-d1e171">
+          <lb ed="#V" n="60"/>¶ Hoc verum fatebatur hereticus ex quo 
+          pro<lb ed="#V" n="61" break="no"/>grediebatur ad falsa. 
+          <!-\-00151.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="62"/>Se d inquis pater a nemine potentiam accepit: 
+          fi<lb ed="#V" n="63" break="no"/>lius autem a patre. Fatemur et nos filium 
+          <lb ed="#V" n="64"/>accepisse potentiam ab illo de quo natus est 
+          po<lb ed="#V" n="65" break="no"/>tens: patri vero potentiam nullus dedit: quia nullus 
+          <lb ed="#V" n="66"/>eum genuit. Gignendo enim dedit pater potentiam 
+          fi<lb ed="#V" n="67" break="no"/>lio: sicut omnia que habet in substantia sua 
+          gi<lb ed="#V" n="68" break="no"/>gnendo dedit eiquem genuit de substantia. 
+          </p>
+          <p xml:id="kzz7yh-a46614-d1e197">
+          <lb ed="#V" n="69"/>¶ Questio Augu. qua artat hereticum. 
+          <lb ed="#V" n="70"/>Se dqueritur vtrum ei tantam: quanta ipsi est 
+          <lb ed="#V" n="71"/>potentia pater filio dederit an minorem: 
+          Si<lb ed="#V" n="72" break="no"/>tantam non solum potentem: sed est omnipotentem 
+          ge<lb ed="#V" n="73" break="no"/>nuisse omnipotens intelligitur. Si vero minorem quomodo 
+          <lb ed="#V" n="74"/>omnia quae habet pater filii sunt: Si patris omnipotentia filii non 
+          <lb ed="#V" n="75"/>est: non omnia proculdubio que habet pater filii sunt. At 
+          <lb ed="#V" n="76"/>omnia filii sunt: omnipotentia ergo patris etiam est filii. 
+          <lb ed="#V" n="77"/>Non est ergo pater potentior filio. 
+          </p>
+          <p xml:id="kzz7yh-a46614-d1e219">
+          <lb ed="#V" n="78"/>¶ Aliter probat filium equalem patri. 
+          <lb ed="#V" n="79"/>Item alio modo prbat filium equalem patris 
+          <lb ed="#V" n="80"/>Maximinum ita dicens. Tu dicis quod 
+          <lb ed="#V" n="81"/>pater genuit filium minorem seipso: in quo et patri 
+          de<lb ed="#V" n="82" break="no"/>rogas: qui si filium vnicum minorem genuit: aut non 
+          <lb ed="#V" n="83"/>potuit: aut non voluit gignere equalem. Si dicis 
+          <lb ed="#V" n="84"/>quia non voluit: eum inuidum esse dixisti. Si autem non 
+          <lb ed="#V" n="85"/>potuit: vbi est omnipotentia dei patris: Prorsus ad 
+          <lb ed="#V" n="86"/>hunc articulum res colligitur: vt deus pater equalem sibi 
+          gi<lb ed="#V" n="87" break="no"/>gnere filium: aut non potuerit aut noluerit. 
+          Si<lb ed="#V" n="88" break="no"/>non potuit: infirmus. Si noluit: inuidus inuenitur. 
+          <lb ed="#V" n="89"/>Sed vtrumque hoc falsum est. Piaterti ergo filius verus 
+          <lb ed="#V" n="90"/>equalis est. Genuit ergo pater sibi equalem filium: 
+          <lb ed="#V" n="91"/>et ab vtroque procedit vtrique equalis spiritus sanctus. 
+          <lb ed="#V" n="92"/>Si enim formam suam: vt ait Aug. contra eundem: pater in 
+          <lb ed="#V" n="93"/>vnico filio plenam gignere potuit: nec tamen plenam 
+          <lb ed="#V" n="94"/>genuit: sed minorem: cogimini patrem inuidum dicere. 
+          <lb ed="#V" n="95"/>Plenum ergo deum: et equalem sibi genuit filium. 
+          </p>
+          <p xml:id="kzz7yh-a46614-d1e262">
+          <lb ed="#V" n="96"/>¶ Per simile ostendit quod non minorem pater filium genuit. 
+          <lb ed="#V" n="97"/>Hocaunt per similitudinem humanam ita esse 
+          <lb ed="#V" n="98"/>demonstrat inquens. Nomn pater si potuisset: 
+          <lb ed="#V" n="99"/>equalem filium genuisset. Quis ergo audeat 
+          di<lb ed="#V" n="100" break="no"/>cere: quod hoc omnipotens non potuit: Addo est. 
+          Si<lb ed="#V" n="101" break="no"/>posset homo maiorem melioremque seipo gigneret filium. 
+          <lb ed="#V" n="102"/>Sed maius vel melius deo quicquam esse non potest: 
+          <lb ed="#V" n="103"/>deus ergo cur non equalem vt ais filium genuit: cui 
+          <lb ed="#V" n="104"/>nec anni necessarii fuerunt: per quos adipletur 
+          equa<lb ed="#V" n="105" break="no"/>litas: nec omnipotentia defuit. An forte noluit: ergoo: 
+          <lb ed="#V" n="106"/>quod absit inuidit. Sed non inuidit: equalem ergo 
+          ge<lb ed="#V" n="107" break="no"/>nuit filium. Credamus ergo filium ei esse equalem. 
+          </p>
+          <p xml:id="kzz7yh-a46614-d1e291">
+          <lb ed="#V" n="108"/>¶ Opinionem heretici ponit vt destruat. 
+          <lb ed="#V" n="109"/>Se dforte dices eo ipso pater est maior filio: quia 
+          <lb ed="#V" n="110"/>de nullo genitus genuit tamen equalem. Ad 
+          <lb ed="#V" n="111"/>quod cito respondebo: immo ideo non est pater maior filio 
+          <lb ed="#V" n="112"/>quia equalem genuit. Originis enim quastio est ista: quis 
+          <lb ed="#V" n="113"/>de quo sit: Equalitatis autem qualis aut quantus 
+          <lb ed="#V" n="114"/>sit quod est dicere. Ad originem pertinet quastio qua 
+          <lb ed="#V" n="115"/>quaritur: quis de quo sit: ad equalitatem vero illa qua 
+          <lb ed="#V" n="116"/>queritur: qualis aut quantus quis sit. Nec eum 
+          <lb ed="#V" n="117"/>ditur filius a patre genitus: ostenditur inequalitas sub¬ 
+          <!-\-00152.xml-\->
+          <pb ed="#V" n="69-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>stantie: sed ordo nature: non quo alter prior esset 
+          <lb ed="#V" n="2"/>altero: sed quo alter est ex altero. Non ergo secundum hoc 
+          <lb ed="#V" n="3"/>quam pater genuit: et filius genitus est: vel spiritus sanctus 
+          <lb ed="#V" n="4"/>ab vtroque procedit: equalitas vel inequalitas ibi 
+          <lb ed="#V" n="5"/>existit: quia non secundum hoc alia persona alii equalis vel 
+          <lb ed="#V" n="6"/>inequalis dicitur. Ecce equalitas trinitatis: et 
+          <lb ed="#V" n="7"/>vna eademque substantia: quantum breuiter potuimus 
+          <lb ed="#V" n="8"/>demonstrata est in superioribus: qualiter scilicet aliqua 
+          <lb ed="#V" n="9"/>trium personarum quamlibet aliam nec eternitate nec 
+          <lb ed="#V" n="10"/>magnitudine: nec potentia excellat. 
+          </p>-->
+        <!-- </div>
+          <div> l1d20prae 
+          <head>Praeambulum</head> -->
+        <p xml:id="kzz7yh-a46614-d1e345">
+          <lb ed="#V" n="11"/>NUnc ostendere restat etc. Superius ostendit 
+          ma<lb ed="#V" n="12" break="no"/>gister in diuinis personis esse equalem 
+          ma<lb ed="#V" n="13" break="no"/>gnitudinem in essendo: hic ostendit in eis esse 
+          equae<lb ed="#V" n="14" break="no"/>lem potestatem in operando: et debet diuidi in partes duas. 
+          <lb ed="#V" n="15"/>Quia primo ponit suam intentionem. Secundo ponit sui 
+          <lb ed="#V" n="16"/>propositi probationem. ibi. Nihil inquit patre minus habet: et ista 
+          <lb ed="#V" n="17"/>diuidit in partes duas: quia primo ponit sui propositi probationem. 
+          <lb ed="#V" n="18"/>Secundo soluit contrariam obiectionem. ibi. Sed forte dices. 
+          Pri<lb ed="#V" n="19" break="no"/>ma diuiditur in partes tres secundum tres rationes: quas adducit 
+          <lb ed="#V" n="20"/>ad sui propositi probationem. Secunda. ibi. Item alio modo 
+          <lb ed="#V" n="21"/>probat. Tertia. ibi. Hoc autem per similitudinem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

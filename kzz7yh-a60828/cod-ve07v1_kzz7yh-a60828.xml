@@ -1,377 +1,378 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title/>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title/>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="89-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a60828"><!-- l1d28prae -->
-            <p xml:id="kzz7yh-a60828-d1e101">
-               <lb ed="#V" n="17"/>¶ Quod non tantum tres predicte proprietates sunt 
-      <lb ed="#V" n="18"/>personis: sed etiam que aliis significantur 
-      no<lb ed="#V" n="19" break="no"/>minibus vt ingenitus. 
-      <lb ed="#V" n="20"/>Distinctio XXVIIII 
-      <lb ed="#V" n="21"/>3 et erea 
-      conside<lb ed="#V" n="22" break="no"/>rari oportet quod non tantum tres predicte 
-      <lb ed="#V" n="23"/>proprietates siue notiones in personis sunt: 
-      ve<lb ed="#V" n="24" break="no"/>rumentiam alie que aliis notantur nominibus. 
-      <lb ed="#V" n="25"/>Nam etiam hoc nomen ingenitus relatiue 
-      di<lb ed="#V" n="26" break="no"/>citur de patre tantum: et aliam designat 
-      notio<lb ed="#V" n="27" break="no"/>nem quam pater vel genitor. Non est enim idem 
-      <lb ed="#V" n="28"/>esse patrem et esse ingenitum idest non ea 
-      notio<lb ed="#V" n="29" break="no"/>ne pater dicitur qua ingenitus. Pater enim 
-      <lb ed="#V" n="30"/>vt predictum est dicitur secundum proporictatem 
-      genera<lb ed="#V" n="31" break="no"/>tionis. Ingenitus autem secundum prorietatem 
-      innasci<lb ed="#V" n="32" break="no"/>bilitatis. Differt ergo pater a filio auctoritate 
-      <lb ed="#V" n="33"/>generationis. differt etiam porietate 
-      innascibi<lb ed="#V" n="34" break="no"/>litatis: idest quia ingenitus. Unde Augustinus 
-      <lb ed="#V" n="35"/>distinguens inter prietatem qua pater dicitur 
-      <lb ed="#V" n="36"/>et illam qua dicitur ingenitus in. v. libro de 
-      tri<lb ed="#V" n="37" break="no"/>nitate sic ait. Non est hoc dicere ingenitum quod 
-      <lb ed="#V" n="38"/>est patrem dicere quia et si filium non genuisset: nihil 
-      <lb ed="#V" n="39"/>prohiberet dicere eum ingenitum. Et si gignat 
-      <lb ed="#V" n="40"/>quisque filium: non ex eo ipse est ingenlitus: quia 
-      <lb ed="#V" n="41"/>geniti homines gignunt alios. Non ergo ideo 
-      <lb ed="#V" n="42"/>dicitur pater: quia ingenitus. Ideoque cum de 
-      <lb ed="#V" n="43"/>deo patre vtrunque dicatur alia notio est qua 
-      in<lb ed="#V" n="44" break="no"/>telligitur genitor: alia qua ingenitus. Genitor 
-      <lb ed="#V" n="45"/>enim dicitur ad genitum: idest filium. Cum 
-      ve<lb ed="#V" n="46" break="no"/>ro ingenitus dicitur: non quid sit: sed quid non 
-      <lb ed="#V" n="47"/>sit ostenditur. Hoc exemplis planum faciendum 
-      <lb ed="#V" n="48"/>est. Quod dicitur ingenitus: hoc ostenditur quod non 
-      <lb ed="#V" n="49"/>sit filius: sed genitus et ingenitus commode dicum 
-      <lb ed="#V" n="50"/>tur: filius autem latine dicitur. Sed vt dicatur 
-      <lb ed="#V" n="51"/>infilius: non admittit loquendi consuetudo: 
-      <lb ed="#V" n="52"/>nihil tamen intellectui demitur: si dicatur non 
-      <lb ed="#V" n="53"/>filius quemadmodum etiam si dicatur 
-      nonge<lb ed="#V" n="54" break="no"/>nitus: pro eo quod dicitur ingenitus nihil aliud 
-      <lb ed="#V" n="55"/>dicitur. Ideo non est in rebus considerandum: 
-      <lb ed="#V" n="56"/>quid vel sinat vel non sinat dici vsus sermonis 
-      <lb ed="#V" n="57"/>nostri: sed quis rerum ipsarum intellectus elu¬ 
-      <!--00191.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="58"/>ceat. Non ergo iam tantum dicammus 
-      ingeni<lb ed="#V" n="59" break="no"/>tum: sed etiam non genitum: quod tantum 
-      va<lb ed="#V" n="60" break="no"/>let. Nunquid ergo aliud dicimus quam non 
-      fili<lb ed="#V" n="61" break="no"/>um: Negatiua porro particula non id efficit: 
-      <lb ed="#V" n="62"/>vt quod sine illa relatiue dicitur: eadem prpoosita 
-      <lb ed="#V" n="63"/>substantialiter dicatur: sed id tantum negatur 
-      <lb ed="#V" n="64"/>quod sine illa aiebatur sicut in aliis 
-      praedicamen<lb ed="#V" n="65" break="no"/>tis: cum dicimus homo est: substantiam 
-      designa<lb ed="#V" n="66" break="no"/>mus. Qui ergo dicit non homo est: non aliud 
-      <lb ed="#V" n="67"/>genus praedicamenti enunciat: sed tantum illud 
-      <lb ed="#V" n="68"/>negat. Sicut ergo secundum substantiam aio: homo 
-      <lb ed="#V" n="69"/>est: sic secundum substantiam nego cum dico: non 
-      homo<lb ed="#V" n="70" break="no"/>est. At si tantum valet quod dicitur genitus: 
-      <lb ed="#V" n="71"/>quantum valet quod dicitur filius. Tantundem 
-      <lb ed="#V" n="72"/>ergo valet quod dicitur nongenitus: quantum 
-      <lb ed="#V" n="73"/>valet quod dicitur nonfilius. Relatiue autem 
-      <lb ed="#V" n="74"/>negamus dicendo nongenitus: Ingenitus 
-      por<lb ed="#V" n="75" break="no"/>ro quid est nisi nongenitus. Non ergo 
-      recedi<lb ed="#V" n="76" break="no"/>tur a relatiuo predicamento cum ingenitus 
-      di<lb ed="#V" n="77" break="no"/>citur. Sicut enim genitus non ad se dicitur: sed 
-      <lb ed="#V" n="78"/>quod ex genitore sit. ita cum dicitur ingenitus: non 
-      <lb ed="#V" n="79"/>ad se dicitur: sed quod ex genitore non sit 
-      ostendi<lb ed="#V" n="80" break="no"/>tur. Utrunque tamen relatiue dicitur. Quod 
-      <lb ed="#V" n="81"/>autem relatiue pronunciantur: non indicat 
-      sub<lb ed="#V" n="82" break="no"/>stantiam. Quamuis ergo diuersum sit genitus et 
-      <lb ed="#V" n="83"/>ingenitus: tamen non indicat diuersam substantiam: quia sicut 
-      <lb ed="#V" n="84"/>filius ad patrem: et non filius adnon patrem refertur: ita 
-      ge<lb ed="#V" n="85" break="no"/>nitus ad genitorem et nongenitus ad nongenitorem 
-      re<lb ed="#V" n="86" break="no"/>feratur: necesse est. Ecce euidenter ostendit quod 
-      <lb ed="#V" n="87"/>ingenitus relatiue dicitur: et de solo patre 
-      acci<lb ed="#V" n="88" break="no"/>pitur. Aliaque notio est qua dicitur ingenitus: 
-      <lb ed="#V" n="89"/>alia qua pater. Atque tantum valet cum dicitur 
-      <lb ed="#V" n="90"/>ingenitus quantum nongenitus vel nonfilius. 
-      <lb ed="#V" n="91"/>An sicut solus pater dicitur ingenitus: dici 
-      de<lb ed="#V" n="92" break="no"/>beat nongenitus vel nonfilius. 
-      <lb ed="#V" n="93"/>Ideo solet queri vtrum sic 
-      <lb ed="#V" n="94"/>cut solus 
-      <lb ed="#V" n="95"/>pater dicitur ingenitus ita ipse solus debeat 
-      di<lb ed="#V" n="96" break="no"/>ci nongenitus: vel non filius: vt nec etiam 
-      spiri<lb ed="#V" n="97" break="no"/>tus sanctus possit dici nonfilius vel nongenitus: 
-      <lb ed="#V" n="98"/>Quibusdam videtur quod pater solus debeat dici non 
-      <lb ed="#V" n="99"/>genitus vel nonfilius. Spiritus vero sanctus sicut 
-      <lb ed="#V" n="100"/>non dicitur ingenitus: ita inquiunt non est 
-      dicen<lb ed="#V" n="101" break="no"/>dus nongenitus vel non filius. Debet quidem 
-      <lb ed="#V" n="102"/>dici et credi spiritus sanctus non esse genitus vel non 
-      <lb ed="#V" n="103"/>esse filius: sed non debet dici esse nongenitus vel 
-      <lb ed="#V" n="104"/>nonfilius. Aliis autem videtur: quod cum spiritus sanct 
-      <lb ed="#V" n="105"/>non possit dici ingenitus: potest tamen dici 
-      nonge<lb ed="#V" n="106" break="no"/>nitus vel nonfilius. Quod autem Aug. supra ait: tanetum 
-      <lb ed="#V" n="107"/>valere cum dicitur ingenitus: quantum cum 
-      di<lb ed="#V" n="108" break="no"/>citur nongenitus vel non filius: ethymologiam 
-      <lb ed="#V" n="109"/>nominis ostendendo eum hoc dixisse dicunt: 
-      <lb ed="#V" n="110"/>non ratione predicationis. 
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e311">
-               <lb ed="#V" n="111"/>¶ Que sit proprietas secundum quam dicitur pater ingenitus. 
-      <lb ed="#V" n="112"/>Si autem vis scire que sit propretas secundum 
-      <lb ed="#V" n="113"/>quam dicitur pater ingenitus: audi¬ 
-      <!--00192.xml-->
-      <pb ed="#V" n="89-v"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>Hylarium ipsam vocantem innascibilitatem in. iiii. 
-      <lb ed="#V" n="2"/>libro de triate. ita aientem. Est vnus ab vno scilicet ab 
-      in<lb ed="#V" n="3" break="no"/>genito genitus: prporietate videlicet in vnoquoque 
-      <lb ed="#V" n="4"/>et originis et innascibilitatis. Significata ergo in 
-      <lb ed="#V" n="5"/>scripturis personarum intelligentia et distinctio 
-      in<lb ed="#V" n="6" break="no"/>nascibilitatis natiuitatisque sensu solitarius deus 
-      <lb ed="#V" n="7"/>non est opinandus. Discretio ergon vel distinctio personarum 
-      <lb ed="#V" n="8"/>in scripturis posita est: in nllo autem nature distinctio. 
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e344">
-               <lb ed="#V" n="9"/>¶ Arriani nitebantur probare alterius substantiae patrem: 
-      <lb ed="#V" n="10"/>alterius filium: quia ille ingenitus: iste genitus: 
-      qui<lb ed="#V" n="11" break="no"/>bus respondens Ambrosius dixit se hoc nomen in 
-      <lb ed="#V" n="12"/>scripturis non legisse diuinis. 
-      <lb ed="#V" n="13"/>Illud etiam taceri non oportet: quod 
-      ar<lb ed="#V" n="14" break="no"/>riani ex eo probare 
-      nite<lb ed="#V" n="15" break="no"/>bantur alterius substantiae esse patrem: alterius filium: 
-      <lb ed="#V" n="16"/>quia ille ingenitus: et iste genitus dicitur: cum diuersum 
-      <lb ed="#V" n="17"/>sit esse ingenitum et esse genitum. Unde Ambro. 
-      <lb ed="#V" n="18"/>eorum quoni respondens: dicit se in diuinis 
-      scriptu<lb ed="#V" n="19" break="no"/>ris hoc nomen scilicet ingenitus non legisse: ita inquens 
-      <lb ed="#V" n="20"/>in. iiii. libro de spiritu sancto. Cum dudum audierint quidam 
-      <lb ed="#V" n="21"/>dicentibus nobis filium dei qui generatus est 
-      patri<lb ed="#V" n="22" break="no"/>quigenerauit inequalem esse non posse: quamuis ille 
-      <lb ed="#V" n="23"/>generatus sit: iste generauit: quia generatio est 
-      na<lb ed="#V" n="24" break="no"/>ture: aduersus quidem illam quaestionem vocem sibi 
-      <lb ed="#V" n="25"/>arbitrantur acclusam: sed in tergiuersatione 
-      dam<lb ed="#V" n="26" break="no"/>nabili in eodem loco vestigium vertunt: vt 
-      pu<lb ed="#V" n="27" break="no"/>tent mutationem fieri quaestionis mutatione 
-      sermo<lb ed="#V" n="28" break="no"/>nis dicentes. Quomodo possunt esse ingenitus et genitus 
-      <lb ed="#V" n="29"/>vnius nature atque substeantiae. Ergo vt respondeam mihi 
-      <lb ed="#V" n="30"/>proposite quaestioni: primo omnium in diuinis scripturis 
-      in<lb ed="#V" n="31" break="no"/>genitus nusquam inuenio: non legi: non audiui. Cuius 
-      <lb ed="#V" n="32"/>ergo mutabilitatis sunt homines huiusmodi: vt nos 
-      di<lb ed="#V" n="33" break="no"/>cant ea vsurpare quae non sunt scripta: cum ea que 
-      <lb ed="#V" n="34"/>sunt scripta dicamus: et ipsi obiiciant quod scriptum 
-      <lb ed="#V" n="35"/>non sit. Nonne ipsi sibi aduersantur: et auctoritatem 
-      <lb ed="#V" n="36"/>calumnie sue derogant: Attende lector quoniam hoc 
-      <lb ed="#V" n="37"/>nomine ingenitus nolebat vti Ambrosius propter 
-      <lb ed="#V" n="38"/>hereticos. Ita et nos subticere quadam oportet propter 
-      <lb ed="#V" n="39"/>calumniantium insidias: quia catholicis ac piis 
-      le<lb ed="#V" n="40" break="no"/>ctoribus secure credi possunt. Sunt eteni 
-      que<lb ed="#V" n="41" break="no"/>dam quae non tante sunt religionis et auctoritatis 
-      <lb ed="#V" n="42"/>vt eis nos oporteat semper confitendo ac recipiendo 
-      <lb ed="#V" n="43"/>inseruire: verum silentio aliquando praeteriri quaunt: 
-      <lb ed="#V" n="44"/>nec illius tamen sunt peruersitatis: quin cum 
-      opportu<lb ed="#V" n="45" break="no"/>num fuerit: eis vti liberum habeamus. 
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e427">
-               <lb ed="#V" n="46"/>¶ An diuersum sit esse patrem et esse filium. 
-      <lb ed="#V" n="47"/>Preterea queri solet cum supra 
-      di<lb ed="#V" n="48" break="no"/>ctum sit: quia aliud est dicere 
-      <lb ed="#V" n="49"/>ingenitum: aliud patrem. Et quod diuersum sit 
-      geni<lb ed="#V" n="50" break="no"/>tus et ingenitus: vtrum similiter diuersum sit esse 
-      <lb ed="#V" n="51"/>patrem: et esse filium: an idem: Ad quod dicimus 
-      <lb ed="#V" n="52"/>quia ex eodem sensu quo dicitur diuersum genitus 
-      <lb ed="#V" n="53"/>et ingenitus: et quo dicitur non esse idem dicere 
-      geni<lb ed="#V" n="54" break="no"/>tum et ingenitum: potest dici non esse idem: sed 
-      di<lb ed="#V" n="55" break="no"/>uersum esse patrem et esse filium: vel esse spritum sanctum 
-      <lb ed="#V" n="56"/>quia non ea notione pater est pater qua filius est filius: 
-      <!--00192.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>vel qua spiritus sanctus est spiritus sanctus. Ideoque ex 
-      <lb ed="#V" n="58"/>hoc sensu procedimus: quod aliud est esse patrem: et aliod 
-      <lb ed="#V" n="59"/>est esse filium: quia alia notio est qua pater est pater 
-      <lb ed="#V" n="60"/>alia qua filius est filius. Sed si transponas: vt 
-      <lb ed="#V" n="61"/>dicas: aliud est patrem esse: aliud filium esse variatur 
-      <lb ed="#V" n="62"/>intelligentia: et ideo non conceditur. Est enim sensus. 
-      <lb ed="#V" n="63"/>talis: ac si dicatur: aliud est quo pater non quidem 
-      <lb ed="#V" n="64"/>pater: sed est: aliud quo filius est: non quidem filius: 
-      <lb ed="#V" n="65"/>sed est: quod penitus falsum est. Eo enim pater est quo 
-      <lb ed="#V" n="66"/>pater deus est id est per essentiam vel naturam. Ac filius 
-      <lb ed="#V" n="67"/>eo deus est quo pater est deus. Eo ergo filius est 
-      <lb ed="#V" n="68"/>quo pater est. Et ita idem est patrem esse et filium esse 
-      <lb ed="#V" n="69"/>sed non est idem esse patrem et esse filium. Unde Aug. 
-      <lb ed="#V" n="70"/>in. v. libro de triniate. ait. Quamuis diuersum sit esse patrem 
-      <lb ed="#V" n="71"/>et esse filium: non est tamen diuersa substantia: quia non hoc secundum 
-      <lb ed="#V" n="72"/>substantiam dicitur: sed secundum relatiuum: quod tamen relatiuum non est 
-      <lb ed="#V" n="73"/>accidens: quia non est mutabile. Ecce diuersum esse 
-      <lb ed="#V" n="74"/>dicit esse prem et esse filium: quod iuxta rationem 
-      praedi<lb ed="#V" n="75" break="no"/>ctam accipi oportet: quia scilicet alia notio est qua 
-      <lb ed="#V" n="76"/>est pater: alia qua est filius. Non enim secundum 
-      essen<lb ed="#V" n="77" break="no"/>tiam pater dicitur pater: vel filius filius: sed 
-      <lb ed="#V" n="78"/>secundum relationem. 
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e505">
-               <lb ed="#V" n="79"/>¶ Quodo dicatur sapientia genita vel nata: an 
-      iua<lb ed="#V" n="80" break="no"/>relationem an secundum substantiam. 
-      <lb ed="#V" n="81"/>Sciendum quoque est: quod sicut solus filius 
-      di<lb ed="#V" n="82" break="no"/>citur verbum vel imago: ita est 
-      <lb ed="#V" n="83"/>ipse solus dicitur sapientia nata vel genita. Et ideo 
-      <lb ed="#V" n="84"/>quaeritur vtrum hoc relatiue dicatur: et si relatiue 
-      <lb ed="#V" n="85"/>dicitur: an secundum eandem relationem qua dicitur verbum 
-      <lb ed="#V" n="86"/>et imago: De hoc Aug. in. vii. libro de triate. ita ait 
-      <lb ed="#V" n="87"/>Id dici accipiamus cum dicitur verbum: ac si dicatur 
-      <lb ed="#V" n="88"/>nata sapientia: vt sit filius et imago. Et hec 
-      duo<lb ed="#V" n="89" break="no"/>cum dicuntur id est nata sapientia: in vno eorum: eo 
-      <lb ed="#V" n="90"/>quod est nata et verbum et imago et filius intelligatur. 
-      <lb ed="#V" n="91"/>Et in his omnibus nonibus non ostendatur essentia: 
-      <lb ed="#V" n="92"/>quia relatiue dicuntur. At in altero quod est sapientia: 
-      <lb ed="#V" n="93"/>etia essentia demonstretur: quoniam et ad se dicitur: se ipsa 
-      <lb ed="#V" n="94"/>enim est sapiens. Et hoc est eius esse quod sapere. 
-      <lb ed="#V" n="95"/>Unde pater et filius simul vna sapientia: quia vna 
-      <lb ed="#V" n="96"/>essentia.
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e548">
-      ¶ Caue lector qualiter hoc intelligas 
-      <lb ed="#V" n="97"/>quod hic dicit Aug. Uidetur enim dicere quod cum dicitur 
-      <lb ed="#V" n="98"/>nata sapientia: ibi sapientia essentiam significet: et 
-      <lb ed="#V" n="99"/>nata relationem notet. Quod si ita est cogimur 
-      <lb ed="#V" n="100"/>dicere essentiam diuinam esse natam quod superiorib 
-      <lb ed="#V" n="101"/>repugnat. Sed ad hoc dicimus: quod in altero id est 
-      <lb ed="#V" n="102"/>in eo quod nata est: eadem notio intelligatur: que 
-      <lb ed="#V" n="103"/>notatur cum dicitur verbum et imago. In altero vero 
-      <lb ed="#V" n="104"/>scilicet sapientia: demonstratur: essentia id est demonstratur 
-      <lb ed="#V" n="105"/>quod filius sit essentia: quia sapientia secundum essentiam dicitur. 
-      <lb ed="#V" n="106"/>Et ideo cum dicitur nata sapientia: intelligatur quod 
-      <lb ed="#V" n="107"/>ipse qui natus est: essentia est: ibi tamen sapientia non 
-      pro<lb ed="#V" n="108" break="no"/>essentia: sed pro hypostasi facit intelligentiam: vt 
-      <lb ed="#V" n="109"/>sicut quando dicitur verbum vel filius: intelligitur 
-      hy<lb ed="#V" n="110" break="no"/>postasis cum sua proprietate. Item cum dicitur nata 
-      <lb ed="#V" n="111"/>sapientia: idem intelligitur id est genita hypostasis 
-      <lb ed="#V" n="112"/>Ideo vigilanter ait idem esse intelligendum cum 
-      <!--00193.xml-->
-      <pb ed="#V" n="90-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>dicitur verbum: et cum dicitur nata sapientia id est eadem 
-      re<lb ed="#V" n="2" break="no"/>tatio: eademque hypostasis cui inest illa proprietas. 
-      <lb ed="#V" n="3"/>Et ex hoc adiuuatur illud quod superius diximus 
-      <lb ed="#V" n="4"/>scilicet cum dicitur pater vel filius vel spiritus sanctus: non tantum ille 
-      <lb ed="#V" n="5"/>proprietates significantur cum dicitur paternitas filiatio: sed 
-      <lb ed="#V" n="6"/>etiam hypostasis cum suis prporietatibus. 
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e605">
-               <lb ed="#V" n="7"/>¶ Quod imago aliquando dicitur secundum essentiam. 
-      <lb ed="#V" n="8"/>llud etiam sciri oportet: quia cum 
-      <lb ed="#V" n="9"/>supra dictum sit 
-      ima<lb ed="#V" n="10" break="no"/>ginem relatiue dici de filio sicut verbum vel filius 
-      <lb ed="#V" n="11"/>interdum tamen reperitur secundum substantiam dici. Unde Aug. 
-      <lb ed="#V" n="12"/>in libro de fide ad Petrum dicit: quod vna est sancte 
-      <lb ed="#V" n="13"/>trinitatis essentialiter diuitas et imago: ad quam 
-      <lb ed="#V" n="14"/>factus est homo. Hylarius etim in. v. libro de triniate. ait. 
-      <lb ed="#V" n="15"/>Homo sit ad communem imaginem. Nomen non 
-      discre<lb ed="#V" n="16" break="no"/>pat: natura non differt. Una est enim ad quam homo 
-      <lb ed="#V" n="17"/>creatus est species. Ex his verbis ostenditur quod 
-      imagoali<lb ed="#V" n="18" break="no"/>quando essentie intelligentiam facit: et tunc ad se dicitur 
-      <lb ed="#V" n="19"/>et non relatiue. 
-   </p>
-            <!-- </div>
-  <div> l1d28prae 
-    <head>Praeambulum</head> -->
-            <p xml:id="kzz7yh-a60828-d1e638">
-     Dis. XXVIIII 
-      <lb ed="#V" n="20"/>PReterea considerari oportet etc. Superius 
-      deter<lb ed="#V" n="21" break="no"/>minauit magister de proprietatibus 
-      <lb ed="#V" n="22"/>personalibus idest personas constituentibus: hic 
-      determi<lb ed="#V" n="23" break="no"/>nat de proprietatibus notionalibus et non personalibus. et 
-      di<lb ed="#V" n="24" break="no"/>uiditur pars ista in duas partes. In prima agit de 
-      innascibili<lb ed="#V" n="25" break="no"/>tate. In secunda de communi spiratione secundum quam nomine principii 
-      signi<lb ed="#V" n="26" break="no"/>ficatur. 29. Di. ibi( Est praeterea aliud nomen). Prima in duas 
-      <lb ed="#V" n="27"/>quia primo agit de proprietate ingeniti que est innascibilitas. 
-      <lb ed="#V" n="28"/>Secundo incidenter aliqua determinat de proprietatibus geniti. 
-      <lb ed="#V" n="29"/>ibi. (Sciendum quoque.
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e662">
-      ¶ Prima diditur in partes tres.
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e664">
-      ¶ 
-      In<lb ed="#V" n="30" break="no"/>prima ostendit quid significetur nomine ingeniti.
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e670">
-      ¶ In secunda 
-      inqui<lb ed="#V" n="31" break="no"/>rit vtrum id significetur nomine ingeniti inquerendo vtrum sicut 
-      <lb ed="#V" n="32"/>solus pater dicitur ingenitus: ita dici debeat non genitus ibi. (Ideo 
-      <lb ed="#V" n="33"/>solet queri.
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e679">
-      ¶ In tertia ostendit secundum quam proprietatem pater dicitur in 
-      <lb ed="#V" n="34"/>genitus ibi. (Si autem vis scire. Et ista tertia diditur in tres 
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e684">
-               <lb ed="#V" n="35"/>¶ Primo ostendit secundum quam proprietatem pater dicitur ingenitus.
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e689">
-      ¶ 2o 
-      <lb ed="#V" n="36"/>excludit errorem quorundam circa distinctionem geniti et 
-      inge<lb ed="#V" n="37" break="no"/>niti ibi. (Illud autem tacere non opoet.)
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e696">
-      ¶ Tertio iuxta hoc 
-      mo<lb ed="#V" n="38" break="no"/>uet incidentem dubitationem et soluit: ibi. (Preterea quaeri solet) 
-      <lb ed="#V" n="39"/>Tunc sequitur illa pars que ibi incipit. (Sciendum quoque.) 
-      <lb ed="#V" n="40"/>In qua aliqua determinat de proprietatibus geniti. et 
-      diuidi<lb ed="#V" n="41" break="no"/>tur in partes tres. In prima ostendit quod filius verbum imago 
-      <lb ed="#V" n="42"/>sapientia genita realiter eandem dicunt proprietatem.
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e709">
-      ¶ 
-      In<lb ed="#V" n="43" break="no"/>secunda ostendit quomodo sapientia suscipit relatiuam praedicationem: 
-      <lb ed="#V" n="44"/>ibic Caue lector).
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e717">
-      ¶ In tertia ostendit quod imago aliquando 
-      <lb ed="#V" n="45"/>habet significationem essentialem: ibi. (Illud etiam scire opotet) 
-   </p>
-            <p xml:id="kzz7yh-a60828-d1e722">
-               <lb ed="#V" n="46"/>CIrca hanc di. queruntur tria principaliter 
-      <lb ed="#V" n="47"/>Primo de distinctione 
-      no<lb ed="#V" n="48" break="no"/>tionum in eadem persona. Secundo specialiter de 
-      notio<lb ed="#V" n="49" break="no"/>ne innascibilitatis in patre. Tertio de proprietate 
-      ima<lb ed="#V" n="50" break="no"/>ginis in filio.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="90-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a60828"><!-- l1d28prae -->
+        <head>Praeambulum</head>
+        <!-- <p xml:id="kzz7yh-a60828-d1e101">
+          <lb ed="#V" n="17"/>¶ Quod non tantum tres predicte proprietates sunt 
+          <lb ed="#V" n="18"/>personis: sed etiam que aliis significantur 
+          no<lb ed="#V" n="19" break="no"/>minibus vt ingenitus. 
+          <lb ed="#V" n="20"/>Distinctio XXVIIII 
+          <lb ed="#V" n="21"/>3 et erea 
+          conside<lb ed="#V" n="22" break="no"/>rari oportet quod non tantum tres predicte 
+          <lb ed="#V" n="23"/>proprietates siue notiones in personis sunt: 
+          ve<lb ed="#V" n="24" break="no"/>rumentiam alie que aliis notantur nominibus. 
+          <lb ed="#V" n="25"/>Nam etiam hoc nomen ingenitus relatiue 
+          di<lb ed="#V" n="26" break="no"/>citur de patre tantum: et aliam designat 
+          notio<lb ed="#V" n="27" break="no"/>nem quam pater vel genitor. Non est enim idem 
+          <lb ed="#V" n="28"/>esse patrem et esse ingenitum idest non ea 
+          notio<lb ed="#V" n="29" break="no"/>ne pater dicitur qua ingenitus. Pater enim 
+          <lb ed="#V" n="30"/>vt predictum est dicitur secundum proporictatem 
+          genera<lb ed="#V" n="31" break="no"/>tionis. Ingenitus autem secundum prorietatem 
+          innasci<lb ed="#V" n="32" break="no"/>bilitatis. Differt ergo pater a filio auctoritate 
+          <lb ed="#V" n="33"/>generationis. differt etiam porietate 
+          innascibi<lb ed="#V" n="34" break="no"/>litatis: idest quia ingenitus. Unde Augustinus 
+          <lb ed="#V" n="35"/>distinguens inter prietatem qua pater dicitur 
+          <lb ed="#V" n="36"/>et illam qua dicitur ingenitus in. v. libro de 
+          tri<lb ed="#V" n="37" break="no"/>nitate sic ait. Non est hoc dicere ingenitum quod 
+          <lb ed="#V" n="38"/>est patrem dicere quia et si filium non genuisset: nihil 
+          <lb ed="#V" n="39"/>prohiberet dicere eum ingenitum. Et si gignat 
+          <lb ed="#V" n="40"/>quisque filium: non ex eo ipse est ingenlitus: quia 
+          <lb ed="#V" n="41"/>geniti homines gignunt alios. Non ergo ideo 
+          <lb ed="#V" n="42"/>dicitur pater: quia ingenitus. Ideoque cum de 
+          <lb ed="#V" n="43"/>deo patre vtrunque dicatur alia notio est qua 
+          in<lb ed="#V" n="44" break="no"/>telligitur genitor: alia qua ingenitus. Genitor 
+          <lb ed="#V" n="45"/>enim dicitur ad genitum: idest filium. Cum 
+          ve<lb ed="#V" n="46" break="no"/>ro ingenitus dicitur: non quid sit: sed quid non 
+          <lb ed="#V" n="47"/>sit ostenditur. Hoc exemplis planum faciendum 
+          <lb ed="#V" n="48"/>est. Quod dicitur ingenitus: hoc ostenditur quod non 
+          <lb ed="#V" n="49"/>sit filius: sed genitus et ingenitus commode dicum 
+          <lb ed="#V" n="50"/>tur: filius autem latine dicitur. Sed vt dicatur 
+          <lb ed="#V" n="51"/>infilius: non admittit loquendi consuetudo: 
+          <lb ed="#V" n="52"/>nihil tamen intellectui demitur: si dicatur non 
+          <lb ed="#V" n="53"/>filius quemadmodum etiam si dicatur 
+          nonge<lb ed="#V" n="54" break="no"/>nitus: pro eo quod dicitur ingenitus nihil aliud 
+          <lb ed="#V" n="55"/>dicitur. Ideo non est in rebus considerandum: 
+          <lb ed="#V" n="56"/>quid vel sinat vel non sinat dici vsus sermonis 
+          <lb ed="#V" n="57"/>nostri: sed quis rerum ipsarum intellectus elu¬ 
+          <!-\-00191.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="58"/>ceat. Non ergo iam tantum dicammus 
+          ingeni<lb ed="#V" n="59" break="no"/>tum: sed etiam non genitum: quod tantum 
+          va<lb ed="#V" n="60" break="no"/>let. Nunquid ergo aliud dicimus quam non 
+          fili<lb ed="#V" n="61" break="no"/>um: Negatiua porro particula non id efficit: 
+          <lb ed="#V" n="62"/>vt quod sine illa relatiue dicitur: eadem prpoosita 
+          <lb ed="#V" n="63"/>substantialiter dicatur: sed id tantum negatur 
+          <lb ed="#V" n="64"/>quod sine illa aiebatur sicut in aliis 
+          praedicamen<lb ed="#V" n="65" break="no"/>tis: cum dicimus homo est: substantiam 
+          designa<lb ed="#V" n="66" break="no"/>mus. Qui ergo dicit non homo est: non aliud 
+          <lb ed="#V" n="67"/>genus praedicamenti enunciat: sed tantum illud 
+          <lb ed="#V" n="68"/>negat. Sicut ergo secundum substantiam aio: homo 
+          <lb ed="#V" n="69"/>est: sic secundum substantiam nego cum dico: non 
+          homo<lb ed="#V" n="70" break="no"/>est. At si tantum valet quod dicitur genitus: 
+          <lb ed="#V" n="71"/>quantum valet quod dicitur filius. Tantundem 
+          <lb ed="#V" n="72"/>ergo valet quod dicitur nongenitus: quantum 
+          <lb ed="#V" n="73"/>valet quod dicitur nonfilius. Relatiue autem 
+          <lb ed="#V" n="74"/>negamus dicendo nongenitus: Ingenitus 
+          por<lb ed="#V" n="75" break="no"/>ro quid est nisi nongenitus. Non ergo 
+          recedi<lb ed="#V" n="76" break="no"/>tur a relatiuo predicamento cum ingenitus 
+          di<lb ed="#V" n="77" break="no"/>citur. Sicut enim genitus non ad se dicitur: sed 
+          <lb ed="#V" n="78"/>quod ex genitore sit. ita cum dicitur ingenitus: non 
+          <lb ed="#V" n="79"/>ad se dicitur: sed quod ex genitore non sit 
+          ostendi<lb ed="#V" n="80" break="no"/>tur. Utrunque tamen relatiue dicitur. Quod 
+          <lb ed="#V" n="81"/>autem relatiue pronunciantur: non indicat 
+          sub<lb ed="#V" n="82" break="no"/>stantiam. Quamuis ergo diuersum sit genitus et 
+          <lb ed="#V" n="83"/>ingenitus: tamen non indicat diuersam substantiam: quia sicut 
+          <lb ed="#V" n="84"/>filius ad patrem: et non filius adnon patrem refertur: ita 
+          ge<lb ed="#V" n="85" break="no"/>nitus ad genitorem et nongenitus ad nongenitorem 
+          re<lb ed="#V" n="86" break="no"/>feratur: necesse est. Ecce euidenter ostendit quod 
+          <lb ed="#V" n="87"/>ingenitus relatiue dicitur: et de solo patre 
+          acci<lb ed="#V" n="88" break="no"/>pitur. Aliaque notio est qua dicitur ingenitus: 
+          <lb ed="#V" n="89"/>alia qua pater. Atque tantum valet cum dicitur 
+          <lb ed="#V" n="90"/>ingenitus quantum nongenitus vel nonfilius. 
+          <lb ed="#V" n="91"/>An sicut solus pater dicitur ingenitus: dici 
+          de<lb ed="#V" n="92" break="no"/>beat nongenitus vel nonfilius. 
+          <lb ed="#V" n="93"/>Ideo solet queri vtrum sic 
+          <lb ed="#V" n="94"/>cut solus 
+          <lb ed="#V" n="95"/>pater dicitur ingenitus ita ipse solus debeat 
+          di<lb ed="#V" n="96" break="no"/>ci nongenitus: vel non filius: vt nec etiam 
+          spiri<lb ed="#V" n="97" break="no"/>tus sanctus possit dici nonfilius vel nongenitus: 
+          <lb ed="#V" n="98"/>Quibusdam videtur quod pater solus debeat dici non 
+          <lb ed="#V" n="99"/>genitus vel nonfilius. Spiritus vero sanctus sicut 
+          <lb ed="#V" n="100"/>non dicitur ingenitus: ita inquiunt non est 
+          dicen<lb ed="#V" n="101" break="no"/>dus nongenitus vel non filius. Debet quidem 
+          <lb ed="#V" n="102"/>dici et credi spiritus sanctus non esse genitus vel non 
+          <lb ed="#V" n="103"/>esse filius: sed non debet dici esse nongenitus vel 
+          <lb ed="#V" n="104"/>nonfilius. Aliis autem videtur: quod cum spiritus sanct 
+          <lb ed="#V" n="105"/>non possit dici ingenitus: potest tamen dici 
+          nonge<lb ed="#V" n="106" break="no"/>nitus vel nonfilius. Quod autem Aug. supra ait: tanetum 
+          <lb ed="#V" n="107"/>valere cum dicitur ingenitus: quantum cum 
+          di<lb ed="#V" n="108" break="no"/>citur nongenitus vel non filius: ethymologiam 
+          <lb ed="#V" n="109"/>nominis ostendendo eum hoc dixisse dicunt: 
+          <lb ed="#V" n="110"/>non ratione predicationis. 
+          </p>
+          <p xml:id="kzz7yh-a60828-d1e311">
+          <lb ed="#V" n="111"/>¶ Que sit proprietas secundum quam dicitur pater ingenitus. 
+          <lb ed="#V" n="112"/>Si autem vis scire que sit propretas secundum 
+          <lb ed="#V" n="113"/>quam dicitur pater ingenitus: audi¬ 
+          <!-\-00192.xml-\->
+          <pb ed="#V" n="89-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>Hylarium ipsam vocantem innascibilitatem in. iiii. 
+          <lb ed="#V" n="2"/>libro de triate. ita aientem. Est vnus ab vno scilicet ab 
+          in<lb ed="#V" n="3" break="no"/>genito genitus: prporietate videlicet in vnoquoque 
+          <lb ed="#V" n="4"/>et originis et innascibilitatis. Significata ergo in 
+          <lb ed="#V" n="5"/>scripturis personarum intelligentia et distinctio 
+          in<lb ed="#V" n="6" break="no"/>nascibilitatis natiuitatisque sensu solitarius deus 
+          <lb ed="#V" n="7"/>non est opinandus. Discretio ergon vel distinctio personarum 
+          <lb ed="#V" n="8"/>in scripturis posita est: in nllo autem nature distinctio. 
+          </p>
+          <p xml:id="kzz7yh-a60828-d1e344">
+          <lb ed="#V" n="9"/>¶ Arriani nitebantur probare alterius substantiae patrem: 
+          <lb ed="#V" n="10"/>alterius filium: quia ille ingenitus: iste genitus: 
+          qui<lb ed="#V" n="11" break="no"/>bus respondens Ambrosius dixit se hoc nomen in 
+          <lb ed="#V" n="12"/>scripturis non legisse diuinis. 
+          <lb ed="#V" n="13"/>Illud etiam taceri non oportet: quod 
+          ar<lb ed="#V" n="14" break="no"/>riani ex eo probare 
+          nite<lb ed="#V" n="15" break="no"/>bantur alterius substantiae esse patrem: alterius filium: 
+          <lb ed="#V" n="16"/>quia ille ingenitus: et iste genitus dicitur: cum diuersum 
+          <lb ed="#V" n="17"/>sit esse ingenitum et esse genitum. Unde Ambro. 
+          <lb ed="#V" n="18"/>eorum quoni respondens: dicit se in diuinis 
+          scriptu<lb ed="#V" n="19" break="no"/>ris hoc nomen scilicet ingenitus non legisse: ita inquens 
+          <lb ed="#V" n="20"/>in. iiii. libro de spiritu sancto. Cum dudum audierint quidam 
+          <lb ed="#V" n="21"/>dicentibus nobis filium dei qui generatus est 
+          patri<lb ed="#V" n="22" break="no"/>quigenerauit inequalem esse non posse: quamuis ille 
+          <lb ed="#V" n="23"/>generatus sit: iste generauit: quia generatio est 
+          na<lb ed="#V" n="24" break="no"/>ture: aduersus quidem illam quaestionem vocem sibi 
+          <lb ed="#V" n="25"/>arbitrantur acclusam: sed in tergiuersatione 
+          dam<lb ed="#V" n="26" break="no"/>nabili in eodem loco vestigium vertunt: vt 
+          pu<lb ed="#V" n="27" break="no"/>tent mutationem fieri quaestionis mutatione 
+          sermo<lb ed="#V" n="28" break="no"/>nis dicentes. Quomodo possunt esse ingenitus et genitus 
+          <lb ed="#V" n="29"/>vnius nature atque substeantiae. Ergo vt respondeam mihi 
+          <lb ed="#V" n="30"/>proposite quaestioni: primo omnium in diuinis scripturis 
+          in<lb ed="#V" n="31" break="no"/>genitus nusquam inuenio: non legi: non audiui. Cuius 
+          <lb ed="#V" n="32"/>ergo mutabilitatis sunt homines huiusmodi: vt nos 
+          di<lb ed="#V" n="33" break="no"/>cant ea vsurpare quae non sunt scripta: cum ea que 
+          <lb ed="#V" n="34"/>sunt scripta dicamus: et ipsi obiiciant quod scriptum 
+          <lb ed="#V" n="35"/>non sit. Nonne ipsi sibi aduersantur: et auctoritatem 
+          <lb ed="#V" n="36"/>calumnie sue derogant: Attende lector quoniam hoc 
+          <lb ed="#V" n="37"/>nomine ingenitus nolebat vti Ambrosius propter 
+          <lb ed="#V" n="38"/>hereticos. Ita et nos subticere quadam oportet propter 
+          <lb ed="#V" n="39"/>calumniantium insidias: quia catholicis ac piis 
+          le<lb ed="#V" n="40" break="no"/>ctoribus secure credi possunt. Sunt eteni 
+          que<lb ed="#V" n="41" break="no"/>dam quae non tante sunt religionis et auctoritatis 
+          <lb ed="#V" n="42"/>vt eis nos oporteat semper confitendo ac recipiendo 
+          <lb ed="#V" n="43"/>inseruire: verum silentio aliquando praeteriri quaunt: 
+          <lb ed="#V" n="44"/>nec illius tamen sunt peruersitatis: quin cum 
+          opportu<lb ed="#V" n="45" break="no"/>num fuerit: eis vti liberum habeamus. 
+          </p>
+          <p xml:id="kzz7yh-a60828-d1e427">
+          <lb ed="#V" n="46"/>¶ An diuersum sit esse patrem et esse filium. 
+          <lb ed="#V" n="47"/>Preterea queri solet cum supra 
+          di<lb ed="#V" n="48" break="no"/>ctum sit: quia aliud est dicere 
+          <lb ed="#V" n="49"/>ingenitum: aliud patrem. Et quod diuersum sit 
+          geni<lb ed="#V" n="50" break="no"/>tus et ingenitus: vtrum similiter diuersum sit esse 
+          <lb ed="#V" n="51"/>patrem: et esse filium: an idem: Ad quod dicimus 
+          <lb ed="#V" n="52"/>quia ex eodem sensu quo dicitur diuersum genitus 
+          <lb ed="#V" n="53"/>et ingenitus: et quo dicitur non esse idem dicere 
+          geni<lb ed="#V" n="54" break="no"/>tum et ingenitum: potest dici non esse idem: sed 
+          di<lb ed="#V" n="55" break="no"/>uersum esse patrem et esse filium: vel esse spritum sanctum 
+          <lb ed="#V" n="56"/>quia non ea notione pater est pater qua filius est filius: 
+          <!-\-00192.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>vel qua spiritus sanctus est spiritus sanctus. Ideoque ex 
+          <lb ed="#V" n="58"/>hoc sensu procedimus: quod aliud est esse patrem: et aliod 
+          <lb ed="#V" n="59"/>est esse filium: quia alia notio est qua pater est pater 
+          <lb ed="#V" n="60"/>alia qua filius est filius. Sed si transponas: vt 
+          <lb ed="#V" n="61"/>dicas: aliud est patrem esse: aliud filium esse variatur 
+          <lb ed="#V" n="62"/>intelligentia: et ideo non conceditur. Est enim sensus. 
+          <lb ed="#V" n="63"/>talis: ac si dicatur: aliud est quo pater non quidem 
+          <lb ed="#V" n="64"/>pater: sed est: aliud quo filius est: non quidem filius: 
+          <lb ed="#V" n="65"/>sed est: quod penitus falsum est. Eo enim pater est quo 
+          <lb ed="#V" n="66"/>pater deus est id est per essentiam vel naturam. Ac filius 
+          <lb ed="#V" n="67"/>eo deus est quo pater est deus. Eo ergo filius est 
+          <lb ed="#V" n="68"/>quo pater est. Et ita idem est patrem esse et filium esse 
+          <lb ed="#V" n="69"/>sed non est idem esse patrem et esse filium. Unde Aug. 
+          <lb ed="#V" n="70"/>in. v. libro de triniate. ait. Quamuis diuersum sit esse patrem 
+          <lb ed="#V" n="71"/>et esse filium: non est tamen diuersa substantia: quia non hoc secundum 
+          <lb ed="#V" n="72"/>substantiam dicitur: sed secundum relatiuum: quod tamen relatiuum non est 
+          <lb ed="#V" n="73"/>accidens: quia non est mutabile. Ecce diuersum esse 
+          <lb ed="#V" n="74"/>dicit esse prem et esse filium: quod iuxta rationem 
+          praedi<lb ed="#V" n="75" break="no"/>ctam accipi oportet: quia scilicet alia notio est qua 
+          <lb ed="#V" n="76"/>est pater: alia qua est filius. Non enim secundum 
+          essen<lb ed="#V" n="77" break="no"/>tiam pater dicitur pater: vel filius filius: sed 
+          <lb ed="#V" n="78"/>secundum relationem. 
+          </p>
+          <p xml:id="kzz7yh-a60828-d1e505">
+          <lb ed="#V" n="79"/>¶ Quodo dicatur sapientia genita vel nata: an 
+          iua<lb ed="#V" n="80" break="no"/>relationem an secundum substantiam. 
+          <lb ed="#V" n="81"/>Sciendum quoque est: quod sicut solus filius 
+          di<lb ed="#V" n="82" break="no"/>citur verbum vel imago: ita est 
+          <lb ed="#V" n="83"/>ipse solus dicitur sapientia nata vel genita. Et ideo 
+          <lb ed="#V" n="84"/>quaeritur vtrum hoc relatiue dicatur: et si relatiue 
+          <lb ed="#V" n="85"/>dicitur: an secundum eandem relationem qua dicitur verbum 
+          <lb ed="#V" n="86"/>et imago: De hoc Aug. in. vii. libro de triate. ita ait 
+          <lb ed="#V" n="87"/>Id dici accipiamus cum dicitur verbum: ac si dicatur 
+          <lb ed="#V" n="88"/>nata sapientia: vt sit filius et imago. Et hec 
+          duo<lb ed="#V" n="89" break="no"/>cum dicuntur id est nata sapientia: in vno eorum: eo 
+          <lb ed="#V" n="90"/>quod est nata et verbum et imago et filius intelligatur. 
+          <lb ed="#V" n="91"/>Et in his omnibus nonibus non ostendatur essentia: 
+          <lb ed="#V" n="92"/>quia relatiue dicuntur. At in altero quod est sapientia: 
+          <lb ed="#V" n="93"/>etia essentia demonstretur: quoniam et ad se dicitur: se ipsa 
+          <lb ed="#V" n="94"/>enim est sapiens. Et hoc est eius esse quod sapere. 
+          <lb ed="#V" n="95"/>Unde pater et filius simul vna sapientia: quia vna 
+          <lb ed="#V" n="96"/>essentia.
+          </p>
+          <p xml:id="kzz7yh-a60828-d1e548">
+          ¶ Caue lector qualiter hoc intelligas 
+          <lb ed="#V" n="97"/>quod hic dicit Aug. Uidetur enim dicere quod cum dicitur 
+          <lb ed="#V" n="98"/>nata sapientia: ibi sapientia essentiam significet: et 
+          <lb ed="#V" n="99"/>nata relationem notet. Quod si ita est cogimur 
+          <lb ed="#V" n="100"/>dicere essentiam diuinam esse natam quod superiorib 
+          <lb ed="#V" n="101"/>repugnat. Sed ad hoc dicimus: quod in altero id est 
+          <lb ed="#V" n="102"/>in eo quod nata est: eadem notio intelligatur: que 
+          <lb ed="#V" n="103"/>notatur cum dicitur verbum et imago. In altero vero 
+          <lb ed="#V" n="104"/>scilicet sapientia: demonstratur: essentia id est demonstratur 
+          <lb ed="#V" n="105"/>quod filius sit essentia: quia sapientia secundum essentiam dicitur. 
+          <lb ed="#V" n="106"/>Et ideo cum dicitur nata sapientia: intelligatur quod 
+          <lb ed="#V" n="107"/>ipse qui natus est: essentia est: ibi tamen sapientia non 
+          pro<lb ed="#V" n="108" break="no"/>essentia: sed pro hypostasi facit intelligentiam: vt 
+          <lb ed="#V" n="109"/>sicut quando dicitur verbum vel filius: intelligitur 
+          hy<lb ed="#V" n="110" break="no"/>postasis cum sua proprietate. Item cum dicitur nata 
+          <lb ed="#V" n="111"/>sapientia: idem intelligitur id est genita hypostasis 
+          <lb ed="#V" n="112"/>Ideo vigilanter ait idem esse intelligendum cum 
+          <!-\-00193.xml-\->
+          <pb ed="#V" n="90-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>dicitur verbum: et cum dicitur nata sapientia id est eadem 
+          re<lb ed="#V" n="2" break="no"/>tatio: eademque hypostasis cui inest illa proprietas. 
+          <lb ed="#V" n="3"/>Et ex hoc adiuuatur illud quod superius diximus 
+          <lb ed="#V" n="4"/>scilicet cum dicitur pater vel filius vel spiritus sanctus: non tantum ille 
+          <lb ed="#V" n="5"/>proprietates significantur cum dicitur paternitas filiatio: sed 
+          <lb ed="#V" n="6"/>etiam hypostasis cum suis prporietatibus. 
+          </p>
+          <p xml:id="kzz7yh-a60828-d1e605">
+          <lb ed="#V" n="7"/>¶ Quod imago aliquando dicitur secundum essentiam. 
+          <lb ed="#V" n="8"/>llud etiam sciri oportet: quia cum 
+          <lb ed="#V" n="9"/>supra dictum sit 
+          ima<lb ed="#V" n="10" break="no"/>ginem relatiue dici de filio sicut verbum vel filius 
+          <lb ed="#V" n="11"/>interdum tamen reperitur secundum substantiam dici. Unde Aug. 
+          <lb ed="#V" n="12"/>in libro de fide ad Petrum dicit: quod vna est sancte 
+          <lb ed="#V" n="13"/>trinitatis essentialiter diuitas et imago: ad quam 
+          <lb ed="#V" n="14"/>factus est homo. Hylarius etim in. v. libro de triniate. ait. 
+          <lb ed="#V" n="15"/>Homo sit ad communem imaginem. Nomen non 
+          discre<lb ed="#V" n="16" break="no"/>pat: natura non differt. Una est enim ad quam homo 
+          <lb ed="#V" n="17"/>creatus est species. Ex his verbis ostenditur quod 
+          imagoali<lb ed="#V" n="18" break="no"/>quando essentie intelligentiam facit: et tunc ad se dicitur 
+          <lb ed="#V" n="19"/>et non relatiue. 
+          </p>-->
+        <!-- </div>
+          <div> l1d28prae 
+          <head>Praeambulum</head> -->
+        <p xml:id="kzz7yh-a60828-d1e638">
+          Dis. XXVIIII 
+          <lb ed="#V" n="20"/>PReterea considerari oportet etc. Superius 
+          deter<lb ed="#V" n="21" break="no"/>minauit magister de proprietatibus 
+          <lb ed="#V" n="22"/>personalibus idest personas constituentibus: hic 
+          determi<lb ed="#V" n="23" break="no"/>nat de proprietatibus notionalibus et non personalibus. et 
+          di<lb ed="#V" n="24" break="no"/>uiditur pars ista in duas partes. In prima agit de 
+          innascibili<lb ed="#V" n="25" break="no"/>tate. In secunda de communi spiratione secundum quam nomine principii 
+          signi<lb ed="#V" n="26" break="no"/>ficatur. 29. Di. ibi( Est praeterea aliud nomen). Prima in duas 
+          <lb ed="#V" n="27"/>quia primo agit de proprietate ingeniti que est innascibilitas. 
+          <lb ed="#V" n="28"/>Secundo incidenter aliqua determinat de proprietatibus geniti. 
+          <lb ed="#V" n="29"/>ibi. (Sciendum quoque.
+        </p>
+        <p xml:id="kzz7yh-a60828-d1e662">
+          ¶ Prima diditur in partes tres.
+        </p>
+        <p xml:id="kzz7yh-a60828-d1e664">
+          ¶ 
+          In<lb ed="#V" n="30" break="no"/>prima ostendit quid significetur nomine ingeniti.
+        </p>
+        <p xml:id="kzz7yh-a60828-d1e670">
+          ¶ In secunda 
+          inqui<lb ed="#V" n="31" break="no"/>rit vtrum id significetur nomine ingeniti inquerendo vtrum sicut 
+          <lb ed="#V" n="32"/>solus pater dicitur ingenitus: ita dici debeat non genitus ibi. (Ideo 
+          <lb ed="#V" n="33"/>solet queri.
+        </p>
+        <p xml:id="kzz7yh-a60828-d1e679">
+          ¶ In tertia ostendit secundum quam proprietatem pater dicitur in 
+          <lb ed="#V" n="34"/>genitus ibi. (Si autem vis scire. Et ista tertia diditur in tres 
+        </p>
+        <p xml:id="kzz7yh-a60828-d1e684">
+          <lb ed="#V" n="35"/>¶ Primo ostendit secundum quam proprietatem pater dicitur ingenitus.
+        </p>
+        <p xml:id="kzz7yh-a60828-d1e689">
+          ¶ 2o 
+          <lb ed="#V" n="36"/>excludit errorem quorundam circa distinctionem geniti et 
+          inge<lb ed="#V" n="37" break="no"/>niti ibi. (Illud autem tacere non opoet.)
+        </p>
+        <p xml:id="kzz7yh-a60828-d1e696">
+          ¶ Tertio iuxta hoc 
+          mo<lb ed="#V" n="38" break="no"/>uet incidentem dubitationem et soluit: ibi. (Preterea quaeri solet) 
+          <lb ed="#V" n="39"/>Tunc sequitur illa pars que ibi incipit. (Sciendum quoque.) 
+          <lb ed="#V" n="40"/>In qua aliqua determinat de proprietatibus geniti. et 
+          diuidi<lb ed="#V" n="41" break="no"/>tur in partes tres. In prima ostendit quod filius verbum imago 
+          <lb ed="#V" n="42"/>sapientia genita realiter eandem dicunt proprietatem.
+        </p>
+        <p xml:id="kzz7yh-a60828-d1e709">
+          ¶ 
+          In<lb ed="#V" n="43" break="no"/>secunda ostendit quomodo sapientia suscipit relatiuam praedicationem: 
+          <lb ed="#V" n="44"/>ibic Caue lector).
+        </p>
+        <p xml:id="kzz7yh-a60828-d1e717">
+          ¶ In tertia ostendit quod imago aliquando 
+          <lb ed="#V" n="45"/>habet significationem essentialem: ibi. (Illud etiam scire opotet) 
+        </p>
+        <p xml:id="kzz7yh-a60828-d1e722">
+          <lb ed="#V" n="46"/>CIrca hanc di. queruntur tria principaliter 
+          <lb ed="#V" n="47"/>Primo de distinctione 
+          no<lb ed="#V" n="48" break="no"/>tionum in eadem persona. Secundo specialiter de 
+          notio<lb ed="#V" n="49" break="no"/>ne innascibilitatis in patre. Tertio de proprietate 
+          ima<lb ed="#V" n="50" break="no"/>ginis in filio.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
