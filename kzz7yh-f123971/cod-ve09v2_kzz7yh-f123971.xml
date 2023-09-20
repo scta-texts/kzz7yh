@@ -1,220 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="174-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f123971"><!-- l2d44prae -->
-            <head xml:id="kzz7yh-f123971-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-f123971-d1e103">
-               <lb ed="#V" n="61"/>¶ De potentia peccandi: an sit homini vel diabo 
-      <lb ed="#V" n="62"/>lo a deo. Dist. XIIIII. 
-      <lb ed="#V" n="63"/>Post predicta considera 
-      <lb ed="#V" n="64"/>tione 
-      di<lb ed="#V" n="65" break="no"/>gnum occurrit. Utrum peccandi 
-      poten<lb ed="#V" n="66" break="no"/>tia sit nobis a deo: vel a nobis: 
-      Pu<lb ed="#V" n="67" break="no"/>tant quidam potentiam recte agendi no¬ 
-      <!--00363.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="68"/>bis esse a deo. Potentiam vero peccandi non a 
-      <lb ed="#V" n="69"/>deo: sed a nobis vel a diabolo esse: sicut mala 
-      vo<lb ed="#V" n="70" break="no"/>luntas non a deo nobis est: sed a nobis et a dia 
-      <lb ed="#V" n="71"/>bolo. Bona autem a deo tantum nobis est: bone namque 
-      <lb ed="#V" n="72"/>voluntatis et cogitationis initium non homini ex 
-      <lb ed="#V" n="73"/>seipso nasci: sed diuinitus parari et tribui: in eo 
-      <lb ed="#V" n="74"/>deus euidenter ostendit: quia nec diabolus: nec 
-      ali<lb ed="#V" n="75" break="no"/>quis angelorum eius ex quo in hanc caliginem 
-      <lb ed="#V" n="76"/>sunt detrusi: bonam potuit vel poterit 
-      resume<lb ed="#V" n="77" break="no"/>re voluntatem. Quia si possibile foret vt 
-      huma<lb ed="#V" n="78" break="no"/>na natura postquam a deo auersa bonitatem 
-      per<lb ed="#V" n="79" break="no"/>didit voluntatis: ex seipsa rursus eam habere 
-      po<lb ed="#V" n="80" break="no"/>tuisset: multo possibilius hoc natura haberet 
-      an<lb ed="#V" n="81" break="no"/>gelica: que quantominus grauatur terreni 
-      corpo<lb ed="#V" n="82" break="no"/>ris pondere: tantomagis hac esset praedita faculta 
-      <lb ed="#V" n="83"/>te. Non ergo homo vel angelus a se voluntatem 
-      <lb ed="#V" n="84"/>bonam habere potest: sed malam. Similiter et de 
-      poten<lb ed="#V" n="85" break="no"/>tia inquiunt per similitudinem voluntatis boni 
-      <lb ed="#V" n="86"/>vel mali disserentes quod illa sit a deo: non ista. 
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e166">
-               <lb ed="#V" n="87"/>¶ Auctoritatibus astruit potentiam peccandi esse a deo. 
-      <lb ed="#V" n="88"/>Sed pluribus sanctorum testimo 
-      <lb ed="#V" n="89"/>niis 
-      indubitan<lb ed="#V" n="90" break="no"/>termonstratur: quod potestas mali a deo est a quo est 
-      <lb ed="#V" n="91"/>omnis potestas: ait enim apostolus. Non est potestas 
-      <lb ed="#V" n="92"/>nisi a deo. Quod non de potestate boni tantum: sed et 
-      <lb ed="#V" n="93"/>mali intelligi oportet. Cum pilato etiam veritas 
-      <lb ed="#V" n="94"/>dicat. Non haberes in me potestatem nisi 
-      da<lb ed="#V" n="95" break="no"/>tum esset tibi desuper. Malitia nempe hominum: 
-      <lb ed="#V" n="96"/>vt ait Aug. cupiditatem nocendi per se habet: 
-      <lb ed="#V" n="97"/>potestatem autem fi ille non dat: non habet. Ideoque 
-      <lb ed="#V" n="98"/>diabolus antequam aliquid tolleret Iob dicebat 
-      <lb ed="#V" n="99"/>domino. Mitte manum tuam id est da potestatem: 
-      <lb ed="#V" n="100"/>quia etiam nocentium potestas non est nisi a deo: 
-      <lb ed="#V" n="101"/>sicut sapientia ait: per mereges regnant et tyram 
-      <lb ed="#V" n="102"/>ni per meterram tenent. Unde Iob de domi 
-      <lb ed="#V" n="103"/>no ait. Qui facit regnare hypocritam propter 
-      pec<lb ed="#V" n="104" break="no"/>cata populi. Et de pplulo israel dicit deus. Sedi 
-      <lb ed="#V" n="105"/>eis regem in ira mea. Nocendi enim voluntas 
-      <lb ed="#V" n="106"/>potest esse ab hominis animo: potestas autem non 
-      <lb ed="#V" n="107"/>est nisi a deo: et hec abdita aptaque iustitia. Nam 
-      <lb ed="#V" n="108"/>per potestatem diabolo datam iustos deus 
-      fa<lb ed="#V" n="109" break="no"/>cit suos. De hoc etiam Greg. in moralibus ait. 
-      <lb ed="#V" n="110"/>Tumoris elatio non potestatis ordo in 
-      crimi<lb ed="#V" n="111" break="no"/>ne est. Potentiam deus tribuit: elationem vero 
-      <lb ed="#V" n="112"/>potentie malitia nostre mentis inuenit. 
-      Tolla<lb ed="#V" n="113" break="no"/>mus ergo quod de nostro est: quia non potentia iusta: 
-      <lb ed="#V" n="114"/>sed actio praua damnatur. His auctoritatibus 
-      <lb ed="#V" n="115"/>aliisque pluribus euidenter ostenditur quod non est 
-      <lb ed="#V" n="116"/>potestas boni vel mali cuicumque nisi a deo equo: 
-      <lb ed="#V" n="117"/>et si te lateat equitas. 
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e236">
-               <lb ed="#V" n="118"/>¶ An aliquando resistendum sit potestati. 
-      <lb ed="#V" n="119"/>Hic oritur questio non transilienda 
-      <lb ed="#V" n="120"/>filentio: dictum est enim 
-      <lb ed="#V" n="121"/>supra quam potestas peccandi vel nocendi non est 
-      <lb ed="#V" n="122"/>homini vel diabolo nisi a deo: apostolus autem dicit quod 
-      <lb ed="#V" n="123"/>qui potestati resistit dei ordinationi resistit cum 
-      <!--00364.xml-->
-      <pb ed="#V" n="174-v"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>ergo diabolo sit potestas mali dei ordinatione 
-      <lb ed="#V" n="2"/>eius potestati non esse resistendum videtur. Sed 
-      <lb ed="#V" n="3"/>sciendum est apostolum ibi loqui de seculari 
-      potesta<lb ed="#V" n="4" break="no"/>te scilicet rege et principe et huiusmodi: quibus non est 
-      resisten<lb ed="#V" n="5" break="no"/>dum in his que iubet deus eis exhiberi scilicet in 
-      tri<lb ed="#V" n="6" break="no"/>butis et huiusmodni. Si vero princeps aliquis vel dia 
-      <lb ed="#V" n="7"/>bolus aliquid iusserit vel suaserit contra deum 
-      <lb ed="#V" n="8"/>tunc resistendum est. Unde Aug. determinans 
-      <lb ed="#V" n="9"/>qualiter resistendum sit potestati in lib. de natura 
-      <lb ed="#V" n="10"/>boni ait. Si aliquid iubeat potestas quod non 
-      de<lb ed="#V" n="11" break="no"/>beas facere: hic sane contenne potestatem timen 
-      <lb ed="#V" n="12"/>do maiorem potestatem. Ipsos humanarum rerum 
-      <lb ed="#V" n="13"/>gradus auerte. Si quid iusserit procurator nunquid 
-      <lb ed="#V" n="14"/>faciendum est: si contra proconsulem iubeat. 
-      Rur<lb ed="#V" n="15" break="no"/>sus si quid ipse proconsul iubeat: et aliud iubeat 
-      <lb ed="#V" n="16"/>im perator: nunquid dubitatur illo contempto illi 
-      <lb ed="#V" n="17"/>esse seruiendum. Ergo si aliud imperator: aliud 
-      <lb ed="#V" n="18"/>iubeat deus contempto illo obtemperandum est 
-      <lb ed="#V" n="19"/>deo. Potestati ergo diaboli vel hominis tunc 
-      resi<lb ed="#V" n="20" break="no"/>stimus cum aliquid contra deum suggesserit: in 
-      <lb ed="#V" n="21"/>quo dei ordinationi non resistimus: sed obtem 
-      <lb ed="#V" n="22"/>peramus. Sic enim deus precepit vt in malis 
-      <lb ed="#V" n="23"/>nulli potestati obediamus. 
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e308">
-               <lb ed="#V" n="24"/>¶ Iam nunc his intelligendis atque 
-      pertractan<lb ed="#V" n="25" break="no"/>dis: que ad verbi incarnati mysterium pertinent 
-      <lb ed="#V" n="26"/>de integra mentis considerat ione intendamus: 
-      <lb ed="#V" n="27"/>vt ineffabilibus vel modicum aliquid fari deo 
-      <lb ed="#V" n="28"/>reuelante valeamus.  Dist. XIIIII 
-      <lb ed="#V" n="29"/>Post predicta consideratione 
-      dignum<lb ed="#V" n="30" break="no"/>occurrit etc. 
-      Supe<lb ed="#V" n="31" break="no"/>rius determinauit Magister de origine peccati: 
-      <lb ed="#V" n="32"/>et eius subiecto: et quiditate: et de his quae concurrunt ad 
-      <lb ed="#V" n="33"/>peccatum: que sunt volunt as intentio et finis: et de 
-      <lb ed="#V" n="34"/>modis peccandi: et de differentiis peccatorum. hic 
-      determi<lb ed="#V" n="35" break="no"/>nat de potentia peccandi. Et diuiditur in partes duas.
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e338">
-      ¶ 
-      Pri<lb ed="#V" n="36" break="no"/>mo querit Magister vtrum potentia peccandi sit a deo.
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e343">
-      ¶ 
-      Se<lb ed="#V" n="37" break="no"/>cundo inquirit incidentaliter de potentia que in diabolo est. ibi 
-      <lb ed="#V" n="38"/>HHic oritur quaestio
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e350">
-      ¶ Primo in tres.
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e352">
-      ¶ Primo proponit quaestionem. 
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e354">
-               <lb ed="#V" n="39"/>¶ Secundo subiungit de quaestione quorudam falsam opinionem. 
-      <lb ed="#V" n="40"/>ibi. Putant quidam.
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e361">
-      ¶ Tertio improbando illam falsam 
-      <lb ed="#V" n="41"/>opinionem ponit veram raesponsionem. ibi. Sed pluribus sanctorum etc. 
-      <lb ed="#V" n="42"/>Illa pars que ibi incipit. Hic oritur quaestio Diuiditur in tres. 
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e369">
-               <lb ed="#V" n="43"/>¶ Primo proponit dubitationis rationem.
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e374">
-      ¶ Secundo 
-      sub<lb ed="#V" n="44" break="no"/>iungit responsionem. ibi. Sed sciendum.
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e379">
-      ¶ Tertio 
-      respsito<lb ed="#V" n="45" break="no"/>sionis confirmationem. ibi. Unde Augustinus. I 
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e384">
-               <lb ed="#V" n="46"/>CIrca hanc dis. quaerendum est principaliter 
-      <lb ed="#V" n="47"/>de tribus.
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e391">
-      ¶ Primo de 
-      po<lb ed="#V" n="48" break="no"/>tentia peccandi.
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e396">
-      ¶ Secundo de potentia presidendi. 
-   </p>
-            <p xml:id="kzz7yh-f123971-d1e399">
-               <lb ed="#V" n="49"/>¶ Tertio de necessitate obediendi.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="174-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f123971"><!-- l2d44prae -->
+        <head xml:id="kzz7yh-f123971-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-f123971-d1e103">
+          <lb ed="#V" n="61"/>¶ De potentia peccandi: an sit homini vel diabo 
+          <lb ed="#V" n="62"/>lo a deo. Dist. XIIIII. 
+          <lb ed="#V" n="63"/>Post predicta considera 
+          <lb ed="#V" n="64"/>tione 
+          di<lb ed="#V" n="65" break="no"/>gnum occurrit. Utrum peccandi 
+          poten<lb ed="#V" n="66" break="no"/>tia sit nobis a deo: vel a nobis: 
+          Pu<lb ed="#V" n="67" break="no"/>tant quidam potentiam recte agendi no¬ 
+          <!-\-00363.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="68"/>bis esse a deo. Potentiam vero peccandi non a 
+          <lb ed="#V" n="69"/>deo: sed a nobis vel a diabolo esse: sicut mala 
+          vo<lb ed="#V" n="70" break="no"/>luntas non a deo nobis est: sed a nobis et a dia 
+          <lb ed="#V" n="71"/>bolo. Bona autem a deo tantum nobis est: bone namque 
+          <lb ed="#V" n="72"/>voluntatis et cogitationis initium non homini ex 
+          <lb ed="#V" n="73"/>seipso nasci: sed diuinitus parari et tribui: in eo 
+          <lb ed="#V" n="74"/>deus euidenter ostendit: quia nec diabolus: nec 
+          ali<lb ed="#V" n="75" break="no"/>quis angelorum eius ex quo in hanc caliginem 
+          <lb ed="#V" n="76"/>sunt detrusi: bonam potuit vel poterit 
+          resume<lb ed="#V" n="77" break="no"/>re voluntatem. Quia si possibile foret vt 
+          huma<lb ed="#V" n="78" break="no"/>na natura postquam a deo auersa bonitatem 
+          per<lb ed="#V" n="79" break="no"/>didit voluntatis: ex seipsa rursus eam habere 
+          po<lb ed="#V" n="80" break="no"/>tuisset: multo possibilius hoc natura haberet 
+          an<lb ed="#V" n="81" break="no"/>gelica: que quantominus grauatur terreni 
+          corpo<lb ed="#V" n="82" break="no"/>ris pondere: tantomagis hac esset praedita faculta 
+          <lb ed="#V" n="83"/>te. Non ergo homo vel angelus a se voluntatem 
+          <lb ed="#V" n="84"/>bonam habere potest: sed malam. Similiter et de 
+          poten<lb ed="#V" n="85" break="no"/>tia inquiunt per similitudinem voluntatis boni 
+          <lb ed="#V" n="86"/>vel mali disserentes quod illa sit a deo: non ista. 
+          </p>
+          <p xml:id="kzz7yh-f123971-d1e166">
+          <lb ed="#V" n="87"/>¶ Auctoritatibus astruit potentiam peccandi esse a deo. 
+          <lb ed="#V" n="88"/>Sed pluribus sanctorum testimo 
+          <lb ed="#V" n="89"/>niis 
+          indubitan<lb ed="#V" n="90" break="no"/>termonstratur: quod potestas mali a deo est a quo est 
+          <lb ed="#V" n="91"/>omnis potestas: ait enim apostolus. Non est potestas 
+          <lb ed="#V" n="92"/>nisi a deo. Quod non de potestate boni tantum: sed et 
+          <lb ed="#V" n="93"/>mali intelligi oportet. Cum pilato etiam veritas 
+          <lb ed="#V" n="94"/>dicat. Non haberes in me potestatem nisi 
+          da<lb ed="#V" n="95" break="no"/>tum esset tibi desuper. Malitia nempe hominum: 
+          <lb ed="#V" n="96"/>vt ait Aug. cupiditatem nocendi per se habet: 
+          <lb ed="#V" n="97"/>potestatem autem fi ille non dat: non habet. Ideoque 
+          <lb ed="#V" n="98"/>diabolus antequam aliquid tolleret Iob dicebat 
+          <lb ed="#V" n="99"/>domino. Mitte manum tuam id est da potestatem: 
+          <lb ed="#V" n="100"/>quia etiam nocentium potestas non est nisi a deo: 
+          <lb ed="#V" n="101"/>sicut sapientia ait: per mereges regnant et tyram 
+          <lb ed="#V" n="102"/>ni per meterram tenent. Unde Iob de domi 
+          <lb ed="#V" n="103"/>no ait. Qui facit regnare hypocritam propter 
+          pec<lb ed="#V" n="104" break="no"/>cata populi. Et de pplulo israel dicit deus. Sedi 
+          <lb ed="#V" n="105"/>eis regem in ira mea. Nocendi enim voluntas 
+          <lb ed="#V" n="106"/>potest esse ab hominis animo: potestas autem non 
+          <lb ed="#V" n="107"/>est nisi a deo: et hec abdita aptaque iustitia. Nam 
+          <lb ed="#V" n="108"/>per potestatem diabolo datam iustos deus 
+          fa<lb ed="#V" n="109" break="no"/>cit suos. De hoc etiam Greg. in moralibus ait. 
+          <lb ed="#V" n="110"/>Tumoris elatio non potestatis ordo in 
+          crimi<lb ed="#V" n="111" break="no"/>ne est. Potentiam deus tribuit: elationem vero 
+          <lb ed="#V" n="112"/>potentie malitia nostre mentis inuenit. 
+          Tolla<lb ed="#V" n="113" break="no"/>mus ergo quod de nostro est: quia non potentia iusta: 
+          <lb ed="#V" n="114"/>sed actio praua damnatur. His auctoritatibus 
+          <lb ed="#V" n="115"/>aliisque pluribus euidenter ostenditur quod non est 
+          <lb ed="#V" n="116"/>potestas boni vel mali cuicumque nisi a deo equo: 
+          <lb ed="#V" n="117"/>et si te lateat equitas. 
+          </p>
+          <p xml:id="kzz7yh-f123971-d1e236">
+          <lb ed="#V" n="118"/>¶ An aliquando resistendum sit potestati. 
+          <lb ed="#V" n="119"/>Hic oritur questio non transilienda 
+          <lb ed="#V" n="120"/>filentio: dictum est enim 
+          <lb ed="#V" n="121"/>supra quam potestas peccandi vel nocendi non est 
+          <lb ed="#V" n="122"/>homini vel diabolo nisi a deo: apostolus autem dicit quod 
+          <lb ed="#V" n="123"/>qui potestati resistit dei ordinationi resistit cum 
+          <!-\-00364.xml-\->
+          <pb ed="#V" n="174-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>ergo diabolo sit potestas mali dei ordinatione 
+          <lb ed="#V" n="2"/>eius potestati non esse resistendum videtur. Sed 
+          <lb ed="#V" n="3"/>sciendum est apostolum ibi loqui de seculari 
+          potesta<lb ed="#V" n="4" break="no"/>te scilicet rege et principe et huiusmodi: quibus non est 
+          resisten<lb ed="#V" n="5" break="no"/>dum in his que iubet deus eis exhiberi scilicet in 
+          tri<lb ed="#V" n="6" break="no"/>butis et huiusmodni. Si vero princeps aliquis vel dia 
+          <lb ed="#V" n="7"/>bolus aliquid iusserit vel suaserit contra deum 
+          <lb ed="#V" n="8"/>tunc resistendum est. Unde Aug. determinans 
+          <lb ed="#V" n="9"/>qualiter resistendum sit potestati in lib. de natura 
+          <lb ed="#V" n="10"/>boni ait. Si aliquid iubeat potestas quod non 
+          de<lb ed="#V" n="11" break="no"/>beas facere: hic sane contenne potestatem timen 
+          <lb ed="#V" n="12"/>do maiorem potestatem. Ipsos humanarum rerum 
+          <lb ed="#V" n="13"/>gradus auerte. Si quid iusserit procurator nunquid 
+          <lb ed="#V" n="14"/>faciendum est: si contra proconsulem iubeat. 
+          Rur<lb ed="#V" n="15" break="no"/>sus si quid ipse proconsul iubeat: et aliud iubeat 
+          <lb ed="#V" n="16"/>im perator: nunquid dubitatur illo contempto illi 
+          <lb ed="#V" n="17"/>esse seruiendum. Ergo si aliud imperator: aliud 
+          <lb ed="#V" n="18"/>iubeat deus contempto illo obtemperandum est 
+          <lb ed="#V" n="19"/>deo. Potestati ergo diaboli vel hominis tunc 
+          resi<lb ed="#V" n="20" break="no"/>stimus cum aliquid contra deum suggesserit: in 
+          <lb ed="#V" n="21"/>quo dei ordinationi non resistimus: sed obtem 
+          <lb ed="#V" n="22"/>peramus. Sic enim deus precepit vt in malis 
+          <lb ed="#V" n="23"/>nulli potestati obediamus. 
+          </p>
+          <p xml:id="kzz7yh-f123971-d1e308">
+          <lb ed="#V" n="24"/>¶ Iam nunc his intelligendis atque 
+          pertractan<lb ed="#V" n="25" break="no"/>dis: que ad verbi incarnati mysterium pertinent 
+          <lb ed="#V" n="26"/>de integra mentis considerat ione intendamus: 
+          <lb ed="#V" n="27"/>vt ineffabilibus vel modicum aliquid fari deo 
+          <lb ed="#V" n="28"/>reuelante valeamus.
+          </p>-->
+        <p xml:id="kzz7yh-f123971-d1e106">
+          Dist. XLIIII 
+          <lb ed="#V" n="29"/>Post predicta consideratione 
+          dignum<lb ed="#V" n="30" break="no"/>occurrit etc. 
+          Supe<lb ed="#V" n="31" break="no"/>rius determinauit Magister de origine peccati: 
+          <lb ed="#V" n="32"/>et eius subiecto: et quiditate: et de his quae concurrunt ad 
+          <lb ed="#V" n="33"/>peccatum: que sunt volunt as intentio et finis: et de 
+          <lb ed="#V" n="34"/>modis peccandi: et de differentiis peccatorum. hic 
+          determi<lb ed="#V" n="35" break="no"/>nat de potentia peccandi. Et diuiditur in partes duas.
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e338">
+          ¶ 
+          Pri<lb ed="#V" n="36" break="no"/>mo querit Magister vtrum potentia peccandi sit a deo.
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e343">
+          ¶ 
+          Se<lb ed="#V" n="37" break="no"/>cundo inquirit incidentaliter de potentia que in diabolo est. ibi 
+          <lb ed="#V" n="38"/>HHic oritur quaestio
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e350">
+          ¶ Primo in tres.
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e352">
+          ¶ Primo proponit quaestionem. 
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e354">
+          <lb ed="#V" n="39"/>¶ Secundo subiungit de quaestione quorudam falsam opinionem. 
+          <lb ed="#V" n="40"/>ibi. Putant quidam.
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e361">
+          ¶ Tertio improbando illam falsam 
+          <lb ed="#V" n="41"/>opinionem ponit veram raesponsionem. ibi. Sed pluribus sanctorum etc. 
+          <lb ed="#V" n="42"/>Illa pars que ibi incipit. Hic oritur quaestio Diuiditur in tres. 
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e369">
+          <lb ed="#V" n="43"/>¶ Primo proponit dubitationis rationem.
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e374">
+          ¶ Secundo 
+          sub<lb ed="#V" n="44" break="no"/>iungit responsionem. ibi. Sed sciendum.
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e379">
+          ¶ Tertio 
+          respsito<lb ed="#V" n="45" break="no"/>sionis confirmationem. ibi. Unde Augustinus. I 
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e384">
+          <lb ed="#V" n="46"/>CIrca hanc dis. quaerendum est principaliter 
+          <lb ed="#V" n="47"/>de tribus.
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e391">
+          ¶ Primo de 
+          po<lb ed="#V" n="48" break="no"/>tentia peccandi.
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e396">
+          ¶ Secundo de potentia presidendi. 
+        </p>
+        <p xml:id="kzz7yh-f123971-d1e399">
+          <lb ed="#V" n="49"/>¶ Tertio de necessitate obediendi.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

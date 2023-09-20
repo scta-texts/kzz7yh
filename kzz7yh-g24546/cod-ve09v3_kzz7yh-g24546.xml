@@ -1,227 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="35-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g24546"><!-- l3d12prae -->
-            <head xml:id="kzz7yh-g24546-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-g24546-d1e103">
-               <lb ed="#V" n="105"/>¶ An homo ille semper fuerit vel ceperit esse. 
-      <lb ed="#V" n="106"/>Distin. XII. 
-      <lb ed="#V" n="107"/>Post predicta queritur vtrum 
-      <lb ed="#V" n="108"/>homo 
-      il<lb ed="#V" n="109" break="no"/>le ceperit esse vel semper fuerit: sicut 
-      sim<lb ed="#V" n="110" break="no"/>pliciter enunciamus christum vel dei filium 
-      sem<lb ed="#V" n="111" break="no"/>per fuisse nec cepisse. De hoc Aug. ita 
-      <lb ed="#V" n="112"/>inquit super Ioan. Habuit aliquando dei filius quod nodum 
-      <lb ed="#V" n="113"/>habuit idem ipse homo dei filius: quia nondum erat homo. 
-      <lb ed="#V" n="114"/>Item. Idem in eodem. Priusquam mundus esset nec nos 
-      <lb ed="#V" n="115"/>eramus: nec ipse mediator dei et hominum homo christus 
-      ie<lb ed="#V" n="116" break="no"/>sus. Idem super psalmum. Christus noster et si forte homo recens est: 
-      <lb ed="#V" n="117"/>tamen est etetnus deus. Alibi vero legitur quod puer ille 
-      crea<lb ed="#V" n="118" break="no"/>uit stellas. Et christus dicit se esse principium: et esse ante 
-      <lb ed="#V" n="119"/>abraam. His ergo aliisque auctoribus in nullo 
-      re<lb ed="#V" n="120" break="no"/>sultantes dicimus hominem illum inquantum homo est 
-      <lb ed="#V" n="121"/>cepisse inquantum verbum est semper fuisse. Hic enim 
-      <lb ed="#V" n="122"/>absque distinctione non est referenda responsio. Nam et 
-      <lb ed="#V" n="123"/>ipse Aug. huiusmodi vtitur distinctione in pluribus locis: 
-      <lb ed="#V" n="124"/>dicens per christum omnia esse facta inquantum verbum est. 
-      <lb ed="#V" n="125"/>Secundum illud vero quod homo est ipsum esse factum et 
-      <lb ed="#V" n="126"/>glorificatum. Si ergo ad personam respicias: 
-      con<lb ed="#V" n="127" break="no"/>fidenter dic hominem illum semper fuisse. Si vero 
-      <lb ed="#V" n="128"/>ad naturam hominis concede eum cepisse. 
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e158">
-               <lb ed="#V" n="129"/>¶ Si deus alium hominem assumere potuit vel 
-      <lb ed="#V" n="130"/>aliunde quam de genere ade. 
-      <!--00082.xml-->
-      <pb ed="#V" n="35-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>Solet etiam queri vtrum alium 
-      ho<lb ed="#V" n="2" break="no"/>minem vel aliunde 
-      <lb ed="#V" n="3"/>quam de genere illius Adam deus assumere 
-      po<lb ed="#V" n="4" break="no"/>tuerit. Ad quod sane dici potest ipsum aliam animam 
-      <lb ed="#V" n="5"/>et aliam carnem potuisse assumere: quia gratia tantum 
-      <lb ed="#V" n="6"/>assumpta est anima illa et caro a verbo dei. Ut 
-      <lb ed="#V" n="7"/>enim ait Aug. In rebus per tempus ortis illa 
-      <lb ed="#V" n="8"/>summa gratia est quod homo in vnitate persone 
-      con<lb ed="#V" n="9" break="no"/>iunctus est deo. potuit ergo deus aliam animam et 
-      <lb ed="#V" n="10"/>aliam carnem sumere: et carnem vtique aliunde quam 
-      <lb ed="#V" n="11"/>de genere adam. Unde Augsti. in libro. xiii. de 
-      <lb ed="#V" n="12"/>trini. Potuit itaque deus hominem aliunde 
-      su<lb ed="#V" n="13" break="no"/>scipere: in quo esset mediator dei et hominum non 
-      <lb ed="#V" n="14"/>de genere illius adam qui peccato suo 
-      obliga<lb ed="#V" n="15" break="no"/>uit genus humanum: sicut ipsum quem primo 
-      crea<lb ed="#V" n="16" break="no"/>uit non de genere alicuius creauit. poterat ergo 
-      <lb ed="#V" n="17"/>vel sic vel alio quo velet modo creare vnum alium 
-      <lb ed="#V" n="18"/>de quo vinceretur victor prioris. Sed melius 
-      <lb ed="#V" n="19"/>iudicauit: et de ipso quod victum fuerat genere 
-      as<lb ed="#V" n="20" break="no"/>sumere hominem per quem hominis vinceret 
-      ini<lb ed="#V" n="21" break="no"/>micum: et tamen ex virgine cuius conceptum 
-      spi<lb ed="#V" n="22" break="no"/>ritus non caro fides non libido praeuenit. nec 
-      in<lb ed="#V" n="23" break="no"/>terfuit carnis concupiscentia qua ceteri 
-      concipiun<lb ed="#V" n="24" break="no"/>tur qui originale trahunt peccatum: sed 
-      creden<lb ed="#V" n="25" break="no"/>do non concumbendo facta est fecundata 
-      virgini<lb ed="#V" n="26" break="no"/>tas. Ex his aperte ostenditur et alium et aliunde 
-      <lb ed="#V" n="27"/>hominem deum assumere potuisse. 
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e230">
-               <lb ed="#V" n="28"/>¶ Si homo ille potuit peccare vel non esse deus. 
-      <lb ed="#V" n="29"/>Ideo non immerito queritur vtrum 
-      <lb ed="#V" n="30"/>homo ille 
-      <lb ed="#V" n="31"/>potuerit peccare: vel non esse deus. Si enim 
-      po<lb ed="#V" n="32" break="no"/>tuit peccare et potuit damnari. Si potuit dam 
-      <lb ed="#V" n="33"/>nari potuit non esse deus: ergo si potuit 
-      pec<lb ed="#V" n="34" break="no"/>care potuit non esse deus: quia esse deum et 
-      pos<lb ed="#V" n="35" break="no"/>se velle iniquitatem simul esse nequeunt. Hic 
-      di<lb ed="#V" n="36" break="no"/>stinctione opus est: vtrum de persona an de 
-      na<lb ed="#V" n="37" break="no"/>tura agatur. Si enim de persona agitur: 
-      mani<lb ed="#V" n="38" break="no"/>festum est quia peccare non potuit: nec deus non 
-      <lb ed="#V" n="39"/>esse potuit. Si vero de natura: discutiendum est 
-      <lb ed="#V" n="40"/>vtrum agat de ea vt verbo vnita an de ea tanquam 
-      <lb ed="#V" n="41"/>non vnita verbo: et tamen enti id est an de ea secundum 
-      <lb ed="#V" n="42"/>quod fuit vnita verbo: an de ea secundum quod esse potuit et 
-      <lb ed="#V" n="43"/>non vnita verbo. non est enim ambiguum 
-      ani<lb ed="#V" n="44" break="no"/>mam illam entem vnitam verbo peccare non 
-      <lb ed="#V" n="45"/>posse: et est sine ambiguitate verum eandem si esset 
-      <lb ed="#V" n="46"/>et non vnita verbo posse peccare. 
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e274">
-               <lb ed="#V" n="47"/>¶ Quorundam opinio quod potuerit est vnita deo peccare. 
-      <lb ed="#V" n="48"/>Quidam tamen probare 
-      conan<lb ed="#V" n="49" break="no"/>tur etiam eam 
-      <lb ed="#V" n="50"/>vnitam verbo posse peccare: quia liberum 
-      arbi<lb ed="#V" n="51" break="no"/>trium habet: et ita potest flecti in vtramque partem: 
-      <lb ed="#V" n="52"/>quod friuolum est: cum et angeli liberum arbitrium 
-      <lb ed="#V" n="53"/>habeant: et tamen gratia a deo sunt 
-      confirma<lb ed="#V" n="54" break="no"/>ti vt peccare nequeant. Quanto magis ergo 
-      il<lb ed="#V" n="55" break="no"/>le homo cui spiritus est datus fine mensura. 
-      In<lb ed="#V" n="56" break="no"/>ucunt quoque auctoritates ad probandum idem. 
-      <!--00082.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>Scriptum est enim in lib. Sapienti. Qui potuit trans 
-      <lb ed="#V" n="58"/>gredi et non est transgressus: facere malum et non 
-      <lb ed="#V" n="59"/>fecit: sed hoc accipiendum est secundum membra: vel 
-      <lb ed="#V" n="60"/>partim de capite partim de membris. De 
-      ca<lb ed="#V" n="61" break="no"/>pite: non est transgressus: et non fecit malum. De 
-      <lb ed="#V" n="62"/>membris: potuit transgredi: et facere malum. 
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e317">
-               <lb ed="#V" n="63"/>¶ Si deus potuerit assumetur hominem in sexu muliebri. 
-      <lb ed="#V" n="64"/>Solet etiam queri quamuis 
-      curio<lb ed="#V" n="65" break="no"/>se a nonnullis: si deus 
-      <lb ed="#V" n="66"/>humanam naturam potuit assumere secundum 
-      mu<lb ed="#V" n="67" break="no"/>liebrem sexum. Quidam arbitrantur eum 
-      po<lb ed="#V" n="68" break="no"/>tuisse assumere hominem in femineo sexu vt 
-      as<lb ed="#V" n="69" break="no"/>sumpsit in virili. Sed opportunius atque 
-      conue<lb ed="#V" n="70" break="no"/>nientius factum est: vt de femina nasceretur et 
-      <lb ed="#V" n="71"/>virum assumeret: vt ita vtriusque sexus 
-      liberatio<lb ed="#V" n="72" break="no"/>ostenderetur. Unde Augu. in lib. lxxxiii. 
-      que<lb ed="#V" n="73" break="no"/>stionum. Hominis liberatio in vtroque sexu 
-      de<lb ed="#V" n="74" break="no"/>buit apparere. ergo quia virum oportebat 
-      susci<lb ed="#V" n="75" break="no"/>pere: qui sexus bonorabilior est: consequens erat 
-      <lb ed="#V" n="76"/>et feminei sexus liberatio. Hine apparet quia 
-      <lb ed="#V" n="77"/>ille vir de femina natus est. Sapientia ergo dei 
-      <lb ed="#V" n="78"/>que dicitur vnigenitus filius homine suscepto 
-      <lb ed="#V" n="79"/>in vtero: et de vtero virginis liberationem 
-      ho<lb ed="#V" n="80" break="no"/>minis indicauit. 
-      <lb ed="#V" n="81"/>olet etiam queri etc. Superius de 
-      <lb ed="#V" n="82"/>terminauit magister de 
-      <lb ed="#V" n="83"/>communicatione idiomatum respicientium personam: 
-      <lb ed="#V" n="84"/>et pertinentium ad defectum: hic determinat de 
-      com<lb ed="#V" n="85" break="no"/>ditionibus assumpta nature. Et diuiditur in 
-      par<lb ed="#V" n="86" break="no"/>tes duas.
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e372">
-      ¶ Primo inquirit de ipsa: respectu humane 
-      na<lb ed="#V" n="87" break="no"/>ture alterius generis quam de genere Ade.
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e377">
-      ¶ Secundo respectu 
-      <lb ed="#V" n="88"/>alterius sexus. ibi. Solet etiam inquiri: quamuis curiose. 
-      <lb ed="#V" n="89"/>Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e384">
-      ¶ Primo querit si filius dei alium 
-      ho<lb ed="#V" n="90" break="no"/>minem assumere potuit.
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e389">
-      ¶ Secundo inquirit de 
-      conditioni<lb ed="#V" n="91" break="no"/>bus absolutis hominis assumpti. ibi. Ideo non immerito. Et 
-      <lb ed="#V" n="92"/>ista in duas.
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e396">
-      ¶ Primo determinant veritatem.
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e399">
-      ¶ Secundo 
-      <lb ed="#V" n="93"/>opponit ad contrarium: et soluit ibi. Quidam tamen I 
-      <lb ed="#V" n="94"/>Irca hanc dis. tria principaliter 
-      que<lb ed="#V" n="95" break="no"/>runtur.
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e408">
-      ¶ Primo de 
-      com<lb ed="#V" n="96" break="no"/>gruitate assumptionis humane nature per 
-      com<lb ed="#V" n="97" break="no"/>ratnione dcenuo ode
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e415">
-      ¶ Sdo dtriu enum. 
-      <lb ed="#V" n="98"/>potuit peccare.
-   </p>
-            <p xml:id="kzz7yh-g24546-d1e420">
-      ¶ Tertio de congruitate assumptionis 
-      hu<lb ed="#V" n="99" break="no"/>mane nature: per comparationem ad sexum.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="36-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g24546"><!-- l3d12prae -->
+        <head xml:id="kzz7yh-g24546-Hd1e101">Praeambulum</head>
+        <!--            <p xml:id="kzz7yh-g24546-d1e103">
+          <lb ed="#V" n="105"/>¶ An homo ille semper fuerit vel ceperit esse. 
+          <lb ed="#V" n="106"/>Distin. XII. 
+          <lb ed="#V" n="107"/>Post predicta queritur vtrum 
+          <lb ed="#V" n="108"/>homo 
+          il<lb ed="#V" n="109" break="no"/>le ceperit esse vel semper fuerit: sicut 
+          sim<lb ed="#V" n="110" break="no"/>pliciter enunciamus christum vel dei filium 
+          sem<lb ed="#V" n="111" break="no"/>per fuisse nec cepisse. De hoc Aug. ita 
+          <lb ed="#V" n="112"/>inquit super Ioan. Habuit aliquando dei filius quod nodum 
+          <lb ed="#V" n="113"/>habuit idem ipse homo dei filius: quia nondum erat homo. 
+          <lb ed="#V" n="114"/>Item. Idem in eodem. Priusquam mundus esset nec nos 
+          <lb ed="#V" n="115"/>eramus: nec ipse mediator dei et hominum homo christus 
+          ie<lb ed="#V" n="116" break="no"/>sus. Idem super psalmum. Christus noster et si forte homo recens est: 
+          <lb ed="#V" n="117"/>tamen est etetnus deus. Alibi vero legitur quod puer ille 
+          crea<lb ed="#V" n="118" break="no"/>uit stellas. Et christus dicit se esse principium: et esse ante 
+          <lb ed="#V" n="119"/>abraam. His ergo aliisque auctoribus in nullo 
+          re<lb ed="#V" n="120" break="no"/>sultantes dicimus hominem illum inquantum homo est 
+          <lb ed="#V" n="121"/>cepisse inquantum verbum est semper fuisse. Hic enim 
+          <lb ed="#V" n="122"/>absque distinctione non est referenda responsio. Nam et 
+          <lb ed="#V" n="123"/>ipse Aug. huiusmodi vtitur distinctione in pluribus locis: 
+          <lb ed="#V" n="124"/>dicens per christum omnia esse facta inquantum verbum est. 
+          <lb ed="#V" n="125"/>Secundum illud vero quod homo est ipsum esse factum et 
+          <lb ed="#V" n="126"/>glorificatum. Si ergo ad personam respicias: 
+          con<lb ed="#V" n="127" break="no"/>fidenter dic hominem illum semper fuisse. Si vero 
+          <lb ed="#V" n="128"/>ad naturam hominis concede eum cepisse. 
+          </p>
+          <p xml:id="kzz7yh-g24546-d1e158">
+          <lb ed="#V" n="129"/>¶ Si deus alium hominem assumere potuit vel 
+          <lb ed="#V" n="130"/>aliunde quam de genere ade. 
+          <!-\-00082.xml-\->
+          <pb ed="#V" n="35-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Solet etiam queri vtrum alium 
+          ho<lb ed="#V" n="2" break="no"/>minem vel aliunde 
+          <lb ed="#V" n="3"/>quam de genere illius Adam deus assumere 
+          po<lb ed="#V" n="4" break="no"/>tuerit. Ad quod sane dici potest ipsum aliam animam 
+          <lb ed="#V" n="5"/>et aliam carnem potuisse assumere: quia gratia tantum 
+          <lb ed="#V" n="6"/>assumpta est anima illa et caro a verbo dei. Ut 
+          <lb ed="#V" n="7"/>enim ait Aug. In rebus per tempus ortis illa 
+          <lb ed="#V" n="8"/>summa gratia est quod homo in vnitate persone 
+          con<lb ed="#V" n="9" break="no"/>iunctus est deo. potuit ergo deus aliam animam et 
+          <lb ed="#V" n="10"/>aliam carnem sumere: et carnem vtique aliunde quam 
+          <lb ed="#V" n="11"/>de genere adam. Unde Augsti. in libro. xiii. de 
+          <lb ed="#V" n="12"/>trini. Potuit itaque deus hominem aliunde 
+          su<lb ed="#V" n="13" break="no"/>scipere: in quo esset mediator dei et hominum non 
+          <lb ed="#V" n="14"/>de genere illius adam qui peccato suo 
+          obliga<lb ed="#V" n="15" break="no"/>uit genus humanum: sicut ipsum quem primo 
+          crea<lb ed="#V" n="16" break="no"/>uit non de genere alicuius creauit. poterat ergo 
+          <lb ed="#V" n="17"/>vel sic vel alio quo velet modo creare vnum alium 
+          <lb ed="#V" n="18"/>de quo vinceretur victor prioris. Sed melius 
+          <lb ed="#V" n="19"/>iudicauit: et de ipso quod victum fuerat genere 
+          as<lb ed="#V" n="20" break="no"/>sumere hominem per quem hominis vinceret 
+          ini<lb ed="#V" n="21" break="no"/>micum: et tamen ex virgine cuius conceptum 
+          spi<lb ed="#V" n="22" break="no"/>ritus non caro fides non libido praeuenit. nec 
+          in<lb ed="#V" n="23" break="no"/>terfuit carnis concupiscentia qua ceteri 
+          concipiun<lb ed="#V" n="24" break="no"/>tur qui originale trahunt peccatum: sed 
+          creden<lb ed="#V" n="25" break="no"/>do non concumbendo facta est fecundata 
+          virgini<lb ed="#V" n="26" break="no"/>tas. Ex his aperte ostenditur et alium et aliunde 
+          <lb ed="#V" n="27"/>hominem deum assumere potuisse. 
+          </p>
+          <p xml:id="kzz7yh-g24546-d1e230">
+          <lb ed="#V" n="28"/>¶ Si homo ille potuit peccare vel non esse deus. 
+          <lb ed="#V" n="29"/>Ideo non immerito queritur vtrum 
+          <lb ed="#V" n="30"/>homo ille 
+          <lb ed="#V" n="31"/>potuerit peccare: vel non esse deus. Si enim 
+          po<lb ed="#V" n="32" break="no"/>tuit peccare et potuit damnari. Si potuit dam 
+          <lb ed="#V" n="33"/>nari potuit non esse deus: ergo si potuit 
+          pec<lb ed="#V" n="34" break="no"/>care potuit non esse deus: quia esse deum et 
+          pos<lb ed="#V" n="35" break="no"/>se velle iniquitatem simul esse nequeunt. Hic 
+          di<lb ed="#V" n="36" break="no"/>stinctione opus est: vtrum de persona an de 
+          na<lb ed="#V" n="37" break="no"/>tura agatur. Si enim de persona agitur: 
+          mani<lb ed="#V" n="38" break="no"/>festum est quia peccare non potuit: nec deus non 
+          <lb ed="#V" n="39"/>esse potuit. Si vero de natura: discutiendum est 
+          <lb ed="#V" n="40"/>vtrum agat de ea vt verbo vnita an de ea tanquam 
+          <lb ed="#V" n="41"/>non vnita verbo: et tamen enti id est an de ea secundum 
+          <lb ed="#V" n="42"/>quod fuit vnita verbo: an de ea secundum quod esse potuit et 
+          <lb ed="#V" n="43"/>non vnita verbo. non est enim ambiguum 
+          ani<lb ed="#V" n="44" break="no"/>mam illam entem vnitam verbo peccare non 
+          <lb ed="#V" n="45"/>posse: et est sine ambiguitate verum eandem si esset 
+          <lb ed="#V" n="46"/>et non vnita verbo posse peccare. 
+          </p>
+          <p xml:id="kzz7yh-g24546-d1e274">
+          <lb ed="#V" n="47"/>¶ Quorundam opinio quod potuerit est vnita deo peccare. 
+          <lb ed="#V" n="48"/>Quidam tamen probare 
+          conan<lb ed="#V" n="49" break="no"/>tur etiam eam 
+          <lb ed="#V" n="50"/>vnitam verbo posse peccare: quia liberum 
+          arbi<lb ed="#V" n="51" break="no"/>trium habet: et ita potest flecti in vtramque partem: 
+          <lb ed="#V" n="52"/>quod friuolum est: cum et angeli liberum arbitrium 
+          <lb ed="#V" n="53"/>habeant: et tamen gratia a deo sunt 
+          confirma<lb ed="#V" n="54" break="no"/>ti vt peccare nequeant. Quanto magis ergo 
+          il<lb ed="#V" n="55" break="no"/>le homo cui spiritus est datus fine mensura. 
+          In<lb ed="#V" n="56" break="no"/>ucunt quoque auctoritates ad probandum idem. 
+          <!-\-00082.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>Scriptum est enim in lib. Sapienti. Qui potuit trans 
+          <lb ed="#V" n="58"/>gredi et non est transgressus: facere malum et non 
+          <lb ed="#V" n="59"/>fecit: sed hoc accipiendum est secundum membra: vel 
+          <lb ed="#V" n="60"/>partim de capite partim de membris. De 
+          ca<lb ed="#V" n="61" break="no"/>pite: non est transgressus: et non fecit malum. De 
+          <lb ed="#V" n="62"/>membris: potuit transgredi: et facere malum. 
+          </p>
+          <p xml:id="kzz7yh-g24546-d1e317">
+          <lb ed="#V" n="63"/>¶ Si deus potuerit assumetur hominem in sexu muliebri. 
+          <lb ed="#V" n="64"/>Solet etiam queri quamuis 
+          curio<lb ed="#V" n="65" break="no"/>se a nonnullis: si deus 
+          <lb ed="#V" n="66"/>humanam naturam potuit assumere secundum 
+          mu<lb ed="#V" n="67" break="no"/>liebrem sexum. Quidam arbitrantur eum 
+          po<lb ed="#V" n="68" break="no"/>tuisse assumere hominem in femineo sexu vt 
+          as<lb ed="#V" n="69" break="no"/>sumpsit in virili. Sed opportunius atque 
+          conue<lb ed="#V" n="70" break="no"/>nientius factum est: vt de femina nasceretur et 
+          <lb ed="#V" n="71"/>virum assumeret: vt ita vtriusque sexus 
+          liberatio<lb ed="#V" n="72" break="no"/>ostenderetur. Unde Augu. in lib. lxxxiii. 
+          que<lb ed="#V" n="73" break="no"/>stionum. Hominis liberatio in vtroque sexu 
+          de<lb ed="#V" n="74" break="no"/>buit apparere. ergo quia virum oportebat 
+          susci<lb ed="#V" n="75" break="no"/>pere: qui sexus bonorabilior est: consequens erat 
+          <lb ed="#V" n="76"/>et feminei sexus liberatio. Hine apparet quia 
+          <lb ed="#V" n="77"/>ille vir de femina natus est. Sapientia ergo dei 
+          <lb ed="#V" n="78"/>que dicitur vnigenitus filius homine suscepto 
+          <lb ed="#V" n="79"/>in vtero: et de vtero virginis liberationem 
+          ho<lb ed="#V" n="80" break="no"/>minis indicauit. 
+          </p>-->
+        <p xml:id="kzz7yh-g24546-d1e106">
+          <lb ed="#V" n="81"/>Solet etiam queri etc. Superius de 
+          <lb ed="#V" n="82"/>terminauit magister de 
+          <lb ed="#V" n="83"/>communicatione idiomatum respicientium personam: 
+          <lb ed="#V" n="84"/>et pertinentium ad defectum: hic determinat de 
+          com<lb ed="#V" n="85" break="no"/>ditionibus assumpta nature. Et diuiditur in 
+          par<lb ed="#V" n="86" break="no"/>tes duas.
+        </p>
+        <p xml:id="kzz7yh-g24546-d1e372">
+          ¶ Primo inquirit de ipsa: respectu humane 
+          na<lb ed="#V" n="87" break="no"/>ture alterius generis quam de genere Ade.
+        </p>
+        <p xml:id="kzz7yh-g24546-d1e377">
+          ¶ Secundo respectu 
+          <lb ed="#V" n="88"/>alterius sexus. ibi. Solet etiam inquiri: quamuis curiose. 
+          <lb ed="#V" n="89"/>Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-g24546-d1e384">
+          ¶ Primo queritur si filius dei alium 
+          ho<lb ed="#V" n="90" break="no"/>minem assumere potuit.
+        </p>
+        <p xml:id="kzz7yh-g24546-d1e389">
+          ¶ Secundo inquirit de 
+          conditioni<lb ed="#V" n="91" break="no"/>bus absolutis hominis assumpti. ibi. Ideo non immerito. Et 
+          <lb ed="#V" n="92"/>ista in duas.
+        </p>
+        <p xml:id="kzz7yh-g24546-d1e396">
+          ¶ Primo determinant veritatem.
+        </p>
+        <p xml:id="kzz7yh-g24546-d1e399">
+          ¶ Secundo 
+          <lb ed="#V" n="93"/>opponit ad contrarium: et soluit ibi. Quidam tamen I 
+          <lb ed="#V" n="94"/>Irca hanc dis. tria principaliter 
+          que<lb ed="#V" n="95" break="no"/>runtur.
+        </p>
+        <p xml:id="kzz7yh-g24546-d1e408">
+          ¶ Primo de 
+          com<lb ed="#V" n="96" break="no"/>gruitate assumptionis humane nature per 
+          com<lb ed="#V" n="97" break="no"/>ratnione dcenuo ode
+        </p>
+        <p xml:id="kzz7yh-g24546-d1e415">
+          ¶ Sdo dtriu enum. 
+          <lb ed="#V" n="98"/>potuit peccare.
+        </p>
+        <p xml:id="kzz7yh-g24546-d1e420">
+          ¶ Tertio de congruitate assumptionis 
+          hu<lb ed="#V" n="99" break="no"/>mane nature: per comparationem ad sexum.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,362 +1,364 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="43-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f30825"><!-- l2d11prae -->
-            <head xml:id="kzz7yh-f30825-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-f30825-d1e103">
-               <lb ed="#V" n="58"/>¶ Quod queque anima hebet angelum bonum ad sui custodiam 
-      <lb ed="#V" n="59"/>delegatum: et malum ad exercitium. Ditntio XII. 
-      <lb ed="#V" n="60"/>Illud quoque sciendum 
-      <lb ed="#V" n="61"/>est quod 
-      am<lb ed="#V" n="62" break="no"/>geli boni deputati sunt ad custodiam 
-      <lb ed="#V" n="63"/>hominum: ita vt quisque electorum 
-      ha<lb ed="#V" n="64" break="no"/>beat angelum ad sui perfectum atque 
-      <lb ed="#V" n="65"/>custodiam specialiter delegatum. Unde in 
-      euan<lb ed="#V" n="66" break="no"/>gelio veritas a pusillorum scandelo prohibens ait. 
-      <!--00099.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="67"/>Angeli eorum semper vident faciem patris. 
-      An<lb ed="#V" n="68" break="no"/>gelos dicit eorum esse quibus ad custodiam 
-      de<lb ed="#V" n="69" break="no"/>putati sunt. Super quem locum Hierony. 
-      tra<lb ed="#V" n="70" break="no"/>dit: vnamquamque animam ab exordio natiuitatis 
-      ha<lb ed="#V" n="71" break="no"/>bere angelum ad sui custodiam inquiens ita. 
-      Ma<lb ed="#V" n="72" break="no"/>gna dignitas animarum est vt vna queque 
-      habe<lb ed="#V" n="73" break="no"/>at ab ortu natiuitatis in custodiam sui angelum 
-      <lb ed="#V" n="74"/>delegatum. Grego. quoque dicit. Quod quisque vnum 
-      <lb ed="#V" n="75"/>bonum angelum sibi ad custodiam deputatum: 
-      <lb ed="#V" n="76"/>et vnum malum ad exercitium habet. Cum enim 
-      <lb ed="#V" n="77"/>omnes angeli boni nostrum bonum velint 
-      con<lb ed="#V" n="78" break="no"/>muniterque saluti omnium studeant: ille tamen qui de 
-      <lb ed="#V" n="79"/>putatus est alicui ad custodiam: eum specialiter 
-      <lb ed="#V" n="80"/>hortatur ad bonum: sicut legitur de angelo 
-      tho<lb ed="#V" n="81" break="no"/>bie: et de angelo petri in actibus apostolorum. 
-      Si<lb ed="#V" n="82" break="no"/>militer et mali angeli cum desiderent malum 
-      ho<lb ed="#V" n="83" break="no"/>minum. Magis tamen hominem ad malum 
-      in<lb ed="#V" n="84" break="no"/>citat et ad nocendum fortius instat ille qui ad ex 
-      <lb ed="#V" n="85"/>ercitum deputatus est. 
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e171">
-               <lb ed="#V" n="86"/>¶ Utrum singulis hominibus singuli angeli: 
-      an<lb ed="#V" n="87" break="no"/>pluribus deputatus sit vnus. 
-      <lb ed="#V" n="88"/>deolet autem queri. vtrum 
-      singuli<lb ed="#V" n="89" break="no"/>angeli singulis 
-      ho<lb ed="#V" n="90" break="no"/>minibus: an vnus pluribus ad custodiam vel ex 
-      <lb ed="#V" n="91"/>ercitium deputatus sit: Sed cum electi tot sint 
-      <lb ed="#V" n="92"/>quot et boni angeli sunt: plures constat esse omnes 
-      <lb ed="#V" n="93"/>simul bonos et malos homines quam boni angeli sint. 
-      <lb ed="#V" n="94"/>Et cum tot sint electi quot angeli boni: et 
-      an<lb ed="#V" n="95" break="no"/>geli boni plures sint quam mali: pluresque sint 
-      <lb ed="#V" n="96"/>homines mali quam boni: non est ambigendum 
-      plu<lb ed="#V" n="97" break="no"/>res esse bonos homines quam sint mali angeli: et 
-      <lb ed="#V" n="98"/>plures esse malos homines quam sint mali 
-      ange<lb ed="#V" n="99" break="no"/>li vel boni angeli. 
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e204">
-               <lb ed="#V" n="100"/>¶ Confirmat vnum angelum pluribus 
-      homini<lb ed="#V" n="101" break="no"/>bus deputari siue simul siue temporibus diuersis. 
-      <lb ed="#V" n="102"/>Ideoque dici oportet vnum eundem. 
-      <lb ed="#V" n="103"/>que angelum bonum 
-      <lb ed="#V" n="104"/>vel malum pluribus hominibus deputari ad 
-      <lb ed="#V" n="105"/>custodiam vel exercitium: siue eodem tempore siue 
-      diuer<lb ed="#V" n="106" break="no"/>sis temporibus. Ideo autem dicimus eodem tempore 
-      <lb ed="#V" n="107"/>vel diuersis temporibus: quia videtur quibusdam 
-      <lb ed="#V" n="108"/>quod omnes homines qui sunt simul in aliquo 
-      tem<lb ed="#V" n="109" break="no"/>pore: singuli singulos angelos habere possunt 
-      <lb ed="#V" n="110"/>bonos vel malos: quia licet maior sit numerus 
-      <lb ed="#V" n="111"/>hominum computatis in vnum omnibus qui sue 
-      <lb ed="#V" n="112"/>runt: et sunt et futuri sunt: quam angelorum: tamen quia 
-      <lb ed="#V" n="113"/>homines decedentibus hominibus succedunt. 
-      <lb ed="#V" n="114"/>Et ideo nunquam simul sunt in hac vita. 
-      Angeli<lb ed="#V" n="115" break="no"/>vero nunquam decedunt: sed simul omnes sunt: 
-      <lb ed="#V" n="116"/>esse potest vt singuli hominum dum in hac vita 
-      <lb ed="#V" n="117"/>sunt singulos habeant angelos bonos vel 
-      ma<lb ed="#V" n="118" break="no"/>los ad sui custodiam vel exercitium destinatos. 
-      <lb ed="#V" n="119"/>Ceterum siue ita sit siue non: non est dubitadum 
-      <lb ed="#V" n="120"/>vnumquemque hebere angelum sibi deputatum: siue 
-      plu<lb ed="#V" n="121" break="no"/>ribus simul destinatus sit: siue vni singulariter. 
-      <lb ed="#V" n="122"/>Nec est mirandum vnum angelum pluribus homini¬ 
-      <!--00100.xml-->
-      <pb ed="#V" n="43-v"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>bus ad custodiam deputari: cum vni homini plurium 
-      <lb ed="#V" n="2"/>custodia deputetur: ita vt eorum quisque suum 
-      di<lb ed="#V" n="3" break="no"/>catur habere dominum vel episcopum vel abbatem. 
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e269">
-               <lb ed="#V" n="4"/>¶ Utrum angeli proficiant in merito vel in 
-      pre<lb ed="#V" n="5" break="no"/>mio vsque ad iudicium. 
-      <lb ed="#V" n="6"/>Preterea illud considerari oportet. Utrum 
-      <lb ed="#V" n="7"/>angeli boni in premio vel 
-      <lb ed="#V" n="8"/>in merito proficiant vsque ad iudicium. Quod in 
-      meri<lb ed="#V" n="9" break="no"/>tis proficiant at quod quottidie magis ac magis 
-      <lb ed="#V" n="10"/>mereantur quibusdam videtur ex eo quia quotidie 
-      ho<lb ed="#V" n="11" break="no"/>minum vtilitatibus inseruiunt eorumque profectibus 
-      stu<lb ed="#V" n="12" break="no"/>dent. Quibus etiam nihilominus videtur quod et in 
-      pre<lb ed="#V" n="13" break="no"/>mio proficiant scilicet in cognitione et dilectione dei. 
-      Li<lb ed="#V" n="14" break="no"/>cet enim vt aiunt in confirmatione beatitudinem 
-      ac<lb ed="#V" n="15" break="no"/>ceperint eternam atque perfectam: augetur tamen 
-      quoti<lb ed="#V" n="16" break="no"/>die eorum beatitudo: quia magis ac magis diligunt 
-      <lb ed="#V" n="17"/>atque cognoscunt: et est eorum charitas qua deum 
-      <lb ed="#V" n="18"/>et nos diligunt: et meritum et premium. Meritum: quia 
-      <lb ed="#V" n="19"/>per eam et obsequia ex ea nobis impensa 
-      meren<lb ed="#V" n="20" break="no"/>tur: et in beatitudine proficiunt. et ipsa eadem est 
-      <lb ed="#V" n="21"/>premium: quia ea beati sunt. 
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e312">
-               <lb ed="#V" n="22"/>¶ Autoritatibus confimant quod dicunt. 
-      <lb ed="#V" n="23"/>Et quod angeli proficiant in 
-      cognitio<lb ed="#V" n="24" break="no"/>ne ac per hoc in beatitudine: 
-      <lb ed="#V" n="25"/>testimoniis sanctorum confirmant. Dicit enim 
-      Esa<lb ed="#V" n="26" break="no"/>ias ex persona angelorum christi ascendentis 
-      magni<lb ed="#V" n="27" break="no"/>ficentiam admirantium. Quis est iste qui venit 
-      <lb ed="#V" n="28"/>de edom tinctis vestibus de bosdra. Et in psalmo 
-      <lb ed="#V" n="29"/>Quis est iste rex glorie. Ex quibus apparet quod 
-      my<lb ed="#V" n="30" break="no"/>sterium verbi incarnati plenius cognonerunt 
-      <lb ed="#V" n="31"/>angeli post impletionem quam ante. Et sicut in 
-      co<lb ed="#V" n="32" break="no"/>gnitione huius mysterii profecerunt: ita dicunt eos 
-      <lb ed="#V" n="33"/>in deitatis cognitione proficere. Quod autem in 
-      huius<lb ed="#V" n="34" break="no"/>modi mysterii cognitione profecerint euidenter 
-      <lb ed="#V" n="35"/>docet apostolus dicens. Que sic dispensatio 
-      sacramen<lb ed="#V" n="36" break="no"/>ti absconditi a seculis in deo: vt innotescat 
-      multi<lb ed="#V" n="37" break="no"/>formis sapientia dei per ecclesiam principibus et 
-      <lb ed="#V" n="38"/>potestatibus in celestibus. Super quem locum dicit 
-      <lb ed="#V" n="39"/>Hiero. angelicas dignitates prefatum mysterium 
-      <lb ed="#V" n="40"/>ad purum non intellexisse donec completa est 
-      pas<lb ed="#V" n="41" break="no"/>sio christi et apostolorum praedicatio per gentes dilatata. 
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e358">
-               <lb ed="#V" n="42"/>¶ Quo in hac sententia videtur Aug. aduersari Hierony. 
-      <lb ed="#V" n="43"/>His autem viletur contradicere 
-      Au<lb ed="#V" n="44" break="no"/>gu. super eundem locum 
-      <lb ed="#V" n="45"/>epistole dicens. Non latuit angelos mysterium 
-      <lb ed="#V" n="46"/>regni caelorum quod opportuno tempore reuelatum est 
-      pro<lb ed="#V" n="47" break="no"/>salute nostra. Illis ergo a seculis innotuit supra et 
-      <lb ed="#V" n="48"/>memoratum mysterium: quia omnis creatura non ante 
-      <lb ed="#V" n="49"/>secula sed a seculis est. Attende lector quia videntur 
-      <lb ed="#V" n="50"/>dissentire in hac sententia illustres doctores. 
-      Ideo<lb ed="#V" n="51" break="no"/>que vt omnis repugnantia de medio tollatur: predicta 
-      <lb ed="#V" n="52"/>verba Haymonem sequentes ita determinemus: vt 
-      <lb ed="#V" n="53"/>illis angelis qui maioris dignitatis sunt: et per 
-      <lb ed="#V" n="54"/>quorum ministerium illa nunciata sunt ex parte 
-      co<lb ed="#V" n="55" break="no"/>gnita a seculis fuisse: vtpote familiaribus et 
-      nun<lb ed="#V" n="56" break="no"/>ciis. Illis vero qui minoris dignitatis sunt in¬ 
-      <!--00100.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>cognita extitisse dicamus: vsque quo impleta sunt 
-      <lb ed="#V" n="58"/>et per ecclesiam praedicata. et tunc ab omnibus angelis 
-      <lb ed="#V" n="59"/>perfecte fuerunt cognita. Constat itaque omnes 
-      an<lb ed="#V" n="60" break="no"/>gelos in cognitione diuinorum mysteriorum secundum 
-      proces<lb ed="#V" n="61" break="no"/>sum temporis profecisse. Unde non incongruenter 
-      <lb ed="#V" n="62"/>ipsi dicunt angelorum scientiam ac beatitudinem 
-      au<lb ed="#V" n="63" break="no"/>geri vsque ad futuram consumationem quando in 
-      <lb ed="#V" n="64"/>scientia ac beatitudine ita perfectissimi erunt: vt 
-      <lb ed="#V" n="65"/>nec augeatur amplius nec minuatur. 
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e417">
-               <lb ed="#V" n="66"/>¶ Aliorum opinio qui dicunt angelos in quibus 
-      <lb ed="#V" n="67"/>dam predictorum non profecisse. 
-      <lb ed="#V" n="68"/>Alii autem diunt angelos in 
-      confir<lb ed="#V" n="69" break="no"/>matione tanta deitatis 
-      <lb ed="#V" n="70"/>dilectione atque noticia fuisse praeditos: vt in his 
-      <lb ed="#V" n="71"/>vlterius non profecerint: nec profecturi sunt. 
-      Pro<lb ed="#V" n="72" break="no"/>fecerunt tamen in scientia rerum exteriorum sicut in 
-      co<lb ed="#V" n="73" break="no"/>gnitione sacramenti incarnationis et huiusmodi: 
-      <lb ed="#V" n="74"/>sed non in contemplatione deitatis: quia trinitatem 
-      <lb ed="#V" n="75"/>in vnitate atque vnitatem in trinitate non 
-      pleni<lb ed="#V" n="76" break="no"/>us intelligunt siue intellecturi sunt: quam ab ipsa 
-      <lb ed="#V" n="77"/>confirmatione perceperunt. Ita etiam dicunt 
-      <lb ed="#V" n="78"/>eos in charitate non profecisse post 
-      confirmatio<lb ed="#V" n="79" break="no"/>nem: quia eorum charitas postea non est aucta: et 
-      <lb ed="#V" n="80"/>sic dicunt eos non profecisse in meritis: sed hoc 
-      <lb ed="#V" n="81"/>quantum ad vim merendi: sed non quantum ad 
-      nu<lb ed="#V" n="82" break="no"/>merum meritorum Plura enim bona fecerunt 
-      postea<lb ed="#V" n="83" break="no"/>que tunc non fecerant: sed eorum charitas ex qua 
-      <lb ed="#V" n="84"/>illa processerunt non est aucta: ex qua tantum 
-      merue<lb ed="#V" n="85" break="no"/>runt antequam ista adderentur: quantum postea his 
-      <lb ed="#V" n="86"/>adiectis. Illud vero quod alii superius dicunt 
-      <lb ed="#V" n="87"/>probabilius videtur scilicet quod angeli vsque ad 
-      iudici<lb ed="#V" n="88" break="no"/>um in scientia et aliis proficiant.  
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e469">
-               <lb ed="#V" n="89"/>¶ Quedam auctoritates videntur obuiare 
-      pro<lb ed="#V" n="90" break="no"/>babiliori sententie. 
-      <lb ed="#V" n="91"/>Quibus tamen videtur obuiare 
-      quorum<lb ed="#V" n="92" break="no"/>dam auctoritatum verba. Ait 
-      <lb ed="#V" n="93"/>enim Isidorus de sum. bono. Angeli in verbo 
-      <lb ed="#V" n="94"/>dei omnia sciunt antequam fiant: sed nec omnes nec 
-      <lb ed="#V" n="95"/>omnia perfecte angelos scire dixit: et ideo eos in 
-      <lb ed="#V" n="96"/>scientia proficere non remouit. Grego. in libro 
-      dia<lb ed="#V" n="97" break="no"/>logorum ait. Quid est quod ibi nesciant vbi 
-      scien<lb ed="#V" n="98" break="no"/>tem omnia sciunt. Ubi videtur dicere quod omnia sciant 
-      <lb ed="#V" n="99"/>angeli et nihil sit quod nesciant. Sed 
-      accipien<lb ed="#V" n="100" break="no"/>dum est hoc de his quorum cognitio beatum 
-      fa<lb ed="#V" n="101" break="no"/>cit cognitorem: vt sunt ea que ad mysterium 
-      tri<lb ed="#V" n="102" break="no"/>nitatis et vnitatis pertinent. 
-      <lb ed="#V" n="103"/>Illud quoque sciendum etc 
-      Superi<lb ed="#V" n="104" break="no"/>us determinauit 
-      Ma<lb ed="#V" n="105" break="no"/>gister de ministerio angelorum per comparationem 
-      <lb ed="#V" n="106"/>ad deum inquantum ab ipso mittuntur. Hic 
-      deter<lb ed="#V" n="107" break="no"/>minat de ministerio ipsorum per comparationem ad 
-      ho<lb ed="#V" n="108" break="no"/>mines qui ab eis custodiuntur.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e515">
-      ¶ Et diuiditur in duas 
-      <lb ed="#V" n="109"/>partes.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e520">
-      ¶ In prima determinat de angelica custodia 
-      re<lb ed="#V" n="110" break="no"/>spectu hominum.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e526">
-      ¶ In secunda de profectu 
-      custodien<lb ed="#V" n="111" break="no"/>tium ibi preterea
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e531">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e533">
-      ¶ Primo 
-      osten<lb ed="#V" n="112" break="no"/>dit: quod vnusquisque purus homo habet angelicam custodia. 
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e538">
-               <lb ed="#V" n="113"/>¶ Secundo inquirit vtrum quilibet homo habeat 
-      an<lb ed="#V" n="114" break="no"/>gelicam custodiam sibi propriam. ibi. Solet autem queri. 
-      <!--00101.xml-->
-      <pb ed="#V" n="44-r"/>
-               <cb ed="#P" n="a"/>
-            </p>
-            <p xml:id="kzz7yh-f30825-d1e551">
-               <lb ed="#V" n="1"/>¶ Et ista in duoas.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e556">
-      ¶ Primo procedit inquirendo.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e559">
-      ¶ 
-      Se<lb ed="#V" n="2" break="no"/>cundo deterinando. ibi. ideoque.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e564">
-      ¶ Tunc sequitur illa pars que ibi 
-      <lb ed="#V" n="3"/>incipit. Preterea. In qua determinat de profectu 
-      custodi<lb ed="#V" n="4" break="no"/>entium.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e571">
-      ¶ Et diuiditur in duas partes.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e573">
-      ¶ Primo 
-      mo<lb ed="#V" n="5" break="no"/>uet questionem.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e578">
-      ¶ Secundo subiungit responsionem. ibi. 
-      <lb ed="#V" n="6"/>Quod in meritis.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e583">
-      ¶ Et ista in tres.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e586">
-      ¶ Primo ponit opi 
-      <lb ed="#V" n="7"/>nionem vnam.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e591">
-      ¶ Secundo aliam. ibi lalii autem dicunt. 
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e593">
-               <lb ed="#V" n="8"/>¶ Tertio videtur preferre opinionem primam. ibi illud 
-      <lb ed="#V" n="9"/>nero quod alii superius dicunt.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e600">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e602">
-      ¶ Primo 
-      <lb ed="#V" n="10"/>ponit opinionem primam.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e607">
-      ¶ Secundo eius 
-      confirmatio<lb ed="#V" n="11" break="no"/>nem ibi. et quod angeli
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e613">
-      ¶ Et ista in tres.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e615">
-      ¶ Primo confirmat 
-      <lb ed="#V" n="12"/>illam opinionem per auctoritatem.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e620">
-      ¶ Secundo adducit 
-      <lb ed="#V" n="13"/>quandam auctoritatem. Augu. que in apparentia repugnaret 
-      <lb ed="#V" n="14"/>videtur auctoritatibus adductis ad opinionis prime 
-      con<lb ed="#V" n="15" break="no"/>firmationem. ibi hiis autem.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e629">
-      ¶ Tertio remouet illam 
-      ap<lb ed="#V" n="16" break="no"/>parentem contrarietatem. ibi. ideoque vt omnis. 
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e634">
-               <lb ed="#V" n="17"/>CIrca hanc distinctionem querunt 
-      <lb ed="#V" n="18"/>duo.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e641">
-      ¶ Primo de custo 
-      <lb ed="#V" n="19"/>dia angelica respectu hominum.
-   </p>
-            <p xml:id="kzz7yh-f30825-d1e647">
-      ¶ Secundo de 
-      <lb ed="#V" n="20"/>profectu custodientium.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="43-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f30825"><!-- l2d11prae -->
+        <head xml:id="kzz7yh-f30825-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-f30825-d1e103">
+          <lb ed="#V" n="58"/>¶ Quod queque anima hebet angelum bonum ad sui custodiam 
+          <lb ed="#V" n="59"/>delegatum: et malum ad exercitium. Ditntio XII. 
+          <lb ed="#V" n="60"/>Illud quoque sciendum 
+          <lb ed="#V" n="61"/>est quod 
+          am<lb ed="#V" n="62" break="no"/>geli boni deputati sunt ad custodiam 
+          <lb ed="#V" n="63"/>hominum: ita vt quisque electorum 
+          ha<lb ed="#V" n="64" break="no"/>beat angelum ad sui perfectum atque 
+          <lb ed="#V" n="65"/>custodiam specialiter delegatum. Unde in 
+          euan<lb ed="#V" n="66" break="no"/>gelio veritas a pusillorum scandelo prohibens ait. 
+          <!-\-00099.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="67"/>Angeli eorum semper vident faciem patris. 
+          An<lb ed="#V" n="68" break="no"/>gelos dicit eorum esse quibus ad custodiam 
+          de<lb ed="#V" n="69" break="no"/>putati sunt. Super quem locum Hierony. 
+          tra<lb ed="#V" n="70" break="no"/>dit: vnamquamque animam ab exordio natiuitatis 
+          ha<lb ed="#V" n="71" break="no"/>bere angelum ad sui custodiam inquiens ita. 
+          Ma<lb ed="#V" n="72" break="no"/>gna dignitas animarum est vt vna queque 
+          habe<lb ed="#V" n="73" break="no"/>at ab ortu natiuitatis in custodiam sui angelum 
+          <lb ed="#V" n="74"/>delegatum. Grego. quoque dicit. Quod quisque vnum 
+          <lb ed="#V" n="75"/>bonum angelum sibi ad custodiam deputatum: 
+          <lb ed="#V" n="76"/>et vnum malum ad exercitium habet. Cum enim 
+          <lb ed="#V" n="77"/>omnes angeli boni nostrum bonum velint 
+          con<lb ed="#V" n="78" break="no"/>muniterque saluti omnium studeant: ille tamen qui de 
+          <lb ed="#V" n="79"/>putatus est alicui ad custodiam: eum specialiter 
+          <lb ed="#V" n="80"/>hortatur ad bonum: sicut legitur de angelo 
+          tho<lb ed="#V" n="81" break="no"/>bie: et de angelo petri in actibus apostolorum. 
+          Si<lb ed="#V" n="82" break="no"/>militer et mali angeli cum desiderent malum 
+          ho<lb ed="#V" n="83" break="no"/>minum. Magis tamen hominem ad malum 
+          in<lb ed="#V" n="84" break="no"/>citat et ad nocendum fortius instat ille qui ad ex 
+          <lb ed="#V" n="85"/>ercitum deputatus est. 
+          </p>
+          <p xml:id="kzz7yh-f30825-d1e171">
+          <lb ed="#V" n="86"/>¶ Utrum singulis hominibus singuli angeli: 
+          an<lb ed="#V" n="87" break="no"/>pluribus deputatus sit vnus. 
+          <lb ed="#V" n="88"/>deolet autem queri. vtrum 
+          singuli<lb ed="#V" n="89" break="no"/>angeli singulis 
+          ho<lb ed="#V" n="90" break="no"/>minibus: an vnus pluribus ad custodiam vel ex 
+          <lb ed="#V" n="91"/>ercitium deputatus sit: Sed cum electi tot sint 
+          <lb ed="#V" n="92"/>quot et boni angeli sunt: plures constat esse omnes 
+          <lb ed="#V" n="93"/>simul bonos et malos homines quam boni angeli sint. 
+          <lb ed="#V" n="94"/>Et cum tot sint electi quot angeli boni: et 
+          an<lb ed="#V" n="95" break="no"/>geli boni plures sint quam mali: pluresque sint 
+          <lb ed="#V" n="96"/>homines mali quam boni: non est ambigendum 
+          plu<lb ed="#V" n="97" break="no"/>res esse bonos homines quam sint mali angeli: et 
+          <lb ed="#V" n="98"/>plures esse malos homines quam sint mali 
+          ange<lb ed="#V" n="99" break="no"/>li vel boni angeli. 
+          </p>
+          <p xml:id="kzz7yh-f30825-d1e204">
+          <lb ed="#V" n="100"/>¶ Confirmat vnum angelum pluribus 
+          homini<lb ed="#V" n="101" break="no"/>bus deputari siue simul siue temporibus diuersis. 
+          <lb ed="#V" n="102"/>Ideoque dici oportet vnum eundem. 
+          <lb ed="#V" n="103"/>que angelum bonum 
+          <lb ed="#V" n="104"/>vel malum pluribus hominibus deputari ad 
+          <lb ed="#V" n="105"/>custodiam vel exercitium: siue eodem tempore siue 
+          diuer<lb ed="#V" n="106" break="no"/>sis temporibus. Ideo autem dicimus eodem tempore 
+          <lb ed="#V" n="107"/>vel diuersis temporibus: quia videtur quibusdam 
+          <lb ed="#V" n="108"/>quod omnes homines qui sunt simul in aliquo 
+          tem<lb ed="#V" n="109" break="no"/>pore: singuli singulos angelos habere possunt 
+          <lb ed="#V" n="110"/>bonos vel malos: quia licet maior sit numerus 
+          <lb ed="#V" n="111"/>hominum computatis in vnum omnibus qui sue 
+          <lb ed="#V" n="112"/>runt: et sunt et futuri sunt: quam angelorum: tamen quia 
+          <lb ed="#V" n="113"/>homines decedentibus hominibus succedunt. 
+          <lb ed="#V" n="114"/>Et ideo nunquam simul sunt in hac vita. 
+          Angeli<lb ed="#V" n="115" break="no"/>vero nunquam decedunt: sed simul omnes sunt: 
+          <lb ed="#V" n="116"/>esse potest vt singuli hominum dum in hac vita 
+          <lb ed="#V" n="117"/>sunt singulos habeant angelos bonos vel 
+          ma<lb ed="#V" n="118" break="no"/>los ad sui custodiam vel exercitium destinatos. 
+          <lb ed="#V" n="119"/>Ceterum siue ita sit siue non: non est dubitadum 
+          <lb ed="#V" n="120"/>vnumquemque hebere angelum sibi deputatum: siue 
+          plu<lb ed="#V" n="121" break="no"/>ribus simul destinatus sit: siue vni singulariter. 
+          <lb ed="#V" n="122"/>Nec est mirandum vnum angelum pluribus homini¬ 
+          <!-\-00100.xml-\->
+          <pb ed="#V" n="43-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>bus ad custodiam deputari: cum vni homini plurium 
+          <lb ed="#V" n="2"/>custodia deputetur: ita vt eorum quisque suum 
+          di<lb ed="#V" n="3" break="no"/>catur habere dominum vel episcopum vel abbatem. 
+          </p>
+          <p xml:id="kzz7yh-f30825-d1e269">
+          <lb ed="#V" n="4"/>¶ Utrum angeli proficiant in merito vel in 
+          pre<lb ed="#V" n="5" break="no"/>mio vsque ad iudicium. 
+          <lb ed="#V" n="6"/>Preterea illud considerari oportet. Utrum 
+          <lb ed="#V" n="7"/>angeli boni in premio vel 
+          <lb ed="#V" n="8"/>in merito proficiant vsque ad iudicium. Quod in 
+          meri<lb ed="#V" n="9" break="no"/>tis proficiant at quod quottidie magis ac magis 
+          <lb ed="#V" n="10"/>mereantur quibusdam videtur ex eo quia quotidie 
+          ho<lb ed="#V" n="11" break="no"/>minum vtilitatibus inseruiunt eorumque profectibus 
+          stu<lb ed="#V" n="12" break="no"/>dent. Quibus etiam nihilominus videtur quod et in 
+          pre<lb ed="#V" n="13" break="no"/>mio proficiant scilicet in cognitione et dilectione dei. 
+          Li<lb ed="#V" n="14" break="no"/>cet enim vt aiunt in confirmatione beatitudinem 
+          ac<lb ed="#V" n="15" break="no"/>ceperint eternam atque perfectam: augetur tamen 
+          quoti<lb ed="#V" n="16" break="no"/>die eorum beatitudo: quia magis ac magis diligunt 
+          <lb ed="#V" n="17"/>atque cognoscunt: et est eorum charitas qua deum 
+          <lb ed="#V" n="18"/>et nos diligunt: et meritum et premium. Meritum: quia 
+          <lb ed="#V" n="19"/>per eam et obsequia ex ea nobis impensa 
+          meren<lb ed="#V" n="20" break="no"/>tur: et in beatitudine proficiunt. et ipsa eadem est 
+          <lb ed="#V" n="21"/>premium: quia ea beati sunt. 
+          </p>
+          <p xml:id="kzz7yh-f30825-d1e312">
+          <lb ed="#V" n="22"/>¶ Autoritatibus confimant quod dicunt. 
+          <lb ed="#V" n="23"/>Et quod angeli proficiant in 
+          cognitio<lb ed="#V" n="24" break="no"/>ne ac per hoc in beatitudine: 
+          <lb ed="#V" n="25"/>testimoniis sanctorum confirmant. Dicit enim 
+          Esa<lb ed="#V" n="26" break="no"/>ias ex persona angelorum christi ascendentis 
+          magni<lb ed="#V" n="27" break="no"/>ficentiam admirantium. Quis est iste qui venit 
+          <lb ed="#V" n="28"/>de edom tinctis vestibus de bosdra. Et in psalmo 
+          <lb ed="#V" n="29"/>Quis est iste rex glorie. Ex quibus apparet quod 
+          my<lb ed="#V" n="30" break="no"/>sterium verbi incarnati plenius cognonerunt 
+          <lb ed="#V" n="31"/>angeli post impletionem quam ante. Et sicut in 
+          co<lb ed="#V" n="32" break="no"/>gnitione huius mysterii profecerunt: ita dicunt eos 
+          <lb ed="#V" n="33"/>in deitatis cognitione proficere. Quod autem in 
+          huius<lb ed="#V" n="34" break="no"/>modi mysterii cognitione profecerint euidenter 
+          <lb ed="#V" n="35"/>docet apostolus dicens. Que sic dispensatio 
+          sacramen<lb ed="#V" n="36" break="no"/>ti absconditi a seculis in deo: vt innotescat 
+          multi<lb ed="#V" n="37" break="no"/>formis sapientia dei per ecclesiam principibus et 
+          <lb ed="#V" n="38"/>potestatibus in celestibus. Super quem locum dicit 
+          <lb ed="#V" n="39"/>Hiero. angelicas dignitates prefatum mysterium 
+          <lb ed="#V" n="40"/>ad purum non intellexisse donec completa est 
+          pas<lb ed="#V" n="41" break="no"/>sio christi et apostolorum praedicatio per gentes dilatata. 
+          </p>
+          <p xml:id="kzz7yh-f30825-d1e358">
+          <lb ed="#V" n="42"/>¶ Quo in hac sententia videtur Aug. aduersari Hierony. 
+          <lb ed="#V" n="43"/>His autem viletur contradicere 
+          Au<lb ed="#V" n="44" break="no"/>gu. super eundem locum 
+          <lb ed="#V" n="45"/>epistole dicens. Non latuit angelos mysterium 
+          <lb ed="#V" n="46"/>regni caelorum quod opportuno tempore reuelatum est 
+          pro<lb ed="#V" n="47" break="no"/>salute nostra. Illis ergo a seculis innotuit supra et 
+          <lb ed="#V" n="48"/>memoratum mysterium: quia omnis creatura non ante 
+          <lb ed="#V" n="49"/>secula sed a seculis est. Attende lector quia videntur 
+          <lb ed="#V" n="50"/>dissentire in hac sententia illustres doctores. 
+          Ideo<lb ed="#V" n="51" break="no"/>que vt omnis repugnantia de medio tollatur: predicta 
+          <lb ed="#V" n="52"/>verba Haymonem sequentes ita determinemus: vt 
+          <lb ed="#V" n="53"/>illis angelis qui maioris dignitatis sunt: et per 
+          <lb ed="#V" n="54"/>quorum ministerium illa nunciata sunt ex parte 
+          co<lb ed="#V" n="55" break="no"/>gnita a seculis fuisse: vtpote familiaribus et 
+          nun<lb ed="#V" n="56" break="no"/>ciis. Illis vero qui minoris dignitatis sunt in¬ 
+          <!-\-00100.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>cognita extitisse dicamus: vsque quo impleta sunt 
+          <lb ed="#V" n="58"/>et per ecclesiam praedicata. et tunc ab omnibus angelis 
+          <lb ed="#V" n="59"/>perfecte fuerunt cognita. Constat itaque omnes 
+          an<lb ed="#V" n="60" break="no"/>gelos in cognitione diuinorum mysteriorum secundum 
+          proces<lb ed="#V" n="61" break="no"/>sum temporis profecisse. Unde non incongruenter 
+          <lb ed="#V" n="62"/>ipsi dicunt angelorum scientiam ac beatitudinem 
+          au<lb ed="#V" n="63" break="no"/>geri vsque ad futuram consumationem quando in 
+          <lb ed="#V" n="64"/>scientia ac beatitudine ita perfectissimi erunt: vt 
+          <lb ed="#V" n="65"/>nec augeatur amplius nec minuatur. 
+          </p>
+          <p xml:id="kzz7yh-f30825-d1e417">
+          <lb ed="#V" n="66"/>¶ Aliorum opinio qui dicunt angelos in quibus 
+          <lb ed="#V" n="67"/>dam predictorum non profecisse. 
+          <lb ed="#V" n="68"/>Alii autem diunt angelos in 
+          confir<lb ed="#V" n="69" break="no"/>matione tanta deitatis 
+          <lb ed="#V" n="70"/>dilectione atque noticia fuisse praeditos: vt in his 
+          <lb ed="#V" n="71"/>vlterius non profecerint: nec profecturi sunt. 
+          Pro<lb ed="#V" n="72" break="no"/>fecerunt tamen in scientia rerum exteriorum sicut in 
+          co<lb ed="#V" n="73" break="no"/>gnitione sacramenti incarnationis et huiusmodi: 
+          <lb ed="#V" n="74"/>sed non in contemplatione deitatis: quia trinitatem 
+          <lb ed="#V" n="75"/>in vnitate atque vnitatem in trinitate non 
+          pleni<lb ed="#V" n="76" break="no"/>us intelligunt siue intellecturi sunt: quam ab ipsa 
+          <lb ed="#V" n="77"/>confirmatione perceperunt. Ita etiam dicunt 
+          <lb ed="#V" n="78"/>eos in charitate non profecisse post 
+          confirmatio<lb ed="#V" n="79" break="no"/>nem: quia eorum charitas postea non est aucta: et 
+          <lb ed="#V" n="80"/>sic dicunt eos non profecisse in meritis: sed hoc 
+          <lb ed="#V" n="81"/>quantum ad vim merendi: sed non quantum ad 
+          nu<lb ed="#V" n="82" break="no"/>merum meritorum Plura enim bona fecerunt 
+          postea<lb ed="#V" n="83" break="no"/>que tunc non fecerant: sed eorum charitas ex qua 
+          <lb ed="#V" n="84"/>illa processerunt non est aucta: ex qua tantum 
+          merue<lb ed="#V" n="85" break="no"/>runt antequam ista adderentur: quantum postea his 
+          <lb ed="#V" n="86"/>adiectis. Illud vero quod alii superius dicunt 
+          <lb ed="#V" n="87"/>probabilius videtur scilicet quod angeli vsque ad 
+          iudici<lb ed="#V" n="88" break="no"/>um in scientia et aliis proficiant.  
+          </p>
+          <p xml:id="kzz7yh-f30825-d1e469">
+          <lb ed="#V" n="89"/>¶ Quedam auctoritates videntur obuiare 
+          pro<lb ed="#V" n="90" break="no"/>babiliori sententie. 
+          <lb ed="#V" n="91"/>Quibus tamen videtur obuiare 
+          quorum<lb ed="#V" n="92" break="no"/>dam auctoritatum verba. Ait 
+          <lb ed="#V" n="93"/>enim Isidorus de sum. bono. Angeli in verbo 
+          <lb ed="#V" n="94"/>dei omnia sciunt antequam fiant: sed nec omnes nec 
+          <lb ed="#V" n="95"/>omnia perfecte angelos scire dixit: et ideo eos in 
+          <lb ed="#V" n="96"/>scientia proficere non remouit. Grego. in libro 
+          dia<lb ed="#V" n="97" break="no"/>logorum ait. Quid est quod ibi nesciant vbi 
+          scien<lb ed="#V" n="98" break="no"/>tem omnia sciunt. Ubi videtur dicere quod omnia sciant 
+          <lb ed="#V" n="99"/>angeli et nihil sit quod nesciant. Sed 
+          accipien<lb ed="#V" n="100" break="no"/>dum est hoc de his quorum cognitio beatum 
+          fa<lb ed="#V" n="101" break="no"/>cit cognitorem: vt sunt ea que ad mysterium 
+          tri<lb ed="#V" n="102" break="no"/>nitatis et vnitatis pertinent.
+          </p>-->
+        <p xml:id="kzz7yh-f30825-d1e106">
+          <lb ed="#V" n="103"/>Illud quoque sciendum etc 
+          Superi<lb ed="#V" n="104" break="no"/>us determinauit 
+          Ma<lb ed="#V" n="105" break="no"/>gister de ministerio angelorum per comparationem 
+          <lb ed="#V" n="106"/>ad deum inquantum ab ipso mittuntur. Hic 
+          deter<lb ed="#V" n="107" break="no"/>minat de ministerio ipsorum per comparationem ad 
+          ho<lb ed="#V" n="108" break="no"/>mines qui ab eis custodiuntur.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e515">
+          ¶ Et diuiditur in duas 
+          <lb ed="#V" n="109"/>partes.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e520">
+          ¶ In prima determinat de angelica custodia 
+          re<lb ed="#V" n="110" break="no"/>spectu hominum.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e526">
+          ¶ In secunda de profectu 
+          custodien<lb ed="#V" n="111" break="no"/>tium ibi preterea
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e531">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e533">
+          ¶ Primo 
+          osten<lb ed="#V" n="112" break="no"/>dit: quod vnusquisque purus homo habet angelicam custodia. 
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e538">
+          <lb ed="#V" n="113"/>¶ Secundo inquirit vtrum quilibet homo habeat 
+          an<lb ed="#V" n="114" break="no"/>gelicam custodiam sibi propriam. ibi. Solet autem queri. 
+          <!--00101.xml-->
+          <pb ed="#V" n="44-r"/>
+          <cb ed="#P" n="a"/>
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e551">
+          <lb ed="#V" n="1"/>¶ Et ista in duoas.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e556">
+          ¶ Primo procedit inquirendo.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e559">
+          ¶ 
+          Se<lb ed="#V" n="2" break="no"/>cundo deterinando. ibi. ideoque.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e564">
+          ¶ Tunc sequitur illa pars que ibi 
+          <lb ed="#V" n="3"/>incipit. Preterea. In qua determinat de profectu 
+          custodi<lb ed="#V" n="4" break="no"/>entium.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e571">
+          ¶ Et diuiditur in duas partes.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e573">
+          ¶ Primo 
+          mo<lb ed="#V" n="5" break="no"/>uet questionem.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e578">
+          ¶ Secundo subiungit responsionem. ibi. 
+          <lb ed="#V" n="6"/>Quod in meritis.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e583">
+          ¶ Et ista in tres.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e586">
+          ¶ Primo ponit opi 
+          <lb ed="#V" n="7"/>nionem vnam.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e591">
+          ¶ Secundo aliam. ibi lalii autem dicunt. 
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e593">
+          <lb ed="#V" n="8"/>¶ Tertio videtur preferre opinionem primam. ibi illud 
+          <lb ed="#V" n="9"/>nero quod alii superius dicunt.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e600">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e602">
+          ¶ Primo 
+          <lb ed="#V" n="10"/>ponit opinionem primam.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e607">
+          ¶ Secundo eius 
+          confirmatio<lb ed="#V" n="11" break="no"/>nem ibi. et quod angeli
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e613">
+          ¶ Et ista in tres.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e615">
+          ¶ Primo confirmat 
+          <lb ed="#V" n="12"/>illam opinionem per auctoritatem.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e620">
+          ¶ Secundo adducit 
+          <lb ed="#V" n="13"/>quandam auctoritatem. Augu. que in apparentia repugnaret 
+          <lb ed="#V" n="14"/>videtur auctoritatibus adductis ad opinionis prime 
+          con<lb ed="#V" n="15" break="no"/>firmationem. ibi hiis autem.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e629">
+          ¶ Tertio remouet illam 
+          ap<lb ed="#V" n="16" break="no"/>parentem contrarietatem. ibi. ideoque vt omnis. 
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e634">
+          <lb ed="#V" n="17"/>CIrca hanc distinctionem querunt 
+          <lb ed="#V" n="18"/>duo.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e641">
+          ¶ Primo de custo 
+          <lb ed="#V" n="19"/>dia angelica respectu hominum.
+        </p>
+        <p xml:id="kzz7yh-f30825-d1e647">
+          ¶ Secundo de 
+          <lb ed="#V" n="20"/>profectu custodientium.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

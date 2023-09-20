@@ -1,386 +1,388 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="192-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k139340"><!-- l4d44prae -->
-            <head xml:id="kzz7yh-k139340-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-k139340-d1e103">
-               <lb ed="#V" n="10"/>¶ De etate et statura resurgentum. Disinctio XLIIII. 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e108">
-               <lb ed="#V" n="11"/>SOlent autem nonuls 
-      <lb ed="#V" n="12"/>li 
-      perco<lb ed="#V" n="13" break="no"/>tari et querere an in eadem etate et 
-      sta<lb ed="#V" n="14" break="no"/>tura corporis omnes resurrecturi sint: 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e119">
-               <lb ed="#V" n="15"/>¶ Quidam putauerunt omnes 
-      resur<lb ed="#V" n="16" break="no"/>recturos secundum mensuram etatis et stature christi. 
-      <lb ed="#V" n="17"/>Ideo quia apostolus ait. Donec occurramus 
-      <lb ed="#V" n="18"/>omnes in virum perfectum in mensuram etatis 
-      <lb ed="#V" n="19"/>plenitudinis christi. Sed his verbis non eadem 
-      <lb ed="#V" n="20"/>resurgentibus assignatur statura sed etas. 
-      Om<lb ed="#V" n="21" break="no"/>nes enim in eadem etate resurgent: in qua 
-      chri<lb ed="#V" n="22" break="no"/>stus mortuus est et resurrexit: cuiuscunque etatis 
-      <lb ed="#V" n="23"/>mortui fuerint. Uirum autem posuit non vt 
-      di<lb ed="#V" n="24" break="no"/>stingueret sexum: sed vt significaret perfectionem 
-      <lb ed="#V" n="25"/>virium quam tunc habebunt: sed non omnes 
-      ean<lb ed="#V" n="26" break="no"/>dem staturam corporis obtinebunt. Unde 
-      Au<lb ed="#V" n="27" break="no"/>gu. Non ait in mensuram corporis vel stature 
-      <lb ed="#V" n="28"/>sed etatis: quia vnusquisque suam recipiet 
-      men<lb ed="#V" n="29" break="no"/>suram corporis: quam vel habuit in iuuentute 
-      <lb ed="#V" n="30"/>etiam si senex obit: vel fuerat habiturus si 
-      an<lb ed="#V" n="31" break="no"/>te est defunctus. Etas vero erit illa ad quam 
-      <lb ed="#V" n="32"/>peruenit christus scilicet iuuenilis vt circa. xxx. 
-      <lb ed="#V" n="33"/>annos. Triginta enim duum annorum et trium 
-      <lb ed="#V" n="34"/>mensium erat etas christi in qua mortuus est et 
-      <lb ed="#V" n="35"/>resurrexit. Non est autem fas dicere quod in 
-      resur<lb ed="#V" n="36" break="no"/>rectione accedat corpori magnitudo quam nec 
-      <lb ed="#V" n="37"/>habuit hic nec erat habiturum diu viuendo: 
-      <lb ed="#V" n="38"/>nec maiora corpora redigenda sunt ad modum 
-      <lb ed="#V" n="39"/>dominici corporis. Periret enim multum de 
-      <lb ed="#V" n="40"/>illis corporibus: cum nec periturus sit capillus 
-      <lb ed="#V" n="41"/>vt ait dominus. Capillus de capite vestro non peribit. 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e180">
-               <lb ed="#V" n="42"/>¶ Quod resurget quicquid fuit de substantia et 
-      natu<lb ed="#V" n="43" break="no"/>ra corporis et in eadem parte corporis. 
-      <lb ed="#V" n="44"/>Non enim perit deo terrena 
-      mate<lb ed="#V" n="45" break="no"/>ries de qua mortalium 
-      crea<lb ed="#V" n="46" break="no"/>tur caro: sed in quemlibet puluerem cinerenue 
-      sol<lb ed="#V" n="47" break="no"/>uatur: in quoslibet alitus aurasque diffugiat: et 
-      in<lb ed="#V" n="48" break="no"/>quancumque aliorum corporum substantiam: vel in 
-      <lb ed="#V" n="49"/>ipsa elementa vertatur: in quoruncunque 
-      anima<lb ed="#V" n="50" break="no"/>lium vel hominum cibum carnemque mutetur: illi 
-      <lb ed="#V" n="51"/>anima in puncto temporis redit: que illam 
-      car<lb ed="#V" n="52" break="no"/>nem primitus vt homo fieret: cresceret: viueret: 
-      <lb ed="#V" n="53"/>animauit. Ipsa ergo terrena materies que 
-      di<lb ed="#V" n="54" break="no"/>scedente anima sit cadauer: non ita 
-      resurrectio<lb ed="#V" n="55" break="no"/>ne reparabitur vt ea que dilabuntur: et in alias 
-      <lb ed="#V" n="56"/>atque alias rerum species vertuntur: quamuis ad 
-      <lb ed="#V" n="57"/>corpus redeant vnde dilapsa sunt: ad easdem 
-      <!--00415.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="58"/>quoque corporis partes vbi fuerunt redire 
-      neceffe<lb ed="#V" n="59" break="no"/>sit. Alioquin si capillis redit quod tam 
-      crebra<lb ed="#V" n="60" break="no"/>tonsura detraxit: si vnguibus quod totiens 
-      de<lb ed="#V" n="61" break="no"/>pressit exectio: immoderata et indecens 
-      cogitanti<lb ed="#V" n="62" break="no"/>bus resurrectionem carnis: et ideo non 
-      creden<lb ed="#V" n="63" break="no"/>tibus occurrit infirmitas. Sed quemadmodum 
-      <lb ed="#V" n="64"/>si statua cuiuslibet solubilis metalli igne lique 
-      <lb ed="#V" n="65"/>sceret: vel contereretur in puluerem: vel 
-      con<lb ed="#V" n="66" break="no"/>funderetur in massam: et eam vellet atifex 
-      rur<lb ed="#V" n="67" break="no"/>sum ex illius materia et quantitate reparare: 
-      ni<lb ed="#V" n="68" break="no"/>hil interesset ad etus integritatem que 
-      particu<lb ed="#V" n="69" break="no"/>la materie cui membro statue redderetur: dum 
-      <lb ed="#V" n="70"/>tamen totum ex quo constituta fuerat 
-      restitu<lb ed="#V" n="71" break="no"/>ta resumeret. Ita deus mirabiliter atque 
-      ineffa<lb ed="#V" n="72" break="no"/>biliter artifex de toto quo caro nostra extiterat 
-      <lb ed="#V" n="73"/>eam mirabili celeritate restituet: nec aliquid at 
-      <lb ed="#V" n="74"/>tinebit ad eius reintegrationem: vtrum capilli 
-      <lb ed="#V" n="75"/>ad capillos redeant et vngues ad vngues: 
-      an<lb ed="#V" n="76" break="no"/>quicquid eorum perierat mutetur in carnem 
-      <lb ed="#V" n="77"/>et in partes alias reuocetur: curante artificis a 
-      <lb ed="#V" n="78"/>uidentia ne quid indecens fiat. Indecorum quit 
-      <lb ed="#V" n="79"/>pe aliquid ibi non erit: sed quicquid futurum 
-      <lb ed="#V" n="80"/>est hoc decebit: quia nec futurum est: si non decebit. 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e272">
-               <lb ed="#V" n="81"/>¶ Quod sancti sine omni deformitate resurgent. 
-      <lb ed="#V" n="82"/>hoc autem in corporibus 
-      sancto<lb ed="#V" n="83" break="no"/>rum intelligendum est: 
-      <lb ed="#V" n="84"/>de quibus consequenter adiungit. Resurgent 
-      <lb ed="#V" n="85"/>ergo sanctorum corpora sine vllo vicio: sine 
-      vlla<lb ed="#V" n="86" break="no"/>deformitate: sicut sine vlla corruptione: onere 
-      <lb ed="#V" n="87"/>difficultate: in quibus tanta facilitas quanta 
-      <lb ed="#V" n="88"/>felicitas erit propter quod et spiritualia dicta 
-      <lb ed="#V" n="89"/>sunt: cum proculdubio corpora sint futura non 
-      <lb ed="#V" n="90"/>spiritus. Ex his apparet quod vna erit etas 
-      om<lb ed="#V" n="91" break="no"/>nium resurgentium scilicet iuuenilis: statura 
-      ve<lb ed="#V" n="92" break="no"/>ro diuersa: scilicet quam quisque habuerit in 
-      iu<lb ed="#V" n="93" break="no"/>uenili etate: vel erat habiturus si ante est de. 
-      <lb ed="#V" n="94"/>functus. Nec de substantia qua hominis caro 
-      <lb ed="#V" n="95"/>creatur aliquid peribit: sed omnium particula 
-      <lb ed="#V" n="96"/>rum ante dispersarum collectione 
-      reintegrabi<lb ed="#V" n="97" break="no"/>tur naturalis substantia corporis. Sanctorumque 
-      <lb ed="#V" n="98"/>corpora sine omni vicio fulgida sicut sol 
-      resur<lb ed="#V" n="99" break="no"/>gent praescisis cunctis deformitatibus quas hic humerunt. 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e316">
-               <lb ed="#V" n="100"/>¶ Si mali tunc hebeant quas hoc humerunt deformitates. 
-      <lb ed="#V" n="101"/>De reprobis autem querisolet 
-      an<lb ed="#V" n="102" break="no"/>cum deformitatibus 
-      <lb ed="#V" n="103"/>hic habitis resurgant: Hoc autem Augu. non 
-      <lb ed="#V" n="104"/>asserit: sed dubium relinquit ita inquiens. 
-      Qui<lb ed="#V" n="105" break="no"/>cunque ab illa perditionis massa que per 
-      adam<lb ed="#V" n="106" break="no"/>facta est non liberantur per christum: resurgent 
-      <lb ed="#V" n="107"/>quidem etiam ipsi vnusquisque cum sua carne: 
-      <lb ed="#V" n="108"/>sed vt cum diabolo eiusque angelis puniantur. 
-      <lb ed="#V" n="109"/>vtrum vero ipsi cum viciis et deformitatibus 
-      suo<lb ed="#V" n="110" break="no"/>rum corporum resurgent quecunquein eis 
-      gesta<lb ed="#V" n="111" break="no"/>runt inquerendo laborare quid opusest. Non enim fatiga 
-      <lb ed="#V" n="112"/>re nos debet incerta eorum habitudo vel pulchritudo 
-      <lb ed="#V" n="113"/>quorum erit certa et sempiterna damnatio. Ecce non 
-      <!--00416.xml-->
-      <pb ed="#V" n="192-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>diffinit an tunc habeant deformitates: quas hic 
-      <lb ed="#V" n="2"/>habuerunt reproborum corpora. 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e360">
-               <lb ed="#V" n="3"/>¶ Quod non consumentur corpora que tunc ardebunt. 
-      <lb ed="#V" n="4"/>Si vero queritur de corporibus 
-      malo<lb ed="#V" n="5" break="no"/>rum quomodo in igne ardeant 
-      <lb ed="#V" n="6"/>et non consumantur. Augusti. variis exemplis 
-      <lb ed="#V" n="7"/>astruit et sempiternis ignibus ea ardere et non 
-      con<lb ed="#V" n="8" break="no"/>sumi illa combustione: sicut animus cuius 
-      pre<lb ed="#V" n="9" break="no"/>sentia corpus viuit et dolorem pati potest et 
-      mo<lb ed="#V" n="10" break="no"/>ri non potest. hoc enim erit tunc in corporibus 
-      <lb ed="#V" n="11"/>damnatorum: quod nunc esse scimus in animis omnium. 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e382">
-               <lb ed="#V" n="12"/>¶ Si demones corporali igne cremantur. 
-      <lb ed="#V" n="13"/>Queri etiamolet an demones 
-      cor<lb ed="#V" n="14" break="no"/>porali igne ardeant: 
-      <lb ed="#V" n="15"/>Ad quod Augu. respondens ait. Cur non 
-      di<lb ed="#V" n="16" break="no"/>camus quamuis miris veris tamen modis etiam 
-      <lb ed="#V" n="17"/>spiritus incorporeos posse pena corporalis ignis 
-      <lb ed="#V" n="18"/>affligi: si spiritus hominum etiam ipsi 
-      incorpo<lb ed="#V" n="19" break="no"/>rei et nunc potuerunt includi corporalibus 
-      mem<lb ed="#V" n="20" break="no"/>bris: et tunc poterunt corporum suorum 
-      vincu<lb ed="#V" n="21" break="no"/>lis insolubiliter alligari. Gehenna illa quae stagnum 
-      <lb ed="#V" n="22"/>ignis et sulphuris dicta est: corporeus ignis erit 
-      <lb ed="#V" n="23"/>et cruciabit damnatorum corpora hominum vel 
-      <lb ed="#V" n="24"/>demonum: sed solida hominum: aerea 
-      demo<lb ed="#V" n="25" break="no"/>num. Unus enim vtrisque ignis erit vt veritas. 
-      <lb ed="#V" n="26"/>ait. De quo igne si queritur qualis vel vbi sit: 
-      <lb ed="#V" n="27"/>Augu. sic respondet. Ignis eternus 
-      cuiusmo<lb ed="#V" n="28" break="no"/>di sit et in qua mundi vel rerum parte futurus 
-      <lb ed="#V" n="29"/>sit: hominem scire arbitror neminem nisi forte 
-      <lb ed="#V" n="30"/>cui spiritus diuinus ostendit. 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e426">
-               <lb ed="#V" n="31"/>¶ Si anime sine corporibus sentiunt ignem corporalem. 
-      <lb ed="#V" n="32"/>Cum autem constet animas igne 
-      <lb ed="#V" n="33"/>materiali in corpori 
-      <lb ed="#V" n="34"/>bus cruciandas: queri solet: an interim ante 
-      re<lb ed="#V" n="35" break="no"/>solutionem corporum anime defunctorum 
-      re<lb ed="#V" n="36" break="no"/>proborum materiali igne crementur. De hoc 
-      <lb ed="#V" n="37"/>Iulianus toletane ecclesie episcopus Grego. 
-      <lb ed="#V" n="38"/>rii dicta secutus ita scripsit. Si viuentis 
-      homi<lb ed="#V" n="39" break="no"/>nis incorporeus spiritus tenetur in corpore: cur 
-      <lb ed="#V" n="40"/>non post mortem etiam corporeo igne 
-      tenea<lb ed="#V" n="41" break="no"/>tur: Teneri autem per ignem spiritum dicimus 
-      <lb ed="#V" n="42"/>vt in tormentis ignis sit: videndo atque 
-      sentien<lb ed="#V" n="43" break="no"/>do. Quod autem non solum videundo sed etiam 
-      ex<lb ed="#V" n="44" break="no"/>periendo anima ignis tormentum patiatur: ex 
-      <lb ed="#V" n="45"/>euangelio colligitur vbi veritatis voce diues 
-      mor<lb ed="#V" n="46" break="no"/>tuus dicitur in inferno sepultus: cuius anima 
-      <lb ed="#V" n="47"/>quod in igne teneatur infinuat cum Abraam 
-      de<lb ed="#V" n="48" break="no"/>precatur dicens. Mitte Lazarum vt intingat 
-      <lb ed="#V" n="49"/>ex di scilicet in. a. vt re. lin ima quia cruci. in hac flam. 
-      <lb ed="#V" n="50"/>Dum ergo peccatorem diuitem damnatum in 
-      <lb ed="#V" n="51"/>ignibus veritas perhibet: quis sapiens 
-      repro<lb ed="#V" n="52" break="no"/>borum animas teneri ignibus neget: 
-      Preci<lb ed="#V" n="53" break="no"/>pue cum humanam animam corporis simili. 
-      <lb ed="#V" n="54"/>tudinem habere doceat Augu. ita inquiens. 
-      <lb ed="#V" n="55"/>Profiteri animam habere posse similitudinem 
-      <lb ed="#V" n="56"/>corporis: et corporalium omnino membrorum 
-      <!--00416.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>quisquis renuit: potest negare animam esse 
-      que<lb ed="#V" n="58" break="no"/>in somnis videt vel ambulare se vel sedere vel 
-      <lb ed="#V" n="59"/>huc atque illuc gressu vel etiam volatum ferri. hoc 
-      <lb ed="#V" n="60"/>sine quadam similitudine corporis non sit. 
-      Po<lb ed="#V" n="61" break="no"/>inde si hanc similitudinem etiam apud inferos 
-      <lb ed="#V" n="62"/>gerit: non corporalem sed corpori similem: ita 
-      <lb ed="#V" n="63"/>etiam in locis videtur esse non corporalibus sed 
-      <lb ed="#V" n="64"/>corporalium similibus siue in requie siue in 
-      do<lb ed="#V" n="65" break="no"/>loribus. Incassiani etiam voluminibus legitur 
-      <lb ed="#V" n="66"/>quod non sint ociose: neque nihil non sentiant: cum 
-      <lb ed="#V" n="67"/>diues ille in inferno se flamma cruciari clamat. 
-      <lb ed="#V" n="68"/>Unde probatur animas defunctorum non 
-      so<lb ed="#V" n="69" break="no"/>lum suis sensibus non priuari sed nec istis 
-      affe<lb ed="#V" n="70" break="no"/>ctibus scilicet spe: tristitia: gaudio ac metu carere: et ex 
-      <lb ed="#V" n="71"/>his que sibi in illo generali examine 
-      reseruan<lb ed="#V" n="72" break="no"/>tur: eas quiddam iam incipere pregustare. 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e524">
-               <lb ed="#V" n="73"/>¶ De abortiuis fetibus et monstris. 
-      <lb ed="#V" n="74"/>Illud etiam inuestigari oportet 
-      si<lb ed="#V" n="75" break="no"/>abortiui fetus et 
-      mon<lb ed="#V" n="76" break="no"/>stra resurgent et qualia: De quo Augu. ita ait. 
-      <lb ed="#V" n="77"/>Occurrit de abortiuis fetibus questio qui iam 
-      <lb ed="#V" n="78"/>nati sunt in vteris matrum: sed non ita vt iam 
-      <lb ed="#V" n="79"/>possint renasci. Si enim resurrecturos eos 
-      di<lb ed="#V" n="80" break="no"/>xerimus. De his qui iam formati sunt 
-      tolera<lb ed="#V" n="81" break="no"/>ri potest vtcunque quod dicitur. Informes vero 
-      <lb ed="#V" n="82"/>quis non procliuius perire arbitretur: sicut 
-      se<lb ed="#V" n="83" break="no"/>mina que concepta simul non fuerunt. 
-      Scru<lb ed="#V" n="84" break="no"/>pulose quidem inter doctores queri ac 
-      disputa<lb ed="#V" n="85" break="no"/>ri potest: quando incipit homo in vtero viuere: 
-      <lb ed="#V" n="86"/>an sit quedam vita occulta que nondum 
-      moti<lb ed="#V" n="87" break="no"/>bus viuentis appareat: Negare enim vixisse 
-      puer<lb ed="#V" n="88" break="no"/>peria que ideo membratim execantur vt 
-      eiician<lb ed="#V" n="89" break="no"/>tur ex vteris pregnantium: ne matres etiam 
-      si<lb ed="#V" n="90" break="no"/>mortua ibi relinquantur occidant: impudentia 
-      <lb ed="#V" n="91"/>nimia videtur. Ex quo autem incipit homo 
-      vi<lb ed="#V" n="92" break="no"/>uere ex illo vtique iam mori potest: mortuus 
-      vel<lb ed="#V" n="93" break="no"/>ro vbicunque illi potuit mors euenire quomodo 
-      <lb ed="#V" n="94"/>ad resurrectionem non pertineat: reperire 
-      ne<lb ed="#V" n="95" break="no"/>queo. Neque enim et monstra que nascuntur et 
-      <lb ed="#V" n="96"/>viuunt quantumlibet cito moriantur aut resurre 
-      <lb ed="#V" n="97"/>ctura negabuntur aut ita resurrectura 
-      creden<lb ed="#V" n="98" break="no"/>da sunt: sed potius correcta eorum emendataque 
-      <lb ed="#V" n="99"/>natura. Absit enim vt illum bimembrem quem 
-      nu<lb ed="#V" n="100" break="no"/>per natum in oriente fratres fidelissimi qui eum 
-      <lb ed="#V" n="101"/>viderunt retulerunt: et sanctus Hierony. 
-      scri<lb ed="#V" n="102" break="no"/>ptum reliquit: et vnum hominem duplicem ac non 
-      <lb ed="#V" n="103"/>potius duos: quod futurum erat: si gemini 
-      nasce<lb ed="#V" n="104" break="no"/>rentur: resurrecturos estimemus. Ita et cetera 
-      <lb ed="#V" n="105"/>que nimia deformitate monstra dicuntur: ad 
-      <lb ed="#V" n="106"/>humane nature figuram resurrectione reuocabuntur. 
-      <lb ed="#V" n="107"/>Uperius determinauit magister de 
-      con<lb ed="#V" n="108" break="no"/>ditionibus resurrectionis. Hic 
-      <lb ed="#V" n="109"/>determinat de conditionibus resurgentium. Et 
-      <lb ed="#V" n="110"/>diuiditur in partes cuatuor.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e610">
-      ¶ Primo 
-      deter<lb ed="#V" n="111" break="no"/>minat de conditionibus resurgentim in 
-      genera<lb ed="#V" n="112" break="no"/>li.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e617">
-      ¶ Secundo in speciali de conditionibus bonorum. 
-      <lb ed="#V" n="113"/>ibi. Hic autem.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e622">
-      ¶ Tertio in speciali de conditionibus 
-      <!--00417.xml-->
-      <pb ed="#V" n="193-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>reproborum. ibi. De reprobis.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e633">
-      ¶ Quarto specialiter de 
-      <lb ed="#V" n="2"/>conditionibus abortiuorum et monstrorum. ibi. Illud 
-      <lb ed="#V" n="3"/>etiam.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e640">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e642">
-      ¶ Primo determinat de 
-      re<lb ed="#V" n="4" break="no"/>surgentium statuta et etate.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e648">
-      ¶ Secundo de integritate. 
-      <lb ed="#V" n="5"/>ibi. Non enim.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e653">
-      ¶ Illa pars que incipit. ibi. De 
-      repro<lb ed="#V" n="6" break="no"/>bis.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e658">
-      ¶ Diuiditur in duas.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e660">
-      ¶ Primo determinat de 
-      com<lb ed="#V" n="7" break="no"/>ditionibus reproborum ex parte corporis.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e665">
-      ¶ Secundo 
-      <lb ed="#V" n="8"/>ex parte anime. ibi. Queri etiam.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e670">
-      ¶ Prima in duas. 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e673">
-               <lb ed="#V" n="9"/>¶ Primo determinat de corporum reproborum 
-      deformi<lb ed="#V" n="10" break="no"/>tate.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e680">
-      ¶ Secundo de incorruptibilitate. ibi. Si vero. 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e682">
-               <lb ed="#V" n="11"/>¶ Illa pars que incipit. ibi. Queri etiam
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e687">
-      ¶ 
-      Diuidi<lb ed="#V" n="12" break="no"/>tur in duas.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e692">
-      ¶ Primo determinat de cruciatum demonum. 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e694">
-               <lb ed="#V" n="13"/>¶ Secundo de cruciatum animarum. ibi. Cum autem 
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e700">
-     Dinito XIIII 
-      <lb ed="#V" n="14"/>Circa hanc distinctionem querendum 
-      <lb ed="#V" n="15"/>est de duobus principali 
-      <lb ed="#V" n="16"/>ter.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e709">
-      ¶ Primo de conditionibus resurgentium 
-      <lb ed="#V" n="17"/>in generali.
-   </p>
-            <p xml:id="kzz7yh-k139340-d1e714">
-      ¶ Secundo de quibusdam 
-      perti<lb ed="#V" n="18" break="no"/>nentibus ad conditionem malorum in speciali. De 
-      con<lb ed="#V" n="19" break="no"/>ditionibus autem bonorum in speciali dicetur distin. 49. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="192-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k139340"><!-- l4d44prae -->
+        <head xml:id="kzz7yh-k139340-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-k139340-d1e103">
+          <lb ed="#V" n="10"/>¶ De etate et statura resurgentum. Disinctio XLIIII. 
+          </p>
+          <p xml:id="kzz7yh-k139340-d1e108">
+          <lb ed="#V" n="11"/>SOlent autem nonuls 
+          <lb ed="#V" n="12"/>li 
+          perco<lb ed="#V" n="13" break="no"/>tari et querere an in eadem etate et 
+          sta<lb ed="#V" n="14" break="no"/>tura corporis omnes resurrecturi sint: 
+          </p>
+          <p xml:id="kzz7yh-k139340-d1e119">
+          <lb ed="#V" n="15"/>¶ Quidam putauerunt omnes 
+          resur<lb ed="#V" n="16" break="no"/>recturos secundum mensuram etatis et stature christi. 
+          <lb ed="#V" n="17"/>Ideo quia apostolus ait. Donec occurramus 
+          <lb ed="#V" n="18"/>omnes in virum perfectum in mensuram etatis 
+          <lb ed="#V" n="19"/>plenitudinis christi. Sed his verbis non eadem 
+          <lb ed="#V" n="20"/>resurgentibus assignatur statura sed etas. 
+          Om<lb ed="#V" n="21" break="no"/>nes enim in eadem etate resurgent: in qua 
+          chri<lb ed="#V" n="22" break="no"/>stus mortuus est et resurrexit: cuiuscunque etatis 
+          <lb ed="#V" n="23"/>mortui fuerint. Uirum autem posuit non vt 
+          di<lb ed="#V" n="24" break="no"/>stingueret sexum: sed vt significaret perfectionem 
+          <lb ed="#V" n="25"/>virium quam tunc habebunt: sed non omnes 
+          ean<lb ed="#V" n="26" break="no"/>dem staturam corporis obtinebunt. Unde 
+          Au<lb ed="#V" n="27" break="no"/>gu. Non ait in mensuram corporis vel stature 
+          <lb ed="#V" n="28"/>sed etatis: quia vnusquisque suam recipiet 
+          men<lb ed="#V" n="29" break="no"/>suram corporis: quam vel habuit in iuuentute 
+          <lb ed="#V" n="30"/>etiam si senex obit: vel fuerat habiturus si 
+          an<lb ed="#V" n="31" break="no"/>te est defunctus. Etas vero erit illa ad quam 
+          <lb ed="#V" n="32"/>peruenit christus scilicet iuuenilis vt circa. xxx. 
+          <lb ed="#V" n="33"/>annos. Triginta enim duum annorum et trium 
+          <lb ed="#V" n="34"/>mensium erat etas christi in qua mortuus est et 
+          <lb ed="#V" n="35"/>resurrexit. Non est autem fas dicere quod in 
+          resur<lb ed="#V" n="36" break="no"/>rectione accedat corpori magnitudo quam nec 
+          <lb ed="#V" n="37"/>habuit hic nec erat habiturum diu viuendo: 
+          <lb ed="#V" n="38"/>nec maiora corpora redigenda sunt ad modum 
+          <lb ed="#V" n="39"/>dominici corporis. Periret enim multum de 
+          <lb ed="#V" n="40"/>illis corporibus: cum nec periturus sit capillus 
+          <lb ed="#V" n="41"/>vt ait dominus. Capillus de capite vestro non peribit. 
+          </p>
+          <p xml:id="kzz7yh-k139340-d1e180">
+          <lb ed="#V" n="42"/>¶ Quod resurget quicquid fuit de substantia et 
+          natu<lb ed="#V" n="43" break="no"/>ra corporis et in eadem parte corporis. 
+          <lb ed="#V" n="44"/>Non enim perit deo terrena 
+          mate<lb ed="#V" n="45" break="no"/>ries de qua mortalium 
+          crea<lb ed="#V" n="46" break="no"/>tur caro: sed in quemlibet puluerem cinerenue 
+          sol<lb ed="#V" n="47" break="no"/>uatur: in quoslibet alitus aurasque diffugiat: et 
+          in<lb ed="#V" n="48" break="no"/>quancumque aliorum corporum substantiam: vel in 
+          <lb ed="#V" n="49"/>ipsa elementa vertatur: in quoruncunque 
+          anima<lb ed="#V" n="50" break="no"/>lium vel hominum cibum carnemque mutetur: illi 
+          <lb ed="#V" n="51"/>anima in puncto temporis redit: que illam 
+          car<lb ed="#V" n="52" break="no"/>nem primitus vt homo fieret: cresceret: viueret: 
+          <lb ed="#V" n="53"/>animauit. Ipsa ergo terrena materies que 
+          di<lb ed="#V" n="54" break="no"/>scedente anima sit cadauer: non ita 
+          resurrectio<lb ed="#V" n="55" break="no"/>ne reparabitur vt ea que dilabuntur: et in alias 
+          <lb ed="#V" n="56"/>atque alias rerum species vertuntur: quamuis ad 
+          <lb ed="#V" n="57"/>corpus redeant vnde dilapsa sunt: ad easdem 
+          <!-\-00415.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="58"/>quoque corporis partes vbi fuerunt redire 
+          neceffe<lb ed="#V" n="59" break="no"/>sit. Alioquin si capillis redit quod tam 
+          crebra<lb ed="#V" n="60" break="no"/>tonsura detraxit: si vnguibus quod totiens 
+          de<lb ed="#V" n="61" break="no"/>pressit exectio: immoderata et indecens 
+          cogitanti<lb ed="#V" n="62" break="no"/>bus resurrectionem carnis: et ideo non 
+          creden<lb ed="#V" n="63" break="no"/>tibus occurrit infirmitas. Sed quemadmodum 
+          <lb ed="#V" n="64"/>si statua cuiuslibet solubilis metalli igne lique 
+          <lb ed="#V" n="65"/>sceret: vel contereretur in puluerem: vel 
+          con<lb ed="#V" n="66" break="no"/>funderetur in massam: et eam vellet atifex 
+          rur<lb ed="#V" n="67" break="no"/>sum ex illius materia et quantitate reparare: 
+          ni<lb ed="#V" n="68" break="no"/>hil interesset ad etus integritatem que 
+          particu<lb ed="#V" n="69" break="no"/>la materie cui membro statue redderetur: dum 
+          <lb ed="#V" n="70"/>tamen totum ex quo constituta fuerat 
+          restitu<lb ed="#V" n="71" break="no"/>ta resumeret. Ita deus mirabiliter atque 
+          ineffa<lb ed="#V" n="72" break="no"/>biliter artifex de toto quo caro nostra extiterat 
+          <lb ed="#V" n="73"/>eam mirabili celeritate restituet: nec aliquid at 
+          <lb ed="#V" n="74"/>tinebit ad eius reintegrationem: vtrum capilli 
+          <lb ed="#V" n="75"/>ad capillos redeant et vngues ad vngues: 
+          an<lb ed="#V" n="76" break="no"/>quicquid eorum perierat mutetur in carnem 
+          <lb ed="#V" n="77"/>et in partes alias reuocetur: curante artificis a 
+          <lb ed="#V" n="78"/>uidentia ne quid indecens fiat. Indecorum quit 
+          <lb ed="#V" n="79"/>pe aliquid ibi non erit: sed quicquid futurum 
+          <lb ed="#V" n="80"/>est hoc decebit: quia nec futurum est: si non decebit. 
+          </p>
+          <p xml:id="kzz7yh-k139340-d1e272">
+          <lb ed="#V" n="81"/>¶ Quod sancti sine omni deformitate resurgent. 
+          <lb ed="#V" n="82"/>hoc autem in corporibus 
+          sancto<lb ed="#V" n="83" break="no"/>rum intelligendum est: 
+          <lb ed="#V" n="84"/>de quibus consequenter adiungit. Resurgent 
+          <lb ed="#V" n="85"/>ergo sanctorum corpora sine vllo vicio: sine 
+          vlla<lb ed="#V" n="86" break="no"/>deformitate: sicut sine vlla corruptione: onere 
+          <lb ed="#V" n="87"/>difficultate: in quibus tanta facilitas quanta 
+          <lb ed="#V" n="88"/>felicitas erit propter quod et spiritualia dicta 
+          <lb ed="#V" n="89"/>sunt: cum proculdubio corpora sint futura non 
+          <lb ed="#V" n="90"/>spiritus. Ex his apparet quod vna erit etas 
+          om<lb ed="#V" n="91" break="no"/>nium resurgentium scilicet iuuenilis: statura 
+          ve<lb ed="#V" n="92" break="no"/>ro diuersa: scilicet quam quisque habuerit in 
+          iu<lb ed="#V" n="93" break="no"/>uenili etate: vel erat habiturus si ante est de. 
+          <lb ed="#V" n="94"/>functus. Nec de substantia qua hominis caro 
+          <lb ed="#V" n="95"/>creatur aliquid peribit: sed omnium particula 
+          <lb ed="#V" n="96"/>rum ante dispersarum collectione 
+          reintegrabi<lb ed="#V" n="97" break="no"/>tur naturalis substantia corporis. Sanctorumque 
+          <lb ed="#V" n="98"/>corpora sine omni vicio fulgida sicut sol 
+          resur<lb ed="#V" n="99" break="no"/>gent praescisis cunctis deformitatibus quas hic humerunt. 
+          </p>
+          <p xml:id="kzz7yh-k139340-d1e316">
+          <lb ed="#V" n="100"/>¶ Si mali tunc hebeant quas hoc humerunt deformitates. 
+          <lb ed="#V" n="101"/>De reprobis autem querisolet 
+          an<lb ed="#V" n="102" break="no"/>cum deformitatibus 
+          <lb ed="#V" n="103"/>hic habitis resurgant: Hoc autem Augu. non 
+          <lb ed="#V" n="104"/>asserit: sed dubium relinquit ita inquiens. 
+          Qui<lb ed="#V" n="105" break="no"/>cunque ab illa perditionis massa que per 
+          adam<lb ed="#V" n="106" break="no"/>facta est non liberantur per christum: resurgent 
+          <lb ed="#V" n="107"/>quidem etiam ipsi vnusquisque cum sua carne: 
+          <lb ed="#V" n="108"/>sed vt cum diabolo eiusque angelis puniantur. 
+          <lb ed="#V" n="109"/>vtrum vero ipsi cum viciis et deformitatibus 
+          suo<lb ed="#V" n="110" break="no"/>rum corporum resurgent quecunquein eis 
+          gesta<lb ed="#V" n="111" break="no"/>runt inquerendo laborare quid opusest. Non enim fatiga 
+          <lb ed="#V" n="112"/>re nos debet incerta eorum habitudo vel pulchritudo 
+          <lb ed="#V" n="113"/>quorum erit certa et sempiterna damnatio. Ecce non 
+          <!-\-00416.xml-\->
+          <pb ed="#V" n="192-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>diffinit an tunc habeant deformitates: quas hic 
+          <lb ed="#V" n="2"/>habuerunt reproborum corpora. 
+          </p>
+          <p xml:id="kzz7yh-k139340-d1e360">
+          <lb ed="#V" n="3"/>¶ Quod non consumentur corpora que tunc ardebunt. 
+          <lb ed="#V" n="4"/>Si vero queritur de corporibus 
+          malo<lb ed="#V" n="5" break="no"/>rum quomodo in igne ardeant 
+          <lb ed="#V" n="6"/>et non consumantur. Augusti. variis exemplis 
+          <lb ed="#V" n="7"/>astruit et sempiternis ignibus ea ardere et non 
+          con<lb ed="#V" n="8" break="no"/>sumi illa combustione: sicut animus cuius 
+          pre<lb ed="#V" n="9" break="no"/>sentia corpus viuit et dolorem pati potest et 
+          mo<lb ed="#V" n="10" break="no"/>ri non potest. hoc enim erit tunc in corporibus 
+          <lb ed="#V" n="11"/>damnatorum: quod nunc esse scimus in animis omnium. 
+          </p>
+          <p xml:id="kzz7yh-k139340-d1e382">
+          <lb ed="#V" n="12"/>¶ Si demones corporali igne cremantur. 
+          <lb ed="#V" n="13"/>Queri etiamolet an demones 
+          cor<lb ed="#V" n="14" break="no"/>porali igne ardeant: 
+          <lb ed="#V" n="15"/>Ad quod Augu. respondens ait. Cur non 
+          di<lb ed="#V" n="16" break="no"/>camus quamuis miris veris tamen modis etiam 
+          <lb ed="#V" n="17"/>spiritus incorporeos posse pena corporalis ignis 
+          <lb ed="#V" n="18"/>affligi: si spiritus hominum etiam ipsi 
+          incorpo<lb ed="#V" n="19" break="no"/>rei et nunc potuerunt includi corporalibus 
+          mem<lb ed="#V" n="20" break="no"/>bris: et tunc poterunt corporum suorum 
+          vincu<lb ed="#V" n="21" break="no"/>lis insolubiliter alligari. Gehenna illa quae stagnum 
+          <lb ed="#V" n="22"/>ignis et sulphuris dicta est: corporeus ignis erit 
+          <lb ed="#V" n="23"/>et cruciabit damnatorum corpora hominum vel 
+          <lb ed="#V" n="24"/>demonum: sed solida hominum: aerea 
+          demo<lb ed="#V" n="25" break="no"/>num. Unus enim vtrisque ignis erit vt veritas. 
+          <lb ed="#V" n="26"/>ait. De quo igne si queritur qualis vel vbi sit: 
+          <lb ed="#V" n="27"/>Augu. sic respondet. Ignis eternus 
+          cuiusmo<lb ed="#V" n="28" break="no"/>di sit et in qua mundi vel rerum parte futurus 
+          <lb ed="#V" n="29"/>sit: hominem scire arbitror neminem nisi forte 
+          <lb ed="#V" n="30"/>cui spiritus diuinus ostendit. 
+          </p>
+          <p xml:id="kzz7yh-k139340-d1e426">
+          <lb ed="#V" n="31"/>¶ Si anime sine corporibus sentiunt ignem corporalem. 
+          <lb ed="#V" n="32"/>Cum autem constet animas igne 
+          <lb ed="#V" n="33"/>materiali in corpori 
+          <lb ed="#V" n="34"/>bus cruciandas: queri solet: an interim ante 
+          re<lb ed="#V" n="35" break="no"/>solutionem corporum anime defunctorum 
+          re<lb ed="#V" n="36" break="no"/>proborum materiali igne crementur. De hoc 
+          <lb ed="#V" n="37"/>Iulianus toletane ecclesie episcopus Grego. 
+          <lb ed="#V" n="38"/>rii dicta secutus ita scripsit. Si viuentis 
+          homi<lb ed="#V" n="39" break="no"/>nis incorporeus spiritus tenetur in corpore: cur 
+          <lb ed="#V" n="40"/>non post mortem etiam corporeo igne 
+          tenea<lb ed="#V" n="41" break="no"/>tur: Teneri autem per ignem spiritum dicimus 
+          <lb ed="#V" n="42"/>vt in tormentis ignis sit: videndo atque 
+          sentien<lb ed="#V" n="43" break="no"/>do. Quod autem non solum videundo sed etiam 
+          ex<lb ed="#V" n="44" break="no"/>periendo anima ignis tormentum patiatur: ex 
+          <lb ed="#V" n="45"/>euangelio colligitur vbi veritatis voce diues 
+          mor<lb ed="#V" n="46" break="no"/>tuus dicitur in inferno sepultus: cuius anima 
+          <lb ed="#V" n="47"/>quod in igne teneatur infinuat cum Abraam 
+          de<lb ed="#V" n="48" break="no"/>precatur dicens. Mitte Lazarum vt intingat 
+          <lb ed="#V" n="49"/>ex di scilicet in. a. vt re. lin ima quia cruci. in hac flam. 
+          <lb ed="#V" n="50"/>Dum ergo peccatorem diuitem damnatum in 
+          <lb ed="#V" n="51"/>ignibus veritas perhibet: quis sapiens 
+          repro<lb ed="#V" n="52" break="no"/>borum animas teneri ignibus neget: 
+          Preci<lb ed="#V" n="53" break="no"/>pue cum humanam animam corporis simili. 
+          <lb ed="#V" n="54"/>tudinem habere doceat Augu. ita inquiens. 
+          <lb ed="#V" n="55"/>Profiteri animam habere posse similitudinem 
+          <lb ed="#V" n="56"/>corporis: et corporalium omnino membrorum 
+          <!-\-00416.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>quisquis renuit: potest negare animam esse 
+          que<lb ed="#V" n="58" break="no"/>in somnis videt vel ambulare se vel sedere vel 
+          <lb ed="#V" n="59"/>huc atque illuc gressu vel etiam volatum ferri. hoc 
+          <lb ed="#V" n="60"/>sine quadam similitudine corporis non sit. 
+          Po<lb ed="#V" n="61" break="no"/>inde si hanc similitudinem etiam apud inferos 
+          <lb ed="#V" n="62"/>gerit: non corporalem sed corpori similem: ita 
+          <lb ed="#V" n="63"/>etiam in locis videtur esse non corporalibus sed 
+          <lb ed="#V" n="64"/>corporalium similibus siue in requie siue in 
+          do<lb ed="#V" n="65" break="no"/>loribus. Incassiani etiam voluminibus legitur 
+          <lb ed="#V" n="66"/>quod non sint ociose: neque nihil non sentiant: cum 
+          <lb ed="#V" n="67"/>diues ille in inferno se flamma cruciari clamat. 
+          <lb ed="#V" n="68"/>Unde probatur animas defunctorum non 
+          so<lb ed="#V" n="69" break="no"/>lum suis sensibus non priuari sed nec istis 
+          affe<lb ed="#V" n="70" break="no"/>ctibus scilicet spe: tristitia: gaudio ac metu carere: et ex 
+          <lb ed="#V" n="71"/>his que sibi in illo generali examine 
+          reseruan<lb ed="#V" n="72" break="no"/>tur: eas quiddam iam incipere pregustare. 
+          </p>
+          <p xml:id="kzz7yh-k139340-d1e524">
+          <lb ed="#V" n="73"/>¶ De abortiuis fetibus et monstris. 
+          <lb ed="#V" n="74"/>Illud etiam inuestigari oportet 
+          si<lb ed="#V" n="75" break="no"/>abortiui fetus et 
+          mon<lb ed="#V" n="76" break="no"/>stra resurgent et qualia: De quo Augu. ita ait. 
+          <lb ed="#V" n="77"/>Occurrit de abortiuis fetibus questio qui iam 
+          <lb ed="#V" n="78"/>nati sunt in vteris matrum: sed non ita vt iam 
+          <lb ed="#V" n="79"/>possint renasci. Si enim resurrecturos eos 
+          di<lb ed="#V" n="80" break="no"/>xerimus. De his qui iam formati sunt 
+          tolera<lb ed="#V" n="81" break="no"/>ri potest vtcunque quod dicitur. Informes vero 
+          <lb ed="#V" n="82"/>quis non procliuius perire arbitretur: sicut 
+          se<lb ed="#V" n="83" break="no"/>mina que concepta simul non fuerunt. 
+          Scru<lb ed="#V" n="84" break="no"/>pulose quidem inter doctores queri ac 
+          disputa<lb ed="#V" n="85" break="no"/>ri potest: quando incipit homo in vtero viuere: 
+          <lb ed="#V" n="86"/>an sit quedam vita occulta que nondum 
+          moti<lb ed="#V" n="87" break="no"/>bus viuentis appareat: Negare enim vixisse 
+          puer<lb ed="#V" n="88" break="no"/>peria que ideo membratim execantur vt 
+          eiician<lb ed="#V" n="89" break="no"/>tur ex vteris pregnantium: ne matres etiam 
+          si<lb ed="#V" n="90" break="no"/>mortua ibi relinquantur occidant: impudentia 
+          <lb ed="#V" n="91"/>nimia videtur. Ex quo autem incipit homo 
+          vi<lb ed="#V" n="92" break="no"/>uere ex illo vtique iam mori potest: mortuus 
+          vel<lb ed="#V" n="93" break="no"/>ro vbicunque illi potuit mors euenire quomodo 
+          <lb ed="#V" n="94"/>ad resurrectionem non pertineat: reperire 
+          ne<lb ed="#V" n="95" break="no"/>queo. Neque enim et monstra que nascuntur et 
+          <lb ed="#V" n="96"/>viuunt quantumlibet cito moriantur aut resurre 
+          <lb ed="#V" n="97"/>ctura negabuntur aut ita resurrectura 
+          creden<lb ed="#V" n="98" break="no"/>da sunt: sed potius correcta eorum emendataque 
+          <lb ed="#V" n="99"/>natura. Absit enim vt illum bimembrem quem 
+          nu<lb ed="#V" n="100" break="no"/>per natum in oriente fratres fidelissimi qui eum 
+          <lb ed="#V" n="101"/>viderunt retulerunt: et sanctus Hierony. 
+          scri<lb ed="#V" n="102" break="no"/>ptum reliquit: et vnum hominem duplicem ac non 
+          <lb ed="#V" n="103"/>potius duos: quod futurum erat: si gemini 
+          nasce<lb ed="#V" n="104" break="no"/>rentur: resurrecturos estimemus. Ita et cetera 
+          <lb ed="#V" n="105"/>que nimia deformitate monstra dicuntur: ad 
+          <lb ed="#V" n="106"/>humane nature figuram resurrectione reuocabuntur.
+          </p>-->
+        <p xml:id="kzz7yh-k139340-d1e106">
+          <lb ed="#V" n="107"/>SUperius determinauit magister de 
+          con<lb ed="#V" n="108" break="no"/>ditionibus resurrectionis. Hic 
+          <lb ed="#V" n="109"/>determinat de conditionibus resurgentium. Et 
+          <lb ed="#V" n="110"/>diuiditur in partes cuatuor.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e610">
+          ¶ Primo 
+          deter<lb ed="#V" n="111" break="no"/>minat de conditionibus resurgentim in 
+          genera<lb ed="#V" n="112" break="no"/>li.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e617">
+          ¶ Secundo in speciali de conditionibus bonorum. 
+          <lb ed="#V" n="113"/>ibi. Hic autem.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e622">
+          ¶ Tertio in speciali de conditionibus 
+          <!--00417.xml-->
+          <pb ed="#V" n="193-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>reproborum. ibi. De reprobis.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e633">
+          ¶ Quarto specialiter de 
+          <lb ed="#V" n="2"/>conditionibus abortiuorum et monstrorum. ibi. Illud 
+          <lb ed="#V" n="3"/>etiam.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e640">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e642">
+          ¶ Primo determinat de 
+          re<lb ed="#V" n="4" break="no"/>surgentium statuta et etate.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e648">
+          ¶ Secundo de integritate. 
+          <lb ed="#V" n="5"/>ibi. Non enim.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e653">
+          ¶ Illa pars que incipit. ibi. De 
+          repro<lb ed="#V" n="6" break="no"/>bis.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e658">
+          ¶ Diuiditur in duas.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e660">
+          ¶ Primo determinat de 
+          com<lb ed="#V" n="7" break="no"/>ditionibus reproborum ex parte corporis.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e665">
+          ¶ Secundo 
+          <lb ed="#V" n="8"/>ex parte anime. ibi. Queri etiam.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e670">
+          ¶ Prima in duas. 
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e673">
+          <lb ed="#V" n="9"/>¶ Primo determinat de corporum reproborum 
+          deformi<lb ed="#V" n="10" break="no"/>tate.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e680">
+          ¶ Secundo de incorruptibilitate. ibi. Si vero. 
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e682">
+          <lb ed="#V" n="11"/>¶ Illa pars que incipit. ibi. Queri etiam
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e687">
+          ¶ 
+          Diuidi<lb ed="#V" n="12" break="no"/>tur in duas.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e692">
+          ¶ Primo determinat de cruciatum demonum. 
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e694">
+          <lb ed="#V" n="13"/>¶ Secundo de cruciatum animarum. ibi. Cum autem 
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e700">
+          Dinito XIIII 
+          <lb ed="#V" n="14"/>Circa hanc distinctionem querendum 
+          <lb ed="#V" n="15"/>est de duobus principali 
+          <lb ed="#V" n="16"/>ter.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e709">
+          ¶ Primo de conditionibus resurgentium 
+          <lb ed="#V" n="17"/>in generali.
+        </p>
+        <p xml:id="kzz7yh-k139340-d1e714">
+          ¶ Secundo de quibusdam 
+          perti<lb ed="#V" n="18" break="no"/>nentibus ad conditionem malorum in speciali. De 
+          con<lb ed="#V" n="19" break="no"/>ditionibus autem bonorum in speciali dicetur distin. 49. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

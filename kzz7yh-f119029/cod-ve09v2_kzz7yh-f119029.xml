@@ -1,366 +1,369 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="167-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f119029"><!-- l2d42prae -->
-            <head xml:id="kzz7yh-f119029-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-f119029-d1e103">
-               <lb ed="#V" n="73"/>¶ An voluntas et actio mala in eodem homine 
-      <lb ed="#V" n="74"/>et circa eandem rem sint vnum peccatum 
-      an<lb ed="#V" n="75" break="no"/>plura. Distin. XIII 
-      <lb ed="#V" n="76"/>Um autem voluntas 
-      ma<lb ed="#V" n="77" break="no"/>ta et 
-      operatio<lb ed="#V" n="78" break="no"/>sint peccatum: queri solet vtrum in eodem 
-      <lb ed="#V" n="79"/>homine et circa eadem rem hec duo vnum sint 
-      <lb ed="#V" n="80"/>peccatum vel diuersa: vt si quis voluntate 
-      fu<lb ed="#V" n="81" break="no"/>ratur: voluntatem habuit malam que peccatum est: et 
-      <lb ed="#V" n="82"/>actum malum qui item peccatum est: hec autem duo diuersa 
-      <lb ed="#V" n="83"/>sunt scilicet voluntas et actio: sed numquid diuersa sunt 
-      <lb ed="#V" n="84"/>peccata an vnum: quidam dicunt vnum esse peccatum: alii vero 
-      <lb ed="#V" n="85"/>dicunt diuersa esse peccata: quia constent hec duo esse 
-      di<lb ed="#V" n="86" break="no"/>uersa: aut diuersa duo peccata dicuntur: aut duo 
-      di<lb ed="#V" n="87" break="no"/>uersa non peccata. Quibus alii respondent: hec duo 
-      diuer<lb ed="#V" n="88" break="no"/>sa esse peccata non plura. Non enim plura peccata sunt: sed 
-      <lb ed="#V" n="89"/>peccatum vnum: quia vna priuaricatio vel iobedientia in 
-      <lb ed="#V" n="90"/>vtroque admittitur siue quando vult: siue quando agit: et vnus 
-      <lb ed="#V" n="91"/>est ibi contemptus: sed minor cum in voluntate solum 
-      <lb ed="#V" n="92"/>peccatum continetur. Maior verocum voluntati est 
-      opera<lb ed="#V" n="93" break="no"/>tio additur: et ideo maius fit peccatum: sed non 
-      plu<lb ed="#V" n="94" break="no"/>ra: cum voluntas operi mancipatur. 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e153">
-               <lb ed="#V" n="95"/>¶ Alia contra eosdem oppositio. 
-      <lb ed="#V" n="96"/>Sed adhuc eisdem obicitur si vnum 
-      <lb ed="#V" n="97"/>tantum illa duo peccata sunt 
-      <lb ed="#V" n="98"/>cum quis voluntate mala prius concepta: deide opmus 
-      pa<lb ed="#V" n="99" break="no"/>trauerit: non pro aliquo reus est: nisi pro quo ante 
-      <lb ed="#V" n="100"/>opus reus erat: cum adhuc in sola voluntate 
-      pec<lb ed="#V" n="101" break="no"/>catum consistebat. Nullus enim reus est eterne 
-      mor<lb ed="#V" n="102" break="no"/>tis nisi pro peccato: sed peccatum aliud non est admissum 
-      <lb ed="#V" n="103"/>actione quam prius admissum erat voluntate. Non 
-      <lb ed="#V" n="104"/>ergo pro aliquo alio iste sit damnabilis actu 
-      pec<lb ed="#V" n="105" break="no"/>cando quam ante fuerat cum sola voluntate 
-      delin<lb ed="#V" n="106" break="no"/>quebat: ad hoc etiam et illi respondent dicentes: 
-      prte<lb ed="#V" n="107" break="no"/>peccatum quidem tantum illum furem reum constitui quamuis eius 
-      <lb ed="#V" n="108"/>voluntas et actio vnum sint peccatum: pro alio tamen reus 
-      <lb ed="#V" n="109"/>factus est actu peccando quam prius erat sola volunta 
-      <lb ed="#V" n="110"/>te deliquendo: quia pro actu qui est aliud quam 
-      vo<lb ed="#V" n="111" break="no"/>luntas: licet non aliud peccatum. 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e192">
-               <lb ed="#V" n="112"/>¶ Alia aduersus eosdem obiectio. 
-      <lb ed="#V" n="113"/>Item et adhuc quaestion istant 
-      dicen<lb ed="#V" n="114" break="no"/>tes hoc duo ideo 
-      di<lb ed="#V" n="115" break="no"/>uersa esse peccata: quia diuersorum legis mandatorum 
-      pre<lb ed="#V" n="116" break="no"/>uaricationes sunt: alio enim mandato legis prohibetur 
-      <lb ed="#V" n="117"/>actio furti scilicet non furaberis: alio furandi voluntas: 
-      <lb ed="#V" n="118"/>secet non concupisces rem proximi tui. Cum autem hec 
-      duo<lb ed="#V" n="119" break="no"/>diuersa mandata sint quibus illa duo prohibentur: patet 
-      <lb ed="#V" n="120"/>illa duo diuersas esse puaricationes: diuersa esse 
-      <lb ed="#V" n="121"/>peccata: ad quod est illi dicunt diunsa quidem esse mandata: 
-      <lb ed="#V" n="122"/>quibus illa duo distinctim prohibentur: vt Aug. doca 
-      <lb ed="#V" n="123"/>super Exod. veruntmen in illis non obseruatis vna 
-      tan<lb ed="#V" n="124" break="no"/>tum puaricatio incurritur vnumque contrahitur peccatum: licet 
-      <lb ed="#V" n="125"/>duo diuersa illis prohibeantur. Sicut econuerso¬ 
-      <!--00348.xml-->
-      <pb ed="#V" n="167-v"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>duo sunt mandata charitatis quibus duo praecipiuntur 
-      <lb ed="#V" n="2"/>diligi: vna tamen in eis: nobis commendatur charitas. 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e236">
-               <lb ed="#V" n="3"/>¶ Si peccatum ab aliquo admissum: in eo sit 
-      <lb ed="#V" n="4"/>quousque peniteat. 
-      <lb ed="#V" n="5"/>Preterea solet queri cum ab aliquo 
-      prpe<lb ed="#V" n="6" break="no"/>trato voluntate peccato 
-      volun<lb ed="#V" n="7" break="no"/>tas id agendi et actio transierit: nondum tamen vera 
-      ha<lb ed="#V" n="8" break="no"/>bita penitentia: vtrum illud peccatum vsquequo peniteat 
-      <lb ed="#V" n="9"/>sit in eo: Quod non esse vridetur: quia voluntas illa quae prius 
-      <lb ed="#V" n="10"/>fuit non est neque actio: quia neque vult illud vel agit 
-      <lb ed="#V" n="11"/>quod ante voluit et egit. Sed non est ignorandum peccatum 
-      <lb ed="#V" n="12"/>duobus modis dici esse in aliquo et transire scilicet actu 
-      <lb ed="#V" n="13"/>et reatu: actu est in aliquo dum ipsum peccatum est: vt 
-      <lb ed="#V" n="14"/>actio vel voluntas in peccante est. Reatum vero cum 
-      <lb ed="#V" n="15"/>pro eo siue transierit siue assit: mens hominis polluta 
-      <lb ed="#V" n="16"/>est et corrupta: totusque homo suppliciis obligatus 
-      <lb ed="#V" n="17"/>perpetuis: nec vnquam est in aliquo peccatum actu 
-      <lb ed="#V" n="18"/>preter originale: quin sit etiam reatu: sed est 
-      rea<lb ed="#V" n="19" break="no"/>tu interdum postquam transit actu. 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e276">
-               <lb ed="#V" n="20"/>¶ Quibus modis dicitur in scriptura reatuis. 
-      <lb ed="#V" n="21"/>Reatus in scriptura mltiplicitr 
-      accipitu<lb ed="#V" n="22" break="no"/>scilicet pro clhea: pro peciea: pro obligatione 
-      <lb ed="#V" n="23"/>pene temporalis vel eterne. Si enim mortale est: obligat 
-      <lb ed="#V" n="24"/>nos pene etane: si veiale obligat nos pene temporali. 
-      <lb ed="#V" n="25"/>Duo enim sunt genera peccatorum mortalium scilicet et venialium. 
-      <lb ed="#V" n="26"/>Mortale est per quod ho mortem etuam meretur. Crimen 
-      <lb ed="#V" n="27"/>enim vt ait Aug. est quod est dignum accusatione et 
-      <lb ed="#V" n="28"/>damnatione. Ueniale est quod hominem vsque in 
-      <lb ed="#V" n="29"/>reatum perpetue mortis non grauat: verumta 
-      <lb ed="#V" n="30"/>men meretur: sed facile indulgetur. 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e302">
-               <lb ed="#V" n="31"/>¶ De modis peccatorum que multipliciter assignantur. 
-      <lb ed="#V" n="32"/>Bodi autem peccatorum varius in 
-      <lb ed="#V" n="33"/>scriptura habent 
-      distin<lb ed="#V" n="34" break="no"/>ctiones in qua dicitur peccatum duobus modis committi scilicet 
-      <lb ed="#V" n="35"/>cupiditate et timore: vt Aug. tradit super illum 
-      lo<lb ed="#V" n="36" break="no"/>cum pslalmum. Incensa igni et suffossa. His enim duobus 
-      <lb ed="#V" n="37"/>modis dicit omnia peccata mortalia includi. Et 
-      incon<lb ed="#V" n="38" break="no"/>sa ea dicit que ex cupiditate male incedente orium 
-      <lb ed="#V" n="39"/>tur. Suffossa vero que ex timore male humiliantem 
-      <lb ed="#V" n="40"/>proueniuut: quod est quando quis cupit non cupienda: vel 
-      tiei<lb ed="#V" n="41" break="no"/>met non timenda: alibi vero dicitur peccatum fieri tribus 
-      mo<lb ed="#V" n="42" break="no"/>dis scilicet cogitatum verbo et opere. Unde Hierony. super 
-      <lb ed="#V" n="43"/>Eech. Tria generalia delicta sunt quibus 
-      huma<lb ed="#V" n="44" break="no"/>num subiacet genus: aut enim cogitatione: aut sermo 
-      <lb ed="#V" n="45"/>ne: aut opere peccamus. His aliquando etiam additur 
-      <lb ed="#V" n="46"/>quartus modus scilicet consuctudinis quod in quadridua 
-      <lb ed="#V" n="47"/>no Lazaro significatum est. Dicitur quoque 
-      homo<lb ed="#V" n="48" break="no"/>peccare in deum: in se et in proximum. In deum cum 
-      <lb ed="#V" n="49"/>de deo male sentit: vt hereticus: vel que dei sunt 
-      <lb ed="#V" n="50"/>vsurpare praesumit indigne participando sacramentis 
-      <lb ed="#V" n="51"/>vel quando nomen dei peierando contemptibile facit. 
-      In<lb ed="#V" n="52" break="no"/>proximum peccat: cum proximum iniuste ledit. 
-      In<lb ed="#V" n="53" break="no"/>se vero cum sibi et non alii nocet. 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e354">
-               <lb ed="#V" n="54"/>¶ Quomodo differant delictum et peccatum. 
-      <lb ed="#V" n="55"/>Uariam quoque appelatione 
-      <lb ed="#V" n="56"/>oe. Sige io¬ 
-      <!--00348.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>peccatum etiam delictum. Et delictum fortasse est: vt autem 
-      <lb ed="#V" n="58"/>Aug. in quaestionibus Leuitici: declinare a bono: 
-      pec<lb ed="#V" n="59" break="no"/>catum est facere malum. Aliud est enim declinare 
-      <lb ed="#V" n="60"/>a bono aliud est facere malum. Peccatum ergo 
-      <lb ed="#V" n="61"/>est perpetratio mali: delictum desertio boni: quod et 
-      <lb ed="#V" n="62"/>ipsum ostendit nomen. Quid enim aliud sonat 
-      deli<lb ed="#V" n="63" break="no"/>ctum nisi derelictum: et qui delinquit: quid dere 
-      <lb ed="#V" n="64"/>linquit nisi bonum. Uel delictum est quod 
-      ignoran<lb ed="#V" n="65" break="no"/>ter sit: peccatum quod scienter committitur. 
-      In<lb ed="#V" n="66" break="no"/>differenter tamen peccatum nomine delicti: et 
-      <lb ed="#V" n="67"/>delictum nomine peccati appellatur. 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e391">
-               <lb ed="#V" n="68"/>¶ De septem principalibus vitiis. 
-      <lb ed="#V" n="69"/>Propterea sciendum est septen es 
-      vi<lb ed="#V" n="70" break="no"/>tia capitalia vel 
-      princi<lb ed="#V" n="71" break="no"/>palia: vt Grego. super Exod. ait scilicet inanem gliam: 
-      <lb ed="#V" n="72"/>iram: inuidiam: accidiam: vel tristitiam: auaritia: 
-      castri<lb ed="#V" n="73" break="no"/>margiam: luxuriam. Que vt ait Ioan. Chriso. 
-      signi<lb ed="#V" n="74" break="no"/>ficata sunt in septem popostolis qui terram promissionis 
-      <lb ed="#V" n="75"/>israeli promissam tenebant. De his quasi septem 
-      <lb ed="#V" n="76"/>fontibus cuncte animarum mortifere corruptele 
-      ema<lb ed="#V" n="77" break="no"/>nant. Et dicuntur hec capitalia: quia ex eis 
-      oriun<lb ed="#V" n="78" break="no"/>tur omnia mala. Nullum enim malum est: quod etiam 
-      <lb ed="#V" n="79"/>non ab aliquo horum originem trahat. 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e420">
-               <lb ed="#V" n="80"/>¶ De superbia que est radix omnis mali. 
-      <lb ed="#V" n="81"/>Ex superbia tamen omnia mala 
-      oriun<lb ed="#V" n="82" break="no"/>tur et hoc et alia: quia vt 
-      <lb ed="#V" n="83"/>ait Greg. Radix cuncti mali est superbia: de qua 
-      <lb ed="#V" n="84"/>dicitur. Initium omnis peccati est superbia: que est amor 
-      pro<lb ed="#V" n="85" break="no"/>prie excellentie. Cuius quatuor sunt species vt Gre. 
-      <lb ed="#V" n="86"/>ait. Prima est cum bonum quod habet quis sibi 
-      attri<lb ed="#V" n="87" break="no"/>buit. Secunda cum credit a deo esse datum: sed tamen 
-      <lb ed="#V" n="88"/>pro suis meritis. Tertia cum se iactat habere quod non 
-      <lb ed="#V" n="89"/>habet. Quarta cum ceteris despectis singulariter 
-      <lb ed="#V" n="90"/>vult videri. Merito ergo radixominis mali dicitur 
-      su<lb ed="#V" n="91" break="no"/>perbia. Huic autem videtur obuiare quod apostolus ait. 
-      Ra<lb ed="#V" n="92" break="no"/>dixomnium malorum est cupiditas: quia si radix. omnium 
-      <lb ed="#V" n="93"/>malorum est cupiditas: ergo superbie. Quomodo 
-      <lb ed="#V" n="94"/>ergo superbia radix est et initium omnis peccati. 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e455">
-               <lb ed="#V" n="95"/>¶ Quo sensu vtrumque radix dicatur omnium 
-      ma<lb ed="#V" n="96" break="no"/>lorum scilicet et superbia et cupiditas. 
-      <lb ed="#V" n="97"/>Sed vtrumque recte dictum esse 
-      intel<lb ed="#V" n="98" break="no"/>ligitur: si genera 
-      pec<lb ed="#V" n="99" break="no"/>catorum singulorum non singula generum vtraque 
-      locu<lb ed="#V" n="100" break="no"/>tione includitur intelligantur. Nullum quppe genus 
-      <lb ed="#V" n="101"/>peccati est: quod interdum ex superbia non proueniat. 
-      <lb ed="#V" n="102"/>Nullum est quod excupiditate aliquando non descendat 
-      <lb ed="#V" n="103"/>Sunt enim nonnulli hominum qui ex cupiditate fiunt 
-      <lb ed="#V" n="104"/>superbi: et aliqui ex superbia siunt cupidi. Est enim vt ait 
-      <lb ed="#V" n="105"/>Aug. homo quo non esset amator pecunie: nisi per hoc 
-      <lb ed="#V" n="106"/>putaret se excellentiorem esse: ideoque vt excellat 
-      diui<lb ed="#V" n="107" break="no"/>tias cupit. Tali homin ex superbia oboritur cupiditas 
-      <lb ed="#V" n="108"/>et est aliquis qui non amaret excellere: nisi putaret 
-      <lb ed="#V" n="109"/>per hoc diuitias maiores habere. Ideo ergo excel 
-      <lb ed="#V" n="110"/>lere laborat: quia diuitias habere amat. Huic 
-      <lb ed="#V" n="111"/>innascitur superbia idest amor excellentie 
-      excu<lb ed="#V" n="112" break="no"/>periditate. Patet ergo quod ex superbia aliquando 
-      <!--00349.xml-->
-      <pb ed="#V" n="168-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>cupiditas: et ex cupiditate aliquando superbia 
-      <lb ed="#V" n="2"/>oritur: et ideo de vtraque recte dicitur quod sit radix 
-      <lb ed="#V" n="3"/>omnis mali. Dist. XIII. 
-      <lb ed="#V" n="4"/>Um autem voluntas etc. Superius 
-      deter<lb ed="#V" n="5" break="no"/>minat Magister de comparatione 
-      <lb ed="#V" n="6"/>voluntatis ad finem: et de comparatione actus exterioris ad 
-      <lb ed="#V" n="7"/>lifinem: et de comparatione eorum ad subiectum
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e519">
-      ¶ Hic 
-      determi<lb ed="#V" n="8" break="no"/>nat de comparatione voluntatis ad exteriorem actum. Et 
-      <lb ed="#V" n="9"/>diuiditur in partes duas.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e526">
-      ¶ Primo inquirit si malus 
-      volunta<lb ed="#V" n="10" break="no"/>tis actus interior et actus exterior sunt duo peccata vel vnum. 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e531">
-               <lb ed="#V" n="11"/>¶ Secundo vtrum malo actu interiori et exteriori transeunte 
-      re<lb ed="#V" n="12" break="no"/>maneat in homine peccatum ibi.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e538">
-      ¶ Preterea quaeri solet.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e540">
-      ¶ Prima 
-      <lb ed="#V" n="13"/>in duas.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e545">
-      ¶ Primo mouet quaestionem: et de quaestione ponit 
-      duplicen<lb ed="#V" n="14" break="no"/>opinionem.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e551">
-      ¶ Secundo principaliter prosequitur primam. ibi. Quibus alii 
-      <lb ed="#V" n="15"/>respondent. Et ista in tres: secundum tres solutiones ad tres instantias quas 
-      <lb ed="#V" n="16"/>ponebant aliqui contra primam opinionem. 2o ibi. Sed adhuc. 13o ibi. 
-      <lb ed="#V" n="17"/>Item adhuc. Pars illa quae ibi incipit.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e560">
-      ¶ Preterea quaeri solet 
-      <lb ed="#V" n="18"/>Diuiditur in duas partes.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e565">
-      ¶ Primo quaerit vtrum actu 
-      interiori<lb ed="#V" n="19" break="no"/>et exteriori transeunte aliquo modo remaneat peccatum: et respondet 
-      <lb ed="#V" n="20"/>ad quaestionem.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e572">
-      ¶ Secundo incidenter ponit quandam reatus diuisionem 
-      <lb ed="#V" n="21"/>ibi Reatus autem. Illa pars quae ibi incipit. Modi autem peccatorum. 
-      <lb ed="#V" n="22"/>In qui determinat de modis peccandi: quae diuisa fuit contra partes 
-      <lb ed="#V" n="23"/>alias a dist. 34. remaneat indiuisa. Illa autem quae ibi incipit. 
-      <lb ed="#V" n="24"/>(Uariam quoque. In quae determinat de differentiis quae contra partes 
-      <lb ed="#V" n="25"/>alias a 34. dis. fuit diuisa. Diuiditur in partes duas.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e585">
-      ¶ Primo 
-      <lb ed="#V" n="26"/>ponit quandam diuisionem peccatorum quasi secundum nomen.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e590">
-      ¶ Secundo aliam 
-      <lb ed="#V" n="27"/>que magis est secundum rem. ibi.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e596">
-      ¶ Preterea sciendum. Et ista in duas 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e598">
-               <lb ed="#V" n="28"/>¶ Primo determinat de peccatis capitalibus in generali.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e603">
-      ¶ Secundo 
-      <lb ed="#V" n="29"/>determinat de peccato in spiritum saecntum in speciali dis. 43 ibi. Et 
-      prae<lb ed="#V" n="30" break="no"/>terea.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e610">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e612">
-      ¶ Primo ponit diuisionem. 7. capita 
-      <lb ed="#V" n="31"/>lium vitiorum.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e617">
-      ¶ Secundo exequitur in speciali de superbia ibi. Ex 
-      su<lb ed="#V" n="32" break="no"/>perbia tantum. Et ista secunda in duas.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e623">
-      ¶ Primo ostendit quod 
-      super<lb ed="#V" n="33" break="no"/>bia radix est omnium malorum.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e628">
-      ¶ Secundo contra hoc arguit et solum 
-      ar<lb ed="#V" n="34" break="no"/>gumentum. ibi. Huic autem videtur obuiare. 
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e633">
-               <lb ed="#V" n="35"/>CIrca hanc distin. de quo principaliter est 
-      <lb ed="#V" n="36"/>quaerendum.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e640">
-      ¶ Primo de 
-      compara<lb ed="#V" n="37" break="no"/>tione exterioris actus ad inordinatum actum 
-      vo<lb ed="#V" n="38" break="no"/>luntatis interiorem.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e647">
-      ¶ Secundo de peccato per compositionem. 
-      <lb ed="#V" n="39"/>ad obligationem ad penam.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e652">
-      ¶ Tertio de peccato per comparationem 
-      <lb ed="#V" n="40"/>ad auersionem et conuersionem.
-   </p>
-            <p xml:id="kzz7yh-f119029-d1e658">
-      ¶ 4o de peccatis quantum ad eorum 
-      di<lb ed="#V" n="41" break="no"/>uisionem et equalitatem.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="168-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f119029"><!-- l2d42prae -->
+        <head xml:id="kzz7yh-f119029-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-f119029-d1e103">
+          <lb ed="#V" n="73"/>¶ An voluntas et actio mala in eodem homine 
+          <lb ed="#V" n="74"/>et circa eandem rem sint vnum peccatum 
+          an<lb ed="#V" n="75" break="no"/>plura. Distin. XIII 
+          <lb ed="#V" n="76"/>Um autem voluntas 
+          ma<lb ed="#V" n="77" break="no"/>ta et 
+          operatio<lb ed="#V" n="78" break="no"/>sint peccatum: queri solet vtrum in eodem 
+          <lb ed="#V" n="79"/>homine et circa eadem rem hec duo vnum sint 
+          <lb ed="#V" n="80"/>peccatum vel diuersa: vt si quis voluntate 
+          fu<lb ed="#V" n="81" break="no"/>ratur: voluntatem habuit malam que peccatum est: et 
+          <lb ed="#V" n="82"/>actum malum qui item peccatum est: hec autem duo diuersa 
+          <lb ed="#V" n="83"/>sunt scilicet voluntas et actio: sed numquid diuersa sunt 
+          <lb ed="#V" n="84"/>peccata an vnum: quidam dicunt vnum esse peccatum: alii vero 
+          <lb ed="#V" n="85"/>dicunt diuersa esse peccata: quia constent hec duo esse 
+          di<lb ed="#V" n="86" break="no"/>uersa: aut diuersa duo peccata dicuntur: aut duo 
+          di<lb ed="#V" n="87" break="no"/>uersa non peccata. Quibus alii respondent: hec duo 
+          diuer<lb ed="#V" n="88" break="no"/>sa esse peccata non plura. Non enim plura peccata sunt: sed 
+          <lb ed="#V" n="89"/>peccatum vnum: quia vna priuaricatio vel iobedientia in 
+          <lb ed="#V" n="90"/>vtroque admittitur siue quando vult: siue quando agit: et vnus 
+          <lb ed="#V" n="91"/>est ibi contemptus: sed minor cum in voluntate solum 
+          <lb ed="#V" n="92"/>peccatum continetur. Maior verocum voluntati est 
+          opera<lb ed="#V" n="93" break="no"/>tio additur: et ideo maius fit peccatum: sed non 
+          plu<lb ed="#V" n="94" break="no"/>ra: cum voluntas operi mancipatur. 
+          </p>
+          <p xml:id="kzz7yh-f119029-d1e153">
+          <lb ed="#V" n="95"/>¶ Alia contra eosdem oppositio. 
+          <lb ed="#V" n="96"/>Sed adhuc eisdem obicitur si vnum 
+          <lb ed="#V" n="97"/>tantum illa duo peccata sunt 
+          <lb ed="#V" n="98"/>cum quis voluntate mala prius concepta: deide opmus 
+          pa<lb ed="#V" n="99" break="no"/>trauerit: non pro aliquo reus est: nisi pro quo ante 
+          <lb ed="#V" n="100"/>opus reus erat: cum adhuc in sola voluntate 
+          pec<lb ed="#V" n="101" break="no"/>catum consistebat. Nullus enim reus est eterne 
+          mor<lb ed="#V" n="102" break="no"/>tis nisi pro peccato: sed peccatum aliud non est admissum 
+          <lb ed="#V" n="103"/>actione quam prius admissum erat voluntate. Non 
+          <lb ed="#V" n="104"/>ergo pro aliquo alio iste sit damnabilis actu 
+          pec<lb ed="#V" n="105" break="no"/>cando quam ante fuerat cum sola voluntate 
+          delin<lb ed="#V" n="106" break="no"/>quebat: ad hoc etiam et illi respondent dicentes: 
+          prte<lb ed="#V" n="107" break="no"/>peccatum quidem tantum illum furem reum constitui quamuis eius 
+          <lb ed="#V" n="108"/>voluntas et actio vnum sint peccatum: pro alio tamen reus 
+          <lb ed="#V" n="109"/>factus est actu peccando quam prius erat sola volunta 
+          <lb ed="#V" n="110"/>te deliquendo: quia pro actu qui est aliud quam 
+          vo<lb ed="#V" n="111" break="no"/>luntas: licet non aliud peccatum. 
+          </p>
+          <p xml:id="kzz7yh-f119029-d1e192">
+          <lb ed="#V" n="112"/>¶ Alia aduersus eosdem obiectio. 
+          <lb ed="#V" n="113"/>Item et adhuc quaestion istant 
+          dicen<lb ed="#V" n="114" break="no"/>tes hoc duo ideo 
+          di<lb ed="#V" n="115" break="no"/>uersa esse peccata: quia diuersorum legis mandatorum 
+          pre<lb ed="#V" n="116" break="no"/>uaricationes sunt: alio enim mandato legis prohibetur 
+          <lb ed="#V" n="117"/>actio furti scilicet non furaberis: alio furandi voluntas: 
+          <lb ed="#V" n="118"/>secet non concupisces rem proximi tui. Cum autem hec 
+          duo<lb ed="#V" n="119" break="no"/>diuersa mandata sint quibus illa duo prohibentur: patet 
+          <lb ed="#V" n="120"/>illa duo diuersas esse puaricationes: diuersa esse 
+          <lb ed="#V" n="121"/>peccata: ad quod est illi dicunt diunsa quidem esse mandata: 
+          <lb ed="#V" n="122"/>quibus illa duo distinctim prohibentur: vt Aug. doca 
+          <lb ed="#V" n="123"/>super Exod. veruntmen in illis non obseruatis vna 
+          tan<lb ed="#V" n="124" break="no"/>tum puaricatio incurritur vnumque contrahitur peccatum: licet 
+          <lb ed="#V" n="125"/>duo diuersa illis prohibeantur. Sicut econuerso¬ 
+          <!-\-00348.xml-\->
+          <pb ed="#V" n="167-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>duo sunt mandata charitatis quibus duo praecipiuntur 
+          <lb ed="#V" n="2"/>diligi: vna tamen in eis: nobis commendatur charitas. 
+          </p>
+          <p xml:id="kzz7yh-f119029-d1e236">
+          <lb ed="#V" n="3"/>¶ Si peccatum ab aliquo admissum: in eo sit 
+          <lb ed="#V" n="4"/>quousque peniteat. 
+          <lb ed="#V" n="5"/>Preterea solet queri cum ab aliquo 
+          prpe<lb ed="#V" n="6" break="no"/>trato voluntate peccato 
+          volun<lb ed="#V" n="7" break="no"/>tas id agendi et actio transierit: nondum tamen vera 
+          ha<lb ed="#V" n="8" break="no"/>bita penitentia: vtrum illud peccatum vsquequo peniteat 
+          <lb ed="#V" n="9"/>sit in eo: Quod non esse vridetur: quia voluntas illa quae prius 
+          <lb ed="#V" n="10"/>fuit non est neque actio: quia neque vult illud vel agit 
+          <lb ed="#V" n="11"/>quod ante voluit et egit. Sed non est ignorandum peccatum 
+          <lb ed="#V" n="12"/>duobus modis dici esse in aliquo et transire scilicet actu 
+          <lb ed="#V" n="13"/>et reatu: actu est in aliquo dum ipsum peccatum est: vt 
+          <lb ed="#V" n="14"/>actio vel voluntas in peccante est. Reatum vero cum 
+          <lb ed="#V" n="15"/>pro eo siue transierit siue assit: mens hominis polluta 
+          <lb ed="#V" n="16"/>est et corrupta: totusque homo suppliciis obligatus 
+          <lb ed="#V" n="17"/>perpetuis: nec vnquam est in aliquo peccatum actu 
+          <lb ed="#V" n="18"/>preter originale: quin sit etiam reatu: sed est 
+          rea<lb ed="#V" n="19" break="no"/>tu interdum postquam transit actu. 
+          </p>
+          <p xml:id="kzz7yh-f119029-d1e276">
+          <lb ed="#V" n="20"/>¶ Quibus modis dicitur in scriptura reatuis. 
+          <lb ed="#V" n="21"/>Reatus in scriptura mltiplicitr 
+          accipitu<lb ed="#V" n="22" break="no"/>scilicet pro clhea: pro peciea: pro obligatione 
+          <lb ed="#V" n="23"/>pene temporalis vel eterne. Si enim mortale est: obligat 
+          <lb ed="#V" n="24"/>nos pene etane: si veiale obligat nos pene temporali. 
+          <lb ed="#V" n="25"/>Duo enim sunt genera peccatorum mortalium scilicet et venialium. 
+          <lb ed="#V" n="26"/>Mortale est per quod ho mortem etuam meretur. Crimen 
+          <lb ed="#V" n="27"/>enim vt ait Aug. est quod est dignum accusatione et 
+          <lb ed="#V" n="28"/>damnatione. Ueniale est quod hominem vsque in 
+          <lb ed="#V" n="29"/>reatum perpetue mortis non grauat: verumta 
+          <lb ed="#V" n="30"/>men meretur: sed facile indulgetur. 
+          </p>
+          <p xml:id="kzz7yh-f119029-d1e302">
+          <lb ed="#V" n="31"/>¶ De modis peccatorum que multipliciter assignantur. 
+          <lb ed="#V" n="32"/>Bodi autem peccatorum varius in 
+          <lb ed="#V" n="33"/>scriptura habent 
+          distin<lb ed="#V" n="34" break="no"/>ctiones in qua dicitur peccatum duobus modis committi scilicet 
+          <lb ed="#V" n="35"/>cupiditate et timore: vt Aug. tradit super illum 
+          lo<lb ed="#V" n="36" break="no"/>cum pslalmum. Incensa igni et suffossa. His enim duobus 
+          <lb ed="#V" n="37"/>modis dicit omnia peccata mortalia includi. Et 
+          incon<lb ed="#V" n="38" break="no"/>sa ea dicit que ex cupiditate male incedente orium 
+          <lb ed="#V" n="39"/>tur. Suffossa vero que ex timore male humiliantem 
+          <lb ed="#V" n="40"/>proueniuut: quod est quando quis cupit non cupienda: vel 
+          tiei<lb ed="#V" n="41" break="no"/>met non timenda: alibi vero dicitur peccatum fieri tribus 
+          mo<lb ed="#V" n="42" break="no"/>dis scilicet cogitatum verbo et opere. Unde Hierony. super 
+          <lb ed="#V" n="43"/>Eech. Tria generalia delicta sunt quibus 
+          huma<lb ed="#V" n="44" break="no"/>num subiacet genus: aut enim cogitatione: aut sermo 
+          <lb ed="#V" n="45"/>ne: aut opere peccamus. His aliquando etiam additur 
+          <lb ed="#V" n="46"/>quartus modus scilicet consuctudinis quod in quadridua 
+          <lb ed="#V" n="47"/>no Lazaro significatum est. Dicitur quoque 
+          homo<lb ed="#V" n="48" break="no"/>peccare in deum: in se et in proximum. In deum cum 
+          <lb ed="#V" n="49"/>de deo male sentit: vt hereticus: vel que dei sunt 
+          <lb ed="#V" n="50"/>vsurpare praesumit indigne participando sacramentis 
+          <lb ed="#V" n="51"/>vel quando nomen dei peierando contemptibile facit. 
+          In<lb ed="#V" n="52" break="no"/>proximum peccat: cum proximum iniuste ledit. 
+          In<lb ed="#V" n="53" break="no"/>se vero cum sibi et non alii nocet. 
+          </p>
+          <p xml:id="kzz7yh-f119029-d1e354">
+          <lb ed="#V" n="54"/>¶ Quomodo differant delictum et peccatum. 
+          <lb ed="#V" n="55"/>Uariam quoque appelatione 
+          <lb ed="#V" n="56"/>oe. Sige io¬ 
+          <!-\-00348.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>peccatum etiam delictum. Et delictum fortasse est: vt autem 
+          <lb ed="#V" n="58"/>Aug. in quaestionibus Leuitici: declinare a bono: 
+          pec<lb ed="#V" n="59" break="no"/>catum est facere malum. Aliud est enim declinare 
+          <lb ed="#V" n="60"/>a bono aliud est facere malum. Peccatum ergo 
+          <lb ed="#V" n="61"/>est perpetratio mali: delictum desertio boni: quod et 
+          <lb ed="#V" n="62"/>ipsum ostendit nomen. Quid enim aliud sonat 
+          deli<lb ed="#V" n="63" break="no"/>ctum nisi derelictum: et qui delinquit: quid dere 
+          <lb ed="#V" n="64"/>linquit nisi bonum. Uel delictum est quod 
+          ignoran<lb ed="#V" n="65" break="no"/>ter sit: peccatum quod scienter committitur. 
+          In<lb ed="#V" n="66" break="no"/>differenter tamen peccatum nomine delicti: et 
+          <lb ed="#V" n="67"/>delictum nomine peccati appellatur. 
+          </p>
+          <p xml:id="kzz7yh-f119029-d1e391">
+          <lb ed="#V" n="68"/>¶ De septem principalibus vitiis. 
+          <lb ed="#V" n="69"/>Propterea sciendum est septen es 
+          vi<lb ed="#V" n="70" break="no"/>tia capitalia vel 
+          princi<lb ed="#V" n="71" break="no"/>palia: vt Grego. super Exod. ait scilicet inanem gliam: 
+          <lb ed="#V" n="72"/>iram: inuidiam: accidiam: vel tristitiam: auaritia: 
+          castri<lb ed="#V" n="73" break="no"/>margiam: luxuriam. Que vt ait Ioan. Chriso. 
+          signi<lb ed="#V" n="74" break="no"/>ficata sunt in septem popostolis qui terram promissionis 
+          <lb ed="#V" n="75"/>israeli promissam tenebant. De his quasi septem 
+          <lb ed="#V" n="76"/>fontibus cuncte animarum mortifere corruptele 
+          ema<lb ed="#V" n="77" break="no"/>nant. Et dicuntur hec capitalia: quia ex eis 
+          oriun<lb ed="#V" n="78" break="no"/>tur omnia mala. Nullum enim malum est: quod etiam 
+          <lb ed="#V" n="79"/>non ab aliquo horum originem trahat. 
+          </p>
+          <p xml:id="kzz7yh-f119029-d1e420">
+          <lb ed="#V" n="80"/>¶ De superbia que est radix omnis mali. 
+          <lb ed="#V" n="81"/>Ex superbia tamen omnia mala 
+          oriun<lb ed="#V" n="82" break="no"/>tur et hoc et alia: quia vt 
+          <lb ed="#V" n="83"/>ait Greg. Radix cuncti mali est superbia: de qua 
+          <lb ed="#V" n="84"/>dicitur. Initium omnis peccati est superbia: que est amor 
+          pro<lb ed="#V" n="85" break="no"/>prie excellentie. Cuius quatuor sunt species vt Gre. 
+          <lb ed="#V" n="86"/>ait. Prima est cum bonum quod habet quis sibi 
+          attri<lb ed="#V" n="87" break="no"/>buit. Secunda cum credit a deo esse datum: sed tamen 
+          <lb ed="#V" n="88"/>pro suis meritis. Tertia cum se iactat habere quod non 
+          <lb ed="#V" n="89"/>habet. Quarta cum ceteris despectis singulariter 
+          <lb ed="#V" n="90"/>vult videri. Merito ergo radixominis mali dicitur 
+          su<lb ed="#V" n="91" break="no"/>perbia. Huic autem videtur obuiare quod apostolus ait. 
+          Ra<lb ed="#V" n="92" break="no"/>dixomnium malorum est cupiditas: quia si radix. omnium 
+          <lb ed="#V" n="93"/>malorum est cupiditas: ergo superbie. Quomodo 
+          <lb ed="#V" n="94"/>ergo superbia radix est et initium omnis peccati. 
+          </p>
+          <p xml:id="kzz7yh-f119029-d1e455">
+          <lb ed="#V" n="95"/>¶ Quo sensu vtrumque radix dicatur omnium 
+          ma<lb ed="#V" n="96" break="no"/>lorum scilicet et superbia et cupiditas. 
+          <lb ed="#V" n="97"/>Sed vtrumque recte dictum esse 
+          intel<lb ed="#V" n="98" break="no"/>ligitur: si genera 
+          pec<lb ed="#V" n="99" break="no"/>catorum singulorum non singula generum vtraque 
+          locu<lb ed="#V" n="100" break="no"/>tione includitur intelligantur. Nullum quppe genus 
+          <lb ed="#V" n="101"/>peccati est: quod interdum ex superbia non proueniat. 
+          <lb ed="#V" n="102"/>Nullum est quod excupiditate aliquando non descendat 
+          <lb ed="#V" n="103"/>Sunt enim nonnulli hominum qui ex cupiditate fiunt 
+          <lb ed="#V" n="104"/>superbi: et aliqui ex superbia siunt cupidi. Est enim vt ait 
+          <lb ed="#V" n="105"/>Aug. homo quo non esset amator pecunie: nisi per hoc 
+          <lb ed="#V" n="106"/>putaret se excellentiorem esse: ideoque vt excellat 
+          diui<lb ed="#V" n="107" break="no"/>tias cupit. Tali homin ex superbia oboritur cupiditas 
+          <lb ed="#V" n="108"/>et est aliquis qui non amaret excellere: nisi putaret 
+          <lb ed="#V" n="109"/>per hoc diuitias maiores habere. Ideo ergo excel 
+          <lb ed="#V" n="110"/>lere laborat: quia diuitias habere amat. Huic 
+          <lb ed="#V" n="111"/>innascitur superbia idest amor excellentie 
+          excu<lb ed="#V" n="112" break="no"/>periditate. Patet ergo quod ex superbia aliquando 
+          <!-\-00349.xml-\->
+          <pb ed="#V" n="168-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>cupiditas: et ex cupiditate aliquando superbia 
+          <lb ed="#V" n="2"/>oritur: et ideo de vtraque recte dicitur quod sit radix 
+          <lb ed="#V" n="3"/>omnis mali.
+          </p>-->
+        <p xml:id="kzz7yh-f119029-d1e106">
+          Dist. XLII. 
+          <lb ed="#V" n="4"/>CUm autem voluntas etc. Superius 
+          deter<lb ed="#V" n="5" break="no"/>minat Magister de comparatione 
+          <lb ed="#V" n="6"/>voluntatis ad finem: et de comparatione actus exterioris ad 
+          <lb ed="#V" n="7"/>lifinem: et de comparatione eorum ad subiectum
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e519">
+          ¶ Hic 
+          determi<lb ed="#V" n="8" break="no"/>nat de comparatione voluntatis ad exteriorem actum. Et 
+          <lb ed="#V" n="9"/>diuiditur in partes duas.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e526">
+          ¶ Primo inquirit si malus 
+          volunta<lb ed="#V" n="10" break="no"/>tis actus interior et actus exterior sunt duo peccata vel vnum. 
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e531">
+          <lb ed="#V" n="11"/>¶ Secundo vtrum malo actu interiori et exteriori transeunte 
+          re<lb ed="#V" n="12" break="no"/>maneat in homine peccatum ibi.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e538">
+          ¶ Preterea quaeri solet.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e540">
+          ¶ Prima 
+          <lb ed="#V" n="13"/>in duas.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e545">
+          ¶ Primo mouet quaestionem: et de quaestione ponit 
+          duplicen<lb ed="#V" n="14" break="no"/>opinionem.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e551">
+          ¶ Secundo principaliter prosequitur primam. ibi. Quibus alii 
+          <lb ed="#V" n="15"/>respondent. Et ista in tres: secundum tres solutiones ad tres instantias quas 
+          <lb ed="#V" n="16"/>ponebant aliqui contra primam opinionem. 2o ibi. Sed adhuc. 13o ibi. 
+          <lb ed="#V" n="17"/>Item adhuc. Pars illa quae ibi incipit.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e560">
+          ¶ Preterea quaeri solet 
+          <lb ed="#V" n="18"/>Diuiditur in duas partes.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e565">
+          ¶ Primo quaerit vtrum actu 
+          interiori<lb ed="#V" n="19" break="no"/>et exteriori transeunte aliquo modo remaneat peccatum: et respondet 
+          <lb ed="#V" n="20"/>ad quaestionem.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e572">
+          ¶ Secundo incidenter ponit quandam reatus diuisionem 
+          <lb ed="#V" n="21"/>ibi Reatus autem. Illa pars quae ibi incipit. Modi autem peccatorum. 
+          <lb ed="#V" n="22"/>In qui determinat de modis peccandi: quae diuisa fuit contra partes 
+          <lb ed="#V" n="23"/>alias a dist. 34. remaneat indiuisa. Illa autem quae ibi incipit. 
+          <lb ed="#V" n="24"/>(Uariam quoque. In quae determinat de differentiis quae contra partes 
+          <lb ed="#V" n="25"/>alias a 34. dis. fuit diuisa. Diuiditur in partes duas.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e585">
+          ¶ Primo 
+          <lb ed="#V" n="26"/>ponit quandam diuisionem peccatorum quasi secundum nomen.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e590">
+          ¶ Secundo aliam 
+          <lb ed="#V" n="27"/>que magis est secundum rem. ibi.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e596">
+          ¶ Preterea sciendum. Et ista in duas 
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e598">
+          <lb ed="#V" n="28"/>¶ Primo determinat de peccatis capitalibus in generali.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e603">
+          ¶ Secundo 
+          <lb ed="#V" n="29"/>determinat de peccato in spiritum saecntum in speciali dis. 43 ibi. Et 
+          prae<lb ed="#V" n="30" break="no"/>terea.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e610">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e612">
+          ¶ Primo ponit diuisionem. 7. capita 
+          <lb ed="#V" n="31"/>lium vitiorum.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e617">
+          ¶ Secundo exequitur in speciali de superbia ibi. Ex 
+          su<lb ed="#V" n="32" break="no"/>perbia tantum. Et ista secunda in duas.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e623">
+          ¶ Primo ostendit quod 
+          super<lb ed="#V" n="33" break="no"/>bia radix est omnium malorum.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e628">
+          ¶ Secundo contra hoc arguit et solum 
+          ar<lb ed="#V" n="34" break="no"/>gumentum. ibi. Huic autem videtur obuiare. 
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e633">
+          <lb ed="#V" n="35"/>CIrca hanc distin. de quo principaliter est 
+          <lb ed="#V" n="36"/>quaerendum.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e640">
+          ¶ Primo de 
+          compara<lb ed="#V" n="37" break="no"/>tione exterioris actus ad inordinatum actum 
+          vo<lb ed="#V" n="38" break="no"/>luntatis interiorem.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e647">
+          ¶ Secundo de peccato per compositionem. 
+          <lb ed="#V" n="39"/>ad obligationem ad penam.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e652">
+          ¶ Tertio de peccato per comparationem 
+          <lb ed="#V" n="40"/>ad auersionem et conuersionem.
+        </p>
+        <p xml:id="kzz7yh-f119029-d1e658">
+          ¶ 4o de peccatis quantum ad eorum 
+          di<lb ed="#V" n="41" break="no"/>uisionem et equalitatem.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

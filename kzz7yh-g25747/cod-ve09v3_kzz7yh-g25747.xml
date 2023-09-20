@@ -1,336 +1,338 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="37-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g25747"><!-- l3d13prae -->
-            <head xml:id="kzz7yh-g25747-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-g25747-d1e103">
-               <lb ed="#V" n="12"/>¶ Si christus secundum naturam hominis in sapientia et 
-      gra<lb ed="#V" n="13" break="no"/>tia proficere potuit vel profecit. Distinctio XIII
-    </p>
-            <p xml:id="kzz7yh-g25747-d1e110">
-               <lb ed="#V" n="14"/>PReterea sciendum est 
-      chri<lb ed="#V" n="15" break="no"/>stum secundum hominem 
-      <lb ed="#V" n="16"/>ab ipsa conceptione gratie plenitudinem 
-      <lb ed="#V" n="17"/>srecepisse: cui spiritus datus est non ad 
-      <lb ed="#V" n="18"/>mensuram et in quo plenitudo 
-      diuini<lb ed="#V" n="19" break="no"/>tatis corporaliter habitat. Ita vero habitat vt 
-      <lb ed="#V" n="20"/>ait Aug. ad dardanum: quod omni gratia plenus 
-      <lb ed="#V" n="21"/>est. Non ita habitat in sanctis vt in nostro 
-      cor<lb ed="#V" n="22" break="no"/>pore inest sensus singulis membris: sed non 
-      quan<lb ed="#V" n="23" break="no"/>tum in capite. Ibi enim et visus est: et auditus: 
-      <lb ed="#V" n="24"/>et olfatus et gustus et tactus. In ceteris autem 
-      <lb ed="#V" n="25"/>solus est tactus. Ita in christo habitat omnis 
-      <lb ed="#V" n="26"/>plenitudo diuinitatis: quia ille est caput in quo 
-      <lb ed="#V" n="27"/>sunt omnes sensus: in sanctis vero qua si solus 
-      <lb ed="#V" n="28"/>tactus est: quibus datus est spiritus ad mensu 
-      <lb ed="#V" n="29"/>ram cum de illius plenitudine acceperunt. Ac 
-      <lb ed="#V" n="30"/>ceperunt autem de illius plenitudine non secundum 
-      <lb ed="#V" n="31"/>essentiam: sed secundum similitudinem: quia nunquam illam 
-      <lb ed="#V" n="32"/>eandem essentialiter: sed similem acceperunt 
-      gra<lb ed="#V" n="33" break="no"/>tiam. Puer ergo ille plenus sapientia et gratia 
-      <lb ed="#V" n="34"/>fuit ab ipsa conceptione. Unde Hiere. recte 
-      di<lb ed="#V" n="35" break="no"/>cit. Nouum faciet dominus super terram: 
-      mu<lb ed="#V" n="36" break="no"/>lier circundabit virum: quia in vtero virginis 
-      perfe<lb ed="#V" n="37" break="no"/>ctus vir extitit non solum propter animam et 
-      car<lb ed="#V" n="38" break="no"/>nem: sed etiam propter sapientiam et gratiam 
-      <lb ed="#V" n="39"/>qua plenus erat. 
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e169">
-               <lb ed="#V" n="40"/>¶ Auctoritatem ponit que videtur obuiare. 
-      <lb ed="#V" n="41"/>Huic autem sententie videtur 
-      ob<lb ed="#V" n="42" break="no"/>uiare: quod in luce euam 
-      <lb ed="#V" n="43"/>gelio legitur. Iesus proficiebat sapientia et eta 
-      <lb ed="#V" n="44"/>te et gratia apud deum et homines. Si enim 
-      pro<lb ed="#V" n="45" break="no"/>ficiebat sapientia et gratia: non videtur a 
-      conce<lb ed="#V" n="46" break="no"/>ptione habuisse plenitudinem gratie sine 
-      men<lb ed="#V" n="47" break="no"/>sura. Ad quod sane dici potest ipsum secundum 
-      homi<lb ed="#V" n="48" break="no"/>nem tantam a conceptione accepisse sapientie 
-      <lb ed="#V" n="49"/>et gratie plenitudinem vt deus ei plenius 
-      confer<lb ed="#V" n="50" break="no"/>re non potuerit: et tamen vere dicitur profecisse 
-      <lb ed="#V" n="51"/>sapientia et gratia non quidem in se: sed in aliis 
-      <lb ed="#V" n="52"/>qui de eius sapientia et gratia proficiebant: dum 
-      <lb ed="#V" n="53"/>eis sapientie et gratie munera secundum processum eta 
-      <lb ed="#V" n="54"/>tis magis ac magis patefaciebat. Unde Grego. 
-      <lb ed="#V" n="55"/>in quadam Homelis ait. Iuxta hominis 
-      natu<lb ed="#V" n="56" break="no"/>ram proficiebat sapientia: non quod ipse sapientior 
-      <lb ed="#V" n="57"/>esset ex tempore: quia prima conceptionis 
-      hora<lb ed="#V" n="58" break="no"/>spiritu sapientie plenus permanebat: sed ean¬ 
-      <!--00085.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="59"/>dem qua plenus erat sapientiam ceteris ex 
-      tem<lb ed="#V" n="60" break="no"/>pore paulatim demonstrabat. Iuxta hominis 
-      <lb ed="#V" n="61"/>naturam proficiebat etate de infantia ad 
-      iuuen<lb ed="#V" n="62" break="no"/>tutem. Iuxta hominis naturam proficiebat 
-      gra<lb ed="#V" n="63" break="no"/>tia: non ipse quod non habebat per accessum 
-      tem<lb ed="#V" n="64" break="no"/>poris accipiendo: sed pandendo donum gratie 
-      <lb ed="#V" n="65"/>quod habebat. Apud deum et homines 
-      profi<lb ed="#V" n="66" break="no"/>ciebat: quia quantumiproficiente etate 
-      patefacie<lb ed="#V" n="67" break="no"/>bat hominibus dona gratie que sibi inerant et 
-      sa<lb ed="#V" n="68" break="no"/>pientie: tantum eos ad laudem dei excitabat: et 
-      <lb ed="#V" n="69"/>sic deo patri ad laudem dei et hominibus ad 
-      sa<lb ed="#V" n="70" break="no"/>lutem proficiebat. In aliis ergo non in se 
-      profi<lb ed="#V" n="71" break="no"/>ciebat sepientia et gratia. Unde in eodem 
-      euan<lb ed="#V" n="72" break="no"/>gelio puer ille sapientia plenus et gratia perhi 
-      <lb ed="#V" n="73"/>betur. Sic ergo dicitur profecisse sapientia et 
-      gra<lb ed="#V" n="74" break="no"/>tia vt aliquis rector ecclesiasticus dicitur 
-      pro<lb ed="#V" n="75" break="no"/>ficere in cura sibi tradita cum per eius 
-      indu<lb ed="#V" n="76" break="no"/>striam alii proficiunt. 
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e256">
-               <lb ed="#V" n="77"/>¶ Predictis videtur aduersari quod Ambrosius ait. 
-      <lb ed="#V" n="78"/>Alibi tamen scriptum reperitur quod 
-      <lb ed="#V" n="79"/>secundum sensum hominis 
-      <lb ed="#V" n="80"/>profecerit: sicut etate hominis profecit. Ait enim 
-      <lb ed="#V" n="81"/>Ambrosius in lib. iii. de spiritu sancto sic. Deus 
-      <lb ed="#V" n="82"/>perfectionem nature suscepit humane. 
-      Susce<lb ed="#V" n="83" break="no"/>pit sensum hominis: sed non sensu carnis fuit 
-      in<lb ed="#V" n="84" break="no"/>flatus. Sensum hominis animam dixit 
-      contur<lb ed="#V" n="85" break="no"/>batam sensu hominis esuriuit et rogauit: 
-      sensu<lb ed="#V" n="86" break="no"/>hominis profecit sicut scriptum est. Iseus 
-      profi<lb ed="#V" n="87" break="no"/>ciebat etate: et sapientia et gratia. Quomodo 
-      profi<lb ed="#V" n="88" break="no"/>ciebat sapientia dei. Profectus etatis profectus 
-      <lb ed="#V" n="89"/>sapientie non diuine: sed humane nature est. 
-      Ido<lb ed="#V" n="90" break="no"/>etatem commemorauit: vt secundum hominem crederes 
-      <lb ed="#V" n="91"/>dictum. Etas enim non diuinitatis: sed corporis 
-      <lb ed="#V" n="92"/>est. Ergo si proficiebat etate hominis 
-      proficie<lb ed="#V" n="93" break="no"/>bat sapientia hominis. Sensus autem profecit 
-      <lb ed="#V" n="94"/>quia sensus ideo sapientia. Quis sensus 
-      profi<lb ed="#V" n="95" break="no"/>ciebat: Si humanus: ergo susceptus est ipse: 
-      Si<lb ed="#V" n="96" break="no"/>diuinus: ergo mutabilis per profectum. Quod enim 
-      <lb ed="#V" n="97"/>proficit mutatur in melius: sed quod diuinum est non 
-      <lb ed="#V" n="98"/>mutatur. Quod ergo mutatur: non est diuinum 
-      <lb ed="#V" n="99"/>Sensus ergo proficiebat humanus: 
-      Sensum<lb ed="#V" n="100" break="no"/>ergo suscepit humanum. Nec poterat confortari 
-      <lb ed="#V" n="101"/>virtus dei: nec crescere deus: nec altitudo 
-      sapien<lb ed="#V" n="102" break="no"/>tie dei impleri. Que ergo implebatur non erat 
-      <lb ed="#V" n="103"/>dei: sed nostra sapientia. Nam quomodo 
-      imple<lb ed="#V" n="104" break="no"/>batur qui vt omnia impleret descendit. Per 
-      <lb ed="#V" n="105"/>quem autem sensum dixit Esa. quod patrem nescie 
-      <lb ed="#V" n="106"/>bat puer aut matrem. Scriptum est enim. 
-      Pri<lb ed="#V" n="107" break="no"/>usquam scientiat puer patrem aut matrem accipiet 
-      spo<lb ed="#V" n="108" break="no"/>lia samarie. Sapientiam enim dei futura et 
-      oc<lb ed="#V" n="109" break="no"/>culta non fallunt. Expers autem agnitionis 
-      in<lb ed="#V" n="110" break="no"/>fantia: per humanam vtique imprudentiam quod 
-      <lb ed="#V" n="111"/>adhuc non didicit ignorat. Sed verendum est 
-      in<lb ed="#V" n="112" break="no"/>quam ne si duos principales sensus aut geminam 
-      <lb ed="#V" n="113"/>sapientiam christo tribuimus: christum 
-      diuida<lb ed="#V" n="114" break="no"/>mus. Numquid cum et diuinitatem eius et carnen¬ 
-      <!--00086.xml-->
-      <pb ed="#V" n="37-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>adoramus: christum diuidimus: Nunquid cum 
-      <lb ed="#V" n="2"/>in eo imaginem dei crucemque veneramur: 
-      diui<lb ed="#V" n="3" break="no"/>dimus eum: Apostolus certe qui de eo dixit. 
-      <lb ed="#V" n="4"/>Quoniam et si crucifixus est ex infirmitate 
-      no<lb ed="#V" n="5" break="no"/>stre: viuit tamen ex virtute dei. Ipse dixit quia 
-      <lb ed="#V" n="6"/>non diuisus est christus. Nunquid etiam cum 
-      di<lb ed="#V" n="7" break="no"/>cimus: quia animam rationalem et intellectus 
-      <lb ed="#V" n="8"/>nostri suscepit capacem diuidimus eum: Non 
-      <lb ed="#V" n="9"/>enim ipse deus verbum pro anima rationali et 
-      <lb ed="#V" n="10"/>intellectus capaci in carne sua fuit: sed animam 
-      <lb ed="#V" n="11"/>rationalem et intellectus capacem: et ipsam 
-      huma<lb ed="#V" n="12" break="no"/>nam et eiusdem substantie: cuius nostre sunt anime 
-      <lb ed="#V" n="13"/>et carnem nostre similem eiusdemque cuius caro est nostre 
-      <lb ed="#V" n="14"/>substantie suscipiens perfectus etiam homo fuit. 
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e379">
-               <lb ed="#V" n="15"/>¶ De intelligentia premissorum verborum. 
-      <lb ed="#V" n="16"/>ec verba ambrosi pia diligentia 
-      <lb ed="#V" n="17"/>inspicienda sunt que ex 
-      <lb ed="#V" n="18"/>parte hominis ignorantiam instruunt et illumi 
-      <lb ed="#V" n="19"/>nant: ex parte errandi fomitem male intellecta 
-      <lb ed="#V" n="20"/>ministrant. His et enim euidenter traditur 
-      du<lb ed="#V" n="21" break="no"/>os in christo esse principales sensus siue 
-      gemi<lb ed="#V" n="22" break="no"/>nam sapientiam. Neque ideo vnitas et 
-      fingulari<lb ed="#V" n="23" break="no"/>tas persone diuiditur. Sed iuxta duas 
-      natu<lb ed="#V" n="24" break="no"/>ras duas habet sapientias: vnem non creatam: 
-      <lb ed="#V" n="25"/>sed genitam: que ipse est: alteram non genitam: sed 
-      <lb ed="#V" n="26"/>creatam: et per gratiam ei collatam. Nam Esaias 
-      <lb ed="#V" n="27"/>de eo protestatur. Requiescet super eum 
-      spiri<lb ed="#V" n="28" break="no"/>tus sapientie et intellectus etc. Spiritu ergo 
-      sa<lb ed="#V" n="29" break="no"/>pientie et intellectus: idest sapientia et 
-      intelligen<lb ed="#V" n="30" break="no"/>tia per spiritum sanctum gratis data: christus erat 
-      <lb ed="#V" n="31"/>sapiens secundum animam. Secundum deum vero 
-      <lb ed="#V" n="32"/>sapiens erat sapientia eterna que deus est. Et 
-      <lb ed="#V" n="33"/>sicut inquantum deus est: bonus est bonitate 
-      <lb ed="#V" n="34"/>naturali que ipse est: et iustus iustitia naturali 
-      quae<lb ed="#V" n="35" break="no"/>ipse est: ita sapiens sapientia naturali: que ipse 
-      <lb ed="#V" n="36"/>est. Anima vero eius sicut bona est et iusta 
-      bo<lb ed="#V" n="37" break="no"/>nitate vel iustitia gratis data: que ipse vel ipsa 
-      <lb ed="#V" n="38"/>non est: ita est sapiens sapientia gratis data: que 
-      <lb ed="#V" n="39"/>ipsa non est. Et licet gemina in christo sit 
-      sapien<lb ed="#V" n="40" break="no"/>tia: vna tamen eademque persona est: que 
-      inquan<lb ed="#V" n="41" break="no"/>tum deus est: et inquantum natura diuina est: 
-      <lb ed="#V" n="42"/>sapiens est sapientia ingenita: scilicet sapientia 
-      eter<lb ed="#V" n="43" break="no"/>na que est pater: et sapientia que non est 
-      ingeni<lb ed="#V" n="44" break="no"/>ta que communis est tribus personis: non tamen 
-      <lb ed="#V" n="45"/>gemina sapientia: quia non est alia et alia 
-      sapien<lb ed="#V" n="46" break="no"/>tia sapientie ingenita: que tantum filius est: et 
-      <lb ed="#V" n="47"/>sapientia que communiter pater est: et filius et 
-      spi<lb ed="#V" n="48" break="no"/>ritus sanctus. Inquantum vero eadem 
-      perso<lb ed="#V" n="49" break="no"/>na est homo: idest secundum hominem acceptum: vel 
-      <lb ed="#V" n="50"/>inquantum est subsistens ex anima et carne 
-      sa<lb ed="#V" n="51" break="no"/>piens est sapientia gratuita. Sapiens ergo est 
-      <lb ed="#V" n="52"/>humano sensu et diuino. 
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e464">
-               <lb ed="#V" n="53"/>¶ Quomodo intelligendum sit illud: sensus 
-      pro<lb ed="#V" n="54" break="no"/>ficiebat humanus. 
-      <lb ed="#V" n="55"/>Sed exr qua causa inius 
-      dictintei<lb ed="#V" n="56" break="no"/>ligentia: scilicet sensus pro 
-      <!--00086.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>ficiebat humanus: assumenda est: Aperte enim 
-      <lb ed="#V" n="58"/>videtur Ambrosius innuere quod secundum humanum 
-      <lb ed="#V" n="59"/>sensum christus profecerit: et quod infantia eius 
-      ex<lb ed="#V" n="60" break="no"/>pers cognitionis fuerit: et patrem et matrem 
-      igno<lb ed="#V" n="61" break="no"/>rauerit: quod nec ecclesia recipit: nec premisse 
-      au<lb ed="#V" n="62" break="no"/>ctoritates patiuntur sic intelligi. Sed ita sane 
-      <lb ed="#V" n="63"/>potest accipi vt quantum ad visum hominum 
-      <lb ed="#V" n="64"/>et sui sensus ostensionem christus profecisse dica 
-      <lb ed="#V" n="65"/>tur. Proficiebat ergo humanus sensus in eo secundum 
-      <lb ed="#V" n="66"/>ostensionem et aliorum hominum opinionem. 
-      <lb ed="#V" n="67"/>Ita etiam patrem et matrem dicitur ignorasse 
-      <lb ed="#V" n="68"/>in infantia: quia ita se habebat et gerebat ac 
-      si<lb ed="#V" n="69" break="no"/>agnitionis expers esset. 
-      <lb ed="#V" n="70"/>Reterea sciendum est etc. Hucusque 
-      de<lb ed="#V" n="71" break="no"/>terminauit Magister de inchoa 
-      <lb ed="#V" n="72"/>tione restaurattionis: seu redemptionis: que fuit 
-      <lb ed="#V" n="73"/>lin ipsa verbi dei incarunatione. Hic determinat 
-      <lb ed="#V" n="74"/>de progressu qui fuit in christi conuersatione et 
-      ope<lb ed="#V" n="75" break="no"/>ratione. Et diuiditur in partes duas.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e521">
-      ¶ Primo 
-      determi<lb ed="#V" n="76" break="no"/>nat de his que filius dei cum humana natura assumpsit: 
-      <lb ed="#V" n="77"/>et de his que per naturam humanam operatus est. distin. 17 
-      <lb ed="#V" n="78"/>ibi. Post praedicta.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e530">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e532">
-      ¶ Primo 
-      determi<lb ed="#V" n="79" break="no"/>nat de perfectionibus: quas filius dei cum humana 
-      natu<lb ed="#V" n="80" break="no"/>ra assumpsit.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e539">
-      ¶ Secundo de defectibus cum eadem 
-      assum<lb ed="#V" n="81" break="no"/>ptis. dist. 15. ibi. Illud quoque. Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e545">
-      ¶ Primo 
-      <lb ed="#V" n="82"/>determinat de perfectionibus cum humana natura 
-      assum<lb ed="#V" n="83" break="no"/>ptis absolute.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e552">
-      ¶ Secundo per comparationem ad 
-      perfectio<lb ed="#V" n="84" break="no"/>nem diuine nature sequenti dist. ibi. Hic queri opus est. 
-      <lb ed="#V" n="85"/>Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e559">
-      ¶ Primo ostendit christum habuisse ab 
-      in<lb ed="#V" n="86" break="no"/>stanti sue conceptionis scientie et gratie plenitudinem. 
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e564">
-               <lb ed="#V" n="87"/>¶ Secundo opponit ad contrarium et oppositiones suas 
-      <lb ed="#V" n="88"/>soluit. ibi. Huic sententie videtur obuiare. Et ista in duas. 
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e571">
-               <lb ed="#V" n="89"/>¶ Primo opponit per verbum euangelii.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e576">
-      ¶ Secundo per 
-      <lb ed="#V" n="90"/>verba Ambrosii ibi. Alibi tanen.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e582">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e584">
-      ¶ 
-      Pri<lb ed="#V" n="91" break="no"/>mo opponit.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e589">
-      ¶ Secundo soluit. secunda ibi Ad quod 
-      sa<lb ed="#V" n="92" break="no"/>ne. Illa pars que ibi incipit. Alibi tamen. Diuiditur in 
-      <lb ed="#V" n="93"/>duas.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e596">
-      ¶ Primo opponit per auctoritatem ambro.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e598">
-      ¶ 
-      Se<lb ed="#V" n="94" break="no"/>cundo soluit ibi. Hec verba Ambrosii. 
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e603">
-               <lb ed="#V" n="95"/>CIrca hanc dist. querendum est 
-      prin<lb ed="#V" n="96" break="no"/>cipaliter de tribus.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e611">
-      ¶ 
-      Pri<lb ed="#V" n="97" break="no"/>mo de gratia christi secundum quod est singularis homo
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e616">
-      ¶ 
-      Se<lb ed="#V" n="98" break="no"/>cundo de gratia eius: inquantum est caput ec 
-      <lb ed="#V" n="99"/>clesie.
-   </p>
-            <p xml:id="kzz7yh-g25747-d1e623">
-      ¶ Tertio de gratia vnionis humane nature ad 
-      per<lb ed="#V" n="100" break="no"/>sonam.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="37-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g25747"><!-- l3d13prae -->
+        <head xml:id="kzz7yh-g25747-Hd1e101">Praeambulum</head>
+        <!--            <p xml:id="kzz7yh-g25747-d1e103">
+          <lb ed="#V" n="12"/>¶ Si christus secundum naturam hominis in sapientia et 
+          gra<lb ed="#V" n="13" break="no"/>tia proficere potuit vel profecit. Distinctio XIII
+          </p>
+          <p xml:id="kzz7yh-g25747-d1e110">
+          <lb ed="#V" n="14"/>PReterea sciendum est 
+          chri<lb ed="#V" n="15" break="no"/>stum secundum hominem 
+          <lb ed="#V" n="16"/>ab ipsa conceptione gratie plenitudinem 
+          <lb ed="#V" n="17"/>srecepisse: cui spiritus datus est non ad 
+          <lb ed="#V" n="18"/>mensuram et in quo plenitudo 
+          diuini<lb ed="#V" n="19" break="no"/>tatis corporaliter habitat. Ita vero habitat vt 
+          <lb ed="#V" n="20"/>ait Aug. ad dardanum: quod omni gratia plenus 
+          <lb ed="#V" n="21"/>est. Non ita habitat in sanctis vt in nostro 
+          cor<lb ed="#V" n="22" break="no"/>pore inest sensus singulis membris: sed non 
+          quan<lb ed="#V" n="23" break="no"/>tum in capite. Ibi enim et visus est: et auditus: 
+          <lb ed="#V" n="24"/>et olfatus et gustus et tactus. In ceteris autem 
+          <lb ed="#V" n="25"/>solus est tactus. Ita in christo habitat omnis 
+          <lb ed="#V" n="26"/>plenitudo diuinitatis: quia ille est caput in quo 
+          <lb ed="#V" n="27"/>sunt omnes sensus: in sanctis vero qua si solus 
+          <lb ed="#V" n="28"/>tactus est: quibus datus est spiritus ad mensu 
+          <lb ed="#V" n="29"/>ram cum de illius plenitudine acceperunt. Ac 
+          <lb ed="#V" n="30"/>ceperunt autem de illius plenitudine non secundum 
+          <lb ed="#V" n="31"/>essentiam: sed secundum similitudinem: quia nunquam illam 
+          <lb ed="#V" n="32"/>eandem essentialiter: sed similem acceperunt 
+          gra<lb ed="#V" n="33" break="no"/>tiam. Puer ergo ille plenus sapientia et gratia 
+          <lb ed="#V" n="34"/>fuit ab ipsa conceptione. Unde Hiere. recte 
+          di<lb ed="#V" n="35" break="no"/>cit. Nouum faciet dominus super terram: 
+          mu<lb ed="#V" n="36" break="no"/>lier circundabit virum: quia in vtero virginis 
+          perfe<lb ed="#V" n="37" break="no"/>ctus vir extitit non solum propter animam et 
+          car<lb ed="#V" n="38" break="no"/>nem: sed etiam propter sapientiam et gratiam 
+          <lb ed="#V" n="39"/>qua plenus erat. 
+          </p>
+          <p xml:id="kzz7yh-g25747-d1e169">
+          <lb ed="#V" n="40"/>¶ Auctoritatem ponit que videtur obuiare. 
+          <lb ed="#V" n="41"/>Huic autem sententie videtur 
+          ob<lb ed="#V" n="42" break="no"/>uiare: quod in luce euam 
+          <lb ed="#V" n="43"/>gelio legitur. Iesus proficiebat sapientia et eta 
+          <lb ed="#V" n="44"/>te et gratia apud deum et homines. Si enim 
+          pro<lb ed="#V" n="45" break="no"/>ficiebat sapientia et gratia: non videtur a 
+          conce<lb ed="#V" n="46" break="no"/>ptione habuisse plenitudinem gratie sine 
+          men<lb ed="#V" n="47" break="no"/>sura. Ad quod sane dici potest ipsum secundum 
+          homi<lb ed="#V" n="48" break="no"/>nem tantam a conceptione accepisse sapientie 
+          <lb ed="#V" n="49"/>et gratie plenitudinem vt deus ei plenius 
+          confer<lb ed="#V" n="50" break="no"/>re non potuerit: et tamen vere dicitur profecisse 
+          <lb ed="#V" n="51"/>sapientia et gratia non quidem in se: sed in aliis 
+          <lb ed="#V" n="52"/>qui de eius sapientia et gratia proficiebant: dum 
+          <lb ed="#V" n="53"/>eis sapientie et gratie munera secundum processum eta 
+          <lb ed="#V" n="54"/>tis magis ac magis patefaciebat. Unde Grego. 
+          <lb ed="#V" n="55"/>in quadam Homelis ait. Iuxta hominis 
+          natu<lb ed="#V" n="56" break="no"/>ram proficiebat sapientia: non quod ipse sapientior 
+          <lb ed="#V" n="57"/>esset ex tempore: quia prima conceptionis 
+          hora<lb ed="#V" n="58" break="no"/>spiritu sapientie plenus permanebat: sed ean¬ 
+          <!-\-00085.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="59"/>dem qua plenus erat sapientiam ceteris ex 
+          tem<lb ed="#V" n="60" break="no"/>pore paulatim demonstrabat. Iuxta hominis 
+          <lb ed="#V" n="61"/>naturam proficiebat etate de infantia ad 
+          iuuen<lb ed="#V" n="62" break="no"/>tutem. Iuxta hominis naturam proficiebat 
+          gra<lb ed="#V" n="63" break="no"/>tia: non ipse quod non habebat per accessum 
+          tem<lb ed="#V" n="64" break="no"/>poris accipiendo: sed pandendo donum gratie 
+          <lb ed="#V" n="65"/>quod habebat. Apud deum et homines 
+          profi<lb ed="#V" n="66" break="no"/>ciebat: quia quantumiproficiente etate 
+          patefacie<lb ed="#V" n="67" break="no"/>bat hominibus dona gratie que sibi inerant et 
+          sa<lb ed="#V" n="68" break="no"/>pientie: tantum eos ad laudem dei excitabat: et 
+          <lb ed="#V" n="69"/>sic deo patri ad laudem dei et hominibus ad 
+          sa<lb ed="#V" n="70" break="no"/>lutem proficiebat. In aliis ergo non in se 
+          profi<lb ed="#V" n="71" break="no"/>ciebat sepientia et gratia. Unde in eodem 
+          euan<lb ed="#V" n="72" break="no"/>gelio puer ille sapientia plenus et gratia perhi 
+          <lb ed="#V" n="73"/>betur. Sic ergo dicitur profecisse sapientia et 
+          gra<lb ed="#V" n="74" break="no"/>tia vt aliquis rector ecclesiasticus dicitur 
+          pro<lb ed="#V" n="75" break="no"/>ficere in cura sibi tradita cum per eius 
+          indu<lb ed="#V" n="76" break="no"/>striam alii proficiunt. 
+          </p>
+          <p xml:id="kzz7yh-g25747-d1e256">
+          <lb ed="#V" n="77"/>¶ Predictis videtur aduersari quod Ambrosius ait. 
+          <lb ed="#V" n="78"/>Alibi tamen scriptum reperitur quod 
+          <lb ed="#V" n="79"/>secundum sensum hominis 
+          <lb ed="#V" n="80"/>profecerit: sicut etate hominis profecit. Ait enim 
+          <lb ed="#V" n="81"/>Ambrosius in lib. iii. de spiritu sancto sic. Deus 
+          <lb ed="#V" n="82"/>perfectionem nature suscepit humane. 
+          Susce<lb ed="#V" n="83" break="no"/>pit sensum hominis: sed non sensu carnis fuit 
+          in<lb ed="#V" n="84" break="no"/>flatus. Sensum hominis animam dixit 
+          contur<lb ed="#V" n="85" break="no"/>batam sensu hominis esuriuit et rogauit: 
+          sensu<lb ed="#V" n="86" break="no"/>hominis profecit sicut scriptum est. Iseus 
+          profi<lb ed="#V" n="87" break="no"/>ciebat etate: et sapientia et gratia. Quomodo 
+          profi<lb ed="#V" n="88" break="no"/>ciebat sapientia dei. Profectus etatis profectus 
+          <lb ed="#V" n="89"/>sapientie non diuine: sed humane nature est. 
+          Ido<lb ed="#V" n="90" break="no"/>etatem commemorauit: vt secundum hominem crederes 
+          <lb ed="#V" n="91"/>dictum. Etas enim non diuinitatis: sed corporis 
+          <lb ed="#V" n="92"/>est. Ergo si proficiebat etate hominis 
+          proficie<lb ed="#V" n="93" break="no"/>bat sapientia hominis. Sensus autem profecit 
+          <lb ed="#V" n="94"/>quia sensus ideo sapientia. Quis sensus 
+          profi<lb ed="#V" n="95" break="no"/>ciebat: Si humanus: ergo susceptus est ipse: 
+          Si<lb ed="#V" n="96" break="no"/>diuinus: ergo mutabilis per profectum. Quod enim 
+          <lb ed="#V" n="97"/>proficit mutatur in melius: sed quod diuinum est non 
+          <lb ed="#V" n="98"/>mutatur. Quod ergo mutatur: non est diuinum 
+          <lb ed="#V" n="99"/>Sensus ergo proficiebat humanus: 
+          Sensum<lb ed="#V" n="100" break="no"/>ergo suscepit humanum. Nec poterat confortari 
+          <lb ed="#V" n="101"/>virtus dei: nec crescere deus: nec altitudo 
+          sapien<lb ed="#V" n="102" break="no"/>tie dei impleri. Que ergo implebatur non erat 
+          <lb ed="#V" n="103"/>dei: sed nostra sapientia. Nam quomodo 
+          imple<lb ed="#V" n="104" break="no"/>batur qui vt omnia impleret descendit. Per 
+          <lb ed="#V" n="105"/>quem autem sensum dixit Esa. quod patrem nescie 
+          <lb ed="#V" n="106"/>bat puer aut matrem. Scriptum est enim. 
+          Pri<lb ed="#V" n="107" break="no"/>usquam scientiat puer patrem aut matrem accipiet 
+          spo<lb ed="#V" n="108" break="no"/>lia samarie. Sapientiam enim dei futura et 
+          oc<lb ed="#V" n="109" break="no"/>culta non fallunt. Expers autem agnitionis 
+          in<lb ed="#V" n="110" break="no"/>fantia: per humanam vtique imprudentiam quod 
+          <lb ed="#V" n="111"/>adhuc non didicit ignorat. Sed verendum est 
+          in<lb ed="#V" n="112" break="no"/>quam ne si duos principales sensus aut geminam 
+          <lb ed="#V" n="113"/>sapientiam christo tribuimus: christum 
+          diuida<lb ed="#V" n="114" break="no"/>mus. Numquid cum et diuinitatem eius et carnen¬ 
+          <!-\-00086.xml-\->
+          <pb ed="#V" n="37-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>adoramus: christum diuidimus: Nunquid cum 
+          <lb ed="#V" n="2"/>in eo imaginem dei crucemque veneramur: 
+          diui<lb ed="#V" n="3" break="no"/>dimus eum: Apostolus certe qui de eo dixit. 
+          <lb ed="#V" n="4"/>Quoniam et si crucifixus est ex infirmitate 
+          no<lb ed="#V" n="5" break="no"/>stre: viuit tamen ex virtute dei. Ipse dixit quia 
+          <lb ed="#V" n="6"/>non diuisus est christus. Nunquid etiam cum 
+          di<lb ed="#V" n="7" break="no"/>cimus: quia animam rationalem et intellectus 
+          <lb ed="#V" n="8"/>nostri suscepit capacem diuidimus eum: Non 
+          <lb ed="#V" n="9"/>enim ipse deus verbum pro anima rationali et 
+          <lb ed="#V" n="10"/>intellectus capaci in carne sua fuit: sed animam 
+          <lb ed="#V" n="11"/>rationalem et intellectus capacem: et ipsam 
+          huma<lb ed="#V" n="12" break="no"/>nam et eiusdem substantie: cuius nostre sunt anime 
+          <lb ed="#V" n="13"/>et carnem nostre similem eiusdemque cuius caro est nostre 
+          <lb ed="#V" n="14"/>substantie suscipiens perfectus etiam homo fuit. 
+          </p>
+          <p xml:id="kzz7yh-g25747-d1e379">
+          <lb ed="#V" n="15"/>¶ De intelligentia premissorum verborum. 
+          <lb ed="#V" n="16"/>ec verba ambrosi pia diligentia 
+          <lb ed="#V" n="17"/>inspicienda sunt que ex 
+          <lb ed="#V" n="18"/>parte hominis ignorantiam instruunt et illumi 
+          <lb ed="#V" n="19"/>nant: ex parte errandi fomitem male intellecta 
+          <lb ed="#V" n="20"/>ministrant. His et enim euidenter traditur 
+          du<lb ed="#V" n="21" break="no"/>os in christo esse principales sensus siue 
+          gemi<lb ed="#V" n="22" break="no"/>nam sapientiam. Neque ideo vnitas et 
+          fingulari<lb ed="#V" n="23" break="no"/>tas persone diuiditur. Sed iuxta duas 
+          natu<lb ed="#V" n="24" break="no"/>ras duas habet sapientias: vnem non creatam: 
+          <lb ed="#V" n="25"/>sed genitam: que ipse est: alteram non genitam: sed 
+          <lb ed="#V" n="26"/>creatam: et per gratiam ei collatam. Nam Esaias 
+          <lb ed="#V" n="27"/>de eo protestatur. Requiescet super eum 
+          spiri<lb ed="#V" n="28" break="no"/>tus sapientie et intellectus etc. Spiritu ergo 
+          sa<lb ed="#V" n="29" break="no"/>pientie et intellectus: idest sapientia et 
+          intelligen<lb ed="#V" n="30" break="no"/>tia per spiritum sanctum gratis data: christus erat 
+          <lb ed="#V" n="31"/>sapiens secundum animam. Secundum deum vero 
+          <lb ed="#V" n="32"/>sapiens erat sapientia eterna que deus est. Et 
+          <lb ed="#V" n="33"/>sicut inquantum deus est: bonus est bonitate 
+          <lb ed="#V" n="34"/>naturali que ipse est: et iustus iustitia naturali 
+          quae<lb ed="#V" n="35" break="no"/>ipse est: ita sapiens sapientia naturali: que ipse 
+          <lb ed="#V" n="36"/>est. Anima vero eius sicut bona est et iusta 
+          bo<lb ed="#V" n="37" break="no"/>nitate vel iustitia gratis data: que ipse vel ipsa 
+          <lb ed="#V" n="38"/>non est: ita est sapiens sapientia gratis data: que 
+          <lb ed="#V" n="39"/>ipsa non est. Et licet gemina in christo sit 
+          sapien<lb ed="#V" n="40" break="no"/>tia: vna tamen eademque persona est: que 
+          inquan<lb ed="#V" n="41" break="no"/>tum deus est: et inquantum natura diuina est: 
+          <lb ed="#V" n="42"/>sapiens est sapientia ingenita: scilicet sapientia 
+          eter<lb ed="#V" n="43" break="no"/>na que est pater: et sapientia que non est 
+          ingeni<lb ed="#V" n="44" break="no"/>ta que communis est tribus personis: non tamen 
+          <lb ed="#V" n="45"/>gemina sapientia: quia non est alia et alia 
+          sapien<lb ed="#V" n="46" break="no"/>tia sapientie ingenita: que tantum filius est: et 
+          <lb ed="#V" n="47"/>sapientia que communiter pater est: et filius et 
+          spi<lb ed="#V" n="48" break="no"/>ritus sanctus. Inquantum vero eadem 
+          perso<lb ed="#V" n="49" break="no"/>na est homo: idest secundum hominem acceptum: vel 
+          <lb ed="#V" n="50"/>inquantum est subsistens ex anima et carne 
+          sa<lb ed="#V" n="51" break="no"/>piens est sapientia gratuita. Sapiens ergo est 
+          <lb ed="#V" n="52"/>humano sensu et diuino. 
+          </p>
+          <p xml:id="kzz7yh-g25747-d1e464">
+          <lb ed="#V" n="53"/>¶ Quomodo intelligendum sit illud: sensus 
+          pro<lb ed="#V" n="54" break="no"/>ficiebat humanus. 
+          <lb ed="#V" n="55"/>Sed exr qua causa inius 
+          dictintei<lb ed="#V" n="56" break="no"/>ligentia: scilicet sensus pro 
+          <!-\-00086.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>ficiebat humanus: assumenda est: Aperte enim 
+          <lb ed="#V" n="58"/>videtur Ambrosius innuere quod secundum humanum 
+          <lb ed="#V" n="59"/>sensum christus profecerit: et quod infantia eius 
+          ex<lb ed="#V" n="60" break="no"/>pers cognitionis fuerit: et patrem et matrem 
+          igno<lb ed="#V" n="61" break="no"/>rauerit: quod nec ecclesia recipit: nec premisse 
+          au<lb ed="#V" n="62" break="no"/>ctoritates patiuntur sic intelligi. Sed ita sane 
+          <lb ed="#V" n="63"/>potest accipi vt quantum ad visum hominum 
+          <lb ed="#V" n="64"/>et sui sensus ostensionem christus profecisse dica 
+          <lb ed="#V" n="65"/>tur. Proficiebat ergo humanus sensus in eo secundum 
+          <lb ed="#V" n="66"/>ostensionem et aliorum hominum opinionem. 
+          <lb ed="#V" n="67"/>Ita etiam patrem et matrem dicitur ignorasse 
+          <lb ed="#V" n="68"/>in infantia: quia ita se habebat et gerebat ac 
+          si<lb ed="#V" n="69" break="no"/>agnitionis expers esset. 
+          </p>-->
+        <p xml:id="kzz7yh-g25747-d1e106">
+          <lb ed="#V" n="70"/>PReterea sciendum est etc. Hucusque 
+          de<lb ed="#V" n="71" break="no"/>terminauit Magister de inchoa 
+          <lb ed="#V" n="72"/>tione restaurattionis: seu redemptionis: que fuit 
+          <lb ed="#V" n="73"/>lin ipsa verbi dei incarunatione. Hic determinat 
+          <lb ed="#V" n="74"/>de progressu qui fuit in christi conuersatione et 
+          ope<lb ed="#V" n="75" break="no"/>ratione. Et diuiditur in partes duas.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e521">
+          ¶ Primo 
+          determi<lb ed="#V" n="76" break="no"/>nat de his que filius dei cum humana natura assumpsit: 
+          <lb ed="#V" n="77"/>et de his que per naturam humanam operatus est. distin. 17 
+          <lb ed="#V" n="78"/>ibi. Post praedicta.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e530">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e532">
+          ¶ Primo 
+          determi<lb ed="#V" n="79" break="no"/>nat de perfectionibus: quas filius dei cum humana 
+          natu<lb ed="#V" n="80" break="no"/>ra assumpsit.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e539">
+          ¶ Secundo de defectibus cum eadem 
+          assum<lb ed="#V" n="81" break="no"/>ptis. dist. 15. ibi. Illud quoque. Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e545">
+          ¶ Primo 
+          <lb ed="#V" n="82"/>determinat de perfectionibus cum humana natura 
+          assum<lb ed="#V" n="83" break="no"/>ptis absolute.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e552">
+          ¶ Secundo per comparationem ad 
+          perfectio<lb ed="#V" n="84" break="no"/>nem diuine nature sequenti dist. ibi. Hic queri opus est. 
+          <lb ed="#V" n="85"/>Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e559">
+          ¶ Primo ostendit christum habuisse ab 
+          in<lb ed="#V" n="86" break="no"/>stanti sue conceptionis scientie et gratie plenitudinem. 
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e564">
+          <lb ed="#V" n="87"/>¶ Secundo opponit ad contrarium et oppositiones suas 
+          <lb ed="#V" n="88"/>soluit. ibi. Huic sententie videtur obuiare. Et ista in duas. 
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e571">
+          <lb ed="#V" n="89"/>¶ Primo opponit per verbum euangelii.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e576">
+          ¶ Secundo per 
+          <lb ed="#V" n="90"/>verba Ambrosii ibi. Alibi tanen.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e582">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e584">
+          ¶ 
+          Pri<lb ed="#V" n="91" break="no"/>mo opponit.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e589">
+          ¶ Secundo soluit. secunda ibi Ad quod 
+          sa<lb ed="#V" n="92" break="no"/>ne. Illa pars que ibi incipit. Alibi tamen. Diuiditur in 
+          <lb ed="#V" n="93"/>duas.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e596">
+          ¶ Primo opponit per auctoritatem ambro.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e598">
+          ¶ 
+          Se<lb ed="#V" n="94" break="no"/>cundo soluit ibi. Hec verba Ambrosii. 
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e603">
+          <lb ed="#V" n="95"/>CIrca hanc dist. querendum est 
+          prin<lb ed="#V" n="96" break="no"/>cipaliter de tribus.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e611">
+          ¶ 
+          Pri<lb ed="#V" n="97" break="no"/>mo de gratia christi secundum quod est singularis homo
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e616">
+          ¶ 
+          Se<lb ed="#V" n="98" break="no"/>cundo de gratia eius: inquantum est caput ec 
+          <lb ed="#V" n="99"/>clesie.
+        </p>
+        <p xml:id="kzz7yh-g25747-d1e623">
+          ¶ Tertio de gratia vnionis humane nature ad 
+          per<lb ed="#V" n="100" break="no"/>sonam.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

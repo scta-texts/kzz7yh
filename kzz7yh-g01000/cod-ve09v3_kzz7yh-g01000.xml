@@ -1,183 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praefatio</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praefatio</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="1-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g01000"><!-- l3praefatio -->
-            <head xml:id="kzz7yh-g01000-Hd1e101">Praefatio</head>
-            <p xml:id="kzz7yh-g01000-d1e103">
-      <!--00011.xml-->
-               <pb ed="#V" n="1-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>¶ Scriptum super tertium sententiarum 
-      Edi<lb ed="#V" n="2" break="no"/>tum a fratre Ricardo de Mediauilla 
-      ordi<lb ed="#V" n="3" break="no"/>nis minorum doctore clarissimo. 
-      <lb ed="#V" n="4"/>Praefatium. 
-  </p>
-            <p xml:id="kzz7yh-g01000-d1e121">
-               <lb ed="#V" n="5"/>Estitus erat 
-      <lb ed="#V" n="6"/>veste aspersa sanguine: et 
-      <lb ed="#V" n="7"/>vocabatur nomen eius 
-      ver<lb ed="#V" n="8" break="no"/>bum dei Et exercitus qui 
-      <lb ed="#V" n="9"/>sunt in celo sequebantur 
-      <lb ed="#V" n="10"/>eum in equis albis.
-   </p>
-            <p xml:id="kzz7yh-g01000-d1e137">
-      ¶ Hec 
-      <lb ed="#V" n="11"/>verba scripta sunt Apoc. 
-      <lb ed="#V" n="12"/>19. in quibus tangitur in 
-      si<lb ed="#V" n="13" break="no"/>militudine huius tertii 
-      li<lb ed="#V" n="14" break="no"/>bri materia in generali. 
-      <lb ed="#V" n="15"/>Per illam enim vestem: 
-      <lb ed="#V" n="16"/>qua ille: cuius nomen 
-      vo<lb ed="#V" n="17" break="no"/>cabatur verbum dei 
-      vesti<lb ed="#V" n="18" break="no"/>tus apparuit in visione beato Ioan. representabatur 
-      natu<lb ed="#V" n="19" break="no"/>ra humana vnita verbo dei. Per hoc etiam quod illa vestis 
-      <lb ed="#V" n="20"/>apparebat aspersa sanguine: representabatur quod natura 
-      <lb ed="#V" n="21"/>humana verbo dei vnita aspersa fuit sanguine proprio in 
-      <lb ed="#V" n="22"/>passione. Unde glo. super illud verbum: veste aspersa 
-      san<lb ed="#V" n="23" break="no"/>guine dicit scilicet carne passa. Per celum repraesentabatur 
-      eccle<lb ed="#V" n="24" break="no"/>sia secundum glo. per exercitus representabantur fideles in diuersis 
-      <lb ed="#V" n="25"/>statibus militantis ecclesie: quasi in aciebus ordinati per 
-      <lb ed="#V" n="26"/>virtutes ad dimicandum contra diabolum: qui sideles 
-      prin<lb ed="#V" n="27" break="no"/>cipem suum id est christum per virtutem fidei cognoscunt: per 
-      vir<lb ed="#V" n="28" break="no"/>tutem spei in ipso confidunt: per virtutem charitatis ipsum 
-      <lb ed="#V" n="29"/>propter se et super omnia disigunt. Unde per istas virtutes 
-      <lb ed="#V" n="30"/>theologicas debito modo sunt ad suum principem 
-      ordina<lb ed="#V" n="31" break="no"/>ti: et cum eo vniti. Per quatuor autem cardinales qualibet in 
-      <lb ed="#V" n="32"/>seipso et ad proximum et contra aduersarium debito modo 
-      or<lb ed="#V" n="33" break="no"/>dinantur: quia bene se dirigunt per prudentiam: quilibet in 
-      <lb ed="#V" n="34"/>seipso moderatus est per temperantiam. Et recte se habens 
-      <lb ed="#V" n="35"/>ad proximum per iustitiam. et perseueranter aduersariis 
-      re<lb ed="#V" n="36" break="no"/>sistit per fortitudinis constantiam. Unde glo. super illud 
-      ver<lb ed="#V" n="37" break="no"/>bum: et exercitus dicit id est fideles contra diabolum dimicantes: 
-      <lb ed="#V" n="38"/>per hoc quod deum sequebantur: repsentabatur quod ipsum 
-      imi<lb ed="#V" n="39" break="no"/>tabantur: ipsius obseruando mandata: per equos 
-      representa<lb ed="#V" n="40" break="no"/>bantur corpora: quia sicut equus subiectus est sessori: et per ipsum 
-      <lb ed="#V" n="41"/>regitur et frenatur: sic corpus debet esse subiectum anime: et per 
-      <lb ed="#V" n="42"/>ipsam regi: et frenari. Per albedinem equorum 
-      representaba<lb ed="#V" n="43" break="no"/>tur munditia conuersationis honeste. Unde glo. super illud: 
-      <lb ed="#V" n="44"/>in equis albis dicit id est in corporibus mundis: que ab illicitis 
-      <lb ed="#V" n="45"/>refrenantur: et stimulo charitatis ad bona incitantur. Sic 
-      <lb ed="#V" n="46"/>ergo patet quod per verbum praedictum significabatur quod illi 
-      cu<lb ed="#V" n="47" break="no"/>ius nomen vocabatur verbum dei vnita est humana 
-      natu<lb ed="#V" n="48" break="no"/>ra: que aspersa fuit sanguine in passione: quem fideles in 
-      di<lb ed="#V" n="49" break="no"/>uersis statibus ecclesie militantis in modum exercitus 
-      or<lb ed="#V" n="50" break="no"/>dinati per virtutes imitantur per praeceptorum eius 
-      obser<lb ed="#V" n="51" break="no"/>uantiam et honestam conuersationem: et sic in verbis propositis 
-      <lb ed="#V" n="52"/>insinuantur nobis quatuor scilicet verbi dei incarnatio in hoc quod 
-      <lb ed="#V" n="53"/>dicitur quod ille qui vocabatur verbum dei vestitus erat.
-   </p>
-            <p xml:id="kzz7yh-g01000-d1e233">
-      ¶ 
-      Secun<lb ed="#V" n="54" break="no"/>do ipsius quo ad naturam humanam passio: cum dicitur: veste 
-      <lb ed="#V" n="55"/>aspersa sanguine.
-   </p>
-            <p xml:id="kzz7yh-g01000-d1e241">
-      ¶ Tertio fidelium in diuersis statibus 
-      <lb ed="#V" n="56"/>ecclesie: quasi ad modum exercituum per virtutes 
-      ordina<lb ed="#V" n="57" break="no"/>tio: cum dicitur. Et exercitus qui sunt.
-   </p>
-            <p xml:id="kzz7yh-g01000-d1e248">
-      ¶ Quarto ipsorum 
-      fide<lb ed="#V" n="58" break="no"/>lium per obseruantiam mandatorum christi ipsum imitantium: 
-      cla<lb ed="#V" n="59" break="no"/>ra et honesta conuersatio: cum dicitur. Sequebantur eum in equis 
-      <lb ed="#V" n="60"/>albis.
-   </p>
-            <p xml:id="kzz7yh-g01000-d1e257">
-      ¶ De verbi dei incarnatione intelligitur illud verbum 
-      <lb ed="#V" n="61"/>Ioan. I. Uerbum caro factum est: et habitauit in nobis per 
-      <lb ed="#V" n="62"/>carnem intelligitur natura humana. Non enim assumpsit 
-      car<lb ed="#V" n="63" break="no"/>nem tantum: sed naturam humanam que comprehendit corpus: et 
-      <lb ed="#V" n="64"/>animam intellectiuam. Et hoc verbum incarnatum habitauit 
-      <lb ed="#V" n="65"/>in nobis: quia in animabus iustorum habitat spiritualiter: et inter homines 
-      <lb ed="#V" n="66"/>etiam conuersatus est corporaliter. Unde Bar. 3. In terris visus est: 
-      <!--00011.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>et cum homibus conuersatus est. De verbi dei: quantum ad naturam 
-      huma<lb ed="#V" n="68" break="no"/>nam passione per quam fuimus redempti potest exponi illud verbum 
-      <lb ed="#V" n="69"/>psalmus. Misit verbum suum: et sanauit eos: et eripuit eos de 
-      interni<lb ed="#V" n="70" break="no"/>tionibus eorum.
-   </p>
-            <p xml:id="kzz7yh-g01000-d1e286">
-      ¶ De fidelium ad modum exercitus per virtutes 
-      <lb ed="#V" n="71"/>ordinatione potest exponi illud verbum palsmus. Uerbo domini celi 
-      <lb ed="#V" n="72"/>firmati sunt: et spiritu oris eius omnis virtus eorum. er 
-      ce<lb ed="#V" n="73" break="no"/>los intelliguntur virl quantum ad conuersationem celestes: in 
-      <lb ed="#V" n="74"/>quorum persona dicit Apost. ad philip. 3. Nostra conuersatio 
-      <lb ed="#V" n="75"/>in celis est.
-   </p>
-            <p xml:id="kzz7yh-g01000-d1e299">
-      ¶ De ipsorum fidelium christum imitantium: in 
-      man<lb ed="#V" n="76" break="no"/>datorum eius obseruatione potest exponi illud verbum Eccl. I. 
-      <lb ed="#V" n="77"/>Fons sapientie verbum dei in excelsis: et ingressus illius 
-      <lb ed="#V" n="78"/>mandata eterna Glo. Fons sapientie origo omnis sapientie 
-      <lb ed="#V" n="79"/>a dei verbo procedit: qui deus ex deo semper cum patre 
-      ma<lb ed="#V" n="80" break="no"/>net in celis: sed ingressus mundum per dispensationem 
-      hu<lb ed="#V" n="81" break="no"/>manitatis: dedit mandata eterna salutis: in quo datur nobis 
-      <lb ed="#V" n="82"/>intelligi quod ipsum imitando: per mandatorum suorum 
-      obseruatio<lb ed="#V" n="83" break="no"/>nem ingrediemur vitam eternam. Unde Matth. 19. Si vis 
-      <lb ed="#V" n="84"/>ad vitam ingredi serua mandata: ad quam vitam nos 
-      per<lb ed="#V" n="85" break="no"/>ducere dignetur verbum incarnatum: quod cum patre et spiritu 
-      <lb ed="#V" n="86"/>sancto viuit et regnat deus per omnia secula seculorum. Amen. 
-   </p>
-            <p xml:id="kzz7yh-g01000-d1e325">
-               <lb ed="#V" n="87"/>¶ Incipit tertius liber sententiarum in quo de 
-      ver<lb ed="#V" n="88" break="no"/>bi dei incarnatione: qua genus humanum est 
-      <lb ed="#V" n="89"/>reparatum tractatur vsque ad. xxiii. di. a qua ad 
-      fi<lb ed="#V" n="90" break="no"/>nem vsque de virtutibus: et donis gratuitis: atque 
-      <lb ed="#V" n="91"/>diuinis preceptis disseritur.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praefatio</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praefatio</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="1-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g01000"><!-- l3praefatio -->
+        <head xml:id="kzz7yh-g01000-Hd1e101">Praefatio</head>
+        <p xml:id="kzz7yh-g01000-d1e103">
+          <!--00011.xml-->
+          <pb ed="#V" n="1-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>¶ Scriptum super tertium sententiarum 
+          Edi<lb ed="#V" n="2" break="no"/>tum a fratre Ricardo de Mediauilla 
+          ordi<lb ed="#V" n="3" break="no"/>nis minorum doctore clarissimo. 
+          <lb ed="#V" n="4"/>Praefatium. 
+        </p>
+        <p xml:id="kzz7yh-g01000-d1e121">
+          <lb ed="#V" n="5"/>Estitus erat 
+          <lb ed="#V" n="6"/>veste aspersa sanguine: et 
+          <lb ed="#V" n="7"/>vocabatur nomen eius 
+          ver<lb ed="#V" n="8" break="no"/>bum dei Et exercitus qui 
+          <lb ed="#V" n="9"/>sunt in celo sequebantur 
+          <lb ed="#V" n="10"/>eum in equis albis.
+        </p>
+        <p xml:id="kzz7yh-g01000-d1e137">
+          ¶ Hec 
+          <lb ed="#V" n="11"/>verba scripta sunt Apoc. 
+          <lb ed="#V" n="12"/>19. in quibus tangitur in 
+          si<lb ed="#V" n="13" break="no"/>militudine huius tertii 
+          li<lb ed="#V" n="14" break="no"/>bri materia in generali. 
+          <lb ed="#V" n="15"/>Per illam enim vestem: 
+          <lb ed="#V" n="16"/>qua ille: cuius nomen 
+          vo<lb ed="#V" n="17" break="no"/>cabatur verbum dei 
+          vesti<lb ed="#V" n="18" break="no"/>tus apparuit in visione beato Ioan. representabatur 
+          natu<lb ed="#V" n="19" break="no"/>ra humana vnita verbo dei. Per hoc etiam quod illa vestis 
+          <lb ed="#V" n="20"/>apparebat aspersa sanguine: representabatur quod natura 
+          <lb ed="#V" n="21"/>humana verbo dei vnita aspersa fuit sanguine proprio in 
+          <lb ed="#V" n="22"/>passione. Unde glo. super illud verbum: veste aspersa 
+          san<lb ed="#V" n="23" break="no"/>guine dicit scilicet carne passa. Per celum repraesentabatur 
+          eccle<lb ed="#V" n="24" break="no"/>sia secundum glo. per exercitus representabantur fideles in diuersis 
+          <lb ed="#V" n="25"/>statibus militantis ecclesie: quasi in aciebus ordinati per 
+          <lb ed="#V" n="26"/>virtutes ad dimicandum contra diabolum: qui sideles 
+          prin<lb ed="#V" n="27" break="no"/>cipem suum id est christum per virtutem fidei cognoscunt: per 
+          vir<lb ed="#V" n="28" break="no"/>tutem spei in ipso confidunt: per virtutem charitatis ipsum 
+          <lb ed="#V" n="29"/>propter se et super omnia disigunt. Unde per istas virtutes 
+          <lb ed="#V" n="30"/>theologicas debito modo sunt ad suum principem 
+          ordina<lb ed="#V" n="31" break="no"/>ti: et cum eo vniti. Per quatuor autem cardinales qualibet in 
+          <lb ed="#V" n="32"/>seipso et ad proximum et contra aduersarium debito modo 
+          or<lb ed="#V" n="33" break="no"/>dinantur: quia bene se dirigunt per prudentiam: quilibet in 
+          <lb ed="#V" n="34"/>seipso moderatus est per temperantiam. Et recte se habens 
+          <lb ed="#V" n="35"/>ad proximum per iustitiam. et perseueranter aduersariis 
+          re<lb ed="#V" n="36" break="no"/>sistit per fortitudinis constantiam. Unde glo. super illud 
+          ver<lb ed="#V" n="37" break="no"/>bum: et exercitus dicit id est fideles contra diabolum dimicantes: 
+          <lb ed="#V" n="38"/>per hoc quod deum sequebantur: repsentabatur quod ipsum 
+          imi<lb ed="#V" n="39" break="no"/>tabantur: ipsius obseruando mandata: per equos 
+          representa<lb ed="#V" n="40" break="no"/>bantur corpora: quia sicut equus subiectus est sessori: et per ipsum 
+          <lb ed="#V" n="41"/>regitur et frenatur: sic corpus debet esse subiectum anime: et per 
+          <lb ed="#V" n="42"/>ipsam regi: et frenari. Per albedinem equorum 
+          representaba<lb ed="#V" n="43" break="no"/>tur munditia conuersationis honeste. Unde glo. super illud: 
+          <lb ed="#V" n="44"/>in equis albis dicit id est in corporibus mundis: que ab illicitis 
+          <lb ed="#V" n="45"/>refrenantur: et stimulo charitatis ad bona incitantur. Sic 
+          <lb ed="#V" n="46"/>ergo patet quod per verbum praedictum significabatur quod illi 
+          cu<lb ed="#V" n="47" break="no"/>ius nomen vocabatur verbum dei vnita est humana 
+          natu<lb ed="#V" n="48" break="no"/>ra: que aspersa fuit sanguine in passione: quem fideles in 
+          di<lb ed="#V" n="49" break="no"/>uersis statibus ecclesie militantis in modum exercitus 
+          or<lb ed="#V" n="50" break="no"/>dinati per virtutes imitantur per praeceptorum eius 
+          obser<lb ed="#V" n="51" break="no"/>uantiam et honestam conuersationem: et sic in verbis propositis 
+          <lb ed="#V" n="52"/>insinuantur nobis quatuor scilicet verbi dei incarnatio in hoc quod 
+          <lb ed="#V" n="53"/>dicitur quod ille qui vocabatur verbum dei vestitus erat.
+        </p>
+        <p xml:id="kzz7yh-g01000-d1e233">
+          ¶ 
+          Secun<lb ed="#V" n="54" break="no"/>do ipsius quo ad naturam humanam passio: cum dicitur: veste 
+          <lb ed="#V" n="55"/>aspersa sanguine.
+        </p>
+        <p xml:id="kzz7yh-g01000-d1e241">
+          ¶ Tertio fidelium in diuersis statibus 
+          <lb ed="#V" n="56"/>ecclesie: quasi ad modum exercituum per virtutes 
+          ordina<lb ed="#V" n="57" break="no"/>tio: cum dicitur. Et exercitus qui sunt.
+        </p>
+        <p xml:id="kzz7yh-g01000-d1e248">
+          ¶ Quarto ipsorum 
+          fide<lb ed="#V" n="58" break="no"/>lium per obseruantiam mandatorum christi ipsum imitantium: 
+          cla<lb ed="#V" n="59" break="no"/>ra et honesta conuersatio: cum dicitur. Sequebantur eum in equis 
+          <lb ed="#V" n="60"/>albis.
+        </p>
+        <p xml:id="kzz7yh-g01000-d1e257">
+          ¶ De verbi dei incarnatione intelligitur illud verbum 
+          <lb ed="#V" n="61"/>Ioan. I. Uerbum caro factum est: et habitauit in nobis per 
+          <lb ed="#V" n="62"/>carnem intelligitur natura humana. Non enim assumpsit 
+          car<lb ed="#V" n="63" break="no"/>nem tantum: sed naturam humanam que comprehendit corpus: et 
+          <lb ed="#V" n="64"/>animam intellectiuam. Et hoc verbum incarnatum habitauit 
+          <lb ed="#V" n="65"/>in nobis: quia in animabus iustorum habitat spiritualiter: et inter homines 
+          <lb ed="#V" n="66"/>etiam conuersatus est corporaliter. Unde Bar. 3. In terris visus est: 
+          <!--00011.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>et cum homibus conuersatus est. De verbi dei: quantum ad naturam 
+          huma<lb ed="#V" n="68" break="no"/>nam passione per quam fuimus redempti potest exponi illud verbum 
+          <lb ed="#V" n="69"/>psalmus. Misit verbum suum: et sanauit eos: et eripuit eos de 
+          interni<lb ed="#V" n="70" break="no"/>tionibus eorum.
+        </p>
+        <p xml:id="kzz7yh-g01000-d1e286">
+          ¶ De fidelium ad modum exercitus per virtutes 
+          <lb ed="#V" n="71"/>ordinatione potest exponi illud verbum palsmus. Uerbo domini celi 
+          <lb ed="#V" n="72"/>firmati sunt: et spiritu oris eius omnis virtus eorum. er 
+          ce<lb ed="#V" n="73" break="no"/>los intelliguntur virl quantum ad conuersationem celestes: in 
+          <lb ed="#V" n="74"/>quorum persona dicit Apost. ad philip. 3. Nostra conuersatio 
+          <lb ed="#V" n="75"/>in celis est.
+        </p>
+        <p xml:id="kzz7yh-g01000-d1e299">
+          ¶ De ipsorum fidelium christum imitantium: in 
+          man<lb ed="#V" n="76" break="no"/>datorum eius obseruatione potest exponi illud verbum Eccl. I. 
+          <lb ed="#V" n="77"/>Fons sapientie verbum dei in excelsis: et ingressus illius 
+          <lb ed="#V" n="78"/>mandata eterna Glo. Fons sapientie origo omnis sapientie 
+          <lb ed="#V" n="79"/>a dei verbo procedit: qui deus ex deo semper cum patre 
+          ma<lb ed="#V" n="80" break="no"/>net in celis: sed ingressus mundum per dispensationem 
+          hu<lb ed="#V" n="81" break="no"/>manitatis: dedit mandata eterna salutis: in quo datur nobis 
+          <lb ed="#V" n="82"/>intelligi quod ipsum imitando: per mandatorum suorum 
+          obseruatio<lb ed="#V" n="83" break="no"/>nem ingrediemur vitam eternam. Unde Matth. 19. Si vis 
+          <lb ed="#V" n="84"/>ad vitam ingredi serua mandata: ad quam vitam nos 
+          per<lb ed="#V" n="85" break="no"/>ducere dignetur verbum incarnatum: quod cum patre et spiritu 
+          <lb ed="#V" n="86"/>sancto viuit et regnat deus per omnia secula seculorum. Amen. 
+        </p>
+        <p xml:id="kzz7yh-g01000-d1e325">
+          <lb ed="#V" n="87"/>¶ Incipit tertius liber sententiarum in quo de 
+          ver<lb ed="#V" n="88" break="no"/>bi dei incarnatione: qua genus humanum est 
+          <lb ed="#V" n="89"/>reparatum tractatur vsque ad. xxiii. di. a qua ad 
+          fi<lb ed="#V" n="90" break="no"/>nem vsque de virtutibus: et donis gratuitis: atque 
+          <lb ed="#V" n="91"/>diuinis preceptis disseritur.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

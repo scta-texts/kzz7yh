@@ -1,196 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="26-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g18252"><!-- l3d9prae -->
-            <head xml:id="kzz7yh-g18252-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-g18252-d1e103">
-               <lb ed="#V" n="85"/>¶ De adoratione huanitatis christi: an eadem sit 
-      ado<lb ed="#V" n="86" break="no"/>ratio humanitati et deitati exhibenda. Disintio IX 
-      <lb ed="#V" n="87"/>RReterea inuestigari 
-      opor<lb ed="#V" n="88" break="no"/>tet vtrum caro christ 
-      <lb ed="#V" n="89"/>et anima vna eademque cum verbo 
-      de<lb ed="#V" n="90" break="no"/>beat adoratione adorari illa: scilicet 
-      <lb ed="#V" n="91"/>que latria dicitur. Si enim anime vel 
-      <lb ed="#V" n="92"/>carni exhibetur latria que intelligitur seruitus 
-      <lb ed="#V" n="93"/>siue cultus soli creatori debitus: cum anima christi 
-      <lb ed="#V" n="94"/>vel caro creatura tantum sit: creature exhibetur 
-      <lb ed="#V" n="95"/>quod soli creatori debetur: quod facienti in idola 
-      <lb ed="#V" n="96"/>triam deputatur. Ideo quibusdam videtur non 
-      <lb ed="#V" n="97"/>illa adoratione que latria est carnem christi 
-      vel<lb ed="#V" n="98" break="no"/>animam christi esse adorandam: sed illa que est 
-      du<lb ed="#V" n="99" break="no"/>lia: cuius duas species vel modos esse dicunt. 
-      <lb ed="#V" n="100"/>Est enim cuiusdam modi dulia que creature 
-      <lb ed="#V" n="101"/>cuilibet exhiberi potest: et est quedam soli huma 
-      <lb ed="#V" n="102"/>nitati christi exhibenda non alii creature: quia 
-      <lb ed="#V" n="103"/>christi humanitas super omnem creaturam est 
-      <lb ed="#V" n="104"/>veneranda et diligenda. Non tamen adeo vt cul 
-      <lb ed="#V" n="105"/>tus diuinitati debitus ei exhibeatur: qui cultus 
-      <lb ed="#V" n="106"/>in dilectione et sacrificii exhibitione atque 
-      reue<lb ed="#V" n="107" break="no"/>rentia consistit: qui latine dicitur pietas: 
-      grece<lb ed="#V" n="108" break="no"/>autem theosebia: idest dei cultus: vel eusebia: 
-      <lb ed="#V" n="109"/>idest bonus cultus. 
-   </p>
-            <p xml:id="kzz7yh-g18252-d1e160">
-               <lb ed="#V" n="110"/>¶ Aliorum sententia qua vnam adorationemi 
-      <lb ed="#V" n="111"/>vtrique exhibendam tradunt. 
-      <lb ed="#V" n="112"/>Aluis autem placet christi 
-      puiuia<lb ed="#V" n="113" break="no"/>nitatem vna adora 
-      <lb ed="#V" n="114"/>tione cum verbo esse adorandam: non propter 
-      <lb ed="#V" n="115"/>se: sed propter illum cuius scabellum est: cui est 
-      <lb ed="#V" n="116"/>vnita. Neque ipsa humanitas sola vel nuda: sed 
-      <lb ed="#V" n="117"/>cum verbo cui est vnita nec propter se: sed propter 
-      <lb ed="#V" n="118"/>illum cui est vnita adoranda. Nec qui hoc 
-      fa<lb ed="#V" n="119" break="no"/>cit idolatrie reus iudicari potest: quia nec soli 
-      crea<lb ed="#V" n="120" break="no"/>tura: nec propter ipsam: sed creatori cum 
-      huma<lb ed="#V" n="121" break="no"/>nitate: et in humanitate sua seruit. De hoc Ioan. 
-      <lb ed="#V" n="122"/>Damas. ita ait. Due sunt nature christi ratio 
-      <lb ed="#V" n="123"/>ne et modo differentes: vnite vero secundum 
-      hyposta<lb ed="#V" n="124" break="no"/>sim. Unus ergo christus est deus perfectus et 
-      <lb ed="#V" n="125"/>homo perfectus quem adoramus cum patre et 
-      spi<lb ed="#V" n="126" break="no"/>ritu vna adoratione cum incontaminata carne eius. 
-      <!--00065.xml-->
-      <pb ed="#V" n="27-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>Non inadorabilem carnem dicentes. Adoratur 
-      <lb ed="#V" n="2"/>enim in vna verbi hypostasi: que hypostasis 
-      ge<lb ed="#V" n="3" break="no"/>nerata est. Non creature venerationem 
-      preben<lb ed="#V" n="4" break="no"/>tes. Non ergo vt nudam carnem adoramus: sed 
-      <lb ed="#V" n="5"/>vt vnitam deitati in vnam hypostasim dei verbi 
-      <lb ed="#V" n="6"/>duabus reductis naturis. Timeo carbonem 
-      tan<lb ed="#V" n="7" break="no"/>gere propter ligno copulatum ignem. Adoro christi 
-      <lb ed="#V" n="8"/>dei mei simul vtramque naturam: propter carni 
-      vni<lb ed="#V" n="9" break="no"/>tam deitatem. Non enim quarta appono 
-      perso<lb ed="#V" n="10" break="no"/>nam in trinitate: sed vnam personam confiteor 
-      ver<lb ed="#V" n="11" break="no"/>bi et carnis eius. His verbis insinuari videtur 
-      <lb ed="#V" n="12"/>christi humanitatem vna adoratione cum 
-      ver<lb ed="#V" n="13" break="no"/>bo esse adorandam. De hoc etiam Aug. ait ex 
-      <lb ed="#V" n="14"/>sermone domini: vbi dicit. Non turbetur cor 
-      ve<lb ed="#V" n="15" break="no"/>strum: ita dicit. Dicunt heretici filium non 
-      natu<lb ed="#V" n="16" break="no"/>ra esse deum: sed creatum. Quibus respondendum 
-      <lb ed="#V" n="17"/>est: qui si filius non est deus natura: sed 
-      creatu<lb ed="#V" n="18" break="no"/>ra: nec colendus est omnio: nec vt deus adorandus: 
-      di<lb ed="#V" n="19" break="no"/>cente apstulo. Coluerunt et seruierunt potius creature 
-      <lb ed="#V" n="20"/>quam creatori. Sed illi ad hoc replicabunt et dicent. 
-      <lb ed="#V" n="21"/>Quid est quod carnem eius quam creaturam esse non 
-      <lb ed="#V" n="22"/>negas simul cum diuinitate adoras: et ei non minus quae 
-      <lb ed="#V" n="23"/>diuinitati deseruis: Ego dominicam carnem 
-      immo<lb ed="#V" n="24" break="no"/>perfectam in christo humanitatem ideo adoro: 
-      <lb ed="#V" n="25"/>quod a diuinitate suscepta et deitati vnita est: vt non 
-      <lb ed="#V" n="26"/>alium et alium: sed vnum eundemque deum et 
-      homi<lb ed="#V" n="27" break="no"/>nem filium dei esse confitear. Denique si hominem 
-      <lb ed="#V" n="28"/>separaueris a deo: illi nunquam credo nec seruio: 
-      <lb ed="#V" n="29"/>velut si quis purpuram vel diadema regale ia 
-      <lb ed="#V" n="30"/>cens inueniat: nunquid ea conabitur adorare: 
-      <lb ed="#V" n="31"/>Cum vero ea rex fuerit indutus: periculum 
-      mor<lb ed="#V" n="32" break="no"/>tis incurrit: si ea cum rege adorare quis 
-      conten<lb ed="#V" n="33" break="no"/>pserit. Ita in christo domino humanitatem non 
-      <lb ed="#V" n="34"/>solam vel nudam: sed diuinitati vnitam: scilicet vnum 
-      <lb ed="#V" n="35"/>filium deum verum et hominem verum si quis 
-      ado<lb ed="#V" n="36" break="no"/>rare contempserit: eternaliter morietur. Idem 
-      su<lb ed="#V" n="37" break="no"/>per psals. xcviii. vbi dicitur. Adorate scabellum 
-      <lb ed="#V" n="38"/>pedum eius quoniam sanctum est. Sciendum quia 
-      <lb ed="#V" n="39"/>in christo terra est: idest caro que sine 
-      impieta<lb ed="#V" n="40" break="no"/>tate adoratur. Suscepit enim de terra terram: 
-      <lb ed="#V" n="41"/>quia caro de terra est: et de carne. Marie 
-      car<lb ed="#V" n="42" break="no"/>nem accepit. hec sine impietate a verbo dei 
-      assun<lb ed="#V" n="43" break="no"/>pta adoratur a nobis: quia nemo carnem eius 
-      <lb ed="#V" n="44"/>manducat nisi prius adoret: sed qui adorat non 
-      ter<lb ed="#V" n="45" break="no"/>ram intuetur: sed illum potius cuius scabellum est propter 
-      <lb ed="#V" n="46"/>quem adorat. His auctoritatibus premisse 
-      in<lb ed="#V" n="47" break="no"/>uestigationis absolutio explicatur. 
-      <lb ed="#V" n="48"/>Reterea inuestigari oportet etc 
-      Supe<lb ed="#V" n="49" break="no"/>rius inquisiuit Magister vtrum 
-      <lb ed="#V" n="50"/>iuine nature conueniat nasci. Hic inquirit vtrum 
-      <lb ed="#V" n="51"/>caro christi debeat adorari. Et primo ponit 
-      magi<lb ed="#V" n="52" break="no"/>ster questionem. Secundo eiusdem 
-      determinatio<lb ed="#V" n="53" break="no"/>nem ibi. Ideo quibusdam videtur. Et ista pars diuiditur 
-      <lb ed="#V" n="54"/>in duas.
-   </p>
-            <p xml:id="kzz7yh-g18252-d1e323">
-      ¶ Primo ponit opinionem vnam.
-   </p>
-            <p xml:id="kzz7yh-g18252-d1e325">
-      ¶ Secundo 
-      <lb ed="#V" n="55"/>aliam ibi. Aliis autem placet. Et ista diuiditur in duas. 
-   </p>
-            <p xml:id="kzz7yh-g18252-d1e331">
-               <lb ed="#V" n="56"/>¶ Primo ponit opinionem.
-   </p>
-            <p xml:id="kzz7yh-g18252-d1e336">
-      ¶ Secundo opinionis 
-      con<lb ed="#V" n="57" break="no"/>firmationem. ibi. De hoc Ioannes ita ait. 
-   </p>
-            <p xml:id="kzz7yh-g18252-d1e341">
-      <!--00065.xml-->
-               <cb ed="#V" n="b"/>
-               <lb ed="#V" n="58"/>CIrca hanc dist. quaerendum est 
-      princi<lb ed="#V" n="59" break="no"/>paliter de tribus.
-   </p>
-            <p xml:id="kzz7yh-g18252-d1e352">
-      ¶ 
-      Pri<lb ed="#V" n="60" break="no"/>mo de adoratione latrie: per comparationem ad 
-      <lb ed="#V" n="61"/>virtutem: per quam exhibetur.
-   </p>
-            <p xml:id="kzz7yh-g18252-d1e359">
-      ¶ Secundo per 
-      <lb ed="#V" n="62"/>comparationem ad obiectum cui exhibetur.
-   </p>
-            <p xml:id="kzz7yh-g18252-d1e364">
-      ¶ Tertio de 
-      <lb ed="#V" n="63"/>virtute dulie.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="27-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g18252"><!-- l3d9prae -->
+        <head xml:id="kzz7yh-g18252-Hd1e101">Praeambulum</head>
+        <!--            <p xml:id="kzz7yh-g18252-d1e103">
+          <lb ed="#V" n="85"/>¶ De adoratione humanitatis christi: an eadem sit 
+          ado<lb ed="#V" n="86" break="no"/>ratio humanitati et deitati exhibenda. Disintio IX 
+          <lb ed="#V" n="87"/>RReterea inuestigari 
+          opor<lb ed="#V" n="88" break="no"/>tet vtrum caro christ 
+          <lb ed="#V" n="89"/>et anima vna eademque cum verbo 
+          de<lb ed="#V" n="90" break="no"/>beat adoratione adorari illa: scilicet 
+          <lb ed="#V" n="91"/>que latria dicitur. Si enim anime vel 
+          <lb ed="#V" n="92"/>carni exhibetur latria que intelligitur seruitus 
+          <lb ed="#V" n="93"/>siue cultus soli creatori debitus: cum anima christi 
+          <lb ed="#V" n="94"/>vel caro creatura tantum sit: creature exhibetur 
+          <lb ed="#V" n="95"/>quod soli creatori debetur: quod facienti in idola 
+          <lb ed="#V" n="96"/>triam deputatur. Ideo quibusdam videtur non 
+          <lb ed="#V" n="97"/>illa adoratione que latria est carnem christi 
+          vel<lb ed="#V" n="98" break="no"/>animam christi esse adorandam: sed illa que est 
+          du<lb ed="#V" n="99" break="no"/>lia: cuius duas species vel modos esse dicunt. 
+          <lb ed="#V" n="100"/>Est enim cuiusdam modi dulia que creature 
+          <lb ed="#V" n="101"/>cuilibet exhiberi potest: et est quedam soli huma 
+          <lb ed="#V" n="102"/>nitati christi exhibenda non alii creature: quia 
+          <lb ed="#V" n="103"/>christi humanitas super omnem creaturam est 
+          <lb ed="#V" n="104"/>veneranda et diligenda. Non tamen adeo vt cul 
+          <lb ed="#V" n="105"/>tus diuinitati debitus ei exhibeatur: qui cultus 
+          <lb ed="#V" n="106"/>in dilectione et sacrificii exhibitione atque 
+          reue<lb ed="#V" n="107" break="no"/>rentia consistit: qui latine dicitur pietas: 
+          grece<lb ed="#V" n="108" break="no"/>autem theosebia: idest dei cultus: vel eusebia: 
+          <lb ed="#V" n="109"/>idest bonus cultus. 
+          </p>
+          <p xml:id="kzz7yh-g18252-d1e160">
+          <lb ed="#V" n="110"/>¶ Aliorum sententia qua vnam adorationemi 
+          <lb ed="#V" n="111"/>vtrique exhibendam tradunt. 
+          <lb ed="#V" n="112"/>Aluis autem placet christi 
+          puiuia<lb ed="#V" n="113" break="no"/>nitatem vna adora 
+          <lb ed="#V" n="114"/>tione cum verbo esse adorandam: non propter 
+          <lb ed="#V" n="115"/>se: sed propter illum cuius scabellum est: cui est 
+          <lb ed="#V" n="116"/>vnita. Neque ipsa humanitas sola vel nuda: sed 
+          <lb ed="#V" n="117"/>cum verbo cui est vnita nec propter se: sed propter 
+          <lb ed="#V" n="118"/>illum cui est vnita adoranda. Nec qui hoc 
+          fa<lb ed="#V" n="119" break="no"/>cit idolatrie reus iudicari potest: quia nec soli 
+          crea<lb ed="#V" n="120" break="no"/>tura: nec propter ipsam: sed creatori cum 
+          huma<lb ed="#V" n="121" break="no"/>nitate: et in humanitate sua seruit. De hoc Ioan. 
+          <lb ed="#V" n="122"/>Damas. ita ait. Due sunt nature christi ratio 
+          <lb ed="#V" n="123"/>ne et modo differentes: vnite vero secundum 
+          hyposta<lb ed="#V" n="124" break="no"/>sim. Unus ergo christus est deus perfectus et 
+          <lb ed="#V" n="125"/>homo perfectus quem adoramus cum patre et 
+          spi<lb ed="#V" n="126" break="no"/>ritu vna adoratione cum incontaminata carne eius. 
+          <!-\-00065.xml-\->
+          <pb ed="#V" n="27-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Non inadorabilem carnem dicentes. Adoratur 
+          <lb ed="#V" n="2"/>enim in vna verbi hypostasi: que hypostasis 
+          ge<lb ed="#V" n="3" break="no"/>nerata est. Non creature venerationem 
+          preben<lb ed="#V" n="4" break="no"/>tes. Non ergo vt nudam carnem adoramus: sed 
+          <lb ed="#V" n="5"/>vt vnitam deitati in vnam hypostasim dei verbi 
+          <lb ed="#V" n="6"/>duabus reductis naturis. Timeo carbonem 
+          tan<lb ed="#V" n="7" break="no"/>gere propter ligno copulatum ignem. Adoro christi 
+          <lb ed="#V" n="8"/>dei mei simul vtramque naturam: propter carni 
+          vni<lb ed="#V" n="9" break="no"/>tam deitatem. Non enim quarta appono 
+          perso<lb ed="#V" n="10" break="no"/>nam in trinitate: sed vnam personam confiteor 
+          ver<lb ed="#V" n="11" break="no"/>bi et carnis eius. His verbis insinuari videtur 
+          <lb ed="#V" n="12"/>christi humanitatem vna adoratione cum 
+          ver<lb ed="#V" n="13" break="no"/>bo esse adorandam. De hoc etiam Aug. ait ex 
+          <lb ed="#V" n="14"/>sermone domini: vbi dicit. Non turbetur cor 
+          ve<lb ed="#V" n="15" break="no"/>strum: ita dicit. Dicunt heretici filium non 
+          natu<lb ed="#V" n="16" break="no"/>ra esse deum: sed creatum. Quibus respondendum 
+          <lb ed="#V" n="17"/>est: qui si filius non est deus natura: sed 
+          creatu<lb ed="#V" n="18" break="no"/>ra: nec colendus est omnio: nec vt deus adorandus: 
+          di<lb ed="#V" n="19" break="no"/>cente apstulo. Coluerunt et seruierunt potius creature 
+          <lb ed="#V" n="20"/>quam creatori. Sed illi ad hoc replicabunt et dicent. 
+          <lb ed="#V" n="21"/>Quid est quod carnem eius quam creaturam esse non 
+          <lb ed="#V" n="22"/>negas simul cum diuinitate adoras: et ei non minus quae 
+          <lb ed="#V" n="23"/>diuinitati deseruis: Ego dominicam carnem 
+          immo<lb ed="#V" n="24" break="no"/>perfectam in christo humanitatem ideo adoro: 
+          <lb ed="#V" n="25"/>quod a diuinitate suscepta et deitati vnita est: vt non 
+          <lb ed="#V" n="26"/>alium et alium: sed vnum eundemque deum et 
+          homi<lb ed="#V" n="27" break="no"/>nem filium dei esse confitear. Denique si hominem 
+          <lb ed="#V" n="28"/>separaueris a deo: illi nunquam credo nec seruio: 
+          <lb ed="#V" n="29"/>velut si quis purpuram vel diadema regale ia 
+          <lb ed="#V" n="30"/>cens inueniat: nunquid ea conabitur adorare: 
+          <lb ed="#V" n="31"/>Cum vero ea rex fuerit indutus: periculum 
+          mor<lb ed="#V" n="32" break="no"/>tis incurrit: si ea cum rege adorare quis 
+          conten<lb ed="#V" n="33" break="no"/>pserit. Ita in christo domino humanitatem non 
+          <lb ed="#V" n="34"/>solam vel nudam: sed diuinitati vnitam: scilicet vnum 
+          <lb ed="#V" n="35"/>filium deum verum et hominem verum si quis 
+          ado<lb ed="#V" n="36" break="no"/>rare contempserit: eternaliter morietur. Idem 
+          su<lb ed="#V" n="37" break="no"/>per psals. xcviii. vbi dicitur. Adorate scabellum 
+          <lb ed="#V" n="38"/>pedum eius quoniam sanctum est. Sciendum quia 
+          <lb ed="#V" n="39"/>in christo terra est: idest caro que sine 
+          impieta<lb ed="#V" n="40" break="no"/>tate adoratur. Suscepit enim de terra terram: 
+          <lb ed="#V" n="41"/>quia caro de terra est: et de carne. Marie 
+          car<lb ed="#V" n="42" break="no"/>nem accepit. hec sine impietate a verbo dei 
+          assun<lb ed="#V" n="43" break="no"/>pta adoratur a nobis: quia nemo carnem eius 
+          <lb ed="#V" n="44"/>manducat nisi prius adoret: sed qui adorat non 
+          ter<lb ed="#V" n="45" break="no"/>ram intuetur: sed illum potius cuius scabellum est propter 
+          <lb ed="#V" n="46"/>quem adorat. His auctoritatibus premisse 
+          in<lb ed="#V" n="47" break="no"/>uestigationis absolutio explicatur.
+          </p>-->
+        <p xml:id="kzz7yh-g18252-d1e106">
+          <lb ed="#V" n="48"/>PReterea inuestigari oportet etc 
+          Supe<lb ed="#V" n="49" break="no"/>rius inquisiuit Magister vtrum 
+          <lb ed="#V" n="50"/>iuine nature conueniat nasci. Hic inquirit vtrum 
+          <lb ed="#V" n="51"/>caro christi debeat adorari. Et primo ponit 
+          magi<lb ed="#V" n="52" break="no"/>ster questionem. Secundo eiusdem 
+          determinatio<lb ed="#V" n="53" break="no"/>nem ibi. Ideo quibusdam videtur. Et ista pars diuiditur 
+          <lb ed="#V" n="54"/>in duas.
+        </p>
+        <p xml:id="kzz7yh-g18252-d1e323">
+          ¶ Primo ponit opinionem vnam.
+        </p>
+        <p xml:id="kzz7yh-g18252-d1e325">
+          ¶ Secundo 
+          <lb ed="#V" n="55"/>aliam ibi. Aliis autem placet. Et ista diuiditur in duas. 
+        </p>
+        <p xml:id="kzz7yh-g18252-d1e331">
+          <lb ed="#V" n="56"/>¶ Primo ponit opinionem.
+        </p>
+        <p xml:id="kzz7yh-g18252-d1e336">
+          ¶ Secundo opinionis 
+          con<lb ed="#V" n="57" break="no"/>firmationem. ibi. De hoc Ioannes ita ait. 
+        </p>
+        <p xml:id="kzz7yh-g18252-d1e341">
+          <!--00065.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="58"/>CIrca hanc dist. quaerendum est 
+          princi<lb ed="#V" n="59" break="no"/>paliter de tribus.
+        </p>
+        <p xml:id="kzz7yh-g18252-d1e352">
+          ¶ 
+          Pri<lb ed="#V" n="60" break="no"/>mo de adoratione latrie: per comparationem ad 
+          <lb ed="#V" n="61"/>virtutem: per quam exhibetur.
+        </p>
+        <p xml:id="kzz7yh-g18252-d1e359">
+          ¶ Secundo per 
+          <lb ed="#V" n="62"/>comparationem ad obiectum cui exhibetur.
+        </p>
+        <p xml:id="kzz7yh-g18252-d1e364">
+          ¶ Tertio de 
+          <lb ed="#V" n="63"/>virtute dulie.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

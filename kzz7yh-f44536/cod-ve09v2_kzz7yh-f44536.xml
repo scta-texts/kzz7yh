@@ -1,339 +1,342 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="62-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f44536"><!-- l2d15prae -->
-            <head xml:id="kzz7yh-f44536-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-f44536-d1e103">
-               <lb ed="#V" n="55"/>¶ De opere quinte diei quando creauit deus ex 
-      <lb ed="#V" n="56"/>aquis volatilia et natatilia. Distinctio XVI 
-      <lb ed="#V" n="57"/>eit etiami deus 
-      produ<lb ed="#V" n="58" break="no"/>causat aque 
-      re<lb ed="#V" n="59" break="no"/>ptile anime viuentis et volatile 
-      su<lb ed="#V" n="60" break="no"/>per terram etc. Opus quinte diei est 
-      <lb ed="#V" n="61"/>formatio piscium et auium: quibus 
-      <lb ed="#V" n="62"/>duo elementa ornantur: et de eadem materia id est 
-      <lb ed="#V" n="63"/>de aquis pisces et aues creauit: volatilia leuans 
-      <lb ed="#V" n="64"/>in aera: et natatilia remittens gurgiti. 
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e127">
-               <lb ed="#V" n="65"/>¶ De opere sexte diei quando creata sunt anima 
-      <lb ed="#V" n="66"/>lia et reptilia terre. 
-      <!--00137.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="67"/>Sequitur dixit deus producat terram 
-      <lb ed="#V" n="68"/>animam viuentem: iumenta 
-      <lb ed="#V" n="69"/>et reptilia et bestias terre secundum species suas etc. 
-      Sex<lb ed="#V" n="70" break="no"/>te diei opus describitur cum terra suis anima 
-      <lb ed="#V" n="71"/>libus ornari dicitur. 
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e149">
-               <lb ed="#V" n="72"/>¶ Utrum post peccatum venenosa animalia noxiam 
-      <lb ed="#V" n="73"/>facta fuerint: an propter peccatum nocere 
-      ce<lb ed="#V" n="74" break="no"/>perint prius facta innoxia. 
-      <lb ed="#V" n="75"/>Queri solet de venenosis et 
-      pernicio<lb ed="#V" n="76" break="no"/>sis animantibus: vtrum 
-      <lb ed="#V" n="77"/>post peccatum hominis ad vidictam creata sint: 
-      <lb ed="#V" n="78"/>an potius creata innoxia peccatoribus nocere 
-      ce<lb ed="#V" n="79" break="no"/>perint: Sane dici potest quod creatam nihil 
-      homi<lb ed="#V" n="80" break="no"/>ni nocuissent si non peccasset. Puniendorum 
-      <lb ed="#V" n="81"/>namque vitiorum et terrendorum: vel probande vel 
-      <lb ed="#V" n="82"/>perficiende et perfruende virtutis causa 
-      noce<lb ed="#V" n="83" break="no"/>re ceperunt. Fuerunt ergo creata innoxia: sed 
-      <lb ed="#V" n="84"/>propter peccatum facta sunt noxia. 
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e180">
-               <lb ed="#V" n="85"/>¶ Utrum minuta animala tunc creata fuerint. 
-      <lb ed="#V" n="86"/>De quibusdam etiam minutis 
-      <lb ed="#V" n="87"/>animantibus 
-      <lb ed="#V" n="88"/>questio est. Utrum in primis conditionibus 
-      crea<lb ed="#V" n="89" break="no"/>ta sint: an ex rebus corruptis postea orta sint: 
-      <lb ed="#V" n="90"/>Pleraque enim de humidorum corporum vitiis 
-      <lb ed="#V" n="91"/>vel exhalationibus terre siue de cadaueribus 
-      <lb ed="#V" n="92"/>gignuntur. Quedam etiam de corruptione 
-      li<lb ed="#V" n="93" break="no"/>gnorum et herbarum et fructuum: et deus auctor 
-      <lb ed="#V" n="94"/>omnium est. Potest autem dici quod ea que de 
-      <lb ed="#V" n="95"/>corporibus animalium maxime mortuorum 
-      na<lb ed="#V" n="96" break="no"/>scuntur: cum animalibus creata non fuerint: 
-      ni<lb ed="#V" n="97" break="no"/>si potentialiter et materialiter. Ea vero que ex 
-      <lb ed="#V" n="98"/>terra: vel ex aquis nascuntur: vel ex eis que 
-      ter<lb ed="#V" n="99" break="no"/>ra germinante orta sunt: tunc creata fuisse non 
-      <lb ed="#V" n="100"/>incongrue dici potest. 
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e218">
-               <lb ed="#V" n="101"/>¶ Quare post omnia factus est homo. 
-      <lb ed="#V" n="102"/>Omnibus autem creantis atque 
-      <lb ed="#V" n="103"/>disposits 
-      no<lb ed="#V" n="104" break="no"/>uissime factus est homo tanquam dominus et 
-      posses<lb ed="#V" n="105" break="no"/>sor: qui et omnibus preferendus erat vnde 
-      sequi<lb ed="#V" n="106" break="no"/>tur. Uidit deus quod esset bonum: et ait. Faciamus 
-      <lb ed="#V" n="107"/>hominem ad imaginem etc. Sed antequam de 
-      ho<lb ed="#V" n="108" break="no"/>minis creatione tractemus: quod supra breuiter 
-      <lb ed="#V" n="109"/>tetigimus plenius versantes clarius faciamus. 
-      <lb ed="#V" n="110"/>In hac enim rerum distinctione catholici tra 
-      <lb ed="#V" n="111"/>ctatores dissentire vt supra diximus 
-      inueniun<lb ed="#V" n="112" break="no"/>tur. Aliis dicentibus res creatas atque 
-      distin<lb ed="#V" n="113" break="no"/>ctas secundum species suas per interualla sex dierum. 
-      <lb ed="#V" n="114"/>Quorum sententie quia littera Gense. magis 
-      in<lb ed="#V" n="115" break="no"/>seruire videtur atque catholica ecclesia magis 
-      <lb ed="#V" n="116"/>approbat: ideo hactenus studiose docuimus 
-      quo<lb ed="#V" n="117" break="no"/>modo ex illa communi materia prius informi 
-      <lb ed="#V" n="118"/>ter facta postea corporalium rerum genera per 
-      <lb ed="#V" n="119"/>sex dierum volumina distinctim sint. Aliis 
-      au<lb ed="#V" n="120" break="no"/>tem videtur quod non per interualla temporum 
-      <lb ed="#V" n="121"/>facta sint: sed simul ita formata ad esse 
-      prodie<lb ed="#V" n="122" break="no"/>runt. Quod Augu. super Genesem pluribus modis 
-      <!--00138.xml-->
-      <pb ed="#V" n="62-v"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>nititur ostendere: dicens elementa quattuor ita 
-      <lb ed="#V" n="2"/>formata sicut modo apparent ab initio 
-      extitis<lb ed="#V" n="3" break="no"/>se: et caelum syderibus ornatum fuisse. Quedam 
-      <lb ed="#V" n="4"/>vero non formaliter sed materialiter tunc facta 
-      <lb ed="#V" n="5"/>fuisse. Que post per temporis accessum 
-      forma<lb ed="#V" n="6" break="no"/>liter distincta sunt: vt herbe arbores et forte 
-      ani<lb ed="#V" n="7" break="no"/>malia. Omnia ergo in ipso temporis initio 
-      fa<lb ed="#V" n="8" break="no"/>cta esse dicunt: sed quedam formaliter et secundum 
-      spe<lb ed="#V" n="9" break="no"/>cies quas habere cernimus vt maiores 
-      mun<lb ed="#V" n="10" break="no"/>di partes: quedam vero materialiter tantum. 
-      <lb ed="#V" n="11"/>Sed vt dicunt moyses loquens rudi et carnali 
-      <lb ed="#V" n="12"/>populo locutionis modum temperauit de deo 
-      <lb ed="#V" n="13"/>loquens a simili hominis qui per moras 
-      tem<lb ed="#V" n="14" break="no"/>porum opera sua perficit: cum ipse simul sua ope 
-      <lb ed="#V" n="15"/>ra fecerit. Unde Aug. Ideo inquit Moyses 
-      <lb ed="#V" n="16"/>diuisim refert deum illa opera fecisse: quia non 
-      <lb ed="#V" n="17"/>potuit simul ab homine dici quod a deo simul 
-      po<lb ed="#V" n="18" break="no"/>tuit fieri. Item potuit diuidere scriptura 
-      loquen<lb ed="#V" n="19" break="no"/>di temporibus: quod deus operandi temporibus 
-      <lb ed="#V" n="20"/>non diuisit. Illi qui his auctoritatibus et aliis 
-      <lb ed="#V" n="21"/>huiusmodi inherentes dicunt quattuor 
-      elemen<lb ed="#V" n="22" break="no"/>ta atque celi luminaria ita formata simul esse et 
-      ha<lb ed="#V" n="23" break="no"/>buisse: illos sex dies quos scriptura commemorat 
-      <lb ed="#V" n="24"/>sex rerum genera id est distinctiones appellant: que simul 
-      <lb ed="#V" n="25"/>facte sunt: partim formaliter: partim causaliter. 
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e329">
-               <lb ed="#V" n="26"/>¶ Quomodo intelligendum sit deum 
-      requieuis<lb ed="#V" n="27" break="no"/>se ab omni opere suo. 
-      <lb ed="#V" n="28"/>dam de septime diei reque 
-      ali<lb ed="#V" n="29" break="no"/>quid nos. 
-      elo<lb ed="#V" n="30" break="no"/>qui oportet. Scriptum est: quia compleuit de 
-      <lb ed="#V" n="31"/>die septimo opus suum: et requieuit die septimo 
-      <lb ed="#V" n="32"/>ab vniuerso opere quod patrarat. Requieuisse 
-      di<lb ed="#V" n="33" break="no"/>citur deus die septimo non quasi operando 
-      las<lb ed="#V" n="34" break="no"/>sus: sed ab vniuerso opere requienit: quia nouam 
-      <lb ed="#V" n="35"/>creaturam facere cessauit. Requiescere enim 
-      <lb ed="#V" n="36"/>cessare dicitur. Unde in Apo. dicitur. Non 
-      ha<lb ed="#V" n="37" break="no"/>bebant requiem dicentia: Sanctus: sanctus: 
-      san<lb ed="#V" n="38" break="no"/>ctus: idest dicere non cessabant. Requieuisse 
-      <lb ed="#V" n="39"/>ergo deus dicitur: quia cessauit a faciendis 
-      ge<lb ed="#V" n="40" break="no"/>neribus creature: quia vltra noua non condidit 
-      <lb ed="#V" n="41"/>Usque nunc tamen vt veritas in euangelio ait: 
-      <lb ed="#V" n="42"/>operatur pater cum filio scilicet administrationem 
-      <lb ed="#V" n="43"/>eorundem generum que tunc instituta sunt. 
-      Crea<lb ed="#V" n="44" break="no"/>toris enim virtus causa subsistendi est omni 
-      crea<lb ed="#V" n="45" break="no"/>ture. Quod ergo dicitur. Pater meus vsque 
-      mo<lb ed="#V" n="46" break="no"/>do operatur: et ego operor: illud vniuerse 
-      crea<lb ed="#V" n="47" break="no"/>ture continuam amministrationem ostendit. Die 
-      <lb ed="#V" n="48"/>ergo septimo requieuit vt nouam ereaturam vel 
-      <lb ed="#V" n="49"/>terius non faceret: cuius materia vel 
-      similitu<lb ed="#V" n="50" break="no"/>do non precesserit: sed vsque nunc operatur: vt quod 
-      com<lb ed="#V" n="51" break="no"/>didit continere et gubernare non cesset. 
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e388">
-               <lb ed="#V" n="52"/>¶ Qualiter accipiendum sit quod dicitur: deus 
-      <lb ed="#V" n="53"/>complesse opus suum septimo die: cum tunc 
-      re<lb ed="#V" n="54" break="no"/>quieuit ab omni opere suo. 
-      <lb ed="#V" n="55"/>Sed queritur quomodo sptio 
-      <lb ed="#V" n="56"/>de dicgge dem¬ 
-      <!--00138.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>complesse opus suum: cum ab omni opere illo 
-      <lb ed="#V" n="58"/>die requieuerit: nec aliquod genus nouum 
-      re<lb ed="#V" n="59" break="no"/>rum fecerit: Alia translatio habet. Consumauit 
-      <lb ed="#V" n="60"/>deus die sexto opera sua que nihil questionis 
-      <lb ed="#V" n="61"/>affert: quia materifesta sunt que in eo facta sunt: 
-      <lb ed="#V" n="62"/>et omnium consumatio eo die perfecta est: sicut 
-      <lb ed="#V" n="63"/>scriptura ostendit cum ait. Uidit deus cuncta 
-      <lb ed="#V" n="64"/>que fecerat et erant valde bona. Omnia quidem 
-      <lb ed="#V" n="65"/>naturaliter bona erant: nihilque in sui natura 
-      <lb ed="#V" n="66"/>vitii habentia: et sunt bona que condidit deus 
-      <lb ed="#V" n="67"/>etiam singula. Simul vero vniuersa valde 
-      bo<lb ed="#V" n="68" break="no"/>na: quia ex omnibus consistit vniuersitatis 
-      am<lb ed="#V" n="69" break="no"/>mirabilis pulchritudo: in qua etiam illud quod 
-      <lb ed="#V" n="70"/>malum dicitur: bene ordinatum et locoisuo 
-      posi<lb ed="#V" n="71" break="no"/>tum eminentius commendat bona: vt magis 
-      pla<lb ed="#V" n="72" break="no"/>ceant et laudabiliora sint dum comparantur 
-      ma<lb ed="#V" n="73" break="no"/>lis. Sexto ergo die facta est operum 
-      consuma<lb ed="#V" n="74" break="no"/>tio. Ideo premissa oritur questio quomodo 
-      di<lb ed="#V" n="75" break="no"/>catur deus die septimo opus suum complesse: 
-      <lb ed="#V" n="76"/>quod hebraica veritas habet: in quo tamen nihil 
-      <lb ed="#V" n="77"/>nouum creasse dicitur: nisi forte dicatur die 
-      septi<lb ed="#V" n="78" break="no"/>mo compleuisse opus suum: quia ipsum 
-      bene<lb ed="#V" n="79" break="no"/>dixit et sanctificauit: sicut subiscit scriptura. Be 
-      <lb ed="#V" n="80"/>nedixt diei septimo et sanctificauit illum. Opus 
-      <lb ed="#V" n="81"/>enim est bedictio et sanctificatio sicut Salomo 
-      <lb ed="#V" n="82"/>aliquid operis fecit cum templum dedicauit. 
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e462">
-               <lb ed="#V" n="83"/>¶ Que sit bedictio et santificatio septime diei. 
-      <lb ed="#V" n="84"/>Illum autem diem 
-      sanctificas<lb ed="#V" n="85" break="no"/>se et benedixisse 
-      di<lb ed="#V" n="86" break="no"/>citur: quia mystica pre ceteris bedictione et 
-      san<lb ed="#V" n="87" break="no"/>ctificatione eum donauit. Unde in lege dicitur 
-      <lb ed="#V" n="88"/>Memento sanctificare diem sabbati. Et 
-      inde<lb ed="#V" n="89" break="no"/>est quod numerando dies: vsque ad septimum 
-      pro<lb ed="#V" n="90" break="no"/>cedimus et dicimus septem esse dies quorum re 
-      <lb ed="#V" n="91"/>petitione omne tempus agitur: non quin alius 
-      <lb ed="#V" n="92"/>sit ab illis dies octauus et nonus: et sic de ceteris. 
-      <lb ed="#V" n="93"/>Sed quia in sex diebus rerum genera distincta 
-      <lb ed="#V" n="94"/>sunt: et in septimo licet non fuerit nouum genus 
-      <lb ed="#V" n="95"/>rerum institutum: fuit tamen in eo quasi quidam 
-      <lb ed="#V" n="96"/>nouus status sanctificationis operum et 
-      requie<lb ed="#V" n="97" break="no"/>tionis opificis. Potest etiam sic exponi illud. 
-      <lb ed="#V" n="98"/>Compleuit deus die septimo opus suum id est 
-      comple<lb ed="#V" n="99" break="no"/>tum et consumatum vidit. Dist. XVI 
-      <lb ed="#V" n="100"/>Ixit etiam deus producant aque etc. 
-      <lb ed="#V" n="101"/>superius determinauit 
-      ma<lb ed="#V" n="102" break="no"/>gister de opere prime diei secunde tertie et quarte. 
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e508">
-               <lb ed="#V" n="103"/>¶ Hic determinat de opere diei quinte: et illa 
-      <lb ed="#V" n="104"/>pars manet indiuisa.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e515">
-      ¶ Tunc sequitur illa pars 
-      <lb ed="#V" n="105"/>que diuisa fuit superius. que ibi incipit. Sequitur dixit 
-      <lb ed="#V" n="106"/>deus. in qua determinat de opere sexte diei: et diuiditur 
-      <lb ed="#V" n="107"/>in partes duas.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e525">
-      ¶ Primo ponit operationissexte diei 
-      de<lb ed="#V" n="108" break="no"/>scriptionem.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e530">
-      ¶ Secundo conuertit se ad determinandum 
-      <lb ed="#V" n="109"/>incidentem questionem. ibi. Sed antequam de hominis 
-      crea<lb ed="#V" n="110" break="no"/>tione.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e537">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e539">
-      ¶ Primo procedit simpliciter 
-      <lb ed="#V" n="111"/>narrando.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e544">
-      ¶ Secundo quaestiones mouendo et soluendo. ibi. 
-      <lb ed="#V" n="112"/>¶Queri solet
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e549">
-      ¶ Et ista in duas: secundum duas questiones quas 
-      <lb ed="#V" n="113"/>mouet. secunda ibi. De quibusdam etiam.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e555">
-      ¶ Tunc sequi 
-      <lb ed="#V" n="114"/>tur illa pars que ibi incipit. Sed ante quam. In qua de¬ 
-      <!--00139.xml-->
-      <pb ed="#V" n="63-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>terminat dubitationem incidentem. Et diuiditur in duas. 
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e568">
-               <lb ed="#V" n="2"/>¶ Primo determinat eam secundum opinionem propriam.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e573">
-      ¶ 
-      Se<lb ed="#V" n="3" break="no"/>cundo secundum opinionem alienam. ibi. Aliis autem videtur.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e578">
-      ¶ Tunc 
-      <lb ed="#V" n="4"/>sequitur illa pars que diuisa suit superius. In qua 
-      determi<lb ed="#V" n="5" break="no"/>nat de requie diei. vii. que ibi incipit. Iam de septime diei. 
-      <lb ed="#V" n="6"/>Et diuiditur in partes tres.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e587">
-      ¶ Primo docet quomodo 
-      <lb ed="#V" n="7"/>debeat intelligi deum requieuisse.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e592">
-      ¶ Secundo quomodo 
-      <lb ed="#V" n="8"/>debeat intelligi deum die septimo opus suum compleuisse. 
-      <lb ed="#V" n="9"/>ibi. Sed queritur.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e600">
-      ¶ Tertio quomodo debeat 
-      intelli<lb ed="#V" n="10" break="no"/>gi secundum illum sanctificasse. Illum autem diem. I 
-      <lb ed="#V" n="11"/>Irca hanc disti. querutur qunque. 
-      Pri<lb ed="#V" n="12" break="no"/>mo de animalibus quantum 
-      <lb ed="#V" n="13"/>ad corpus.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e611">
-      ¶ Secundo quantum ad animam.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e613">
-      ¶ 
-      Ter<lb ed="#V" n="14" break="no"/>tio a comparatione anime ad compositum.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e618">
-      ¶ 
-      Quar<lb ed="#V" n="15" break="no"/>to de animalibus quantum ad tempus productionis 
-      <lb ed="#V" n="16"/>eorum.
-   </p>
-            <p xml:id="kzz7yh-f44536-d1e625">
-      ¶ Quinto de requie et sanctificatione diei septime. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="62-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f44536"><!-- l2d15prae -->
+        <head xml:id="kzz7yh-f44536-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-f44536-d1e103">
+          <lb ed="#V" n="55"/>¶ De opere quinte diei quando creauit deus ex 
+          <lb ed="#V" n="56"/>aquis volatilia et natabilia. Distinctio XVI 
+          <lb ed="#V" n="57"/>eit etiami deus 
+          produ<lb ed="#V" n="58" break="no"/>causat aque 
+          re<lb ed="#V" n="59" break="no"/>ptile anime viuentis et volatile 
+          su<lb ed="#V" n="60" break="no"/>per terram etc. Opus quinte diei est 
+          <lb ed="#V" n="61"/>formatio piscium et auium: quibus 
+          <lb ed="#V" n="62"/>duo elementa ornantur: et de eadem materia id est 
+          <lb ed="#V" n="63"/>de aquis pisces et aues creauit: volatilia leuans 
+          <lb ed="#V" n="64"/>in aera: et natatilia remittens gurgiti. 
+          </p>
+          <p xml:id="kzz7yh-f44536-d1e127">
+          <lb ed="#V" n="65"/>¶ De opere sexte diei quando creata sunt anima 
+          <lb ed="#V" n="66"/>lia et reptilia terre. 
+          <!-\-00137.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="67"/>Sequitur dixit deus producat terram 
+          <lb ed="#V" n="68"/>animam viuentem: iumenta 
+          <lb ed="#V" n="69"/>et reptilia et bestias terre secundum species suas etc. 
+          Sex<lb ed="#V" n="70" break="no"/>te diei opus describitur cum terra suis anima 
+          <lb ed="#V" n="71"/>libus ornari dicitur. 
+          </p>
+          <p xml:id="kzz7yh-f44536-d1e149">
+          <lb ed="#V" n="72"/>¶ Utrum post peccatum venenosa animalia noxiam 
+          <lb ed="#V" n="73"/>facta fuerint: an propter peccatum nocere 
+          ce<lb ed="#V" n="74" break="no"/>perint prius facta innoxia. 
+          <lb ed="#V" n="75"/>Queri solet de venenosis et 
+          pernicio<lb ed="#V" n="76" break="no"/>sis animantibus: vtrum 
+          <lb ed="#V" n="77"/>post peccatum hominis ad vidictam creata sint: 
+          <lb ed="#V" n="78"/>an potius creata innoxia peccatoribus nocere 
+          ce<lb ed="#V" n="79" break="no"/>perint: Sane dici potest quod creatam nihil 
+          homi<lb ed="#V" n="80" break="no"/>ni nocuissent si non peccasset. Puniendorum 
+          <lb ed="#V" n="81"/>namque vitiorum et terrendorum: vel probande vel 
+          <lb ed="#V" n="82"/>perficiende et perfruende virtutis causa 
+          noce<lb ed="#V" n="83" break="no"/>re ceperunt. Fuerunt ergo creata innoxia: sed 
+          <lb ed="#V" n="84"/>propter peccatum facta sunt noxia. 
+          </p>
+          <p xml:id="kzz7yh-f44536-d1e180">
+          <lb ed="#V" n="85"/>¶ Utrum minuta animala tunc creata fuerint. 
+          <lb ed="#V" n="86"/>De quibusdam etiam minutis 
+          <lb ed="#V" n="87"/>animantibus 
+          <lb ed="#V" n="88"/>questio est. Utrum in primis conditionibus 
+          crea<lb ed="#V" n="89" break="no"/>ta sint: an ex rebus corruptis postea orta sint: 
+          <lb ed="#V" n="90"/>Pleraque enim de humidorum corporum vitiis 
+          <lb ed="#V" n="91"/>vel exhalationibus terre siue de cadaueribus 
+          <lb ed="#V" n="92"/>gignuntur. Quedam etiam de corruptione 
+          li<lb ed="#V" n="93" break="no"/>gnorum et herbarum et fructuum: et deus auctor 
+          <lb ed="#V" n="94"/>omnium est. Potest autem dici quod ea que de 
+          <lb ed="#V" n="95"/>corporibus animalium maxime mortuorum 
+          na<lb ed="#V" n="96" break="no"/>scuntur: cum animalibus creata non fuerint: 
+          ni<lb ed="#V" n="97" break="no"/>si potentialiter et materialiter. Ea vero que ex 
+          <lb ed="#V" n="98"/>terra: vel ex aquis nascuntur: vel ex eis que 
+          ter<lb ed="#V" n="99" break="no"/>ra germinante orta sunt: tunc creata fuisse non 
+          <lb ed="#V" n="100"/>incongrue dici potest. 
+          </p>
+          <p xml:id="kzz7yh-f44536-d1e218">
+          <lb ed="#V" n="101"/>¶ Quare post omnia factus est homo. 
+          <lb ed="#V" n="102"/>Omnibus autem creantis atque 
+          <lb ed="#V" n="103"/>disposits 
+          no<lb ed="#V" n="104" break="no"/>uissime factus est homo tanquam dominus et 
+          posses<lb ed="#V" n="105" break="no"/>sor: qui et omnibus preferendus erat vnde 
+          sequi<lb ed="#V" n="106" break="no"/>tur. Uidit deus quod esset bonum: et ait. Faciamus 
+          <lb ed="#V" n="107"/>hominem ad imaginem etc. Sed antequam de 
+          ho<lb ed="#V" n="108" break="no"/>minis creatione tractemus: quod supra breuiter 
+          <lb ed="#V" n="109"/>tetigimus plenius versantes clarius faciamus. 
+          <lb ed="#V" n="110"/>In hac enim rerum distinctione catholici tra 
+          <lb ed="#V" n="111"/>ctatores dissentire vt supra diximus 
+          inueniun<lb ed="#V" n="112" break="no"/>tur. Aliis dicentibus res creatas atque 
+          distin<lb ed="#V" n="113" break="no"/>ctas secundum species suas per interualla sex dierum. 
+          <lb ed="#V" n="114"/>Quorum sententie quia littera Gense. magis 
+          in<lb ed="#V" n="115" break="no"/>seruire videtur atque catholica ecclesia magis 
+          <lb ed="#V" n="116"/>approbat: ideo hactenus studiose docuimus 
+          quo<lb ed="#V" n="117" break="no"/>modo ex illa communi materia prius informi 
+          <lb ed="#V" n="118"/>ter facta postea corporalium rerum genera per 
+          <lb ed="#V" n="119"/>sex dierum volumina distinctim sint. Aliis 
+          au<lb ed="#V" n="120" break="no"/>tem videtur quod non per interualla temporum 
+          <lb ed="#V" n="121"/>facta sint: sed simul ita formata ad esse 
+          prodie<lb ed="#V" n="122" break="no"/>runt. Quod Augu. super Genesem pluribus modis 
+          <!-\-00138.xml-\->
+          <pb ed="#V" n="62-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>nititur ostendere: dicens elementa quattuor ita 
+          <lb ed="#V" n="2"/>formata sicut modo apparent ab initio 
+          extitis<lb ed="#V" n="3" break="no"/>se: et caelum syderibus ornatum fuisse. Quedam 
+          <lb ed="#V" n="4"/>vero non formaliter sed materialiter tunc facta 
+          <lb ed="#V" n="5"/>fuisse. Que post per temporis accessum 
+          forma<lb ed="#V" n="6" break="no"/>liter distincta sunt: vt herbe arbores et forte 
+          ani<lb ed="#V" n="7" break="no"/>malia. Omnia ergo in ipso temporis initio 
+          fa<lb ed="#V" n="8" break="no"/>cta esse dicunt: sed quedam formaliter et secundum 
+          spe<lb ed="#V" n="9" break="no"/>cies quas habere cernimus vt maiores 
+          mun<lb ed="#V" n="10" break="no"/>di partes: quedam vero materialiter tantum. 
+          <lb ed="#V" n="11"/>Sed vt dicunt moyses loquens rudi et carnali 
+          <lb ed="#V" n="12"/>populo locutionis modum temperauit de deo 
+          <lb ed="#V" n="13"/>loquens a simili hominis qui per moras 
+          tem<lb ed="#V" n="14" break="no"/>porum opera sua perficit: cum ipse simul sua ope 
+          <lb ed="#V" n="15"/>ra fecerit. Unde Aug. Ideo inquit Moyses 
+          <lb ed="#V" n="16"/>diuisim refert deum illa opera fecisse: quia non 
+          <lb ed="#V" n="17"/>potuit simul ab homine dici quod a deo simul 
+          po<lb ed="#V" n="18" break="no"/>tuit fieri. Item potuit diuidere scriptura 
+          loquen<lb ed="#V" n="19" break="no"/>di temporibus: quod deus operandi temporibus 
+          <lb ed="#V" n="20"/>non diuisit. Illi qui his auctoritatibus et aliis 
+          <lb ed="#V" n="21"/>huiusmodi inherentes dicunt quattuor 
+          elemen<lb ed="#V" n="22" break="no"/>ta atque celi luminaria ita formata simul esse et 
+          ha<lb ed="#V" n="23" break="no"/>buisse: illos sex dies quos scriptura commemorat 
+          <lb ed="#V" n="24"/>sex rerum genera id est distinctiones appellant: que simul 
+          <lb ed="#V" n="25"/>facte sunt: partim formaliter: partim causaliter. 
+          </p>
+          <p xml:id="kzz7yh-f44536-d1e329">
+          <lb ed="#V" n="26"/>¶ Quomodo intelligendum sit deum 
+          requieuis<lb ed="#V" n="27" break="no"/>se ab omni opere suo. 
+          <lb ed="#V" n="28"/>dam de septime diei reque 
+          ali<lb ed="#V" n="29" break="no"/>quid nos. 
+          elo<lb ed="#V" n="30" break="no"/>qui oportet. Scriptum est: quia compleuit de 
+          <lb ed="#V" n="31"/>die septimo opus suum: et requieuit die septimo 
+          <lb ed="#V" n="32"/>ab vniuerso opere quod patrarat. Requieuisse 
+          di<lb ed="#V" n="33" break="no"/>citur deus die septimo non quasi operando 
+          las<lb ed="#V" n="34" break="no"/>sus: sed ab vniuerso opere requienit: quia nouam 
+          <lb ed="#V" n="35"/>creaturam facere cessauit. Requiescere enim 
+          <lb ed="#V" n="36"/>cessare dicitur. Unde in Apo. dicitur. Non 
+          ha<lb ed="#V" n="37" break="no"/>bebant requiem dicentia: Sanctus: sanctus: 
+          san<lb ed="#V" n="38" break="no"/>ctus: idest dicere non cessabant. Requieuisse 
+          <lb ed="#V" n="39"/>ergo deus dicitur: quia cessauit a faciendis 
+          ge<lb ed="#V" n="40" break="no"/>neribus creature: quia vltra noua non condidit 
+          <lb ed="#V" n="41"/>Usque nunc tamen vt veritas in euangelio ait: 
+          <lb ed="#V" n="42"/>operatur pater cum filio scilicet administrationem 
+          <lb ed="#V" n="43"/>eorundem generum que tunc instituta sunt. 
+          Crea<lb ed="#V" n="44" break="no"/>toris enim virtus causa subsistendi est omni 
+          crea<lb ed="#V" n="45" break="no"/>ture. Quod ergo dicitur. Pater meus vsque 
+          mo<lb ed="#V" n="46" break="no"/>do operatur: et ego operor: illud vniuerse 
+          crea<lb ed="#V" n="47" break="no"/>ture continuam amministrationem ostendit. Die 
+          <lb ed="#V" n="48"/>ergo septimo requieuit vt nouam ereaturam vel 
+          <lb ed="#V" n="49"/>terius non faceret: cuius materia vel 
+          similitu<lb ed="#V" n="50" break="no"/>do non precesserit: sed vsque nunc operatur: vt quod 
+          com<lb ed="#V" n="51" break="no"/>didit continere et gubernare non cesset. 
+          </p>
+          <p xml:id="kzz7yh-f44536-d1e388">
+          <lb ed="#V" n="52"/>¶ Qualiter accipiendum sit quod dicitur: deus 
+          <lb ed="#V" n="53"/>complesse opus suum septimo die: cum tunc 
+          re<lb ed="#V" n="54" break="no"/>quieuit ab omni opere suo. 
+          <lb ed="#V" n="55"/>Sed queritur quomodo sptio 
+          <lb ed="#V" n="56"/>de dicgge dem¬ 
+          <!-\-00138.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>complesse opus suum: cum ab omni opere illo 
+          <lb ed="#V" n="58"/>die requieuerit: nec aliquod genus nouum 
+          re<lb ed="#V" n="59" break="no"/>rum fecerit: Alia translatio habet. Consumauit 
+          <lb ed="#V" n="60"/>deus die sexto opera sua que nihil questionis 
+          <lb ed="#V" n="61"/>affert: quia materifesta sunt que in eo facta sunt: 
+          <lb ed="#V" n="62"/>et omnium consumatio eo die perfecta est: sicut 
+          <lb ed="#V" n="63"/>scriptura ostendit cum ait. Uidit deus cuncta 
+          <lb ed="#V" n="64"/>que fecerat et erant valde bona. Omnia quidem 
+          <lb ed="#V" n="65"/>naturaliter bona erant: nihilque in sui natura 
+          <lb ed="#V" n="66"/>vitii habentia: et sunt bona que condidit deus 
+          <lb ed="#V" n="67"/>etiam singula. Simul vero vniuersa valde 
+          bo<lb ed="#V" n="68" break="no"/>na: quia ex omnibus consistit vniuersitatis 
+          am<lb ed="#V" n="69" break="no"/>mirabilis pulchritudo: in qua etiam illud quod 
+          <lb ed="#V" n="70"/>malum dicitur: bene ordinatum et locoisuo 
+          posi<lb ed="#V" n="71" break="no"/>tum eminentius commendat bona: vt magis 
+          pla<lb ed="#V" n="72" break="no"/>ceant et laudabiliora sint dum comparantur 
+          ma<lb ed="#V" n="73" break="no"/>lis. Sexto ergo die facta est operum 
+          consuma<lb ed="#V" n="74" break="no"/>tio. Ideo premissa oritur questio quomodo 
+          di<lb ed="#V" n="75" break="no"/>catur deus die septimo opus suum complesse: 
+          <lb ed="#V" n="76"/>quod hebraica veritas habet: in quo tamen nihil 
+          <lb ed="#V" n="77"/>nouum creasse dicitur: nisi forte dicatur die 
+          septi<lb ed="#V" n="78" break="no"/>mo compleuisse opus suum: quia ipsum 
+          bene<lb ed="#V" n="79" break="no"/>dixit et sanctificauit: sicut subiscit scriptura. Be 
+          <lb ed="#V" n="80"/>nedixt diei septimo et sanctificauit illum. Opus 
+          <lb ed="#V" n="81"/>enim est bedictio et sanctificatio sicut Salomo 
+          <lb ed="#V" n="82"/>aliquid operis fecit cum templum dedicauit. 
+          </p>
+          <p xml:id="kzz7yh-f44536-d1e462">
+          <lb ed="#V" n="83"/>¶ Que sit bedictio et santificatio septime diei. 
+          <lb ed="#V" n="84"/>Illum autem diem 
+          sanctificas<lb ed="#V" n="85" break="no"/>se et benedixisse 
+          di<lb ed="#V" n="86" break="no"/>citur: quia mystica pre ceteris bedictione et 
+          san<lb ed="#V" n="87" break="no"/>ctificatione eum donauit. Unde in lege dicitur 
+          <lb ed="#V" n="88"/>Memento sanctificare diem sabbati. Et 
+          inde<lb ed="#V" n="89" break="no"/>est quod numerando dies: vsque ad septimum 
+          pro<lb ed="#V" n="90" break="no"/>cedimus et dicimus septem esse dies quorum re 
+          <lb ed="#V" n="91"/>petitione omne tempus agitur: non quin alius 
+          <lb ed="#V" n="92"/>sit ab illis dies octauus et nonus: et sic de ceteris. 
+          <lb ed="#V" n="93"/>Sed quia in sex diebus rerum genera distincta 
+          <lb ed="#V" n="94"/>sunt: et in septimo licet non fuerit nouum genus 
+          <lb ed="#V" n="95"/>rerum institutum: fuit tamen in eo quasi quidam 
+          <lb ed="#V" n="96"/>nouus status sanctificationis operum et 
+          requie<lb ed="#V" n="97" break="no"/>tionis opificis. Potest etiam sic exponi illud. 
+          <lb ed="#V" n="98"/>Compleuit deus die septimo opus suum id est 
+          comple<lb ed="#V" n="99" break="no"/>tum et consumatum vidit.
+          </p>-->
+        <p xml:id="kzz7yh-f44536-d1e106">
+          Dist. XV
+          <lb ed="#V" n="100"/>DIxit etiam deus producant aque etc. 
+          <lb ed="#V" n="101"/>superius determinauit 
+          ma<lb ed="#V" n="102" break="no"/>gister de opere prime diei secunde tertie et quarte. 
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e508">
+          <lb ed="#V" n="103"/>¶ Hic determinat de opere diei quinte: et illa 
+          <lb ed="#V" n="104"/>pars manet indiuisa.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e515">
+          ¶ Tunc sequitur illa pars 
+          <lb ed="#V" n="105"/>que diuisa fuit superius. que ibi incipit. Sequitur dixit 
+          <lb ed="#V" n="106"/>deus. in qua determinat de opere sexte diei: et diuiditur 
+          <lb ed="#V" n="107"/>in partes duas.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e525">
+          ¶ Primo ponit operationissexte diei 
+          de<lb ed="#V" n="108" break="no"/>scriptionem.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e530">
+          ¶ Secundo conuertit se ad determinandum 
+          <lb ed="#V" n="109"/>incidentem questionem. ibi. Sed antequam de hominis 
+          crea<lb ed="#V" n="110" break="no"/>tione.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e537">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e539">
+          ¶ Primo procedit simpliciter 
+          <lb ed="#V" n="111"/>narrando.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e544">
+          ¶ Secundo quaestiones mouendo et soluendo. ibi. 
+          <lb ed="#V" n="112"/>¶Queri solet
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e549">
+          ¶ Et ista in duas: secundum duas questiones quas 
+          <lb ed="#V" n="113"/>mouet. secunda ibi. De quibusdam etiam.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e555">
+          ¶ Tunc sequi 
+          <lb ed="#V" n="114"/>tur illa pars que ibi incipit. Sed ante quam. In qua de¬ 
+          <!--00139.xml-->
+          <pb ed="#V" n="63-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>terminat dubitationem incidentem. Et diuiditur in duas. 
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e568">
+          <lb ed="#V" n="2"/>¶ Primo determinat eam secundum opinionem propriam.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e573">
+          ¶ 
+          Se<lb ed="#V" n="3" break="no"/>cundo secundum opinionem alienam. ibi. Aliis autem videtur.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e578">
+          ¶ Tunc 
+          <lb ed="#V" n="4"/>sequitur illa pars que diuisa suit superius. In qua 
+          determi<lb ed="#V" n="5" break="no"/>nat de requie diei. vii. que ibi incipit. Iam de septime diei. 
+          <lb ed="#V" n="6"/>Et diuiditur in partes tres.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e587">
+          ¶ Primo docet quomodo 
+          <lb ed="#V" n="7"/>debeat intelligi deum requieuisse.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e592">
+          ¶ Secundo quomodo 
+          <lb ed="#V" n="8"/>debeat intelligi deum die septimo opus suum compleuisse. 
+          <lb ed="#V" n="9"/>ibi. Sed queritur.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e600">
+          ¶ Tertio quomodo debeat 
+          intelli<lb ed="#V" n="10" break="no"/>gi secundum illum sanctificasse. Illum autem diem. I 
+          <lb ed="#V" n="11"/>Irca hanc disti. querutur qunque. 
+          Pri<lb ed="#V" n="12" break="no"/>mo de animalibus quantum 
+          <lb ed="#V" n="13"/>ad corpus.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e611">
+          ¶ Secundo quantum ad animam.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e613">
+          ¶ 
+          Ter<lb ed="#V" n="14" break="no"/>tio a comparatione anime ad compositum.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e618">
+          ¶ 
+          Quar<lb ed="#V" n="15" break="no"/>to de animalibus quantum ad tempus productionis 
+          <lb ed="#V" n="16"/>eorum.
+        </p>
+        <p xml:id="kzz7yh-f44536-d1e625">
+          ¶ Quinto de requie et sanctificatione diei septime. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

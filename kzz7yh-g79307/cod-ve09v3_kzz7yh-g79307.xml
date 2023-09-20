@@ -1,255 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="112-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g79307"><!-- l3d31prae -->
-            <head xml:id="kzz7yh-g79307-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-g79307-d1e103">
-      <!--00236.xml-->
-               <pb ed="#V" n="112-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>¶ Si charitas semel hita amittatur. Di. XXXI
-    </p>
-            <p xml:id="kzz7yh-g79307-d1e114">
-               <lb ed="#V" n="2"/>Illud quoque non est 
-      pretereun<lb ed="#V" n="3" break="no"/>dum quod quidam asserunt 
-      <lb ed="#V" n="4"/>charitatem semel habita ab aliquo non 
-      <lb ed="#V" n="5"/>posse excidere: nullumque damnandum hanc 
-      <lb ed="#V" n="6"/>aliquando habere. Qui hanc traditionem 
-      <lb ed="#V" n="7"/>subdictis muniunt testimoniis. Apostolus ait. 
-      Cha<lb ed="#V" n="8" break="no"/>ritas nunquam excidit. Augu. est inquit. Charitas 
-      <lb ed="#V" n="9"/>que deseri potest: nunquam vera fuit. Item charitas 
-      <lb ed="#V" n="10"/>est fons proprius et singularis bonorum: cui non 
-      con<lb ed="#V" n="11" break="no"/>municat alienus. alieni sunt omnes qui audituri sunt: 
-      <lb ed="#V" n="12"/>non noui vos. De hoc fonte scriptura ait. Fons 
-      <lb ed="#V" n="13"/>aque viuesit tibi proprius: et nemo alius 
-      communi<lb ed="#V" n="14" break="no"/>cet tibi. si autem alieni sunt qui audituri sunt illam 
-      <lb ed="#V" n="15"/>vocem: non ergo huic fonti communicant damnandi. Item 
-      <lb ed="#V" n="16"/>Aug. super eptulam Ioan. Radicata est charitas. 
-      <lb ed="#V" n="17"/>securus esto. nihil mali procedere potest. Item 
-      <lb ed="#V" n="18"/>Grego. in moralibus. Ualida est vt mors dilectio: 
-      <lb ed="#V" n="19"/>virtuti enim mortis dilectio comparatur: quia nimirum 
-      <lb ed="#V" n="20"/>mentem quam semel ceperit: a dilectione mundi 
-      fun<lb ed="#V" n="21" break="no"/>ditus occidit. Item Augu. super eptulam ioannis. 
-      Un<lb ed="#V" n="22" break="no"/>ctioinuisibilis charitas est: qua in quocumque fuerit 
-      ra<lb ed="#V" n="23" break="no"/>dix illi erit: qua ardente sole arescere non potest 
-      nu<lb ed="#V" n="24" break="no"/>tritur calore solis non arescit. Item Geda super 
-      ioan<lb ed="#V" n="25" break="no"/>nem. Querendum est quomodo speciale filii dei agnoscendi 
-      si<lb ed="#V" n="26" break="no"/>gnum fuerit quod super eum descenderit et maenserit spiritus. 
-      <lb ed="#V" n="27"/>Quid magni est filio dei quod in ipso manere spiritus 
-      <lb ed="#V" n="28"/>astruatur. Notandumque quia semper in domino maenserit spiritus 
-      <lb ed="#V" n="29"/>In sanctis vero quamdiu mortale corpus 
-      gustaue<lb ed="#V" n="30" break="no"/>rint partim semper maneat: partim rediturus 
-      se<lb ed="#V" n="31" break="no"/>cedat. Manet autem apud eos vt bonis insistant 
-      <lb ed="#V" n="32"/>actibus. Recedit vero ad tempus ne semper 
-      infir<lb ed="#V" n="33" break="no"/>mos curandi: mortuos suscitandi: demones 
-      eiicien<lb ed="#V" n="34" break="no"/>di: vel est prophetizandi habeant facultatem. 
-      Ma<lb ed="#V" n="35" break="no"/>net ergo semper vt possint habere virtutes vt 
-      mi<lb ed="#V" n="36" break="no"/>rabiliter ipsi viuant. Uenit ad tempus vt est aliis 
-      per<lb ed="#V" n="37" break="no"/>miraculorum signa quales sint intus effulgeat. 
-      <lb ed="#V" n="38"/>Item Greg. In sanctorum cordibus secundum quasdam 
-      <lb ed="#V" n="39"/>virtutes semper manet spiritus secundum quasdam 
-      recessu<lb ed="#V" n="40" break="no"/>rus venit et venturus recedit. In his virtutibus 
-      <lb ed="#V" n="41"/>sine quibus ad vitam non peruenitur: in electorum 
-      <lb ed="#V" n="42"/>suorum cordibus permanet. In his vero per quas 
-      <lb ed="#V" n="43"/>sanctitatis virtus ostenditur: vt in exhibitione 
-      mira<lb ed="#V" n="44" break="no"/>culorum: aliquando adest: aliquando se subtrahit. Item 
-      Am<lb ed="#V" n="45" break="no"/>brosius. Ficta charitas est que in aduersitate de 
-      <lb ed="#V" n="46"/>serit. Hec innuere videntur quod charitas semel 
-      ha<lb ed="#V" n="47" break="no"/>bita non amittatur. Ideo quidam in praetaxatam pro 
-      <lb ed="#V" n="48"/>filierunt audaciam dicentes charitatem a 
-      damnan<lb ed="#V" n="49" break="no"/>dis non haberi: nec a quoquam habitam posse amit 
-      <lb ed="#V" n="50"/>ti: quos ratio vincit et auctoritas. Quidam enim 
-      <lb ed="#V" n="51"/>ad tempus sunt boni: qui postea fiunt mali: et 
-      ecom<lb ed="#V" n="52" break="no"/>uerso. Unde quorundam nomina Christus dicit 
-      scri<lb ed="#V" n="53" break="no"/>pta in libro vite: qui tamen postea abierunt retro. 
-      <lb ed="#V" n="54"/>Sed scripta dicit non secundum praescientiam: sed secundum 
-      pre<lb ed="#V" n="55" break="no"/>sentem iustitiam cui deseruiebant: quia digni erant 
-      <lb ed="#V" n="56"/>tunc illo bono quod habituri sunt prescripti secundum prae¬ 
-      <!--00236.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>scientiam. Unde Ambro. Quibusdam gratia data 
-      <lb ed="#V" n="58"/>est in vsu vt Sauli et Iude: et illis discipulis qui 
-      <lb ed="#V" n="59"/>bus dominus dixit. Ecce nomina vestra scripta sunt in 
-      <lb ed="#V" n="60"/>celis: et post abierunt retro. Sed hoc dixit 
-      pro<lb ed="#V" n="61" break="no"/>pter iustitiam cui deseruiebant quia boni erant. 
-      Fre<lb ed="#V" n="62" break="no"/>quenter enim ante sunt mali qui futuri sunt 
-      bo<lb ed="#V" n="63" break="no"/>ni: et aliquotiens prius sunt boni: qui futuri sunt et 
-      <lb ed="#V" n="64"/>permansuri mali: propter quod dicuntur 
-      scri<lb ed="#V" n="65" break="no"/>bi in libro vite et deleri. 
-   </p>
-            <p xml:id="kzz7yh-g79307-d1e260">
-               <lb ed="#V" n="66"/>¶ Determinatio auctoritatum predictarum. 
-      <lb ed="#V" n="67"/>Quod vero apostolus ait charitas 
-      nun<lb ed="#V" n="68" break="no"/>quam excidit: nullat enus pro 
-      <lb ed="#V" n="69"/>illis facit. Dignitatem enim charitatis ostendens 
-      <lb ed="#V" n="70"/>dicit eam non excidere quia hic et in futuro erit. Sed 
-      <lb ed="#V" n="71"/>fides et spes euacuabuntur et scientia. Item quod dici 
-      <lb ed="#V" n="72"/>tur charitas nunquam fuisse vera que deseri potest: 
-      <lb ed="#V" n="73"/>non ad essentiam charitatis refertur: sed ad 
-      efficien<lb ed="#V" n="74" break="no"/>tiam: quia non efficit charitas que deseritur: hominem 
-      <lb ed="#V" n="75"/>vere beatum: non perducit ad verum bonum. Huic etiam 
-      <lb ed="#V" n="76"/>fonti: alieni idest damnandi non communicant scilicet in fine quia 
-      <lb ed="#V" n="77"/>non perseuerant. Potest tamen hoc et cetera que de 
-      cha<lb ed="#V" n="78" break="no"/>ritate dicta sunt: de perfecta intelligi: quam soli 
-      <lb ed="#V" n="79"/>perfecti habent: que semel habita non amittitur. 
-      <lb ed="#V" n="80"/>Exordia vero charitatis aliquando crescunt aliquando de 
-      <lb ed="#V" n="81"/>ficiunt. Sunt enim virtutis exordia et perfectus et 
-      per<lb ed="#V" n="82" break="no"/>fectio: quos gradus ille discernit qui parabolam 
-      <lb ed="#V" n="83"/>illam intelligit Sic est regnum dei quemadmodum si 
-      <lb ed="#V" n="84"/>iactet homo semen in terra et dormiat: et exurgat 
-      <lb ed="#V" n="85"/>semen et germinet et crescat etc. Si ergo perfecta 
-      <lb ed="#V" n="86"/>charitas sic radicata est vt amitti nequeat: 
-      inci<lb ed="#V" n="87" break="no"/>piens tamen et prouecta amitti potest et sepe amittitur. 
-      <lb ed="#V" n="88"/>Sed dum hebetur non sinit habentem criminaliter 
-      <lb ed="#V" n="89"/>peccare. Quod Augu. ostendit inquiens: quia 
-      ra<lb ed="#V" n="90" break="no"/>dix omnium malorum est cupiditas: et radix omnium 
-      bo<lb ed="#V" n="91" break="no"/>norum est charitas: simul ambe esse non possunt: 
-      ni<lb ed="#V" n="92" break="no"/>si vna radicitus euulsa fuerit: alia plantari non 
-      <lb ed="#V" n="93"/>potest. Sine causa conatur aliquis ramos 
-      inci<lb ed="#V" n="94" break="no"/>dere: si radicem non contendit euellere. 
-   </p>
-            <p xml:id="kzz7yh-g79307-d1e325">
-               <lb ed="#V" n="95"/>¶ Quare fides et spes et scientia dicuntur 
-      euacua<lb ed="#V" n="96" break="no"/>ri et non charitas: cum et ea ex parte sit. 
-      <lb ed="#V" n="97"/>Aduertendum etiam est quio 
-      si<lb ed="#V" n="98" break="no"/>des: spes: et 
-      sci<lb ed="#V" n="99" break="no"/>entia dicantur euacuari quia ex parte sunt: et non 
-      <lb ed="#V" n="100"/>charitas cum et ipsa ex parte sit. Ex parte enim 
-      <lb ed="#V" n="101"/>idest imperfecte diligimus sicut ex parte scimus vt 
-      <lb ed="#V" n="102"/>ait Esicius super Leuiticum. Cum ergo omne 
-      <lb ed="#V" n="103"/>quod ex parte est euacuetur: cur charitas excipitur 
-      <lb ed="#V" n="104"/>que dicitur nunquam excidere: Charitas quidem 
-      <lb ed="#V" n="105"/>est ex parte est vt sepe sancti docent: quia ex parte 
-      <lb ed="#V" n="106"/>diligimus nunc: et ideo ipsa euacuabitur inquantum 
-      <lb ed="#V" n="107"/>ex parte est: quia tolletur imperfectio et addetur per 
-      <lb ed="#V" n="108"/>fectio. Remanebitque ipsa aucta et actus eius et 
-      <lb ed="#V" n="109"/>modus diligendi: vt diligas deum propter se ex 
-      to<lb ed="#V" n="110" break="no"/>to corde: et proximum tuum sicut teipsum. Sed 
-      imper<lb ed="#V" n="111" break="no"/>fectionis modus eliminabitur. Fides vero et 
-      <lb ed="#V" n="112"/>spes penitus euacuabuntur. Scientia vero secundum 
-      <!--00237.xml-->
-      <pb ed="#V" n="113-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>actum et modum suum qui nunc est: non secundum sui 
-      <lb ed="#V" n="2"/>essentiam tolletur. Ipsa enim virtus scientie 
-      re<lb ed="#V" n="3" break="no"/>manebit: sed alium tenebit vsum et modum. 
-   </p>
-            <p xml:id="kzz7yh-g79307-d1e381">
-               <lb ed="#V" n="4"/>¶ Si christus ordinem charitatis praescriptum habuerit. 
-      <lb ed="#V" n="5"/>Nunc iam supest iuestigare. Si christus 
-      <lb ed="#V" n="6"/>secundum quod homo ordinem 
-      dili<lb ed="#V" n="7" break="no"/>gendi prescriptum seruauerit: Quod si est: 
-      om<lb ed="#V" n="8" break="no"/>nem hominem sicut seipsum dilexit. Omnibus 
-      <lb ed="#V" n="9"/>ergo vitam optauit: omnesque saluos fieri voluit. 
-      <lb ed="#V" n="10"/>Sed non omnes salui sunt: et ita non est factum 
-      <lb ed="#V" n="11"/>quod optauit. Sed non est ignorandum in eo 
-      <lb ed="#V" n="12"/>fuisse charitatem iuxta modum patrie: non vie: 
-      <lb ed="#V" n="13"/>eumque ordinem diligendi implesse qui seruatur 
-      <lb ed="#V" n="14"/>in patria: non in via. Qui enim in patria sunt idest 
-      <lb ed="#V" n="15"/>iam beatificati sunt: adeo iustitie dei addicti sunt 
-      <lb ed="#V" n="16"/>vt nihil eis placeat: nisi quod deo placet. Ac per hoc 
-      <lb ed="#V" n="17"/>illorum tantum salutem diligunt et volunt quos 
-      <lb ed="#V" n="18"/>deus saluari vult: eosque solos sicut se diligunt. 
-      <lb ed="#V" n="19"/>Ita et christus electos tantum sicut se dilexit: eorumque 
-      <lb ed="#V" n="20"/>salutem optauit. Distinctio. XXXI 
-      <lb ed="#V" n="21"/>2 lud quoque praetereundum non 
-      <lb ed="#V" n="22"/>est etc. Superius de 
-      <lb ed="#V" n="23"/>terminauit magister de charitate qua diligimus 
-      <lb ed="#V" n="24"/>deum quantum ad eius essentiam: et de numero 
-      dili<lb ed="#V" n="25" break="no"/>gendorum ex charitate et de charitate quantum ad 
-      <lb ed="#V" n="26"/>ordinem diligendi: et quantum ad perfectionem meriti: hic de 
-      <lb ed="#V" n="27"/>terminat de eius duratione et diuiditur in partes duas. 
-   </p>
-            <p xml:id="kzz7yh-g79307-d1e436">
-               <lb ed="#V" n="28"/>¶ Primo determinat de duratione charitatis in via.
-   </p>
-            <p xml:id="kzz7yh-g79307-d1e441">
-      ¶ 
-      Se<lb ed="#V" n="29" break="no"/>cundo de eius duratione in patria ibi. Aduertendum est est. 
-      <lb ed="#V" n="30"/>Prima in tres.
-   </p>
-            <p xml:id="kzz7yh-g79307-d1e448">
-      ¶ Primo circa durationem charitatis in 
-      <lb ed="#V" n="31"/>via tangit quorudam errorem. Secundo ponit illius erroris 
-      re<lb ed="#V" n="32" break="no"/>probationem. ibi. Quos ratio vincit. Tertio auctoritatum 
-      <lb ed="#V" n="33"/>bus innitebantur determinationem. ibi. Quod vero apostolus. 
-      <lb ed="#V" n="34"/>Illa pars queincipit. ibi. Aduertendum est. diuiditur in 
-      par<lb ed="#V" n="35" break="no"/>tes duas.
-   </p>
-            <p xml:id="kzz7yh-g79307-d1e461">
-      ¶ Primo inquirit. Utrum charitas remaneat 
-      <lb ed="#V" n="36"/>in comprehensoribus
-   </p>
-            <p xml:id="kzz7yh-g79307-d1e466">
-      ¶ Secundo vtrum in christo fuerit ordo 
-      cha<lb ed="#V" n="37" break="no"/>ritatis superius dictus. ibi. Nunc autem superest inuestigare. 
-      <lb ed="#V" n="38"/>Circa hanc distin. querendum est principaliter 
-      <lb ed="#V" n="39"/>de tribus.
-   </p>
-            <p xml:id="kzz7yh-g79307-d1e476">
-      ¶ Primo de duratione 
-      <lb ed="#V" n="40"/>et efficacia charitatis in via.
-   </p>
-            <p xml:id="kzz7yh-g79307-d1e481">
-      ¶ Secundo de 
-      libro<lb ed="#V" n="41" break="no"/>vite.
-   </p>
-            <p xml:id="kzz7yh-g79307-d1e486">
-      ¶ Tertio de duratione charitatis in 
-      pa<lb ed="#V" n="42" break="no"/>tria.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="113-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g79307"><!-- l3d31prae -->
+        <head xml:id="kzz7yh-g79307-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-g79307-d1e103">
+          <!-\-00236.xml-\->
+          <pb ed="#V" n="112-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>¶ Si charitas semel hita amittatur. Di. XXXI
+          </p>
+          <p xml:id="kzz7yh-g79307-d1e114">
+          <lb ed="#V" n="2"/>Illud quoque non est 
+          pretereun<lb ed="#V" n="3" break="no"/>dum quod quidam asserunt 
+          <lb ed="#V" n="4"/>charitatem semel habita ab aliquo non 
+          <lb ed="#V" n="5"/>posse excidere: nullumque damnandum hanc 
+          <lb ed="#V" n="6"/>aliquando habere. Qui hanc traditionem 
+          <lb ed="#V" n="7"/>subdictis muniunt testimoniis. Apostolus ait. 
+          Cha<lb ed="#V" n="8" break="no"/>ritas nunquam excidit. Augu. est inquit. Charitas 
+          <lb ed="#V" n="9"/>que deseri potest: nunquam vera fuit. Item charitas 
+          <lb ed="#V" n="10"/>est fons proprius et singularis bonorum: cui non 
+          con<lb ed="#V" n="11" break="no"/>municat alienus. alieni sunt omnes qui audituri sunt: 
+          <lb ed="#V" n="12"/>non noui vos. De hoc fonte scriptura ait. Fons 
+          <lb ed="#V" n="13"/>aque viuesit tibi proprius: et nemo alius 
+          communi<lb ed="#V" n="14" break="no"/>cet tibi. si autem alieni sunt qui audituri sunt illam 
+          <lb ed="#V" n="15"/>vocem: non ergo huic fonti communicant damnandi. Item 
+          <lb ed="#V" n="16"/>Aug. super eptulam Ioan. Radicata est charitas. 
+          <lb ed="#V" n="17"/>securus esto. nihil mali procedere potest. Item 
+          <lb ed="#V" n="18"/>Grego. in moralibus. Ualida est vt mors dilectio: 
+          <lb ed="#V" n="19"/>virtuti enim mortis dilectio comparatur: quia nimirum 
+          <lb ed="#V" n="20"/>mentem quam semel ceperit: a dilectione mundi 
+          fun<lb ed="#V" n="21" break="no"/>ditus occidit. Item Augu. super eptulam ioannis. 
+          Un<lb ed="#V" n="22" break="no"/>ctioinuisibilis charitas est: qua in quocumque fuerit 
+          ra<lb ed="#V" n="23" break="no"/>dix illi erit: qua ardente sole arescere non potest 
+          nu<lb ed="#V" n="24" break="no"/>tritur calore solis non arescit. Item Geda super 
+          ioan<lb ed="#V" n="25" break="no"/>nem. Querendum est quomodo speciale filii dei agnoscendi 
+          si<lb ed="#V" n="26" break="no"/>gnum fuerit quod super eum descenderit et maenserit spiritus. 
+          <lb ed="#V" n="27"/>Quid magni est filio dei quod in ipso manere spiritus 
+          <lb ed="#V" n="28"/>astruatur. Notandumque quia semper in domino maenserit spiritus 
+          <lb ed="#V" n="29"/>In sanctis vero quamdiu mortale corpus 
+          gustaue<lb ed="#V" n="30" break="no"/>rint partim semper maneat: partim rediturus 
+          se<lb ed="#V" n="31" break="no"/>cedat. Manet autem apud eos vt bonis insistant 
+          <lb ed="#V" n="32"/>actibus. Recedit vero ad tempus ne semper 
+          infir<lb ed="#V" n="33" break="no"/>mos curandi: mortuos suscitandi: demones 
+          eiicien<lb ed="#V" n="34" break="no"/>di: vel est prophetizandi habeant facultatem. 
+          Ma<lb ed="#V" n="35" break="no"/>net ergo semper vt possint habere virtutes vt 
+          mi<lb ed="#V" n="36" break="no"/>rabiliter ipsi viuant. Uenit ad tempus vt est aliis 
+          per<lb ed="#V" n="37" break="no"/>miraculorum signa quales sint intus effulgeat. 
+          <lb ed="#V" n="38"/>Item Greg. In sanctorum cordibus secundum quasdam 
+          <lb ed="#V" n="39"/>virtutes semper manet spiritus secundum quasdam 
+          recessu<lb ed="#V" n="40" break="no"/>rus venit et venturus recedit. In his virtutibus 
+          <lb ed="#V" n="41"/>sine quibus ad vitam non peruenitur: in electorum 
+          <lb ed="#V" n="42"/>suorum cordibus permanet. In his vero per quas 
+          <lb ed="#V" n="43"/>sanctitatis virtus ostenditur: vt in exhibitione 
+          mira<lb ed="#V" n="44" break="no"/>culorum: aliquando adest: aliquando se subtrahit. Item 
+          Am<lb ed="#V" n="45" break="no"/>brosius. Ficta charitas est que in aduersitate de 
+          <lb ed="#V" n="46"/>serit. Hec innuere videntur quod charitas semel 
+          ha<lb ed="#V" n="47" break="no"/>bita non amittatur. Ideo quidam in praetaxatam pro 
+          <lb ed="#V" n="48"/>filierunt audaciam dicentes charitatem a 
+          damnan<lb ed="#V" n="49" break="no"/>dis non haberi: nec a quoquam habitam posse amit 
+          <lb ed="#V" n="50"/>ti: quos ratio vincit et auctoritas. Quidam enim 
+          <lb ed="#V" n="51"/>ad tempus sunt boni: qui postea fiunt mali: et 
+          ecom<lb ed="#V" n="52" break="no"/>uerso. Unde quorundam nomina Christus dicit 
+          scri<lb ed="#V" n="53" break="no"/>pta in libro vite: qui tamen postea abierunt retro. 
+          <lb ed="#V" n="54"/>Sed scripta dicit non secundum praescientiam: sed secundum 
+          pre<lb ed="#V" n="55" break="no"/>sentem iustitiam cui deseruiebant: quia digni erant 
+          <lb ed="#V" n="56"/>tunc illo bono quod habituri sunt prescripti secundum prae¬ 
+          <!-\-00236.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>scientiam. Unde Ambro. Quibusdam gratia data 
+          <lb ed="#V" n="58"/>est in vsu vt Sauli et Iude: et illis discipulis qui 
+          <lb ed="#V" n="59"/>bus dominus dixit. Ecce nomina vestra scripta sunt in 
+          <lb ed="#V" n="60"/>celis: et post abierunt retro. Sed hoc dixit 
+          pro<lb ed="#V" n="61" break="no"/>pter iustitiam cui deseruiebant quia boni erant. 
+          Fre<lb ed="#V" n="62" break="no"/>quenter enim ante sunt mali qui futuri sunt 
+          bo<lb ed="#V" n="63" break="no"/>ni: et aliquotiens prius sunt boni: qui futuri sunt et 
+          <lb ed="#V" n="64"/>permansuri mali: propter quod dicuntur 
+          scri<lb ed="#V" n="65" break="no"/>bi in libro vite et deleri. 
+          </p>
+          <p xml:id="kzz7yh-g79307-d1e260">
+          <lb ed="#V" n="66"/>¶ Determinatio auctoritatum predictarum. 
+          <lb ed="#V" n="67"/>Quod vero apostolus ait charitas 
+          nun<lb ed="#V" n="68" break="no"/>quam excidit: nullat enus pro 
+          <lb ed="#V" n="69"/>illis facit. Dignitatem enim charitatis ostendens 
+          <lb ed="#V" n="70"/>dicit eam non excidere quia hic et in futuro erit. Sed 
+          <lb ed="#V" n="71"/>fides et spes euacuabuntur et scientia. Item quod dici 
+          <lb ed="#V" n="72"/>tur charitas nunquam fuisse vera que deseri potest: 
+          <lb ed="#V" n="73"/>non ad essentiam charitatis refertur: sed ad 
+          efficien<lb ed="#V" n="74" break="no"/>tiam: quia non efficit charitas que deseritur: hominem 
+          <lb ed="#V" n="75"/>vere beatum: non perducit ad verum bonum. Huic etiam 
+          <lb ed="#V" n="76"/>fonti: alieni idest damnandi non communicant scilicet in fine quia 
+          <lb ed="#V" n="77"/>non perseuerant. Potest tamen hoc et cetera que de 
+          cha<lb ed="#V" n="78" break="no"/>ritate dicta sunt: de perfecta intelligi: quam soli 
+          <lb ed="#V" n="79"/>perfecti habent: que semel habita non amittitur. 
+          <lb ed="#V" n="80"/>Exordia vero charitatis aliquando crescunt aliquando de 
+          <lb ed="#V" n="81"/>ficiunt. Sunt enim virtutis exordia et perfectus et 
+          per<lb ed="#V" n="82" break="no"/>fectio: quos gradus ille discernit qui parabolam 
+          <lb ed="#V" n="83"/>illam intelligit Sic est regnum dei quemadmodum si 
+          <lb ed="#V" n="84"/>iactet homo semen in terra et dormiat: et exurgat 
+          <lb ed="#V" n="85"/>semen et germinet et crescat etc. Si ergo perfecta 
+          <lb ed="#V" n="86"/>charitas sic radicata est vt amitti nequeat: 
+          inci<lb ed="#V" n="87" break="no"/>piens tamen et prouecta amitti potest et sepe amittitur. 
+          <lb ed="#V" n="88"/>Sed dum hebetur non sinit habentem criminaliter 
+          <lb ed="#V" n="89"/>peccare. Quod Augu. ostendit inquiens: quia 
+          ra<lb ed="#V" n="90" break="no"/>dix omnium malorum est cupiditas: et radix omnium 
+          bo<lb ed="#V" n="91" break="no"/>norum est charitas: simul ambe esse non possunt: 
+          ni<lb ed="#V" n="92" break="no"/>si vna radicitus euulsa fuerit: alia plantari non 
+          <lb ed="#V" n="93"/>potest. Sine causa conatur aliquis ramos 
+          inci<lb ed="#V" n="94" break="no"/>dere: si radicem non contendit euellere. 
+          </p>
+          <p xml:id="kzz7yh-g79307-d1e325">
+          <lb ed="#V" n="95"/>¶ Quare fides et spes et scientia dicuntur 
+          euacua<lb ed="#V" n="96" break="no"/>ri et non charitas: cum et ea ex parte sit. 
+          <lb ed="#V" n="97"/>Aduertendum etiam est quio 
+          si<lb ed="#V" n="98" break="no"/>des: spes: et 
+          sci<lb ed="#V" n="99" break="no"/>entia dicantur euacuari quia ex parte sunt: et non 
+          <lb ed="#V" n="100"/>charitas cum et ipsa ex parte sit. Ex parte enim 
+          <lb ed="#V" n="101"/>idest imperfecte diligimus sicut ex parte scimus vt 
+          <lb ed="#V" n="102"/>ait Esicius super Leuiticum. Cum ergo omne 
+          <lb ed="#V" n="103"/>quod ex parte est euacuetur: cur charitas excipitur 
+          <lb ed="#V" n="104"/>que dicitur nunquam excidere: Charitas quidem 
+          <lb ed="#V" n="105"/>est ex parte est vt sepe sancti docent: quia ex parte 
+          <lb ed="#V" n="106"/>diligimus nunc: et ideo ipsa euacuabitur inquantum 
+          <lb ed="#V" n="107"/>ex parte est: quia tolletur imperfectio et addetur per 
+          <lb ed="#V" n="108"/>fectio. Remanebitque ipsa aucta et actus eius et 
+          <lb ed="#V" n="109"/>modus diligendi: vt diligas deum propter se ex 
+          to<lb ed="#V" n="110" break="no"/>to corde: et proximum tuum sicut teipsum. Sed 
+          imper<lb ed="#V" n="111" break="no"/>fectionis modus eliminabitur. Fides vero et 
+          <lb ed="#V" n="112"/>spes penitus euacuabuntur. Scientia vero secundum 
+          <!-\-00237.xml-\->
+          <pb ed="#V" n="113-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>actum et modum suum qui nunc est: non secundum sui 
+          <lb ed="#V" n="2"/>essentiam tolletur. Ipsa enim virtus scientie 
+          re<lb ed="#V" n="3" break="no"/>manebit: sed alium tenebit vsum et modum. 
+          </p>
+          <p xml:id="kzz7yh-g79307-d1e381">
+          <lb ed="#V" n="4"/>¶ Si christus ordinem charitatis praescriptum habuerit. 
+          <lb ed="#V" n="5"/>Nunc iam supest iuestigare. Si christus 
+          <lb ed="#V" n="6"/>secundum quod homo ordinem 
+          dili<lb ed="#V" n="7" break="no"/>gendi prescriptum seruauerit: Quod si est: 
+          om<lb ed="#V" n="8" break="no"/>nem hominem sicut seipsum dilexit. Omnibus 
+          <lb ed="#V" n="9"/>ergo vitam optauit: omnesque saluos fieri voluit. 
+          <lb ed="#V" n="10"/>Sed non omnes salui sunt: et ita non est factum 
+          <lb ed="#V" n="11"/>quod optauit. Sed non est ignorandum in eo 
+          <lb ed="#V" n="12"/>fuisse charitatem iuxta modum patrie: non vie: 
+          <lb ed="#V" n="13"/>eumque ordinem diligendi implesse qui seruatur 
+          <lb ed="#V" n="14"/>in patria: non in via. Qui enim in patria sunt idest 
+          <lb ed="#V" n="15"/>iam beatificati sunt: adeo iustitie dei addicti sunt 
+          <lb ed="#V" n="16"/>vt nihil eis placeat: nisi quod deo placet. Ac per hoc 
+          <lb ed="#V" n="17"/>illorum tantum salutem diligunt et volunt quos 
+          <lb ed="#V" n="18"/>deus saluari vult: eosque solos sicut se diligunt. 
+          <lb ed="#V" n="19"/>Ita et christus electos tantum sicut se dilexit: eorumque 
+          <lb ed="#V" n="20"/>salutem optauit.
+          </p>-->
+        <p xml:id="kzz7yh-g79307-d1e106">
+          Distinctio. XXXI 
+          <lb ed="#V" n="21"/>2 lud quoque praetereundum non 
+          <lb ed="#V" n="22"/>est etc. Superius de 
+          <lb ed="#V" n="23"/>terminauit magister de charitate qua diligimus 
+          <lb ed="#V" n="24"/>deum quantum ad eius essentiam: et de numero 
+          dili<lb ed="#V" n="25" break="no"/>gendorum ex charitate et de charitate quantum ad 
+          <lb ed="#V" n="26"/>ordinem diligendi: et quantum ad perfectionem meriti: hic de 
+          <lb ed="#V" n="27"/>terminat de eius duratione et diuiditur in partes duas. 
+        </p>
+        <p xml:id="kzz7yh-g79307-d1e436">
+          <lb ed="#V" n="28"/>¶ Primo determinat de duratione charitatis in via.
+        </p>
+        <p xml:id="kzz7yh-g79307-d1e441">
+          ¶ 
+          Se<lb ed="#V" n="29" break="no"/>cundo de eius duratione in patria ibi. Aduertendum est est. 
+          <lb ed="#V" n="30"/>Prima in tres.
+        </p>
+        <p xml:id="kzz7yh-g79307-d1e448">
+          ¶ Primo circa durationem charitatis in 
+          <lb ed="#V" n="31"/>via tangit quorudam errorem. Secundo ponit illius erroris 
+          re<lb ed="#V" n="32" break="no"/>probationem. ibi. Quos ratio vincit. Tertio auctoritatum 
+          <lb ed="#V" n="33"/>bus innitebantur determinationem. ibi. Quod vero apostolus. 
+          <lb ed="#V" n="34"/>Illa pars queincipit. ibi. Aduertendum est. diuiditur in 
+          par<lb ed="#V" n="35" break="no"/>tes duas.
+        </p>
+        <p xml:id="kzz7yh-g79307-d1e461">
+          ¶ Primo inquirit. Utrum charitas remaneat 
+          <lb ed="#V" n="36"/>in comprehensoribus
+        </p>
+        <p xml:id="kzz7yh-g79307-d1e466">
+          ¶ Secundo vtrum in christo fuerit ordo 
+          cha<lb ed="#V" n="37" break="no"/>ritatis superius dictus. ibi. Nunc autem superest inuestigare. 
+          <lb ed="#V" n="38"/>Circa hanc distin. querendum est principaliter 
+          <lb ed="#V" n="39"/>de tribus.
+        </p>
+        <p xml:id="kzz7yh-g79307-d1e476">
+          ¶ Primo de duratione 
+          <lb ed="#V" n="40"/>et efficacia charitatis in via.
+        </p>
+        <p xml:id="kzz7yh-g79307-d1e481">
+          ¶ Secundo de 
+          libro<lb ed="#V" n="41" break="no"/>vite.
+        </p>
+        <p xml:id="kzz7yh-g79307-d1e486">
+          ¶ Tertio de duratione charitatis in 
+          pa<lb ed="#V" n="42" break="no"/>tria.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

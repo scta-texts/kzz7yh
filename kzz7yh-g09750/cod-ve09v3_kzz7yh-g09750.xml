@@ -1,414 +1,416 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="14-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g09750"><!-- l3d5prae -->
-            <head xml:id="kzz7yh-g09750-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-g09750-d1e103">
-               <lb ed="#V" n="20"/>¶ Si persona vel natura personam vel naturam 
-      assun<lb ed="#V" n="21" break="no"/>psit: et si natura dei incarnata sit. Distinctio
-    </p>
-            <p xml:id="kzz7yh-g09750-d1e110">
-               <lb ed="#V" n="22"/>PReterea inquiri 
-      <lb ed="#V" n="23"/>oportet cum ex premissis constet verbum dei 
-      <lb ed="#V" n="24"/>carnem et animam simul assumpsisse in 
-      <lb ed="#V" n="25"/>vnitatem persone: quid horum potius 
-      <lb ed="#V" n="26"/>concedendum sit scilicet quod persona personam: vel 
-      natu<lb ed="#V" n="27" break="no"/>ra naturam: vel persona naturam: vel natura 
-      per<lb ed="#V" n="28" break="no"/>sonam assumpserit. Et an ita conueniat dici 
-      di<lb ed="#V" n="29" break="no"/>uinam naturam esse incarnatam sicut deus 
-      incarna<lb ed="#V" n="30" break="no"/>tus et verbum incarnatum sane dicitur. Hec 
-      inqui<lb ed="#V" n="31" break="no"/>sitio siue querendi ratio: iuxta sacrarum auctorita 
-      <lb ed="#V" n="32"/>tum testimonia partim implicita atque 
-      perple<lb ed="#V" n="33" break="no"/>xa: partim vero explicita est et aperta. Certum est 
-      <lb ed="#V" n="34"/>enim et sine ambiguitate verum quod non natural 
-      per<lb ed="#V" n="35" break="no"/>sonam: nec persona personam: sed persona 
-      natu<lb ed="#V" n="36" break="no"/>ram assumpsit: quod sanctorum subditis 
-      comproba<lb ed="#V" n="37" break="no"/>tur testimoniis et astruitur documentis. Ait enim 
-      <lb ed="#V" n="38"/>Augustinus. in libro de fide ad Petrum. Deus 
-      <lb ed="#V" n="39"/>vnigenitus dum conciperetur veritatem carnis 
-      ac<lb ed="#V" n="40" break="no"/>cepit ex virgine: et cum nasceretur integritatem 
-      vir<lb ed="#V" n="41" break="no"/>ginitatis seruauit in matre. Et paulopost. Sic 
-      <lb ed="#V" n="42"/>deus humanam naturam in vnitatem persone 
-      su<lb ed="#V" n="43" break="no"/>scepit: quod se humilians per misericordiam 
-      incorru<lb ed="#V" n="44" break="no"/>pte virginis vterum ex ea nasciturus impleuit. 
-      <lb ed="#V" n="45"/>Formam ergo serui idest naturam serui in suam 
-      ac<lb ed="#V" n="46" break="no"/>cepit ille deus personam. Item. Deus verbum non 
-      <lb ed="#V" n="47"/>accepit personam hominis. sed naturam. Item. 
-      <lb ed="#V" n="48"/>Dei filius vnigenitus vt carnem hominis animamque 
-      <lb ed="#V" n="49"/>mundaret susceptione carnis animeque 
-      rationa<lb ed="#V" n="50" break="no"/>lis incarnatus est. His aliisque pluribus 
-      aucto<lb ed="#V" n="51" break="no"/>ritatibus euidenter ostenditur: non naturam 
-      perso<lb ed="#V" n="52" break="no"/>nam: nec personam personam: sed personam naturam 
-      <lb ed="#V" n="53"/>accepisse. De quarto vero questionis articulo: 
-      <lb ed="#V" n="54"/>vtrum scilicet natura naturam assumpserit: 
-      scrupulosa<lb ed="#V" n="55" break="no"/>etiam inter doctos questio est. Quia et in hoc 
-      plu<lb ed="#V" n="56" break="no"/>rimum dissentire videntur: qui auctoritate 
-      pre<lb ed="#V" n="57" break="no"/>clari aliis doctiores in sacra pagina extiterunt: 
-      <lb ed="#V" n="58"/>nec tantum alii ab aliis: vtrum etiam idem a seipsis 
-      <!--00038.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="59"/>dissonare videntur: sicut subiecta capitula 
-      do<lb ed="#V" n="60" break="no"/>cent. Legitur enim in concilio toletano. viii. 
-      tra<lb ed="#V" n="61" break="no"/>ditum sic. Solum verbum caro factum est: et 
-      habita<lb ed="#V" n="62" break="no"/>uit in nobis: et cum tota trinitas operata sit 
-      for<lb ed="#V" n="63" break="no"/>mationem suscepti hominis: quoniam inseparabilia 
-      <lb ed="#V" n="64"/>sunt opera trinitatis: solus tamen filius accepit 
-      <lb ed="#V" n="65"/>hominem in singularitatem persone: non in 
-      vnita<lb ed="#V" n="66" break="no"/>tem diuine nature: idest quod est proprium filii: non 
-      <lb ed="#V" n="67"/>quod commune est trinitati. Item in concilio. xi. tole 
-      <lb ed="#V" n="68"/>tano. Unius substantie credimus deum patrem et 
-      <lb ed="#V" n="69"/>filium et spiritum sanctum: non tamen dicimus vt 
-      <lb ed="#V" n="70"/>huius trinitatis vnitatem maria virgogenuerit: 
-      <lb ed="#V" n="71"/>sed tantum filium qui solus naturam nostram in 
-      <lb ed="#V" n="72"/>vnitatem sue persone assumpsit. Incarnationem 
-      <lb ed="#V" n="73"/>quoque huius filii dei tota trinitas operata esse 
-      <lb ed="#V" n="74"/>credenda est. Solus tamen filius formam serui 
-      ac<lb ed="#V" n="75" break="no"/>cepit in singularitatem persone. His insinuari 
-      vi<lb ed="#V" n="76" break="no"/>detur quod persona tantum naturam: non natura 
-      na<lb ed="#V" n="77" break="no"/>turam assumpserit. Si enim quod commune est 
-      trini<lb ed="#V" n="78" break="no"/>tati non accepit hominem: ergo non natura 
-      diuina<lb ed="#V" n="79" break="no"/>que communis est tribus personis. Cui videtur 
-      obuia<lb ed="#V" n="80" break="no"/>re quod Augu. ait in lib. de fide ad Petrum: 
-      <lb ed="#V" n="81"/>Nec diuinitas inquit christi aliena est a natura 
-      pa<lb ed="#V" n="82" break="no"/>tris secundum illud. In principio erat verbum: nec 
-      hu<lb ed="#V" n="83" break="no"/>manitas eius aliena est a natura matris: secundum id 
-      <lb ed="#V" n="84"/>quod verbum caro factum est. Illa enim natura que 
-      <lb ed="#V" n="85"/>semper genita manet ex patre naturam nostram 
-      <lb ed="#V" n="86"/>sine peccato suscepit vt nasceretur ex virgine. 
-      <lb ed="#V" n="87"/>Hac auctoritate videtur tradi quod diuina 
-      natu<lb ed="#V" n="88" break="no"/>ra humanam suscepit. Ubi vehementer moueri 
-      <lb ed="#V" n="89"/>possumus quod eam genitam eternaliter ex patre dicit: nisi 
-      <lb ed="#V" n="90"/>forte natura pro persona hic accipiatur: alioqun 
-      <lb ed="#V" n="91"/>si dixerimus naturam tribus personis communem 
-      geni<lb ed="#V" n="92" break="no"/>tam esse occurrunt nobis ex aduerso que in 
-      tra<lb ed="#V" n="93" break="no"/>ctatum de trinitate disseruimus: vbi diximus non 
-      <lb ed="#V" n="94"/>naturam naturam: sed personam personam genuisse. 
-      <lb ed="#V" n="95"/>Quia si natura genuisset naturam cum vna 
-      eaden<lb ed="#V" n="96" break="no"/>que sit natura trinitatis eadem res seipsam 
-      genuis<lb ed="#V" n="97" break="no"/>set. Quod Aug. fieri posse negat. Sed alibi certum 
-      <lb ed="#V" n="98"/>reperimus documentum: quo naturam naturam 
-      assun<lb ed="#V" n="99" break="no"/>pesisse monstratur. Ait enim Augustinus in primo 
-      li<lb ed="#V" n="100" break="no"/>bro de trinitate. Etiam seipso christus factus est 
-      <lb ed="#V" n="101"/>minor formam serui accipiens. Neque enim sic 
-      acce<lb ed="#V" n="102" break="no"/>pit formam serui vt amitteret formam dei: in qua 
-      <lb ed="#V" n="103"/>erat equalis patri: vt et in forma serui et in forma 
-      <lb ed="#V" n="104"/>dei idem ipse sit vnigenitus filius patris: quia forma dei 
-      <lb ed="#V" n="105"/>accepit formam serui. Si autem forma dei formam 
-      <lb ed="#V" n="106"/>serui accepit: sine dubio natura naturam 
-      acce<lb ed="#V" n="107" break="no"/>pit. Forme enim nomine natura significatur: vt 
-      <lb ed="#V" n="108"/>Augu. euidenter docet in libro de fide ad 
-      Pe<lb ed="#V" n="109" break="no"/>trum. Cum inquit de christo audis: quia in forma dei 
-      <lb ed="#V" n="110"/>erat: oportet te agnoscere firmissimeque tenere in 
-      il<lb ed="#V" n="111" break="no"/>lo forme nomine naturalem plenitudinem 
-      debe<lb ed="#V" n="112" break="no"/>re intelligi. In forma dei ergo erat: quia in 
-      na<lb ed="#V" n="113" break="no"/>tura dei patris semper erat de quo natus erat. 
-      <lb ed="#V" n="114"/>Hylarius quoque in. xii. lib. de trinitate ita ait. 
-      <!--00039.xml-->
-      <pb ed="#V" n="15-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>Esse in forma dei non alia intelligentia est quam 
-      in<lb ed="#V" n="2" break="no"/>dei manere natura. Didicisti nomine forme 
-      intel<lb ed="#V" n="3" break="no"/>ligentiam fieri nature: at audisti quod forma dei 
-      for<lb ed="#V" n="4" break="no"/>mam serui suscepit: vnde consequens est quod natura 
-      <lb ed="#V" n="5"/>diuina naturam humanam suscepit. Quod etiam 
-      <lb ed="#V" n="6"/>Hiero. in explanatione fidei euidenter insinuat 
-      <lb ed="#V" n="7"/>inquiens. Passus est filius dei non putatiue sed 
-      <lb ed="#V" n="8"/>vere: secundum illud passus est quod pati poterat: idest 
-      <lb ed="#V" n="9"/>non secundum illam substantiam que assumpsit: sed secundum 
-      <lb ed="#V" n="10"/>illam que assumpta est. Ex quo apparet 
-      diui<lb ed="#V" n="11" break="no"/>nam substantiam assumpsisse humanam. Ex 
-      ver<lb ed="#V" n="12" break="no"/>bis autem Augustini superius positis 
-      adhibita<lb ed="#V" n="13" break="no"/>diligentia innui videtur solum verbum carnem 
-      <lb ed="#V" n="14"/>factum et naturam solum suscepisse humanam: et 
-      diui<lb ed="#V" n="15" break="no"/>nam naturam eandem accepisse. Ait enim trinitas 
-      <lb ed="#V" n="16"/>nos sibi reconciliauit per hoc quod solum verbum 
-      car<lb ed="#V" n="17" break="no"/>nem ipsa trinitas fecit. In quo sic veritas 
-      incon<lb ed="#V" n="18" break="no"/>mutabilis manet diuine humaneque nature: vt 
-      <lb ed="#V" n="19"/>sicut vera semper est eius diuinitas quam de 
-      pa<lb ed="#V" n="20" break="no"/>tre habet ita vere semper et incommutabilis eius 
-      <lb ed="#V" n="21"/>sit humanitas quam sibi vnitam summa diuinitas 
-      <lb ed="#V" n="22"/>gerit. Ecce et solum verbum dixit carnem factum 
-      <lb ed="#V" n="23"/>et humanitatem diuinitati vnitam. Idem quoque 
-      <lb ed="#V" n="24"/>superius dixit seruilem formam a solo filio 
-      susce<lb ed="#V" n="25" break="no"/>potesta quam tota trinitas fecit. Iam facile est 
-      agno<lb ed="#V" n="26" break="no"/>scere quam diuersa et multiplicia super questione 
-      <lb ed="#V" n="27"/>proposita auctores tradiderunt. Ideoque poste 
-      <lb ed="#V" n="28"/>riores ea legentes varias atque contrarias ex 
-      pre<lb ed="#V" n="29" break="no"/>dictis occasionem sumentes promunt sententias. 
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e388">
-               <lb ed="#V" n="30"/>¶ Quid de hoc tenendum sit. 
-      <lb ed="#V" n="31"/>omnis mendacii et 
-      com<lb ed="#V" n="32" break="no"/>Nos auteautem taactionis nota a 
-      sa<lb ed="#V" n="33" break="no"/>cris paginis secludere cupientes: orthodosis 
-      pa<lb ed="#V" n="34" break="no"/>tribus atque catholicis doctoribus nulla 
-      praue<lb ed="#V" n="35" break="no"/>intelligentie suspitione notatis consentimus 
-      di<lb ed="#V" n="36" break="no"/>centes: et personam filii assumpsisse naturam 
-      hu<lb ed="#V" n="37" break="no"/>manam: et naturam diuinam humane nature in 
-      fi<lb ed="#V" n="38" break="no"/>lio vnitam: eamque sibi vnisse vel assumpsisse. Unde 
-      <lb ed="#V" n="39"/>et vere incarnata dicitur. Quod vero dicitur solus 
-      <lb ed="#V" n="40"/>filius formam serui accepisse: per hoc non 
-      exclu<lb ed="#V" n="41" break="no"/>ditur diuina natura ab acceptione seruilis 
-      for<lb ed="#V" n="42" break="no"/>me: sed alie due persone pater scilicet et spiritus sanctus: 
-      <lb ed="#V" n="43"/>Item et illud aliud scilicet id quod est proprium filii 
-      <lb ed="#V" n="44"/>non quod commune est trinitati: hominem accepit 
-      <lb ed="#V" n="45"/>sic oportet intelligi: idest proprie in hypostasi 
-      si<lb ed="#V" n="46" break="no"/>lii: non in tribus coiter personis: diuina natura 
-      <lb ed="#V" n="47"/>humanam naturam sibi vniuit. Qui sensus ex 
-      <lb ed="#V" n="48"/>verbis Ioannis Damas. confirmatur qui totam 
-      <lb ed="#V" n="49"/>diuinam naturam in vnam hypostasim incarnatam 
-      <lb ed="#V" n="50"/>esse euidenter asserit dicens. In humanatione 
-      <lb ed="#V" n="51"/>dei verbi aimus omnem et perfectam naturam 
-      dei<lb ed="#V" n="52" break="no"/>tatis in vna eius hypostaseon incarnatam esse 
-      <lb ed="#V" n="53"/>idest vnitam humane nature et non partem parti. 
-      <lb ed="#V" n="54"/>Omni enim humane nature aimus esse 
-      vnitan<lb ed="#V" n="55" break="no"/>omnem deitatis naturam vel substantiam. Item 
-      ea<lb ed="#V" n="56" break="no"/>dem est natura in singula hypostaseon id est perso¬ 
-      <!--00039.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>narum et quando dicimus naturam verbi 
-      incar<lb ed="#V" n="58" break="no"/>natam esse secundum beatos scilicet secundum Anastasium et 
-      C<lb ed="#V" n="59" break="no"/>rillum: deitatem dicimus esse vnitam carni: et vnam 
-      <lb ed="#V" n="60"/>naturam dei verbi incarnatam confitemur. Uerbum 
-      <lb ed="#V" n="61"/>autem et quod commune est substantie possidet: et quod 
-      <lb ed="#V" n="62"/>proprietatis est habens hypostaseos: idest 
-      per<lb ed="#V" n="63" break="no"/>sone. Ex his maniseste ostenditur quod natura 
-      di<lb ed="#V" n="64" break="no"/>uina incarnata est. Unde et eadem vere dicitur 
-      <lb ed="#V" n="65"/>suscepisse humanam naturam. 
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e473">
-               <lb ed="#V" n="66"/>¶ An diuina natura debeat dici caro facta. 
-      <lb ed="#V" n="67"/>Sed queritur vtrum eadem 
-      di<lb ed="#V" n="68" break="no"/>uina natura 
-      de<lb ed="#V" n="69" break="no"/>beat dici caro facta sicut verbum dicitur caro 
-      fa<lb ed="#V" n="70" break="no"/>ctum. Si enim idem est incarnari quod est cari 
-      <lb ed="#V" n="71"/>nem fieri: videri potest ita debere dici quod sit 
-      ca<lb ed="#V" n="72" break="no"/>ro facta sicut dicitur incarnata: Ad quod dicimus: 
-      <lb ed="#V" n="73"/>quia si illud quod dictum in sacra scriptura reperire 
-      <lb ed="#V" n="74"/>tur: ex eadem intelligentia acciperetur qua cum 
-      <lb ed="#V" n="75"/>dicitur incarnata. Sed quia illud auctoritas 
-      <lb ed="#V" n="76"/>subticuit: atque locutionis modus nimiam 
-      vide<lb ed="#V" n="77" break="no"/>retur facere expressionem: si natura diuina dice 
-      <lb ed="#V" n="78"/>retur caro facta melius silere hoc puto vel negare 
-      <lb ed="#V" n="79"/>quam temere asserere: ne si illud dicatur 
-      conuertibi<lb ed="#V" n="80" break="no"/>litas nature in naturam significari putetur. Ex 
-      <lb ed="#V" n="81"/>premissis indubitabiliter constat quod persona 
-      ver<lb ed="#V" n="82" break="no"/>bi siue natura hominis naturam scilicet carnem et 
-      ani<lb ed="#V" n="83" break="no"/>mam assumpsit: sed non personam hominis. Si 
-      au<lb ed="#V" n="84" break="no"/>tem natura diuina naturam hominis accepit: quuare 
-      <lb ed="#V" n="85"/>non dicitur facta homo vel esse homo sicut 
-      ver<lb ed="#V" n="86" break="no"/>bum dei: Ad quod dici potest quod dei filius dicitur 
-      <lb ed="#V" n="87"/>factus homo vel esse homo: non solum quia 
-      ho<lb ed="#V" n="88" break="no"/>minem assumpsit: sed quia ipsum in vnitatem et 
-      sin<lb ed="#V" n="89" break="no"/>gularitatem sui et persone accepit. Natura autem 
-      <lb ed="#V" n="90"/>diuina hominem quidem accepit id est hominis formam 
-      <lb ed="#V" n="91"/>sibi vniuit: sed non in fingularitatem et vnitatem sui. 
-      <lb ed="#V" n="92"/>Seruata enim proprietate ac diuersitate duarum 
-      <lb ed="#V" n="93"/>naturarum persone singularitas extitit. Ionque non 
-      <lb ed="#V" n="94"/>sic dicitur diuina natura esse homo: vel facta homo: sicut 
-      <lb ed="#V" n="95"/>dei filius. Quidam tamen indifferenter vtrumque concedunt. 
-      <lb ed="#V" n="96"/>Quare non accepit personam hominis: cum 
-      <lb ed="#V" n="97"/>hominem acceperit. 
-      <lb ed="#V" n="98"/>Ideo vero non personam hominis 
-      as<lb ed="#V" n="99" break="no"/>sumpsit: quia caro illa et 
-      <lb ed="#V" n="100"/>anima illa non erant vnita in vnam personam quam 
-      <lb ed="#V" n="101"/>assumpserit: quia non ex illis constabat persona 
-      <lb ed="#V" n="102"/>quando illis vnitum verbum est. Nam sibi 
-      inuicem<lb ed="#V" n="103" break="no"/>sunt vnita simul cum verbo. Altera tamen vnione 
-      <lb ed="#V" n="104"/>inuicem vnita sunt illa duo scilicet anima et caro: alia 
-      vnio<lb ed="#V" n="105" break="no"/>ne verbo vnita sunt. Quia alia est vnio anime illius 
-      <lb ed="#V" n="106"/>ad carnem: et alia est vnio verbi ad animam illam et ad 
-      <lb ed="#V" n="107"/>carnem. Non ergo accepit verbum dei personam hominis: 
-      <lb ed="#V" n="108"/>sed naturam: quia non erat ex carne illa et anima illa 
-      <lb ed="#V" n="109"/>vna composita persona quam verbum accepit: sed 
-      aci<lb ed="#V" n="110" break="no"/>cipiendo vniuit et vniendo accepit. 
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e574">
-               <lb ed="#V" n="111"/>¶ Contra hoc opinio qua probare quidam volunt 
-      <lb ed="#V" n="112"/>personam accepisse personam. 
-      <!--00040.xml-->
-      <pb ed="#V" n="15-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>ic a quibusdam opponitur quod 
-      <lb ed="#V" n="2"/>persona 
-      assun<lb ed="#V" n="3" break="no"/>psit personam. Persona enim est substantia rationa 
-      <lb ed="#V" n="4"/>tis indiuidue nature: hoc autem est anima. 
-      Er<lb ed="#V" n="5" break="no"/>go si animam assumpsit et personam: quod ideo non 
-      se<lb ed="#V" n="6" break="no"/>quitur: quia anima non est persona quando 
-      alii<lb ed="#V" n="7" break="no"/>rei vnita est personaliter: sed quando per se est: 
-      abso<lb ed="#V" n="8" break="no"/>luta enim a corpore persona est sicuti angelus. 
-      <lb ed="#V" n="9"/>Illa autem anima nunquam fuit quin esset alii re 
-      coniun<lb ed="#V" n="10" break="no"/>cta. Ideoque non ea assumpta: persona est 
-      assum<lb ed="#V" n="11" break="no"/>pta. Aliter quoque nituntur probare verbum dei 
-      as<lb ed="#V" n="12" break="no"/>sumpsisse persona: quia assumpsit aliquem 
-      homi<lb ed="#V" n="13" break="no"/>nem. Assumpsit enim Iesum christum: ergo aliquem 
-      <lb ed="#V" n="14"/>hominem. Quod autem hominem Iesum christum 
-      assum<lb ed="#V" n="15" break="no"/>pserit: Augu. in expositione symboli sub anathe 
-      <lb ed="#V" n="16"/>mate tradit dicens. Si quis dixerit atque 
-      credi<lb ed="#V" n="17" break="no"/>derit hominem Iesum christum a filio dei assumptum 
-      <lb ed="#V" n="18"/>non fuisse anathema sit. Qui etiam in pluribus 
-      scri<lb ed="#V" n="19" break="no"/>pture locis huiusmodi vtitur locutionibus. Ille 
-      <lb ed="#V" n="20"/>homo a verbo dei est assumptus. Ille homo 
-      fa<lb ed="#V" n="21" break="no"/>ctus est christus. Et propheta de homine christo 
-      lo<lb ed="#V" n="22" break="no"/>quens deo ait. Deatus quem elegisti et 
-      assumpsi<lb ed="#V" n="23" break="no"/>sti etc. Ex quibus consequi videtur: quod aliquis homo 
-      <lb ed="#V" n="24"/>assumptus sit a verbo: et ita persona a persona 
-      <lb ed="#V" n="25"/>sit assumpta. Sed quia hoc nephas est dicere 
-      <lb ed="#V" n="26"/>aut sentire: premisse locutiones eisque similes secundum 
-      <lb ed="#V" n="27"/>hanc intelligentiam sane accipi debent vt 
-      homo<lb ed="#V" n="28" break="no"/>christus siue homo ille siue quidam homo dicatur 
-      assun<lb ed="#V" n="29" break="no"/>ptus a verbo siue vnitus verbo: non quia hominis 
-      <lb ed="#V" n="30"/>persona sit assumpta vel vnita verbo: sed quia 
-      <lb ed="#V" n="31"/>illa anima et caro illa assumpta sunt et vnita 
-      ver<lb ed="#V" n="32" break="no"/>bo: in quibus subsistit persona dei et hominis: vt ad 
-      <lb ed="#V" n="33"/>hominis naturam non ad personam respicias: cum 
-      <lb ed="#V" n="34"/>assumptum: vel vnitum: vel quendam: vel aliquem 
-      <lb ed="#V" n="35"/>in huiusmodi locutionibus scriptura commemorat 
-      <lb ed="#V" n="36"/>Quocirca cum queritur fine proposita auctorita 
-      <lb ed="#V" n="37"/>te: an aliquis vel quidam sit assumptus a verbo 
-      <lb ed="#V" n="38"/>vel vnitus verbo: sine distinctione intelligentie 
-      <lb ed="#V" n="39"/>non est hic reddenda responsio: quoniam multiplex 
-      pre<lb ed="#V" n="40" break="no"/>missa est quastio: sed instantie querentis ita 
-      determi<lb ed="#V" n="41" break="no"/>nato: si de hominis persona queris: respondeo: 
-      <lb ed="#V" n="42"/>non: si de hominis natura: dico est. 
-      <lb ed="#V" n="43"/>Reterea inquiri optet etc. Superius de 
-      <lb ed="#V" n="44"/>persona assumente: et de modo 
-      <lb ed="#V" n="45"/>sassumendi: et qualitate nature assumprte: et de 
-      assun<lb ed="#V" n="46" break="no"/>ptionis auctore. Hic determinat de terminis 
-      as<lb ed="#V" n="47" break="no"/>sumptionis vel alios secundum alios de comparatione 
-      as<lb ed="#V" n="48" break="no"/>sumentis ad assumptum. Et diuiditur in partes duas.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e691">
-      ¶ 
-      Pri<lb ed="#V" n="49" break="no"/>mo procedit magister quatuor quaestiones mouendo.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e696">
-      ¶ 
-      Secun<lb ed="#V" n="50" break="no"/>do respondendo ibi. Sane dicitur. Et ista in duas.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e701">
-      ¶ 
-      Pri<lb ed="#V" n="51" break="no"/>mo propositas quaestiones determinat.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e706">
-      ¶ Secundo ad vnam 
-      <lb ed="#V" n="52"/>illarum reuetitur: et eius solutionem explanat. ibi. Ideo non 
-      <lb ed="#V" n="53"/>personam.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e713">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e716">
-      ¶ Primo ad tres quaestiones 
-      re<lb ed="#V" n="54" break="no"/>spondet breuiter.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e721">
-      ¶ Secundo circa solutionem alterius: quae 
-      <lb ed="#V" n="55"/>est vtrum natura assumpsit naturam diutius immoratur ibi. 
-      <lb ed="#V" n="56"/>¶De quarto vero quaestionis articulo. Et ista secunda in duas: quia 
-      <lb ed="#V" n="57"/>primo determinat praedictam quaestionem principaliter.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e730">
-      ¶ 
-      Secun<lb ed="#V" n="58" break="no"/>do eius occasionem mouet duas alias incidentaliter. ibi Sed 
-      <lb ed="#V" n="59"/>queritur. Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e737">
-      ¶ Primo procedit opponen¬ 
-      <!--00040.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="60"/>do.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e746">
-      ¶ Secundo determinando. ibi. Nos autem. Prima 
-      <lb ed="#V" n="61"/>in duas.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e751">
-      ¶ Primo opponit ad parte negatiuam.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e754">
-      ¶ 
-      Secun<lb ed="#V" n="62" break="no"/>do ad partem affirmatiuam. ibi. Cui videtur obuinare. Illa 
-      <lb ed="#V" n="63"/>pars que ibi incipit. Sed que. Et diuiditur in partes 
-      du<lb ed="#V" n="64" break="no"/>as: secundum duas quaestiones quas incidentaliter mouet Secunda 
-      <lb ed="#V" n="65"/>ibi. Si autem diuina natura. Illa pars que ibi incipit 
-      Ideo<lb ed="#V" n="66" break="no"/>vero. Diuiditur in partes duas: quia primo explanat 
-      inten<lb ed="#V" n="67" break="no"/>tum scilicet quare non est concedendum quod persona hominis fuerit 
-      as<lb ed="#V" n="68" break="no"/>sumpta
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e772">
-      ¶ Secundo arguit ad oppositum et argumenta 
-      so<lb ed="#V" n="69" break="no"/>uit. ibi. Hic a quibusdam opponitur. 
-      <lb ed="#V" n="70"/>Circa hanc distin. de quatuor principaliter 
-      <lb ed="#V" n="71"/>est querendum.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e781">
-      ¶ Primo de 
-      assumen<lb ed="#V" n="72" break="no"/>te.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e786">
-      ¶ Secundo de assumpto.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e788">
-      ¶ Tertio de 
-      vtri<lb ed="#V" n="73" break="no"/>usque vnione.
-   </p>
-            <p xml:id="kzz7yh-g09750-d1e793">
-      ¶ Quarto de termino vnionis 
-      <lb ed="#V" n="74"/>et assumptionis.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="15-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g09750"><!-- l3d5prae -->
+        <head xml:id="kzz7yh-g09750-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-g09750-d1e103">
+          <lb ed="#V" n="20"/>¶ Si persona vel natura personam vel naturam 
+          assun<lb ed="#V" n="21" break="no"/>psit: et si natura dei incarnata sit. Distinctio
+          </p>
+          <p xml:id="kzz7yh-g09750-d1e110">
+          <lb ed="#V" n="22"/>PReterea inquiri 
+          <lb ed="#V" n="23"/>oportet cum ex premissis constet verbum dei 
+          <lb ed="#V" n="24"/>carnem et animam simul assumpsisse in 
+          <lb ed="#V" n="25"/>vnitatem persone: quid horum potius 
+          <lb ed="#V" n="26"/>concedendum sit scilicet quod persona personam: vel 
+          natu<lb ed="#V" n="27" break="no"/>ra naturam: vel persona naturam: vel natura 
+          per<lb ed="#V" n="28" break="no"/>sonam assumpserit. Et an ita conueniat dici 
+          di<lb ed="#V" n="29" break="no"/>uinam naturam esse incarnatam sicut deus 
+          incarna<lb ed="#V" n="30" break="no"/>tus et verbum incarnatum sane dicitur. Hec 
+          inqui<lb ed="#V" n="31" break="no"/>sitio siue querendi ratio: iuxta sacrarum auctorita 
+          <lb ed="#V" n="32"/>tum testimonia partim implicita atque 
+          perple<lb ed="#V" n="33" break="no"/>xa: partim vero explicita est et aperta. Certum est 
+          <lb ed="#V" n="34"/>enim et sine ambiguitate verum quod non natural 
+          per<lb ed="#V" n="35" break="no"/>sonam: nec persona personam: sed persona 
+          natu<lb ed="#V" n="36" break="no"/>ram assumpsit: quod sanctorum subditis 
+          comproba<lb ed="#V" n="37" break="no"/>tur testimoniis et astruitur documentis. Ait enim 
+          <lb ed="#V" n="38"/>Augustinus. in libro de fide ad Petrum. Deus 
+          <lb ed="#V" n="39"/>vnigenitus dum conciperetur veritatem carnis 
+          ac<lb ed="#V" n="40" break="no"/>cepit ex virgine: et cum nasceretur integritatem 
+          vir<lb ed="#V" n="41" break="no"/>ginitatis seruauit in matre. Et paulopost. Sic 
+          <lb ed="#V" n="42"/>deus humanam naturam in vnitatem persone 
+          su<lb ed="#V" n="43" break="no"/>scepit: quod se humilians per misericordiam 
+          incorru<lb ed="#V" n="44" break="no"/>pte virginis vterum ex ea nasciturus impleuit. 
+          <lb ed="#V" n="45"/>Formam ergo serui idest naturam serui in suam 
+          ac<lb ed="#V" n="46" break="no"/>cepit ille deus personam. Item. Deus verbum non 
+          <lb ed="#V" n="47"/>accepit personam hominis. sed naturam. Item. 
+          <lb ed="#V" n="48"/>Dei filius vnigenitus vt carnem hominis animamque 
+          <lb ed="#V" n="49"/>mundaret susceptione carnis animeque 
+          rationa<lb ed="#V" n="50" break="no"/>lis incarnatus est. His aliisque pluribus 
+          aucto<lb ed="#V" n="51" break="no"/>ritatibus euidenter ostenditur: non naturam 
+          perso<lb ed="#V" n="52" break="no"/>nam: nec personam personam: sed personam naturam 
+          <lb ed="#V" n="53"/>accepisse. De quarto vero questionis articulo: 
+          <lb ed="#V" n="54"/>vtrum scilicet natura naturam assumpserit: 
+          scrupulosa<lb ed="#V" n="55" break="no"/>etiam inter doctos questio est. Quia et in hoc 
+          plu<lb ed="#V" n="56" break="no"/>rimum dissentire videntur: qui auctoritate 
+          pre<lb ed="#V" n="57" break="no"/>clari aliis doctiores in sacra pagina extiterunt: 
+          <lb ed="#V" n="58"/>nec tantum alii ab aliis: vtrum etiam idem a seipsis 
+          <!-\-00038.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="59"/>dissonare videntur: sicut subiecta capitula 
+          do<lb ed="#V" n="60" break="no"/>cent. Legitur enim in concilio toletano. viii. 
+          tra<lb ed="#V" n="61" break="no"/>ditum sic. Solum verbum caro factum est: et 
+          habita<lb ed="#V" n="62" break="no"/>uit in nobis: et cum tota trinitas operata sit 
+          for<lb ed="#V" n="63" break="no"/>mationem suscepti hominis: quoniam inseparabilia 
+          <lb ed="#V" n="64"/>sunt opera trinitatis: solus tamen filius accepit 
+          <lb ed="#V" n="65"/>hominem in singularitatem persone: non in 
+          vnita<lb ed="#V" n="66" break="no"/>tem diuine nature: idest quod est proprium filii: non 
+          <lb ed="#V" n="67"/>quod commune est trinitati. Item in concilio. xi. tole 
+          <lb ed="#V" n="68"/>tano. Unius substantie credimus deum patrem et 
+          <lb ed="#V" n="69"/>filium et spiritum sanctum: non tamen dicimus vt 
+          <lb ed="#V" n="70"/>huius trinitatis vnitatem maria virgogenuerit: 
+          <lb ed="#V" n="71"/>sed tantum filium qui solus naturam nostram in 
+          <lb ed="#V" n="72"/>vnitatem sue persone assumpsit. Incarnationem 
+          <lb ed="#V" n="73"/>quoque huius filii dei tota trinitas operata esse 
+          <lb ed="#V" n="74"/>credenda est. Solus tamen filius formam serui 
+          ac<lb ed="#V" n="75" break="no"/>cepit in singularitatem persone. His insinuari 
+          vi<lb ed="#V" n="76" break="no"/>detur quod persona tantum naturam: non natura 
+          na<lb ed="#V" n="77" break="no"/>turam assumpserit. Si enim quod commune est 
+          trini<lb ed="#V" n="78" break="no"/>tati non accepit hominem: ergo non natura 
+          diuina<lb ed="#V" n="79" break="no"/>que communis est tribus personis. Cui videtur 
+          obuia<lb ed="#V" n="80" break="no"/>re quod Augu. ait in lib. de fide ad Petrum: 
+          <lb ed="#V" n="81"/>Nec diuinitas inquit christi aliena est a natura 
+          pa<lb ed="#V" n="82" break="no"/>tris secundum illud. In principio erat verbum: nec 
+          hu<lb ed="#V" n="83" break="no"/>manitas eius aliena est a natura matris: secundum id 
+          <lb ed="#V" n="84"/>quod verbum caro factum est. Illa enim natura que 
+          <lb ed="#V" n="85"/>semper genita manet ex patre naturam nostram 
+          <lb ed="#V" n="86"/>sine peccato suscepit vt nasceretur ex virgine. 
+          <lb ed="#V" n="87"/>Hac auctoritate videtur tradi quod diuina 
+          natu<lb ed="#V" n="88" break="no"/>ra humanam suscepit. Ubi vehementer moueri 
+          <lb ed="#V" n="89"/>possumus quod eam genitam eternaliter ex patre dicit: nisi 
+          <lb ed="#V" n="90"/>forte natura pro persona hic accipiatur: alioqun 
+          <lb ed="#V" n="91"/>si dixerimus naturam tribus personis communem 
+          geni<lb ed="#V" n="92" break="no"/>tam esse occurrunt nobis ex aduerso que in 
+          tra<lb ed="#V" n="93" break="no"/>ctatum de trinitate disseruimus: vbi diximus non 
+          <lb ed="#V" n="94"/>naturam naturam: sed personam personam genuisse. 
+          <lb ed="#V" n="95"/>Quia si natura genuisset naturam cum vna 
+          eaden<lb ed="#V" n="96" break="no"/>que sit natura trinitatis eadem res seipsam 
+          genuis<lb ed="#V" n="97" break="no"/>set. Quod Aug. fieri posse negat. Sed alibi certum 
+          <lb ed="#V" n="98"/>reperimus documentum: quo naturam naturam 
+          assun<lb ed="#V" n="99" break="no"/>pesisse monstratur. Ait enim Augustinus in primo 
+          li<lb ed="#V" n="100" break="no"/>bro de trinitate. Etiam seipso christus factus est 
+          <lb ed="#V" n="101"/>minor formam serui accipiens. Neque enim sic 
+          acce<lb ed="#V" n="102" break="no"/>pit formam serui vt amitteret formam dei: in qua 
+          <lb ed="#V" n="103"/>erat equalis patri: vt et in forma serui et in forma 
+          <lb ed="#V" n="104"/>dei idem ipse sit vnigenitus filius patris: quia forma dei 
+          <lb ed="#V" n="105"/>accepit formam serui. Si autem forma dei formam 
+          <lb ed="#V" n="106"/>serui accepit: sine dubio natura naturam 
+          acce<lb ed="#V" n="107" break="no"/>pit. Forme enim nomine natura significatur: vt 
+          <lb ed="#V" n="108"/>Augu. euidenter docet in libro de fide ad 
+          Pe<lb ed="#V" n="109" break="no"/>trum. Cum inquit de christo audis: quia in forma dei 
+          <lb ed="#V" n="110"/>erat: oportet te agnoscere firmissimeque tenere in 
+          il<lb ed="#V" n="111" break="no"/>lo forme nomine naturalem plenitudinem 
+          debe<lb ed="#V" n="112" break="no"/>re intelligi. In forma dei ergo erat: quia in 
+          na<lb ed="#V" n="113" break="no"/>tura dei patris semper erat de quo natus erat. 
+          <lb ed="#V" n="114"/>Hylarius quoque in. xii. lib. de trinitate ita ait. 
+          <!-\-00039.xml-\->
+          <pb ed="#V" n="15-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Esse in forma dei non alia intelligentia est quam 
+          in<lb ed="#V" n="2" break="no"/>dei manere natura. Didicisti nomine forme 
+          intel<lb ed="#V" n="3" break="no"/>ligentiam fieri nature: at audisti quod forma dei 
+          for<lb ed="#V" n="4" break="no"/>mam serui suscepit: vnde consequens est quod natura 
+          <lb ed="#V" n="5"/>diuina naturam humanam suscepit. Quod etiam 
+          <lb ed="#V" n="6"/>Hiero. in explanatione fidei euidenter insinuat 
+          <lb ed="#V" n="7"/>inquiens. Passus est filius dei non putatiue sed 
+          <lb ed="#V" n="8"/>vere: secundum illud passus est quod pati poterat: idest 
+          <lb ed="#V" n="9"/>non secundum illam substantiam que assumpsit: sed secundum 
+          <lb ed="#V" n="10"/>illam que assumpta est. Ex quo apparet 
+          diui<lb ed="#V" n="11" break="no"/>nam substantiam assumpsisse humanam. Ex 
+          ver<lb ed="#V" n="12" break="no"/>bis autem Augustini superius positis 
+          adhibita<lb ed="#V" n="13" break="no"/>diligentia innui videtur solum verbum carnem 
+          <lb ed="#V" n="14"/>factum et naturam solum suscepisse humanam: et 
+          diui<lb ed="#V" n="15" break="no"/>nam naturam eandem accepisse. Ait enim trinitas 
+          <lb ed="#V" n="16"/>nos sibi reconciliauit per hoc quod solum verbum 
+          car<lb ed="#V" n="17" break="no"/>nem ipsa trinitas fecit. In quo sic veritas 
+          incon<lb ed="#V" n="18" break="no"/>mutabilis manet diuine humaneque nature: vt 
+          <lb ed="#V" n="19"/>sicut vera semper est eius diuinitas quam de 
+          pa<lb ed="#V" n="20" break="no"/>tre habet ita vere semper et incommutabilis eius 
+          <lb ed="#V" n="21"/>sit humanitas quam sibi vnitam summa diuinitas 
+          <lb ed="#V" n="22"/>gerit. Ecce et solum verbum dixit carnem factum 
+          <lb ed="#V" n="23"/>et humanitatem diuinitati vnitam. Idem quoque 
+          <lb ed="#V" n="24"/>superius dixit seruilem formam a solo filio 
+          susce<lb ed="#V" n="25" break="no"/>potesta quam tota trinitas fecit. Iam facile est 
+          agno<lb ed="#V" n="26" break="no"/>scere quam diuersa et multiplicia super questione 
+          <lb ed="#V" n="27"/>proposita auctores tradiderunt. Ideoque poste 
+          <lb ed="#V" n="28"/>riores ea legentes varias atque contrarias ex 
+          pre<lb ed="#V" n="29" break="no"/>dictis occasionem sumentes promunt sententias. 
+          </p>
+          <p xml:id="kzz7yh-g09750-d1e388">
+          <lb ed="#V" n="30"/>¶ Quid de hoc tenendum sit. 
+          <lb ed="#V" n="31"/>omnis mendacii et 
+          com<lb ed="#V" n="32" break="no"/>Nos auteautem taactionis nota a 
+          sa<lb ed="#V" n="33" break="no"/>cris paginis secludere cupientes: orthodosis 
+          pa<lb ed="#V" n="34" break="no"/>tribus atque catholicis doctoribus nulla 
+          praue<lb ed="#V" n="35" break="no"/>intelligentie suspitione notatis consentimus 
+          di<lb ed="#V" n="36" break="no"/>centes: et personam filii assumpsisse naturam 
+          hu<lb ed="#V" n="37" break="no"/>manam: et naturam diuinam humane nature in 
+          fi<lb ed="#V" n="38" break="no"/>lio vnitam: eamque sibi vnisse vel assumpsisse. Unde 
+          <lb ed="#V" n="39"/>et vere incarnata dicitur. Quod vero dicitur solus 
+          <lb ed="#V" n="40"/>filius formam serui accepisse: per hoc non 
+          exclu<lb ed="#V" n="41" break="no"/>ditur diuina natura ab acceptione seruilis 
+          for<lb ed="#V" n="42" break="no"/>me: sed alie due persone pater scilicet et spiritus sanctus: 
+          <lb ed="#V" n="43"/>Item et illud aliud scilicet id quod est proprium filii 
+          <lb ed="#V" n="44"/>non quod commune est trinitati: hominem accepit 
+          <lb ed="#V" n="45"/>sic oportet intelligi: idest proprie in hypostasi 
+          si<lb ed="#V" n="46" break="no"/>lii: non in tribus coiter personis: diuina natura 
+          <lb ed="#V" n="47"/>humanam naturam sibi vniuit. Qui sensus ex 
+          <lb ed="#V" n="48"/>verbis Ioannis Damas. confirmatur qui totam 
+          <lb ed="#V" n="49"/>diuinam naturam in vnam hypostasim incarnatam 
+          <lb ed="#V" n="50"/>esse euidenter asserit dicens. In humanatione 
+          <lb ed="#V" n="51"/>dei verbi aimus omnem et perfectam naturam 
+          dei<lb ed="#V" n="52" break="no"/>tatis in vna eius hypostaseon incarnatam esse 
+          <lb ed="#V" n="53"/>idest vnitam humane nature et non partem parti. 
+          <lb ed="#V" n="54"/>Omni enim humane nature aimus esse 
+          vnitan<lb ed="#V" n="55" break="no"/>omnem deitatis naturam vel substantiam. Item 
+          ea<lb ed="#V" n="56" break="no"/>dem est natura in singula hypostaseon id est perso¬ 
+          <!-\-00039.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>narum et quando dicimus naturam verbi 
+          incar<lb ed="#V" n="58" break="no"/>natam esse secundum beatos scilicet secundum Anastasium et 
+          C<lb ed="#V" n="59" break="no"/>rillum: deitatem dicimus esse vnitam carni: et vnam 
+          <lb ed="#V" n="60"/>naturam dei verbi incarnatam confitemur. Uerbum 
+          <lb ed="#V" n="61"/>autem et quod commune est substantie possidet: et quod 
+          <lb ed="#V" n="62"/>proprietatis est habens hypostaseos: idest 
+          per<lb ed="#V" n="63" break="no"/>sone. Ex his maniseste ostenditur quod natura 
+          di<lb ed="#V" n="64" break="no"/>uina incarnata est. Unde et eadem vere dicitur 
+          <lb ed="#V" n="65"/>suscepisse humanam naturam. 
+          </p>
+          <p xml:id="kzz7yh-g09750-d1e473">
+          <lb ed="#V" n="66"/>¶ An diuina natura debeat dici caro facta. 
+          <lb ed="#V" n="67"/>Sed queritur vtrum eadem 
+          di<lb ed="#V" n="68" break="no"/>uina natura 
+          de<lb ed="#V" n="69" break="no"/>beat dici caro facta sicut verbum dicitur caro 
+          fa<lb ed="#V" n="70" break="no"/>ctum. Si enim idem est incarnari quod est cari 
+          <lb ed="#V" n="71"/>nem fieri: videri potest ita debere dici quod sit 
+          ca<lb ed="#V" n="72" break="no"/>ro facta sicut dicitur incarnata: Ad quod dicimus: 
+          <lb ed="#V" n="73"/>quia si illud quod dictum in sacra scriptura reperire 
+          <lb ed="#V" n="74"/>tur: ex eadem intelligentia acciperetur qua cum 
+          <lb ed="#V" n="75"/>dicitur incarnata. Sed quia illud auctoritas 
+          <lb ed="#V" n="76"/>subticuit: atque locutionis modus nimiam 
+          vide<lb ed="#V" n="77" break="no"/>retur facere expressionem: si natura diuina dice 
+          <lb ed="#V" n="78"/>retur caro facta melius silere hoc puto vel negare 
+          <lb ed="#V" n="79"/>quam temere asserere: ne si illud dicatur 
+          conuertibi<lb ed="#V" n="80" break="no"/>litas nature in naturam significari putetur. Ex 
+          <lb ed="#V" n="81"/>premissis indubitabiliter constat quod persona 
+          ver<lb ed="#V" n="82" break="no"/>bi siue natura hominis naturam scilicet carnem et 
+          ani<lb ed="#V" n="83" break="no"/>mam assumpsit: sed non personam hominis. Si 
+          au<lb ed="#V" n="84" break="no"/>tem natura diuina naturam hominis accepit: quuare 
+          <lb ed="#V" n="85"/>non dicitur facta homo vel esse homo sicut 
+          ver<lb ed="#V" n="86" break="no"/>bum dei: Ad quod dici potest quod dei filius dicitur 
+          <lb ed="#V" n="87"/>factus homo vel esse homo: non solum quia 
+          ho<lb ed="#V" n="88" break="no"/>minem assumpsit: sed quia ipsum in vnitatem et 
+          sin<lb ed="#V" n="89" break="no"/>gularitatem sui et persone accepit. Natura autem 
+          <lb ed="#V" n="90"/>diuina hominem quidem accepit id est hominis formam 
+          <lb ed="#V" n="91"/>sibi vniuit: sed non in fingularitatem et vnitatem sui. 
+          <lb ed="#V" n="92"/>Seruata enim proprietate ac diuersitate duarum 
+          <lb ed="#V" n="93"/>naturarum persone singularitas extitit. Ionque non 
+          <lb ed="#V" n="94"/>sic dicitur diuina natura esse homo: vel facta homo: sicut 
+          <lb ed="#V" n="95"/>dei filius. Quidam tamen indifferenter vtrumque concedunt. 
+          <lb ed="#V" n="96"/>Quare non accepit personam hominis: cum 
+          <lb ed="#V" n="97"/>hominem acceperit. 
+          <lb ed="#V" n="98"/>Ideo vero non personam hominis 
+          as<lb ed="#V" n="99" break="no"/>sumpsit: quia caro illa et 
+          <lb ed="#V" n="100"/>anima illa non erant vnita in vnam personam quam 
+          <lb ed="#V" n="101"/>assumpserit: quia non ex illis constabat persona 
+          <lb ed="#V" n="102"/>quando illis vnitum verbum est. Nam sibi 
+          inuicem<lb ed="#V" n="103" break="no"/>sunt vnita simul cum verbo. Altera tamen vnione 
+          <lb ed="#V" n="104"/>inuicem vnita sunt illa duo scilicet anima et caro: alia 
+          vnio<lb ed="#V" n="105" break="no"/>ne verbo vnita sunt. Quia alia est vnio anime illius 
+          <lb ed="#V" n="106"/>ad carnem: et alia est vnio verbi ad animam illam et ad 
+          <lb ed="#V" n="107"/>carnem. Non ergo accepit verbum dei personam hominis: 
+          <lb ed="#V" n="108"/>sed naturam: quia non erat ex carne illa et anima illa 
+          <lb ed="#V" n="109"/>vna composita persona quam verbum accepit: sed 
+          aci<lb ed="#V" n="110" break="no"/>cipiendo vniuit et vniendo accepit. 
+          </p>
+          <p xml:id="kzz7yh-g09750-d1e574">
+          <lb ed="#V" n="111"/>¶ Contra hoc opinio qua probare quidam volunt 
+          <lb ed="#V" n="112"/>personam accepisse personam. 
+          <!-\-00040.xml-\->
+          <pb ed="#V" n="15-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ic a quibusdam opponitur quod 
+          <lb ed="#V" n="2"/>persona 
+          assun<lb ed="#V" n="3" break="no"/>psit personam. Persona enim est substantia rationa 
+          <lb ed="#V" n="4"/>tis indiuidue nature: hoc autem est anima. 
+          Er<lb ed="#V" n="5" break="no"/>go si animam assumpsit et personam: quod ideo non 
+          se<lb ed="#V" n="6" break="no"/>quitur: quia anima non est persona quando 
+          alii<lb ed="#V" n="7" break="no"/>rei vnita est personaliter: sed quando per se est: 
+          abso<lb ed="#V" n="8" break="no"/>luta enim a corpore persona est sicuti angelus. 
+          <lb ed="#V" n="9"/>Illa autem anima nunquam fuit quin esset alii re 
+          coniun<lb ed="#V" n="10" break="no"/>cta. Ideoque non ea assumpta: persona est 
+          assum<lb ed="#V" n="11" break="no"/>pta. Aliter quoque nituntur probare verbum dei 
+          as<lb ed="#V" n="12" break="no"/>sumpsisse persona: quia assumpsit aliquem 
+          homi<lb ed="#V" n="13" break="no"/>nem. Assumpsit enim Iesum christum: ergo aliquem 
+          <lb ed="#V" n="14"/>hominem. Quod autem hominem Iesum christum 
+          assum<lb ed="#V" n="15" break="no"/>pserit: Augu. in expositione symboli sub anathe 
+          <lb ed="#V" n="16"/>mate tradit dicens. Si quis dixerit atque 
+          credi<lb ed="#V" n="17" break="no"/>derit hominem Iesum christum a filio dei assumptum 
+          <lb ed="#V" n="18"/>non fuisse anathema sit. Qui etiam in pluribus 
+          scri<lb ed="#V" n="19" break="no"/>pture locis huiusmodi vtitur locutionibus. Ille 
+          <lb ed="#V" n="20"/>homo a verbo dei est assumptus. Ille homo 
+          fa<lb ed="#V" n="21" break="no"/>ctus est christus. Et propheta de homine christo 
+          lo<lb ed="#V" n="22" break="no"/>quens deo ait. Deatus quem elegisti et 
+          assumpsi<lb ed="#V" n="23" break="no"/>sti etc. Ex quibus consequi videtur: quod aliquis homo 
+          <lb ed="#V" n="24"/>assumptus sit a verbo: et ita persona a persona 
+          <lb ed="#V" n="25"/>sit assumpta. Sed quia hoc nephas est dicere 
+          <lb ed="#V" n="26"/>aut sentire: premisse locutiones eisque similes secundum 
+          <lb ed="#V" n="27"/>hanc intelligentiam sane accipi debent vt 
+          homo<lb ed="#V" n="28" break="no"/>christus siue homo ille siue quidam homo dicatur 
+          assun<lb ed="#V" n="29" break="no"/>ptus a verbo siue vnitus verbo: non quia hominis 
+          <lb ed="#V" n="30"/>persona sit assumpta vel vnita verbo: sed quia 
+          <lb ed="#V" n="31"/>illa anima et caro illa assumpta sunt et vnita 
+          ver<lb ed="#V" n="32" break="no"/>bo: in quibus subsistit persona dei et hominis: vt ad 
+          <lb ed="#V" n="33"/>hominis naturam non ad personam respicias: cum 
+          <lb ed="#V" n="34"/>assumptum: vel vnitum: vel quendam: vel aliquem 
+          <lb ed="#V" n="35"/>in huiusmodi locutionibus scriptura commemorat 
+          <lb ed="#V" n="36"/>Quocirca cum queritur fine proposita auctorita 
+          <lb ed="#V" n="37"/>te: an aliquis vel quidam sit assumptus a verbo 
+          <lb ed="#V" n="38"/>vel vnitus verbo: sine distinctione intelligentie 
+          <lb ed="#V" n="39"/>non est hic reddenda responsio: quoniam multiplex 
+          pre<lb ed="#V" n="40" break="no"/>missa est quastio: sed instantie querentis ita 
+          determi<lb ed="#V" n="41" break="no"/>nato: si de hominis persona queris: respondeo: 
+          <lb ed="#V" n="42"/>non: si de hominis natura: dico est. 
+          </p>-->
+        <p xml:id="kzz7yh-g09750-d1e106">
+          <lb ed="#V" n="43"/>PReterea inquiri optet etc. Superius de 
+          <lb ed="#V" n="44"/>persona assumente: et de modo 
+          <lb ed="#V" n="45"/>sassumendi: et qualitate nature assumprte: et de 
+          assun<lb ed="#V" n="46" break="no"/>ptionis auctore. Hic determinat de terminis 
+          as<lb ed="#V" n="47" break="no"/>sumptionis vel alios secundum alios de comparatione 
+          as<lb ed="#V" n="48" break="no"/>sumentis ad assumptum. Et diuiditur in partes duas.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e691">
+          ¶ 
+          Pri<lb ed="#V" n="49" break="no"/>mo procedit magister quatuor quaestiones mouendo.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e696">
+          ¶ 
+          Secun<lb ed="#V" n="50" break="no"/>do respondendo ibi. Sane dicitur. Et ista in duas.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e701">
+          ¶ 
+          Pri<lb ed="#V" n="51" break="no"/>mo propositas quaestiones determinat.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e706">
+          ¶ Secundo ad vnam 
+          <lb ed="#V" n="52"/>illarum reuetitur: et eius solutionem explanat. ibi. Ideo non 
+          <lb ed="#V" n="53"/>personam.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e713">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e716">
+          ¶ Primo ad tres quaestiones 
+          re<lb ed="#V" n="54" break="no"/>spondet breuiter.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e721">
+          ¶ Secundo circa solutionem alterius: quae 
+          <lb ed="#V" n="55"/>est vtrum natura assumpsit naturam diutius immoratur ibi. 
+          <lb ed="#V" n="56"/>¶De quarto vero quaestionis articulo. Et ista secunda in duas: quia 
+          <lb ed="#V" n="57"/>primo determinat praedictam quaestionem principaliter.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e730">
+          ¶ 
+          Secun<lb ed="#V" n="58" break="no"/>do eius occasionem mouet duas alias incidentaliter. ibi Sed 
+          <lb ed="#V" n="59"/>queritur. Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e737">
+          ¶ Primo procedit opponen¬ 
+          <!--00040.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="60"/>do.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e746">
+          ¶ Secundo determinando. ibi. Nos autem. Prima 
+          <lb ed="#V" n="61"/>in duas.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e751">
+          ¶ Primo opponit ad parte negatiuam.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e754">
+          ¶ 
+          Secun<lb ed="#V" n="62" break="no"/>do ad partem affirmatiuam. ibi. Cui videtur obuinare. Illa 
+          <lb ed="#V" n="63"/>pars que ibi incipit. Sed que. Et diuiditur in partes 
+          du<lb ed="#V" n="64" break="no"/>as: secundum duas quaestiones quas incidentaliter mouet Secunda 
+          <lb ed="#V" n="65"/>ibi. Si autem diuina natura. Illa pars que ibi incipit 
+          Ideo<lb ed="#V" n="66" break="no"/>vero. Diuiditur in partes duas: quia primo explanat 
+          inten<lb ed="#V" n="67" break="no"/>tum scilicet quare non est concedendum quod persona hominis fuerit 
+          as<lb ed="#V" n="68" break="no"/>sumpta
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e772">
+          ¶ Secundo arguit ad oppositum et argumenta 
+          so<lb ed="#V" n="69" break="no"/>uit. ibi. Hic a quibusdam opponitur. 
+          <lb ed="#V" n="70"/>Circa hanc distin. de quatuor principaliter 
+          <lb ed="#V" n="71"/>est querendum.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e781">
+          ¶ Primo de 
+          assumen<lb ed="#V" n="72" break="no"/>te.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e786">
+          ¶ Secundo de assumpto.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e788">
+          ¶ Tertio de 
+          vtri<lb ed="#V" n="73" break="no"/>usque vnione.
+        </p>
+        <p xml:id="kzz7yh-g09750-d1e793">
+          ¶ Quarto de termino vnionis 
+          <lb ed="#V" n="74"/>et assumptionis.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

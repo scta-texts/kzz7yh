@@ -1,498 +1,500 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="15-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k10786"><!-- l4d4prae -->
-            <head xml:id="kzz7yh-k10786-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-k10786-d1e103">
-               <lb ed="#V" n="25"/>¶ Quod alii suscipiunt sacramentum et rem. Alii 
-      <lb ed="#V" n="26"/>sacramentum et non rem. Alii rem et non 
-      sacra<lb ed="#V" n="27" break="no"/>mentum. Distintio IIII.
-  </p>
-            <p xml:id="kzz7yh-k10786-d1e112">
-               <lb ed="#V" n="28"/>HIc dicendum est 
-      <lb ed="#V" n="29"/>aliquos suscipere sacramentum et rem 
-      sacra<lb ed="#V" n="30" break="no"/>menti: aliquos sacramentum et non rem: 
-      ali<lb ed="#V" n="31" break="no"/>quos rem et non sacramentum. Sacramentum 
-      <lb ed="#V" n="32"/>et rem simul suscipiunt omnes peruuli qui in baptismo 
-      <lb ed="#V" n="33"/>ab originali mundantur peccato. Quamuis quidam 
-      <lb ed="#V" n="34"/>diffiteantur illis qui perituri sunt peruulis in 
-      ba<lb ed="#V" n="35" break="no"/>ptismo dimitti peccata: innitentes illi verbo aug. 
-      <lb ed="#V" n="36"/>Sacramenta in solis electis efficiunt quod 
-      figu<lb ed="#V" n="37" break="no"/>rant: non intelligentes illud ita esse accipiendum: 
-      <lb ed="#V" n="38"/>quia cum in aliis efficiant sacramenta remissionem non hoc 
-      <lb ed="#V" n="39"/>eis faciunt ad salutem: sed solis electis. Nam quod 
-      <lb ed="#V" n="40"/>omnibus peruulis in baptismo remittatur peccatum per 
-      ba<lb ed="#V" n="41" break="no"/>ptisimum Aug. euidenter dicit. A peruulo inquit 
-      re<lb ed="#V" n="42" break="no"/>center nato vsque ad decrepitum senem sicut nullus 
-      <lb ed="#V" n="43"/>prohibetur a baptismo: ita nullus est qui non 
-      pec<lb ed="#V" n="44" break="no"/>cato moriatur in baptismo. Sed peruuli tantum origina 
-      <lb ed="#V" n="45"/>li: maiores vero est omnibus que male viuendo 
-      addide<lb ed="#V" n="46" break="no"/>runt ad illud: nisi enormitas vite impediat id est fictio. 
-      <lb ed="#V" n="47"/>adulti vero qui cum fide baptizantur: secramentum et rem suscipiunt. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e158">
-               <lb ed="#V" n="48"/>¶ De ficte accedentibus. 
-      <lb ed="#V" n="49"/>Qui vero sine fide vel ficte accedunt 
-      <lb ed="#V" n="50"/>sacramentum non rem suscipiunt. Unde 
-      <lb ed="#V" n="51"/>Hiero. Sunt lauacra gentilium hereticorum: sed non 
-      <lb ed="#V" n="52"/>lauant ad salutem. In ecclsia etiam qui non plena 
-      fide<lb ed="#V" n="53" break="no"/>accipiunt baptisma: non spicitum sed aquam suscipiunt. 
-      <lb ed="#V" n="54"/>Aug. est ait. Iudeis omnibus communia erant scramenta 
-      <lb ed="#V" n="55"/>sed non communis omnibus erat gratia que est virtus scramentorum. 
-      <lb ed="#V" n="56"/>Ita et nunc communis est baptismus omnibus baptizatis 
-      <lb ed="#V" n="57"/>sed non virtus baptismi id est ipsa gratia. Item omnis qui iam 
-      <lb ed="#V" n="58"/>sue voluntatis arbiter constitutus est cum accedit 
-      <lb ed="#V" n="59"/>ad sacramentum fidelium: nisi peniteat eum veteris vite 
-      <!--00058.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="60"/>nouam non potest inchoare. Ab hac poenitentia cum 
-      bapti<lb ed="#V" n="61" break="no"/>zantur soli peruuli immunes sunt. His aliisque 
-      testi<lb ed="#V" n="62" break="no"/>moniis aperte ostenditur adultis sine fide et poesistentia vera 
-      <lb ed="#V" n="63"/>in baptismo non conferri gratiam remissionis: quia nec 
-      <lb ed="#V" n="64"/>peruulis sine fide aliena qui propriam hebere nequaunt 
-      <lb ed="#V" n="65"/>datur in baptismo remissio. Siquis ergo ficte 
-      ac<lb ed="#V" n="66" break="no"/>cedit non habens veram cordis contritonem sacramentum 
-      si<lb ed="#V" n="67" break="no"/>ne re accipit. Uidetur tamen Aug. dicere quod est ficte 
-      <lb ed="#V" n="68"/>accidenti qui est habet odium fermum in ipso momento 
-      <lb ed="#V" n="69"/>quo baptizatur omnia condonentur: et post baptismum 
-      <lb ed="#V" n="70"/>mox redeant. Sed non hmo asserendo dicit immo hanc 
-      <lb ed="#V" n="71"/>opionem et praemissam sententiam conferendo. ait enim sic. His 
-      <lb ed="#V" n="72"/>qui ficto cord baptizantur aut peccata nullatenus dimit 
-      <lb ed="#V" n="73"/>tuntur: quia spiritus sanctus disciplie effugiet fictum: autem in ipso 
-      <lb ed="#V" n="74"/>temporis puncto per vim scramenti dimissa: iterum per fictionem 
-      repli<lb ed="#V" n="75" break="no"/>caustar: vt est illud verum sit. Quotquot in christo 
-      baptizati<lb ed="#V" n="76" break="no"/>estis etc. Etiam illud. Spiritus sanctus discipline 
-      ef<lb ed="#V" n="77" break="no"/>fugiet fictum vt induat eum christum sanctitas 
-      ba<lb ed="#V" n="78" break="no"/>ptismi: exuat eum christum pernities fictionis. Nam 
-      re<lb ed="#V" n="79" break="no"/>dire dimissa peccata vbi fatrua charitas non est: 
-      <lb ed="#V" n="80"/>aperte dominus docet etiam in illo seruo: a quo dominus 
-      di<lb ed="#V" n="81" break="no"/>missum debitum pecetit: quia ille conseruo dimittere 
-      <lb ed="#V" n="82"/>noluit. Sic non impeditur baptismi gratia quo 
-      mi<lb ed="#V" n="83" break="no"/>nus omnia peccata dimittantur: est si fatermum odium in eius 
-      <lb ed="#V" n="84"/>cui dimittantur animo perseuerat. Soluitur enim 
-      hester<lb ed="#V" n="85" break="no"/>nus dines et quicquid superest: et soluitur est ipsa hora: 
-      mo<lb ed="#V" n="86" break="no"/>mentumque ante baptismum: et in baptismo. 
-      Dein<lb ed="#V" n="87" break="no"/>ceps autem continuo reus incipit esse non solum 
-      consequen<lb ed="#V" n="88" break="no"/>tium: sed est praeteritorum dierum: horarum: momentorum: 
-      re<lb ed="#V" n="89" break="no"/>deuntibus omnibus que dimissa sunt. Hoc autem vt 
-      praedi<lb ed="#V" n="90" break="no"/>ximus non sub assertione dixit: quod ostenditur ex eo quod 
-      <lb ed="#V" n="91"/>ait in eodem libro sic. Si ad baptismum fictus 
-      acce<lb ed="#V" n="92" break="no"/>dit dimissa sunt ei peccata aut non sunt dimissa: 
-      <lb ed="#V" n="93"/>eligant quod voluerit. Ecce aperte cernis si tamen 
-      inten<lb ed="#V" n="94" break="no"/>dis id dixisse Aug. non asserendo: sed querendo t 
-      <lb ed="#V" n="95"/>aliorum opinionem referendo. Idem enim ait. Tunc 
-      va<lb ed="#V" n="96" break="no"/>lere incipit ad salutem baptismus cum illa fictio 
-      <lb ed="#V" n="97"/>veraci confessione recesserit. qua corde in malitia 
-      <lb ed="#V" n="98"/>perseuerante peccatorum ablutionem non sinebat fieri. Non 
-      <lb ed="#V" n="99"/>ergo ficte accedenti peccata dimittuntur. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e278">
-               <lb ed="#V" n="100"/>¶ Quomodo intelligatur illud quotquot in christo 
-      ba<lb ed="#V" n="101" break="no"/>ptizati estis christum induistis. 
-      <lb ed="#V" n="102"/>Queritur ergo qumod illud accipiatur. 
-      <lb ed="#V" n="103"/>Quotquot in christo 
-      baptizati<lb ed="#V" n="104" break="no"/>estis christum induistis: Potest dici quod qui in christo id est in 
-      <lb ed="#V" n="105"/>christi conformitate baptizantur scilicet vt moriantur 
-      vetusta<lb ed="#V" n="106" break="no"/>ti peccati. sicut christus vetustati pene: induunt christum 
-      <lb ed="#V" n="107"/>quem per gratiam inhabitantem habent. Potest et aliter 
-      sol<lb ed="#V" n="108" break="no"/>ui. Duobus enim modis christum induere dicimur: vel 
-      <lb ed="#V" n="109"/>assumptione scramenti: vel rei perceptione. Unde Aug. 
-      In<lb ed="#V" n="110" break="no"/>duunt homines christum aliquando vsque ad scramenti perceptionem: 
-      <lb ed="#V" n="111"/>aliquando vsque ad vite sanctificationem. atque illud 
-      pri<lb ed="#V" n="112" break="no"/>munm bonis et malis potest esse commune: hoc autem est proprium 
-      <lb ed="#V" n="113"/>bonorum et piorum. Omnes ergo qui in christi nomine 
-      bapti<lb ed="#V" n="114" break="no"/>zantur christum induunt vel secundum sacramenti perceptionem: 
-      <lb ed="#V" n="115"/>vel secundum vite sanctificationem.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e316">
-      <!--00059.xml-->
-               <pb ed="#V" n="16-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>¶ De illis qui suscipiunt rem et non sacramentum. 
-      <lb ed="#V" n="2"/>3unt et alii vt supra posuimus quid 
-      su<lb ed="#V" n="3" break="no"/>scipiunt rem et non 
-      sacra<lb ed="#V" n="4" break="no"/>mentum Qui enim effundunt sanguinem pro 
-      no<lb ed="#V" n="5" break="no"/>mine Iesu: et si non sacramentum: rem tamen 
-      accipi<lb ed="#V" n="6" break="no"/>unt. Unde Aug. Quicumque non percepto 
-      regene<lb ed="#V" n="7" break="no"/>rationis lauacro pro confessione christi moriuntur: 
-      <lb ed="#V" n="8"/>tantum eis valet ad dimittenda peccata: quantum si 
-      ab<lb ed="#V" n="9" break="no"/>luerentur sacro fonte baptismi. Audistis quod 
-      pas<lb ed="#V" n="10" break="no"/>sio pro christi nomine suscepta supplet vicem baptismi. 
-      <lb ed="#V" n="11"/>Nec tantum passio vicem baptismi implet: sed etiam 
-      <lb ed="#V" n="12"/>fides et contritio vbi necessitas excludit 
-      sacra<lb ed="#V" n="13" break="no"/>mentum: sicut aperte docet Augusti. dicens. 
-      <lb ed="#V" n="14"/>Baptismi vicem aliquando implere 
-      passio<lb ed="#V" n="15" break="no"/>nem: de latrone illo cui non baptizato dictum est: 
-      <lb ed="#V" n="16"/>hodie mecum eris in paradiso: beatus Cypria 
-      <lb ed="#V" n="17"/>nus non leue documentum assumit. Quod 
-      eti<lb ed="#V" n="18" break="no"/>am atque etiam ego considerans inuenio: non 
-      <lb ed="#V" n="19"/>tantum passionem pro nomine christi id quod 
-      baptis<lb ed="#V" n="20" break="no"/>mo deerat posse supplere: sed etiam fidem 
-      con<lb ed="#V" n="21" break="no"/>uersionemque cordis: si forte ad celebrandum 
-      my<lb ed="#V" n="22" break="no"/>sterium baptismi in angustiis temporum 
-      suc<lb ed="#V" n="23" break="no"/>curri non potest. Neque enim ille latro pro 
-      no<lb ed="#V" n="24" break="no"/>mine christi crucifixus est: sed pro meritis 
-      faci<lb ed="#V" n="25" break="no"/>norum suorum nec quia credidit passus est: sed dum 
-      <lb ed="#V" n="26"/>patitur credit. Quantum ergo valeat sine visibi 
-      <lb ed="#V" n="27"/>lis baptismi sacramento: quod apostolus ait. Corde 
-      <lb ed="#V" n="28"/>creditur ad iusticiam: ore autem confessio sit ad salutem: 
-      <lb ed="#V" n="29"/>in illo latrone declaratum est: sed tunc impletur 
-      inui<lb ed="#V" n="30" break="no"/>sibiliter: cum mysterium baptismi non contemptus 
-      <lb ed="#V" n="31"/>religionis sed articulus necessitatis excludit. 
-      <lb ed="#V" n="32"/>Et baptismus quidem potest esse vbi conuersio cordis 
-      <lb ed="#V" n="33"/>defuerit: conuersiono autem cordi potest quidem inesse non 
-      <lb ed="#V" n="34"/>percepto baptismo: sed contempto baptismo non potest 
-      <lb ed="#V" n="35"/>nec vllo modo dicenda est conuersio cordis ad deum 
-      <lb ed="#V" n="36"/>cum dei sacramentum contennitur. Ecce hic hebes non 
-      so<lb ed="#V" n="37" break="no"/>lum passionem: sed est fidem et contritionem 
-      conferre<lb ed="#V" n="38" break="no"/>remissionem vbi non contennitur sacramentum: vt in latrione 
-      <lb ed="#V" n="39"/>illo ostenditur qui non per passionem: sed per fidem 
-      sal<lb ed="#V" n="40" break="no"/>uatus est sine baptismo. Sed dicunt quidam hoc 
-      <lb ed="#V" n="41"/>argumentum retractasse Augu. Retractauit 
-      <lb ed="#V" n="42"/>quidem exemplum: sed sententiam non. Ait enim Cum 
-      dice<lb ed="#V" n="43" break="no"/>rem vicem baptismi posse habere passionem: non 
-      sa<lb ed="#V" n="44" break="no"/>tis idoueum posui illius latronis exemplum: quia vtrum 
-      <lb ed="#V" n="45"/>non fuerit baptizatus incertum est. Constat ergo 
-      <lb ed="#V" n="46"/>sine baptismo aliquis iustisicari et saluari. Unde 
-      <lb ed="#V" n="47"/>amb. de valentiniano. Uentrem meum doleo vt 
-      pro<lb ed="#V" n="48" break="no"/>phetico vtar eloquo quia quem regeneratus eram amisi 
-      <lb ed="#V" n="49"/>veruntmen gratiam ille quam poposcit non amisit. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e431">
-               <lb ed="#V" n="50"/>¶ Que videntur obuiare predictis. 
-      <lb ed="#V" n="51"/>His autem viletur obuiare quod 
-      <lb ed="#V" n="52"/>dominus dicit. Nisi quis 
-      re<lb ed="#V" n="53" break="no"/>natus fuerit ex aqua et spiritu sancto non potest 
-      in<lb ed="#V" n="54" break="no"/>trare in regnum celorum: quod si generaliter 
-      <lb ed="#V" n="55"/>Uerum est: non videntur esse vera superius 
-      po<lb ed="#V" n="56" break="no"/>sita. Sed illud intelligendum est de illis qui 
-      <!--00059.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>possunt et contennunt baptizari: vel ita 
-      intelligen<lb ed="#V" n="58" break="no"/>dum est: nisi quis renatus fuerit ex aqua et 
-      spi<lb ed="#V" n="59" break="no"/>ritu sancto: idest ex ea regeneratione que sit per 
-      <lb ed="#V" n="60"/>aquam et spiritum sanctum non saluabitur. Illa 
-      <lb ed="#V" n="61"/>autem regeneratio sit non tantum per baptismum: 
-      <lb ed="#V" n="62"/>sed etiam per penitentiam et sanguinem. Unde 
-      <lb ed="#V" n="63"/>auctoritas dicit: ideo apostolum pluraliter 
-      di<lb ed="#V" n="64" break="no"/>xisse fundamentum baptismatum: quia est 
-      baptis<lb ed="#V" n="65" break="no"/>mus in aqua: in sanguine: in penitentia. Hoc 
-      <lb ed="#V" n="66"/>autem non ideo dicit quod sacramentum baptismi fiat nisi 
-      <lb ed="#V" n="67"/>in aqua: sed quia ipsius virtus et sanctificatio 
-      da<lb ed="#V" n="68" break="no"/>tur non tantummodo per aquam: sed per 
-      sangui<lb ed="#V" n="69" break="no"/>nem et penitentiam: ratio enim id suadet. Si enim 
-      <lb ed="#V" n="70"/>non valentibus credere paruulis sufficit 
-      baptis<lb ed="#V" n="71" break="no"/>mus: multo magis sufficit fides adultis 
-      volen<lb ed="#V" n="72" break="no"/>tibus et non volentibus baptizari. Unde Aug. 
-      <lb ed="#V" n="73"/>queris quid sit maius: fides an aqua: non dubito 
-      <lb ed="#V" n="74"/>qun respondeam fides. Si ergo quod minus est 
-      san<lb ed="#V" n="75" break="no"/>ctificare potest: nonne quod maius est id est fides de qua 
-      <lb ed="#V" n="76"/>christus ait. Qui crediderit in me est si mortuus 
-      fue<lb ed="#V" n="77" break="no"/>rit viuet. Sed dicunt aliqui nullum adultum in 
-      <lb ed="#V" n="78"/>christum credere: vel charitatem habere sine baptismo 
-      <lb ed="#V" n="79"/>nisi sanguinem fundat pro domino: subdita 
-      introdu<lb ed="#V" n="80" break="no"/>centes testimonia. Aug. ait. Ex illo tempore quo 
-      sal<lb ed="#V" n="81" break="no"/>uator dixit: nisi quis renatus fuerit et c. absque 
-      sa<lb ed="#V" n="82" break="no"/>cramento baptismi preter eos qui in ecclesia 
-      san<lb ed="#V" n="83" break="no"/>guinem fundunt aliquis vitam eternam accipere 
-      <lb ed="#V" n="84"/>non potest. Item nullum cathecuminum quamuis in 
-      <lb ed="#V" n="85"/>bonis operibus defunctum vitam eternam hebere 
-      <lb ed="#V" n="86"/>credimus: excepto martyrio: vbi tota sacramenta 
-      <lb ed="#V" n="87"/>baptismi complentur. Item baptizatis iter tantum 
-      <lb ed="#V" n="88"/>salutis esse credimus. Sed quod in his minus 
-      <lb ed="#V" n="89"/>dixit in aliis capitulis suprapositis suppleuit. 
-      <lb ed="#V" n="90"/>Et ideo hec sic intelligenda sunt: vt illi soli 
-      ha<lb ed="#V" n="91" break="no"/>bentes tempus baptizandi excipiantur: si enim 
-      <lb ed="#V" n="92"/>aliquis habens fidem et charitatem voluerit 
-      bapti<lb ed="#V" n="93" break="no"/>gari et non valet neceffitate preuentus: supplet 
-      <lb ed="#V" n="94"/>omnipotentis dignitas quod sacramento 
-      de<lb ed="#V" n="95" break="no"/>fuerat. Dum enim soluere potest nisi foluat 
-      te<lb ed="#V" n="96" break="no"/>netur: sed cum iam non potest et tamen vult: non 
-      impu<lb ed="#V" n="97" break="no"/>tat ei deus: qui suam potentiam sacramentis non 
-      al<lb ed="#V" n="98" break="no"/>ligauit. Quod vero inuisibilis sanctificatio sine 
-      visibili<lb ed="#V" n="99" break="no"/>sacramento quibusdam insit: aperte Aug. tradit super 
-      <lb ed="#V" n="100"/>leuiticum dicens. Inuisibilem sanctificationem 
-      <lb ed="#V" n="101"/>quibusdam affuisse et profuisse sine vsibilibus sacramentius. 
-      <lb ed="#V" n="102"/>Uisibilem vero sanctificationem que sit sacramento 
-      visi<lb ed="#V" n="103" break="no"/>bili: sine inuisibili posse adesse: no posse prodesse: 
-      <lb ed="#V" n="104"/>nec tamen visibile sacramentum: ideo contennendum 
-      <lb ed="#V" n="105"/>est: quia contemptor eius inuisibiliter sanctificari 
-      <lb ed="#V" n="106"/>non potest. Hinc Cornelius et qui cum eo erant 
-      <lb ed="#V" n="107"/>iam spiritu sanctificati baptizati sunt. Nec 
-      su<lb ed="#V" n="108" break="no"/>perflua iudicanda est sanctificatio visibilis: quia 
-      <lb ed="#V" n="109"/>inuisibilis precessit. Sine visibili ergo 
-      inuisibi<lb ed="#V" n="110" break="no"/>lis sanctificatio esse potest et prodesse: visibilis 
-      <lb ed="#V" n="111"/>autem que sit sacramento tenus sine inuisibili 
-      <lb ed="#V" n="112"/>prodesse non potest: cum illa sit omnis illius veritas. 
-      <!--00060.xml-->
-      <pb ed="#V" n="16-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>Symoni mago visibilis baptisimus non profuit: quia 
-      <lb ed="#V" n="2"/>iuisibiliter non affuit. Sed quibus inuisibilis affuit: 
-      <lb ed="#V" n="3"/>profuit. Nec tantum valet fides aliena puulo quantum 
-      <lb ed="#V" n="4"/>propostia adulto. Paruulis enim non sufficit fides 
-      ec<lb ed="#V" n="5" break="no"/>clesie sine sacramentnto: qui si absque baptismo fuerint 
-      <lb ed="#V" n="6"/>defuncti est cum deferuntur ad baptismum damnabum 
-      <lb ed="#V" n="7"/>tur sicut mltis sanctorum auctoritatibus comprobatur. 
-      <lb ed="#V" n="8"/>Ad quod hoc vnum sufficiat. Aug. ait. Firmissime 
-      <lb ed="#V" n="9"/>tene peruulos qui vel in vteris matrum viuere 
-      inci<lb ed="#V" n="10" break="no"/>piunt: et ibi moriuntur: vel de matribus nati: sine sacramento 
-      <lb ed="#V" n="11"/>baptismi de hoc seculo transeunt: eterno 
-      suppli<lb ed="#V" n="12" break="no"/>cio puniendos: quia et si proprie actionis peccata non 
-      <lb ed="#V" n="13"/>habuerunt: originale tamen peccatum traxerunt 
-      carnali<lb ed="#V" n="14" break="no"/>conceptione. Et sicut peruuli qui sine baptismo 
-      mo<lb ed="#V" n="15" break="no"/>riuntur infidelium ascribuntur numero: ita qui 
-      bapti<lb ed="#V" n="16" break="no"/>3antur fideles dicuntur. Qui a fidelium consortio non 
-      <lb ed="#V" n="17"/>separantur: cum orat ecclesia pro fidelibus defunctis. 
-      <lb ed="#V" n="18"/>Fideles ergo sunt non propter virtutem: sed fidei sacramentum. 
-      <lb ed="#V" n="19"/>Unde Aug. Paruulum et si nondum fides illa que 
-      <lb ed="#V" n="20"/>est in credentium voluntate consistit: iam tamen fidei ipsius 
-      <lb ed="#V" n="21"/>secramentum id est baptismus: fidelem facit: sicut 
-      credere<lb ed="#V" n="22" break="no"/>respondetur: ita est fidelis vocatur non rem ipsam 
-      meo<lb ed="#V" n="23" break="no"/>te annuendo: sed ipsus rei percipiendo sacramentum. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e631">
-               <lb ed="#V" n="24"/>¶ Quid prosit baptismus his qui cum 
-      fide<lb ed="#V" n="25" break="no"/>accedunt. 
-      <lb ed="#V" n="26"/>Solet etiam queri deillis quie iam 
-      <lb ed="#V" n="27"/>scinificati spiritum cum fide 
-      <lb ed="#V" n="28"/>et charitate ad baptismum accedunt: quid eis 
-      confe<lb ed="#V" n="29" break="no"/>rat baptismus: Nihil enim eis videtur praestare: cum per fidem et 
-      <lb ed="#V" n="30"/>contritionem iam remissis peccatis iustificati sunt. Ad 
-      <lb ed="#V" n="31"/>quod sane dici potest eos quidem per fidem et contritionem 
-      <lb ed="#V" n="32"/>iustisicatos id est a macla peccati purgatos: et a debito 
-      <lb ed="#V" n="33"/>eterne pene absolutos: tamen adhuc teneri 
-      satisfa<lb ed="#V" n="34" break="no"/>tione temporali qua penitentes ligantur in ecclia. Cum 
-      <lb ed="#V" n="35"/>autem baptismum percipiunt: et a peccatis si qua interi 
-      <lb ed="#V" n="36"/>post conuersionem contraxerunt mundantur: et ab 
-      exte<lb ed="#V" n="37" break="no"/>riori satisfactione absoluuntur: et adiutrix gratia 
-      <lb ed="#V" n="38"/>omnisque virtus in eo augetur: vt vere nouus 
-      homo<lb ed="#V" n="39" break="no"/>tunc dici possit. Fomes quoque peccati in eo 
-      am<lb ed="#V" n="40" break="no"/>plius debilitatur. Ideo Hiero. dicit quod fides 
-      <lb ed="#V" n="41"/>quae fideles facit in aquis baptismi datur: vel 
-      nu<lb ed="#V" n="42" break="no"/>tritur: quia non habenti aliquando ibi datur: et iam habenti vt 
-      <lb ed="#V" n="43"/>plenius hebeat datur. Sic et de aliis 
-      intelligen<lb ed="#V" n="44" break="no"/>dum est. Qui ergo mundus accedit ibi sit 
-      mun<lb ed="#V" n="45" break="no"/>dior: et omni habenti ibi amplius datur. Quod vero omnis 
-      <lb ed="#V" n="46"/>exterior satisfactio ibi relaxetur. Ambro. ostendit 
-      <lb ed="#V" n="47"/>super illum locum. Sine poenitentia sunt dona dei et 
-      vo<lb ed="#V" n="48" break="no"/>catio dicens. Gratia dei in baptismo non requirit 
-      <lb ed="#V" n="49"/>gemitum et planctum: vel aliquod opus: et omnia gratis 
-      con<lb ed="#V" n="50" break="no"/>donat. Quod quidem de exteriori gemitu vel 
-      plan<lb ed="#V" n="51" break="no"/>ctu accipiendum est. Nam sine interiore nemo 
-      adul<lb ed="#V" n="52" break="no"/>tus renouatur: sed exteriores satisfactiones et 
-      af<lb ed="#V" n="53" break="no"/>flictiones scilicet sordes penitentium ibi dimittuntur. 
-      <lb ed="#V" n="54"/>Miltum ergo confert baptismus est iam per fidem 
-      <lb ed="#V" n="55"/>iustificatio: quia accedens ad baptismum quasi 
-      ra<lb ed="#V" n="56" break="no"/>mus a columba portatur in arcam. Ante intus 
-      <!--00060.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>erat iudicio dei: sed nunc est iudicio ecclesie intus 
-      <lb ed="#V" n="58"/>est. Cum vero in baptimo peccatum deleatur: et 
-      satisfa<lb ed="#V" n="59" break="no"/>ctio exterior non imputetur: quaritur cur penalitas cui 
-      <lb ed="#V" n="60"/>pro peccato addicti sumus non tollatur: Hoc ideo 
-      tra<lb ed="#V" n="61" break="no"/>dunt fieri sancti: quia si a pena homines per baptismum 
-      <lb ed="#V" n="62"/>liberarentur ipsam putarent baptismi praecium: non 
-      <lb ed="#V" n="63"/>eternum regnum. Ideo soluto reatu peccati: 
-      <lb ed="#V" n="64"/>temporalis pena tantum manet vt illa vita studiosius quara 
-      <lb ed="#V" n="65"/>tur que erit a penis omnibus aliena. Ideo est 
-      ma<lb ed="#V" n="66" break="no"/>net vt sit fideli et certandi materia et vincendi 
-      oc<lb ed="#V" n="67" break="no"/>casio: qui non vinceret si non pugnaret: nec 
-      pugna<lb ed="#V" n="68" break="no"/>ret si in baptismo fieret immortalis. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e735">
-               <lb ed="#V" n="69"/>¶ Cuius rei baptismus quai datur iam iusto sit sacramentum. 
-      <lb ed="#V" n="70"/>Si queritur cuius rei baptismusille 
-      <lb ed="#V" n="71"/>sit sacramentum qui datur iam iusto 
-      <lb ed="#V" n="72"/>dic imus sacramentum esse et rei que praecessit id est remissionis 
-      <lb ed="#V" n="73"/>ante per fidem date: et remiffionis temporalis pene siue 
-      <lb ed="#V" n="74"/>peccati si habetur quod interim committitur: et nouitatis 
-      ac<lb ed="#V" n="75" break="no"/>omnis gratiae ibi praestite. Omnis etenim rei signum est 
-      <lb ed="#V" n="76"/>cuius causa est: nec mireris rem aliquando praecedere sacramentum 
-      <lb ed="#V" n="77"/>cum aliquando est longe post sequatur vt in illis 
-      qui<lb ed="#V" n="78" break="no"/>ficte accedunt: quibus cum post penituerint incipiet 
-      <lb ed="#V" n="79"/>baptismus prodesse: in quibus fuit baptismus sacramentum 
-      <lb ed="#V" n="80"/>huius sanctificationis quam penitendo habent. Sed 
-      si<lb ed="#V" n="81" break="no"/>nunquam peniterent: nec a sigmento recederent: cuius 
-      <lb ed="#V" n="82"/>rei sacramentum esset baptismus ab illis susceptus: Potest 
-      <lb ed="#V" n="83"/>dici rei quae ibi fieret: si eorum enormitas non impediret. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e770">
-               <lb ed="#V" n="84"/>¶ Si paruulus datur in baptismo gratia qua 
-      pos<lb ed="#V" n="85" break="no"/>sunt in maiori etate proficere. 
-      <lb ed="#V" n="86"/>Solet etiam quaeri si peruulis in 
-      baptis<lb ed="#V" n="87" break="no"/>mo datur gratia qua cum 
-      <lb ed="#V" n="88"/>tempus habuerint vtendi libero arbitrii possint 
-      velle<lb ed="#V" n="89" break="no"/>et currere. De adultis enim qui digne raecipiunt sacramentum 
-      <lb ed="#V" n="90"/>non ambigitur quin gratiam operantem et cooperantem 
-      <lb ed="#V" n="91"/>perceperint: quae in vacuum eis cedit si per liberum arbitrii 
-      <lb ed="#V" n="92"/>post mortaliter deliquarunt: qui merito peccati gratiam 
-      <lb ed="#V" n="93"/>appositam perdunt. Unde dicuntur contumeliam spiritui 
-      sanctio<lb ed="#V" n="94" break="no"/>facere: et ipsum a se fugare. De peruulis vero qui nondum 
-      <lb ed="#V" n="95"/>ratione vtuntur quaestio est: an in baptismo receperint 
-      <lb ed="#V" n="96"/>gratiam qua ad maiorem venientes etatem possint 
-      <lb ed="#V" n="97"/>velle et operari bonum. Uidetur quod non receperit: quia gratia 
-      <lb ed="#V" n="98"/>illa charitas est: et fides quae voluntatem praeparat et 
-      <lb ed="#V" n="99"/>adiuuat. Sed quis dixerit eos accepisse fidem et 
-      <lb ed="#V" n="100"/>charitatem: Si vero gratiam non receperint qua bene 
-      <lb ed="#V" n="101"/>operari possint cum fuerit adulti: non ergo sufficit eis in 
-      <lb ed="#V" n="102"/>hstatum gratia in baptis. data: nec per illam possunt modo boni 
-      <lb ed="#V" n="103"/>esse nisi alia addatur: quae si non addatur: non est ex eorum 
-      <lb ed="#V" n="104"/>culpa: quia iustificati sunt a peccato. Quidam 
-      pu<lb ed="#V" n="105" break="no"/>tant gratiam operantem et cooperantem cunctis peruulis 
-      <lb ed="#V" n="106"/>in baptismo dari in munere non in vsu: vt cum ad 
-      <lb ed="#V" n="107"/>maiorem venerint etatem ex munere sortiantur 
-      <lb ed="#V" n="108"/>vsum: nisi per liberum arbitrium vsum muneris 
-      extin<lb ed="#V" n="109" break="no"/>guant peccando: et ita ex culpa eorum est non 
-      ex<lb ed="#V" n="110" break="no"/>defectu gratiae quod mali siunt: qui ex dei munere 
-      va<lb ed="#V" n="111" break="no"/>lentes habere vsum bonum: per liberum arbitrium 
-      <lb ed="#V" n="112"/>renuerunt: et vsum prauum elegerunt. 
-      <!--00061.xml-->
-      <pb ed="#V" n="17-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>Quartus 
-      <lb ed="#V" n="2"/>SUperius determinauit magister de 
-      ba<lb ed="#V" n="3" break="no"/>ptismo quantum ad ipsum 
-      sa<lb ed="#V" n="4" break="no"/>cramentum secundum se: hic determinat de ipso 
-      quan<lb ed="#V" n="5" break="no"/>tum ad suscipientes: et diuiditur in duas partes. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e853">
-               <lb ed="#V" n="6"/>¶ Primo ponit diuersos modos suscipiendi baptismum. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e859">
-               <lb ed="#V" n="7"/>¶ Secundo determinat de qualibet. ibi. Sacramentum etc. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e864">
-               <lb ed="#V" n="8"/>¶ Et ista in duas.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e869">
-      ¶ Primo determinat de diuersis 
-      mo<lb ed="#V" n="9" break="no"/>dis suscipiendi baptismum.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e874">
-      ¶ Secundo de effectu eius in 
-      <lb ed="#V" n="10"/>suscipientibus ibi. Solet queri.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e879">
-      ¶ Prima in tres.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e881">
-      ¶ 
-      Pri<lb ed="#V" n="11" break="no"/>mo determinat de illis qui suscipiunt sacramentum et rem. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e887">
-               <lb ed="#V" n="12"/>¶ Secundo de illis qui suscipiunt sacramentum et non rem. ibi. 
-      <lb ed="#V" n="13"/>¶Qui vero sine side. Tertio de illis qui suscipiunt rem: et 
-      <lb ed="#V" n="14"/>non sacramentum. ibi. Sunt et alii.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e896">
-      ¶ Et ista in 2.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e898">
-      ¶ Primo 
-      <lb ed="#V" n="15"/>determinat veritatem
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e903">
-      ¶ Secundo remouet 
-      contrarieta<lb ed="#V" n="16" break="no"/>tem. ibi. His autem.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e908">
-      ¶ Illa pars que ibi incipit. 
-      So<lb ed="#V" n="17" break="no"/>let queri diuiditur in duas.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e913">
-      ¶ Primo determinat de 
-      effec<lb ed="#V" n="18" break="no"/>ctu baptismi in adultis.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e919">
-      ¶ Secundo in peruulis. ibi. 
-      So<lb ed="#V" n="19" break="no"/>let etiam.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e924">
-      ¶ Prima in 2.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e926">
-      ¶ Primo determinat de 
-      ef<lb ed="#V" n="20" break="no"/>fectu.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e931">
-      ¶ Secundo de significatione ibi. Si queritur. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e933">
-               <lb ed="#V" n="21"/>¶ Distinctio. IIII. 
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e938">
-               <lb ed="#V" n="22"/>Circa hanc distin. querendum est 
-      prin<lb ed="#V" n="23" break="no"/>cipaliter de quatuor.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e946">
-      ¶ 
-      Pri<lb ed="#V" n="24" break="no"/>mo de diuersitate suscipientium baptisium.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e951">
-      ¶ 
-      Se<lb ed="#V" n="25" break="no"/>cundo de diuersitate baptizantium.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e956">
-      ¶ Tertio de 
-      <lb ed="#V" n="26"/>diuersitate effectuum.
-   </p>
-            <p xml:id="kzz7yh-k10786-d1e961">
-      ¶ Quarto proponentur 
-      <lb ed="#V" n="27"/>ailqui casus de susceptione baptismi. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="17-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k10786"><!-- l4d4prae -->
+        <head xml:id="kzz7yh-k10786-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-k10786-d1e103">
+          <lb ed="#V" n="25"/>¶ Quod alii suscipiunt sacramentum et rem. Alii 
+          <lb ed="#V" n="26"/>sacramentum et non rem. Alii rem et non 
+          sacra<lb ed="#V" n="27" break="no"/>mentum. Distintio IIII.
+          </p>
+          <p xml:id="kzz7yh-k10786-d1e112">
+          <lb ed="#V" n="28"/>HIc dicendum est 
+          <lb ed="#V" n="29"/>aliquos suscipere sacramentum et rem 
+          sacra<lb ed="#V" n="30" break="no"/>menti: aliquos sacramentum et non rem: 
+          ali<lb ed="#V" n="31" break="no"/>quos rem et non sacramentum. Sacramentum 
+          <lb ed="#V" n="32"/>et rem simul suscipiunt omnes peruuli qui in baptismo 
+          <lb ed="#V" n="33"/>ab originali mundantur peccato. Quamuis quidam 
+          <lb ed="#V" n="34"/>diffiteantur illis qui perituri sunt peruulis in 
+          ba<lb ed="#V" n="35" break="no"/>ptismo dimitti peccata: innitentes illi verbo aug. 
+          <lb ed="#V" n="36"/>Sacramenta in solis electis efficiunt quod 
+          figu<lb ed="#V" n="37" break="no"/>rant: non intelligentes illud ita esse accipiendum: 
+          <lb ed="#V" n="38"/>quia cum in aliis efficiant sacramenta remissionem non hoc 
+          <lb ed="#V" n="39"/>eis faciunt ad salutem: sed solis electis. Nam quod 
+          <lb ed="#V" n="40"/>omnibus peruulis in baptismo remittatur peccatum per 
+          ba<lb ed="#V" n="41" break="no"/>ptisimum Aug. euidenter dicit. A peruulo inquit 
+          re<lb ed="#V" n="42" break="no"/>center nato vsque ad decrepitum senem sicut nullus 
+          <lb ed="#V" n="43"/>prohibetur a baptismo: ita nullus est qui non 
+          pec<lb ed="#V" n="44" break="no"/>cato moriatur in baptismo. Sed peruuli tantum origina 
+          <lb ed="#V" n="45"/>li: maiores vero est omnibus que male viuendo 
+          addide<lb ed="#V" n="46" break="no"/>runt ad illud: nisi enormitas vite impediat id est fictio. 
+          <lb ed="#V" n="47"/>adulti vero qui cum fide baptizantur: secramentum et rem suscipiunt. 
+          </p>
+          <p xml:id="kzz7yh-k10786-d1e158">
+          <lb ed="#V" n="48"/>¶ De ficte accedentibus. 
+          <lb ed="#V" n="49"/>Qui vero sine fide vel ficte accedunt 
+          <lb ed="#V" n="50"/>sacramentum non rem suscipiunt. Unde 
+          <lb ed="#V" n="51"/>Hiero. Sunt lauacra gentilium hereticorum: sed non 
+          <lb ed="#V" n="52"/>lauant ad salutem. In ecclsia etiam qui non plena 
+          fide<lb ed="#V" n="53" break="no"/>accipiunt baptisma: non spicitum sed aquam suscipiunt. 
+          <lb ed="#V" n="54"/>Aug. est ait. Iudeis omnibus communia erant scramenta 
+          <lb ed="#V" n="55"/>sed non communis omnibus erat gratia que est virtus scramentorum. 
+          <lb ed="#V" n="56"/>Ita et nunc communis est baptismus omnibus baptizatis 
+          <lb ed="#V" n="57"/>sed non virtus baptismi id est ipsa gratia. Item omnis qui iam 
+          <lb ed="#V" n="58"/>sue voluntatis arbiter constitutus est cum accedit 
+          <lb ed="#V" n="59"/>ad sacramentum fidelium: nisi peniteat eum veteris vite 
+          <!-\-00058.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="60"/>nouam non potest inchoare. Ab hac poenitentia cum 
+          bapti<lb ed="#V" n="61" break="no"/>zantur soli peruuli immunes sunt. His aliisque 
+          testi<lb ed="#V" n="62" break="no"/>moniis aperte ostenditur adultis sine fide et poesistentia vera 
+          <lb ed="#V" n="63"/>in baptismo non conferri gratiam remissionis: quia nec 
+          <lb ed="#V" n="64"/>peruulis sine fide aliena qui propriam hebere nequaunt 
+          <lb ed="#V" n="65"/>datur in baptismo remissio. Siquis ergo ficte 
+          ac<lb ed="#V" n="66" break="no"/>cedit non habens veram cordis contritonem sacramentum 
+          si<lb ed="#V" n="67" break="no"/>ne re accipit. Uidetur tamen Aug. dicere quod est ficte 
+          <lb ed="#V" n="68"/>accidenti qui est habet odium fermum in ipso momento 
+          <lb ed="#V" n="69"/>quo baptizatur omnia condonentur: et post baptismum 
+          <lb ed="#V" n="70"/>mox redeant. Sed non hmo asserendo dicit immo hanc 
+          <lb ed="#V" n="71"/>opionem et praemissam sententiam conferendo. ait enim sic. His 
+          <lb ed="#V" n="72"/>qui ficto cord baptizantur aut peccata nullatenus dimit 
+          <lb ed="#V" n="73"/>tuntur: quia spiritus sanctus disciplie effugiet fictum: autem in ipso 
+          <lb ed="#V" n="74"/>temporis puncto per vim scramenti dimissa: iterum per fictionem 
+          repli<lb ed="#V" n="75" break="no"/>caustar: vt est illud verum sit. Quotquot in christo 
+          baptizati<lb ed="#V" n="76" break="no"/>estis etc. Etiam illud. Spiritus sanctus discipline 
+          ef<lb ed="#V" n="77" break="no"/>fugiet fictum vt induat eum christum sanctitas 
+          ba<lb ed="#V" n="78" break="no"/>ptismi: exuat eum christum pernities fictionis. Nam 
+          re<lb ed="#V" n="79" break="no"/>dire dimissa peccata vbi fatrua charitas non est: 
+          <lb ed="#V" n="80"/>aperte dominus docet etiam in illo seruo: a quo dominus 
+          di<lb ed="#V" n="81" break="no"/>missum debitum pecetit: quia ille conseruo dimittere 
+          <lb ed="#V" n="82"/>noluit. Sic non impeditur baptismi gratia quo 
+          mi<lb ed="#V" n="83" break="no"/>nus omnia peccata dimittantur: est si fatermum odium in eius 
+          <lb ed="#V" n="84"/>cui dimittantur animo perseuerat. Soluitur enim 
+          hester<lb ed="#V" n="85" break="no"/>nus dines et quicquid superest: et soluitur est ipsa hora: 
+          mo<lb ed="#V" n="86" break="no"/>mentumque ante baptismum: et in baptismo. 
+          Dein<lb ed="#V" n="87" break="no"/>ceps autem continuo reus incipit esse non solum 
+          consequen<lb ed="#V" n="88" break="no"/>tium: sed est praeteritorum dierum: horarum: momentorum: 
+          re<lb ed="#V" n="89" break="no"/>deuntibus omnibus que dimissa sunt. Hoc autem vt 
+          praedi<lb ed="#V" n="90" break="no"/>ximus non sub assertione dixit: quod ostenditur ex eo quod 
+          <lb ed="#V" n="91"/>ait in eodem libro sic. Si ad baptismum fictus 
+          acce<lb ed="#V" n="92" break="no"/>dit dimissa sunt ei peccata aut non sunt dimissa: 
+          <lb ed="#V" n="93"/>eligant quod voluerit. Ecce aperte cernis si tamen 
+          inten<lb ed="#V" n="94" break="no"/>dis id dixisse Aug. non asserendo: sed querendo t 
+          <lb ed="#V" n="95"/>aliorum opinionem referendo. Idem enim ait. Tunc 
+          va<lb ed="#V" n="96" break="no"/>lere incipit ad salutem baptismus cum illa fictio 
+          <lb ed="#V" n="97"/>veraci confessione recesserit. qua corde in malitia 
+          <lb ed="#V" n="98"/>perseuerante peccatorum ablutionem non sinebat fieri. Non 
+          <lb ed="#V" n="99"/>ergo ficte accedenti peccata dimittuntur. 
+          </p>
+          <p xml:id="kzz7yh-k10786-d1e278">
+          <lb ed="#V" n="100"/>¶ Quomodo intelligatur illud quotquot in christo 
+          ba<lb ed="#V" n="101" break="no"/>ptizati estis christum induistis. 
+          <lb ed="#V" n="102"/>Queritur ergo qumod illud accipiatur. 
+          <lb ed="#V" n="103"/>Quotquot in christo 
+          baptizati<lb ed="#V" n="104" break="no"/>estis christum induistis: Potest dici quod qui in christo id est in 
+          <lb ed="#V" n="105"/>christi conformitate baptizantur scilicet vt moriantur 
+          vetusta<lb ed="#V" n="106" break="no"/>ti peccati. sicut christus vetustati pene: induunt christum 
+          <lb ed="#V" n="107"/>quem per gratiam inhabitantem habent. Potest et aliter 
+          sol<lb ed="#V" n="108" break="no"/>ui. Duobus enim modis christum induere dicimur: vel 
+          <lb ed="#V" n="109"/>assumptione scramenti: vel rei perceptione. Unde Aug. 
+          In<lb ed="#V" n="110" break="no"/>duunt homines christum aliquando vsque ad scramenti perceptionem: 
+          <lb ed="#V" n="111"/>aliquando vsque ad vite sanctificationem. atque illud 
+          pri<lb ed="#V" n="112" break="no"/>munm bonis et malis potest esse commune: hoc autem est proprium 
+          <lb ed="#V" n="113"/>bonorum et piorum. Omnes ergo qui in christi nomine 
+          bapti<lb ed="#V" n="114" break="no"/>zantur christum induunt vel secundum sacramenti perceptionem: 
+          <lb ed="#V" n="115"/>vel secundum vite sanctificationem.
+          </p>
+          <p xml:id="kzz7yh-k10786-d1e316">
+          <!-\-00059.xml-\->
+          <pb ed="#V" n="16-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>¶ De illis qui suscipiunt rem et non sacramentum. 
+          <lb ed="#V" n="2"/>3unt et alii vt supra posuimus quid 
+          su<lb ed="#V" n="3" break="no"/>scipiunt rem et non 
+          sacra<lb ed="#V" n="4" break="no"/>mentum Qui enim effundunt sanguinem pro 
+          no<lb ed="#V" n="5" break="no"/>mine Iesu: et si non sacramentum: rem tamen 
+          accipi<lb ed="#V" n="6" break="no"/>unt. Unde Aug. Quicumque non percepto 
+          regene<lb ed="#V" n="7" break="no"/>rationis lauacro pro confessione christi moriuntur: 
+          <lb ed="#V" n="8"/>tantum eis valet ad dimittenda peccata: quantum si 
+          ab<lb ed="#V" n="9" break="no"/>luerentur sacro fonte baptismi. Audistis quod 
+          pas<lb ed="#V" n="10" break="no"/>sio pro christi nomine suscepta supplet vicem baptismi. 
+          <lb ed="#V" n="11"/>Nec tantum passio vicem baptismi implet: sed etiam 
+          <lb ed="#V" n="12"/>fides et contritio vbi necessitas excludit 
+          sacra<lb ed="#V" n="13" break="no"/>mentum: sicut aperte docet Augusti. dicens. 
+          <lb ed="#V" n="14"/>Baptismi vicem aliquando implere 
+          passio<lb ed="#V" n="15" break="no"/>nem: de latrone illo cui non baptizato dictum est: 
+          <lb ed="#V" n="16"/>hodie mecum eris in paradiso: beatus Cypria 
+          <lb ed="#V" n="17"/>nus non leue documentum assumit. Quod 
+          eti<lb ed="#V" n="18" break="no"/>am atque etiam ego considerans inuenio: non 
+          <lb ed="#V" n="19"/>tantum passionem pro nomine christi id quod 
+          baptis<lb ed="#V" n="20" break="no"/>mo deerat posse supplere: sed etiam fidem 
+          con<lb ed="#V" n="21" break="no"/>uersionemque cordis: si forte ad celebrandum 
+          my<lb ed="#V" n="22" break="no"/>sterium baptismi in angustiis temporum 
+          suc<lb ed="#V" n="23" break="no"/>curri non potest. Neque enim ille latro pro 
+          no<lb ed="#V" n="24" break="no"/>mine christi crucifixus est: sed pro meritis 
+          faci<lb ed="#V" n="25" break="no"/>norum suorum nec quia credidit passus est: sed dum 
+          <lb ed="#V" n="26"/>patitur credit. Quantum ergo valeat sine visibi 
+          <lb ed="#V" n="27"/>lis baptismi sacramento: quod apostolus ait. Corde 
+          <lb ed="#V" n="28"/>creditur ad iusticiam: ore autem confessio sit ad salutem: 
+          <lb ed="#V" n="29"/>in illo latrone declaratum est: sed tunc impletur 
+          inui<lb ed="#V" n="30" break="no"/>sibiliter: cum mysterium baptismi non contemptus 
+          <lb ed="#V" n="31"/>religionis sed articulus necessitatis excludit. 
+          <lb ed="#V" n="32"/>Et baptismus quidem potest esse vbi conuersio cordis 
+          <lb ed="#V" n="33"/>defuerit: conuersiono autem cordi potest quidem inesse non 
+          <lb ed="#V" n="34"/>percepto baptismo: sed contempto baptismo non potest 
+          <lb ed="#V" n="35"/>nec vllo modo dicenda est conuersio cordis ad deum 
+          <lb ed="#V" n="36"/>cum dei sacramentum contennitur. Ecce hic hebes non 
+          so<lb ed="#V" n="37" break="no"/>lum passionem: sed est fidem et contritionem 
+          conferre<lb ed="#V" n="38" break="no"/>remissionem vbi non contennitur sacramentum: vt in latrione 
+          <lb ed="#V" n="39"/>illo ostenditur qui non per passionem: sed per fidem 
+          sal<lb ed="#V" n="40" break="no"/>uatus est sine baptismo. Sed dicunt quidam hoc 
+          <lb ed="#V" n="41"/>argumentum retractasse Augu. Retractauit 
+          <lb ed="#V" n="42"/>quidem exemplum: sed sententiam non. Ait enim Cum 
+          dice<lb ed="#V" n="43" break="no"/>rem vicem baptismi posse habere passionem: non 
+          sa<lb ed="#V" n="44" break="no"/>tis idoueum posui illius latronis exemplum: quia vtrum 
+          <lb ed="#V" n="45"/>non fuerit baptizatus incertum est. Constat ergo 
+          <lb ed="#V" n="46"/>sine baptismo aliquis iustisicari et saluari. Unde 
+          <lb ed="#V" n="47"/>amb. de valentiniano. Uentrem meum doleo vt 
+          pro<lb ed="#V" n="48" break="no"/>phetico vtar eloquo quia quem regeneratus eram amisi 
+          <lb ed="#V" n="49"/>veruntmen gratiam ille quam poposcit non amisit. 
+          </p>
+          <p xml:id="kzz7yh-k10786-d1e431">
+          <lb ed="#V" n="50"/>¶ Que videntur obuiare predictis. 
+          <lb ed="#V" n="51"/>His autem viletur obuiare quod 
+          <lb ed="#V" n="52"/>dominus dicit. Nisi quis 
+          re<lb ed="#V" n="53" break="no"/>natus fuerit ex aqua et spiritu sancto non potest 
+          in<lb ed="#V" n="54" break="no"/>trare in regnum celorum: quod si generaliter 
+          <lb ed="#V" n="55"/>Uerum est: non videntur esse vera superius 
+          po<lb ed="#V" n="56" break="no"/>sita. Sed illud intelligendum est de illis qui 
+          <!-\-00059.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>possunt et contennunt baptizari: vel ita 
+          intelligen<lb ed="#V" n="58" break="no"/>dum est: nisi quis renatus fuerit ex aqua et 
+          spi<lb ed="#V" n="59" break="no"/>ritu sancto: idest ex ea regeneratione que sit per 
+          <lb ed="#V" n="60"/>aquam et spiritum sanctum non saluabitur. Illa 
+          <lb ed="#V" n="61"/>autem regeneratio sit non tantum per baptismum: 
+          <lb ed="#V" n="62"/>sed etiam per penitentiam et sanguinem. Unde 
+          <lb ed="#V" n="63"/>auctoritas dicit: ideo apostolum pluraliter 
+          di<lb ed="#V" n="64" break="no"/>xisse fundamentum baptismatum: quia est 
+          baptis<lb ed="#V" n="65" break="no"/>mus in aqua: in sanguine: in penitentia. Hoc 
+          <lb ed="#V" n="66"/>autem non ideo dicit quod sacramentum baptismi fiat nisi 
+          <lb ed="#V" n="67"/>in aqua: sed quia ipsius virtus et sanctificatio 
+          da<lb ed="#V" n="68" break="no"/>tur non tantummodo per aquam: sed per 
+          sangui<lb ed="#V" n="69" break="no"/>nem et penitentiam: ratio enim id suadet. Si enim 
+          <lb ed="#V" n="70"/>non valentibus credere paruulis sufficit 
+          baptis<lb ed="#V" n="71" break="no"/>mus: multo magis sufficit fides adultis 
+          volen<lb ed="#V" n="72" break="no"/>tibus et non volentibus baptizari. Unde Aug. 
+          <lb ed="#V" n="73"/>queris quid sit maius: fides an aqua: non dubito 
+          <lb ed="#V" n="74"/>qun respondeam fides. Si ergo quod minus est 
+          san<lb ed="#V" n="75" break="no"/>ctificare potest: nonne quod maius est id est fides de qua 
+          <lb ed="#V" n="76"/>christus ait. Qui crediderit in me est si mortuus 
+          fue<lb ed="#V" n="77" break="no"/>rit viuet. Sed dicunt aliqui nullum adultum in 
+          <lb ed="#V" n="78"/>christum credere: vel charitatem habere sine baptismo 
+          <lb ed="#V" n="79"/>nisi sanguinem fundat pro domino: subdita 
+          introdu<lb ed="#V" n="80" break="no"/>centes testimonia. Aug. ait. Ex illo tempore quo 
+          sal<lb ed="#V" n="81" break="no"/>uator dixit: nisi quis renatus fuerit et c. absque 
+          sa<lb ed="#V" n="82" break="no"/>cramento baptismi preter eos qui in ecclesia 
+          san<lb ed="#V" n="83" break="no"/>guinem fundunt aliquis vitam eternam accipere 
+          <lb ed="#V" n="84"/>non potest. Item nullum cathecuminum quamuis in 
+          <lb ed="#V" n="85"/>bonis operibus defunctum vitam eternam hebere 
+          <lb ed="#V" n="86"/>credimus: excepto martyrio: vbi tota sacramenta 
+          <lb ed="#V" n="87"/>baptismi complentur. Item baptizatis iter tantum 
+          <lb ed="#V" n="88"/>salutis esse credimus. Sed quod in his minus 
+          <lb ed="#V" n="89"/>dixit in aliis capitulis suprapositis suppleuit. 
+          <lb ed="#V" n="90"/>Et ideo hec sic intelligenda sunt: vt illi soli 
+          ha<lb ed="#V" n="91" break="no"/>bentes tempus baptizandi excipiantur: si enim 
+          <lb ed="#V" n="92"/>aliquis habens fidem et charitatem voluerit 
+          bapti<lb ed="#V" n="93" break="no"/>gari et non valet neceffitate preuentus: supplet 
+          <lb ed="#V" n="94"/>omnipotentis dignitas quod sacramento 
+          de<lb ed="#V" n="95" break="no"/>fuerat. Dum enim soluere potest nisi foluat 
+          te<lb ed="#V" n="96" break="no"/>netur: sed cum iam non potest et tamen vult: non 
+          impu<lb ed="#V" n="97" break="no"/>tat ei deus: qui suam potentiam sacramentis non 
+          al<lb ed="#V" n="98" break="no"/>ligauit. Quod vero inuisibilis sanctificatio sine 
+          visibili<lb ed="#V" n="99" break="no"/>sacramento quibusdam insit: aperte Aug. tradit super 
+          <lb ed="#V" n="100"/>leuiticum dicens. Inuisibilem sanctificationem 
+          <lb ed="#V" n="101"/>quibusdam affuisse et profuisse sine vsibilibus sacramentius. 
+          <lb ed="#V" n="102"/>Uisibilem vero sanctificationem que sit sacramento 
+          visi<lb ed="#V" n="103" break="no"/>bili: sine inuisibili posse adesse: no posse prodesse: 
+          <lb ed="#V" n="104"/>nec tamen visibile sacramentum: ideo contennendum 
+          <lb ed="#V" n="105"/>est: quia contemptor eius inuisibiliter sanctificari 
+          <lb ed="#V" n="106"/>non potest. Hinc Cornelius et qui cum eo erant 
+          <lb ed="#V" n="107"/>iam spiritu sanctificati baptizati sunt. Nec 
+          su<lb ed="#V" n="108" break="no"/>perflua iudicanda est sanctificatio visibilis: quia 
+          <lb ed="#V" n="109"/>inuisibilis precessit. Sine visibili ergo 
+          inuisibi<lb ed="#V" n="110" break="no"/>lis sanctificatio esse potest et prodesse: visibilis 
+          <lb ed="#V" n="111"/>autem que sit sacramento tenus sine inuisibili 
+          <lb ed="#V" n="112"/>prodesse non potest: cum illa sit omnis illius veritas. 
+          <!-\-00060.xml-\->
+          <pb ed="#V" n="16-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Symoni mago visibilis baptisimus non profuit: quia 
+          <lb ed="#V" n="2"/>iuisibiliter non affuit. Sed quibus inuisibilis affuit: 
+          <lb ed="#V" n="3"/>profuit. Nec tantum valet fides aliena puulo quantum 
+          <lb ed="#V" n="4"/>propostia adulto. Paruulis enim non sufficit fides 
+          ec<lb ed="#V" n="5" break="no"/>clesie sine sacramentnto: qui si absque baptismo fuerint 
+          <lb ed="#V" n="6"/>defuncti est cum deferuntur ad baptismum damnabum 
+          <lb ed="#V" n="7"/>tur sicut mltis sanctorum auctoritatibus comprobatur. 
+          <lb ed="#V" n="8"/>Ad quod hoc vnum sufficiat. Aug. ait. Firmissime 
+          <lb ed="#V" n="9"/>tene peruulos qui vel in vteris matrum viuere 
+          inci<lb ed="#V" n="10" break="no"/>piunt: et ibi moriuntur: vel de matribus nati: sine sacramento 
+          <lb ed="#V" n="11"/>baptismi de hoc seculo transeunt: eterno 
+          suppli<lb ed="#V" n="12" break="no"/>cio puniendos: quia et si proprie actionis peccata non 
+          <lb ed="#V" n="13"/>habuerunt: originale tamen peccatum traxerunt 
+          carnali<lb ed="#V" n="14" break="no"/>conceptione. Et sicut peruuli qui sine baptismo 
+          mo<lb ed="#V" n="15" break="no"/>riuntur infidelium ascribuntur numero: ita qui 
+          bapti<lb ed="#V" n="16" break="no"/>3antur fideles dicuntur. Qui a fidelium consortio non 
+          <lb ed="#V" n="17"/>separantur: cum orat ecclesia pro fidelibus defunctis. 
+          <lb ed="#V" n="18"/>Fideles ergo sunt non propter virtutem: sed fidei sacramentum. 
+          <lb ed="#V" n="19"/>Unde Aug. Paruulum et si nondum fides illa que 
+          <lb ed="#V" n="20"/>est in credentium voluntate consistit: iam tamen fidei ipsius 
+          <lb ed="#V" n="21"/>secramentum id est baptismus: fidelem facit: sicut 
+          credere<lb ed="#V" n="22" break="no"/>respondetur: ita est fidelis vocatur non rem ipsam 
+          meo<lb ed="#V" n="23" break="no"/>te annuendo: sed ipsus rei percipiendo sacramentum. 
+          </p>
+          <p xml:id="kzz7yh-k10786-d1e631">
+          <lb ed="#V" n="24"/>¶ Quid prosit baptismus his qui cum 
+          fide<lb ed="#V" n="25" break="no"/>accedunt. 
+          <lb ed="#V" n="26"/>Solet etiam queri deillis quie iam 
+          <lb ed="#V" n="27"/>scinificati spiritum cum fide 
+          <lb ed="#V" n="28"/>et charitate ad baptismum accedunt: quid eis 
+          confe<lb ed="#V" n="29" break="no"/>rat baptismus: Nihil enim eis videtur praestare: cum per fidem et 
+          <lb ed="#V" n="30"/>contritionem iam remissis peccatis iustificati sunt. Ad 
+          <lb ed="#V" n="31"/>quod sane dici potest eos quidem per fidem et contritionem 
+          <lb ed="#V" n="32"/>iustisicatos id est a macla peccati purgatos: et a debito 
+          <lb ed="#V" n="33"/>eterne pene absolutos: tamen adhuc teneri 
+          satisfa<lb ed="#V" n="34" break="no"/>tione temporali qua penitentes ligantur in ecclia. Cum 
+          <lb ed="#V" n="35"/>autem baptismum percipiunt: et a peccatis si qua interi 
+          <lb ed="#V" n="36"/>post conuersionem contraxerunt mundantur: et ab 
+          exte<lb ed="#V" n="37" break="no"/>riori satisfactione absoluuntur: et adiutrix gratia 
+          <lb ed="#V" n="38"/>omnisque virtus in eo augetur: vt vere nouus 
+          homo<lb ed="#V" n="39" break="no"/>tunc dici possit. Fomes quoque peccati in eo 
+          am<lb ed="#V" n="40" break="no"/>plius debilitatur. Ideo Hiero. dicit quod fides 
+          <lb ed="#V" n="41"/>quae fideles facit in aquis baptismi datur: vel 
+          nu<lb ed="#V" n="42" break="no"/>tritur: quia non habenti aliquando ibi datur: et iam habenti vt 
+          <lb ed="#V" n="43"/>plenius hebeat datur. Sic et de aliis 
+          intelligen<lb ed="#V" n="44" break="no"/>dum est. Qui ergo mundus accedit ibi sit 
+          mun<lb ed="#V" n="45" break="no"/>dior: et omni habenti ibi amplius datur. Quod vero omnis 
+          <lb ed="#V" n="46"/>exterior satisfactio ibi relaxetur. Ambro. ostendit 
+          <lb ed="#V" n="47"/>super illum locum. Sine poenitentia sunt dona dei et 
+          vo<lb ed="#V" n="48" break="no"/>catio dicens. Gratia dei in baptismo non requirit 
+          <lb ed="#V" n="49"/>gemitum et planctum: vel aliquod opus: et omnia gratis 
+          con<lb ed="#V" n="50" break="no"/>donat. Quod quidem de exteriori gemitu vel 
+          plan<lb ed="#V" n="51" break="no"/>ctu accipiendum est. Nam sine interiore nemo 
+          adul<lb ed="#V" n="52" break="no"/>tus renouatur: sed exteriores satisfactiones et 
+          af<lb ed="#V" n="53" break="no"/>flictiones scilicet sordes penitentium ibi dimittuntur. 
+          <lb ed="#V" n="54"/>Miltum ergo confert baptismus est iam per fidem 
+          <lb ed="#V" n="55"/>iustificatio: quia accedens ad baptismum quasi 
+          ra<lb ed="#V" n="56" break="no"/>mus a columba portatur in arcam. Ante intus 
+          <!-\-00060.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>erat iudicio dei: sed nunc est iudicio ecclesie intus 
+          <lb ed="#V" n="58"/>est. Cum vero in baptimo peccatum deleatur: et 
+          satisfa<lb ed="#V" n="59" break="no"/>ctio exterior non imputetur: quaritur cur penalitas cui 
+          <lb ed="#V" n="60"/>pro peccato addicti sumus non tollatur: Hoc ideo 
+          tra<lb ed="#V" n="61" break="no"/>dunt fieri sancti: quia si a pena homines per baptismum 
+          <lb ed="#V" n="62"/>liberarentur ipsam putarent baptismi praecium: non 
+          <lb ed="#V" n="63"/>eternum regnum. Ideo soluto reatu peccati: 
+          <lb ed="#V" n="64"/>temporalis pena tantum manet vt illa vita studiosius quara 
+          <lb ed="#V" n="65"/>tur que erit a penis omnibus aliena. Ideo est 
+          ma<lb ed="#V" n="66" break="no"/>net vt sit fideli et certandi materia et vincendi 
+          oc<lb ed="#V" n="67" break="no"/>casio: qui non vinceret si non pugnaret: nec 
+          pugna<lb ed="#V" n="68" break="no"/>ret si in baptismo fieret immortalis. 
+          </p>
+          <p xml:id="kzz7yh-k10786-d1e735">
+          <lb ed="#V" n="69"/>¶ Cuius rei baptismus quai datur iam iusto sit sacramentum. 
+          <lb ed="#V" n="70"/>Si queritur cuius rei baptismusille 
+          <lb ed="#V" n="71"/>sit sacramentum qui datur iam iusto 
+          <lb ed="#V" n="72"/>dic imus sacramentum esse et rei que praecessit id est remissionis 
+          <lb ed="#V" n="73"/>ante per fidem date: et remiffionis temporalis pene siue 
+          <lb ed="#V" n="74"/>peccati si habetur quod interim committitur: et nouitatis 
+          ac<lb ed="#V" n="75" break="no"/>omnis gratiae ibi praestite. Omnis etenim rei signum est 
+          <lb ed="#V" n="76"/>cuius causa est: nec mireris rem aliquando praecedere sacramentum 
+          <lb ed="#V" n="77"/>cum aliquando est longe post sequatur vt in illis 
+          qui<lb ed="#V" n="78" break="no"/>ficte accedunt: quibus cum post penituerint incipiet 
+          <lb ed="#V" n="79"/>baptismus prodesse: in quibus fuit baptismus sacramentum 
+          <lb ed="#V" n="80"/>huius sanctificationis quam penitendo habent. Sed 
+          si<lb ed="#V" n="81" break="no"/>nunquam peniterent: nec a sigmento recederent: cuius 
+          <lb ed="#V" n="82"/>rei sacramentum esset baptismus ab illis susceptus: Potest 
+          <lb ed="#V" n="83"/>dici rei quae ibi fieret: si eorum enormitas non impediret. 
+          </p>
+          <p xml:id="kzz7yh-k10786-d1e770">
+          <lb ed="#V" n="84"/>¶ Si paruulus datur in baptismo gratia qua 
+          pos<lb ed="#V" n="85" break="no"/>sunt in maiori etate proficere. 
+          <lb ed="#V" n="86"/>Solet etiam quaeri si peruulis in 
+          baptis<lb ed="#V" n="87" break="no"/>mo datur gratia qua cum 
+          <lb ed="#V" n="88"/>tempus habuerint vtendi libero arbitrii possint 
+          velle<lb ed="#V" n="89" break="no"/>et currere. De adultis enim qui digne raecipiunt sacramentum 
+          <lb ed="#V" n="90"/>non ambigitur quin gratiam operantem et cooperantem 
+          <lb ed="#V" n="91"/>perceperint: quae in vacuum eis cedit si per liberum arbitrii 
+          <lb ed="#V" n="92"/>post mortaliter deliquarunt: qui merito peccati gratiam 
+          <lb ed="#V" n="93"/>appositam perdunt. Unde dicuntur contumeliam spiritui 
+          sanctio<lb ed="#V" n="94" break="no"/>facere: et ipsum a se fugare. De peruulis vero qui nondum 
+          <lb ed="#V" n="95"/>ratione vtuntur quaestio est: an in baptismo receperint 
+          <lb ed="#V" n="96"/>gratiam qua ad maiorem venientes etatem possint 
+          <lb ed="#V" n="97"/>velle et operari bonum. Uidetur quod non receperit: quia gratia 
+          <lb ed="#V" n="98"/>illa charitas est: et fides quae voluntatem praeparat et 
+          <lb ed="#V" n="99"/>adiuuat. Sed quis dixerit eos accepisse fidem et 
+          <lb ed="#V" n="100"/>charitatem: Si vero gratiam non receperint qua bene 
+          <lb ed="#V" n="101"/>operari possint cum fuerit adulti: non ergo sufficit eis in 
+          <lb ed="#V" n="102"/>hstatum gratia in baptis. data: nec per illam possunt modo boni 
+          <lb ed="#V" n="103"/>esse nisi alia addatur: quae si non addatur: non est ex eorum 
+          <lb ed="#V" n="104"/>culpa: quia iustificati sunt a peccato. Quidam 
+          pu<lb ed="#V" n="105" break="no"/>tant gratiam operantem et cooperantem cunctis peruulis 
+          <lb ed="#V" n="106"/>in baptismo dari in munere non in vsu: vt cum ad 
+          <lb ed="#V" n="107"/>maiorem venerint etatem ex munere sortiantur 
+          <lb ed="#V" n="108"/>vsum: nisi per liberum arbitrium vsum muneris 
+          extin<lb ed="#V" n="109" break="no"/>guant peccando: et ita ex culpa eorum est non 
+          ex<lb ed="#V" n="110" break="no"/>defectu gratiae quod mali siunt: qui ex dei munere 
+          va<lb ed="#V" n="111" break="no"/>lentes habere vsum bonum: per liberum arbitrium 
+          <lb ed="#V" n="112"/>renuerunt: et vsum prauum elegerunt.
+          </p>-->
+        <p xml:id="kzz7yh-k10786-d1e106">
+          <!--00061.xml-->
+          <pb ed="#V" n="17-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/><!-- line coord error -->
+          <lb ed="#V" n="2"/>SUperius determinauit magister de 
+          ba<lb ed="#V" n="3" break="no"/>ptismo quantum ad ipsum 
+          sa<lb ed="#V" n="4" break="no"/>cramentum secundum se: hic determinat de ipso 
+          quan<lb ed="#V" n="5" break="no"/>tum ad suscipientes: et diuiditur in duas partes. 
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e853">
+          <lb ed="#V" n="6"/>¶ Primo ponit diuersos modos suscipiendi baptismum. 
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e859">
+          <lb ed="#V" n="7"/>¶ Secundo determinat de qualibet. ibi. Sacramentum etc. 
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e864">
+          <lb ed="#V" n="8"/>¶ Et ista in duas.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e869">
+          ¶ Primo determinat de diuersis 
+          mo<lb ed="#V" n="9" break="no"/>dis suscipiendi baptismum.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e874">
+          ¶ Secundo de effectu eius in 
+          <lb ed="#V" n="10"/>suscipientibus ibi. Solet queri.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e879">
+          ¶ Prima in tres.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e881">
+          ¶ 
+          Pri<lb ed="#V" n="11" break="no"/>mo determinat de illis qui suscipiunt sacramentum et rem. 
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e887">
+          <lb ed="#V" n="12"/>¶ Secundo de illis qui suscipiunt sacramentum et non rem. ibi. 
+          <lb ed="#V" n="13"/>¶Qui vero sine side. Tertio de illis qui suscipiunt rem: et 
+          <lb ed="#V" n="14"/>non sacramentum. ibi. Sunt et alii.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e896">
+          ¶ Et ista in 2.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e898">
+          ¶ Primo 
+          <lb ed="#V" n="15"/>determinat veritatem
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e903">
+          ¶ Secundo remouet 
+          contrarieta<lb ed="#V" n="16" break="no"/>tem. ibi. His autem.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e908">
+          ¶ Illa pars que ibi incipit. 
+          So<lb ed="#V" n="17" break="no"/>let queri diuiditur in duas.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e913">
+          ¶ Primo determinat de 
+          effec<lb ed="#V" n="18" break="no"/>ctu baptismi in adultis.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e919">
+          ¶ Secundo in peruulis. ibi. 
+          So<lb ed="#V" n="19" break="no"/>let etiam.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e924">
+          ¶ Prima in 2.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e926">
+          ¶ Primo determinat de 
+          ef<lb ed="#V" n="20" break="no"/>fectu.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e931">
+          ¶ Secundo de significatione ibi. Si queritur. 
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e933">
+          <lb ed="#V" n="21"/>¶ Distinctio. IIII. 
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e938">
+          <lb ed="#V" n="22"/>Circa hanc distin. querendum est 
+          prin<lb ed="#V" n="23" break="no"/>cipaliter de quatuor.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e946">
+          ¶ 
+          Pri<lb ed="#V" n="24" break="no"/>mo de diuersitate suscipientium baptisium.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e951">
+          ¶ 
+          Se<lb ed="#V" n="25" break="no"/>cundo de diuersitate baptizantium.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e956">
+          ¶ Tertio de 
+          <lb ed="#V" n="26"/>diuersitate effectuum.
+        </p>
+        <p xml:id="kzz7yh-k10786-d1e961">
+          ¶ Quarto proponentur 
+          <lb ed="#V" n="27"/>ailqui casus de susceptione baptismi. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

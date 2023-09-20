@@ -1,383 +1,383 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="231-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k168021"><!-- l4d50prae -->
-            <head xml:id="kzz7yh-k168021-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-k168021-d1e103">
-               <lb ed="#V" n="28"/>¶ Si mali in inferno peccabunt Dinitio L 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e108">
-               <lb ed="#V" n="29"/>HIc oritur questio ext 
-      prinis<lb ed="#V" n="30" break="no"/>sis ducens 
-      origi<lb ed="#V" n="31" break="no"/>nem. Supra enim Aug. loquens de malis 
-      <lb ed="#V" n="32"/>in inferno damnatis: et bonis in celo 
-      glo<lb ed="#V" n="33" break="no"/>rificatis: dixit quod nec bonis voluntas: 
-      <lb ed="#V" n="34"/>nec malis facultas esse peccandi poterit. Et de 
-      <lb ed="#V" n="35"/>bonis quidem constat: sed de malis a quibus 
-      volunta<lb ed="#V" n="36" break="no"/>tem malam non remouet queritur: quomodo sit verum eos 
-      <lb ed="#V" n="37"/>non posse peccare: immo quomodo verum sit eos non 
-      pecca<lb ed="#V" n="38" break="no"/>re cum malam habeant voluntatem. Quidam autumant 
-      <lb ed="#V" n="39"/>illam voluntatem non esse peccatum: sed supplicium tantum. 
-      <lb ed="#V" n="40"/>Alii vero peccatum esse fatentur: sed per illud eos non 
-      <lb ed="#V" n="41"/>mereri aliquam penam: quia non est ibi locus merendi. 
-      <lb ed="#V" n="42"/>Illud ergo peccatum dicunt non esse meritum 
-      suppli<lb ed="#V" n="43" break="no"/>cii: sed supplicium mali meriti quod in hac vita 
-      pre<lb ed="#V" n="44" break="no"/>cessit. De hoc autem Aug. ita dicit. Tempus acque 
-      <lb ed="#V" n="45"/>rendi vitam eternam in hac tantum vita deus hominibus 
-      de<lb ed="#V" n="46" break="no"/>dit vbi voluit est penitentiam esse fructuosam: ideo 
-      <lb ed="#V" n="47"/>hec penitentia fructuosa est: quia potest hic homo 
-      depo<lb ed="#V" n="48" break="no"/>sita nequtia bene viuere: et mutata voluntate 
-      meri<lb ed="#V" n="49" break="no"/>ta simul operaque mutare: et ea gerereque deo 
-      pla<lb ed="#V" n="50" break="no"/>ceant. Quod qu in hac vita non fecerit: habebit quidem 
-      <lb ed="#V" n="51"/>penitentiam in futuro seculo de malis suis: sed 
-      indul<lb ed="#V" n="52" break="no"/>gentiam in conspectu domini non inueniet: quia et si erit 
-      sti<lb ed="#V" n="53" break="no"/>mulus penitudinis: tamen nulla erit ibi 
-      correctio<lb ed="#V" n="54" break="no"/>voluntatis. A talibus enim ita culpabitur iniquitas sua: 
-      <lb ed="#V" n="55"/>vt nullatenus ab eis posset vel diligi vel 
-      desi<lb ed="#V" n="56" break="no"/>derari iusticia. Uoluntas enim eorum talis erit vt 
-      ha<lb ed="#V" n="57" break="no"/>beat semper in se malignitatis sue supplicium: numquam 
-      <lb ed="#V" n="58"/>tamen recipere possit bonitatis affectum. Quia sicut 
-      il<lb ed="#V" n="59" break="no"/>li qui cum christo regnabunt nullas in se male voluntatis 
-      <lb ed="#V" n="60"/>reliquias habebunt: ita illi qui erunt in supplicio 
-      eterni<lb ed="#V" n="61" break="no"/>ignis cum diabolo et angelis eius deputati: sicut. 
-      <!--00493.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="62"/>nullam habebunt vlterius requiem: sic bonam nullate 
-      <lb ed="#V" n="63"/>nus poterunt habere voluntatem. Et sicut coheredibus 
-      <lb ed="#V" n="64"/>christi dabitur perfectio gratiae ad eternam gloriam: ita 
-      consor<lb ed="#V" n="65" break="no"/>tibus diaboli cumulabit ipsa malignitas penam 
-      <lb ed="#V" n="66"/>quando exterioribus deputati tenebris: nullo illustra 
-      <lb ed="#V" n="67"/>buntur interiori lumine veritatis. Ex his apparet 
-      re<lb ed="#V" n="68" break="no"/>probos in inferno penitentiam sic gesturos: vt per eam 
-      <lb ed="#V" n="69"/>prauam voluntatem non deserant. et illa maligna 
-      vo<lb ed="#V" n="70" break="no"/>luntas erit eis ad cumulum pene: per quam tamen non 
-      <lb ed="#V" n="71"/>merebuntur quia nullus meretur nisi in hac vita. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e208">
-               <lb ed="#V" n="72"/>¶ Quare dicuntur tenebre exteriores. 
-      <lb ed="#V" n="73"/>hic queri potest quare ille tenebre quod 
-      <lb ed="#V" n="74"/>bus inuoluentur mali in 
-      gehen<lb ed="#V" n="75" break="no"/>na: dicuntur tenebre exteriores. Quia tunc mali 
-      pe<lb ed="#V" n="76" break="no"/>nitus extra lucem corporalem et spiritualem scilicet domini erunt. 
-      <lb ed="#V" n="77"/>Nunc enim et si patiantur tenebras in cecitate mentis: 
-      <lb ed="#V" n="78"/>non tamen penitus extra lucem dei sunt nec corporali 
-      <lb ed="#V" n="79"/>luce priuantur. De hoc Aug. sic ait. Ira dei et in 
-      <lb ed="#V" n="80"/>iudicio erit: et hic est in cecitate mentis cum 
-      dani<lb ed="#V" n="81" break="no"/>mali in reprobum sensum. Ibi exteriores tenebre 
-      <lb ed="#V" n="82"/>erunt quia tunc peccatores penitus erunt extra deum. 
-      <lb ed="#V" n="83"/>Quid est enim penitus esse extra deum nisi esse in summa 
-      <lb ed="#V" n="84"/>cecitate. Siquidem hitat deus lucem inacessibilem. 
-      <lb ed="#V" n="85"/>He autem tenebre hic iam incipiunt in peccante cum ab 
-      <lb ed="#V" n="86"/>interiori dei luce secluditur: sed non penitus dum in 
-      <lb ed="#V" n="87"/>hac vita est. Ecce quare ibi peccator dicitur pati ex 
-      <lb ed="#V" n="88"/>teriores tenebras et non hic: quia ibi secludetur 
-      peni<lb ed="#V" n="89" break="no"/>tus a luce dei: quod non hic. Sed quomodo intelligenda 
-      <lb ed="#V" n="90"/>est illa seclusio. An quia non videbunt deum per 
-      spe<lb ed="#V" n="91" break="no"/>ciem: sed nec aliquis videt hic deum per speciem. an per 
-      dif<lb ed="#V" n="92" break="no"/>similitudinem quam facit peccatum inter deum et hominem: 
-      <lb ed="#V" n="93"/>sed et hic multi per grauia peccata elongantur a deo. 
-      <lb ed="#V" n="94"/>an quia deum odiunt ita vt velint eum non esse: Sed et 
-      <lb ed="#V" n="95"/>hic multi deum oderunt: de quibus scriptum est. 
-      Su<lb ed="#V" n="96" break="no"/>perbia eorum qui te oderunt ascendit semper. Que est 
-      er<lb ed="#V" n="97" break="no"/>go illa elongatio: Sane exteriores tenebre 
-      intel<lb ed="#V" n="98" break="no"/>ligi possunt quedam malignitas odii et voluntatis quae 
-      <lb ed="#V" n="99"/>tunc excrescet in mentibus reproborum et quedam 
-      obli<lb ed="#V" n="100" break="no"/>uio dei: quia tormentorum interiorum et exteriorum 
-      dolori<lb ed="#V" n="101" break="no"/>bus adeo afficientur et turbabuntur vt ab illis ad 
-      <lb ed="#V" n="102"/>cogitandum aliquid de deo vix vel raro vel nunquam 
-      <lb ed="#V" n="103"/>mentem reuocent. Ut qui nimio praemuntur pondere: adeo 
-      <lb ed="#V" n="104"/>stupescunt et turbantur: vt interim in alia cogitationem 
-      <lb ed="#V" n="105"/>non extendant: sed illuc tendit impetus 
-      cogitatio<lb ed="#V" n="106" break="no"/>nis vbi sentitur vis doloris. Sed in hac vita 
-      nul<lb ed="#V" n="107" break="no"/>lus adeo malus est: vt penitus secludatur a 
-      cogi<lb ed="#V" n="108" break="no"/>tatione dei qui nec perdit appetitum beatitudinis et 
-      <lb ed="#V" n="109"/>quendam boni amorem quem naturaliter habet rationis 
-      <lb ed="#V" n="110"/>creatura. Illas autem exteriores et profundissimas 
-      <lb ed="#V" n="111"/>tenebras reprobos perpessuros post iudicium dicit 
-      <lb ed="#V" n="112"/>Aug. opponens de illo diuite qui in inferno positus 
-      <lb ed="#V" n="113"/>eleuans oculos vidit abraam et in sinum eius Laza 
-      <lb ed="#V" n="114"/>rum: cuius comparatione coactus est confiteri 
-      <lb ed="#V" n="115"/>mala sua vsque adeo vt et fratres roget ab his 
-      prae<lb ed="#V" n="116" break="no"/>moneri. Quod ante iudicium factum legitur: sed post 
-      <lb ed="#V" n="117"/>indicium in profundioribus tenebris erunt impii: et 
-      <!--00494.xml-->
-      <pb ed="#V" n="231-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>nullam dei lucem videbunt cui confiteantur. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e319">
-               <lb ed="#V" n="2"/>¶ De animabus damnatorum: si quam habent 
-      <lb ed="#V" n="3"/>noticiam eorum que hic fiunt. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e327">
-               <lb ed="#V" n="4"/>Preterea queri solet si reproborum 
-      ani<lb ed="#V" n="5" break="no"/>me que nunc in inferno 
-      cru<lb ed="#V" n="6" break="no"/>ciantur noticiam habent eorum que circa suos in 
-      <lb ed="#V" n="7"/>hac vita geruntur si et aliquo mo doleant super 
-      in<lb ed="#V" n="8" break="no"/>fortuniis suorum charorum: Hanc quaestionem Aug. 
-      con<lb ed="#V" n="9" break="no"/>memorat ex parte eam explicans: ex parte vero 
-      <lb ed="#V" n="10"/>insolutam relinquens. Ait enim Queret aliquis 
-      <lb ed="#V" n="11"/>an vllus dolor tangat mortuos de his que in 
-      <lb ed="#V" n="12"/>suis post mortem contingunt: vel quomodo ea que 
-      cir<lb ed="#V" n="13" break="no"/>ca nos aguntur nouerint spiritus defunctorum: 
-      <lb ed="#V" n="14"/>Cui respondeo magnam esse quaestionem nec in 
-      presen<lb ed="#V" n="15" break="no"/>ti disserendam. Uerumtum breuiter dici potest quod 
-      <lb ed="#V" n="16"/>est cura mortuis de suis charis: vt de diuite 
-      le<lb ed="#V" n="17" break="no"/>gitur qui dum tormenta apud inferos pateretur: 
-      le<lb ed="#V" n="18" break="no"/>uauit oculos ad abraam: et inter alia dixit. Ha 
-      <lb ed="#V" n="19"/>beo enim quinque fratres. mitte aliquem ex mortuis 
-      <lb ed="#V" n="20"/>vt testetur illis ne et ipsi veniant in hunc locum tor 
-      <lb ed="#V" n="21"/>mentorum. Habent enim mortui curam de viuis 
-      <lb ed="#V" n="22"/>quos sciunt viuere quia nec in locis penarum 
-      vi<lb ed="#V" n="23" break="no"/>dent eos: vbi diues sine fratribus erat nec in 
-      re<lb ed="#V" n="24" break="no"/>quie beatorum vbi lazarum et abraam quamuis 
-      lon<lb ed="#V" n="25" break="no"/>ge agnoscebat. Non tamen ideo conseqens est scire que 
-      cir<lb ed="#V" n="26" break="no"/>ca charos suos aguntur hic vel leta vel tristia. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e379">
-               <lb ed="#V" n="27"/>¶ Quomodo accipienda sunt que de lazaro et 
-      di<lb ed="#V" n="28" break="no"/>uite leguntur. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e386">
-               <lb ed="#V" n="29"/>Si quis autem querat quomo intelligatur quod 
-      <lb ed="#V" n="30"/>de lazaro et diuite legitur: 
-      Au<lb ed="#V" n="31" break="no"/>diat Augustini raesponsum dicentis. Si quis putat 
-      <lb ed="#V" n="32"/>animas corpore exutas locis corporalibus contineri cum 
-      <lb ed="#V" n="33"/>sint sine corpore: non deerunt qui faueant et 
-      diuiten<lb ed="#V" n="34" break="no"/>fitientem in loco corporali fuisse contendant: ipsamque 
-      <lb ed="#V" n="35"/>animam corpoream pparasse linguam: et stillam de 
-      <lb ed="#V" n="36"/>lazari digito cupiisse. Sed melius est dubitare 
-      <lb ed="#V" n="37"/>de occultis quam litigare de incertis: diuitem in sup 
-      <lb ed="#V" n="38"/>plicio: pauperem in refrigerio esse non dubito. Sed 
-      <lb ed="#V" n="39"/>quomodo intelligatur diuitis lingua: digitus lazari: 
-      <lb ed="#V" n="40"/>flamma inferni: sinus abrae: et huiusmodi vix a mansue 
-      <lb ed="#V" n="41"/>tis: a contentiosis nunquam inuenitur. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e417">
-               <lb ed="#V" n="42"/>¶ Si se vident boni et mali. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e422">
-               <lb ed="#V" n="43"/>Queri etiam solet vtrum 
-      vicissim<lb ed="#V" n="44" break="no"/>se videant illi qui sunt 
-      <lb ed="#V" n="45"/>in inferno: et illi qui sunt in gloria: Sicut 
-      sancti<lb ed="#V" n="46" break="no"/>tradunt et boni malos et mali bonos vident vsque 
-      <lb ed="#V" n="47"/>ad iudicium. Post iudicium vero boni 
-      vide<lb ed="#V" n="48" break="no"/>bunt malos: sed non mali bonos. Unde Greg. 
-      <lb ed="#V" n="49"/>Infideles in imo positi ante diem iudicii 
-      fide<lb ed="#V" n="50" break="no"/>les super se in requie attendunt: quorum 
-      gau<lb ed="#V" n="51" break="no"/>dia post contemplari non possunt. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e444">
-               <lb ed="#V" n="52"/>¶ De chaos inter bonos et malos. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e450">
-               <lb ed="#V" n="53"/>Sed cum sancti malos in tormentis 
-      <lb ed="#V" n="54"/>videant: nonne aliqua 
-      com<lb ed="#V" n="55" break="no"/>passione erga eos mouentur. Nonne eos de tor 
-      <lb ed="#V" n="56"/>mentis liberari cupiunt: Recole illud euange¬ 
-      <!--00494.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>licum quod abraam diuiti respondit. Inter nos et veros 
-      <lb ed="#V" n="58"/>chaos magnum firmatum est: vt hi qui volunt 
-      <lb ed="#V" n="59"/>hinc transire ad vos non possunt: neque inde huc 
-      <lb ed="#V" n="60"/>tramsmeare. Quid est illud chaos inter bonos 
-      <lb ed="#V" n="61"/>et malos: nisi hinc iusticia: inde iniquitas que 
-      <lb ed="#V" n="62"/>nullatenus sociari valent. Adeo enim sancti dei iu 
-      <lb ed="#V" n="63"/>sticie addicti sunt: vt nulla compassione ad 
-      repro<lb ed="#V" n="64" break="no"/>bos transire valeant nulla pro eis inter sanctos 
-      <lb ed="#V" n="65"/>fiat intercessio. Quomodo ergo inde volunt aliqui 
-      <lb ed="#V" n="66"/>transire ad illos sed non possunt: quia si dei 
-      iusti<lb ed="#V" n="67" break="no"/>cia admitteret: non fieret eis molesta 
-      liberatio<lb ed="#V" n="68" break="no"/>eorum. Uel ita dicuntur velle et non posse: non quia 
-      <lb ed="#V" n="69"/>velint et non possint: sed quia et si vellent non possent 
-      <lb ed="#V" n="70"/>eos iuuare. De hoc ita Greg. ait sicut 
-      reprobi<lb ed="#V" n="71" break="no"/>a penis ad gloriam sanctorum transire volunt 
-      <lb ed="#V" n="72"/>et non possunt: ita et iusti per misericordiam mente 
-      <lb ed="#V" n="73"/>ire volunt ad positos in tormentis: vt eos liberent: 
-      <lb ed="#V" n="74"/>sed non possunt: quia iustorum anime et si in nature sue 
-      bo<lb ed="#V" n="75" break="no"/>nitate misericordiam habent: iam tunc auctoris sui 
-      <lb ed="#V" n="76"/>iusticie coniuncte tanta rectitudine constringuntur: 
-      <lb ed="#V" n="77"/>vt nulla ad reprobos compassione moueantur. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e511">
-               <lb ed="#V" n="78"/>¶ Quod visa impiorum pena non minuit beatorum gloriam.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e516">
-               <lb ed="#V" n="79"/>Postremo queritur an pena 
-      repro<lb ed="#V" n="80" break="no"/>borum visa decoloret 
-      glo<lb ed="#V" n="81" break="no"/>riam beatorum: an eorum beatitudini proficiat: De 
-      <lb ed="#V" n="82"/>hoc ita Greg. ait. Apud animum iustorum non 
-      <lb ed="#V" n="83"/>obfuscat beatitudinem aspecta pena reproborum: 
-      <lb ed="#V" n="84"/>quia iam vbi compassio miserie non erit minue 
-      <lb ed="#V" n="85"/>re beatorum leticiam non valebit. Et licet iustis 
-      <lb ed="#V" n="86"/>sua gaudia sufficiant: ad maiorem tamen gloriam 
-      vi<lb ed="#V" n="87" break="no"/>dent penas malorum quas per gratiam euaserunt: 
-      <lb ed="#V" n="88"/>quia qui dei claritatem vident nil in creatura agitur 
-      <lb ed="#V" n="89"/>quod videre non possint. Non est autem mirandum 
-      <lb ed="#V" n="90"/>si sancti iam immortales reprobos videant mentis 
-      <lb ed="#V" n="91"/>intelligentia: cum prophete mortales adhuc 
-      vi<lb ed="#V" n="92" break="no"/>dere hec omnia meruerunt. Egredientur ergo 
-      ele<lb ed="#V" n="93" break="no"/>cti non loco sed intelligentia vel visione 
-      mani<lb ed="#V" n="94" break="no"/>festa ad videndum impiorum cruciatus: quos 
-      viden<lb ed="#V" n="95" break="no"/>tes non dolore afficientur: sed letitia satiabuntur 
-      agen<lb ed="#V" n="96" break="no"/>tes gratias de sua liberatione visa impiorum 
-      ineffa<lb ed="#V" n="97" break="no"/>bili calamitate. Unde Esaias impiorum tormenta 
-      <lb ed="#V" n="98"/>describens et eorum visione letitiam bonorum exprimens 
-      <lb ed="#V" n="99"/>ait. Egredientur electi scilicet et videbunt cadauera 
-      vi<lb ed="#V" n="100" break="no"/>rorum qui praeuaricati sunt in me. vermis eorum non 
-      <lb ed="#V" n="101"/>morietur: et ignis non extinguetur: et erunt vsque 
-      <lb ed="#V" n="102"/>ad sacietatem visionis omni carni id est electis. 
-      <lb ed="#V" n="103"/>Letabitur enim iustus cum viderit vindictam. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e573">
-               <lb ed="#V" n="104"/>¶ Hec de pedibus sedentis super solium excelsum 
-      <lb ed="#V" n="105"/>quos Seraphin duabus alis velabant: 
-      scripto<lb ed="#V" n="106" break="no"/>ri et si non auditori commemorasse sufficiat. qui 
-      <lb ed="#V" n="107"/>a facie exorsus sedentis: per media ad pedes vs 
-      <lb ed="#V" n="108"/>que via duce peruenit. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e586">
-               <lb ed="#V" n="109"/>SUperius determinatit magister de 
-      remu<lb ed="#V" n="110" break="no"/>neratione bonorum. hic 
-      deter<lb ed="#V" n="111" break="no"/>minat de retributione malorum. Et diuiditur in partes. 
-      <lb ed="#V" n="112"/>tres.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e597">
-      ¶ Pmo determinat de illa retributione abso 
-      <lb ed="#V" n="113"/>lute.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e603">
-      ¶ in comparatione. ibi.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e605">
-      ¶ Preterea quaeri solet 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e607">
-      <!--00495.xml-->
-               <pb ed="#V" n="232-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>¶ Tertio ponit breuem recapitulationem operis 
-      to<lb ed="#V" n="2" break="no"/>tius. ibi. Hec de pedibus.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e620">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e622">
-      ¶ 
-      Pri<lb ed="#V" n="3" break="no"/>mo determinat de damnatis quo ad malum culpe.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e627">
-      ¶ 2o 
-      <lb ed="#V" n="4"/>quo ad malum pene. ibi. Hic queri potest 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e633">
-      ¶ Illa pars que 
-      <lb ed="#V" n="5"/>ibi incipit. Preterea queri solet diuiditur in tres.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e638">
-      ¶ 
-      Pri<lb ed="#V" n="6" break="no"/>mo determinat de retributione malorum in 
-      compara<lb ed="#V" n="7" break="no"/>tione ad eos qui adhuc sunt in hoc mundo.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e645">
-      ¶ 
-      Se<lb ed="#V" n="8" break="no"/>cundo in comparatione ad eos qui erant in limbo. ibi. 
-      <lb ed="#V" n="9"/>Si quis autem
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e652">
-      ¶ Tertio in comparatione ad eos qui 
-      <lb ed="#V" n="10"/>sunt in celo. ibi. Queri etiam solet
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e657">
-      ¶ Et ista in tres. 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e659">
-               <lb ed="#V" n="11"/>¶ Primo inquirit si boni et mali vident se vsque ad 
-      iudi<lb ed="#V" n="12" break="no"/>cium.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e667">
-      ¶ Secundo si beati compatiuntur malis. ibi. Sed 
-      <lb ed="#V" n="13"/>cum sancti.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e672">
-      ¶ Tertio si ex visa pena malorum 
-      minui<lb ed="#V" n="14" break="no"/>tur in beatis aliqua gloria eorum. ibi. Postremo que 
-      <lb ed="#V" n="15"/>ritur 
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e679">
-    Distinctio. L
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e681">
-               <lb ed="#V" n="16"/>CIrca hanc distin. querendum est 
-      princi<lb ed="#V" n="17" break="no"/>paliter de quatuor.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e688">
-      ¶ Primo de 
-      co<lb ed="#V" n="18" break="no"/>gnitione anime separate in generali.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e693">
-      ¶ 
-      Secun<lb ed="#V" n="19" break="no"/>do de cognitione damnatorum in speciali.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e699">
-      ¶ 
-      Ter<lb ed="#V" n="20" break="no"/>tio de eorum voluntate.
-   </p>
-            <p xml:id="kzz7yh-k168021-d1e704">
-      ¶ Quarto de eorum punitione. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="231-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k168021"><!-- l4d50prae -->
+        <head xml:id="kzz7yh-k168021-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-k168021-d1e103">
+          <lb ed="#V" n="28"/>¶ Si mali in inferno peccabunt Dinitio L 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e108">
+          <lb ed="#V" n="29"/>HIc oritur questio ext 
+          prinis<lb ed="#V" n="30" break="no"/>sis ducens 
+          origi<lb ed="#V" n="31" break="no"/>nem. Supra enim Aug. loquens de malis 
+          <lb ed="#V" n="32"/>in inferno damnatis: et bonis in celo 
+          glo<lb ed="#V" n="33" break="no"/>rificatis: dixit quod nec bonis voluntas: 
+          <lb ed="#V" n="34"/>nec malis facultas esse peccandi poterit. Et de 
+          <lb ed="#V" n="35"/>bonis quidem constat: sed de malis a quibus 
+          volunta<lb ed="#V" n="36" break="no"/>tem malam non remouet queritur: quomodo sit verum eos 
+          <lb ed="#V" n="37"/>non posse peccare: immo quomodo verum sit eos non 
+          pecca<lb ed="#V" n="38" break="no"/>re cum malam habeant voluntatem. Quidam autumant 
+          <lb ed="#V" n="39"/>illam voluntatem non esse peccatum: sed supplicium tantum. 
+          <lb ed="#V" n="40"/>Alii vero peccatum esse fatentur: sed per illud eos non 
+          <lb ed="#V" n="41"/>mereri aliquam penam: quia non est ibi locus merendi. 
+          <lb ed="#V" n="42"/>Illud ergo peccatum dicunt non esse meritum 
+          suppli<lb ed="#V" n="43" break="no"/>cii: sed supplicium mali meriti quod in hac vita 
+          pre<lb ed="#V" n="44" break="no"/>cessit. De hoc autem Aug. ita dicit. Tempus acque 
+          <lb ed="#V" n="45"/>rendi vitam eternam in hac tantum vita deus hominibus 
+          de<lb ed="#V" n="46" break="no"/>dit vbi voluit est penitentiam esse fructuosam: ideo 
+          <lb ed="#V" n="47"/>hec penitentia fructuosa est: quia potest hic homo 
+          depo<lb ed="#V" n="48" break="no"/>sita nequtia bene viuere: et mutata voluntate 
+          meri<lb ed="#V" n="49" break="no"/>ta simul operaque mutare: et ea gerereque deo 
+          pla<lb ed="#V" n="50" break="no"/>ceant. Quod qu in hac vita non fecerit: habebit quidem 
+          <lb ed="#V" n="51"/>penitentiam in futuro seculo de malis suis: sed 
+          indul<lb ed="#V" n="52" break="no"/>gentiam in conspectu domini non inueniet: quia et si erit 
+          sti<lb ed="#V" n="53" break="no"/>mulus penitudinis: tamen nulla erit ibi 
+          correctio<lb ed="#V" n="54" break="no"/>voluntatis. A talibus enim ita culpabitur iniquitas sua: 
+          <lb ed="#V" n="55"/>vt nullatenus ab eis posset vel diligi vel 
+          desi<lb ed="#V" n="56" break="no"/>derari iusticia. Uoluntas enim eorum talis erit vt 
+          ha<lb ed="#V" n="57" break="no"/>beat semper in se malignitatis sue supplicium: numquam 
+          <lb ed="#V" n="58"/>tamen recipere possit bonitatis affectum. Quia sicut 
+          il<lb ed="#V" n="59" break="no"/>li qui cum christo regnabunt nullas in se male voluntatis 
+          <lb ed="#V" n="60"/>reliquias habebunt: ita illi qui erunt in supplicio 
+          eterni<lb ed="#V" n="61" break="no"/>ignis cum diabolo et angelis eius deputati: sicut. 
+          <!-\-00493.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="62"/>nullam habebunt vlterius requiem: sic bonam nullate 
+          <lb ed="#V" n="63"/>nus poterunt habere voluntatem. Et sicut coheredibus 
+          <lb ed="#V" n="64"/>christi dabitur perfectio gratiae ad eternam gloriam: ita 
+          consor<lb ed="#V" n="65" break="no"/>tibus diaboli cumulabit ipsa malignitas penam 
+          <lb ed="#V" n="66"/>quando exterioribus deputati tenebris: nullo illustra 
+          <lb ed="#V" n="67"/>buntur interiori lumine veritatis. Ex his apparet 
+          re<lb ed="#V" n="68" break="no"/>probos in inferno penitentiam sic gesturos: vt per eam 
+          <lb ed="#V" n="69"/>prauam voluntatem non deserant. et illa maligna 
+          vo<lb ed="#V" n="70" break="no"/>luntas erit eis ad cumulum pene: per quam tamen non 
+          <lb ed="#V" n="71"/>merebuntur quia nullus meretur nisi in hac vita. 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e208">
+          <lb ed="#V" n="72"/>¶ Quare dicuntur tenebre exteriores. 
+          <lb ed="#V" n="73"/>hic queri potest quare ille tenebre quod 
+          <lb ed="#V" n="74"/>bus inuoluentur mali in 
+          gehen<lb ed="#V" n="75" break="no"/>na: dicuntur tenebre exteriores. Quia tunc mali 
+          pe<lb ed="#V" n="76" break="no"/>nitus extra lucem corporalem et spiritualem scilicet domini erunt. 
+          <lb ed="#V" n="77"/>Nunc enim et si patiantur tenebras in cecitate mentis: 
+          <lb ed="#V" n="78"/>non tamen penitus extra lucem dei sunt nec corporali 
+          <lb ed="#V" n="79"/>luce priuantur. De hoc Aug. sic ait. Ira dei et in 
+          <lb ed="#V" n="80"/>iudicio erit: et hic est in cecitate mentis cum 
+          dani<lb ed="#V" n="81" break="no"/>mali in reprobum sensum. Ibi exteriores tenebre 
+          <lb ed="#V" n="82"/>erunt quia tunc peccatores penitus erunt extra deum. 
+          <lb ed="#V" n="83"/>Quid est enim penitus esse extra deum nisi esse in summa 
+          <lb ed="#V" n="84"/>cecitate. Siquidem hitat deus lucem inacessibilem. 
+          <lb ed="#V" n="85"/>He autem tenebre hic iam incipiunt in peccante cum ab 
+          <lb ed="#V" n="86"/>interiori dei luce secluditur: sed non penitus dum in 
+          <lb ed="#V" n="87"/>hac vita est. Ecce quare ibi peccator dicitur pati ex 
+          <lb ed="#V" n="88"/>teriores tenebras et non hic: quia ibi secludetur 
+          peni<lb ed="#V" n="89" break="no"/>tus a luce dei: quod non hic. Sed quomodo intelligenda 
+          <lb ed="#V" n="90"/>est illa seclusio. An quia non videbunt deum per 
+          spe<lb ed="#V" n="91" break="no"/>ciem: sed nec aliquis videt hic deum per speciem. an per 
+          dif<lb ed="#V" n="92" break="no"/>similitudinem quam facit peccatum inter deum et hominem: 
+          <lb ed="#V" n="93"/>sed et hic multi per grauia peccata elongantur a deo. 
+          <lb ed="#V" n="94"/>an quia deum odiunt ita vt velint eum non esse: Sed et 
+          <lb ed="#V" n="95"/>hic multi deum oderunt: de quibus scriptum est. 
+          Su<lb ed="#V" n="96" break="no"/>perbia eorum qui te oderunt ascendit semper. Que est 
+          er<lb ed="#V" n="97" break="no"/>go illa elongatio: Sane exteriores tenebre 
+          intel<lb ed="#V" n="98" break="no"/>ligi possunt quedam malignitas odii et voluntatis quae 
+          <lb ed="#V" n="99"/>tunc excrescet in mentibus reproborum et quedam 
+          obli<lb ed="#V" n="100" break="no"/>uio dei: quia tormentorum interiorum et exteriorum 
+          dolori<lb ed="#V" n="101" break="no"/>bus adeo afficientur et turbabuntur vt ab illis ad 
+          <lb ed="#V" n="102"/>cogitandum aliquid de deo vix vel raro vel nunquam 
+          <lb ed="#V" n="103"/>mentem reuocent. Ut qui nimio praemuntur pondere: adeo 
+          <lb ed="#V" n="104"/>stupescunt et turbantur: vt interim in alia cogitationem 
+          <lb ed="#V" n="105"/>non extendant: sed illuc tendit impetus 
+          cogitatio<lb ed="#V" n="106" break="no"/>nis vbi sentitur vis doloris. Sed in hac vita 
+          nul<lb ed="#V" n="107" break="no"/>lus adeo malus est: vt penitus secludatur a 
+          cogi<lb ed="#V" n="108" break="no"/>tatione dei qui nec perdit appetitum beatitudinis et 
+          <lb ed="#V" n="109"/>quendam boni amorem quem naturaliter habet rationis 
+          <lb ed="#V" n="110"/>creatura. Illas autem exteriores et profundissimas 
+          <lb ed="#V" n="111"/>tenebras reprobos perpessuros post iudicium dicit 
+          <lb ed="#V" n="112"/>Aug. opponens de illo diuite qui in inferno positus 
+          <lb ed="#V" n="113"/>eleuans oculos vidit abraam et in sinum eius Laza 
+          <lb ed="#V" n="114"/>rum: cuius comparatione coactus est confiteri 
+          <lb ed="#V" n="115"/>mala sua vsque adeo vt et fratres roget ab his 
+          prae<lb ed="#V" n="116" break="no"/>moneri. Quod ante iudicium factum legitur: sed post 
+          <lb ed="#V" n="117"/>indicium in profundioribus tenebris erunt impii: et 
+          <!-\-00494.xml-\->
+          <pb ed="#V" n="231-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>nullam dei lucem videbunt cui confiteantur. 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e319">
+          <lb ed="#V" n="2"/>¶ De animabus damnatorum: si quam habent 
+          <lb ed="#V" n="3"/>noticiam eorum que hic fiunt. 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e327">
+          <lb ed="#V" n="4"/>Preterea queri solet si reproborum 
+          ani<lb ed="#V" n="5" break="no"/>me que nunc in inferno 
+          cru<lb ed="#V" n="6" break="no"/>ciantur noticiam habent eorum que circa suos in 
+          <lb ed="#V" n="7"/>hac vita geruntur si et aliquo mo doleant super 
+          in<lb ed="#V" n="8" break="no"/>fortuniis suorum charorum: Hanc quaestionem Aug. 
+          con<lb ed="#V" n="9" break="no"/>memorat ex parte eam explicans: ex parte vero 
+          <lb ed="#V" n="10"/>insolutam relinquens. Ait enim Queret aliquis 
+          <lb ed="#V" n="11"/>an vllus dolor tangat mortuos de his que in 
+          <lb ed="#V" n="12"/>suis post mortem contingunt: vel quomodo ea que 
+          cir<lb ed="#V" n="13" break="no"/>ca nos aguntur nouerint spiritus defunctorum: 
+          <lb ed="#V" n="14"/>Cui respondeo magnam esse quaestionem nec in 
+          presen<lb ed="#V" n="15" break="no"/>ti disserendam. Uerumtum breuiter dici potest quod 
+          <lb ed="#V" n="16"/>est cura mortuis de suis charis: vt de diuite 
+          le<lb ed="#V" n="17" break="no"/>gitur qui dum tormenta apud inferos pateretur: 
+          le<lb ed="#V" n="18" break="no"/>uauit oculos ad abraam: et inter alia dixit. Ha 
+          <lb ed="#V" n="19"/>beo enim quinque fratres. mitte aliquem ex mortuis 
+          <lb ed="#V" n="20"/>vt testetur illis ne et ipsi veniant in hunc locum tor 
+          <lb ed="#V" n="21"/>mentorum. Habent enim mortui curam de viuis 
+          <lb ed="#V" n="22"/>quos sciunt viuere quia nec in locis penarum 
+          vi<lb ed="#V" n="23" break="no"/>dent eos: vbi diues sine fratribus erat nec in 
+          re<lb ed="#V" n="24" break="no"/>quie beatorum vbi lazarum et abraam quamuis 
+          lon<lb ed="#V" n="25" break="no"/>ge agnoscebat. Non tamen ideo conseqens est scire que 
+          cir<lb ed="#V" n="26" break="no"/>ca charos suos aguntur hic vel leta vel tristia. 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e379">
+          <lb ed="#V" n="27"/>¶ Quomodo accipienda sunt que de lazaro et 
+          di<lb ed="#V" n="28" break="no"/>uite leguntur. 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e386">
+          <lb ed="#V" n="29"/>Si quis autem querat quomo intelligatur quod 
+          <lb ed="#V" n="30"/>de lazaro et diuite legitur: 
+          Au<lb ed="#V" n="31" break="no"/>diat Augustini raesponsum dicentis. Si quis putat 
+          <lb ed="#V" n="32"/>animas corpore exutas locis corporalibus contineri cum 
+          <lb ed="#V" n="33"/>sint sine corpore: non deerunt qui faueant et 
+          diuiten<lb ed="#V" n="34" break="no"/>fitientem in loco corporali fuisse contendant: ipsamque 
+          <lb ed="#V" n="35"/>animam corpoream pparasse linguam: et stillam de 
+          <lb ed="#V" n="36"/>lazari digito cupiisse. Sed melius est dubitare 
+          <lb ed="#V" n="37"/>de occultis quam litigare de incertis: diuitem in sup 
+          <lb ed="#V" n="38"/>plicio: pauperem in refrigerio esse non dubito. Sed 
+          <lb ed="#V" n="39"/>quomodo intelligatur diuitis lingua: digitus lazari: 
+          <lb ed="#V" n="40"/>flamma inferni: sinus abrae: et huiusmodi vix a mansue 
+          <lb ed="#V" n="41"/>tis: a contentiosis nunquam inuenitur. 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e417">
+          <lb ed="#V" n="42"/>¶ Si se vident boni et mali. 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e422">
+          <lb ed="#V" n="43"/>Queri etiam solet vtrum 
+          vicissim<lb ed="#V" n="44" break="no"/>se videant illi qui sunt 
+          <lb ed="#V" n="45"/>in inferno: et illi qui sunt in gloria: Sicut 
+          sancti<lb ed="#V" n="46" break="no"/>tradunt et boni malos et mali bonos vident vsque 
+          <lb ed="#V" n="47"/>ad iudicium. Post iudicium vero boni 
+          vide<lb ed="#V" n="48" break="no"/>bunt malos: sed non mali bonos. Unde Greg. 
+          <lb ed="#V" n="49"/>Infideles in imo positi ante diem iudicii 
+          fide<lb ed="#V" n="50" break="no"/>les super se in requie attendunt: quorum 
+          gau<lb ed="#V" n="51" break="no"/>dia post contemplari non possunt. 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e444">
+          <lb ed="#V" n="52"/>¶ De chaos inter bonos et malos. 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e450">
+          <lb ed="#V" n="53"/>Sed cum sancti malos in tormentis 
+          <lb ed="#V" n="54"/>videant: nonne aliqua 
+          com<lb ed="#V" n="55" break="no"/>passione erga eos mouentur. Nonne eos de tor 
+          <lb ed="#V" n="56"/>mentis liberari cupiunt: Recole illud euange¬ 
+          <!-\-00494.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>licum quod abraam diuiti respondit. Inter nos et veros 
+          <lb ed="#V" n="58"/>chaos magnum firmatum est: vt hi qui volunt 
+          <lb ed="#V" n="59"/>hinc transire ad vos non possunt: neque inde huc 
+          <lb ed="#V" n="60"/>tramsmeare. Quid est illud chaos inter bonos 
+          <lb ed="#V" n="61"/>et malos: nisi hinc iusticia: inde iniquitas que 
+          <lb ed="#V" n="62"/>nullatenus sociari valent. Adeo enim sancti dei iu 
+          <lb ed="#V" n="63"/>sticie addicti sunt: vt nulla compassione ad 
+          repro<lb ed="#V" n="64" break="no"/>bos transire valeant nulla pro eis inter sanctos 
+          <lb ed="#V" n="65"/>fiat intercessio. Quomodo ergo inde volunt aliqui 
+          <lb ed="#V" n="66"/>transire ad illos sed non possunt: quia si dei 
+          iusti<lb ed="#V" n="67" break="no"/>cia admitteret: non fieret eis molesta 
+          liberatio<lb ed="#V" n="68" break="no"/>eorum. Uel ita dicuntur velle et non posse: non quia 
+          <lb ed="#V" n="69"/>velint et non possint: sed quia et si vellent non possent 
+          <lb ed="#V" n="70"/>eos iuuare. De hoc ita Greg. ait sicut 
+          reprobi<lb ed="#V" n="71" break="no"/>a penis ad gloriam sanctorum transire volunt 
+          <lb ed="#V" n="72"/>et non possunt: ita et iusti per misericordiam mente 
+          <lb ed="#V" n="73"/>ire volunt ad positos in tormentis: vt eos liberent: 
+          <lb ed="#V" n="74"/>sed non possunt: quia iustorum anime et si in nature sue 
+          bo<lb ed="#V" n="75" break="no"/>nitate misericordiam habent: iam tunc auctoris sui 
+          <lb ed="#V" n="76"/>iusticie coniuncte tanta rectitudine constringuntur: 
+          <lb ed="#V" n="77"/>vt nulla ad reprobos compassione moueantur. 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e511">
+          <lb ed="#V" n="78"/>¶ Quod visa impiorum pena non minuit beatorum gloriam.
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e516">
+          <lb ed="#V" n="79"/>Postremo queritur an pena 
+          repro<lb ed="#V" n="80" break="no"/>borum visa decoloret 
+          glo<lb ed="#V" n="81" break="no"/>riam beatorum: an eorum beatitudini proficiat: De 
+          <lb ed="#V" n="82"/>hoc ita Greg. ait. Apud animum iustorum non 
+          <lb ed="#V" n="83"/>obfuscat beatitudinem aspecta pena reproborum: 
+          <lb ed="#V" n="84"/>quia iam vbi compassio miserie non erit minue 
+          <lb ed="#V" n="85"/>re beatorum leticiam non valebit. Et licet iustis 
+          <lb ed="#V" n="86"/>sua gaudia sufficiant: ad maiorem tamen gloriam 
+          vi<lb ed="#V" n="87" break="no"/>dent penas malorum quas per gratiam euaserunt: 
+          <lb ed="#V" n="88"/>quia qui dei claritatem vident nil in creatura agitur 
+          <lb ed="#V" n="89"/>quod videre non possint. Non est autem mirandum 
+          <lb ed="#V" n="90"/>si sancti iam immortales reprobos videant mentis 
+          <lb ed="#V" n="91"/>intelligentia: cum prophete mortales adhuc 
+          vi<lb ed="#V" n="92" break="no"/>dere hec omnia meruerunt. Egredientur ergo 
+          ele<lb ed="#V" n="93" break="no"/>cti non loco sed intelligentia vel visione 
+          mani<lb ed="#V" n="94" break="no"/>festa ad videndum impiorum cruciatus: quos 
+          viden<lb ed="#V" n="95" break="no"/>tes non dolore afficientur: sed letitia satiabuntur 
+          agen<lb ed="#V" n="96" break="no"/>tes gratias de sua liberatione visa impiorum 
+          ineffa<lb ed="#V" n="97" break="no"/>bili calamitate. Unde Esaias impiorum tormenta 
+          <lb ed="#V" n="98"/>describens et eorum visione letitiam bonorum exprimens 
+          <lb ed="#V" n="99"/>ait. Egredientur electi scilicet et videbunt cadauera 
+          vi<lb ed="#V" n="100" break="no"/>rorum qui praeuaricati sunt in me. vermis eorum non 
+          <lb ed="#V" n="101"/>morietur: et ignis non extinguetur: et erunt vsque 
+          <lb ed="#V" n="102"/>ad sacietatem visionis omni carni id est electis. 
+          <lb ed="#V" n="103"/>Letabitur enim iustus cum viderit vindictam. 
+          </p>
+          <p xml:id="kzz7yh-k168021-d1e573">
+          <lb ed="#V" n="104"/>¶ Hec de pedibus sedentis super solium excelsum 
+          <lb ed="#V" n="105"/>quos Seraphin duabus alis velabant: 
+          scripto<lb ed="#V" n="106" break="no"/>ri et si non auditori commemorasse sufficiat. qui 
+          <lb ed="#V" n="107"/>a facie exorsus sedentis: per media ad pedes vs 
+          <lb ed="#V" n="108"/>que via duce peruenit. 
+          </p>-->
+        <p xml:id="kzz7yh-k168021-d1e586">
+          <lb ed="#V" n="109"/>SUperius determinatit magister de 
+          remu<lb ed="#V" n="110" break="no"/>neratione bonorum. hic 
+          deter<lb ed="#V" n="111" break="no"/>minat de retributione malorum. Et diuiditur in partes. 
+          <lb ed="#V" n="112"/>tres.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e597">
+          ¶ Pmo determinat de illa retributione abso 
+          <lb ed="#V" n="113"/>lute.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e603">
+          ¶ in comparatione. ibi.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e605">
+          ¶ Preterea quaeri solet 
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e607">
+          <!--00495.xml-->
+          <pb ed="#V" n="232-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>¶ Tertio ponit breuem recapitulationem operis 
+          to<lb ed="#V" n="2" break="no"/>tius. ibi. Hec de pedibus.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e620">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e622">
+          ¶ 
+          Pri<lb ed="#V" n="3" break="no"/>mo determinat de damnatis quo ad malum culpe.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e627">
+          ¶ 2o 
+          <lb ed="#V" n="4"/>quo ad malum pene. ibi. Hic queri potest 
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e633">
+          ¶ Illa pars que 
+          <lb ed="#V" n="5"/>ibi incipit. Preterea queri solet diuiditur in tres.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e638">
+          ¶ 
+          Pri<lb ed="#V" n="6" break="no"/>mo determinat de retributione malorum in 
+          compara<lb ed="#V" n="7" break="no"/>tione ad eos qui adhuc sunt in hoc mundo.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e645">
+          ¶ 
+          Se<lb ed="#V" n="8" break="no"/>cundo in comparatione ad eos qui erant in limbo. ibi. 
+          <lb ed="#V" n="9"/>Si quis autem
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e652">
+          ¶ Tertio in comparatione ad eos qui 
+          <lb ed="#V" n="10"/>sunt in celo. ibi. Queri etiam solet
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e657">
+          ¶ Et ista in tres. 
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e659">
+          <lb ed="#V" n="11"/>¶ Primo inquirit si boni et mali vident se vsque ad 
+          iudi<lb ed="#V" n="12" break="no"/>cium.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e667">
+          ¶ Secundo si beati compatiuntur malis. ibi. Sed 
+          <lb ed="#V" n="13"/>cum sancti.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e672">
+          ¶ Tertio si ex visa pena malorum 
+          minui<lb ed="#V" n="14" break="no"/>tur in beatis aliqua gloria eorum. ibi. Postremo que 
+          <lb ed="#V" n="15"/>ritur 
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e679">
+          Distinctio. L
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e681">
+          <lb ed="#V" n="16"/>CIrca hanc distin. querendum est 
+          princi<lb ed="#V" n="17" break="no"/>paliter de quatuor.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e688">
+          ¶ Primo de 
+          co<lb ed="#V" n="18" break="no"/>gnitione anime separate in generali.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e693">
+          ¶ 
+          Secun<lb ed="#V" n="19" break="no"/>do de cognitione damnatorum in speciali.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e699">
+          ¶ 
+          Ter<lb ed="#V" n="20" break="no"/>tio de eorum voluntate.
+        </p>
+        <p xml:id="kzz7yh-k168021-d1e704">
+          ¶ Quarto de eorum punitione. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

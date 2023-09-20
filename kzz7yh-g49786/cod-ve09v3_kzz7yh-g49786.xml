@@ -1,288 +1,290 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="70-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g49786"><!-- l3d22prae -->
-            <head xml:id="kzz7yh-g49786-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-g49786-d1e103">
-               <lb ed="#V" n="122"/>¶ Si christus in morte fuit homo. Di. XXII 
-    </p>
-            <p xml:id="kzz7yh-g49786-d1e108">
-               <lb ed="#V" n="123"/>HIc queritur vtrum in 
-      <lb ed="#V" n="124"/>illo 
-      tri<lb ed="#V" n="125" break="no"/>duo mortis christus fuerit homo: Quod 
-      <lb ed="#V" n="126"/>non videtur quibusdam: quia mortuus 
-      <lb ed="#V" n="127"/>erat: et homo mortuus non est 
-      ho<lb ed="#V" n="128" break="no"/>mo. Addunt etiam quod si tunc erat homo: vel 
-      <lb ed="#V" n="129"/>mortalis vel immortalis: sed mortalis non: 
-      <lb ed="#V" n="130"/>quia mortuus: nec immotalis: quia tantum 
-      <lb ed="#V" n="131"/>post resurrectionem. Quibus respondemus: 
-      <lb ed="#V" n="132"/>quia licet homo mortuus fuerit: erat tamen in 
-      mor<lb ed="#V" n="133" break="no"/>te deus homo: nec mortalis quidem: nec immortalis 
-      <!--00153.xml-->
-      <pb ed="#V" n="71-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>et tamen vere erat homo. Ille enim et huiusmo 
-      <lb ed="#V" n="2"/>di argutie in creaturis locum habent: sed fidei 
-      sa<lb ed="#V" n="3" break="no"/>cramentum a philosophicis argumentis est liberum. 
-      <lb ed="#V" n="4"/>Unde Ambro. Aufer argumenta verbi fides que 
-      <lb ed="#V" n="5"/>ritur. Inipsis gymnasiis suis iam dialectica taceat 
-      <lb ed="#V" n="6"/>piscatoribus creditur: non dialecticis. Dicimus 
-      er<lb ed="#V" n="7" break="no"/>go in morte christi eum vere fuisse hominem: et tamen 
-      mortu<lb ed="#V" n="8" break="no"/>um: et hominem quidem nec mortalem nec 
-      immor<lb ed="#V" n="9" break="no"/>talem quia vnitus erat anime et carni seiunctis. Alia 
-      <lb ed="#V" n="10"/>enim ratione dicitur deus homo: vel homo deus: quam 
-      mar<lb ed="#V" n="11" break="no"/>tinus vel ioannes. Homo enim dicitur deus et esconuerso 
-      <lb ed="#V" n="12"/>propter susceptionem hominis id est anime et carnis. 
-      Un<lb ed="#V" n="13" break="no"/>de Aug. Talis erat susceptio illa que deum 
-      ho<lb ed="#V" n="14" break="no"/>minem faceret: et hominem deum. Cum ergo illa susce 
-      <lb ed="#V" n="15"/>ptio per mortem non defecerit: sed deus homini et 
-      homo<lb ed="#V" n="16" break="no"/>deo sicut antc vnitus erat: vere et tunc deus erat 
-      <lb ed="#V" n="17"/>homo et econuerso: quia vnitus erat anime et carni: et 
-      homo<lb ed="#V" n="18" break="no"/>mortuus erat: quia anima a carne diuisa erat. 
-      <lb ed="#V" n="19"/>Propter separationem anime a carne mortuus: sed 
-      <lb ed="#V" n="20"/>propter vtriusque semper secum vnionem: homo. Non autem 
-      <lb ed="#V" n="21"/>sic erat homo vt ex anima et carne simul iunctis 
-      subsi<lb ed="#V" n="22" break="no"/>steret. Ex qua ratione dicitur aliquis alius homo et ipse 
-      <lb ed="#V" n="23"/>forte ante mortem: hoc etiam mo erat homo: et post 
-      re<lb ed="#V" n="24" break="no"/>surrectionem fuit. In morte vero homo erat tantum 
-      <lb ed="#V" n="25"/>propter anime et carnis secum vnionem et 
-      mor<lb ed="#V" n="26" break="no"/>tuus propter inter illa duo diuisionem. 
-   </p>
-            <p xml:id="kzz7yh-g49786-d1e197">
-               <lb ed="#V" n="27"/>¶ Si christus in morte erat homo alicubi et si vbi 
-      <lb ed="#V" n="28"/>hic queritur si cpristus in 
-      mor<lb ed="#V" n="29" break="no"/>cunque est homo sit. 
-      <lb ed="#V" n="30"/>te alicubi erat 
-      ho<lb ed="#V" n="31" break="no"/>mo: et si vbicunque est homo sit: Ad quod dicimus 
-      <lb ed="#V" n="32"/>quia non vbicunque erat homo erat: nec modo 
-      <lb ed="#V" n="33"/>vbicumque est homo est: quia vbique est secundum deitatem: nec 
-      <lb ed="#V" n="34"/>vbique est homo: quia non vbique homini vnitus: sed vbi 
-      <lb ed="#V" n="35"/>cunque est secundum hominem ibi homo est. Tempore autem 
-      <lb ed="#V" n="36"/>mortis et vbique erat secundum deum: et in sepulchro secundum 
-      <lb ed="#V" n="37"/>hominem: et in inferno secundum animam: et in sepulchro 
-      <lb ed="#V" n="38"/>secundum carnem. In sepulchro ergo erat homo: quia 
-      <lb ed="#V" n="39"/>humanitati vnitus erat: et si non toti: quia carni 
-      tan<lb ed="#V" n="40" break="no"/>tum et in inferno erat homo quia humanitati vni 
-      <lb ed="#V" n="41"/>tus: sed non toti quia anime tantum. Sed si in 
-      <lb ed="#V" n="42"/>inferno anime tantum et in sepulchro carni 
-      tan<lb ed="#V" n="43" break="no"/>tum vnitus erat: ergo nec in inferno vnitus erat 
-      <lb ed="#V" n="44"/>anime et carni: nec in sepulehro. Quomodo ergo 
-      ibi<lb ed="#V" n="45" break="no"/>vel hic homo esse dicitur: Que est ratio dicti: Quia 
-      <lb ed="#V" n="46"/>vna eademque vnione vnitus erat anime in 
-      infer<lb ed="#V" n="47" break="no"/>no: et carni in sepulchro. Et sic erat illis duabus 
-      <lb ed="#V" n="48"/>tunc separatis vnitus. Sicut ante separationem 
-      <lb ed="#V" n="49"/>idest ante mortem. Ad hoc autem opponitur. 
-      <lb ed="#V" n="50"/>Si christus animam tantum vel carnem tantum 
-      as<lb ed="#V" n="51" break="no"/>sumpsisset: non fuisset verus homo: sed propter 
-      <lb ed="#V" n="52"/>vtriusque assumptionem verus homo fuit. Sic 
-      <lb ed="#V" n="53"/>ergo vbi carnem et animam sibi vnitam non 
-      ha<lb ed="#V" n="54" break="no"/>bebat: verus homo ibi non erat. Sed 
-      tempo<lb ed="#V" n="55" break="no"/>re mortis nusquam illa duo vnita habebat: quia nec 
-      <lb ed="#V" n="56"/>in sepulchro nec in inferno: nec alibi. Nusquam er 
-      <!--00153.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>go erat homo. Ad quod dicimus: quia christ 
-      <lb ed="#V" n="58"/>vtique verus homo non fuisset: si carnem et animam 
-      <lb ed="#V" n="59"/>non assumpsisset. Sed tamen quia ex quo 
-      assun<lb ed="#V" n="60" break="no"/>psit: neutrum deposuit sed cum vtroque eandem 
-      <lb ed="#V" n="61"/>vnionem indesinenter tenuit: quam assumendo 
-      con<lb ed="#V" n="62" break="no"/>traxit. Ideo non incongrue vbicunque anime vel 
-      car<lb ed="#V" n="63" break="no"/>ni vel vtrique vnitus est: ibi homo esse dicitur: quia 
-      <lb ed="#V" n="64"/>ibi humanatus est: ergo et in sepulchro erat 
-      ho<lb ed="#V" n="65" break="no"/>mo: et in inferno erat homo: quia vtrobique 
-      hu<lb ed="#V" n="66" break="no"/>manatus est christus: et vnam eandemque cum 
-      <lb ed="#V" n="67"/>anima et carne licet separatis habebat vnionem 
-      <lb ed="#V" n="68"/>et vno eodemque tempore in sepulchro iacuit 
-      chri<lb ed="#V" n="69" break="no"/>stus et ad infernum descendit: sed in sepulchro 
-      iacu<lb ed="#V" n="70" break="no"/>it secundum solam carnem: et in infernum descendit secundum 
-      <lb ed="#V" n="71"/>solam animam: Unde Augu. Quis non est 
-      dereli<lb ed="#V" n="72" break="no"/>ctus in inferno. Christus: sed in anima sola. quis 
-      <lb ed="#V" n="73"/>iacuit in sepulcbro: christus: sed in carne sola: 
-      <lb ed="#V" n="74"/>quia in his et in singulis christus est. Christum 
-      <lb ed="#V" n="75"/>in his omnibus et in singulis confitemur. Ex 
-      <lb ed="#V" n="76"/>his euidenter ostenditur quod carni iacenti in 
-      se<lb ed="#V" n="77" break="no"/>pulchro vnitus erat christus: sicut anime in in 
-      <lb ed="#V" n="78"/>ferno. Alioquin si carni mortue non esset 
-      vni<lb ed="#V" n="79" break="no"/>tus: non in ea diceretur iacuisse in sepulchro. 
-      Ani<lb ed="#V" n="80" break="no"/>ma ergo ad infernum descendit. Caro in 
-      sepul<lb ed="#V" n="81" break="no"/>chro inacuit: sapientia cum vtroque permansit: que 
-      <lb ed="#V" n="82"/>in inferno positis vt ait Ambro. lumen vite 
-      fun<lb ed="#V" n="83" break="no"/>debat eterne. Radiabat illic lux vera sapientie 
-      <lb ed="#V" n="84"/>illuminabat infernum: sed in inferno non 
-      clau<lb ed="#V" n="85" break="no"/>debatur. Quis enim locus est sapientie de qua 
-      <lb ed="#V" n="86"/>scriptum est. Nescit homo vias eius: nec 
-      inuenta<lb ed="#V" n="87" break="no"/>est inter homines. De qua abyssus dicit non 
-      <lb ed="#V" n="88"/>est in mei. mare dicit. non est mecum: ergo nec in 
-      <lb ed="#V" n="89"/>tempore: nec in loco sapientia est: cui nec mors 
-      <lb ed="#V" n="90"/>tribuenda est. In ligno enim caro: non illa 
-      ope<lb ed="#V" n="91" break="no"/>ratrix omnium substantia diuina pendebat. 
-      Comn<lb ed="#V" n="92" break="no"/>fitemur tamen christum pependisse in ligno et ia 
-      <lb ed="#V" n="93"/>cuisse in sepulchro sed in carne sola. Et fuisse 
-      <lb ed="#V" n="94"/>in inferno: sed in anima sola. 
-      <lb ed="#V" n="95"/>entm 
-      i<lb ed="#V" n="96" break="no"/>quo totus est homo vel deus sed non totum. 
-      <lb ed="#V" n="97"/>Et vtique totus eodem 
-      tempo<lb ed="#V" n="98" break="no"/>re erat in 
-      in<lb ed="#V" n="99" break="no"/>ferno: totus in celo: totus vbique. Persona enim 
-      <lb ed="#V" n="100"/>illa eterna non maior erat vbi carnem et animam 
-      <lb ed="#V" n="101"/>simul vnitam sibi habebat quam vbi alterum 
-      tan<lb ed="#V" n="102" break="no"/>tum: nec maior erat vbi vtrumque simul vel 
-      alte<lb ed="#V" n="103" break="no"/>rum tantum vnitum habebat quam vbi erat 
-      nen<lb ed="#V" n="104" break="no"/>trum habens vnitum. Totus ergo christus et per. 
-      <lb ed="#V" n="105"/>fectus vbique erat. Unde Augu. Non dimisit 
-      pa<lb ed="#V" n="106" break="no"/>trem christus cum venit in virginem: vbique 
-      to<lb ed="#V" n="107" break="no"/>tus vbique perfectus. Uno ergo eodemque 
-      tempo<lb ed="#V" n="108" break="no"/>re totus erat in inferno totus in celo. Erat apud 
-      <lb ed="#V" n="109"/>inferos resurrectio mortuorum erat super celos vita 
-      <lb ed="#V" n="110"/>viuentium: vere mortuus: vere viuus in quo mortem 
-      su<lb ed="#V" n="111" break="no"/>sceptio mortalitatis excepit: et vitam diuinitas non 
-      <lb ed="#V" n="112"/>perdidit. Mortem ergo dei filius et in anima non 
-      <!--00154.xml-->
-      <pb ed="#V" n="71-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>pertulit: et in maiestate non sentit: sed tamen 
-      partici<lb ed="#V" n="2" break="no"/>patione infirmitatis rex glie crucifixus est. Ex 
-      <lb ed="#V" n="3"/>his apparet quod christus eodem tempore totus erat in 
-      sepul<lb ed="#V" n="4" break="no"/>chro: totus in inferno: totus vbique sicut et modo 
-      <lb ed="#V" n="5"/>totus est vbicumque est: sed non totum. Nec in 
-      sepul<lb ed="#V" n="6" break="no"/>chro vel in inferno totum erat: et si totus: sicut christus 
-      <lb ed="#V" n="7"/>totus est deus: totus homo: sed non totum: quia non 
-      <lb ed="#V" n="8"/>solum est deus vel homo: sed et deus et homo. Totum enim 
-      <lb ed="#V" n="9"/>ad naturam refertur: totus autem ad hypostasim sicut 
-      <lb ed="#V" n="10"/>aliud et aliquid ad naturam: alius vero et aliquis ad 
-      <lb ed="#V" n="11"/>personam referuntur. Unde Ioan. dam. Totus christus est 
-      <lb ed="#V" n="12"/>deus perfectus non autem totum deus est. Non enim solum 
-      <lb ed="#V" n="13"/>deus est sed et homo et totus homo perfectus. Non 
-      au<lb ed="#V" n="14" break="no"/>tem totum homo: non solum enim homo sed et deus 
-      <lb ed="#V" n="15"/>Totum enim nature est representatiuum. Totus 
-      <lb ed="#V" n="16"/>autem hypostaseos: sicut aliud quidem est 
-      na<lb ed="#V" n="17" break="no"/>ture alius autem hypostaseos sic et huiusmodi. 
-   </p>
-            <p xml:id="kzz7yh-g49786-d1e434">
-               <lb ed="#V" n="18"/>¶ Si ea que dicuntur de deo vel de filio dei 
-      pos<lb ed="#V" n="19" break="no"/>sunt dici de homine illo: vel de filio hominis. 
-      <lb ed="#V" n="20"/>Solet etiam queri si congruenter 
-      di<lb ed="#V" n="21" break="no"/>ci possit filius hominis vt 
-      <lb ed="#V" n="22"/>ille homo descendisse de celo vel vbique esse: sicut dicitur 
-      <lb ed="#V" n="23"/>filius dei vel deus de celo venisse et vbique esse: 
-      <lb ed="#V" n="24"/>Ad quod dicimus si ad vnitatem persone referatur dicti 
-      <lb ed="#V" n="25"/>intelligentia: sane dici potest. Si vero ad 
-      distin<lb ed="#V" n="26" break="no"/>ctionem naturarum: nullatenus concedendum est. 
-      <lb ed="#V" n="27"/>Unde Aug. Una persona est christus deus et homo. Ideo 
-      <lb ed="#V" n="28"/>dicitur. Nemo ascendit in celum nisi qui de 
-      celo<lb ed="#V" n="29" break="no"/>descendit etc. Si ergo attendas distinctionem sub 
-      <lb ed="#V" n="30"/>stantiarum filius dei descendit: et filius hominis 
-      cruci<lb ed="#V" n="31" break="no"/>fixus est. Si vero vnitatem persone: et filius 
-      homi<lb ed="#V" n="32" break="no"/>nis descendit: et filius dei est crucifixus. propter 
-      <lb ed="#V" n="33"/>hanc vnitatem persone non solum filium hominis de 
-      <lb ed="#V" n="34"/>scendisse de celo: sed etiam dixit esse in celo cum 
-      <lb ed="#V" n="35"/>loqueretur in terra. propter hanc eandem dici 
-      <lb ed="#V" n="36"/>tur deus glorie crucifixus qui tamen ex forma 
-      <lb ed="#V" n="37"/>serui tantum crucifixus est. Non tamen secundum 
-      <lb ed="#V" n="38"/>hoc quod deus glorie est secundum quod glorificat suos: et tamen 
-      <lb ed="#V" n="39"/>dicitur deus glorie crucifixus. Recte quidem 
-      <lb ed="#V" n="40"/>non ex virtute diuinitatis: sed ex infirmitate 
-      car<lb ed="#V" n="41" break="no"/>nis. Quid ergo propter quid: et quid secundum quid dicatur: 
-      <lb ed="#V" n="42"/>prudens et diligens et pius lector intelligat. Hec 
-      <lb ed="#V" n="43"/>de corrigia calciamenti dominici dicta sufficiant. Ne 
-      <lb ed="#V" n="44"/>ossa regis idumee consumantur vsque in cinerem. 
-      <lb ed="#V" n="45"/>Ic queritur. Utrum in illo triduo 
-      <lb ed="#V" n="46"/>montis christus fuerit 
-      ho<lb ed="#V" n="47" break="no"/>mo etc. Superius determinauit magister de 
-      <lb ed="#V" n="48"/>statu christi in morte quantum ad horam mortis. Hic 
-      <lb ed="#V" n="49"/>determinat de statu christi in morte quantum ad tempus 
-      se<lb ed="#V" n="50" break="no"/>quens horam mortis: et diuiditur in partes quatuor: secundum dubita 
-      <lb ed="#V" n="51"/>tiones quas mouet
-   </p>
-            <p xml:id="kzz7yh-g49786-d1e511">
-      ¶ Primo vtrum christus in triduo fuerit 
-      <lb ed="#V" n="52"/>homo
-   </p>
-            <p xml:id="kzz7yh-g49786-d1e516">
-      ¶ Secundo vtrum fuerit vbique homo ibi. Hic quaeritur si christus. 
-   </p>
-            <p xml:id="kzz7yh-g49786-d1e518">
-               <lb ed="#V" n="53"/>¶ Tertio vtrum christus vbique sit totus ibi et vbique totus. 
-   </p>
-            <p xml:id="kzz7yh-g49786-d1e523">
-               <lb ed="#V" n="54"/>¶ Quarto si secundum quod homo potest dici descendisse de 
-      celo<lb ed="#V" n="55" break="no"/>ibi. Solet etiam queri. 
-   </p>
-            <p xml:id="kzz7yh-g49786-d1e530">
-               <lb ed="#V" n="56"/>CIrca hanc distinctionem queruntur 
-      <lb ed="#V" n="57"/>principaliter quinque. 
-   </p>
-            <p xml:id="kzz7yh-g49786-d1e537">
-               <lb ed="#V" n="58"/>¶ Primo de existentia hominis christi in mortis 
-      tri<lb ed="#V" n="59" break="no"/>rino
-   </p>
-            <p xml:id="kzz7yh-g49786-d1e545">
-      ¶ Secundo deuius deuncnio d nteton. 
-      <!--00154.xml-->
-      <cb ed="#V" n="b"/>
-            </p>
-            <p xml:id="kzz7yh-g49786-d1e552">
-               <lb ed="#V" n="60"/>¶ Tertio de effectu quem fecit in inferno.
-   </p>
-            <p xml:id="kzz7yh-g49786-d1e557">
-      ¶ 
-      Quarto<lb ed="#V" n="61" break="no"/>de ascensu eius in caelum.
-   </p>
-            <p xml:id="kzz7yh-g49786-d1e562">
-      ¶ Quinto de ascendendi modo. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="71-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g49786"><!-- l3d22prae -->
+        <head xml:id="kzz7yh-g49786-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-g49786-d1e103">
+          <lb ed="#V" n="122"/>¶ Si christus in morte fuit homo. Di. XXII 
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e108">
+          <lb ed="#V" n="123"/>HIc queritur vtrum in 
+          <lb ed="#V" n="124"/>illo 
+          tri<lb ed="#V" n="125" break="no"/>duo mortis christus fuerit homo: Quod 
+          <lb ed="#V" n="126"/>non videtur quibusdam: quia mortuus 
+          <lb ed="#V" n="127"/>erat: et homo mortuus non est 
+          ho<lb ed="#V" n="128" break="no"/>mo. Addunt etiam quod si tunc erat homo: vel 
+          <lb ed="#V" n="129"/>mortalis vel immortalis: sed mortalis non: 
+          <lb ed="#V" n="130"/>quia mortuus: nec immotalis: quia tantum 
+          <lb ed="#V" n="131"/>post resurrectionem. Quibus respondemus: 
+          <lb ed="#V" n="132"/>quia licet homo mortuus fuerit: erat tamen in 
+          mor<lb ed="#V" n="133" break="no"/>te deus homo: nec mortalis quidem: nec immortalis 
+          <!-\-00153.xml-\->
+          <pb ed="#V" n="71-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>et tamen vere erat homo. Ille enim et huiusmo 
+          <lb ed="#V" n="2"/>di argutie in creaturis locum habent: sed fidei 
+          sa<lb ed="#V" n="3" break="no"/>cramentum a philosophicis argumentis est liberum. 
+          <lb ed="#V" n="4"/>Unde Ambro. Aufer argumenta verbi fides que 
+          <lb ed="#V" n="5"/>ritur. Inipsis gymnasiis suis iam dialectica taceat 
+          <lb ed="#V" n="6"/>piscatoribus creditur: non dialecticis. Dicimus 
+          er<lb ed="#V" n="7" break="no"/>go in morte christi eum vere fuisse hominem: et tamen 
+          mortu<lb ed="#V" n="8" break="no"/>um: et hominem quidem nec mortalem nec 
+          immor<lb ed="#V" n="9" break="no"/>talem quia vnitus erat anime et carni seiunctis. Alia 
+          <lb ed="#V" n="10"/>enim ratione dicitur deus homo: vel homo deus: quam 
+          mar<lb ed="#V" n="11" break="no"/>tinus vel ioannes. Homo enim dicitur deus et esconuerso 
+          <lb ed="#V" n="12"/>propter susceptionem hominis id est anime et carnis. 
+          Un<lb ed="#V" n="13" break="no"/>de Aug. Talis erat susceptio illa que deum 
+          ho<lb ed="#V" n="14" break="no"/>minem faceret: et hominem deum. Cum ergo illa susce 
+          <lb ed="#V" n="15"/>ptio per mortem non defecerit: sed deus homini et 
+          homo<lb ed="#V" n="16" break="no"/>deo sicut antc vnitus erat: vere et tunc deus erat 
+          <lb ed="#V" n="17"/>homo et econuerso: quia vnitus erat anime et carni: et 
+          homo<lb ed="#V" n="18" break="no"/>mortuus erat: quia anima a carne diuisa erat. 
+          <lb ed="#V" n="19"/>Propter separationem anime a carne mortuus: sed 
+          <lb ed="#V" n="20"/>propter vtriusque semper secum vnionem: homo. Non autem 
+          <lb ed="#V" n="21"/>sic erat homo vt ex anima et carne simul iunctis 
+          subsi<lb ed="#V" n="22" break="no"/>steret. Ex qua ratione dicitur aliquis alius homo et ipse 
+          <lb ed="#V" n="23"/>forte ante mortem: hoc etiam mo erat homo: et post 
+          re<lb ed="#V" n="24" break="no"/>surrectionem fuit. In morte vero homo erat tantum 
+          <lb ed="#V" n="25"/>propter anime et carnis secum vnionem et 
+          mor<lb ed="#V" n="26" break="no"/>tuus propter inter illa duo diuisionem. 
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e197">
+          <lb ed="#V" n="27"/>¶ Si christus in morte erat homo alicubi et si vbi 
+          <lb ed="#V" n="28"/>hic queritur si cpristus in 
+          mor<lb ed="#V" n="29" break="no"/>cunque est homo sit. 
+          <lb ed="#V" n="30"/>te alicubi erat 
+          ho<lb ed="#V" n="31" break="no"/>mo: et si vbicunque est homo sit: Ad quod dicimus 
+          <lb ed="#V" n="32"/>quia non vbicunque erat homo erat: nec modo 
+          <lb ed="#V" n="33"/>vbicumque est homo est: quia vbique est secundum deitatem: nec 
+          <lb ed="#V" n="34"/>vbique est homo: quia non vbique homini vnitus: sed vbi 
+          <lb ed="#V" n="35"/>cunque est secundum hominem ibi homo est. Tempore autem 
+          <lb ed="#V" n="36"/>mortis et vbique erat secundum deum: et in sepulchro secundum 
+          <lb ed="#V" n="37"/>hominem: et in inferno secundum animam: et in sepulchro 
+          <lb ed="#V" n="38"/>secundum carnem. In sepulchro ergo erat homo: quia 
+          <lb ed="#V" n="39"/>humanitati vnitus erat: et si non toti: quia carni 
+          tan<lb ed="#V" n="40" break="no"/>tum et in inferno erat homo quia humanitati vni 
+          <lb ed="#V" n="41"/>tus: sed non toti quia anime tantum. Sed si in 
+          <lb ed="#V" n="42"/>inferno anime tantum et in sepulchro carni 
+          tan<lb ed="#V" n="43" break="no"/>tum vnitus erat: ergo nec in inferno vnitus erat 
+          <lb ed="#V" n="44"/>anime et carni: nec in sepulehro. Quomodo ergo 
+          ibi<lb ed="#V" n="45" break="no"/>vel hic homo esse dicitur: Que est ratio dicti: Quia 
+          <lb ed="#V" n="46"/>vna eademque vnione vnitus erat anime in 
+          infer<lb ed="#V" n="47" break="no"/>no: et carni in sepulchro. Et sic erat illis duabus 
+          <lb ed="#V" n="48"/>tunc separatis vnitus. Sicut ante separationem 
+          <lb ed="#V" n="49"/>idest ante mortem. Ad hoc autem opponitur. 
+          <lb ed="#V" n="50"/>Si christus animam tantum vel carnem tantum 
+          as<lb ed="#V" n="51" break="no"/>sumpsisset: non fuisset verus homo: sed propter 
+          <lb ed="#V" n="52"/>vtriusque assumptionem verus homo fuit. Sic 
+          <lb ed="#V" n="53"/>ergo vbi carnem et animam sibi vnitam non 
+          ha<lb ed="#V" n="54" break="no"/>bebat: verus homo ibi non erat. Sed 
+          tempo<lb ed="#V" n="55" break="no"/>re mortis nusquam illa duo vnita habebat: quia nec 
+          <lb ed="#V" n="56"/>in sepulchro nec in inferno: nec alibi. Nusquam er 
+          <!-\-00153.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>go erat homo. Ad quod dicimus: quia christ 
+          <lb ed="#V" n="58"/>vtique verus homo non fuisset: si carnem et animam 
+          <lb ed="#V" n="59"/>non assumpsisset. Sed tamen quia ex quo 
+          assun<lb ed="#V" n="60" break="no"/>psit: neutrum deposuit sed cum vtroque eandem 
+          <lb ed="#V" n="61"/>vnionem indesinenter tenuit: quam assumendo 
+          con<lb ed="#V" n="62" break="no"/>traxit. Ideo non incongrue vbicunque anime vel 
+          car<lb ed="#V" n="63" break="no"/>ni vel vtrique vnitus est: ibi homo esse dicitur: quia 
+          <lb ed="#V" n="64"/>ibi humanatus est: ergo et in sepulchro erat 
+          ho<lb ed="#V" n="65" break="no"/>mo: et in inferno erat homo: quia vtrobique 
+          hu<lb ed="#V" n="66" break="no"/>manatus est christus: et vnam eandemque cum 
+          <lb ed="#V" n="67"/>anima et carne licet separatis habebat vnionem 
+          <lb ed="#V" n="68"/>et vno eodemque tempore in sepulchro iacuit 
+          chri<lb ed="#V" n="69" break="no"/>stus et ad infernum descendit: sed in sepulchro 
+          iacu<lb ed="#V" n="70" break="no"/>it secundum solam carnem: et in infernum descendit secundum 
+          <lb ed="#V" n="71"/>solam animam: Unde Augu. Quis non est 
+          dereli<lb ed="#V" n="72" break="no"/>ctus in inferno. Christus: sed in anima sola. quis 
+          <lb ed="#V" n="73"/>iacuit in sepulcbro: christus: sed in carne sola: 
+          <lb ed="#V" n="74"/>quia in his et in singulis christus est. Christum 
+          <lb ed="#V" n="75"/>in his omnibus et in singulis confitemur. Ex 
+          <lb ed="#V" n="76"/>his euidenter ostenditur quod carni iacenti in 
+          se<lb ed="#V" n="77" break="no"/>pulchro vnitus erat christus: sicut anime in in 
+          <lb ed="#V" n="78"/>ferno. Alioquin si carni mortue non esset 
+          vni<lb ed="#V" n="79" break="no"/>tus: non in ea diceretur iacuisse in sepulchro. 
+          Ani<lb ed="#V" n="80" break="no"/>ma ergo ad infernum descendit. Caro in 
+          sepul<lb ed="#V" n="81" break="no"/>chro inacuit: sapientia cum vtroque permansit: que 
+          <lb ed="#V" n="82"/>in inferno positis vt ait Ambro. lumen vite 
+          fun<lb ed="#V" n="83" break="no"/>debat eterne. Radiabat illic lux vera sapientie 
+          <lb ed="#V" n="84"/>illuminabat infernum: sed in inferno non 
+          clau<lb ed="#V" n="85" break="no"/>debatur. Quis enim locus est sapientie de qua 
+          <lb ed="#V" n="86"/>scriptum est. Nescit homo vias eius: nec 
+          inuenta<lb ed="#V" n="87" break="no"/>est inter homines. De qua abyssus dicit non 
+          <lb ed="#V" n="88"/>est in mei. mare dicit. non est mecum: ergo nec in 
+          <lb ed="#V" n="89"/>tempore: nec in loco sapientia est: cui nec mors 
+          <lb ed="#V" n="90"/>tribuenda est. In ligno enim caro: non illa 
+          ope<lb ed="#V" n="91" break="no"/>ratrix omnium substantia diuina pendebat. 
+          Comn<lb ed="#V" n="92" break="no"/>fitemur tamen christum pependisse in ligno et ia 
+          <lb ed="#V" n="93"/>cuisse in sepulchro sed in carne sola. Et fuisse 
+          <lb ed="#V" n="94"/>in inferno: sed in anima sola. 
+          <lb ed="#V" n="95"/>entm 
+          i<lb ed="#V" n="96" break="no"/>quo totus est homo vel deus sed non totum. 
+          <lb ed="#V" n="97"/>Et vtique totus eodem 
+          tempo<lb ed="#V" n="98" break="no"/>re erat in 
+          in<lb ed="#V" n="99" break="no"/>ferno: totus in celo: totus vbique. Persona enim 
+          <lb ed="#V" n="100"/>illa eterna non maior erat vbi carnem et animam 
+          <lb ed="#V" n="101"/>simul vnitam sibi habebat quam vbi alterum 
+          tan<lb ed="#V" n="102" break="no"/>tum: nec maior erat vbi vtrumque simul vel 
+          alte<lb ed="#V" n="103" break="no"/>rum tantum vnitum habebat quam vbi erat 
+          nen<lb ed="#V" n="104" break="no"/>trum habens vnitum. Totus ergo christus et per. 
+          <lb ed="#V" n="105"/>fectus vbique erat. Unde Augu. Non dimisit 
+          pa<lb ed="#V" n="106" break="no"/>trem christus cum venit in virginem: vbique 
+          to<lb ed="#V" n="107" break="no"/>tus vbique perfectus. Uno ergo eodemque 
+          tempo<lb ed="#V" n="108" break="no"/>re totus erat in inferno totus in celo. Erat apud 
+          <lb ed="#V" n="109"/>inferos resurrectio mortuorum erat super celos vita 
+          <lb ed="#V" n="110"/>viuentium: vere mortuus: vere viuus in quo mortem 
+          su<lb ed="#V" n="111" break="no"/>sceptio mortalitatis excepit: et vitam diuinitas non 
+          <lb ed="#V" n="112"/>perdidit. Mortem ergo dei filius et in anima non 
+          <!-\-00154.xml-\->
+          <pb ed="#V" n="71-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>pertulit: et in maiestate non sentit: sed tamen 
+          partici<lb ed="#V" n="2" break="no"/>patione infirmitatis rex glie crucifixus est. Ex 
+          <lb ed="#V" n="3"/>his apparet quod christus eodem tempore totus erat in 
+          sepul<lb ed="#V" n="4" break="no"/>chro: totus in inferno: totus vbique sicut et modo 
+          <lb ed="#V" n="5"/>totus est vbicumque est: sed non totum. Nec in 
+          sepul<lb ed="#V" n="6" break="no"/>chro vel in inferno totum erat: et si totus: sicut christus 
+          <lb ed="#V" n="7"/>totus est deus: totus homo: sed non totum: quia non 
+          <lb ed="#V" n="8"/>solum est deus vel homo: sed et deus et homo. Totum enim 
+          <lb ed="#V" n="9"/>ad naturam refertur: totus autem ad hypostasim sicut 
+          <lb ed="#V" n="10"/>aliud et aliquid ad naturam: alius vero et aliquis ad 
+          <lb ed="#V" n="11"/>personam referuntur. Unde Ioan. dam. Totus christus est 
+          <lb ed="#V" n="12"/>deus perfectus non autem totum deus est. Non enim solum 
+          <lb ed="#V" n="13"/>deus est sed et homo et totus homo perfectus. Non 
+          au<lb ed="#V" n="14" break="no"/>tem totum homo: non solum enim homo sed et deus 
+          <lb ed="#V" n="15"/>Totum enim nature est representatiuum. Totus 
+          <lb ed="#V" n="16"/>autem hypostaseos: sicut aliud quidem est 
+          na<lb ed="#V" n="17" break="no"/>ture alius autem hypostaseos sic et huiusmodi. 
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e434">
+          <lb ed="#V" n="18"/>¶ Si ea que dicuntur de deo vel de filio dei 
+          pos<lb ed="#V" n="19" break="no"/>sunt dici de homine illo: vel de filio hominis. 
+          <lb ed="#V" n="20"/>Solet etiam queri si congruenter 
+          di<lb ed="#V" n="21" break="no"/>ci possit filius hominis vt 
+          <lb ed="#V" n="22"/>ille homo descendisse de celo vel vbique esse: sicut dicitur 
+          <lb ed="#V" n="23"/>filius dei vel deus de celo venisse et vbique esse: 
+          <lb ed="#V" n="24"/>Ad quod dicimus si ad vnitatem persone referatur dicti 
+          <lb ed="#V" n="25"/>intelligentia: sane dici potest. Si vero ad 
+          distin<lb ed="#V" n="26" break="no"/>ctionem naturarum: nullatenus concedendum est. 
+          <lb ed="#V" n="27"/>Unde Aug. Una persona est christus deus et homo. Ideo 
+          <lb ed="#V" n="28"/>dicitur. Nemo ascendit in celum nisi qui de 
+          celo<lb ed="#V" n="29" break="no"/>descendit etc. Si ergo attendas distinctionem sub 
+          <lb ed="#V" n="30"/>stantiarum filius dei descendit: et filius hominis 
+          cruci<lb ed="#V" n="31" break="no"/>fixus est. Si vero vnitatem persone: et filius 
+          homi<lb ed="#V" n="32" break="no"/>nis descendit: et filius dei est crucifixus. propter 
+          <lb ed="#V" n="33"/>hanc vnitatem persone non solum filium hominis de 
+          <lb ed="#V" n="34"/>scendisse de celo: sed etiam dixit esse in celo cum 
+          <lb ed="#V" n="35"/>loqueretur in terra. propter hanc eandem dici 
+          <lb ed="#V" n="36"/>tur deus glorie crucifixus qui tamen ex forma 
+          <lb ed="#V" n="37"/>serui tantum crucifixus est. Non tamen secundum 
+          <lb ed="#V" n="38"/>hoc quod deus glorie est secundum quod glorificat suos: et tamen 
+          <lb ed="#V" n="39"/>dicitur deus glorie crucifixus. Recte quidem 
+          <lb ed="#V" n="40"/>non ex virtute diuinitatis: sed ex infirmitate 
+          car<lb ed="#V" n="41" break="no"/>nis. Quid ergo propter quid: et quid secundum quid dicatur: 
+          <lb ed="#V" n="42"/>prudens et diligens et pius lector intelligat. Hec 
+          <lb ed="#V" n="43"/>de corrigia calciamenti dominici dicta sufficiant. Ne 
+          <lb ed="#V" n="44"/>ossa regis idumee consumantur vsque in cinerem.
+        </p>-->
+        <p xml:id="kzz7yh-g49786-d1e106">
+          <lb ed="#V" n="45"/>HIc queritur. Utrum in illo triduo 
+          <lb ed="#V" n="46"/>montis christus fuerit 
+          ho<lb ed="#V" n="47" break="no"/>mo etc. Superius determinauit magister de 
+          <lb ed="#V" n="48"/>statu christi in morte quantum ad horam mortis. Hic 
+          <lb ed="#V" n="49"/>determinat de statu christi in morte quantum ad tempus 
+          se<lb ed="#V" n="50" break="no"/>quens horam mortis: et diuiditur in partes quatuor: secundum dubita 
+          <lb ed="#V" n="51"/>tiones quas mouet
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e511">
+          ¶ Primo vtrum christus in triduo fuerit 
+          <lb ed="#V" n="52"/>homo
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e516">
+          ¶ Secundo vtrum fuerit vbique homo ibi. Hic quaeritur si christus. 
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e518">
+          <lb ed="#V" n="53"/>¶ Tertio vtrum christus vbique sit totus ibi et vbique totus. 
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e523">
+          <lb ed="#V" n="54"/>¶ Quarto si secundum quod homo potest dici descendisse de 
+          celo<lb ed="#V" n="55" break="no"/>ibi. Solet etiam queri. 
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e530">
+          <lb ed="#V" n="56"/>CIrca hanc distinctionem queruntur 
+          <lb ed="#V" n="57"/>principaliter quinque. 
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e537">
+          <lb ed="#V" n="58"/>¶ Primo de existentia hominis christi in mortis 
+          tri<lb ed="#V" n="59" break="no"/>rino
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e545">
+          ¶ Secundo deuius deuncnio d nteton. 
+          <!--00154.xml-->
+          <cb ed="#V" n="b"/>
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e552">
+          <lb ed="#V" n="60"/>¶ Tertio de effectu quem fecit in inferno.
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e557">
+          ¶ 
+          Quarto<lb ed="#V" n="61" break="no"/>de ascensu eius in caelum.
+        </p>
+        <p xml:id="kzz7yh-g49786-d1e562">
+          ¶ Quinto de ascendendi modo. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

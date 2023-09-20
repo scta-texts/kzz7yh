@@ -1,311 +1,314 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="170-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f121659"><!-- l2d43prae -->
-            <head xml:id="kzz7yh-f121659-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-f121659-d1e103">
-               <lb ed="#V" n="98"/>¶ De peccato in spiritum sanctum quod dicitur etiam 
-      <lb ed="#V" n="99"/>peccatum ad mortem. Dist. XIIII 
-      <lb ed="#V" n="100"/>St preterea quoddam 
-      <lb ed="#V" n="101"/>peccati genus 
-      <lb ed="#V" n="102"/>ceteris grauius et abhominabilius quod 
-      <lb ed="#V" n="103"/>dicitur peccatum in spiritum sanctum 
-      <lb ed="#V" n="104"/>De quo in euangelio veritas ait. Qui 
-      <lb ed="#V" n="105"/>peccauerit in spiritum sanctum non remittetur 
-      <lb ed="#V" n="106"/>ei neque hic neque in futuro. Et Ioannes in 
-      epi<lb ed="#V" n="107" break="no"/>stola canonica. Est peccatum ad mortem: non 
-      <lb ed="#V" n="108"/>pro eo dicto vt quis oret. Qui enim peccat in 
-      <lb ed="#V" n="109"/>patrem remittetur ei. et qui peccat in filium 
-      re<lb ed="#V" n="110" break="no"/>mittetur ei: qui autem blasphemauerit in 
-      spi<lb ed="#V" n="111" break="no"/>ritum sanctum non remittetur ei: neque hic: neque 
-      <lb ed="#V" n="112"/>in futuro. Sed queritur quid sit illud peccatum 
-      <lb ed="#V" n="113"/>in spiritum sanctum vel ad mortem. Quidam 
-      <lb ed="#V" n="114"/>dicunt illud peccatum esse desperationis vel 
-      ob<lb ed="#V" n="115" break="no"/>stinationis. Obstinatio est indurate mentis in 
-      <lb ed="#V" n="116"/>malitia pertinacia per quam homo sit 
-      impeni<lb ed="#V" n="117" break="no"/>tens. Desperatio est qua quis diffidit penitus 
-      <lb ed="#V" n="118"/>de bonitate dei: estimans suam malitiam 
-      diui<lb ed="#V" n="119" break="no"/>ne bonitatis magnitudinem excedere. Sicut 
-      <lb ed="#V" n="120"/>chayn qui dixit. Maior est iniquitas mea 
-      quaom<lb ed="#V" n="121" break="no"/>veniam mereat. Utrumque vero dicitur peccatum 
-      <lb ed="#V" n="122"/>in spiritum sanctum: quia spiritus sanctus est. 
-      <lb ed="#V" n="123"/>amor patris et filii: et benignitas qua se inuicem 
-      <lb ed="#V" n="124"/>et nos diligunt: que tanta est cuius finis non est. 
-      <lb ed="#V" n="125"/>Recte ergo in spiritum sanctum delinquere 
-      <lb ed="#V" n="126"/>dicuntur qui sua malitia dei bonitatem 
-      supe<lb ed="#V" n="127" break="no"/>rare putant: et ideo penitentiam non assumunt: 
-      <lb ed="#V" n="128"/>et qui iniquitati tam pertinaci mente 
-      inhe<lb ed="#V" n="129" break="no"/>rent: vt eam numquam relinquere proponant: et 
-      <!--00357.xml-->
-      <pb ed="#V" n="171-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>ad bonitatem spiritus sancti nunquam redire: 
-      pa<lb ed="#V" n="2" break="no"/>tientia dei abutentes: et de misericordia dei 
-      ni<lb ed="#V" n="3" break="no"/>mis presumentes: quibus placet malitia 
-      pro<lb ed="#V" n="4" break="no"/>pter se: sicut piis boitas. Isti nimia pertinacia 
-      <lb ed="#V" n="5"/>et presumptione peccant autumantes deum non 
-      <lb ed="#V" n="6"/>esse iustum. Illi desperatione deum non bonum 
-      <lb ed="#V" n="7"/>existimant tollentes in hoc turbulentissimo 
-      ini<lb ed="#V" n="8" break="no"/>quitatum mari portum diuine iustitie: quo se 
-      re<lb ed="#V" n="9" break="no"/>cipiant fluctuantes. Atque ipsa desperatione 
-      ad<lb ed="#V" n="10" break="no"/>dunt peccata peccatis dicentes misericordiam 
-      <lb ed="#V" n="11"/>nullam esse: et quod super peccatores necessaria 
-      <lb ed="#V" n="12"/>damnatio debetur. 
-   </p>
-            <p xml:id="kzz7yh-f121659-d1e207">
-               <lb ed="#V" n="13"/>¶ Utrum omnis obstinatio sit peccatum in 
-      spi<lb ed="#V" n="14" break="no"/>ritum sanctum. 
-      <lb ed="#V" n="15"/>Sed queritur. vtrum omnis 
-      ob<lb ed="#V" n="16" break="no"/>stinatio mentis in 
-      <lb ed="#V" n="17"/>malitia obdurate omnisque desperatio sit 
-      pec<lb ed="#V" n="18" break="no"/>catum in spiritum sanctum. Quidam dicunt 
-      <lb ed="#V" n="19"/>omnem obstinationem et omnem desperationem esse 
-      <lb ed="#V" n="20"/>peccatum in spiritum sanctum. Quod si est aliquando 
-      <lb ed="#V" n="21"/>illud peccatum remittitur: quia multi etiam 
-      obsti<lb ed="#V" n="22" break="no"/>natissimi et despratissimi conuertuntur vt Aug. 
-      <lb ed="#V" n="23"/>ait super illum locum pslamum. Conuertam in 
-      profun<lb ed="#V" n="24" break="no"/>dum maris: idest eos qui erant desperatissimi: 
-      <lb ed="#V" n="25"/>et ibi. Mittit crystallum suam sicut bucellas: 
-      <lb ed="#V" n="26"/>idest obstinatos facit aliorum doctores. Talium 
-      <lb ed="#V" n="27"/>conuersio: ibi etiam euidenter ostenditur vbi ait: 
-      <lb ed="#V" n="28"/>qui educit vinctos in fortitudine. Similiter et 
-      <lb ed="#V" n="29"/>eos qui exasperant qui habitant in sepulchris 
-      <lb ed="#V" n="30"/>Secundum istos illud peccatum dicitur 
-      irremis<lb ed="#V" n="31" break="no"/>sibile non quin aliquando. dimittatur: sed quia 
-      <lb ed="#V" n="32"/>vix et raro et difficulter remittitur. Non enim 
-      sol<lb ed="#V" n="33" break="no"/>uitur crystallus nisi vehementi spiritus 
-      impe<lb ed="#V" n="34" break="no"/>tu. Alii vero tradunt non quamlibet 
-      obstinatio<lb ed="#V" n="35" break="no"/>nem vel desperationem appellari peccatum in 
-      <lb ed="#V" n="36"/>spiritum sanctum: sed illam tantum quam comitatur 
-      <lb ed="#V" n="37"/>impenitentia: qui etiam impenitentiam dicunt 
-      <lb ed="#V" n="38"/>esse peccatum in spiritum sanctum. Sed quia 
-      <lb ed="#V" n="39"/>Augu. dicit impenitentiam esse peccantum in 
-      spi<lb ed="#V" n="40" break="no"/>ritum sanctum: cum sic obstinatus est aliquis vt 
-      <lb ed="#V" n="41"/>non peniteat: discuti oportet an aliud sit 
-      obstina<lb ed="#V" n="42" break="no"/>tio: aliud impenitentia sit in eo peccatum: an idem 
-      <lb ed="#V" n="43"/>sed diuersis modis commissum: Secundum istos 
-      <lb ed="#V" n="44"/>peccatum illud dicitur irremissibile eo quod numquam 
-      <lb ed="#V" n="45"/>dimittatur. Unde Augu. etiam dicit quod hoc 
-      so<lb ed="#V" n="46" break="no"/>lum peccatum veniam mereri non potest. Et 
-      <lb ed="#V" n="47"/>Hierony. quod taliter peccans digne penitere non 
-      <lb ed="#V" n="48"/>potest. Et idemo recte Ioannes dicit vt non pro eo 
-      <lb ed="#V" n="49"/>oret quis: quia qui sic peccat: orationibus 
-      eccle<lb ed="#V" n="50" break="no"/>sie hic vel in futuro iuuari non potest: habens 
-      cor<lb ed="#V" n="51" break="no"/>induratum tamquam lapis: sicut de diabolo legitur. 
-      <lb ed="#V" n="52"/>Post hanc vitam qui valde mali sunt: 
-      meri<lb ed="#V" n="53" break="no"/>tis ecclesie iuuari non possunt. 
-   </p>
-            <p xml:id="kzz7yh-f121659-d1e298">
-               <lb ed="#V" n="54"/>¶ Qualiter accipitur peccatum in spiritum sanctum. 
-      <lb ed="#V" n="55"/>est etiam alia huius peccati 
-      asm<lb ed="#V" n="56" break="no"/>gnatio. Hoc enim 
-      <!--00357.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>peccatum Augu. diffiniens in lib. de sermono 
-      <lb ed="#V" n="58"/>domini in monte ait: peccatum ad mortem est 
-      <lb ed="#V" n="59"/>cum post agnitionem dei per gratiam christi 
-      op<lb ed="#V" n="60" break="no"/>pugnat aliquis fraternitatem: et aduersus ipsam 
-      <lb ed="#V" n="61"/>gratiam qua reconciliatus est deo: inuidie 
-      fauci<lb ed="#V" n="62" break="no"/>bus agitatur: quod fortasse est peccare in spiritum 
-      <lb ed="#V" n="63"/>sanctum: quod peccatum dicitur non remitti: non quia 
-      <lb ed="#V" n="64"/>non sit ignoscendum peccanti si peniteat: sed quia 
-      tan<lb ed="#V" n="65" break="no"/>ta est labes peccati illius: vt deprecandi 
-      humi<lb ed="#V" n="66" break="no"/>litatem subire non possit: etiam si peccatum suum 
-      <lb ed="#V" n="67"/>mala conscientia agnoscere et enunciare cogatur: 
-      <lb ed="#V" n="68"/>vt Iudas cum dixit peccaui facilius desperans 
-      <lb ed="#V" n="69"/>cucurrit ad laqueum: quam humilitate veniam 
-      pete<lb ed="#V" n="70" break="no"/>ret: quod propter magnitudinem peccati: iam ex 
-      dam<lb ed="#V" n="71" break="no"/>natione peccati tales habere credendum est. Ec 
-      <lb ed="#V" n="72"/>ce quedam assignatio peccati in spicuintum secntum vel ad 
-      <lb ed="#V" n="73"/>mortem hoc posita est: qua illud peccatum esse 
-      tra<lb ed="#V" n="74" break="no"/>ditur oppugnatio fraternitatis post agnitionem 
-      <lb ed="#V" n="75"/>et inuidentia gratie post reconciliationem: quod species 
-      <lb ed="#V" n="76"/>quedam obstinationis intelligi potest. Illam tamen 
-      <lb ed="#V" n="77"/>diffinitionem Aug. in libo retrac. rememorans 
-      ali<lb ed="#V" n="78" break="no"/>quid adiiciendum ibi fore: nec asserendo se dixisse 
-      <lb ed="#V" n="79"/>aperit ita dicens. Quod quidem non confirmaui: quoniam 
-      <lb ed="#V" n="80"/>hoc putare me dixi. Sed tamen addendum fuit 
-      <lb ed="#V" n="81"/>si in hac scelerata mentis peruersitate finierit 
-      <lb ed="#V" n="82"/>hanc vitam. Quoniam de quocumque pessimo in hac 
-      vi<lb ed="#V" n="83" break="no"/>ta constituto: non est desperandum: nec pro illo 
-      inm<lb ed="#V" n="84" break="no"/>prudenter oratur de quo non desperatur. His 
-      <lb ed="#V" n="85"/>verbis insinuatur peccatum premissa diffinione 
-      de<lb ed="#V" n="86" break="no"/>scriptum: tunc solum debere dici aed mortem 
-      <lb ed="#V" n="87"/>vel in spiritum sanctum: cum non habet comitem 
-      <lb ed="#V" n="88"/>penitentiam: nec de aliquo peccatore 
-      desperan<lb ed="#V" n="89" break="no"/>dum est in hac vita: et ideo pro omni esse 
-      oran<lb ed="#V" n="90" break="no"/>dum. Unde illud Ioan. non pro eo dico vt quis 
-      <lb ed="#V" n="91"/>oret: sic accipiendum videtur: vt pro aliquo 
-      pec<lb ed="#V" n="92" break="no"/>cante ad mortem vel in spiritum sanctum 
-      post<lb ed="#V" n="93" break="no"/>quam finierit hanc vitam nonoremus. Dum 
-      au<lb ed="#V" n="94" break="no"/>tem in hac vita est: nec peccatum illius 
-      iudica<lb ed="#V" n="95" break="no"/>re: nec de illo desperare: sed pro illoorare 
-      debe<lb ed="#V" n="96" break="no"/>mus. Unde August. de verbis domini de 
-      im<lb ed="#V" n="97" break="no"/>penitentia que est blasphemia in spiritum sanctum 
-      <lb ed="#V" n="98"/>sic ait. Ista impenitentia vel cor impenitens: quamdiu 
-      <lb ed="#V" n="99"/>quisque in hac carne viuit non potest iudicari. De 
-      <lb ed="#V" n="100"/>nullo enim desperandum est quamdiu ad 
-      peniten<lb ed="#V" n="101" break="no"/>tiam patientia dei adducit. Paganus est 
-      ho<lb ed="#V" n="102" break="no"/>die: iudeus infidelis est hodie: hereticus est 
-      ho<lb ed="#V" n="103" break="no"/>die: schismaticus est hodie: quid si cras amplectatur 
-      <lb ed="#V" n="104"/>catholicam pacem: et sequatur catholicam 
-      veri<lb ed="#V" n="105" break="no"/>tatem. Quid si isti quos in quocumque genere erro 
-      <lb ed="#V" n="106"/>ris notas: et tamquam desperatissimos damnas 
-      antequae<lb ed="#V" n="107" break="no"/>finiant istam vitam agunt poenitentiam: et inueniunt 
-      ve<lb ed="#V" n="108" break="no"/>ram requem et vitam in futuro. Nolite ergo ante tempus 
-      <lb ed="#V" n="109"/>iudicare quicquam. Ex his ostenditur pro singulis 
-      pecca<lb ed="#V" n="110" break="no"/>toribus in hac vita esse orandum: nec de aliquo 
-      <lb ed="#V" n="111"/>esse diffitendum: quia conuerti potest dum in hac vita est. 
-      <lb ed="#V" n="112"/>Quia non potest sciri de aliquo vtrum peceaue¬ 
-      <!--00358.xml-->
-      <pb ed="#V" n="171-v"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>rit ad mortem vel in spitritum sanctum: nisi cum 
-      <lb ed="#V" n="2"/>ab hac vita discesserit: nisi forte alicui per 
-      spi<lb ed="#V" n="3" break="no"/>ritum sanctum mirabiliter reuelatum fuerit. 
-      <lb ed="#V" n="4"/>Ex predictis aliquatenus capi potest quomo: 
-      <lb ed="#V" n="5"/>do accipiatur peccatum in spiritum sanctum: secet 
-      <lb ed="#V" n="6"/>inuidentia gratie fraternitatem impenitentis 
-      <lb ed="#V" n="7"/>oppugnans: que vtique obstinatio esse videtur: et 
-      <lb ed="#V" n="8"/>omnis impenitentis obstinatio atque desperatio. 
-      <lb ed="#V" n="9"/>Notandum vero est quod non omnis qui non 
-      peni<lb ed="#V" n="10" break="no"/>tet impenitens dici potest: quia impenitentia 
-      <lb ed="#V" n="11"/>proprie obstinati est: et vt quidam: volunt est desperati. 
-   </p>
-            <p xml:id="kzz7yh-f121659-d1e463">
-               <lb ed="#V" n="12"/>¶ Alia assignatio peccati in spiritum sanctum. 
-      <lb ed="#V" n="13"/>De hoc quoque peccato in 
-      spiri<lb ed="#V" n="14" break="no"/>tum secntum 
-      Ambro<lb ed="#V" n="15" break="no"/>sius in lib. de spiritu sancto disserens 
-      diffinitan<lb ed="#V" n="16" break="no"/>assignationem tradit dicens. Cur dominus 
-      di<lb ed="#V" n="17" break="no"/>xerit: qui blasphemauerit in filium hominis: 
-      di<lb ed="#V" n="18" break="no"/>mittetur ei: qui autem blasphemauerit in 
-      spiri<lb ed="#V" n="19" break="no"/>tum sanctum: neque hic: neque in futuro 
-      dimitte<lb ed="#V" n="20" break="no"/>tur ei. Diligenter aduerte: nunquid alia est 
-      offen<lb ed="#V" n="21" break="no"/>sio filii alia spiritus sancti. Sicut vna dignitas 
-      <lb ed="#V" n="22"/>sic vna iniuria. Sed si quis corporis specie 
-      de<lb ed="#V" n="23" break="no"/>ceptus humani remissius aliquid sentit de christi 
-      <lb ed="#V" n="24"/>carne quam dignum est: habet culpam: non est 
-      ta<lb ed="#V" n="25" break="no"/>men exclusus a venia. Si quis vero sancti 
-      spi<lb ed="#V" n="26" break="no"/>ritus dignitatem maiestatem et potestatem 
-      ab<lb ed="#V" n="27" break="no"/>neget sempiternam: et putet non in spiritu dei 
-      eii<lb ed="#V" n="28" break="no"/>ci demonia: sed in beclibetebub non potest ibi 
-      exhor<lb ed="#V" n="29" break="no"/>tatio esse venie vbi sacrilegii plenitudo est. 
-      Sa<lb ed="#V" n="30" break="no"/>tis hoc aperte explicatur quid sit peccatum in 
-      spi<lb ed="#V" n="31" break="no"/>ritum sanctum. Quod illi Augustini descriptioni 
-      <lb ed="#V" n="32"/>congruere videtur: qua illud peccatum dicitur 
-      <lb ed="#V" n="33"/>esse inuidentia gratie oppugnans 
-      fraternita<lb ed="#V" n="34" break="no"/>tem. Qui enim post cognitionem veritatis 
-      san<lb ed="#V" n="35" break="no"/>cti spiritus veritatem negat eiusque opera dicit 
-      <lb ed="#V" n="36"/>esse beeleebub potestati bonitati et gratie dei 
-      in<lb ed="#V" n="37" break="no"/>uidere non dubitatur. Non vtique distinctio illa 
-      <lb ed="#V" n="38"/>verborum sic accipienda est quasi trium 
-      perso<lb ed="#V" n="39" break="no"/>narum diuise sint offense: sed ibi peccatorum 
-      ge<lb ed="#V" n="40" break="no"/>nera distincta sunt. Peccatum enim in patrem 
-      <lb ed="#V" n="41"/>id intelligitur quod fit per infirmitatem: quia 
-      patri<lb ed="#V" n="42" break="no"/>scriptura frequenter attribuit potentiam. Pec 
-      <lb ed="#V" n="43"/>catum in filium quod sit per ignorantiam: quia 
-      sa<lb ed="#V" n="44" break="no"/>pientia filio attribuitur. Tertium expositum est. 
-      <lb ed="#V" n="45"/>Qui ergo peccat per infirmitatem vel per 
-      igno<lb ed="#V" n="46" break="no"/>rantiam: facile veniam adipiscitur: sed non ille 
-      <lb ed="#V" n="47"/>qui peccat in spiritum sanctum. Cum autem 
-      <lb ed="#V" n="48"/>vna sit potentia: sapientia: bonitas trium: 
-      qua<lb ed="#V" n="49" break="no"/>re patri potentia: filio sapientia: spiritui 
-      san<lb ed="#V" n="50" break="no"/>cto bonitas sepius assignetur superius dictum 
-      <lb ed="#V" n="51"/>est. Distin. XIIII 
-      <lb ed="#V" n="52"/>it preterea quoddam 
-      peccatige<lb ed="#V" n="53" break="no"/>nus etc. Superius 
-      de<lb ed="#V" n="54" break="no"/>terminauit magister de peccatis capitalibus in 
-      <lb ed="#V" n="55"/>generali Hic determinat de peccato in spiritum 
-      <lb ed="#V" n="56"/>sanctum in speciali. Et diuiditur in partes duas. 
-   </p>
-            <p xml:id="kzz7yh-f121659-d1e564">
-               <lb ed="#V" n="57"/>¶ Primo determinat de ipso quantum ad elus graui¬ 
-      <!--00358.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="58"/>tatem
-   </p>
-            <p xml:id="kzz7yh-f121659-d1e575">
-      ¶ Secundo quantum ad eius quiditatem. ibi. Sed 
-      <lb ed="#V" n="59"/>queritur quid sit. Et ista secunda diuiditur in tres 
-      par<lb ed="#V" n="60" break="no"/>tes secundum triplicem assignationem quiditatis ipsius secunda ibi. 
-      <lb ed="#V" n="61"/>Est etiam alia. tertia ibi. De hoc quoque peccato. 
-      Pri<lb ed="#V" n="62" break="no"/>ma in duas.
-   </p>
-            <p xml:id="kzz7yh-f121659-d1e586">
-      ¶ Primo determinat veritatem.
-   </p>
-            <p xml:id="kzz7yh-f121659-d1e588">
-      ¶ 
-      Secun<lb ed="#V" n="63" break="no"/>do iuxta hoc mouet aliam incidentem quaestionem ibi. Sed quaeritur. Id 
-      <lb ed="#V" n="64"/>Irca hanc distin. querendum est 
-      prin<lb ed="#V" n="65" break="no"/>cipaliter de tribus.
-   </p>
-            <p xml:id="kzz7yh-f121659-d1e597">
-      ¶ 
-      Pri<lb ed="#V" n="66" break="no"/>mo de peccato in spiritum sanctum per 
-      compa<lb ed="#V" n="67" break="no"/>rationem ad alia genera peccatorum.
-   </p>
-            <p xml:id="kzz7yh-f121659-d1e604">
-      ¶ 
-      Secun<lb ed="#V" n="68" break="no"/>do quantum ad suas proprias conditiones.
-   </p>
-            <p xml:id="kzz7yh-f121659-d1e610">
-      ¶ Tertio 
-      quam<lb ed="#V" n="69" break="no"/>tum ad suas species.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="171-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f121659"><!-- l2d43prae -->
+        <head xml:id="kzz7yh-f121659-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-f121659-d1e103">
+          <lb ed="#V" n="98"/>¶ De peccato in spiritum sanctum quod dicitur etiam 
+          <lb ed="#V" n="99"/>peccatum ad mortem. Dist. XIIII 
+          <lb ed="#V" n="100"/>St preterea quoddam 
+          <lb ed="#V" n="101"/>peccati genus 
+          <lb ed="#V" n="102"/>ceteris grauius et abhominabilius quod 
+          <lb ed="#V" n="103"/>dicitur peccatum in spiritum sanctum 
+          <lb ed="#V" n="104"/>De quo in euangelio veritas ait. Qui 
+          <lb ed="#V" n="105"/>peccauerit in spiritum sanctum non remittetur 
+          <lb ed="#V" n="106"/>ei neque hic neque in futuro. Et Ioannes in 
+          epi<lb ed="#V" n="107" break="no"/>stola canonica. Est peccatum ad mortem: non 
+          <lb ed="#V" n="108"/>pro eo dicto vt quis oret. Qui enim peccat in 
+          <lb ed="#V" n="109"/>patrem remittetur ei. et qui peccat in filium 
+          re<lb ed="#V" n="110" break="no"/>mittetur ei: qui autem blasphemauerit in 
+          spi<lb ed="#V" n="111" break="no"/>ritum sanctum non remittetur ei: neque hic: neque 
+          <lb ed="#V" n="112"/>in futuro. Sed queritur quid sit illud peccatum 
+          <lb ed="#V" n="113"/>in spiritum sanctum vel ad mortem. Quidam 
+          <lb ed="#V" n="114"/>dicunt illud peccatum esse desperationis vel 
+          ob<lb ed="#V" n="115" break="no"/>stinationis. Obstinatio est indurate mentis in 
+          <lb ed="#V" n="116"/>malitia pertinacia per quam homo sit 
+          impeni<lb ed="#V" n="117" break="no"/>tens. Desperatio est qua quis diffidit penitus 
+          <lb ed="#V" n="118"/>de bonitate dei: estimans suam malitiam 
+          diui<lb ed="#V" n="119" break="no"/>ne bonitatis magnitudinem excedere. Sicut 
+          <lb ed="#V" n="120"/>chayn qui dixit. Maior est iniquitas mea 
+          quaom<lb ed="#V" n="121" break="no"/>veniam mereat. Utrumque vero dicitur peccatum 
+          <lb ed="#V" n="122"/>in spiritum sanctum: quia spiritus sanctus est. 
+          <lb ed="#V" n="123"/>amor patris et filii: et benignitas qua se inuicem 
+          <lb ed="#V" n="124"/>et nos diligunt: que tanta est cuius finis non est. 
+          <lb ed="#V" n="125"/>Recte ergo in spiritum sanctum delinquere 
+          <lb ed="#V" n="126"/>dicuntur qui sua malitia dei bonitatem 
+          supe<lb ed="#V" n="127" break="no"/>rare putant: et ideo penitentiam non assumunt: 
+          <lb ed="#V" n="128"/>et qui iniquitati tam pertinaci mente 
+          inhe<lb ed="#V" n="129" break="no"/>rent: vt eam numquam relinquere proponant: et 
+          <!-\-00357.xml-\->
+          <pb ed="#V" n="171-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>ad bonitatem spiritus sancti nunquam redire: 
+          pa<lb ed="#V" n="2" break="no"/>tientia dei abutentes: et de misericordia dei 
+          ni<lb ed="#V" n="3" break="no"/>mis presumentes: quibus placet malitia 
+          pro<lb ed="#V" n="4" break="no"/>pter se: sicut piis boitas. Isti nimia pertinacia 
+          <lb ed="#V" n="5"/>et presumptione peccant autumantes deum non 
+          <lb ed="#V" n="6"/>esse iustum. Illi desperatione deum non bonum 
+          <lb ed="#V" n="7"/>existimant tollentes in hoc turbulentissimo 
+          ini<lb ed="#V" n="8" break="no"/>quitatum mari portum diuine iustitie: quo se 
+          re<lb ed="#V" n="9" break="no"/>cipiant fluctuantes. Atque ipsa desperatione 
+          ad<lb ed="#V" n="10" break="no"/>dunt peccata peccatis dicentes misericordiam 
+          <lb ed="#V" n="11"/>nullam esse: et quod super peccatores necessaria 
+          <lb ed="#V" n="12"/>damnatio debetur. 
+          </p>
+          <p xml:id="kzz7yh-f121659-d1e207">
+          <lb ed="#V" n="13"/>¶ Utrum omnis obstinatio sit peccatum in 
+          spi<lb ed="#V" n="14" break="no"/>ritum sanctum. 
+          <lb ed="#V" n="15"/>Sed queritur. vtrum omnis 
+          ob<lb ed="#V" n="16" break="no"/>stinatio mentis in 
+          <lb ed="#V" n="17"/>malitia obdurate omnisque desperatio sit 
+          pec<lb ed="#V" n="18" break="no"/>catum in spiritum sanctum. Quidam dicunt 
+          <lb ed="#V" n="19"/>omnem obstinationem et omnem desperationem esse 
+          <lb ed="#V" n="20"/>peccatum in spiritum sanctum. Quod si est aliquando 
+          <lb ed="#V" n="21"/>illud peccatum remittitur: quia multi etiam 
+          obsti<lb ed="#V" n="22" break="no"/>natissimi et despratissimi conuertuntur vt Aug. 
+          <lb ed="#V" n="23"/>ait super illum locum pslamum. Conuertam in 
+          profun<lb ed="#V" n="24" break="no"/>dum maris: idest eos qui erant desperatissimi: 
+          <lb ed="#V" n="25"/>et ibi. Mittit crystallum suam sicut bucellas: 
+          <lb ed="#V" n="26"/>idest obstinatos facit aliorum doctores. Talium 
+          <lb ed="#V" n="27"/>conuersio: ibi etiam euidenter ostenditur vbi ait: 
+          <lb ed="#V" n="28"/>qui educit vinctos in fortitudine. Similiter et 
+          <lb ed="#V" n="29"/>eos qui exasperant qui habitant in sepulchris 
+          <lb ed="#V" n="30"/>Secundum istos illud peccatum dicitur 
+          irremis<lb ed="#V" n="31" break="no"/>sibile non quin aliquando. dimittatur: sed quia 
+          <lb ed="#V" n="32"/>vix et raro et difficulter remittitur. Non enim 
+          sol<lb ed="#V" n="33" break="no"/>uitur crystallus nisi vehementi spiritus 
+          impe<lb ed="#V" n="34" break="no"/>tu. Alii vero tradunt non quamlibet 
+          obstinatio<lb ed="#V" n="35" break="no"/>nem vel desperationem appellari peccatum in 
+          <lb ed="#V" n="36"/>spiritum sanctum: sed illam tantum quam comitatur 
+          <lb ed="#V" n="37"/>impenitentia: qui etiam impenitentiam dicunt 
+          <lb ed="#V" n="38"/>esse peccatum in spiritum sanctum. Sed quia 
+          <lb ed="#V" n="39"/>Augu. dicit impenitentiam esse peccantum in 
+          spi<lb ed="#V" n="40" break="no"/>ritum sanctum: cum sic obstinatus est aliquis vt 
+          <lb ed="#V" n="41"/>non peniteat: discuti oportet an aliud sit 
+          obstina<lb ed="#V" n="42" break="no"/>tio: aliud impenitentia sit in eo peccatum: an idem 
+          <lb ed="#V" n="43"/>sed diuersis modis commissum: Secundum istos 
+          <lb ed="#V" n="44"/>peccatum illud dicitur irremissibile eo quod numquam 
+          <lb ed="#V" n="45"/>dimittatur. Unde Augu. etiam dicit quod hoc 
+          so<lb ed="#V" n="46" break="no"/>lum peccatum veniam mereri non potest. Et 
+          <lb ed="#V" n="47"/>Hierony. quod taliter peccans digne penitere non 
+          <lb ed="#V" n="48"/>potest. Et idemo recte Ioannes dicit vt non pro eo 
+          <lb ed="#V" n="49"/>oret quis: quia qui sic peccat: orationibus 
+          eccle<lb ed="#V" n="50" break="no"/>sie hic vel in futuro iuuari non potest: habens 
+          cor<lb ed="#V" n="51" break="no"/>induratum tamquam lapis: sicut de diabolo legitur. 
+          <lb ed="#V" n="52"/>Post hanc vitam qui valde mali sunt: 
+          meri<lb ed="#V" n="53" break="no"/>tis ecclesie iuuari non possunt. 
+          </p>
+          <p xml:id="kzz7yh-f121659-d1e298">
+          <lb ed="#V" n="54"/>¶ Qualiter accipitur peccatum in spiritum sanctum. 
+          <lb ed="#V" n="55"/>est etiam alia huius peccati 
+          asm<lb ed="#V" n="56" break="no"/>gnatio. Hoc enim 
+          <!-\-00357.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>peccatum Augu. diffiniens in lib. de sermono 
+          <lb ed="#V" n="58"/>domini in monte ait: peccatum ad mortem est 
+          <lb ed="#V" n="59"/>cum post agnitionem dei per gratiam christi 
+          op<lb ed="#V" n="60" break="no"/>pugnat aliquis fraternitatem: et aduersus ipsam 
+          <lb ed="#V" n="61"/>gratiam qua reconciliatus est deo: inuidie 
+          fauci<lb ed="#V" n="62" break="no"/>bus agitatur: quod fortasse est peccare in spiritum 
+          <lb ed="#V" n="63"/>sanctum: quod peccatum dicitur non remitti: non quia 
+          <lb ed="#V" n="64"/>non sit ignoscendum peccanti si peniteat: sed quia 
+          tan<lb ed="#V" n="65" break="no"/>ta est labes peccati illius: vt deprecandi 
+          humi<lb ed="#V" n="66" break="no"/>litatem subire non possit: etiam si peccatum suum 
+          <lb ed="#V" n="67"/>mala conscientia agnoscere et enunciare cogatur: 
+          <lb ed="#V" n="68"/>vt Iudas cum dixit peccaui facilius desperans 
+          <lb ed="#V" n="69"/>cucurrit ad laqueum: quam humilitate veniam 
+          pete<lb ed="#V" n="70" break="no"/>ret: quod propter magnitudinem peccati: iam ex 
+          dam<lb ed="#V" n="71" break="no"/>natione peccati tales habere credendum est. Ec 
+          <lb ed="#V" n="72"/>ce quedam assignatio peccati in spicuintum secntum vel ad 
+          <lb ed="#V" n="73"/>mortem hoc posita est: qua illud peccatum esse 
+          tra<lb ed="#V" n="74" break="no"/>ditur oppugnatio fraternitatis post agnitionem 
+          <lb ed="#V" n="75"/>et inuidentia gratie post reconciliationem: quod species 
+          <lb ed="#V" n="76"/>quedam obstinationis intelligi potest. Illam tamen 
+          <lb ed="#V" n="77"/>diffinitionem Aug. in libo retrac. rememorans 
+          ali<lb ed="#V" n="78" break="no"/>quid adiiciendum ibi fore: nec asserendo se dixisse 
+          <lb ed="#V" n="79"/>aperit ita dicens. Quod quidem non confirmaui: quoniam 
+          <lb ed="#V" n="80"/>hoc putare me dixi. Sed tamen addendum fuit 
+          <lb ed="#V" n="81"/>si in hac scelerata mentis peruersitate finierit 
+          <lb ed="#V" n="82"/>hanc vitam. Quoniam de quocumque pessimo in hac 
+          vi<lb ed="#V" n="83" break="no"/>ta constituto: non est desperandum: nec pro illo 
+          inm<lb ed="#V" n="84" break="no"/>prudenter oratur de quo non desperatur. His 
+          <lb ed="#V" n="85"/>verbis insinuatur peccatum premissa diffinione 
+          de<lb ed="#V" n="86" break="no"/>scriptum: tunc solum debere dici aed mortem 
+          <lb ed="#V" n="87"/>vel in spiritum sanctum: cum non habet comitem 
+          <lb ed="#V" n="88"/>penitentiam: nec de aliquo peccatore 
+          desperan<lb ed="#V" n="89" break="no"/>dum est in hac vita: et ideo pro omni esse 
+          oran<lb ed="#V" n="90" break="no"/>dum. Unde illud Ioan. non pro eo dico vt quis 
+          <lb ed="#V" n="91"/>oret: sic accipiendum videtur: vt pro aliquo 
+          pec<lb ed="#V" n="92" break="no"/>cante ad mortem vel in spiritum sanctum 
+          post<lb ed="#V" n="93" break="no"/>quam finierit hanc vitam nonoremus. Dum 
+          au<lb ed="#V" n="94" break="no"/>tem in hac vita est: nec peccatum illius 
+          iudica<lb ed="#V" n="95" break="no"/>re: nec de illo desperare: sed pro illoorare 
+          debe<lb ed="#V" n="96" break="no"/>mus. Unde August. de verbis domini de 
+          im<lb ed="#V" n="97" break="no"/>penitentia que est blasphemia in spiritum sanctum 
+          <lb ed="#V" n="98"/>sic ait. Ista impenitentia vel cor impenitens: quamdiu 
+          <lb ed="#V" n="99"/>quisque in hac carne viuit non potest iudicari. De 
+          <lb ed="#V" n="100"/>nullo enim desperandum est quamdiu ad 
+          peniten<lb ed="#V" n="101" break="no"/>tiam patientia dei adducit. Paganus est 
+          ho<lb ed="#V" n="102" break="no"/>die: iudeus infidelis est hodie: hereticus est 
+          ho<lb ed="#V" n="103" break="no"/>die: schismaticus est hodie: quid si cras amplectatur 
+          <lb ed="#V" n="104"/>catholicam pacem: et sequatur catholicam 
+          veri<lb ed="#V" n="105" break="no"/>tatem. Quid si isti quos in quocumque genere erro 
+          <lb ed="#V" n="106"/>ris notas: et tamquam desperatissimos damnas 
+          antequae<lb ed="#V" n="107" break="no"/>finiant istam vitam agunt poenitentiam: et inueniunt 
+          ve<lb ed="#V" n="108" break="no"/>ram requem et vitam in futuro. Nolite ergo ante tempus 
+          <lb ed="#V" n="109"/>iudicare quicquam. Ex his ostenditur pro singulis 
+          pecca<lb ed="#V" n="110" break="no"/>toribus in hac vita esse orandum: nec de aliquo 
+          <lb ed="#V" n="111"/>esse diffitendum: quia conuerti potest dum in hac vita est. 
+          <lb ed="#V" n="112"/>Quia non potest sciri de aliquo vtrum peceaue¬ 
+          <!-\-00358.xml-\->
+          <pb ed="#V" n="171-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>rit ad mortem vel in spitritum sanctum: nisi cum 
+          <lb ed="#V" n="2"/>ab hac vita discesserit: nisi forte alicui per 
+          spi<lb ed="#V" n="3" break="no"/>ritum sanctum mirabiliter reuelatum fuerit. 
+          <lb ed="#V" n="4"/>Ex predictis aliquatenus capi potest quomo: 
+          <lb ed="#V" n="5"/>do accipiatur peccatum in spiritum sanctum: secet 
+          <lb ed="#V" n="6"/>inuidentia gratie fraternitatem impenitentis 
+          <lb ed="#V" n="7"/>oppugnans: que vtique obstinatio esse videtur: et 
+          <lb ed="#V" n="8"/>omnis impenitentis obstinatio atque desperatio. 
+          <lb ed="#V" n="9"/>Notandum vero est quod non omnis qui non 
+          peni<lb ed="#V" n="10" break="no"/>tet impenitens dici potest: quia impenitentia 
+          <lb ed="#V" n="11"/>proprie obstinati est: et vt quidam: volunt est desperati. 
+          </p>
+          <p xml:id="kzz7yh-f121659-d1e463">
+          <lb ed="#V" n="12"/>¶ Alia assignatio peccati in spiritum sanctum. 
+          <lb ed="#V" n="13"/>De hoc quoque peccato in 
+          spiri<lb ed="#V" n="14" break="no"/>tum secntum 
+          Ambro<lb ed="#V" n="15" break="no"/>sius in lib. de spiritu sancto disserens 
+          diffinitan<lb ed="#V" n="16" break="no"/>assignationem tradit dicens. Cur dominus 
+          di<lb ed="#V" n="17" break="no"/>xerit: qui blasphemauerit in filium hominis: 
+          di<lb ed="#V" n="18" break="no"/>mittetur ei: qui autem blasphemauerit in 
+          spiri<lb ed="#V" n="19" break="no"/>tum sanctum: neque hic: neque in futuro 
+          dimitte<lb ed="#V" n="20" break="no"/>tur ei. Diligenter aduerte: nunquid alia est 
+          offen<lb ed="#V" n="21" break="no"/>sio filii alia spiritus sancti. Sicut vna dignitas 
+          <lb ed="#V" n="22"/>sic vna iniuria. Sed si quis corporis specie 
+          de<lb ed="#V" n="23" break="no"/>ceptus humani remissius aliquid sentit de christi 
+          <lb ed="#V" n="24"/>carne quam dignum est: habet culpam: non est 
+          ta<lb ed="#V" n="25" break="no"/>men exclusus a venia. Si quis vero sancti 
+          spi<lb ed="#V" n="26" break="no"/>ritus dignitatem maiestatem et potestatem 
+          ab<lb ed="#V" n="27" break="no"/>neget sempiternam: et putet non in spiritu dei 
+          eii<lb ed="#V" n="28" break="no"/>ci demonia: sed in beclibetebub non potest ibi 
+          exhor<lb ed="#V" n="29" break="no"/>tatio esse venie vbi sacrilegii plenitudo est. 
+          Sa<lb ed="#V" n="30" break="no"/>tis hoc aperte explicatur quid sit peccatum in 
+          spi<lb ed="#V" n="31" break="no"/>ritum sanctum. Quod illi Augustini descriptioni 
+          <lb ed="#V" n="32"/>congruere videtur: qua illud peccatum dicitur 
+          <lb ed="#V" n="33"/>esse inuidentia gratie oppugnans 
+          fraternita<lb ed="#V" n="34" break="no"/>tem. Qui enim post cognitionem veritatis 
+          san<lb ed="#V" n="35" break="no"/>cti spiritus veritatem negat eiusque opera dicit 
+          <lb ed="#V" n="36"/>esse beeleebub potestati bonitati et gratie dei 
+          in<lb ed="#V" n="37" break="no"/>uidere non dubitatur. Non vtique distinctio illa 
+          <lb ed="#V" n="38"/>verborum sic accipienda est quasi trium 
+          perso<lb ed="#V" n="39" break="no"/>narum diuise sint offense: sed ibi peccatorum 
+          ge<lb ed="#V" n="40" break="no"/>nera distincta sunt. Peccatum enim in patrem 
+          <lb ed="#V" n="41"/>id intelligitur quod fit per infirmitatem: quia 
+          patri<lb ed="#V" n="42" break="no"/>scriptura frequenter attribuit potentiam. Pec 
+          <lb ed="#V" n="43"/>catum in filium quod sit per ignorantiam: quia 
+          sa<lb ed="#V" n="44" break="no"/>pientia filio attribuitur. Tertium expositum est. 
+          <lb ed="#V" n="45"/>Qui ergo peccat per infirmitatem vel per 
+          igno<lb ed="#V" n="46" break="no"/>rantiam: facile veniam adipiscitur: sed non ille 
+          <lb ed="#V" n="47"/>qui peccat in spiritum sanctum. Cum autem 
+          <lb ed="#V" n="48"/>vna sit potentia: sapientia: bonitas trium: 
+          qua<lb ed="#V" n="49" break="no"/>re patri potentia: filio sapientia: spiritui 
+          san<lb ed="#V" n="50" break="no"/>cto bonitas sepius assignetur superius dictum 
+          <lb ed="#V" n="51"/>est.
+          </p>-->
+        <p xml:id="kzz7yh-f121659-d1e106">
+          Distin. XLIII 
+          <lb ed="#V" n="52"/>it preterea quoddam 
+          peccatige<lb ed="#V" n="53" break="no"/>nus etc. Superius 
+          de<lb ed="#V" n="54" break="no"/>terminauit magister de peccatis capitalibus in 
+          <lb ed="#V" n="55"/>generali Hic determinat de peccato in spiritum 
+          <lb ed="#V" n="56"/>sanctum in speciali. Et diuiditur in partes duas. 
+        </p>
+        <p xml:id="kzz7yh-f121659-d1e564">
+          <lb ed="#V" n="57"/>¶ Primo determinat de ipso quantum ad elus graui¬ 
+          <!--00358.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="58"/>tatem
+        </p>
+        <p xml:id="kzz7yh-f121659-d1e575">
+          ¶ Secundo quantum ad eius quiditatem. ibi. Sed 
+          <lb ed="#V" n="59"/>queritur quid sit. Et ista secunda diuiditur in tres 
+          par<lb ed="#V" n="60" break="no"/>tes secundum triplicem assignationem quiditatis ipsius secunda ibi. 
+          <lb ed="#V" n="61"/>Est etiam alia. tertia ibi. De hoc quoque peccato. 
+          Pri<lb ed="#V" n="62" break="no"/>ma in duas.
+        </p>
+        <p xml:id="kzz7yh-f121659-d1e586">
+          ¶ Primo determinat veritatem.
+        </p>
+        <p xml:id="kzz7yh-f121659-d1e588">
+          ¶ 
+          Secun<lb ed="#V" n="63" break="no"/>do iuxta hoc mouet aliam incidentem quaestionem ibi. Sed quaeritur. Id 
+          <lb ed="#V" n="64"/>Irca hanc distin. querendum est 
+          prin<lb ed="#V" n="65" break="no"/>cipaliter de tribus.
+        </p>
+        <p xml:id="kzz7yh-f121659-d1e597">
+          ¶ 
+          Pri<lb ed="#V" n="66" break="no"/>mo de peccato in spiritum sanctum per 
+          compa<lb ed="#V" n="67" break="no"/>rationem ad alia genera peccatorum.
+        </p>
+        <p xml:id="kzz7yh-f121659-d1e604">
+          ¶ 
+          Secun<lb ed="#V" n="68" break="no"/>do quantum ad suas proprias conditiones.
+        </p>
+        <p xml:id="kzz7yh-f121659-d1e610">
+          ¶ Tertio 
+          quam<lb ed="#V" n="69" break="no"/>tum ad suas species.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

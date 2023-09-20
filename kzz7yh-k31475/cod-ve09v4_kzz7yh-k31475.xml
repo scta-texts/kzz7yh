@@ -1,433 +1,435 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="44-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k31475"><!-- l4d11prae -->
-            <head xml:id="kzz7yh-k31475-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-k31475-d1e103">
-               <lb ed="#V" n="44"/>¶ De modo conuersionis. 
-      <lb ed="#V" n="45"/>
-               <!-- line coord error -->Distinctio XI. 
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e112">
-               <lb ed="#V" n="46"/>SI autem queritur qualis 
-      <lb ed="#V" n="47"/>sit illa conuersio 
-      <lb ed="#V" n="48"/>san formalis an substantialis vel 
-      alte<lb ed="#V" n="49" break="no"/>srius generis: Diffinire non sufficio. 
-      <lb ed="#V" n="50"/>Formalem tamen non esse cognosco. quia 
-      <lb ed="#V" n="51"/>species rerum que ante fuerant remanent et 
-      sa<lb ed="#V" n="52" break="no"/>por et pondus. Quibusdam esse videtur 
-      substan<lb ed="#V" n="53" break="no"/>tialis dicentibus sic substantiam conuerti in sub 
-      <lb ed="#V" n="54"/>stantiam vt hec essentialiter fiat illa. Cui sensui 
-      <lb ed="#V" n="55"/>premisse auctoritates consentire videntur. 
-  </p>
-            <p xml:id="kzz7yh-k31475-d1e136">
-               <lb ed="#V" n="56"/>¶ Oppositio 
-  </p>
-            <p xml:id="kzz7yh-k31475-d1e141">
-               <lb ed="#V" n="57"/>Sed huic sententie sic opponitur ab 
-      <lb ed="#V" n="58"/>aliis. Si substantia panis 
-      <lb ed="#V" n="59"/>inqunt vel vini conuertitur substantialiter. in 
-      <lb ed="#V" n="60"/>corpus vel in sanguinem christi quotidie sit aliqua 
-      <lb ed="#V" n="61"/>substantia corpus vel sanguis christi que ante non 
-      <lb ed="#V" n="62"/>erat. et hodie est aliquid corpus christi quod 
-      <lb ed="#V" n="63"/>heri non erat: et quotidie: augetur corpus 
-      christi<lb ed="#V" n="64" break="no"/>atque formatur de materia: de qua in conceptio¬ 
-      <!--00118.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="65"/>ne non fuit factum. Quibus hoc modo 
-      responde<lb ed="#V" n="66" break="no"/>ri potest: quia non ea ratione dicitur corpus christi 
-      con<lb ed="#V" n="67" break="no"/>fici verbo celesti quod ipsum corpus in conceptu 
-      vir<lb ed="#V" n="68" break="no"/>ginis formatum deinceps formetur: sed quia sub 
-      <lb ed="#V" n="69"/>stantia panis vel vini que ante non fuerat corpus 
-      <lb ed="#V" n="70"/>christi vel sanguis: verbo celesti sit corpus et 
-      san<lb ed="#V" n="71" break="no"/>guis. Et ideo sacerdotes dicuntur conficere 
-      cor<lb ed="#V" n="72" break="no"/>pus christi et sanguinem: quia eorum ministerio 
-      sub<lb ed="#V" n="73" break="no"/>stantia panis fit caro: et substantia vini sit 
-      san<lb ed="#V" n="74" break="no"/>guis christi: nec tamen aliquid additur corpori vel 
-      san<lb ed="#V" n="75" break="no"/>guini: nec augetur corpus christi vel sanguis. 
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e190">
-               <lb ed="#V" n="76"/>¶ Augustinus in libro sententiarum prosperi. 
-      <lb ed="#V" n="77"/>Si vero queris modum quo id 
-      <lb ed="#V" n="78"/>fteri possit: 
-      bre<lb ed="#V" n="79" break="no"/>uiter respondeo. Mysterium fidei credi 
-      salu<lb ed="#V" n="80" break="no"/>briter potest: inuestigari salubriter non potest. Quod 
-      <lb ed="#V" n="81"/>ergo corpus christi panis mutatione in id non aug. 
-      <lb ed="#V" n="82"/>mentatur: nec sanguis ex vini conuersione: eius 
-      <lb ed="#V" n="83"/>voluntati et potentie ascribatur qui idem corpus 
-      <lb ed="#V" n="84"/>de virgine eduxit: fit ergo substantia illa ista sine eius 
-      <lb ed="#V" n="85"/>augumento. Nec tamen concedunt quidam quod sub 
-      <lb ed="#V" n="86"/>stantia panis aliquando fit caro christi: et si fiat 
-      ca<lb ed="#V" n="87" break="no"/>ro christi: sicut farina facta est panis: et aqua facta 
-      <lb ed="#V" n="88"/>est vinum: nec tamen dicitur farina est panis: et aqua 
-      <lb ed="#V" n="89"/>est vinum. Alii vero concedunt illud quod erat 
-      <lb ed="#V" n="90"/>panis vel vinum: post consecrationem esse corpus 
-      <lb ed="#V" n="91"/>et sanguinem: non tamen sequitur panis est caro 
-      <lb ed="#V" n="92"/>christi: vel vinum est sanguis: quia substantia panis 
-      <lb ed="#V" n="93"/>vel vini postquam facta est caro christi vel sanguis: non 
-      <lb ed="#V" n="94"/>est substantia panis vel vini: sed caro et sanguis. 
-      <lb ed="#V" n="95"/>Ideo distinguendum videtur cum dicitur 
-      substan<lb ed="#V" n="96" break="no"/>tia panis: vel id quod erat panis modo est 
-      cor<lb ed="#V" n="97" break="no"/>pus christi. Manens enim panis non est corpus 
-      <lb ed="#V" n="98"/>christi: sed mutata id est id quod facta est: est corpus 
-      <lb ed="#V" n="99"/>christi. Nec dicimus substantiam panis vel vini 
-      ma<lb ed="#V" n="100" break="no"/>teriam esse corporis vel sanguinis: quia non de ea 
-      <lb ed="#V" n="101"/>vt de materia formatur corpus: sed ipsa forma 
-      <lb ed="#V" n="102"/>tur in illud et efficitur illud. Unde Augu. 
-      Cor<lb ed="#V" n="103" break="no"/>pus christi dicimus illud quod ex fructibus terre 
-      <lb ed="#V" n="104"/>acceptum et prece mystica consecratum sumimus 
-      <lb ed="#V" n="105"/>in memoriam dominice passionis. Quod cum per 
-      ma<lb ed="#V" n="106" break="no"/>nus hominis ad illam visibilem speciem perducatur: 
-      <lb ed="#V" n="107"/>non sanctificatur: vt sit tam dignum 
-      sacramen<lb ed="#V" n="108" break="no"/>tum nisi operante inuisibiliter spiritu dei. 
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e264">
-               <lb ed="#V" n="109"/>¶ Asserunt dictum penam tranfire in corpus christi. 
-      <lb ed="#V" n="110"/>Quidam vero sic dicunt conuersionem 
-      <lb ed="#V" n="111"/>illam esse intelligendam vt sub 
-      <lb ed="#V" n="112"/>illis accidentibus sub quibus erat prius 
-      substan<lb ed="#V" n="113" break="no"/>tia panis et vini: post consecrationem sit substantia 
-      <lb ed="#V" n="114"/>corporis et sanguinis: sic tamen vt non eis afficiatur: 
-      <lb ed="#V" n="115"/>et sic asserunt dictum panem transire in corpus 
-      <lb ed="#V" n="116"/>christi: quia vbi erat panis nunc est corpus christi. 
-      <lb ed="#V" n="117"/>Quod si est: quid ergo sit de substantia panis et 
-      vi<lb ed="#V" n="118" break="no"/>ni: Illi dicunt vel in preiacentem materiam re¬ 
-      <!--00119.xml-->
-      <pb ed="#V" n="45-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>solui: vel in nihilum redigi. Alii vero putauerunt 
-      <lb ed="#V" n="2"/>ibi substantiam panis et vini remanere: et ibidem 
-      <lb ed="#V" n="3"/>corpus christi esse et sanguinem: et hac ratione dici 
-      il<lb ed="#V" n="4" break="no"/>lam substantiam fieri istam: quia vbi est hec: est et 
-      il<lb ed="#V" n="5" break="no"/>la. Quod mirum est et ipsam substantiam panis 
-      <lb ed="#V" n="6"/>vel vini dicunt esse sacramentum. Sed quod non sit 
-      <lb ed="#V" n="7"/>ibi substantia nisi corpus christi et sanguis: ex 
-      pre<lb ed="#V" n="8" break="no"/>dictis et subditis aperte ostenditur. Ait enim amb. 
-      <lb ed="#V" n="9"/>Panem istum quem sumimus in mysterio: illum 
-      <lb ed="#V" n="10"/>intelligo vtique qui manu sancti spiritus forma 
-      <lb ed="#V" n="11"/>tus est in vtero virginis: et igne passionis 
-      deco<lb ed="#V" n="12" break="no"/>ctus in ara crucis. Panis enim angelorum 
-      fa<lb ed="#V" n="13" break="no"/>ctus est cibus hominum. Unde veritas ait. Ego 
-      <lb ed="#V" n="14"/>sum panis viuus qui de celo descendi: et iterum. 
-      <lb ed="#V" n="15"/>Panis quem ego dabo caro mea est promundi 
-      <lb ed="#V" n="16"/>vita. Ex his namque duabus sententiis aperte 
-      da<lb ed="#V" n="17" break="no"/>tur intelligi: quia panis ille et iste: non duo sed 
-      <lb ed="#V" n="18"/>vnus panis: et vna caro: proculdubio vnum 
-      effici<lb ed="#V" n="19" break="no"/>tur corpus. Illud vere: illud sane: quod sumptum 
-      <lb ed="#V" n="20"/>est de virgine: quod resurrexit et in caelum 
-      ascen<lb ed="#V" n="21" break="no"/>dit. Item Gregorius. Quis fidelium habere 
-      du<lb ed="#V" n="22" break="no"/>bium possit in ipsa immolationis hora ad sacerdo 
-      <lb ed="#V" n="23"/>tis vocem celos aperiri illo: christi mysterio 
-      angelo<lb ed="#V" n="24" break="no"/>rum choros adesse: summa et ima sociari: vnum quid 
-      <lb ed="#V" n="25"/>ex inuisibilibus atque visibilibus fieri. Idem. 
-      Eo<lb ed="#V" n="26" break="no"/>dem momento et in caelum rapitur ministerio 
-      an<lb ed="#V" n="27" break="no"/>gelorum consociandum corpori christi: et ante 
-      ocu<lb ed="#V" n="28" break="no"/>los sacerdotis in altari videtur. Sicut 
-      diuini<lb ed="#V" n="29" break="no"/>tas verbi totum implet mundum: ita multis 
-      lo<lb ed="#V" n="30" break="no"/>cis illud corpus consecratur. Nec sunt tamen 
-      <lb ed="#V" n="31"/>multa corpora christi: sed vnum corpus et vnus 
-      <lb ed="#V" n="32"/>sanguis. Ideoque siue plus siue minus quis 
-      inde<lb ed="#V" n="33" break="no"/>percipiat: omnes equaliter corpus christi 
-      integer<lb ed="#V" n="34" break="no"/>rime sumunt. Post consecrationem ergo non est 
-      <lb ed="#V" n="35"/>ibi substantia panis vel vini licet species 
-      rema<lb ed="#V" n="36" break="no"/>neant. Est enim ibi species panis et vini sicut 
-      <lb ed="#V" n="37"/>sapor. Unde aliud videtur: aliud intelligitur. 
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e375">
-               <lb ed="#V" n="38"/>¶ Quare sub alia specie. 
-      <lb ed="#V" n="39"/>Sub alia autem specietribus 
-      <lb ed="#V" n="40"/>de causis 
-      car<lb ed="#V" n="41" break="no"/>nem et sanguinem tradidit christus: et deinceps 
-      <lb ed="#V" n="42"/>sumendum instituit: vt fide scilicet haberet meritum 
-      <lb ed="#V" n="43"/>que est de his que non videntur: quia fides non 
-      ha<lb ed="#V" n="44" break="no"/>bet meritum vbi humana ratio prebet 
-      experimen<lb ed="#V" n="45" break="no"/>tum. Et ideo etiam ne abhoreret animus quod 
-      cer<lb ed="#V" n="46" break="no"/>neret oculus: quia non habemus in vsu carnen 
-      <lb ed="#V" n="47"/>crudam et sanguinem comedere. Quia ergo christum 
-      <lb ed="#V" n="48"/>vorari dentibus fas non est: in mysterio carnem 
-      <lb ed="#V" n="49"/>et sanguinem nobis commendauit. Et etiam ideo 
-      <lb ed="#V" n="50"/>ne ab incredulis religioni christiane insultaretur: 
-      <lb ed="#V" n="51"/>Unde Aug. Nibil rationabilius quam vt 
-      sangui<lb ed="#V" n="52" break="no"/>nis similitudinem sumamus: vt ita et veritas non 
-      <lb ed="#V" n="53"/>desit: et ridiculum nullum fiat a paganis: quia 
-      cruo<lb ed="#V" n="54" break="no"/>rem occisi hominis bibamus. Ne ergo hoc fie 
-      <!--00119.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="55"/>ret: et ne veluti quidam horror esset cruoris in 
-      si<lb ed="#V" n="56" break="no"/>militudinem accipimus sacramentum. Expres 
-      <lb ed="#V" n="57"/>sis iam liquet quare non sub alia specie et quare 
-      <lb ed="#V" n="58"/>sub ista hoc sacramentum dominus 
-      celebraue<lb ed="#V" n="59" break="no"/>rit et celebrari nobis instituerit. 
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e429">
-               <lb ed="#V" n="60"/>¶ Quare sub duplici specie. 
-      <lb ed="#V" n="61"/>Sed quare sub duplici speciem 
-      su<lb ed="#V" n="62" break="no"/>mitur cum sub 
-      <lb ed="#V" n="63"/>alterutra totus sit christus. Ut ostenderetur totam 
-      <lb ed="#V" n="64"/>humanam naturam assumpsisse: vt totam 
-      redi<lb ed="#V" n="65" break="no"/>meret. Panis enim ad carnem refertur: vinum 
-      <lb ed="#V" n="66"/>ad animam: quia vinum operatur sanguinem in quo 
-      <lb ed="#V" n="67"/>sedes anime a physicis esse dicitur. Ideo ergo 
-      <lb ed="#V" n="68"/>in duabus speciebus celebratur: vt anime et 
-      car<lb ed="#V" n="69" break="no"/>nis susceptio in christo: et vtriusque liberatio in 
-      no<lb ed="#V" n="70" break="no"/>bis significetur. Ualet enim vt Ambro. ait ad 
-      <lb ed="#V" n="71"/>tuitionem corporis et anime quod percipimus: quia 
-      <lb ed="#V" n="72"/>caro christi pro salute corporis: sanguis vero 
-      pro<lb ed="#V" n="73" break="no"/>anima nostra offertur: sicut prefigurauit moy. 
-      <lb ed="#V" n="74"/>ses: caro inquit pro corpore vestro offertur: sanguis 
-      <lb ed="#V" n="75"/>pro anima: sed tamen sub vtraque specie sumitur: quod 
-      <lb ed="#V" n="76"/>ad vtranque valet: quia sub vtraque sumitur ipse 
-      <lb ed="#V" n="77"/>totus christus. Sed si in altera tantum sumere 
-      <lb ed="#V" n="78"/>tur: ad alterius tantum id est anime vel corporis non 
-      <lb ed="#V" n="79"/>vtriusque pariter tuitionem valere significaretur. 
-      <lb ed="#V" n="80"/>Sub vtraque specie tamen totus sumitur christus. 
-      <lb ed="#V" n="81"/>Nec plus sub vtraque: nec minus sub altera tantum 
-      <lb ed="#V" n="82"/>sumitur. Eadem enim ratio est vt ait Hylarius: 
-      <lb ed="#V" n="83"/>in corpore christi que in materiana praecessit. De quo 
-      di<lb ed="#V" n="84" break="no"/>citur. Qui plus collegerat non habuit amplius 
-      <lb ed="#V" n="85"/>nec qui minus parauerat habuit minus. Et licet sub 
-      <lb ed="#V" n="86"/>vtraque specie summatur totus christus: tamen non sit 
-      <lb ed="#V" n="87"/>conuersio panis nisi in carnem: nec vini nisi in 
-      <lb ed="#V" n="88"/>sanguinem. Nec debet dici duo sacramenta sed 
-      <lb ed="#V" n="89"/>vnum quia sub vtraque specie idem sumitur. Neque 
-      <lb ed="#V" n="90"/>debet iterari sacramentum quia benedictio 
-      no<lb ed="#V" n="91" break="no"/>repetitur super speciem eandem. Neque alie sub 
-      <lb ed="#V" n="92"/>stantie in sacrificium veritatis offerri debent quia 
-      <lb ed="#V" n="93"/>de aliis non potest consecrari corpus christi vel sanguis. 
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e505">
-               <lb ed="#V" n="94"/>¶ Quare aqua admisceatur. 
-      <lb ed="#V" n="95"/>Aqua vero admiscenda est vino quia 
-      <lb ed="#V" n="96"/>aqua populum signat 
-      <lb ed="#V" n="97"/>qui per christi passionem redemptus est. Calix er 
-      <lb ed="#V" n="98"/>go dominicus iuxta canonum preceptum aqua et 
-      vi<lb ed="#V" n="99" break="no"/>no mixtus debet offerri: quia videmus in aqua 
-      popu<lb ed="#V" n="100" break="no"/>lum intelligi: in vino ostendi sanguinem christi. Cum 
-      <lb ed="#V" n="101"/>ergo in calice vino aqua miscetur: christo populus 
-      <lb ed="#V" n="102"/>adunatur et credentium plebs et in quem credit 
-      <lb ed="#V" n="103"/>copulatur: que copulatio aque et vini sic miscetur 
-      <lb ed="#V" n="104"/>in calice christi vt mixtio illa non possit separari. 
-      <lb ed="#V" n="105"/>Nam si vinum quis tantum offerat: sanguis 
-      christi<lb ed="#V" n="106" break="no"/>incipit esse sine nobis.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e536">
-      ¶ Iulius papa. 
-      <lb ed="#V" n="107"/>Si vero queritur an iritum 
-      <lb ed="#V" n="108"/>sit quod geri¬ 
-      <!--00120.xml-->
-      <pb ed="#V" n="45-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>tur si aqua pretermittatur. Audi quo sequitur 
-      <lb ed="#V" n="2"/>in eodem canone. Non potest inquit calix domini esse 
-      <lb ed="#V" n="3"/>aqua sola aut vinum solum nisi vtrunque 
-      miscea<lb ed="#V" n="4" break="no"/>tur. Item Cyprianus. Calix domini non est 
-      aqua<lb ed="#V" n="5" break="no"/>sola: aut vinum solum nisi vtrumque misceatur: 
-      si<lb ed="#V" n="6" break="no"/>cut nec corpus domini potest esse farina sola: nec aqua 
-      <lb ed="#V" n="7"/>sola nisi vtrumque fuerit adunatum: et panis vnius 
-      <lb ed="#V" n="8"/>compage solidatum. Si quis tamen non intendens 
-      <lb ed="#V" n="9"/>introducere heresim obliuione vel ignorantia 
-      <lb ed="#V" n="10"/>aqua pretermiserit: non videtur esse irritum 
-      sa<lb ed="#V" n="11" break="no"/>cramentum: sed ille grauiter est corripiendus 
-      <lb ed="#V" n="12"/>Nam et grecorum ecclesia non apponere aquam 
-      di<lb ed="#V" n="13" break="no"/>citur. Quod etiam ex dictis Cypriani videtur 
-      <lb ed="#V" n="14"/>posse colligi: ait enim. Si quis de antecessoribus 
-      <lb ed="#V" n="15"/>nostris vel ignoranter: vel simpliciter hoc non 
-      <lb ed="#V" n="16"/>seruauerit quod nos dominus facere et exemplo et 
-      ma<lb ed="#V" n="17" break="no"/>gisterio docuit: potest simplicitati eius 
-      indulgen<lb ed="#V" n="18" break="no"/>tia domini venia concedi. Nobis vero non 
-      po<lb ed="#V" n="19" break="no"/>test ignosci: qui nunc a domino instructi sumus vt 
-      <lb ed="#V" n="20"/>calicem domini cum vino mixtum secundum quod 
-      do<lb ed="#V" n="21" break="no"/>minus obtulit offeramus. Ex hoc videtur quod 
-      si<lb ed="#V" n="22" break="no"/>quis simpliciter vel ignoranter vinum offerat 
-      si<lb ed="#V" n="23" break="no"/>ne aqua: sacramentum conficiat. Aqua vero 
-      nul<lb ed="#V" n="24" break="no"/>latenus sine vino potest offerri in sacrificium: nec 
-      <lb ed="#V" n="25"/>panis nisi de frumento: nec granum frumenti 
-      <lb ed="#V" n="26"/>nisi redactum fuerit in panem: quia christus et 
-      pa<lb ed="#V" n="27" break="no"/>nem se dicit et grano frumenti se comparat. Quod 
-      <lb ed="#V" n="28"/>ergo supra dictum est non posse vinum solum 
-      oft<lb ed="#V" n="29" break="no"/>ferri: determinari oportet: recipit enim 
-      exceptio<lb ed="#V" n="30" break="no"/>nem. Non potest nisi simpliciter vel ignoranter 
-      <lb ed="#V" n="31"/>fiat: vel non potest idest non debet. Quibusdam 
-      <lb ed="#V" n="32"/>tamen videtur hoc generaliter verum. 
-      Colli<lb ed="#V" n="33" break="no"/>gitur etiam ex predictis quod christus vinum 
-      aqua<lb ed="#V" n="34" break="no"/>mixtum dedit discipulis. Corpus vero tale de 
-      <lb ed="#V" n="35"/>dit quale tunc habuit: idest mortale et passibile. 
-      <lb ed="#V" n="36"/>Nunc vero sumitur a nobis immortale et 
-      impas<lb ed="#V" n="37" break="no"/>sibile: nec tamen maiorem habet efficientiam. Eu 
-      <lb ed="#V" n="38"/>charistia quoque intincta non debet dari populo pro 
-      <lb ed="#V" n="39"/>supplemento communionis: quia non legitur 
-      chri<lb ed="#V" n="40" break="no"/>stus alicui discipulorum prebuisse panem 
-      intin<lb ed="#V" n="41" break="no"/>ctum nisi iude. Tunc vero non accepit iudas 
-      <lb ed="#V" n="42"/>corpus christi sed tantum panem: corpus vero et 
-      san<lb ed="#V" n="43" break="no"/>guinem christi ante cum aliis discipulis perceperat. 
-      <lb ed="#V" n="44"/>Uperius deteriauit magister de 
-      sacra<lb ed="#V" n="45" break="no"/>mento eucharistie quo ad ei 
-      <lb ed="#V" n="46"/>esse: hic deterinat de eo quo ad eius fieri.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e650">
-      ¶ Et 
-      <lb ed="#V" n="47"/>diuiditur in partes tres.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e655">
-      ¶ Primo 
-      determi<lb ed="#V" n="48" break="no"/>nat magister de confectione.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e660">
-      ¶ Secundo de consequenti 
-      <lb ed="#V" n="49"/>bus ad confectionem di. sequenti. ibi. Si autem queritur de 
-      <lb ed="#V" n="50"/>accidentibus
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e667">
-      ¶ Tertio de potestate conficientis. di. 13. 
-      <lb ed="#V" n="51"/>ibit. Solet etiam queri
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e672">
-      ¶ Prima in 2.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e674">
-      ¶ Primo 
-      de<lb ed="#V" n="52" break="no"/>terminat de confectione quantum ad actum 
-      transubstantian<lb ed="#V" n="53" break="no"/>di.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e682">
-      ¶ Secundo quantum ad materiam. ibil. Sub alia autem specie lit 
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e684">
-               <lb ed="#V" n="54"/>¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e689">
-      ¶ Primo veritatem deterinat.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e691">
-      ¶ 
-      Se<lb ed="#V" n="55" break="no"/>cundo falsas opiniones reprobat. ibil. Quidam verole¬ 
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e696">
-               <lb ed="#V" n="56"/>¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e701">
-      ¶ Primo deteriat quid sciendum.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e704">
-      ¶ 
-      Se<lb ed="#V" n="57" break="no"/>cundo quomodo loquendu. ibit. Nec tamen conceduntt
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e709">
-      ¶ Illa¬ 
-      <!--00120.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="58"/>pars in qua reprobat opiniones falsas diuiditur in duas¬ 
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e718">
-               <lb ed="#V" n="59"/>¶ Primo eas recitat.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e723">
-      ¶ Secundo reprobat. ibil. Sed 
-      <lb ed="#V" n="60"/>quod non sit
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e728">
-      ¶ Illa pars in qua deteriat de confectione 
-      quam<lb ed="#V" n="61" break="no"/>tum ad materiam diuiditur in duas.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e733">
-      ¶ Primo deterinat 
-      de<lb ed="#V" n="62" break="no"/>his que requiruntur ad sacramenti esse.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e739">
-      ¶ Secundo de eo quod pertinet 
-      <lb ed="#V" n="63"/>ad bene esse. ibi. Aqua vero
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e744">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e746">
-      ¶ Primo 
-      <lb ed="#V" n="64"/>ostendit quare christus voluit a nobis sumi sub illa specie. 
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e751">
-               <lb ed="#V" n="65"/>¶ Secundo quare sub duplici. ibi Sed quare sub 
-      du<lb ed="#V" n="66" break="no"/>plici.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e758">
-      ¶ Illa pars que incipit. ibi. Aqua vero: 
-      diuidi<lb ed="#V" n="67" break="no"/>in. 2.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e763">
-      ¶ Primo ostendit quare aqua vino debet apponi. 
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e766">
-               <lb ed="#V" n="68"/>¶ Secundo quomodo eucharistia populo debet dispensari. 
-      <lb ed="#V" n="69"/>ibil. Eucharistia quoque Disiio 
-      <lb ed="#V" n="70"/>Irca hanc di. querendum est 
-      princi<lb ed="#V" n="71" break="no"/>paliter de. 4.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e777">
-      ¶ Primo de 
-      <lb ed="#V" n="72"/>conuersione seu transubstantiatione.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e782">
-      ¶ 
-      Secun<lb ed="#V" n="73" break="no"/>do de materia.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e787">
-      ¶ Tertio de aque appositione cum 
-      <lb ed="#V" n="74"/>vino.
-   </p>
-            <p xml:id="kzz7yh-k31475-d1e792">
-      ¶ Quarto de sacramenti huius dispensatione. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="45-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k31475"><!-- l4d11prae -->
+        <head xml:id="kzz7yh-k31475-Hd1e101">Praeambulum</head>
+        <!-- <p xml:id="kzz7yh-k31475-d1e103">
+          <lb ed="#V" n="44"/>¶ De modo conuersionis. 
+          <lb ed="#V" n="45"/>
+          <!-\- line coord error -\->Distinctio XI. 
+          </p>
+          <p xml:id="kzz7yh-k31475-d1e112">
+          <lb ed="#V" n="46"/>SI autem queritur qualis 
+          <lb ed="#V" n="47"/>sit illa conuersio 
+          <lb ed="#V" n="48"/>san formalis an substantialis vel 
+          alte<lb ed="#V" n="49" break="no"/>srius generis: Diffinire non sufficio. 
+          <lb ed="#V" n="50"/>Formalem tamen non esse cognosco. quia 
+          <lb ed="#V" n="51"/>species rerum que ante fuerant remanent et 
+          sa<lb ed="#V" n="52" break="no"/>por et pondus. Quibusdam esse videtur 
+          substan<lb ed="#V" n="53" break="no"/>tialis dicentibus sic substantiam conuerti in sub 
+          <lb ed="#V" n="54"/>stantiam vt hec essentialiter fiat illa. Cui sensui 
+          <lb ed="#V" n="55"/>premisse auctoritates consentire videntur. 
+          </p>
+          <p xml:id="kzz7yh-k31475-d1e136">
+          <lb ed="#V" n="56"/>¶ Oppositio 
+          </p>
+          <p xml:id="kzz7yh-k31475-d1e141">
+          <lb ed="#V" n="57"/>Sed huic sententie sic opponitur ab 
+          <lb ed="#V" n="58"/>aliis. Si substantia panis 
+          <lb ed="#V" n="59"/>inqunt vel vini conuertitur substantialiter. in 
+          <lb ed="#V" n="60"/>corpus vel in sanguinem christi quotidie sit aliqua 
+          <lb ed="#V" n="61"/>substantia corpus vel sanguis christi que ante non 
+          <lb ed="#V" n="62"/>erat. et hodie est aliquid corpus christi quod 
+          <lb ed="#V" n="63"/>heri non erat: et quotidie: augetur corpus 
+          christi<lb ed="#V" n="64" break="no"/>atque formatur de materia: de qua in conceptio¬ 
+          <!-\-00118.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="65"/>ne non fuit factum. Quibus hoc modo 
+          responde<lb ed="#V" n="66" break="no"/>ri potest: quia non ea ratione dicitur corpus christi 
+          con<lb ed="#V" n="67" break="no"/>fici verbo celesti quod ipsum corpus in conceptu 
+          vir<lb ed="#V" n="68" break="no"/>ginis formatum deinceps formetur: sed quia sub 
+          <lb ed="#V" n="69"/>stantia panis vel vini que ante non fuerat corpus 
+          <lb ed="#V" n="70"/>christi vel sanguis: verbo celesti sit corpus et 
+          san<lb ed="#V" n="71" break="no"/>guis. Et ideo sacerdotes dicuntur conficere 
+          cor<lb ed="#V" n="72" break="no"/>pus christi et sanguinem: quia eorum ministerio 
+          sub<lb ed="#V" n="73" break="no"/>stantia panis fit caro: et substantia vini sit 
+          san<lb ed="#V" n="74" break="no"/>guis christi: nec tamen aliquid additur corpori vel 
+          san<lb ed="#V" n="75" break="no"/>guini: nec augetur corpus christi vel sanguis. 
+          </p>
+          <p xml:id="kzz7yh-k31475-d1e190">
+          <lb ed="#V" n="76"/>¶ Augustinus in libro sententiarum prosperi. 
+          <lb ed="#V" n="77"/>Si vero queris modum quo id 
+          <lb ed="#V" n="78"/>fteri possit: 
+          bre<lb ed="#V" n="79" break="no"/>uiter respondeo. Mysterium fidei credi 
+          salu<lb ed="#V" n="80" break="no"/>briter potest: inuestigari salubriter non potest. Quod 
+          <lb ed="#V" n="81"/>ergo corpus christi panis mutatione in id non aug. 
+          <lb ed="#V" n="82"/>mentatur: nec sanguis ex vini conuersione: eius 
+          <lb ed="#V" n="83"/>voluntati et potentie ascribatur qui idem corpus 
+          <lb ed="#V" n="84"/>de virgine eduxit: fit ergo substantia illa ista sine eius 
+          <lb ed="#V" n="85"/>augumento. Nec tamen concedunt quidam quod sub 
+          <lb ed="#V" n="86"/>stantia panis aliquando fit caro christi: et si fiat 
+          ca<lb ed="#V" n="87" break="no"/>ro christi: sicut farina facta est panis: et aqua facta 
+          <lb ed="#V" n="88"/>est vinum: nec tamen dicitur farina est panis: et aqua 
+          <lb ed="#V" n="89"/>est vinum. Alii vero concedunt illud quod erat 
+          <lb ed="#V" n="90"/>panis vel vinum: post consecrationem esse corpus 
+          <lb ed="#V" n="91"/>et sanguinem: non tamen sequitur panis est caro 
+          <lb ed="#V" n="92"/>christi: vel vinum est sanguis: quia substantia panis 
+          <lb ed="#V" n="93"/>vel vini postquam facta est caro christi vel sanguis: non 
+          <lb ed="#V" n="94"/>est substantia panis vel vini: sed caro et sanguis. 
+          <lb ed="#V" n="95"/>Ideo distinguendum videtur cum dicitur 
+          substan<lb ed="#V" n="96" break="no"/>tia panis: vel id quod erat panis modo est 
+          cor<lb ed="#V" n="97" break="no"/>pus christi. Manens enim panis non est corpus 
+          <lb ed="#V" n="98"/>christi: sed mutata id est id quod facta est: est corpus 
+          <lb ed="#V" n="99"/>christi. Nec dicimus substantiam panis vel vini 
+          ma<lb ed="#V" n="100" break="no"/>teriam esse corporis vel sanguinis: quia non de ea 
+          <lb ed="#V" n="101"/>vt de materia formatur corpus: sed ipsa forma 
+          <lb ed="#V" n="102"/>tur in illud et efficitur illud. Unde Augu. 
+          Cor<lb ed="#V" n="103" break="no"/>pus christi dicimus illud quod ex fructibus terre 
+          <lb ed="#V" n="104"/>acceptum et prece mystica consecratum sumimus 
+          <lb ed="#V" n="105"/>in memoriam dominice passionis. Quod cum per 
+          ma<lb ed="#V" n="106" break="no"/>nus hominis ad illam visibilem speciem perducatur: 
+          <lb ed="#V" n="107"/>non sanctificatur: vt sit tam dignum 
+          sacramen<lb ed="#V" n="108" break="no"/>tum nisi operante inuisibiliter spiritu dei. 
+          </p>
+          <p xml:id="kzz7yh-k31475-d1e264">
+          <lb ed="#V" n="109"/>¶ Asserunt dictum penam tranfire in corpus christi. 
+          <lb ed="#V" n="110"/>Quidam vero sic dicunt conuersionem 
+          <lb ed="#V" n="111"/>illam esse intelligendam vt sub 
+          <lb ed="#V" n="112"/>illis accidentibus sub quibus erat prius 
+          substan<lb ed="#V" n="113" break="no"/>tia panis et vini: post consecrationem sit substantia 
+          <lb ed="#V" n="114"/>corporis et sanguinis: sic tamen vt non eis afficiatur: 
+          <lb ed="#V" n="115"/>et sic asserunt dictum panem transire in corpus 
+          <lb ed="#V" n="116"/>christi: quia vbi erat panis nunc est corpus christi. 
+          <lb ed="#V" n="117"/>Quod si est: quid ergo sit de substantia panis et 
+          vi<lb ed="#V" n="118" break="no"/>ni: Illi dicunt vel in preiacentem materiam re¬ 
+          <!-\-00119.xml-\->
+          <pb ed="#V" n="45-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>solui: vel in nihilum redigi. Alii vero putauerunt 
+          <lb ed="#V" n="2"/>ibi substantiam panis et vini remanere: et ibidem 
+          <lb ed="#V" n="3"/>corpus christi esse et sanguinem: et hac ratione dici 
+          il<lb ed="#V" n="4" break="no"/>lam substantiam fieri istam: quia vbi est hec: est et 
+          il<lb ed="#V" n="5" break="no"/>la. Quod mirum est et ipsam substantiam panis 
+          <lb ed="#V" n="6"/>vel vini dicunt esse sacramentum. Sed quod non sit 
+          <lb ed="#V" n="7"/>ibi substantia nisi corpus christi et sanguis: ex 
+          pre<lb ed="#V" n="8" break="no"/>dictis et subditis aperte ostenditur. Ait enim amb. 
+          <lb ed="#V" n="9"/>Panem istum quem sumimus in mysterio: illum 
+          <lb ed="#V" n="10"/>intelligo vtique qui manu sancti spiritus forma 
+          <lb ed="#V" n="11"/>tus est in vtero virginis: et igne passionis 
+          deco<lb ed="#V" n="12" break="no"/>ctus in ara crucis. Panis enim angelorum 
+          fa<lb ed="#V" n="13" break="no"/>ctus est cibus hominum. Unde veritas ait. Ego 
+          <lb ed="#V" n="14"/>sum panis viuus qui de celo descendi: et iterum. 
+          <lb ed="#V" n="15"/>Panis quem ego dabo caro mea est promundi 
+          <lb ed="#V" n="16"/>vita. Ex his namque duabus sententiis aperte 
+          da<lb ed="#V" n="17" break="no"/>tur intelligi: quia panis ille et iste: non duo sed 
+          <lb ed="#V" n="18"/>vnus panis: et vna caro: proculdubio vnum 
+          effici<lb ed="#V" n="19" break="no"/>tur corpus. Illud vere: illud sane: quod sumptum 
+          <lb ed="#V" n="20"/>est de virgine: quod resurrexit et in caelum 
+          ascen<lb ed="#V" n="21" break="no"/>dit. Item Gregorius. Quis fidelium habere 
+          du<lb ed="#V" n="22" break="no"/>bium possit in ipsa immolationis hora ad sacerdo 
+          <lb ed="#V" n="23"/>tis vocem celos aperiri illo: christi mysterio 
+          angelo<lb ed="#V" n="24" break="no"/>rum choros adesse: summa et ima sociari: vnum quid 
+          <lb ed="#V" n="25"/>ex inuisibilibus atque visibilibus fieri. Idem. 
+          Eo<lb ed="#V" n="26" break="no"/>dem momento et in caelum rapitur ministerio 
+          an<lb ed="#V" n="27" break="no"/>gelorum consociandum corpori christi: et ante 
+          ocu<lb ed="#V" n="28" break="no"/>los sacerdotis in altari videtur. Sicut 
+          diuini<lb ed="#V" n="29" break="no"/>tas verbi totum implet mundum: ita multis 
+          lo<lb ed="#V" n="30" break="no"/>cis illud corpus consecratur. Nec sunt tamen 
+          <lb ed="#V" n="31"/>multa corpora christi: sed vnum corpus et vnus 
+          <lb ed="#V" n="32"/>sanguis. Ideoque siue plus siue minus quis 
+          inde<lb ed="#V" n="33" break="no"/>percipiat: omnes equaliter corpus christi 
+          integer<lb ed="#V" n="34" break="no"/>rime sumunt. Post consecrationem ergo non est 
+          <lb ed="#V" n="35"/>ibi substantia panis vel vini licet species 
+          rema<lb ed="#V" n="36" break="no"/>neant. Est enim ibi species panis et vini sicut 
+          <lb ed="#V" n="37"/>sapor. Unde aliud videtur: aliud intelligitur. 
+          </p>
+          <p xml:id="kzz7yh-k31475-d1e375">
+          <lb ed="#V" n="38"/>¶ Quare sub alia specie. 
+          <lb ed="#V" n="39"/>Sub alia autem specietribus 
+          <lb ed="#V" n="40"/>de causis 
+          car<lb ed="#V" n="41" break="no"/>nem et sanguinem tradidit christus: et deinceps 
+          <lb ed="#V" n="42"/>sumendum instituit: vt fide scilicet haberet meritum 
+          <lb ed="#V" n="43"/>que est de his que non videntur: quia fides non 
+          ha<lb ed="#V" n="44" break="no"/>bet meritum vbi humana ratio prebet 
+          experimen<lb ed="#V" n="45" break="no"/>tum. Et ideo etiam ne abhoreret animus quod 
+          cer<lb ed="#V" n="46" break="no"/>neret oculus: quia non habemus in vsu carnen 
+          <lb ed="#V" n="47"/>crudam et sanguinem comedere. Quia ergo christum 
+          <lb ed="#V" n="48"/>vorari dentibus fas non est: in mysterio carnem 
+          <lb ed="#V" n="49"/>et sanguinem nobis commendauit. Et etiam ideo 
+          <lb ed="#V" n="50"/>ne ab incredulis religioni christiane insultaretur: 
+          <lb ed="#V" n="51"/>Unde Aug. Nibil rationabilius quam vt 
+          sangui<lb ed="#V" n="52" break="no"/>nis similitudinem sumamus: vt ita et veritas non 
+          <lb ed="#V" n="53"/>desit: et ridiculum nullum fiat a paganis: quia 
+          cruo<lb ed="#V" n="54" break="no"/>rem occisi hominis bibamus. Ne ergo hoc fie 
+          <!-\-00119.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="55"/>ret: et ne veluti quidam horror esset cruoris in 
+          si<lb ed="#V" n="56" break="no"/>militudinem accipimus sacramentum. Expres 
+          <lb ed="#V" n="57"/>sis iam liquet quare non sub alia specie et quare 
+          <lb ed="#V" n="58"/>sub ista hoc sacramentum dominus 
+          celebraue<lb ed="#V" n="59" break="no"/>rit et celebrari nobis instituerit. 
+          </p>
+          <p xml:id="kzz7yh-k31475-d1e429">
+          <lb ed="#V" n="60"/>¶ Quare sub duplici specie. 
+          <lb ed="#V" n="61"/>Sed quare sub duplici speciem 
+          su<lb ed="#V" n="62" break="no"/>mitur cum sub 
+          <lb ed="#V" n="63"/>alterutra totus sit christus. Ut ostenderetur totam 
+          <lb ed="#V" n="64"/>humanam naturam assumpsisse: vt totam 
+          redi<lb ed="#V" n="65" break="no"/>meret. Panis enim ad carnem refertur: vinum 
+          <lb ed="#V" n="66"/>ad animam: quia vinum operatur sanguinem in quo 
+          <lb ed="#V" n="67"/>sedes anime a physicis esse dicitur. Ideo ergo 
+          <lb ed="#V" n="68"/>in duabus speciebus celebratur: vt anime et 
+          car<lb ed="#V" n="69" break="no"/>nis susceptio in christo: et vtriusque liberatio in 
+          no<lb ed="#V" n="70" break="no"/>bis significetur. Ualet enim vt Ambro. ait ad 
+          <lb ed="#V" n="71"/>tuitionem corporis et anime quod percipimus: quia 
+          <lb ed="#V" n="72"/>caro christi pro salute corporis: sanguis vero 
+          pro<lb ed="#V" n="73" break="no"/>anima nostra offertur: sicut prefigurauit moy. 
+          <lb ed="#V" n="74"/>ses: caro inquit pro corpore vestro offertur: sanguis 
+          <lb ed="#V" n="75"/>pro anima: sed tamen sub vtraque specie sumitur: quod 
+          <lb ed="#V" n="76"/>ad vtranque valet: quia sub vtraque sumitur ipse 
+          <lb ed="#V" n="77"/>totus christus. Sed si in altera tantum sumere 
+          <lb ed="#V" n="78"/>tur: ad alterius tantum id est anime vel corporis non 
+          <lb ed="#V" n="79"/>vtriusque pariter tuitionem valere significaretur. 
+          <lb ed="#V" n="80"/>Sub vtraque specie tamen totus sumitur christus. 
+          <lb ed="#V" n="81"/>Nec plus sub vtraque: nec minus sub altera tantum 
+          <lb ed="#V" n="82"/>sumitur. Eadem enim ratio est vt ait Hylarius: 
+          <lb ed="#V" n="83"/>in corpore christi que in materiana praecessit. De quo 
+          di<lb ed="#V" n="84" break="no"/>citur. Qui plus collegerat non habuit amplius 
+          <lb ed="#V" n="85"/>nec qui minus parauerat habuit minus. Et licet sub 
+          <lb ed="#V" n="86"/>vtraque specie summatur totus christus: tamen non sit 
+          <lb ed="#V" n="87"/>conuersio panis nisi in carnem: nec vini nisi in 
+          <lb ed="#V" n="88"/>sanguinem. Nec debet dici duo sacramenta sed 
+          <lb ed="#V" n="89"/>vnum quia sub vtraque specie idem sumitur. Neque 
+          <lb ed="#V" n="90"/>debet iterari sacramentum quia benedictio 
+          no<lb ed="#V" n="91" break="no"/>repetitur super speciem eandem. Neque alie sub 
+          <lb ed="#V" n="92"/>stantie in sacrificium veritatis offerri debent quia 
+          <lb ed="#V" n="93"/>de aliis non potest consecrari corpus christi vel sanguis. 
+          </p>
+          <p xml:id="kzz7yh-k31475-d1e505">
+          <lb ed="#V" n="94"/>¶ Quare aqua admisceatur. 
+          <lb ed="#V" n="95"/>Aqua vero admiscenda est vino quia 
+          <lb ed="#V" n="96"/>aqua populum signat 
+          <lb ed="#V" n="97"/>qui per christi passionem redemptus est. Calix er 
+          <lb ed="#V" n="98"/>go dominicus iuxta canonum preceptum aqua et 
+          vi<lb ed="#V" n="99" break="no"/>no mixtus debet offerri: quia videmus in aqua 
+          popu<lb ed="#V" n="100" break="no"/>lum intelligi: in vino ostendi sanguinem christi. Cum 
+          <lb ed="#V" n="101"/>ergo in calice vino aqua miscetur: christo populus 
+          <lb ed="#V" n="102"/>adunatur et credentium plebs et in quem credit 
+          <lb ed="#V" n="103"/>copulatur: que copulatio aque et vini sic miscetur 
+          <lb ed="#V" n="104"/>in calice christi vt mixtio illa non possit separari. 
+          <lb ed="#V" n="105"/>Nam si vinum quis tantum offerat: sanguis 
+          christi<lb ed="#V" n="106" break="no"/>incipit esse sine nobis.
+          </p>
+          <p xml:id="kzz7yh-k31475-d1e536">
+          ¶ Iulius papa. 
+          <lb ed="#V" n="107"/>Si vero queritur an iritum 
+          <lb ed="#V" n="108"/>sit quod geri¬ 
+          <!-\-00120.xml-\->
+          <pb ed="#V" n="45-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>tur si aqua pretermittatur. Audi quo sequitur 
+          <lb ed="#V" n="2"/>in eodem canone. Non potest inquit calix domini esse 
+          <lb ed="#V" n="3"/>aqua sola aut vinum solum nisi vtrunque 
+          miscea<lb ed="#V" n="4" break="no"/>tur. Item Cyprianus. Calix domini non est 
+          aqua<lb ed="#V" n="5" break="no"/>sola: aut vinum solum nisi vtrumque misceatur: 
+          si<lb ed="#V" n="6" break="no"/>cut nec corpus domini potest esse farina sola: nec aqua 
+          <lb ed="#V" n="7"/>sola nisi vtrumque fuerit adunatum: et panis vnius 
+          <lb ed="#V" n="8"/>compage solidatum. Si quis tamen non intendens 
+          <lb ed="#V" n="9"/>introducere heresim obliuione vel ignorantia 
+          <lb ed="#V" n="10"/>aqua pretermiserit: non videtur esse irritum 
+          sa<lb ed="#V" n="11" break="no"/>cramentum: sed ille grauiter est corripiendus 
+          <lb ed="#V" n="12"/>Nam et grecorum ecclesia non apponere aquam 
+          di<lb ed="#V" n="13" break="no"/>citur. Quod etiam ex dictis Cypriani videtur 
+          <lb ed="#V" n="14"/>posse colligi: ait enim. Si quis de antecessoribus 
+          <lb ed="#V" n="15"/>nostris vel ignoranter: vel simpliciter hoc non 
+          <lb ed="#V" n="16"/>seruauerit quod nos dominus facere et exemplo et 
+          ma<lb ed="#V" n="17" break="no"/>gisterio docuit: potest simplicitati eius 
+          indulgen<lb ed="#V" n="18" break="no"/>tia domini venia concedi. Nobis vero non 
+          po<lb ed="#V" n="19" break="no"/>test ignosci: qui nunc a domino instructi sumus vt 
+          <lb ed="#V" n="20"/>calicem domini cum vino mixtum secundum quod 
+          do<lb ed="#V" n="21" break="no"/>minus obtulit offeramus. Ex hoc videtur quod 
+          si<lb ed="#V" n="22" break="no"/>quis simpliciter vel ignoranter vinum offerat 
+          si<lb ed="#V" n="23" break="no"/>ne aqua: sacramentum conficiat. Aqua vero 
+          nul<lb ed="#V" n="24" break="no"/>latenus sine vino potest offerri in sacrificium: nec 
+          <lb ed="#V" n="25"/>panis nisi de frumento: nec granum frumenti 
+          <lb ed="#V" n="26"/>nisi redactum fuerit in panem: quia christus et 
+          pa<lb ed="#V" n="27" break="no"/>nem se dicit et grano frumenti se comparat. Quod 
+          <lb ed="#V" n="28"/>ergo supra dictum est non posse vinum solum 
+          oft<lb ed="#V" n="29" break="no"/>ferri: determinari oportet: recipit enim 
+          exceptio<lb ed="#V" n="30" break="no"/>nem. Non potest nisi simpliciter vel ignoranter 
+          <lb ed="#V" n="31"/>fiat: vel non potest idest non debet. Quibusdam 
+          <lb ed="#V" n="32"/>tamen videtur hoc generaliter verum. 
+          Colli<lb ed="#V" n="33" break="no"/>gitur etiam ex predictis quod christus vinum 
+          aqua<lb ed="#V" n="34" break="no"/>mixtum dedit discipulis. Corpus vero tale de 
+          <lb ed="#V" n="35"/>dit quale tunc habuit: idest mortale et passibile. 
+          <lb ed="#V" n="36"/>Nunc vero sumitur a nobis immortale et 
+          impas<lb ed="#V" n="37" break="no"/>sibile: nec tamen maiorem habet efficientiam. Eu 
+          <lb ed="#V" n="38"/>charistia quoque intincta non debet dari populo pro 
+          <lb ed="#V" n="39"/>supplemento communionis: quia non legitur 
+          chri<lb ed="#V" n="40" break="no"/>stus alicui discipulorum prebuisse panem 
+          intin<lb ed="#V" n="41" break="no"/>ctum nisi iude. Tunc vero non accepit iudas 
+          <lb ed="#V" n="42"/>corpus christi sed tantum panem: corpus vero et 
+          san<lb ed="#V" n="43" break="no"/>guinem christi ante cum aliis discipulis perceperat.
+          </p>-->
+        <p xml:id="kzz7yh-k31475-d1e106">
+          <lb ed="#V" n="44"/>SUperius deteriauit magister de 
+          sacra<lb ed="#V" n="45" break="no"/>mento eucharistie quo ad ei 
+          <lb ed="#V" n="46"/>esse: hic deterinat de eo quo ad eius fieri.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e650">
+          ¶ Et 
+          <lb ed="#V" n="47"/>diuiditur in partes tres.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e655">
+          ¶ Primo 
+          determi<lb ed="#V" n="48" break="no"/>nat magister de confectione.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e660">
+          ¶ Secundo de consequenti 
+          <lb ed="#V" n="49"/>bus ad confectionem di. sequenti. ibi. Si autem queritur de 
+          <lb ed="#V" n="50"/>accidentibus
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e667">
+          ¶ Tertio de potestate conficientis. di. 13. 
+          <lb ed="#V" n="51"/>ibit. Solet etiam queri
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e672">
+          ¶ Prima in 2.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e674">
+          ¶ Primo 
+          de<lb ed="#V" n="52" break="no"/>terminat de confectione quantum ad actum 
+          transubstantian<lb ed="#V" n="53" break="no"/>di.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e682">
+          ¶ Secundo quantum ad materiam. ibil. Sub alia autem specie lit 
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e684">
+          <lb ed="#V" n="54"/>¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e689">
+          ¶ Primo veritatem deterinat.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e691">
+          ¶ 
+          Se<lb ed="#V" n="55" break="no"/>cundo falsas opiniones reprobat. ibil. Quidam verole¬ 
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e696">
+          <lb ed="#V" n="56"/>¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e701">
+          ¶ Primo deteriat quid sciendum.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e704">
+          ¶ 
+          Se<lb ed="#V" n="57" break="no"/>cundo quomodo loquendu. ibit. Nec tamen conceduntt
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e709">
+          ¶ Illa¬ 
+          <!--00120.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="58"/>pars in qua reprobat opiniones falsas diuiditur in duas¬ 
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e718">
+          <lb ed="#V" n="59"/>¶ Primo eas recitat.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e723">
+          ¶ Secundo reprobat. ibil. Sed 
+          <lb ed="#V" n="60"/>quod non sit
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e728">
+          ¶ Illa pars in qua deteriat de confectione 
+          quam<lb ed="#V" n="61" break="no"/>tum ad materiam diuiditur in duas.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e733">
+          ¶ Primo deterinat 
+          de<lb ed="#V" n="62" break="no"/>his que requiruntur ad sacramenti esse.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e739">
+          ¶ Secundo de eo quod pertinet 
+          <lb ed="#V" n="63"/>ad bene esse. ibi. Aqua vero
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e744">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e746">
+          ¶ Primo 
+          <lb ed="#V" n="64"/>ostendit quare christus voluit a nobis sumi sub illa specie. 
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e751">
+          <lb ed="#V" n="65"/>¶ Secundo quare sub duplici. ibi Sed quare sub 
+          du<lb ed="#V" n="66" break="no"/>plici.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e758">
+          ¶ Illa pars que incipit. ibi. Aqua vero: 
+          diuidi<lb ed="#V" n="67" break="no"/>in. 2.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e763">
+          ¶ Primo ostendit quare aqua vino debet apponi. 
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e766">
+          <lb ed="#V" n="68"/>¶ Secundo quomodo eucharistia populo debet dispensari. 
+          <lb ed="#V" n="69"/>ibil. Eucharistia quoque Disiio 
+          <lb ed="#V" n="70"/>Irca hanc di. querendum est 
+          princi<lb ed="#V" n="71" break="no"/>paliter de. 4.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e777">
+          ¶ Primo de 
+          <lb ed="#V" n="72"/>conuersione seu transubstantiatione.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e782">
+          ¶ 
+          Secun<lb ed="#V" n="73" break="no"/>do de materia.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e787">
+          ¶ Tertio de aque appositione cum 
+          <lb ed="#V" n="74"/>vino.
+        </p>
+        <p xml:id="kzz7yh-k31475-d1e792">
+          ¶ Quarto de sacramenti huius dispensatione. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

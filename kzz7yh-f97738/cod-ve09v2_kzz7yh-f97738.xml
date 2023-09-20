@@ -1,336 +1,339 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="137-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f97738"><!-- l2d34prae -->
-            <head xml:id="kzz7yh-f97738-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-f97738-d1e103">
-               <lb ed="#V" n="11"/>¶ Que de peccato animaduertenda sint. 
-     <lb ed="#V" n="12"/>¶ Distin. XXXIIII 
-      <lb ed="#V" n="13"/>Post predicta de 
-      pec<lb ed="#V" n="14" break="no"/>eendo 
-      <lb ed="#V" n="15"/>tuali diligenti indagine qudam 
-      con<lb ed="#V" n="16" break="no"/>sideranda sunt: scilicet que fuerit 
-      ori<lb ed="#V" n="17" break="no"/>go et causa primi peccati vtrum res 
-      <lb ed="#V" n="18"/>bona an res mala. Postea in qua re sit 
-      pec<lb ed="#V" n="19" break="no"/>catum. Deinde quid sit peccatum: et quot 
-      mo<lb ed="#V" n="20" break="no"/>dis fiat: et de differentia ipsorum peccatorum. 
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e127">
-               <lb ed="#V" n="21"/>¶ Que fuit origo et causa peccati prima. 
-      <lb ed="#V" n="22"/>Causa et origo prima peccati res 
-      <lb ed="#V" n="23"/>boitiona extitit: quia 
-      <lb ed="#V" n="24"/>ante primum peccatum non erat aliquid mali: 
-      <lb ed="#V" n="25"/>vnde oriretur. Cum enim originem et causam 
-      <lb ed="#V" n="26"/>habuerit: autem ex bono: aut ex malo habuit. Sed 
-      <lb ed="#V" n="27"/>malum ante non erat: ex bono ergo ortum est. 
-      <lb ed="#V" n="28"/>Prius enim in angelo ortum est peccatum: et 
-      <lb ed="#V" n="29"/>postea in homine. Et quid erat angelus nisi 
-      bo<lb ed="#V" n="30" break="no"/>na natura dei: Non ex deo ortum est malum 
-      <lb ed="#V" n="31"/>quod fuit in angelo: non ex alio quam ex angelo: ex 
-      <lb ed="#V" n="32"/>bono ergo ortum est. Unde Augusti. in 
-      respon<lb ed="#V" n="33" break="no"/>sionibus contra Iulianum hereticum qui 
-      di<lb ed="#V" n="34" break="no"/>xerat. Si ex natura peccatum est: tunc mala est 
-      <lb ed="#V" n="35"/>natura: ait. Queso vt si potest: respondeat. 
-      Ma<lb ed="#V" n="36" break="no"/>nifestum ex voluntate mala tamquam ex arbore 
-      ma<lb ed="#V" n="37" break="no"/>la: fieri omnia opera mala tamquam fructus malo: 
-      <lb ed="#V" n="38"/>sed ipsam malam voluntatem vnde dicit exortam 
-      <lb ed="#V" n="39"/>nisi ex bono: Si enim ex angelo: quid est 
-      ange<lb ed="#V" n="40" break="no"/>lus nisi bonum opus dei: Si ex homine: quid 
-      <lb ed="#V" n="41"/>erat ipse homo nisi bonum opus dei. Immo 
-      <lb ed="#V" n="42"/>quid erant hec duo ante quam in eis oriretur 
-      ma<lb ed="#V" n="43" break="no"/>la voluntas: nisi bonum opus dei et bona et 
-      lau<lb ed="#V" n="44" break="no"/>danda natura. Ergo ex bono oritur malum: nec 
-      <lb ed="#V" n="45"/>fuit vndeoriri posset nisi ex bono. Dico ergo quia 
-      <lb ed="#V" n="46"/>voluntatem malam nullum malum precessit: 
-      <lb ed="#V" n="47"/>sed ex bono originem habuit. Hic aperte 
-      dici<lb ed="#V" n="48" break="no"/>tur primam causam et originem mali bonam 
-      fuis<lb ed="#V" n="49" break="no"/>se naturam. Et nihilominus. ostenditur cuius 
-      <lb ed="#V" n="50"/>peccati fuerit causa scilicet male voluntatis. 
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e195">
-               <lb ed="#V" n="51"/>¶ Quo mala voluntas secundaria causa fuit 
-      ma<lb ed="#V" n="52" break="no"/>lorum. 
-      <lb ed="#V" n="53"/>Mala autem vosuntas illa 
-      <lb ed="#V" n="54"/>
-      an<lb ed="#V" n="55" break="no"/>geli et hominis causa est etiam malorum sub¬ 
-      <!--00288.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="56"/>sequentium: scilicet malorum operum et 
-      ma<lb ed="#V" n="57" break="no"/>larum voluntatum. Unde Augustinus in 
-      En<lb ed="#V" n="58" break="no"/>chiridion. Nequaquam dubitare debemus 
-      re<lb ed="#V" n="59" break="no"/>rum bonarum que ad nos pertinent causam 
-      <lb ed="#V" n="60"/>non esse nisi bonitatem dei. Malarum vero 
-      <lb ed="#V" n="61"/>ab immutabili bono deficientem boni 
-      muta<lb ed="#V" n="62" break="no"/>bilis voluntatem: prius angeli postea 
-      homi<lb ed="#V" n="63" break="no"/>nis: hoc primum est creature rationalis malum 
-      <lb ed="#V" n="64"/>idest prima priuatio boni. Ecce habes primam 
-      <lb ed="#V" n="65"/>voluntatem boni mutabilis: idest angeli vel 
-      bo<lb ed="#V" n="66" break="no"/>minis deficientem ab immutabili bono: idest a 
-      <lb ed="#V" n="67"/>deo causam esse malarum rerum ad nos 
-      perti<lb ed="#V" n="68" break="no"/>nentium: quia causa est tam peccatorum quam 
-      pe<lb ed="#V" n="69" break="no"/>narum quibus premitur humana natura. 
-      Pri<lb ed="#V" n="70" break="no"/>ma ergo origo et causa peccati bonum fuit: et 
-      se<lb ed="#V" n="71" break="no"/>cunda malum quod ortum est ex bono. 
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e247">
-               <lb ed="#V" n="72"/>¶ In qua re sit peccatum: an in bona an in 
-      ma<lb ed="#V" n="73" break="no"/>la: et dicitur quod in bona tantum. 
-      <lb ed="#V" n="74"/>Postensa origine mali superest 
-      <lb ed="#V" n="75"/>videre in qua 
-      <lb ed="#V" n="76"/>re sit malum: idest an in re bona: an in re mala 
-      <lb ed="#V" n="77"/>Qui recte acuteque sapit: non nisi in bono malum 
-      <lb ed="#V" n="78"/>esse intelligit: idest in natura bona. Malum enim 
-      <lb ed="#V" n="79"/>est corruptio vel priuatio boni: vbi autem 
-      bo<lb ed="#V" n="80" break="no"/>num non est: non potest esse corruptio vel 
-      priuatio<lb ed="#V" n="81" break="no"/>boni. Peccatum ergo non potest esse nisi in 
-      re<lb ed="#V" n="82" break="no"/>bona. Sicut enim morbis ac vulneribus 
-      cor<lb ed="#V" n="83" break="no"/>rumpuntur corpora que: vt ait Aug. in Ench. 
-      <lb ed="#V" n="84"/>sunt priuationes boni quod dicitur ianitas: ita 
-      <lb ed="#V" n="85"/>et animorum quecumque sunt vitia naturalium sunt 
-      <lb ed="#V" n="86"/>priuationes bonorum. Quid est enim aliud quod 
-      <lb ed="#V" n="87"/>malum dicitur: nisi priuatio boni. Bonum enim 
-      <lb ed="#V" n="88"/>minui malum est: quamuis quantuncumque 
-      minua<lb ed="#V" n="89" break="no"/>tur necesse est vt aliquid remaneat: si adhuc 
-      na<lb ed="#V" n="90" break="no"/>tura est. Non enim consumi potest bonum quod 
-      <lb ed="#V" n="91"/>est natura: nisi et ipsa consumetur. Cum vero 
-      cor<lb ed="#V" n="92" break="no"/>rumpitur: ideo malum est eius corruptio: quia 
-      <lb ed="#V" n="93"/>eam qualicumque priuat bono. Nam si nullo 
-      bo<lb ed="#V" n="94" break="no"/>no priuat: non nocet. Nocet autem: adimit er 
-      <lb ed="#V" n="95"/>go bonum. Quandiu itaque natura corrumpitur: 
-      <lb ed="#V" n="96"/>inest ei bonum quo priuetur. Ac per hoc 
-      nul<lb ed="#V" n="97" break="no"/>lum est quod dicitur malum: si nullum sit 
-      bo<lb ed="#V" n="98" break="no"/>num: sed bonum omnino malo carens: integrum 
-      <lb ed="#V" n="99"/>bonum est. Cum vero inest malum: vitiatum 
-      <lb ed="#V" n="100"/>vel vitiosum bonum est: nec malum vnquam potest esse 
-      <lb ed="#V" n="101"/>vllum: vbi est nullum bonum. Unde res 
-      mira<lb ed="#V" n="102" break="no"/>perficitur: vt quia omnis natura inquantum natura est 
-      <lb ed="#V" n="103"/>bonum est: nihil aliud dici videtur: cum vitiosa 
-      <lb ed="#V" n="104"/>natura mala natura esse dicitur: nisi malum 
-      <lb ed="#V" n="105"/>esse quod bonum est: nec malum esse nisi quod 
-      <lb ed="#V" n="106"/>bonum est. Hac contextione euidenter 
-      infinua<lb ed="#V" n="107" break="no"/>tur malum non posse esse nisi in re bona: vbi etiam 
-      <lb ed="#V" n="108"/>licet absurdum videatur: manifeste dicitur esse 
-      <lb ed="#V" n="109"/>malum: quod bonum est. 
-      <!--00289.xml-->
-      <pb ed="#V" n="138-r"/>
-               <cb ed="#P" n="a"/>
-            </p>
-            <p xml:id="kzz7yh-f97738-d1e339">
-               <lb ed="#V" n="1"/>¶ Quod ex premissis sequitur scilicet quod cum dicitur 
-      ma<lb ed="#V" n="2" break="no"/>lus homo: dicitur malum bonum. 
-      <lb ed="#V" n="3"/>Exe quo colligitur nibit 
-      ali<lb ed="#V" n="4" break="no"/>ud 
-      signi<lb ed="#V" n="5" break="no"/>ficari cum dicitur homo malus: nisi bonum 
-      ma<lb ed="#V" n="6" break="no"/>lum. Unde Augusti. in eodem subdit. Quid est 
-      <lb ed="#V" n="7"/>malus homo nisi mala natura: Quia homo 
-      <lb ed="#V" n="8"/>natura est. Porro si homo aliquod bonum est: 
-      <lb ed="#V" n="9"/>quia natura est: quid aliud est malus homo: 
-      <lb ed="#V" n="10"/>nisi malum bonum: Tamen cum duo ista 
-      discer<lb ed="#V" n="11" break="no"/>nimus: inuenimus nec ideo malum: quia homo est: nec ideo 
-      <lb ed="#V" n="12"/>bonum: quia iniquus est. Sed bonum quia homo: 
-      <lb ed="#V" n="13"/>malum quia iniquus. Omnis itaque natura est 
-      <lb ed="#V" n="14"/>si vitiosa sit: inquantum natura est: bona est: 
-      in<lb ed="#V" n="15" break="no"/>quantum vitiosa est: mala est. 
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e374">
-               <lb ed="#V" n="16"/>¶ Quod regula dialecticorum de contrariis falli in 
-      <lb ed="#V" n="17"/>his scilicet bono et malo. 
-      <lb ed="#V" n="18"/>Ideoque in his contraris que 
-      ma<lb ed="#V" n="19" break="no"/>la et bona 
-      vocan<lb ed="#V" n="20" break="no"/>tur: illa dialecticorum regula deficit: qua dicunt 
-      <lb ed="#V" n="21"/>nullirei duo simul inesse contraria. Nullus enim 
-      <lb ed="#V" n="22"/>potus aut cibus simul dulcis est et amarus. 
-      <lb ed="#V" n="23"/>Nullum simul vbi album ibi et nigrum: et hoc in 
-      <lb ed="#V" n="24"/>multis ac pene in omnibus reperitur 
-      contra<lb ed="#V" n="25" break="no"/>riis: vt in vna re simul esse non possint. Cum 
-      au<lb ed="#V" n="26" break="no"/>tem bona et mala nullus ambigat esse contraria: 
-      <lb ed="#V" n="27"/>non solum simul esse possunt: sed mala omnino 
-      <lb ed="#V" n="28"/>sine bonis: et nisi in bonis esse non possunt. Et 
-      <lb ed="#V" n="29"/>hec duo contraria: ita simul sunt: vt si bonum non 
-      <lb ed="#V" n="30"/>esset in quo esset: prorsus nec malum esse potuis 
-      <lb ed="#V" n="31"/>set. Quia non modo vbi consisteret: sed vnde 
-      ori<lb ed="#V" n="32" break="no"/>retur corruptio non haberet: nisi esset quod 
-      cor<lb ed="#V" n="33" break="no"/>rumperetur: quoniam nihil est aliud corruptio: 
-      <lb ed="#V" n="34"/>quam boni exterminatio. Ex bonis ergo mala 
-      or<lb ed="#V" n="35" break="no"/>ta sunt: et nisi in bonis non sunt: nec fuit prorsus: 
-      <lb ed="#V" n="36"/>vnde oriretur vlla mali natura: nisi ex angeli et 
-      <lb ed="#V" n="37"/>hominis natura bona: vnde primitus orta est 
-      <lb ed="#V" n="38"/>voluntas mala. 
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e426">
-               <lb ed="#V" n="39"/>¶ Epilogum facit ad alia transiturus. 
-      <lb ed="#V" n="40"/>Ex his aperitur quod primo 
-      <lb ed="#V" n="41"/>et secundo 
-      su<lb ed="#V" n="42" break="no"/>pra inuestigandum diximus: scilicet que fuerit 
-      <lb ed="#V" n="43"/>origo mali: et in qua re sit. Ex bona enim re 
-      or<lb ed="#V" n="44" break="no"/>tum: et in re bona consistere: premissis testimo. 
-      <lb ed="#V" n="45"/>niis comprobatur. 
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e444">
-               <lb ed="#V" n="46"/>¶ Sententie illi qua dictum est bonum esse malui 
-      <lb ed="#V" n="47"/>opponitur de prophetia que ait. Ue his qui 
-      <lb ed="#V" n="48"/>dicunt bonum malum. 
-      <lb ed="#V" n="49"/>Ad hoc autem quod dictum 
-      <lb ed="#V" n="50"/>est malum esse 
-      <lb ed="#V" n="51"/>quod bonum est: quidam sic opponunt. Si 
-      bo<lb ed="#V" n="52" break="no"/>num malum esse dicimus: incidimus in illam 
-      sen<lb ed="#V" n="53" break="no"/>tentiam propheticam vbi legitur. Ue his qui 
-      di<lb ed="#V" n="54" break="no"/>cunt bonum malum: et malum bonum. Igitur 
-      si<lb ed="#V" n="55" break="no"/>hanc maledictionem vitare volumus: nullate 
-      <!--00289.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="56"/>nus dicere debemus bonum esse malum: et 
-      econ<lb ed="#V" n="57" break="no"/>uerso. Hoc autem Augustinus in eodem libro 
-      <lb ed="#V" n="58"/>determinat dicens: id quod dictum est in 
-      pro<lb ed="#V" n="59" break="no"/>phetia intelligendum esse de ipsis rebus qui 
-      <lb ed="#V" n="60"/>bus homines mali sunt: non de hominibus. 
-      Un<lb ed="#V" n="61" break="no"/>de qui adulterium dicit bonum: in eum cadit 
-      il<lb ed="#V" n="62" break="no"/>la prophetica detestatio: et in eum qui dicit 
-      ma<lb ed="#V" n="63" break="no"/>lum esse bonum vel bonum esse iniquum. Qui 
-      <lb ed="#V" n="64"/>enim dicit hominem inquantum homo est 
-      ma<lb ed="#V" n="65" break="no"/>lum esse: et bonitatem esse iniquitatem: opus dei 
-      <lb ed="#V" n="66"/>culpat quod est homo: et vitium hominis laudat 
-      <lb ed="#V" n="67"/>quod est inquitas. Dist. XXXIIII 
-      <lb ed="#V" n="68"/>ost predicta etc. Superius 
-      deter<lb ed="#V" n="69" break="no"/>minauit Magister 
-      <lb ed="#V" n="70"/>de peccato originali. In hac parte determinat 
-      <lb ed="#V" n="71"/>de peccato actuali. Et diuiditur pars ista in 
-      pro<lb ed="#V" n="72" break="no"/>hemium et executionem: que ibi incipit. Causa 
-      <lb ed="#V" n="73"/>et origo.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e512">
-      ¶ Et hec secunda diuiditur in septem partes. 
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e514">
-               <lb ed="#V" n="74"/>¶ Primo determinat de origine peccati.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e520">
-      ¶ Secundo 
-      <lb ed="#V" n="75"/>de eius subiecto. ibi. Ostensa origine.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e525">
-      ¶ Tertio de 
-      qui<lb ed="#V" n="76" break="no"/>ditate peccati distin. sequenti: que ibi incipit. Post hec 
-      <lb ed="#V" n="77"/>videndum.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e532">
-      ¶ Quarto de his que concurrunt ad 
-      pec<lb ed="#V" n="78" break="no"/>catum: que sunt voluntas et intentio et finis distin. 38 
-      quae<lb ed="#V" n="79" break="no"/>ibi incipit. Post predicta de voluntate.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e539">
-      ¶ Quinto de 
-      <lb ed="#V" n="80"/>modis peccandi circa medium. 4amo dist. ibi. Modi 
-      au<lb ed="#V" n="81" break="no"/>tem peccatorum.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e546">
-      ¶ Sexto de contrariis peccatorum. 
-      <lb ed="#V" n="82"/>eadem distin. ibi. Uariam quoque.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e551">
-      ¶ Septimo de 
-      poten<lb ed="#V" n="83" break="no"/>tia peccandi. vltima distin. que ibi incipit. Post 
-      predi<lb ed="#V" n="84" break="no"/>cta.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e559">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e561">
-      ¶ Primo ostendit que fuit prima 
-      <lb ed="#V" n="85"/>causa primi mali.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e566">
-      ¶ Secundo ostendit illud primum 
-      ma<lb ed="#V" n="86" break="no"/>lum causam esse sequentium malorum. ibi.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e571">
-      ¶ Mala autem 
-      <lb ed="#V" n="87"/>voluntas. Illa pars que ibi incipit. Ostensa origine. 
-      <lb ed="#V" n="88"/>Diuiditur in partes duas.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e578">
-      ¶ Primo ostendit quid est 
-      <lb ed="#V" n="89"/>subiectum mali.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e583">
-      ¶ Secundo contra aliquid suppositum 
-      <lb ed="#V" n="90"/>in sua determinatione ponit obiectionem et soluit ibi. Ad 
-      <lb ed="#V" n="91"/>hoc autem.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e591">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e593">
-      ¶ Primo ostendit quod 
-      subie<lb ed="#V" n="92" break="no"/>ctum mali est bonum.
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e598">
-      ¶ Secundo ex hoc concludit vnum 
-      <lb ed="#V" n="93"/>correlarium ibi. Ideo in his contrariis. 
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e603">
-               <lb ed="#V" n="94"/>Irca hanc distinctionem queritur 
-      <lb ed="#V" n="95"/>principaliter de duobus 
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e610">
-               <lb ed="#V" n="96"/>¶ Primo queritur de mali entitate
-   </p>
-            <p xml:id="kzz7yh-f97738-d1e615">
-      ¶ 
-      Se<lb ed="#V" n="97" break="no"/>cundo de eius principiatione.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="138-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f97738"><!-- l2d34prae -->
+        <head xml:id="kzz7yh-f97738-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-f97738-d1e103">
+          <lb ed="#V" n="11"/>¶ Que de peccato animaduertenda sint. 
+          <lb ed="#V" n="12"/>¶ Distin. XXXIIII 
+          <lb ed="#V" n="13"/>Post predicta de 
+          pec<lb ed="#V" n="14" break="no"/>eendo 
+          <lb ed="#V" n="15"/>tuali diligenti indagine qudam 
+          con<lb ed="#V" n="16" break="no"/>sideranda sunt: scilicet que fuerit 
+          ori<lb ed="#V" n="17" break="no"/>go et causa primi peccati vtrum res 
+          <lb ed="#V" n="18"/>bona an res mala. Postea in qua re sit 
+          pec<lb ed="#V" n="19" break="no"/>catum. Deinde quid sit peccatum: et quot 
+          mo<lb ed="#V" n="20" break="no"/>dis fiat: et de differentia ipsorum peccatorum. 
+          </p>
+          <p xml:id="kzz7yh-f97738-d1e127">
+          <lb ed="#V" n="21"/>¶ Que fuit origo et causa peccati prima. 
+          <lb ed="#V" n="22"/>Causa et origo prima peccati res 
+          <lb ed="#V" n="23"/>boitiona extitit: quia 
+          <lb ed="#V" n="24"/>ante primum peccatum non erat aliquid mali: 
+          <lb ed="#V" n="25"/>vnde oriretur. Cum enim originem et causam 
+          <lb ed="#V" n="26"/>habuerit: autem ex bono: aut ex malo habuit. Sed 
+          <lb ed="#V" n="27"/>malum ante non erat: ex bono ergo ortum est. 
+          <lb ed="#V" n="28"/>Prius enim in angelo ortum est peccatum: et 
+          <lb ed="#V" n="29"/>postea in homine. Et quid erat angelus nisi 
+          bo<lb ed="#V" n="30" break="no"/>na natura dei: Non ex deo ortum est malum 
+          <lb ed="#V" n="31"/>quod fuit in angelo: non ex alio quam ex angelo: ex 
+          <lb ed="#V" n="32"/>bono ergo ortum est. Unde Augusti. in 
+          respon<lb ed="#V" n="33" break="no"/>sionibus contra Iulianum hereticum qui 
+          di<lb ed="#V" n="34" break="no"/>xerat. Si ex natura peccatum est: tunc mala est 
+          <lb ed="#V" n="35"/>natura: ait. Queso vt si potest: respondeat. 
+          Ma<lb ed="#V" n="36" break="no"/>nifestum ex voluntate mala tamquam ex arbore 
+          ma<lb ed="#V" n="37" break="no"/>la: fieri omnia opera mala tamquam fructus malo: 
+          <lb ed="#V" n="38"/>sed ipsam malam voluntatem vnde dicit exortam 
+          <lb ed="#V" n="39"/>nisi ex bono: Si enim ex angelo: quid est 
+          ange<lb ed="#V" n="40" break="no"/>lus nisi bonum opus dei: Si ex homine: quid 
+          <lb ed="#V" n="41"/>erat ipse homo nisi bonum opus dei. Immo 
+          <lb ed="#V" n="42"/>quid erant hec duo ante quam in eis oriretur 
+          ma<lb ed="#V" n="43" break="no"/>la voluntas: nisi bonum opus dei et bona et 
+          lau<lb ed="#V" n="44" break="no"/>danda natura. Ergo ex bono oritur malum: nec 
+          <lb ed="#V" n="45"/>fuit vndeoriri posset nisi ex bono. Dico ergo quia 
+          <lb ed="#V" n="46"/>voluntatem malam nullum malum precessit: 
+          <lb ed="#V" n="47"/>sed ex bono originem habuit. Hic aperte 
+          dici<lb ed="#V" n="48" break="no"/>tur primam causam et originem mali bonam 
+          fuis<lb ed="#V" n="49" break="no"/>se naturam. Et nihilominus. ostenditur cuius 
+          <lb ed="#V" n="50"/>peccati fuerit causa scilicet male voluntatis. 
+          </p>
+          <p xml:id="kzz7yh-f97738-d1e195">
+          <lb ed="#V" n="51"/>¶ Quo mala voluntas secundaria causa fuit 
+          ma<lb ed="#V" n="52" break="no"/>lorum. 
+          <lb ed="#V" n="53"/>Mala autem vosuntas illa 
+          <lb ed="#V" n="54"/>
+          an<lb ed="#V" n="55" break="no"/>geli et hominis causa est etiam malorum sub¬ 
+          <!-\-00288.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="56"/>sequentium: scilicet malorum operum et 
+          ma<lb ed="#V" n="57" break="no"/>larum voluntatum. Unde Augustinus in 
+          En<lb ed="#V" n="58" break="no"/>chiridion. Nequaquam dubitare debemus 
+          re<lb ed="#V" n="59" break="no"/>rum bonarum que ad nos pertinent causam 
+          <lb ed="#V" n="60"/>non esse nisi bonitatem dei. Malarum vero 
+          <lb ed="#V" n="61"/>ab immutabili bono deficientem boni 
+          muta<lb ed="#V" n="62" break="no"/>bilis voluntatem: prius angeli postea 
+          homi<lb ed="#V" n="63" break="no"/>nis: hoc primum est creature rationalis malum 
+          <lb ed="#V" n="64"/>idest prima priuatio boni. Ecce habes primam 
+          <lb ed="#V" n="65"/>voluntatem boni mutabilis: idest angeli vel 
+          bo<lb ed="#V" n="66" break="no"/>minis deficientem ab immutabili bono: idest a 
+          <lb ed="#V" n="67"/>deo causam esse malarum rerum ad nos 
+          perti<lb ed="#V" n="68" break="no"/>nentium: quia causa est tam peccatorum quam 
+          pe<lb ed="#V" n="69" break="no"/>narum quibus premitur humana natura. 
+          Pri<lb ed="#V" n="70" break="no"/>ma ergo origo et causa peccati bonum fuit: et 
+          se<lb ed="#V" n="71" break="no"/>cunda malum quod ortum est ex bono. 
+          </p>
+          <p xml:id="kzz7yh-f97738-d1e247">
+          <lb ed="#V" n="72"/>¶ In qua re sit peccatum: an in bona an in 
+          ma<lb ed="#V" n="73" break="no"/>la: et dicitur quod in bona tantum. 
+          <lb ed="#V" n="74"/>Postensa origine mali superest 
+          <lb ed="#V" n="75"/>videre in qua 
+          <lb ed="#V" n="76"/>re sit malum: idest an in re bona: an in re mala 
+          <lb ed="#V" n="77"/>Qui recte acuteque sapit: non nisi in bono malum 
+          <lb ed="#V" n="78"/>esse intelligit: idest in natura bona. Malum enim 
+          <lb ed="#V" n="79"/>est corruptio vel priuatio boni: vbi autem 
+          bo<lb ed="#V" n="80" break="no"/>num non est: non potest esse corruptio vel 
+          priuatio<lb ed="#V" n="81" break="no"/>boni. Peccatum ergo non potest esse nisi in 
+          re<lb ed="#V" n="82" break="no"/>bona. Sicut enim morbis ac vulneribus 
+          cor<lb ed="#V" n="83" break="no"/>rumpuntur corpora que: vt ait Aug. in Ench. 
+          <lb ed="#V" n="84"/>sunt priuationes boni quod dicitur ianitas: ita 
+          <lb ed="#V" n="85"/>et animorum quecumque sunt vitia naturalium sunt 
+          <lb ed="#V" n="86"/>priuationes bonorum. Quid est enim aliud quod 
+          <lb ed="#V" n="87"/>malum dicitur: nisi priuatio boni. Bonum enim 
+          <lb ed="#V" n="88"/>minui malum est: quamuis quantuncumque 
+          minua<lb ed="#V" n="89" break="no"/>tur necesse est vt aliquid remaneat: si adhuc 
+          na<lb ed="#V" n="90" break="no"/>tura est. Non enim consumi potest bonum quod 
+          <lb ed="#V" n="91"/>est natura: nisi et ipsa consumetur. Cum vero 
+          cor<lb ed="#V" n="92" break="no"/>rumpitur: ideo malum est eius corruptio: quia 
+          <lb ed="#V" n="93"/>eam qualicumque priuat bono. Nam si nullo 
+          bo<lb ed="#V" n="94" break="no"/>no priuat: non nocet. Nocet autem: adimit er 
+          <lb ed="#V" n="95"/>go bonum. Quandiu itaque natura corrumpitur: 
+          <lb ed="#V" n="96"/>inest ei bonum quo priuetur. Ac per hoc 
+          nul<lb ed="#V" n="97" break="no"/>lum est quod dicitur malum: si nullum sit 
+          bo<lb ed="#V" n="98" break="no"/>num: sed bonum omnino malo carens: integrum 
+          <lb ed="#V" n="99"/>bonum est. Cum vero inest malum: vitiatum 
+          <lb ed="#V" n="100"/>vel vitiosum bonum est: nec malum vnquam potest esse 
+          <lb ed="#V" n="101"/>vllum: vbi est nullum bonum. Unde res 
+          mira<lb ed="#V" n="102" break="no"/>perficitur: vt quia omnis natura inquantum natura est 
+          <lb ed="#V" n="103"/>bonum est: nihil aliud dici videtur: cum vitiosa 
+          <lb ed="#V" n="104"/>natura mala natura esse dicitur: nisi malum 
+          <lb ed="#V" n="105"/>esse quod bonum est: nec malum esse nisi quod 
+          <lb ed="#V" n="106"/>bonum est. Hac contextione euidenter 
+          infinua<lb ed="#V" n="107" break="no"/>tur malum non posse esse nisi in re bona: vbi etiam 
+          <lb ed="#V" n="108"/>licet absurdum videatur: manifeste dicitur esse 
+          <lb ed="#V" n="109"/>malum: quod bonum est. 
+          <!-\-00289.xml-\->
+          <pb ed="#V" n="138-r"/>
+          <cb ed="#P" n="a"/>
+          </p>
+          <p xml:id="kzz7yh-f97738-d1e339">
+          <lb ed="#V" n="1"/>¶ Quod ex premissis sequitur scilicet quod cum dicitur 
+          ma<lb ed="#V" n="2" break="no"/>lus homo: dicitur malum bonum. 
+          <lb ed="#V" n="3"/>Exe quo colligitur nibit 
+          ali<lb ed="#V" n="4" break="no"/>ud 
+          signi<lb ed="#V" n="5" break="no"/>ficari cum dicitur homo malus: nisi bonum 
+          ma<lb ed="#V" n="6" break="no"/>lum. Unde Augusti. in eodem subdit. Quid est 
+          <lb ed="#V" n="7"/>malus homo nisi mala natura: Quia homo 
+          <lb ed="#V" n="8"/>natura est. Porro si homo aliquod bonum est: 
+          <lb ed="#V" n="9"/>quia natura est: quid aliud est malus homo: 
+          <lb ed="#V" n="10"/>nisi malum bonum: Tamen cum duo ista 
+          discer<lb ed="#V" n="11" break="no"/>nimus: inuenimus nec ideo malum: quia homo est: nec ideo 
+          <lb ed="#V" n="12"/>bonum: quia iniquus est. Sed bonum quia homo: 
+          <lb ed="#V" n="13"/>malum quia iniquus. Omnis itaque natura est 
+          <lb ed="#V" n="14"/>si vitiosa sit: inquantum natura est: bona est: 
+          in<lb ed="#V" n="15" break="no"/>quantum vitiosa est: mala est. 
+          </p>
+          <p xml:id="kzz7yh-f97738-d1e374">
+          <lb ed="#V" n="16"/>¶ Quod regula dialecticorum de contrariis falli in 
+          <lb ed="#V" n="17"/>his scilicet bono et malo. 
+          <lb ed="#V" n="18"/>Ideoque in his contraris que 
+          ma<lb ed="#V" n="19" break="no"/>la et bona 
+          vocan<lb ed="#V" n="20" break="no"/>tur: illa dialecticorum regula deficit: qua dicunt 
+          <lb ed="#V" n="21"/>nullirei duo simul inesse contraria. Nullus enim 
+          <lb ed="#V" n="22"/>potus aut cibus simul dulcis est et amarus. 
+          <lb ed="#V" n="23"/>Nullum simul vbi album ibi et nigrum: et hoc in 
+          <lb ed="#V" n="24"/>multis ac pene in omnibus reperitur 
+          contra<lb ed="#V" n="25" break="no"/>riis: vt in vna re simul esse non possint. Cum 
+          au<lb ed="#V" n="26" break="no"/>tem bona et mala nullus ambigat esse contraria: 
+          <lb ed="#V" n="27"/>non solum simul esse possunt: sed mala omnino 
+          <lb ed="#V" n="28"/>sine bonis: et nisi in bonis esse non possunt. Et 
+          <lb ed="#V" n="29"/>hec duo contraria: ita simul sunt: vt si bonum non 
+          <lb ed="#V" n="30"/>esset in quo esset: prorsus nec malum esse potuis 
+          <lb ed="#V" n="31"/>set. Quia non modo vbi consisteret: sed vnde 
+          ori<lb ed="#V" n="32" break="no"/>retur corruptio non haberet: nisi esset quod 
+          cor<lb ed="#V" n="33" break="no"/>rumperetur: quoniam nihil est aliud corruptio: 
+          <lb ed="#V" n="34"/>quam boni exterminatio. Ex bonis ergo mala 
+          or<lb ed="#V" n="35" break="no"/>ta sunt: et nisi in bonis non sunt: nec fuit prorsus: 
+          <lb ed="#V" n="36"/>vnde oriretur vlla mali natura: nisi ex angeli et 
+          <lb ed="#V" n="37"/>hominis natura bona: vnde primitus orta est 
+          <lb ed="#V" n="38"/>voluntas mala. 
+          </p>
+          <p xml:id="kzz7yh-f97738-d1e426">
+          <lb ed="#V" n="39"/>¶ Epilogum facit ad alia transiturus. 
+          <lb ed="#V" n="40"/>Ex his aperitur quod primo 
+          <lb ed="#V" n="41"/>et secundo 
+          su<lb ed="#V" n="42" break="no"/>pra inuestigandum diximus: scilicet que fuerit 
+          <lb ed="#V" n="43"/>origo mali: et in qua re sit. Ex bona enim re 
+          or<lb ed="#V" n="44" break="no"/>tum: et in re bona consistere: premissis testimo. 
+          <lb ed="#V" n="45"/>niis comprobatur. 
+          </p>
+          <p xml:id="kzz7yh-f97738-d1e444">
+          <lb ed="#V" n="46"/>¶ Sententie illi qua dictum est bonum esse malui 
+          <lb ed="#V" n="47"/>opponitur de prophetia que ait. Ue his qui 
+          <lb ed="#V" n="48"/>dicunt bonum malum. 
+          <lb ed="#V" n="49"/>Ad hoc autem quod dictum 
+          <lb ed="#V" n="50"/>est malum esse 
+          <lb ed="#V" n="51"/>quod bonum est: quidam sic opponunt. Si 
+          bo<lb ed="#V" n="52" break="no"/>num malum esse dicimus: incidimus in illam 
+          sen<lb ed="#V" n="53" break="no"/>tentiam propheticam vbi legitur. Ue his qui 
+          di<lb ed="#V" n="54" break="no"/>cunt bonum malum: et malum bonum. Igitur 
+          si<lb ed="#V" n="55" break="no"/>hanc maledictionem vitare volumus: nullate 
+          <!-\-00289.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="56"/>nus dicere debemus bonum esse malum: et 
+          econ<lb ed="#V" n="57" break="no"/>uerso. Hoc autem Augustinus in eodem libro 
+          <lb ed="#V" n="58"/>determinat dicens: id quod dictum est in 
+          pro<lb ed="#V" n="59" break="no"/>phetia intelligendum esse de ipsis rebus qui 
+          <lb ed="#V" n="60"/>bus homines mali sunt: non de hominibus. 
+          Un<lb ed="#V" n="61" break="no"/>de qui adulterium dicit bonum: in eum cadit 
+          il<lb ed="#V" n="62" break="no"/>la prophetica detestatio: et in eum qui dicit 
+          ma<lb ed="#V" n="63" break="no"/>lum esse bonum vel bonum esse iniquum. Qui 
+          <lb ed="#V" n="64"/>enim dicit hominem inquantum homo est 
+          ma<lb ed="#V" n="65" break="no"/>lum esse: et bonitatem esse iniquitatem: opus dei 
+          <lb ed="#V" n="66"/>culpat quod est homo: et vitium hominis laudat 
+          <lb ed="#V" n="67"/>quod est inquitas.
+          </p>-->
+        <p xml:id="kzz7yh-f97738-d1e106">
+          Dist. XXXIIII 
+          <lb ed="#V" n="68"/>Post predicta etc. Superius 
+          deter<lb ed="#V" n="69" break="no"/>minauit Magister 
+          <lb ed="#V" n="70"/>de peccato originali. In hac parte determinat 
+          <lb ed="#V" n="71"/>de peccato actuali. Et diuiditur pars ista in 
+          pro<lb ed="#V" n="72" break="no"/>hemium et executionem: que ibi incipit. Causa 
+          <lb ed="#V" n="73"/>et origo.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e512">
+          ¶ Et hec secunda diuiditur in septem partes. 
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e514">
+          <lb ed="#V" n="74"/>¶ Primo determinat de origine peccati.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e520">
+          ¶ Secundo 
+          <lb ed="#V" n="75"/>de eius subiecto. ibi. Ostensa origine.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e525">
+          ¶ Tertio de 
+          qui<lb ed="#V" n="76" break="no"/>ditate peccati distin. sequenti: que ibi incipit. Post hec 
+          <lb ed="#V" n="77"/>videndum.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e532">
+          ¶ Quarto de his que concurrunt ad 
+          pec<lb ed="#V" n="78" break="no"/>catum: que sunt voluntas et intentio et finis distin. 38 
+          quae<lb ed="#V" n="79" break="no"/>ibi incipit. Post predicta de voluntate.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e539">
+          ¶ Quinto de 
+          <lb ed="#V" n="80"/>modis peccandi circa medium. 4amo dist. ibi. Modi 
+          au<lb ed="#V" n="81" break="no"/>tem peccatorum.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e546">
+          ¶ Sexto de contrariis peccatorum. 
+          <lb ed="#V" n="82"/>eadem distin. ibi. Uariam quoque.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e551">
+          ¶ Septimo de 
+          poten<lb ed="#V" n="83" break="no"/>tia peccandi. vltima distin. que ibi incipit. Post 
+          predi<lb ed="#V" n="84" break="no"/>cta.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e559">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e561">
+          ¶ Primo ostendit que fuit prima 
+          <lb ed="#V" n="85"/>causa primi mali.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e566">
+          ¶ Secundo ostendit illud primum 
+          ma<lb ed="#V" n="86" break="no"/>lum causam esse sequentium malorum. ibi.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e571">
+          ¶ Mala autem 
+          <lb ed="#V" n="87"/>voluntas. Illa pars que ibi incipit. Ostensa origine. 
+          <lb ed="#V" n="88"/>Diuiditur in partes duas.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e578">
+          ¶ Primo ostendit quid est 
+          <lb ed="#V" n="89"/>subiectum mali.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e583">
+          ¶ Secundo contra aliquid suppositum 
+          <lb ed="#V" n="90"/>in sua determinatione ponit obiectionem et soluit ibi. Ad 
+          <lb ed="#V" n="91"/>hoc autem.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e591">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e593">
+          ¶ Primo ostendit quod 
+          subie<lb ed="#V" n="92" break="no"/>ctum mali est bonum.
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e598">
+          ¶ Secundo ex hoc concludit vnum 
+          <lb ed="#V" n="93"/>correlarium ibi. Ideo in his contrariis. 
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e603">
+          <lb ed="#V" n="94"/>Irca hanc distinctionem queritur 
+          <lb ed="#V" n="95"/>principaliter de duobus 
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e610">
+          <lb ed="#V" n="96"/>¶ Primo queritur de mali entitate
+        </p>
+        <p xml:id="kzz7yh-f97738-d1e615">
+          ¶ 
+          Se<lb ed="#V" n="97" break="no"/>cundo de eius principiatione.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,294 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="165-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f117423"><!-- l2d41prae -->
-            <head xml:id="kzz7yh-f117423-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-f117423-d1e103">
-               <lb ed="#V" n="18"/>¶ An omnis intentio vel actio eorum qui carent 
-      <lb ed="#V" n="19"/>fide: sit mala. Dist. XII. 
-      <lb ed="#V" n="20"/>Umque 
-      intentio<lb ed="#V" n="21" break="no"/>vt supra dictum est bonum opus faciat: 
-      <lb ed="#V" n="22"/>set fides intentionem dirigat: non 
-      immerito<lb ed="#V" n="23" break="no"/>lqueri potest: vtrum omnis intentio: omneque illorum 
-      <lb ed="#V" n="24"/>opus malum sit qui fidem non habent: si enim fides 
-      intentio<lb ed="#V" n="25" break="no"/>nem dirigit: et intentio bonum opsmus facite: vbi non est 
-      <lb ed="#V" n="26"/>fides: nec intentio bona: nec optismus bonum esse videtur: quod 
-      <lb ed="#V" n="27"/>a quibusdam non irrationabiliter astruitur qui dicunt omnes 
-      <lb ed="#V" n="28"/>actiones et voluntates hominis sine fide malas 
-      <lb ed="#V" n="29"/>esse: que fide habita bone existunt. Unde apostolus ait. 
-      <lb ed="#V" n="30"/>Omne quod non est ex fide peccatum est: quod exponens 
-      <lb ed="#V" n="31"/>Aug. ait: omnis infidelium vita peccatum est et nihil 
-      bo<lb ed="#V" n="32" break="no"/>num est sine summo bono vbi deest agnitio 
-      eter<lb ed="#V" n="33" break="no"/>ne veritatis: falsa virtus est est in optimis moribus 
-      <lb ed="#V" n="34"/>Et Iaco. in eplula canonica ait. Qui offendit in 
-      <lb ed="#V" n="35"/>vno scilicet in charitate: factus est omnium reus: qui ergo 
-      fi<lb ed="#V" n="36" break="no"/>dem et charitatem non habet: omnis eius actio peccatum est: 
-      <lb ed="#V" n="37"/>quia ad charitatem non refertur: quod enim ad charitatem 
-      <lb ed="#V" n="38"/>non refertur: vt supra meminit Aug. non fit quemad 
-      <lb ed="#V" n="39"/>modum fieri oportet: ideoque malum est. Non ergo madata 
-      <lb ed="#V" n="40"/>custodit qui charitate caret: quia sine charitate 
-      <lb ed="#V" n="41"/>nullum mandatorum custoditur. Unde Aug. super eptulam 
-      <lb ed="#V" n="42"/>ad Galis ait. Custoditionem legis dic apostolus: non 
-      mem<lb ed="#V" n="43" break="no"/>brari: non occidere: non mechari: et alia huiusmodi ad 
-      <lb ed="#V" n="44"/>bonos mores pertinentia que sine charitate 
-      fide<lb ed="#V" n="45" break="no"/>et spe impleri non possunt: nullum ergo mandatum implet: 
-      <lb ed="#V" n="46"/>nullum bonum opus facit: qui fidem et charitatem non 
-      <lb ed="#V" n="47"/>habet. Impossibile est enim vt ait apostolus sine fide 
-      ali<lb ed="#V" n="48" break="no"/>quid placere deo. Que ergo sine fide fiunt bona 
-      <lb ed="#V" n="49"/>non sunt: quia omne bonum placet deo. 
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e175">
-               <lb ed="#V" n="50"/>¶ Que premisse sententie obiiciuntur ex verbis Augu. 
-      <lb ed="#V" n="51"/>His autem obicitur quod supra 
-      di<lb ed="#V" n="52" break="no"/>xit Aug. scilicet quod in seruili 
-      <lb ed="#V" n="53"/>timore: et si bonum fiat: non tamen bene. Nemo enim 
-      <lb ed="#V" n="54"/>inuitus bene facit: etiam si bonum est quod 
-      fa<lb ed="#V" n="55" break="no"/>cit: hic enim dicit bonum fieri: sed non bene ab 
-      il<lb ed="#V" n="56" break="no"/>lo qui charitatem non habet: qui enim seruiliter 
-      ti<lb ed="#V" n="57" break="no"/>met charitate vacuus non est: de quo tamen hic 
-      di<lb ed="#V" n="58" break="no"/>cit: quia bonum facit: sed non bene: qui est super ilium locum 
-      <!--00343.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="59"/>pslalmum. Turtur inuenit sibi nidum vbi reponat pullos 
-      <lb ed="#V" n="60"/>suos dicit quod iudei heretici et pagani opera 
-      bomna<lb ed="#V" n="61" break="no"/>faciunt quia vestiunt nudos et pascunt pauperes et 
-      <lb ed="#V" n="62"/>huiusmodi: sed non in nido ecclesie id est in fide: et ideo 
-      con<lb ed="#V" n="63" break="no"/>culcantur pulli eorum. Quibus illi respondent dicentes 
-      <lb ed="#V" n="64"/>bona opera appellari huiusmodi que sine charitate 
-      <lb ed="#V" n="65"/>fiunt: non quia bona sint quando sic fiunt: quod 
-      <lb ed="#V" n="66"/>euidenter supra Aug. docuit: sed quia bona essent 
-      <lb ed="#V" n="67"/>si aliter fierent: que etiam sui genere sunt bona: 
-      <lb ed="#V" n="68"/>sed ex effectu fiunt mala. 
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e223">
-               <lb ed="#V" n="69"/>¶ Aliorum sententia de premissa quaestione qua quaerebatur si omnis 
-      <lb ed="#V" n="70"/>actio eorum mala est qui sidem non habent. 
-      <lb ed="#V" n="71"/>Alii vero qui triphariam distinctionem 
-      <lb ed="#V" n="72"/>actuum faciunt: opera cuncta 
-      <lb ed="#V" n="73"/>que ad nature subsidium fiunt semper bona esse 
-      <lb ed="#V" n="74"/>astruunt. Sed quod Augu. mala esse dicit: si 
-      ma<lb ed="#V" n="75" break="no"/>las habeant causas: non ita accipiendum est 
-      quasi<lb ed="#V" n="76" break="no"/>ipsa mala sint: sed quia peccant et mali sunt qui ea 
-      <lb ed="#V" n="77"/>malo fine agunt. Item et illud aliud scilicet bonum 
-      <lb ed="#V" n="78"/>opus intentio facit: et intentionem fides dirigit: 
-      de<lb ed="#V" n="79" break="no"/>terminant dicentes ibi bonum vocatum quod remune 
-      <lb ed="#V" n="80"/>rabile est ad vitam non quod illud sit solum bonum 
-      <lb ed="#V" n="81"/>opus: immo etiam alia plura: licm non ea ratione qua 
-      <lb ed="#V" n="82"/>illud: sint bona. Gonum enim multipliciter 
-      accipi<lb ed="#V" n="83" break="no"/>tur scilicet pro vtili: pro remunerabili pro signo boni 
-      <lb ed="#V" n="84"/>pro specie boni: pro licito et aliis forte modis. 
-      Se<lb ed="#V" n="85" break="no"/>laque illa intentio: remunerabilis est ad vitam: 
-      quam<lb ed="#V" n="86" break="no"/>fides dirigit: sed non illa sola bona est vt aiunt. 
-      <lb ed="#V" n="87"/>Nam si quis iudeus vel malus christianus 
-      necessita<lb ed="#V" n="88" break="no"/>tem proximi eleuauerit: naturali pietate ductus 
-      <lb ed="#V" n="89"/>bonum fecit: et bona fuit voluntas qua illud fecit. 
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e271">
-               <lb ed="#V" n="90"/>¶ Hic ponit quadam Aug. capitula que retractauit: non 
-      <lb ed="#V" n="91"/>quasi praue dictam: sed quo sensu dixerit insinuans. 
-      <lb ed="#V" n="92"/>Post hec inuestigari optet qualiter 
-      in<lb ed="#V" n="93" break="no"/>telligendum sit quod Aug. ait 
-      <lb ed="#V" n="94"/>in lib. de vera relig. Usque adeo inquit peccatum 
-      vo<lb ed="#V" n="95" break="no"/>luntarium malum est: vt nullo modo sit peccatum si non 
-      <lb ed="#V" n="96"/>sit voluntarium. Huius dicti rationem Aug. aperiens 
-      <lb ed="#V" n="97"/>in lib. retractationum dicit. Potest videri falsa 
-      <lb ed="#V" n="98"/>hec diffinitio: sed si diligenter discutiatur inuenietur 
-      <lb ed="#V" n="99"/>esse verissima: peccatum quppe illud cogitandum est 
-      <lb ed="#V" n="100"/>quod tantummodo peccatum est: non quod est etia pena 
-      pec<lb ed="#V" n="101" break="no"/>cati scilicet peccatum primum hominis quod fuit peccatum et causa 
-      <lb ed="#V" n="102"/>peccati: sed non pena: quamuis et illa que non 
-      volun<lb ed="#V" n="103" break="no"/>taria peccata non immerito dicuntur: quia vel a 
-      nescien<lb ed="#V" n="104" break="no"/>tibus vel a coactis perpetrantur: non omni modo possunt 
-      <lb ed="#V" n="105"/>sine voluntate committi: quoniam et ille qui peccat 
-      igno<lb ed="#V" n="106" break="no"/>rans: voluntate vtique facit: quod cum faciendum non 
-      <lb ed="#V" n="107"/>sit: putat esse: faciendum: et ille qui concupiscente 
-      ad<lb ed="#V" n="108" break="no"/>uersus spiritum carne non ea que vult facit: 
-      concupi<lb ed="#V" n="109" break="no"/>scit quidem nolens: et in eo facit quod vult: sed si 
-      vin<lb ed="#V" n="110" break="no"/>citur concupiscentie consentit volens: et in eo non 
-      fa<lb ed="#V" n="111" break="no"/>cit nisi quod vult: et illud quod in paruulis est 
-      origi<lb ed="#V" n="112" break="no"/>nale peccatum: ex prima hominis voluntate mala 
-      con<lb ed="#V" n="113" break="no"/>tractum est: non itaque falsum est: quod dixi vsque adeo 
-      <lb ed="#V" n="114"/>peccatum voluntarium est etc. Ecce qualiter acci¬ 
-      <!--00344.xml-->
-      <pb ed="#V" n="165-v"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>piendum sit illud scilicet vel de primo peccato hominis vel 
-      <lb ed="#V" n="2"/>de omnibus generaliter peccatis mortiferis 
-      quo<lb ed="#V" n="3" break="no"/>rum licet quedam dicantur non voluntaria: que scilicet per 
-      <lb ed="#V" n="4"/>ignorantiam vel per infirmitatem fiunt. Eadem 
-      <lb ed="#V" n="5"/>tamen ea ratione possunt dici voluntaria: quia 
-      <lb ed="#V" n="6"/>sine voluntate non committuntur. 
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e348">
-               <lb ed="#V" n="7"/>¶ Aliud capitulum. 
-      <lb ed="#V" n="8"/>llius etiam intelligentia 
-      peruren<lb ed="#V" n="9" break="no"/>da est quod in lib. de 
-      <lb ed="#V" n="10"/>duabus animabus edidit inquens nusquam nisi in volum 
-      <lb ed="#V" n="11"/>tate peccatum est: quod est in libr.o retracta. plane 
-      deter<lb ed="#V" n="12" break="no"/>minat dicens. Potest putari ista falsa esse sententia qua 
-      <lb ed="#V" n="13"/>diximus nusquam nisi in voluntate esse peccatum: cum Apostolus 
-      <lb ed="#V" n="14"/>dicat: quod nolo hoc facio etc. Sed peccatum quod nusquam 
-      <lb ed="#V" n="15"/>est nisi in voluntate: illud precipue intelligendum 
-      <lb ed="#V" n="16"/>est: quod iusta damnatio consecuta est id est primum hominis 
-      <lb ed="#V" n="17"/>peccatum. In eodem quoque lib. de duabus animabus aliud 
-      <lb ed="#V" n="18"/>tradidit consideratione dignum: ait enim Non nisi 
-      vo<lb ed="#V" n="19" break="no"/>luntate peccatur: ipsamque quoque voluntatem 
-      dif<lb ed="#V" n="20" break="no"/>finit dicens. Uoluntas est animi motus cogente 
-      <lb ed="#V" n="21"/>nullo ad aliquid vel non admittendum vel 
-      adipiscen<lb ed="#V" n="22" break="no"/>dum. Huius dicti causam aperiens et intelligentiam 
-      pan<lb ed="#V" n="23" break="no"/>dens in lib. retractationum ait. Hoc propterea 
-      di<lb ed="#V" n="24" break="no"/>ctum est: vt hac diffinitione volens a nolente 
-      discer<lb ed="#V" n="25" break="no"/>neretur: et sic ad illos referretur intentio qui in 
-      para<lb ed="#V" n="26" break="no"/>diso fecerunt originem mali nullo cogente 
-      peccan<lb ed="#V" n="27" break="no"/>do id est libera volutate: quia et scientes contra preceptum 
-      <lb ed="#V" n="28"/>fecerunt: et ille tentator suasit: vt hoc fieret: non 
-      <lb ed="#V" n="29"/>coegit. Nam qua nesciens peccauit: non incongruenter 
-      <lb ed="#V" n="30"/>nolens peccasse dici potest: quamuis et ipse quidem 
-      ne<lb ed="#V" n="31" break="no"/>sciens fecit: volens tamen fecit. Ita nec tale peccatum sine 
-      <lb ed="#V" n="32"/>voluntate esse potuit: sed voluntas facti ibi fuit: 
-      <lb ed="#V" n="33"/>non peccati voluntas: quod tamen factum fuit peccatum. Hoc 
-      <lb ed="#V" n="34"/>enim factum est quod fieri non debuit. Quisquis autem 
-      <lb ed="#V" n="35"/>sciens peccat: si potest cogenti ad peecatum fine 
-      pec<lb ed="#V" n="36" break="no"/>cato resistere: nec tamen facit: vtique volens 
-      pec<lb ed="#V" n="37" break="no"/>cat: quia qui potest resistere non cogitur cedere: qua 
-      <lb ed="#V" n="38"/>propter peccatum sine voluntate esse non posse 
-      veris<lb ed="#V" n="39" break="no"/>simum est. Ex his liquet qualiter superiora 
-      ac<lb ed="#V" n="40" break="no"/>cipienda sint. 
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e424">
-               <lb ed="#V" n="41"/>¶ Quod mala voluntas est voluntarium peccatum. 
-      <lb ed="#V" n="42"/>Si autem omne peccatum mortale 
-      vo<lb ed="#V" n="43" break="no"/>luntarium est: cum voluntas 
-      <lb ed="#V" n="44"/>mala peccatum sit mortale: constat ipsam esse 
-      vo<lb ed="#V" n="45" break="no"/>luntarium peccatum. Quid enim vt ait Aug. tam in 
-      <lb ed="#V" n="46"/>voluntate quam ipsa voluntas sita est: voluntas itaque 
-      <lb ed="#V" n="47"/>mala recte voluntarium dicitur peccatum: quia in 
-      volun<lb ed="#V" n="48" break="no"/>tate eonsistit. Uoluntas quippe vt ait Augu. in 
-      <lb ed="#V" n="49"/>eodem est prima causa peccandi: aut nullum peccatum 
-      <lb ed="#V" n="50"/>est prima causa peccandi: nec est cui recte imputetur 
-      <lb ed="#V" n="51"/>peccatum nisi peccanti. Non ergo est cui recte 
-      impu<lb ed="#V" n="52" break="no"/>tetur nisi voluntati. Hoc autem de peccato actuali 
-      <lb ed="#V" n="53"/>et mortali intelligendum est. Neque his verbis aliud 
-      <lb ed="#V" n="54"/>voluit ostendere Augu. vt ipse ait in 
-      retratta<lb ed="#V" n="55" break="no"/>tionibus nisi quia voluntas est qua peccatur: et qua 
-      <lb ed="#V" n="56"/>recte viuitur. Dist. XI 
-      <!--00344.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>Umque intentio vt supradictum est etc. 
-      <lb ed="#V" n="58"/>Superius determinauit Magiter 
-      <lb ed="#V" n="59"/>de comporitione voluntatis ad finem: et de comporaitioneactus 
-      ex<lb ed="#V" n="60" break="no"/>tetioris ad finem.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e474">
-      ¶ Sed determinat de comporsitione 
-      eo<lb ed="#V" n="61" break="no"/>rum ad subieantum. Et diuiditur in partes duas.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e479">
-      ¶ Primo 
-      <lb ed="#V" n="62"/>mouet quaestionem de intentione et voluntate eorum qui fidem non habent. 
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e484">
-               <lb ed="#V" n="63"/>¶ Secundo de comparatione peccati ad voluntatem scilicet vtrum omne peccatum 
-      <lb ed="#V" n="64"/>sit voluntarium. ibi. Post hec inuestigari. Prima in duas. 
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e491">
-               <lb ed="#V" n="65"/>¶ Primo proponit quaestionem et ponit respensionem secundum vnam 
-      opinio<lb ed="#V" n="66" break="no"/>nem.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e499">
-      ¶ Secundo secundum aliam opiniouem veriorem. ibi. Alii vero. Prima 
-      <lb ed="#V" n="67"/>in duas.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e504">
-      ¶ Primo ponit illam praedictam opinionem.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e506">
-      ¶ Secundo 
-      <lb ed="#V" n="68"/>contra illam ponit obiectionem. ibi. Eis autem obiicitur. Illa 
-      <lb ed="#V" n="69"/>pars quae ibi incipit. Post hoc inuestigari oportet. Diuiditur in 
-      <lb ed="#V" n="70"/>duas.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e515">
-      ¶ Primo inquit vtrum omne peccatum sit voluntarium.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e517">
-      ¶ 
-      Se<lb ed="#V" n="71" break="no"/>cundo vtrum mala voluntas sit voluntarium peccatum ibi  Si 
-      au<lb ed="#V" n="72" break="no"/>tem omne peccatum.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e524">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e527">
-      ¶ Primo inquirit vtrum omne 
-      <lb ed="#V" n="73"/>peccatum sit voluntarium.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e532">
-      ¶ Secundo vtrum omne peccatum respiciat 
-      <lb ed="#V" n="74"/>voluntatem tamquam subiectum. ibi. Illius etiam intelligentia. 
-      <lb ed="#V" n="75"/>Irca hanc dist. quaerendum est principalt 
-      <lb ed="#V" n="76"/>de duobus.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e541">
-      ¶ Primo 
-      <lb ed="#V" n="77"/>de intentione per comparationem ad meritum.
-   </p>
-            <p xml:id="kzz7yh-f117423-d1e546">
-      ¶ Secundo 
-      <lb ed="#V" n="78"/>de voluntate per comparationem ad peccatum.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="165-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f117423"><!-- l2d41prae -->
+        <head xml:id="kzz7yh-f117423-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-f117423-d1e103">
+          <lb ed="#V" n="18"/>¶ An omnis intentio vel actio eorum qui carent 
+          <lb ed="#V" n="19"/>fide: sit mala. Dist. XII. 
+          <lb ed="#V" n="20"/>Umque 
+          intentio<lb ed="#V" n="21" break="no"/>vt supra dictum est bonum opus faciat: 
+          <lb ed="#V" n="22"/>set fides intentionem dirigat: non 
+          immerito<lb ed="#V" n="23" break="no"/>lqueri potest: vtrum omnis intentio: omneque illorum 
+          <lb ed="#V" n="24"/>opus malum sit qui fidem non habent: si enim fides 
+          intentio<lb ed="#V" n="25" break="no"/>nem dirigit: et intentio bonum opsmus facite: vbi non est 
+          <lb ed="#V" n="26"/>fides: nec intentio bona: nec optismus bonum esse videtur: quod 
+          <lb ed="#V" n="27"/>a quibusdam non irrationabiliter astruitur qui dicunt omnes 
+          <lb ed="#V" n="28"/>actiones et voluntates hominis sine fide malas 
+          <lb ed="#V" n="29"/>esse: que fide habita bone existunt. Unde apostolus ait. 
+          <lb ed="#V" n="30"/>Omne quod non est ex fide peccatum est: quod exponens 
+          <lb ed="#V" n="31"/>Aug. ait: omnis infidelium vita peccatum est et nihil 
+          bo<lb ed="#V" n="32" break="no"/>num est sine summo bono vbi deest agnitio 
+          eter<lb ed="#V" n="33" break="no"/>ne veritatis: falsa virtus est est in optimis moribus 
+          <lb ed="#V" n="34"/>Et Iaco. in eplula canonica ait. Qui offendit in 
+          <lb ed="#V" n="35"/>vno scilicet in charitate: factus est omnium reus: qui ergo 
+          fi<lb ed="#V" n="36" break="no"/>dem et charitatem non habet: omnis eius actio peccatum est: 
+          <lb ed="#V" n="37"/>quia ad charitatem non refertur: quod enim ad charitatem 
+          <lb ed="#V" n="38"/>non refertur: vt supra meminit Aug. non fit quemad 
+          <lb ed="#V" n="39"/>modum fieri oportet: ideoque malum est. Non ergo madata 
+          <lb ed="#V" n="40"/>custodit qui charitate caret: quia sine charitate 
+          <lb ed="#V" n="41"/>nullum mandatorum custoditur. Unde Aug. super eptulam 
+          <lb ed="#V" n="42"/>ad Galis ait. Custoditionem legis dic apostolus: non 
+          mem<lb ed="#V" n="43" break="no"/>brari: non occidere: non mechari: et alia huiusmodi ad 
+          <lb ed="#V" n="44"/>bonos mores pertinentia que sine charitate 
+          fide<lb ed="#V" n="45" break="no"/>et spe impleri non possunt: nullum ergo mandatum implet: 
+          <lb ed="#V" n="46"/>nullum bonum opus facit: qui fidem et charitatem non 
+          <lb ed="#V" n="47"/>habet. Impossibile est enim vt ait apostolus sine fide 
+          ali<lb ed="#V" n="48" break="no"/>quid placere deo. Que ergo sine fide fiunt bona 
+          <lb ed="#V" n="49"/>non sunt: quia omne bonum placet deo. 
+          </p>
+          <p xml:id="kzz7yh-f117423-d1e175">
+          <lb ed="#V" n="50"/>¶ Que premisse sententie obiiciuntur ex verbis Augu. 
+          <lb ed="#V" n="51"/>His autem obicitur quod supra 
+          di<lb ed="#V" n="52" break="no"/>xit Aug. scilicet quod in seruili 
+          <lb ed="#V" n="53"/>timore: et si bonum fiat: non tamen bene. Nemo enim 
+          <lb ed="#V" n="54"/>inuitus bene facit: etiam si bonum est quod 
+          fa<lb ed="#V" n="55" break="no"/>cit: hic enim dicit bonum fieri: sed non bene ab 
+          il<lb ed="#V" n="56" break="no"/>lo qui charitatem non habet: qui enim seruiliter 
+          ti<lb ed="#V" n="57" break="no"/>met charitate vacuus non est: de quo tamen hic 
+          di<lb ed="#V" n="58" break="no"/>cit: quia bonum facit: sed non bene: qui est super ilium locum 
+          <!-\-00343.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="59"/>pslalmum. Turtur inuenit sibi nidum vbi reponat pullos 
+          <lb ed="#V" n="60"/>suos dicit quod iudei heretici et pagani opera 
+          bomna<lb ed="#V" n="61" break="no"/>faciunt quia vestiunt nudos et pascunt pauperes et 
+          <lb ed="#V" n="62"/>huiusmodi: sed non in nido ecclesie id est in fide: et ideo 
+          con<lb ed="#V" n="63" break="no"/>culcantur pulli eorum. Quibus illi respondent dicentes 
+          <lb ed="#V" n="64"/>bona opera appellari huiusmodi que sine charitate 
+          <lb ed="#V" n="65"/>fiunt: non quia bona sint quando sic fiunt: quod 
+          <lb ed="#V" n="66"/>euidenter supra Aug. docuit: sed quia bona essent 
+          <lb ed="#V" n="67"/>si aliter fierent: que etiam sui genere sunt bona: 
+          <lb ed="#V" n="68"/>sed ex effectu fiunt mala. 
+          </p>
+          <p xml:id="kzz7yh-f117423-d1e223">
+          <lb ed="#V" n="69"/>¶ Aliorum sententia de premissa quaestione qua quaerebatur si omnis 
+          <lb ed="#V" n="70"/>actio eorum mala est qui sidem non habent. 
+          <lb ed="#V" n="71"/>Alii vero qui triphariam distinctionem 
+          <lb ed="#V" n="72"/>actuum faciunt: opera cuncta 
+          <lb ed="#V" n="73"/>que ad nature subsidium fiunt semper bona esse 
+          <lb ed="#V" n="74"/>astruunt. Sed quod Augu. mala esse dicit: si 
+          ma<lb ed="#V" n="75" break="no"/>las habeant causas: non ita accipiendum est 
+          quasi<lb ed="#V" n="76" break="no"/>ipsa mala sint: sed quia peccant et mali sunt qui ea 
+          <lb ed="#V" n="77"/>malo fine agunt. Item et illud aliud scilicet bonum 
+          <lb ed="#V" n="78"/>opus intentio facit: et intentionem fides dirigit: 
+          de<lb ed="#V" n="79" break="no"/>terminant dicentes ibi bonum vocatum quod remune 
+          <lb ed="#V" n="80"/>rabile est ad vitam non quod illud sit solum bonum 
+          <lb ed="#V" n="81"/>opus: immo etiam alia plura: licm non ea ratione qua 
+          <lb ed="#V" n="82"/>illud: sint bona. Gonum enim multipliciter 
+          accipi<lb ed="#V" n="83" break="no"/>tur scilicet pro vtili: pro remunerabili pro signo boni 
+          <lb ed="#V" n="84"/>pro specie boni: pro licito et aliis forte modis. 
+          Se<lb ed="#V" n="85" break="no"/>laque illa intentio: remunerabilis est ad vitam: 
+          quam<lb ed="#V" n="86" break="no"/>fides dirigit: sed non illa sola bona est vt aiunt. 
+          <lb ed="#V" n="87"/>Nam si quis iudeus vel malus christianus 
+          necessita<lb ed="#V" n="88" break="no"/>tem proximi eleuauerit: naturali pietate ductus 
+          <lb ed="#V" n="89"/>bonum fecit: et bona fuit voluntas qua illud fecit. 
+          </p>
+          <p xml:id="kzz7yh-f117423-d1e271">
+          <lb ed="#V" n="90"/>¶ Hic ponit quadam Aug. capitula que retractauit: non 
+          <lb ed="#V" n="91"/>quasi praue dictam: sed quo sensu dixerit insinuans. 
+          <lb ed="#V" n="92"/>Post hec inuestigari optet qualiter 
+          in<lb ed="#V" n="93" break="no"/>telligendum sit quod Aug. ait 
+          <lb ed="#V" n="94"/>in lib. de vera relig. Usque adeo inquit peccatum 
+          vo<lb ed="#V" n="95" break="no"/>luntarium malum est: vt nullo modo sit peccatum si non 
+          <lb ed="#V" n="96"/>sit voluntarium. Huius dicti rationem Aug. aperiens 
+          <lb ed="#V" n="97"/>in lib. retractationum dicit. Potest videri falsa 
+          <lb ed="#V" n="98"/>hec diffinitio: sed si diligenter discutiatur inuenietur 
+          <lb ed="#V" n="99"/>esse verissima: peccatum quppe illud cogitandum est 
+          <lb ed="#V" n="100"/>quod tantummodo peccatum est: non quod est etia pena 
+          pec<lb ed="#V" n="101" break="no"/>cati scilicet peccatum primum hominis quod fuit peccatum et causa 
+          <lb ed="#V" n="102"/>peccati: sed non pena: quamuis et illa que non 
+          volun<lb ed="#V" n="103" break="no"/>taria peccata non immerito dicuntur: quia vel a 
+          nescien<lb ed="#V" n="104" break="no"/>tibus vel a coactis perpetrantur: non omni modo possunt 
+          <lb ed="#V" n="105"/>sine voluntate committi: quoniam et ille qui peccat 
+          igno<lb ed="#V" n="106" break="no"/>rans: voluntate vtique facit: quod cum faciendum non 
+          <lb ed="#V" n="107"/>sit: putat esse: faciendum: et ille qui concupiscente 
+          ad<lb ed="#V" n="108" break="no"/>uersus spiritum carne non ea que vult facit: 
+          concupi<lb ed="#V" n="109" break="no"/>scit quidem nolens: et in eo facit quod vult: sed si 
+          vin<lb ed="#V" n="110" break="no"/>citur concupiscentie consentit volens: et in eo non 
+          fa<lb ed="#V" n="111" break="no"/>cit nisi quod vult: et illud quod in paruulis est 
+          origi<lb ed="#V" n="112" break="no"/>nale peccatum: ex prima hominis voluntate mala 
+          con<lb ed="#V" n="113" break="no"/>tractum est: non itaque falsum est: quod dixi vsque adeo 
+          <lb ed="#V" n="114"/>peccatum voluntarium est etc. Ecce qualiter acci¬ 
+          <!-\-00344.xml-\->
+          <pb ed="#V" n="165-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>piendum sit illud scilicet vel de primo peccato hominis vel 
+          <lb ed="#V" n="2"/>de omnibus generaliter peccatis mortiferis 
+          quo<lb ed="#V" n="3" break="no"/>rum licet quedam dicantur non voluntaria: que scilicet per 
+          <lb ed="#V" n="4"/>ignorantiam vel per infirmitatem fiunt. Eadem 
+          <lb ed="#V" n="5"/>tamen ea ratione possunt dici voluntaria: quia 
+          <lb ed="#V" n="6"/>sine voluntate non committuntur. 
+          </p>
+          <p xml:id="kzz7yh-f117423-d1e348">
+          <lb ed="#V" n="7"/>¶ Aliud capitulum. 
+          <lb ed="#V" n="8"/>llius etiam intelligentia 
+          peruren<lb ed="#V" n="9" break="no"/>da est quod in lib. de 
+          <lb ed="#V" n="10"/>duabus animabus edidit inquens nusquam nisi in volum 
+          <lb ed="#V" n="11"/>tate peccatum est: quod est in libr.o retracta. plane 
+          deter<lb ed="#V" n="12" break="no"/>minat dicens. Potest putari ista falsa esse sententia qua 
+          <lb ed="#V" n="13"/>diximus nusquam nisi in voluntate esse peccatum: cum Apostolus 
+          <lb ed="#V" n="14"/>dicat: quod nolo hoc facio etc. Sed peccatum quod nusquam 
+          <lb ed="#V" n="15"/>est nisi in voluntate: illud precipue intelligendum 
+          <lb ed="#V" n="16"/>est: quod iusta damnatio consecuta est id est primum hominis 
+          <lb ed="#V" n="17"/>peccatum. In eodem quoque lib. de duabus animabus aliud 
+          <lb ed="#V" n="18"/>tradidit consideratione dignum: ait enim Non nisi 
+          vo<lb ed="#V" n="19" break="no"/>luntate peccatur: ipsamque quoque voluntatem 
+          dif<lb ed="#V" n="20" break="no"/>finit dicens. Uoluntas est animi motus cogente 
+          <lb ed="#V" n="21"/>nullo ad aliquid vel non admittendum vel 
+          adipiscen<lb ed="#V" n="22" break="no"/>dum. Huius dicti causam aperiens et intelligentiam 
+          pan<lb ed="#V" n="23" break="no"/>dens in lib. retractationum ait. Hoc propterea 
+          di<lb ed="#V" n="24" break="no"/>ctum est: vt hac diffinitione volens a nolente 
+          discer<lb ed="#V" n="25" break="no"/>neretur: et sic ad illos referretur intentio qui in 
+          para<lb ed="#V" n="26" break="no"/>diso fecerunt originem mali nullo cogente 
+          peccan<lb ed="#V" n="27" break="no"/>do id est libera volutate: quia et scientes contra preceptum 
+          <lb ed="#V" n="28"/>fecerunt: et ille tentator suasit: vt hoc fieret: non 
+          <lb ed="#V" n="29"/>coegit. Nam qua nesciens peccauit: non incongruenter 
+          <lb ed="#V" n="30"/>nolens peccasse dici potest: quamuis et ipse quidem 
+          ne<lb ed="#V" n="31" break="no"/>sciens fecit: volens tamen fecit. Ita nec tale peccatum sine 
+          <lb ed="#V" n="32"/>voluntate esse potuit: sed voluntas facti ibi fuit: 
+          <lb ed="#V" n="33"/>non peccati voluntas: quod tamen factum fuit peccatum. Hoc 
+          <lb ed="#V" n="34"/>enim factum est quod fieri non debuit. Quisquis autem 
+          <lb ed="#V" n="35"/>sciens peccat: si potest cogenti ad peecatum fine 
+          pec<lb ed="#V" n="36" break="no"/>cato resistere: nec tamen facit: vtique volens 
+          pec<lb ed="#V" n="37" break="no"/>cat: quia qui potest resistere non cogitur cedere: qua 
+          <lb ed="#V" n="38"/>propter peccatum sine voluntate esse non posse 
+          veris<lb ed="#V" n="39" break="no"/>simum est. Ex his liquet qualiter superiora 
+          ac<lb ed="#V" n="40" break="no"/>cipienda sint. 
+          </p>
+          <p xml:id="kzz7yh-f117423-d1e424">
+          <lb ed="#V" n="41"/>¶ Quod mala voluntas est voluntarium peccatum. 
+          <lb ed="#V" n="42"/>Si autem omne peccatum mortale 
+          vo<lb ed="#V" n="43" break="no"/>luntarium est: cum voluntas 
+          <lb ed="#V" n="44"/>mala peccatum sit mortale: constat ipsam esse 
+          vo<lb ed="#V" n="45" break="no"/>luntarium peccatum. Quid enim vt ait Aug. tam in 
+          <lb ed="#V" n="46"/>voluntate quam ipsa voluntas sita est: voluntas itaque 
+          <lb ed="#V" n="47"/>mala recte voluntarium dicitur peccatum: quia in 
+          volun<lb ed="#V" n="48" break="no"/>tate eonsistit. Uoluntas quippe vt ait Augu. in 
+          <lb ed="#V" n="49"/>eodem est prima causa peccandi: aut nullum peccatum 
+          <lb ed="#V" n="50"/>est prima causa peccandi: nec est cui recte imputetur 
+          <lb ed="#V" n="51"/>peccatum nisi peccanti. Non ergo est cui recte 
+          impu<lb ed="#V" n="52" break="no"/>tetur nisi voluntati. Hoc autem de peccato actuali 
+          <lb ed="#V" n="53"/>et mortali intelligendum est. Neque his verbis aliud 
+          <lb ed="#V" n="54"/>voluit ostendere Augu. vt ipse ait in 
+          retratta<lb ed="#V" n="55" break="no"/>tionibus nisi quia voluntas est qua peccatur: et qua 
+          <lb ed="#V" n="56"/>recte viuitur.
+          </p>-->
+        <p xml:id="kzz7yh-f117423-d1e106">
+          Dist. XI 
+          <!--00344.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>CUmque intentio vt supradictum est etc. 
+          <lb ed="#V" n="58"/>Superius determinauit Magiter 
+          <lb ed="#V" n="59"/>de comporitione voluntatis ad finem: et de comporaitioneactus 
+          ex<lb ed="#V" n="60" break="no"/>tetioris ad finem.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e474">
+          ¶ Sed determinat de comporsitione 
+          eo<lb ed="#V" n="61" break="no"/>rum ad subieantum. Et diuiditur in partes duas.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e479">
+          ¶ Primo 
+          <lb ed="#V" n="62"/>mouet quaestionem de intentione et voluntate eorum qui fidem non habent. 
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e484">
+          <lb ed="#V" n="63"/>¶ Secundo de comparatione peccati ad voluntatem scilicet vtrum omne peccatum 
+          <lb ed="#V" n="64"/>sit voluntarium. ibi. Post hec inuestigari. Prima in duas. 
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e491">
+          <lb ed="#V" n="65"/>¶ Primo proponit quaestionem et ponit respensionem secundum vnam 
+          opinio<lb ed="#V" n="66" break="no"/>nem.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e499">
+          ¶ Secundo secundum aliam opiniouem veriorem. ibi. Alii vero. Prima 
+          <lb ed="#V" n="67"/>in duas.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e504">
+          ¶ Primo ponit illam praedictam opinionem.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e506">
+          ¶ Secundo 
+          <lb ed="#V" n="68"/>contra illam ponit obiectionem. ibi. Eis autem obiicitur. Illa 
+          <lb ed="#V" n="69"/>pars quae ibi incipit. Post hoc inuestigari oportet. Diuiditur in 
+          <lb ed="#V" n="70"/>duas.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e515">
+          ¶ Primo inquit vtrum omne peccatum sit voluntarium.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e517">
+          ¶ 
+          Se<lb ed="#V" n="71" break="no"/>cundo vtrum mala voluntas sit voluntarium peccatum ibi  Si 
+          au<lb ed="#V" n="72" break="no"/>tem omne peccatum.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e524">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e527">
+          ¶ Primo inquirit vtrum omne 
+          <lb ed="#V" n="73"/>peccatum sit voluntarium.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e532">
+          ¶ Secundo vtrum omne peccatum respiciat 
+          <lb ed="#V" n="74"/>voluntatem tamquam subiectum. ibi. Illius etiam intelligentia. 
+          <lb ed="#V" n="75"/>Irca hanc dist. quaerendum est principalt 
+          <lb ed="#V" n="76"/>de duobus.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e541">
+          ¶ Primo 
+          <lb ed="#V" n="77"/>de intentione per comparationem ad meritum.
+        </p>
+        <p xml:id="kzz7yh-f117423-d1e546">
+          ¶ Secundo 
+          <lb ed="#V" n="78"/>de voluntate per comparationem ad peccatum.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

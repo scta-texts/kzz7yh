@@ -1,297 +1,299 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="178-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k129259"><!-- l4d40prae -->
-            <head xml:id="kzz7yh-k129259-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-k129259-d1e103">
-               <lb ed="#V" n="75"/>¶ De cognatione carnali et spirituali et prius de 
-      <lb ed="#V" n="76"/>carnali. Distinctio XI
-  </p>
-            <p xml:id="kzz7yh-k129259-d1e110">
-               <lb ed="#V" n="77"/>NUnc superest de 
-      con<lb ed="#V" n="78" break="no"/>gnatio 
-      <lb ed="#V" n="79"/>ne aliquid dicere. Est autem cognatio 
-      <lb ed="#V" n="80"/>alia carnalis: alia spiritualis. 
-      Pri<lb ed="#V" n="81" break="no"/>mum de carnali cognatione et 
-      affini<lb ed="#V" n="82" break="no"/>tate inspiciamus. Cognati ergo vel affines in 
-      <lb ed="#V" n="83"/>septimo gradum vel infra copulari si debent. 
-      Un<lb ed="#V" n="84" break="no"/>de Gre. Pogeniem suam vnumquemque vsque 
-      <lb ed="#V" n="85"/>ad septimam obseruare decernimus generatio 
-      <lb ed="#V" n="86"/>nem: et quamdiu se agnoscunt affinitate propinquos. 
-      <lb ed="#V" n="87"/>ad coniugalem copulam accedere denegamus: 
-      <lb ed="#V" n="88"/>quod si fecerint: separentur. Item Nicolaus 
-      pa<lb ed="#V" n="89" break="no"/>pa. De consanguinitate sua nullus vxorem 
-      du<lb ed="#V" n="90" break="no"/>cat vsque post generationem semptimam vel 
-      quo<lb ed="#V" n="91" break="no"/>usque perentela cognosci potest. Item nulli ex 
-      pro<lb ed="#V" n="92" break="no"/>pinquitate sui sanguinis vsque ad septimum 
-      gra<lb ed="#V" n="93" break="no"/>dum vxores ducant. His auctoritatibus aliisque 
-      <lb ed="#V" n="94"/>pluribus consanguineorum coniunctiones 
-      pro<lb ed="#V" n="95" break="no"/>hibentur vsque ad septimum gradum. 
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e154">
-               <lb ed="#V" n="96"/>¶ De computatione graduum consanguinitatis. 
-      <lb ed="#V" n="97"/>Quomodo autem gradus 
-      consan<lb ed="#V" n="98" break="no"/>guinitatis computandi 
-      <lb ed="#V" n="99"/>sint Isidorus ostendit sic. Series 
-      consanguini<lb ed="#V" n="100" break="no"/>tatis sex gradibus dirimitur hoc modo. Filius 
-      <lb ed="#V" n="101"/>et filia quod est frater et soror sit ipse truncus. 
-      <lb ed="#V" n="102"/>Illis seorsum seiunctis: ex radice illius 
-      trunci<lb ed="#V" n="103" break="no"/>egrediuntur isti ramunculi nepos et neptis 
-      pri<lb ed="#V" n="104" break="no"/>mus. pronepos et proneptis secundus. abnepos et 
-      <lb ed="#V" n="105"/>abneptis tertius. atnepos et atneptis quartus. 
-      <lb ed="#V" n="106"/>trineptos et trineptis quintus. trinepotis 
-      ne<lb ed="#V" n="107" break="no"/>pos et trinepotis neptis sextus Attende quod sex 
-      <lb ed="#V" n="108"/>gradus tantum ponit Isido. quia truncum inter gradus 
-      <lb ed="#V" n="109"/>non computat. Alii vero qui septem gradus 
-      po<lb ed="#V" n="110" break="no"/>nunt truncum inter gradus computant. varie namque 
-      <lb ed="#V" n="111"/>computantur gradus consanguinitatis. Alii enim 
-      <lb ed="#V" n="112"/>patrem in primo gradu: filios in secundo ponunt. 
-      <lb ed="#V" n="113"/>Alii primum gradum filios appellant negantes 
-      <lb ed="#V" n="114"/>gradum cognationis inter patrem et filium esse: 
-      <lb ed="#V" n="115"/>cum vna caro sint pater et filius. Auctoritates ergo 
-      <lb ed="#V" n="116"/>que consanguinitatis cautelam vsque in septimum 
-      <lb ed="#V" n="117"/>gradum prohibent: patrem ponunt in primo gradu. 
-      <lb ed="#V" n="118"/>Ille vero que vsque ad sextum gradum prohibent: 
-      pri<lb ed="#V" n="119" break="no"/>mun gradum filios appellant: atque ita sit vt eedem 
-      per<lb ed="#V" n="120" break="no"/>sone secundum hanc diuersitatem inueniantur in. vi. et. vii. 
-      <lb ed="#V" n="121"/>gradu. Patrem vero in primo gradu ponit qui 
-      fra<lb ed="#V" n="122" break="no"/>tres dicit esse secundum. Hoc modo computat 
-      contraacha<lb ed="#V" n="123" break="no"/>rias papa inquiens. Parentele gradus taliter 
-      com<lb ed="#V" n="124" break="no"/>putamus. Ego et fratermeus vna generatio 
-      su<lb ed="#V" n="125" break="no"/>mus: primumque gradum efficimus. Rursus filius 
-      <!--00388.xml-->
-      <pb ed="#V" n="178-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>meus et fratris mei filius secunda generatio sunt: 
-      <lb ed="#V" n="2"/>et secundum gradum faciunt: ad hunc modum cetere 
-      <lb ed="#V" n="3"/>successiones. Inter illos vero qui sex 
-      compu<lb ed="#V" n="4" break="no"/>tant gradus et illos qui septem computant 
-      gra<lb ed="#V" n="5" break="no"/>dus: nulla in sensu existit diuersitas: quamuis 
-      <lb ed="#V" n="6"/>in numero graduum varietas videatur. 
-      Ulti<lb ed="#V" n="7" break="no"/>ma vero generatio si a fratribus sumat initium 
-      <lb ed="#V" n="8"/>numerandi septima inuenitur. 
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e245">
-               <lb ed="#V" n="9"/>¶ Quare sex gradus computantur. 
-      <lb ed="#V" n="10"/>Quare vero sex computet Isidorus: 
-      <lb ed="#V" n="11"/>ipse aperit dicens. 
-      Con<lb ed="#V" n="12" break="no"/>sanguinitas dum se paulatim propaginum 
-      ordi<lb ed="#V" n="13" break="no"/>nibus dirimens vsque ad vltimum gradum protra 
-      <lb ed="#V" n="14"/>xerit et propinquitas esse desierit: tunc primum 
-      <lb ed="#V" n="15"/>lex in matrimonii vinculum eam recipiet et 
-      quo<lb ed="#V" n="16" break="no"/>dammodo incipiet reuocare fugientem. Ideo autem 
-      <lb ed="#V" n="17"/>vsque ad sextum generis gradum consanguinitas 
-      con<lb ed="#V" n="18" break="no"/>stituta est: vt sicut. vi. etatibus mundi 
-      generatio<lb ed="#V" n="19" break="no"/>et hominis status finitur: ita propinquitas generis tot 
-      <lb ed="#V" n="20"/>gradibus terminetur. In his sex gradibus omnia 
-      <lb ed="#V" n="21"/>propinquitatum nomina continentur vltra quos nec 
-      <lb ed="#V" n="22"/>affinitas inueniri nec successio potest amplius 
-      pro<lb ed="#V" n="23" break="no"/>pagari. Secundum alios septem gradus ideo 
-      com<lb ed="#V" n="24" break="no"/>putatur vt ita post septem gradus sponsus sponse 
-      <lb ed="#V" n="25"/>iungatur. sicut post hanc vitam que septem diebus 
-      <lb ed="#V" n="26"/>agitur ecclesia christo iungetur. His autem 
-      occur<lb ed="#V" n="27" break="no"/>tit illud quod Greg. Aug. anglorum episco a quo re 
-      <lb ed="#V" n="28"/>quisitus fuerat: quota generatione debeant 
-      co<lb ed="#V" n="29" break="no"/>pulari: rescribit sic. Quedam lex romana 
-      permit<lb ed="#V" n="30" break="no"/>tit: vt siue fratris vel sororis seu duorum fratrum 
-      <lb ed="#V" n="31"/>germanorum seu duarum sororum filius et filia misceam 
-      <lb ed="#V" n="32"/>tur. Sed experimento didicimus ex tali 
-      coniu<lb ed="#V" n="33" break="no"/>gio sobolem non posse succrescere. Unde necesse est 
-      <lb ed="#V" n="34"/>vt quarta vel quinta generatio sidelium licenter 
-      <lb ed="#V" n="35"/>sibi coniungatur. Sed post multum temporis idem Gre¬. 
-      <lb ed="#V" n="36"/>a felice messine sicilie presule requisitus: vtrum 
-      <lb ed="#V" n="37"/>Aug. scripserit vt anglorum quarta generatione 
-      <lb ed="#V" n="38"/>contracta matrimonia non soluerentur: inter 
-      cete<lb ed="#V" n="39" break="no"/>ra talem redidit rationem. Quod scripsi Aug. 
-      <lb ed="#V" n="40"/>anglorum episcopo: episcopi etiam anglorum 
-      gen<lb ed="#V" n="41" break="no"/>ti que nuper ad fidem venerat ne a bono quo 
-      <lb ed="#V" n="42"/>ceperat metuendo austeriora recederet spetia 
-      <lb ed="#V" n="43"/>liter et non generaliter me cognoscas scripsisse. 
-      <lb ed="#V" n="44"/>nec ideo hec eis scripsi vt postquam et in fide 
-      fue<lb ed="#V" n="45" break="no"/>rint solidati: si infra propriam 
-      consanguinita<lb ed="#V" n="46" break="no"/>tem inuenti fuerint non separentur: aut 
-      infra<lb ed="#V" n="47" break="no"/>affinitatis lineam. idest vsque ad septimam 
-      ge<lb ed="#V" n="48" break="no"/>nerationem iungantur. 
-      <lb ed="#V" n="49"/>Uperius determinauit magister de 
-      <lb ed="#V" n="50"/>impedimento disparis 
-      cul<lb ed="#V" n="51" break="no"/>tus.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e342">
-      ¶ Hic determinat de impedimento 
-      consan<lb ed="#V" n="52" break="no"/>guinitatis.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e347">
-      ¶ Et diuiditur in partes. 4
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e349">
-      ¶ 
-      Pri<lb ed="#V" n="53" break="no"/>mo ostendit in quoto gradu consanguinitatis 
-      po<lb ed="#V" n="54" break="no"/>test contrahi matrimonium.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e356">
-      ¶ Secundo ponit diuersos 
-      <lb ed="#V" n="55"/>modos compunctionis illorum graduum ibi. 
-      Quomo<lb ed="#V" n="56" break="no"/>do autem
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e363">
-      ¶ Tertio. subdit rationem diuerse 
-      assignatio<lb ed="#V" n="57" break="no"/>nis illorum ibi. Quare autem.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e368">
-      ¶ Quarto opponit 
-      con<lb ed="#V" n="58" break="no"/>tra precdaecta et soluit. ibi. His autem I 
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e374">
-      <!--00388.xml-->
-               <cb ed="#V" n="b"/>
-               <lb ed="#V" n="59"/>Distinctio. 
-  </p>
-            <p xml:id="kzz7yh-k129259-d1e383">
-               <lb ed="#V" n="60"/>CIrca hanc di. ad maiorem delectationem 
-      <lb ed="#V" n="61"/>questionum que proponuntur 
-      narran<lb ed="#V" n="62" break="no"/>da sunt quedam scilicet quid sit consanguinitas. quid sit 
-      <lb ed="#V" n="63"/>linea. quid sit gradus: et ponende sunt tres 
-      regu<lb ed="#V" n="64" break="no"/>le.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e396">
-      ¶ Consanguinitas est vinculum personarum ab eodem 
-      sti<lb ed="#V" n="65" break="no"/>pite descendentium carnali propagatione contractum. 
-      Sti<lb ed="#V" n="66" break="no"/>pes autem vocatur persona a qua descendunt.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e403">
-      ¶ Linea est 
-      <lb ed="#V" n="67"/>ordinata collectio personarum consanguinitate 
-      coniuncta<lb ed="#V" n="68" break="no"/>rum ab eodem stipite descendentium diuersos gradus 
-      ha<lb ed="#V" n="69" break="no"/>bens. Est autem quedam linea ascendentium. quedam 
-      descen<lb ed="#V" n="70" break="no"/>dentium quedam transuersalium.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e414">
-      ¶ Secundum lineam 
-      ascen<lb ed="#V" n="71" break="no"/>dentem computantur gradus ita scilicet pater et mater. auus et 
-      <lb ed="#V" n="72"/>auia. proauus et proauia. atauus et atauia.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e421">
-      ¶ Secundum 
-      <lb ed="#V" n="73"/>lineam ascendentem computantur gradus ita scilicet pater et matetur. auus et auia 
-      <lb ed="#V" n="74"/>proauus et proauia. atauus et atauia.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e429">
-      ¶ 2m lineam descendentem 
-      <lb ed="#V" n="75"/>computantur sic. filius et filia. nepos et neptes. pronepos et 
-      pro<lb ed="#V" n="76" break="no"/>neptis: atnepos atneptis.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e436">
-      ¶ 2m lineam transuersalem 
-      computan<lb ed="#V" n="77" break="no"/>tur sic. duo ftres filii duorum fratrum: et nepotes duorum fratrum: 
-      <lb ed="#V" n="78"/>pronepotes duorum fratrum.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e443">
-      ¶ Gradus est hientudo distantium 
-      <lb ed="#V" n="79"/>personarum qua cognoscitur quota generationis distantia 
-      <lb ed="#V" n="80"/>due persone differunt. inter se: et hec distinctio gradus est secundum 
-      <lb ed="#V" n="81"/>iura canonica: non ciuilia. vnde sicut secundum canones frater 
-      <lb ed="#V" n="82"/>et foror faciunt vnum gradum sic secundum iura ciuilia faciunt 
-      <lb ed="#V" n="83"/>duos. eo quod illa habitudo que est fratris ad sororem non 
-      <lb ed="#V" n="84"/>est illa eadem que est sororis ad fratrem. vnde secundum Auic. 3o 
-      <lb ed="#V" n="85"/>Meta. c. 10. fraternitas que est in vno fratre refpectu 
-      <lb ed="#V" n="86"/>alterius non est fraternitas que est in alio respectu istius. 
-      <lb ed="#V" n="87"/>Iura autem canonica istas duas habitudines accipiunt 
-      <lb ed="#V" n="88"/>sub vno gradu: et ideo non est eadem contractio inter iura 
-      <lb ed="#V" n="89"/>canonica et ciuilia in descriptione gradus.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e469">
-      ¶ Tene etiam 
-      <lb ed="#V" n="90"/>pro regula quod contrahentes sine dispensatione in gradu 
-      con<lb ed="#V" n="91" break="no"/>sanguinitatis prohibito nulla longinquitate defenduntur 
-      <lb ed="#V" n="92"/>annorum: quia diuturnitas temporis non minuit peccatum 
-      <lb ed="#V" n="93"/>sed auget. tantoque sunt grauiora crimina quanto diutius 
-      <lb ed="#V" n="94"/>infelicem animam detinent alligatam. extra de consan. et 
-      af<lb ed="#V" n="95" break="no"/>fini. non debet
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e485">
-      ¶ Alia est regula quod toto gradu persone 
-      <lb ed="#V" n="96"/>pescendentes a stipite distant inter se quoto a stipite 
-      di<lb ed="#V" n="97" break="no"/>stant. gradus stame idem virtuosior est in linea 
-      descenden<lb ed="#V" n="98" break="no"/>te quam transuersali. verbi gratia filius a patre distat in 
-      pri<lb ed="#V" n="99" break="no"/>mo gradu. duo fratres anter se attinent sibi in primo 
-      gra<lb ed="#V" n="100" break="no"/>du. et tamen plus attinet filius patri quam frater fratri. 
-      Si<lb ed="#V" n="101" break="no"/>militer filius filii attinet auo in secundo gradu. filii 
-      duo<lb ed="#V" n="102" break="no"/>rum fratrum attinent sibi in secundo gradu. et tamen filius 
-      <lb ed="#V" n="103"/>filii attinet magis auo suo quam filii duorum fratrum inter se. 
-      <lb ed="#V" n="104"/>vides ergo quod idem gradus consanguinitatis in linea 
-      de<lb ed="#V" n="105" break="no"/>descendente est fortius vinculum quam in linea transuersali¬ 
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e509">
-               <lb ed="#V" n="106"/>¶ Tertia regula est quod quando persone inequaliter distant 
-      <lb ed="#V" n="107"/>a stipite. verbi gratia. vna in quarto gradutalia in 
-      secun<lb ed="#V" n="108" break="no"/>do gradu consanguinitatis inter illas personas debet 
-      com<lb ed="#V" n="109" break="no"/>putari secundum gradum magis remotum a stipite. extra de 
-      <lb ed="#V" n="110"/>consan. et affia. c. vlti. Huius autem ratio est quia ratio 
-      con<lb ed="#V" n="111" break="no"/>sanguinitatis in linea transuersali ortum habet ab illa que 
-      <lb ed="#V" n="112"/>est ad stipitem. vnde philosophus. 8. ethi. c. 12. omnino cognata amicitia 
-      <lb ed="#V" n="113"/>dependere videtur ex patrna. et ideo vnus in linea transuersali 
-      <lb ed="#V" n="114"/>non potest esse alii propinquor quam stipiti.
-   </p>
-            <p xml:id="kzz7yh-k129259-d1e532">
-      ¶ Nota etiam quod 
-      conue<lb ed="#V" n="115" break="no"/>nientius dicunt qui patrem et matrem assignant truncum quam Isidorus 
-      <lb ed="#V" n="116"/>qui fratrem et sororem truncum ponit. vt habetur. 9o libro etymologia 
-      <lb ed="#V" n="117"/>rum. c. 7. et recitat magister in litttera ante medium huius di. 
-      vn<lb ed="#V" n="118" break="no"/>de illi qui secundum assignationem Isido. sunt in 
-      gradu<lb ed="#V" n="119" break="no"/>tertio secundum aliam sunt in quarto. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="178-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k129259"><!-- l4d40prae -->
+        <head xml:id="kzz7yh-k129259-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-k129259-d1e103">
+          <lb ed="#V" n="75"/>¶ De cognatione carnali et spirituali et prius de 
+          <lb ed="#V" n="76"/>carnali. Distinctio XI
+          </p>
+          <p xml:id="kzz7yh-k129259-d1e110">
+          <lb ed="#V" n="77"/>NUnc superest de 
+          con<lb ed="#V" n="78" break="no"/>gnatio 
+          <lb ed="#V" n="79"/>ne aliquid dicere. Est autem cognatio 
+          <lb ed="#V" n="80"/>alia carnalis: alia spiritualis. 
+          Pri<lb ed="#V" n="81" break="no"/>mum de carnali cognatione et 
+          affini<lb ed="#V" n="82" break="no"/>tate inspiciamus. Cognati ergo vel affines in 
+          <lb ed="#V" n="83"/>septimo gradum vel infra copulari si debent. 
+          Un<lb ed="#V" n="84" break="no"/>de Gre. Pogeniem suam vnumquemque vsque 
+          <lb ed="#V" n="85"/>ad septimam obseruare decernimus generatio 
+          <lb ed="#V" n="86"/>nem: et quamdiu se agnoscunt affinitate propinquos. 
+          <lb ed="#V" n="87"/>ad coniugalem copulam accedere denegamus: 
+          <lb ed="#V" n="88"/>quod si fecerint: separentur. Item Nicolaus 
+          pa<lb ed="#V" n="89" break="no"/>pa. De consanguinitate sua nullus vxorem 
+          du<lb ed="#V" n="90" break="no"/>cat vsque post generationem semptimam vel 
+          quo<lb ed="#V" n="91" break="no"/>usque perentela cognosci potest. Item nulli ex 
+          pro<lb ed="#V" n="92" break="no"/>pinquitate sui sanguinis vsque ad septimum 
+          gra<lb ed="#V" n="93" break="no"/>dum vxores ducant. His auctoritatibus aliisque 
+          <lb ed="#V" n="94"/>pluribus consanguineorum coniunctiones 
+          pro<lb ed="#V" n="95" break="no"/>hibentur vsque ad septimum gradum. 
+          </p>
+          <p xml:id="kzz7yh-k129259-d1e154">
+          <lb ed="#V" n="96"/>¶ De computatione graduum consanguinitatis. 
+          <lb ed="#V" n="97"/>Quomodo autem gradus 
+          consan<lb ed="#V" n="98" break="no"/>guinitatis computandi 
+          <lb ed="#V" n="99"/>sint Isidorus ostendit sic. Series 
+          consanguini<lb ed="#V" n="100" break="no"/>tatis sex gradibus dirimitur hoc modo. Filius 
+          <lb ed="#V" n="101"/>et filia quod est frater et soror sit ipse truncus. 
+          <lb ed="#V" n="102"/>Illis seorsum seiunctis: ex radice illius 
+          trunci<lb ed="#V" n="103" break="no"/>egrediuntur isti ramunculi nepos et neptis 
+          pri<lb ed="#V" n="104" break="no"/>mus. pronepos et proneptis secundus. abnepos et 
+          <lb ed="#V" n="105"/>abneptis tertius. atnepos et atneptis quartus. 
+          <lb ed="#V" n="106"/>trineptos et trineptis quintus. trinepotis 
+          ne<lb ed="#V" n="107" break="no"/>pos et trinepotis neptis sextus Attende quod sex 
+          <lb ed="#V" n="108"/>gradus tantum ponit Isido. quia truncum inter gradus 
+          <lb ed="#V" n="109"/>non computat. Alii vero qui septem gradus 
+          po<lb ed="#V" n="110" break="no"/>nunt truncum inter gradus computant. varie namque 
+          <lb ed="#V" n="111"/>computantur gradus consanguinitatis. Alii enim 
+          <lb ed="#V" n="112"/>patrem in primo gradu: filios in secundo ponunt. 
+          <lb ed="#V" n="113"/>Alii primum gradum filios appellant negantes 
+          <lb ed="#V" n="114"/>gradum cognationis inter patrem et filium esse: 
+          <lb ed="#V" n="115"/>cum vna caro sint pater et filius. Auctoritates ergo 
+          <lb ed="#V" n="116"/>que consanguinitatis cautelam vsque in septimum 
+          <lb ed="#V" n="117"/>gradum prohibent: patrem ponunt in primo gradu. 
+          <lb ed="#V" n="118"/>Ille vero que vsque ad sextum gradum prohibent: 
+          pri<lb ed="#V" n="119" break="no"/>mun gradum filios appellant: atque ita sit vt eedem 
+          per<lb ed="#V" n="120" break="no"/>sone secundum hanc diuersitatem inueniantur in. vi. et. vii. 
+          <lb ed="#V" n="121"/>gradu. Patrem vero in primo gradu ponit qui 
+          fra<lb ed="#V" n="122" break="no"/>tres dicit esse secundum. Hoc modo computat 
+          contraacha<lb ed="#V" n="123" break="no"/>rias papa inquiens. Parentele gradus taliter 
+          com<lb ed="#V" n="124" break="no"/>putamus. Ego et fratermeus vna generatio 
+          su<lb ed="#V" n="125" break="no"/>mus: primumque gradum efficimus. Rursus filius 
+          <!-\-00388.xml-\->
+          <pb ed="#V" n="178-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>meus et fratris mei filius secunda generatio sunt: 
+          <lb ed="#V" n="2"/>et secundum gradum faciunt: ad hunc modum cetere 
+          <lb ed="#V" n="3"/>successiones. Inter illos vero qui sex 
+          compu<lb ed="#V" n="4" break="no"/>tant gradus et illos qui septem computant 
+          gra<lb ed="#V" n="5" break="no"/>dus: nulla in sensu existit diuersitas: quamuis 
+          <lb ed="#V" n="6"/>in numero graduum varietas videatur. 
+          Ulti<lb ed="#V" n="7" break="no"/>ma vero generatio si a fratribus sumat initium 
+          <lb ed="#V" n="8"/>numerandi septima inuenitur. 
+          </p>
+          <p xml:id="kzz7yh-k129259-d1e245">
+          <lb ed="#V" n="9"/>¶ Quare sex gradus computantur. 
+          <lb ed="#V" n="10"/>Quare vero sex computet Isidorus: 
+          <lb ed="#V" n="11"/>ipse aperit dicens. 
+          Con<lb ed="#V" n="12" break="no"/>sanguinitas dum se paulatim propaginum 
+          ordi<lb ed="#V" n="13" break="no"/>nibus dirimens vsque ad vltimum gradum protra 
+          <lb ed="#V" n="14"/>xerit et propinquitas esse desierit: tunc primum 
+          <lb ed="#V" n="15"/>lex in matrimonii vinculum eam recipiet et 
+          quo<lb ed="#V" n="16" break="no"/>dammodo incipiet reuocare fugientem. Ideo autem 
+          <lb ed="#V" n="17"/>vsque ad sextum generis gradum consanguinitas 
+          con<lb ed="#V" n="18" break="no"/>stituta est: vt sicut. vi. etatibus mundi 
+          generatio<lb ed="#V" n="19" break="no"/>et hominis status finitur: ita propinquitas generis tot 
+          <lb ed="#V" n="20"/>gradibus terminetur. In his sex gradibus omnia 
+          <lb ed="#V" n="21"/>propinquitatum nomina continentur vltra quos nec 
+          <lb ed="#V" n="22"/>affinitas inueniri nec successio potest amplius 
+          pro<lb ed="#V" n="23" break="no"/>pagari. Secundum alios septem gradus ideo 
+          com<lb ed="#V" n="24" break="no"/>putatur vt ita post septem gradus sponsus sponse 
+          <lb ed="#V" n="25"/>iungatur. sicut post hanc vitam que septem diebus 
+          <lb ed="#V" n="26"/>agitur ecclesia christo iungetur. His autem 
+          occur<lb ed="#V" n="27" break="no"/>tit illud quod Greg. Aug. anglorum episco a quo re 
+          <lb ed="#V" n="28"/>quisitus fuerat: quota generatione debeant 
+          co<lb ed="#V" n="29" break="no"/>pulari: rescribit sic. Quedam lex romana 
+          permit<lb ed="#V" n="30" break="no"/>tit: vt siue fratris vel sororis seu duorum fratrum 
+          <lb ed="#V" n="31"/>germanorum seu duarum sororum filius et filia misceam 
+          <lb ed="#V" n="32"/>tur. Sed experimento didicimus ex tali 
+          coniu<lb ed="#V" n="33" break="no"/>gio sobolem non posse succrescere. Unde necesse est 
+          <lb ed="#V" n="34"/>vt quarta vel quinta generatio sidelium licenter 
+          <lb ed="#V" n="35"/>sibi coniungatur. Sed post multum temporis idem Gre¬. 
+          <lb ed="#V" n="36"/>a felice messine sicilie presule requisitus: vtrum 
+          <lb ed="#V" n="37"/>Aug. scripserit vt anglorum quarta generatione 
+          <lb ed="#V" n="38"/>contracta matrimonia non soluerentur: inter 
+          cete<lb ed="#V" n="39" break="no"/>ra talem redidit rationem. Quod scripsi Aug. 
+          <lb ed="#V" n="40"/>anglorum episcopo: episcopi etiam anglorum 
+          gen<lb ed="#V" n="41" break="no"/>ti que nuper ad fidem venerat ne a bono quo 
+          <lb ed="#V" n="42"/>ceperat metuendo austeriora recederet spetia 
+          <lb ed="#V" n="43"/>liter et non generaliter me cognoscas scripsisse. 
+          <lb ed="#V" n="44"/>nec ideo hec eis scripsi vt postquam et in fide 
+          fue<lb ed="#V" n="45" break="no"/>rint solidati: si infra propriam 
+          consanguinita<lb ed="#V" n="46" break="no"/>tem inuenti fuerint non separentur: aut 
+          infra<lb ed="#V" n="47" break="no"/>affinitatis lineam. idest vsque ad septimam 
+          ge<lb ed="#V" n="48" break="no"/>nerationem iungantur.
+          </p>-->
+        <p xml:id="kzz7yh-k129259-d1e106">
+          <lb ed="#V" n="49"/>SUperius determinauit magister de 
+          <lb ed="#V" n="50"/>impedimento disparis 
+          cul<lb ed="#V" n="51" break="no"/>tus.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e342">
+          ¶ Hic determinat de impedimento 
+          consan<lb ed="#V" n="52" break="no"/>guinitatis.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e347">
+          ¶ Et diuiditur in partes. 4
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e349">
+          ¶ 
+          Pri<lb ed="#V" n="53" break="no"/>mo ostendit in quoto gradu consanguinitatis 
+          po<lb ed="#V" n="54" break="no"/>test contrahi matrimonium.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e356">
+          ¶ Secundo ponit diuersos 
+          <lb ed="#V" n="55"/>modos compunctionis illorum graduum ibi. 
+          Quomo<lb ed="#V" n="56" break="no"/>do autem
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e363">
+          ¶ Tertio. subdit rationem diuerse 
+          assignatio<lb ed="#V" n="57" break="no"/>nis illorum ibi. Quare autem.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e368">
+          ¶ Quarto opponit 
+          con<lb ed="#V" n="58" break="no"/>tra precdaecta et soluit. ibi. His autem I 
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e374">
+          <!--00388.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="59"/>Distinctio. 
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e383">
+          <lb ed="#V" n="60"/>CIrca hanc di. ad maiorem delectationem 
+          <lb ed="#V" n="61"/>questionum que proponuntur 
+          narran<lb ed="#V" n="62" break="no"/>da sunt quedam scilicet quid sit consanguinitas. quid sit 
+          <lb ed="#V" n="63"/>linea. quid sit gradus: et ponende sunt tres 
+          regu<lb ed="#V" n="64" break="no"/>le.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e396">
+          ¶ Consanguinitas est vinculum personarum ab eodem 
+          sti<lb ed="#V" n="65" break="no"/>pite descendentium carnali propagatione contractum. 
+          Sti<lb ed="#V" n="66" break="no"/>pes autem vocatur persona a qua descendunt.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e403">
+          ¶ Linea est 
+          <lb ed="#V" n="67"/>ordinata collectio personarum consanguinitate 
+          coniuncta<lb ed="#V" n="68" break="no"/>rum ab eodem stipite descendentium diuersos gradus 
+          ha<lb ed="#V" n="69" break="no"/>bens. Est autem quedam linea ascendentium. quedam 
+          descen<lb ed="#V" n="70" break="no"/>dentium quedam transuersalium.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e414">
+          ¶ Secundum lineam 
+          ascen<lb ed="#V" n="71" break="no"/>dentem computantur gradus ita scilicet pater et mater. auus et 
+          <lb ed="#V" n="72"/>auia. proauus et proauia. atauus et atauia.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e421">
+          ¶ Secundum 
+          <lb ed="#V" n="73"/>lineam ascendentem computantur gradus ita scilicet pater et matetur. auus et auia 
+          <lb ed="#V" n="74"/>proauus et proauia. atauus et atauia.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e429">
+          ¶ 2m lineam descendentem 
+          <lb ed="#V" n="75"/>computantur sic. filius et filia. nepos et neptes. pronepos et 
+          pro<lb ed="#V" n="76" break="no"/>neptis: atnepos atneptis.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e436">
+          ¶ 2m lineam transuersalem 
+          computan<lb ed="#V" n="77" break="no"/>tur sic. duo ftres filii duorum fratrum: et nepotes duorum fratrum: 
+          <lb ed="#V" n="78"/>pronepotes duorum fratrum.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e443">
+          ¶ Gradus est hientudo distantium 
+          <lb ed="#V" n="79"/>personarum qua cognoscitur quota generationis distantia 
+          <lb ed="#V" n="80"/>due persone differunt. inter se: et hec distinctio gradus est secundum 
+          <lb ed="#V" n="81"/>iura canonica: non ciuilia. vnde sicut secundum canones frater 
+          <lb ed="#V" n="82"/>et foror faciunt vnum gradum sic secundum iura ciuilia faciunt 
+          <lb ed="#V" n="83"/>duos. eo quod illa habitudo que est fratris ad sororem non 
+          <lb ed="#V" n="84"/>est illa eadem que est sororis ad fratrem. vnde secundum Auic. 3o 
+          <lb ed="#V" n="85"/>Meta. c. 10. fraternitas que est in vno fratre refpectu 
+          <lb ed="#V" n="86"/>alterius non est fraternitas que est in alio respectu istius. 
+          <lb ed="#V" n="87"/>Iura autem canonica istas duas habitudines accipiunt 
+          <lb ed="#V" n="88"/>sub vno gradu: et ideo non est eadem contractio inter iura 
+          <lb ed="#V" n="89"/>canonica et ciuilia in descriptione gradus.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e469">
+          ¶ Tene etiam 
+          <lb ed="#V" n="90"/>pro regula quod contrahentes sine dispensatione in gradu 
+          con<lb ed="#V" n="91" break="no"/>sanguinitatis prohibito nulla longinquitate defenduntur 
+          <lb ed="#V" n="92"/>annorum: quia diuturnitas temporis non minuit peccatum 
+          <lb ed="#V" n="93"/>sed auget. tantoque sunt grauiora crimina quanto diutius 
+          <lb ed="#V" n="94"/>infelicem animam detinent alligatam. extra de consan. et 
+          af<lb ed="#V" n="95" break="no"/>fini. non debet
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e485">
+          ¶ Alia est regula quod toto gradu persone 
+          <lb ed="#V" n="96"/>pescendentes a stipite distant inter se quoto a stipite 
+          di<lb ed="#V" n="97" break="no"/>stant. gradus stame idem virtuosior est in linea 
+          descenden<lb ed="#V" n="98" break="no"/>te quam transuersali. verbi gratia filius a patre distat in 
+          pri<lb ed="#V" n="99" break="no"/>mo gradu. duo fratres anter se attinent sibi in primo 
+          gra<lb ed="#V" n="100" break="no"/>du. et tamen plus attinet filius patri quam frater fratri. 
+          Si<lb ed="#V" n="101" break="no"/>militer filius filii attinet auo in secundo gradu. filii 
+          duo<lb ed="#V" n="102" break="no"/>rum fratrum attinent sibi in secundo gradu. et tamen filius 
+          <lb ed="#V" n="103"/>filii attinet magis auo suo quam filii duorum fratrum inter se. 
+          <lb ed="#V" n="104"/>vides ergo quod idem gradus consanguinitatis in linea 
+          de<lb ed="#V" n="105" break="no"/>descendente est fortius vinculum quam in linea transuersali¬ 
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e509">
+          <lb ed="#V" n="106"/>¶ Tertia regula est quod quando persone inequaliter distant 
+          <lb ed="#V" n="107"/>a stipite. verbi gratia. vna in quarto gradutalia in 
+          secun<lb ed="#V" n="108" break="no"/>do gradu consanguinitatis inter illas personas debet 
+          com<lb ed="#V" n="109" break="no"/>putari secundum gradum magis remotum a stipite. extra de 
+          <lb ed="#V" n="110"/>consan. et affia. c. vlti. Huius autem ratio est quia ratio 
+          con<lb ed="#V" n="111" break="no"/>sanguinitatis in linea transuersali ortum habet ab illa que 
+          <lb ed="#V" n="112"/>est ad stipitem. vnde philosophus. 8. ethi. c. 12. omnino cognata amicitia 
+          <lb ed="#V" n="113"/>dependere videtur ex patrna. et ideo vnus in linea transuersali 
+          <lb ed="#V" n="114"/>non potest esse alii propinquor quam stipiti.
+        </p>
+        <p xml:id="kzz7yh-k129259-d1e532">
+          ¶ Nota etiam quod 
+          conue<lb ed="#V" n="115" break="no"/>nientius dicunt qui patrem et matrem assignant truncum quam Isidorus 
+          <lb ed="#V" n="116"/>qui fratrem et sororem truncum ponit. vt habetur. 9o libro etymologia 
+          <lb ed="#V" n="117"/>rum. c. 7. et recitat magister in litttera ante medium huius di. 
+          vn<lb ed="#V" n="118" break="no"/>de illi qui secundum assignationem Isido. sunt in 
+          gradu<lb ed="#V" n="119" break="no"/>tertio secundum aliam sunt in quarto. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

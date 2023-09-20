@@ -1,377 +1,380 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="107-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g75448"><!-- l3d29prae -->
-            <head xml:id="kzz7yh-g75448-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-g75448-d1e103">
-               <lb ed="#V" n="17"/>¶ De ordine diligendi quid prius: quid 
-      posteri<lb ed="#V" n="18" break="no"/>us. Distin. XXIX 
-    </p>
-            <p xml:id="kzz7yh-g75448-d1e110">
-               <lb ed="#V" n="19"/>Post predicta de 
-      ordi<lb ed="#V" n="20" break="no"/>ne 
-      cha<lb ed="#V" n="21" break="no"/>ritatis agendum est quia dicit sponsa. 
-      <lb ed="#V" n="22"/>Introduxit me rex in cellam vinariam: 
-      <lb ed="#V" n="23"/>et ordinauit in me charitatem. Uidea 
-      <lb ed="#V" n="24"/>mus ergo ordinem quid prius quid posterius esse 
-      de<lb ed="#V" n="25" break="no"/>beat. Peccat enim qui praepostere agit. Nam scire 
-      <lb ed="#V" n="26"/>quid facias et nescire ordinem faciendi non est 
-      perfe<lb ed="#V" n="27" break="no"/>cte cognitionis. Ordinis namque ignorantia contur 
-      <lb ed="#V" n="28"/>bat meritorum formam: ordinem autem diligendi Augu. 
-      <lb ed="#V" n="29"/>insinuat dicens. Ipse est qui ordinatam habet dile. 
-      <lb ed="#V" n="30"/>ctionem: ne aut diligat quod non est diligendum: aut non 
-      <lb ed="#V" n="31"/>diligat quod dilgendum est: autem eque diligat quod 
-      <lb ed="#V" n="32"/>minus vel amplius diligendum est: aut minus 
-      <lb ed="#V" n="33"/>vel amplius quod eque diligendum est. Omnis 
-      pecca<lb ed="#V" n="34" break="no"/>tor inquantum peccator est non est diligendus: et omnis 
-      <lb ed="#V" n="35"/>homo inquantum est homo diligendus est propter deum. 
-      <lb ed="#V" n="36"/>Dcus vero propter seipsum. et deus propter se omni homine 
-      <lb ed="#V" n="37"/>amplius diligendus est et amplius quisque debet 
-      <lb ed="#V" n="38"/>deum diligere quam seipsum. Item amplius alius 
-      homo<lb ed="#V" n="39" break="no"/>diligendus est quam corpus nostrum: quia propter deum 
-      <lb ed="#V" n="40"/>omnia ista diligenda sunt: et potest nobiscum deo 
-      homo<lb ed="#V" n="41" break="no"/>perfrui: quod non potest corpus: quia corpus per animam 
-      vi<lb ed="#V" n="42" break="no"/>uit qua fruimur deo. Audisti aliqua de 
-      ordi<lb ed="#V" n="43" break="no"/>ne charitatis vbi expressum est nos amplius 
-      de<lb ed="#V" n="44" break="no"/>bere diligere deum quam omnes homines vel nosipsos: 
-      <lb ed="#V" n="45"/>et amplius animam alicuius hominis quamd 
-      cor<lb ed="#V" n="46" break="no"/>pus nostrum. In enumeratione etiam 
-      quatu<lb ed="#V" n="47" break="no"/>or diligendorum superius posita: prius ponitur 
-      <lb ed="#V" n="48"/>quod supra nos est. Secundo quod nos sumus. 
-      <lb ed="#V" n="49"/>Certio quod iuxta nos est. Quarto quod 
-      infra<lb ed="#V" n="50" break="no"/>nos est: vbi ordo diligendi insinuari videtur ex 
-      <lb ed="#V" n="51"/>ratione numerationis. Non est autem apertum 
-      <lb ed="#V" n="52"/>vtrum omnes homines pariter diligere debea 
-      <lb ed="#V" n="53"/>mus et tantum quantum nos vel minus. 
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e188">
-               <lb ed="#V" n="54"/>¶ Anomnes homines pariter diligendi sunt. 
-      <lb ed="#V" n="55"/>Unde etiam super hoc scpe 
-      moue<lb ed="#V" n="56" break="no"/>tur questio quam 
-      perple<lb ed="#V" n="57" break="no"/>xam faciunt sanctorum verba varie prolata. Quie 
-      <lb ed="#V" n="58"/>dam enim tradere videntur quod pari affecctu omnes 
-      di<lb ed="#V" n="59" break="no"/>ligendi sint: sed in effectu id est in exhibitione obse¬ 
-      <!--00225.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="60"/>quii distinctio obleruanda sit. Unde Augu. 
-      <lb ed="#V" n="61"/>omnes homines eque diligendi sunt. Sed cum 
-      <lb ed="#V" n="62"/>hominibus prodesse non possis his potissimum 
-      consul<lb ed="#V" n="63" break="no"/>dum est: qui per locorum et temporum vel quarumlibet rerum 
-      <lb ed="#V" n="64"/>oportunitatibus constrictius tibi quasi quadam 
-      <lb ed="#V" n="65"/>sorte iunguntur. Pro sorte enim habendum est quo 
-      <lb ed="#V" n="66"/>quisque tibi temporaliter colligatus adheret ex quo 
-      <lb ed="#V" n="67"/>legis potius illi dandum esse. Idem super epistolam 
-      <lb ed="#V" n="68"/>ad Galis. Operemur bonum ad omnes: maxime autem 
-      <lb ed="#V" n="69"/>ad domesticos fidei id est ad christianos. Omnib 
-      <lb ed="#V" n="70"/>enim pari dilectione rita eterna optanda est: et 
-      si<lb ed="#V" n="71" break="no"/>non omnibus eadem possunt exhiberi dilectionis 
-      of<lb ed="#V" n="72" break="no"/>ficia que fratribus maxime sunt exhibenda: quia 
-      <lb ed="#V" n="73"/>sunt inuicem membra qui habent eundem patrem. 
-      <lb ed="#V" n="74"/>His aliisque testimoniis innituntur qui dicunt omnes 
-      <lb ed="#V" n="75"/>homines pariter diligendos esse charitatis 
-      af<lb ed="#V" n="76" break="no"/>fectu: sed in operis exhibitione differentiam. 
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e245">
-               <lb ed="#V" n="77"/>¶ Que his repugnare videntur. 
-      <lb ed="#V" n="78"/>Quibus obuiat illud preceptum 
-      <lb ed="#V" n="79"/>legis de 
-      dili<lb ed="#V" n="80" break="no"/>gendis parentibus. Honora patrem tuum et matrem vt 
-      <lb ed="#V" n="81"/>sis longeuus super terram. Ut quid enim specialiter 
-      <lb ed="#V" n="82"/>illud praeciperetur de parentibus nisi maiori 
-      dilectio<lb ed="#V" n="83" break="no"/>ne forent diligendi. Sed hoc illi referendum dicunt 
-      <lb ed="#V" n="84"/>ad exteriorem exhibitionem: in qua praeponendi sunt 
-      pa<lb ed="#V" n="85" break="no"/>rentes. Unde honora dixit non dilige. Obuiat 
-      <lb ed="#V" n="86"/>etiam illud quod Hiero. super Eechiclem ait scilicet vt 
-      <lb ed="#V" n="87"/>ordine charitatis sicut scriptum est. Ordinauit in 
-      <lb ed="#V" n="88"/>me charitatem. Post omnium patrem deum carnis 
-      <lb ed="#V" n="89"/>quoque pater diligatur et mater et filius et filia 
-      fra<lb ed="#V" n="90" break="no"/>ter et soror. Amb. quoque diligendi exprimens 
-      ordi<lb ed="#V" n="91" break="no"/>nem super illud causaticorum capitulo primo. Ordina 
-      <lb ed="#V" n="92"/>uit in me charitatem ait. Multorum. Charitas 
-      <lb ed="#V" n="93"/>inordinata est. quod in primo est ponunt 
-      terti<lb ed="#V" n="94" break="no"/>umlvel quartum. Primo deus diligendus est: 
-      <lb ed="#V" n="95"/>secundo parentes: inde filii: post domestici qui 
-      si<lb ed="#V" n="96" break="no"/>boni sunt malis filiis praponendi sunt. Secundum 
-      <lb ed="#V" n="97"/>boc in euangelio ad cuiusque dilectionem: 
-      propri<lb ed="#V" n="98" break="no"/>um ponit. Diliges dominum deum tuum ex toto 
-      <lb ed="#V" n="99"/>corde tuo et exomnibus viribus tuis: et proximum 
-      <lb ed="#V" n="100"/>tuum sicut teipsum. et inimicos non ex tota 
-      virtu<lb ed="#V" n="101" break="no"/>te: non sicut teipsum sed simpliciter: sufficit enim 
-      <lb ed="#V" n="102"/>quod diligimus et non odio habemus. Ecce 
-      expre<lb ed="#V" n="103" break="no"/>missis aperte insinuatur que in affectu charitatis 
-      <lb ed="#V" n="104"/>distinctio sit habenda: vt differenti affectu non 
-      pa<lb ed="#V" n="105" break="no"/>ri homines diligamus: et ante omnia deum: secundo 
-      <lb ed="#V" n="106"/>nosipsos: tertio parentes: inde filios et fratres: 
-      <lb ed="#V" n="107"/>post domesticos: demum inimicos diligamus. 
-      <lb ed="#V" n="108"/>Sed inquiunt illi: que de ordine dilectionis 
-      <lb ed="#V" n="109"/>supra dicuntur esse referenda ad operum 
-      exhibi<lb ed="#V" n="110" break="no"/>tionem: que diffcrenter proximis exhibenda sunt. 
-      Pri<lb ed="#V" n="111" break="no"/>mo parentibus: inde filiis: post domesticis: 
-      de<lb ed="#V" n="112" break="no"/>mum inimicis. Dcum vero tam affectu quam 
-      obse<lb ed="#V" n="113" break="no"/>quii exhibitione ante omnia diligendum. 
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e329">
-               <lb ed="#V" n="114"/>¶ Quot aliqui eorumdem tantum proximos quantum 
-      <lb ed="#V" n="115"/>nos debere diligere tradunt. 
-      <!--00226.xml-->
-      <pb ed="#V" n="107-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>Quorum etiam nonnulli tradunt 
-      at<lb ed="#V" n="2" break="no"/>fectu charitatis tantum proximos 
-      <lb ed="#V" n="3"/>esse diligendos quantum nosipsos diligimus. 
-      <lb ed="#V" n="4"/>Quod confirmant auctoritate Augustini qui 
-      <lb ed="#V" n="5"/>ait. Nec illa iam questio moueat: quantum 
-      cha<lb ed="#V" n="6" break="no"/>ritatis fratri debeamus impendere: quantum 
-      <lb ed="#V" n="7"/>deo. Incomparabiliter plus deo quam nobis: 
-      fratri<lb ed="#V" n="8" break="no"/>vero quantum nobis. Nos autem tantomagis 
-      diligi<lb ed="#V" n="9" break="no"/>mus: quantomagis diligimus deum. Ex his et 
-      <lb ed="#V" n="10"/>ex premissis testimoniis Aug. asserunt omnes 
-      <lb ed="#V" n="11"/>homines pariter esse diligendos a nobis: et tantum 
-      <lb ed="#V" n="12"/>quantum nos: deum autem plusquam nos: corpus 
-      <lb ed="#V" n="13"/>vero nostrum minus quam nos vel proximos. Nec 
-      <lb ed="#V" n="14"/>in enumeratione premissa quatuor diligendo 
-      <lb ed="#V" n="15"/>rum ordinem diligendi assignari dicunt: sed 
-      tan<lb ed="#V" n="16" break="no"/>tum que sunt diligenda. 
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e377">
-               <lb ed="#V" n="17"/>¶ Secundum alios non pari affectu omnes 
-      dili<lb ed="#V" n="18" break="no"/>gendi sunt. 
-      <lb ed="#V" n="19"/>Uerum quia premissa verba 
-      Ambro<lb ed="#V" n="20" break="no"/>ni ordinem diligendi secundum 
-      af<lb ed="#V" n="21" break="no"/>fectum magis quam secundum effectum diligenter 
-      intuen<lb ed="#V" n="22" break="no"/>tibus explicare videntur: non indocte alii dicunt 
-      <lb ed="#V" n="23"/>non modo in exhibitione operis: sed etiam in 
-      as<lb ed="#V" n="24" break="no"/>fectu charitatis ordinem differentem esse 
-      statu<lb ed="#V" n="25" break="no"/>tum vt ante omnia diligamus deum: secundo 
-      <lb ed="#V" n="26"/>nos: tertio parentes: quarto filios vel fratres: et 
-      <lb ed="#V" n="27"/>huiusmodi: postea domesticos: demum 
-      inimi<lb ed="#V" n="28" break="no"/>cos. Quod vero Aug. dicit pariter omnes esse 
-      dili<lb ed="#V" n="29" break="no"/>gendos: et pari dilectione omnibus vitam optandam 
-      <lb ed="#V" n="30"/>ita accipi potest vt paritas non ad effectum 
-      resera<lb ed="#V" n="31" break="no"/>tur: sed ad bonum quod eis optatur: quia charitatem 
-      <lb ed="#V" n="32"/>omnibus optare debemus vt patria bona 
-      me<lb ed="#V" n="33" break="no"/>reantur. Sicut apostolus dicit. Uolo omnes homines 
-      <lb ed="#V" n="34"/>esse sicut me. Optanda est enim minoribus 
-      per<lb ed="#V" n="35" break="no"/>fectio maiorum vt ipsi fiant perfecti: et sic parem 
-      <lb ed="#V" n="36"/>mereantur beatitudinem: vel pari dilectione: 
-      <lb ed="#V" n="37"/>idest eadem dilectione omnes diligendi sunt. 
-      <lb ed="#V" n="38"/>Item quod ait: vt tantum diligamus fratres 
-      quan<lb ed="#V" n="39" break="no"/>tum nos: ita intelligi potest id est ad tantum bonum 
-      di<lb ed="#V" n="40" break="no"/>ligamus fratres ad quantum nos: vt tantum 
-      bo<lb ed="#V" n="41" break="no"/>num eis optemus in eternitate quantum 
-      no<lb ed="#V" n="42" break="no"/>bis. et si non tanto affectu. Uel ibi quantum si 
-      <lb ed="#V" n="43"/>militudinis est: non quantitatis. 
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e438">
-               <lb ed="#V" n="44"/>¶ Questio de parentibus bonis et malis. 
-      <lb ed="#V" n="45"/>Solet etiam queri si parentes 
-      no<lb ed="#V" n="46" break="no"/>stri mali sint: vel filii 
-      <lb ed="#V" n="47"/>vel fratres: an magis vel minus diligendi sint 
-      <lb ed="#V" n="48"/>aliis bonis: hac ratione nobis non copulatis. 
-      Ui<lb ed="#V" n="49" break="no"/>detur quod magis sint diligendi boni: qui nobis 
-      car<lb ed="#V" n="50" break="no"/>ne non sunt coniuncti: quam mali carne coniuncti: 
-      <lb ed="#V" n="51"/>quia nobis sunt coniuncti corde glutino 
-      charita<lb ed="#V" n="52" break="no"/>tis. Sanctior est enim copula cordium quam 
-      cor<lb ed="#V" n="53" break="no"/>porum. Unde Geda de illis verbis domini. 
-      <lb ed="#V" n="54"/>Mater mea et fratres mei hi sunt qui verbum dei 
-      <lb ed="#V" n="55"/>faciunt: ait. Non iniuriose negligit matrem: nec 
-      <lb ed="#V" n="56"/>mater negatur que etiam de cruce cognosci¬ 
-      <!--00226.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>tur: sed religiosiores monstrantur copule 
-      men<lb ed="#V" n="58" break="no"/>tium quam corporum. Uerumtamen latebrosa 
-      <lb ed="#V" n="59"/>questio est hec: nec a nobis plene absoluenda: 
-      <lb ed="#V" n="60"/>properantibus ad alia. Mouemur enim 
-      su<lb ed="#V" n="61" break="no"/>per verbis illis quibus inimicos non ex tota 
-      <lb ed="#V" n="62"/>virtute: non sicut teipsum iubet diligere: sed sim 
-      <lb ed="#V" n="63"/>pliciter. Sufficit enim quod diligimus et non odio 
-      <lb ed="#V" n="64"/>habemus. Quod non ita accipiendum est 
-      qua<lb ed="#V" n="65" break="no"/>si suffciat tibi diligere inimicum et non tibi 
-      te<lb ed="#V" n="66" break="no"/>ipsum: quia omnes et amicos et inimicos sicut 
-      <lb ed="#V" n="67"/>teipsum diligere debes. Sed ad ostendendum 
-      <lb ed="#V" n="68"/>gradus diligendi deum et proximum: et 
-      inimi<lb ed="#V" n="69" break="no"/>cum: qui tamen proximus est: quia dominus 
-      po<lb ed="#V" n="70" break="no"/>nit cum ait. Diliges deum ex tota virtute 
-      tua<lb ed="#V" n="71" break="no"/>et proximum sicut teipsum. Non ait ex tota 
-      vir<lb ed="#V" n="72" break="no"/>tute vt ostendat proximum diligendum. 
-      mi<lb ed="#V" n="73" break="no"/>nus quam deum. Dicit etiam diligite inimicos: 
-      <lb ed="#V" n="74"/>nec addit ex tota virtute: nec sicut teipsum sed 
-      <lb ed="#V" n="75"/>simpliciter. Sufficit enim quod diligimus et non 
-      odio<lb ed="#V" n="76" break="no"/>habemus: non quin eos diligere debeamus. 
-      si<lb ed="#V" n="77" break="no"/>cut nos: quia proximi sunt: sed sufficit si eos 
-      mi<lb ed="#V" n="78" break="no"/>nus diligimus quam alios proximos quod dilectio 
-      <lb ed="#V" n="79"/>nis genus innuit. 
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e523">
-               <lb ed="#V" n="80"/>¶ Questio Aug. in libro retractationum. 
-      <lb ed="#V" n="81"/>Queri etiam solet cur dominus 
-      pre<lb ed="#V" n="82" break="no"/>ceperit diligere 
-      ini<lb ed="#V" n="83" break="no"/>micos: cum alibi precipiat odio habere 
-      paren<lb ed="#V" n="84" break="no"/>tes et filios: Ad quod dicendum est duo esse 
-      di<lb ed="#V" n="85" break="no"/>ligenda in homine: naturam et virtutem: vicium 
-      <lb ed="#V" n="86"/>vero et peccatum odiendum. Et parentes ergo 
-      <lb ed="#V" n="87"/>inquantum mali sunt odiendi sunt: et 
-      inimici<lb ed="#V" n="88" break="no"/>diligendi inquantum homines. Diligamus 
-      er<lb ed="#V" n="89" break="no"/>go inimicos lucrandos in regno dei: et odiam 
-      <lb ed="#V" n="90"/>propinquos si impediunt nos a regno dei: et in omni 
-      <lb ed="#V" n="91"/>bus communiter naturam diligamus: quam 
-      <lb ed="#V" n="92"/>deus fecit. 
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e554">
-               <lb ed="#V" n="93"/>¶ De gradibus charitatis. 
-      <lb ed="#V" n="94"/>Sciendum quoque est diuersos esse 
-      <lb ed="#V" n="95"/>gradus charitatis. Est 
-      <lb ed="#V" n="96"/>enim charitas incipiens proficiens perfecta 
-      <lb ed="#V" n="97"/>perfectissima. Unde Augustinus. Perfecta 
-      <lb ed="#V" n="98"/>charitas hec est vt quis paratus sit pro 
-      fratri<lb ed="#V" n="99" break="no"/>bus etiam mori. Sed nunquid mox vt 
-      nasci<lb ed="#V" n="100" break="no"/>tur iam prorsus perfecta est: immo vt 
-      perfi<lb ed="#V" n="101" break="no"/>ciatur nascitur: cum fuerit nata nutritur: cum fuerit 
-      nutri<lb ed="#V" n="102" break="no"/>ta roboratur: cum fuerit roborata perficitur: cum ad 
-      perfe<lb ed="#V" n="103" break="no"/>ctionem venerit dicit cupio dissolui etc. Hic aper 
-      <lb ed="#V" n="104"/>te progressus et perfectio charitatis insinuatur. Quam 
-      <lb ed="#V" n="105"/>perfectionem etiam veritas commendat dicens. 
-      Ma<lb ed="#V" n="106" break="no"/>iorem hac dilectionem nemo habet quam vt animam suam 
-      <lb ed="#V" n="107"/>ponat quis pro amicis suis. Quod vtique dictum est 
-      <lb ed="#V" n="108"/>opere dilectionis: quia maior dilectionis effectus non 
-      <lb ed="#V" n="109"/>est: quam ponere anaimam pro aliis. Nec te 
-      moue<lb ed="#V" n="110" break="no"/>at quod ait pro amicis: qui enim ponit animam 
-      <lb ed="#V" n="111"/>pro amicis ponit et pro inimicis ad hoc vt ipsi 
-      <lb ed="#V" n="112"/>fiant amici. Distin. XXIX 
-      <!--00227.xml-->
-      <pb ed="#V" n="108-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>Post predicta de ordine charitatis 
-      <lb ed="#V" n="2"/>etc. Superius 
-      deter<lb ed="#V" n="3" break="no"/>minauit magister de his que diligenda sunt ex 
-      cha<lb ed="#V" n="4" break="no"/>ritate: hic determinat de ordine diligendi ex 
-      cha<lb ed="#V" n="5" break="no"/>ritate: et diuiditur in partes duas.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e617">
-      ¶ Primo de 
-      <lb ed="#V" n="6"/>terminat de charitate quantum ad ordinem diligedi.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e623">
-      ¶ 
-      Se<lb ed="#V" n="7" break="no"/>cundo quantum ad perfectionem meriti distinctione sequenti ibi. 
-      <lb ed="#V" n="8"/>hic solet queri.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e630">
-      ¶ Prima in tres.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e632">
-      ¶ Primo determi 
-      <lb ed="#V" n="9"/>nat de ordine diligendi ex charitate in comparatione ad ea 
-      <lb ed="#V" n="10"/>que per charitatem diliguntur.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e639">
-      ¶ Secundo in comparatione 
-      <lb ed="#V" n="11"/>ad ea beneficia que per charitatem impenduntur ibi. 
-      Un<lb ed="#V" n="12" break="no"/>de etiam sepe.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e646">
-      ¶ Tertio per comparationem ad gradus qui 
-      <lb ed="#V" n="13"/>in charitate inueniuntur ibi. Sciendum quoque.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e651">
-      ¶ Prima 
-      <lb ed="#V" n="14"/>indiuisa.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e657">
-      ¶ Secunda diuiditur in duas.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e659">
-      ¶ Primo 
-      po<lb ed="#V" n="15" break="no"/>nit magister circa hanc materiam diuersorum opiniones.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e664">
-      ¶ 
-      Se<lb ed="#V" n="16" break="no"/>cundo soluit incidentes dubitationes ibi. Solet etiam que 
-      <lb ed="#V" n="17"/>ri si parentes.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e671">
-      ¶ Prima in quatuor.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e673">
-      ¶ Primo ponit 
-      ma<lb ed="#V" n="18" break="no"/>gister opinionem dicentium quod omnes proximi equaliter 
-      diligen<lb ed="#V" n="19" break="no"/>di sunt affectu non effectu.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e680">
-      ¶ Secundo responsiones eorum 
-      <lb ed="#V" n="20"/>ad auctoritates que videntur dicere. Non omnes proximos 
-      <lb ed="#V" n="21"/>equaliter diligendos affectu ibi. Quibus obuinat.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e688">
-      ¶ 
-      Ter<lb ed="#V" n="22" break="no"/>tio ponit opinionem dicentium: quod omnes homines equaliter: diligere 
-      <lb ed="#V" n="23"/>debemus sicut nos affectu ibi. Quorum nonnulli.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e695">
-      ¶ 
-      Quar<lb ed="#V" n="24" break="no"/>to magister ponit opinionem cui consentire videtur scilicet quod non 
-      <lb ed="#V" n="25"/>dmens homines equaliter diligendi sunt: neque affectu: neque 
-      effec<lb ed="#V" n="26" break="no"/>ctu ibi. Uerum quia premissa verba.
-   </p>
-            <p xml:id="kzz7yh-g75448-d1e704">
-      ¶ Illa pars in qua 
-      <lb ed="#V" n="27"/>soluit incidentes dubitationes: que ibi incipit. Solet etiam 
-      <lb ed="#V" n="28"/>queri diuiditur in tres secundum tres dubitationes quas 
-      dis<lb ed="#V" n="29" break="no"/>soluit. Quarum vna oritur ex alia secunda ibi. Uerum 
-      ta<lb ed="#V" n="30" break="no"/>men latebrosa. tertia ibi. Queri etiam solet I 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="107-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g75448"><!-- l3d29prae -->
+        <head xml:id="kzz7yh-g75448-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-g75448-d1e103">
+          <lb ed="#V" n="17"/>¶ De ordine diligendi quid prius: quid 
+          posteri<lb ed="#V" n="18" break="no"/>us. Distin. XXIX 
+          </p>
+          <p xml:id="kzz7yh-g75448-d1e110">
+          <lb ed="#V" n="19"/>Post predicta de 
+          ordi<lb ed="#V" n="20" break="no"/>ne 
+          cha<lb ed="#V" n="21" break="no"/>ritatis agendum est quia dicit sponsa. 
+          <lb ed="#V" n="22"/>Introduxit me rex in cellam vinariam: 
+          <lb ed="#V" n="23"/>et ordinauit in me charitatem. Uidea 
+          <lb ed="#V" n="24"/>mus ergo ordinem quid prius quid posterius esse 
+          de<lb ed="#V" n="25" break="no"/>beat. Peccat enim qui praepostere agit. Nam scire 
+          <lb ed="#V" n="26"/>quid facias et nescire ordinem faciendi non est 
+          perfe<lb ed="#V" n="27" break="no"/>cte cognitionis. Ordinis namque ignorantia contur 
+          <lb ed="#V" n="28"/>bat meritorum formam: ordinem autem diligendi Augu. 
+          <lb ed="#V" n="29"/>insinuat dicens. Ipse est qui ordinatam habet dile. 
+          <lb ed="#V" n="30"/>ctionem: ne aut diligat quod non est diligendum: aut non 
+          <lb ed="#V" n="31"/>diligat quod dilgendum est: autem eque diligat quod 
+          <lb ed="#V" n="32"/>minus vel amplius diligendum est: aut minus 
+          <lb ed="#V" n="33"/>vel amplius quod eque diligendum est. Omnis 
+          pecca<lb ed="#V" n="34" break="no"/>tor inquantum peccator est non est diligendus: et omnis 
+          <lb ed="#V" n="35"/>homo inquantum est homo diligendus est propter deum. 
+          <lb ed="#V" n="36"/>Dcus vero propter seipsum. et deus propter se omni homine 
+          <lb ed="#V" n="37"/>amplius diligendus est et amplius quisque debet 
+          <lb ed="#V" n="38"/>deum diligere quam seipsum. Item amplius alius 
+          homo<lb ed="#V" n="39" break="no"/>diligendus est quam corpus nostrum: quia propter deum 
+          <lb ed="#V" n="40"/>omnia ista diligenda sunt: et potest nobiscum deo 
+          homo<lb ed="#V" n="41" break="no"/>perfrui: quod non potest corpus: quia corpus per animam 
+          vi<lb ed="#V" n="42" break="no"/>uit qua fruimur deo. Audisti aliqua de 
+          ordi<lb ed="#V" n="43" break="no"/>ne charitatis vbi expressum est nos amplius 
+          de<lb ed="#V" n="44" break="no"/>bere diligere deum quam omnes homines vel nosipsos: 
+          <lb ed="#V" n="45"/>et amplius animam alicuius hominis quamd 
+          cor<lb ed="#V" n="46" break="no"/>pus nostrum. In enumeratione etiam 
+          quatu<lb ed="#V" n="47" break="no"/>or diligendorum superius posita: prius ponitur 
+          <lb ed="#V" n="48"/>quod supra nos est. Secundo quod nos sumus. 
+          <lb ed="#V" n="49"/>Certio quod iuxta nos est. Quarto quod 
+          infra<lb ed="#V" n="50" break="no"/>nos est: vbi ordo diligendi insinuari videtur ex 
+          <lb ed="#V" n="51"/>ratione numerationis. Non est autem apertum 
+          <lb ed="#V" n="52"/>vtrum omnes homines pariter diligere debea 
+          <lb ed="#V" n="53"/>mus et tantum quantum nos vel minus. 
+          </p>
+          <p xml:id="kzz7yh-g75448-d1e188">
+          <lb ed="#V" n="54"/>¶ Anomnes homines pariter diligendi sunt. 
+          <lb ed="#V" n="55"/>Unde etiam super hoc scpe 
+          moue<lb ed="#V" n="56" break="no"/>tur questio quam 
+          perple<lb ed="#V" n="57" break="no"/>xam faciunt sanctorum verba varie prolata. Quie 
+          <lb ed="#V" n="58"/>dam enim tradere videntur quod pari affecctu omnes 
+          di<lb ed="#V" n="59" break="no"/>ligendi sint: sed in effectu id est in exhibitione obse¬ 
+          <!-\-00225.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="60"/>quii distinctio obleruanda sit. Unde Augu. 
+          <lb ed="#V" n="61"/>omnes homines eque diligendi sunt. Sed cum 
+          <lb ed="#V" n="62"/>hominibus prodesse non possis his potissimum 
+          consul<lb ed="#V" n="63" break="no"/>dum est: qui per locorum et temporum vel quarumlibet rerum 
+          <lb ed="#V" n="64"/>oportunitatibus constrictius tibi quasi quadam 
+          <lb ed="#V" n="65"/>sorte iunguntur. Pro sorte enim habendum est quo 
+          <lb ed="#V" n="66"/>quisque tibi temporaliter colligatus adheret ex quo 
+          <lb ed="#V" n="67"/>legis potius illi dandum esse. Idem super epistolam 
+          <lb ed="#V" n="68"/>ad Galis. Operemur bonum ad omnes: maxime autem 
+          <lb ed="#V" n="69"/>ad domesticos fidei id est ad christianos. Omnib 
+          <lb ed="#V" n="70"/>enim pari dilectione rita eterna optanda est: et 
+          si<lb ed="#V" n="71" break="no"/>non omnibus eadem possunt exhiberi dilectionis 
+          of<lb ed="#V" n="72" break="no"/>ficia que fratribus maxime sunt exhibenda: quia 
+          <lb ed="#V" n="73"/>sunt inuicem membra qui habent eundem patrem. 
+          <lb ed="#V" n="74"/>His aliisque testimoniis innituntur qui dicunt omnes 
+          <lb ed="#V" n="75"/>homines pariter diligendos esse charitatis 
+          af<lb ed="#V" n="76" break="no"/>fectu: sed in operis exhibitione differentiam. 
+          </p>
+          <p xml:id="kzz7yh-g75448-d1e245">
+          <lb ed="#V" n="77"/>¶ Que his repugnare videntur. 
+          <lb ed="#V" n="78"/>Quibus obuiat illud preceptum 
+          <lb ed="#V" n="79"/>legis de 
+          dili<lb ed="#V" n="80" break="no"/>gendis parentibus. Honora patrem tuum et matrem vt 
+          <lb ed="#V" n="81"/>sis longeuus super terram. Ut quid enim specialiter 
+          <lb ed="#V" n="82"/>illud praeciperetur de parentibus nisi maiori 
+          dilectio<lb ed="#V" n="83" break="no"/>ne forent diligendi. Sed hoc illi referendum dicunt 
+          <lb ed="#V" n="84"/>ad exteriorem exhibitionem: in qua praeponendi sunt 
+          pa<lb ed="#V" n="85" break="no"/>rentes. Unde honora dixit non dilige. Obuiat 
+          <lb ed="#V" n="86"/>etiam illud quod Hiero. super Eechiclem ait scilicet vt 
+          <lb ed="#V" n="87"/>ordine charitatis sicut scriptum est. Ordinauit in 
+          <lb ed="#V" n="88"/>me charitatem. Post omnium patrem deum carnis 
+          <lb ed="#V" n="89"/>quoque pater diligatur et mater et filius et filia 
+          fra<lb ed="#V" n="90" break="no"/>ter et soror. Amb. quoque diligendi exprimens 
+          ordi<lb ed="#V" n="91" break="no"/>nem super illud causaticorum capitulo primo. Ordina 
+          <lb ed="#V" n="92"/>uit in me charitatem ait. Multorum. Charitas 
+          <lb ed="#V" n="93"/>inordinata est. quod in primo est ponunt 
+          terti<lb ed="#V" n="94" break="no"/>umlvel quartum. Primo deus diligendus est: 
+          <lb ed="#V" n="95"/>secundo parentes: inde filii: post domestici qui 
+          si<lb ed="#V" n="96" break="no"/>boni sunt malis filiis praponendi sunt. Secundum 
+          <lb ed="#V" n="97"/>boc in euangelio ad cuiusque dilectionem: 
+          propri<lb ed="#V" n="98" break="no"/>um ponit. Diliges dominum deum tuum ex toto 
+          <lb ed="#V" n="99"/>corde tuo et exomnibus viribus tuis: et proximum 
+          <lb ed="#V" n="100"/>tuum sicut teipsum. et inimicos non ex tota 
+          virtu<lb ed="#V" n="101" break="no"/>te: non sicut teipsum sed simpliciter: sufficit enim 
+          <lb ed="#V" n="102"/>quod diligimus et non odio habemus. Ecce 
+          expre<lb ed="#V" n="103" break="no"/>missis aperte insinuatur que in affectu charitatis 
+          <lb ed="#V" n="104"/>distinctio sit habenda: vt differenti affectu non 
+          pa<lb ed="#V" n="105" break="no"/>ri homines diligamus: et ante omnia deum: secundo 
+          <lb ed="#V" n="106"/>nosipsos: tertio parentes: inde filios et fratres: 
+          <lb ed="#V" n="107"/>post domesticos: demum inimicos diligamus. 
+          <lb ed="#V" n="108"/>Sed inquiunt illi: que de ordine dilectionis 
+          <lb ed="#V" n="109"/>supra dicuntur esse referenda ad operum 
+          exhibi<lb ed="#V" n="110" break="no"/>tionem: que diffcrenter proximis exhibenda sunt. 
+          Pri<lb ed="#V" n="111" break="no"/>mo parentibus: inde filiis: post domesticis: 
+          de<lb ed="#V" n="112" break="no"/>mum inimicis. Dcum vero tam affectu quam 
+          obse<lb ed="#V" n="113" break="no"/>quii exhibitione ante omnia diligendum. 
+          </p>
+          <p xml:id="kzz7yh-g75448-d1e329">
+          <lb ed="#V" n="114"/>¶ Quot aliqui eorumdem tantum proximos quantum 
+          <lb ed="#V" n="115"/>nos debere diligere tradunt. 
+          <!-\-00226.xml-\->
+          <pb ed="#V" n="107-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Quorum etiam nonnulli tradunt 
+          at<lb ed="#V" n="2" break="no"/>fectu charitatis tantum proximos 
+          <lb ed="#V" n="3"/>esse diligendos quantum nosipsos diligimus. 
+          <lb ed="#V" n="4"/>Quod confirmant auctoritate Augustini qui 
+          <lb ed="#V" n="5"/>ait. Nec illa iam questio moueat: quantum 
+          cha<lb ed="#V" n="6" break="no"/>ritatis fratri debeamus impendere: quantum 
+          <lb ed="#V" n="7"/>deo. Incomparabiliter plus deo quam nobis: 
+          fratri<lb ed="#V" n="8" break="no"/>vero quantum nobis. Nos autem tantomagis 
+          diligi<lb ed="#V" n="9" break="no"/>mus: quantomagis diligimus deum. Ex his et 
+          <lb ed="#V" n="10"/>ex premissis testimoniis Aug. asserunt omnes 
+          <lb ed="#V" n="11"/>homines pariter esse diligendos a nobis: et tantum 
+          <lb ed="#V" n="12"/>quantum nos: deum autem plusquam nos: corpus 
+          <lb ed="#V" n="13"/>vero nostrum minus quam nos vel proximos. Nec 
+          <lb ed="#V" n="14"/>in enumeratione premissa quatuor diligendo 
+          <lb ed="#V" n="15"/>rum ordinem diligendi assignari dicunt: sed 
+          tan<lb ed="#V" n="16" break="no"/>tum que sunt diligenda. 
+          </p>
+          <p xml:id="kzz7yh-g75448-d1e377">
+          <lb ed="#V" n="17"/>¶ Secundum alios non pari affectu omnes 
+          dili<lb ed="#V" n="18" break="no"/>gendi sunt. 
+          <lb ed="#V" n="19"/>Uerum quia premissa verba 
+          Ambro<lb ed="#V" n="20" break="no"/>ni ordinem diligendi secundum 
+          af<lb ed="#V" n="21" break="no"/>fectum magis quam secundum effectum diligenter 
+          intuen<lb ed="#V" n="22" break="no"/>tibus explicare videntur: non indocte alii dicunt 
+          <lb ed="#V" n="23"/>non modo in exhibitione operis: sed etiam in 
+          as<lb ed="#V" n="24" break="no"/>fectu charitatis ordinem differentem esse 
+          statu<lb ed="#V" n="25" break="no"/>tum vt ante omnia diligamus deum: secundo 
+          <lb ed="#V" n="26"/>nos: tertio parentes: quarto filios vel fratres: et 
+          <lb ed="#V" n="27"/>huiusmodi: postea domesticos: demum 
+          inimi<lb ed="#V" n="28" break="no"/>cos. Quod vero Aug. dicit pariter omnes esse 
+          dili<lb ed="#V" n="29" break="no"/>gendos: et pari dilectione omnibus vitam optandam 
+          <lb ed="#V" n="30"/>ita accipi potest vt paritas non ad effectum 
+          resera<lb ed="#V" n="31" break="no"/>tur: sed ad bonum quod eis optatur: quia charitatem 
+          <lb ed="#V" n="32"/>omnibus optare debemus vt patria bona 
+          me<lb ed="#V" n="33" break="no"/>reantur. Sicut apostolus dicit. Uolo omnes homines 
+          <lb ed="#V" n="34"/>esse sicut me. Optanda est enim minoribus 
+          per<lb ed="#V" n="35" break="no"/>fectio maiorum vt ipsi fiant perfecti: et sic parem 
+          <lb ed="#V" n="36"/>mereantur beatitudinem: vel pari dilectione: 
+          <lb ed="#V" n="37"/>idest eadem dilectione omnes diligendi sunt. 
+          <lb ed="#V" n="38"/>Item quod ait: vt tantum diligamus fratres 
+          quan<lb ed="#V" n="39" break="no"/>tum nos: ita intelligi potest id est ad tantum bonum 
+          di<lb ed="#V" n="40" break="no"/>ligamus fratres ad quantum nos: vt tantum 
+          bo<lb ed="#V" n="41" break="no"/>num eis optemus in eternitate quantum 
+          no<lb ed="#V" n="42" break="no"/>bis. et si non tanto affectu. Uel ibi quantum si 
+          <lb ed="#V" n="43"/>militudinis est: non quantitatis. 
+          </p>
+          <p xml:id="kzz7yh-g75448-d1e438">
+          <lb ed="#V" n="44"/>¶ Questio de parentibus bonis et malis. 
+          <lb ed="#V" n="45"/>Solet etiam queri si parentes 
+          no<lb ed="#V" n="46" break="no"/>stri mali sint: vel filii 
+          <lb ed="#V" n="47"/>vel fratres: an magis vel minus diligendi sint 
+          <lb ed="#V" n="48"/>aliis bonis: hac ratione nobis non copulatis. 
+          Ui<lb ed="#V" n="49" break="no"/>detur quod magis sint diligendi boni: qui nobis 
+          car<lb ed="#V" n="50" break="no"/>ne non sunt coniuncti: quam mali carne coniuncti: 
+          <lb ed="#V" n="51"/>quia nobis sunt coniuncti corde glutino 
+          charita<lb ed="#V" n="52" break="no"/>tis. Sanctior est enim copula cordium quam 
+          cor<lb ed="#V" n="53" break="no"/>porum. Unde Geda de illis verbis domini. 
+          <lb ed="#V" n="54"/>Mater mea et fratres mei hi sunt qui verbum dei 
+          <lb ed="#V" n="55"/>faciunt: ait. Non iniuriose negligit matrem: nec 
+          <lb ed="#V" n="56"/>mater negatur que etiam de cruce cognosci¬ 
+          <!-\-00226.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>tur: sed religiosiores monstrantur copule 
+          men<lb ed="#V" n="58" break="no"/>tium quam corporum. Uerumtamen latebrosa 
+          <lb ed="#V" n="59"/>questio est hec: nec a nobis plene absoluenda: 
+          <lb ed="#V" n="60"/>properantibus ad alia. Mouemur enim 
+          su<lb ed="#V" n="61" break="no"/>per verbis illis quibus inimicos non ex tota 
+          <lb ed="#V" n="62"/>virtute: non sicut teipsum iubet diligere: sed sim 
+          <lb ed="#V" n="63"/>pliciter. Sufficit enim quod diligimus et non odio 
+          <lb ed="#V" n="64"/>habemus. Quod non ita accipiendum est 
+          qua<lb ed="#V" n="65" break="no"/>si suffciat tibi diligere inimicum et non tibi 
+          te<lb ed="#V" n="66" break="no"/>ipsum: quia omnes et amicos et inimicos sicut 
+          <lb ed="#V" n="67"/>teipsum diligere debes. Sed ad ostendendum 
+          <lb ed="#V" n="68"/>gradus diligendi deum et proximum: et 
+          inimi<lb ed="#V" n="69" break="no"/>cum: qui tamen proximus est: quia dominus 
+          po<lb ed="#V" n="70" break="no"/>nit cum ait. Diliges deum ex tota virtute 
+          tua<lb ed="#V" n="71" break="no"/>et proximum sicut teipsum. Non ait ex tota 
+          vir<lb ed="#V" n="72" break="no"/>tute vt ostendat proximum diligendum. 
+          mi<lb ed="#V" n="73" break="no"/>nus quam deum. Dicit etiam diligite inimicos: 
+          <lb ed="#V" n="74"/>nec addit ex tota virtute: nec sicut teipsum sed 
+          <lb ed="#V" n="75"/>simpliciter. Sufficit enim quod diligimus et non 
+          odio<lb ed="#V" n="76" break="no"/>habemus: non quin eos diligere debeamus. 
+          si<lb ed="#V" n="77" break="no"/>cut nos: quia proximi sunt: sed sufficit si eos 
+          mi<lb ed="#V" n="78" break="no"/>nus diligimus quam alios proximos quod dilectio 
+          <lb ed="#V" n="79"/>nis genus innuit. 
+          </p>
+          <p xml:id="kzz7yh-g75448-d1e523">
+          <lb ed="#V" n="80"/>¶ Questio Aug. in libro retractationum. 
+          <lb ed="#V" n="81"/>Queri etiam solet cur dominus 
+          pre<lb ed="#V" n="82" break="no"/>ceperit diligere 
+          ini<lb ed="#V" n="83" break="no"/>micos: cum alibi precipiat odio habere 
+          paren<lb ed="#V" n="84" break="no"/>tes et filios: Ad quod dicendum est duo esse 
+          di<lb ed="#V" n="85" break="no"/>ligenda in homine: naturam et virtutem: vicium 
+          <lb ed="#V" n="86"/>vero et peccatum odiendum. Et parentes ergo 
+          <lb ed="#V" n="87"/>inquantum mali sunt odiendi sunt: et 
+          inimici<lb ed="#V" n="88" break="no"/>diligendi inquantum homines. Diligamus 
+          er<lb ed="#V" n="89" break="no"/>go inimicos lucrandos in regno dei: et odiam 
+          <lb ed="#V" n="90"/>propinquos si impediunt nos a regno dei: et in omni 
+          <lb ed="#V" n="91"/>bus communiter naturam diligamus: quam 
+          <lb ed="#V" n="92"/>deus fecit. 
+          </p>
+          <p xml:id="kzz7yh-g75448-d1e554">
+          <lb ed="#V" n="93"/>¶ De gradibus charitatis. 
+          <lb ed="#V" n="94"/>Sciendum quoque est diuersos esse 
+          <lb ed="#V" n="95"/>gradus charitatis. Est 
+          <lb ed="#V" n="96"/>enim charitas incipiens proficiens perfecta 
+          <lb ed="#V" n="97"/>perfectissima. Unde Augustinus. Perfecta 
+          <lb ed="#V" n="98"/>charitas hec est vt quis paratus sit pro 
+          fratri<lb ed="#V" n="99" break="no"/>bus etiam mori. Sed nunquid mox vt 
+          nasci<lb ed="#V" n="100" break="no"/>tur iam prorsus perfecta est: immo vt 
+          perfi<lb ed="#V" n="101" break="no"/>ciatur nascitur: cum fuerit nata nutritur: cum fuerit 
+          nutri<lb ed="#V" n="102" break="no"/>ta roboratur: cum fuerit roborata perficitur: cum ad 
+          perfe<lb ed="#V" n="103" break="no"/>ctionem venerit dicit cupio dissolui etc. Hic aper 
+          <lb ed="#V" n="104"/>te progressus et perfectio charitatis insinuatur. Quam 
+          <lb ed="#V" n="105"/>perfectionem etiam veritas commendat dicens. 
+          Ma<lb ed="#V" n="106" break="no"/>iorem hac dilectionem nemo habet quam vt animam suam 
+          <lb ed="#V" n="107"/>ponat quis pro amicis suis. Quod vtique dictum est 
+          <lb ed="#V" n="108"/>opere dilectionis: quia maior dilectionis effectus non 
+          <lb ed="#V" n="109"/>est: quam ponere anaimam pro aliis. Nec te 
+          moue<lb ed="#V" n="110" break="no"/>at quod ait pro amicis: qui enim ponit animam 
+          <lb ed="#V" n="111"/>pro amicis ponit et pro inimicis ad hoc vt ipsi 
+          <lb ed="#V" n="112"/>fiant amici. 
+          </p>-->
+        <p xml:id="kzz7yh-g75448-d1e106">
+          Distin. XXIX 
+          <!--00227.xml-->
+          <pb ed="#V" n="108-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Post predicta de ordine charitatis 
+          <lb ed="#V" n="2"/>etc. Superius 
+          deter<lb ed="#V" n="3" break="no"/>minauit magister de his que diligenda sunt ex 
+          cha<lb ed="#V" n="4" break="no"/>ritate: hic determinat de ordine diligendi ex 
+          cha<lb ed="#V" n="5" break="no"/>ritate: et diuiditur in partes duas.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e617">
+          ¶ Primo de 
+          <lb ed="#V" n="6"/>terminat de charitate quantum ad ordinem diligedi.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e623">
+          ¶ 
+          Se<lb ed="#V" n="7" break="no"/>cundo quantum ad perfectionem meriti distinctione sequenti ibi. 
+          <lb ed="#V" n="8"/>hic solet queri.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e630">
+          ¶ Prima in tres.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e632">
+          ¶ Primo determi 
+          <lb ed="#V" n="9"/>nat de ordine diligendi ex charitate in comparatione ad ea 
+          <lb ed="#V" n="10"/>que per charitatem diliguntur.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e639">
+          ¶ Secundo in comparatione 
+          <lb ed="#V" n="11"/>ad ea beneficia que per charitatem impenduntur ibi. 
+          Un<lb ed="#V" n="12" break="no"/>de etiam sepe.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e646">
+          ¶ Tertio per comparationem ad gradus qui 
+          <lb ed="#V" n="13"/>in charitate inueniuntur ibi. Sciendum quoque.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e651">
+          ¶ Prima 
+          <lb ed="#V" n="14"/>indiuisa.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e657">
+          ¶ Secunda diuiditur in duas.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e659">
+          ¶ Primo 
+          po<lb ed="#V" n="15" break="no"/>nit magister circa hanc materiam diuersorum opiniones.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e664">
+          ¶ 
+          Se<lb ed="#V" n="16" break="no"/>cundo soluit incidentes dubitationes ibi. Solet etiam que 
+          <lb ed="#V" n="17"/>ri si parentes.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e671">
+          ¶ Prima in quatuor.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e673">
+          ¶ Primo ponit 
+          ma<lb ed="#V" n="18" break="no"/>gister opinionem dicentium quod omnes proximi equaliter 
+          diligen<lb ed="#V" n="19" break="no"/>di sunt affectu non effectu.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e680">
+          ¶ Secundo responsiones eorum 
+          <lb ed="#V" n="20"/>ad auctoritates que videntur dicere. Non omnes proximos 
+          <lb ed="#V" n="21"/>equaliter diligendos affectu ibi. Quibus obuinat.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e688">
+          ¶ 
+          Ter<lb ed="#V" n="22" break="no"/>tio ponit opinionem dicentium: quod omnes homines equaliter: diligere 
+          <lb ed="#V" n="23"/>debemus sicut nos affectu ibi. Quorum nonnulli.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e695">
+          ¶ 
+          Quar<lb ed="#V" n="24" break="no"/>to magister ponit opinionem cui consentire videtur scilicet quod non 
+          <lb ed="#V" n="25"/>dmens homines equaliter diligendi sunt: neque affectu: neque 
+          effec<lb ed="#V" n="26" break="no"/>ctu ibi. Uerum quia premissa verba.
+        </p>
+        <p xml:id="kzz7yh-g75448-d1e704">
+          ¶ Illa pars in qua 
+          <lb ed="#V" n="27"/>soluit incidentes dubitationes: que ibi incipit. Solet etiam 
+          <lb ed="#V" n="28"/>queri diuiditur in tres secundum tres dubitationes quas 
+          dis<lb ed="#V" n="29" break="no"/>soluit. Quarum vna oritur ex alia secunda ibi. Uerum 
+          ta<lb ed="#V" n="30" break="no"/>men latebrosa. tertia ibi. Queri etiam solet I 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

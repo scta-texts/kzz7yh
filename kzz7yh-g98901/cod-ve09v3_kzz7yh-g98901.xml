@@ -1,309 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="140-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g98901"><!-- l3d37prae -->
-            <head xml:id="kzz7yh-g98901-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-g98901-d1e103">
-      <!--00290.xml-->
-               <cb ed="#V" n="b"/>
-               <lb ed="#V" n="69"/>¶ De decem preceptis quomodo contineantur in 
-      duo<lb ed="#V" n="70" break="no"/>bus mandatis charitatis. Di. XLXXVIII 
-    </p>
-            <p xml:id="kzz7yh-g98901-d1e114">
-               <lb ed="#V" n="71"/>Ediam distributio 
-      decalo<lb ed="#V" n="72" break="no"/>gi quae in duobus 
-      man<lb ed="#V" n="73" break="no"/>datis completur consideranda est. Habet enim 
-      <lb ed="#V" n="74"/>decalogus decem praecepta que sunt deca 
-      <lb ed="#V" n="75"/>cordum psalterium: quae sic sunt distributa: 
-      <lb ed="#V" n="76"/>vt tria que sunt in prima tabula pertineant ad de 
-      <lb ed="#V" n="77"/>um scilicet ad cognitionem et dilectionem trinitatis. 
-      Se<lb ed="#V" n="78" break="no"/>partem que sunt in secunda tabula ad dilectionem proximi. 
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e134">
-               <lb ed="#V" n="79"/>¶ De drino deceeo. 
-      <lb ed="#V" n="80"/>Primum in prima tabula est non 
-      ha<lb ed="#V" n="81" break="no"/>bebis deos alienos: non 
-      faci<lb ed="#V" n="82" break="no"/>es: tibi sculptile neque omnem similitudinem etc. Hec 
-      Ori<lb ed="#V" n="83" break="no"/>genes dicit esse duo mandata: sed aug. vnum: hoc enim 
-      <lb ed="#V" n="84"/>ipsum quod dixerat non hbebis deos alienos perfectius 
-      ex<lb ed="#V" n="85" break="no"/>plicat cum prohibet coli sigmenta scilicet idolum vel 
-      similitu<lb ed="#V" n="86" break="no"/>dinem alicuius rei. Que duo Orige. ita dic distare 
-      <lb ed="#V" n="87"/>vt idolum sit quod nihil habet simile sui: similitudo vero quod habet 
-      <lb ed="#V" n="88"/>speciem alicuius rei: vt verbi gratia. Si quis in auro vel in 
-      li<lb ed="#V" n="89" break="no"/>gno: vel alia re faciat speciem serpentis: vel auis vel 
-      <lb ed="#V" n="90"/>alicuius rei et statuat ad adorandum: non idolum: sed 
-      simili<lb ed="#V" n="91" break="no"/>tudinem fecit. Qui vero facit speciem quam non vidit 
-      ocu<lb ed="#V" n="92" break="no"/>lus: sed animus sibi finxit: vt si quis humanis membris 
-      ca<lb ed="#V" n="93" break="no"/>put canis vel arietis formet vel in vno hitu hominis 
-      <lb ed="#V" n="94"/>duas facies: non similitudinem: sed idolum facit: quia facit 
-      <lb ed="#V" n="95"/>quod non habet aliquid simile sui. Idon dic apostolus: quia 
-      ido<lb ed="#V" n="96" break="no"/>lum nihil est in mundo. Non enim aliqua ex rebus constatibus 
-      <lb ed="#V" n="97"/>assumitur species sed quod mens ociosa et curiosa reperit. 
-      <lb ed="#V" n="98"/>Similitudo vero est cum aliquid ex his quae sunt in celo vel 
-      <lb ed="#V" n="99"/>in terra vel in aquis formatur. Augu. vero ita exponit 
-      <lb ed="#V" n="100"/>illud. Idolum nihil est in mundo id est inter creaturas 
-      mun<lb ed="#V" n="101" break="no"/>di non est forma idoli: materiam enim formauit deus: sed 
-      stul<lb ed="#V" n="102" break="no"/>ticia hominium formam dedit. Quecumque facta sunt naturaliter 
-      <lb ed="#V" n="103"/>facta sunt per verbum: sed forma hominis in idolo non est facta per 
-      <lb ed="#V" n="104"/>verbum: sicut peccatum non est facatum per verbum: sed est nihil: et 
-      ni<lb ed="#V" n="105" break="no"/>hil funt homines cum peccant. Sed quaeritur quomodo hic dicatur 
-      <lb ed="#V" n="106"/>forma idoli non esse facta per verbum cum alibi legatur. Omnis 
-      <lb ed="#V" n="107"/>forma: omnis compago: omnis concordia partium facta est per 
-      ver<lb ed="#V" n="108" break="no"/>bum. Hoc autem a diuersis varie soluitur. Quidam enim 
-      <lb ed="#V" n="109"/>dicunt omnem formam: et quicquid est a deo esse inquantum est: et 
-      for<lb ed="#V" n="110" break="no"/>materia idoli inquantum est vel inquantum forma est a deo esse: sed 
-      <lb ed="#V" n="111"/>non inquantum idoli est id est posita ad adorandum. In hoc 
-      <lb ed="#V" n="112"/>enim non est creatura sed peruersio creature. Sic illud 
-      <lb ed="#V" n="113"/>quod peccatum est inquantum peccatum est nihil est: et homines cum 
-      pec<lb ed="#V" n="114" break="no"/>causat nihil sunt: quia ab illo qui vere est seperantur. Unde 
-      Hie<lb ed="#V" n="115" break="no"/>ro. Quod ex deo non est: qui solus vere est: non esse dicitur. Ioque 
-      <lb ed="#V" n="116"/>peccatum quod nos a vero esse abducit: nihil esse vel no esse 
-      <lb ed="#V" n="117"/>dicitur. Alii vero dicunt omnem formam qua scilicet naturaliter est: et omne quod 
-      <lb ed="#V" n="118"/>naturaliter est esse a deo: sed forma idoli non est naturaliter: quia nae 
-      <lb ed="#V" n="119"/>iustitie non seruit. Id enim naturaliter esse dicitur quod 
-      simpli<lb ed="#V" n="120" break="no"/>ci nature iustitie que deus est militat: non 
-      resul<lb ed="#V" n="121" break="no"/>tat: et naturam creatam non viciat. Secundum praeceptum est. Non 
-      <lb ed="#V" n="122"/>assumes nomen dei tui in uanum. Quod est dicere secundum 
-      <lb ed="#V" n="123"/>litteram. Non iurabis pro nihilo nomen dei. 
-      Allego<lb ed="#V" n="124" break="no"/>rice vero praecipitur vt non putes creaturam esse christum dei si¬ 
-      <!--00291.xml-->
-      <pb ed="#V" n="141-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>lium: quia omnis creatura vanitati subiecta est: sed 
-      equa<lb ed="#V" n="2" break="no"/>lem patri. Tertium vero es. Memento vt diem sabbati 
-      sci<lb ed="#V" n="3" break="no"/>fices. vbi secundum litteram praecipitur sabbati obseruantia. 
-      Alle<lb ed="#V" n="4" break="no"/>gorice vero vt requem et hic a vitiis: et in futuroin dei 
-      <lb ed="#V" n="5"/>contemplatione expectes ex spiritusancto id est ex charitate et 
-      <lb ed="#V" n="6"/>dono dei: non quod spiritus sanctus sine patre et filio hoc 
-      ope<lb ed="#V" n="7" break="no"/>retur. Accepit vtique ecclia hoc donum vt in spiritusanctio 
-      <lb ed="#V" n="8"/>fiat remissio peccatorum: quam remissionem cum trinitas 
-      <lb ed="#V" n="9"/>faciat: proprie tamen ad spiritum sancntum dicitur pertinere: quia ipse est 
-      <lb ed="#V" n="10"/>spiritus adoptionis filiorum. Ipse est patris et filii amor et 
-      <lb ed="#V" n="11"/>connexio vel communitas. Ioque iustificatio nostra et requies 
-      <lb ed="#V" n="12"/>ei attribuitur sepius. Hec sunt tria mandata prime 
-      <lb ed="#V" n="13"/>tabule ad eum pertinentia. Et primum quidem quod est de 
-      <lb ed="#V" n="14"/>vno deo colendo: pertinet ad patrem in quo est 
-      vni<lb ed="#V" n="15" break="no"/>tas vel auctoritas. Secundum ad filium in quo est equa 
-      <lb ed="#V" n="16"/>litas. Tertium ad spiritum sanctum in quo est vtriusque communitas. 
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e277">
-               <lb ed="#V" n="17"/>¶ De mandatis secunde tabule. 
-      <lb ed="#V" n="18"/>n secunda vero tabula septem erant 
-      <lb ed="#V" n="19"/>mandata ad dilectionem 
-      <lb ed="#V" n="20"/>proximi pertinentia: quorum primum ad patrem carnalem 
-      re<lb ed="#V" n="21" break="no"/>fertur sicut primum prime tabule ad patrem celestem. Quod 
-      <lb ed="#V" n="22"/>est honora patrem tuum et matrem tua vt sis longeuus 
-      <lb ed="#V" n="23"/>super terram scilicet viuentium. Parentes vero sic sunt 
-      hono<lb ed="#V" n="24" break="no"/>randi vt eis debita reuerentia exhibeatur: et necessaria 
-      <lb ed="#V" n="25"/>ministrentur. Secundum est non occides vbi secundum litteram 
-      ac<lb ed="#V" n="26" break="no"/>tus homicidii prohibetur: secundum spicntum vero est voluntas 
-      <lb ed="#V" n="27"/>occidendi. Unde huic mandato secundum litteram sit superaddi 
-      <lb ed="#V" n="28"/>tio in euangelio: quia littera euangelii exprimitur: quod legis 
-      <lb ed="#V" n="29"/>littera non exprimebatur. Euangelii littra exprimit 
-      intelligen<lb ed="#V" n="30" break="no"/>tiam spiritualem id est quam spirituales habent: et secundum quam spiritualiter 
-      <lb ed="#V" n="31"/>viuitur. Lrameta legis sensum carnalem id est quem carnales 
-      <lb ed="#V" n="32"/>habent: et secundum quem carnaliter viuitur cui facta est superaddi 
-      <lb ed="#V" n="33"/>tio. Tertium est non mechaberis id est ne cuilibet 
-      mi<lb ed="#V" n="34" break="no"/>scearis excepto federe matrimonii. A parte enim totum 
-      <lb ed="#V" n="35"/>intelligitur. Nomine ergo mechie omnis concubitus 
-      illici<lb ed="#V" n="36" break="no"/>tus: illorum quoque membrorum non legitimus vsus 
-      pro<lb ed="#V" n="37" break="no"/>hibitus debet intelligi. Quartum est non furtum facies. 
-      <lb ed="#V" n="38"/>vbi sacrilegium et rapina omnis prohibetur. Non enim rapi 
-      <lb ed="#V" n="39"/>nam permisit qui furtum prohibuit: sed furti nomine bene 
-      intelli<lb ed="#V" n="40" break="no"/>gi voluit omnem illicitam vsurpationem rei aliene. 
-      Sa<lb ed="#V" n="41" break="no"/>crilegium tribus modis committitur quando scilicet vel sacrum de 
-      <lb ed="#V" n="42"/>sacro: vel non sacrum de sacro: vel sacrum de non 
-      <lb ed="#V" n="43"/>sacro aufertur. Sacrum vero dicitur quicquid 
-      <lb ed="#V" n="44"/>mancipatum est cultui diuino vt ecclesia vel res 
-      <lb ed="#V" n="45"/>eccsie. Hic etiam vsura prohibetur que sub rapina 
-      con<lb ed="#V" n="46" break="no"/>tinetur. Unde Hierony. vsuras quaerere: vel fraudare: 
-      <lb ed="#V" n="47"/>aut rapere nihil interest. Comoda famteri tuo et accipe 
-      <lb ed="#V" n="48"/>quod dedisti: etnihil superfluum quaras: quia superabundantia 
-      <lb ed="#V" n="49"/>in vsura computatur. Est enim vsura: vt ait Aug. Cum 
-      <lb ed="#V" n="50"/>quis plus exigit in iniuria vel qualibet re quam 
-      ac<lb ed="#V" n="51" break="no"/>ceperit. Item Hiero. putant aliqui vsuram tantum esse in 
-      pe<lb ed="#V" n="52" break="no"/>cunia: sed intelligant vsuram vocari superabundantiam scilicet 
-      <lb ed="#V" n="53"/>quicquid est: si ab eo quod dederit plus est: vt si in 
-      hye<lb ed="#V" n="54" break="no"/>me debemus. X. modios: et in messe. Xv. recipia 
-      <lb ed="#V" n="55"/>mus. Si vero quaeritur de filiis israel qui domino iubente 
-      <lb ed="#V" n="56"/>ab egyptiis. mutuaueret vasa aurca et argentea et 
-      <!--00291.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>vestes praeciosas et asportauerunt: vtrum furtum 
-      commi<lb ed="#V" n="58" break="no"/>serint. Dicimus eos qui vt parerent deo iubente 
-      il<lb ed="#V" n="59" break="no"/>lud fecerunt non fecisse furtum: nec omnino peccasse. 
-      <lb ed="#V" n="60"/>Unde Aug. Israelite non furtum fecerunt: sed deo 
-      iu<lb ed="#V" n="61" break="no"/>bente ministerium praebuerunt. Hoc enim deus iussit qui 
-      <lb ed="#V" n="62"/>legem dedit sicut minister iustitie sine peccato 
-      occi<lb ed="#V" n="63" break="no"/>dit quem lex praecipit occidi. Sed si id spotote faciat 
-      <lb ed="#V" n="64"/>homicida est: est si eum occidat quem scit a iudice 
-      oc<lb ed="#V" n="65" break="no"/>cidendum. Infirmi autem qui ex cupiditate egyptios 
-      <lb ed="#V" n="66"/>deceperunt magis permissi sunt hoc facere illis qui 
-      <lb ed="#V" n="67"/>iure talia passi sunt: quam iussi. Hic opponitur quod etiam 
-      <lb ed="#V" n="68"/>boni in isto opere peccauerunt: quia naturalem legem cui 
-      <lb ed="#V" n="69"/>concordat euangelium et lex moralis praeceptionis 
-      trans<lb ed="#V" n="70" break="no"/>gressi sunt. Que est. Quod tibi non vis aliine 
-      fece<lb ed="#V" n="71" break="no"/>ris. Quam veritas scripsit in corde hominis: et quia non 
-      <lb ed="#V" n="72"/>legebat in corde iterauit in tabulis: vt voce 
-      fo<lb ed="#V" n="73" break="no"/>rinsecus ad mota: rediret ad cor et ibi inueniret 
-      <lb ed="#V" n="74"/>quod extra legeret. Hanc ergo illi praeuaricari videntur 
-      <lb ed="#V" n="75"/>in illo factio aliis facientes quod nolebant sibi fieri. 
-      <lb ed="#V" n="76"/>Sed ibi subintelligendum est iniuste vt non alii scilicet 
-      iniu<lb ed="#V" n="77" break="no"/>ste facias quod tibi non vis fieri. Alioqun huius 
-      pre<lb ed="#V" n="78" break="no"/>uaricator est iudex dum punit reum nolens aliquid 
-      <lb ed="#V" n="79"/>tale sibi fieri. Ita est et illud domini verbum. Omnia quaecumque 
-      <lb ed="#V" n="80"/>vultis vt faciant vobis homines etc. De bonis 
-      acci<lb ed="#V" n="81" break="no"/>piendum est quae nobis inuicem exhibere debemus. 
-      <lb ed="#V" n="82"/>Quitum praeceptum est. Non loqueris contra proximum 
-      <lb ed="#V" n="83"/>tuum falsum testimonium: vbi crimen mendacii et 
-      <lb ed="#V" n="84"/>periurii prohibetur. Solet autem quari: vtrum prohibitum sit 
-      <lb ed="#V" n="85"/>omne mendacium: Quidam dicunt illud tantum prohiberi 
-      <lb ed="#V" n="86"/>quod obest et non prodest ei cui dicitur. Tale enim non est ad 
-      <lb ed="#V" n="87"/>uersus proximum: vt ideo videatur hoc addidisse 
-      scri<lb ed="#V" n="88" break="no"/>ptura. Sed de mendacio magna quaestio est que nec 
-      <lb ed="#V" n="89"/>cito explicari potest Distin. XXXVIII 
-      <lb ed="#V" n="90"/>decalot. Side 
-      <lb ed="#V" n="91"/>Ed distributio 
-      <lb ed="#V" n="92"/>rius determina 
-      <lb ed="#V" n="93"/>uit magister de virtutibus: hic determinat de manda 
-      <lb ed="#V" n="94"/>tis: et diuiditur pars ista in tres partes.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e454">
-      ¶ Primo 
-      po<lb ed="#V" n="95" break="no"/>nit diferntiam inter praecepta prime tabule et secunde.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e459">
-      ¶ 
-      Se<lb ed="#V" n="96" break="no"/>cundo determinat de praeceptis prime tabule. ibi.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e464">
-      ¶ Primum in 
-      pri<lb ed="#V" n="97" break="no"/>ma tabula.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e469">
-      ¶ Tertio de praeceptis secunde tabule. ibi. In secundua 
-      <lb ed="#V" n="98"/>vero tabula.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e474">
-      ¶ Secunda diuiditur in tres: secundum tria praecepta: secunda 
-      <lb ed="#V" n="99"/>ibi. Secundum praeceptum est. tertia ibi.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e479">
-      ¶ Tertium vero est.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e482">
-      ¶ 
-      Il<lb ed="#V" n="100" break="no"/>la pars in quae determinat de praeceptis secunde tabule diuiditur in tres. 
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e487">
-               <lb ed="#V" n="101"/>¶ Primo determinat de primis quinque praeceptis secunde tabule. 
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e492">
-               <lb ed="#V" n="102"/>¶ Secundo diffusius prosequitur aliqua pertinentia ad explanationem 
-      <lb ed="#V" n="103"/>quanti praecepti. Di. seq. ibi. Sciendum est tamen.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e499">
-      ¶ Tertio 
-      deter<lb ed="#V" n="104" break="no"/>minat de duobus vltimis praeceptis secunde tabule. Di. 40. ibi. 
-      <lb ed="#V" n="105"/>Sextum praeceptum est.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e506">
-      ¶ Prima in quinque: secundum quinque precepta. 
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e508">
-               <lb ed="#V" n="106"/>¶ Secunda ibi. Secundum est.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e514">
-      ¶ Tertia ibi. Tertium est. 
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e516">
-               <lb ed="#V" n="107"/>¶ Quarta ibi. Quartum est.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e521">
-      ¶ Quita ipsi. Quintum est 
-      <lb ed="#V" n="108"/>praeceptum. Quarta istarum diuiditur in duas.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e526">
-      ¶ Primo ponit 
-      <lb ed="#V" n="109"/>quarti praecepti explanationem.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e531">
-      ¶ Secundo ex hoc mouet: et 
-      sol<lb ed="#V" n="110" break="no"/>uit incidentem dubitationem. ibi. Si vero queritur. 
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e536">
-               <lb ed="#V" n="111"/>CIrca hanc disti. quaerendum est principiter de 
-      <lb ed="#V" n="112"/>quatuor.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e544">
-      ¶ Primo de praeceptis 
-      <lb ed="#V" n="113"/>morabilis in generali.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e549">
-      ¶ Secundo in specieali de 
-      praece<lb ed="#V" n="114" break="no"/>ptis prime tabule.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e554">
-      ¶ Tertio de quatuor primis 
-      praect<lb ed="#V" n="115" break="no"/>ptis secunde tabule.
-   </p>
-            <p xml:id="kzz7yh-g98901-d1e559">
-      ¶ Quarto ad maiorem declarationem quaeritur 
-      <lb ed="#V" n="116"/>de praeceptis iudicialibus veteris legis. Querere autem de 
-      ce<lb ed="#V" n="117" break="no"/>remonialibus magis pertinet ad librum quartum.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="140-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g98901"><!-- l3d37prae -->
+        <head xml:id="kzz7yh-g98901-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-g98901-d1e103">
+          <!-\-00290.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="69"/>¶ De decem preceptis quomodo contineantur in 
+          duo<lb ed="#V" n="70" break="no"/>bus mandatis charitatis. Di. XLXXVIII 
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e114">
+          <lb ed="#V" n="71"/>Ediam distributio 
+          decalo<lb ed="#V" n="72" break="no"/>gi quae in duobus 
+          man<lb ed="#V" n="73" break="no"/>datis completur consideranda est. Habet enim 
+          <lb ed="#V" n="74"/>decalogus decem praecepta que sunt deca 
+          <lb ed="#V" n="75"/>cordum psalterium: quae sic sunt distributa: 
+          <lb ed="#V" n="76"/>vt tria que sunt in prima tabula pertineant ad de 
+          <lb ed="#V" n="77"/>um scilicet ad cognitionem et dilectionem trinitatis. 
+          Se<lb ed="#V" n="78" break="no"/>partem que sunt in secunda tabula ad dilectionem proximi. 
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e134">
+          <lb ed="#V" n="79"/>¶ De drino deceeo. 
+          <lb ed="#V" n="80"/>Primum in prima tabula est non 
+          ha<lb ed="#V" n="81" break="no"/>bebis deos alienos: non 
+          faci<lb ed="#V" n="82" break="no"/>es: tibi sculptile neque omnem similitudinem etc. Hec 
+          Ori<lb ed="#V" n="83" break="no"/>genes dicit esse duo mandata: sed aug. vnum: hoc enim 
+          <lb ed="#V" n="84"/>ipsum quod dixerat non hbebis deos alienos perfectius 
+          ex<lb ed="#V" n="85" break="no"/>plicat cum prohibet coli sigmenta scilicet idolum vel 
+          similitu<lb ed="#V" n="86" break="no"/>dinem alicuius rei. Que duo Orige. ita dic distare 
+          <lb ed="#V" n="87"/>vt idolum sit quod nihil habet simile sui: similitudo vero quod habet 
+          <lb ed="#V" n="88"/>speciem alicuius rei: vt verbi gratia. Si quis in auro vel in 
+          li<lb ed="#V" n="89" break="no"/>gno: vel alia re faciat speciem serpentis: vel auis vel 
+          <lb ed="#V" n="90"/>alicuius rei et statuat ad adorandum: non idolum: sed 
+          simili<lb ed="#V" n="91" break="no"/>tudinem fecit. Qui vero facit speciem quam non vidit 
+          ocu<lb ed="#V" n="92" break="no"/>lus: sed animus sibi finxit: vt si quis humanis membris 
+          ca<lb ed="#V" n="93" break="no"/>put canis vel arietis formet vel in vno hitu hominis 
+          <lb ed="#V" n="94"/>duas facies: non similitudinem: sed idolum facit: quia facit 
+          <lb ed="#V" n="95"/>quod non habet aliquid simile sui. Idon dic apostolus: quia 
+          ido<lb ed="#V" n="96" break="no"/>lum nihil est in mundo. Non enim aliqua ex rebus constatibus 
+          <lb ed="#V" n="97"/>assumitur species sed quod mens ociosa et curiosa reperit. 
+          <lb ed="#V" n="98"/>Similitudo vero est cum aliquid ex his quae sunt in celo vel 
+          <lb ed="#V" n="99"/>in terra vel in aquis formatur. Augu. vero ita exponit 
+          <lb ed="#V" n="100"/>illud. Idolum nihil est in mundo id est inter creaturas 
+          mun<lb ed="#V" n="101" break="no"/>di non est forma idoli: materiam enim formauit deus: sed 
+          stul<lb ed="#V" n="102" break="no"/>ticia hominium formam dedit. Quecumque facta sunt naturaliter 
+          <lb ed="#V" n="103"/>facta sunt per verbum: sed forma hominis in idolo non est facta per 
+          <lb ed="#V" n="104"/>verbum: sicut peccatum non est facatum per verbum: sed est nihil: et 
+          ni<lb ed="#V" n="105" break="no"/>hil funt homines cum peccant. Sed quaeritur quomodo hic dicatur 
+          <lb ed="#V" n="106"/>forma idoli non esse facta per verbum cum alibi legatur. Omnis 
+          <lb ed="#V" n="107"/>forma: omnis compago: omnis concordia partium facta est per 
+          ver<lb ed="#V" n="108" break="no"/>bum. Hoc autem a diuersis varie soluitur. Quidam enim 
+          <lb ed="#V" n="109"/>dicunt omnem formam: et quicquid est a deo esse inquantum est: et 
+          for<lb ed="#V" n="110" break="no"/>materia idoli inquantum est vel inquantum forma est a deo esse: sed 
+          <lb ed="#V" n="111"/>non inquantum idoli est id est posita ad adorandum. In hoc 
+          <lb ed="#V" n="112"/>enim non est creatura sed peruersio creature. Sic illud 
+          <lb ed="#V" n="113"/>quod peccatum est inquantum peccatum est nihil est: et homines cum 
+          pec<lb ed="#V" n="114" break="no"/>causat nihil sunt: quia ab illo qui vere est seperantur. Unde 
+          Hie<lb ed="#V" n="115" break="no"/>ro. Quod ex deo non est: qui solus vere est: non esse dicitur. Ioque 
+          <lb ed="#V" n="116"/>peccatum quod nos a vero esse abducit: nihil esse vel no esse 
+          <lb ed="#V" n="117"/>dicitur. Alii vero dicunt omnem formam qua scilicet naturaliter est: et omne quod 
+          <lb ed="#V" n="118"/>naturaliter est esse a deo: sed forma idoli non est naturaliter: quia nae 
+          <lb ed="#V" n="119"/>iustitie non seruit. Id enim naturaliter esse dicitur quod 
+          simpli<lb ed="#V" n="120" break="no"/>ci nature iustitie que deus est militat: non 
+          resul<lb ed="#V" n="121" break="no"/>tat: et naturam creatam non viciat. Secundum praeceptum est. Non 
+          <lb ed="#V" n="122"/>assumes nomen dei tui in uanum. Quod est dicere secundum 
+          <lb ed="#V" n="123"/>litteram. Non iurabis pro nihilo nomen dei. 
+          Allego<lb ed="#V" n="124" break="no"/>rice vero praecipitur vt non putes creaturam esse christum dei si¬ 
+          <!-\-00291.xml-\->
+          <pb ed="#V" n="141-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>lium: quia omnis creatura vanitati subiecta est: sed 
+          equa<lb ed="#V" n="2" break="no"/>lem patri. Tertium vero es. Memento vt diem sabbati 
+          sci<lb ed="#V" n="3" break="no"/>fices. vbi secundum litteram praecipitur sabbati obseruantia. 
+          Alle<lb ed="#V" n="4" break="no"/>gorice vero vt requem et hic a vitiis: et in futuroin dei 
+          <lb ed="#V" n="5"/>contemplatione expectes ex spiritusancto id est ex charitate et 
+          <lb ed="#V" n="6"/>dono dei: non quod spiritus sanctus sine patre et filio hoc 
+          ope<lb ed="#V" n="7" break="no"/>retur. Accepit vtique ecclia hoc donum vt in spiritusanctio 
+          <lb ed="#V" n="8"/>fiat remissio peccatorum: quam remissionem cum trinitas 
+          <lb ed="#V" n="9"/>faciat: proprie tamen ad spiritum sancntum dicitur pertinere: quia ipse est 
+          <lb ed="#V" n="10"/>spiritus adoptionis filiorum. Ipse est patris et filii amor et 
+          <lb ed="#V" n="11"/>connexio vel communitas. Ioque iustificatio nostra et requies 
+          <lb ed="#V" n="12"/>ei attribuitur sepius. Hec sunt tria mandata prime 
+          <lb ed="#V" n="13"/>tabule ad eum pertinentia. Et primum quidem quod est de 
+          <lb ed="#V" n="14"/>vno deo colendo: pertinet ad patrem in quo est 
+          vni<lb ed="#V" n="15" break="no"/>tas vel auctoritas. Secundum ad filium in quo est equa 
+          <lb ed="#V" n="16"/>litas. Tertium ad spiritum sanctum in quo est vtriusque communitas. 
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e277">
+          <lb ed="#V" n="17"/>¶ De mandatis secunde tabule. 
+          <lb ed="#V" n="18"/>n secunda vero tabula septem erant 
+          <lb ed="#V" n="19"/>mandata ad dilectionem 
+          <lb ed="#V" n="20"/>proximi pertinentia: quorum primum ad patrem carnalem 
+          re<lb ed="#V" n="21" break="no"/>fertur sicut primum prime tabule ad patrem celestem. Quod 
+          <lb ed="#V" n="22"/>est honora patrem tuum et matrem tua vt sis longeuus 
+          <lb ed="#V" n="23"/>super terram scilicet viuentium. Parentes vero sic sunt 
+          hono<lb ed="#V" n="24" break="no"/>randi vt eis debita reuerentia exhibeatur: et necessaria 
+          <lb ed="#V" n="25"/>ministrentur. Secundum est non occides vbi secundum litteram 
+          ac<lb ed="#V" n="26" break="no"/>tus homicidii prohibetur: secundum spicntum vero est voluntas 
+          <lb ed="#V" n="27"/>occidendi. Unde huic mandato secundum litteram sit superaddi 
+          <lb ed="#V" n="28"/>tio in euangelio: quia littera euangelii exprimitur: quod legis 
+          <lb ed="#V" n="29"/>littera non exprimebatur. Euangelii littra exprimit 
+          intelligen<lb ed="#V" n="30" break="no"/>tiam spiritualem id est quam spirituales habent: et secundum quam spiritualiter 
+          <lb ed="#V" n="31"/>viuitur. Lrameta legis sensum carnalem id est quem carnales 
+          <lb ed="#V" n="32"/>habent: et secundum quem carnaliter viuitur cui facta est superaddi 
+          <lb ed="#V" n="33"/>tio. Tertium est non mechaberis id est ne cuilibet 
+          mi<lb ed="#V" n="34" break="no"/>scearis excepto federe matrimonii. A parte enim totum 
+          <lb ed="#V" n="35"/>intelligitur. Nomine ergo mechie omnis concubitus 
+          illici<lb ed="#V" n="36" break="no"/>tus: illorum quoque membrorum non legitimus vsus 
+          pro<lb ed="#V" n="37" break="no"/>hibitus debet intelligi. Quartum est non furtum facies. 
+          <lb ed="#V" n="38"/>vbi sacrilegium et rapina omnis prohibetur. Non enim rapi 
+          <lb ed="#V" n="39"/>nam permisit qui furtum prohibuit: sed furti nomine bene 
+          intelli<lb ed="#V" n="40" break="no"/>gi voluit omnem illicitam vsurpationem rei aliene. 
+          Sa<lb ed="#V" n="41" break="no"/>crilegium tribus modis committitur quando scilicet vel sacrum de 
+          <lb ed="#V" n="42"/>sacro: vel non sacrum de sacro: vel sacrum de non 
+          <lb ed="#V" n="43"/>sacro aufertur. Sacrum vero dicitur quicquid 
+          <lb ed="#V" n="44"/>mancipatum est cultui diuino vt ecclesia vel res 
+          <lb ed="#V" n="45"/>eccsie. Hic etiam vsura prohibetur que sub rapina 
+          con<lb ed="#V" n="46" break="no"/>tinetur. Unde Hierony. vsuras quaerere: vel fraudare: 
+          <lb ed="#V" n="47"/>aut rapere nihil interest. Comoda famteri tuo et accipe 
+          <lb ed="#V" n="48"/>quod dedisti: etnihil superfluum quaras: quia superabundantia 
+          <lb ed="#V" n="49"/>in vsura computatur. Est enim vsura: vt ait Aug. Cum 
+          <lb ed="#V" n="50"/>quis plus exigit in iniuria vel qualibet re quam 
+          ac<lb ed="#V" n="51" break="no"/>ceperit. Item Hiero. putant aliqui vsuram tantum esse in 
+          pe<lb ed="#V" n="52" break="no"/>cunia: sed intelligant vsuram vocari superabundantiam scilicet 
+          <lb ed="#V" n="53"/>quicquid est: si ab eo quod dederit plus est: vt si in 
+          hye<lb ed="#V" n="54" break="no"/>me debemus. X. modios: et in messe. Xv. recipia 
+          <lb ed="#V" n="55"/>mus. Si vero quaeritur de filiis israel qui domino iubente 
+          <lb ed="#V" n="56"/>ab egyptiis. mutuaueret vasa aurca et argentea et 
+          <!-\-00291.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>vestes praeciosas et asportauerunt: vtrum furtum 
+          commi<lb ed="#V" n="58" break="no"/>serint. Dicimus eos qui vt parerent deo iubente 
+          il<lb ed="#V" n="59" break="no"/>lud fecerunt non fecisse furtum: nec omnino peccasse. 
+          <lb ed="#V" n="60"/>Unde Aug. Israelite non furtum fecerunt: sed deo 
+          iu<lb ed="#V" n="61" break="no"/>bente ministerium praebuerunt. Hoc enim deus iussit qui 
+          <lb ed="#V" n="62"/>legem dedit sicut minister iustitie sine peccato 
+          occi<lb ed="#V" n="63" break="no"/>dit quem lex praecipit occidi. Sed si id spotote faciat 
+          <lb ed="#V" n="64"/>homicida est: est si eum occidat quem scit a iudice 
+          oc<lb ed="#V" n="65" break="no"/>cidendum. Infirmi autem qui ex cupiditate egyptios 
+          <lb ed="#V" n="66"/>deceperunt magis permissi sunt hoc facere illis qui 
+          <lb ed="#V" n="67"/>iure talia passi sunt: quam iussi. Hic opponitur quod etiam 
+          <lb ed="#V" n="68"/>boni in isto opere peccauerunt: quia naturalem legem cui 
+          <lb ed="#V" n="69"/>concordat euangelium et lex moralis praeceptionis 
+          trans<lb ed="#V" n="70" break="no"/>gressi sunt. Que est. Quod tibi non vis aliine 
+          fece<lb ed="#V" n="71" break="no"/>ris. Quam veritas scripsit in corde hominis: et quia non 
+          <lb ed="#V" n="72"/>legebat in corde iterauit in tabulis: vt voce 
+          fo<lb ed="#V" n="73" break="no"/>rinsecus ad mota: rediret ad cor et ibi inueniret 
+          <lb ed="#V" n="74"/>quod extra legeret. Hanc ergo illi praeuaricari videntur 
+          <lb ed="#V" n="75"/>in illo factio aliis facientes quod nolebant sibi fieri. 
+          <lb ed="#V" n="76"/>Sed ibi subintelligendum est iniuste vt non alii scilicet 
+          iniu<lb ed="#V" n="77" break="no"/>ste facias quod tibi non vis fieri. Alioqun huius 
+          pre<lb ed="#V" n="78" break="no"/>uaricator est iudex dum punit reum nolens aliquid 
+          <lb ed="#V" n="79"/>tale sibi fieri. Ita est et illud domini verbum. Omnia quaecumque 
+          <lb ed="#V" n="80"/>vultis vt faciant vobis homines etc. De bonis 
+          acci<lb ed="#V" n="81" break="no"/>piendum est quae nobis inuicem exhibere debemus. 
+          <lb ed="#V" n="82"/>Quitum praeceptum est. Non loqueris contra proximum 
+          <lb ed="#V" n="83"/>tuum falsum testimonium: vbi crimen mendacii et 
+          <lb ed="#V" n="84"/>periurii prohibetur. Solet autem quari: vtrum prohibitum sit 
+          <lb ed="#V" n="85"/>omne mendacium: Quidam dicunt illud tantum prohiberi 
+          <lb ed="#V" n="86"/>quod obest et non prodest ei cui dicitur. Tale enim non est ad 
+          <lb ed="#V" n="87"/>uersus proximum: vt ideo videatur hoc addidisse 
+          scri<lb ed="#V" n="88" break="no"/>ptura. Sed de mendacio magna quaestio est que nec 
+          <lb ed="#V" n="89"/>cito explicari potest 
+        </p>-->
+        <p xml:id="kzz7yh-g98901-d1e106">
+          Distin. XXXVIII 
+          <lb ed="#V" n="90"/>SEd distributio decalogi. 
+          Supe<lb ed="#V" n="91"/><!--line coord error --><lb ed="#V" n="92" break="no"/>rius 
+          determina<lb ed="#V" n="93" break="no"/>uit magister de virtutibus: hic determinat de manda 
+          <lb ed="#V" n="94"/>tis: et diuiditur pars ista in tres partes.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e454">
+          ¶ Primo 
+          po<lb ed="#V" n="95" break="no"/>nit diferntiam inter praecepta prime tabule et secunde.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e459">
+          ¶ 
+          Se<lb ed="#V" n="96" break="no"/>cundo determinat de praeceptis prime tabule. ibi.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e464">
+          ¶ Primum in 
+          pri<lb ed="#V" n="97" break="no"/>ma tabula.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e469">
+          ¶ Tertio de praeceptis secunde tabule. ibi. In secundua 
+          <lb ed="#V" n="98"/>vero tabula.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e474">
+          ¶ Secunda diuiditur in tres: secundum tria praecepta: secunda 
+          <lb ed="#V" n="99"/>ibi. Secundum praeceptum est. tertia ibi.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e479">
+          ¶ Tertium vero est.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e482">
+          ¶ 
+          Il<lb ed="#V" n="100" break="no"/>la pars in quae determinat de praeceptis secunde tabule diuiditur in tres. 
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e487">
+          <lb ed="#V" n="101"/>¶ Primo determinat de primis quinque praeceptis secunde tabule. 
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e492">
+          <lb ed="#V" n="102"/>¶ Secundo diffusius prosequitur aliqua pertinentia ad explanationem 
+          <lb ed="#V" n="103"/>quanti praecepti. Di. seq. ibi. Sciendum est tamen.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e499">
+          ¶ Tertio 
+          deter<lb ed="#V" n="104" break="no"/>minat de duobus vltimis praeceptis secunde tabule. Di. 40. ibi. 
+          <lb ed="#V" n="105"/>Sextum praeceptum est.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e506">
+          ¶ Prima in quinque: secundum quinque precepta. 
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e508">
+          <lb ed="#V" n="106"/>¶ Secunda ibi. Secundum est.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e514">
+          ¶ Tertia ibi. Tertium est. 
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e516">
+          <lb ed="#V" n="107"/>¶ Quarta ibi. Quartum est.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e521">
+          ¶ Quita ipsi. Quintum est 
+          <lb ed="#V" n="108"/>praeceptum. Quarta istarum diuiditur in duas.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e526">
+          ¶ Primo ponit 
+          <lb ed="#V" n="109"/>quarti praecepti explanationem.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e531">
+          ¶ Secundo ex hoc mouet: et 
+          sol<lb ed="#V" n="110" break="no"/>uit incidentem dubitationem. ibi. Si vero queritur. 
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e536">
+          <lb ed="#V" n="111"/>CIrca hanc disti. quaerendum est principiter de 
+          <lb ed="#V" n="112"/>quatuor.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e544">
+          ¶ Primo de praeceptis 
+          <lb ed="#V" n="113"/>morabilis in generali.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e549">
+          ¶ Secundo in specieali de 
+          praece<lb ed="#V" n="114" break="no"/>ptis prime tabule.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e554">
+          ¶ Tertio de quatuor primis 
+          praect<lb ed="#V" n="115" break="no"/>ptis secunde tabule.
+        </p>
+        <p xml:id="kzz7yh-g98901-d1e559">
+          ¶ Quarto ad maiorem declarationem quaeritur 
+          <lb ed="#V" n="116"/>de praeceptis iudicialibus veteris legis. Querere autem de 
+          ce<lb ed="#V" n="117" break="no"/>remonialibus magis pertinet ad librum quartum.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

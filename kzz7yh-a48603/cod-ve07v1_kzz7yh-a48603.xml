@@ -1,240 +1,240 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title/>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title/>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="72-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a48603"><!-- l1d22prae -->
-          <!--  <p xml:id="kzz7yh-a48603-d1e101">
-               <lb ed="#V" n="107"/>¶ De nominum differentia quibus vtimur 
-      loquen<lb ed="#V" n="108" break="no"/>tes de deo. Disintio XXII 
-      <lb ed="#V" n="109"/>Post predicta nobis 
-      diffe<lb ed="#V" n="110" break="no"/>rendum 
-      vi<lb ed="#V" n="111" break="no"/>detur de nominum diuersitate: quibus loquem 
-      <lb ed="#V" n="112"/>tes de vnitate ac trinitate ineffabili 
-      vti<lb ed="#V" n="113" break="no"/>mur. Deinde demonstrandum est quibus modis 
-      <lb ed="#V" n="114"/>de ea aliquid dicatur. Illud ergo praecipue 
-      tenea<lb ed="#V" n="115" break="no"/>mus: quaedam esse nomina distincte ad singulas 
-      perso<lb ed="#V" n="116" break="no"/>nos pertinentia: vt ait Aug. in. ix. lib. de triniate. quae de 
-      <lb ed="#V" n="117"/>singulis tantum dicuntur personis. Quedam vero vnitatem 
-      <lb ed="#V" n="118"/>essentie significantia sunt: qua et de singulis 
-      singila<lb ed="#V" n="119" break="no"/>tim: et de omnibus cominiter dicuntur. Alia vero sunt que 
-      <lb ed="#V" n="120"/>translatiue ac per similitudinem de deo dicuntur. 
-      <lb ed="#V" n="121"/>Unde Ambro. in. ii. libro de trinitati. ait. Quo purius 
-      <lb ed="#V" n="122"/>niteat fides: tripertita videtur deriuanda distinctio. 
-      <lb ed="#V" n="123"/>Sunt enim nomina quidam quae euidenter prporietatem 
-      perso<lb ed="#V" n="124" break="no"/>namque deitatis ostendunt. Et sunt quadam quae 
-      perspi<lb ed="#V" n="125" break="no"/>cuam diuine maiestatis exprimunt veritatem: 
-      <lb ed="#V" n="126"/>Alia vero sunt qua translatiue et per similitudinem de 
-      <lb ed="#V" n="127"/>deo dicuntur. Proprietatis itaque indicia sunt 
-      ge<lb ed="#V" n="128" break="no"/>neratio: filius: verbum: et huiusmodi. Unitatis vero 
-      eter<lb ed="#V" n="129" break="no"/>ne sapientia: virtus: veritas et huiusmodi. Similitudinis verus 
-      <!-\-00157.xml-\->
-      <pb ed="#V" n="72-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>splendor: charracter: speculum: et huiusmodi. 
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e162">
-               <lb ed="#V" n="2"/>¶ Premissis addit quadam esse nomina que 
-      tem<lb ed="#V" n="3" break="no"/>poraliter deo conueniunt et relatiue dicuntur. 
-      <lb ed="#V" n="4"/>His adiciendum est quaedam est nomina esse: vt 
-      Au<lb ed="#V" n="5" break="no"/>gu. ait in. v. libro de tri. que ex tempore deo 
-      com<lb ed="#V" n="6" break="no"/>ueniunt: et rlatiue ad creaturam dicuntur: quorum quae 
-      <lb ed="#V" n="7"/>dam de omnibus dicuntur personis: vt dominus: 
-      <lb ed="#V" n="8"/>creator: refugium. Quedam autem non de 
-      om<lb ed="#V" n="9" break="no"/>nibus: vt donatus: datus: missus. 
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e182">
-               <lb ed="#V" n="10"/>¶ De hoc nomine trinitas addit. 
-      <lb ed="#V" n="11"/>Preterea est vnum nomen quod de 
-      nulla<lb ed="#V" n="12" break="no"/>persona singilatim dicitur sed de 
-      <lb ed="#V" n="13"/>omnibus simul id est trinitas: quod non dicitur secundum substantiam: sed 
-      <lb ed="#V" n="14"/>quasi collectiuum pluralitatem designat personarum. 
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e195">
-               <lb ed="#V" n="15"/>¶ De aliis nonibus que temporaliter deo 
-      congru<lb ed="#V" n="16" break="no"/>unt: et non relatiue dicuntur. 
-      <lb ed="#V" n="17"/>Sunt etiam quaedam nomina quae ex tempore deo 
-      conue<lb ed="#V" n="18" break="no"/>niunt: nec trlatiue dicuntur: vt 
-      huma<lb ed="#V" n="19" break="no"/>natus: incarnatus: et huiusmodi. Ecce sex nominum 
-      <lb ed="#V" n="20"/>differentias assignauimus: quibus vtimur loquem 
-      <lb ed="#V" n="21"/>tes de deo: de quibus singulis agendum est. 
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e213">
-               <lb ed="#V" n="22"/>¶ Quod illa nomina que ad singulas pertinent personas 
-      <lb ed="#V" n="23"/>prprie relatiue dicuntur: ea vero quae vnitatem 
-      essen<lb ed="#V" n="24" break="no"/>tie significant ad se dicuntur: et de singulis et de 
-      <lb ed="#V" n="25"/>omnibus communiter dicuntur personis: et insingulariter 
-      <lb ed="#V" n="26"/>non pluraliter in summa accipiuntur. 
-      <lb ed="#V" n="27"/>Sciendum est ergo quod illa quae 
-      pprie<lb ed="#V" n="28" break="no"/>ad singlas personas perti¬ et 
-      <lb ed="#V" n="29"/>nent: relatiue adinuicem dicuntur: sicut pater et filius 
-      <lb ed="#V" n="30"/>et vtriusque donum spiritus sanctus. Ea vero quae vnitatem 
-      <lb ed="#V" n="31"/>essentie significant ad se dicuntur: et ea quae ad se 
-      di<lb ed="#V" n="32" break="no"/>cuntur substantialiter vtique dicuntur: et de omnibus communiter 
-      <lb ed="#V" n="33"/>et de singulis singilatim dicuntur personis: et 
-      singu<lb ed="#V" n="34" break="no"/>lariter non pluraliter accipiuntur in summa: vt deus 
-      <lb ed="#V" n="35"/>bonus: potens: magnus: et huiusmodi. Que autem 
-      relati<lb ed="#V" n="36" break="no"/>ue dicuntur: substantialiter non dicuntur. Unde Augu. in 
-      <lb ed="#V" n="37"/>v. libro de triate. ait. Quicquid ad se dicitur: praestantissima 
-      il<lb ed="#V" n="38" break="no"/>la et diuina sublimitas substantialiter dicitur. Quod autem ad 
-      <lb ed="#V" n="39"/>aliquid dicitur non substantialiter dicitur sed relatiue. Tantaque 
-      <lb ed="#V" n="40"/>est vis eiusdem substantie in patre et filio et spiritu sancto: vt 
-      <lb ed="#V" n="41"/>quicquid de singulis ad seipsos dicitur: non pluraliter in 
-      <lb ed="#V" n="42"/>summa: sed singulariter accipiatur. Dicimus enim 
-      <lb ed="#V" n="43"/>pater est deus: et filius est deus: et spiritus sanctus est deus: 
-      <lb ed="#V" n="44"/>quod secundum substantiam dici nemo dubitat. Non tamen dicimus 
-      <lb ed="#V" n="45"/>hanc trinitatem esse tres deos: sed vnum deum. 
-      <lb ed="#V" n="46"/>Ita dicitur pater magnus: filius magnus: et spiritus sanctus 
-      <lb ed="#V" n="47"/>magnus: non tres magni sed vnus magnus. Ita 
-      <lb ed="#V" n="48"/>est omnipotens pater: omnipotens filius: omnipotens spiritus sanctus 
-      <lb ed="#V" n="49"/>non tamen tres omnipotentes: sed vnus omnipotens. Quic et 
-      <lb ed="#V" n="50"/>quid ergo ad seipsum dicitur deus: et de singulis personis 
-      si<lb ed="#V" n="51" break="no"/>militer dicitur: et fimul de ipsa trinitate: non pluraliter 
-      <lb ed="#V" n="52"/>sed singulariter dicitur. Et quoniam non est aliud deo esse 
-      <lb ed="#V" n="53"/>et aliud magnum esse: sed hoc idem est illi esse: quod 
-      <lb ed="#V" n="54"/>est magnum esse. Propterea sicut non dicimus 
-      <lb ed="#V" n="55"/>tres essentias: sic non dicimus tres magnitudines: 
-      <lb ed="#V" n="56"/>sed vnam essentiam et vnam magnitudinem. 
-      <!-\-00157.xml-\->
-      <cb ed="#P" n="b"/>
-            </p>
-            <p xml:id="kzz7yh-a48603-d1e297">
-               <lb ed="#V" n="57"/>¶ Quod deus magnus est ea magnitudine qua deus est: 
-      <lb ed="#V" n="58"/>sic de bonitate et de omnibus quae secundum substantiam dicuntur. 
-      <lb ed="#V" n="59"/>Deus enim non est magnus ea magnitudie 
-      <lb ed="#V" n="60"/>qui non est quod ipse: vt quasi particeps 
-      <lb ed="#V" n="61"/>eius sit: alioqun maior esset illa magnitudo quam deus 
-      <lb ed="#V" n="62"/>Deo autem no est aliquid maius: ea ergo 
-      magnitu<lb ed="#V" n="63" break="no"/>dine magnus est qua ipse est. Ideoque nec tres 
-      <lb ed="#V" n="64"/>magnitudines dicimus: sed vnam magnitudi 
-      <lb ed="#V" n="65"/>nem: nec tres magnos: sed vnum magnum: quia non 
-      <lb ed="#V" n="66"/>participatione magnitudis deus magnus est: sed seipso 
-      <lb ed="#V" n="67"/>magno magnus est: quia ipse est sua magnitudo. Ita 
-      <lb ed="#V" n="68"/>et de bonitate et eternitate et omnipotentia dei 
-      di<lb ed="#V" n="69" break="no"/>cendum est: et de omnibus omnino quae de deo possunt 
-      pronuncia<lb ed="#V" n="70" break="no"/>ri substantialiter: quibus ad seipsum dicitur: non translantius 
-      <lb ed="#V" n="71"/>ac per similitudinem: sed porie: si tamen de illo proprie aliquid 
-      <lb ed="#V" n="72"/>ore hominis dici potest. Ecce aperte docuit quod nomina 
-      vni<lb ed="#V" n="73" break="no"/>tatem diuine maiestatis significantia: et ad se 
-      di<lb ed="#V" n="74" break="no"/>cuntur de deo id est sine relatione: et de omnibus 
-      perso<lb ed="#V" n="75" break="no"/>nis communiter: et de singulis diuisim dicuntur: nec 
-      plu<lb ed="#V" n="76" break="no"/>raliter sed singulariter in summa accipiuntur. Illa 
-      <lb ed="#V" n="77"/>vero nomina que proporie ad singulas pertinent personas: 
-      <lb ed="#V" n="78"/>relatiue non substantialiter dicuntur. Quo enim porie 
-      singitula<lb ed="#V" n="79" break="no"/>in trinitate personarum: vt ait Aug. in eodem: nullos 
-      <lb ed="#V" n="80"/>ad seipsum: sed ad aliam inuicem vel ad creaturam dicitur. 
-      <lb ed="#V" n="81"/>Et ideo relatiue non substantialiter dici manifestum est. 
-   </p>-->
-            <!-- </div>
-  <div> l1d22prae 
-    <head>Praeambulum</head> -->
-            <p xml:id="kzz7yh-a48603-d1e356">
-               <lb ed="#V" n="82"/>Post praedicta disserendum nobis viletur. 
-      <lb ed="#V" n="83"/>¶ Superius determinauit 
-      <lb ed="#V" n="84"/>magister de his quibus deus perfectus ostenditur in 
-      essen<lb ed="#V" n="85" break="no"/>do agendo de eternitate et vnitate personarum secundum rem in 
-      <lb ed="#V" n="86"/>quo ostendit magister quid corde credendum.
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e369">
-      ¶ In hac parte 
-      <lb ed="#V" n="87"/>agitur de perfectione dei quantum ad nominationem tractando de 
-      <lb ed="#V" n="88"/>diuinis nominibus: in quo ostendit magister quid ore confitendum 
-      <lb ed="#V" n="89"/>Et diuiditur pars ista in duas partes.
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e378">
-      ¶ Primo enim agit de divinis 
-      <lb ed="#V" n="90"/>nonibus substantialibus.
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e383">
-      ¶ Secundo de nominibus raialauis siue de 
-      proprie<lb ed="#V" n="91" break="no"/>tatibus a quibus nomina imponuntur. xxvi. di. ibi. Nunc de 
-      pro<lb ed="#V" n="92" break="no"/>prietatibus.
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e391">
-      ¶ Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e393">
-      ¶ Primo agit de praedictis 
-      <lb ed="#V" n="93"/>nomibus in generali.
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e398">
-      ¶ Secundo de illis in speciali. xxiii. Di. ibi. 
-      <lb ed="#V" n="94"/>Predictis adiciendum est.
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e403">
-      ¶ Prima diuiditur in partes tres 
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e405">
-               <lb ed="#V" n="95"/>¶ Primo ponit tres differentias divinorum nominum.
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e410">
-      ¶ 2o superaddit 
-      <lb ed="#V" n="96"/>tres alias ibi: his autem adiiciendum est.
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e416">
-      ¶ 3o dat tres 
-      regu<lb ed="#V" n="97" break="no"/>las de nominibus illis ibi. Certificandum est. Et ista in tres. 
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e421">
-               <lb ed="#V" n="98"/>¶ In primo potesit differentiarum assignationem.
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e426">
-      ¶ In 2us affirmationem ibi. 
-      <lb ed="#V" n="99"/>Unde Aug.
-   </p>
-            <p xml:id="kzz7yh-a48603-d1e431">
-      ¶ In tertia recapitulationem ibi aperte docuit.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title/>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="72-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a48603"><!-- l1d22prae -->
+        <!--  <p xml:id="kzz7yh-a48603-d1e101">
+          <lb ed="#V" n="107"/>¶ De nominum differentia quibus vtimur 
+          loquen<lb ed="#V" n="108" break="no"/>tes de deo. Disintio XXII 
+          <lb ed="#V" n="109"/>Post predicta nobis 
+          diffe<lb ed="#V" n="110" break="no"/>rendum 
+          vi<lb ed="#V" n="111" break="no"/>detur de nominum diuersitate: quibus loquem 
+          <lb ed="#V" n="112"/>tes de vnitate ac trinitate ineffabili 
+          vti<lb ed="#V" n="113" break="no"/>mur. Deinde demonstrandum est quibus modis 
+          <lb ed="#V" n="114"/>de ea aliquid dicatur. Illud ergo praecipue 
+          tenea<lb ed="#V" n="115" break="no"/>mus: quaedam esse nomina distincte ad singulas 
+          perso<lb ed="#V" n="116" break="no"/>nos pertinentia: vt ait Aug. in. ix. lib. de triniate. quae de 
+          <lb ed="#V" n="117"/>singulis tantum dicuntur personis. Quedam vero vnitatem 
+          <lb ed="#V" n="118"/>essentie significantia sunt: qua et de singulis 
+          singila<lb ed="#V" n="119" break="no"/>tim: et de omnibus cominiter dicuntur. Alia vero sunt que 
+          <lb ed="#V" n="120"/>translatiue ac per similitudinem de deo dicuntur. 
+          <lb ed="#V" n="121"/>Unde Ambro. in. ii. libro de trinitati. ait. Quo purius 
+          <lb ed="#V" n="122"/>niteat fides: tripertita videtur deriuanda distinctio. 
+          <lb ed="#V" n="123"/>Sunt enim nomina quidam quae euidenter prporietatem 
+          perso<lb ed="#V" n="124" break="no"/>namque deitatis ostendunt. Et sunt quadam quae 
+          perspi<lb ed="#V" n="125" break="no"/>cuam diuine maiestatis exprimunt veritatem: 
+          <lb ed="#V" n="126"/>Alia vero sunt qua translatiue et per similitudinem de 
+          <lb ed="#V" n="127"/>deo dicuntur. Proprietatis itaque indicia sunt 
+          ge<lb ed="#V" n="128" break="no"/>neratio: filius: verbum: et huiusmodi. Unitatis vero 
+          eter<lb ed="#V" n="129" break="no"/>ne sapientia: virtus: veritas et huiusmodi. Similitudinis verus 
+          <!-\-00157.xml-\->
+          <pb ed="#V" n="72-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>splendor: charracter: speculum: et huiusmodi. 
+          </p>
+          <p xml:id="kzz7yh-a48603-d1e162">
+          <lb ed="#V" n="2"/>¶ Premissis addit quadam esse nomina que 
+          tem<lb ed="#V" n="3" break="no"/>poraliter deo conueniunt et relatiue dicuntur. 
+          <lb ed="#V" n="4"/>His adiciendum est quaedam est nomina esse: vt 
+          Au<lb ed="#V" n="5" break="no"/>gu. ait in. v. libro de tri. que ex tempore deo 
+          com<lb ed="#V" n="6" break="no"/>ueniunt: et rlatiue ad creaturam dicuntur: quorum quae 
+          <lb ed="#V" n="7"/>dam de omnibus dicuntur personis: vt dominus: 
+          <lb ed="#V" n="8"/>creator: refugium. Quedam autem non de 
+          om<lb ed="#V" n="9" break="no"/>nibus: vt donatus: datus: missus. 
+          </p>
+          <p xml:id="kzz7yh-a48603-d1e182">
+          <lb ed="#V" n="10"/>¶ De hoc nomine trinitas addit. 
+          <lb ed="#V" n="11"/>Preterea est vnum nomen quod de 
+          nulla<lb ed="#V" n="12" break="no"/>persona singilatim dicitur sed de 
+          <lb ed="#V" n="13"/>omnibus simul id est trinitas: quod non dicitur secundum substantiam: sed 
+          <lb ed="#V" n="14"/>quasi collectiuum pluralitatem designat personarum. 
+          </p>
+          <p xml:id="kzz7yh-a48603-d1e195">
+          <lb ed="#V" n="15"/>¶ De aliis nonibus que temporaliter deo 
+          congru<lb ed="#V" n="16" break="no"/>unt: et non relatiue dicuntur. 
+          <lb ed="#V" n="17"/>Sunt etiam quaedam nomina quae ex tempore deo 
+          conue<lb ed="#V" n="18" break="no"/>niunt: nec trlatiue dicuntur: vt 
+          huma<lb ed="#V" n="19" break="no"/>natus: incarnatus: et huiusmodi. Ecce sex nominum 
+          <lb ed="#V" n="20"/>differentias assignauimus: quibus vtimur loquem 
+          <lb ed="#V" n="21"/>tes de deo: de quibus singulis agendum est. 
+          </p>
+          <p xml:id="kzz7yh-a48603-d1e213">
+          <lb ed="#V" n="22"/>¶ Quod illa nomina que ad singulas pertinent personas 
+          <lb ed="#V" n="23"/>prprie relatiue dicuntur: ea vero quae vnitatem 
+          essen<lb ed="#V" n="24" break="no"/>tie significant ad se dicuntur: et de singulis et de 
+          <lb ed="#V" n="25"/>omnibus communiter dicuntur personis: et insingulariter 
+          <lb ed="#V" n="26"/>non pluraliter in summa accipiuntur. 
+          <lb ed="#V" n="27"/>Sciendum est ergo quod illa quae 
+          pprie<lb ed="#V" n="28" break="no"/>ad singlas personas perti¬ et 
+          <lb ed="#V" n="29"/>nent: relatiue adinuicem dicuntur: sicut pater et filius 
+          <lb ed="#V" n="30"/>et vtriusque donum spiritus sanctus. Ea vero quae vnitatem 
+          <lb ed="#V" n="31"/>essentie significant ad se dicuntur: et ea quae ad se 
+          di<lb ed="#V" n="32" break="no"/>cuntur substantialiter vtique dicuntur: et de omnibus communiter 
+          <lb ed="#V" n="33"/>et de singulis singilatim dicuntur personis: et 
+          singu<lb ed="#V" n="34" break="no"/>lariter non pluraliter accipiuntur in summa: vt deus 
+          <lb ed="#V" n="35"/>bonus: potens: magnus: et huiusmodi. Que autem 
+          relati<lb ed="#V" n="36" break="no"/>ue dicuntur: substantialiter non dicuntur. Unde Augu. in 
+          <lb ed="#V" n="37"/>v. libro de triate. ait. Quicquid ad se dicitur: praestantissima 
+          il<lb ed="#V" n="38" break="no"/>la et diuina sublimitas substantialiter dicitur. Quod autem ad 
+          <lb ed="#V" n="39"/>aliquid dicitur non substantialiter dicitur sed relatiue. Tantaque 
+          <lb ed="#V" n="40"/>est vis eiusdem substantie in patre et filio et spiritu sancto: vt 
+          <lb ed="#V" n="41"/>quicquid de singulis ad seipsos dicitur: non pluraliter in 
+          <lb ed="#V" n="42"/>summa: sed singulariter accipiatur. Dicimus enim 
+          <lb ed="#V" n="43"/>pater est deus: et filius est deus: et spiritus sanctus est deus: 
+          <lb ed="#V" n="44"/>quod secundum substantiam dici nemo dubitat. Non tamen dicimus 
+          <lb ed="#V" n="45"/>hanc trinitatem esse tres deos: sed vnum deum. 
+          <lb ed="#V" n="46"/>Ita dicitur pater magnus: filius magnus: et spiritus sanctus 
+          <lb ed="#V" n="47"/>magnus: non tres magni sed vnus magnus. Ita 
+          <lb ed="#V" n="48"/>est omnipotens pater: omnipotens filius: omnipotens spiritus sanctus 
+          <lb ed="#V" n="49"/>non tamen tres omnipotentes: sed vnus omnipotens. Quic et 
+          <lb ed="#V" n="50"/>quid ergo ad seipsum dicitur deus: et de singulis personis 
+          si<lb ed="#V" n="51" break="no"/>militer dicitur: et fimul de ipsa trinitate: non pluraliter 
+          <lb ed="#V" n="52"/>sed singulariter dicitur. Et quoniam non est aliud deo esse 
+          <lb ed="#V" n="53"/>et aliud magnum esse: sed hoc idem est illi esse: quod 
+          <lb ed="#V" n="54"/>est magnum esse. Propterea sicut non dicimus 
+          <lb ed="#V" n="55"/>tres essentias: sic non dicimus tres magnitudines: 
+          <lb ed="#V" n="56"/>sed vnam essentiam et vnam magnitudinem. 
+          <!-\-00157.xml-\->
+          <cb ed="#P" n="b"/>
+          </p>
+          <p xml:id="kzz7yh-a48603-d1e297">
+          <lb ed="#V" n="57"/>¶ Quod deus magnus est ea magnitudine qua deus est: 
+          <lb ed="#V" n="58"/>sic de bonitate et de omnibus quae secundum substantiam dicuntur. 
+          <lb ed="#V" n="59"/>Deus enim non est magnus ea magnitudie 
+          <lb ed="#V" n="60"/>qui non est quod ipse: vt quasi particeps 
+          <lb ed="#V" n="61"/>eius sit: alioqun maior esset illa magnitudo quam deus 
+          <lb ed="#V" n="62"/>Deo autem no est aliquid maius: ea ergo 
+          magnitu<lb ed="#V" n="63" break="no"/>dine magnus est qua ipse est. Ideoque nec tres 
+          <lb ed="#V" n="64"/>magnitudines dicimus: sed vnam magnitudi 
+          <lb ed="#V" n="65"/>nem: nec tres magnos: sed vnum magnum: quia non 
+          <lb ed="#V" n="66"/>participatione magnitudis deus magnus est: sed seipso 
+          <lb ed="#V" n="67"/>magno magnus est: quia ipse est sua magnitudo. Ita 
+          <lb ed="#V" n="68"/>et de bonitate et eternitate et omnipotentia dei 
+          di<lb ed="#V" n="69" break="no"/>cendum est: et de omnibus omnino quae de deo possunt 
+          pronuncia<lb ed="#V" n="70" break="no"/>ri substantialiter: quibus ad seipsum dicitur: non translantius 
+          <lb ed="#V" n="71"/>ac per similitudinem: sed porie: si tamen de illo proprie aliquid 
+          <lb ed="#V" n="72"/>ore hominis dici potest. Ecce aperte docuit quod nomina 
+          vni<lb ed="#V" n="73" break="no"/>tatem diuine maiestatis significantia: et ad se 
+          di<lb ed="#V" n="74" break="no"/>cuntur de deo id est sine relatione: et de omnibus 
+          perso<lb ed="#V" n="75" break="no"/>nis communiter: et de singulis diuisim dicuntur: nec 
+          plu<lb ed="#V" n="76" break="no"/>raliter sed singulariter in summa accipiuntur. Illa 
+          <lb ed="#V" n="77"/>vero nomina que proporie ad singulas pertinent personas: 
+          <lb ed="#V" n="78"/>relatiue non substantialiter dicuntur. Quo enim porie 
+          singitula<lb ed="#V" n="79" break="no"/>in trinitate personarum: vt ait Aug. in eodem: nullos 
+          <lb ed="#V" n="80"/>ad seipsum: sed ad aliam inuicem vel ad creaturam dicitur. 
+          <lb ed="#V" n="81"/>Et ideo relatiue non substantialiter dici manifestum est. 
+          </p>-->
+        <!-- </div>
+          <div> l1d22prae 
+          <head>Praeambulum</head> -->
+        <p xml:id="kzz7yh-a48603-d1e356">
+          <lb ed="#V" n="82"/>Post praedicta disserendum nobis viletur. 
+          <lb ed="#V" n="83"/>¶ Superius determinauit 
+          <lb ed="#V" n="84"/>magister de his quibus deus perfectus ostenditur in 
+          essen<lb ed="#V" n="85" break="no"/>do agendo de eternitate et vnitate personarum secundum rem in 
+          <lb ed="#V" n="86"/>quo ostendit magister quid corde credendum.
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e369">
+          ¶ In hac parte 
+          <lb ed="#V" n="87"/>agitur de perfectione dei quantum ad nominationem tractando de 
+          <lb ed="#V" n="88"/>diuinis nominibus: in quo ostendit magister quid ore confitendum 
+          <lb ed="#V" n="89"/>Et diuiditur pars ista in duas partes.
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e378">
+          ¶ Primo enim agit de divinis 
+          <lb ed="#V" n="90"/>nonibus substantialibus.
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e383">
+          ¶ Secundo de nominibus raialauis siue de 
+          proprie<lb ed="#V" n="91" break="no"/>tatibus a quibus nomina imponuntur. xxvi. di. ibi. Nunc de 
+          pro<lb ed="#V" n="92" break="no"/>prietatibus.
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e391">
+          ¶ Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e393">
+          ¶ Primo agit de praedictis 
+          <lb ed="#V" n="93"/>nomibus in generali.
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e398">
+          ¶ Secundo de illis in speciali. xxiii. Di. ibi. 
+          <lb ed="#V" n="94"/>Predictis adiciendum est.
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e403">
+          ¶ Prima diuiditur in partes tres 
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e405">
+          <lb ed="#V" n="95"/>¶ Primo ponit tres differentias divinorum nominum.
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e410">
+          ¶ 2o superaddit 
+          <lb ed="#V" n="96"/>tres alias ibi: his autem adiiciendum est.
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e416">
+          ¶ 3o dat tres 
+          regu<lb ed="#V" n="97" break="no"/>las de nominibus illis ibi. Certificandum est. Et ista in tres. 
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e421">
+          <lb ed="#V" n="98"/>¶ In primo potesit differentiarum assignationem.
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e426">
+          ¶ In 2us affirmationem ibi. 
+          <lb ed="#V" n="99"/>Unde Aug.
+        </p>
+        <p xml:id="kzz7yh-a48603-d1e431">
+          ¶ In tertia recapitulationem ibi aperte docuit.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

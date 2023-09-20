@@ -1,202 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="110-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g78128"><!-- l3d30prae -->
-            <head xml:id="kzz7yh-g78128-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-g78128-d1e103">
-               <lb ed="#V" n="94"/>¶ Simelius est diligere amicos quam inimicos 
-      ver<lb ed="#V" n="95" break="no"/>econuerso. Distinctio. XXX
-    </p>
-            <p xml:id="kzz7yh-g78128-d1e110">
-               <lb ed="#V" n="96"/>HIc solet queri quid potis 
-      <lb ed="#V" n="97"/>sit plurisque 
-      meriti<lb ed="#V" n="98" break="no"/>diligetur amicos an diligcisater inimicos: 
-      <lb ed="#V" n="99"/>Sed hec comparatio implicita est. Si enim 
-      <lb ed="#V" n="100"/>conferatur dilectio amicorum tantum: dilectioni 
-      <lb ed="#V" n="101"/>amicorum et est inimicorum: perspicua est 
-      absolutio<lb ed="#V" n="102" break="no"/>Sed si in aliquo vno homine qui diligit simul amicum 
-      <lb ed="#V" n="103"/>et inimicum quid horum potius sit queratur: 
-      obscu<lb ed="#V" n="104" break="no"/>ra est responsio: quia de motu mentis agitur: de quo 
-      <lb ed="#V" n="105"/>non est nobis facile iudicium an vnus et idem 
-      mo<lb ed="#V" n="106" break="no"/>tus sit ergo amicum et inimicum: sed erga 
-      ami<lb ed="#V" n="107" break="no"/>cum intensior: an duor vnus erga inimicum: qui dicitur 
-      <lb ed="#V" n="108"/>difficilior: alter erga amicum qui videtur feruentior. 
-      <lb ed="#V" n="109"/>Nec incongrue putatur melior qui est feruentior: 
-      <lb ed="#V" n="110"/>vel si vnus idemque est idem potior vbi est 
-      ardem<lb ed="#V" n="111" break="no"/>tior: non improbe extimatur. Aug. tamen sentire videtur maius 
-      <lb ed="#V" n="112"/>esse diligere inimicum quam amicum quie perfectorum esse 
-      di<lb ed="#V" n="113" break="no"/>cit diligere inimicos et benefacere eis: neque hoc 
-      <lb ed="#V" n="114"/>a tanta multitudine impleri quanta exauditur in oratio 
-      <lb ed="#V" n="115"/>ne dominica cum dicitur. Dimitte nobis debita nostra 
-      si<lb ed="#V" n="116" break="no"/>cut et nos dimittimus debitoribus nostris. 
-      Il<lb ed="#V" n="117" break="no"/>lam enim sponsionem dicit a multis impleri qui 
-      non<lb ed="#V" n="118" break="no"/>dum diligunt inimicos. Ait enim sic. Magnum 
-      <lb ed="#V" n="119"/>est erga eum qui tibi nihil mali fecerit esse beniuo 
-      <lb ed="#V" n="120"/>lum et beneficum. Illud multo grandius et 
-      ma<lb ed="#V" n="121" break="no"/>gnificentissime bonitatis est: vt tuum inimicum 
-      <lb ed="#V" n="122"/>diligas: et ei qui tibi malum vult et si potest facit: 
-      <lb ed="#V" n="123"/>tu semper bonum velis faciasque quod possis: 
-      au<lb ed="#V" n="124" break="no"/>diens dicentem iesum. Diligite inimicos 
-      ve<lb ed="#V" n="125" break="no"/>stros et benefacite his qui odiunt vos: et orate pro 
-      <lb ed="#V" n="126"/>persequentibus et calumniantibus vos. Sed 
-      <lb ed="#V" n="127"/>quoniam perfectorum filiorum dei est istud: quo quidem 
-      <lb ed="#V" n="128"/>se debet omnis fidelis extendere: et humanum 
-      <!--00233.xml-->
-      <pb ed="#V" n="111-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>aium ad hunc effectum orando deum secumque agendo 
-      <lb ed="#V" n="2"/>luctandoque perducere: tamen quia hoc tam magnum bonum 
-      <lb ed="#V" n="3"/>tante multitudinis non est quanta credimus 
-      exaudiri<lb ed="#V" n="4" break="no"/>cum dicitur im oratione. Dimitte nobis debita nostra sicut et 
-      <lb ed="#V" n="5"/>nos dimittimus debitoribus nostris. Poculdubio 
-      <lb ed="#V" n="6"/>verba sponsionis huius implentur si homo qui nondum 
-      <lb ed="#V" n="7"/>ita profecit vt est diligat inimicum: tamen quando rogatur ab 
-      <lb ed="#V" n="8"/>homine quae peccauit in eum vt ei dimittat: dimittit ex 
-      <lb ed="#V" n="9"/>corde: qui est sibi roganti vult dimitti: cum orat et 
-      di<lb ed="#V" n="10" break="no"/>cit: sicut et nos dimittimus debitoribus nostris. 
-      Qui<lb ed="#V" n="11" break="no"/>cumque vero rogat hominem in quem peccauit: si 
-      pecca<lb ed="#V" n="12" break="no"/>to suo mouetur vt roget: non est adhuc deputandus 
-      <lb ed="#V" n="13"/>inimicus: vt eum diligere sit difficile: sicut erat quando 
-      <lb ed="#V" n="14"/>inimicitias exercebat. Quisquis vero roganti et 
-      pe<lb ed="#V" n="15" break="no"/>nitenti non dimittit: non estimet a domino sua peccata 
-      <lb ed="#V" n="16"/>dimitti: quia mentiri veritas non potest. Que cum 
-      do<lb ed="#V" n="17" break="no"/>cuisset orationem hanc in ea positam sententiam commendauit 
-      <lb ed="#V" n="18"/>dicens. Si dimiseritis hominibus peccata eorum dimit 
-      <lb ed="#V" n="19"/>tet et vobis pater vester. Si vero non dimiseritis: 
-      <lb ed="#V" n="20"/>nec pater vester dimittet vobis peccata videra. Ecce 
-      <lb ed="#V" n="21"/>hic haberi videtur quod et praetaxauimus scilicet maioris 
-      vir<lb ed="#V" n="22" break="no"/>tutis esse diligere inimicum et benefacere ei quam illum 
-      <lb ed="#V" n="23"/>quai nihil mali fecit nobis vel amicum. Quod si quis 
-      con<lb ed="#V" n="24" break="no"/>cedere simpliciter noluerit dicens: intensius dili. 
-      <lb ed="#V" n="25"/>gitur amicus quam inimicus: et ideo illud potius isto: deter 
-      <lb ed="#V" n="26"/>minet ista secundum permissam intelligentiam dicens: ibi 
-      con<lb ed="#V" n="27" break="no"/>parationem factam inter dilectionem quae diligitur tantum 
-      <lb ed="#V" n="28"/>amicus: et illam qua amicus et inimicus diligitur. 
-      <lb ed="#V" n="29"/>Illud vero quod sequtur magis non mouet quod scilicet di. 
-      <lb ed="#V" n="30"/>cit non esse tante multitudinis diligetur inimicos: 
-      <lb ed="#V" n="31"/>quanta exauditur cum dicitur. Dimitte nobis debita 
-      no<lb ed="#V" n="32" break="no"/>stra etc. vbi dat intelligi quod alicui a deo dimittun 
-      <lb ed="#V" n="33"/>tur peccata non diligenti inimicum: si tamen fratri 
-      ro<lb ed="#V" n="34" break="no"/>ganti qui in se peccauit dimittit. Sed cum peccata 
-      <lb ed="#V" n="35"/>non dimittantur alicui adulto nisi charitatem 
-      <lb ed="#V" n="36"/>habeat: sequitur vt charitatem habeat qui non 
-      di<lb ed="#V" n="37" break="no"/>ligit inimicum. Quomodo ergo nomine 
-      proximi<lb ed="#V" n="38" break="no"/>omnis homo intelligitur in illo mandato. Diligas 
-      <lb ed="#V" n="39"/>proximum tuum sicut teipsum. Si enim omnis homo 
-      <lb ed="#V" n="40"/>proximus est: tunc inimicus. precipimur ergo et 
-      ini<lb ed="#V" n="41" break="no"/>micos diligere. Et quia illud preceptum 
-      genera<lb ed="#V" n="42" break="no"/>le est: omnibus precipitur omnes homines diligere est 
-      <lb ed="#V" n="43"/>inimicos. Quidam quod hic dicitur simpliciter eterne 
-      <lb ed="#V" n="44"/>volentes illud preceptum determinant 
-      dicen<lb ed="#V" n="45" break="no"/>tes: illic perfectis dari in preceptum diligere 
-      om<lb ed="#V" n="46" break="no"/>nem hominem est inimicum. Minoribus vero in 
-      con<lb ed="#V" n="47" break="no"/>silium. In preceptum vero diligere qui nihil 
-      ma<lb ed="#V" n="48" break="no"/>li fecerunt eis et inimicos non odire. Sed melius 
-      <lb ed="#V" n="49"/>est vt intelligatur omnibus illo mandato precipi 
-      cun<lb ed="#V" n="50" break="no"/>ctos diligere est inimicos: cui sensui attestantur 
-      <lb ed="#V" n="51"/>superius posite auctoritates et alie multe. Illud 
-      <lb ed="#V" n="52"/>vero Augu. nouissime positum de perfecta 
-      cha<lb ed="#V" n="53" break="no"/>ritate denum intelligitur que tantum est 
-      perfecto<lb ed="#V" n="54" break="no"/>rum: qui non solum amicos sed est inimicos 
-      perfe<lb ed="#V" n="55" break="no"/>cte diligunt eisque benefaciunt. Que 
-      perfectio<lb ed="#V" n="56" break="no"/>dilectionis non est tante multitudinis: quanta exau¬ 
-      <!--00233.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>ditur in oratione dominica: et hoc re vera grande est et 
-      <lb ed="#V" n="58"/>eximie bonitatis scilicet perfecte diligere inimicum. 
-      <lb ed="#V" n="59"/>Ita et cum dicit impleri verba illius sponsionis ab 
-      <lb ed="#V" n="60"/>homine: qui non ita profecit vt diligat inimicum: de 
-      <lb ed="#V" n="61"/>dilectione perfecta accipiendum est Distinctio XXX 
-      <lb ed="#V" n="62"/>Iic solet queri. Superius determinauit 
-      <lb ed="#V" n="63"/>magister de charitate: quantum 
-      <lb ed="#V" n="64"/>ad ordinem diligendi. hic determinat de ea: 
-      quam<lb ed="#V" n="65" break="no"/>tum ad perfectionem meriti: et diuiditur in partes 
-      du<lb ed="#V" n="66" break="no"/>as.
-   </p>
-            <p xml:id="kzz7yh-g78128-d1e338">
-      ¶ Primo mouet quaestionem. Utrum magis sit 
-      <lb ed="#V" n="67"/>meritorium dligere inimicos vel amicos: et respondet ad 
-      que<lb ed="#V" n="68" break="no"/>stionem
-   </p>
-            <p xml:id="kzz7yh-g78128-d1e345">
-      ¶ Secundo opponit ad contrarium per Augu. 
-      aucto<lb ed="#V" n="69" break="no"/>ritatem. ibi. Augu. tamen. Et ista in tres.
-   </p>
-            <p xml:id="kzz7yh-g78128-d1e351">
-      ¶ Primo arguit 
-      <lb ed="#V" n="70"/>per Augu. auctoritatem
-   </p>
-            <p xml:id="kzz7yh-g78128-d1e356">
-      ¶ Secundo ponit auctoritatis 
-      deter<lb ed="#V" n="71" break="no"/>minationem. ibil quod siqus concedere.
-   </p>
-            <p xml:id="kzz7yh-g78128-d1e361">
-      ¶ Tertio ex dictis 
-      mo<lb ed="#V" n="72" break="no"/>uet incidentem dubitationem: et determinat eam ibi. Illud 
-      <lb ed="#V" n="73"/>vero. Et ista in duas.
-   </p>
-            <p xml:id="kzz7yh-g78128-d1e368">
-      ¶ Primo mouet incidentem dubita 
-      <lb ed="#V" n="74"/>tionem
-   </p>
-            <p xml:id="kzz7yh-g78128-d1e373">
-      ¶ Secundo ponit dubitationis determinationem. ibi. 
-   </p>
-            <p xml:id="kzz7yh-g78128-d1e375">
-               <lb ed="#V" n="75"/>¶ Quidam quod hic dicitur. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="111-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g78128"><!-- l3d30prae -->
+        <head xml:id="kzz7yh-g78128-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-g78128-d1e103">
+          <lb ed="#V" n="94"/>¶ Simelius est diligere amicos quam inimicos 
+          ver<lb ed="#V" n="95" break="no"/>econuerso. Distinctio. XXX
+          </p>
+          <p xml:id="kzz7yh-g78128-d1e110">
+          <lb ed="#V" n="96"/>HIc solet queri quid potis 
+          <lb ed="#V" n="97"/>sit plurisque 
+          meriti<lb ed="#V" n="98" break="no"/>diligetur amicos an diligcisater inimicos: 
+          <lb ed="#V" n="99"/>Sed hec comparatio implicita est. Si enim 
+          <lb ed="#V" n="100"/>conferatur dilectio amicorum tantum: dilectioni 
+          <lb ed="#V" n="101"/>amicorum et est inimicorum: perspicua est 
+          absolutio<lb ed="#V" n="102" break="no"/>Sed si in aliquo vno homine qui diligit simul amicum 
+          <lb ed="#V" n="103"/>et inimicum quid horum potius sit queratur: 
+          obscu<lb ed="#V" n="104" break="no"/>ra est responsio: quia de motu mentis agitur: de quo 
+          <lb ed="#V" n="105"/>non est nobis facile iudicium an vnus et idem 
+          mo<lb ed="#V" n="106" break="no"/>tus sit ergo amicum et inimicum: sed erga 
+          ami<lb ed="#V" n="107" break="no"/>cum intensior: an duor vnus erga inimicum: qui dicitur 
+          <lb ed="#V" n="108"/>difficilior: alter erga amicum qui videtur feruentior. 
+          <lb ed="#V" n="109"/>Nec incongrue putatur melior qui est feruentior: 
+          <lb ed="#V" n="110"/>vel si vnus idemque est idem potior vbi est 
+          ardem<lb ed="#V" n="111" break="no"/>tior: non improbe extimatur. Aug. tamen sentire videtur maius 
+          <lb ed="#V" n="112"/>esse diligere inimicum quam amicum quie perfectorum esse 
+          di<lb ed="#V" n="113" break="no"/>cit diligere inimicos et benefacere eis: neque hoc 
+          <lb ed="#V" n="114"/>a tanta multitudine impleri quanta exauditur in oratio 
+          <lb ed="#V" n="115"/>ne dominica cum dicitur. Dimitte nobis debita nostra 
+          si<lb ed="#V" n="116" break="no"/>cut et nos dimittimus debitoribus nostris. 
+          Il<lb ed="#V" n="117" break="no"/>lam enim sponsionem dicit a multis impleri qui 
+          non<lb ed="#V" n="118" break="no"/>dum diligunt inimicos. Ait enim sic. Magnum 
+          <lb ed="#V" n="119"/>est erga eum qui tibi nihil mali fecerit esse beniuo 
+          <lb ed="#V" n="120"/>lum et beneficum. Illud multo grandius et 
+          ma<lb ed="#V" n="121" break="no"/>gnificentissime bonitatis est: vt tuum inimicum 
+          <lb ed="#V" n="122"/>diligas: et ei qui tibi malum vult et si potest facit: 
+          <lb ed="#V" n="123"/>tu semper bonum velis faciasque quod possis: 
+          au<lb ed="#V" n="124" break="no"/>diens dicentem iesum. Diligite inimicos 
+          ve<lb ed="#V" n="125" break="no"/>stros et benefacite his qui odiunt vos: et orate pro 
+          <lb ed="#V" n="126"/>persequentibus et calumniantibus vos. Sed 
+          <lb ed="#V" n="127"/>quoniam perfectorum filiorum dei est istud: quo quidem 
+          <lb ed="#V" n="128"/>se debet omnis fidelis extendere: et humanum 
+          <!-\-00233.xml-\->
+          <pb ed="#V" n="111-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>aium ad hunc effectum orando deum secumque agendo 
+          <lb ed="#V" n="2"/>luctandoque perducere: tamen quia hoc tam magnum bonum 
+          <lb ed="#V" n="3"/>tante multitudinis non est quanta credimus 
+          exaudiri<lb ed="#V" n="4" break="no"/>cum dicitur im oratione. Dimitte nobis debita nostra sicut et 
+          <lb ed="#V" n="5"/>nos dimittimus debitoribus nostris. Poculdubio 
+          <lb ed="#V" n="6"/>verba sponsionis huius implentur si homo qui nondum 
+          <lb ed="#V" n="7"/>ita profecit vt est diligat inimicum: tamen quando rogatur ab 
+          <lb ed="#V" n="8"/>homine quae peccauit in eum vt ei dimittat: dimittit ex 
+          <lb ed="#V" n="9"/>corde: qui est sibi roganti vult dimitti: cum orat et 
+          di<lb ed="#V" n="10" break="no"/>cit: sicut et nos dimittimus debitoribus nostris. 
+          Qui<lb ed="#V" n="11" break="no"/>cumque vero rogat hominem in quem peccauit: si 
+          pecca<lb ed="#V" n="12" break="no"/>to suo mouetur vt roget: non est adhuc deputandus 
+          <lb ed="#V" n="13"/>inimicus: vt eum diligere sit difficile: sicut erat quando 
+          <lb ed="#V" n="14"/>inimicitias exercebat. Quisquis vero roganti et 
+          pe<lb ed="#V" n="15" break="no"/>nitenti non dimittit: non estimet a domino sua peccata 
+          <lb ed="#V" n="16"/>dimitti: quia mentiri veritas non potest. Que cum 
+          do<lb ed="#V" n="17" break="no"/>cuisset orationem hanc in ea positam sententiam commendauit 
+          <lb ed="#V" n="18"/>dicens. Si dimiseritis hominibus peccata eorum dimit 
+          <lb ed="#V" n="19"/>tet et vobis pater vester. Si vero non dimiseritis: 
+          <lb ed="#V" n="20"/>nec pater vester dimittet vobis peccata videra. Ecce 
+          <lb ed="#V" n="21"/>hic haberi videtur quod et praetaxauimus scilicet maioris 
+          vir<lb ed="#V" n="22" break="no"/>tutis esse diligere inimicum et benefacere ei quam illum 
+          <lb ed="#V" n="23"/>quai nihil mali fecit nobis vel amicum. Quod si quis 
+          con<lb ed="#V" n="24" break="no"/>cedere simpliciter noluerit dicens: intensius dili. 
+          <lb ed="#V" n="25"/>gitur amicus quam inimicus: et ideo illud potius isto: deter 
+          <lb ed="#V" n="26"/>minet ista secundum permissam intelligentiam dicens: ibi 
+          con<lb ed="#V" n="27" break="no"/>parationem factam inter dilectionem quae diligitur tantum 
+          <lb ed="#V" n="28"/>amicus: et illam qua amicus et inimicus diligitur. 
+          <lb ed="#V" n="29"/>Illud vero quod sequtur magis non mouet quod scilicet di. 
+          <lb ed="#V" n="30"/>cit non esse tante multitudinis diligetur inimicos: 
+          <lb ed="#V" n="31"/>quanta exauditur cum dicitur. Dimitte nobis debita 
+          no<lb ed="#V" n="32" break="no"/>stra etc. vbi dat intelligi quod alicui a deo dimittun 
+          <lb ed="#V" n="33"/>tur peccata non diligenti inimicum: si tamen fratri 
+          ro<lb ed="#V" n="34" break="no"/>ganti qui in se peccauit dimittit. Sed cum peccata 
+          <lb ed="#V" n="35"/>non dimittantur alicui adulto nisi charitatem 
+          <lb ed="#V" n="36"/>habeat: sequitur vt charitatem habeat qui non 
+          di<lb ed="#V" n="37" break="no"/>ligit inimicum. Quomodo ergo nomine 
+          proximi<lb ed="#V" n="38" break="no"/>omnis homo intelligitur in illo mandato. Diligas 
+          <lb ed="#V" n="39"/>proximum tuum sicut teipsum. Si enim omnis homo 
+          <lb ed="#V" n="40"/>proximus est: tunc inimicus. precipimur ergo et 
+          ini<lb ed="#V" n="41" break="no"/>micos diligere. Et quia illud preceptum 
+          genera<lb ed="#V" n="42" break="no"/>le est: omnibus precipitur omnes homines diligere est 
+          <lb ed="#V" n="43"/>inimicos. Quidam quod hic dicitur simpliciter eterne 
+          <lb ed="#V" n="44"/>volentes illud preceptum determinant 
+          dicen<lb ed="#V" n="45" break="no"/>tes: illic perfectis dari in preceptum diligere 
+          om<lb ed="#V" n="46" break="no"/>nem hominem est inimicum. Minoribus vero in 
+          con<lb ed="#V" n="47" break="no"/>silium. In preceptum vero diligere qui nihil 
+          ma<lb ed="#V" n="48" break="no"/>li fecerunt eis et inimicos non odire. Sed melius 
+          <lb ed="#V" n="49"/>est vt intelligatur omnibus illo mandato precipi 
+          cun<lb ed="#V" n="50" break="no"/>ctos diligere est inimicos: cui sensui attestantur 
+          <lb ed="#V" n="51"/>superius posite auctoritates et alie multe. Illud 
+          <lb ed="#V" n="52"/>vero Augu. nouissime positum de perfecta 
+          cha<lb ed="#V" n="53" break="no"/>ritate denum intelligitur que tantum est 
+          perfecto<lb ed="#V" n="54" break="no"/>rum: qui non solum amicos sed est inimicos 
+          perfe<lb ed="#V" n="55" break="no"/>cte diligunt eisque benefaciunt. Que 
+          perfectio<lb ed="#V" n="56" break="no"/>dilectionis non est tante multitudinis: quanta exau¬ 
+          <!-\-00233.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>ditur in oratione dominica: et hoc re vera grande est et 
+          <lb ed="#V" n="58"/>eximie bonitatis scilicet perfecte diligere inimicum. 
+          <lb ed="#V" n="59"/>Ita et cum dicit impleri verba illius sponsionis ab 
+          <lb ed="#V" n="60"/>homine: qui non ita profecit vt diligat inimicum: de 
+          <lb ed="#V" n="61"/>dilectione perfecta accipiendum est
+          </p>-->
+        <p xml:id="kzz7yh-g78128-d1e106">
+          Distinctio XXX 
+          <lb ed="#V" n="62"/>HIc solet queri. Superius determinauit 
+          <lb ed="#V" n="63"/>magister de charitate: quantum 
+          <lb ed="#V" n="64"/>ad ordinem diligendi. hic determinat de ea: 
+          quam<lb ed="#V" n="65" break="no"/>tum ad perfectionem meriti: et diuiditur in partes 
+          du<lb ed="#V" n="66" break="no"/>as.
+        </p>
+        <p xml:id="kzz7yh-g78128-d1e338">
+          ¶ Primo mouet quaestionem. Utrum magis sit 
+          <lb ed="#V" n="67"/>meritorium dligere inimicos vel amicos: et respondet ad 
+          que<lb ed="#V" n="68" break="no"/>stionem
+        </p>
+        <p xml:id="kzz7yh-g78128-d1e345">
+          ¶ Secundo opponit ad contrarium per Augu. 
+          aucto<lb ed="#V" n="69" break="no"/>ritatem. ibi. Augu. tamen. Et ista in tres.
+        </p>
+        <p xml:id="kzz7yh-g78128-d1e351">
+          ¶ Primo arguit 
+          <lb ed="#V" n="70"/>per Augu. auctoritatem
+        </p>
+        <p xml:id="kzz7yh-g78128-d1e356">
+          ¶ Secundo ponit auctoritatis 
+          deter<lb ed="#V" n="71" break="no"/>minationem. ibil quod siqus concedere.
+        </p>
+        <p xml:id="kzz7yh-g78128-d1e361">
+          ¶ Tertio ex dictis 
+          mo<lb ed="#V" n="72" break="no"/>uet incidentem dubitationem: et determinat eam ibi. Illud 
+          <lb ed="#V" n="73"/>vero. Et ista in duas.
+        </p>
+        <p xml:id="kzz7yh-g78128-d1e368">
+          ¶ Primo mouet incidentem dubita 
+          <lb ed="#V" n="74"/>tionem
+        </p>
+        <p xml:id="kzz7yh-g78128-d1e373">
+          ¶ Secundo ponit dubitationis determinationem. ibi. 
+        </p>
+        <p xml:id="kzz7yh-g78128-d1e375">
+          <lb ed="#V" n="75"/>¶ Quidam quod hic dicitur. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

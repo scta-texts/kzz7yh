@@ -1,384 +1,387 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="83-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f59701"><!-- l2d21prae -->
-            <head xml:id="kzz7yh-f59701-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-f59701-d1e103">
-               <lb ed="#V" n="41"/>¶ De inuidia diaboli qua ad hominem 
-      tempta<lb ed="#V" n="42" break="no"/>dum accessit. Dist. XXI 
-      <lb ed="#V" n="43"/>dens igitur 
-      dia<lb ed="#V" n="44" break="no"/>bolus 
-      <lb ed="#V" n="45"/>hominem per obedientie humilita 
-      <lb ed="#V" n="46"/>tem posse ascendere vnde ipse per 
-      su<lb ed="#V" n="47" break="no"/>perbiam corruerat inuidit ei: et qui 
-      <lb ed="#V" n="48"/>prius per superbiam diabolus fuerat: idest 
-      deor<lb ed="#V" n="49" break="no"/>sum lapsus: 3elo inuidie factus est sathan: idest 
-      <lb ed="#V" n="50"/>aduersarius. Unde et mulierem temptauit in 
-      <lb ed="#V" n="51"/>qua minus quam in viro rationem vigere nouit. 
-      <lb ed="#V" n="52"/>Eius enim malitia ad temptandum virtutem 
-      <lb ed="#V" n="53"/>timida: humanam naturam in ea parte vbi de. 
-      <lb ed="#V" n="54"/>bilior videbatur aggressa est. Ut si forte illic 
-      ali<lb ed="#V" n="55" break="no"/>quatenus preualeret: postmodum fiducialius 
-      <lb ed="#V" n="56"/>ad alteram que robustior fuit: pulsandam vel 
-      <lb ed="#V" n="57"/>potius subuertendam accederet. Primum ergo 
-      <lb ed="#V" n="58"/>solitariam feminam explorauit: vt in ea primum 
-      <lb ed="#V" n="59"/>omnem sue temptationis vim experiretur. 
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e147">
-               <lb ed="#V" n="60"/>¶ Quare in aliena forma venit. 
-      <lb ed="#V" n="61"/>Sed quia illi per violentiam 
-      no<lb ed="#V" n="62" break="no"/>cere non poterat: ad 
-      <lb ed="#V" n="63"/>fraudem se conuertit: vtidolo hominem suppla¬ 
-      <!--00180.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="64"/>taret: quem virtute superare nequiret. Ne 
-      au<lb ed="#V" n="65" break="no"/>tem fraus illius nimis manifestaretur in sua 
-      <lb ed="#V" n="66"/>specie non venit: ne aperte cognosceretur: et ita 
-      <lb ed="#V" n="67"/>repelleretur. Item ne nimis occulta foret 
-      fra<lb ed="#V" n="68" break="no"/>us eius que caueri non posset: et homo simul 
-      vi<lb ed="#V" n="69" break="no"/>deretur iniuriam pati si taliter circumueniri 
-      per<lb ed="#V" n="70" break="no"/>mitteret eum deus vt precauere non posset: 
-      in<lb ed="#V" n="71" break="no"/>aliena quidem forma venire permissus est dia 
-      <lb ed="#V" n="72"/>bolus: sed in tali in qua eius malitia facile 
-      pos<lb ed="#V" n="73" break="no"/>set deprehendi: vt ergo in propria forma non 
-      ve<lb ed="#V" n="74" break="no"/>niret voluntate sua propria factum est: vt autem 
-      <lb ed="#V" n="75"/>in forma sue malitie congruenti veniret: 
-      diui<lb ed="#V" n="76" break="no"/>nitus factum est. Uenit ergo ad hominem in 
-      <lb ed="#V" n="77"/>serpente: qui forte si permitteretur in 
-      columbe<lb ed="#V" n="78" break="no"/>specie venire maluisset. Sed non erat dignum 
-      <lb ed="#V" n="79"/>vt spiritus malignus illam formam homini odio 
-      <lb ed="#V" n="80"/>sam faceret: in qua spiritus sanctus 
-      apparitu<lb ed="#V" n="81" break="no"/>rus erat. Non ergo nisi per serpentem 
-      tempta<lb ed="#V" n="82" break="no"/>re permissus fuit diabolus: vt per illud quod 
-      fo<lb ed="#V" n="83" break="no"/>ris erat astutiam temptantis animaduertere 
-      <lb ed="#V" n="84"/>femina quiret. Diabolus enim per serpentem 
-      <lb ed="#V" n="85"/>temptabat in quo loquebatur. Ideoque serpens 
-      <lb ed="#V" n="86"/>dictus est esse callidior cunctis animantibus 
-      <lb ed="#V" n="87"/>terre. Quia vt ait Aug. Mali angeli liceti 
-      su<lb ed="#V" n="88" break="no"/>perbia deiecti: natura tamen sunt 
-      excellentio<lb ed="#V" n="89" break="no"/>res omnibus bestiis propter eminentiam ratio 
-      <lb ed="#V" n="90"/>nis: quamuis serpens non rationali anima: sed 
-      spi<lb ed="#V" n="91" break="no"/>ritu diabolico possit sapientissimus dici. Non 
-      <lb ed="#V" n="92"/>est ergo mirum si diabolus spiritu suo implens 
-      <lb ed="#V" n="93"/>serpentem sicut vates implebat: sapientissimum 
-      <lb ed="#V" n="94"/>reddiderat omnium bestiarum: quem tamen ad 
-      <lb ed="#V" n="95"/>temptandum non elegit diabolus: sed per quod 
-      <lb ed="#V" n="96"/>animal permissus fuit temptauit. Unde Augu. 
-      <lb ed="#V" n="97"/>super Gen. Non est putandum quod diabolus seri 
-      <lb ed="#V" n="98"/>pentem per quem temptaret elegerit: sed cum 
-      <lb ed="#V" n="99"/>decipere cuperet: non potuit nisi per quod 
-      ani<lb ed="#V" n="100" break="no"/>mal posse permissus est: nocendi enim voluntas 
-      <lb ed="#V" n="101"/>inest cuique a se: sed potestas a deo. Sic autem 
-      <lb ed="#V" n="102"/>loquebatur diabolus per serpentem 
-      ignoran<lb ed="#V" n="103" break="no"/>tem: sicut per energuiminos: vel per 
-      phanati<lb ed="#V" n="104" break="no"/>cos loquitur. Serpente enim velut organo est 
-      <lb ed="#V" n="105"/>vsus mouens naturam eius ad exprimendum 
-      <lb ed="#V" n="106"/>sonos verborum et signa quibus suam 
-      monstra<lb ed="#V" n="107" break="no"/>ret voluntatem. Serpens ergo nec verba 
-      intes<lb ed="#V" n="108" break="no"/>ligebat: nec rationalis est factus: callidissimus 
-      <lb ed="#V" n="109"/>tamen est dictus propter astutiam diaboli. 
-      Lo<lb ed="#V" n="110" break="no"/>cutus est autem sicut asina balaam: sed hoc dia 
-      <lb ed="#V" n="111"/>bolicum: illud angelicum fuit. Boni enim et 
-      ma<lb ed="#V" n="112" break="no"/>li angeli similiter operantur. Hic queri solet 
-      qua<lb ed="#V" n="113" break="no"/>re mulier non horruit serpentem: Quia cum 
-      no<lb ed="#V" n="114" break="no"/>uerit creatum esse: ipsum etiam officium 
-      loquen<lb ed="#V" n="115" break="no"/>di a deo accepisse putauit. 
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e275">
-               <lb ed="#V" n="116"/>¶ De modo temptationis. 
-      <lb ed="#V" n="117"/>Remptatio autem hoc 
-      mo<lb ed="#V" n="118" break="no"/>do facta 
-      <lb ed="#V" n="119"/>est. Stans coram femina hostis superbus non 
-      <!--00181.xml-->
-      <pb ed="#V" n="84-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>audet in verba persuasionis exire metuens 
-      de<lb ed="#V" n="2" break="no"/>prehendi: sed sub interrogatione eam 
-      aggre<lb ed="#V" n="3" break="no"/>ditur: vt ex responsione colligeret qualiter in 
-      ma<lb ed="#V" n="4" break="no"/>litia procedere posset. Cur inquit precepit 
-      vo<lb ed="#V" n="5" break="no"/>bis deus: vt non comederitis de ligno paradisi: 
-      <lb ed="#V" n="6"/>Cui respondit mulier. De fructu lignorum que 
-      <lb ed="#V" n="7"/>sunt in paradiso vescimur. De fructu vero 
-      li<lb ed="#V" n="8" break="no"/>gni quod est in medio paradisi precepit nobis 
-      <lb ed="#V" n="9"/>deus ne comederemus: et ne tangeremus ne 
-      for<lb ed="#V" n="10" break="no"/>te moriamur. In quo verbo dedit locum 
-      tem<lb ed="#V" n="11" break="no"/>ptandi cum dixit: ne forte moriamur: vnde 
-      mox<lb ed="#V" n="12" break="no"/>diabolus dixit ad mulierem. Nequaquam 
-      morie<lb ed="#V" n="13" break="no"/>mini: scit enim deus quod in quocumque die 
-      comede<lb ed="#V" n="14" break="no"/>ritis ex eo: aperientur oculi vestri: et eritis sicut 
-      <lb ed="#V" n="15"/>dii scientes bonum et malum. Attende ordinem 
-      <lb ed="#V" n="16"/>ac progressum humane perditionis. Primo 
-      <lb ed="#V" n="17"/>deus dixerat: quacunque die comederitis ex eo 
-      <lb ed="#V" n="18"/>mortem moriemini. Deinde mulier dixit: 
-      ne<lb ed="#V" n="19" break="no"/>forte moriamur: nouissime serpens dixit: 
-      nequa<lb ed="#V" n="20" break="no"/>quam moriemini. Deus affirmauit mulier 
-      quafi<lb ed="#V" n="21" break="no"/>ambigendo illud dixit: diabolus negauit. Que 
-      <lb ed="#V" n="22"/>ergo dubitauit ab affirmante recessit: et 
-      negan<lb ed="#V" n="23" break="no"/>ti appropinquauit. 
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e343">
-               <lb ed="#V" n="24"/>¶ De versutia diaboli qui vt facilius persuaderet 
-      <lb ed="#V" n="25"/>malum remouit: et bonum in pollicito duplicauit. 
-      <lb ed="#V" n="26"/>Qui ad suam persuasionem 
-      ple<lb ed="#V" n="27" break="no"/>niter suffulciendam 
-      <lb ed="#V" n="28"/>idest vt malum quond intendebat libere persua 
-      <lb ed="#V" n="29"/>deret: et malum quod mulier timuit negando 
-      re<lb ed="#V" n="30" break="no"/>mouit: et repromissionem addidit. Et vt eius 
-      per<lb ed="#V" n="31" break="no"/>suasio citius reciperetur promissionem 
-      duplica<lb ed="#V" n="32" break="no"/>uit. Unam nempe comestionem suadens: duo in 
-      <lb ed="#V" n="33"/>premio proposuit: similitudinem dei: scientiamque 
-      <lb ed="#V" n="34"/>boni et mali spondens: vbi tribus modis 
-      homi<lb ed="#V" n="35" break="no"/>nem temptauit scilicet gula in persuasione cibi cum 
-      <lb ed="#V" n="36"/>dixit. In quocumque die comederitis. Inani 
-      glo<lb ed="#V" n="37" break="no"/>ria in promissione deitatis cum dixit. Eritis 
-      fi<lb ed="#V" n="38" break="no"/>cut dii. Auaritia in promissione scientie: 
-      scien<lb ed="#V" n="39" break="no"/>tes bonum et malum. Gula est immoderata cibi 
-      <lb ed="#V" n="40"/>auiditas: vanagloria amor proprie excellentie. 
-      <lb ed="#V" n="41"/>Auaritia immoderata habendi cupiditas: que 
-      <lb ed="#V" n="42"/>non est tantum pecunie: sed etiam altitudinis et 
-      scien<lb ed="#V" n="43" break="no"/>tie cum supra modum sublimitas ambitur. 
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e390">
-               <lb ed="#V" n="44"/>¶ De duplici temptationis specie. 
-      <lb ed="#V" n="45"/>Porro sciendum est 
-      duagesse<lb ed="#V" n="46" break="no"/>species 
-      tem<lb ed="#V" n="47" break="no"/>ptationis interiorem scilicet exteriorem. Exterior tempta 
-      <lb ed="#V" n="48"/>tio est quando nobis extrinsecus malum 
-      visibi<lb ed="#V" n="49" break="no"/>liter suggeritur verbo vel signo aliquo vt ille cui 
-      <lb ed="#V" n="50"/>sit ad consensum peccati declinet: et talis 
-      tempta<lb ed="#V" n="51" break="no"/>tio tantum sit ab aduersario. Interior vero 
-      tem<lb ed="#V" n="52" break="no"/>ptatio est: quando inuisibiliter malum nobis 
-      in<lb ed="#V" n="53" break="no"/>trinsecus suggeritur: et hec temptatio aliquando 
-      <lb ed="#V" n="54"/>fit ab hoste: aliquando a carne: nam et diabolus 
-      <lb ed="#V" n="55"/>iuisibiliter mala suggerit: et ex carnis 
-      corruptio<lb ed="#V" n="56" break="no"/>ne suborritur motus illicitus et titillatio praua¬ 
-      <!--00181.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="57"/>ideoque temptatio que ex carne est: non sit fine 
-      <lb ed="#V" n="58"/>peccato. Que autem est ab hoste: nisi ei 
-      consen<lb ed="#V" n="59" break="no"/>tiatur non habet peccatum: sed est materia 
-      exer<lb ed="#V" n="60" break="no"/>cende virtutis. Temptatio autem carnis 
-      inte<lb ed="#V" n="61" break="no"/>rior difficilius vincitur: quia interius oppugnans 
-      <lb ed="#V" n="62"/>de nostro contra nos roboratur. Homo ergo quod 
-      <lb ed="#V" n="63"/>sola exteriori temptatione pulsatus cecidit: 
-      tan<lb ed="#V" n="64" break="no"/>to grauius plectendus erat quanto leuiori 
-      im<lb ed="#V" n="65" break="no"/>pulsu fuerat prostratus. Et tamen quia aliquam 
-      <lb ed="#V" n="66"/>licet modicam cadendi occasionem habuit. 
-      Ic<lb ed="#V" n="67" break="no"/>circo per dei gratiam iuuari potuit ad veniam: 
-      <lb ed="#V" n="68"/>vt qui per alium ceciderat: per alium erigeretur. 
-      <lb ed="#V" n="69"/>Qui ergo incitatorem habuit ad malum: non 
-      in<lb ed="#V" n="70" break="no"/>iuste reparatorem habuit ad bonum. Diabolus 
-      <lb ed="#V" n="71"/>vero quia sine alicuius temptatione peccauit 
-      <lb ed="#V" n="72"/>per alium vt surgeret iuuari non debuit: nec per 
-      se<lb ed="#V" n="73" break="no"/>potuit. Et ideo irremediabile peccatum eius extitit 
-      <lb ed="#V" n="74"/>peccatum vero hominis sicut per alium habuit initium 
-      <lb ed="#V" n="75"/>ita per alium non incongrue habuit remedium. 
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e466">
-               <lb ed="#V" n="76"/>¶ Quare homo non angelus sit redemptus. 
-      <lb ed="#V" n="77"/>Preterea angelica natura quoniam 
-      <lb ed="#V" n="78"/>non tota perierat: sed ex 
-      per<lb ed="#V" n="79" break="no"/>te perstiterat non est redempta: humana vero 
-      <lb ed="#V" n="80"/>tota perierat. Et ideo ne penitus perderetur: 
-      <lb ed="#V" n="81"/>ex parte est redempta: vt inde ruina suppleretur 
-      <lb ed="#V" n="82"/>angelica: Unde Augu. in ench. Placuit 
-      vni<lb ed="#V" n="83" break="no"/>uersitatis creatori et moderatori: vt quoniam non 
-      <lb ed="#V" n="84"/>tota multitudo angelorum deum deserendo 
-      pe<lb ed="#V" n="85" break="no"/>rierat: ea que perierat in perpetua perditione 
-      <lb ed="#V" n="86"/>remaneret: que autem cum deo illa deserente 
-      per<lb ed="#V" n="87" break="no"/>stiterat de sua certissime cognita semper 
-      felici<lb ed="#V" n="88" break="no"/>tate gauderet. At vero creatura rationalis que 
-      <lb ed="#V" n="89"/>in hominibus erat: quoniam peccatis atque 
-      sup<lb ed="#V" n="90" break="no"/>pliciis tota perierat ex parte poterat reparari: 
-      <lb ed="#V" n="91"/>vnde angelice societati suppleretur quod ruina 
-      <lb ed="#V" n="92"/>illa minuerat: hoc enim promissum est sanctis 
-      <lb ed="#V" n="93"/>quod erunt equales angelis dei. 
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e508">
-               <lb ed="#V" n="94"/>¶ Quod non soli viro preceptum fuit datum. 
-      <lb ed="#V" n="95"/>illud etiam notandum est quod non 
-      <lb ed="#V" n="96"/>soli viro preceptum 
-      vi<lb ed="#V" n="97" break="no"/>detur esse datum cum ipsa mulier testatur: 
-      fi<lb ed="#V" n="98" break="no"/>bi etiam esse mandatum dicens. Precepit 
-      no<lb ed="#V" n="99" break="no"/>bis deus etc. Supra tamen legitur ante factam 
-      <lb ed="#V" n="100"/>mulierem deum dixisse viro. De ligno scientie 
-      <lb ed="#V" n="101"/>boni et mali ne comedatis. Non dixit: ne 
-      come<lb ed="#V" n="102" break="no"/>das: forte: quia facturus erat mulierem de 
-      vi<lb ed="#V" n="103" break="no"/>ro sic precepit: vt per virum ad mulierem 
-      per<lb ed="#V" n="104" break="no"/>ueniret mandatum: quia mulier que subiecta 
-      <lb ed="#V" n="105"/>viro fuit non nisi mediante viro diuinum 
-      de<lb ed="#V" n="106" break="no"/>buit accipere preceptum. Unde apostolus. 
-      Si<lb ed="#V" n="107" break="no"/>quid discere voluerint domi viros suos 
-      inter<lb ed="#V" n="108" break="no"/>rogent. Si queritur quomodo loqui potuerunt 
-      <lb ed="#V" n="109"/>vel loquentem intelligere qui non didicerant 
-      <lb ed="#V" n="110"/>inter loquentes crescendo vel magisterio: Dicimus 
-      <lb ed="#V" n="111"/>quia deus eos tales fecerat qui possent loqu: et 
-      disce<lb ed="#V" n="112" break="no"/>re ab aliis si essent. Dist. XXI 
-      <!--00182.xml-->
-      <pb ed="#V" n="84-v"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>Adens ergo diabolus. Superius 
-      deter<lb ed="#V" n="2" break="no"/>minauit magister de hominis 
-      <lb ed="#V" n="3"/>conditione siue de egressu eius a primo 
-      principio<lb ed="#V" n="4" break="no"/>et eius statu.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e567">
-      ¶ Hic determinat de eius casu scilicet 
-      <lb ed="#V" n="5"/>in peccatum: et diuiditur pars ista in partes duas.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e572">
-      ¶ 
-      Pri<lb ed="#V" n="6" break="no"/>mo determinat de illius peccati commissione quo persona 
-      <lb ed="#V" n="7"/>corrumpit naturam.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e579">
-      ¶ Secundo de corruptionis ad posteros 
-      <lb ed="#V" n="8"/>transrusione qua natura corrumpit per materiam distin. 30. 
-      In<lb ed="#V" n="9" break="no"/>qua incipit agere de peccato originali. ibi. In 
-      superiori<lb ed="#V" n="10" break="no"/>bus insinuatum est. Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e589">
-      ¶ Primo determinat 
-      <lb ed="#V" n="11"/>magister de in pulsu quem primi parentes habuerunt ad 
-      pec<lb ed="#V" n="12" break="no"/>candum.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e596">
-      ¶ Secundo de adiutoriis que habuere ad 
-      resisten<lb ed="#V" n="13" break="no"/>dum. dist. 24. ibi. Nunc diligenter.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e601">
-      ¶ Prima in tres.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e603">
-      ¶ 
-      Pri<lb ed="#V" n="14" break="no"/>mo determinat magister de temptatione primorum 
-      paren<lb ed="#V" n="15" break="no"/>tum ex parte temptantis.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e610">
-      ¶ Secundo ex parte temptati dist. 
-      <lb ed="#V" n="16"/>sequenti. ibi. Hic videtur diligenter.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e615">
-      ¶ Tertio ex parte 
-      <lb ed="#V" n="17"/>dei promittentis dist. 23 ibi. Preterea queri solet Prima 
-      <lb ed="#V" n="18"/>in tres.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e623">
-      ¶ Primo determinat de malitia temptatoris. 
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e625">
-               <lb ed="#V" n="19"/>¶ Secundo de modo temptandi ibi. Temptatio autem. 
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e630">
-               <lb ed="#V" n="20"/>¶ Tertio de speciebus temptationis. ibi. Porro sciendum est 
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e635">
-               <lb ed="#V" n="21"/>¶ Quarto de precepto quod fuit materia temptationis.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e640">
-      ¶ 
-      Uel<lb ed="#V" n="22" break="no"/>melius dicendum quod ibi remouet a muliere viam excusationis 
-      <lb ed="#V" n="23"/>ibi. Illud etiam notandum. Prima in duas.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e647">
-      ¶ Primo 
-      <lb ed="#V" n="24"/>determinat de malitia temptatoris quo ad inuidiam 
-      inte<lb ed="#V" n="25" break="no"/>riorem.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e655">
-      ¶ Secundo quo ad fraudolentam simulationem ibi 
-      <lb ed="#V" n="26"/>Sed quia. Illa pars in qua determinat de modo tempta 
-      <lb ed="#V" n="27"/>di: que ibi incipit. Temptatio autem. Diuiditur in duas. 
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e662">
-               <lb ed="#V" n="28"/>¶ Primo ostendit modum temptandi quantum ad astutiam 
-      <lb ed="#V" n="29"/>interrogandi.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e669">
-      ¶ Secundo quantum ad constantiam 
-      pro<lb ed="#V" n="30" break="no"/>mittendi ibi. Qui ad suam persuasionem.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e674">
-      ¶ Illa pars in 
-      <lb ed="#V" n="31"/>qua agit de speciebus temptationis. Diuiditur in duas.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e679">
-      ¶ 
-      Pri<lb ed="#V" n="32" break="no"/>mo determinat de temptationum diuersitate.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e684">
-      ¶ Secundo de 
-      <lb ed="#V" n="33"/>peccati primorum parentum grauitate et remissibilitate. 
-      <lb ed="#V" n="34"/>ibi Homo igitur. 
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e692">
-               <lb ed="#V" n="35"/>CIrca hanc distin. queruntur tria 
-      prin<lb ed="#V" n="36" break="no"/>cipaliter.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e699">
-      ¶ Primo de 
-      tem<lb ed="#V" n="37" break="no"/>ptatione primorum parentum.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e704">
-      ¶ Secundo de 
-      <lb ed="#V" n="38"/>diuersitate temptationum.
-   </p>
-            <p xml:id="kzz7yh-f59701-d1e709">
-      ¶ Tertio de 
-      grauita<lb ed="#V" n="39" break="no"/>te et remissibilitate peccati quod ex illa temptatione est secutum 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="84-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f59701"><!-- l2d21prae -->
+        <head xml:id="kzz7yh-f59701-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-f59701-d1e103">
+          <lb ed="#V" n="41"/>¶ De inuidia diaboli qua ad hominem 
+          tempta<lb ed="#V" n="42" break="no"/>dum accessit. Dist. XXI 
+          <lb ed="#V" n="43"/>dens igitur 
+          dia<lb ed="#V" n="44" break="no"/>bolus 
+          <lb ed="#V" n="45"/>hominem per obedientie humilita 
+          <lb ed="#V" n="46"/>tem posse ascendere vnde ipse per 
+          su<lb ed="#V" n="47" break="no"/>perbiam corruerat inuidit ei: et qui 
+          <lb ed="#V" n="48"/>prius per superbiam diabolus fuerat: idest 
+          deor<lb ed="#V" n="49" break="no"/>sum lapsus: 3elo inuidie factus est sathan: idest 
+          <lb ed="#V" n="50"/>aduersarius. Unde et mulierem temptauit in 
+          <lb ed="#V" n="51"/>qua minus quam in viro rationem vigere nouit. 
+          <lb ed="#V" n="52"/>Eius enim malitia ad temptandum virtutem 
+          <lb ed="#V" n="53"/>timida: humanam naturam in ea parte vbi de. 
+          <lb ed="#V" n="54"/>bilior videbatur aggressa est. Ut si forte illic 
+          ali<lb ed="#V" n="55" break="no"/>quatenus preualeret: postmodum fiducialius 
+          <lb ed="#V" n="56"/>ad alteram que robustior fuit: pulsandam vel 
+          <lb ed="#V" n="57"/>potius subuertendam accederet. Primum ergo 
+          <lb ed="#V" n="58"/>solitariam feminam explorauit: vt in ea primum 
+          <lb ed="#V" n="59"/>omnem sue temptationis vim experiretur. 
+          </p>
+          <p xml:id="kzz7yh-f59701-d1e147">
+          <lb ed="#V" n="60"/>¶ Quare in aliena forma venit. 
+          <lb ed="#V" n="61"/>Sed quia illi per violentiam 
+          no<lb ed="#V" n="62" break="no"/>cere non poterat: ad 
+          <lb ed="#V" n="63"/>fraudem se conuertit: vtidolo hominem suppla¬ 
+          <!-\-00180.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="64"/>taret: quem virtute superare nequiret. Ne 
+          au<lb ed="#V" n="65" break="no"/>tem fraus illius nimis manifestaretur in sua 
+          <lb ed="#V" n="66"/>specie non venit: ne aperte cognosceretur: et ita 
+          <lb ed="#V" n="67"/>repelleretur. Item ne nimis occulta foret 
+          fra<lb ed="#V" n="68" break="no"/>us eius que caueri non posset: et homo simul 
+          vi<lb ed="#V" n="69" break="no"/>deretur iniuriam pati si taliter circumueniri 
+          per<lb ed="#V" n="70" break="no"/>mitteret eum deus vt precauere non posset: 
+          in<lb ed="#V" n="71" break="no"/>aliena quidem forma venire permissus est dia 
+          <lb ed="#V" n="72"/>bolus: sed in tali in qua eius malitia facile 
+          pos<lb ed="#V" n="73" break="no"/>set deprehendi: vt ergo in propria forma non 
+          ve<lb ed="#V" n="74" break="no"/>niret voluntate sua propria factum est: vt autem 
+          <lb ed="#V" n="75"/>in forma sue malitie congruenti veniret: 
+          diui<lb ed="#V" n="76" break="no"/>nitus factum est. Uenit ergo ad hominem in 
+          <lb ed="#V" n="77"/>serpente: qui forte si permitteretur in 
+          columbe<lb ed="#V" n="78" break="no"/>specie venire maluisset. Sed non erat dignum 
+          <lb ed="#V" n="79"/>vt spiritus malignus illam formam homini odio 
+          <lb ed="#V" n="80"/>sam faceret: in qua spiritus sanctus 
+          apparitu<lb ed="#V" n="81" break="no"/>rus erat. Non ergo nisi per serpentem 
+          tempta<lb ed="#V" n="82" break="no"/>re permissus fuit diabolus: vt per illud quod 
+          fo<lb ed="#V" n="83" break="no"/>ris erat astutiam temptantis animaduertere 
+          <lb ed="#V" n="84"/>femina quiret. Diabolus enim per serpentem 
+          <lb ed="#V" n="85"/>temptabat in quo loquebatur. Ideoque serpens 
+          <lb ed="#V" n="86"/>dictus est esse callidior cunctis animantibus 
+          <lb ed="#V" n="87"/>terre. Quia vt ait Aug. Mali angeli liceti 
+          su<lb ed="#V" n="88" break="no"/>perbia deiecti: natura tamen sunt 
+          excellentio<lb ed="#V" n="89" break="no"/>res omnibus bestiis propter eminentiam ratio 
+          <lb ed="#V" n="90"/>nis: quamuis serpens non rationali anima: sed 
+          spi<lb ed="#V" n="91" break="no"/>ritu diabolico possit sapientissimus dici. Non 
+          <lb ed="#V" n="92"/>est ergo mirum si diabolus spiritu suo implens 
+          <lb ed="#V" n="93"/>serpentem sicut vates implebat: sapientissimum 
+          <lb ed="#V" n="94"/>reddiderat omnium bestiarum: quem tamen ad 
+          <lb ed="#V" n="95"/>temptandum non elegit diabolus: sed per quod 
+          <lb ed="#V" n="96"/>animal permissus fuit temptauit. Unde Augu. 
+          <lb ed="#V" n="97"/>super Gen. Non est putandum quod diabolus seri 
+          <lb ed="#V" n="98"/>pentem per quem temptaret elegerit: sed cum 
+          <lb ed="#V" n="99"/>decipere cuperet: non potuit nisi per quod 
+          ani<lb ed="#V" n="100" break="no"/>mal posse permissus est: nocendi enim voluntas 
+          <lb ed="#V" n="101"/>inest cuique a se: sed potestas a deo. Sic autem 
+          <lb ed="#V" n="102"/>loquebatur diabolus per serpentem 
+          ignoran<lb ed="#V" n="103" break="no"/>tem: sicut per energuiminos: vel per 
+          phanati<lb ed="#V" n="104" break="no"/>cos loquitur. Serpente enim velut organo est 
+          <lb ed="#V" n="105"/>vsus mouens naturam eius ad exprimendum 
+          <lb ed="#V" n="106"/>sonos verborum et signa quibus suam 
+          monstra<lb ed="#V" n="107" break="no"/>ret voluntatem. Serpens ergo nec verba 
+          intes<lb ed="#V" n="108" break="no"/>ligebat: nec rationalis est factus: callidissimus 
+          <lb ed="#V" n="109"/>tamen est dictus propter astutiam diaboli. 
+          Lo<lb ed="#V" n="110" break="no"/>cutus est autem sicut asina balaam: sed hoc dia 
+          <lb ed="#V" n="111"/>bolicum: illud angelicum fuit. Boni enim et 
+          ma<lb ed="#V" n="112" break="no"/>li angeli similiter operantur. Hic queri solet 
+          qua<lb ed="#V" n="113" break="no"/>re mulier non horruit serpentem: Quia cum 
+          no<lb ed="#V" n="114" break="no"/>uerit creatum esse: ipsum etiam officium 
+          loquen<lb ed="#V" n="115" break="no"/>di a deo accepisse putauit. 
+          </p>
+          <p xml:id="kzz7yh-f59701-d1e275">
+          <lb ed="#V" n="116"/>¶ De modo temptationis. 
+          <lb ed="#V" n="117"/>Remptatio autem hoc 
+          mo<lb ed="#V" n="118" break="no"/>do facta 
+          <lb ed="#V" n="119"/>est. Stans coram femina hostis superbus non 
+          <!-\-00181.xml-\->
+          <pb ed="#V" n="84-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>audet in verba persuasionis exire metuens 
+          de<lb ed="#V" n="2" break="no"/>prehendi: sed sub interrogatione eam 
+          aggre<lb ed="#V" n="3" break="no"/>ditur: vt ex responsione colligeret qualiter in 
+          ma<lb ed="#V" n="4" break="no"/>litia procedere posset. Cur inquit precepit 
+          vo<lb ed="#V" n="5" break="no"/>bis deus: vt non comederitis de ligno paradisi: 
+          <lb ed="#V" n="6"/>Cui respondit mulier. De fructu lignorum que 
+          <lb ed="#V" n="7"/>sunt in paradiso vescimur. De fructu vero 
+          li<lb ed="#V" n="8" break="no"/>gni quod est in medio paradisi precepit nobis 
+          <lb ed="#V" n="9"/>deus ne comederemus: et ne tangeremus ne 
+          for<lb ed="#V" n="10" break="no"/>te moriamur. In quo verbo dedit locum 
+          tem<lb ed="#V" n="11" break="no"/>ptandi cum dixit: ne forte moriamur: vnde 
+          mox<lb ed="#V" n="12" break="no"/>diabolus dixit ad mulierem. Nequaquam 
+          morie<lb ed="#V" n="13" break="no"/>mini: scit enim deus quod in quocumque die 
+          comede<lb ed="#V" n="14" break="no"/>ritis ex eo: aperientur oculi vestri: et eritis sicut 
+          <lb ed="#V" n="15"/>dii scientes bonum et malum. Attende ordinem 
+          <lb ed="#V" n="16"/>ac progressum humane perditionis. Primo 
+          <lb ed="#V" n="17"/>deus dixerat: quacunque die comederitis ex eo 
+          <lb ed="#V" n="18"/>mortem moriemini. Deinde mulier dixit: 
+          ne<lb ed="#V" n="19" break="no"/>forte moriamur: nouissime serpens dixit: 
+          nequa<lb ed="#V" n="20" break="no"/>quam moriemini. Deus affirmauit mulier 
+          quafi<lb ed="#V" n="21" break="no"/>ambigendo illud dixit: diabolus negauit. Que 
+          <lb ed="#V" n="22"/>ergo dubitauit ab affirmante recessit: et 
+          negan<lb ed="#V" n="23" break="no"/>ti appropinquauit. 
+          </p>
+          <p xml:id="kzz7yh-f59701-d1e343">
+          <lb ed="#V" n="24"/>¶ De versutia diaboli qui vt facilius persuaderet 
+          <lb ed="#V" n="25"/>malum remouit: et bonum in pollicito duplicauit. 
+          <lb ed="#V" n="26"/>Qui ad suam persuasionem 
+          ple<lb ed="#V" n="27" break="no"/>niter suffulciendam 
+          <lb ed="#V" n="28"/>idest vt malum quond intendebat libere persua 
+          <lb ed="#V" n="29"/>deret: et malum quod mulier timuit negando 
+          re<lb ed="#V" n="30" break="no"/>mouit: et repromissionem addidit. Et vt eius 
+          per<lb ed="#V" n="31" break="no"/>suasio citius reciperetur promissionem 
+          duplica<lb ed="#V" n="32" break="no"/>uit. Unam nempe comestionem suadens: duo in 
+          <lb ed="#V" n="33"/>premio proposuit: similitudinem dei: scientiamque 
+          <lb ed="#V" n="34"/>boni et mali spondens: vbi tribus modis 
+          homi<lb ed="#V" n="35" break="no"/>nem temptauit scilicet gula in persuasione cibi cum 
+          <lb ed="#V" n="36"/>dixit. In quocumque die comederitis. Inani 
+          glo<lb ed="#V" n="37" break="no"/>ria in promissione deitatis cum dixit. Eritis 
+          fi<lb ed="#V" n="38" break="no"/>cut dii. Auaritia in promissione scientie: 
+          scien<lb ed="#V" n="39" break="no"/>tes bonum et malum. Gula est immoderata cibi 
+          <lb ed="#V" n="40"/>auiditas: vanagloria amor proprie excellentie. 
+          <lb ed="#V" n="41"/>Auaritia immoderata habendi cupiditas: que 
+          <lb ed="#V" n="42"/>non est tantum pecunie: sed etiam altitudinis et 
+          scien<lb ed="#V" n="43" break="no"/>tie cum supra modum sublimitas ambitur. 
+          </p>
+          <p xml:id="kzz7yh-f59701-d1e390">
+          <lb ed="#V" n="44"/>¶ De duplici temptationis specie. 
+          <lb ed="#V" n="45"/>Porro sciendum est 
+          duagesse<lb ed="#V" n="46" break="no"/>species 
+          tem<lb ed="#V" n="47" break="no"/>ptationis interiorem scilicet exteriorem. Exterior tempta 
+          <lb ed="#V" n="48"/>tio est quando nobis extrinsecus malum 
+          visibi<lb ed="#V" n="49" break="no"/>liter suggeritur verbo vel signo aliquo vt ille cui 
+          <lb ed="#V" n="50"/>sit ad consensum peccati declinet: et talis 
+          tempta<lb ed="#V" n="51" break="no"/>tio tantum sit ab aduersario. Interior vero 
+          tem<lb ed="#V" n="52" break="no"/>ptatio est: quando inuisibiliter malum nobis 
+          in<lb ed="#V" n="53" break="no"/>trinsecus suggeritur: et hec temptatio aliquando 
+          <lb ed="#V" n="54"/>fit ab hoste: aliquando a carne: nam et diabolus 
+          <lb ed="#V" n="55"/>iuisibiliter mala suggerit: et ex carnis 
+          corruptio<lb ed="#V" n="56" break="no"/>ne suborritur motus illicitus et titillatio praua¬ 
+          <!-\-00181.xml-\->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="57"/>ideoque temptatio que ex carne est: non sit fine 
+          <lb ed="#V" n="58"/>peccato. Que autem est ab hoste: nisi ei 
+          consen<lb ed="#V" n="59" break="no"/>tiatur non habet peccatum: sed est materia 
+          exer<lb ed="#V" n="60" break="no"/>cende virtutis. Temptatio autem carnis 
+          inte<lb ed="#V" n="61" break="no"/>rior difficilius vincitur: quia interius oppugnans 
+          <lb ed="#V" n="62"/>de nostro contra nos roboratur. Homo ergo quod 
+          <lb ed="#V" n="63"/>sola exteriori temptatione pulsatus cecidit: 
+          tan<lb ed="#V" n="64" break="no"/>to grauius plectendus erat quanto leuiori 
+          im<lb ed="#V" n="65" break="no"/>pulsu fuerat prostratus. Et tamen quia aliquam 
+          <lb ed="#V" n="66"/>licet modicam cadendi occasionem habuit. 
+          Ic<lb ed="#V" n="67" break="no"/>circo per dei gratiam iuuari potuit ad veniam: 
+          <lb ed="#V" n="68"/>vt qui per alium ceciderat: per alium erigeretur. 
+          <lb ed="#V" n="69"/>Qui ergo incitatorem habuit ad malum: non 
+          in<lb ed="#V" n="70" break="no"/>iuste reparatorem habuit ad bonum. Diabolus 
+          <lb ed="#V" n="71"/>vero quia sine alicuius temptatione peccauit 
+          <lb ed="#V" n="72"/>per alium vt surgeret iuuari non debuit: nec per 
+          se<lb ed="#V" n="73" break="no"/>potuit. Et ideo irremediabile peccatum eius extitit 
+          <lb ed="#V" n="74"/>peccatum vero hominis sicut per alium habuit initium 
+          <lb ed="#V" n="75"/>ita per alium non incongrue habuit remedium. 
+          </p>
+          <p xml:id="kzz7yh-f59701-d1e466">
+          <lb ed="#V" n="76"/>¶ Quare homo non angelus sit redemptus. 
+          <lb ed="#V" n="77"/>Preterea angelica natura quoniam 
+          <lb ed="#V" n="78"/>non tota perierat: sed ex 
+          per<lb ed="#V" n="79" break="no"/>te perstiterat non est redempta: humana vero 
+          <lb ed="#V" n="80"/>tota perierat. Et ideo ne penitus perderetur: 
+          <lb ed="#V" n="81"/>ex parte est redempta: vt inde ruina suppleretur 
+          <lb ed="#V" n="82"/>angelica: Unde Augu. in ench. Placuit 
+          vni<lb ed="#V" n="83" break="no"/>uersitatis creatori et moderatori: vt quoniam non 
+          <lb ed="#V" n="84"/>tota multitudo angelorum deum deserendo 
+          pe<lb ed="#V" n="85" break="no"/>rierat: ea que perierat in perpetua perditione 
+          <lb ed="#V" n="86"/>remaneret: que autem cum deo illa deserente 
+          per<lb ed="#V" n="87" break="no"/>stiterat de sua certissime cognita semper 
+          felici<lb ed="#V" n="88" break="no"/>tate gauderet. At vero creatura rationalis que 
+          <lb ed="#V" n="89"/>in hominibus erat: quoniam peccatis atque 
+          sup<lb ed="#V" n="90" break="no"/>pliciis tota perierat ex parte poterat reparari: 
+          <lb ed="#V" n="91"/>vnde angelice societati suppleretur quod ruina 
+          <lb ed="#V" n="92"/>illa minuerat: hoc enim promissum est sanctis 
+          <lb ed="#V" n="93"/>quod erunt equales angelis dei. 
+          </p>
+          <p xml:id="kzz7yh-f59701-d1e508">
+          <lb ed="#V" n="94"/>¶ Quod non soli viro preceptum fuit datum. 
+          <lb ed="#V" n="95"/>illud etiam notandum est quod non 
+          <lb ed="#V" n="96"/>soli viro preceptum 
+          vi<lb ed="#V" n="97" break="no"/>detur esse datum cum ipsa mulier testatur: 
+          fi<lb ed="#V" n="98" break="no"/>bi etiam esse mandatum dicens. Precepit 
+          no<lb ed="#V" n="99" break="no"/>bis deus etc. Supra tamen legitur ante factam 
+          <lb ed="#V" n="100"/>mulierem deum dixisse viro. De ligno scientie 
+          <lb ed="#V" n="101"/>boni et mali ne comedatis. Non dixit: ne 
+          come<lb ed="#V" n="102" break="no"/>das: forte: quia facturus erat mulierem de 
+          vi<lb ed="#V" n="103" break="no"/>ro sic precepit: vt per virum ad mulierem 
+          per<lb ed="#V" n="104" break="no"/>ueniret mandatum: quia mulier que subiecta 
+          <lb ed="#V" n="105"/>viro fuit non nisi mediante viro diuinum 
+          de<lb ed="#V" n="106" break="no"/>buit accipere preceptum. Unde apostolus. 
+          Si<lb ed="#V" n="107" break="no"/>quid discere voluerint domi viros suos 
+          inter<lb ed="#V" n="108" break="no"/>rogent. Si queritur quomodo loqui potuerunt 
+          <lb ed="#V" n="109"/>vel loquentem intelligere qui non didicerant 
+          <lb ed="#V" n="110"/>inter loquentes crescendo vel magisterio: Dicimus 
+          <lb ed="#V" n="111"/>quia deus eos tales fecerat qui possent loqu: et 
+          disce<lb ed="#V" n="112" break="no"/>re ab aliis si essent. 
+          </p>-->
+        <p xml:id="kzz7yh-f59701-d1e106">
+          Dist. XXI 
+          <!--00182.xml-->
+          <pb ed="#V" n="84-v"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>Adens ergo diabolus. Superius 
+          deter<lb ed="#V" n="2" break="no"/>minauit magister de hominis 
+          <lb ed="#V" n="3"/>conditione siue de egressu eius a primo 
+          principio<lb ed="#V" n="4" break="no"/>et eius statu.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e567">
+          ¶ Hic determinat de eius casu scilicet 
+          <lb ed="#V" n="5"/>in peccatum: et diuiditur pars ista in partes duas.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e572">
+          ¶ 
+          Pri<lb ed="#V" n="6" break="no"/>mo determinat de illius peccati commissione quo persona 
+          <lb ed="#V" n="7"/>corrumpit naturam.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e579">
+          ¶ Secundo de corruptionis ad posteros 
+          <lb ed="#V" n="8"/>transrusione qua natura corrumpit per materiam distin. 30. 
+          In<lb ed="#V" n="9" break="no"/>qua incipit agere de peccato originali. ibi. In 
+          superiori<lb ed="#V" n="10" break="no"/>bus insinuatum est. Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e589">
+          ¶ Primo determinat 
+          <lb ed="#V" n="11"/>magister de in pulsu quem primi parentes habuerunt ad 
+          pec<lb ed="#V" n="12" break="no"/>candum.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e596">
+          ¶ Secundo de adiutoriis que habuere ad 
+          resisten<lb ed="#V" n="13" break="no"/>dum. dist. 24. ibi. Nunc diligenter.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e601">
+          ¶ Prima in tres.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e603">
+          ¶ 
+          Pri<lb ed="#V" n="14" break="no"/>mo determinat magister de temptatione primorum 
+          paren<lb ed="#V" n="15" break="no"/>tum ex parte temptantis.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e610">
+          ¶ Secundo ex parte temptati dist. 
+          <lb ed="#V" n="16"/>sequenti. ibi. Hic videtur diligenter.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e615">
+          ¶ Tertio ex parte 
+          <lb ed="#V" n="17"/>dei promittentis dist. 23 ibi. Preterea queri solet Prima 
+          <lb ed="#V" n="18"/>in tres.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e623">
+          ¶ Primo determinat de malitia temptatoris. 
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e625">
+          <lb ed="#V" n="19"/>¶ Secundo de modo temptandi ibi. Temptatio autem. 
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e630">
+          <lb ed="#V" n="20"/>¶ Tertio de speciebus temptationis. ibi. Porro sciendum est 
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e635">
+          <lb ed="#V" n="21"/>¶ Quarto de precepto quod fuit materia temptationis.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e640">
+          ¶ 
+          Uel<lb ed="#V" n="22" break="no"/>melius dicendum quod ibi remouet a muliere viam excusationis 
+          <lb ed="#V" n="23"/>ibi. Illud etiam notandum. Prima in duas.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e647">
+          ¶ Primo 
+          <lb ed="#V" n="24"/>determinat de malitia temptatoris quo ad inuidiam 
+          inte<lb ed="#V" n="25" break="no"/>riorem.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e655">
+          ¶ Secundo quo ad fraudolentam simulationem ibi 
+          <lb ed="#V" n="26"/>Sed quia. Illa pars in qua determinat de modo tempta 
+          <lb ed="#V" n="27"/>di: que ibi incipit. Temptatio autem. Diuiditur in duas. 
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e662">
+          <lb ed="#V" n="28"/>¶ Primo ostendit modum temptandi quantum ad astutiam 
+          <lb ed="#V" n="29"/>interrogandi.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e669">
+          ¶ Secundo quantum ad constantiam 
+          pro<lb ed="#V" n="30" break="no"/>mittendi ibi. Qui ad suam persuasionem.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e674">
+          ¶ Illa pars in 
+          <lb ed="#V" n="31"/>qua agit de speciebus temptationis. Diuiditur in duas.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e679">
+          ¶ 
+          Pri<lb ed="#V" n="32" break="no"/>mo determinat de temptationum diuersitate.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e684">
+          ¶ Secundo de 
+          <lb ed="#V" n="33"/>peccati primorum parentum grauitate et remissibilitate. 
+          <lb ed="#V" n="34"/>ibi Homo igitur. 
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e692">
+          <lb ed="#V" n="35"/>CIrca hanc distin. queruntur tria 
+          prin<lb ed="#V" n="36" break="no"/>cipaliter.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e699">
+          ¶ Primo de 
+          tem<lb ed="#V" n="37" break="no"/>ptatione primorum parentum.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e704">
+          ¶ Secundo de 
+          <lb ed="#V" n="38"/>diuersitate temptationum.
+        </p>
+        <p xml:id="kzz7yh-f59701-d1e709">
+          ¶ Tertio de 
+          grauita<lb ed="#V" n="39" break="no"/>te et remissibilitate peccati quod ex illa temptatione est secutum 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

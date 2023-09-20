@@ -1,248 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="138-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g97074"><!-- l3d36prae -->
-            <head xml:id="kzz7yh-g97074-Hd1e101">Praeambulum</head>
-            <p xml:id="kzz7yh-g97074-d1e103">
-               <lb ed="#V" n="32"/>¶ De connexione virtutum que non separantur. 
-      <lb ed="#V" n="33"/>Distin. XXXVII 
-    </p>
-            <p xml:id="kzz7yh-g97074-d1e110">
-               <lb ed="#V" n="34"/>SOlet etiam queri vtrum 
-      <lb ed="#V" n="35"/>virtutes ita 
-      <lb ed="#V" n="36"/>sint sibi coniuntte vt sepaeratim non possint 
-      <lb ed="#V" n="37"/>possideri ab aliquo: sed qui vnam habet omnes 
-      <lb ed="#V" n="38"/>hab vat: De hoc etiam Hierony. ait. 
-      <lb ed="#V" n="39"/>Omnes virtutes sibi herent vt qui vna caruerit 
-      om<lb ed="#V" n="40" break="no"/>nibus careat. Qui ergo vnam habet omnes habet. Quod qui 
-      <lb ed="#V" n="41"/>dem probabile est. Cum enim charitas mater sit omnium 
-      <lb ed="#V" n="42"/>virtutum: in quocumque mater ipsa est scilicet charitas: et 
-      <lb ed="#V" n="43"/>cuncti filii eius id est virtutes recte fore esse creduntur. 
-      <lb ed="#V" n="44"/>Unde Aug. Ubi charitas est: quid est quod possit 
-      de<lb ed="#V" n="45" break="no"/>esse: vbi autem non est quid est quod possit prodesse. Cur 
-      <lb ed="#V" n="46"/>ergo non dici mus qui hanc virtutem habet omnes habet: cum 
-      <lb ed="#V" n="47"/>plenitudo legis sit charitas: que quantomagis est 
-      <lb ed="#V" n="48"/>in hominestantomagis est virtute preditus. 
-      Quan<lb ed="#V" n="49" break="no"/>to vero minus tanto minus inest virtus: 
-      quanto<lb ed="#V" n="50" break="no"/>minus inest virtus tantomagis inest vitium. 
-   </p>
-            <p xml:id="kzz7yh-g97074-d1e149">
-               <lb ed="#V" n="51"/>¶ Si cuncte virtutes pares sint in quocumque sunt. 
-      <lb ed="#V" n="52"/>Utrum vero pariter quis omnes 
-      pos<lb ed="#V" n="53" break="no"/>sideat virtutes: 
-      an<lb ed="#V" n="54" break="no"/>alie magis alie minus in aliquo ferueant 
-      quaestio<lb ed="#V" n="55" break="no"/>est: Quibusdam enim videtur quod alie magis alie minus 
-      ha<lb ed="#V" n="56" break="no"/>beantur ab aliquo sicut in Iob patientia emicuit: 
-      <lb ed="#V" n="57"/>in Dauid humilitas: in Moyse mansuetudo: qui 
-      <lb ed="#V" n="58"/>etiam contedunt magis aliquem mereri per aliquam vnam 
-      <lb ed="#V" n="59"/>virtutem quam per aliam: sicut eam plenius habet quam aliam. 
-      <lb ed="#V" n="60"/>Non tamen magis per aliquam mereri dicunt quam per 
-      cha<lb ed="#V" n="61" break="no"/>ritatem: nec aliquam: plenius a quoquam haberi quam cha¬ 
-      <!--00285.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="62"/>ritatem. Alias ergo magis: et alias minus in 
-      ali<lb ed="#V" n="63" break="no"/>quo esse dicunt sed nullam plenius charitate quae 
-      cete<lb ed="#V" n="64" break="no"/>ras gignit. Hasque dicunt esse mltas facies quas 
-      memo<lb ed="#V" n="65" break="no"/>rat apstous dicens. Ex personis multarum facierum etc. 
-      <lb ed="#V" n="66"/>Alii verius dicunt omnes virtutes ei similes et pares 
-      <lb ed="#V" n="67"/>esse in quocumque sunt vt qui in vna alteri 
-      parex<lb ed="#V" n="68" break="no"/>titerit: in omnibus eidem equalis sit. Unde Augu. 
-      Uir<lb ed="#V" n="69" break="no"/>tutes que sunt in animo humano: quamuis alio et alio 
-      <lb ed="#V" n="70"/>modo singule intelligantur: nullo modo tamen seperantur ab 
-      <lb ed="#V" n="71"/>inuicem: vt quicumque fuerint equales: verbi gratia. in 
-      <lb ed="#V" n="72"/>fortitudine: equales sint et prudentia: et iustitia: et 
-      <lb ed="#V" n="73"/>temperantia. Si enim dixeris equales esse istos in 
-      forti<lb ed="#V" n="74" break="no"/>tudine: sed illum praestare prudentia: sequitur vt huius 
-      for<lb ed="#V" n="75" break="no"/>titudo minus prudens sit. Ac per hoc nec 
-      forti<lb ed="#V" n="76" break="no"/>tudine equales sunt: quia est illius fortitudo 
-      pru<lb ed="#V" n="77" break="no"/>dentior. Atque ita de ceteris virtutibus inuenies: 
-      si<lb ed="#V" n="78" break="no"/>omnes eadem consideratione percurras. Ex his clarescit 
-      <lb ed="#V" n="79"/>omnes virtutes non modo esse connexas: sed etiam pares 
-      in<lb ed="#V" n="80" break="no"/>animo hominis. Cum ergo dicitur aliquis aliqua preeminere 
-      <lb ed="#V" n="81"/>virtute vt abraham fide. Iob patientia: secundum vsus ex 
-      <lb ed="#V" n="82"/>teriores accipiendum est: vel in comparatione aliorum 
-      ho<lb ed="#V" n="83" break="no"/>minum: quia vel humilitatis habitum maxime praefert: vel 
-      <lb ed="#V" n="84"/>opus fidei: vel alicuius ceterarum virtutum 
-      praecipue<lb ed="#V" n="85" break="no"/>exequitur. Unde et ea pre aliis pollere vel inter 
-      ali<lb ed="#V" n="86" break="no"/>os homines singuliter excellere dicitur. Secundum hunc modum 
-      <lb ed="#V" n="87"/>scilicet secundum rationem actuum exteriorum vt alibi Augu. 
-      <lb ed="#V" n="88"/>dicit: in aliquo aliam magis esse virtutem aliam minus: 
-      <lb ed="#V" n="89"/>et vnam esse non alteram. Ait enim sic. Clarissima 
-      dispu<lb ed="#V" n="90" break="no"/>tatione tua satis apparuit non placuisse auctorita 
-      <lb ed="#V" n="91"/>tibus nostris. immo veritati ipsi omnia paria esse 
-      pecca<lb ed="#V" n="92" break="no"/>ta: est si hoc de virtutibus verum sit: quia et si verum est 
-      <lb ed="#V" n="93"/>eum qui habet vnam omnes virtutes habere: et eum qui 
-      <lb ed="#V" n="94"/>vnam no habet nullam habere: nec si peccata sunt 
-      pa<lb ed="#V" n="95" break="no"/>ria: quia vbi virtus nulla est: nihil rectum est: nec tamen 
-      <lb ed="#V" n="96"/>ideo non est prauo prauius distoroque distortius. 
-      <lb ed="#V" n="97"/>Si autem quod puto esse verius sacrisque litteris 
-      congruen<lb ed="#V" n="98" break="no"/>tius: ita sunt anime intentiones vt corporis membra non 
-      <lb ed="#V" n="99"/>quod videantur locis sed quod sentiantur affectibus: et alius 
-      <lb ed="#V" n="100"/>illuminatur: alius minus: alius omnino caret lumine: 
-      <lb ed="#V" n="101"/>profecto vt quisque illustratione pie charitatis 
-      af<lb ed="#V" n="102" break="no"/>fectus: est in alio actu magis: in alio minus: in 
-      <lb ed="#V" n="103"/>aliquo nihil: sic dici potest hebere aliam: et aliam non 
-      ha<lb ed="#V" n="104" break="no"/>bere: et aliam magis aliam minus. Nam et maior est 
-      <lb ed="#V" n="105"/>in isto charitas quam in illo: et ideo recte possumus 
-      di<lb ed="#V" n="106" break="no"/>cere et aliqua in isto: nulla in illo: quantum pertinet 
-      <lb ed="#V" n="107"/>ad charitatem que pietas est: et in vno homine quidem 
-      <lb ed="#V" n="108"/>quod maiorem habeat pudicitiam quam patientiam: et 
-      maio<lb ed="#V" n="109" break="no"/>rem hodie quam heri si proficit: et adhuc non habeat 
-      <lb ed="#V" n="110"/>continentiam: et habeat non paruam misericordiam. Et 
-      <lb ed="#V" n="111"/>vt generaliter breuiterque complectatur quam de virtum 
-      <lb ed="#V" n="112"/>te habeo notionem: virtus est charitas qui id quod 
-      dili<lb ed="#V" n="113" break="no"/>gendum est diligitur. Hec et in aliis maior: et in 
-      <lb ed="#V" n="114"/>aliis minor: et in aliis nulla est. Plenisumma 
-      ve<lb ed="#V" n="115" break="no"/>ro que iam non possit augeri quamdiu hic homo viuit 
-      <lb ed="#V" n="116"/>in nemine est. Hic insinuari videtur: quod aliquis ea 
-      <lb ed="#V" n="117"/>ratione possit dici habere vnam virtutem magisquam 
-      <!--00286.xml-->
-      <pb ed="#V" n="138-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>aliam quia per charitatem magis afficitur in actu 
-      <lb ed="#V" n="2"/>vnius virtutis quam alterius: et propter differentiam 
-      <lb ed="#V" n="3"/>actuum ipsas virtutes magis vel minus 
-      habe<lb ed="#V" n="4" break="no"/>re dicitur: potest et aliquam non: habere: cum tamen simul 
-      <lb ed="#V" n="5"/>omnes et pariter habeat quantum ad mentis 
-      habi<lb ed="#V" n="6" break="no"/>tum vel essentiam cuiusque. In actu vero aliam 
-      ma<lb ed="#V" n="7" break="no"/>gis aliam minus habet: aliam etiam non habet: vt vir iustus 
-      <lb ed="#V" n="8"/>vtens coniugio non habet continentiam in actu quam 
-      <lb ed="#V" n="9"/>tamen habet in habitu. Cum ergo non dicantur paria 
-      pec<lb ed="#V" n="10" break="no"/>cata: Forte quia magis facit contra charitatem qui 
-      <lb ed="#V" n="11"/>grauius peccat. minus: qui leuius. Nemo enim 
-      <lb ed="#V" n="12"/>peccat nisi aduersus illam faciendo que est 
-      pleni<lb ed="#V" n="13" break="no"/>tudo legis. Ideo recte dicitur. Qui offenderitin 
-      vno<lb ed="#V" n="14" break="no"/>factus est omnium reus id est contra charitatem 
-      fa<lb ed="#V" n="15" break="no"/>cit in qua pendent omnia. 
-   </p>
-            <p xml:id="kzz7yh-g97074-d1e340">
-               <lb ed="#V" n="16"/>¶ Repetit de charitate vt addat quomodo tota 
-      <lb ed="#V" n="17"/>lex in ea pendet. 
-      <lb ed="#V" n="18"/>Cum duo sint precepta charitatis in 
-      <lb ed="#V" n="19"/>quibus vt pretaxatum est 
-      <lb ed="#V" n="20"/>tota lex pendet et prophete. Aduertendum est 
-      <lb ed="#V" n="21"/>quomodo hoc sit cum in lege et prophetis multa 
-      <lb ed="#V" n="22"/>fuerunt cerimonialia mandata que si ad 
-      chari<lb ed="#V" n="23" break="no"/>tatis sanctificationem pertinuissent: viderentur non 
-      <lb ed="#V" n="24"/>debere cessare. Quia vero non iustificationis 
-      gra<lb ed="#V" n="25" break="no"/>tia quam facit charitas instituta sunt sed in 
-      figu<lb ed="#V" n="26" break="no"/>ra futuri: et in onus posita: ideo clarescente 
-      verita<lb ed="#V" n="27" break="no"/>te cessauerunt velut vmbra. Ueruntamen et ipsa 
-      <lb ed="#V" n="28"/>cerimonialia secundum spiritualem intellectum 
-      quem<lb ed="#V" n="29" break="no"/>continent: et omnia moralia ad charitatem referuntur. 
-      <lb ed="#V" n="30"/>Pertinent enim omnia ad decem mandata in 
-      tabu<lb ed="#V" n="31" break="no"/>lis scripta vbi omnium summa perstringitur: ex 
-      qui<lb ed="#V" n="32" break="no"/>bus cetera emanant sicut in sermone domini octo 
-      vir<lb ed="#V" n="33" break="no"/>tutes premittuntur ad quas cetera referuntur. Et 
-      <lb ed="#V" n="34"/>sicut ad decem mandata decalogi cetera 
-      refe<lb ed="#V" n="35" break="no"/>runtur: ita et ipsa decem ad duo mandata 
-      charita<lb ed="#V" n="36" break="no"/>tis. Omnia ergo ad duo mandata charitatis 
-      <lb ed="#V" n="37"/>pertinent quia per charitatem implentur: et ad 
-      chari<lb ed="#V" n="38" break="no"/>tatem tamquam ad finem referri possunt. Unde Augn. 
-      <lb ed="#V" n="39"/>Totam magnitudinem et amplitudinem diuinorum 
-      <lb ed="#V" n="40"/>eloquiorum possidet charitas qua deum proximumque 
-      <lb ed="#V" n="41"/>diligimus que radix est omnium bonorum. Unde 
-      veri<lb ed="#V" n="42" break="no"/>tas ait. In his duobus mandatis vniuersa lex 
-      <lb ed="#V" n="43"/>pendet et prophete. Sic ergo non vacat omnes 
-      pa<lb ed="#V" n="44" break="no"/>ginas sanctas perscrutari omnia inuoluta 
-      sermo<lb ed="#V" n="45" break="no"/>num inuoluere. tene charitatem vbi pendent omnia: 
-      <lb ed="#V" n="46"/>quia perfectio est et finis omnium. Tunc enim et 
-      pre<lb ed="#V" n="47" break="no"/>cepta et consilia recte siunt cum referuntur an 
-      dili<lb ed="#V" n="48" break="no"/>gendum deum et proximum propter deum. Quod 
-      ve<lb ed="#V" n="49" break="no"/>ro timore pene vel aliqua intentione carnali sit 
-      <lb ed="#V" n="50"/>vt non referatur ad charitatem: nondum sit 
-      si<lb ed="#V" n="51" break="no"/>cut fieri oportet quamuis fieri videatur. Inimicus 
-      <lb ed="#V" n="52"/>enim iustitie est qui pene timore non peccat. 
-      Ami<lb ed="#V" n="53" break="no"/>cus vero iustitie qui eius amore non peccat. 
-      Om<lb ed="#V" n="54" break="no"/>nium ergo hec summa est vt intelligatur legis 
-      <lb ed="#V" n="55"/>et omnium diuinarum scripturarum plenitudo 
-      <lb ed="#V" n="56"/>esse dilectio dei et proximi. Distinctio XXXVII 
-      <!--00286.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="57"/>Oolet etiam queri etc. Superius 
-      de<lb ed="#V" n="58" break="no"/>terminauit magister de 
-      <lb ed="#V" n="59"/>virtutibus secundum se: hic determinat de virtutum 
-      con<lb ed="#V" n="60" break="no"/>nexionem: et diuiditur in partes tres.
-   </p>
-            <p xml:id="kzz7yh-g97074-d1e445">
-      ¶ Primo 
-      osten<lb ed="#V" n="61" break="no"/>dit virtutum inseparabilitatem.
-   </p>
-            <p xml:id="kzz7yh-g97074-d1e450">
-      ¶ Secundo earum in 
-      eo<lb ed="#V" n="62" break="no"/>dem equalitatem ibi. Utrum vero
-   </p>
-            <p xml:id="kzz7yh-g97074-d1e455">
-      ¶ Tertio ostendit 
-      charita<lb ed="#V" n="63" break="no"/>tis excellentiam specialem ibi. Cum duo sint precepta
-   </p>
-            <p xml:id="kzz7yh-g97074-d1e460">
-      ¶ 
-      Se<lb ed="#V" n="64" break="no"/>cunda in tres.
-   </p>
-            <p xml:id="kzz7yh-g97074-d1e465">
-      ¶ Primo ponit vnam opinionem de 
-      equali<lb ed="#V" n="65" break="no"/>tate virtutum in eodem.
-   </p>
-            <p xml:id="kzz7yh-g97074-d1e470">
-      ¶ Secundo aliam: ibi. Alii veriusI. 
-   </p>
-            <p xml:id="kzz7yh-g97074-d1e473">
-               <lb ed="#V" n="66"/>¶ Tertio respondet ad ea que videbantur facere pro prima 
-      opi<lb ed="#V" n="67" break="no"/>nione: ibi. Cum ergo dicitur aliquisil.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="138-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g97074"><!-- l3d36prae -->
+        <head xml:id="kzz7yh-g97074-Hd1e101">Praeambulum</head>
+        <!--<p xml:id="kzz7yh-g97074-d1e103">
+          <lb ed="#V" n="32"/>¶ De connexione virtutum que non separantur. 
+          <lb ed="#V" n="33"/>Distin. XXXVII 
+          </p>
+          <p xml:id="kzz7yh-g97074-d1e110">
+          <lb ed="#V" n="34"/>SOlet etiam queri vtrum 
+          <lb ed="#V" n="35"/>virtutes ita 
+          <lb ed="#V" n="36"/>sint sibi coniuntte vt sepaeratim non possint 
+          <lb ed="#V" n="37"/>possideri ab aliquo: sed qui vnam habet omnes 
+          <lb ed="#V" n="38"/>hab vat: De hoc etiam Hierony. ait. 
+          <lb ed="#V" n="39"/>Omnes virtutes sibi herent vt qui vna caruerit 
+          om<lb ed="#V" n="40" break="no"/>nibus careat. Qui ergo vnam habet omnes habet. Quod qui 
+          <lb ed="#V" n="41"/>dem probabile est. Cum enim charitas mater sit omnium 
+          <lb ed="#V" n="42"/>virtutum: in quocumque mater ipsa est scilicet charitas: et 
+          <lb ed="#V" n="43"/>cuncti filii eius id est virtutes recte fore esse creduntur. 
+          <lb ed="#V" n="44"/>Unde Aug. Ubi charitas est: quid est quod possit 
+          de<lb ed="#V" n="45" break="no"/>esse: vbi autem non est quid est quod possit prodesse. Cur 
+          <lb ed="#V" n="46"/>ergo non dici mus qui hanc virtutem habet omnes habet: cum 
+          <lb ed="#V" n="47"/>plenitudo legis sit charitas: que quantomagis est 
+          <lb ed="#V" n="48"/>in hominestantomagis est virtute preditus. 
+          Quan<lb ed="#V" n="49" break="no"/>to vero minus tanto minus inest virtus: 
+          quanto<lb ed="#V" n="50" break="no"/>minus inest virtus tantomagis inest vitium. 
+          </p>
+          <p xml:id="kzz7yh-g97074-d1e149">
+          <lb ed="#V" n="51"/>¶ Si cuncte virtutes pares sint in quocumque sunt. 
+          <lb ed="#V" n="52"/>Utrum vero pariter quis omnes 
+          pos<lb ed="#V" n="53" break="no"/>sideat virtutes: 
+          an<lb ed="#V" n="54" break="no"/>alie magis alie minus in aliquo ferueant 
+          quaestio<lb ed="#V" n="55" break="no"/>est: Quibusdam enim videtur quod alie magis alie minus 
+          ha<lb ed="#V" n="56" break="no"/>beantur ab aliquo sicut in Iob patientia emicuit: 
+          <lb ed="#V" n="57"/>in Dauid humilitas: in Moyse mansuetudo: qui 
+          <lb ed="#V" n="58"/>etiam contedunt magis aliquem mereri per aliquam vnam 
+          <lb ed="#V" n="59"/>virtutem quam per aliam: sicut eam plenius habet quam aliam. 
+          <lb ed="#V" n="60"/>Non tamen magis per aliquam mereri dicunt quam per 
+          cha<lb ed="#V" n="61" break="no"/>ritatem: nec aliquam: plenius a quoquam haberi quam cha¬ 
+          <!-\-00285.xml-\->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="62"/>ritatem. Alias ergo magis: et alias minus in 
+          ali<lb ed="#V" n="63" break="no"/>quo esse dicunt sed nullam plenius charitate quae 
+          cete<lb ed="#V" n="64" break="no"/>ras gignit. Hasque dicunt esse mltas facies quas 
+          memo<lb ed="#V" n="65" break="no"/>rat apstous dicens. Ex personis multarum facierum etc. 
+          <lb ed="#V" n="66"/>Alii verius dicunt omnes virtutes ei similes et pares 
+          <lb ed="#V" n="67"/>esse in quocumque sunt vt qui in vna alteri 
+          parex<lb ed="#V" n="68" break="no"/>titerit: in omnibus eidem equalis sit. Unde Augu. 
+          Uir<lb ed="#V" n="69" break="no"/>tutes que sunt in animo humano: quamuis alio et alio 
+          <lb ed="#V" n="70"/>modo singule intelligantur: nullo modo tamen seperantur ab 
+          <lb ed="#V" n="71"/>inuicem: vt quicumque fuerint equales: verbi gratia. in 
+          <lb ed="#V" n="72"/>fortitudine: equales sint et prudentia: et iustitia: et 
+          <lb ed="#V" n="73"/>temperantia. Si enim dixeris equales esse istos in 
+          forti<lb ed="#V" n="74" break="no"/>tudine: sed illum praestare prudentia: sequitur vt huius 
+          for<lb ed="#V" n="75" break="no"/>titudo minus prudens sit. Ac per hoc nec 
+          forti<lb ed="#V" n="76" break="no"/>tudine equales sunt: quia est illius fortitudo 
+          pru<lb ed="#V" n="77" break="no"/>dentior. Atque ita de ceteris virtutibus inuenies: 
+          si<lb ed="#V" n="78" break="no"/>omnes eadem consideratione percurras. Ex his clarescit 
+          <lb ed="#V" n="79"/>omnes virtutes non modo esse connexas: sed etiam pares 
+          in<lb ed="#V" n="80" break="no"/>animo hominis. Cum ergo dicitur aliquis aliqua preeminere 
+          <lb ed="#V" n="81"/>virtute vt abraham fide. Iob patientia: secundum vsus ex 
+          <lb ed="#V" n="82"/>teriores accipiendum est: vel in comparatione aliorum 
+          ho<lb ed="#V" n="83" break="no"/>minum: quia vel humilitatis habitum maxime praefert: vel 
+          <lb ed="#V" n="84"/>opus fidei: vel alicuius ceterarum virtutum 
+          praecipue<lb ed="#V" n="85" break="no"/>exequitur. Unde et ea pre aliis pollere vel inter 
+          ali<lb ed="#V" n="86" break="no"/>os homines singuliter excellere dicitur. Secundum hunc modum 
+          <lb ed="#V" n="87"/>scilicet secundum rationem actuum exteriorum vt alibi Augu. 
+          <lb ed="#V" n="88"/>dicit: in aliquo aliam magis esse virtutem aliam minus: 
+          <lb ed="#V" n="89"/>et vnam esse non alteram. Ait enim sic. Clarissima 
+          dispu<lb ed="#V" n="90" break="no"/>tatione tua satis apparuit non placuisse auctorita 
+          <lb ed="#V" n="91"/>tibus nostris. immo veritati ipsi omnia paria esse 
+          pecca<lb ed="#V" n="92" break="no"/>ta: est si hoc de virtutibus verum sit: quia et si verum est 
+          <lb ed="#V" n="93"/>eum qui habet vnam omnes virtutes habere: et eum qui 
+          <lb ed="#V" n="94"/>vnam no habet nullam habere: nec si peccata sunt 
+          pa<lb ed="#V" n="95" break="no"/>ria: quia vbi virtus nulla est: nihil rectum est: nec tamen 
+          <lb ed="#V" n="96"/>ideo non est prauo prauius distoroque distortius. 
+          <lb ed="#V" n="97"/>Si autem quod puto esse verius sacrisque litteris 
+          congruen<lb ed="#V" n="98" break="no"/>tius: ita sunt anime intentiones vt corporis membra non 
+          <lb ed="#V" n="99"/>quod videantur locis sed quod sentiantur affectibus: et alius 
+          <lb ed="#V" n="100"/>illuminatur: alius minus: alius omnino caret lumine: 
+          <lb ed="#V" n="101"/>profecto vt quisque illustratione pie charitatis 
+          af<lb ed="#V" n="102" break="no"/>fectus: est in alio actu magis: in alio minus: in 
+          <lb ed="#V" n="103"/>aliquo nihil: sic dici potest hebere aliam: et aliam non 
+          ha<lb ed="#V" n="104" break="no"/>bere: et aliam magis aliam minus. Nam et maior est 
+          <lb ed="#V" n="105"/>in isto charitas quam in illo: et ideo recte possumus 
+          di<lb ed="#V" n="106" break="no"/>cere et aliqua in isto: nulla in illo: quantum pertinet 
+          <lb ed="#V" n="107"/>ad charitatem que pietas est: et in vno homine quidem 
+          <lb ed="#V" n="108"/>quod maiorem habeat pudicitiam quam patientiam: et 
+          maio<lb ed="#V" n="109" break="no"/>rem hodie quam heri si proficit: et adhuc non habeat 
+          <lb ed="#V" n="110"/>continentiam: et habeat non paruam misericordiam. Et 
+          <lb ed="#V" n="111"/>vt generaliter breuiterque complectatur quam de virtum 
+          <lb ed="#V" n="112"/>te habeo notionem: virtus est charitas qui id quod 
+          dili<lb ed="#V" n="113" break="no"/>gendum est diligitur. Hec et in aliis maior: et in 
+          <lb ed="#V" n="114"/>aliis minor: et in aliis nulla est. Plenisumma 
+          ve<lb ed="#V" n="115" break="no"/>ro que iam non possit augeri quamdiu hic homo viuit 
+          <lb ed="#V" n="116"/>in nemine est. Hic insinuari videtur: quod aliquis ea 
+          <lb ed="#V" n="117"/>ratione possit dici habere vnam virtutem magisquam 
+          <!-\-00286.xml-\->
+          <pb ed="#V" n="138-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>aliam quia per charitatem magis afficitur in actu 
+          <lb ed="#V" n="2"/>vnius virtutis quam alterius: et propter differentiam 
+          <lb ed="#V" n="3"/>actuum ipsas virtutes magis vel minus 
+          habe<lb ed="#V" n="4" break="no"/>re dicitur: potest et aliquam non: habere: cum tamen simul 
+          <lb ed="#V" n="5"/>omnes et pariter habeat quantum ad mentis 
+          habi<lb ed="#V" n="6" break="no"/>tum vel essentiam cuiusque. In actu vero aliam 
+          ma<lb ed="#V" n="7" break="no"/>gis aliam minus habet: aliam etiam non habet: vt vir iustus 
+          <lb ed="#V" n="8"/>vtens coniugio non habet continentiam in actu quam 
+          <lb ed="#V" n="9"/>tamen habet in habitu. Cum ergo non dicantur paria 
+          pec<lb ed="#V" n="10" break="no"/>cata: Forte quia magis facit contra charitatem qui 
+          <lb ed="#V" n="11"/>grauius peccat. minus: qui leuius. Nemo enim 
+          <lb ed="#V" n="12"/>peccat nisi aduersus illam faciendo que est 
+          pleni<lb ed="#V" n="13" break="no"/>tudo legis. Ideo recte dicitur. Qui offenderitin 
+          vno<lb ed="#V" n="14" break="no"/>factus est omnium reus id est contra charitatem 
+          fa<lb ed="#V" n="15" break="no"/>cit in qua pendent omnia. 
+          </p>
+          <p xml:id="kzz7yh-g97074-d1e340">
+          <lb ed="#V" n="16"/>¶ Repetit de charitate vt addat quomodo tota 
+          <lb ed="#V" n="17"/>lex in ea pendet. 
+          <lb ed="#V" n="18"/>Cum duo sint precepta charitatis in 
+          <lb ed="#V" n="19"/>quibus vt pretaxatum est 
+          <lb ed="#V" n="20"/>tota lex pendet et prophete. Aduertendum est 
+          <lb ed="#V" n="21"/>quomodo hoc sit cum in lege et prophetis multa 
+          <lb ed="#V" n="22"/>fuerunt cerimonialia mandata que si ad 
+          chari<lb ed="#V" n="23" break="no"/>tatis sanctificationem pertinuissent: viderentur non 
+          <lb ed="#V" n="24"/>debere cessare. Quia vero non iustificationis 
+          gra<lb ed="#V" n="25" break="no"/>tia quam facit charitas instituta sunt sed in 
+          figu<lb ed="#V" n="26" break="no"/>ra futuri: et in onus posita: ideo clarescente 
+          verita<lb ed="#V" n="27" break="no"/>te cessauerunt velut vmbra. Ueruntamen et ipsa 
+          <lb ed="#V" n="28"/>cerimonialia secundum spiritualem intellectum 
+          quem<lb ed="#V" n="29" break="no"/>continent: et omnia moralia ad charitatem referuntur. 
+          <lb ed="#V" n="30"/>Pertinent enim omnia ad decem mandata in 
+          tabu<lb ed="#V" n="31" break="no"/>lis scripta vbi omnium summa perstringitur: ex 
+          qui<lb ed="#V" n="32" break="no"/>bus cetera emanant sicut in sermone domini octo 
+          vir<lb ed="#V" n="33" break="no"/>tutes premittuntur ad quas cetera referuntur. Et 
+          <lb ed="#V" n="34"/>sicut ad decem mandata decalogi cetera 
+          refe<lb ed="#V" n="35" break="no"/>runtur: ita et ipsa decem ad duo mandata 
+          charita<lb ed="#V" n="36" break="no"/>tis. Omnia ergo ad duo mandata charitatis 
+          <lb ed="#V" n="37"/>pertinent quia per charitatem implentur: et ad 
+          chari<lb ed="#V" n="38" break="no"/>tatem tamquam ad finem referri possunt. Unde Augn. 
+          <lb ed="#V" n="39"/>Totam magnitudinem et amplitudinem diuinorum 
+          <lb ed="#V" n="40"/>eloquiorum possidet charitas qua deum proximumque 
+          <lb ed="#V" n="41"/>diligimus que radix est omnium bonorum. Unde 
+          veri<lb ed="#V" n="42" break="no"/>tas ait. In his duobus mandatis vniuersa lex 
+          <lb ed="#V" n="43"/>pendet et prophete. Sic ergo non vacat omnes 
+          pa<lb ed="#V" n="44" break="no"/>ginas sanctas perscrutari omnia inuoluta 
+          sermo<lb ed="#V" n="45" break="no"/>num inuoluere. tene charitatem vbi pendent omnia: 
+          <lb ed="#V" n="46"/>quia perfectio est et finis omnium. Tunc enim et 
+          pre<lb ed="#V" n="47" break="no"/>cepta et consilia recte siunt cum referuntur an 
+          dili<lb ed="#V" n="48" break="no"/>gendum deum et proximum propter deum. Quod 
+          ve<lb ed="#V" n="49" break="no"/>ro timore pene vel aliqua intentione carnali sit 
+          <lb ed="#V" n="50"/>vt non referatur ad charitatem: nondum sit 
+          si<lb ed="#V" n="51" break="no"/>cut fieri oportet quamuis fieri videatur. Inimicus 
+          <lb ed="#V" n="52"/>enim iustitie est qui pene timore non peccat. 
+          Ami<lb ed="#V" n="53" break="no"/>cus vero iustitie qui eius amore non peccat. 
+          Om<lb ed="#V" n="54" break="no"/>nium ergo hec summa est vt intelligatur legis 
+          <lb ed="#V" n="55"/>et omnium diuinarum scripturarum plenitudo 
+          <lb ed="#V" n="56"/>esse dilectio dei et proximi. 
+          </p>-->
+        <p xml:id="kzz7yh-g97074-d1e106">
+          Distinctio XXXVII 
+          <!--00286.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="57"/>Solet etiam queri etc. Superius 
+          de<lb ed="#V" n="58" break="no"/>terminauit magister de 
+          <lb ed="#V" n="59"/>virtutibus secundum se: hic determinat de virtutum 
+          con<lb ed="#V" n="60" break="no"/>nexionem: et diuiditur in partes tres.
+        </p>
+        <p xml:id="kzz7yh-g97074-d1e445">
+          ¶ Primo 
+          osten<lb ed="#V" n="61" break="no"/>dit virtutum inseparabilitatem.
+        </p>
+        <p xml:id="kzz7yh-g97074-d1e450">
+          ¶ Secundo earum in 
+          eo<lb ed="#V" n="62" break="no"/>dem equalitatem ibi. Utrum vero
+        </p>
+        <p xml:id="kzz7yh-g97074-d1e455">
+          ¶ Tertio ostendit 
+          charita<lb ed="#V" n="63" break="no"/>tis excellentiam specialem ibi. Cum duo sint precepta
+        </p>
+        <p xml:id="kzz7yh-g97074-d1e460">
+          ¶ 
+          Se<lb ed="#V" n="64" break="no"/>cunda in tres.
+        </p>
+        <p xml:id="kzz7yh-g97074-d1e465">
+          ¶ Primo ponit vnam opinionem de 
+          equali<lb ed="#V" n="65" break="no"/>tate virtutum in eodem.
+        </p>
+        <p xml:id="kzz7yh-g97074-d1e470">
+          ¶ Secundo aliam: ibi. Alii veriusI. 
+        </p>
+        <p xml:id="kzz7yh-g97074-d1e473">
+          <lb ed="#V" n="66"/>¶ Tertio respondet ad ea que videbantur facere pro prima 
+          opi<lb ed="#V" n="67" break="no"/>nione: ibi. Cum ergo dicitur aliquisil.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
