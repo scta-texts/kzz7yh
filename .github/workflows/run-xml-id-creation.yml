@@ -48,9 +48,12 @@ jobs:
           const changedFiles = files.map(file => file.filename).join(' ');
           console.log("Changed files:", changedFiles);
           return { changedFiles };
+      env:
+        GITHUB_OUTPUT: ${{ steps.changed-files.outputs.changedFiles }}
   
     - name: Set CHANGED_FILES environment variable
       run: |
+        echo ${{ steps.changed-files.outputs.changedFiles }}
         echo "CHANGED_FILES=${{ steps.changed-files.outputs.changedFiles }}" >> $GITHUB_ENV
 
     - name: Debug CHANGED_FILES
