@@ -59,8 +59,6 @@ jobs:
         set -x
         echo "BASE_SHA: $BASE_SHA"
         echo "HEAD_SHA: $HEAD_SHA"
-        echo "Git diff output:"
-        git diff $BASE_SHA $HEAD_SHA
         echo "Git diff --name-only output:"
         git diff --name-only $BASE_SHA $HEAD_SHA
         MODIFIED_FILES=$(git diff --name-only $BASE_SHA $HEAD_SHA | grep '\.xml$' || true)
