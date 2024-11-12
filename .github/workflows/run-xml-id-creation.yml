@@ -37,11 +37,22 @@ jobs:
       
     - name: Get changed files
       id: changed-files
-      run: |
-        CHANGED_FILES=$(jq -r '.pull_request.changed_files[] | select(.status == "modified") | .filename' $GITHUB_EVENT_PATH)
-        echo "Changed files: $CHANGED_FILES"
-        echo "CHANGED_FILES=${CHANGED_FILES}" >> $GITHUB_ENV
+      uses: actions/github-script@v4
+      with:
+        script: |
+          const { data: files } = await github.pulls.listFiles({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            pull_number: context.payload.pull_request.number,
+          });
+          const changedFiles = files.map(file => file.filename).join(' ');
+          console.log("Changed files:", changedFiles);
+          return { changedFiles };
   
+    - name: Set CHANGED_FILES environment variable
+      run: |
+        echo "CHANGED_FILES=${{ steps.changed-files.outputs.changedFiles }}" >> $GITHUB_ENV
+
     - name: Debug CHANGED_FILES
       run: |
         echo "Debugging CHANGED_FILES"
