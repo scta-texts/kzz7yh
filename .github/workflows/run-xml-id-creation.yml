@@ -3,7 +3,6 @@ name: Run XML ID creation
 on:
   pull_request_target:
     types: [ready_for_review]
-  workflow_dispatch:
 
 jobs:
   run-xslt:
@@ -36,40 +35,30 @@ jobs:
       run: |
         wget https://gist.githubusercontent.com/jeffreycwitt/07e9ca3cf73cad708f78bcf05273212f/raw/d93fe6ad36ebb31682eaa32d2dce14d950ee7605/line-number-creation.xsl -O stylesheetLineNumber.xsl
       
-    - name: Determine commit SHAs
-      id: determine-shas
-      run: |
-        if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-          HEAD_SHA=$(git rev-parse HEAD)
-          BASE_SHA=$(git rev-parse HEAD^)
-          TARGET_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-          echo "Using default SHAs: BASE_SHA=$BASE_SHA, HEAD_SHA=$HEAD_SHA"
-        else
-          BASE_SHA="${{ github.event.pull_request.base.sha }}"
-          HEAD_SHA="${{ github.event.pull_request.head.sha }}"
-          TARGET_BRANCH="${{ github.event.pull_request.head.ref }}"
-        fi
-        echo "BASE_SHA=$BASE_SHA" >> $GITHUB_ENV
-        echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
-        echo "TARGET_BRANCH=$TARGET_BRANCH" >> $GITHUB_ENV
+    - name: Get changed files
+      id: changed-files
+      uses: actions/github-script@v4
+      with:
+        script: |
+          const { data: files } = await github.pulls.listFiles({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            pull_number: context.payload.pull_request.number,
+          });
 
-    - name: Identify modified XML files
-      id: modified-xml
+          const changedFiles = files.map(file => file.filename).join(' ');
+          return { changedFiles };
+  
+    - name: Output changed files
       run: |
-        set -x
-        echo "BASE_SHA: $BASE_SHA"
-        echo "HEAD_SHA: $HEAD_SHA"
-        echo "Git diff --name-only output:"
-        git diff --name-only $BASE_SHA $HEAD_SHA
-        MODIFIED_FILES=$(git diff --name-only $BASE_SHA $HEAD_SHA | grep '\.xml$' || true)
-        echo "Modified XML files: $MODIFIED_FILES"
-        echo "files=$(echo $MODIFIED_FILES | tr '\n' ' ')" >> $GITHUB_OUTPUT
+        echo "Changed files: ${{ steps.changed-files.outputs.changedFiles }}"
+        echo "CHANGED_FILES=${{ steps.changed-files.outputs.changedFiles }}" >> $GITHUB_ENV
 
     - name: Run XSLT transformation
-      if: steps.modified-xml.outputs.files != ''
+      if: env.CHANGED_FILES != ''
       run: |
-        echo ${{ steps.modified-xml.outputs.files }}
-        for file in ${{ steps.modified-xml.outputs.files }}; do
+        echo "Changed files: $CHANGED_FILES"
+        for file in $CHANGED_FILES; do
           echo $file
           dir_name=$(dirname "$file")
           echo $dir_name
@@ -87,14 +76,14 @@ jobs:
         done
 
     - name: Commit and push changes
-      if: steps.modified-xml.outputs.files != ''
+      if: env.CHANGED_FILES != ''
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         set -x
         git config --global user.name 'jeffreycwitt'
         git config --global user.email 'jeffreycwitt@gmail.com'
-        git add ${{ steps.modified-xml.outputs.files }}
+        git add $CHANGED_FILES
         if git diff-index --quiet HEAD; then
           echo "No changes to commit"
         else
