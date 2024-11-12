@@ -45,7 +45,8 @@ jobs:
             repo: context.repo.repo,
             pull_number: context.payload.pull_request.number,
           });
-          console.log("file", file);
+          console.log("Files changed in the pull request:", files);
+          
           const changedFiles = files.map(file => file.filename).join(' ');
           return { changedFiles };
   
