@@ -37,23 +37,15 @@ jobs:
       
     - name: Get changed files
       id: changed-files
-      uses: actions/github-script@v4
-      with:
-        script: |
-          const { data: files } = await github.pulls.listFiles({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            pull_number: context.payload.pull_request.number,
-          });
-          console.log("Files changed in the pull request:", files);
-          
-          const changedFiles = files.map(file => file.filename).join(' ');
-          return { changedFiles };
-  
-    - name: Output changed files
       run: |
-        echo "Changed files: ${{ steps.changed-files.outputs.changedFiles }}"
-        echo "CHANGED_FILES=${{ steps.changed-files.outputs.changedFiles }}" >> $GITHUB_ENV
+        CHANGED_FILES=$(jq -r '.pull_request.changed_files[] | select(.status == "modified") | .filename' $GITHUB_EVENT_PATH)
+        echo "Changed files: $CHANGED_FILES"
+        echo "CHANGED_FILES=${CHANGED_FILES}" >> $GITHUB_ENV
+  
+    - name: Debug CHANGED_FILES
+      run: |
+        echo "Debugging CHANGED_FILES"
+        echo "$CHANGED_FILES"
 
     - name: Run XSLT transformation
       if: env.CHANGED_FILES != ''
