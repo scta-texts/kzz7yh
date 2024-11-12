@@ -1,0 +1,105 @@
+name: Run XML ID creation
+
+on:
+  pull_request_target:
+    types: [ready_for_review]
+  workflow_dispatch:
+
+jobs:
+  run-xslt:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.ref }}
+        fetch-depth: 0 # Fetch all history for all branches and tags
+
+
+    - name: Set up Java
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt'
+        java-version: '11'
+
+    - name: Download Saxon
+      run: |
+        wget https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar -O saxon.jar
+
+    - name: Download XSL file from Gist
+      run: |
+        wget https://gist.githubusercontent.com/jeffreycwitt/3c6c73b624000b6a94265d991aec8494/raw/08d0166c4f320200e18bc7d4d8a210e4ff7b1aa2/xmlid-creation.xslt -O stylesheet.xsl
+    
+    - name: Download XSL Line Number Creation file from Gist
+      run: |
+        wget https://gist.githubusercontent.com/jeffreycwitt/07e9ca3cf73cad708f78bcf05273212f/raw/d93fe6ad36ebb31682eaa32d2dce14d950ee7605/line-number-creation.xsl -O stylesheetLineNumber.xsl
+      
+    - name: Determine commit SHAs
+      id: determine-shas
+      run: |
+        if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+          HEAD_SHA=$(git rev-parse HEAD)
+          BASE_SHA=$(git rev-parse HEAD^)
+          TARGET_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+          echo "Using default SHAs: BASE_SHA=$BASE_SHA, HEAD_SHA=$HEAD_SHA"
+        else
+          BASE_SHA="${{ github.event.pull_request.base.sha }}"
+          HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          TARGET_BRANCH="${{ github.event.pull_request.head.ref }}"
+        fi
+        echo "BASE_SHA=$BASE_SHA" >> $GITHUB_ENV
+        echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
+        echo "TARGET_BRANCH=$TARGET_BRANCH" >> $GITHUB_ENV
+
+    - name: Identify modified XML files
+      id: modified-xml
+      run: |
+        set -x
+        echo "BASE_SHA: $BASE_SHA"
+        echo "HEAD_SHA: $HEAD_SHA"
+        echo "Git diff output:"
+        git diff $BASE_SHA $HEAD_SHA
+        echo "Git diff --name-only output:"
+        git diff --name-only $BASE_SHA $HEAD_SHA
+        MODIFIED_FILES=$(git diff --name-only $BASE_SHA $HEAD_SHA | grep '\.xml$' || true)
+        echo "Modified XML files: $MODIFIED_FILES"
+        echo "files=$(echo $MODIFIED_FILES | tr '\n' ' ')" >> $GITHUB_OUTPUT
+
+    - name: Run XSLT transformation
+      if: steps.modified-xml.outputs.files != ''
+      run: |
+        echo ${{ steps.modified-xml.outputs.files }}
+        for file in ${{ steps.modified-xml.outputs.files }}; do
+          echo $file
+          dir_name=$(dirname "$file")
+          echo $dir_name
+          base_file=$(basename "$file")
+          echo $base_file
+          if grep -q "<transcription use-for-extraction=\"true\">${base_file}</transcription>" ${dir_name}/transcriptions.xml; then
+            echo "Processing xml:id creation in canonical manifestation $file"
+            java -jar saxon.jar -s:$file -xsl:stylesheet.xsl -o:$file
+          else
+            echo "No matching transcription file found for $file"
+          fi
+
+          echo "Processing line number creation $file"
+          java -jar saxon.jar -s:$file -xsl:stylesheetLineNumber.xsl -o:$file
+        done
+
+    - name: Commit and push changes
+      if: steps.modified-xml.outputs.files != ''
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        set -x
+        git config --global user.name 'jeffreycwitt'
+        git config --global user.email 'jeffreycwitt@gmail.com'
+        git add ${{ steps.modified-xml.outputs.files }}
+        if git diff-index --quiet HEAD; then
+          echo "No changes to commit"
+        else
+          git commit -m 'Apply XSLT transformation to modified XML files'
+          git push origin HEAD:$TARGET_BRANCH
+        fi
