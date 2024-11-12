@@ -55,6 +55,11 @@ jobs:
         echo ${{ steps.changed-files.outputs.changedFiles }}
         echo "CHANGED_FILES=${{ steps.changed-files.outputs.changedFiles }}" >> $GITHUB_ENV
 
+    - name: Set Target Branch 
+      run: |
+        TARGET_BRANCH=${{ github.event.pull_request.base.ref }}
+        echo "TARGET_BRANCH=${TARGET_BRANCH}" >> $GITHUB_ENV
+
     - name: Debug CHANGED_FILES
       run: |
         echo "Debugging CHANGED_FILES"
