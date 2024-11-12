@@ -57,7 +57,7 @@ jobs:
 
     - name: Set Target Branch 
       run: |
-        TARGET_BRANCH=${{ github.event.pull_request.base.ref }}
+        TARGET_BRANCH=${{ github.event.pull_request.head.ref }}
         echo "TARGET_BRANCH=${TARGET_BRANCH}" >> $GITHUB_ENV
 
     - name: Debug CHANGED_FILES
