@@ -47,10 +47,31 @@ jobs:
       - name: get tdf 
         run: wget -O schema/tdf.rng 'https://raw.githubusercontent.com/scta/tdf-schema/master/src/tdf-0.rng'
 
-      # Runs check
-      - name: run validation checks
+
+      - name: Get changed files
+        id: changed-files
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const { data: files } = await github.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+            });
+            const changedFiles = files.map(file => file.filename).join(' ');
+            console.log("Changed files:", changedFiles);
+            core.setOutput('changedFiles', changedFiles);
+        
+      - name: Set CHANGED_FILES environment variable
         run: |
-          for file in */*.xml; 
+          echo ${{ steps.changed-files.outputs.changedFiles }}
+          echo "CHANGED_FILES=${{ steps.changed-files.outputs.changedFiles }}" >> $GITHUB_ENV
+      
+      
+      - name: run validation checks
+        if: env.CHANGED_FILES != ''
+        run: |
+          for file in $CHANGED_FILES; do
             do 
               echo "start";
               echo $file;
