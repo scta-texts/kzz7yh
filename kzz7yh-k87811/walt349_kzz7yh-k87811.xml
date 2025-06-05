@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2025-06-05">June 5, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="W" n="walt349">Baltimore, Walters, W. 349</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-06-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#W" n="1-v"/>
+        <cb ed="#W" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k87811"><!-- l4d1a1 -->
+        <head xml:id="kzz7yh-k87811-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-k87811-d1e103">
+          
+          <pc type="pilcrow">¶</pc>  Circa 
+          <lb ed="#W" n="14"/>primum queruntur quattuor
+        </p>
+        <p xml:id="kzz7yh-k87811-d1e110">
+          <pc type="pilcrow">¶</pc>  Primo vtrum sacramentum consistat in rebus et verbis
+        </p>
+        <p xml:id="kzz7yh-k87811-d1e117">
+          <lb ed="#W"/><pc type="pilcrow">¶</pc> 2o vtrum sacramentum possit diffiniri
+        </p>
+        <p xml:id="kzz7yh-k87811-d1e122">
+          <pc type="pilcrow">¶</pc> 3o vtrum ille diffi<lb ed="#W"/>nitiones 
+          quas ponit Augustinus de sacramento sint conuenientes
+        </p>
+        <p xml:id="kzz7yh-k87811-d1e128">
+          <pc type="pilcrow">¶</pc> 4o utrum 
+          <lb ed="#W"/>illa diffinitio quam ponit hugo primo de sacramentis parte 9a capitulo 3 conueniens <!-- line jumps below -->sit 
+        </p>
+        <div xml:id="kzz7yh-k87811-Dd1e135"><!-- l4d1a1q1 -->
+          <head xml:id="kzz7yh-k87811-Hd1e138">Quaestio 1</head>
+          <head xml:id="kzz7yh-k87811-Hd1e145" type="question-title">Utrum sacramentum consistat in rebus et verbis</head>
+          <p xml:id="kzz7yh-k87811-d1e140">
+            <lb ed="#W"/>Primo ostendo quod sacramentum non consistit in 
+            <lb ed="#W"/>rebus et verbis. Nihil potest constitui ex permanenti 
+            <lb ed="#W"/>et successiuo. quia omnis res permanens est vel suc<lb ed="#W"/>cessiua 
+            <pc type="virgula">/</pc> et permanens non potest esse de ratione successiui <pc type="punctus"/> nec  
+            <lb ed="#W"/>successiuum de ratione permanentis. sed res sunt permanentes 
+            <lb ed="#W"/>uerba successiua. ergo sacramentum non potest constitui ex rebus et 
+            <lb ed="#W"/>uerbis.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e166">
+            <pc type="pilcrow">¶</pc> Item sacramentum significandum et sanctificandum: sed sicut dicit <ref xml:id="kzz7yh-k87811-Rd1e178">Augustinus 
+            <lb ed="#W"/>in libro de doctrina christiana parum post principium</ref> <quote xml:id="kzz7yh-k87811-Qd1e183">verba prosus inter homines 
+            <lb ed="#W"/>optinuerunt principatum significandi</quote> et secundum <ref xml:id="kzz7yh-k87811-Rd1e185">apostolum 1 ad thimotheum capitulo 4</ref> 
+            <lb ed="#W"/><quote xml:id="kzz7yh-k87811-Qd1e187">Res sanctificatur per uerbum dei et orationem ergo sacramentum non debet 
+              <lb ed="#W"/>consistere nisi in uerbis</quote>.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e179">
+            <pc type="pilcrow">¶</pc> Item ex his quae simul non coniunguntur non 
+            <lb ed="#W"/>constituitur aliquid sed verba non coniunguntur rebus ergo sacramentum non con<lb ed="#W"/>stituitur 
+            ex rebus et uerbis 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e186">
+            <pc type="pilcrow">¶</pc>  Contra <ref xml:id="kzz7yh-k87811-Rd1e199">Augustinus omelia 8o super 
+            <lb ed="#W"/>Io. ultra medium</ref> et habetur <ref xml:id="kzz7yh-k87811-Rd1e217">i. q. i. Detrahe.</ref> Accedit verbum ad 
+            elementum et fit sacramentum: sed elementum est res ergo sacramentum consi<lb ed="#W"/>stit 
+            in rebus et verbis.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e198">
+            ¶ Item <ref xml:id="kzz7yh-k87811-Rd1e228" corresp="#kzz7yh-k87811-Qd1e233">magister in littera huius distinctione capitulo 3</ref> <quote xml:id="kzz7yh-k87811-Qd1e233">duo 
+            <lb ed="#W"/>sunt in quibus sacramentum consistit scilicet uerba et res</quote>. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e205">
+            <pc type="pilcrow">¶</pc> Respondeo quod sacramenta ue<lb ed="#W"/>teris 
+            legis propter eorum imperfectionem in significando et eorum defectum in sanctificando 
+            <lb ed="#W"/>non consistebant in uerbis quia per uerba est sanctificatio et expressa significatio 
+            <lb ed="#W"/>ut patet per auctoritates Augustini et apostoli in opposito allegatas. Sacra 
+            <lb ed="#W"/>autem novae legis quia debuerunt esse perfecta in sanctificando et in significando 
+            <lb ed="#W"/>ideo consistunt in uerbis et in rebus ita ut res sit quasi principium materiale 
+            <lb ed="#W"/>et uerbum quasi formale eo quod completius ei conuenit ratio sanctificandi et significandi
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e227">
+            <lb ed="#W"/><pc type="pilcrow">¶</pc>  Praeterea cum sacramenta novae legis fuerint instituta a uerbo dei iam naturae 
+            <lb ed="#W"/>humanae unito: conueniens fuit ea consistere in rebus et uerbis ut suum 
+            <lb ed="#W"/>expressius significarent actorem. Res autem et uerbum constituunt 
+            <lb ed="#W"/>sacramentum tanquam <add place="margin-left">aliquid</add> unum unitate absoluta in essendo sed unitate relatiua 
+            <lb ed="#W"/>in causando et significando sunt enim unum <unclear>principium</unclear> in causando et significando 
+            <lb ed="#W"/>unum sanctificationis effectum. sicut pater et mater sunt generationis unum 
+            <lb ed="#W"/>completum principium. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e247">
+            <pc type="pilcrow">¶</pc> <ref xml:id="kzz7yh-k87811-Rd1e286">Ad primum in oppositum</ref> dicendum quod eo modo quo sacramentum est 
+            <lb ed="#W"/>unum non est inconueniens aliquid unum constitui ex permanenti et suc<lb ed="#W"/>cessiuo 
+            quamuis ex illis duobus impossibile esset aliquod unum per essentiam 
+            <lb ed="#W"/>constitui.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e260">
+            <pc type="pilcrow">¶</pc> <ref xml:id="kzz7yh-k87811-Rd1e300">Ad 2m</ref> dicendum quod quamuis expressius significent uerba 
+            <lb ed="#W"/>quam res <pc type="virgula">/</pc> tamen expressior et efficacior est significatio per res et uerba 
+            <lb ed="#W"/>simul quam per uerba tantum.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e267">
+            <pc type="pilcrow">¶</pc>  <ref xml:id="kzz7yh-k87811-Rd1exyz">Ad 3m</ref> dicendum quod aliqua duo possunt unum con<lb ed="#W"/>stituere 
+            unitate relatiua in causando et significando absque hoc quod realiter 
+            <lb ed="#W"/>simul coniungantur sufficit enim ad hoc quod coniungantur in inten<lb ed="#W"/>tione 
+            applicante vnum ad aliud.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k87811-Dd1e279"><!-- l4d1a1q2 -->
+          <head xml:id="kzz7yh-k87811-Hd1e282">Quaestio 2</head>
+          <head xml:id="kzz7yh-k87811-Hd1e297" type="question-title">Utrum sacramentum possit diffiniri</head>
+          <p xml:id="kzz7yh-k87811-d1e284">
+            Quaestio II.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e286">
+            SEcundo queritur vtrum 
+            sacramentum. 
+            possit diffiniri: et videtur quod non <ref xml:id="kzz7yh-k87811-Rd1e311">Auicenna quinto 
+              metaphy. capi. 5.</ref> Diffinitio secundum hoc quod consentiunt 
+            auctores artis composita est ex genere et differentia: sed constitutum ex 
+            re et verbo cum non sit vnum nisi per accidens non est in genere 
+            vnde secundum philosophum. 3. Top. Quamuis iustitia sit in genere: iustum. 
+            tamen non est in genere: ergo constitutum ex re et verbo non est 
+            diffinibile: sed sacramentum constitutum est ex re et verbo: ergo non 
+            est diffinibile.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e310">
+            ¶ Item philosophus. 4. metaphy. Non vnum 
+            significare est nihil significare. ergo quod non est vnum nihil est: sed 
+            sacramentum non est aliquid vnum: ergo nihil est: sed quod nihil est 
+            difsiniri non potest: cum diffinitio indicet quid est.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e319">
+            ¶ Item philosophus. 7. 
+            metaphyfice. Homo albus non est vere hoc aliquid: ergo a 
+            simili nec sacramentum quod minus vnum est: non est vere hoc aliquid 
+            sed secundum philosophum vbi prius: quod non est vere hoc aliquid 
+            diffinirinon potest: ergo sacramentum diffiniri non potest. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e331">
+            Contra <ref xml:id="kzz7yh-k87811-Rd1e355">magister huius distin. capi. 1.</ref> et habetur <ref xml:id="kzz7yh-k87811-Rd1e357">de 
+              consecra. distin. 2. Sacrificium.</ref> Sacramentum. 
+            <!--00032.xml-->
+            <cb ed="#V" n="b"/>
+            est inuisibilis gratie visibilis forma: ergo diffiniri potest. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e344">
+            Respondeo secundum quod accipi potest ex verbis <ref xml:id="kzz7yh-k87811-Rd1e374">phi. i. 
+              Topi. et. 6.</ref> Diffinitio est ora 
+            indicans quid est esse rei et conuertibilis cum diffinito: tanto 
+            ergo res verius potest diffiniri: quantum est ex parte sua: 
+            quanto verius est: si tamen finita sit: quod ideo dico: quia 
+            diffinitio importat quandam finitionem. Unde aliquando a philosopho 
+            in metaphyfica terminus dicitur: illud autem quod est verius: 
+            substantia est: si tamen finita sit. Unde et a philosopho primo phy. 
+            vocatur quod vere est: et ideo dicit philosophus. 7. metaphysice: quod 
+            primo et simpliciter diffinitio: et quod quid erat esse substantiarum 
+            est: et quia accidens absolutum verius est quam ens per accidens. 
+            vt compositum ex duobus accidentibus: vel ex subiecto et 
+            accidente: quia secundum phi. 5. metaphyfice. Accidens absolutum 
+            est ens secundum se sed id est est ens essentialiter secundum Commen. ibidem. Ens 
+            vero per accidens non est ens essentialiter: sed accidenta 
+            liter: quia non est aliquid vnum per essentiam: ideo minus 
+            conuenit diffiniri enti per accidens quam accidenti: quia etiam ens 
+            per accidens constitutum ex aliquibus duobus realiter vnitis 
+            verius est vnum: quam ens per accidens constitutum ex 
+            duobus non vnitis nisi in intentione vnum ad aliud 
+            applicante: quomodo vnum est sacramentum: ideo minus 
+            improprie diffinitur primum ens per accidens quam ipsum 
+            sacramotum. Unde dicendum: quod sacramento non conuenit diffiniri 
+            nisi accipendo diffinitionem prout se extendit ad diffionem 
+            vnam per accidens: non video enim inconueniens si dicatur 
+            quod sacramentum et quodlibet ens per accidens diffiniri 
+            possit diffitione vna per accidens. Diffinitio enim indicat quid 
+            est res diffinita. et sicut diffinitio entis per se indicat quid 
+            est illud ens: ita diffinitio entis per accidens indicat quid est 
+            illud ens: et quod sicut ens per accidens non est vnum nisi per 
+            accidens: ita sua diffinitio non est vna nisi per accidens: et 
+            sicut diffinitio entis per se constat: ex genere et differentia 
+            seu differentiis eiusdem generis constituentibus vnam 
+            speciem: ita diffinitio entis per accidens: si partes eius sunt 
+            res diuersorum praentorum constat ex diuersis generibus 
+            generalissimis et differentiis eorum: et si partes eius sunt 
+            in eodem predicamento: non tamen in edoem genere pro 
+            ximo: diffinitio eius constat ex diuersis generibus 
+            proximis et differentiis diuersorum generum proximorum 
+            vndecum phuns dicit. 7. metaphy. quod ens per accidens non 
+            diffinitur: intelligendum est de diffinitione vna per se: quia 
+            talis indicat vnum per se. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e438">
+            Ad primum in oppositum dicendum: quod procedit de 
+            diffinitione proprie dicta que est 
+            vna per se.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e447">
+            ¶ Ad 2m cum dicitur quod sacramentum non est 
+            aliquid vnum: dico quod falsum est: aliquo enim modo vnum 
+            est vt superius visum est. sed quia vnitas sua est per accidens: 
+            ideo nec sibi conuenit diffiniri diffinitione per se vna. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e456">
+            ¶ Ad tertium patet solutio ex iam dictis. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e461">
+            ¶ Argumentum ad partem aliam procedit de 
+            diffinitione largissime dicta: que se extendit ad diffinitionem vnam 
+            per accidens.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k87811-Dd1e471"><!-- l4d1a1q3 -->
+          <head xml:id="kzz7yh-k87811-Hd1e474">Quaestio 3</head>
+          <head xml:id="kzz7yh-k87811-Hd1e507" type="question-title">Utrum ille diffinitiones quas ponit sint convenientes</head>
+          <p xml:id="kzz7yh-k87811-d1e476">
+            ¶ Questio. III. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e478">
+            TErtio queritur vtrum ille 
+            difffinitiones: quas ponit 
+            <ref xml:id="kzz7yh-k87811-Rd1e520">Augu. de sacramento</ref> sint conuenientes: et videtur quod non 
+            Illa enim quam ponit. <ref xml:id="kzz7yh-k87811-Rd1e524">10 de ci. capi. 5.</ref> scilicet quod sacramentum 
+            est sacrum signum: non est conuertibilis cum sacramento: aqua enim 
+            benedicta sacrum signum est scilicet remissionis venialium: nec 
+            tamen sacramentum est: ergo predicta diffinitio 
+            conueniens non est.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e498">
+            ¶ Item consecratio episcoi signum est rei 
+            sacrenec tamen inter sacramenta numeratur.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e503">
+            ¶ Item agnus 
+            paschalis: de quo habetur exo. 12. et serpens eneus numeri. 
+            et columba Luce. 2. et petra que significabat christum i. 
+            cor. id10. signa fuerunt rerum sacrarum: et imago crucifixi: 
+            quibus tamen non conuenit esse sacramentum.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e515">
+            ¶ Item 
+            sacramentum non est signum remenoratiuum: quod est de 
+            preterito: nec demonstratiuum quod est de praesenti: nec pronosticum 
+            <!--00033.xml-->
+            <pb ed="#V" n="3-r"/>
+            <cb ed="#V" n="a"/>
+            quod est de suturo: quia aliquando rcipiens sa cramentum: nec 
+            habet gratiam nec habuit: nec habiturus est. Cum 
+            ergo non sint plura genera signorum: videtur quod 
+            sacramentum non sit sacre rei signum.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e537">
+            ¶ Item videtur quod illa 
+            diffinitio: sacramen tum est inuisibilis gratie visibilis forma: cuius 
+            sententia trahi potest ab Augu. 10 de ciui. capi. 5. et capi. 
+            21. sit inconueniens: quia corpus christi in altari: et character 
+            baptismalis non tantum sunt res: sed etiam sacramenta: vt 
+            inferius patebit: nec tamen sunt visibiles forme.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e550">
+            ¶ Item 
+            sacramenta constant ex rebus et verbis: et sicut res sunt 
+            visibiles: ita verba sunt audibilia: cum ergo verba sint 
+            principaliora in sacramentis quam res: quia vt habitum est verbum in 
+            sacramentis est quasi formale magis debuit dici forma 
+            audibilis quam visibilis. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e563">
+            Contra. vtranque diffinitionem recitat <ref xml:id="kzz7yh-k87811-Rd1e605">Gratianus 
+              de conse. distin. 2. Sacrificium</ref>: et <ref xml:id="kzz7yh-k87811-Rd1e610">magister in 
+                littera huius distin. capi. primo.</ref> 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e572">
+            Respondeo quod sicut ormamentum dicitur ab 
+            ornando actiue: ita sacramentum dicitur 
+            a sacrando actiue. Unde cum dicitur: sacramentum est signum 
+            rei sacre: accipitur res sacra pro re sub ratione qua sacrans 
+            est. Est autem aliquid rei sacrantis causatiuum: non tamen 
+            institutum diuinitus ad hoc significandum: vt passio christi. et hoc 
+            non debet dici proprie sacramentum nisi extenderetur 
+            nomen sacramenti ad sacrum secretum: aliquid autem est rei 
+            sacrantis ex diuina institutione significatiuum: non tamen 
+            causatiuum: sicut erant sacramenta ve l. aliquid autem est rei 
+            sacrantis ex diuina institutione significatiuum: et in virtute 
+            dei causatiuum sicut est quodlibet sacramentum no. l.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e601">
+            ¶ Prima 
+            ergo notificatio sacramenti si restringatur ad rem sacram actiue 
+            et ad signum sacrum specialiter diuinitus institutum ad 
+            rem sacram significandum: conuerttiur cum sacramento commu 
+            niter dicto de sacramentis veli et no l. aliquo modo est 
+            diffinitio sacramenti in generali: si autem accipiatur signum 
+            incommuni et res sacra non conuertitur cum sacramento: et sicut 
+            dicit Hugo primo libro de sacra. parte. 9. capi. 2. magis est 
+            descriptio ad interpretationem siue expressionem vocis 
+            referenda quam diffinitio.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e624">
+            ¶ Secunda autem sacramenti notificatio cum 
+            illa additione: quam superaddit magister: non conenit nisi 
+            sacramentis no l. et habet rationem diffinitionis eo modo 
+            quo sacramento conuenit diffiniri: conuertitur enim cum 
+            sacramentis no scilicet et quicquid est de ratione eorum expriemit. Ex 
+            primit enim ipsam gratiam cuius sunt significatiua et 
+            causatiua: per hoc quod dicitur inuisibilis gratie: exprimit etiam 
+            ipsa esse significatiua cum dicitur visibilis forma: vt 
+            ipsius imaginem gerat id est figura exterior que dicitur forma: 
+            quasiforis manens: que aliquo modo gerit rei imaginem: et 
+            ipsa est causatiua cum dicitur: et causa existat. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e648">
+            Ad primum in oppositum dicendum: quod per 
+            aspersionem aque benedicte remittuntur 
+            venialia per modum meriti: inquantum excitat motum 
+            voluntatis seu feruorum charitatis: per quam sit venialium 
+            remissio: non tanquam per vim sacramenti. Sacramentum autem 
+            significat rem vt sacrantem non per modum meriti. Aqua 
+            etiam benedicta non est specialiter diuinitus instituta ad 
+            illam rem sacram significandum
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e668">
+            ¶ Ad 2m dicendum: quod potestas 
+            epistoalis non est gratia gratum faciens per quam homo efficitur 
+            formaliter sacer. ad quam gratiam significandum fuerunt 
+            diuinitus specialiter instituta. ve scilicet sacramenta: et cuius 
+            sacramenta no scl. sunt significatiua et cansnatiua: sed est gratia 
+            gratis data: qua homo efficitur potestatiue sacer. et illam 
+            gratiam ipsa consecratio epistalis directe significat.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e684">
+            ¶ Ad 3m 
+            dicendum: quod omnia predicta et si significarent rem sacram 
+            vt imolatio agni: christi passionem: serpens in palo. christum 
+            m cruce pendentem: emanatio aque de petra: aquam de 
+            latere christi emanantem: columba iu christo. gratie spiritus scilicet 
+            plenitudinem: non tunc de nouo aduenientem: sed 
+            precedentem: non tamen significabant rem sacram vt actu de 
+            <!--00033.xml-->
+            <cb ed="#V" n="b"/>
+            nouo sacrantem illius sacre rei subiectum. Non enim cum 
+            columba super christum descendit: neque cum passus est: neque 
+            cum aqua emanauit de eius latere de nouo christus 
+            factus est sacer. vel de sacro magis facer. sicut homo per 
+            debitam sacramenti susceptionem efficitur sacer. aut magis 
+            sacer: et sic patet quid dici debeat de imagine crucifixi et 
+            similibus
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e719">
+            ¶ Ad 4m dicendum: quod principalis significatio 
+            sacramenti no sciliet est significare gratiam que confertur 
+            suscipienti nisi sit defectus ex parte ipsius: et quantum ad hoc est 
+            signum demonstratiuum: inquantum tamen significat causam 
+            instituentem est signum rememoratiuum: et inquantum 
+            finem id est gloriam futuram est signum pronosticum. 
+            Sacramenta autem ve cl. tantummodo erant pronostica: quia non 
+            significabant gratiam nisi vt futuram.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e737">
+            ¶ Ad 5dicendum: quod 
+            illa diffinitio datur de sacramento quod est sacramentum et 
+            non res. Corpus autem christi in altari est res significata 
+            per speciem panis sub qua realiter et vere continetur 
+            sacramentum corporis mystici. Character etiam baptismalis est 
+            res significata per ablutionem exteriorem et sacramentum 
+            gratie gratum facientis.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e754">
+            ¶ Ad 6m dicendum: quod visibile 
+            ibi accipitur pro sensibili propter dignitatem visus: de 
+            quo dicit Augu. 2. epistola ad Uolusianum longe post 
+            principium quod inter quinque sensus est excellentior: quia sicut 
+            dicit phuns primo meta. maxime cognoscere facit: et multas 
+            differentias demonstrat: quod est intelligendum per se: 
+            vt patet per ipsum libro de sensu et sensato: quia vt dicit 
+            ibidem: auditus per accidens plus confert ad scientiam. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k87811-Dd1e773"><!-- l4d1a1q4 -->
+          <head xml:id="kzz7yh-k87811-Hd1e776">Quaestio 4</head>
+          <head xml:id="kzz7yh-k87811-Hd1e823" type="question-title">Utrum illa diffinitio quam ponit que est hec</head>
+          <p xml:id="kzz7yh-k87811-d1e778">
+            ¶ Questio IIII.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e783">
+            QUarto queritur vtrum illa 
+            diffinitio quam 
+            ponit <ref xml:id="kzz7yh-k87811-Rd1e839">Hugo primo libro de sacra. parte. 9. capi. 2.</ref> 
+            que est hec. Sacramentum est corporale vel 
+            materiale elementum foris sensibile propositum ex similitum 
+            dine representans et ex institutione significans: et ex 
+            sanctificatione continens aliquam inuisibilem et spiritualem 
+            gratiam: sit conueniens: et videtur quod non: quia ibi predicatur 
+            materia de composito.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e805">
+            ¶ Item aliqua sunt sacramenta quo. 
+            rum non est materia aliquod elementum.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e810">
+            ¶ Item frustra 
+            foris sensibiliter proponitur aliquid illi qui hoc non 
+            apprehendit: sed paruulus non apprehendit aliquid per 
+            materiale elementum sibi foris propositum: frustra ergo ponitur 
+            hoc in diffinitione sacramenti.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e822">
+            ¶ Item frustra instituitur 
+            ad significandum quod ex se habet similitudinem 
+            representatiuam: postquam ergo dixit ex similitudine representans 
+            superfluum fuit addere ex institutione significans.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e831">
+            ¶ Item 
+            corporalium ad spiritualia nulla est similitudo: ergo 
+            materia sacramenti non est ex similitudine representans 
+            gratiam.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e840">
+            ¶ Item gratia non potest contineri in subiecto 
+            sensibili.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e845">
+            ¶ Item in ista diffinitione omittitur forma 
+            sacramenti quod est verbum. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e850">
+            Contra <ref xml:id="kzz7yh-k87811-Rd1e904">Hugo</ref> dicit statim post astignatam 
+            difffinitionem quod est propria ac perfecta. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e857">
+            Respondeo quod predicta diffinitio est 
+            conueniens et datur de sacramentis numero l. et 
+            patebit eius conuenientia soluendo argumenta in oppositum. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e867">
+            Ad primum dicendum: quod secundum <ref xml:id="kzz7yh-k87811-Rd1e923">philosophum. 2. phy</ref> non est 
+            inconueniens in artificialibus 
+            materiam predicari de artificiato: quia enim forma artificialis 
+            est accidentalis: ideo tota substantia artificiati est ex parte 
+            materie. Unde bene dicitur: lectulus est lignum: 
+            statuaest es. sacramentum autem est quasi aliquid artificiatum. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e883">
+            ¶ Ad asm dicendum: quod materiale elementum ibi accipitur 
+            pro sensibili signo: et forte vtitur verbo elementi: quia 
+            materia baptismi: qui est ianua sacramentorum: est elementum 
+            scilicet aqua: per materiale autem conuenienter intelligitur 
+            sensibile: eo quod secundum sententiam philosophi. 12. meta. sensibile est 
+            sensibile per materiam.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e899">
+            ¶ Ad 3m dicendum: quod quamuis paruulus 
+            non apprehendat: illi tamen qui ipsum baptizant apprehen¬ 
+            <!--00034.xml-->
+            <pb ed="#V" n="3-v"/>
+            <cb ed="#V" n="a"/>
+            dunt vel apprehendere possunt.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e912">
+            ¶ Ad 4m dicendum: quod 
+            similitudo representandi: quam res habet ex sua conditione: 
+            perse non sufficeret: quia ex se non est determinata ad precise 
+            significandum sacramenti effectum. et propter hoc dicit Hugo 
+            primo libro de sacra. parte. 9. capi. 2 quod sacramentum debet 
+            habere quandam similitudinem ad ipsam rem cuius est sacramen 
+            tum. secundum quam habile sit ad eandem rem representandam: 
+            institutionem quoque per quam ordinatum sit ad illam 
+            significandam. et parum post dicit. quod similitudinem habet ex prima 
+            conditione institutionem ex superaddita dispensatione. 
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e934">
+            ¶ Ad 5m dicendum: quod maior vera est de similitudine 
+            que est per participationem vnius qualitatis: sed de simili 
+            tudine proportionalitatis que est habitudo duarum p:
+            oportionum non est verum: in haoc enim similis est aqua 
+            gratie: quia sicut se habet aqua ad abluendas fordes corporis: 
+            ita se habet gratia ad abluendas fordes anime.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e950">
+            ¶ Ad sex. 
+            tum dicendum: quod non est intelligendum quod gratia contineatur 
+            in sacramento essentialiter et in actu sed in virtute: quod quo 
+            modo intelligi debeat inferius declarabitur.
+          </p>
+          <p xml:id="kzz7yh-k87811-d1e960">
+            ¶ Ad 
+            vltimum dicendum: quod verbum datur intelligi per vltimam partem 
+            diffinitionis: quod patet. Dicit enim Hugo primo libro de 
+            sacra. parte. 9 capi. 2. quod sacramentum dicitur habere 
+            sanctificationem per quam gratiam contineat: et efficax sit ad 
+            eandem sanctificandis conferendam. et parum post dicit: quod 
+            illam sanctificationem habet ex apposita verbi vel signi 
+            benedictione.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
