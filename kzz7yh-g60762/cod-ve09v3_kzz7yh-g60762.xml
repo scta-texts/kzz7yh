@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="86-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g60762"><!-- l3d24cl -->
-            <head xml:id="kzz7yh-g60762-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-g60762-d1e103">
-               <lb ed="#V" n="52"/>CIrca littera. In nobis edificatur fidesi 
-      <lb ed="#V" n="53"/>sece sicut fundamentum spiritualis 
-      <lb ed="#V" n="54"/>edificii. Que tamen non proprie dicitur fides sed 
-      veri<lb ed="#V" n="55" break="no"/>tas. Hic accipitur veritas pro aperta visione 
-      ve<lb ed="#V" n="56" break="no"/>ritatis que nunc creditur quam visionem habebimus in 
-      futuro<lb ed="#V" n="57" break="no"/>Ut ex fide verborum transeat iustus in fidem rerum. Hic 
-      <lb ed="#V" n="58"/>extendit nomen fidei ad quancumque cognitionem veritatis cum 
-      <lb ed="#V" n="59"/>assensu: et hoc modo clara visio patrie fides dicitur quod tamen 
-      <lb ed="#V" n="60"/>non potest dici nisi equocando nomen fidei. Est tamen de his 
-      <lb ed="#V" n="61"/>que visu interiori vt cumque capiuntur. 
-   </p>
-            <p xml:id="kzz7yh-g60762-d1e127">
-               <lb ed="#V" n="62"/>Contra fides est non apparentu: sed que videntur: non 
-      <lb ed="#V" n="63"/>tantum visu exteriori: sed etiam 
-      interiori<lb ed="#V" n="64" break="no"/>apparentia sunt. 
-   </p>
-            <p xml:id="kzz7yh-g60762-d1e136">
-               <lb ed="#V" n="65"/>Respondeo cum dicitur ideu ese non 
-      apparten<lb ed="#V" n="66" break="no"/>tium hoc intelligitur de apparentia 
-      <lb ed="#V" n="67"/>que est per claram visionem dei: de qua visione predictum 
-      ver<lb ed="#V" n="68" break="no"/>bum magistri non intelligitur.
-   </p>
-            <p xml:id="kzz7yh-g60762-d1e147">
-      ¶ Alia sunt que nisi. intelli¬ 
-      <!--00183.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="69"/>gamus non credamus: alia que nisi credamus non 
-      intelli<lb ed="#V" n="70" break="no"/>gemus. Quedam enim sunt credibilia que non sunt omnino 
-      <lb ed="#V" n="71"/>super facultatem nostre naturalis cognitionis que sunt 
-      <lb ed="#V" n="72"/>antecedentia ad articulos fidei: et haec a multis prius 
-      intelli<lb ed="#V" n="73" break="no"/>guntur quam credantur quamuis hoc de necessitate fides non 
-      <lb ed="#V" n="74"/>requirat: sed de congruitate ad maiorem veritatis 
-      manifesta<lb ed="#V" n="75" break="no"/>tionem. Quedam aut. sunt credibilia que simpliciter sunt 
-      su<lb ed="#V" n="76" break="no"/>pra facultatem nostre naturalis cognitionis: vt sunt 
-      articu<lb ed="#V" n="77" break="no"/>li fidei: et hoc prius creduntur quam inteligantur: intelligere 
-      ta<lb ed="#V" n="78" break="no"/>men quid est quod dicitur per nomen simplititer preexigitur ad 
-      <lb ed="#V" n="79"/>fidei cognitionem. Cognitio vero certa non perficitur nisi post 
-      <lb ed="#V" n="80"/>hanc vitam. Quod intelligendum est de cognitione que est 
-      <lb ed="#V" n="81"/>respectu articulorum fidei: et de cognitione que excludit 
-      <lb ed="#V" n="82"/>omne enigma. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="86-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g60762"><!-- l3d24cl -->
+        <head xml:id="kzz7yh-g60762-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-g60762-d1e103">
+          <lb ed="#V" n="52"/>CIrca littera. In nobis edificatur fidei 
+          <lb ed="#V" n="53"/>sece sicut fundamentum spiritualis 
+          <lb ed="#V" n="54"/>edificii. Que tamen non proprie dicitur fides sed 
+          veri<lb ed="#V" n="55" break="no"/>tas. Hic accipitur veritas pro aperta visione 
+          ve<lb ed="#V" n="56" break="no"/>ritatis que nunc creditur quam visionem habebimus in 
+          futuro<lb ed="#V" n="57" break="no"/>Ut ex fide verborum transeat iustus in fidem rerum. Hic 
+          <lb ed="#V" n="58"/>extendit nomen fidei ad quancumque cognitionem veritatis cum 
+          <lb ed="#V" n="59"/>assensu: et hoc modo clara visio patrie fides dicitur quod tamen 
+          <lb ed="#V" n="60"/>non potest dici nisi equocando nomen fidei. Est tamen de his 
+          <lb ed="#V" n="61"/>que visu interiori vt cumque capiuntur. 
+        </p>
+        <p xml:id="kzz7yh-g60762-d1e127">
+          <lb ed="#V" n="62"/>Contra fides est non apparentu: sed que videntur: non 
+          <lb ed="#V" n="63"/>tantum visu exteriori: sed etiam 
+          interiori<lb ed="#V" n="64" break="no"/>apparentia sunt. 
+        </p>
+        <p xml:id="kzz7yh-g60762-d1e136">
+          <lb ed="#V" n="65"/>Respondeo cum dicitur ideu ese non 
+          apparten<lb ed="#V" n="66" break="no"/>tium hoc intelligitur de apparentia 
+          <lb ed="#V" n="67"/>que est per claram visionem dei: de qua visione predictum 
+          ver<lb ed="#V" n="68" break="no"/>bum magistri non intelligitur.
+        </p>
+        <p xml:id="kzz7yh-g60762-d1e147">
+          ¶ Alia sunt que nisi. intelli¬ 
+          <!--00183.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="69"/>gamus non credamus: alia que nisi credamus non 
+          intelli<lb ed="#V" n="70" break="no"/>gemus. Quedam enim sunt credibilia que non sunt omnino 
+          <lb ed="#V" n="71"/>super facultatem nostre naturalis cognitionis que sunt 
+          <lb ed="#V" n="72"/>antecedentia ad articulos fidei: et haec a multis prius 
+          intelli<lb ed="#V" n="73" break="no"/>guntur quam credantur quamuis hoc de necessitate fides non 
+          <lb ed="#V" n="74"/>requirat: sed de congruitate ad maiorem veritatis 
+          manifesta<lb ed="#V" n="75" break="no"/>tionem. Quedam aut. sunt credibilia que simpliciter sunt 
+          su<lb ed="#V" n="76" break="no"/>pra facultatem nostre naturalis cognitionis: vt sunt 
+          articu<lb ed="#V" n="77" break="no"/>li fidei: et hoc prius creduntur quam inteligantur: intelligere 
+          ta<lb ed="#V" n="78" break="no"/>men quid est quod dicitur per nomen simplititer preexigitur ad 
+          <lb ed="#V" n="79"/>fidei cognitionem. Cognitio vero certa non perficitur nisi post 
+          <lb ed="#V" n="80"/>hanc vitam. Quod intelligendum est de cognitione que est 
+          <lb ed="#V" n="81"/>respectu articulorum fidei: et de cognitione que excludit 
+          <lb ed="#V" n="82"/>omne enigma. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

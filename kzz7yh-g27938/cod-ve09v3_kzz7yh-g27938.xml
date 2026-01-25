@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="40-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g27938"><!-- l3d13cl -->
-            <head xml:id="kzz7yh-g27938-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-g27938-d1e103">
-               <lb ed="#V" n="45"/>CIrca litteram. In quo plenitudo 
-      <lb ed="#V" n="46"/>deitatis habitat 
-      cor<lb ed="#V" n="47" break="no"/>poraliter: quod ideo dictum est: quia non tantum 
-      na<lb ed="#V" n="48" break="no"/>tura diuina vnita est christi anime: sed est eius 
-      cor<lb ed="#V" n="49" break="no"/>pori: vel quia corpus in dimensionibus perfectum est: quia in 
-      <lb ed="#V" n="50"/>se continent omnes dimensiones: et inhabitatio diuine nature 
-      <lb ed="#V" n="51"/>in christo est per modum perfectissimum: quia non tantum per 
-      essen<lb ed="#V" n="52" break="no"/>tiam: sicut est in omnibus rebus: nec tantum per gratiam: sicut 
-      <lb ed="#V" n="53"/>est in sanctis aliis: sed etiam per vnionem. Uel potest dici secundum 
-      <lb ed="#V" n="54"/>quandam <ref>glosam ad Colis 2</ref> super verbum predictum: quod quia 
-      <lb ed="#V" n="55"/>in templo manufactio olim non corporaliter: sed  
-      vmbrali<lb ed="#V" n="56" break="no"/>ter habitauit id est prefigurantibus signis que signa 
-      praefigura<lb ed="#V" n="57" break="no"/>tiua per christum impleta sunt. Quapropter dicitur <ref>Io. 1.</ref> <quote source="http://scta.info/resource/io1_17@2-14">Lex per 
-      <lb ed="#V" n="58"/>moysen data est: gratia et veritas per iesum christum facta est.</quote> 
-      Cor<lb ed="#V" n="59" break="no"/>pus autem veritas est respectu vmbre. Ideo dicitur plenitudo 
-      <lb ed="#V" n="60"/>deitatis in christo corporaliter imhabitare hoc est dictu quod 
-      diui<lb ed="#V" n="61" break="no"/>nitatis plenitudo est in christo realiter et vere. In ceteris autem 
-      <lb ed="#V" n="62"/>solus est tactus. In christo enim fuerunt omnes virtutes et 
-      do<lb ed="#V" n="63" break="no"/>na in omnimoda plenitudine numerositatis et 
-      perfectio<lb ed="#V" n="64" break="no"/>nis vsus: alii vero habuerunt quantum sufficit ad vsum 
-      vi<lb ed="#V" n="65" break="no"/>te spiritualis: ideo solum tantum dicuntur habuisse: quia hic 
-      sen<lb ed="#V" n="66" break="no"/>sus maxime est ad vitam necessarius <ref>secundum philosophum 2. de anima.</ref>
-      <lb ed="#V" n="67"/>Unde et <ref>secundum eum 3 de anima.</ref> Animal saluari non potest in 
-      vi<lb ed="#V" n="68" break="no"/>ta sine tactu. Quibus datus est spiritus ad mensuram.
-   </p>
-            <p xml:id="kzz7yh-g27938-d1e158">
-      ¶ Con 
-      <!--00091.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="69"/>tra <ref>Iaco I.</ref> super illud qui dat omnibus affluenter dicit glo. 
-      <lb ed="#V" n="70"/>quod dat omnia non in mensura.
-   </p>
-            <p xml:id="kzz7yh-g27938-d1e169">
-      ¶ Respondeo: dicitur omnia 
-      <lb ed="#V" n="71"/>dare non in mensura quantum est ex liberalitate dantis: 
-      <lb ed="#V" n="72"/>sed dat secundum mensuram dispositionis ipsius recipientis: 
-      Ie<lb ed="#V" n="73" break="no"/>tera. Ut deus ei plenius conferre non potuerit: quia scilicet ipse plus 
-      <lb ed="#V" n="74"/>sus proficiebat sapientia: hoc bene exponit magister in lit 
-      <lb ed="#V" n="75"/>capere non potuit: non enim ipse deus verbum pro anima 
-      <lb ed="#V" n="76"/>rationali etc. hoc dicit contra quosdam hereticos qui 
-      dixe<lb ed="#V" n="77" break="no"/>runt ipsum verbum increatum fuisse in carne: quam assum¬ 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="40-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g27938"><!-- l3d13cl -->
+        <head xml:id="kzz7yh-g27938-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-g27938-d1e103">
+          <lb ed="#V" n="45"/>CIrca litteram. In quo plenitudo 
+          <lb ed="#V" n="46"/>deitatis habitat 
+          cor<lb ed="#V" n="47" break="no"/>poraliter: quod ideo dictum est: quia non tantum 
+          na<lb ed="#V" n="48" break="no"/>tura diuina vnita est christi anime: sed est eius 
+          cor<lb ed="#V" n="49" break="no"/>pori: vel quia corpus in dimensionibus perfectum est: quia in 
+          <lb ed="#V" n="50"/>se continent omnes dimensiones: et inhabitatio diuine nature 
+          <lb ed="#V" n="51"/>in christo est per modum perfectissimum: quia non tantum per 
+          essen<lb ed="#V" n="52" break="no"/>tiam: sicut est in omnibus rebus: nec tantum per gratiam: sicut 
+          <lb ed="#V" n="53"/>est in sanctis aliis: sed etiam per vnionem. Uel potest dici secundum 
+          <lb ed="#V" n="54"/>quandam <ref>glosam ad Colis 2</ref> super verbum predictum: quod quia 
+          <lb ed="#V" n="55"/>in templo manufactio olim non corporaliter: sed  
+          vmbrali<lb ed="#V" n="56" break="no"/>ter habitauit id est prefigurantibus signis que signa 
+          praefigura<lb ed="#V" n="57" break="no"/>tiua per christum impleta sunt. Quapropter dicitur <ref>Io. 1.</ref> <quote source="http://scta.info/resource/io1_17@2-14">Lex per 
+            <lb ed="#V" n="58"/>moysen data est: gratia et veritas per iesum christum facta est.</quote> 
+          Cor<lb ed="#V" n="59" break="no"/>pus autem veritas est respectu vmbre. Ideo dicitur plenitudo 
+          <lb ed="#V" n="60"/>deitatis in christo corporaliter imhabitare hoc est dictu quod 
+          diui<lb ed="#V" n="61" break="no"/>nitatis plenitudo est in christo realiter et vere. In ceteris autem 
+          <lb ed="#V" n="62"/>solus est tactus. In christo enim fuerunt omnes virtutes et 
+          do<lb ed="#V" n="63" break="no"/>na in omnimoda plenitudine numerositatis et 
+          perfectio<lb ed="#V" n="64" break="no"/>nis vsus: alii vero habuerunt quantum sufficit ad vsum 
+          vi<lb ed="#V" n="65" break="no"/>te spiritualis: ideo solum tantum dicuntur habuisse: quia hic 
+          sen<lb ed="#V" n="66" break="no"/>sus maxime est ad vitam necessarius <ref>secundum philosophum 2. de anima.</ref>
+          <lb ed="#V" n="67"/>Unde et <ref>secundum eum 3 de anima.</ref> Animal saluari non potest in 
+          vi<lb ed="#V" n="68" break="no"/>ta sine tactu. Quibus datus est spiritus ad mensuram.
+        </p>
+        <p xml:id="kzz7yh-g27938-d1e158">
+          ¶ Con 
+          <!--00091.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="69"/>tra <ref>Iaco I.</ref> super illud qui dat omnibus affluenter dicit glo. 
+          <lb ed="#V" n="70"/>quod dat omnia non in mensura.
+        </p>
+        <p xml:id="kzz7yh-g27938-d1e169">
+          ¶ Respondeo: dicitur omnia 
+          <lb ed="#V" n="71"/>dare non in mensura quantum est ex liberalitate dantis: 
+          <lb ed="#V" n="72"/>sed dat secundum mensuram dispositionis ipsius recipientis: 
+          Ie<lb ed="#V" n="73" break="no"/>tera. Ut deus ei plenius conferre non potuerit: quia scilicet ipse plus 
+          <lb ed="#V" n="74"/>sus proficiebat sapientia: hoc bene exponit magister in lit 
+          <lb ed="#V" n="75"/>capere non potuit: non enim ipse deus verbum pro anima 
+          <lb ed="#V" n="76"/>rationali etc. hoc dicit contra quosdam hereticos qui 
+          dixe<lb ed="#V" n="77" break="no"/>runt ipsum verbum increatum fuisse in carne: quam assum¬ 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

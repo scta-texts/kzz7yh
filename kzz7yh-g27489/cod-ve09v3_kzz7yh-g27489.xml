@@ -1,307 +1,307 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 3</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 3</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="39-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 3</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 3</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="39-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g27489"><!-- l3d13a3 -->
+        <head xml:id="kzz7yh-g27489-Hd1e101">Articulus 3</head>
+        <p xml:id="kzz7yh-g27489-d1e103">
+          <lb ed="#V" n="20"/>Consequenter queritur de tertio 
+          <lb ed="#V" n="21"/>principali. Et 
+          cir<lb ed="#V" n="22" break="no"/>ca hoc queruntur tria.
+        </p>
+        <p xml:id="kzz7yh-g27489-d1e112">
+          ¶ Primo vtrum 
+          gra<lb ed="#V" n="23" break="no"/>tia vnionis sit aliqua gratia creata.
+        </p>
+        <p xml:id="kzz7yh-g27489-d1e117">
+          ¶ 
+          Secun<lb ed="#V" n="24" break="no"/>do vtrum gratia vnionis et gratia singularis persone: et 
+          gra<lb ed="#V" n="25" break="no"/>tia capitis sint realiter eadem gratia.
+        </p>
+        <p xml:id="kzz7yh-g27489-d1e124">
+          ¶ Tertio que 
+          ista<lb ed="#V" n="26" break="no"/>rum gratiarum prior est. 
+        </p>
+        <div xml:id="kzz7yh-g27489-Dd1e130">
+          <head xml:id="kzz7yh-g27489-Hd1e132">Quaestio 1</head>
+          <head type="question-title">Utrum gratia unionis sit aliqua gratia creata</head>
+          <p xml:id="kzz7yh-g27489-d1e134">
+            Questio I 
+            <lb ed="#V" n="27"/>PRimo ostendo quod gratia vnionis non 
+            <lb ed="#V" n="28"/>sit aliqua gratia creata. Quilibet 
+            <lb ed="#V" n="29"/>iustus deo vnitus est per gratiam creatam. Si 
+            <lb ed="#V" n="30"/>ergo gratia vnionis in christo esset gratia creata 
+            <lb ed="#V" n="31"/>non alio modo esset natura humana christi vnita filio dei quam 
+            <lb ed="#V" n="32"/>nostra: quod falsum est.
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e150">
+            ¶ Item gratia vnionis est conferens 
+            <lb ed="#V" n="33"/>ad vnionem: sed gratia creata nihil potuisset conferre ad 
+            <lb ed="#V" n="34"/>vnionem humane nature cum diuina persona: quia 
+            diuina<lb ed="#V" n="35" break="no"/>persona corporis exanimi: quod gratie non est capax in triduo 
+            <lb ed="#V" n="36"/>mortis christi remansit vnita: ergo gratia vnionis non est 
+            gra<lb ed="#V" n="37" break="no"/>tia creata.
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e163">
+            ¶ Item effectus non est nobilior sua causa. Sed 
+            <lb ed="#V" n="38"/>existere in diuino supposito nobilior est quacumque gratia. 
+            <lb ed="#V" n="39"/>Cum ergo gratia vnionis causa fuerit vt humana 
+            natu<lb ed="#V" n="40" break="no"/>ra in diuino supposito existat: sequitur quod illa gratia non est creata. 
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e172">
+            <lb ed="#V" n="41"/>Contra omnis res per tempus orta creata est: sed 
+            gra<lb ed="#V" n="42" break="no"/>tia vnionis est res per tempus orta. Dicit 
+            <lb ed="#V" n="43"/>enim <ref>Augu. 13 de trinitate cap. 19.</ref> Quod <quote source="http://scta.info/resource/adt-l13-d1e1507@1-18">in rebus per tempus 
+              <lb ed="#V" n="44"/>ortis illa summa gratia est: quod homo in vnitate persone 
+              con<lb ed="#V" n="45" break="no"/>iunctus est deo</quote> ergo gratia vnionis est creata.
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e186">
+            ¶ Item 
+            <lb ed="#V" n="46"/>gratia vnionis aut accipitur pro aliquo habitu gratie: aut 
+            <lb ed="#V" n="47"/>pro ipsa gratuita vnione. Sed omnis habitus gratie 
+            crea<lb ed="#V" n="48" break="no"/>tus est: ipsa etiam vnio gratuita creata est: vt superius 
+            osten<lb ed="#V" n="49" break="no"/>sum est dist. 5. ergo gratia vnionis est creata. 
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e197">
+            <lb ed="#V" n="50"/>Respondeo quod gratia vnionis tripliciter potest 
+            <lb ed="#V" n="51"/>accipi. Uno modo pro gratuita dei 
+            <lb ed="#V" n="52"/>voluntate: que vnionem fieri imperauit. Alio modo pro 
+            <lb ed="#V" n="53"/>aliquo habitu gratie reddente humanam naturam christi 
+            ma<lb ed="#V" n="54" break="no"/>gis congruam ad hoc vt maneat vnita secundum illos qui dicunt 
+            <lb ed="#V" n="55"/>prius ordine nature fuit vnita quam fuerit subiectum 
+            habi<lb ed="#V" n="56" break="no"/>tus gratie: vel etiam quo fuit congrua assumi secundum illos quod 
+            <lb ed="#V" n="57"/>dicunt quod prius ordine nature fuit informata habitum 
+            gra<lb ed="#V" n="58" break="no"/>tie quam vnita. Tertio modo pro ipsa gratuita vnione. 
+            Pri<lb ed="#V" n="59" break="no"/>mo modo gratia vnionis est gratia increata. Secundo 
+            mo<lb ed="#V" n="60" break="no"/>do est gratia creata. Tertio modo secundum quod ipsa vnio dicit 
+            ali<lb ed="#V" n="61" break="no"/>quam relationem realem non persone verbi ad naturam 
+            <lb ed="#V" n="62"/>humanam: sed econuerso: etiam est creata: vt superius ostensum est di. 5. 
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e228">
+            <lb ed="#V" n="63"/>Ad primum in oppositum dicendum: quod alio modo 
+            <lb ed="#V" n="64"/>requiritur gratia in nobis ad hoc 
+            <lb ed="#V" n="65"/>vt vniamur cum deo in ratione obiecti per cognitionem 
+            <lb ed="#V" n="66"/>et amorem: et ad hoc vt natura humana christi vniretur 
+            di<lb ed="#V" n="67" break="no"/>uine persone in ratione suppositi: quia primo modo requiritur 
+            <lb ed="#V" n="68"/>de necessitate. Secundo modo requiritur de congruitate: 
+            <!--00090.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>Unde ipsa non fuit causa illius vnionis: sed facta est 
+            con<lb ed="#V" n="70" break="no"/>currentibus ex parte dei gratuita eius voluntate: et ex 
+            par<lb ed="#V" n="71" break="no"/>te nature humane eius assumptibilitate.
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e254">
+            ¶ Ad secundum cum 
+            <lb ed="#V" n="72"/>dicitur quod gratia vnionis est conferens ad vnionem etc. 
+            Di<lb ed="#V" n="73" break="no"/>co quod si accipiatur gratia vnionis pro aliquo habitum 
+            dis<lb ed="#V" n="74" break="no"/>ponente naturam humanam de congruo ad illam vnionem: sic 
+            <lb ed="#V" n="75"/>dico quod non conferens fuit ad illam vnionem nisi de 
+            congruo<lb ed="#V" n="76" break="no"/>et sic gratia creata conferre potuit ad vnionem: nec 
+            contra<lb ed="#V" n="77" break="no"/>hoc est quod persona remansit vnita corpori exanimi in 
+            tri<lb ed="#V" n="78" break="no"/>duo mortis christi: quia illud corpus ordinabile erat ad 
+            ani<lb ed="#V" n="79" break="no"/>mam gratia informata.
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e274">
+            ¶ Ad tertiom cum dicitur quod gratia 
+            <lb ed="#V" n="80"/>vnionis causa fuit vt humana natura in diuino 
+            supposi<lb ed="#V" n="81" break="no"/>to existat etc. Dico quod non fuit causa necessitatis: sed 
+            que<lb ed="#V" n="82" break="no"/>dam dispositio congrua ad hoc: vt humana natura 
+            assume<lb ed="#V" n="83" break="no"/>retur ad existentiam talem: secundum communem opinionem: que 
+            po<lb ed="#V" n="84" break="no"/>nit quod prius ordine nature fuit in ea habitus gratie quam 
+            fue<lb ed="#V" n="85" break="no"/>rit vnita: non est autem inconueniens effectum esse bilio 
+            <lb ed="#V" n="86"/>rem aliqua dispositione de congruo disponente ad eadem 
+            ef<lb ed="#V" n="87" break="no"/>fectum.
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e294">
+            ¶ Argumenta ad partem aliam procedunt de 
+            gra<lb ed="#V" n="88" break="no"/>tia vnionis: secundum quod accipitur pro alio habitum: vel pro ipsa 
+            <lb ed="#V" n="89"/>gratuita vnione: quamuis secundum parum valeat ratione forme: 
+            <lb ed="#V" n="90"/>quia supponit gratiam vnionis non posse accipi nisi 
+            dupli<lb ed="#V" n="91" break="no"/>citer quod falsum est: vt visum est in corpore quaestionis. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g27489-Dd1e306">
+          <head xml:id="kzz7yh-g27489-Hd1e308">Quaestio 2</head>
+          <head type="question-title">Utrum gratia unionis: et gratia persone singularis: et gratia capitis sit realiter eadem gratia</head>
+          <p xml:id="kzz7yh-g27489-d1e310">
+            Quaestio II. 
+            <lb ed="#V" n="92"/>SEcundo queritur vtrum gratia 
+            vnio<lb ed="#V" n="93" break="no"/>nis: et gratia persone 
+            singula<lb ed="#V" n="94" break="no"/>ris: et gratia capitis sit realiter eadem gratia. Et 
+            <lb ed="#V" n="95"/>videtur quod non non est eadem realiter perfectio 
+            abso<lb ed="#V" n="96" break="no"/>luta et relatiua: sed per gratiam singularis persone perficitur anime 
+            <lb ed="#V" n="97"/>christi secundum se: et absolute per gratiam capitis in comparatione ad 
+            <lb ed="#V" n="98"/>alios: ergo non sunt realiter eadem gratia.
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e328">
+            ¶ Item diuersi actus 
+            <lb ed="#V" n="99"/>secundum speciem procedunt a diuersis habitibus secundum speciem: vnde 
+            di<lb ed="#V" n="100" break="no"/>stinctio habituum cognoscitur per distinctionem actuum: sed 
+            <lb ed="#V" n="101"/>vniri verbo et influere membra ecclesie sunt actus 
+            differen<lb ed="#V" n="102" break="no"/>tes secundum speciem vel plus quam secundum speciem: ergo gratia vnionis que 
+            <lb ed="#V" n="103"/>respondet vni actui non est realiter idem cum gratia capitis: que 
+            <lb ed="#V" n="104"/>respondet alii actui.
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e344">
+            ¶ Item secundum <ref>philosophum. 7. Top.</ref> Que sunt 
+            <lb ed="#V" n="105"/>in diuersis predicamentis non sunt realiter idem: sed gratia 
+            <lb ed="#V" n="106"/>singularis persone est in praedicamento qualitatis: gratia autem 
+            <lb ed="#V" n="107"/>capitis videtur esse in predicamento relationis: est enim 
+            <lb ed="#V" n="108"/>quedam potestas influendi in alios qua prelati in 
+            subdi<lb ed="#V" n="109" break="no"/>tos influunt: ergo non sunt realiter idem. 
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e357">
+            <lb ed="#V" n="110"/>Contra. vna et eadem realiter est scientia qua in se perficitur 
+            <lb ed="#V" n="111"/>doctor: et qua in discipulos doctrinam influit 
+            <lb ed="#V" n="112"/>ergo similiter vna et eadem est realiter gratia qua christus: 
+            inquan<lb ed="#V" n="113" break="no"/>tum homo perficitur: et qua membris ecclesie influit. Sed 
+            <lb ed="#V" n="114"/>prima gratia est gratia singularis persone. Secunda est gratia 
+            <lb ed="#V" n="115"/>capitis: ergo ille due gratie sunt realiter idem.
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e374">
+            ¶ Item 
+            <lb ed="#V" n="116"/>eadem est charitas qua in se perficitur voluntas: et qua 
+            <lb ed="#V" n="117"/>proximo vnitur: et qua facit dilectionis effectus: ergo a 
+            simili<lb ed="#V" n="118" break="no"/>eadem est gratia qua christus in se perficitur inquantum homo: et qua 
+            <lb ed="#V" n="119"/>vnitur verbo: et per quam in alios influit. 
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e385">
+            <lb ed="#V" n="120"/>Respondeo quod si gratia vnionis accipitur pro
+            <lb ed="#V" n="121"/>gratia per quam vt habitam in re
+            <lb ed="#V" n="122"/>vel saltem secundum diuinam preordinationem congruum fuit 
+            na<lb ed="#V" n="123" break="no"/>turam humanam vniri diuine persone: vt supposito: sic 
+            <lb ed="#V" n="124"/>dico quod gratia singularis persone et gratia vnionis et 
+            gra<lb ed="#V" n="125" break="no"/>tia capitis realiter sunt eadem gratia: sed differunt secundum 
+            <lb ed="#V" n="126"/>rationem: naturam inquantum perficit animam christi: non 
+            <lb ed="#V" n="127"/>tantum in se: sed in comparatione ad bona opera dicitur 
+            <lb ed="#V" n="128"/>gratia singularis persone: inquantum naturam 
+            huma<lb ed="#V" n="129" break="no"/>nam congruam reddidit ad vnionem cum verbo: 
+            dici<lb ed="#V" n="130" break="no"/>tur gratia vnionis. Inquantum autem merita que 
+            chri<lb ed="#V" n="131" break="no"/>stus per illam gratiam meruit redundauerunt et 
+            conti<lb ed="#V" n="132" break="no"/>nue redundant in nos secundum illud Ioan. primo. De plenitum 
+            <lb ed="#V" n="133"/>dine eius omnes accipimus: sic dicitur gratia capitis. 
+            <lb ed="#V" n="134"/>Si autem gratia vnionis accipiatur pro ipsa vnione 
+            gra<lb ed="#V" n="135" break="no"/>tuita: aut pro gratuita dei voluntate: per quam facta est 
+            <lb ed="#V" n="136"/>vnio: sic gratia vnionis realiter differt a gratia singula¬ 
+            <!--00091.xml-->
+            <pb ed="#V" n="40-r"/>
             <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g27489"><!-- l3d13a3 -->
-            <head xml:id="kzz7yh-g27489-Hd1e101">Articulus 3</head>
-            <p xml:id="kzz7yh-g27489-d1e103">
-               <lb ed="#V" n="20"/>Consequenter queritur de tertio 
-      <lb ed="#V" n="21"/>principali. Et 
-      cir<lb ed="#V" n="22" break="no"/>ca hoc queruntur tria.
-   </p>
-            <p xml:id="kzz7yh-g27489-d1e112">
-      ¶ Primo vtrum 
-      gra<lb ed="#V" n="23" break="no"/>tia vnionis sit aliqua gratia creata.
-   </p>
-            <p xml:id="kzz7yh-g27489-d1e117">
-      ¶ 
-      Secun<lb ed="#V" n="24" break="no"/>do vtrum gratia vnionis et gratia singularis persone: et 
-      gra<lb ed="#V" n="25" break="no"/>tia capitis sint realiter eadem gratia.
-   </p>
-            <p xml:id="kzz7yh-g27489-d1e124">
-      ¶ Tertio que 
-      ista<lb ed="#V" n="26" break="no"/>rum gratiarum prior est. 
-   </p>
-            <div xml:id="kzz7yh-g27489-Dd1e130">
-               <head xml:id="kzz7yh-g27489-Hd1e132">Quaestio 1</head>
-               <head type="question-title">Utrum gratia unionis sit aliqua gratia creata</head>
-               <p xml:id="kzz7yh-g27489-d1e134">
-      Questio I 
-      <lb ed="#V" n="27"/>PRimo ostendo quod gratia vnionis non 
-      <lb ed="#V" n="28"/>sit aliqua gratia creata. Quilibet 
-      <lb ed="#V" n="29"/>iustus deo vnitus est per gratiam creatam. Si 
-      <lb ed="#V" n="30"/>ergo gratia vnionis in christo esset gratia creata 
-      <lb ed="#V" n="31"/>non alio modo esset natura humana christi vnita filio dei quam 
-      <lb ed="#V" n="32"/>nostra: quod falsum est.
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e150">
-      ¶ Item gratia vnionis est conferens 
-      <lb ed="#V" n="33"/>ad vnionem: sed gratia creata nihil potuisset conferre ad 
-      <lb ed="#V" n="34"/>vnionem humane nature cum diuina persona: quia 
-      diuina<lb ed="#V" n="35" break="no"/>persona corporis exanimi: quod gratie non est capax in triduo 
-      <lb ed="#V" n="36"/>mortis christi remansit vnita: ergo gratia vnionis non est 
-      gra<lb ed="#V" n="37" break="no"/>tia creata.
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e163">
-      ¶ Item effectus non est nobilior sua causa. Sed 
-      <lb ed="#V" n="38"/>existere in diuino supposito nobilior est quacumque gratia. 
-      <lb ed="#V" n="39"/>Cum ergo gratia vnionis causa fuerit vt humana 
-      natu<lb ed="#V" n="40" break="no"/>ra in diuino supposito existat: sequitur quod illa gratia non est creata. 
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e172">
-                  <lb ed="#V" n="41"/>Contra omnis res per tempus orta creata est: sed 
-      gra<lb ed="#V" n="42" break="no"/>tia vnionis est res per tempus orta. Dicit 
-      <lb ed="#V" n="43"/>enim <ref>Augu. 13 de trinitate cap. 19.</ref> Quod <quote source="http://scta.info/resource/adt-l13-d1e1507@1-18">in rebus per tempus 
-      <lb ed="#V" n="44"/>ortis illa summa gratia est: quod homo in vnitate persone 
-      con<lb ed="#V" n="45" break="no"/>iunctus est deo</quote> ergo gratia vnionis est creata.
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e186">
-      ¶ Item 
-      <lb ed="#V" n="46"/>gratia vnionis aut accipitur pro aliquo habitu gratie: aut 
-      <lb ed="#V" n="47"/>pro ipsa gratuita vnione. Sed omnis habitus gratie 
-      crea<lb ed="#V" n="48" break="no"/>tus est: ipsa etiam vnio gratuita creata est: vt superius 
-      osten<lb ed="#V" n="49" break="no"/>sum est dist. 5. ergo gratia vnionis est creata. 
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e197">
-                  <lb ed="#V" n="50"/>Respondeo quod gratia vnionis tripliciter potest 
-      <lb ed="#V" n="51"/>accipi. Uno modo pro gratuita dei 
-      <lb ed="#V" n="52"/>voluntate: que vnionem fieri imperauit. Alio modo pro 
-      <lb ed="#V" n="53"/>aliquo habitu gratie reddente humanam naturam christi 
-      ma<lb ed="#V" n="54" break="no"/>gis congruam ad hoc vt maneat vnita secundum illos qui dicunt 
-      <lb ed="#V" n="55"/>prius ordine nature fuit vnita quam fuerit subiectum 
-      habi<lb ed="#V" n="56" break="no"/>tus gratie: vel etiam quo fuit congrua assumi secundum illos quod 
-      <lb ed="#V" n="57"/>dicunt quod prius ordine nature fuit informata habitum 
-      gra<lb ed="#V" n="58" break="no"/>tie quam vnita. Tertio modo pro ipsa gratuita vnione. 
-      Pri<lb ed="#V" n="59" break="no"/>mo modo gratia vnionis est gratia increata. Secundo 
-      mo<lb ed="#V" n="60" break="no"/>do est gratia creata. Tertio modo secundum quod ipsa vnio dicit 
-      ali<lb ed="#V" n="61" break="no"/>quam relationem realem non persone verbi ad naturam 
-      <lb ed="#V" n="62"/>humanam: sed econuerso: etiam est creata: vt superius ostensum est di. 5. 
-    </p>
-               <p xml:id="kzz7yh-g27489-d1e228">
-                  <lb ed="#V" n="63"/>Ad primum in oppositum dicendum: quod alio modo 
-      <lb ed="#V" n="64"/>requiritur gratia in nobis ad hoc 
-      <lb ed="#V" n="65"/>vt vniamur cum deo in ratione obiecti per cognitionem 
-      <lb ed="#V" n="66"/>et amorem: et ad hoc vt natura humana christi vniretur 
-      di<lb ed="#V" n="67" break="no"/>uine persone in ratione suppositi: quia primo modo requiritur 
-      <lb ed="#V" n="68"/>de necessitate. Secundo modo requiritur de congruitate: 
-      <!--00090.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>Unde ipsa non fuit causa illius vnionis: sed facta est 
-      con<lb ed="#V" n="70" break="no"/>currentibus ex parte dei gratuita eius voluntate: et ex 
-      par<lb ed="#V" n="71" break="no"/>te nature humane eius assumptibilitate.
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e254">
-      ¶ Ad secundum cum 
-      <lb ed="#V" n="72"/>dicitur quod gratia vnionis est conferens ad vnionem etc. 
-      Di<lb ed="#V" n="73" break="no"/>co quod si accipiatur gratia vnionis pro aliquo habitum 
-      dis<lb ed="#V" n="74" break="no"/>ponente naturam humanam de congruo ad illam vnionem: sic 
-      <lb ed="#V" n="75"/>dico quod non conferens fuit ad illam vnionem nisi de 
-      congruo<lb ed="#V" n="76" break="no"/>et sic gratia creata conferre potuit ad vnionem: nec 
-      contra<lb ed="#V" n="77" break="no"/>hoc est quod persona remansit vnita corpori exanimi in 
-      tri<lb ed="#V" n="78" break="no"/>duo mortis christi: quia illud corpus ordinabile erat ad 
-      ani<lb ed="#V" n="79" break="no"/>mam gratia informata.
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e274">
-      ¶ Ad tertiom cum dicitur quod gratia 
-      <lb ed="#V" n="80"/>vnionis causa fuit vt humana natura in diuino 
-      supposi<lb ed="#V" n="81" break="no"/>to existat etc. Dico quod non fuit causa necessitatis: sed 
-      que<lb ed="#V" n="82" break="no"/>dam dispositio congrua ad hoc: vt humana natura 
-      assume<lb ed="#V" n="83" break="no"/>retur ad existentiam talem: secundum communem opinionem: que 
-      po<lb ed="#V" n="84" break="no"/>nit quod prius ordine nature fuit in ea habitus gratie quam 
-      fue<lb ed="#V" n="85" break="no"/>rit vnita: non est autem inconueniens effectum esse bilio 
-      <lb ed="#V" n="86"/>rem aliqua dispositione de congruo disponente ad eadem 
-      ef<lb ed="#V" n="87" break="no"/>fectum.
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e294">
-      ¶ Argumenta ad partem aliam procedunt de 
-      gra<lb ed="#V" n="88" break="no"/>tia vnionis: secundum quod accipitur pro alio habitum: vel pro ipsa 
-      <lb ed="#V" n="89"/>gratuita vnione: quamuis secundum parum valeat ratione forme: 
-      <lb ed="#V" n="90"/>quia supponit gratiam vnionis non posse accipi nisi 
-      dupli<lb ed="#V" n="91" break="no"/>citer quod falsum est: vt visum est in corpore quaestionis. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g27489-Dd1e306">
-               <head xml:id="kzz7yh-g27489-Hd1e308">Quaestio 2</head>
-               <head type="question-title">Utrum gratia unionis: et gratia persone singularis: et gratia capitis sit realiter eadem gratia</head>
-               <p xml:id="kzz7yh-g27489-d1e310">
-      Quaestio II. 
-      <lb ed="#V" n="92"/>SEcundo queritur vtrum gratia 
-      vnio<lb ed="#V" n="93" break="no"/>nis: et gratia persone 
-      singula<lb ed="#V" n="94" break="no"/>ris: et gratia capitis sit realiter eadem gratia. Et 
-      <lb ed="#V" n="95"/>videtur quod non non est eadem realiter perfectio 
-      abso<lb ed="#V" n="96" break="no"/>luta et relatiua: sed per gratiam singularis persone perficitur anime 
-      <lb ed="#V" n="97"/>christi secundum se: et absolute per gratiam capitis in comparatione ad 
-      <lb ed="#V" n="98"/>alios: ergo non sunt realiter eadem gratia.
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e328">
-      ¶ Item diuersi actus 
-      <lb ed="#V" n="99"/>secundum speciem procedunt a diuersis habitibus secundum speciem: vnde 
-      di<lb ed="#V" n="100" break="no"/>stinctio habituum cognoscitur per distinctionem actuum: sed 
-      <lb ed="#V" n="101"/>vniri verbo et influere membra ecclesie sunt actus 
-      differen<lb ed="#V" n="102" break="no"/>tes secundum speciem vel plus quam secundum speciem: ergo gratia vnionis que 
-      <lb ed="#V" n="103"/>respondet vni actui non est realiter idem cum gratia capitis: que 
-      <lb ed="#V" n="104"/>respondet alii actui.
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e344">
-      ¶ Item secundum <ref>philosophum. 7. Top.</ref> Que sunt 
-      <lb ed="#V" n="105"/>in diuersis predicamentis non sunt realiter idem: sed gratia 
-      <lb ed="#V" n="106"/>singularis persone est in praedicamento qualitatis: gratia autem 
-      <lb ed="#V" n="107"/>capitis videtur esse in predicamento relationis: est enim 
-      <lb ed="#V" n="108"/>quedam potestas influendi in alios qua prelati in 
-      subdi<lb ed="#V" n="109" break="no"/>tos influunt: ergo non sunt realiter idem. 
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e357">
-                  <lb ed="#V" n="110"/>Contra. vna et eadem realiter est scientia qua in se perficitur 
-      <lb ed="#V" n="111"/>doctor: et qua in discipulos doctrinam influit 
-      <lb ed="#V" n="112"/>ergo similiter vna et eadem est realiter gratia qua christus: 
-      inquan<lb ed="#V" n="113" break="no"/>tum homo perficitur: et qua membris ecclesie influit. Sed 
-      <lb ed="#V" n="114"/>prima gratia est gratia singularis persone. Secunda est gratia 
-      <lb ed="#V" n="115"/>capitis: ergo ille due gratie sunt realiter idem.
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e374">
-      ¶ Item 
-      <lb ed="#V" n="116"/>eadem est charitas qua in se perficitur voluntas: et qua 
-      <lb ed="#V" n="117"/>proximo vnitur: et qua facit dilectionis effectus: ergo a 
-      simili<lb ed="#V" n="118" break="no"/>eadem est gratia qua christus in se perficitur inquantum homo: et qua 
-      <lb ed="#V" n="119"/>vnitur verbo: et per quam in alios influit. 
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e385">
-                  <lb ed="#V" n="120"/>Respondeo quod si gratia vnionis accipitur pro
-      <lb ed="#V" n="121"/>gratia per quam vt habitam in re
-      <lb ed="#V" n="122"/>vel saltem secundum diuinam preordinationem congruum fuit 
-      na<lb ed="#V" n="123" break="no"/>turam humanam vniri diuine persone: vt supposito: sic 
-      <lb ed="#V" n="124"/>dico quod gratia singularis persone et gratia vnionis et 
-      gra<lb ed="#V" n="125" break="no"/>tia capitis realiter sunt eadem gratia: sed differunt secundum 
-      <lb ed="#V" n="126"/>rationem: naturam inquantum perficit animam christi: non 
-      <lb ed="#V" n="127"/>tantum in se: sed in comparatione ad bona opera dicitur 
-      <lb ed="#V" n="128"/>gratia singularis persone: inquantum naturam 
-      huma<lb ed="#V" n="129" break="no"/>nam congruam reddidit ad vnionem cum verbo: 
-      dici<lb ed="#V" n="130" break="no"/>tur gratia vnionis. Inquantum autem merita que 
-      chri<lb ed="#V" n="131" break="no"/>stus per illam gratiam meruit redundauerunt et 
-      conti<lb ed="#V" n="132" break="no"/>nue redundant in nos secundum illud Ioan. primo. De plenitum 
-      <lb ed="#V" n="133"/>dine eius omnes accipimus: sic dicitur gratia capitis. 
-      <lb ed="#V" n="134"/>Si autem gratia vnionis accipiatur pro ipsa vnione 
-      gra<lb ed="#V" n="135" break="no"/>tuita: aut pro gratuita dei voluntate: per quam facta est 
-      <lb ed="#V" n="136"/>vnio: sic gratia vnionis realiter differt a gratia singula¬ 
-      <!--00091.xml-->
-      <pb ed="#V" n="40-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>ris persone et gratia capitis: quia ipsa vnio: relatio quedam 
-      <lb ed="#V" n="2"/>est: gratia singularis persone et gratia capitis qualitas quedam 
-      <lb ed="#V" n="3"/>est: gratuita dei voluntas ipse deus est. 
-    </p>
-               <p xml:id="kzz7yh-g27489-d1e437">
-                  <lb ed="#V" n="4"/>Ad primum in oppositum cum dicitur: quod non est 
-      rea<lb ed="#V" n="5" break="no"/>liter eadem perfectio absoluta et 
-      re<lb ed="#V" n="6" break="no"/>latiua etc. Dico quod eadem perfectio considerari potest secundum illud 
-      <lb ed="#V" n="7"/>quod est absolute: et est in relatione: et quamuis ipsa relatio non sit 
-      <lb ed="#V" n="8"/>realiter idem cum ipsa perfectione absoluta super quam 
-      sun<lb ed="#V" n="9" break="no"/>datur tamen ipsa perfectio siue consideretur absolute siue cum illa 
-      <lb ed="#V" n="10"/>relatione res eadem est. Unde non est intelligendum quod gratia 
-      ca<lb ed="#V" n="11" break="no"/>pitis sit relatio: Sed nominat quandam qualitatem cum qua dam 
-      re<lb ed="#V" n="12" break="no"/>latione ad membra ecclesie.
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e459">
-      ¶ Ad secundum cum dicitur: quod 
-      diuersi<lb ed="#V" n="13" break="no"/>actus secundum speciem procedunt a diuersis habitibus secundum speciem etc. 
-      <lb ed="#V" n="14"/>potest dici quod non opetet quando vnus procedit ab habitum mediante 
-      <lb ed="#V" n="15"/>alio: ex eodem enim habitu: ego diligo proximum et gaudeo 
-      <lb ed="#V" n="16"/>de bono eius: et odio malum illius: et tamen odire et diligen sunt 
-      <lb ed="#V" n="17"/>actus diuersi secundum speciem: influere autem in membra conuenit christo 
-      <lb ed="#V" n="18"/>inquantum homo est per ipsam gratiam: inquantum eius 
-      natu<lb ed="#V" n="19" break="no"/>ra eius humana vnita est verbo: nisi enim esset deus et 
-      homo<lb ed="#V" n="20" break="no"/>pro nobis sacrifacere non potuisset: vt inferius ostendetur. 
-      <lb ed="#V" n="21"/>Uel potest dici ad argumentum quod vnio nature 
-      humane<lb ed="#V" n="22" break="no"/>cum verbo non fuit elicita per aliquem habitum nature 
-      huma<lb ed="#V" n="23" break="no"/>ne: quamuis habitualis gratia ipsius sit: vt preexistens in 
-      diuina<lb ed="#V" n="24" break="no"/>preordinatione fuerit dispositio congrua ad illam vnionem: sed 
-      <lb ed="#V" n="25"/>fuit elicita per gratuitam dei voluntatem.
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e490">
-      ¶ Ad tertium cum 
-      <lb ed="#V" n="26"/>dicitur quod gratia capitis est in praedicamento relationis etc. 
-      Di<lb ed="#V" n="27" break="no"/>co quod gratia capitis secundum id quod est non est in praedicamento 
-      rela<lb ed="#V" n="28" break="no"/>tionis: sed qualitatis: quamuis considerata sub ratione qua 
-      <lb ed="#V" n="29"/>gratia capitis includit quandam relationem ad 
-      ecclesie<lb ed="#V" n="30" break="no"/>membra. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g27489-Dd1e504">
-               <head xml:id="kzz7yh-g27489-Hd1e506">Quaestio 3</head>
-               <head type="question-title">Utrum sine argumentis: quae istarum gratiarum prior est</head>
-               <p xml:id="kzz7yh-g27489-d1e508">
-      Questio III 
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e510">
-                  <lb ed="#V" n="31"/>TErtio queritur vtrum sine argumentis: quae 
-      <lb ed="#V" n="32"/>istarum gratiarum prior est. 
-   </p>
-               <p xml:id="kzz7yh-g27489-d1e517">
-                  <lb ed="#V" n="33"/>¶ Respondeo quod cum ille tres gratie quantum 
-      <lb ed="#V" n="34"/>ad illud quod in eis est absolutum realiter idem fuit 
-      <lb ed="#V" n="35"/>vt in precedenti questione dictum est (vnde non est inter eas 
-      <lb ed="#V" n="36"/>differentia: nisi secundum rationem et relationem) non potest realiter vna 
-      <lb ed="#V" n="37"/>dici prior alia: quamuis secundum rationem sit inter eas ordo priorita 
-      <lb ed="#V" n="38"/>tis et posterioritatis: quia enim prius est opera bona 
-      face<lb ed="#V" n="39" break="no"/>re: quam redundantia illorum bonorum operum in alios: ideo 
-      gra<lb ed="#V" n="40" break="no"/>tia singularis persone prior est: quam gratia capitis: et quia 
-      pri<lb ed="#V" n="41" break="no"/>fuit naturam humanam stabiliri in supposito quod factu est per 
-      <lb ed="#V" n="42"/>sui vnionem ad verbum: quam per eius gratiam elicerentur ope 
-      <lb ed="#V" n="43"/>ra bona: quia realis operatio non est nisi rei subsistentis: ideo 
-      <lb ed="#V" n="44"/>gratia prior est: quam gratia singularis persone. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="1"/>ris persone et gratia capitis: quia ipsa vnio: relatio quedam 
+            <lb ed="#V" n="2"/>est: gratia singularis persone et gratia capitis qualitas quedam 
+            <lb ed="#V" n="3"/>est: gratuita dei voluntas ipse deus est. 
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e437">
+            <lb ed="#V" n="4"/>Ad primum in oppositum cum dicitur: quod non est 
+            rea<lb ed="#V" n="5" break="no"/>liter eadem perfectio absoluta et 
+            re<lb ed="#V" n="6" break="no"/>latiua etc. Dico quod eadem perfectio considerari potest secundum illud 
+            <lb ed="#V" n="7"/>quod est absolute: et est in relatione: et quamuis ipsa relatio non sit 
+            <lb ed="#V" n="8"/>realiter idem cum ipsa perfectione absoluta super quam 
+            sun<lb ed="#V" n="9" break="no"/>datur tamen ipsa perfectio siue consideretur absolute siue cum illa 
+            <lb ed="#V" n="10"/>relatione res eadem est. Unde non est intelligendum quod gratia 
+            ca<lb ed="#V" n="11" break="no"/>pitis sit relatio: Sed nominat quandam qualitatem cum qua dam 
+            re<lb ed="#V" n="12" break="no"/>latione ad membra ecclesie.
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e459">
+            ¶ Ad secundum cum dicitur: quod 
+            diuersi<lb ed="#V" n="13" break="no"/>actus secundum speciem procedunt a diuersis habitibus secundum speciem etc. 
+            <lb ed="#V" n="14"/>potest dici quod non opetet quando vnus procedit ab habitum mediante 
+            <lb ed="#V" n="15"/>alio: ex eodem enim habitu: ego diligo proximum et gaudeo 
+            <lb ed="#V" n="16"/>de bono eius: et odio malum illius: et tamen odire et diligen sunt 
+            <lb ed="#V" n="17"/>actus diuersi secundum speciem: influere autem in membra conuenit christo 
+            <lb ed="#V" n="18"/>inquantum homo est per ipsam gratiam: inquantum eius 
+            natu<lb ed="#V" n="19" break="no"/>ra eius humana vnita est verbo: nisi enim esset deus et 
+            homo<lb ed="#V" n="20" break="no"/>pro nobis sacrifacere non potuisset: vt inferius ostendetur. 
+            <lb ed="#V" n="21"/>Uel potest dici ad argumentum quod vnio nature 
+            humane<lb ed="#V" n="22" break="no"/>cum verbo non fuit elicita per aliquem habitum nature 
+            huma<lb ed="#V" n="23" break="no"/>ne: quamuis habitualis gratia ipsius sit: vt preexistens in 
+            diuina<lb ed="#V" n="24" break="no"/>preordinatione fuerit dispositio congrua ad illam vnionem: sed 
+            <lb ed="#V" n="25"/>fuit elicita per gratuitam dei voluntatem.
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e490">
+            ¶ Ad tertium cum 
+            <lb ed="#V" n="26"/>dicitur quod gratia capitis est in praedicamento relationis etc. 
+            Di<lb ed="#V" n="27" break="no"/>co quod gratia capitis secundum id quod est non est in praedicamento 
+            rela<lb ed="#V" n="28" break="no"/>tionis: sed qualitatis: quamuis considerata sub ratione qua 
+            <lb ed="#V" n="29"/>gratia capitis includit quandam relationem ad 
+            ecclesie<lb ed="#V" n="30" break="no"/>membra. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g27489-Dd1e504">
+          <head xml:id="kzz7yh-g27489-Hd1e506">Quaestio 3</head>
+          <head type="question-title">Utrum sine argumentis: quae istarum gratiarum prior est</head>
+          <p xml:id="kzz7yh-g27489-d1e508">
+            Questio III 
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e510">
+            <lb ed="#V" n="31"/>TErtio queritur vtrum sine argumentis: quae 
+            <lb ed="#V" n="32"/>istarum gratiarum prior est. 
+          </p>
+          <p xml:id="kzz7yh-g27489-d1e517">
+            <lb ed="#V" n="33"/>¶ Respondeo quod cum ille tres gratie quantum 
+            <lb ed="#V" n="34"/>ad illud quod in eis est absolutum realiter idem fuit 
+            <lb ed="#V" n="35"/>vt in precedenti questione dictum est (vnde non est inter eas 
+            <lb ed="#V" n="36"/>differentia: nisi secundum rationem et relationem) non potest realiter vna 
+            <lb ed="#V" n="37"/>dici prior alia: quamuis secundum rationem sit inter eas ordo priorita 
+            <lb ed="#V" n="38"/>tis et posterioritatis: quia enim prius est opera bona 
+            face<lb ed="#V" n="39" break="no"/>re: quam redundantia illorum bonorum operum in alios: ideo 
+            gra<lb ed="#V" n="40" break="no"/>tia singularis persone prior est: quam gratia capitis: et quia 
+            pri<lb ed="#V" n="41" break="no"/>fuit naturam humanam stabiliri in supposito quod factu est per 
+            <lb ed="#V" n="42"/>sui vnionem ad verbum: quam per eius gratiam elicerentur ope 
+            <lb ed="#V" n="43"/>ra bona: quia realis operatio non est nisi rei subsistentis: ideo 
+            <lb ed="#V" n="44"/>gratia prior est: quam gratia singularis persone. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

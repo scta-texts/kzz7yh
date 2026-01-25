@@ -1,319 +1,319 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="57-r"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="57-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g39986"><!-- l3d17a1 -->
+        <head xml:id="kzz7yh-g39986-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-g39986-d1e103">
+          <lb ed="#V" n="59"/>Circa primum queruntur quatuor.
+        </p>
+        <p xml:id="kzz7yh-g39986-d1e108">
+          ¶ Primo vtrum 
+          <lb ed="#V" n="60"/>in christo fuerint plures voluntates.
+        </p>
+        <p xml:id="kzz7yh-g39986-d1e113">
+          ¶ Secundo vtrum voluntas 
+          <!--00125.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="61"/>rationis deliberatiua in aliquo discordauerit a voluntate 
+          di<lb ed="#V" n="62" break="no"/>uina.
+        </p>
+        <p xml:id="kzz7yh-g39986-d1e124">
+          ¶ Tertio vtrum naturalis voluntas rationis in aliquo 
+          discor<lb ed="#V" n="63" break="no"/>dauerit a voluntate deliberatiua.
+        </p>
+        <p xml:id="kzz7yh-g39986-d1e130">
+          ¶ Quarto vtrum 
+          appe<lb ed="#V" n="64" break="no"/>titus sensibilis in aliquo discordauerit a voluntate rationis 
+          <lb ed="#V" n="65"/>siue naturali siue deliberatiua.
+        </p>
+        <div xml:id="kzz7yh-g39986-Dd1e137">
+          <head xml:id="kzz7yh-g39986-Hd1e139">Quaestio 1</head>
+          <head xml:id="kzz7yh-g39986-Hd1e143" type="question-title">Utrum in Christo fuerint plures voluntates.</head>
+          <p xml:id="kzz7yh-g39986-d1e141">
+            Quaestio I
+            <lb ed="#V" n="66"/>PRimo ostendo quod in christo non fuerunt 
+            plu<lb ed="#V" n="67" break="no"/>res voluntates. <ref xml:id="kzz7yh-g39986-Rd1e152">Damas. li. iii. c. 14.</ref> 
+            <lb ed="#V" n="68"/>Quorum substantia est eadem: horum et voluntas et actio: sed 
+            <lb ed="#V" n="69"/>christi non est nisi vna substantia prima: quia in christo non est 
+            <lb ed="#V" n="70"/>suppositum nisi vnum: ergo in ipso non est voluntas nisi vna. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e154">
+            <lb ed="#V" n="71"/>¶ Item voluntas in homine habet dominium: sed in vno homine 
+            <lb ed="#V" n="72"/>non possunt esse plura dominia: ergo cum christus sit vnus homo in ipso 
+            <lb ed="#V" n="73"/>non est voluntas nisi vna.
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e163">
+            ¶ Item volutas facit volentem: ergo 
+            <lb ed="#V" n="74"/>plures voluntates: plures volentes: sed christus non est plures 
+            <lb ed="#V" n="75"/>volentes: sed vnus volens: ergo in ipso non est nisi voluntas vna. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e170">
+            <lb ed="#V" n="76"/>Contra <ref xml:id="kzz7yh-g39986-Rd1e183">Damas. li. ii. c. xii.</ref> Dicit esse in christo 
+            du<lb ed="#V" n="77" break="no"/>as voluntates naturales diuina et humana: et 
+            duo<lb ed="#V" n="78" break="no"/>libera arbitria naturalia diuinum et humanum. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e180">
+            <lb ed="#V" n="79"/>Respondeo quod in christo sunt plures voluntates: et 
+            si<lb ed="#V" n="80" break="no"/>numerentur secundum naturas due sunt: secent 
+            <lb ed="#V" n="81"/>diuina et humana: si secundum potentias tres sunt scilicet voluntas 
+            di<lb ed="#V" n="82" break="no"/>uina et voluntas anime rationalis et appetitiua sensitiua que 
+            ex<lb ed="#V" n="83" break="no"/>tenso omine voluntatis voluntas dicitur: quia mouetur post 
+            apprehen<lb ed="#V" n="84" break="no"/>sionem tamen proprie loquendo de nomine voluntatis: volutas non 
+            in<lb ed="#V" n="85" break="no"/>uenitur nisi in parte anime rationalis secundum philosophum. iii. de ala. Si autem 
+            nu<lb ed="#V" n="86" break="no"/>merentur: non tantum secundum differtiuam realem: sed secundum modos volendi 
+            <lb ed="#V" n="87"/>sic sunt quatuor: quia sic voluntas rationalis diuiditur in duas scilicet in 
+            <lb ed="#V" n="88"/>naturalem et deliberatiuam secundum diuersos volendi modos: 
+            <lb ed="#V" n="89"/>et secundum diuersas rationes. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e206">
+            <lb ed="#V" n="90"/>Ad primum In oppositum dicendum: quod ibi <ref xml:id="kzz7yh-g39986-Rd1e220">Damas.</ref> 
+            <lb ed="#V" n="91"/>accipit subiectum non praesupposito sed 
+            pro<lb ed="#V" n="92" break="no"/>essentia: quamuis autem in christo non sit nisi vnum suppositum: 
+            in<lb ed="#V" n="93" break="no"/>ipso tamen due sunt essentie: diuima scilicet et humana secundum quas sunt 
+            <lb ed="#V" n="94"/>in christo due voluntates: vnde Damas. li. iii. c. xiii. Namles et non 
+            <lb ed="#V" n="95"/>hyposticas id est personales aimus voluntates.
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e222">
+            ¶ Ad secundum dicendum 
+            <lb ed="#V" n="96"/>quod in puro homine voluntas humana habet dominium: sed in christo qui est 
+            <lb ed="#V" n="97"/>deus et homo: voluntas diuina habet dominium: et per illam regitur 
+            huma<lb ed="#V" n="98" break="no"/>na.
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e231">
+            ¶ Ad tertium dicendum: quod natura primo est volens per volutatem: et 
+            ex<lb ed="#V" n="99" break="no"/>consequenti h ypostasis: et ideo quamuis in christo non sit nisi vna 
+            hypo<lb ed="#V" n="100" break="no"/>stasis: tamen quia in ipso sunt plures nature in ipso sunt plures 
+            vo<lb ed="#V" n="101" break="no"/>luntates: et ita vnus est qui vult: et tamen due nature sunt volentes. 
+            <lb ed="#V" n="102"/>Uel potest dici quod forma argumenti non valet sicut non valet: 
+            <lb ed="#V" n="103"/>homo est equalis per qualitatem: ergo per plures qualitates: est plules quales 
+            <lb ed="#V" n="104"/>quia hoc plures quales plurificat: et suppositum et qualitatem. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g39986-Dd1e248">
+          <head xml:id="kzz7yh-g39986-Hd1e250">Quaestio 2</head>
+          <head xml:id="kzz7yh-g39986-Hd1e265" type="question-title">Utrum in christo voluntas rationis deliberativa in aliquo discordaverit a voluntate divina</head>
+          <p xml:id="kzz7yh-g39986-d1e252">
+            Quaestio II. 
+            <lb ed="#V" n="105"/>SEcundo Queritur vtrum in christo voluntas 
+            <lb ed="#V" n="106"/>rationis deliberatiua in aliquo 
+            <lb ed="#V" n="107"/>discordauerit a voluntate diuina. Et videtur quod sic. 
+            <lb ed="#V" n="108"/><ref xml:id="kzz7yh-g39986-Rd1e277">Matth. 26</ref> dicit saluator ad patrem. <quote xml:id="kzz7yh-g39986-Qd1e279" source="http://scta.info/resource/mt26_39@22-28">Non sicut ego 
+              <lb ed="#V" n="109"/>volo: sed sicut tu vis</quote>: ergo videtur quod vnum volebat voluntas 
+            diui<lb ed="#V" n="110" break="no"/>na et aliud voluntas rationis deliberatiua.
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e268">
+            ¶ Item magis 
+            ex<lb ed="#V" n="111" break="no"/>cedit voluntas diuina voluntatem rationis deliberatiuam quam 
+            vo<lb ed="#V" n="112" break="no"/>luntas rationis deliberatiua sensualitatem. Sed sensualitas in 
+            <lb ed="#V" n="113"/>aliquo discordauit a voluntate deliberatiua: quia refugiebat 
+            <lb ed="#V" n="114"/>mortem quam voluntas deliberatiua acceptabat: ergo multo 
+            <lb ed="#V" n="115"/>fortius voluntas rationis deliberatiua in aliquo 
+            discor<lb ed="#V" n="116" break="no"/>dauit a voluntate diuina. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e284">
+            <lb ed="#V" n="117"/>Contra secundum rectum ordinem voluntas rationis 
+            deliberati<lb ed="#V" n="118" break="no"/>ua: plene debet esse subiecta voluntati diuine: sed 
+            si<lb ed="#V" n="119" break="no"/>voluntas rationis deliberatiua fuisset disco:s in aliquo a 
+            vo<lb ed="#V" n="120" break="no"/>luntate diuina: non fuisset ei plene subiecta: et sic non fuisset 
+            <lb ed="#V" n="121"/>in christo seruatus rectus ordo. Restat ergo quod voluntas rationis 
+            <lb ed="#V" n="122"/>deliberatiua nunquam in aliquo discordauit a diuina. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e300">
+            <lb ed="#V" n="123"/>Respondeo quod in christus voluntus rationis 
+            deliberati<lb ed="#V" n="124" break="no"/>ua nunquam in aliquo discordauit a 
+            di<lb ed="#V" n="125" break="no"/>uina voluntate: immo concordauit cum ea: et in volito: quia volebat 
+            <lb ed="#V" n="126"/>quicquid videbat diuinam voluntatem velle: et in forma volendi: quia 
+            <lb ed="#V" n="127"/>quicquid volebat: volebat ex charitate: et sic volebat: sicut 
+            de<lb ed="#V" n="128" break="no"/>us volebat eam velle. 
+            <!--00126.xml-->
+            <pb ed="#V" n="57-v"/>
             <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g39986"><!-- l3d17a1 -->
-            <head xml:id="kzz7yh-g39986-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-g39986-d1e103">
-               <lb ed="#V" n="59"/>Circa primum queruntur quatuor.
-   </p>
-            <p xml:id="kzz7yh-g39986-d1e108">
-      ¶ Primo vtrum 
-      <lb ed="#V" n="60"/>in christo fuerint plures voluntates.
-   </p>
-            <p xml:id="kzz7yh-g39986-d1e113">
-      ¶ Secundo vtrum voluntas 
-      <!--00125.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="61"/>rationis deliberatiua in aliquo discordauerit a voluntate 
-      di<lb ed="#V" n="62" break="no"/>uina.
-   </p>
-            <p xml:id="kzz7yh-g39986-d1e124">
-      ¶ Tertio vtrum naturalis voluntas rationis in aliquo 
-      discor<lb ed="#V" n="63" break="no"/>dauerit a voluntate deliberatiua.
-   </p>
-            <p xml:id="kzz7yh-g39986-d1e130">
-      ¶ Quarto vtrum 
-      appe<lb ed="#V" n="64" break="no"/>titus sensibilis in aliquo discordauerit a voluntate rationis 
-      <lb ed="#V" n="65"/>siue naturali siue deliberatiua.
-   </p>
-            <div xml:id="kzz7yh-g39986-Dd1e137">
-               <head xml:id="kzz7yh-g39986-Hd1e139">Quaestio 1</head>
-               <head xml:id="kzz7yh-g39986-Hd1e143" type="question-title">Utrum in Christo fuerint plures voluntates.</head>
-               <p xml:id="kzz7yh-g39986-d1e141">
-     Quaestio I
-      <lb ed="#V" n="66"/>PRimo ostendo quod in christo non fuerunt 
-      plu<lb ed="#V" n="67" break="no"/>res voluntates. <ref xml:id="kzz7yh-g39986-Rd1e152">Damas. li. iii. c. 14.</ref> 
-      <lb ed="#V" n="68"/>Quorum substantia est eadem: horum et voluntas et actio: sed 
-      <lb ed="#V" n="69"/>christi non est nisi vna substantia prima: quia in christo non est 
-      <lb ed="#V" n="70"/>suppositum nisi vnum: ergo in ipso non est voluntas nisi vna. 
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e154">
-                  <lb ed="#V" n="71"/>¶ Item voluntas in homine habet dominium: sed in vno homine 
-      <lb ed="#V" n="72"/>non possunt esse plura dominia: ergo cum christus sit vnus homo in ipso 
-      <lb ed="#V" n="73"/>non est voluntas nisi vna.
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e163">
-      ¶ Item volutas facit volentem: ergo 
-      <lb ed="#V" n="74"/>plures voluntates: plures volentes: sed christus non est plures 
-      <lb ed="#V" n="75"/>volentes: sed vnus volens: ergo in ipso non est nisi voluntas vna. 
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e170">
-                  <lb ed="#V" n="76"/>Contra <ref xml:id="kzz7yh-g39986-Rd1e183">Damas. li. ii. c. xii.</ref> Dicit esse in christo 
-      du<lb ed="#V" n="77" break="no"/>as voluntates naturales diuina et humana: et 
-      duo<lb ed="#V" n="78" break="no"/>libera arbitria naturalia diuinum et humanum. 
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e180">
-                  <lb ed="#V" n="79"/>Respondeo quod in christo sunt plures voluntates: et 
-      si<lb ed="#V" n="80" break="no"/>numerentur secundum naturas due sunt: secent 
-      <lb ed="#V" n="81"/>diuina et humana: si secundum potentias tres sunt scilicet voluntas 
-      di<lb ed="#V" n="82" break="no"/>uina et voluntas anime rationalis et appetitiua sensitiua que 
-      ex<lb ed="#V" n="83" break="no"/>tenso omine voluntatis voluntas dicitur: quia mouetur post 
-      apprehen<lb ed="#V" n="84" break="no"/>sionem tamen proprie loquendo de nomine voluntatis: volutas non 
-      in<lb ed="#V" n="85" break="no"/>uenitur nisi in parte anime rationalis secundum philosophum. iii. de ala. Si autem 
-      nu<lb ed="#V" n="86" break="no"/>merentur: non tantum secundum differtiuam realem: sed secundum modos volendi 
-      <lb ed="#V" n="87"/>sic sunt quatuor: quia sic voluntas rationalis diuiditur in duas scilicet in 
-      <lb ed="#V" n="88"/>naturalem et deliberatiuam secundum diuersos volendi modos: 
-      <lb ed="#V" n="89"/>et secundum diuersas rationes. 
-    </p>
-               <p xml:id="kzz7yh-g39986-d1e206">
-                  <lb ed="#V" n="90"/>Ad primum In oppositum dicendum: quod ibi <ref xml:id="kzz7yh-g39986-Rd1e220">Damas.</ref> 
-      <lb ed="#V" n="91"/>accipit subiectum non praesupposito sed 
-      pro<lb ed="#V" n="92" break="no"/>essentia: quamuis autem in christo non sit nisi vnum suppositum: 
-      in<lb ed="#V" n="93" break="no"/>ipso tamen due sunt essentie: diuima scilicet et humana secundum quas sunt 
-      <lb ed="#V" n="94"/>in christo due voluntates: vnde Damas. li. iii. c. xiii. Namles et non 
-      <lb ed="#V" n="95"/>hyposticas id est personales aimus voluntates.
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e222">
-      ¶ Ad secundum dicendum 
-      <lb ed="#V" n="96"/>quod in puro homine voluntas humana habet dominium: sed in christo qui est 
-      <lb ed="#V" n="97"/>deus et homo: voluntas diuina habet dominium: et per illam regitur 
-      huma<lb ed="#V" n="98" break="no"/>na.
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e231">
-      ¶ Ad tertium dicendum: quod natura primo est volens per volutatem: et 
-      ex<lb ed="#V" n="99" break="no"/>consequenti h ypostasis: et ideo quamuis in christo non sit nisi vna 
-      hypo<lb ed="#V" n="100" break="no"/>stasis: tamen quia in ipso sunt plures nature in ipso sunt plures 
-      vo<lb ed="#V" n="101" break="no"/>luntates: et ita vnus est qui vult: et tamen due nature sunt volentes. 
-      <lb ed="#V" n="102"/>Uel potest dici quod forma argumenti non valet sicut non valet: 
-      <lb ed="#V" n="103"/>homo est equalis per qualitatem: ergo per plures qualitates: est plules quales 
-      <lb ed="#V" n="104"/>quia hoc plures quales plurificat: et suppositum et qualitatem. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g39986-Dd1e248">
-               <head xml:id="kzz7yh-g39986-Hd1e250">Quaestio 2</head>
-               <head xml:id="kzz7yh-g39986-Hd1e265" type="question-title">Utrum in christo voluntas rationis deliberativa in aliquo discordaverit a voluntate divina</head>
-               <p xml:id="kzz7yh-g39986-d1e252">
-      Quaestio II. 
-      <lb ed="#V" n="105"/>SEcundo Queritur vtrum in christo voluntas 
-      <lb ed="#V" n="106"/>rationis deliberatiua in aliquo 
-      <lb ed="#V" n="107"/>discordauerit a voluntate diuina. Et videtur quod sic. 
-      <lb ed="#V" n="108"/><ref xml:id="kzz7yh-g39986-Rd1e277">Matth. 26</ref> dicit saluator ad patrem. <quote xml:id="kzz7yh-g39986-Qd1e279" source="http://scta.info/resource/mt26_39@22-28">Non sicut ego 
-      <lb ed="#V" n="109"/>volo: sed sicut tu vis</quote>: ergo videtur quod vnum volebat voluntas 
-      diui<lb ed="#V" n="110" break="no"/>na et aliud voluntas rationis deliberatiua.
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e268">
-      ¶ Item magis 
-      ex<lb ed="#V" n="111" break="no"/>cedit voluntas diuina voluntatem rationis deliberatiuam quam 
-      vo<lb ed="#V" n="112" break="no"/>luntas rationis deliberatiua sensualitatem. Sed sensualitas in 
-      <lb ed="#V" n="113"/>aliquo discordauit a voluntate deliberatiua: quia refugiebat 
-      <lb ed="#V" n="114"/>mortem quam voluntas deliberatiua acceptabat: ergo multo 
-      <lb ed="#V" n="115"/>fortius voluntas rationis deliberatiua in aliquo 
-      discor<lb ed="#V" n="116" break="no"/>dauit a voluntate diuina. 
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e284">
-                  <lb ed="#V" n="117"/>Contra secundum rectum ordinem voluntas rationis 
-      deliberati<lb ed="#V" n="118" break="no"/>ua: plene debet esse subiecta voluntati diuine: sed 
-      si<lb ed="#V" n="119" break="no"/>voluntas rationis deliberatiua fuisset disco:s in aliquo a 
-      vo<lb ed="#V" n="120" break="no"/>luntate diuina: non fuisset ei plene subiecta: et sic non fuisset 
-      <lb ed="#V" n="121"/>in christo seruatus rectus ordo. Restat ergo quod voluntas rationis 
-      <lb ed="#V" n="122"/>deliberatiua nunquam in aliquo discordauit a diuina. 
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e300">
-                  <lb ed="#V" n="123"/>Respondeo quod in christus voluntus rationis 
-      deliberati<lb ed="#V" n="124" break="no"/>ua nunquam in aliquo discordauit a 
-      di<lb ed="#V" n="125" break="no"/>uina voluntate: immo concordauit cum ea: et in volito: quia volebat 
-      <lb ed="#V" n="126"/>quicquid videbat diuinam voluntatem velle: et in forma volendi: quia 
-      <lb ed="#V" n="127"/>quicquid volebat: volebat ex charitate: et sic volebat: sicut 
-      de<lb ed="#V" n="128" break="no"/>us volebat eam velle. 
-      <!--00126.xml-->
-      <pb ed="#V" n="57-v"/>
-                  <cb ed="#V" n="a"/>
-               </p>
-               <p xml:id="kzz7yh-g39986-d1e323">
-                  <lb ed="#V" n="1"/>Ad primum in oppositum dicendum quod per illud 
-      ver<lb ed="#V" n="2" break="no"/>bum volo non significatur velle 
-      proce<lb ed="#V" n="3" break="no"/>dens a voluntate deliberatiua sed naturali: quasi dicat volo 
-      delibe<lb ed="#V" n="4" break="no"/>ratiue quod siat sicut tu visret non sicut volo naturali voluntate. 
-      <lb ed="#V" n="5"/>Uel secundum quandam glosam ibidem: ibi transfigurat in se suas. q. d. 
-      <lb ed="#V" n="6"/>fiat sicut tu vis et non sicut volunt discipuli mei.
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e339">
-      ¶ Ad 2m 
-      <lb ed="#V" n="7"/>dicendum quod voluntas deliberatiua non est ad vnam partem 
-      determi<lb ed="#V" n="8" break="no"/>natam: sicut appetitus sensitiuus: et ideo deus magis volebat eam 
-      <lb ed="#V" n="9"/>conformari diuine voluntati inuolito quam sensualitatem 
-      volun<lb ed="#V" n="10" break="no"/>tati deliberatiue: nec propter hoc debet dici sensualitas discors 
-      fu<lb ed="#V" n="11" break="no"/>isse a deliberatiua voluntate: quia illud quod volebat appetitus 
-      <lb ed="#V" n="12"/>sensitiuus voluntas deliberatiua volebat ipsum velle. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g39986-Dd1e356">
-               <head xml:id="kzz7yh-g39986-Hd1e358">Quaestio 3</head>
-               <head xml:id="kzz7yh-g39986-Hd1e381" type="question-title">Utrum naturalis voluntas rationis in christo discordaverit in aliquo a voluntate deliberativa</head>
-               <p xml:id="kzz7yh-g39986-d1e360">
-      Quaestio III. 
-      <lb ed="#V" n="13"/>TErtio Queritur vtrum naturalis voluntas rationis 
-      <lb ed="#V" n="14"/>in christo discordauerit in aliquo a 
-      vo<lb ed="#V" n="15" break="no"/>luntate deliberatiua. Et videtur quod sic: illa inter se 
-      discor<lb ed="#V" n="16" break="no"/>dant: quorum vnum includit alterius negationem: sed  
-      natura<lb ed="#V" n="17" break="no"/>le includit negationem deliberationi: ergo volutas naturalis 
-      dis<lb ed="#V" n="18" break="no"/>cordabat a voluntate deliberatiua.
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e376">
-      ¶ Item motus ad terminos 
-      <lb ed="#V" n="19"/>oppositos sunt discordantes. vnde dealbatio et denigratio sunt 
-      <lb ed="#V" n="20"/>discordantes motus: sed motus voluntatis deliberatiue et naturalis 
-      <lb ed="#V" n="21"/>in christo fuerunt ad oppositos terminos: quia naturali voluntate 
-      re<lb ed="#V" n="22" break="no"/>fugiebat mortem inquantum est malum nature voluntate 
-      delibe<lb ed="#V" n="23" break="no"/>ratiua volebat eam pro generis humani redemptione: ergo 
-      <lb ed="#V" n="24"/>iste voluntates in christo in aliquo suerunt discordantes. 
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e392">
-                  <lb ed="#V" n="25"/>Contra discordantia non sunt simul in eodem: sed 
-      mo<lb ed="#V" n="26" break="no"/>tus voluntatis naturalis et voluntatis 
-      deliberati<lb ed="#V" n="27" break="no"/>ue simul erant in eadem potentia: ergo in nullo discordabant. 
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e401">
-                  <lb ed="#V" n="28"/>Respondeo quod in christo naturalis voluntas rationis in 
-      ali<lb ed="#V" n="29" break="no"/>quo non discordauit a voluntate 
-      de<lb ed="#V" n="30" break="no"/>liberatiua: quia discordantia siue repugnantia motuum 
-      volun<lb ed="#V" n="31" break="no"/>tatis non est sine discordantia seu repugnantia formalium 
-      ratio<lb ed="#V" n="32" break="no"/>num ipsorum obiectorum: sed formalis ratio sub qua voluntas naturalis 
-      <lb ed="#V" n="33"/>in christo resurgebat mortem: et illa sub qua voluntas 
-      delibera<lb ed="#V" n="34" break="no"/>tiua volebat mortem non discordabant: quia voluntas naturalis 
-      refu<lb ed="#V" n="35" break="no"/>giebat mortem inquantum secundum se erat quoddam malum nature: voluntas 
-      <lb ed="#V" n="36"/>autem deliberatiua volebat eam inquantum apprehendebatur: vt 
-      <lb ed="#V" n="37"/>vtilis ad redemptionem generis humani secundum ordinationem 
-      diui<lb ed="#V" n="38" break="no"/>nam. Esse autem aliquid secundum se malum nature: et illud esse bonum 
-      <lb ed="#V" n="39"/>in ordine ad aliquem finem nullam importat discordiam seu 
-      repu<lb ed="#V" n="40" break="no"/>gnantiam. Preterea qui vult quod alius vult eum velle ab eo non 
-      <lb ed="#V" n="41"/>discordet in volendo: sed illud quod volebat voluntas naturalis in 
-      <lb ed="#V" n="42"/>christo voluntas deliberatiua volebat eam velle: quia volebat quod 
-      <lb ed="#V" n="43"/>secundum suum naturalem motum moueretur: ergo in volendo voluntas 
-      na<lb ed="#V" n="44" break="no"/>turalis non discordabat a deliberatiua. 
-    </p>
-               <p xml:id="kzz7yh-g39986-d1e441">
-                  <lb ed="#V" n="45"/>Ad primum in oppositum dicendum quod vnum 
-      inciude<lb ed="#V" n="46" break="no"/>re alterius negationem dupliciter potest 
-      <lb ed="#V" n="47"/>intelligi: aute quod vnum sit aliud aut quod vnum non possit esse cum 
-      <lb ed="#V" n="48"/>alio. Primo modo maior propositio falsa est. Sic enim quelibet 
-      <lb ed="#V" n="49"/>res alterius includit negationem: nec tamen propter hoc sequitur quod que 
-      <lb ed="#V" n="50"/>libet due res sint inter se discordantes. Secundo modo maior 
-      propo<lb ed="#V" n="51" break="no"/>sitio vera est sed minor falsa. Simul enim erant in christo naturalis 
-      <lb ed="#V" n="52"/>motus voluntatis et deliberatiuus.
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e461">
-      ¶ Ad secundum dicitur quod 
-      mo<lb ed="#V" n="53" break="no"/>tus ad terminos oppositos sunt discordantes etc. dico quod 
-      <lb ed="#V" n="54"/>non opetet nisi formales rationes terminorum discordantes sint: sed 
-      <lb ed="#V" n="55"/>sicut dictum est formalis ratio sub qua naturalis voluntas volebat 
-      <lb ed="#V" n="56"/>non mori et illa sub qua voluntas deliberatiua volebat 
-      cor<lb ed="#V" n="57" break="no"/>pus mori non discordabant 3
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g39986-Dd1e475">
-               <head xml:id="kzz7yh-g39986-Hd1e477">Quaestio 4</head>
-               <head xml:id="kzz7yh-g39986-Hd1e504" type="question-title">Utrum in christo appetitus sensibilis in aliquo discordaverit a voluntate rationis deliberativa</head>
-               <p xml:id="kzz7yh-g39986-d1e479">
-      Questio. IIII 
-      <lb ed="#V" n="58"/>QUarto Queritur vtrum in christo 
-      appeti<lb ed="#V" n="59" break="no"/>tus sensibilis in aliquo  
-      discorda<lb ed="#V" n="60" break="no"/>uerit a voluntate rationis deliberatiua: et videtur 
-      <lb ed="#V" n="61"/>quod obiectum appetitus sensitiui est bonum 
-      dele<lb ed="#V" n="62" break="no"/>ctabile: sensibile: obiectu voluntatis deliberatiue est bonum 
-      <lb ed="#V" n="63"/>bonestum: sed bonum sensibile et honestum repugnant: quia vnum 
-      di<lb ed="#V" n="64" break="no"/>ligi praecipit aliud prohibetur. Unde Io id est c. 7. Nolite diligere 
-      <lb ed="#V" n="65"/>mundum: nec ea quae in mundo sunt: cum ergo repugnantia sit in 
-      mo<lb ed="#V" n="66" break="no"/>tibus voluntatis secundum repugnantiam obiectorum. Uidetur quod in christo 
-      <lb ed="#V" n="67"/>appetitus sensitiuus et deliberatiuus repugnabant.
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e503">
-      ¶ Item 
-      vo<lb ed="#V" n="68" break="no"/>lutati deliberatiue placebat mors corporis appetitui  
-sensiti<cb ed="#V" n="b"/><lb ed="#V" n="69" break="no"/>uo displicebat: quia aliter non fuisset in ipso passio tristitie 
-      pro<lb ed="#V" n="70" break="no"/>morte corporis imminere ergo videtur quod ab appetitu 
-      deli<lb ed="#V" n="71" break="no"/>beratiuo discordabat. 
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e519">
-                  <lb ed="#V" n="72"/>Contra sic fuit natura humana instituta: vt sensualitas 
-      <lb ed="#V" n="73"/>obediret rationi quamdiu ratio obediret deo. Sed 
-      re<lb ed="#V" n="74" break="no"/>ctitudo nature humane in christo non fuit corrupta: ergo sicut 
-      ratio<lb ed="#V" n="75" break="no"/>in christo semper obediebat deo: ita appetitus sensitiuus 
-      <lb ed="#V" n="76"/>semper obediebat rationi.
-      </p>
-      <p xml:id="kzz7yh-g39986-d1e557">
-      <lb ed="#V" n="77"/> Respondeo quo in christo appetitus sensibilis non 
-      dis<lb ed="#V" n="78" break="no"/>cordauit in aliquo a voluntate  
-      ratio<lb ed="#V" n="79" break="no"/>nis deliberatiua: quia quamuis non appeteret illud: quod voluntas 
-      <lb ed="#V" n="80"/>deliberatiua volebat refugiendo mortem corporis quam illa 
-      vo<lb ed="#V" n="81" break="no"/>lebat: tamen illud quod appetebat et refugiebat ad imperium 
-      volun<lb ed="#V" n="82" break="no"/>tatis appetebat vel refugiebat: nec per motum suum 
-      ap<lb ed="#V" n="83" break="no"/>petitum voluntatis deliberatiue retardabat: vel 
-      impe<lb ed="#V" n="84" break="no"/>diebat: et ideo illi concordabant. 
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e550">
-                  <lb ed="#V" n="85"/>¶ Ad primum in oppositum dicendum quod bonum 
-      sensibi<lb ed="#V" n="86" break="no"/>bile et honestum non repugnant: sicut 
-      <lb ed="#V" n="87"/>nec sensus et intellectus: immo sicut sensus ordinatur ad intelllium 
-      <lb ed="#V" n="88"/>ita bonum sensibile ordinatur ad spirituale bonum: nec prohibetur 
-      bo<lb ed="#V" n="89" break="no"/>num sensibile disigi: sed eius dilectionis inordinatio prohibetur. 
-   </p>
-               <p xml:id="kzz7yh-g39986-d1e564">
-                  <lb ed="#V" n="90"/>¶ Ad secundum patet solutio per ea quae dicta sunt in corpore quaestionis. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e323">
+            <lb ed="#V" n="1"/>Ad primum in oppositum dicendum quod per illud 
+            ver<lb ed="#V" n="2" break="no"/>bum volo non significatur velle 
+            proce<lb ed="#V" n="3" break="no"/>dens a voluntate deliberatiua sed naturali: quasi dicat volo 
+            delibe<lb ed="#V" n="4" break="no"/>ratiue quod siat sicut tu visret non sicut volo naturali voluntate. 
+            <lb ed="#V" n="5"/>Uel secundum quandam glosam ibidem: ibi transfigurat in se suas. q. d. 
+            <lb ed="#V" n="6"/>fiat sicut tu vis et non sicut volunt discipuli mei.
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e339">
+            ¶ Ad 2m 
+            <lb ed="#V" n="7"/>dicendum quod voluntas deliberatiua non est ad vnam partem 
+            determi<lb ed="#V" n="8" break="no"/>natam: sicut appetitus sensitiuus: et ideo deus magis volebat eam 
+            <lb ed="#V" n="9"/>conformari diuine voluntati inuolito quam sensualitatem 
+            volun<lb ed="#V" n="10" break="no"/>tati deliberatiue: nec propter hoc debet dici sensualitas discors 
+            fu<lb ed="#V" n="11" break="no"/>isse a deliberatiua voluntate: quia illud quod volebat appetitus 
+            <lb ed="#V" n="12"/>sensitiuus voluntas deliberatiua volebat ipsum velle. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g39986-Dd1e356">
+          <head xml:id="kzz7yh-g39986-Hd1e358">Quaestio 3</head>
+          <head xml:id="kzz7yh-g39986-Hd1e381" type="question-title">Utrum naturalis voluntas rationis in christo discordaverit in aliquo a voluntate deliberativa</head>
+          <p xml:id="kzz7yh-g39986-d1e360">
+            Quaestio III. 
+            <lb ed="#V" n="13"/>TErtio Queritur vtrum naturalis voluntas rationis 
+            <lb ed="#V" n="14"/>in christo discordauerit in aliquo a 
+            vo<lb ed="#V" n="15" break="no"/>luntate deliberatiua. Et videtur quod sic: illa inter se 
+            discor<lb ed="#V" n="16" break="no"/>dant: quorum vnum includit alterius negationem: sed  
+            natura<lb ed="#V" n="17" break="no"/>le includit negationem deliberationi: ergo volutas naturalis 
+            dis<lb ed="#V" n="18" break="no"/>cordabat a voluntate deliberatiua.
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e376">
+            ¶ Item motus ad terminos 
+            <lb ed="#V" n="19"/>oppositos sunt discordantes. vnde dealbatio et denigratio sunt 
+            <lb ed="#V" n="20"/>discordantes motus: sed motus voluntatis deliberatiue et naturalis 
+            <lb ed="#V" n="21"/>in christo fuerunt ad oppositos terminos: quia naturali voluntate 
+            re<lb ed="#V" n="22" break="no"/>fugiebat mortem inquantum est malum nature voluntate 
+            delibe<lb ed="#V" n="23" break="no"/>ratiua volebat eam pro generis humani redemptione: ergo 
+            <lb ed="#V" n="24"/>iste voluntates in christo in aliquo suerunt discordantes. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e392">
+            <lb ed="#V" n="25"/>Contra discordantia non sunt simul in eodem: sed 
+            mo<lb ed="#V" n="26" break="no"/>tus voluntatis naturalis et voluntatis 
+            deliberati<lb ed="#V" n="27" break="no"/>ue simul erant in eadem potentia: ergo in nullo discordabant. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e401">
+            <lb ed="#V" n="28"/>Respondeo quod in christo naturalis voluntas rationis in 
+            ali<lb ed="#V" n="29" break="no"/>quo non discordauit a voluntate 
+            de<lb ed="#V" n="30" break="no"/>liberatiua: quia discordantia siue repugnantia motuum 
+            volun<lb ed="#V" n="31" break="no"/>tatis non est sine discordantia seu repugnantia formalium 
+            ratio<lb ed="#V" n="32" break="no"/>num ipsorum obiectorum: sed formalis ratio sub qua voluntas naturalis 
+            <lb ed="#V" n="33"/>in christo resurgebat mortem: et illa sub qua voluntas 
+            delibera<lb ed="#V" n="34" break="no"/>tiua volebat mortem non discordabant: quia voluntas naturalis 
+            refu<lb ed="#V" n="35" break="no"/>giebat mortem inquantum secundum se erat quoddam malum nature: voluntas 
+            <lb ed="#V" n="36"/>autem deliberatiua volebat eam inquantum apprehendebatur: vt 
+            <lb ed="#V" n="37"/>vtilis ad redemptionem generis humani secundum ordinationem 
+            diui<lb ed="#V" n="38" break="no"/>nam. Esse autem aliquid secundum se malum nature: et illud esse bonum 
+            <lb ed="#V" n="39"/>in ordine ad aliquem finem nullam importat discordiam seu 
+            repu<lb ed="#V" n="40" break="no"/>gnantiam. Preterea qui vult quod alius vult eum velle ab eo non 
+            <lb ed="#V" n="41"/>discordet in volendo: sed illud quod volebat voluntas naturalis in 
+            <lb ed="#V" n="42"/>christo voluntas deliberatiua volebat eam velle: quia volebat quod 
+            <lb ed="#V" n="43"/>secundum suum naturalem motum moueretur: ergo in volendo voluntas 
+            na<lb ed="#V" n="44" break="no"/>turalis non discordabat a deliberatiua. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e441">
+            <lb ed="#V" n="45"/>Ad primum in oppositum dicendum quod vnum 
+            inciude<lb ed="#V" n="46" break="no"/>re alterius negationem dupliciter potest 
+            <lb ed="#V" n="47"/>intelligi: aute quod vnum sit aliud aut quod vnum non possit esse cum 
+            <lb ed="#V" n="48"/>alio. Primo modo maior propositio falsa est. Sic enim quelibet 
+            <lb ed="#V" n="49"/>res alterius includit negationem: nec tamen propter hoc sequitur quod que 
+            <lb ed="#V" n="50"/>libet due res sint inter se discordantes. Secundo modo maior 
+            propo<lb ed="#V" n="51" break="no"/>sitio vera est sed minor falsa. Simul enim erant in christo naturalis 
+            <lb ed="#V" n="52"/>motus voluntatis et deliberatiuus.
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e461">
+            ¶ Ad secundum dicitur quod 
+            mo<lb ed="#V" n="53" break="no"/>tus ad terminos oppositos sunt discordantes etc. dico quod 
+            <lb ed="#V" n="54"/>non opetet nisi formales rationes terminorum discordantes sint: sed 
+            <lb ed="#V" n="55"/>sicut dictum est formalis ratio sub qua naturalis voluntas volebat 
+            <lb ed="#V" n="56"/>non mori et illa sub qua voluntas deliberatiua volebat 
+            cor<lb ed="#V" n="57" break="no"/>pus mori non discordabant 3
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g39986-Dd1e475">
+          <head xml:id="kzz7yh-g39986-Hd1e477">Quaestio 4</head>
+          <head xml:id="kzz7yh-g39986-Hd1e504" type="question-title">Utrum in christo appetitus sensibilis in aliquo discordaverit a voluntate rationis deliberativa</head>
+          <p xml:id="kzz7yh-g39986-d1e479">
+            Questio. IIII 
+            <lb ed="#V" n="58"/>QUarto Queritur vtrum in christo 
+            appeti<lb ed="#V" n="59" break="no"/>tus sensibilis in aliquo  
+            discorda<lb ed="#V" n="60" break="no"/>uerit a voluntate rationis deliberatiua: et videtur 
+            <lb ed="#V" n="61"/>quod obiectum appetitus sensitiui est bonum 
+            dele<lb ed="#V" n="62" break="no"/>ctabile: sensibile: obiectu voluntatis deliberatiue est bonum 
+            <lb ed="#V" n="63"/>bonestum: sed bonum sensibile et honestum repugnant: quia vnum 
+            di<lb ed="#V" n="64" break="no"/>ligi praecipit aliud prohibetur. Unde Io id est c. 7. Nolite diligere 
+            <lb ed="#V" n="65"/>mundum: nec ea quae in mundo sunt: cum ergo repugnantia sit in 
+            mo<lb ed="#V" n="66" break="no"/>tibus voluntatis secundum repugnantiam obiectorum. Uidetur quod in christo 
+            <lb ed="#V" n="67"/>appetitus sensitiuus et deliberatiuus repugnabant.
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e503">
+            ¶ Item 
+            vo<lb ed="#V" n="68" break="no"/>lutati deliberatiue placebat mors corporis appetitui  
+            sensiti<cb ed="#V" n="b"/><lb ed="#V" n="69" break="no"/>uo displicebat: quia aliter non fuisset in ipso passio tristitie 
+            pro<lb ed="#V" n="70" break="no"/>morte corporis imminere ergo videtur quod ab appetitu 
+            deli<lb ed="#V" n="71" break="no"/>beratiuo discordabat. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e519">
+            <lb ed="#V" n="72"/>Contra sic fuit natura humana instituta: vt sensualitas 
+            <lb ed="#V" n="73"/>obediret rationi quamdiu ratio obediret deo. Sed 
+            re<lb ed="#V" n="74" break="no"/>ctitudo nature humane in christo non fuit corrupta: ergo sicut 
+            ratio<lb ed="#V" n="75" break="no"/>in christo semper obediebat deo: ita appetitus sensitiuus 
+            <lb ed="#V" n="76"/>semper obediebat rationi.
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e557">
+            <lb ed="#V" n="77"/> Respondeo quo in christo appetitus sensibilis non 
+            dis<lb ed="#V" n="78" break="no"/>cordauit in aliquo a voluntate  
+            ratio<lb ed="#V" n="79" break="no"/>nis deliberatiua: quia quamuis non appeteret illud: quod voluntas 
+            <lb ed="#V" n="80"/>deliberatiua volebat refugiendo mortem corporis quam illa 
+            vo<lb ed="#V" n="81" break="no"/>lebat: tamen illud quod appetebat et refugiebat ad imperium 
+            volun<lb ed="#V" n="82" break="no"/>tatis appetebat vel refugiebat: nec per motum suum 
+            ap<lb ed="#V" n="83" break="no"/>petitum voluntatis deliberatiue retardabat: vel 
+            impe<lb ed="#V" n="84" break="no"/>diebat: et ideo illi concordabant. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e550">
+            <lb ed="#V" n="85"/>¶ Ad primum in oppositum dicendum quod bonum 
+            sensibi<lb ed="#V" n="86" break="no"/>bile et honestum non repugnant: sicut 
+            <lb ed="#V" n="87"/>nec sensus et intellectus: immo sicut sensus ordinatur ad intelllium 
+            <lb ed="#V" n="88"/>ita bonum sensibile ordinatur ad spirituale bonum: nec prohibetur 
+            bo<lb ed="#V" n="89" break="no"/>num sensibile disigi: sed eius dilectionis inordinatio prohibetur. 
+          </p>
+          <p xml:id="kzz7yh-g39986-d1e564">
+            <lb ed="#V" n="90"/>¶ Ad secundum patet solutio per ea quae dicta sunt in corpore quaestionis. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

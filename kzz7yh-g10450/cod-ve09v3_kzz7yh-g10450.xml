@@ -1,228 +1,228 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="15-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g10450"><!-- l3d5a1 -->
-            <head xml:id="kzz7yh-g10450-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-g10450-d1e103">
-      ¶ Circa primum queruntur duo.
-   </p>
-            <p xml:id="kzz7yh-g10450-d1e105">
-      ¶ Primo 
-      <lb ed="#V" n="75"/>vtrum natura diuina assumpserit naturam humanam.
-   </p>
-            <p xml:id="kzz7yh-g10450-d1e110">
-      ¶ Secundo vtrum divina 
-      <lb ed="#V" n="76"/>nam substractis personis posset assumen aliquam naturam.  
-   </p>
-            <div xml:id="kzz7yh-g10450-Dd1e115">
-               <head xml:id="kzz7yh-g10450-Hd1e117">Quaestio 1</head>
-               <head xml:id="kzz7yh-g10450-Hd1e122" type="question-title">Utrum natura divina assumpserit naturam humanam</head>
-               <p xml:id="kzz7yh-g10450-d1e119">
-     Quaestio I. 
-      <lb ed="#V" n="77"/>PRimo ostendo quod diuina natura non assumpserit 
-      <lb ed="#V" n="78"/>humanam naturam. <ref xml:id="kzz7yh-g10450-Rd1e131">Dam. libro 3 c. xi.</ref> Quoniam 
-      <lb ed="#V" n="79"/>deitas homo generata est: vel incarnata est: vel 
-      huma<lb ed="#V" n="80" break="no"/>nata est: nequaquam audiuimus: sed si divina natura 
-      assumpsis<lb ed="#V" n="81" break="no"/>set humanam naturam: vere possit dici incarnata et humanata: ergo 
-      <lb ed="#V" n="82"/>videtur quod non assumpsit naturam humanam.
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e135">
-      ¶ Item agere non est a forma: 
-      <lb ed="#V" n="83"/>sed a supposito per formam: ergo cum assumere sit agere 
-      na<lb ed="#V" n="84" break="no"/>tura diuina non assumpsit humanam: sed solum fuit ratio vel 
-      <lb ed="#V" n="85"/>formale principium: per quod diuina persona assumpsit 
-      hu<lb ed="#V" n="86" break="no"/>manam naturam.
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e146">
-      ¶ Item quod agit natura agit quelibet 
-      per<lb ed="#V" n="87" break="no"/>sona cum natura sit communis omnibus personis: sed nulla persona diuina nisi 
-      <lb ed="#V" n="88"/>vna assumpsit naturam humanam: ergo diuina natura non assumpsit eam. 
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e153">
-                  <lb ed="#V" n="89"/>Contra. <ref xml:id="kzz7yh-g10450-Rd1e166">Damas. eodem libro et eodem. c.</ref> quoniam deitas unita
-      <lb ed="#V" n="90"/>est humanitati in vnam eius hypostasim didicimus 
-      <lb ed="#V" n="91"/>sed vnitum aut est assumens: aut est assumptum. Cum ergo 
-      <lb ed="#V" n="92"/>humana natura non assumpsit diuinam: sequitur quod diuina 
-      assun<lb ed="#V" n="93" break="no"/>pesit humanam.
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e167">
-      ¶ Item Magister in littera dicit quod na diuina 
-      incar<lb ed="#V" n="94" break="no"/>nata est: vnde et eadem vere dicitur assumpsisse humanam naturam. 
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e172">
-                  <lb ed="#V" n="95"/>Respondeo quod assumere tripliciter potest dici scilicet communiter 
-      <lb ed="#V" n="96"/>et proprie et magis proprie primo modo 
-      ac<lb ed="#V" n="97" break="no"/>cipitur pro sumere: et sic concedendum quod tota trinitas 
-      huma<lb ed="#V" n="98" break="no"/>nam naturam assumpsit ipsi filio: quia fecit vnionem humane 
-      na<lb ed="#V" n="99" break="no"/>ture cum persona ipsius filii. Secundo modo assumere 
-      acci<lb ed="#V" n="100" break="no"/>pitur pro ad se sumere: et sic concedendum quod diuina natura naturam 
-      hu<lb ed="#V" n="101" break="no"/>manam assumpsit in persona filii: inquantum per eam factum est: vt natura 
-      <lb ed="#V" n="102"/>humana simul esset cum diuina in eadem persona. Tertio mode 
-      <lb ed="#V" n="103"/>assumere accipitur pro ad se sumere: et in se sumere: vt in 
-      <lb ed="#V" n="104"/>supposito: et sic dicendum quod diuina natura non assumpsit naturam 
-      <lb ed="#V" n="105"/>humanam: nec aliqua persona: nisi persona ipsius filii. 
-    </p>
-               <p xml:id="kzz7yh-g10450-d1e198">
-                  <lb ed="#V" n="106"/>Ad primum argumentum ad partem primam dicendum: quod non est 
-      <lb ed="#V" n="107"/>penitus simile de deitate: et diuina natura: 
-      <lb ed="#V" n="108"/>quia deitas magis signat illud quod significat in abstractione: quoniam 
-      <lb ed="#V" n="109"/>diuina natura: vnde non ita significat rem suam vt principium 
-      agen<lb ed="#V" n="110" break="no"/>di: sicut diuina natura: vnde sicut proprie dicitur 
-      humana<lb ed="#V" n="111" break="no"/>natura operatur quam humanitas operatur: ita conuenientius dicitur 
-      <lb ed="#V" n="112"/>quod diuina natura incarnata est. Et quod assumpsit humanam 
-      na<lb ed="#V" n="113" break="no"/>turam quam quod deitas incarnata est: vel humanam naturam assumpsit 
-      <lb ed="#V" n="114"/>Uel potest dici quod Damas. non negat deitatem incarnatam nisi 
-      <lb ed="#V" n="115"/>inquantum incarnari importat rem incarnatam fieri 
-      supposi<lb ed="#V" n="116" break="no"/>tum carnis: et sic verum est: quod deitas non fuit incarnata. 
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e224">
-                  <lb ed="#V" n="117"/>¶ Ad secundum dicendum: quod agere bene est a forma: vt est in 
-      sup<lb ed="#V" n="118" break="no"/>posito. Unde et assumere conuenire potuit nature diuine 
-      <lb ed="#V" n="119"/>inquantum erat in supposito: quamuis sicut magis proprie 
-      di<lb ed="#V" n="120" break="no"/>citur suppositum agere per formam: quam forma: vt est in 
-      sup<lb ed="#V" n="121" break="no"/>posito: ita magis proprie dicitur quod diuina persona 
-      assum<lb ed="#V" n="122" break="no"/>psit humanam naturam: quam quod diuina natura: vt existens in 
-      perso<lb ed="#V" n="123" break="no"/>na assumpsit eam.
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e242">
-      ¶ Ad 3m dicendum: quod assumere dictu secundo 
-      modo<lb ed="#V" n="124" break="no"/>vel 3o modo non tantum importat actionem: sed est terminum actionis: 
-      <lb ed="#V" n="125"/>quamuis alio modo persona sit terminus assumptionis: quam ipsa natura: 
-      <lb ed="#V" n="126"/>quia persona filii assumpsit humanam naturam ad se: et in se 
-      <lb ed="#V" n="127"/>vt in supposito: sed diuina natura assumpsit eam ad se non 
-      <!--00041.xml-->
-      <pb ed="#V" n="16-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>in se vt in supposito: sed in persona filii: dico ergo quod 
-      sume<lb ed="#V" n="2" break="no"/>re ratione actionis: tamen conuenit tribus personis: quia omnes 
-      <lb ed="#V" n="3"/>persone sumpserunt naturam humanam ipsi filio: sed esse 
-      ter<lb ed="#V" n="4" break="no"/>minum illius assumptionis: non conuenit tribus personis: quia non conuenit 
-      <lb ed="#V" n="5"/>nature secundum se: sed tantummodo: vt est in filio.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g10450-Dd1e273">
-               <head xml:id="kzz7yh-g10450-Hd1e275">Quaestio 2</head>
-               <head xml:id="kzz7yh-g10450-Hd1e289" type="question-title">Utrum divina natura abstractis personis posset assumere aliquam naturam</head>
-               <p xml:id="kzz7yh-g10450-d1e277">
-     Questio. lI. 
-      <lb ed="#V" n="6"/>SEcundo queritur vtrum diuina 
-      natu<lb ed="#V" n="7" break="no"/>ra abstractis personis posset 
-      <lb ed="#V" n="8"/>assumere aliquam naturam. Et videtur quod non. 
-      <lb ed="#V" n="9"/><ref xml:id="kzz7yh-g10450-Rd1e301">Damas. lib. 3. ca. 6.</ref> Substantia secundum seipsam non 
-      <lb ed="#V" n="10"/>subsistit: sed in hypostasibus contemplatur: ergo natura 
-      di<lb ed="#V" n="11" break="no"/>uina intellecta: preter hypostases intelligitur vt non 
-      ha<lb ed="#V" n="12" break="no"/>bens aliquod esse reale in actu: sed rei non habenti realem 
-      <lb ed="#V" n="13"/>existentiam in actu non conuenit agere: ergo natura 
-      diuina<lb ed="#V" n="14" break="no"/>hypostasibus circunscriptis nullam naturam posset assumere. 
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e299">
-                  <lb ed="#V" n="15"/>¶ Item assumptio terminatur ad aliquam vnitatem. Sed 
-      <lb ed="#V" n="16"/>si persone essent circunscripte a natura diuina tunc 
-      huma<lb ed="#V" n="17" break="no"/>na natura non posset assumi vnitatem persone nec de 
-      vnita<lb ed="#V" n="18" break="no"/>te nature: quia ex natura diuina et alia natura nullo modo 
-      po<lb ed="#V" n="19" break="no"/>test vna natura constitui: ergo circunscriptis personis 
-      diui<lb ed="#V" n="20" break="no"/>na natura nullam naturam posset assumere. 
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e315">
-                  <lb ed="#V" n="21"/>Contra circumscripta emanatione personarum 
-      rema<lb ed="#V" n="22" break="no"/>neret diuina natura non in persona: persone 
-      <lb ed="#V" n="23"/>enim per emanationes distinguuntur: et sunt constitute per 
-      <lb ed="#V" n="24"/>et <!--Todo unsure where this et lies-->
-      <lb ed="#V" n="25"/>proprietates relatiuas: sed adhuc remaneret diuina non 
-      omni<lb ed="#V" n="26" break="no"/>potens. Omnipotentia enim est attributum nature: ergo 
-      <lb ed="#V" n="27"/>adhuc posset aliquam naturam assumere.
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e333">
-      ¶ Item prius 
-      ordi<lb ed="#V" n="28" break="no"/>ne nature est esse in actu quam esse actu in supposito: quia secundum 
-      <lb ed="#V" n="29"/>se habet per additionem ad primum: ergo circunscriptis 
-      sup<lb ed="#V" n="30" break="no"/>positis adhuc posse diuina natura remanere in actu: et 
-      ex<lb ed="#V" n="31" break="no"/>consequenti aliquam naturam posset assumere. Posse enim 
-      age<lb ed="#V" n="32" break="no"/>re competit nature existenti in actu. 
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e347">
-                  <lb ed="#V" n="33"/>Respondeo quod circumscriptio vel abstractio 
-      per<lb ed="#V" n="34" break="no"/>sonarum a natura divina dupliciter potest intelligi: 
-      <lb ed="#V" n="35"/>autem ita quod non esset in aliqua persona: nec constituta per proprietatem 
-      <lb ed="#V" n="36"/>relatiuam: nec per proprietatem absolutam: et sic non esset existens in 
-      <lb ed="#V" n="37"/>se quia substantia intellectualis existens in se persona est: nec 
-      <lb ed="#V" n="38"/>esset existens in alio: ex quo sequitur quod ab ea non posset esse 
-      <lb ed="#V" n="39"/>realis actio: quia talis actio presupponit in agente realem 
-      exi<lb ed="#V" n="40" break="no"/>stentiam in actu: nec posset etiam esse terminus realis 
-      actio<lb ed="#V" n="41" break="no"/>nis. Cum ergo assumere aliquam naturam sit realis actio 
-      re<lb ed="#V" n="42" break="no"/>quirens realem terminum diuina natura predicto modo 
-      con<lb ed="#V" n="43" break="no"/>fiderata nullam posset assumere naturam. Et hoc modo 
-      proce<lb ed="#V" n="44" break="no"/>dunt argumenta ad partem primam. Aut potest praedicta 
-      cir<lb ed="#V" n="45" break="no"/>cunscriptio ita intelligi quod non esset in natura diuina 
-      distin<lb ed="#V" n="46" break="no"/>ctio personarum per emanationes: eo modo quo 
-      sanctissi<lb ed="#V" n="47" break="no"/>ma et verissima christiana fides ponit: sed ita quod esset natura 
-      <lb ed="#V" n="48"/>diuina in vna hypostasi absoluta eo modo quo gentiles 
-      <lb ed="#V" n="49"/>intelligunt vel imaginantur: et sic remaneret in eo 
-      perso<lb ed="#V" n="50" break="no"/>nalitatis ratio absolute: et hoc possibili posito concedendum 
-      <lb ed="#V" n="51"/>est illud quod sequeretur ad illud impossibile scilicet quod diuina 
-      <lb ed="#V" n="52"/>natura posset aliquam naturam assumere. 
-      <!--TODO pgrph break-->
-      <lb ed="#V" n="53"/>Et sic procedit primum argumentum ad partem secundam.
-   </p>
-               <p xml:id="kzz7yh-g10450-d1e395">
-      ¶ Ad 
-      <lb ed="#V" n="54"/>secundum dicendum: quod esse substantiam in actu reali non est 
-      <lb ed="#V" n="55"/>prius quam ipsam esse in supposito: sed est idem quod ipsam esse 
-      <lb ed="#V" n="56"/>suppositum vel in supposito. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="15-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g10450"><!-- l3d5a1 -->
+        <head xml:id="kzz7yh-g10450-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-g10450-d1e103">
+          ¶ Circa primum queruntur duo.
+        </p>
+        <p xml:id="kzz7yh-g10450-d1e105">
+          ¶ Primo 
+          <lb ed="#V" n="75"/>vtrum natura diuina assumpserit naturam humanam.
+        </p>
+        <p xml:id="kzz7yh-g10450-d1e110">
+          ¶ Secundo vtrum divina 
+          <lb ed="#V" n="76"/>nam substractis personis posset assumen aliquam naturam.  
+        </p>
+        <div xml:id="kzz7yh-g10450-Dd1e115">
+          <head xml:id="kzz7yh-g10450-Hd1e117">Quaestio 1</head>
+          <head xml:id="kzz7yh-g10450-Hd1e122" type="question-title">Utrum natura divina assumpserit naturam humanam</head>
+          <p xml:id="kzz7yh-g10450-d1e119">
+            Quaestio I. 
+            <lb ed="#V" n="77"/>PRimo ostendo quod diuina natura non assumpserit 
+            <lb ed="#V" n="78"/>humanam naturam. <ref xml:id="kzz7yh-g10450-Rd1e131">Dam. libro 3 c. xi.</ref> Quoniam 
+            <lb ed="#V" n="79"/>deitas homo generata est: vel incarnata est: vel 
+            huma<lb ed="#V" n="80" break="no"/>nata est: nequaquam audiuimus: sed si divina natura 
+            assumpsis<lb ed="#V" n="81" break="no"/>set humanam naturam: vere possit dici incarnata et humanata: ergo 
+            <lb ed="#V" n="82"/>videtur quod non assumpsit naturam humanam.
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e135">
+            ¶ Item agere non est a forma: 
+            <lb ed="#V" n="83"/>sed a supposito per formam: ergo cum assumere sit agere 
+            na<lb ed="#V" n="84" break="no"/>tura diuina non assumpsit humanam: sed solum fuit ratio vel 
+            <lb ed="#V" n="85"/>formale principium: per quod diuina persona assumpsit 
+            hu<lb ed="#V" n="86" break="no"/>manam naturam.
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e146">
+            ¶ Item quod agit natura agit quelibet 
+            per<lb ed="#V" n="87" break="no"/>sona cum natura sit communis omnibus personis: sed nulla persona diuina nisi 
+            <lb ed="#V" n="88"/>vna assumpsit naturam humanam: ergo diuina natura non assumpsit eam. 
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e153">
+            <lb ed="#V" n="89"/>Contra. <ref xml:id="kzz7yh-g10450-Rd1e166">Damas. eodem libro et eodem. c.</ref> quoniam deitas unita
+            <lb ed="#V" n="90"/>est humanitati in vnam eius hypostasim didicimus 
+            <lb ed="#V" n="91"/>sed vnitum aut est assumens: aut est assumptum. Cum ergo 
+            <lb ed="#V" n="92"/>humana natura non assumpsit diuinam: sequitur quod diuina 
+            assun<lb ed="#V" n="93" break="no"/>pesit humanam.
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e167">
+            ¶ Item Magister in littera dicit quod na diuina 
+            incar<lb ed="#V" n="94" break="no"/>nata est: vnde et eadem vere dicitur assumpsisse humanam naturam. 
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e172">
+            <lb ed="#V" n="95"/>Respondeo quod assumere tripliciter potest dici scilicet communiter 
+            <lb ed="#V" n="96"/>et proprie et magis proprie primo modo 
+            ac<lb ed="#V" n="97" break="no"/>cipitur pro sumere: et sic concedendum quod tota trinitas 
+            huma<lb ed="#V" n="98" break="no"/>nam naturam assumpsit ipsi filio: quia fecit vnionem humane 
+            na<lb ed="#V" n="99" break="no"/>ture cum persona ipsius filii. Secundo modo assumere 
+            acci<lb ed="#V" n="100" break="no"/>pitur pro ad se sumere: et sic concedendum quod diuina natura naturam 
+            hu<lb ed="#V" n="101" break="no"/>manam assumpsit in persona filii: inquantum per eam factum est: vt natura 
+            <lb ed="#V" n="102"/>humana simul esset cum diuina in eadem persona. Tertio mode 
+            <lb ed="#V" n="103"/>assumere accipitur pro ad se sumere: et in se sumere: vt in 
+            <lb ed="#V" n="104"/>supposito: et sic dicendum quod diuina natura non assumpsit naturam 
+            <lb ed="#V" n="105"/>humanam: nec aliqua persona: nisi persona ipsius filii. 
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e198">
+            <lb ed="#V" n="106"/>Ad primum argumentum ad partem primam dicendum: quod non est 
+            <lb ed="#V" n="107"/>penitus simile de deitate: et diuina natura: 
+            <lb ed="#V" n="108"/>quia deitas magis signat illud quod significat in abstractione: quoniam 
+            <lb ed="#V" n="109"/>diuina natura: vnde non ita significat rem suam vt principium 
+            agen<lb ed="#V" n="110" break="no"/>di: sicut diuina natura: vnde sicut proprie dicitur 
+            humana<lb ed="#V" n="111" break="no"/>natura operatur quam humanitas operatur: ita conuenientius dicitur 
+            <lb ed="#V" n="112"/>quod diuina natura incarnata est. Et quod assumpsit humanam 
+            na<lb ed="#V" n="113" break="no"/>turam quam quod deitas incarnata est: vel humanam naturam assumpsit 
+            <lb ed="#V" n="114"/>Uel potest dici quod Damas. non negat deitatem incarnatam nisi 
+            <lb ed="#V" n="115"/>inquantum incarnari importat rem incarnatam fieri 
+            supposi<lb ed="#V" n="116" break="no"/>tum carnis: et sic verum est: quod deitas non fuit incarnata. 
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e224">
+            <lb ed="#V" n="117"/>¶ Ad secundum dicendum: quod agere bene est a forma: vt est in 
+            sup<lb ed="#V" n="118" break="no"/>posito. Unde et assumere conuenire potuit nature diuine 
+            <lb ed="#V" n="119"/>inquantum erat in supposito: quamuis sicut magis proprie 
+            di<lb ed="#V" n="120" break="no"/>citur suppositum agere per formam: quam forma: vt est in 
+            sup<lb ed="#V" n="121" break="no"/>posito: ita magis proprie dicitur quod diuina persona 
+            assum<lb ed="#V" n="122" break="no"/>psit humanam naturam: quam quod diuina natura: vt existens in 
+            perso<lb ed="#V" n="123" break="no"/>na assumpsit eam.
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e242">
+            ¶ Ad 3m dicendum: quod assumere dictu secundo 
+            modo<lb ed="#V" n="124" break="no"/>vel 3o modo non tantum importat actionem: sed est terminum actionis: 
+            <lb ed="#V" n="125"/>quamuis alio modo persona sit terminus assumptionis: quam ipsa natura: 
+            <lb ed="#V" n="126"/>quia persona filii assumpsit humanam naturam ad se: et in se 
+            <lb ed="#V" n="127"/>vt in supposito: sed diuina natura assumpsit eam ad se non 
+            <!--00041.xml-->
+            <pb ed="#V" n="16-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in se vt in supposito: sed in persona filii: dico ergo quod 
+            sume<lb ed="#V" n="2" break="no"/>re ratione actionis: tamen conuenit tribus personis: quia omnes 
+            <lb ed="#V" n="3"/>persone sumpserunt naturam humanam ipsi filio: sed esse 
+            ter<lb ed="#V" n="4" break="no"/>minum illius assumptionis: non conuenit tribus personis: quia non conuenit 
+            <lb ed="#V" n="5"/>nature secundum se: sed tantummodo: vt est in filio.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g10450-Dd1e273">
+          <head xml:id="kzz7yh-g10450-Hd1e275">Quaestio 2</head>
+          <head xml:id="kzz7yh-g10450-Hd1e289" type="question-title">Utrum divina natura abstractis personis posset assumere aliquam naturam</head>
+          <p xml:id="kzz7yh-g10450-d1e277">
+            Questio. lI. 
+            <lb ed="#V" n="6"/>SEcundo queritur vtrum diuina 
+            natu<lb ed="#V" n="7" break="no"/>ra abstractis personis posset 
+            <lb ed="#V" n="8"/>assumere aliquam naturam. Et videtur quod non. 
+            <lb ed="#V" n="9"/><ref xml:id="kzz7yh-g10450-Rd1e301">Damas. lib. 3. ca. 6.</ref> Substantia secundum seipsam non 
+            <lb ed="#V" n="10"/>subsistit: sed in hypostasibus contemplatur: ergo natura 
+            di<lb ed="#V" n="11" break="no"/>uina intellecta: preter hypostases intelligitur vt non 
+            ha<lb ed="#V" n="12" break="no"/>bens aliquod esse reale in actu: sed rei non habenti realem 
+            <lb ed="#V" n="13"/>existentiam in actu non conuenit agere: ergo natura 
+            diuina<lb ed="#V" n="14" break="no"/>hypostasibus circunscriptis nullam naturam posset assumere. 
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e299">
+            <lb ed="#V" n="15"/>¶ Item assumptio terminatur ad aliquam vnitatem. Sed 
+            <lb ed="#V" n="16"/>si persone essent circunscripte a natura diuina tunc 
+            huma<lb ed="#V" n="17" break="no"/>na natura non posset assumi vnitatem persone nec de 
+            vnita<lb ed="#V" n="18" break="no"/>te nature: quia ex natura diuina et alia natura nullo modo 
+            po<lb ed="#V" n="19" break="no"/>test vna natura constitui: ergo circunscriptis personis 
+            diui<lb ed="#V" n="20" break="no"/>na natura nullam naturam posset assumere. 
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e315">
+            <lb ed="#V" n="21"/>Contra circumscripta emanatione personarum 
+            rema<lb ed="#V" n="22" break="no"/>neret diuina natura non in persona: persone 
+            <lb ed="#V" n="23"/>enim per emanationes distinguuntur: et sunt constitute per 
+            <lb ed="#V" n="24"/>et <!--Todo unsure where this et lies-->
+            <lb ed="#V" n="25"/>proprietates relatiuas: sed adhuc remaneret diuina non 
+            omni<lb ed="#V" n="26" break="no"/>potens. Omnipotentia enim est attributum nature: ergo 
+            <lb ed="#V" n="27"/>adhuc posset aliquam naturam assumere.
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e333">
+            ¶ Item prius 
+            ordi<lb ed="#V" n="28" break="no"/>ne nature est esse in actu quam esse actu in supposito: quia secundum 
+            <lb ed="#V" n="29"/>se habet per additionem ad primum: ergo circunscriptis 
+            sup<lb ed="#V" n="30" break="no"/>positis adhuc posse diuina natura remanere in actu: et 
+            ex<lb ed="#V" n="31" break="no"/>consequenti aliquam naturam posset assumere. Posse enim 
+            age<lb ed="#V" n="32" break="no"/>re competit nature existenti in actu. 
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e347">
+            <lb ed="#V" n="33"/>Respondeo quod circumscriptio vel abstractio 
+            per<lb ed="#V" n="34" break="no"/>sonarum a natura divina dupliciter potest intelligi: 
+            <lb ed="#V" n="35"/>autem ita quod non esset in aliqua persona: nec constituta per proprietatem 
+            <lb ed="#V" n="36"/>relatiuam: nec per proprietatem absolutam: et sic non esset existens in 
+            <lb ed="#V" n="37"/>se quia substantia intellectualis existens in se persona est: nec 
+            <lb ed="#V" n="38"/>esset existens in alio: ex quo sequitur quod ab ea non posset esse 
+            <lb ed="#V" n="39"/>realis actio: quia talis actio presupponit in agente realem 
+            exi<lb ed="#V" n="40" break="no"/>stentiam in actu: nec posset etiam esse terminus realis 
+            actio<lb ed="#V" n="41" break="no"/>nis. Cum ergo assumere aliquam naturam sit realis actio 
+            re<lb ed="#V" n="42" break="no"/>quirens realem terminum diuina natura predicto modo 
+            con<lb ed="#V" n="43" break="no"/>fiderata nullam posset assumere naturam. Et hoc modo 
+            proce<lb ed="#V" n="44" break="no"/>dunt argumenta ad partem primam. Aut potest praedicta 
+            cir<lb ed="#V" n="45" break="no"/>cunscriptio ita intelligi quod non esset in natura diuina 
+            distin<lb ed="#V" n="46" break="no"/>ctio personarum per emanationes: eo modo quo 
+            sanctissi<lb ed="#V" n="47" break="no"/>ma et verissima christiana fides ponit: sed ita quod esset natura 
+            <lb ed="#V" n="48"/>diuina in vna hypostasi absoluta eo modo quo gentiles 
+            <lb ed="#V" n="49"/>intelligunt vel imaginantur: et sic remaneret in eo 
+            perso<lb ed="#V" n="50" break="no"/>nalitatis ratio absolute: et hoc possibili posito concedendum 
+            <lb ed="#V" n="51"/>est illud quod sequeretur ad illud impossibile scilicet quod diuina 
+            <lb ed="#V" n="52"/>natura posset aliquam naturam assumere. 
+            <!--TODO pgrph break-->
+            <lb ed="#V" n="53"/>Et sic procedit primum argumentum ad partem secundam.
+          </p>
+          <p xml:id="kzz7yh-g10450-d1e395">
+            ¶ Ad 
+            <lb ed="#V" n="54"/>secundum dicendum: quod esse substantiam in actu reali non est 
+            <lb ed="#V" n="55"/>prius quam ipsam esse in supposito: sed est idem quod ipsam esse 
+            <lb ed="#V" n="56"/>suppositum vel in supposito. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

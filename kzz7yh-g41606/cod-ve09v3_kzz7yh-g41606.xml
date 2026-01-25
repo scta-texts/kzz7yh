@@ -1,451 +1,451 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="59-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g41606"><!-- l3d18a1 -->
-            <head xml:id="kzz7yh-g41606-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-g41606-d1e103">
-      ¶ Circa primum queruntur 
-      <lb ed="#V" n="11"/>quatuor.
-   </p>
-            <p xml:id="kzz7yh-g41606-d1e108">
-      ¶ Primo vtrum christus aliquid meruerit.
-   </p>
-            <p xml:id="kzz7yh-g41606-d1e110">
-      ¶ 
-      Se<lb ed="#V" n="12" break="no"/>cundo vtrum meruerit ab instanti sue conceptionis.
-   </p>
-            <p xml:id="kzz7yh-g41606-d1e115">
-      ¶ 
-      Ter<lb ed="#V" n="13" break="no"/>tio vtrum meruerit in sua conuersatione.
-   </p>
-            <p xml:id="kzz7yh-g41606-d1e121">
-      ¶ Quarto vtrum 
-      <lb ed="#V" n="14"/>meruerit in passione.
-   </p>
-            <div xml:id="kzz7yh-g41606-Dd1e126">
-               <head xml:id="kzz7yh-g41606-Hd1e128">Quaestio 1</head>
-               <head xml:id="kzz7yh-g41606-Hd1e133" type="question-title">Utrum christus aliquid merverit</head>
-               <p xml:id="kzz7yh-g41606-d1e130">
-     Questio I
-      <lb ed="#V" n="15"/>PRimo ostendo quod christus nihil vnquam
-      <lb ed="#V" n="16"/>meruit. Nullus enim meretur quod 
-      su<lb ed="#V" n="17" break="no"/>um est: quia meritum precedit praemium: sed omnia 
-      <lb ed="#V" n="18"/>erant christi ipso dicente in euangelio secundum <ref xml:id="kzz7yh-g41606-Rd1e146">Io. ad 
-      <lb ed="#V" n="19"/>patrem. c. 17.</ref> <quote xml:id="kzz7yh-g41606-Qd1e152" source="http://scta.info/resource/io17_10@2-9">Omnia mea tua sunt: et tua mea sunt</quote>: ergo 
-      chri<lb ed="#V" n="20" break="no"/>stus nihil vnquam meruit.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e146">
-      ¶ Item comprehensores non sunt in 
-      <lb ed="#V" n="21"/>statum merendi: sed christus fuit semper comprehensor: ergo 
-      <lb ed="#V" n="22"/>numquam fuit in statu merendi.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e153">
-      ¶ Item omne meritum est ad 
-      <lb ed="#V" n="23"/>supplendum aliquam indigentiam merentis: sed in christo nunquam 
-      <lb ed="#V" n="24"/>fuit aliqua indigentia: cum semper fuerit beatus: et sicut dicit A<ref xml:id="kzz7yh-g41606-Rd1e171">ug. 
-      <lb ed="#V" n="25"/>xiii. de tritate. c. v.</ref> <quote xml:id="kzz7yh-g41606-Qd1e176" source="http://scta.info/resource/adt-l13-d1e1428@334-344">Beatus non est nisi qui habet omnia que vult</quote> 
-      <lb ed="#V" n="26"/>ergo christus nunquam aliquid meruit. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e164">
-                  <lb ed="#V" n="27"/>Contra <ref xml:id="kzz7yh-g41606-Rd1e187">glo.</ref> <ref xml:id="kzz7yh-g41606-Rd1e189">super illud pslamum</ref>. <quote xml:id="kzz7yh-g41606-Qd1e191" source="http://scta.info/resource/ps15_1@5-11">Conserua me domine: quoniam 
-      spe<lb ed="#V" n="28" break="no"/>raui in te</quote> dicit: ecce meritum quo seruari 
-      de<lb ed="#V" n="29" break="no"/>bet: sed illud verbum <ref xml:id="kzz7yh-g41606-Rd1e199">pslamum</ref>. dicitur in persona christi secundum <ref xml:id="kzz7yh-g41606-Rd1e201">glo</ref>. 
-      ibi<lb ed="#V" n="30" break="no"/>dem: ergo christus meruit conseruari.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e176">
-      ¶ Item secundum <ref xml:id="kzz7yh-g41606-Rd1e208">Ansel. ii. 
-      li<lb ed="#V" n="31" break="no"/>bro. Cur deus homo. c. x.</ref> Quamuis christus non potuerit 
-      pec<lb ed="#V" n="32" break="no"/>care: tamen laudandus fuit de iustitia sua: sed omnis existens 
-      via<lb ed="#V" n="33" break="no"/>tor de sua iustitia laudandus per suam iustitiam meretur: ergo 
-      <lb ed="#V" n="34"/>cum christus non tantum fuerit comprehensor: sed etiam viator 
-      me<lb ed="#V" n="35" break="no"/>ruit per iustitiam suam. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e189">
-                  <lb ed="#V" n="36"/>Respondeo quod christus aliquid meruit et 
-      magnun<lb ed="#V" n="37" break="no"/>fuit quod meruit. Christus enim non 
-      <lb ed="#V" n="38"/>tantum fuit comprehensor sed etiam viator: vt superius dictum est. 
-      <lb ed="#V" n="39"/>Fuit etiam per liberum arbitrium dominus sue actionis. Actio etiam 
-      <lb ed="#V" n="40"/>sua propter perfectam charitatem agentis et rectam eius intentionem 
-      <lb ed="#V" n="41"/>proportionata fuit praemio magno: ad merendum autem non 
-      <lb ed="#V" n="42"/>requiruntur nisi tri a predicta: ergo christus meruit. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e207">
-                  <lb ed="#V" n="43"/>¶ Ad primum in oppositum cum dicitur: <quote xml:id="kzz7yh-g41606-Qd1e244">quod omnia erant 
-      <lb ed="#V" n="44"/>christi</quote> etc. verum est inquantum deus 
-      <lb ed="#V" n="45"/>est: et sic non merebatur: sed inquantum homo non omnia erant sua: et sic 
-      <lb ed="#V" n="46"/>merebatur.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e218">
-      ¶ Ad secundum cum dicitur pro comprehensores non sunt 
-      in<lb ed="#V" n="47" break="no"/>statu merendi etc. dico quod verum est de illis qui sunt 
-      comprehen<lb ed="#V" n="48" break="no"/>sores tantum. Illi enim non sunt in statu merendi pro seipsis: 
-      chri<lb ed="#V" n="49" break="no"/>stus autem simul fuit comprehensor et viator: et ideo mereri 
-      pe<lb ed="#V" n="50" break="no"/>tuit pro se et pro aliis.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e229">
-      ¶ Ad tertium cum dicitur quod in christo numquam 
-      <lb ed="#V" n="51"/>fuit aliqua indigentia: dico quod verum est sub ratione qua fuit 
-      <lb ed="#V" n="52"/>beatus: et sub illa ratione nihil sibi meruit sed inquantum fuit 
-      <lb ed="#V" n="53"/>viator in eo fuit indigentia: et inquantum huius meruit. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g41606-Dd1e239">
-               <head xml:id="kzz7yh-g41606-Hd1e241">Quaestio 2</head>
-               <head xml:id="kzz7yh-g41606-Hd1e280" type="question-title">Utrum christus merverit ab instanti sue coneptionis</head>
-               <p xml:id="kzz7yh-g41606-d1e243">
-      Quaestio II. 
-      <lb ed="#V" n="54"/>SEcundo Queritur vtrum christus meruerit 
-      <lb ed="#V" n="55"/>ab instanti sue conceptionis. Et 
-      <lb ed="#V" n="56"/>videtur quod non. Omne initium est per actum 
-      delibe<lb ed="#V" n="57" break="no"/>ratiue voluntatis. Sed actus deliberatiue 
-      volun<lb ed="#V" n="58" break="no"/>tatis non est instanti: quia importat motum ab vno in aliud: quod instanti 
-      <lb ed="#V" n="59"/>fieri non potest: ergo christus non meruerit ab instanti sue conceptionis. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e259">
-                  <lb ed="#V" n="60"/>¶ Item ita cito potest creatura rationalis vel intellectualis de 
-      <lb ed="#V" n="61"/>mereri sicut mereri: quia facilius est deficere quam proficere. Sed 
-      <lb ed="#V" n="62"/>malus angelus non potuit demereri ab instanti sue 
-      creatio<lb ed="#V" n="63" break="no"/>nis: vt in <ref xml:id="kzz7yh-g41606-Rd1e309">2 lib.</ref> ostensum est: ergo nec anima christi mereri 
-      potu<lb ed="#V" n="64" break="no"/>it ab instanti sue creationis: sed in illo instati quo anima 
-      chri<lb ed="#V" n="65" break="no"/>sti fuit creata: christus fuit conceptus: ergo non potuit 
-      me<lb ed="#V" n="66" break="no"/>reri ab instanti sue conceptionis.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e277">
-      ¶ Item si potentie mouentes 
-      <lb ed="#V" n="67"/>proportionantur mensure in quibus mouent 
-      proportio<lb ed="#V" n="68" break="no"/>nantur: et hec propositio trahi potest ex doctrina <ref xml:id="kzz7yh-g41606-Rd1e325">philosophi
-      <cb ed="#V" n="b"/>
-      <lb ed="#V" n="69"/>libro 7. physi.</ref> sed nostrum liberum arbitrium: et liberum arbitrium 
-      <lb ed="#V" n="70"/>christi proportionantur cum vtrumque sit finitum et eiusdem speciei: ergo 
-      <lb ed="#V" n="71"/>mensure in quibus possunt mouere proportinantur: sed instans 
-      <lb ed="#V" n="72"/>non proportionatur tempori: ergo cum nostrum liberum arbitrium 
-      <lb ed="#V" n="73"/>non possit se mouere nisi in tempore: quia secundum philosophum in lib. de 
-      <lb ed="#V" n="74"/>memoria et reminisentia nostrum intelligere est cum 
-      conti<lb ed="#V" n="75" break="no"/>nuo et tempore libero arbitrio christi non potuit se mouere in instanti 
-      <lb ed="#V" n="76"/>sue conceptionis. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e306">
-                  <lb ed="#V" n="77"/>Contra <ref xml:id="kzz7yh-g41606-Rd1e353">magister in littera</ref>: <quote xml:id="kzz7yh-g41606-Qd1e355" source="http://scta.info/resource/pl-l3d18c2-d1e126@1-15">non plus meruit sibi per 
-      cru<lb ed="#V" n="78" break="no"/>cis patibulum quam a conceptione meruit per 
-      gra<lb ed="#V" n="79" break="no"/>tiam virtutum</quote>.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e316">
-      ¶ Item ab instanti sue conceptionis fuit beatus 
-      <lb ed="#V" n="80"/>sed beatitudo consistit in actu: ergo ab instanti sue 
-      conceptio<lb ed="#V" n="81" break="no"/>nis habuit actum glorie: ergo a simili et actum gratie: sed in 
-      <lb ed="#V" n="82"/>actu gratie consistit meritum: ergo meruit ab instanti conceptionis sue. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e325">
-                  <lb ed="#V" n="83"/>Ad istam questionem dicunt quidam quod christus 
-      <lb ed="#V" n="84"/>ab instanti sue 
-      conce<lb ed="#V" n="85" break="no"/>ptionis non habuit meriti vsum: sed habitum per quem 
-      di<lb ed="#V" n="86" break="no"/>gnus erat gloria. Usus enim meriti non est sine actu 
-      delibe<lb ed="#V" n="87" break="no"/>ratiue volutatis qui quidem actus in quadam successione 
-      con<lb ed="#V" n="88" break="no"/>sistit. Unde et si ab instanti sue conceptionis inceperit hebere 
-      <lb ed="#V" n="89"/>vsum meriti: non tamen in illo instanti habuit vsum meriti: et si 
-      <lb ed="#V" n="90"/>enim successiua incipiunt tamen in instanti: in instanti esse non possunt. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e345">
-                  <lb ed="#V" n="91"/>¶ Alii dicunt quod christus ab instanti sue conceptionis non 
-      tan<lb ed="#V" n="92" break="no"/>tum habuit meriti habitum: sed etiam meriti vsum. Si enim 
-      <lb ed="#V" n="93"/>aliqua potentia in eodem instanti in quo est primo non habet 
-      <lb ed="#V" n="94"/>actione suam hoc contingit: autem quia in illo instanti non 
-      ha<lb ed="#V" n="95" break="no"/>bet totam perfectionem suam que requiritur ad illam actionem 
-      <lb ed="#V" n="96"/>aut quia est aliquid impediens: aut quia de ratione illius actionis 
-      <lb ed="#V" n="97"/>est successio quod esse non posset in instanti. Christus autem 
-      <lb ed="#V" n="98"/>ab instanti sue conceptionis habuit potentiam merendi 
-      per<lb ed="#V" n="99" break="no"/>fectam perfectione nature et gratie: nec fuit aliquid 
-      mo<lb ed="#V" n="100" break="no"/>tum illius potentie impediens in ipso: non enim fuerunt 
-      im<lb ed="#V" n="101" break="no"/>pedimenta que sunt in organis aliorum paruulorum. De ratio 
-      <lb ed="#V" n="102"/>ne etiam actus merendi non est successio: quia actus merendi 
-      <lb ed="#V" n="103"/>consistit in actu libere voluntatis ad deum ordinato: et 
-      chari<lb ed="#V" n="104" break="no"/>tate informato. Ad talem autem actum non requiritur 
-      succes<lb ed="#V" n="105" break="no"/>sio nisi per accidens: motus enim de cuius ratione est 
-      suc<lb ed="#V" n="106" break="no"/>cessio cum attingit illud respectu cuius est desinit esse: 
-      mo<lb ed="#V" n="107" break="no"/>tus autem voluntatis cum attingit ad volitum: non propter hoc 
-      <lb ed="#V" n="108"/>desinit esse: est ergo indiuisibilis actus: talis autem actus esse 
-      <lb ed="#V" n="109"/>potest in instanti: christus ergo ab instanti conceptionis sue 
-      po<lb ed="#V" n="110" break="no"/>tuit habere meriti vsum. Sed planum est quod habuit 
-      meri<lb ed="#V" n="111" break="no"/>ti vsum quam citius habere potuit: ab instanti ergo sue 
-      con<lb ed="#V" n="112" break="no"/>ceptionis ipsum habuit. Qui vult tenere hanc secundam 
-      <lb ed="#V" n="113"/>opinionem que magis videtur honorare ipsum potest dicere. 
-    </p>
-               <p xml:id="kzz7yh-g41606-d1e397">
-                  <lb ed="#V" n="114"/>Ad primum in oppositum quod actus deliberatiue 
-      <lb ed="#V" n="115"/>volutatis: bene potest esse in 
-      in<lb ed="#V" n="116" break="no"/>stanti cum de ratione eius non sit successio nisi per accidens 
-      <lb ed="#V" n="117"/>sicut forte est in nobis: vel propter aggrauationem corporis 
-      <lb ed="#V" n="118"/>corruptibilis impedientis animam in sua actione: vel 
-      pro<lb ed="#V" n="119" break="no"/>pter debilitatem intellectus: accidentia in christo non fuerunt 
-      <lb ed="#V" n="120"/>quia quamuis habuit corpus corruptibile: non tamen 
-      corruptibi<lb ed="#V" n="121" break="no"/>litate aggrauante intellectum vel voluntatem in sua 
-      actio<lb ed="#V" n="122" break="no"/>ne: habuit etiam semper intellectum fortissimum et 
-      forti<lb ed="#V" n="123" break="no"/>tudine que est per naturam: et fortitudine que est per 
-      gra<lb ed="#V" n="124" break="no"/>tiam et gloriam. Unde voluntas eius nullum habuit 
-      re<lb ed="#V" n="125" break="no"/>tardatiuum in sua actione.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e426">
-      ¶ Ad secundum dicendum quod non est simile 
-      <lb ed="#V" n="126"/>de merito et merito: quia actus merendi non est contra 
-      natura<lb ed="#V" n="127" break="no"/>lem motum voluntatis: sed magis complet ipsum. Actus autem 
-      <lb ed="#V" n="128"/>demerendi derogat naturali motui ipsius voluntatis: quia 
-      <lb ed="#V" n="129"/>est ad terminum oppositum: Unde aliquid diminuit de 
-      per<lb ed="#V" n="130" break="no"/>fectione illius. Non est autem possibile quod in eodem 
-      instan<lb ed="#V" n="131" break="no"/>ti diminuatur aliquid de perfectione habita: quia aliter 
-      <lb ed="#V" n="132"/>contradictoria simul essent vera in eodem instanti. Cum 
-      <lb ed="#V" n="133"/>ergo motus naturalis: precedat omnes alios motus in 
-      vo<lb ed="#V" n="134" break="no"/>luntate: non potuit aliqua creatura habere aliquem malum 
-      <lb ed="#V" n="135"/>voluntatis actum ab instanti creationis sue vt plenus 
-      <lb ed="#V" n="136"/>ostensum est in <ref xml:id="kzz7yh-g41606-Rd1e499">libro. 2. Di. 3.</ref>
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e452">
-      ¶ Ad tertium dicendum quod  
-      <!--00131.xml-->
-      <pb ed="#V" n="60-r"/>
-                  <cb ed="#V" n="a"/>quam<lb ed="#V" n="1"/>uis nostrum liberum arbitrium et libero arbitrio christi 
-      proportio<lb ed="#V" n="2" break="no"/>nentur secundum essentias: non tamen quantum ad actuales 
-      existenti<lb ed="#V" n="3" break="no"/>as: quia nostrum libero arbitri actualiter existit in supposito creato 
-      <lb ed="#V" n="4"/>et liberum arbitrium christi in supposito increato. Perfectio 
-      <lb ed="#V" n="5"/>autem et fortitudo operationis est per essentiam in 
-      compera<lb ed="#V" n="6" break="no"/>tione ad suam actualem existentiam. Unde liberum arbitrium 
-      <lb ed="#V" n="7"/>christi perfectiorem habet actum quam si natura 
-      humana<lb ed="#V" n="8" break="no"/>eius non esset vnita verbo: vt natura supposito.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e479">
-      ¶ 
-      Prete<lb ed="#V" n="9" break="no"/>rea liberum arbitrium in nobis retardatur in actu suo 
-      bo<lb ed="#V" n="10" break="no"/>no ex aggrauatione corporis: non sic autem fuit in christo. 
-      <lb ed="#V" n="11"/>Preterea sue gratie non proportionatur gratia nostra: et ideo 
-      <lb ed="#V" n="12"/>potuit elicere motum cui non proportionatur nostri 
-      ar<lb ed="#V" n="13" break="no"/>bitrii liberi motus. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g41606-Dd1e493">
-               <head xml:id="kzz7yh-g41606-Hd1e495">Quaestio 3</head>
-               <head xml:id="kzz7yh-g41606-Hd1e548" type="question-title">Utrum christus merverit in sua conversatione</head>
-               <p xml:id="kzz7yh-g41606-d1e497">
-      Questio. III 
-      <lb ed="#V" n="14"/>TErtio Queritur vtrum christus  
-      merue<lb ed="#V" n="15" break="no"/>rit in sua conuersatione. Et videtur 
-      <lb ed="#V" n="16"/>quod non: quia quicunque meretur proficit in gratia 
-      <lb ed="#V" n="17"/>vel se disponit ad illum profectum. Sed christus 
-      <lb ed="#V" n="18"/>in sua conuersatione proficit in gratia: nec se disposuit ad 
-      ta<lb ed="#V" n="19" break="no"/>lem profectum: quia ab instanti sue conceptionis habuit de gratia 
-      <lb ed="#V" n="20"/>quantum capere potuit: ergo in sua conuersatione non 
-      me<lb ed="#V" n="21" break="no"/>ruit.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e517">
-      ¶ Item philosophus eodem modo se habet: quo ad animam 
-      <lb ed="#V" n="22"/>nunc sicut ante suam passionem. Sed meritum est ex 
-      par<lb ed="#V" n="23" break="no"/>te anime. Cum ergo christus nihil modo mereatur: 
-      vide<lb ed="#V" n="24" break="no"/>tur etiam quod ante suam passionem in sua conuersatione nihil
-      <lb ed="#V" n="25"/>merebatur.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e528">
-      ¶ Item quicumque meretur facit aliquid de non 
-      debi<lb ed="#V" n="26" break="no"/>to sibi debitum sibi. Sed christus per suam conuersationem 
-      <lb ed="#V" n="27"/>non fecit aliquid de non debito sibi: debitum sibi: quia ab 
-      in<lb ed="#V" n="28" break="no"/>stanti sue conceptionis omne bonum sibi debebatur: ergo 
-      <lb ed="#V" n="29"/>christus in conuersatione non meruit. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e539">
-                  <lb ed="#V" n="30"/>Contra primo libro de articulis fidei prope principium. 
-      <lb ed="#V" n="31"/>Mereri apud deum dicitur qui nulla 
-      neces<lb ed="#V" n="32" break="no"/>sitate compulsus libenter deo facit quod facere tenetur: sed 
-      <lb ed="#V" n="33"/>christus in sua conuersatione nulla necessitate compulsus 
-      li<lb ed="#V" n="34" break="no"/>benter fecit deo quod facere tenebatur: ergo meruit in 
-      <lb ed="#V" n="35"/>sua conuersatione.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e556">
-      ¶ Item <ref xml:id="kzz7yh-g41606-Rd1e612">glo.</ref> super illud ad <ref xml:id="kzz7yh-g41606-Rd1e614">philip. 2.</ref> 
-      pro<lb ed="#V" n="36" break="no"/>pter quod et deus exaltauit illum: humilitas claritatis est 
-      <lb ed="#V" n="37"/>meritum. Claritas humilitatis est premium: sed christus 
-      <lb ed="#V" n="38"/>humiliauit se in sua conuersatione: ergo per suam 
-      conuer<lb ed="#V" n="39" break="no"/>sationem meruit claritatem. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e567">
-                  <lb ed="#V" n="40"/>Respondeo quod loquendo de merito proprie 
-      di<lb ed="#V" n="41" break="no"/>cto quod hic intendimus christus 
-      <lb ed="#V" n="42"/>in sua conuersatione meruit et sibi et nobis: sed non meruit 
-      <lb ed="#V" n="43"/>sibi faciendo per suam conuersationem aliquid bonum 
-      si<lb ed="#V" n="44" break="no"/>bi debitum quod ante non debebatur: vt faciendo sibi 
-      ma<lb ed="#V" n="45" break="no"/>gis debitum quam ante deberetur: quia omne bonum: cuius 
-      <lb ed="#V" n="46"/>erat capax ab instanti sue conceptionis sibi fuit debitum: et 
-      <lb ed="#V" n="47"/>inta perfecte quod perfectius sibi deberi non potuit: sed sibi 
-      me<lb ed="#V" n="48" break="no"/>ruit in conuersatione faciendo de sibi debito vno modo 
-      si<lb ed="#V" n="49" break="no"/>bi debitum alio modo: vel de debito sibi per vnum actum 
-      facien<lb ed="#V" n="50" break="no"/>do sibi debitum per alios actus. Tribus autem predictis modis 
-      <lb ed="#V" n="51"/>inuenit nobis: vt in vltima questione huius di. ostendetur. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e596">
-                  <lb ed="#V" n="52"/>¶ Ad primum in oppositum dicendum quod qui 
-      <lb ed="#V" n="53"/>cumque sibi meretur faciendo de non 
-      <lb ed="#V" n="54"/>debito sibi debitum: vel debito magis debitum proficit in 
-      <lb ed="#V" n="55"/>gratia: vel se disponit ad illum profectum: sed sic christus in 
-      <lb ed="#V" n="56"/>sua conuersatione non meruit: vt ostensum est.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e609">
-      ¶ Ad 
-      se<lb ed="#V" n="57" break="no"/>cundum cum dicitur quod christus eo modo se habet quo ad animam 
-      <lb ed="#V" n="58"/>nunc sicut ante suam passionem etc. Dico quod verum est per 
-      <lb ed="#V" n="59"/>comparationem ad deum: non autem per comparationem ad 
-      cor<lb ed="#V" n="60" break="no"/>pus: quia tunc ex sui comparatione ad corpus habebat 
-      passi<lb ed="#V" n="61" break="no"/>bilitate: et erat in statu viatoris.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e622">
-      ¶ Ad tertium patet 
-      solu<lb ed="#V" n="62" break="no"/>tio ex iam dictis.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g41606-Dd1e628">
-               <head xml:id="kzz7yh-g41606-Hd1e630">Quaestio 4</head>
-               <head xml:id="kzz7yh-g41606-Hd1e692" type="question-title">Utrum christus mervit in passione</head>
-               <p xml:id="kzz7yh-g41606-d1e632">
-      Questio IIII 
-      <lb ed="#V" n="63"/>QUarto Queritur vtrum christus  
-      meru<lb ed="#V" n="64" break="no"/>it in passione. Et videtur quod non 
-      <lb ed="#V" n="65"/>secundum auctorem sex principiorum. Passio est effectus 
-      <lb ed="#V" n="66"/>illatioque actionis. Effectus aut conformatur 
-      cau<lb ed="#V" n="67" break="no"/>se: cum ergo causa inferens passionem christo que fuit 
-      ip<lb ed="#V" n="68" break="no"/>sa actio iudeorum fuerit mala et non meritoria: videtur quod 
-      <!--00131.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>ipsa passio christi mala fuerit et non meritoria.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e654">
-      ¶ Item secundum 
-      <lb ed="#V" n="70"/>philosophum. 3. ethi. c. 4. Uoluntarium est: cuius principium est 
-      <lb ed="#V" n="71"/>in ipso sciente singularia in quibus est operatio. Principium 
-      <lb ed="#V" n="72"/>autem passionis christi non fuit in christo sed exterius: ergo 
-      <lb ed="#V" n="73"/>per comparationem ad christum non fuit voluntaria: sed nihil 
-      <lb ed="#V" n="74"/>est. meritorium nisi sit voluntarium: ergo christus non 
-      meru<lb ed="#V" n="75" break="no"/>it in sua passione.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e670">
-      ¶ Item secundum <ref xml:id="kzz7yh-g41606-Rd1e735">philosophum. 3. physi.</ref> et <ref xml:id="kzz7yh-g41606-Rd1e737">Anselmus 
-      <lb ed="#V" n="76"/>libro de veritate. c. 8.</ref> Actio et passio sunt vnius motus: ergo 
-      <lb ed="#V" n="77"/>mala actio iudeorum passionem christo inferentium: et 
-      passio<lb ed="#V" n="78" break="no"/>christi fuerunt vnus motus: sed contraria non sunt simul 
-      <lb ed="#V" n="79"/>in eodem: ergo cum ipsa actio iudeorum fuerit mala ipsa 
-      chri<lb ed="#V" n="80" break="no"/>sti passio non potuit esse bona: et ex consequenti nec meritoria. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e683">
-                  <lb ed="#V" n="81"/>Contra <ref xml:id="kzz7yh-g41606-Rd1e757">Augu. 4 de tri. c. 2.</ref> <quote xml:id="kzz7yh-g41606-Qd1e759" source="http://scta.info/resource/adt-l4-d1e523@129-145">Merito quippe mors 
-      <lb ed="#V" n="82"/>peccatoris veniens ex damnationis 
-      necessita<lb ed="#V" n="83" break="no"/>te soluta est per mortem iusli venientem ex misericordie 
-      volun<lb ed="#V" n="84" break="no"/>tate:</quote> sed per illum iustum intelligit christum: ergo christus 
-      <lb ed="#V" n="85"/>per passionem nobis meruit.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e697">
-      ¶ Item qui patitur: aut pati
-      <lb ed="#V" n="86"/>meruit: aut per passionem mereretur: aliter enim pateretur sine 
-      <lb ed="#V" n="87"/>causa: sed christus non meruit pati: ergo meruit per passionem. 
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e704">
-                  <lb ed="#V" n="88"/>Respondeo quod christus meruit in passione. Ad 
-      <lb ed="#V" n="89"/>cuius intelligentiam sciendum quod 
-      pas<lb ed="#V" n="90" break="no"/>sionem christi possumus considerare vel per comparationem 
-      <lb ed="#V" n="91"/>ad voluntatem iniquorum qui ipsum crucifixerunt: vel per 
-      com<lb ed="#V" n="92" break="no"/>parationem ad christi voluntatem qua passionem pro generis 
-      <lb ed="#V" n="93"/>humani redemptione desiderauit: et presentem patienter 
-      susti<lb ed="#V" n="94" break="no"/>nuit et eam acceptauit. Primo modo passio christi non 
-      fu<lb ed="#V" n="95" break="no"/>it christo nec meritoria nec demeritoria: quia sic principium 
-      <lb ed="#V" n="96"/>illius passionis in christo non fuit: sed sic fuit demeritoria 
-      <lb ed="#V" n="97"/>crucifigentibus eum inquantum ipsum inferendo 
-      grauisse<lb ed="#V" n="98" break="no"/>me peccauerunt. Secundo modo dicendum quod sicut 
-      homo<lb ed="#V" n="99" break="no"/>per actum exteriorem imperatum a voluntate charitate 
-      for<lb ed="#V" n="100" break="no"/>mata meretur: ita tamen quod in actu voluntatis imperantis est 
-      <lb ed="#V" n="101"/>meritum formaliter. In actu autem exteriori materialiter: 
-      <lb ed="#V" n="102"/>sic dico quod christus in sustinendo passionem patienter: et eam 
-      <lb ed="#V" n="103"/>acceptando meruit: ita tamen quod meritum formaliter fuit in 
-      <lb ed="#V" n="104"/>actu voluntatis. In passione autem formaliter inquantum 
-      <lb ed="#V" n="105"/>ipsa fuit voluntati materia merendi. In hoc tamen 
-      posi<lb ed="#V" n="106" break="no"/>tum exemplum est dissimile: quia passio christi non fuit 
-      <lb ed="#V" n="107"/>causata a christi voluntate: sicut actus exterior a 
-      volun<lb ed="#V" n="108" break="no"/>tate imperatus: causatur a voluntate. 
-    </p>
-               <p xml:id="kzz7yh-g41606-d1e752">
-                  <lb ed="#V" n="109"/>Ad primum in oppositum dicendum quod actio iudeo 
-      <lb ed="#V" n="110"/>rum non fuit causa passionis 
-      chri<lb ed="#V" n="111" break="no"/>sti inquantum pertinuit ad genus moris: et ideo non 
-      opor<lb ed="#V" n="112" break="no"/>tuit quod esset mala mortaliter: sed bene fuit mala malitia 
-      na<lb ed="#V" n="113" break="no"/>ture: inquantum fuit lesiua nature patientis. Ipsa tamen actio 
-      <lb ed="#V" n="114"/>iudeorum mortaliter fuit pessima.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e768">
-      ¶ Ad secundum dicendum 
-      <lb ed="#V" n="115"/>quod non plus concludit nisi quod christus non meruit in 
-      passio<lb ed="#V" n="116" break="no"/>ne inquantum comperabatur ad suam causam efficientem: sed 
-      ex<lb ed="#V" n="117" break="no"/>hoc non sequitur quin mereretur in ea inquantum 
-      com<lb ed="#V" n="118" break="no"/>parabatur ad christi voluntatem eam ex maxima charitate 
-      pa<lb ed="#V" n="119" break="no"/>tienter sustinentem et acceptantem.
-   </p>
-               <p xml:id="kzz7yh-g41606-d1e781">
-      ¶ Ad tertium dicendum 
-      <lb ed="#V" n="120"/>quod quamuis in vno motu absolute considerato non possint 
-      <lb ed="#V" n="121"/>simul esse contrarie conditiones: non tamen sic dicendum est de 
-      <lb ed="#V" n="122"/>motu considerato in comperatione: vnde sicut vnus 
-      mo<lb ed="#V" n="123" break="no"/>tus inquantum est a mouente est actio: et inquantum 
-      im<lb ed="#V" n="124" break="no"/>mobili est passio: ita potest esse quod habeat malitiam 
-      mora<lb ed="#V" n="125" break="no"/>lem inquantum est ab agente et bonitatem moralem per 
-      com<lb ed="#V" n="126" break="no"/>parationem ad passum: his concordat Ansel. libro de veritate 
-      <lb ed="#V" n="127"/>c. 8. dicens multis modis eadem res suscipit diuersis 
-      con<lb ed="#V" n="128" break="no"/>fiderationibus contraria: et ponit exemplum de motione 
-      <lb ed="#V" n="129"/>considerata per comperationem ad agens et patiens. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="59-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g41606"><!-- l3d18a1 -->
+        <head xml:id="kzz7yh-g41606-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-g41606-d1e103">
+          ¶ Circa primum queruntur 
+          <lb ed="#V" n="11"/>quatuor.
+        </p>
+        <p xml:id="kzz7yh-g41606-d1e108">
+          ¶ Primo vtrum christus aliquid meruerit.
+        </p>
+        <p xml:id="kzz7yh-g41606-d1e110">
+          ¶ 
+          Se<lb ed="#V" n="12" break="no"/>cundo vtrum meruerit ab instanti sue conceptionis.
+        </p>
+        <p xml:id="kzz7yh-g41606-d1e115">
+          ¶ 
+          Ter<lb ed="#V" n="13" break="no"/>tio vtrum meruerit in sua conuersatione.
+        </p>
+        <p xml:id="kzz7yh-g41606-d1e121">
+          ¶ Quarto vtrum 
+          <lb ed="#V" n="14"/>meruerit in passione.
+        </p>
+        <div xml:id="kzz7yh-g41606-Dd1e126">
+          <head xml:id="kzz7yh-g41606-Hd1e128">Quaestio 1</head>
+          <head xml:id="kzz7yh-g41606-Hd1e133" type="question-title">Utrum christus aliquid merverit</head>
+          <p xml:id="kzz7yh-g41606-d1e130">
+            Questio I
+            <lb ed="#V" n="15"/>PRimo ostendo quod christus nihil vnquam
+            <lb ed="#V" n="16"/>meruit. Nullus enim meretur quod 
+            su<lb ed="#V" n="17" break="no"/>um est: quia meritum precedit praemium: sed omnia 
+            <lb ed="#V" n="18"/>erant christi ipso dicente in euangelio secundum <ref xml:id="kzz7yh-g41606-Rd1e146">Io. ad 
+              <lb ed="#V" n="19"/>patrem. c. 17.</ref> <quote xml:id="kzz7yh-g41606-Qd1e152" source="http://scta.info/resource/io17_10@2-9">Omnia mea tua sunt: et tua mea sunt</quote>: ergo 
+            chri<lb ed="#V" n="20" break="no"/>stus nihil vnquam meruit.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e146">
+            ¶ Item comprehensores non sunt in 
+            <lb ed="#V" n="21"/>statum merendi: sed christus fuit semper comprehensor: ergo 
+            <lb ed="#V" n="22"/>numquam fuit in statu merendi.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e153">
+            ¶ Item omne meritum est ad 
+            <lb ed="#V" n="23"/>supplendum aliquam indigentiam merentis: sed in christo nunquam 
+            <lb ed="#V" n="24"/>fuit aliqua indigentia: cum semper fuerit beatus: et sicut dicit A<ref xml:id="kzz7yh-g41606-Rd1e171">ug. 
+              <lb ed="#V" n="25"/>xiii. de tritate. c. v.</ref> <quote xml:id="kzz7yh-g41606-Qd1e176" source="http://scta.info/resource/adt-l13-d1e1428@334-344">Beatus non est nisi qui habet omnia que vult</quote> 
+            <lb ed="#V" n="26"/>ergo christus nunquam aliquid meruit. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e164">
+            <lb ed="#V" n="27"/>Contra <ref xml:id="kzz7yh-g41606-Rd1e187">glo.</ref> <ref xml:id="kzz7yh-g41606-Rd1e189">super illud pslamum</ref>. <quote xml:id="kzz7yh-g41606-Qd1e191" source="http://scta.info/resource/ps15_1@5-11">Conserua me domine: quoniam 
+              spe<lb ed="#V" n="28" break="no"/>raui in te</quote> dicit: ecce meritum quo seruari 
+            de<lb ed="#V" n="29" break="no"/>bet: sed illud verbum <ref xml:id="kzz7yh-g41606-Rd1e199">pslamum</ref>. dicitur in persona christi secundum <ref xml:id="kzz7yh-g41606-Rd1e201">glo</ref>. 
+            ibi<lb ed="#V" n="30" break="no"/>dem: ergo christus meruit conseruari.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e176">
+            ¶ Item secundum <ref xml:id="kzz7yh-g41606-Rd1e208">Ansel. ii. 
+              li<lb ed="#V" n="31" break="no"/>bro. Cur deus homo. c. x.</ref> Quamuis christus non potuerit 
+            pec<lb ed="#V" n="32" break="no"/>care: tamen laudandus fuit de iustitia sua: sed omnis existens 
+            via<lb ed="#V" n="33" break="no"/>tor de sua iustitia laudandus per suam iustitiam meretur: ergo 
+            <lb ed="#V" n="34"/>cum christus non tantum fuerit comprehensor: sed etiam viator 
+            me<lb ed="#V" n="35" break="no"/>ruit per iustitiam suam. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e189">
+            <lb ed="#V" n="36"/>Respondeo quod christus aliquid meruit et 
+            magnun<lb ed="#V" n="37" break="no"/>fuit quod meruit. Christus enim non 
+            <lb ed="#V" n="38"/>tantum fuit comprehensor sed etiam viator: vt superius dictum est. 
+            <lb ed="#V" n="39"/>Fuit etiam per liberum arbitrium dominus sue actionis. Actio etiam 
+            <lb ed="#V" n="40"/>sua propter perfectam charitatem agentis et rectam eius intentionem 
+            <lb ed="#V" n="41"/>proportionata fuit praemio magno: ad merendum autem non 
+            <lb ed="#V" n="42"/>requiruntur nisi tri a predicta: ergo christus meruit. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e207">
+            <lb ed="#V" n="43"/>¶ Ad primum in oppositum cum dicitur: <quote xml:id="kzz7yh-g41606-Qd1e244">quod omnia erant 
+              <lb ed="#V" n="44"/>christi</quote> etc. verum est inquantum deus 
+            <lb ed="#V" n="45"/>est: et sic non merebatur: sed inquantum homo non omnia erant sua: et sic 
+            <lb ed="#V" n="46"/>merebatur.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e218">
+            ¶ Ad secundum cum dicitur pro comprehensores non sunt 
+            in<lb ed="#V" n="47" break="no"/>statu merendi etc. dico quod verum est de illis qui sunt 
+            comprehen<lb ed="#V" n="48" break="no"/>sores tantum. Illi enim non sunt in statu merendi pro seipsis: 
+            chri<lb ed="#V" n="49" break="no"/>stus autem simul fuit comprehensor et viator: et ideo mereri 
+            pe<lb ed="#V" n="50" break="no"/>tuit pro se et pro aliis.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e229">
+            ¶ Ad tertium cum dicitur quod in christo numquam 
+            <lb ed="#V" n="51"/>fuit aliqua indigentia: dico quod verum est sub ratione qua fuit 
+            <lb ed="#V" n="52"/>beatus: et sub illa ratione nihil sibi meruit sed inquantum fuit 
+            <lb ed="#V" n="53"/>viator in eo fuit indigentia: et inquantum huius meruit. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g41606-Dd1e239">
+          <head xml:id="kzz7yh-g41606-Hd1e241">Quaestio 2</head>
+          <head xml:id="kzz7yh-g41606-Hd1e280" type="question-title">Utrum christus merverit ab instanti sue coneptionis</head>
+          <p xml:id="kzz7yh-g41606-d1e243">
+            Quaestio II. 
+            <lb ed="#V" n="54"/>SEcundo Queritur vtrum christus meruerit 
+            <lb ed="#V" n="55"/>ab instanti sue conceptionis. Et 
+            <lb ed="#V" n="56"/>videtur quod non. Omne initium est per actum 
+            delibe<lb ed="#V" n="57" break="no"/>ratiue voluntatis. Sed actus deliberatiue 
+            volun<lb ed="#V" n="58" break="no"/>tatis non est instanti: quia importat motum ab vno in aliud: quod instanti 
+            <lb ed="#V" n="59"/>fieri non potest: ergo christus non meruerit ab instanti sue conceptionis. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e259">
+            <lb ed="#V" n="60"/>¶ Item ita cito potest creatura rationalis vel intellectualis de 
+            <lb ed="#V" n="61"/>mereri sicut mereri: quia facilius est deficere quam proficere. Sed 
+            <lb ed="#V" n="62"/>malus angelus non potuit demereri ab instanti sue 
+            creatio<lb ed="#V" n="63" break="no"/>nis: vt in <ref xml:id="kzz7yh-g41606-Rd1e309">2 lib.</ref> ostensum est: ergo nec anima christi mereri 
+            potu<lb ed="#V" n="64" break="no"/>it ab instanti sue creationis: sed in illo instati quo anima 
+            chri<lb ed="#V" n="65" break="no"/>sti fuit creata: christus fuit conceptus: ergo non potuit 
+            me<lb ed="#V" n="66" break="no"/>reri ab instanti sue conceptionis.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e277">
+            ¶ Item si potentie mouentes 
+            <lb ed="#V" n="67"/>proportionantur mensure in quibus mouent 
+            proportio<lb ed="#V" n="68" break="no"/>nantur: et hec propositio trahi potest ex doctrina <ref xml:id="kzz7yh-g41606-Rd1e325">philosophi
+              <cb ed="#V" n="b"/>
+              <lb ed="#V" n="69"/>libro 7. physi.</ref> sed nostrum liberum arbitrium: et liberum arbitrium 
+            <lb ed="#V" n="70"/>christi proportionantur cum vtrumque sit finitum et eiusdem speciei: ergo 
+            <lb ed="#V" n="71"/>mensure in quibus possunt mouere proportinantur: sed instans 
+            <lb ed="#V" n="72"/>non proportionatur tempori: ergo cum nostrum liberum arbitrium 
+            <lb ed="#V" n="73"/>non possit se mouere nisi in tempore: quia secundum philosophum in lib. de 
+            <lb ed="#V" n="74"/>memoria et reminisentia nostrum intelligere est cum 
+            conti<lb ed="#V" n="75" break="no"/>nuo et tempore libero arbitrio christi non potuit se mouere in instanti 
+            <lb ed="#V" n="76"/>sue conceptionis. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e306">
+            <lb ed="#V" n="77"/>Contra <ref xml:id="kzz7yh-g41606-Rd1e353">magister in littera</ref>: <quote xml:id="kzz7yh-g41606-Qd1e355" source="http://scta.info/resource/pl-l3d18c2-d1e126@1-15">non plus meruit sibi per 
+              cru<lb ed="#V" n="78" break="no"/>cis patibulum quam a conceptione meruit per 
+              gra<lb ed="#V" n="79" break="no"/>tiam virtutum</quote>.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e316">
+            ¶ Item ab instanti sue conceptionis fuit beatus 
+            <lb ed="#V" n="80"/>sed beatitudo consistit in actu: ergo ab instanti sue 
+            conceptio<lb ed="#V" n="81" break="no"/>nis habuit actum glorie: ergo a simili et actum gratie: sed in 
+            <lb ed="#V" n="82"/>actu gratie consistit meritum: ergo meruit ab instanti conceptionis sue. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e325">
+            <lb ed="#V" n="83"/>Ad istam questionem dicunt quidam quod christus 
+            <lb ed="#V" n="84"/>ab instanti sue 
+            conce<lb ed="#V" n="85" break="no"/>ptionis non habuit meriti vsum: sed habitum per quem 
+            di<lb ed="#V" n="86" break="no"/>gnus erat gloria. Usus enim meriti non est sine actu 
+            delibe<lb ed="#V" n="87" break="no"/>ratiue volutatis qui quidem actus in quadam successione 
+            con<lb ed="#V" n="88" break="no"/>sistit. Unde et si ab instanti sue conceptionis inceperit hebere 
+            <lb ed="#V" n="89"/>vsum meriti: non tamen in illo instanti habuit vsum meriti: et si 
+            <lb ed="#V" n="90"/>enim successiua incipiunt tamen in instanti: in instanti esse non possunt. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e345">
+            <lb ed="#V" n="91"/>¶ Alii dicunt quod christus ab instanti sue conceptionis non 
+            tan<lb ed="#V" n="92" break="no"/>tum habuit meriti habitum: sed etiam meriti vsum. Si enim 
+            <lb ed="#V" n="93"/>aliqua potentia in eodem instanti in quo est primo non habet 
+            <lb ed="#V" n="94"/>actione suam hoc contingit: autem quia in illo instanti non 
+            ha<lb ed="#V" n="95" break="no"/>bet totam perfectionem suam que requiritur ad illam actionem 
+            <lb ed="#V" n="96"/>aut quia est aliquid impediens: aut quia de ratione illius actionis 
+            <lb ed="#V" n="97"/>est successio quod esse non posset in instanti. Christus autem 
+            <lb ed="#V" n="98"/>ab instanti sue conceptionis habuit potentiam merendi 
+            per<lb ed="#V" n="99" break="no"/>fectam perfectione nature et gratie: nec fuit aliquid 
+            mo<lb ed="#V" n="100" break="no"/>tum illius potentie impediens in ipso: non enim fuerunt 
+            im<lb ed="#V" n="101" break="no"/>pedimenta que sunt in organis aliorum paruulorum. De ratio 
+            <lb ed="#V" n="102"/>ne etiam actus merendi non est successio: quia actus merendi 
+            <lb ed="#V" n="103"/>consistit in actu libere voluntatis ad deum ordinato: et 
+            chari<lb ed="#V" n="104" break="no"/>tate informato. Ad talem autem actum non requiritur 
+            succes<lb ed="#V" n="105" break="no"/>sio nisi per accidens: motus enim de cuius ratione est 
+            suc<lb ed="#V" n="106" break="no"/>cessio cum attingit illud respectu cuius est desinit esse: 
+            mo<lb ed="#V" n="107" break="no"/>tus autem voluntatis cum attingit ad volitum: non propter hoc 
+            <lb ed="#V" n="108"/>desinit esse: est ergo indiuisibilis actus: talis autem actus esse 
+            <lb ed="#V" n="109"/>potest in instanti: christus ergo ab instanti conceptionis sue 
+            po<lb ed="#V" n="110" break="no"/>tuit habere meriti vsum. Sed planum est quod habuit 
+            meri<lb ed="#V" n="111" break="no"/>ti vsum quam citius habere potuit: ab instanti ergo sue 
+            con<lb ed="#V" n="112" break="no"/>ceptionis ipsum habuit. Qui vult tenere hanc secundam 
+            <lb ed="#V" n="113"/>opinionem que magis videtur honorare ipsum potest dicere. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e397">
+            <lb ed="#V" n="114"/>Ad primum in oppositum quod actus deliberatiue 
+            <lb ed="#V" n="115"/>volutatis: bene potest esse in 
+            in<lb ed="#V" n="116" break="no"/>stanti cum de ratione eius non sit successio nisi per accidens 
+            <lb ed="#V" n="117"/>sicut forte est in nobis: vel propter aggrauationem corporis 
+            <lb ed="#V" n="118"/>corruptibilis impedientis animam in sua actione: vel 
+            pro<lb ed="#V" n="119" break="no"/>pter debilitatem intellectus: accidentia in christo non fuerunt 
+            <lb ed="#V" n="120"/>quia quamuis habuit corpus corruptibile: non tamen 
+            corruptibi<lb ed="#V" n="121" break="no"/>litate aggrauante intellectum vel voluntatem in sua 
+            actio<lb ed="#V" n="122" break="no"/>ne: habuit etiam semper intellectum fortissimum et 
+            forti<lb ed="#V" n="123" break="no"/>tudine que est per naturam: et fortitudine que est per 
+            gra<lb ed="#V" n="124" break="no"/>tiam et gloriam. Unde voluntas eius nullum habuit 
+            re<lb ed="#V" n="125" break="no"/>tardatiuum in sua actione.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e426">
+            ¶ Ad secundum dicendum quod non est simile 
+            <lb ed="#V" n="126"/>de merito et merito: quia actus merendi non est contra 
+            natura<lb ed="#V" n="127" break="no"/>lem motum voluntatis: sed magis complet ipsum. Actus autem 
+            <lb ed="#V" n="128"/>demerendi derogat naturali motui ipsius voluntatis: quia 
+            <lb ed="#V" n="129"/>est ad terminum oppositum: Unde aliquid diminuit de 
+            per<lb ed="#V" n="130" break="no"/>fectione illius. Non est autem possibile quod in eodem 
+            instan<lb ed="#V" n="131" break="no"/>ti diminuatur aliquid de perfectione habita: quia aliter 
+            <lb ed="#V" n="132"/>contradictoria simul essent vera in eodem instanti. Cum 
+            <lb ed="#V" n="133"/>ergo motus naturalis: precedat omnes alios motus in 
+            vo<lb ed="#V" n="134" break="no"/>luntate: non potuit aliqua creatura habere aliquem malum 
+            <lb ed="#V" n="135"/>voluntatis actum ab instanti creationis sue vt plenus 
+            <lb ed="#V" n="136"/>ostensum est in <ref xml:id="kzz7yh-g41606-Rd1e499">libro. 2. Di. 3.</ref>
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e452">
+            ¶ Ad tertium dicendum quod  
+            <!--00131.xml-->
+            <pb ed="#V" n="60-r"/>
+            <cb ed="#V" n="a"/>quam<lb ed="#V" n="1"/>uis nostrum liberum arbitrium et libero arbitrio christi 
+            proportio<lb ed="#V" n="2" break="no"/>nentur secundum essentias: non tamen quantum ad actuales 
+            existenti<lb ed="#V" n="3" break="no"/>as: quia nostrum libero arbitri actualiter existit in supposito creato 
+            <lb ed="#V" n="4"/>et liberum arbitrium christi in supposito increato. Perfectio 
+            <lb ed="#V" n="5"/>autem et fortitudo operationis est per essentiam in 
+            compera<lb ed="#V" n="6" break="no"/>tione ad suam actualem existentiam. Unde liberum arbitrium 
+            <lb ed="#V" n="7"/>christi perfectiorem habet actum quam si natura 
+            humana<lb ed="#V" n="8" break="no"/>eius non esset vnita verbo: vt natura supposito.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e479">
+            ¶ 
+            Prete<lb ed="#V" n="9" break="no"/>rea liberum arbitrium in nobis retardatur in actu suo 
+            bo<lb ed="#V" n="10" break="no"/>no ex aggrauatione corporis: non sic autem fuit in christo. 
+            <lb ed="#V" n="11"/>Preterea sue gratie non proportionatur gratia nostra: et ideo 
+            <lb ed="#V" n="12"/>potuit elicere motum cui non proportionatur nostri 
+            ar<lb ed="#V" n="13" break="no"/>bitrii liberi motus. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g41606-Dd1e493">
+          <head xml:id="kzz7yh-g41606-Hd1e495">Quaestio 3</head>
+          <head xml:id="kzz7yh-g41606-Hd1e548" type="question-title">Utrum christus merverit in sua conversatione</head>
+          <p xml:id="kzz7yh-g41606-d1e497">
+            Questio. III 
+            <lb ed="#V" n="14"/>TErtio Queritur vtrum christus  
+            merue<lb ed="#V" n="15" break="no"/>rit in sua conuersatione. Et videtur 
+            <lb ed="#V" n="16"/>quod non: quia quicunque meretur proficit in gratia 
+            <lb ed="#V" n="17"/>vel se disponit ad illum profectum. Sed christus 
+            <lb ed="#V" n="18"/>in sua conuersatione proficit in gratia: nec se disposuit ad 
+            ta<lb ed="#V" n="19" break="no"/>lem profectum: quia ab instanti sue conceptionis habuit de gratia 
+            <lb ed="#V" n="20"/>quantum capere potuit: ergo in sua conuersatione non 
+            me<lb ed="#V" n="21" break="no"/>ruit.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e517">
+            ¶ Item philosophus eodem modo se habet: quo ad animam 
+            <lb ed="#V" n="22"/>nunc sicut ante suam passionem. Sed meritum est ex 
+            par<lb ed="#V" n="23" break="no"/>te anime. Cum ergo christus nihil modo mereatur: 
+            vide<lb ed="#V" n="24" break="no"/>tur etiam quod ante suam passionem in sua conuersatione nihil
+            <lb ed="#V" n="25"/>merebatur.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e528">
+            ¶ Item quicumque meretur facit aliquid de non 
+            debi<lb ed="#V" n="26" break="no"/>to sibi debitum sibi. Sed christus per suam conuersationem 
+            <lb ed="#V" n="27"/>non fecit aliquid de non debito sibi: debitum sibi: quia ab 
+            in<lb ed="#V" n="28" break="no"/>stanti sue conceptionis omne bonum sibi debebatur: ergo 
+            <lb ed="#V" n="29"/>christus in conuersatione non meruit. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e539">
+            <lb ed="#V" n="30"/>Contra primo libro de articulis fidei prope principium. 
+            <lb ed="#V" n="31"/>Mereri apud deum dicitur qui nulla 
+            neces<lb ed="#V" n="32" break="no"/>sitate compulsus libenter deo facit quod facere tenetur: sed 
+            <lb ed="#V" n="33"/>christus in sua conuersatione nulla necessitate compulsus 
+            li<lb ed="#V" n="34" break="no"/>benter fecit deo quod facere tenebatur: ergo meruit in 
+            <lb ed="#V" n="35"/>sua conuersatione.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e556">
+            ¶ Item <ref xml:id="kzz7yh-g41606-Rd1e612">glo.</ref> super illud ad <ref xml:id="kzz7yh-g41606-Rd1e614">philip. 2.</ref> 
+            pro<lb ed="#V" n="36" break="no"/>pter quod et deus exaltauit illum: humilitas claritatis est 
+            <lb ed="#V" n="37"/>meritum. Claritas humilitatis est premium: sed christus 
+            <lb ed="#V" n="38"/>humiliauit se in sua conuersatione: ergo per suam 
+            conuer<lb ed="#V" n="39" break="no"/>sationem meruit claritatem. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e567">
+            <lb ed="#V" n="40"/>Respondeo quod loquendo de merito proprie 
+            di<lb ed="#V" n="41" break="no"/>cto quod hic intendimus christus 
+            <lb ed="#V" n="42"/>in sua conuersatione meruit et sibi et nobis: sed non meruit 
+            <lb ed="#V" n="43"/>sibi faciendo per suam conuersationem aliquid bonum 
+            si<lb ed="#V" n="44" break="no"/>bi debitum quod ante non debebatur: vt faciendo sibi 
+            ma<lb ed="#V" n="45" break="no"/>gis debitum quam ante deberetur: quia omne bonum: cuius 
+            <lb ed="#V" n="46"/>erat capax ab instanti sue conceptionis sibi fuit debitum: et 
+            <lb ed="#V" n="47"/>inta perfecte quod perfectius sibi deberi non potuit: sed sibi 
+            me<lb ed="#V" n="48" break="no"/>ruit in conuersatione faciendo de sibi debito vno modo 
+            si<lb ed="#V" n="49" break="no"/>bi debitum alio modo: vel de debito sibi per vnum actum 
+            facien<lb ed="#V" n="50" break="no"/>do sibi debitum per alios actus. Tribus autem predictis modis 
+            <lb ed="#V" n="51"/>inuenit nobis: vt in vltima questione huius di. ostendetur. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e596">
+            <lb ed="#V" n="52"/>¶ Ad primum in oppositum dicendum quod qui 
+            <lb ed="#V" n="53"/>cumque sibi meretur faciendo de non 
+            <lb ed="#V" n="54"/>debito sibi debitum: vel debito magis debitum proficit in 
+            <lb ed="#V" n="55"/>gratia: vel se disponit ad illum profectum: sed sic christus in 
+            <lb ed="#V" n="56"/>sua conuersatione non meruit: vt ostensum est.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e609">
+            ¶ Ad 
+            se<lb ed="#V" n="57" break="no"/>cundum cum dicitur quod christus eo modo se habet quo ad animam 
+            <lb ed="#V" n="58"/>nunc sicut ante suam passionem etc. Dico quod verum est per 
+            <lb ed="#V" n="59"/>comparationem ad deum: non autem per comparationem ad 
+            cor<lb ed="#V" n="60" break="no"/>pus: quia tunc ex sui comparatione ad corpus habebat 
+            passi<lb ed="#V" n="61" break="no"/>bilitate: et erat in statu viatoris.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e622">
+            ¶ Ad tertium patet 
+            solu<lb ed="#V" n="62" break="no"/>tio ex iam dictis.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g41606-Dd1e628">
+          <head xml:id="kzz7yh-g41606-Hd1e630">Quaestio 4</head>
+          <head xml:id="kzz7yh-g41606-Hd1e692" type="question-title">Utrum christus mervit in passione</head>
+          <p xml:id="kzz7yh-g41606-d1e632">
+            Questio IIII 
+            <lb ed="#V" n="63"/>QUarto Queritur vtrum christus  
+            meru<lb ed="#V" n="64" break="no"/>it in passione. Et videtur quod non 
+            <lb ed="#V" n="65"/>secundum auctorem sex principiorum. Passio est effectus 
+            <lb ed="#V" n="66"/>illatioque actionis. Effectus aut conformatur 
+            cau<lb ed="#V" n="67" break="no"/>se: cum ergo causa inferens passionem christo que fuit 
+            ip<lb ed="#V" n="68" break="no"/>sa actio iudeorum fuerit mala et non meritoria: videtur quod 
+            <!--00131.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>ipsa passio christi mala fuerit et non meritoria.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e654">
+            ¶ Item secundum 
+            <lb ed="#V" n="70"/>philosophum. 3. ethi. c. 4. Uoluntarium est: cuius principium est 
+            <lb ed="#V" n="71"/>in ipso sciente singularia in quibus est operatio. Principium 
+            <lb ed="#V" n="72"/>autem passionis christi non fuit in christo sed exterius: ergo 
+            <lb ed="#V" n="73"/>per comparationem ad christum non fuit voluntaria: sed nihil 
+            <lb ed="#V" n="74"/>est. meritorium nisi sit voluntarium: ergo christus non 
+            meru<lb ed="#V" n="75" break="no"/>it in sua passione.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e670">
+            ¶ Item secundum <ref xml:id="kzz7yh-g41606-Rd1e735">philosophum. 3. physi.</ref> et <ref xml:id="kzz7yh-g41606-Rd1e737">Anselmus 
+              <lb ed="#V" n="76"/>libro de veritate. c. 8.</ref> Actio et passio sunt vnius motus: ergo 
+            <lb ed="#V" n="77"/>mala actio iudeorum passionem christo inferentium: et 
+            passio<lb ed="#V" n="78" break="no"/>christi fuerunt vnus motus: sed contraria non sunt simul 
+            <lb ed="#V" n="79"/>in eodem: ergo cum ipsa actio iudeorum fuerit mala ipsa 
+            chri<lb ed="#V" n="80" break="no"/>sti passio non potuit esse bona: et ex consequenti nec meritoria. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e683">
+            <lb ed="#V" n="81"/>Contra <ref xml:id="kzz7yh-g41606-Rd1e757">Augu. 4 de tri. c. 2.</ref> <quote xml:id="kzz7yh-g41606-Qd1e759" source="http://scta.info/resource/adt-l4-d1e523@129-145">Merito quippe mors 
+              <lb ed="#V" n="82"/>peccatoris veniens ex damnationis 
+              necessita<lb ed="#V" n="83" break="no"/>te soluta est per mortem iusli venientem ex misericordie 
+              volun<lb ed="#V" n="84" break="no"/>tate:</quote> sed per illum iustum intelligit christum: ergo christus 
+            <lb ed="#V" n="85"/>per passionem nobis meruit.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e697">
+            ¶ Item qui patitur: aut pati
+            <lb ed="#V" n="86"/>meruit: aut per passionem mereretur: aliter enim pateretur sine 
+            <lb ed="#V" n="87"/>causa: sed christus non meruit pati: ergo meruit per passionem. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e704">
+            <lb ed="#V" n="88"/>Respondeo quod christus meruit in passione. Ad 
+            <lb ed="#V" n="89"/>cuius intelligentiam sciendum quod 
+            pas<lb ed="#V" n="90" break="no"/>sionem christi possumus considerare vel per comparationem 
+            <lb ed="#V" n="91"/>ad voluntatem iniquorum qui ipsum crucifixerunt: vel per 
+            com<lb ed="#V" n="92" break="no"/>parationem ad christi voluntatem qua passionem pro generis 
+            <lb ed="#V" n="93"/>humani redemptione desiderauit: et presentem patienter 
+            susti<lb ed="#V" n="94" break="no"/>nuit et eam acceptauit. Primo modo passio christi non 
+            fu<lb ed="#V" n="95" break="no"/>it christo nec meritoria nec demeritoria: quia sic principium 
+            <lb ed="#V" n="96"/>illius passionis in christo non fuit: sed sic fuit demeritoria 
+            <lb ed="#V" n="97"/>crucifigentibus eum inquantum ipsum inferendo 
+            grauisse<lb ed="#V" n="98" break="no"/>me peccauerunt. Secundo modo dicendum quod sicut 
+            homo<lb ed="#V" n="99" break="no"/>per actum exteriorem imperatum a voluntate charitate 
+            for<lb ed="#V" n="100" break="no"/>mata meretur: ita tamen quod in actu voluntatis imperantis est 
+            <lb ed="#V" n="101"/>meritum formaliter. In actu autem exteriori materialiter: 
+            <lb ed="#V" n="102"/>sic dico quod christus in sustinendo passionem patienter: et eam 
+            <lb ed="#V" n="103"/>acceptando meruit: ita tamen quod meritum formaliter fuit in 
+            <lb ed="#V" n="104"/>actu voluntatis. In passione autem formaliter inquantum 
+            <lb ed="#V" n="105"/>ipsa fuit voluntati materia merendi. In hoc tamen 
+            posi<lb ed="#V" n="106" break="no"/>tum exemplum est dissimile: quia passio christi non fuit 
+            <lb ed="#V" n="107"/>causata a christi voluntate: sicut actus exterior a 
+            volun<lb ed="#V" n="108" break="no"/>tate imperatus: causatur a voluntate. 
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e752">
+            <lb ed="#V" n="109"/>Ad primum in oppositum dicendum quod actio iudeo 
+            <lb ed="#V" n="110"/>rum non fuit causa passionis 
+            chri<lb ed="#V" n="111" break="no"/>sti inquantum pertinuit ad genus moris: et ideo non 
+            opor<lb ed="#V" n="112" break="no"/>tuit quod esset mala mortaliter: sed bene fuit mala malitia 
+            na<lb ed="#V" n="113" break="no"/>ture: inquantum fuit lesiua nature patientis. Ipsa tamen actio 
+            <lb ed="#V" n="114"/>iudeorum mortaliter fuit pessima.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e768">
+            ¶ Ad secundum dicendum 
+            <lb ed="#V" n="115"/>quod non plus concludit nisi quod christus non meruit in 
+            passio<lb ed="#V" n="116" break="no"/>ne inquantum comperabatur ad suam causam efficientem: sed 
+            ex<lb ed="#V" n="117" break="no"/>hoc non sequitur quin mereretur in ea inquantum 
+            com<lb ed="#V" n="118" break="no"/>parabatur ad christi voluntatem eam ex maxima charitate 
+            pa<lb ed="#V" n="119" break="no"/>tienter sustinentem et acceptantem.
+          </p>
+          <p xml:id="kzz7yh-g41606-d1e781">
+            ¶ Ad tertium dicendum 
+            <lb ed="#V" n="120"/>quod quamuis in vno motu absolute considerato non possint 
+            <lb ed="#V" n="121"/>simul esse contrarie conditiones: non tamen sic dicendum est de 
+            <lb ed="#V" n="122"/>motu considerato in comperatione: vnde sicut vnus 
+            mo<lb ed="#V" n="123" break="no"/>tus inquantum est a mouente est actio: et inquantum 
+            im<lb ed="#V" n="124" break="no"/>mobili est passio: ita potest esse quod habeat malitiam 
+            mora<lb ed="#V" n="125" break="no"/>lem inquantum est ab agente et bonitatem moralem per 
+            com<lb ed="#V" n="126" break="no"/>parationem ad passum: his concordat Ansel. libro de veritate 
+            <lb ed="#V" n="127"/>c. 8. dicens multis modis eadem res suscipit diuersis 
+            con<lb ed="#V" n="128" break="no"/>fiderationibus contraria: et ponit exemplum de motione 
+            <lb ed="#V" n="129"/>considerata per comperationem ad agens et patiens. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

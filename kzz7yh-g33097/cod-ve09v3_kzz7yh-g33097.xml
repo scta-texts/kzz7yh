@@ -1,349 +1,349 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 5</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 5</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="47-r"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 5</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 5</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="47-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g33097"><!-- l3d14a5 -->
+        <head xml:id="kzz7yh-g33097-Hd1e101">Articulus 5</head>
+        <p xml:id="kzz7yh-g33097-d1e103">
+          <lb ed="#V" n="77"/>Consequenter queritur de <sic>secundo</sic> 
+          prin<lb ed="#V" n="78" break="no"/>cipali et circa hoc 
+          pos<lb ed="#V" n="79" break="no"/>sent queri quattuor. Primo vtrum anima christi sit 
+          omni<lb ed="#V" n="80" break="no"/>potens. Secundo vtrum sit potentior: quam si natura 
+          huma<lb ed="#V" n="81" break="no"/>na: cuius est pars: esset existens in seipsa: vt in supposito. 
+          Ter<lb ed="#V" n="82" break="no"/>tio vtrum anima christi possit facere: non mediante opere 
+          natu<lb ed="#V" n="83" break="no"/>re: impressiones: que per naturam fiunt in istis inferioribus. 
+          <lb ed="#V" n="84"/>Quarto posset queri vtrum christo: non tantum ratione diuine nature 
+          <lb ed="#V" n="85"/>sed est ratione humane conueniat regia potestas. 
+          <!--TODO Should these be separated-->
+        </p>
+        <div xml:id="kzz7yh-g33097-Dd1e127">
+          <head xml:id="kzz7yh-g33097-Hd1e129">Quaestio 1</head>
+          <p xml:id="kzz7yh-g33097-d1e131">
+            Quaestio I 
+            <lb ed="#V" n="86"/>Rimo ostendo: quod anima christi sit omnipotens 
+            g<ref xml:id="kzz7yh-g33097-Rd1e139">lo<lb ed="#V" n="87" break="no"/>sa super illud math. Ultimo.</ref>
+            <quote xml:id="kzz7yh-g33097-Qd1e144" source="http://scta.info/resource/mt28_18@8-17"> Da<lb ed="#V" n="88" break="no"/>ta est mihi potestas in celo: et in terra:</quote> hoc non 
+            de<lb ed="#V" n="89" break="no"/>coeterna patris diuinitate sed de assumpta 
+            hu<lb ed="#V" n="90" break="no"/>manitate dicit.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e144">
+            ¶ <ref xml:id="kzz7yh-g33097-Rd1e156">Item glosa super illud Luce I.</ref> hic erit 
+            <lb ed="#V" n="91"/>magnus: dicit quod non ante partum virginis magnus non 
+            fue<lb ed="#V" n="92" break="no"/>rit sed quia potentiam: quam dei filius naturaliter habet: homo ex tempore 
+            <lb ed="#V" n="93"/>erat accepturus.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e153">
+            ¶ Item omnis natura habens actualem existentiam 
+            <lb ed="#V" n="94"/>infinitam est omnipotens: quia quantum res habet de actualitate: tantum habet 
+            <lb ed="#V" n="95"/>de actiua potentia: sed anima christi habet actualem existentiam 
+            infini<lb ed="#V" n="96" break="no"/>tam: quia non habet aliud esse actuale: quam esse verbi: quod est 
+            infi<lb ed="#V" n="97" break="no"/>nitum: ergo animachristi est omnipotens. 
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e164">
+            <lb ed="#V" n="98"/>Contra illud: quod est dei proprium non conuenit ime christi: cum 
+            <lb ed="#V" n="99"/>sit creatura: sed esse omnipotentem proprium dei est 
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e172">
+            <lb ed="#V" n="100"/>¶ Unde <ref xml:id="kzz7yh-g33097-Rd1e188">exo. 15</ref> <quote xml:id="kzz7yh-g33097-Qd1e190" source="http://scta.info/resource/ex15_3@5-7">omnipotens nomen eius.</quote> ergo anima christi non est 
+            omnipo<lb ed="#V" n="101" break="no"/>tens.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e179">
+            ¶ Item magister in littera: non est ei datum posse omnia 
+            fa<lb ed="#V" n="102" break="no"/>cere: que deus facit: ne ompsus: et per hoc deus putaretur. 
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e184">
+            <lb ed="#V" n="103"/>Respondeo quod anima christi non est omnipotens: omnipotentia. 
+            <lb ed="#V" n="104"/>nm includit actiuam potentiam 
+            infinitan<lb ed="#V" n="105" break="no"/>intensiue: in anima autem christi cum sit creatura non est: nec esse potest 
+            <lb ed="#V" n="106"/>actiua potentia infinita intensiue: quia cum vnumquodque agat secundum 
+            il<lb ed="#V" n="107" break="no"/>lud: quod est ens actu: et patiatur inquantum est in potentia quantum 
+            <lb ed="#V" n="108"/>res habet de actiua potentia tantum habet de actualitate. ergo potentia 
+            <lb ed="#V" n="109"/>actiua infinita includit actualitatem infinitam in habente illam 
+            <lb ed="#V" n="110"/>potentiam. actualitas autem infinita in nulla creatura esse 
+            po<lb ed="#V" n="111" break="no"/>test: quia omnis actualitas creature cum possibilitate permixta est 
+            <lb ed="#V" n="112"/>tamen omnis potentia actiua: que anime christi dari potuit sibi data est. 
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e208">
+            <lb ed="#V" n="113"/>Ad primum et secundum in oppositum dicendum quod <ref xml:id="kzz7yh-g33097-Rd1e229">ille glose</ref>  
+            in<lb ed="#V" n="114" break="no"/>telliguntur secundum illum modum 
+            loquen<lb ed="#V" n="115" break="no"/>di quo idiomata conuincantur. Unde post verba glose secundo 
+            <lb ed="#V" n="116"/>allegate: stati subiungitur: vt vna sit persona homo: et deus 
+            in<lb ed="#V" n="117" break="no"/>quo satis datur intelligi: quod ille homo: ideo dicitur ompsus: quia ille qui 
+            <lb ed="#V" n="118"/>est homo est deus.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e224">
+            ¶ Ad tertium dicendum: quod maior non est vera: 
+            <lb ed="#V" n="119"/>nisi de natura cuius naturale esse quod sibi per naturam suam conuenit est 
+            infi<lb ed="#V" n="120" break="no"/>nitum esse autem per actualem existentiam ipsius verbi non conuenit 
+            <lb ed="#V" n="121"/>nature humane naturaliter: sed per dignatiuam dei supernaturalem 
+            poten<lb ed="#V" n="122" break="no"/>tiam. Potest est dici quod existentia nature humane in verbo: non est 
+            <lb ed="#V" n="123"/>esse ipsius verbi: sed quedam habitudo ipsius nature humane ad 
+            ip<lb ed="#V" n="124" break="no"/>sum verbum. existere enim per se non est existere in alio: nec 
+            <lb ed="#V" n="125"/>econuerso. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g33097-Dd1e243">
+          <head xml:id="kzz7yh-g33097-Hd1e245">Quaestio 2</head>
+          <head xml:id="kzz7yh-g33097-Hd1e267" type="question-title">Utrum anima chrisit sit potentior: quam sit natura humana: cuius est pars: existens esset in supposito creato.</head>
+          <p xml:id="kzz7yh-g33097-d1e247">
+            Questio. II. 
+            <lb ed="#V" n="126"/>SEcundo quaeritur vtrum im christi sit  
+            poten<lb ed="#V" n="127" break="no"/>tior: quam sit natura humana: cuius est 
+            <lb ed="#V" n="128"/>pars: existens esset in supposito creato. et videtur quod non 
+            fi<lb ed="#V" n="129" break="no"/>cut dicit <ref xml:id="kzz7yh-g33097-Rd1e280">Damas. libro 3. c. 15</ref> natura cognoscitur per suam 
+            <lb ed="#V" n="130"/>actionem: sed anima christi non est alterius nature quam esset: si 
+            humana<lb ed="#V" n="131" break="no"/>nam cuius est pars esset existens in supposito creato. ergo nec aliam 
+            po<lb ed="#V" n="132" break="no"/>test habere operationem: quam tunc habent.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e265">
+            ¶ Item diuersus modus 
+            <lb ed="#V" n="133"/>existendi naturam: non variat eius potestatem: quod patet natura enim 
+            acciden<lb ed="#V" n="134" break="no"/>tium alium modum existendi habet: dum sunt separata a subiecto: et 
+            <lb ed="#V" n="135"/>dum sunt in subiecto: et tamen eandem potestatem habent: siue separata: siue 
+            <lb ed="#V" n="136"/>in subitentiecto existentia: vt patet in accidentibus in sacramento altaris: 
+            <!--00106.xml-->
+            <pb ed="#V" n="47-v"/>
+            <cb ed="#V" n="a"/>
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e283">
+            <lb ed="#V" n="1"/>¶ Sed naturam existere in supposito increato: et eam 
+            exi<lb ed="#V" n="2" break="no"/>stere in supposito creato: non sunt nisi diuersi modi existem 
+            <lb ed="#V" n="3"/>di: ergo non maiorem potentiam habet natura humana 
+            chri<lb ed="#V" n="4" break="no"/>sti: quam si esset in supposito creato existens. 
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e294">
+            <lb ed="#V" n="5"/>Contra. vnio anime christi diuine persone: vt 
+            supposi<lb ed="#V" n="6" break="no"/>to: nobilior est: quam vnio anime deo: vt obiecto 
+            <lb ed="#V" n="7"/>quia prima includit secundam.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e304">
+            ¶ Sed anima per gloriam 
+            vnita<lb ed="#V" n="8" break="no"/>deo: vt obiecto: multo potentior est: quam si esset sine illa vnio 
+            <lb ed="#V" n="9"/>ne: ergo anima christius multo est potentior: quam si natura 
+            huma<lb ed="#V" n="10" break="no"/>na: cuius est pars: esset existens in supposito creato. 
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e313">
+            <lb ed="#V" n="11"/>Respondeo quod anima christi est potentior: quam sit 
+            na<lb ed="#V" n="12" break="no"/>tura humana cuius est pars: esset 
+            <lb ed="#V" n="13"/>existens in supposito creato: cuius ratio est. posse enim agere 
+            reali<lb ed="#V" n="14" break="no"/>ter: vel pati: non est nisi actu entis. Ens autem comprehendit 
+            <lb ed="#V" n="15"/>essentiam: et actualem existentiam. Unde non tantum attenditur 
+            <lb ed="#V" n="16"/>maioritas potestatis in ente: ex parte eterne.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e329">
+            ¶ Sed etiam 
+            <lb ed="#V" n="17"/>ex parte actualis existentie. Essentia ergo manens eadem 
+            <lb ed="#V" n="18"/>crescit in potestate: accipiendo nobiliorem existendi 
+            mo<lb ed="#V" n="19" break="no"/>dum. Cum ergo anima christis incomparabiliter nobilius 
+            exi<lb ed="#V" n="20" break="no"/>stat actualiter: quam si natura humana: cuius est pars: esset 
+            exi<lb ed="#V" n="21" break="no"/>stens in creato supposito: sequitur: quod sit potentior: quam si 
+            na<lb ed="#V" n="22" break="no"/>tura humana: cuius est pars: esset existens in supposito 
+            crea<lb ed="#V" n="23" break="no"/>to. Unde vt superius dictum est: non posset capere tantam 
+            <lb ed="#V" n="24"/>plenitudinem habitus gratie: quantam habet modo. 
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e349">
+            <lb ed="#V" n="25"/>Ad primum in oppositum dicendum: quod Damas. 
+            <lb ed="#V" n="26"/>loquitur de operatione naturali: per 
+            <lb ed="#V" n="27"/>quam et si cognoscatur natura: non tamen opetet: quod per eam 
+            co<lb ed="#V" n="28" break="no"/>gnoscatur supernaturalis eius essentia.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e360">
+            ¶ Ad secundum 
+            dicen<lb ed="#V" n="29" break="no"/>dum: quod propter meritum fidei in credendo: dispensatiue 
+            fa<lb ed="#V" n="30" break="no"/>ctum est per diuinam potentiam: vt accedentibus in 
+            sacra<lb ed="#V" n="31" break="no"/>mento altaris maneat eadem naturalis potestas ad 
+            agen<lb ed="#V" n="32" break="no"/>dum: et patiendum: que eis conueniebat existentibus in 
+            sub<lb ed="#V" n="33" break="no"/>iecto. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g33097-Dd1e374">
+          <head xml:id="kzz7yh-g33097-Hd1e376">Quaestio 3</head>
+          <head xml:id="kzz7yh-g33097-Hd1e404" type="question-title">Utrum anima christi posset facere non mediante opere nature impressiones que per naturam fiunt in istis inferioribus</head>
+          <p xml:id="kzz7yh-g33097-d1e378">
+            Questio III 
+            <lb ed="#V" n="34"/>TErtio queritur vtrum anima christi posset 
+            fa<lb ed="#V" n="35" break="no"/>cere non mediante opere nature 
+            impres<lb ed="#V" n="36" break="no"/>siones: que per naturam fiunt in istis inferioribus: 
+            <lb ed="#V" n="37"/>et videtur quod sic <ref xml:id="kzz7yh-g33097-Rd1e417">Damas. lib. 3. ca. 15.</ref> dicit de christo: quod 
+            su<lb ed="#V" n="38" break="no"/>per hominem: que hominum sunt: agebat: et posuit exemplum: 
+            <lb ed="#V" n="39"/>de ambulatione super aquas: ergo videtur: quod hoc fecerit per 
+            na<lb ed="#V" n="40" break="no"/>turam humanam supernaturaliter sublimata: ergo pari ratione 
+            <lb ed="#V" n="41"/>anima christi posset facere non mediante natura impressiones 
+            <lb ed="#V" n="42"/>quas facit natura.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e400">
+            ¶ Item non est maius tales impressiones 
+            fa<lb ed="#V" n="43" break="no"/>cere: quam totam terram mouere: sed sicut dicit <ref xml:id="kzz7yh-g33097-Rd1e435">Ansel. libro de 
+              si<lb ed="#V" n="44" break="no"/>militudinibus: inter principium et medium</ref> loquens de 
+            par<lb ed="#V" n="45" break="no"/>te beatitudinis: que est fortitudo in futuro sic iustus: 
+            for<lb ed="#V" n="46" break="no"/>tis erit: vt etiam si vellet terram commouere posset: ergo et 
+            su<lb ed="#V" n="47" break="no"/>pradictas impressiones quilibet beatus facere posset.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e413">
+            ¶ Item 
+            <lb ed="#V" n="48"/>per habitum glorie potest intellectus in actionem super naturalem: 
+            <lb ed="#V" n="49"/>quam sine habitu glorie habere non posset: ergo a simili: quasuis 
+            <lb ed="#V" n="50"/>facere praedictas impressiones: non mediante opere nature esset anime 
+            <lb ed="#V" n="51"/>christi supernaturale: videtur quod per habitum glorie hoc facere posset. 
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e424">
+            <lb ed="#V" n="52"/>Contra <ref xml:id="kzz7yh-g33097-Rd1e463">glosa super illud Io. 2.</ref> <quote xml:id="kzz7yh-g33097-Qd1e465" source="http://scta.info/resource/io2_4@5-10">Quid mihi: et tibi 
+              mu<lb ed="#V" n="53" break="no"/>ler:</quote> dicit id est que natura est mihi: et tibi: communis: secundum 
+            <lb ed="#V" n="54"/>quam hoc faciam: quasi dicat nulla. ergo videtur sentire: quod 
+            conuer<lb ed="#V" n="55" break="no"/>tere aquam in vinum non poterat per humanam naturam: sed 
+            <lb ed="#V" n="56"/>tantum per diuinam: ergo a simili: nec praedictas impressiones 
+            fa<lb ed="#V" n="57" break="no"/>cere poterat per humanam naturam.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e441">
+            ¶ Item non est 
+            ma<lb ed="#V" n="58" break="no"/>ius paralyticum curare: quam predictas impressiones facere: non 
+            <lb ed="#V" n="59"/>mediante opere nature: sed sicut dicit glosa: super illud 
+            mar<lb ed="#V" n="60" break="no"/>ci. 2o. Ut autem scientiatis: quia potestatem habet filius hominis etc. 
+            <lb ed="#V" n="61"/>Operum virtute se deu esse manifestat: quod non esset 
+            ve<lb ed="#V" n="62" break="no"/>rum: si curare paralyticum: quod est opus de quo ibi 
+            loqui<lb ed="#V" n="63" break="no"/>tur glosa potuisset per naturam humanam: quamuis beatam: ergo 
+            <lb ed="#V" n="64"/>nec predictas impressiones posset facere per naturam humanam. 
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e459">
+            <lb ed="#V" n="65"/>Ad istam questione dixerunt aliqui quod 
+            <lb ed="#V" n="66"/>anima humana: per 
+            <lb ed="#V" n="67"/>suam virtutem naturalem: aliquando posset facere tales impressiones: 
+            <lb ed="#V" n="68"/>sed hoc est falsum: et reprobatum <ref xml:id="kzz7yh-g33097-Rd1e508">lib 2. di. 7.</ref>
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e470">
+            ¶ Alii dicunt: 
+            <!--00106.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g33097"><!-- l3d14a5 -->
-            <head xml:id="kzz7yh-g33097-Hd1e101">Articulus 5</head>
-            <p xml:id="kzz7yh-g33097-d1e103">
-               <lb ed="#V" n="77"/>Consequenter queritur de <sic>secundo</sic> 
-      prin<lb ed="#V" n="78" break="no"/>cipali et circa hoc 
-      pos<lb ed="#V" n="79" break="no"/>sent queri quattuor. Primo vtrum anima christi sit 
-      omni<lb ed="#V" n="80" break="no"/>potens. Secundo vtrum sit potentior: quam si natura 
-      huma<lb ed="#V" n="81" break="no"/>na: cuius est pars: esset existens in seipsa: vt in supposito. 
-      Ter<lb ed="#V" n="82" break="no"/>tio vtrum anima christi possit facere: non mediante opere 
-      natu<lb ed="#V" n="83" break="no"/>re: impressiones: que per naturam fiunt in istis inferioribus. 
-      <lb ed="#V" n="84"/>Quarto posset queri vtrum christo: non tantum ratione diuine nature 
-      <lb ed="#V" n="85"/>sed est ratione humane conueniat regia potestas. 
-      <!--TODO Should these be separated-->
-    </p>
-            <div xml:id="kzz7yh-g33097-Dd1e127">
-               <head xml:id="kzz7yh-g33097-Hd1e129">Quaestio 1</head>
-               <p xml:id="kzz7yh-g33097-d1e131">
-      Quaestio I 
-      <lb ed="#V" n="86"/>Rimo ostendo: quod anima christi sit omnipotens 
-      g<ref xml:id="kzz7yh-g33097-Rd1e139">lo<lb ed="#V" n="87" break="no"/>sa super illud math. Ultimo.</ref>
-     <quote xml:id="kzz7yh-g33097-Qd1e144" source="http://scta.info/resource/mt28_18@8-17"> Da<lb ed="#V" n="88" break="no"/>ta est mihi potestas in celo: et in terra:</quote> hoc non 
-      de<lb ed="#V" n="89" break="no"/>coeterna patris diuinitate sed de assumpta 
-      hu<lb ed="#V" n="90" break="no"/>manitate dicit.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e144">
-      ¶ <ref xml:id="kzz7yh-g33097-Rd1e156">Item glosa super illud Luce I.</ref> hic erit 
-      <lb ed="#V" n="91"/>magnus: dicit quod non ante partum virginis magnus non 
-      fue<lb ed="#V" n="92" break="no"/>rit sed quia potentiam: quam dei filius naturaliter habet: homo ex tempore 
-      <lb ed="#V" n="93"/>erat accepturus.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e153">
-      ¶ Item omnis natura habens actualem existentiam 
-      <lb ed="#V" n="94"/>infinitam est omnipotens: quia quantum res habet de actualitate: tantum habet 
-      <lb ed="#V" n="95"/>de actiua potentia: sed anima christi habet actualem existentiam 
-      infini<lb ed="#V" n="96" break="no"/>tam: quia non habet aliud esse actuale: quam esse verbi: quod est 
-      infi<lb ed="#V" n="97" break="no"/>nitum: ergo animachristi est omnipotens. 
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e164">
-                  <lb ed="#V" n="98"/>Contra illud: quod est dei proprium non conuenit ime christi: cum 
-      <lb ed="#V" n="99"/>sit creatura: sed esse omnipotentem proprium dei est 
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e172">
-                  <lb ed="#V" n="100"/>¶ Unde <ref xml:id="kzz7yh-g33097-Rd1e188">exo. 15</ref> <quote xml:id="kzz7yh-g33097-Qd1e190" source="http://scta.info/resource/ex15_3@5-7">omnipotens nomen eius.</quote> ergo anima christi non est 
-      omnipo<lb ed="#V" n="101" break="no"/>tens.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e179">
-      ¶ Item magister in littera: non est ei datum posse omnia 
-      fa<lb ed="#V" n="102" break="no"/>cere: que deus facit: ne ompsus: et per hoc deus putaretur. 
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e184">
-                  <lb ed="#V" n="103"/>Respondeo quod anima christi non est omnipotens: omnipotentia. 
-      <lb ed="#V" n="104"/>nm includit actiuam potentiam 
-      infinitan<lb ed="#V" n="105" break="no"/>intensiue: in anima autem christi cum sit creatura non est: nec esse potest 
-      <lb ed="#V" n="106"/>actiua potentia infinita intensiue: quia cum vnumquodque agat secundum 
-      il<lb ed="#V" n="107" break="no"/>lud: quod est ens actu: et patiatur inquantum est in potentia quantum 
-      <lb ed="#V" n="108"/>res habet de actiua potentia tantum habet de actualitate. ergo potentia 
-      <lb ed="#V" n="109"/>actiua infinita includit actualitatem infinitam in habente illam 
-      <lb ed="#V" n="110"/>potentiam. actualitas autem infinita in nulla creatura esse 
-      po<lb ed="#V" n="111" break="no"/>test: quia omnis actualitas creature cum possibilitate permixta est 
-      <lb ed="#V" n="112"/>tamen omnis potentia actiua: que anime christi dari potuit sibi data est. 
-    </p>
-               <p xml:id="kzz7yh-g33097-d1e208">
-                  <lb ed="#V" n="113"/>Ad primum et secundum in oppositum dicendum quod <ref xml:id="kzz7yh-g33097-Rd1e229">ille glose</ref>  
-      in<lb ed="#V" n="114" break="no"/>telliguntur secundum illum modum 
-      loquen<lb ed="#V" n="115" break="no"/>di quo idiomata conuincantur. Unde post verba glose secundo 
-      <lb ed="#V" n="116"/>allegate: stati subiungitur: vt vna sit persona homo: et deus 
-      in<lb ed="#V" n="117" break="no"/>quo satis datur intelligi: quod ille homo: ideo dicitur ompsus: quia ille qui 
-      <lb ed="#V" n="118"/>est homo est deus.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e224">
-      ¶ Ad tertium dicendum: quod maior non est vera: 
-      <lb ed="#V" n="119"/>nisi de natura cuius naturale esse quod sibi per naturam suam conuenit est 
-      infi<lb ed="#V" n="120" break="no"/>nitum esse autem per actualem existentiam ipsius verbi non conuenit 
-      <lb ed="#V" n="121"/>nature humane naturaliter: sed per dignatiuam dei supernaturalem 
-      poten<lb ed="#V" n="122" break="no"/>tiam. Potest est dici quod existentia nature humane in verbo: non est 
-      <lb ed="#V" n="123"/>esse ipsius verbi: sed quedam habitudo ipsius nature humane ad 
-      ip<lb ed="#V" n="124" break="no"/>sum verbum. existere enim per se non est existere in alio: nec 
-      <lb ed="#V" n="125"/>econuerso. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g33097-Dd1e243">
-               <head xml:id="kzz7yh-g33097-Hd1e245">Quaestio 2</head>
-               <head xml:id="kzz7yh-g33097-Hd1e267" type="question-title">Utrum anima chrisit sit potentior: quam sit natura humana: cuius est pars: existens esset in supposito creato.</head>
-               <p xml:id="kzz7yh-g33097-d1e247">
-      Questio. II. 
-      <lb ed="#V" n="126"/>SEcundo quaeritur vtrum im christi sit  
-      poten<lb ed="#V" n="127" break="no"/>tior: quam sit natura humana: cuius est 
-      <lb ed="#V" n="128"/>pars: existens esset in supposito creato. et videtur quod non 
-      fi<lb ed="#V" n="129" break="no"/>cut dicit <ref xml:id="kzz7yh-g33097-Rd1e280">Damas. libro 3. c. 15</ref> natura cognoscitur per suam 
-      <lb ed="#V" n="130"/>actionem: sed anima christi non est alterius nature quam esset: si 
-      humana<lb ed="#V" n="131" break="no"/>nam cuius est pars esset existens in supposito creato. ergo nec aliam 
-      po<lb ed="#V" n="132" break="no"/>test habere operationem: quam tunc habent.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e265">
-      ¶ Item diuersus modus 
-      <lb ed="#V" n="133"/>existendi naturam: non variat eius potestatem: quod patet natura enim 
-      acciden<lb ed="#V" n="134" break="no"/>tium alium modum existendi habet: dum sunt separata a subiecto: et 
-      <lb ed="#V" n="135"/>dum sunt in subiecto: et tamen eandem potestatem habent: siue separata: siue 
-      <lb ed="#V" n="136"/>in subitentiecto existentia: vt patet in accidentibus in sacramento altaris: 
-      <!--00106.xml-->
-      <pb ed="#V" n="47-v"/>
-                  <cb ed="#V" n="a"/>
-               </p>
-               <p xml:id="kzz7yh-g33097-d1e283">
-                  <lb ed="#V" n="1"/>¶ Sed naturam existere in supposito increato: et eam 
-      exi<lb ed="#V" n="2" break="no"/>stere in supposito creato: non sunt nisi diuersi modi existem 
-      <lb ed="#V" n="3"/>di: ergo non maiorem potentiam habet natura humana 
-      chri<lb ed="#V" n="4" break="no"/>sti: quam si esset in supposito creato existens. 
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e294">
-                  <lb ed="#V" n="5"/>Contra. vnio anime christi diuine persone: vt 
-      supposi<lb ed="#V" n="6" break="no"/>to: nobilior est: quam vnio anime deo: vt obiecto 
-      <lb ed="#V" n="7"/>quia prima includit secundam.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e304">
-      ¶ Sed anima per gloriam 
-      vnita<lb ed="#V" n="8" break="no"/>deo: vt obiecto: multo potentior est: quam si esset sine illa vnio 
-      <lb ed="#V" n="9"/>ne: ergo anima christius multo est potentior: quam si natura 
-      huma<lb ed="#V" n="10" break="no"/>na: cuius est pars: esset existens in supposito creato. 
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e313">
-                  <lb ed="#V" n="11"/>Respondeo quod anima christi est potentior: quam sit 
-      na<lb ed="#V" n="12" break="no"/>tura humana cuius est pars: esset 
-      <lb ed="#V" n="13"/>existens in supposito creato: cuius ratio est. posse enim agere 
-      reali<lb ed="#V" n="14" break="no"/>ter: vel pati: non est nisi actu entis. Ens autem comprehendit 
-      <lb ed="#V" n="15"/>essentiam: et actualem existentiam. Unde non tantum attenditur 
-      <lb ed="#V" n="16"/>maioritas potestatis in ente: ex parte eterne.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e329">
-      ¶ Sed etiam 
-      <lb ed="#V" n="17"/>ex parte actualis existentie. Essentia ergo manens eadem 
-      <lb ed="#V" n="18"/>crescit in potestate: accipiendo nobiliorem existendi 
-      mo<lb ed="#V" n="19" break="no"/>dum. Cum ergo anima christis incomparabiliter nobilius 
-      exi<lb ed="#V" n="20" break="no"/>stat actualiter: quam si natura humana: cuius est pars: esset 
-      exi<lb ed="#V" n="21" break="no"/>stens in creato supposito: sequitur: quod sit potentior: quam si 
-      na<lb ed="#V" n="22" break="no"/>tura humana: cuius est pars: esset existens in supposito 
-      crea<lb ed="#V" n="23" break="no"/>to. Unde vt superius dictum est: non posset capere tantam 
-      <lb ed="#V" n="24"/>plenitudinem habitus gratie: quantam habet modo. 
-    </p>
-               <p xml:id="kzz7yh-g33097-d1e349">
-                  <lb ed="#V" n="25"/>Ad primum in oppositum dicendum: quod Damas. 
-      <lb ed="#V" n="26"/>loquitur de operatione naturali: per 
-      <lb ed="#V" n="27"/>quam et si cognoscatur natura: non tamen opetet: quod per eam 
-      co<lb ed="#V" n="28" break="no"/>gnoscatur supernaturalis eius essentia.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e360">
-      ¶ Ad secundum 
-      dicen<lb ed="#V" n="29" break="no"/>dum: quod propter meritum fidei in credendo: dispensatiue 
-      fa<lb ed="#V" n="30" break="no"/>ctum est per diuinam potentiam: vt accedentibus in 
-      sacra<lb ed="#V" n="31" break="no"/>mento altaris maneat eadem naturalis potestas ad 
-      agen<lb ed="#V" n="32" break="no"/>dum: et patiendum: que eis conueniebat existentibus in 
-      sub<lb ed="#V" n="33" break="no"/>iecto. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g33097-Dd1e374">
-               <head xml:id="kzz7yh-g33097-Hd1e376">Quaestio 3</head>
-               <head xml:id="kzz7yh-g33097-Hd1e404" type="question-title">Utrum anima christi posset facere non mediante opere nature impressiones que per naturam fiunt in istis inferioribus</head>
-               <p xml:id="kzz7yh-g33097-d1e378">
-      Questio III 
-      <lb ed="#V" n="34"/>TErtio queritur vtrum anima christi posset 
-      fa<lb ed="#V" n="35" break="no"/>cere non mediante opere nature 
-      impres<lb ed="#V" n="36" break="no"/>siones: que per naturam fiunt in istis inferioribus: 
-      <lb ed="#V" n="37"/>et videtur quod sic <ref xml:id="kzz7yh-g33097-Rd1e417">Damas. lib. 3. ca. 15.</ref> dicit de christo: quod 
-      su<lb ed="#V" n="38" break="no"/>per hominem: que hominum sunt: agebat: et posuit exemplum: 
-      <lb ed="#V" n="39"/>de ambulatione super aquas: ergo videtur: quod hoc fecerit per 
-      na<lb ed="#V" n="40" break="no"/>turam humanam supernaturaliter sublimata: ergo pari ratione 
-      <lb ed="#V" n="41"/>anima christi posset facere non mediante natura impressiones 
-      <lb ed="#V" n="42"/>quas facit natura.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e400">
-      ¶ Item non est maius tales impressiones 
-      fa<lb ed="#V" n="43" break="no"/>cere: quam totam terram mouere: sed sicut dicit <ref xml:id="kzz7yh-g33097-Rd1e435">Ansel. libro de 
-      si<lb ed="#V" n="44" break="no"/>militudinibus: inter principium et medium</ref> loquens de 
-      par<lb ed="#V" n="45" break="no"/>te beatitudinis: que est fortitudo in futuro sic iustus: 
-      for<lb ed="#V" n="46" break="no"/>tis erit: vt etiam si vellet terram commouere posset: ergo et 
-      su<lb ed="#V" n="47" break="no"/>pradictas impressiones quilibet beatus facere posset.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e413">
-      ¶ Item 
-      <lb ed="#V" n="48"/>per habitum glorie potest intellectus in actionem super naturalem: 
-      <lb ed="#V" n="49"/>quam sine habitu glorie habere non posset: ergo a simili: quasuis 
-      <lb ed="#V" n="50"/>facere praedictas impressiones: non mediante opere nature esset anime 
-      <lb ed="#V" n="51"/>christi supernaturale: videtur quod per habitum glorie hoc facere posset. 
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e424">
-                  <lb ed="#V" n="52"/>Contra <ref xml:id="kzz7yh-g33097-Rd1e463">glosa super illud Io. 2.</ref> <quote xml:id="kzz7yh-g33097-Qd1e465" source="http://scta.info/resource/io2_4@5-10">Quid mihi: et tibi 
-      mu<lb ed="#V" n="53" break="no"/>ler:</quote> dicit id est que natura est mihi: et tibi: communis: secundum 
-      <lb ed="#V" n="54"/>quam hoc faciam: quasi dicat nulla. ergo videtur sentire: quod 
-      conuer<lb ed="#V" n="55" break="no"/>tere aquam in vinum non poterat per humanam naturam: sed 
-      <lb ed="#V" n="56"/>tantum per diuinam: ergo a simili: nec praedictas impressiones 
-      fa<lb ed="#V" n="57" break="no"/>cere poterat per humanam naturam.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e441">
-      ¶ Item non est 
-      ma<lb ed="#V" n="58" break="no"/>ius paralyticum curare: quam predictas impressiones facere: non 
-      <lb ed="#V" n="59"/>mediante opere nature: sed sicut dicit glosa: super illud 
-      mar<lb ed="#V" n="60" break="no"/>ci. 2o. Ut autem scientiatis: quia potestatem habet filius hominis etc. 
-      <lb ed="#V" n="61"/>Operum virtute se deu esse manifestat: quod non esset 
-      ve<lb ed="#V" n="62" break="no"/>rum: si curare paralyticum: quod est opus de quo ibi 
-      loqui<lb ed="#V" n="63" break="no"/>tur glosa potuisset per naturam humanam: quamuis beatam: ergo 
-      <lb ed="#V" n="64"/>nec predictas impressiones posset facere per naturam humanam. 
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e459">
-                  <lb ed="#V" n="65"/>Ad istam questione dixerunt aliqui quod 
-      <lb ed="#V" n="66"/>anima humana: per 
-      <lb ed="#V" n="67"/>suam virtutem naturalem: aliquando posset facere tales impressiones: 
-      <lb ed="#V" n="68"/>sed hoc est falsum: et reprobatum <ref xml:id="kzz7yh-g33097-Rd1e508">lib 2. di. 7.</ref>
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e470">
-      ¶ Alii dicunt: 
-      <!--00106.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>quod quamuis humana anima per suam naturalem virtutem non 
-      pos<lb ed="#V" n="70" break="no"/>set tales impressiones facere: tamen anima beata: et maxime anima 
-      <lb ed="#V" n="71"/>christi: propter excellentiam beatitudinis sue: et 
-      superexcellen<lb ed="#V" n="72" break="no"/>tiam actualem existentie posset facere tales impressiones: non 
-      <lb ed="#V" n="73"/>mediante opere nature. Unde isti plane excedunt: quod posset 
-      <lb ed="#V" n="74"/>istam materiam corporalem tramsmutare ad formam substatialem: 
-      <lb ed="#V" n="75"/>et accidentalem modo sublimiori: quiam tramsmittere opere 
-      natu<lb ed="#V" n="76" break="no"/>re.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e494">
-      ¶ Sed contra hoc videtur posse argui: quia secundum euangelium 
-      <lb ed="#V" n="77"/>et sanctos per miracula que faciebat: ostendebat se deum esse 
-      <lb ed="#V" n="78"/>que probatio non fuisset efficax si illa potuissent fieri creata 
-      <lb ed="#V" n="79"/>virtute: quamuis autem per beatitudinem anime christi: et suam 
-      essen<lb ed="#V" n="80" break="no"/>tiam in verbo sit in ea supernaturalis virtus: tamen non 
-      <lb ed="#V" n="81"/>transcendit terminos virtutis create. 
-      <lb ed="#V" n="82"/>Ideo mihi videtur dicendum: quod quamuis christus: quia est 
-      <lb ed="#V" n="83"/>deus: et homo possit ratione diuine 
-      po<lb ed="#V" n="84" break="no"/>tentie praedictas impressiones facere: et quecumque alia: que 
-      contradi<lb ed="#V" n="85" break="no"/>ctionem non includunt: tamen eius anima hoc non potest: secundum enim 
-      Ri<lb ed="#V" n="86" break="no"/>cardum 1. li. de tri. c. 2. Illa signa: et prodigia que facta 
-      fue<lb ed="#V" n="87" break="no"/>runt ad confirmationem fidei nostre: non nisi per diuinam 
-      <lb ed="#V" n="88"/>virtutem fieri potuerunt. 
-    </p>
-               <p xml:id="kzz7yh-g33097-d1e523">
-                  <lb ed="#V" n="89"/>Ad primum in oppositum dicendum: quod <ref xml:id="kzz7yh-g33097-Rd1e568">Damas.</ref> 
-      <lb ed="#V" n="90"/>non plus vult diceter illo verbo: nisi 
-      <lb ed="#V" n="91"/>quod christus: quamuis esset homo: faciebat per virtutem diuinam 
-      ope<lb ed="#V" n="92" break="no"/>ra existentia super virtutem humanam: et quod iste fuerit 
-      intelle<lb ed="#V" n="93" break="no"/>ctus eius: patet quia post illa verba: paucis interpositis sic 
-      di<lb ed="#V" n="94" break="no"/>cit: non enim homo erat solum: sed etiam deus.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e539">
-      ¶ Ad secundum 
-      di<lb ed="#V" n="95" break="no"/>cendum: quod maior falsa est quia in substantia intellectuali est 
-      ali<lb ed="#V" n="96" break="no"/>qua ordinatio ad mouendum corpus secundum locum non tantum ad 
-      <lb ed="#V" n="97"/>transmutandum materiam ad naturalem formam. Uel potest dici: quod 
-      il<lb ed="#V" n="98" break="no"/>lud verbum Ansel. sic intelligendum est non quod quilibet beatus 
-      <lb ed="#V" n="99"/>motum totius terre simul possit efficere: sed quia a deo 
-      preci<lb ed="#V" n="100" break="no"/>bus posset impetrare: vt ipse deus hoc faceret: quia deus 
-      om<lb ed="#V" n="101" break="no"/>nia facit: que beati absolute volunt fieri.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e558">
-      ¶ Ad tertium 
-      dicen<lb ed="#V" n="102" break="no"/>dum: quod aliquando aliqua actio est super facultatem alicuius nature: 
-      <lb ed="#V" n="103"/>que tamen capax est super naturalis facultatis qua cum sua naturali 
-      fa<lb ed="#V" n="104" break="no"/>cultate potest in illam actionem.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e567">
-      ¶ Alia autem est actio super 
-      na<lb ed="#V" n="105" break="no"/>ture facultatem: que nullo modo est capax facultatis: qua 
-      <lb ed="#V" n="106"/>possit in illam actionem.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e574">
-      ¶ Primo modo: videre deum est 
-      su<lb ed="#V" n="107" break="no"/>per naturalem facultatem intellectus.
-   </p>
-               <p xml:id="kzz7yh-g33097-d1e579">
-      ¶ Secundo modo est 
-      su<lb ed="#V" n="108" break="no"/>per facultatem naturalem sensus. Ad similitudinem modi 
-      di<lb ed="#V" n="109" break="no"/>co: quod transmutare materiam ad naturalem formam non mediante 
-      <lb ed="#V" n="110"/>opere nature est super naturalem facultatem creati spiritus 
-      cum<lb ed="#V" n="111" break="no"/>iuscumque: et que de hac quaestione dicta sunt: sine preiudicio: et 
-      <lb ed="#V" n="112"/>temeraria assertione dicta sint. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g33097-Dd1e594">
-               <head xml:id="kzz7yh-g33097-Hd1e596">Quaestio 4</head>
-               <head xml:id="kzz7yh-g33097-Hd1e642" type="question-title">Utrum Christo non tantum ratione divine nature: sed etiam ratione humane: conveniat regia potestas</head>
-               <p xml:id="kzz7yh-g33097-d1e598">
-      Questio IIII 
-      <lb ed="#V" n="113"/>QUarto posset queri vtrum christo: non tantum 
-      <lb ed="#V" n="114"/>ratione diuine nature: sed etiam ratione 
-      <lb ed="#V" n="115"/>humane: conueniat regia potestas. Sed quia de 
-      <lb ed="#V" n="116"/>hac materia tangetur in quarto: domino 
-      conceden<lb ed="#V" n="117" break="no"/>te: vbi magis proprie locum habebit: ideo de hac quaestione: 
-      vi<lb ed="#V" n="118" break="no"/>detur mihi supersedendum ad presens. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="69"/>quod quamuis humana anima per suam naturalem virtutem non 
+            pos<lb ed="#V" n="70" break="no"/>set tales impressiones facere: tamen anima beata: et maxime anima 
+            <lb ed="#V" n="71"/>christi: propter excellentiam beatitudinis sue: et 
+            superexcellen<lb ed="#V" n="72" break="no"/>tiam actualem existentie posset facere tales impressiones: non 
+            <lb ed="#V" n="73"/>mediante opere nature. Unde isti plane excedunt: quod posset 
+            <lb ed="#V" n="74"/>istam materiam corporalem tramsmutare ad formam substatialem: 
+            <lb ed="#V" n="75"/>et accidentalem modo sublimiori: quiam tramsmittere opere 
+            natu<lb ed="#V" n="76" break="no"/>re.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e494">
+            ¶ Sed contra hoc videtur posse argui: quia secundum euangelium 
+            <lb ed="#V" n="77"/>et sanctos per miracula que faciebat: ostendebat se deum esse 
+            <lb ed="#V" n="78"/>que probatio non fuisset efficax si illa potuissent fieri creata 
+            <lb ed="#V" n="79"/>virtute: quamuis autem per beatitudinem anime christi: et suam 
+            essen<lb ed="#V" n="80" break="no"/>tiam in verbo sit in ea supernaturalis virtus: tamen non 
+            <lb ed="#V" n="81"/>transcendit terminos virtutis create. 
+            <lb ed="#V" n="82"/>Ideo mihi videtur dicendum: quod quamuis christus: quia est 
+            <lb ed="#V" n="83"/>deus: et homo possit ratione diuine 
+            po<lb ed="#V" n="84" break="no"/>tentie praedictas impressiones facere: et quecumque alia: que 
+            contradi<lb ed="#V" n="85" break="no"/>ctionem non includunt: tamen eius anima hoc non potest: secundum enim 
+            Ri<lb ed="#V" n="86" break="no"/>cardum 1. li. de tri. c. 2. Illa signa: et prodigia que facta 
+            fue<lb ed="#V" n="87" break="no"/>runt ad confirmationem fidei nostre: non nisi per diuinam 
+            <lb ed="#V" n="88"/>virtutem fieri potuerunt. 
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e523">
+            <lb ed="#V" n="89"/>Ad primum in oppositum dicendum: quod <ref xml:id="kzz7yh-g33097-Rd1e568">Damas.</ref> 
+            <lb ed="#V" n="90"/>non plus vult diceter illo verbo: nisi 
+            <lb ed="#V" n="91"/>quod christus: quamuis esset homo: faciebat per virtutem diuinam 
+            ope<lb ed="#V" n="92" break="no"/>ra existentia super virtutem humanam: et quod iste fuerit 
+            intelle<lb ed="#V" n="93" break="no"/>ctus eius: patet quia post illa verba: paucis interpositis sic 
+            di<lb ed="#V" n="94" break="no"/>cit: non enim homo erat solum: sed etiam deus.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e539">
+            ¶ Ad secundum 
+            di<lb ed="#V" n="95" break="no"/>cendum: quod maior falsa est quia in substantia intellectuali est 
+            ali<lb ed="#V" n="96" break="no"/>qua ordinatio ad mouendum corpus secundum locum non tantum ad 
+            <lb ed="#V" n="97"/>transmutandum materiam ad naturalem formam. Uel potest dici: quod 
+            il<lb ed="#V" n="98" break="no"/>lud verbum Ansel. sic intelligendum est non quod quilibet beatus 
+            <lb ed="#V" n="99"/>motum totius terre simul possit efficere: sed quia a deo 
+            preci<lb ed="#V" n="100" break="no"/>bus posset impetrare: vt ipse deus hoc faceret: quia deus 
+            om<lb ed="#V" n="101" break="no"/>nia facit: que beati absolute volunt fieri.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e558">
+            ¶ Ad tertium 
+            dicen<lb ed="#V" n="102" break="no"/>dum: quod aliquando aliqua actio est super facultatem alicuius nature: 
+            <lb ed="#V" n="103"/>que tamen capax est super naturalis facultatis qua cum sua naturali 
+            fa<lb ed="#V" n="104" break="no"/>cultate potest in illam actionem.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e567">
+            ¶ Alia autem est actio super 
+            na<lb ed="#V" n="105" break="no"/>ture facultatem: que nullo modo est capax facultatis: qua 
+            <lb ed="#V" n="106"/>possit in illam actionem.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e574">
+            ¶ Primo modo: videre deum est 
+            su<lb ed="#V" n="107" break="no"/>per naturalem facultatem intellectus.
+          </p>
+          <p xml:id="kzz7yh-g33097-d1e579">
+            ¶ Secundo modo est 
+            su<lb ed="#V" n="108" break="no"/>per facultatem naturalem sensus. Ad similitudinem modi 
+            di<lb ed="#V" n="109" break="no"/>co: quod transmutare materiam ad naturalem formam non mediante 
+            <lb ed="#V" n="110"/>opere nature est super naturalem facultatem creati spiritus 
+            cum<lb ed="#V" n="111" break="no"/>iuscumque: et que de hac quaestione dicta sunt: sine preiudicio: et 
+            <lb ed="#V" n="112"/>temeraria assertione dicta sint. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g33097-Dd1e594">
+          <head xml:id="kzz7yh-g33097-Hd1e596">Quaestio 4</head>
+          <head xml:id="kzz7yh-g33097-Hd1e642" type="question-title">Utrum Christo non tantum ratione divine nature: sed etiam ratione humane: conveniat regia potestas</head>
+          <p xml:id="kzz7yh-g33097-d1e598">
+            Questio IIII 
+            <lb ed="#V" n="113"/>QUarto posset queri vtrum christo: non tantum 
+            <lb ed="#V" n="114"/>ratione diuine nature: sed etiam ratione 
+            <lb ed="#V" n="115"/>humane: conueniat regia potestas. Sed quia de 
+            <lb ed="#V" n="116"/>hac materia tangetur in quarto: domino 
+            conceden<lb ed="#V" n="117" break="no"/>te: vbi magis proprie locum habebit: ideo de hac quaestione: 
+            vi<lb ed="#V" n="118" break="no"/>detur mihi supersedendum ad presens. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

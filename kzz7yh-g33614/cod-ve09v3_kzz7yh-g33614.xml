@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="47-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g33614"><!-- l3d14cl -->
-            <head xml:id="kzz7yh-g33614-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-g33614-d1e103">
-               <lb ed="#V" n="119"/>CIrca litteram Nemo nouit: que 
-      <lb ed="#V" n="120"/>sunt dei: nisi spiritos 
-      <lb ed="#V" n="121"/>dei: per hoc non excladuntur pater: et filius: quia 
-      ha<lb ed="#V" n="122" break="no"/>bent cum spiritu sancto eandem cognitionem. 
-      Ni<lb ed="#V" n="123" break="no"/>si scit aliquis: quod eius anima ignoret etc. Illud argumentum 
-      <lb ed="#V" n="124"/>in hac materia sophisticum est: sed forma valeret in nobis: 
-      <lb ed="#V" n="125"/>qui non habemus scientiam nisi in anima christus autem habet 
-      scien<lb ed="#V" n="126" break="no"/>tiam verbi: et scientiam anime: quia est deus et homo. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="47-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g33614"><!-- l3d14cl -->
+        <head xml:id="kzz7yh-g33614-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-g33614-d1e103">
+          <lb ed="#V" n="119"/>CIrca litteram Nemo nouit: que 
+          <lb ed="#V" n="120"/>sunt dei: nisi spiritos 
+          <lb ed="#V" n="121"/>dei: per hoc non excluduntur pater: et filius: quia 
+          ha<lb ed="#V" n="122" break="no"/>bent cum spiritu sancto eandem cognitionem. 
+          Ni<lb ed="#V" n="123" break="no"/>si scit aliquis: quod eius anima ignoret etc. Illud argumentum 
+          <lb ed="#V" n="124"/>in hac materia sophisticum est: sed forma valeret in nobis: 
+          <lb ed="#V" n="125"/>qui non habemus scientiam nisi in anima christus autem habet 
+          scien<lb ed="#V" n="126" break="no"/>tiam verbi: et scientiam anime: quia est deus et homo. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

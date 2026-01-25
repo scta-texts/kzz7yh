@@ -1,613 +1,617 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 2</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 2</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="9-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 2</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 2</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="9-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g06285"><!-- l3d3a2 -->
+        <head xml:id="kzz7yh-g06285-Hd1e101">Articulus 2</head>
+        <p xml:id="kzz7yh-g06285-d1e103">
+          <lb ed="#V" n="87"/>Consequenter queritur de secundo 
+          princi<lb ed="#V" n="88" break="no"/>pali. Et circa hoc 
+          que<lb ed="#V" n="89" break="no"/>runtur quatuor.
+        </p>
+        <p xml:id="kzz7yh-g06285-d1e112">
+          ¶ Primo vtrum caro christi 
+          fue<lb ed="#V" n="90" break="no"/>rit de sanguine virginis formata.
+        </p>
+        <p xml:id="kzz7yh-g06285-d1e117">
+          ¶ Secundo 
+          <lb ed="#V" n="91"/>vtrum in illa formatione virgo fuerit cooperata.
+        </p>
+        <p xml:id="kzz7yh-g06285-d1e122">
+          ¶ 
+          Ter<lb ed="#V" n="92" break="no"/>tio vtrum illa formatio fuerit naturalis: vel miraculosa. 
+        </p>
+        <p xml:id="kzz7yh-g06285-d1e128">
+          <lb ed="#V" n="93"/>¶ Quarto vtrum christi conceptio conuenienter fuerit 
+          <lb ed="#V" n="94"/>per angelum prenunciata. 
+        </p>
+        <div xml:id="kzz7yh-g06285-Dd1e135">
+          <head xml:id="kzz7yh-g06285-Hd1e137">Quaestio 1</head>
+          <head xml:id="kzz7yh-g06285-Hd1e141" type="question-title">Utrum caro Christi fuerit de sanguine virginis formata</head>
+          <p xml:id="kzz7yh-g06285-d1e139">
+            Questio I 
+            <lb ed="#V" n="95"/>PRimo ostendo quod caro christi on fuerit de 
+            <lb ed="#V" n="96"/>sanguine virginis formata apostolus 
+            <lb ed="#V" n="97"/>ad Rom. 1 dicit: de christo quod factus est ex semine 
+            <lb ed="#V" n="98"/>dauid secundum carnem. Sed semen non est sanguis. 
+            er<lb ed="#V" n="99" break="no"/>go caro christi non fuit formata ex sanguine virginis.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e152">
+            ¶ Item 
+            <lb ed="#V" n="100"/>existentium in eadem specie materia est vnigenea: sed materia carnis 
+            hu<lb ed="#V" n="101" break="no"/>mane in hominibus: communiter est semen. ergo caro christi fuit forme 
+            <lb ed="#V" n="102"/>ta ex semine: non ergo ex sanguine.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e161">
+            ¶ Item secundum philosophum 
+            secun<lb ed="#V" n="103" break="no"/>do de generatione. In habentibus symbolum facilior est transitus: 
+            <lb ed="#V" n="104"/>sed caro similior est carni quam sanguini: ergo magis decuit 
+            <lb ed="#V" n="105"/>carnem christi formari ex virginis carne quam ex sanguine. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e170">
+            <lb ed="#V" n="106"/>Contra. Dam. lib.o 3. c. 2 dicit: quod filius dei construxit 
+            fi<lb ed="#V" n="107" break="no"/>di ipsi ex castis et purissimis sanguinibus 
+            car<lb ed="#V" n="108" break="no"/>nem animatam anima rationali.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e180">
+            ¶ Item secundum philosophum. 15 de animalibus. 
+            <lb ed="#V" n="109"/>Materia de qua formatur corpus fetus: et quam maeter 
+            admini<lb ed="#V" n="110" break="no"/>strat sanguis est. Sed beata virgo in conceptione christi: materiam 
+            <lb ed="#V" n="111"/>ministrauit: quam alie matres administrant aliter enim non fuisset 
+            <lb ed="#V" n="112"/>vera mater: ergo materia de qua in vtero virginis caro 
+            <lb ed="#V" n="113"/>christi fuit formata fuit sanguis. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e193">
+            <lb ed="#V" n="114"/>Ad istam quaestionem dicunt aliqui quod caro christut 
+            <lb ed="#V" n="115"/>fuit de sanguine verginis 
+            <lb ed="#V" n="116"/>formata: non ex semine proprie loquendo de semine: sed 
+            maris<lb ed="#V" n="117" break="no"/>virgo ministrauit sanguinem subtilem et purum: quamuis 
+            mulie<lb ed="#V" n="118" break="no"/>res que concipiunt per concubitum viri ministrent sanguinem 
+            mem<lb ed="#V" n="119" break="no"/>struum qui est sanguis grossus: et impurus. Unde videtur philosophus velle. 1 
+            <lb ed="#V" n="120"/>de animalibus. Corpus pueri generari de sanguine menstruo 
+            mulie<lb ed="#V" n="121" break="no"/>ris non ex semine.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e213">
+            ¶ Aliis autem videtur contrarium: aliter enim generatiua 
+            vir<lb ed="#V" n="122" break="no"/>tus virginis marie nihil operata fuisset in materie carnis 
+            <lb ed="#V" n="123"/>christi dispositione seu praeparatione: quia digestio nutrimenti in 
+            sto<lb ed="#V" n="124" break="no"/>macho: et digestio eius in epate: in quo de nutrimento generatur 
+            <lb ed="#V" n="125"/>sanguis cum aliis humoribus: et digestio eius in membris 
+            fue<lb ed="#V" n="126" break="no"/>rit opere potentie nutritiue. Cum ergo ad hoc quod mulier vere sit 
+            <lb ed="#V" n="127"/>pueri mater requiratur quod virtus eius generatiua cooperetur saltem in 
+            <lb ed="#V" n="128"/>materie praeparatione seu dispositione: et illa dispositio sit per 
+            com<lb ed="#V" n="129" break="no"/>uersionem sanguinis digesti in membris in semen videtur quod caro 
+            <lb ed="#V" n="130"/>christi fuit: formata ex semine facto per virtutem generatiuam 
+            vir<lb ed="#V" n="131" break="no"/>ginis ex purissimo sanguine eius in membris digesto. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e237">
+            <lb ed="#V" n="132"/>¶ Mihi autem videtur quod caro christi fuit formata non immediate de 
+            <lb ed="#V" n="133"/>sanguine: nec de semine. ita perfecte habente formam semis: sicut 
+            <lb ed="#V" n="134"/>habet semen virile: quia in mulieribus residuum sanguinis in 
+            mem<lb ed="#V" n="135" break="no"/>bris digesti non peruenit naturaliter ad completam seminis digestionem 
+            <lb ed="#V" n="136"/>propter debilitatem vrtutis: et pre hoc philosophus in respectu semis 
+            <!--00029.xml-->
+            <pb ed="#V" n="10-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>virilis notat illud nomine menstrui: sed tamen virtus generatiua 
+            <lb ed="#V" n="2"/>rauit: et disposuit ad hoc: vt esset conueniens materiale principium 
+            <lb ed="#V" n="3"/>proximum de quo fienda erat caro christi opere spiritus sancti. Illud 
+            <lb ed="#V" n="4"/>ergo tenuit quasi medium inter verum sanguinem in quo perfecte 
+            re<lb ed="#V" n="5" break="no"/>manet forma sanguinis: et illud in quo est perfecte forma: 
+            <lb ed="#V" n="6"/>seminis: nobilius tamen et purius fuit in virgine quam 
+            vnquan<lb ed="#V" n="7" break="no"/>fuerit in aliqua muliere.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e272">
+            ¶ Ex dictis faciliter potest 
+            re<lb ed="#V" n="8" break="no"/>spondi ad argumenta ad aliam partem. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e277">
+            <lb ed="#V" n="9"/>Ad primum dicentur: quod caro tristi feoit formata ex 
+            se<lb ed="#V" n="10" break="no"/>ribus: tanquam ex proximo materiali printia et ex purissimo sanguine: 
+            <lb ed="#V" n="11"/>tanquam ex prinio remoto: quia illud semen ex purissimo 
+            sangui<lb ed="#V" n="12" break="no"/>ne factum fuit.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e289">
+            ¶ Ad 2m dicendum: quod fuit formata: et ex semine 
+            <lb ed="#V" n="13"/>eo modo quo est in mulieribus: et ex sanguine: sicut dictum est 
+            <lb ed="#V" n="14"/>in solutione praecedentis argumnti.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e296">
+            ¶ Ad 3m dicendum: quod quamuis 
+            ca<lb ed="#V" n="15" break="no"/>ro similior sit carni: quam sanguis secundum similitudinem speciei: non est 
+            <lb ed="#V" n="16"/>tamen ita conueniens generationis materiale principium: quia sanguis magis 
+            conue<lb ed="#V" n="17" break="no"/>nit cum carne reliquis partibus corporis secundum proportionem 
+            poten<lb ed="#V" n="18" break="no"/>tie ad actum quam caro cum carne. Ille enim sanguis alteratus 
+            per<lb ed="#V" n="19" break="no"/>generatiuam modo supradicto est in potentia passiua proxima ad 
+            <lb ed="#V" n="20"/>totum: caro autem non est potentia ad totum: cum sit actu pars. 
+            <lb ed="#V" n="21"/>d primum alterius partis dicendum: quod auctoritas 
+            <lb ed="#V" n="22"/>Dam. intelligenda est ita quod caro christi 
+            <lb ed="#V" n="23"/>fuerit formata de purissimo sanguine: sicut de printio materiali 
+            <lb ed="#V" n="24"/>remoto: et loquitur in plurali ad significandum quod non tantum fuit 
+            <lb ed="#V" n="25"/>formata de sanguine: sed etiam de aliis tribus humoribus: qui cum 
+            <lb ed="#V" n="26"/>semine commiscentur.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e325">
+            ¶ Ad 2m dicendum: quod philosophus illud principium 
+            pro<lb ed="#V" n="27" break="no"/>ximum quod ministrant mulieres vocat menstruum: non quia secundum 
+            <lb ed="#V" n="28"/>rei veritatem remaneat plene sub forma sanguinis menstrui: 
+            <lb ed="#V" n="29"/>sed quia non attingit plene ad semis digestionem: et formam. Unde 
+            <lb ed="#V" n="30"/>Auic. 15 de animalibus. c. de differentia in duobus spermatibus: et 
+            san<lb ed="#V" n="31" break="no"/>guine menstruo sic dicit. A muliere non descendit sperma secundum 
+            <lb ed="#V" n="32"/>similitudinem viri generantis: et tu custodias: quoniam non dico quod 
+            <lb ed="#V" n="33"/>non emittat sperma aliquo modo: sicut putat homo mali inteltilus: 
+            <lb ed="#V" n="34"/>et illud principium multo nobilius ministratum fuit a virgine quam 
+            <lb ed="#V" n="35"/>ministretur a quaecumque alia femina: quia in ea factum fuit non de 
+            san<lb ed="#V" n="36" break="no"/>guine grosso vel impuro: sed de sanguine subtili: et 
+            purissi<lb ed="#V" n="37" break="no"/>mo: et fait ministratum a virgine sine quaecumque deordinatione: et 
+            <lb ed="#V" n="38"/>sine diminutione puritatis: et integritatis sue. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g06285-Dd1e355">
+          <head xml:id="kzz7yh-g06285-Hd1e357">Quaestio 2</head>
+          <head xml:id="kzz7yh-g06285-Hd1e365" type="question-title">Utrum in illa formatione virgo fuerit cooperata</head>
+          <p xml:id="kzz7yh-g06285-d1e359">
+            Quaestio II. 
+            <lb ed="#V" n="39"/>Ecundo queritur vtrum in formatione 
+            car<lb ed="#V" n="40" break="no"/>nis christi virgo fuerit cooperata. 
+            <lb ed="#V" n="41"/>Et videtur quod sic. Dam. lib. 3. c. 2. dicit: quod post 
+            assen<lb ed="#V" n="42" break="no"/>sum seper virgis spiritus sanctus superuenit super ipsam: et 
+            <lb ed="#V" n="43"/>paucis interpositis sequitur virtutem susceptiuum verbi dei 
+            tri<lb ed="#V" n="44" break="no"/>buens simul et generatiuam. Cum ergo per virtutem susceptiuam 
+            <lb ed="#V" n="45"/>intelligatur virtus passiua: videtur quod per generatiuam intelligatur 
+            acti<lb ed="#V" n="46" break="no"/>ua: per quam actiue fuerat informatione carnis christi cooperata. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e379">
+            <lb ed="#V" n="47"/>¶ Item secundum Commen. super 2m de anima. Omnes potentie 
+            vegetati<lb ed="#V" n="48" break="no"/>ue sunt actiue: sed generatiua est potentia vegetatiua. ergo est 
+            acti<lb ed="#V" n="49" break="no"/>ua. per illam ergo beata virgo fuit aliquid cooperata in christi 
+            <lb ed="#V" n="50"/>carnis formatione.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e390">
+            ¶ Item assimilatio est per virtutem 
+            acti<lb ed="#V" n="51" break="no"/>uam in semine: sed filius aliquando assimilatur matri. ergo aliqua 
+            vir<lb ed="#V" n="52" break="no"/>tus actiua ad formationem corporis est in matris semine. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e397">
+            <lb ed="#V" n="53"/>Contra. caro christi formata fuit in istanti: sed virtus 
+            crea<lb ed="#V" n="54" break="no"/>ta non potest cooperari in formatione carnis quae sit 
+            <lb ed="#V" n="55"/>in instanti: ergo virgo beata non fuit aliquid actiue cooperata in 
+            <lb ed="#V" n="56"/>formatione carnis christi.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e409">
+            ¶ Item philosophus. 15 de animalibus dicit: quod 
+            <lb ed="#V" n="57"/>in generatione ex mare est principium motus: semina autem est sicut 
+            <lb ed="#V" n="58"/>materia: sed materia non cooperatur in compositi formatione: ergo videtur quod 
+            <lb ed="#V" n="59"/>virgo beata non fuit cooperata in carnis christi formatione. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e418">
+            <lb ed="#V" n="60"/>Ad istam questionem dixerunt aliqui quod beta 
+            <lb ed="#V" n="61"/>virgo: nec fuit 
+            co<lb ed="#V" n="62" break="no"/>operata in christi carnis formatione: nec in materia praeparatione: et 
+            <lb ed="#V" n="63"/>tamen vera mater christi est: quia spiritus sanctus illam materiam de qua 
+            <lb ed="#V" n="64"/>formauit illam carnem sumpsit in virgine.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e431">
+            ¶ Sed contra hoc 
+            <lb ed="#V" n="65"/>arguitur sic. Si enim ad rationem maternitatis sufficeret 
+            mate<lb ed="#V" n="66" break="no"/>riam fetus sumi de matre: tunc si vnus homo miraculose forma¬ 
+            <!--00029.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g06285"><!-- l3d3a2 -->
-            <head xml:id="kzz7yh-g06285-Hd1e101">Articulus 2</head>
-            <p xml:id="kzz7yh-g06285-d1e103">
-               <lb ed="#V" n="87"/>Consequenter queritur de secundo 
-      princi<lb ed="#V" n="88" break="no"/>pali. Et circa hoc 
-      que<lb ed="#V" n="89" break="no"/>runtur quatuor.
-   </p>
-            <p xml:id="kzz7yh-g06285-d1e112">
-      ¶ Primo vtrum caro christi 
-      fue<lb ed="#V" n="90" break="no"/>rit de sanguine virginis formata.
-   </p>
-            <p xml:id="kzz7yh-g06285-d1e117">
-      ¶ Secundo 
-      <lb ed="#V" n="91"/>vtrum in illa formatione virgo fuerit cooperata.
-   </p>
-            <p xml:id="kzz7yh-g06285-d1e122">
-      ¶ 
-      Ter<lb ed="#V" n="92" break="no"/>tio vtrum illa formatio fuerit naturalis: vel miraculosar. 
-   </p>
-            <p xml:id="kzz7yh-g06285-d1e128">
-               <lb ed="#V" n="93"/>¶ Quarto vtrum christi conceptio conuenienter fuerit 
-      <lb ed="#V" n="94"/>per angelum prenunciata. 
-   </p>
-            <div xml:id="kzz7yh-g06285-Dd1e135">
-               <head xml:id="kzz7yh-g06285-Hd1e137">Quaestio 1</head>
-               <p xml:id="kzz7yh-g06285-d1e139">
-      Questio I 
-      <lb ed="#V" n="95"/>PRimo ostendo quod caro christi on fuerit de 
-      <lb ed="#V" n="96"/>sanguine virginis formata apostolus 
-      <lb ed="#V" n="97"/>ad Rom. 1 dicit: de christo quod factus est ex semine 
-      <lb ed="#V" n="98"/>dauid secundum carnem. Sed semen non est sanguis. 
-      er<lb ed="#V" n="99" break="no"/>go caro christi non fuit formata ex sanguine virginis.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e152">
-      ¶ Item 
-      <lb ed="#V" n="100"/>existentium in eadem specie materia est vnigenea: sed materia carnis 
-      hu<lb ed="#V" n="101" break="no"/>mane in hominibus: communiter est semen. ergo caro christi fuit forme 
-      <lb ed="#V" n="102"/>ta ex semine: non ergo ex sanguine.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e161">
-      ¶ Item secundum philosophum 
-      secun<lb ed="#V" n="103" break="no"/>do de generatione. In habentibus symbolum facilior est transitus: 
-      <lb ed="#V" n="104"/>sed caro similior est carni quam sanguini: ergo magis decuit 
-      <lb ed="#V" n="105"/>carnem christi formari ex virginis carne quam ex sanguine. 
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e170">
-                  <lb ed="#V" n="106"/>Contra. Dam. lib.o 3. c. 2 dicit: quod filius dei construxit 
-      fi<lb ed="#V" n="107" break="no"/>di ipsi ex castis et purissimis sanguinibus 
-      car<lb ed="#V" n="108" break="no"/>nem animatam anima rationali.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e180">
-      ¶ Item secundum philosophum. 15 de animalibus. 
-      <lb ed="#V" n="109"/>Materia de qua formatur corpus fetus: et quam maeter 
-      admini<lb ed="#V" n="110" break="no"/>strat sanguis est. Sed beata virgo in conceptione christi: materiam 
-      <lb ed="#V" n="111"/>ministrauit: quam alie matres administrant aliter enim non fuisset 
-      <lb ed="#V" n="112"/>vera mater: ergo materia de qua in vtero virginis caro 
-      <lb ed="#V" n="113"/>christi fuit formata fuit sanguis. 
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e193">
-                  <lb ed="#V" n="114"/>Ad istam quaestionem dicunt aliqui quod caro christut 
-      <lb ed="#V" n="115"/>fuit de sanguine verginis 
-      <lb ed="#V" n="116"/>formata: non ex semine proprie loquendo de semine: sed 
-      maris<lb ed="#V" n="117" break="no"/>virgo ministrauit sanguinem subtilem et purum: quamuis 
-      mulie<lb ed="#V" n="118" break="no"/>res que concipiunt per concubitum viri ministrent sanguinem 
-      mem<lb ed="#V" n="119" break="no"/>struum qui est sanguis grossus: et impurus. Unde videtur philosophus velle. 1 
-      <lb ed="#V" n="120"/>de animalibus. Corpus pueri generari de sanguine menstruo 
-      mulie<lb ed="#V" n="121" break="no"/>ris non ex semine.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e213">
-      ¶ Aliis autem videtur contrarium: aliter enim generatiua 
-      vir<lb ed="#V" n="122" break="no"/>tus virginis marie nihil operata fuisset in materie carnis 
-      <lb ed="#V" n="123"/>christi dispositione seu praeparatione: quia digestio nutrimenti in 
-      sto<lb ed="#V" n="124" break="no"/>macho: et digestio eius in epate: in quo de nutrimento generatur 
-      <lb ed="#V" n="125"/>sanguis cum aliis humoribus: et digestio eius in membris 
-      fue<lb ed="#V" n="126" break="no"/>rit opere potentie nutritiue. Cum ergo ad hoc quod mulier vere sit 
-      <lb ed="#V" n="127"/>pueri mater requiratur quod virtus eius generatiua cooperetur saltem in 
-      <lb ed="#V" n="128"/>materie praeparatione seu dispositione: et illa dispositio sit per 
-      com<lb ed="#V" n="129" break="no"/>uersionem sanguinis digesti in membris in semen videtur quod caro 
-      <lb ed="#V" n="130"/>christi fuit: formata ex semine facto per virtutem generatiuam 
-      vir<lb ed="#V" n="131" break="no"/>ginis ex purissimo sanguine eius in membris digesto. 
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e237">
-                  <lb ed="#V" n="132"/>¶ Mihi autem videtur quod caro christi fuit formata non immediate de 
-      <lb ed="#V" n="133"/>sanguine: nec de semine. ita perfecte habente formam semis: sicut 
-      <lb ed="#V" n="134"/>habet semen virile: quia in mulieribus residuum sanguinis in 
-      mem<lb ed="#V" n="135" break="no"/>bris digesti non peruenit naturaliter ad completam seminis digestionem 
-      <lb ed="#V" n="136"/>propter debilitatem vrtutis: et pre hoc philosophus in respectu semis 
-      <!--00029.xml-->
-      <pb ed="#V" n="10-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>virilis notat illud nomine menstrui: sed tamen virtus generatiua 
-      <lb ed="#V" n="2"/>rauit: et disposuit ad hoc: vt esset conueniens materiale principium 
-      <lb ed="#V" n="3"/>proximum de quo fienda erat caro christi opere spiritus sancti. Illud 
-      <lb ed="#V" n="4"/>ergo tenuit quasi medium inter verum sanguinem in quo perfecte 
-      re<lb ed="#V" n="5" break="no"/>manet forma sanguinis: et illud in quo est perfecte forma: 
-      <lb ed="#V" n="6"/>seminis: nobilius tamen et purius fuit in virgine quam 
-      vnquan<lb ed="#V" n="7" break="no"/>fuerit in aliqua muliere.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e272">
-      ¶ Ex dictis faciliter potest 
-      re<lb ed="#V" n="8" break="no"/>spondi ad argumenta ad aliam partem. 
-    </p>
-               <p xml:id="kzz7yh-g06285-d1e277">
-                  <lb ed="#V" n="9"/>Ad primum dicentur: quod caro tristi feoit formata ex 
-      se<lb ed="#V" n="10" break="no"/>ribus: tanquam ex proximo materiali printia et ex purissimo sanguine: 
-      <lb ed="#V" n="11"/>tanquam ex prinio remoto: quia illud semen ex purissimo 
-      sangui<lb ed="#V" n="12" break="no"/>ne factum fuit.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e289">
-      ¶ Ad 2m dicendum: quod fuit formata: et ex semine 
-      <lb ed="#V" n="13"/>eo modo quo est in mulieribus: et ex sanguine: sicut dictum est 
-      <lb ed="#V" n="14"/>in solutione praecedentis argumnti.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e296">
-      ¶ Ad 3m dicendum: quod quamuis 
-      ca<lb ed="#V" n="15" break="no"/>ro similior sit carni: quam sanguis secundum similitudinem speciei: non est 
-      <lb ed="#V" n="16"/>tamen ita conueniens generationis materiale principium: quia sanguis magis 
-      conue<lb ed="#V" n="17" break="no"/>nit cum carne reliquis partibus corporis secundum proportionem 
-      poten<lb ed="#V" n="18" break="no"/>tie ad actum quam caro cum carne. Ille enim sanguis alteratus 
-      per<lb ed="#V" n="19" break="no"/>generatiuam modo supradicto est in potentia passiua proxima ad 
-      <lb ed="#V" n="20"/>totum: caro autem non est potentia ad totum: cum sit actu pars. 
-      <lb ed="#V" n="21"/>d primum alterius partis dicendum: quod auctoritas 
-      <lb ed="#V" n="22"/>Dam. intelligenda est ita quod caro christi 
-      <lb ed="#V" n="23"/>fuerit formata de purissimo sanguine: sicut de printio materiali 
-      <lb ed="#V" n="24"/>remoto: et loquitur in plurali ad significandum quod non tantum fuit 
-      <lb ed="#V" n="25"/>formata de sanguine: sed etiam de aliis tribus humoribus: qui cum 
-      <lb ed="#V" n="26"/>semine commiscentur.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e325">
-      ¶ Ad 2m dicendum: quod philosophus illud principium 
-      pro<lb ed="#V" n="27" break="no"/>ximum quod ministrant mulieres vocat menstruum: non quia secundum 
-      <lb ed="#V" n="28"/>rei veritatem remaneat plene sub forma sanguinis menstrui: 
-      <lb ed="#V" n="29"/>sed quia non attingit plene ad semis digestionem: et formam. Unde 
-      <lb ed="#V" n="30"/>Auic. 15 de animalibus. c. de differentia in duobus spermatibus: et 
-      san<lb ed="#V" n="31" break="no"/>guine menstruo sic dicit. A muliere non descendit sperma secundum 
-      <lb ed="#V" n="32"/>similitudinem viri generantis: et tu custodias: quoniam non dico quod 
-      <lb ed="#V" n="33"/>non emittat sperma aliquo modo: sicut putat homo mali inteltilus: 
-      <lb ed="#V" n="34"/>et illud principium multo nobilius ministratum fuit a virgine quam 
-      <lb ed="#V" n="35"/>ministretur a quaecumque alia femina: quia in ea factum fuit non de 
-      san<lb ed="#V" n="36" break="no"/>guine grosso vel impuro: sed de sanguine subtili: et 
-      purissi<lb ed="#V" n="37" break="no"/>mo: et fait ministratum a virgine sine quaecumque deordinatione: et 
-      <lb ed="#V" n="38"/>sine diminutione puritatis: et integritatis sue. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g06285-Dd1e355">
-               <head xml:id="kzz7yh-g06285-Hd1e357">Quaestio 2</head>
-               <p xml:id="kzz7yh-g06285-d1e359">
-      Quaestio II. 
-      <lb ed="#V" n="39"/>Ecundo queritur vtrum in formatione 
-      car<lb ed="#V" n="40" break="no"/>nis christi virgo fuerit cooperata. 
-      <lb ed="#V" n="41"/>Et videtur quod sic. Dam. lib. 3. c. 2. dicit: quod post 
-      assen<lb ed="#V" n="42" break="no"/>sum seper virgis spiritus sanctus superuenit super ipsam: et 
-      <lb ed="#V" n="43"/>paucis interpositis sequitur virtutem susceptiuum verbi dei 
-      tri<lb ed="#V" n="44" break="no"/>buens simul et generatiuam. Cum ergo per virtutem susceptiuam 
-      <lb ed="#V" n="45"/>intelligatur virtus passiua: videtur quod per generatiuam intelligatur 
-      acti<lb ed="#V" n="46" break="no"/>ua: per quam actiue fuerat informatione carnis christi cooperata. 
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e379">
-                  <lb ed="#V" n="47"/>¶ Item secundum Commen. super 2m de anima. Omnes potentie 
-      vegetati<lb ed="#V" n="48" break="no"/>ue sunt actiue: sed generatiua est potentia vegetatiua. ergo est 
-      acti<lb ed="#V" n="49" break="no"/>ua. per illam ergo beata virgo fuit aliquid cooperata in christi 
-      <lb ed="#V" n="50"/>carnis formatione.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e390">
-      ¶ Item assimilatio est per virtutem 
-      acti<lb ed="#V" n="51" break="no"/>uam in semine: sed filius aliquando assimilatur matri. ergo aliqua 
-      vir<lb ed="#V" n="52" break="no"/>tus actiua ad formationem corporis est in matris semine. 
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e397">
-                  <lb ed="#V" n="53"/>Contra. caro christi formata fuit in istanti: sed virtus 
-      crea<lb ed="#V" n="54" break="no"/>ta non potest cooperari in formatione carnis quae sit 
-      <lb ed="#V" n="55"/>in instanti: ergo virgo beata non fuit aliquid actiue cooperata in 
-      <lb ed="#V" n="56"/>formatione carnis christi.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e409">
-      ¶ Item philosophus. 15 de animalibus dicit: quod 
-      <lb ed="#V" n="57"/>in generatione ex mare est principium motus: semina autem est sicut 
-      <lb ed="#V" n="58"/>materia: sed materia non cooperatur in compositi formatione: ergo videtur quod 
-      <lb ed="#V" n="59"/>virgo beata non fuit cooperata in carnis christi formatione. 
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e418">
-                  <lb ed="#V" n="60"/>Ad istam questionem dixerunt aliqui quod beta 
-      <lb ed="#V" n="61"/>virgo: nec fuit 
-      co<lb ed="#V" n="62" break="no"/>operata in christi carnis formatione: nec in materia praeparatione: et 
-      <lb ed="#V" n="63"/>tamen vera mater christi est: quia spiritus sanctus illam materiam de qua 
-      <lb ed="#V" n="64"/>formauit illam carnem sumpsit in virgine.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e431">
-      ¶ Sed contra hoc 
-      <lb ed="#V" n="65"/>arguitur sic. Si enim ad rationem maternitatis sufficeret 
-      mate<lb ed="#V" n="66" break="no"/>riam fetus sumi de matre: tunc si vnus homo miraculose forma¬ 
-      <!--00029.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="67"/>retur de costa vnius mulieris: vere esset filius eius: quod 
-      fal<lb ed="#V" n="68" break="no"/>sum est. Pari enim ratione Eua fuisset filia Ade.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e447">
-      ¶ Alii dicunt 
-      <lb ed="#V" n="69"/>quod fuit cooperata: et in materie praeparatione: et in tota: carnis 
-      <lb ed="#V" n="70"/>formatione aliter enim non fuisset vera mater: vt eis videtur
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e454">
-      ¶ Sed 
-      <lb ed="#V" n="71"/>contra hoc arguitur sufficienter per primam rationem: ad secundam 
-      <lb ed="#V" n="72"/>partem adductam.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e461">
-      ¶ Alii dicunt quod quamuis non fuerit 
-      coopera<lb ed="#V" n="73" break="no"/>ta in tota carnis formatione: fuit tamen cooperata ad 
-      complemen<lb ed="#V" n="74" break="no"/>tum ipsius carnis: quia complementum rei etiam per naturam 
-      <lb ed="#V" n="75"/>fieri potest in instanti.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e471">
-      ¶ Sed contra hoc etiam arguitur sic: 
-      nobi<lb ed="#V" n="76" break="no"/>lius est complementum quam illud quod est citra complementum. 
-      <lb ed="#V" n="77"/>Si ergo non fuit cooperata in formatione eius: quod fuit citra 
-      <lb ed="#V" n="78"/>complementum: nec fuit cooperata in formationis 
-      comple<lb ed="#V" n="79" break="no"/>menti.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e482">
-      ¶ Alii dicunt quod quamuis non fuerit cooperata in carni: 
-      <lb ed="#V" n="80"/>christi formatione: tamen quia in materia ministrata a virgine erat 
-      poten<lb ed="#V" n="81" break="no"/>tia actiua per quam potuisset cooperari in formatione si fuisset 
-      <lb ed="#V" n="82"/>facta in tempore: ideo fuerit vera matr.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e491">
-      ¶ Sed contra. Aut enim illa 
-      <lb ed="#V" n="83"/>potentia actiua fuisset ibi naturaliter: aut miraculose: non naturaliter: 
-      <lb ed="#V" n="84"/>quia sicut dicit philosophus. 15 de animalibus. In rebus habentibus 
-      virtu<lb ed="#V" n="85" break="no"/>tes distinctas: et corpora distincta: et naturas diuersas necessario 
-      <lb ed="#V" n="86"/>diuersatur virtus operantis et patientis: ita quod est vir sicut 
-      mo<lb ed="#V" n="87" break="no"/>uens et operans et femina sicut patiens et paucis 
-      interpo<lb ed="#V" n="88" break="no"/>sitis subdit quod semper sperma femine est sicut materia: ergo in 
-      materia<lb ed="#V" n="89" break="no"/>que ministratur a matre non est naturaliter aliqua virtus actiua 
-      <lb ed="#V" n="90"/>ad corporis prolis formationem. Nec etiam fuit ibi 
-      miracu<lb ed="#V" n="91" break="no"/>lose: quia si fuisset data ad cooperandum in carnis formatione: 
-      <lb ed="#V" n="92"/>in qua cooperari non potuit: vt superius ostensum est: 
-      super<lb ed="#V" n="93" break="no"/>flue fuisset data: sed in operibus miraculosis: nihil est 
-      super<lb ed="#V" n="94" break="no"/>fluum: nec frustra: cum etiam natura nihil faciat frustra secundum philosophum. I. 
-      <lb ed="#V" n="95"/>celi et mundi. et 3 de anima.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e522">
-      ¶ Preterea propter potentiam 
-      cooperan<lb ed="#V" n="96" break="no"/>di ad formationem fetus: nisi prodeat in actum: nullus potest 
-      di<lb ed="#V" n="97" break="no"/>ci pater et mater. Unde si ad rationem matris requereretur 
-      corporatio<lb ed="#V" n="98" break="no"/>in formatione corporis prolis dato quod in materiam a virgine 
-      mini<lb ed="#V" n="99" break="no"/>strata fuisset aliqua potentia actiua siue per naturam: siue 
-      <lb ed="#V" n="100"/>per miraculum: per quam potuisset cooperari ad 
-      formatio<lb ed="#V" n="101" break="no"/>nem corporis christi si fuisset formatum in tempore quo formatur 
-      cor<lb ed="#V" n="102" break="no"/>pora aliorum: nihilominus non fuisset vera mater: ex quo in 
-      <lb ed="#V" n="103"/>illa formatione non fuit cooperata.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e542">
-      ¶ Uidetur ergo mihi 
-      di<lb ed="#V" n="104" break="no"/>cendum: quod in materia ministrata a virgine: non fuit aliqua 
-      vir<lb ed="#V" n="105" break="no"/>tus actiua: per quam fuerit spiritui sancto cooperata in carnis 
-      <lb ed="#V" n="106"/>christi formatione: et tamen cum virgo sit vera mater christi: oportet 
-      con<lb ed="#V" n="107" break="no"/>cedere quod totum illud fecerit ad conceptionem corporis christi: 
-      <lb ed="#V" n="108"/>quod requiritur ad rationem matris.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e555">
-      ¶ Ad cuius intelligentiam 
-      con<lb ed="#V" n="109" break="no"/>sideranda sunt tria que fiunt antequam puer nascatur de vtero: 
-      <lb ed="#V" n="110"/>que sunt materie praeparatio: et de materia praeparata 
-      corpo<lb ed="#V" n="111" break="no"/>ris formatio: et illius animatio et pueri nutritio et 
-      conserua<lb ed="#V" n="112" break="no"/>tio. In primo fuit cooperata virgo beata per virtutem 
-      ge<lb ed="#V" n="113" break="no"/>neratiuam. per eam enim humorem sanguineum in membris 
-      <lb ed="#V" n="114"/>digestum in semen conuertit eo modo quo semen est in 
-      mulie<lb ed="#V" n="115" break="no"/>ribus: et illud semen decidit sine quacumque deordinatione: et 
-      sal<lb ed="#V" n="116" break="no"/>ua perfectissime mentis et carnis et appetitus sensitiui 
-      integri<lb ed="#V" n="117" break="no"/>tate et dignitate et sanctitate et addebitum locum conceptionis 
-      <lb ed="#V" n="118"/>tramsmisit: quae tria comprehenduntur sub materie praeparatione et 
-      di<lb ed="#V" n="119" break="no"/>spositione que sit per generatiuam matris: de illo autem semine 
-      <lb ed="#V" n="120"/>sic praeparato spiritus sanctus excellenter supplens illud quod 
-      incon<lb ed="#V" n="121" break="no"/>ceptione prolis in aliis mulieribus fit per virtutem actiuam 
-      <lb ed="#V" n="122"/>seminis patris in instanti formauit corpus christi: et anima 
-      intel<lb ed="#V" n="123" break="no"/>lectiua animauit: et corpus et animam simul coniuncta persone filii dei 
-      <lb ed="#V" n="124"/>vniuit: et in hoc generatiua virginis non fuit cooperata: nec 
-      <lb ed="#V" n="125"/>enim in aliis matribus est aliqua virtus actiua in earum 
-      <lb ed="#V" n="126"/>semine per quam cooperetur ad prolis formationem. hoc enim 
-      <lb ed="#V" n="127"/>non requiritur ad rationem matris.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e600">
-      ¶ In tertio autem hoc est 
-      <lb ed="#V" n="128"/>in conseruatione: et nutritione cooperata fuit multo 
-      perfe<lb ed="#V" n="129" break="no"/>ctius et excellentius quam matres alie. 
-    </p>
-               <p xml:id="kzz7yh-g06285-d1e607">
-                  <lb ed="#V" n="130"/>Ad primum in oppositum dicendum: quod in 
-      con<lb ed="#V" n="131" break="no"/>ceptione christi duplex fuit 
-      mira<lb ed="#V" n="132" break="no"/>culum vnum quod semina concepit deum: aliud quod virgo 
-      conm<lb ed="#V" n="133" break="no"/>cepit filium: quantum ad primum virgo se habebat in 
-      pu<lb ed="#V" n="134" break="no"/>ra potentia passiua obedientie: quantum ad 2m erat in virgine 
-      <!--00030.xml-->
-      <pb ed="#V" n="10-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>potentia actiua ad materiam ministrandam. propter 
-      primun<lb ed="#V" n="2" break="no"/>dicit Dam. quod spiritus sanctus dedit virgini potentiam 
-      ver<lb ed="#V" n="3" break="no"/>bi dei susceptiuam: quia talis potentia communiter non dicitur 
-      <lb ed="#V" n="4"/>dari quousque datur actus eo quod potentia minus remota: 
-      <lb ed="#V" n="5"/>quantum autem ad 2m dicitur tribuisse generatiuam: non quia 
-      <lb ed="#V" n="6"/>tunc primo spiritus sanctus ei dederit illam potentiam que 
-      <lb ed="#V" n="7"/>dicitur generatiua: sed quioa illam materiam que fuit per 
-      gene<lb ed="#V" n="8" break="no"/>ratiuam virginis ministrata: spiritus sanctus ad actum 
-      re<lb ed="#V" n="9" break="no"/>duxit: ad quem per generatiuam virginis non potuisset 
-      redu<lb ed="#V" n="10" break="no"/>ci.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e648">
-      ¶ Ad secundum dicendum: quod generatiua viri actiua est: et 
-      <lb ed="#V" n="11"/>in seminis formatione: et decisione ad locum conceptionis 
-      <lb ed="#V" n="12"/>tramsmissione: et in corporis prolis formatione: generatiua autem 
-      <lb ed="#V" n="13"/>mulieris in tribus primis est actiua: non tamen perfecte in se 
-      <lb ed="#V" n="14"/>minis formatione: quia non potest sanguinem conuertere in 
-      semen<lb ed="#V" n="15" break="no"/>perfectum: vt superius visum est: sed in formatione corporis prolis 
-      <lb ed="#V" n="16"/>de illo semmie: actiua non est: vt superius est ostensum.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e664">
-      ¶ Ad 
-      <lb ed="#V" n="17"/>tertium dicendum: quod assimilatio: qua filius assimilatur 
-      matri<lb ed="#V" n="18" break="no"/>non est per virtutem actiuam: que sit in semine matris: sed per illam 
-      <lb ed="#V" n="19"/>que est in semine patris. Actus enim actiuorum naturalium sunt 
-      <lb ed="#V" n="20"/>in patiente: et disposito. Quandoque autem contigit: quod semen 
-      mu<lb ed="#V" n="21" break="no"/>lieris est magis dispositum ad hoc: vt fetus de illo 
-      forman<lb ed="#V" n="22" break="no"/>dus: magis assimiletur matri: et quandoque cum hoc est virtus in 
-      <lb ed="#V" n="23"/>semine patris: non ita fortis: quod sfetus possit assimilare 
-      pa<lb ed="#V" n="24" break="no"/>tri in sexu: et quia natura facit melius: quod potest: format tunc setum 
-      <lb ed="#V" n="25"/>feminei sexus: quandoque est ita fortis: quod potest assimilare 
-      patri<lb ed="#V" n="26" break="no"/>in sexu: non tamen ita fortis: quod possit assimilare in figura 
-      cor<lb ed="#V" n="27" break="no"/>poris: et propter dispositione materie potest assimillare 
-      matri<lb ed="#V" n="28" break="no"/>Ad predicta autem coadiuuant fortis imaginatio viri 
-      respe<lb ed="#V" n="29" break="no"/>ctu figure mulieris: et fortis imaginatio mulieris: et 
-      dispo<lb ed="#V" n="30" break="no"/>sitio loci matricis: et alique alie cause accidentales que ad 
-      <lb ed="#V" n="31"/>hoc possunt concurrere.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e699">
-      ¶ Argumenta ad partem aliam non 
-      <lb ed="#V" n="32"/>plus concludunt: nisi quod beata virgo non fuit cooperata 
-      acti<lb ed="#V" n="33" break="no"/>ue in corporis christi formatione. Sed ex hoc non sequitur: quin 
-      <lb ed="#V" n="34"/>cooperata faerit in materiam praeparando: et disponendo: et 
-      <lb ed="#V" n="35"/>informati pueri nutritione in vtero et conseruatione. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g06285-Dd1e711">
-               <head xml:id="kzz7yh-g06285-Hd1e713">Quaestio 3</head>
-               <p xml:id="kzz7yh-g06285-d1e715">
-      Quaestio III. 
-      <lb ed="#V" n="36"/>Ertio queritur vtrum formatio corporis christi 
-      <lb ed="#V" n="37"/>fuerit materialis: vel miraculosa. 
-      <lb ed="#V" n="38"/>Et videtur quod naturalis. Aug. in libro de fide ad 
-      <lb ed="#V" n="39"/>petrum: longe ante finem libri. Firmissime 
-      tene<lb ed="#V" n="40" break="no"/>ipsum qui essentialiter natus est de patre essentialiter conceptum: 
-      na<lb ed="#V" n="41" break="no"/>tumque de virgine ipsumque vnum esse: et vnius nature cum virgine: 
-      <lb ed="#V" n="42"/>sed ex quo est eiusdem nature cum matre: est eius filius 
-      na<lb ed="#V" n="43" break="no"/>turalis: sed naturalis filii formatio naturalis est.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e735">
-      ¶ Item 
-      <lb ed="#V" n="44"/>operatio miraculosa non est ab aliqua creatura. Sed vere dicitur 
-      <lb ed="#V" n="45"/>quod virgo genuit christum. ergo illa genitura non fuit 
-      miracu<lb ed="#V" n="46" break="no"/>losa.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e744">
-      ¶ Item quamuis miraculose restituatur alicui visus: tamen 
-      <lb ed="#V" n="47"/>conseqens operatio est naturalis. ergo similiter: quamuis miraculose per 
-      <lb ed="#V" n="48"/>spiritum sanctum data fuerit virgini generandi potentia: 
-      <lb ed="#V" n="49"/>videtur quod sequens operatio fuerit naturalis. 
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e753">
-                  <lb ed="#V" n="50"/>Contra. Anselmus in lio de conceptu virginali. c. 12 dicit: quod 
-      <lb ed="#V" n="51"/>in virgine nec voluntas creature prolem se 
-      <lb ed="#V" n="52"/>minauit: nec natura germinauit: sed spiritus sanctus: et virtus 
-      <lb ed="#V" n="53"/>altissimi de virgine muliere virum mirabiliter propagauit. 
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e765">
-                  <lb ed="#V" n="54"/>¶ Item Diony. epiturla. 4. ad Gaium loquens de Iesu dicit: 
-      <lb ed="#V" n="55"/>quod super hominem operatur que sunt hominis: et hoc declarat virgo 
-      <lb ed="#V" n="56"/>supernaturaliter parturiens: naturaliter concipiens potest naturaliter 
-      <lb ed="#V" n="57"/>parturire. ergo videtur quod virgo filium non concepit naturaliter. 
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e776">
-                  <lb ed="#V" n="58"/>Respondeo quod formatio corporis christi simpliter fuit 
-      <lb ed="#V" n="59"/>miraculosa: et naturalis: tamen secundum quid: 
-      <lb ed="#V" n="60"/>quod sic patet. Effectum enim fieri de materia quaedrupliciter potest 
-      intelli<lb ed="#V" n="61" break="no"/>gi: aut de materia effectui proportionata naturaliter: et per 
-      <lb ed="#V" n="62"/>agens naturale: aut de materia effectui non proportionata 
-      na<lb ed="#V" n="63" break="no"/>turaliter: nec per agens naturale: aut de materia effectui 
-      natu<lb ed="#V" n="64" break="no"/>raliter proportionata: et non per agens naturale: aut de materia 
-      <lb ed="#V" n="65"/>non proportionata: et per agens naturale.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e796">
-      ¶ Primus modus 
-      <lb ed="#V" n="66"/>producendi effectum de materia totaliter est naturalis: quia et 
-      <lb ed="#V" n="67"/>ex parte agentis: et ex parte principii passiui.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e803">
-      ¶ Secundus 
-      mo<lb ed="#V" n="68" break="no"/>dus totaliter est miraculosus: quia et ex parte principii actiui: et 
-      <!--00030.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>principii passiui.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e814">
-      ¶ Tertius modus est simpliciter miraculo 
-      <lb ed="#V" n="70"/>sus: quia ex parte principii actiui: secundum quid tamen est naturalis scilicet 
-      <lb ed="#V" n="71"/>propter naturalem proportionem passiui principii ad effectum. 
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e821">
-                  <lb ed="#V" n="72"/>¶ Quartus modus est impossibilis: agens enim naturale propter 
-      <lb ed="#V" n="73"/>limitationem virtutis de materia effectui non proportionata: 
-      <lb ed="#V" n="74"/>effectum producere non potest. Quapropter de agentibus 
-      naturali<lb ed="#V" n="75" break="no"/>bus secundo de anima dicitur: quod actus eorum sunt in patiente et 
-      disposi<lb ed="#V" n="76" break="no"/>to. Formatio autem corporis christi de materia ministrata a 
-      vir<lb ed="#V" n="77" break="no"/>gine facta fuit. Tertio modo: quia virgo materiam 
-      disposi<lb ed="#V" n="78" break="no"/>tam ministrauit proportionatam ad formationem corporis 
-      <lb ed="#V" n="79"/>humani: ita quod si affuisset semen virile: potuisset de illa 
-      ma<lb ed="#V" n="80" break="no"/>teria corpus humanum naturaliter formasse: et quia non affuit 
-      <lb ed="#V" n="81"/>naturale agens: sed supernaturalem scilicet spiritus sanctus: qui de 
-      mate<lb ed="#V" n="82" break="no"/>ria ministrata a virgine corpus christi supernaturale formauit: 
-      <lb ed="#V" n="83"/>ideo in illa formatione fuit naturalitas secundum quid scilicet ex parte 
-      <lb ed="#V" n="84"/>dispositionis materie: et sppernaturalitas simpliciter. Unde 
-      <lb ed="#V" n="85"/>concedendum quod formatio corporis christi simpliciter fuit 
-      <lb ed="#V" n="86"/>miraculosa: et non naturalis. 
-      <lb ed="#V" n="87"/>Ex dictis patet responsio ad primum argumentum in 
-      op<lb ed="#V" n="88" break="no"/>positum.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e861">
-      ¶ Ad secundum dicendum: quod beata 
-      vir<lb ed="#V" n="89" break="no"/>go non dicitur genuisse christum: quia corpus eius formauerit. Sed 
-      <lb ed="#V" n="90"/>quia materiam dispositam ad illam formationem ministrauit. 
-      <lb ed="#V" n="91"/>De materia autem disposita potest aliquid fieri miraculose. 
-      Si<lb ed="#V" n="92" break="no"/>cut patet cum aliquis infirmus: qui naturaliter per longum tempus 
-      <lb ed="#V" n="93"/>posset curari: subito curatur opere spiritus sancti.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e874">
-      ¶ Ad tertium 
-      <lb ed="#V" n="94"/>dicendum: quod non est simile de visu supernaturaliter reddito 
-      cecor<lb ed="#V" n="95" break="no"/>et de possibilitate generandi data viergini: quia visus quomocumque 
-      <lb ed="#V" n="96"/>datus natus est reduci in actum per ages naturale. Sed 
-      <lb ed="#V" n="97"/>non fuit possibilitas data virgini que in actu potuisset 
-      re<lb ed="#V" n="98" break="no"/>duci per agens naturale manente virginitate. Sed tantum per 
-      <lb ed="#V" n="99"/>agens supernaturale. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g06285-Dd1e891">
-               <head xml:id="kzz7yh-g06285-Hd1e893">Quaestio 4</head>
-               <p xml:id="kzz7yh-g06285-d1e895">
-      Questio. IIII. 
-      <lb ed="#V" n="100"/>QUarto queritur vtrum christi conceptio 
-      con<lb ed="#V" n="101" break="no"/>uenienter fuerit per angelum 
-      prae<lb ed="#V" n="102" break="no"/>nunciata. Et videtur quod non: quia sufficienter 
-      pre<lb ed="#V" n="103" break="no"/>nunciata fuerat per prophetam: vt patet. Isa 7. Ubi 
-      <lb ed="#V" n="104"/>dicitur: ecce virgo concipiet: et pariet filium et. 9. vbi dicitur. 
-      <lb ed="#V" n="105"/>Paruulus natus est nobis etc. ergo superfluum fuit eam 
-      pre<lb ed="#V" n="106" break="no"/>nunciare per angelum.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e913">
-      ¶ Item non est conueniens 
-      superio<lb ed="#V" n="107" break="no"/>rem instrui per inferiorem. Unde secundum Diony. in libro de 
-      an<lb ed="#V" n="108" break="no"/>gelica Hierar. c. 15. Superiores angeli non illuminantur ab 
-      <lb ed="#V" n="109"/>inferioribus: sed beata virgo erat superior angelo: quia erat a 
-      <lb ed="#V" n="110"/>deo magis dilecta: ergo non fuit conueniens eam instrui per 
-      <lb ed="#V" n="111"/>angelum de incarnationis mysterio.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e926">
-      ¶ Item non fuit 
-      conue<lb ed="#V" n="112" break="no"/>niens per eundem nuncium praenunciare conceptionem serui et 
-      <lb ed="#V" n="113"/>domini: sed conceptio beati Ioannis baptiste praenunciata fuit 
-      <lb ed="#V" n="114"/>per Gabrielem: vt habetur Luc. 1. ergo conceptio christi qui 
-      <lb ed="#V" n="115"/>dominus eius est: non debuit praenunciari per gabrielem.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e937">
-      ¶ Item 
-      <lb ed="#V" n="116"/>cum incarnatio fuerit maximum mysterium debuisset prenu 
-      <lb ed="#V" n="117"/>ciari per summum angelum superioris Hierar. Sed secundum Dio. 
-      <lb ed="#V" n="118"/>in lib. de angelica Hierar. c. 4. Gabriel fuit de 
-      inferiori<lb ed="#V" n="119" break="no"/>hierarchia. ergo videtur quod per eum non debuit nunciari. 
-      <lb ed="#V" n="120"/>Luc. 1. Missum est angelus gabriel a deo 
-      in<lb ed="#V" n="121" break="no"/>n cuitatem galilee: cui nomen nazareth. et 
-      po<lb ed="#V" n="122" break="no"/>stea sequitur: dixit angelus ei: Ne timeas maria inuenisti 
-      gra<lb ed="#V" n="123" break="no"/>tiam apud deum. Ecce concipies et paries filium: et 
-      voca<lb ed="#V" n="124" break="no"/>bis nomen eius Iesum. Hic erit magnus et filius 
-      altissimi<lb ed="#V" n="125" break="no"/>vocabitur. Ecce hinc patet virgiui praenunciatum fuisse 
-      incar<lb ed="#V" n="126" break="no"/>nationis mysterium: et per angelum scilicet gabrielem sensibili 
-      <lb ed="#V" n="127"/>voce virginem allocutum: et quod visibiliter apparuerit: patet 
-      <lb ed="#V" n="128"/>per glo. super illud. Turbata est in sermone eius: dicentem: 
-      <lb ed="#V" n="129"/>ex verecundia pauet: et alia glo. trepidare virginum est: et ad 
-      <lb ed="#V" n="130"/>omnes viri ingressus pauere: omnes viri affatus vereri. 
-      <lb ed="#V" n="131"/>quod christi conceptio conuenienter 
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e975">
-                  <lb ed="#V" n="132"/>Respondeo sart vireni prinunciata: vt fides de 
-      <lb ed="#V" n="133"/>incarnationis mysterio argumentis pluribus muniretur: et 
-      <lb ed="#V" n="134"/>virgo ex maiori deuotione ad conceptum afficeretur.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e984">
-      ¶ 
-      Con<lb ed="#V" n="135" break="no"/>ueniens etiam fuit illam prienunciationem virgini fieri per 
-      <lb ed="#V" n="136"/>angelum: quia vita virginalis: inquantum est in carne: praeter 
-      <!--00031.xml-->
-      <pb ed="#V" n="11-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>carnis actus: vitam angelica imitatur. Unde a Hiero in sermone 
-      <lb ed="#V" n="2"/>de assumptione betem virg. dicitur angelis cognata verginitas.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e1002">
-      ¶ Et 
-      <lb ed="#V" n="3"/>quia etiam per incarnationis mysterium de scientis ruina angelica re 
-      <lb ed="#V" n="4"/>paratur: inquantum assumentur ad ordines de quibus mali 
-      an<lb ed="#V" n="5" break="no"/>geli ceciderunt.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e1011">
-      ¶ Conuenienter etiam facta est per 
-      ange<lb ed="#V" n="6" break="no"/>lum de Hierar. inferiori: vt ordo hierarchicus seruaretur: 
-      <lb ed="#V" n="7"/>qui est: vt diuine illuminationes per angelos superioris hie 
-      <lb ed="#V" n="8"/>rarchie descendant ad mediam hierarchiam: et inde ad 
-      infe<lb ed="#V" n="9" break="no"/>riorem: et ab inferiori ad homines deriuantur.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e1022">
-      ¶ Conueniens 
-      <lb ed="#V" n="10"/>etiam fuit illum esse de medio illius hierarchie: qui est 
-      or<lb ed="#V" n="11" break="no"/>do archangelorum: et in illo ordine summum: quia maximum 
-      my<lb ed="#V" n="12" break="no"/>sterium nunciabat ad salutem humani generis 
-      ordina<lb ed="#V" n="13" break="no"/>tum.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e1033">
-      ¶ Conueniens etiam fuit: vt praedictum mysterium 
-      nun<lb ed="#V" n="14" break="no"/>ciando virgini in specie visibili appareret: vt vergo de 
-      my<lb ed="#V" n="15" break="no"/>sterio sensibiliter et intellectualiter erudiretur: et consolaretur. 
-    </p>
-               <p xml:id="kzz7yh-g06285-d1e1041">
-                  <lb ed="#V" n="16"/>Ad primum in oppositum dicendum: quod quamuis 
-      per<lb ed="#V" n="17" break="no"/>Isaiam prophetizatum fuisset christum 
-      <lb ed="#V" n="18"/>de virgine nasciturum: tamen per illam prophetiam que esset illa 
-      vir<lb ed="#V" n="19" break="no"/>go: quantum ad personam singularem expressum non 
-      demo<lb ed="#V" n="20" break="no"/>strabatur: et praeterea: vt in quaestione dictum est conueniens fuit: vt 
-      <lb ed="#V" n="21"/>fides pluribus argumentis muniretur.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e1057">
-      ¶ Ad secundum dicendum: 
-      <lb ed="#V" n="22"/>quod et si beata virgo magis esset accepta deo: tamen 
-      ange<lb ed="#V" n="23" break="no"/>las secundum aliquid erat superior: inquantum illa adhuc erat 
-      <lb ed="#V" n="24"/>viatrix: et angelus comprehensor. Fuerunt tamen qui dixerunt 
-      <lb ed="#V" n="25"/>quod in via ante filii dei conceptionem maria virgo non habuit 
-      <lb ed="#V" n="26"/>tantum de gratia: quantum habet quicumque angelus beatus.
-   </p>
-               <p xml:id="kzz7yh-g06285-d1e1070">
-      ¶ Ad 
-      <lb ed="#V" n="27"/>tertium cum dicitur: quod non fuit conueniens per eundem 
-      nun<lb ed="#V" n="28" break="no"/>tium praenunciare conceptionem serui: et domini etc. Dico quod non 
-      <lb ed="#V" n="29"/>est verum: quando ad hoc nascitur seruus: vt sit domini 
-      pre<lb ed="#V" n="30" break="no"/>cursor: et vt testimonium perhibeat de ipso: sic autem fuit 
-      <lb ed="#V" n="31"/>Ioannes respectu christi: fuit enim eius praecursor: vt scribitur 
-      <lb ed="#V" n="32"/>Io. 1. Uenit vt testmonium perhiberet de lumine id est de christo. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="67"/>retur de costa vnius mulieris: vere esset filius eius: quod 
+            fal<lb ed="#V" n="68" break="no"/>sum est. Pari enim ratione Eua fuisset filia Ade.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e447">
+            ¶ Alii dicunt 
+            <lb ed="#V" n="69"/>quod fuit cooperata: et in materie praeparatione: et in tota: carnis 
+            <lb ed="#V" n="70"/>formatione aliter enim non fuisset vera mater: vt eis videtur
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e454">
+            ¶ Sed 
+            <lb ed="#V" n="71"/>contra hoc arguitur sufficienter per primam rationem: ad secundam 
+            <lb ed="#V" n="72"/>partem adductam.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e461">
+            ¶ Alii dicunt quod quamuis non fuerit 
+            coopera<lb ed="#V" n="73" break="no"/>ta in tota carnis formatione: fuit tamen cooperata ad 
+            complemen<lb ed="#V" n="74" break="no"/>tum ipsius carnis: quia complementum rei etiam per naturam 
+            <lb ed="#V" n="75"/>fieri potest in instanti.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e471">
+            ¶ Sed contra hoc etiam arguitur sic: 
+            nobi<lb ed="#V" n="76" break="no"/>lius est complementum quam illud quod est citra complementum. 
+            <lb ed="#V" n="77"/>Si ergo non fuit cooperata in formatione eius: quod fuit citra 
+            <lb ed="#V" n="78"/>complementum: nec fuit cooperata in formationis 
+            comple<lb ed="#V" n="79" break="no"/>menti.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e482">
+            ¶ Alii dicunt quod quamuis non fuerit cooperata in carni: 
+            <lb ed="#V" n="80"/>christi formatione: tamen quia in materia ministrata a virgine erat 
+            poten<lb ed="#V" n="81" break="no"/>tia actiua per quam potuisset cooperari in formatione si fuisset 
+            <lb ed="#V" n="82"/>facta in tempore: ideo fuerit vera matr.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e491">
+            ¶ Sed contra. Aut enim illa 
+            <lb ed="#V" n="83"/>potentia actiua fuisset ibi naturaliter: aut miraculose: non naturaliter: 
+            <lb ed="#V" n="84"/>quia sicut dicit philosophus. 15 de animalibus. In rebus habentibus 
+            virtu<lb ed="#V" n="85" break="no"/>tes distinctas: et corpora distincta: et naturas diuersas necessario 
+            <lb ed="#V" n="86"/>diuersatur virtus operantis et patientis: ita quod est vir sicut 
+            mo<lb ed="#V" n="87" break="no"/>uens et operans et femina sicut patiens et paucis 
+            interpo<lb ed="#V" n="88" break="no"/>sitis subdit quod semper sperma femine est sicut materia: ergo in 
+            materia<lb ed="#V" n="89" break="no"/>que ministratur a matre non est naturaliter aliqua virtus actiua 
+            <lb ed="#V" n="90"/>ad corporis prolis formationem. Nec etiam fuit ibi 
+            miracu<lb ed="#V" n="91" break="no"/>lose: quia si fuisset data ad cooperandum in carnis formatione: 
+            <lb ed="#V" n="92"/>in qua cooperari non potuit: vt superius ostensum est: 
+            super<lb ed="#V" n="93" break="no"/>flue fuisset data: sed in operibus miraculosis: nihil est 
+            super<lb ed="#V" n="94" break="no"/>fluum: nec frustra: cum etiam natura nihil faciat frustra secundum philosophum. I. 
+            <lb ed="#V" n="95"/>celi et mundi. et 3 de anima.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e522">
+            ¶ Preterea propter potentiam 
+            cooperan<lb ed="#V" n="96" break="no"/>di ad formationem fetus: nisi prodeat in actum: nullus potest 
+            di<lb ed="#V" n="97" break="no"/>ci pater et mater. Unde si ad rationem matris requereretur 
+            corporatio<lb ed="#V" n="98" break="no"/>in formatione corporis prolis dato quod in materiam a virgine 
+            mini<lb ed="#V" n="99" break="no"/>strata fuisset aliqua potentia actiua siue per naturam: siue 
+            <lb ed="#V" n="100"/>per miraculum: per quam potuisset cooperari ad 
+            formatio<lb ed="#V" n="101" break="no"/>nem corporis christi si fuisset formatum in tempore quo formatur 
+            cor<lb ed="#V" n="102" break="no"/>pora aliorum: nihilominus non fuisset vera mater: ex quo in 
+            <lb ed="#V" n="103"/>illa formatione non fuit cooperata.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e542">
+            ¶ Uidetur ergo mihi 
+            di<lb ed="#V" n="104" break="no"/>cendum: quod in materia ministrata a virgine: non fuit aliqua 
+            vir<lb ed="#V" n="105" break="no"/>tus actiua: per quam fuerit spiritui sancto cooperata in carnis 
+            <lb ed="#V" n="106"/>christi formatione: et tamen cum virgo sit vera mater christi: oportet 
+            con<lb ed="#V" n="107" break="no"/>cedere quod totum illud fecerit ad conceptionem corporis christi: 
+            <lb ed="#V" n="108"/>quod requiritur ad rationem matris.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e555">
+            ¶ Ad cuius intelligentiam 
+            con<lb ed="#V" n="109" break="no"/>sideranda sunt tria que fiunt antequam puer nascatur de vtero: 
+            <lb ed="#V" n="110"/>que sunt materie praeparatio: et de materia praeparata 
+            corpo<lb ed="#V" n="111" break="no"/>ris formatio: et illius animatio et pueri nutritio et 
+            conserua<lb ed="#V" n="112" break="no"/>tio. In primo fuit cooperata virgo beata per virtutem 
+            ge<lb ed="#V" n="113" break="no"/>neratiuam. per eam enim humorem sanguineum in membris 
+            <lb ed="#V" n="114"/>digestum in semen conuertit eo modo quo semen est in 
+            mulie<lb ed="#V" n="115" break="no"/>ribus: et illud semen decidit sine quacumque deordinatione: et 
+            sal<lb ed="#V" n="116" break="no"/>ua perfectissime mentis et carnis et appetitus sensitiui 
+            integri<lb ed="#V" n="117" break="no"/>tate et dignitate et sanctitate et addebitum locum conceptionis 
+            <lb ed="#V" n="118"/>tramsmisit: quae tria comprehenduntur sub materie praeparatione et 
+            di<lb ed="#V" n="119" break="no"/>spositione que sit per generatiuam matris: de illo autem semine 
+            <lb ed="#V" n="120"/>sic praeparato spiritus sanctus excellenter supplens illud quod 
+            incon<lb ed="#V" n="121" break="no"/>ceptione prolis in aliis mulieribus fit per virtutem actiuam 
+            <lb ed="#V" n="122"/>seminis patris in instanti formauit corpus christi: et anima 
+            intel<lb ed="#V" n="123" break="no"/>lectiua animauit: et corpus et animam simul coniuncta persone filii dei 
+            <lb ed="#V" n="124"/>vniuit: et in hoc generatiua virginis non fuit cooperata: nec 
+            <lb ed="#V" n="125"/>enim in aliis matribus est aliqua virtus actiua in earum 
+            <lb ed="#V" n="126"/>semine per quam cooperetur ad prolis formationem. hoc enim 
+            <lb ed="#V" n="127"/>non requiritur ad rationem matris.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e600">
+            ¶ In tertio autem hoc est 
+            <lb ed="#V" n="128"/>in conseruatione: et nutritione cooperata fuit multo 
+            perfe<lb ed="#V" n="129" break="no"/>ctius et excellentius quam matres alie. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e607">
+            <lb ed="#V" n="130"/>Ad primum in oppositum dicendum: quod in 
+            con<lb ed="#V" n="131" break="no"/>ceptione christi duplex fuit 
+            mira<lb ed="#V" n="132" break="no"/>culum vnum quod semina concepit deum: aliud quod virgo 
+            conm<lb ed="#V" n="133" break="no"/>cepit filium: quantum ad primum virgo se habebat in 
+            pu<lb ed="#V" n="134" break="no"/>ra potentia passiua obedientie: quantum ad 2m erat in virgine 
+            <!--00030.xml-->
+            <pb ed="#V" n="10-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>potentia actiua ad materiam ministrandam. propter 
+            primun<lb ed="#V" n="2" break="no"/>dicit Dam. quod spiritus sanctus dedit virgini potentiam 
+            ver<lb ed="#V" n="3" break="no"/>bi dei susceptiuam: quia talis potentia communiter non dicitur 
+            <lb ed="#V" n="4"/>dari quousque datur actus eo quod potentia minus remota: 
+            <lb ed="#V" n="5"/>quantum autem ad 2m dicitur tribuisse generatiuam: non quia 
+            <lb ed="#V" n="6"/>tunc primo spiritus sanctus ei dederit illam potentiam que 
+            <lb ed="#V" n="7"/>dicitur generatiua: sed quioa illam materiam que fuit per 
+            gene<lb ed="#V" n="8" break="no"/>ratiuam virginis ministrata: spiritus sanctus ad actum 
+            re<lb ed="#V" n="9" break="no"/>duxit: ad quem per generatiuam virginis non potuisset 
+            redu<lb ed="#V" n="10" break="no"/>ci.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e648">
+            ¶ Ad secundum dicendum: quod generatiua viri actiua est: et 
+            <lb ed="#V" n="11"/>in seminis formatione: et decisione ad locum conceptionis 
+            <lb ed="#V" n="12"/>tramsmissione: et in corporis prolis formatione: generatiua autem 
+            <lb ed="#V" n="13"/>mulieris in tribus primis est actiua: non tamen perfecte in se 
+            <lb ed="#V" n="14"/>minis formatione: quia non potest sanguinem conuertere in 
+            semen<lb ed="#V" n="15" break="no"/>perfectum: vt superius visum est: sed in formatione corporis prolis 
+            <lb ed="#V" n="16"/>de illo semmie: actiua non est: vt superius est ostensum.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e664">
+            ¶ Ad 
+            <lb ed="#V" n="17"/>tertium dicendum: quod assimilatio: qua filius assimilatur 
+            matri<lb ed="#V" n="18" break="no"/>non est per virtutem actiuam: que sit in semine matris: sed per illam 
+            <lb ed="#V" n="19"/>que est in semine patris. Actus enim actiuorum naturalium sunt 
+            <lb ed="#V" n="20"/>in patiente: et disposito. Quandoque autem contigit: quod semen 
+            mu<lb ed="#V" n="21" break="no"/>lieris est magis dispositum ad hoc: vt fetus de illo 
+            forman<lb ed="#V" n="22" break="no"/>dus: magis assimiletur matri: et quandoque cum hoc est virtus in 
+            <lb ed="#V" n="23"/>semine patris: non ita fortis: quod sfetus possit assimilare 
+            pa<lb ed="#V" n="24" break="no"/>tri in sexu: et quia natura facit melius: quod potest: format tunc setum 
+            <lb ed="#V" n="25"/>feminei sexus: quandoque est ita fortis: quod potest assimilare 
+            patri<lb ed="#V" n="26" break="no"/>in sexu: non tamen ita fortis: quod possit assimilare in figura 
+            cor<lb ed="#V" n="27" break="no"/>poris: et propter dispositione materie potest assimillare 
+            matri<lb ed="#V" n="28" break="no"/>Ad predicta autem coadiuuant fortis imaginatio viri 
+            respe<lb ed="#V" n="29" break="no"/>ctu figure mulieris: et fortis imaginatio mulieris: et 
+            dispo<lb ed="#V" n="30" break="no"/>sitio loci matricis: et alique alie cause accidentales que ad 
+            <lb ed="#V" n="31"/>hoc possunt concurrere.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e699">
+            ¶ Argumenta ad partem aliam non 
+            <lb ed="#V" n="32"/>plus concludunt: nisi quod beata virgo non fuit cooperata 
+            acti<lb ed="#V" n="33" break="no"/>ue in corporis christi formatione. Sed ex hoc non sequitur: quin 
+            <lb ed="#V" n="34"/>cooperata faerit in materiam praeparando: et disponendo: et 
+            <lb ed="#V" n="35"/>informati pueri nutritione in vtero et conseruatione. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g06285-Dd1e711">
+          <head xml:id="kzz7yh-g06285-Hd1e713">Quaestio 3</head>
+          <head xml:id="kzz7yh-g06285-Hd1e725" type="question-title">Utrum illa formatio fuerit naturalis vel miraculosa</head>
+          <p xml:id="kzz7yh-g06285-d1e715">
+            Quaestio III. 
+            <lb ed="#V" n="36"/>TErtio queritur vtrum formatio corporis christi 
+            <lb ed="#V" n="37"/>fuerit <sic>materialis</sic>: vel miraculosa. 
+            <lb ed="#V" n="38"/>Et videtur quod naturalis. Aug. in libro de fide ad 
+            <lb ed="#V" n="39"/>petrum: longe ante finem libri. Firmissime 
+            tene<lb ed="#V" n="40" break="no"/>ipsum qui essentialiter natus est de patre essentialiter conceptum: 
+            na<lb ed="#V" n="41" break="no"/>tumque de virgine ipsumque vnum esse: et vnius nature cum virgine: 
+            <lb ed="#V" n="42"/>sed ex quo est eiusdem nature cum matre: est eius filius 
+            na<lb ed="#V" n="43" break="no"/>turalis: sed naturalis filii formatio naturalis est.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e735">
+            ¶ Item 
+            <lb ed="#V" n="44"/>operatio miraculosa non est ab aliqua creatura. Sed vere dicitur 
+            <lb ed="#V" n="45"/>quod virgo genuit christum. ergo illa genitura non fuit 
+            miracu<lb ed="#V" n="46" break="no"/>losa.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e744">
+            ¶ Item quamuis miraculose restituatur alicui visus: tamen 
+            <lb ed="#V" n="47"/>conseqens operatio est naturalis. ergo similiter: quamuis miraculose per 
+            <lb ed="#V" n="48"/>spiritum sanctum data fuerit virgini generandi potentia: 
+            <lb ed="#V" n="49"/>videtur quod sequens operatio fuerit naturalis. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e753">
+            <lb ed="#V" n="50"/>Contra. Anselmus in lio de conceptu virginali. c. 12 dicit: quod 
+            <lb ed="#V" n="51"/>in virgine nec voluntas creature prolem se 
+            <lb ed="#V" n="52"/>minauit: nec natura germinauit: sed spiritus sanctus: et virtus 
+            <lb ed="#V" n="53"/>altissimi de virgine muliere virum mirabiliter propagauit. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e765">
+            <lb ed="#V" n="54"/>¶ Item Diony. epiturla. 4. ad Gaium loquens de Iesu dicit: 
+            <lb ed="#V" n="55"/>quod super hominem operatur que sunt hominis: et hoc declarat virgo 
+            <lb ed="#V" n="56"/>supernaturaliter parturiens: naturaliter concipiens potest naturaliter 
+            <lb ed="#V" n="57"/>parturire. ergo videtur quod virgo filium non concepit naturaliter. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e776">
+            <lb ed="#V" n="58"/>Respondeo quod formatio corporis christi simpliter fuit 
+            <lb ed="#V" n="59"/>miraculosa: et naturalis: tamen secundum quid: 
+            <lb ed="#V" n="60"/>quod sic patet. Effectum enim fieri de materia quaedrupliciter potest 
+            intelli<lb ed="#V" n="61" break="no"/>gi: aut de materia effectui proportionata naturaliter: et per 
+            <lb ed="#V" n="62"/>agens naturale: aut de materia effectui non proportionata 
+            na<lb ed="#V" n="63" break="no"/>turaliter: nec per agens naturale: aut de materia effectui 
+            natu<lb ed="#V" n="64" break="no"/>raliter proportionata: et non per agens naturale: aut de materia 
+            <lb ed="#V" n="65"/>non proportionata: et per agens naturale.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e796">
+            ¶ Primus modus 
+            <lb ed="#V" n="66"/>producendi effectum de materia totaliter est naturalis: quia et 
+            <lb ed="#V" n="67"/>ex parte agentis: et ex parte principii passiui.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e803">
+            ¶ Secundus 
+            mo<lb ed="#V" n="68" break="no"/>dus totaliter est miraculosus: quia et ex parte principii actiui: et 
+            <!--00030.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>principii passiui.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e814">
+            ¶ Tertius modus est simpliciter miraculo 
+            <lb ed="#V" n="70"/>sus: quia ex parte principii actiui: secundum quid tamen est naturalis scilicet 
+            <lb ed="#V" n="71"/>propter naturalem proportionem passiui principii ad effectum. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e821">
+            <lb ed="#V" n="72"/>¶ Quartus modus est impossibilis: agens enim naturale propter 
+            <lb ed="#V" n="73"/>limitationem virtutis de materia effectui non proportionata: 
+            <lb ed="#V" n="74"/>effectum producere non potest. Quapropter de agentibus 
+            naturali<lb ed="#V" n="75" break="no"/>bus secundo de anima dicitur: quod actus eorum sunt in patiente et 
+            disposi<lb ed="#V" n="76" break="no"/>to. Formatio autem corporis christi de materia ministrata a 
+            vir<lb ed="#V" n="77" break="no"/>gine facta fuit. Tertio modo: quia virgo materiam 
+            disposi<lb ed="#V" n="78" break="no"/>tam ministrauit proportionatam ad formationem corporis 
+            <lb ed="#V" n="79"/>humani: ita quod si affuisset semen virile: potuisset de illa 
+            ma<lb ed="#V" n="80" break="no"/>teria corpus humanum naturaliter formasse: et quia non affuit 
+            <lb ed="#V" n="81"/>naturale agens: sed supernaturalem scilicet spiritus sanctus: qui de 
+            mate<lb ed="#V" n="82" break="no"/>ria ministrata a virgine corpus christi supernaturale formauit: 
+            <lb ed="#V" n="83"/>ideo in illa formatione fuit naturalitas secundum quid scilicet ex parte 
+            <lb ed="#V" n="84"/>dispositionis materie: et sppernaturalitas simpliciter. Unde 
+            <lb ed="#V" n="85"/>concedendum quod formatio corporis christi simpliciter fuit 
+            <lb ed="#V" n="86"/>miraculosa: et non naturalis. 
+            <lb ed="#V" n="87"/>Ex dictis patet responsio ad primum argumentum in 
+            op<lb ed="#V" n="88" break="no"/>positum.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e861">
+            ¶ Ad secundum dicendum: quod beata 
+            vir<lb ed="#V" n="89" break="no"/>go non dicitur genuisse christum: quia corpus eius formauerit. Sed 
+            <lb ed="#V" n="90"/>quia materiam dispositam ad illam formationem ministrauit. 
+            <lb ed="#V" n="91"/>De materia autem disposita potest aliquid fieri miraculose. 
+            Si<lb ed="#V" n="92" break="no"/>cut patet cum aliquis infirmus: qui naturaliter per longum tempus 
+            <lb ed="#V" n="93"/>posset curari: subito curatur opere spiritus sancti.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e874">
+            ¶ Ad tertium 
+            <lb ed="#V" n="94"/>dicendum: quod non est simile de visu supernaturaliter reddito 
+            cecor<lb ed="#V" n="95" break="no"/>et de possibilitate generandi data viergini: quia visus quomocumque 
+            <lb ed="#V" n="96"/>datus natus est reduci in actum per ages naturale. Sed 
+            <lb ed="#V" n="97"/>non fuit possibilitas data virgini que in actu potuisset 
+            re<lb ed="#V" n="98" break="no"/>duci per agens naturale manente virginitate. Sed tantum per 
+            <lb ed="#V" n="99"/>agens supernaturale. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g06285-Dd1e891">
+          <head xml:id="kzz7yh-g06285-Hd1e893">Quaestio 4</head>
+          <head xml:id="kzz7yh-g06285-Hd1e911" type="question-title">Utrum Christo conceptio convenienter fuerit per angelum praenunciata</head>
+          <p xml:id="kzz7yh-g06285-d1e895">
+            Questio. IIII. 
+            <lb ed="#V" n="100"/>QUarto queritur vtrum christi conceptio 
+            con<lb ed="#V" n="101" break="no"/>uenienter fuerit per angelum 
+            prae<lb ed="#V" n="102" break="no"/>nunciata. Et videtur quod non: quia sufficienter 
+            pre<lb ed="#V" n="103" break="no"/>nunciata fuerat per prophetam: vt patet. Isa 7. Ubi 
+            <lb ed="#V" n="104"/>dicitur: ecce virgo concipiet: et pariet filium et. 9. vbi dicitur. 
+            <lb ed="#V" n="105"/>Paruulus natus est nobis etc. ergo superfluum fuit eam 
+            pre<lb ed="#V" n="106" break="no"/>nunciare per angelum.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e913">
+            ¶ Item non est conueniens 
+            superio<lb ed="#V" n="107" break="no"/>rem instrui per inferiorem. Unde secundum Diony. in libro de 
+            an<lb ed="#V" n="108" break="no"/>gelica Hierar. c. 15. Superiores angeli non illuminantur ab 
+            <lb ed="#V" n="109"/>inferioribus: sed beata virgo erat superior angelo: quia erat a 
+            <lb ed="#V" n="110"/>deo magis dilecta: ergo non fuit conueniens eam instrui per 
+            <lb ed="#V" n="111"/>angelum de incarnationis mysterio.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e926">
+            ¶ Item non fuit 
+            conue<lb ed="#V" n="112" break="no"/>niens per eundem nuncium praenunciare conceptionem serui et 
+            <lb ed="#V" n="113"/>domini: sed conceptio beati Ioannis baptiste praenunciata fuit 
+            <lb ed="#V" n="114"/>per Gabrielem: vt habetur Luc. 1. ergo conceptio christi qui 
+            <lb ed="#V" n="115"/>dominus eius est: non debuit praenunciari per gabrielem.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e937">
+            ¶ Item 
+            <lb ed="#V" n="116"/>cum incarnatio fuerit maximum mysterium debuisset prenu 
+            <lb ed="#V" n="117"/>ciari per summum angelum superioris Hierar. Sed secundum Dio. 
+            <lb ed="#V" n="118"/>in lib. de angelica Hierar. c. 4. Gabriel fuit de 
+            inferiori<lb ed="#V" n="119" break="no"/>hierarchia. ergo videtur quod per eum non debuit nunciari. 
+            <lb ed="#V" n="120"/>Luc. 1. Missum est angelus gabriel a deo 
+            in<lb ed="#V" n="121" break="no"/>n cuitatem galilee: cui nomen nazareth. et 
+            po<lb ed="#V" n="122" break="no"/>stea sequitur: dixit angelus ei: Ne timeas maria inuenisti 
+            gra<lb ed="#V" n="123" break="no"/>tiam apud deum. Ecce concipies et paries filium: et 
+            voca<lb ed="#V" n="124" break="no"/>bis nomen eius Iesum. Hic erit magnus et filius 
+            altissimi<lb ed="#V" n="125" break="no"/>vocabitur. Ecce hinc patet virgiui praenunciatum fuisse 
+            incar<lb ed="#V" n="126" break="no"/>nationis mysterium: et per angelum scilicet gabrielem sensibili 
+            <lb ed="#V" n="127"/>voce virginem allocutum: et quod visibiliter apparuerit: patet 
+            <lb ed="#V" n="128"/>per glo. super illud. Turbata est in sermone eius: dicentem: 
+            <lb ed="#V" n="129"/>ex verecundia pauet: et alia glo. trepidare virginum est: et ad 
+            <lb ed="#V" n="130"/>omnes viri ingressus pauere: omnes viri affatus vereri. 
+            <lb ed="#V" n="131"/>quod christi conceptio conuenienter 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e975">
+            <lb ed="#V" n="132"/>Respondeo sart vireni prinunciata: vt fides de 
+            <lb ed="#V" n="133"/>incarnationis mysterio argumentis pluribus muniretur: et 
+            <lb ed="#V" n="134"/>virgo ex maiori deuotione ad conceptum afficeretur.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e984">
+            ¶ 
+            Con<lb ed="#V" n="135" break="no"/>ueniens etiam fuit illam prienunciationem virgini fieri per 
+            <lb ed="#V" n="136"/>angelum: quia vita virginalis: inquantum est in carne: praeter 
+            <!--00031.xml-->
+            <pb ed="#V" n="11-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>carnis actus: vitam angelica imitatur. Unde a Hiero in sermone 
+            <lb ed="#V" n="2"/>de assumptione betem virg. dicitur angelis cognata verginitas.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e1002">
+            ¶ Et 
+            <lb ed="#V" n="3"/>quia etiam per incarnationis mysterium de scientis ruina angelica re 
+            <lb ed="#V" n="4"/>paratur: inquantum assumentur ad ordines de quibus mali 
+            an<lb ed="#V" n="5" break="no"/>geli ceciderunt.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e1011">
+            ¶ Conuenienter etiam facta est per 
+            ange<lb ed="#V" n="6" break="no"/>lum de Hierar. inferiori: vt ordo hierarchicus seruaretur: 
+            <lb ed="#V" n="7"/>qui est: vt diuine illuminationes per angelos superioris hie 
+            <lb ed="#V" n="8"/>rarchie descendant ad mediam hierarchiam: et inde ad 
+            infe<lb ed="#V" n="9" break="no"/>riorem: et ab inferiori ad homines deriuantur.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e1022">
+            ¶ Conueniens 
+            <lb ed="#V" n="10"/>etiam fuit illum esse de medio illius hierarchie: qui est 
+            or<lb ed="#V" n="11" break="no"/>do archangelorum: et in illo ordine summum: quia maximum 
+            my<lb ed="#V" n="12" break="no"/>sterium nunciabat ad salutem humani generis 
+            ordina<lb ed="#V" n="13" break="no"/>tum.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e1033">
+            ¶ Conueniens etiam fuit: vt praedictum mysterium 
+            nun<lb ed="#V" n="14" break="no"/>ciando virgini in specie visibili appareret: vt vergo de 
+            my<lb ed="#V" n="15" break="no"/>sterio sensibiliter et intellectualiter erudiretur: et consolaretur. 
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e1041">
+            <lb ed="#V" n="16"/>Ad primum in oppositum dicendum: quod quamuis 
+            per<lb ed="#V" n="17" break="no"/>Isaiam prophetizatum fuisset christum 
+            <lb ed="#V" n="18"/>de virgine nasciturum: tamen per illam prophetiam que esset illa 
+            vir<lb ed="#V" n="19" break="no"/>go: quantum ad personam singularem expressum non 
+            demo<lb ed="#V" n="20" break="no"/>strabatur: et praeterea: vt in quaestione dictum est conueniens fuit: vt 
+            <lb ed="#V" n="21"/>fides pluribus argumentis muniretur.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e1057">
+            ¶ Ad secundum dicendum: 
+            <lb ed="#V" n="22"/>quod et si beata virgo magis esset accepta deo: tamen 
+            ange<lb ed="#V" n="23" break="no"/>las secundum aliquid erat superior: inquantum illa adhuc erat 
+            <lb ed="#V" n="24"/>viatrix: et angelus comprehensor. Fuerunt tamen qui dixerunt 
+            <lb ed="#V" n="25"/>quod in via ante filii dei conceptionem maria virgo non habuit 
+            <lb ed="#V" n="26"/>tantum de gratia: quantum habet quicumque angelus beatus.
+          </p>
+          <p xml:id="kzz7yh-g06285-d1e1070">
+            ¶ Ad 
+            <lb ed="#V" n="27"/>tertium cum dicitur: quod non fuit conueniens per eundem 
+            nun<lb ed="#V" n="28" break="no"/>tium praenunciare conceptionem serui: et domini etc. Dico quod non 
+            <lb ed="#V" n="29"/>est verum: quando ad hoc nascitur seruus: vt sit domini 
+            pre<lb ed="#V" n="30" break="no"/>cursor: et vt testimonium perhibeat de ipso: sic autem fuit 
+            <lb ed="#V" n="31"/>Ioannes respectu christi: fuit enim eius praecursor: vt scribitur 
+            <lb ed="#V" n="32"/>Io. 1. Uenit vt testmonium perhiberet de lumine id est de christo. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

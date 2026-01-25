@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="35-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g24484"><!-- l3d11cl -->
-            <head xml:id="kzz7yh-g24484-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-g24484-d1e103">
-               <lb ed="#V" n="80"/>CIrca litteram. Omnis creatura 
-      va<lb ed="#V" n="81" break="no"/>nitati subiecta est: 
-      <lb ed="#V" n="82"/>omnis enim creatura in nihilum rediret: nisi continue 
-      <lb ed="#V" n="83"/>manuteneretur in esse a datore sui esse: quod etiam 
-      sen<lb ed="#V" n="84" break="no"/>serunt phlosophi. Dicit enim <ref xml:id="kzz7yh-g24484-Rd1e117">Auic. 6. meta. sue. c. 1.</ref> Quod creatum indiget 
-      <lb ed="#V" n="85"/>datore sui esse: semper incessanter quamdiu habuit esse: recte 
-      er<lb ed="#V" n="86" break="no"/>go vanitati substantia dicitur omnis creatura: quia semper se non potest 
-      <lb ed="#V" n="87"/>substentare in esse. Factum sub lege scilicet volutate: non 
-      necessita<lb ed="#V" n="88" break="no"/>te. In deo creatura esse non potest: verum est: sicut eius pars: 
-      <lb ed="#V" n="89"/>vel accidens: quia eo modo quo natura est in supposito: creatura 
-      <lb ed="#V" n="90"/>potest esse in deo. Sic enim humana natura christi est in deo: quia existit 
-      <lb ed="#V" n="91"/>in filio dei: vt in supposito. Ex tropicis locutionibus non 
-      <lb ed="#V" n="92"/>est recta argumentationis processio scilicet quia frequenter procedunt 
-      <lb ed="#V" n="93"/>a forma in qua excusantur ad formam in qua non excusantur: 
-      si<lb ed="#V" n="94" break="no"/>cut est in proposito: cum dicitur si christus secundum hominem est aliqua substantia non 
-      <lb ed="#V" n="95"/>diuina est vtrique aliquid non diuinum: sicut si diceretur:christus: in 
-      <lb ed="#V" n="96"/>quantum homo: non est deus: ergo christus non est deus: quia prima 
-      excu<lb ed="#V" n="97" break="no"/>satur: per hanc determinationem: inquantum homo. Secunda autem 
-      nul<lb ed="#V" n="98" break="no"/>lo modo excusatur. Illa locutio tropica est qua christus dicitur creatu 
-      <lb ed="#V" n="99"/>ra: vel simpliciter: vel cum adiunctione. Hic accipit magister 
-      tro<lb ed="#V" n="100" break="no"/>pum: per figura. Talis enim locutio habet aliquam naturam 
-      synecdo<lb ed="#V" n="101" break="no"/>ches: quia illud quod conuenit quasi parti altribuitur toti. et dico 
-      quasi<lb ed="#V" n="102" break="no"/>parti: quia et si humana natura non sit pars persone 
-      chri<lb ed="#V" n="103" break="no"/>sti: tamen est vna pars significati: per hoc nomen christus quod 
-      signi<lb ed="#V" n="104" break="no"/>ficat personam filii dei in duabus naturis. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="35-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g24484"><!-- l3d11cl -->
+        <head xml:id="kzz7yh-g24484-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-g24484-d1e103">
+          <lb ed="#V" n="80"/>CIrca litteram. Omnis creatura 
+          va<lb ed="#V" n="81" break="no"/>nitati subiecta est: 
+          <lb ed="#V" n="82"/>omnis enim creatura in nihilum rediret: nisi continue 
+          <lb ed="#V" n="83"/>manuteneretur in esse a datore sui esse: quod etiam 
+          sen<lb ed="#V" n="84" break="no"/>serunt philosophi. Dicit enim <ref xml:id="kzz7yh-g24484-Rd1e117">Auic. 6. meta. sue. c. 1.</ref> Quod creatum indiget 
+          <lb ed="#V" n="85"/>datore sui esse: semper incessanter quamdiu habuit esse: recte 
+          er<lb ed="#V" n="86" break="no"/>go vanitati substantia dicitur omnis creatura: quia semper se non potest 
+          <lb ed="#V" n="87"/>substentare in esse. Factum sub lege scilicet volutate: non 
+          necessita<lb ed="#V" n="88" break="no"/>te. In deo creatura esse non potest: verum est: sicut eius pars: 
+          <lb ed="#V" n="89"/>vel accidens: quia eo modo quo natura est in supposito: creatura 
+          <lb ed="#V" n="90"/>potest esse in deo. Sic enim humana natura christi est in deo: quia existit 
+          <lb ed="#V" n="91"/>in filio dei: vt in supposito. Ex tropicis locutionibus non 
+          <lb ed="#V" n="92"/>est recta argumentationis processio scilicet quia frequenter procedunt 
+          <lb ed="#V" n="93"/>a forma in qua excusantur ad formam in qua non excusantur: 
+          si<lb ed="#V" n="94" break="no"/>cut est in proposito: cum dicitur si christus secundum hominem est aliqua substantia non 
+          <lb ed="#V" n="95"/>diuina est vtrique aliquid non diuinum: sicut si diceretur:christus: in 
+          <lb ed="#V" n="96"/>quantum homo: non est deus: ergo christus non est deus: quia prima 
+          excu<lb ed="#V" n="97" break="no"/>satur: per hanc determinationem: inquantum homo. Secunda autem 
+          nul<lb ed="#V" n="98" break="no"/>lo modo excusatur. Illa locutio tropica est qua christus dicitur creatu 
+          <lb ed="#V" n="99"/>ra: vel simpliciter: vel cum adiunctione. Hic accipit magister 
+          tro<lb ed="#V" n="100" break="no"/>pum: per figura. Talis enim locutio habet aliquam naturam 
+          synecdo<lb ed="#V" n="101" break="no"/>ches: quia illud quod conuenit quasi parti altribuitur toti. et dico 
+          quasi<lb ed="#V" n="102" break="no"/>parti: quia et si humana natura non sit pars persone 
+          chri<lb ed="#V" n="103" break="no"/>sti: tamen est vna pars significati: per hoc nomen christus quod 
+          signi<lb ed="#V" n="104" break="no"/>ficat personam filii dei in duabus naturis. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

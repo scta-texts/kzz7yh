@@ -1,487 +1,487 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 3</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 3</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="51-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 3</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 3</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="51-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g36139"><!-- l3d15a3 -->
+        <head xml:id="kzz7yh-g36139-Hd1e101">Articulus 3</head>
+        <p xml:id="kzz7yh-g36139-d1e103">
+          <lb ed="#V" n="62"/>COnsequenter queritur de 
+          ter<lb ed="#V" n="63" break="no"/>tio principali: et 
+          <lb ed="#V" n="64"/>circa hoc queruntur quatuor.
+        </p>
+        <p xml:id="kzz7yh-g36139-d1e112">
+          ¶ Primo vtrum 
+          <lb ed="#V" n="65"/>in anima christi fuerit passio tristitie.
+        </p>
+        <p xml:id="kzz7yh-g36139-d1e117">
+          ¶ 
+          Se<lb ed="#V" n="66" break="no"/>cundo vtrum in christo fuerit vna species tristitie tantum. 
+        </p>
+        <p xml:id="kzz7yh-g36139-d1e122">
+          <lb ed="#V" n="67"/>¶ Tertio vtrum passio timoris.
+        </p>
+        <p xml:id="kzz7yh-g36139-d1e128">
+          ¶ Quarto vtrum 
+          pas<lb ed="#V" n="68" break="no"/>so ire.
+        </p>
+        <div xml:id="kzz7yh-g36139-Dd1e133">
+          <head xml:id="kzz7yh-g36139-Hd1e135">Quaestio 1</head>
+          <head type="question-title">utrum in anima christi fuerit passio tristitie.</head>
+          <p xml:id="kzz7yh-g36139-d1e137">
+            Quaestio I.
+            <!--00114.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>PRimo ostendo quod iim christi onfuit passio 
+            <lb ed="#V" n="70"/>tristicie: quia secundum sapientem in 
+            <ref>Eccl.<lb ed="#V" n="71" break="no"/>c. 3.</ref> In tristicia non est vtilitas: sed in anima christi: 
+            <lb ed="#V" n="72"/>nulla fuit passio: nisi vtilis: ergo passio tristitie 
+            <lb ed="#V" n="73"/>non fuit in eo.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e155">
+            ¶ Item <ref>Isa. 24.</ref> praedictum fuit de christo. Quod non 
+            <lb ed="#V" n="74"/>erit tristis neque turbulentus.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e160">
+            ¶ Item <ref>philosophus. 3.topi.</ref>  Eadem 
+            <lb ed="#V" n="75"/>sunt magis eligenda sine tristitia quam cum tristitia. Sed christus 
+            <lb ed="#V" n="76"/>optime sciuit eligere. ergo magis voluit redimere genus 
+            <lb ed="#V" n="77"/>humanum sine tristitia quam cum tristitia. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e169">
+            <lb ed="#V" n="78"/>Contra de christus dicitur Math. 26 quod cepit contristari: et 
+            <lb ed="#V" n="79"/>mestus esse.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e177">
+            ¶ Item <ref>Luc. 19.</ref> de christo dicitur quod 
+            vi<lb ed="#V" n="80" break="no"/>dens ciuitatem fleuit super illam: sed fletus signum est 
+            <lb ed="#V" n="81"/>tristitie. ergo videtur quod fuerit tristis. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e184">
+            <lb ed="#V" n="82"/>Respondeo quo  christi suit passio tristitie. 
+            Si<lb ed="#V" n="83" break="no"/>cut enim ex coniunctionis rei amate cum 
+            <lb ed="#V" n="84"/>apprehensione eiusdem causatur in appetitu passio 
+            delectatio<lb ed="#V" n="85" break="no"/>nis: sic ex coniunctione rei edite cum apprehensione eiusdem 
+            <lb ed="#V" n="86"/>causatur in appetitu passio tristitie et quod res de proximo et 
+            cer<lb ed="#V" n="87" break="no"/>titudinaliter futura consideratur quasi iam praesens propter euentus 
+            <lb ed="#V" n="88"/>instantem propinquitatem et infallibilitatem: ideo non solu respectu 
+            <lb ed="#V" n="89"/>rei odite: cum est poesens. Sed est respectu rei odite infallibiliter 
+            <lb ed="#V" n="90"/>et de proximo venture: est passio tristitie. Unde secundum philosophum in 2. 
+            <lb ed="#V" n="91"/>Rheto. Illi qui iam decapitantur non timent videntes sibi 
+            <lb ed="#V" n="92"/>necessitatem mortis imminere: sed tristantur: et ideo quia sensualitas 
+            <lb ed="#V" n="93"/>anime christi mortem recusabat: vt inferius ostendetur cum 
+            apprehen<lb ed="#V" n="94" break="no"/>dit ipsam: vt de proximo et infallibliter venturam: canata fuit in 
+            <lb ed="#V" n="95"/>eius appetitum sensitiuo passio tristitie. Unde imminente 
+            pas<lb ed="#V" n="96" break="no"/>sione dixit: tristis est anima mea vsque ad mortem. Aliter tamen fuit in 
+            <lb ed="#V" n="97"/>eo tristitia quam in nobis. In nobis enim frequenter causatur contra 
+            <lb ed="#V" n="98"/>imperium et praeter imperium rationis. In christo autem non fuit nisi ad 
+            <lb ed="#V" n="99"/>imperium rationis: que imperabat sensualitatem tristari 
+            modera<lb ed="#V" n="100" break="no"/>te secundum exigentiam sue nature. et ideo in ipso non fuit tristitia rationem 
+            <lb ed="#V" n="101"/>peruertens: neque conturbans: nec de necessitate ido 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e230">
+            <lb ed="#V" n="102"/>Ad primum et secundum dicendum quod ille due aucotes 
+            in<lb ed="#V" n="103" break="no"/>telligende sunt de tristitia: que est 
+            <lb ed="#V" n="104"/>contra imperium rationis: et similiter dicendum est ad 
+            au<lb ed="#V" n="105" break="no"/>ctoritatem philosophi sumptam de. 3. topi. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g36139-Dd1e242">
+          <head xml:id="kzz7yh-g36139-Hd1e244">Quaestio 2</head>
+          <head type="question-title">utrum in christo fuerit una species tristitie tantum.</head>
+          <p xml:id="kzz7yh-g36139-d1e246">
+            Quaestio II. 
+            <lb ed="#V" n="106"/>SEcundo queritur vtrum fuerit in christo vna 
+            <lb ed="#V" n="107"/>species trist. tie tantum: et videtur quod non: 
+            <lb ed="#V" n="108"/>quia in christo fuit tristitia de proprio malo praeneti: et de 
+            <lb ed="#V" n="109"/>praesenti malo hominum: sed tristitia de malo proprio: et 
+            <lb ed="#V" n="110"/>tristitia de malo alieno non videtur esse eadem species tristitie. 
+            er<lb ed="#V" n="111" break="no"/>go in ipso non fuit vna species tristitie tantum.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e262">
+            ¶ Item in ipso fuit 
+            <lb ed="#V" n="112"/>misericordia: que est tristitia de malo alieno: et acidia que 
+            <lb ed="#V" n="113"/>est tristitia aggrauans. Ut enim dicitur Mar. 14. Cepit Iesus 
+            pa<lb ed="#V" n="114" break="no"/>uere et tedere: cum ergo acidia et miseria sint diuerse 
+            spe<lb ed="#V" n="115" break="no"/>cies tristitie secundum Damas. lib. 2o c. 27. In Christo non fuit 
+            <lb ed="#V" n="116"/>vna species tristitie tantum. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e275">
+            <lb ed="#V" n="117"/>Contra secundum Dimas. vbi prius. quatuor sunt specieus 
+            tri<lb ed="#V" n="118" break="no"/>stitie: acidia: achaos: inuidia: miseria. Sed. 
+            <lb ed="#V" n="119"/>in christo non fuit inuidia: neque acidia: quia idem est quod 
+            pigri<lb ed="#V" n="120" break="no"/>tia: neque achaos: quia secndum Damas. ibidem. Achaos est tristitia 
+            vo<lb ed="#V" n="121" break="no"/>cem auferens. ergo in christo non fuit nisi illa species tristitie: quae est miseundia. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e288">
+            <lb ed="#V" n="122"/>Respondeo quod quatuor peaedictarum tristitiarum in 
+            ar<lb ed="#V" n="123" break="no"/>gumento ad partem secundam: quas 
+            Da<lb ed="#V" n="124" break="no"/>mascenus species tristitie vocat extendendo forte nomen speciei 
+            <lb ed="#V" n="125"/>ad partes in modo: que super totum non addunt nisi diffterentiam 
+            acciden<lb ed="#V" n="126" break="no"/>talem: seu applicationem ad materis diuersas quod est accipere 
+            im<lb ed="#V" n="127" break="no"/>proprie non speciei. Una sola fuit in christo scilicet miseria que 
+            accipi<lb ed="#V" n="128" break="no"/>potest et pro habitu: et pro passione: vt ostendetur in. 4. Acidia enim 
+            <lb ed="#V" n="129"/>cum sit tristitia aggrauans: et achaos cum sit tristitia ita 
+            inten<lb ed="#V" n="130" break="no"/>sa vt vocem auferat: sunt superabundantie quedam tristitie. 
+            Su<lb ed="#V" n="131" break="no"/>parabundantia autem tristitie: non fuit in christo. Inuidia etm cum sit 
+            <lb ed="#V" n="132"/>tristitia de bono alieno inquantum apprehenditur vt malum 
+            pro<lb ed="#V" n="133" break="no"/>prium: seu causa proprii mali in christo non fuit: quia illud quod christus 
+            ap<lb ed="#V" n="134" break="no"/>prehendebat vt vere bonum alterius: non apprehendebat 
+            <lb ed="#V" n="135"/>sub ratione: qua proprium malum. Si autem apprehendebat aliquem 
+            <lb ed="#V" n="136"/>habere aliquod temporale bonum nociuum anime habentis et illud christus 
+            appre<pb ed="#V" n="52-r"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>hendebat: vt vere malum illius: et ideo respectu talis 
+            bo<lb ed="#V" n="2" break="no"/>ni erat in christo non inuidia: sed miseicordia. Utrum autem 
+            tristi<lb ed="#V" n="3" break="no"/>tia de malo proprio et de malo proximi: sint diuerse species 
+            <lb ed="#V" n="4"/>tristitie: videtur aliquibus quod sic: quia aliam virtutem actiuam in 
+            <lb ed="#V" n="5"/>specie habet malum proprium in mouendo appetitum 
+            sensi<lb ed="#V" n="6" break="no"/>tiuum quam malum proximi. Aliis non improbabiliter videtur 
+            <lb ed="#V" n="7"/>contrarium quia homo non tristatur de malo amici: nisi 
+            inquan<lb ed="#V" n="8" break="no"/>tum apprehenditur vt aliquo modo pertinens ad bonum 
+            <lb ed="#V" n="9"/>proprium. Unde philosophus. 9. Ethi. c. 2. Ut ad se ipsum habet se 
+            <lb ed="#V" n="10"/>studiosus: et ad amicum sic se habet alter enim ipse amicus est. 
+            <lb ed="#V" n="11"/>Cum ergo christus: omnes homines diligere non erat in 
+            appetitu<lb ed="#V" n="12" break="no"/>tius sensitiuo passio tristitie de malo eorum: nisi 
+            inquan<lb ed="#V" n="13" break="no"/>tum apprehendebatur vt aliquo modo pertinens ad 
+            ip<lb ed="#V" n="14" break="no"/>sum mediante amato: et secundum hoc patet. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e361">
+            <lb ed="#V" n="15"/>Respondeo ad primum argumentum ad 
+            par<lb ed="#V" n="16" break="no"/>tem primam.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e368">
+            ¶ Ad secundum dicendumque 
+            <lb ed="#V" n="17"/>quamuis in christo fuerit tedium: non tedium prouentens ex 
+            <lb ed="#V" n="18"/>superabundantia tristitie ex tristitia moderata: et ad 
+            im<lb ed="#V" n="19" break="no"/>perium rationis. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g36139-Dd1e378">
+          <head xml:id="kzz7yh-g36139-Hd1e380">Quaestio 3</head>
+          <head type="question-title">utrum passio timoris.</head>
+          <p xml:id="kzz7yh-g36139-d1e382">
+            Questio. III. 
+            <lb ed="#V" n="20"/>Ertio queritur: vtrum in im christi fuerit 
+            <lb ed="#V" n="21"/>passio timoris et videtur quod non prima. 
+            <lb ed="#V" n="22"/>Io. 4. Perfecta charitas foras mittit timorem 
+            <lb ed="#V" n="23"/>sed in anima christi fuit perfecta charitas. ergo in ea 
+            <lb ed="#V" n="24"/>nullius fuit timor.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e395">
+            ¶ Item secundum <ref>philosophum. 2. Topi.</ref> Idem est 
+            <lb ed="#V" n="25"/>susceptibile contrariorum: sed timor et audacia sunt conria: sed 
+            <lb ed="#V" n="26"/>non legitur quod in christo fuerit audacia. ergo nec in eo fuit 
+            <lb ed="#V" n="27"/>timor.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e404">
+            ¶ Item timor est ex apprehensione futuri 
+            mali<lb ed="#V" n="28" break="no"/>ardui: sed apprehensio sensitiua: non est respectu mali 
+            fu<lb ed="#V" n="29" break="no"/>turi: quia secundum philosophum. 2. de anima. Apprehensiua sensitiua exterior 
+            <lb ed="#V" n="30"/>non apprehendit nisi in praesentia sensibilium: et secundum eundem 
+            <lb ed="#V" n="31"/>inferius eodem libro. Apprehensiua interior mouetur post 
+            <lb ed="#V" n="32"/>sensum in actu. ergo in appetitu sensitiuo christi non potuit 
+            <lb ed="#V" n="33"/>esse passio timoris.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e420">
+            ¶ Item timor non est respectu 
+            mali<lb ed="#V" n="34" break="no"/>de proximo et infallibiliter imminentis: sed tristitia: vt visum 
+            <lb ed="#V" n="35"/>est in quaestione precedenti. Sed christus apprehendebat 
+            passio<lb ed="#V" n="36" break="no"/>nem suam: vt de proximo et infallibiliter imminente. ergo 
+            re<lb ed="#V" n="37" break="no"/>spectu passionis sue: non fuit in eo passio timoris: sed 
+            tri<lb ed="#V" n="38" break="no"/>stitie tantum.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e434">
+            ¶ Item segnities impedit operationem: sed 
+            nul<lb ed="#V" n="39" break="no"/>la passio fuit in christo suam operationem impediens. Cum 
+            <lb ed="#V" n="40"/>ergo secundum Damas. libro 2. c. 28 Segnities sit vna species timoris 
+            <lb ed="#V" n="41"/>videtur quod in christo non fuerit amoris passio. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e443">
+            <lb ed="#V" n="42"/>Contra. Mar. 14 dicitur de christuo quod pauere cepit et 
+            tede<lb ed="#V" n="43" break="no"/>re.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e450">
+            ¶ Item secundum philosophum. 3. Ethi. c. 9. 
+            Terribi<lb ed="#V" n="44" break="no"/>lissimum est mors: ergo cum christus mortem futuram 
+            appre<lb ed="#V" n="45" break="no"/>henderet: et timor sit respectu mali futuri terribilis 
+            sequi<lb ed="#V" n="46" break="no"/>tur quod in eo fuerit timor. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e459">
+            <lb ed="#V" n="47"/>Respondeo quod t appetitu sensitiuo ale christi fuit 
+            <lb ed="#V" n="48"/>passio timoris ex apprehensione 
+            <lb ed="#V" n="49"/>enim mali ardui non praesentis: quod non est necessarium euentus 
+            <lb ed="#V" n="50"/>de propinquo: tamen est possibile quod non potest sine difficultate 
+            vita<lb ed="#V" n="51" break="no"/>ritoritur in appetitu sensitiuo passio timoris. respectu enim 
+            <lb ed="#V" n="52"/>boni non est timor. nec respectu mali modici: quod quasi 
+            nul<lb ed="#V" n="53" break="no"/>lius est ponederis: nec respectu mali praesentis: sed respectu eius 
+            <lb ed="#V" n="54"/>est tristitia: nec respectu mali: quod est necessarium euenire de 
+            pro<lb ed="#V" n="55" break="no"/>pinquo: quia illud apprehenditur per quandam 
+            equiualen<lb ed="#V" n="56" break="no"/>tiam: quasi vt prius: et ideo respectu eius est tristitia: vt 
+            <lb ed="#V" n="57"/>in precedenti quaestione dictum est: nec respectu mali 
+            possibi<lb ed="#V" n="58" break="no"/>lis euenire: quod cum facillime potest vitari respectu est mali 
+            <lb ed="#V" n="59"/>quod valde longe est: non est passio timoris: aut est modica. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e490">
+            <lb ed="#V" n="60"/>¶ Unde secundum philosophum 2. Rheto. Que valde longe sunt: non 
+            ti<lb ed="#V" n="61" break="no"/>mentur: sciuut tamen omnes quod morientur: sed quia non prope: nihil 
+            <lb ed="#V" n="62"/>curant: supple nisi propter imaginationem magnitudinis 
+            ma<lb ed="#V" n="63" break="no"/>li. Magnitudo enim mali et eius irremediabilitas si 
+            euene<lb ed="#V" n="64" break="no"/>rit: si fortiter imaginentur recompensant quandoque euentus 
+            ma<lb ed="#V" n="65" break="no"/>li propinquitatem in causando timorem: quamuis autem christus per 
+            <lb ed="#V" n="66"/>diuinam potentiam mortem potuisset euadere faciliter 
+            <lb ed="#V" n="67"/>tamen si fuisset humane relictus potentie: et sue naturali 
+            vir<lb ed="#V" n="68" break="no"/>tuti: illam nisi cum difficultate declinare non votuisset. 
+            <!--00115.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>Placult autem diuine voluntati: et etiam voluntati 
+            delibe<lb ed="#V" n="70" break="no"/>ratiue anime christi: vt appetitus sensitiuus christi secundum suam naturam 
+            <lb ed="#V" n="71"/>moderate moueretur: et ideo ex apprehensidne mortis 
+            fu<lb ed="#V" n="72" break="no"/>ture: orta suit in appetitu sensitiuo anime christi passio timoris 
+            <lb ed="#V" n="73"/>non contra imperium: nec preter imperium rationis: nec est 
+            <lb ed="#V" n="74"/>de necessitate: quia christus si voluisset: se potuisset 
+            pre<lb ed="#V" n="75" break="no"/>seruare a passione timoris. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e532">
+            <lb ed="#V" n="76"/>Ad primum in oppositum dicendum quod timor 
+            dupli<lb ed="#V" n="77" break="no"/>citer potest accipi: vno modo pro 
+            ha<lb ed="#V" n="78" break="no"/>bitu vitii contrario fortitudini quod secundum philosophum. 3. Ethi. c. 9. voca 
+            <lb ed="#V" n="79"/>ri potest timiditas. Alio modo pro passione timoris modi 
+            <lb ed="#V" n="80"/>ficata. Primo modo loquitur beatus Ioan. de timore in 
+            <lb ed="#V" n="81"/>auctoritate preallegata.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e549">
+            ¶ Ad secundum dicendum quod in christo legitur fuisse 
+            <lb ed="#V" n="82"/>non factum audacie: quia nomen audacie accipitur pro ex 
+            <lb ed="#V" n="83"/>cessu audendi: qui vitium est: sed factum fortitudinis 
+            pas<lb ed="#V" n="84" break="no"/>sionem audacie modificantis: vt patet Io. 2. Cum eiecit 
+            ven<lb ed="#V" n="85" break="no"/>dentes et ementes oues et boues et columbas de templo. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e560">
+            <lb ed="#V" n="86"/>¶ Ad tertium dicendum quod sensitiua interior scilicet estimatiua per 
+            <lb ed="#V" n="87"/>ea que cadunt sub sensu potest apprehendere aliquid 
+            futu<lb ed="#V" n="88" break="no"/>rum propinquum tamen: sicut videmus: quod potest 
+            apprehende<lb ed="#V" n="89" break="no"/>re intentionem que non cecidit sub aliquo particulari 
+            sen<lb ed="#V" n="90" break="no"/>su per ea que cadunt sub particulari sensu: quod patet in hoc: 
+            <lb ed="#V" n="91"/>quod ouis apprehendit inimicitias in lupo quamuis eas numquam 
+            <lb ed="#V" n="92"/>apprehenderit per aliquem particularem sensum secundum 
+            Aui<lb ed="#V" n="93" break="no"/>cen. 6 naturalium libro 4. c. 1. Uidemus etiam formicas imminente 
+            <lb ed="#V" n="94"/>pluuia portare granum in cauernam: in quo videtur quod per ex 
+            <lb ed="#V" n="95"/>timatiuam apprehendunt pluuiam futuram. Canis etiam 
+            <lb ed="#V" n="96"/>cum leuatur baculus timet percussionem futuram et fugit. 
+            <lb ed="#V" n="97"/>Uel potest dici quod appetitus sensibilis moueri potest ex 
+            appre<lb ed="#V" n="98" break="no"/>hensione rationis mediante imaginatione: inquantum per 
+            <lb ed="#V" n="99"/>actum rationis fit impressio imaginatione per virium 
+            colligan<lb ed="#V" n="100" break="no"/>tiam naturalem: et per hunc modum: quando ratio christi praeuidebat 
+            lesio<lb ed="#V" n="101" break="no"/>nem sui corporis fiebat impressio lesiui in imaginatione: et 
+            <lb ed="#V" n="102"/>ex consequenti mouebatur timore sensibilis appetitus.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e599">
+            ¶ Ad 4o 
+            <lb ed="#V" n="103"/>dicendum quod vt iam dictum est timor non fuit in christo: nisi ad 
+            <lb ed="#V" n="104"/>imperium rationis. Nam appetitus sensitiui est moueri post 
+            sen<lb ed="#V" n="105" break="no"/>sitiuam apprehensionem: et ideo vt in appetitu sensitiuo 
+            <lb ed="#V" n="106"/>posset esse timoris passio ratio imperabat sensitiue 
+            interio<lb ed="#V" n="107" break="no"/>ri: vt in apprehendendo passionem futuram moueretur: sicut 
+            <lb ed="#V" n="108"/>fuisset mota relicta sue naturali virtuti: et ideo in 
+            apprehen<lb ed="#V" n="109" break="no"/>dendo eam: quandoque actu non imaginabatur infallibilitatem futuri 
+            <lb ed="#V" n="110"/>tionis ipsius. Uel potest dici quod respectu mali futuri de 
+            pro<lb ed="#V" n="111" break="no"/>pinquo imminentis infallibiliter: non per absolutam 
+            necessi<lb ed="#V" n="112" break="no"/>tatem: sed per ipsiusmet hominis voluntatem potest esse timor in 
+            <lb ed="#V" n="113"/>appetitu sensitiuo. Unde in appetitu sensitiuo hominis: qui 
+            <lb ed="#V" n="114"/>firmiter vult secari propter aliquam vtilitatem oritur in 
+            appe<lb ed="#V" n="115" break="no"/>titu sensitiuo timoris passio de futura secatione.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e630">
+            ¶ Ad 
+            <lb ed="#V" n="116"/>quintum dicendum quod secundum Damas. libro 2. c. 14. Sex sunt species 
+            <lb ed="#V" n="117"/>timoris scilicet segnities que est timor de arduo malo pene 
+            bo<lb ed="#V" n="118" break="no"/>ne operationi annexo: pro quo operatio omittitur: et 
+            eru<lb ed="#V" n="119" break="no"/>bescentia: que est timor de conuicio pro turpori actu 
+            committen<lb ed="#V" n="120" break="no"/>do: et verecundia que est timor vituperii pro turpi actu iam 
+            <lb ed="#V" n="121"/>commisso. Et admiratio que timor ex imaginatione 
+            magni<lb ed="#V" n="122" break="no"/>mali: cuius causam ille qui timet considerare non sufficit et 
+            stu<lb ed="#V" n="123" break="no"/>por: qui est timor ex imaginatione mali insueti et agonia: 
+            <lb ed="#V" n="124"/>que est timor infortunii: hoc est mali futuri: quod homo 
+            preui<lb ed="#V" n="125" break="no"/>dere non potest: sed segnities et stupor videntur esse species 
+            super<lb ed="#V" n="126" break="no"/>abundantie timoris. Si tamen proprie loquendo species dici 
+            de<lb ed="#V" n="127" break="no"/>bent: quia vtrum sint species superabundantie timoris proprie 
+            di<lb ed="#V" n="128" break="no"/>cte: vel partes in modo dubium est: quia in christo non fuit 
+            ali<lb ed="#V" n="129" break="no"/>qua timoris superabundantia: ideo in christo non fuit aliquod 
+            pre<lb ed="#V" n="130" break="no"/>dictorum. Alii autem quatuor timores pesupponunt vel 
+            in<lb ed="#V" n="131" break="no"/>cludunt defectus: qui in christo esse non poterant. non enim 
+            po<lb ed="#V" n="132" break="no"/>terant committere turpem actum: nec in ipso esse poterat 
+            <lb ed="#V" n="133"/>insufficientia considerandi causam cuiuscumque mali: quantuncumque 
+            <lb ed="#V" n="134"/>magni quodcumque etiam futurum preuidebat. Unde alio modo 
+            <lb ed="#V" n="135"/>accipitur agonia Luc 22. Ubi dicitur de christo quod factus in agionia 
+            <lb ed="#V" n="136"/>prolixius orabat quam hic. Ibi enim accipitur agonia pro certamine 
+            <!--00116.xml-->
+            <pb ed="#V" n="52-v"/>
             <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g36139"><!-- l3d15a3 -->
-            <head xml:id="kzz7yh-g36139-Hd1e101">Articulus 3</head>
-            <p xml:id="kzz7yh-g36139-d1e103">
-               <lb ed="#V" n="62"/>COnsequenter queritur de 
-      ter<lb ed="#V" n="63" break="no"/>tio principali: et 
-      <lb ed="#V" n="64"/>circa hoc queruntur quatuor.
-   </p>
-            <p xml:id="kzz7yh-g36139-d1e112">
-      ¶ Primo vtrum 
-      <lb ed="#V" n="65"/>in anima christi fuerit passio tristitie.
-   </p>
-            <p xml:id="kzz7yh-g36139-d1e117">
-      ¶ 
-      Se<lb ed="#V" n="66" break="no"/>cundo vtrum in christo fuerit vna species tristitie tantum. 
-   </p>
-            <p xml:id="kzz7yh-g36139-d1e122">
-               <lb ed="#V" n="67"/>¶ Tertio vtrum passio timoris.
-   </p>
-            <p xml:id="kzz7yh-g36139-d1e128">
-      ¶ Quarto vtrum 
-      pas<lb ed="#V" n="68" break="no"/>so ire.
-   </p>
-            <div xml:id="kzz7yh-g36139-Dd1e133">
-               <head xml:id="kzz7yh-g36139-Hd1e135">Quaestio 1</head>
-               <head type="question-title">utrum in anima christi fuerit passio tristitie.</head>
-               <p xml:id="kzz7yh-g36139-d1e137">
-      Quaestio I.
-      <!--00114.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>PRimo ostendo quod iim christi onfuit passio 
-      <lb ed="#V" n="70"/>tristicie: quia secundum sapientem in 
-      <ref>Eccl.<lb ed="#V" n="71" break="no"/>c. 3.</ref> In tristicia non est vtilitas: sed in anima christi: 
-      <lb ed="#V" n="72"/>nulla fuit passio: nisi vtilis: ergo passio tristitie 
-      <lb ed="#V" n="73"/>non fuit in eo.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e155">
-      ¶ Item <ref>Isa. 24.</ref> praedictum fuit de christo. Quod non 
-      <lb ed="#V" n="74"/>erit tristis neque turbulentus.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e160">
-      ¶ Item <ref>philosophus. 3.topi.</ref>  Eadem 
-      <lb ed="#V" n="75"/>sunt magis eligenda sine tristitia quam cum tristitia. Sed christus 
-      <lb ed="#V" n="76"/>optime sciuit eligere. ergo magis voluit redimere genus 
-      <lb ed="#V" n="77"/>humanum sine tristitia quam cum tristitia. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e169">
-                  <lb ed="#V" n="78"/>Contra de christus dicitur Math. 26 quod cepit contristari: et 
-      <lb ed="#V" n="79"/>mestus esse.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e177">
-      ¶ Item <ref>Luc. 19.</ref> de christo dicitur quod 
-      vi<lb ed="#V" n="80" break="no"/>dens ciuitatem fleuit super illam: sed fletus signum est 
-      <lb ed="#V" n="81"/>tristitie. ergo videtur quod fuerit tristis. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e184">
-                  <lb ed="#V" n="82"/>Respondeo quo  christi suit passio tristitie. 
-      Si<lb ed="#V" n="83" break="no"/>cut enim ex coniunctionis rei amate cum 
-      <lb ed="#V" n="84"/>apprehensione eiusdem causatur in appetitu passio 
-      delectatio<lb ed="#V" n="85" break="no"/>nis: sic ex coniunctione rei edite cum apprehensione eiusdem 
-      <lb ed="#V" n="86"/>causatur in appetitu passio tristitie et quod res de proximo et 
-      cer<lb ed="#V" n="87" break="no"/>titudinaliter futura consideratur quasi iam praesens propter euentus 
-      <lb ed="#V" n="88"/>instantem propinquitatem et infallibilitatem: ideo non solu respectu 
-      <lb ed="#V" n="89"/>rei odite: cum est poesens. Sed est respectu rei odite infallibiliter 
-      <lb ed="#V" n="90"/>et de proximo venture: est passio tristitie. Unde secundum philosophum in 2. 
-      <lb ed="#V" n="91"/>Rheto. Illi qui iam decapitantur non timent videntes sibi 
-      <lb ed="#V" n="92"/>necessitatem mortis imminere: sed tristantur: et ideo quia sensualitas 
-      <lb ed="#V" n="93"/>anime christi mortem recusabat: vt inferius ostendetur cum 
-      apprehen<lb ed="#V" n="94" break="no"/>dit ipsam: vt de proximo et infallibliter venturam: canata fuit in 
-      <lb ed="#V" n="95"/>eius appetitum sensitiuo passio tristitie. Unde imminente 
-      pas<lb ed="#V" n="96" break="no"/>sione dixit: tristis est anima mea vsque ad mortem. Aliter tamen fuit in 
-      <lb ed="#V" n="97"/>eo tristitia quam in nobis. In nobis enim frequenter causatur contra 
-      <lb ed="#V" n="98"/>imperium et praeter imperium rationis. In christo autem non fuit nisi ad 
-      <lb ed="#V" n="99"/>imperium rationis: que imperabat sensualitatem tristari 
-      modera<lb ed="#V" n="100" break="no"/>te secundum exigentiam sue nature. et ideo in ipso non fuit tristitia rationem 
-      <lb ed="#V" n="101"/>peruertens: neque conturbans: nec de necessitate ido 
-    </p>
-               <p xml:id="kzz7yh-g36139-d1e230">
-                  <lb ed="#V" n="102"/>Ad primum et secundum dicendum quod ille due aucotes 
-                  in<lb ed="#V" n="103" break="no"/>telligende sunt de tristitia: que est 
-      <lb ed="#V" n="104"/>contra imperium rationis: et similiter dicendum est ad 
-      au<lb ed="#V" n="105" break="no"/>ctoritatem philosophi sumptam de. 3. topi. 
-    </p>
-            </div>
-            <div xml:id="kzz7yh-g36139-Dd1e242">
-               <head xml:id="kzz7yh-g36139-Hd1e244">Quaestio 2</head>
-               <head type="question-title">utrum in christo fuerit una species tristitie tantum.</head>
-               <p xml:id="kzz7yh-g36139-d1e246">
-      Quaestio II. 
-      <lb ed="#V" n="106"/>SEcundo queritur vtrum fuerit in christo vna 
-      <lb ed="#V" n="107"/>species trist. tie tantum: et videtur quod non: 
-      <lb ed="#V" n="108"/>quia in christo fuit tristitia de proprio malo praeneti: et de 
-      <lb ed="#V" n="109"/>praesenti malo hominum: sed tristitia de malo proprio: et 
-      <lb ed="#V" n="110"/>tristitia de malo alieno non videtur esse eadem species tristitie. 
-      er<lb ed="#V" n="111" break="no"/>go in ipso non fuit vna species tristitie tantum.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e262">
-      ¶ Item in ipso fuit 
-      <lb ed="#V" n="112"/>misericordia: que est tristitia de malo alieno: et acidia que 
-      <lb ed="#V" n="113"/>est tristitia aggrauans. Ut enim dicitur Mar. 14. Cepit Iesus 
-      pa<lb ed="#V" n="114" break="no"/>uere et tedere: cum ergo acidia et miseria sint diuerse 
-      spe<lb ed="#V" n="115" break="no"/>cies tristitie secundum Damas. lib. 2o c. 27. In Christo non fuit 
-      <lb ed="#V" n="116"/>vna species tristitie tantum. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e275">
-                  <lb ed="#V" n="117"/>Contra secundum Dimas. vbi prius. quatuor sunt specieus 
-      tri<lb ed="#V" n="118" break="no"/>stitie: acidia: achaos: inuidia: miseria. Sed. 
-      <lb ed="#V" n="119"/>in christo non fuit inuidia: neque acidia: quia idem est quod 
-      pigri<lb ed="#V" n="120" break="no"/>tia: neque achaos: quia secndum Damas. ibidem. Achaos est tristitia 
-      vo<lb ed="#V" n="121" break="no"/>cem auferens. ergo in christo non fuit nisi illa species tristitie: quae est miseundia. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e288">
-                  <lb ed="#V" n="122"/>Respondeo quod quatuor peaedictarum tristitiarum in 
-      ar<lb ed="#V" n="123" break="no"/>gumento ad partem secundam: quas 
-      Da<lb ed="#V" n="124" break="no"/>mascenus species tristitie vocat extendendo forte nomen speciei 
-      <lb ed="#V" n="125"/>ad partes in modo: que super totum non addunt nisi diffterentiam 
-      acciden<lb ed="#V" n="126" break="no"/>talem: seu applicationem ad materis diuersas quod est accipere 
-      im<lb ed="#V" n="127" break="no"/>proprie non speciei. Una sola fuit in christo scilicet miseria que 
-      accipi<lb ed="#V" n="128" break="no"/>potest et pro habitu: et pro passione: vt ostendetur in. 4. Acidia enim 
-      <lb ed="#V" n="129"/>cum sit tristitia aggrauans: et achaos cum sit tristitia ita 
-      inten<lb ed="#V" n="130" break="no"/>sa vt vocem auferat: sunt superabundantie quedam tristitie. 
-      Su<lb ed="#V" n="131" break="no"/>parabundantia autem tristitie: non fuit in christo. Inuidia etm cum sit 
-      <lb ed="#V" n="132"/>tristitia de bono alieno inquantum apprehenditur vt malum 
-      pro<lb ed="#V" n="133" break="no"/>prium: seu causa proprii mali in christo non fuit: quia illud quod christus 
-      ap<lb ed="#V" n="134" break="no"/>prehendebat vt vere bonum alterius: non apprehendebat 
-      <lb ed="#V" n="135"/>sub ratione: qua proprium malum. Si autem apprehendebat aliquem 
-      <lb ed="#V" n="136"/>habere aliquod temporale bonum nociuum anime habentis et illud christus 
-      appre<pb ed="#V" n="52-r"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>hendebat: vt vere malum illius: et ideo respectu talis 
-      bo<lb ed="#V" n="2" break="no"/>ni erat in christo non inuidia: sed miseicordia. Utrum autem 
-      tristi<lb ed="#V" n="3" break="no"/>tia de malo proprio et de malo proximi: sint diuerse species 
-      <lb ed="#V" n="4"/>tristitie: videtur aliquibus quod sic: quia aliam virtutem actiuam in 
-      <lb ed="#V" n="5"/>specie habet malum proprium in mouendo appetitum 
-      sensi<lb ed="#V" n="6" break="no"/>tiuum quam malum proximi. Aliis non improbabiliter videtur 
-      <lb ed="#V" n="7"/>contrarium quia homo non tristatur de malo amici: nisi 
-      inquan<lb ed="#V" n="8" break="no"/>tum apprehenditur vt aliquo modo pertinens ad bonum 
-      <lb ed="#V" n="9"/>proprium. Unde philosophus. 9. Ethi. c. 2. Ut ad se ipsum habet se 
-      <lb ed="#V" n="10"/>studiosus: et ad amicum sic se habet alter enim ipse amicus est. 
-      <lb ed="#V" n="11"/>Cum ergo christus: omnes homines diligere non erat in 
-      appetitu<lb ed="#V" n="12" break="no"/>tius sensitiuo passio tristitie de malo eorum: nisi 
-      inquan<lb ed="#V" n="13" break="no"/>tum apprehendebatur vt aliquo modo pertinens ad 
-      ip<lb ed="#V" n="14" break="no"/>sum mediante amato: et secundum hoc patet. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e361">
-                  <lb ed="#V" n="15"/>Respondeo ad primum argumentum ad 
-      par<lb ed="#V" n="16" break="no"/>tem primam.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e368">
-      ¶ Ad secundum dicendumque 
-      <lb ed="#V" n="17"/>quamuis in christo fuerit tedium: non tedium prouentens ex 
-      <lb ed="#V" n="18"/>superabundantia tristitie ex tristitia moderata: et ad 
-      im<lb ed="#V" n="19" break="no"/>perium rationis. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g36139-Dd1e378">
-               <head xml:id="kzz7yh-g36139-Hd1e380">Quaestio 3</head>
-               <head type="question-title">utrum passio timoris.</head>
-               <p xml:id="kzz7yh-g36139-d1e382">
-      Questio. III. 
-      <lb ed="#V" n="20"/>Ertio queritur: vtrum in im christi fuerit 
-      <lb ed="#V" n="21"/>passio timoris et videtur quod non prima. 
-      <lb ed="#V" n="22"/>Io. 4. Perfecta charitas foras mittit timorem 
-      <lb ed="#V" n="23"/>sed in anima christi fuit perfecta charitas. ergo in ea 
-      <lb ed="#V" n="24"/>nullius fuit timor.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e395">
-      ¶ Item secundum <ref>philosophum. 2. Topi.</ref> Idem est 
-      <lb ed="#V" n="25"/>susceptibile contrariorum: sed timor et audacia sunt conria: sed 
-      <lb ed="#V" n="26"/>non legitur quod in christo fuerit audacia. ergo nec in eo fuit 
-      <lb ed="#V" n="27"/>timor.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e404">
-      ¶ Item timor est ex apprehensione futuri 
-      mali<lb ed="#V" n="28" break="no"/>ardui: sed apprehensio sensitiua: non est respectu mali 
-      fu<lb ed="#V" n="29" break="no"/>turi: quia secundum philosophum. 2. de anima. Apprehensiua sensitiua exterior 
-      <lb ed="#V" n="30"/>non apprehendit nisi in praesentia sensibilium: et secundum eundem 
-      <lb ed="#V" n="31"/>inferius eodem libro. Apprehensiua interior mouetur post 
-      <lb ed="#V" n="32"/>sensum in actu. ergo in appetitu sensitiuo christi non potuit 
-      <lb ed="#V" n="33"/>esse passio timoris.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e420">
-      ¶ Item timor non est respectu 
-      mali<lb ed="#V" n="34" break="no"/>de proximo et infallibiliter imminentis: sed tristitia: vt visum 
-      <lb ed="#V" n="35"/>est in quaestione precedenti. Sed christus apprehendebat 
-      passio<lb ed="#V" n="36" break="no"/>nem suam: vt de proximo et infallibiliter imminente. ergo 
-      re<lb ed="#V" n="37" break="no"/>spectu passionis sue: non fuit in eo passio timoris: sed 
-      tri<lb ed="#V" n="38" break="no"/>stitie tantum.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e434">
-      ¶ Item segnities impedit operationem: sed 
-      nul<lb ed="#V" n="39" break="no"/>la passio fuit in christo suam operationem impediens. Cum 
-      <lb ed="#V" n="40"/>ergo secundum Damas. libro 2. c. 28 Segnities sit vna species timoris 
-      <lb ed="#V" n="41"/>videtur quod in christo non fuerit amoris passio. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e443">
-                  <lb ed="#V" n="42"/>Contra. Mar. 14 dicitur de christuo quod pauere cepit et 
-      tede<lb ed="#V" n="43" break="no"/>re.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e450">
-      ¶ Item secundum philosophum. 3. Ethi. c. 9. 
-      Terribi<lb ed="#V" n="44" break="no"/>lissimum est mors: ergo cum christus mortem futuram 
-      appre<lb ed="#V" n="45" break="no"/>henderet: et timor sit respectu mali futuri terribilis 
-      sequi<lb ed="#V" n="46" break="no"/>tur quod in eo fuerit timor. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e459">
-                  <lb ed="#V" n="47"/>Respondeo quod t appetitu sensitiuo ale christi fuit 
-      <lb ed="#V" n="48"/>passio timoris ex apprehensione 
-      <lb ed="#V" n="49"/>enim mali ardui non praesentis: quod non est necessarium euentus 
-      <lb ed="#V" n="50"/>de propinquo: tamen est possibile quod non potest sine difficultate 
-      vita<lb ed="#V" n="51" break="no"/>ritoritur in appetitu sensitiuo passio timoris. respectu enim 
-      <lb ed="#V" n="52"/>boni non est timor. nec respectu mali modici: quod quasi 
-      nul<lb ed="#V" n="53" break="no"/>lius est ponederis: nec respectu mali praesentis: sed respectu eius 
-      <lb ed="#V" n="54"/>est tristitia: nec respectu mali: quod est necessarium euenire de 
-      pro<lb ed="#V" n="55" break="no"/>pinquo: quia illud apprehenditur per quandam 
-      equiualen<lb ed="#V" n="56" break="no"/>tiam: quasi vt prius: et ideo respectu eius est tristitia: vt 
-      <lb ed="#V" n="57"/>in precedenti quaestione dictum est: nec respectu mali 
-      possibi<lb ed="#V" n="58" break="no"/>lis euenire: quod cum facillime potest vitari respectu est mali 
-      <lb ed="#V" n="59"/>quod valde longe est: non est passio timoris: aut est modica. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e490">
-                  <lb ed="#V" n="60"/>¶ Unde secundum philosophum 2. Rheto. Que valde longe sunt: non 
-      ti<lb ed="#V" n="61" break="no"/>mentur: sciuut tamen omnes quod morientur: sed quia non prope: nihil 
-      <lb ed="#V" n="62"/>curant: supple nisi propter imaginationem magnitudinis 
-      ma<lb ed="#V" n="63" break="no"/>li. Magnitudo enim mali et eius irremediabilitas si 
-      euene<lb ed="#V" n="64" break="no"/>rit: si fortiter imaginentur recompensant quandoque euentus 
-      ma<lb ed="#V" n="65" break="no"/>li propinquitatem in causando timorem: quamuis autem christus per 
-      <lb ed="#V" n="66"/>diuinam potentiam mortem potuisset euadere faciliter 
-      <lb ed="#V" n="67"/>tamen si fuisset humane relictus potentie: et sue naturali 
-      vir<lb ed="#V" n="68" break="no"/>tuti: illam nisi cum difficultate declinare non votuisset. 
-      <!--00115.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>Placult autem diuine voluntati: et etiam voluntati 
-      delibe<lb ed="#V" n="70" break="no"/>ratiue anime christi: vt appetitus sensitiuus christi secundum suam naturam 
-      <lb ed="#V" n="71"/>moderate moueretur: et ideo ex apprehensidne mortis 
-      fu<lb ed="#V" n="72" break="no"/>ture: orta suit in appetitu sensitiuo anime christi passio timoris 
-      <lb ed="#V" n="73"/>non contra imperium: nec preter imperium rationis: nec est 
-      <lb ed="#V" n="74"/>de necessitate: quia christus si voluisset: se potuisset 
-      pre<lb ed="#V" n="75" break="no"/>seruare a passione timoris. 
-    </p>
-               <p xml:id="kzz7yh-g36139-d1e532">
-                  <lb ed="#V" n="76"/>Ad primum in oppositum dicendum quod timor 
-      dupli<lb ed="#V" n="77" break="no"/>citer potest accipi: vno modo pro 
-      ha<lb ed="#V" n="78" break="no"/>bitu vitii contrario fortitudini quod secundum philosophum. 3. Ethi. c. 9. voca 
-      <lb ed="#V" n="79"/>ri potest timiditas. Alio modo pro passione timoris modi 
-      <lb ed="#V" n="80"/>ficata. Primo modo loquitur beatus Ioan. de timore in 
-      <lb ed="#V" n="81"/>auctoritate preallegata.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e549">
-      ¶ Ad secundum dicendum quod in christo legitur fuisse 
-      <lb ed="#V" n="82"/>non factum audacie: quia nomen audacie accipitur pro ex 
-      <lb ed="#V" n="83"/>cessu audendi: qui vitium est: sed factum fortitudinis 
-      pas<lb ed="#V" n="84" break="no"/>sionem audacie modificantis: vt patet Io. 2. Cum eiecit 
-      ven<lb ed="#V" n="85" break="no"/>dentes et ementes oues et boues et columbas de templo. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e560">
-                  <lb ed="#V" n="86"/>¶ Ad tertium dicendum quod sensitiua interior scilicet estimatiua per 
-      <lb ed="#V" n="87"/>ea que cadunt sub sensu potest apprehendere aliquid 
-      futu<lb ed="#V" n="88" break="no"/>rum propinquum tamen: sicut videmus: quod potest 
-      apprehende<lb ed="#V" n="89" break="no"/>re intentionem que non cecidit sub aliquo particulari 
-      sen<lb ed="#V" n="90" break="no"/>su per ea que cadunt sub particulari sensu: quod patet in hoc: 
-      <lb ed="#V" n="91"/>quod ouis apprehendit inimicitias in lupo quamuis eas numquam 
-      <lb ed="#V" n="92"/>apprehenderit per aliquem particularem sensum secundum 
-      Aui<lb ed="#V" n="93" break="no"/>cen. 6 naturalium libro 4. c. 1. Uidemus etiam formicas imminente 
-      <lb ed="#V" n="94"/>pluuia portare granum in cauernam: in quo videtur quod per ex 
-      <lb ed="#V" n="95"/>timatiuam apprehendunt pluuiam futuram. Canis etiam 
-      <lb ed="#V" n="96"/>cum leuatur baculus timet percussionem futuram et fugit. 
-      <lb ed="#V" n="97"/>Uel potest dici quod appetitus sensibilis moueri potest ex 
-      appre<lb ed="#V" n="98" break="no"/>hensione rationis mediante imaginatione: inquantum per 
-      <lb ed="#V" n="99"/>actum rationis fit impressio imaginatione per virium 
-      colligan<lb ed="#V" n="100" break="no"/>tiam naturalem: et per hunc modum: quando ratio christi praeuidebat 
-      lesio<lb ed="#V" n="101" break="no"/>nem sui corporis fiebat impressio lesiui in imaginatione: et 
-      <lb ed="#V" n="102"/>ex consequenti mouebatur timore sensibilis appetitus.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e599">
-      ¶ Ad 4o 
-      <lb ed="#V" n="103"/>dicendum quod vt iam dictum est timor non fuit in christo: nisi ad 
-      <lb ed="#V" n="104"/>imperium rationis. Nam appetitus sensitiui est moueri post 
-      sen<lb ed="#V" n="105" break="no"/>sitiuam apprehensionem: et ideo vt in appetitu sensitiuo 
-      <lb ed="#V" n="106"/>posset esse timoris passio ratio imperabat sensitiue 
-      interio<lb ed="#V" n="107" break="no"/>ri: vt in apprehendendo passionem futuram moueretur: sicut 
-      <lb ed="#V" n="108"/>fuisset mota relicta sue naturali virtuti: et ideo in 
-      apprehen<lb ed="#V" n="109" break="no"/>dendo eam: quandoque actu non imaginabatur infallibilitatem futuri 
-      <lb ed="#V" n="110"/>tionis ipsius. Uel potest dici quod respectu mali futuri de 
-      pro<lb ed="#V" n="111" break="no"/>pinquo imminentis infallibiliter: non per absolutam 
-      necessi<lb ed="#V" n="112" break="no"/>tatem: sed per ipsiusmet hominis voluntatem potest esse timor in 
-      <lb ed="#V" n="113"/>appetitu sensitiuo. Unde in appetitu sensitiuo hominis: qui 
-      <lb ed="#V" n="114"/>firmiter vult secari propter aliquam vtilitatem oritur in 
-      appe<lb ed="#V" n="115" break="no"/>titu sensitiuo timoris passio de futura secatione.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e630">
-      ¶ Ad 
-      <lb ed="#V" n="116"/>quintum dicendum quod secundum Damas. libro 2. c. 14. Sex sunt species 
-      <lb ed="#V" n="117"/>timoris scilicet segnities que est timor de arduo malo pene 
-      bo<lb ed="#V" n="118" break="no"/>ne operationi annexo: pro quo operatio omittitur: et 
-      eru<lb ed="#V" n="119" break="no"/>bescentia: que est timor de conuicio pro turpori actu 
-      committen<lb ed="#V" n="120" break="no"/>do: et verecundia que est timor vituperii pro turpi actu iam 
-      <lb ed="#V" n="121"/>commisso. Et admiratio que timor ex imaginatione 
-      magni<lb ed="#V" n="122" break="no"/>mali: cuius causam ille qui timet considerare non sufficit et 
-      stu<lb ed="#V" n="123" break="no"/>por: qui est timor ex imaginatione mali insueti et agonia: 
-      <lb ed="#V" n="124"/>que est timor infortunii: hoc est mali futuri: quod homo 
-      preui<lb ed="#V" n="125" break="no"/>dere non potest: sed segnities et stupor videntur esse species 
-      super<lb ed="#V" n="126" break="no"/>abundantie timoris. Si tamen proprie loquendo species dici 
-      de<lb ed="#V" n="127" break="no"/>bent: quia vtrum sint species superabundantie timoris proprie 
-      di<lb ed="#V" n="128" break="no"/>cte: vel partes in modo dubium est: quia in christo non fuit 
-      ali<lb ed="#V" n="129" break="no"/>qua timoris superabundantia: ideo in christo non fuit aliquod 
-      pre<lb ed="#V" n="130" break="no"/>dictorum. Alii autem quatuor timores pesupponunt vel 
-      in<lb ed="#V" n="131" break="no"/>cludunt defectus: qui in christo esse non poterant. non enim 
-      po<lb ed="#V" n="132" break="no"/>terant committere turpem actum: nec in ipso esse poterat 
-      <lb ed="#V" n="133"/>insufficientia considerandi causam cuiuscumque mali: quantuncumque 
-      <lb ed="#V" n="134"/>magni quodcumque etiam futurum preuidebat. Unde alio modo 
-      <lb ed="#V" n="135"/>accipitur agonia Luc 22. Ubi dicitur de christo quod factus in agionia 
-      <lb ed="#V" n="136"/>prolixius orabat quam hic. Ibi enim accipitur agonia pro certamine 
-      <!--00116.xml-->
-      <pb ed="#V" n="52-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>mentis inquantum mortem quam appetitus sensitiuus 
-      refugie<lb ed="#V" n="2" break="no"/>bat voluntas deliberatiua volebat. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g36139-Dd1e690">
-               <head xml:id="kzz7yh-g36139-Hd1e692">Quaestio 4</head>
-               <head type="question-title">utrum anima christi fuerit passio ire.</head>
-               <p xml:id="kzz7yh-g36139-d1e694">
-      Quaestido IIII 
-      <lb ed="#V" n="3"/>QUarto queritur: vtrum anima christi fuerit 
-      pas<lb ed="#V" n="4" break="no"/>sio ire: et videtur quod non secundum Augu. 9. 
-      <lb ed="#V" n="5"/>de ci. c. 8. Perturbatio passionum a sapientibus 
-      <lb ed="#V" n="6"/>et bonis ita regitur: vt malint eam non habere quam 
-      vin<lb ed="#V" n="7" break="no"/>cere. Sed dicit Grego. libro 5. moralis parum ante finem. 
-      Ira<lb ed="#V" n="8" break="no"/>per zelum sapientes turbat. ergo cum christus fuerit 
-      sapien<lb ed="#V" n="9" break="no"/>tissimus: et optimus maluit eam non habere quam vincere. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e712">
-                  <lb ed="#V" n="10"/>¶ Item ira est appetitus doloris illius: qui contrariatus est 
-      ira<lb ed="#V" n="11" break="no"/>to. vnde dicit philosophus I de anima quod ira est appetitus contrarii 
-      dolo<lb ed="#V" n="12" break="no"/>ris. Sed christus numquam appetiuit dolorem illorum: qui sibi 
-      iniuria<lb ed="#V" n="13" break="no"/>bantur: immo pro ipsis rogabat patrem: vt eis dimitteretur 
-      iniu<lb ed="#V" n="14" break="no"/>ria: vt habetur Luc 23 ergo in ipso numquam fuit ira.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e725">
-      ¶ Item 
-      <lb ed="#V" n="15"/><ref>Damas. li. 2. c. 15.</ref> Species ire sunt tres: ira que vocatur fel: et 
-      <lb ed="#V" n="16"/>mania et totus furor: sed christus numquam fuit felleus: nec 
-      mania<lb ed="#V" n="17" break="no"/>cus nec furiosus. ergo in christo nunquam fuit ira. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e734">
-                  <lb ed="#V" n="18"/>Contra in christo fuit ira per delum: vt patet Io. 2. quando 
-      <lb ed="#V" n="19"/>eiecit vendentes et ementes de templo: et 
-      <lb ed="#V" n="20"/>nummulariorum effudit es et mensas subuertit.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e744">
-      ¶ Item illud 
-      <lb ed="#V" n="21"/>quod ammonetur hominibus tamquam bonum in christo fuit multo excellem 
-      <lb ed="#V" n="22"/>tius quam in aliis hominibus: sed irasci sine peccato suadetur hominibus 
-      <lb ed="#V" n="23"/>vnde psal. Irascimini et nolite peccare. ergo in christo fuit 
-      <lb ed="#V" n="24"/>talis ira multo excellentius quam in aliis hominibus. 
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e755">
-                  <lb ed="#V" n="25"/>Respondeo quod ira tripliter potest accipi. Uno 
-      mo<lb ed="#V" n="26" break="no"/>do pro superabundantia ire que secundum 
-      <lb ed="#V" n="27"/>philosophum. 4. Ethi. c. 12. dicitur iracundia: et sic ira non fuit in christo: 
-      <lb ed="#V" n="28"/>et sic loquitur de ira Greg. libro 5. moralis non multum longe ante 
-      <lb ed="#V" n="29"/>finem. Cum dicit quod per iram sapientia perditur: vt quid vel 
-      <lb ed="#V" n="30"/>quo ordine sit agendu omnio nesciatur: et cum dicitur ibidem quod 
-      per<lb ed="#V" n="31" break="no"/>iram mansuetudo amittitur. Alio modo pro voluntate 
-      ven<lb ed="#V" n="32" break="no"/>dicandi aliquod maleficium: et sic ira est in appetitu 
-      intellecti<lb ed="#V" n="33" break="no"/>uo: et sic fuit in christo: inquantum homo et in sanctis angelis est et in 
-      <lb ed="#V" n="34"/>deo.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e779">
-      ¶ Tertio modo pro quadam passione appetitus 
-      sensiti<lb ed="#V" n="35" break="no"/>ui insurgente ex appre hensione illate iniurie: vt possibilis 
-      vin<lb ed="#V" n="36" break="no"/>dicari quamuis cum difficultate. Si enim apprehendatur iniuria: 
-      <lb ed="#V" n="37"/>vt non possibilis vindicari non insurgit nisi passio tristitie: 
-      si<lb ed="#V" n="38" break="no"/>enim apprehendatur vt possibilis vindicari absque omni 
-      difficulta<lb ed="#V" n="39" break="no"/>te non insurgit passio ire. quia tunc talis vindicta non 
-      appre<lb ed="#V" n="40" break="no"/>henditur sub ratione ardui. Hoc tertio modo fuit passio in 
-      appe<lb ed="#V" n="41" break="no"/>titu sensitiuo anime christi: ex hoc quod apprehendebat inferri deo 
-      <lb ed="#V" n="42"/>inniuriam a peccatoribus quantum in eis erat que iniuria possibilis 
-      <lb ed="#V" n="43"/>erat vindicari cum difficultate tamen non ex parte dei: sed ex 
-      <lb ed="#V" n="44"/>parte peccatorum rebellium et difficilium ad poenitentie susceptionem et ex parte 
-      <lb ed="#V" n="45"/>nature humane si suis naturalibus relinqueretur: et hic tamen prssio in 
-      <lb ed="#V" n="46"/>christo non fuit contra imperium rationis: nec pter imperium: nec de 
-      ne<lb ed="#V" n="47" break="no"/>cessitate: sed ad imperium voluntatis et secundum ordinem rationis recte. 
-    </p>
-               <p xml:id="kzz7yh-g36139-d1e810">
-                  <lb ed="#V" n="48"/>Ad primum dicendum quod quamuis ira per delum turbet 
-      <lb ed="#V" n="49"/>homines sapientes alios a christo: tamen 
-      <lb ed="#V" n="50"/>christum numquam turbauit: quia sicut dispensatiue sactum fuit: vt 
-      glia<lb ed="#V" n="51" break="no"/>anime christi in corpus: et sensualitatem non redundaret ita 
-      dispen<lb ed="#V" n="52" break="no"/>satiue sactum fuit: vt passio partis sensitiue in nullo rationem 
-      tur<lb ed="#V" n="53" break="no"/>bet. Uel potest dici quod in aliis hominibus a christo: ita per delum in 
-      <lb ed="#V" n="54"/>aliquo turbat rationem ad tempus propter debilitatem intellectus eorum. 
-      <lb ed="#V" n="55"/>In christo autem fuit semper intellectus fortissimus et clarissimus 
-      <lb ed="#V" n="56"/>ita quod per passionem partis sensitiue nullo modo obscurari 
-      po<lb ed="#V" n="57" break="no"/>tuit vel turbari.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e834">
-      ¶ Ad secundum dicendum quod quamuis christus non 
-      appe<lb ed="#V" n="58" break="no"/>teret dolorem illorum qui sibi iniuriabantur sub ratione qua esset 
-      <lb ed="#V" n="59"/>malum eorum bene tamen appetebat eorum poenitentiam sub ratione qua esset 
-      <lb ed="#V" n="60"/>malum eorum bene tamen appetebat eorum punitionem sub ratione qua 
-      <lb ed="#V" n="61"/>esset vindicatiua diuine iniurie. Uel potest dici quod quamuis secundum 
-      <lb ed="#V" n="62"/>voluntatem deliberatiuam: non vellet eorum dolorem absolute: 
-      <lb ed="#V" n="63"/>tamen secundum appetitum sensitiuum: hoc appetebat sub ratione qua 
-      vin<lb ed="#V" n="64" break="no"/>dicatiuus illate iniurie: quia sicut dicit Damas. lib. 3. c. 14. 
-      <lb ed="#V" n="65"/>Diuina voluntas volebat et permittebat carni agere et 
-      pa<lb ed="#V" n="66" break="no"/>ti propria.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e856">
-      ¶ Ad tertium dicendum quod ille tres species quas Damas. 
-      <lb ed="#V" n="67"/>ponit sunt species superabundantie ire: quod patet quia distinguuntur 
-      <lb ed="#V" n="68"/>secundum ea que dant ire aliquod augumentum: quod quidem tripliter con¬ 
-      <!--00116.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>uenit. vno modo ex facilitate ipsius motus: et talis 
-      superabun<lb ed="#V" n="70" break="no"/>dantia ire vocatur fel: quia fel cito accenditur. Alio modo ex parte 
-      <lb ed="#V" n="71"/>tristitie causantis iram que diu in memoria manet: et hec 
-      vo<lb ed="#V" n="72" break="no"/>catur mania: quia mania a manendo dicitur. Tertio modo ex parte 
-      <lb ed="#V" n="73"/>nimietatis vindicte appetite: et hec vocatur furor. 
-      Irascen<lb ed="#V" n="74" break="no"/>tes iracundia primo modo dicta secundum philosophum. 4. Ethi. c. 12. 
-      Di<lb ed="#V" n="75" break="no"/>cuntur acuti: qui irascuntur iracundia secundo modo dicta dicuntur 
-      <lb ed="#V" n="76"/>amari: qui irascuntur iracundia tertio modo dicta dicuntur 
-      diffi<lb ed="#V" n="77" break="no"/>ciles. Superabundantia autem ire non fuit in christo: et ideo nulla 
-      <lb ed="#V" n="78"/>praedictarum specierum fuit in eo.
-   </p>
-               <p xml:id="kzz7yh-g36139-d1e890">
-      ¶ Argumenta ad partem aliam 
-      conce<lb ed="#V" n="79" break="no"/>dantur ratione conclusionis: quamuis secundum non multum valeat ratione forme. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="1"/>mentis inquantum mortem quam appetitus sensitiuus 
+            refugie<lb ed="#V" n="2" break="no"/>bat voluntas deliberatiua volebat. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g36139-Dd1e690">
+          <head xml:id="kzz7yh-g36139-Hd1e692">Quaestio 4</head>
+          <head type="question-title">utrum anima christi fuerit passio ire.</head>
+          <p xml:id="kzz7yh-g36139-d1e694">
+            Quaestido IIII 
+            <lb ed="#V" n="3"/>QUarto queritur: vtrum anima christi fuerit 
+            pas<lb ed="#V" n="4" break="no"/>sio ire: et videtur quod non secundum Augu. 9. 
+            <lb ed="#V" n="5"/>de ci. c. 8. Perturbatio passionum a sapientibus 
+            <lb ed="#V" n="6"/>et bonis ita regitur: vt malint eam non habere quam 
+            vin<lb ed="#V" n="7" break="no"/>cere. Sed dicit Grego. libro 5. moralis parum ante finem. 
+            Ira<lb ed="#V" n="8" break="no"/>per zelum sapientes turbat. ergo cum christus fuerit 
+            sapien<lb ed="#V" n="9" break="no"/>tissimus: et optimus maluit eam non habere quam vincere. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e712">
+            <lb ed="#V" n="10"/>¶ Item ira est appetitus doloris illius: qui contrariatus est 
+            ira<lb ed="#V" n="11" break="no"/>to. vnde dicit philosophus I de anima quod ira est appetitus contrarii 
+            dolo<lb ed="#V" n="12" break="no"/>ris. Sed christus numquam appetiuit dolorem illorum: qui sibi 
+            iniuria<lb ed="#V" n="13" break="no"/>bantur: immo pro ipsis rogabat patrem: vt eis dimitteretur 
+            iniu<lb ed="#V" n="14" break="no"/>ria: vt habetur Luc 23 ergo in ipso numquam fuit ira.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e725">
+            ¶ Item 
+            <lb ed="#V" n="15"/><ref>Damas. li. 2. c. 15.</ref> Species ire sunt tres: ira que vocatur fel: et 
+            <lb ed="#V" n="16"/>mania et totus furor: sed christus numquam fuit felleus: nec 
+            mania<lb ed="#V" n="17" break="no"/>cus nec furiosus. ergo in christo nunquam fuit ira. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e734">
+            <lb ed="#V" n="18"/>Contra in christo fuit ira per delum: vt patet Io. 2. quando 
+            <lb ed="#V" n="19"/>eiecit vendentes et ementes de templo: et 
+            <lb ed="#V" n="20"/>nummulariorum effudit es et mensas subuertit.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e744">
+            ¶ Item illud 
+            <lb ed="#V" n="21"/>quod ammonetur hominibus tamquam bonum in christo fuit multo excellem 
+            <lb ed="#V" n="22"/>tius quam in aliis hominibus: sed irasci sine peccato suadetur hominibus 
+            <lb ed="#V" n="23"/>vnde psal. Irascimini et nolite peccare. ergo in christo fuit 
+            <lb ed="#V" n="24"/>talis ira multo excellentius quam in aliis hominibus. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e755">
+            <lb ed="#V" n="25"/>Respondeo quod ira tripliter potest accipi. Uno 
+            mo<lb ed="#V" n="26" break="no"/>do pro superabundantia ire que secundum 
+            <lb ed="#V" n="27"/>philosophum. 4. Ethi. c. 12. dicitur iracundia: et sic ira non fuit in christo: 
+            <lb ed="#V" n="28"/>et sic loquitur de ira Greg. libro 5. moralis non multum longe ante 
+            <lb ed="#V" n="29"/>finem. Cum dicit quod per iram sapientia perditur: vt quid vel 
+            <lb ed="#V" n="30"/>quo ordine sit agendu omnio nesciatur: et cum dicitur ibidem quod 
+            per<lb ed="#V" n="31" break="no"/>iram mansuetudo amittitur. Alio modo pro voluntate 
+            ven<lb ed="#V" n="32" break="no"/>dicandi aliquod maleficium: et sic ira est in appetitu 
+            intellecti<lb ed="#V" n="33" break="no"/>uo: et sic fuit in christo: inquantum homo et in sanctis angelis est et in 
+            <lb ed="#V" n="34"/>deo.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e779">
+            ¶ Tertio modo pro quadam passione appetitus 
+            sensiti<lb ed="#V" n="35" break="no"/>ui insurgente ex appre hensione illate iniurie: vt possibilis 
+            vin<lb ed="#V" n="36" break="no"/>dicari quamuis cum difficultate. Si enim apprehendatur iniuria: 
+            <lb ed="#V" n="37"/>vt non possibilis vindicari non insurgit nisi passio tristitie: 
+            si<lb ed="#V" n="38" break="no"/>enim apprehendatur vt possibilis vindicari absque omni 
+            difficulta<lb ed="#V" n="39" break="no"/>te non insurgit passio ire. quia tunc talis vindicta non 
+            appre<lb ed="#V" n="40" break="no"/>henditur sub ratione ardui. Hoc tertio modo fuit passio in 
+            appe<lb ed="#V" n="41" break="no"/>titu sensitiuo anime christi: ex hoc quod apprehendebat inferri deo 
+            <lb ed="#V" n="42"/>inniuriam a peccatoribus quantum in eis erat que iniuria possibilis 
+            <lb ed="#V" n="43"/>erat vindicari cum difficultate tamen non ex parte dei: sed ex 
+            <lb ed="#V" n="44"/>parte peccatorum rebellium et difficilium ad poenitentie susceptionem et ex parte 
+            <lb ed="#V" n="45"/>nature humane si suis naturalibus relinqueretur: et hic tamen prssio in 
+            <lb ed="#V" n="46"/>christo non fuit contra imperium rationis: nec pter imperium: nec de 
+            ne<lb ed="#V" n="47" break="no"/>cessitate: sed ad imperium voluntatis et secundum ordinem rationis recte. 
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e810">
+            <lb ed="#V" n="48"/>Ad primum dicendum quod quamuis ira per delum turbet 
+            <lb ed="#V" n="49"/>homines sapientes alios a christo: tamen 
+            <lb ed="#V" n="50"/>christum numquam turbauit: quia sicut dispensatiue sactum fuit: vt 
+            glia<lb ed="#V" n="51" break="no"/>anime christi in corpus: et sensualitatem non redundaret ita 
+            dispen<lb ed="#V" n="52" break="no"/>satiue sactum fuit: vt passio partis sensitiue in nullo rationem 
+            tur<lb ed="#V" n="53" break="no"/>bet. Uel potest dici quod in aliis hominibus a christo: ita per delum in 
+            <lb ed="#V" n="54"/>aliquo turbat rationem ad tempus propter debilitatem intellectus eorum. 
+            <lb ed="#V" n="55"/>In christo autem fuit semper intellectus fortissimus et clarissimus 
+            <lb ed="#V" n="56"/>ita quod per passionem partis sensitiue nullo modo obscurari 
+            po<lb ed="#V" n="57" break="no"/>tuit vel turbari.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e834">
+            ¶ Ad secundum dicendum quod quamuis christus non 
+            appe<lb ed="#V" n="58" break="no"/>teret dolorem illorum qui sibi iniuriabantur sub ratione qua esset 
+            <lb ed="#V" n="59"/>malum eorum bene tamen appetebat eorum poenitentiam sub ratione qua esset 
+            <lb ed="#V" n="60"/>malum eorum bene tamen appetebat eorum punitionem sub ratione qua 
+            <lb ed="#V" n="61"/>esset vindicatiua diuine iniurie. Uel potest dici quod quamuis secundum 
+            <lb ed="#V" n="62"/>voluntatem deliberatiuam: non vellet eorum dolorem absolute: 
+            <lb ed="#V" n="63"/>tamen secundum appetitum sensitiuum: hoc appetebat sub ratione qua 
+            vin<lb ed="#V" n="64" break="no"/>dicatiuus illate iniurie: quia sicut dicit Damas. lib. 3. c. 14. 
+            <lb ed="#V" n="65"/>Diuina voluntas volebat et permittebat carni agere et 
+            pa<lb ed="#V" n="66" break="no"/>ti propria.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e856">
+            ¶ Ad tertium dicendum quod ille tres species quas Damas. 
+            <lb ed="#V" n="67"/>ponit sunt species superabundantie ire: quod patet quia distinguuntur 
+            <lb ed="#V" n="68"/>secundum ea que dant ire aliquod augumentum: quod quidem tripliter con¬ 
+            <!--00116.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>uenit. vno modo ex facilitate ipsius motus: et talis 
+            superabun<lb ed="#V" n="70" break="no"/>dantia ire vocatur fel: quia fel cito accenditur. Alio modo ex parte 
+            <lb ed="#V" n="71"/>tristitie causantis iram que diu in memoria manet: et hec 
+            vo<lb ed="#V" n="72" break="no"/>catur mania: quia mania a manendo dicitur. Tertio modo ex parte 
+            <lb ed="#V" n="73"/>nimietatis vindicte appetite: et hec vocatur furor. 
+            Irascen<lb ed="#V" n="74" break="no"/>tes iracundia primo modo dicta secundum philosophum. 4. Ethi. c. 12. 
+            Di<lb ed="#V" n="75" break="no"/>cuntur acuti: qui irascuntur iracundia secundo modo dicta dicuntur 
+            <lb ed="#V" n="76"/>amari: qui irascuntur iracundia tertio modo dicta dicuntur 
+            diffi<lb ed="#V" n="77" break="no"/>ciles. Superabundantia autem ire non fuit in christo: et ideo nulla 
+            <lb ed="#V" n="78"/>praedictarum specierum fuit in eo.
+          </p>
+          <p xml:id="kzz7yh-g36139-d1e890">
+            ¶ Argumenta ad partem aliam 
+            conce<lb ed="#V" n="79" break="no"/>dantur ratione conclusionis: quamuis secundum non multum valeat ratione forme. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

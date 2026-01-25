@@ -1,380 +1,380 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="19-r"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="19-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g12675"><!-- l3d6a1 -->
+        <head xml:id="kzz7yh-g12675-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-g12675-d1e103">
+          ¶ Circa primum 
+          quaerun<lb ed="#V" n="26" break="no"/>tur tria.
+        </p>
+        <p xml:id="kzz7yh-g12675-d1e108">
+          ¶ Primo vtrum in christo sint duo supposita.
+        </p>
+        <p xml:id="kzz7yh-g12675-d1e110">
+          ¶ 
+          Se<lb ed="#V" n="27" break="no"/>cundo vtrum hic homo demonstrato christo assumptus sitl a filii 
+          <lb ed="#V" n="28"/>dei persona.
+        </p>
+        <p xml:id="kzz7yh-g12675-d1e117">
+          ¶ Tertio vtrum de ratione hominis 
+          christi<lb ed="#V" n="29" break="no"/>sit diuina natura.
+        </p>
+        <div xml:id="kzz7yh-g12675-Dd1e123">
+          <head xml:id="kzz7yh-g12675-Hd1e125">Quaestio 1</head>
+          <p xml:id="kzz7yh-g12675-d1e127">
+            Questio I 
+            <lb ed="#V" n="30"/>Rimo ostendo quod in christo sunt duo 
+            sup<lb ed="#V" n="31" break="no"/>posita. Suppositum est sub alio 
+            <lb ed="#V" n="32"/>positum. Sed inconueniens videtur dicere quod diuinum 
+            <lb ed="#V" n="33"/>suppositum sit positum sub humana natura: cum 
+            <lb ed="#V" n="34"/>sit ea dignius in infinitum: ergo cum supposito diuino est in 
+            <lb ed="#V" n="35"/>christo aliud suppositum sub natura humana positum. ergo 
+            in<lb ed="#V" n="36" break="no"/>christuo sunt duo supposita.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e145">
+            ¶ Item in christo sunt due 
+            subsisten<lb ed="#V" n="37" break="no"/>tie: quia natura humana in christo quum sit singularis subsistit 
+            <lb ed="#V" n="38"/>nature vniversali: quia singularia subsistunt vniversalibus. Persona etiam 
+            <lb ed="#V" n="39"/>filii dei subsistit diuine nature: et humane: sed quilibet 
+            subsisten<lb ed="#V" n="40" break="no"/>tia suppositum est: ergo in christo sunt duo supposita.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e156">
+            ¶ Item 
+            <lb ed="#V" n="41"/>suppositum nature humane: nihil reale addit vltra naturam 
+            <lb ed="#V" n="42"/>humanam. Aliter enim de ratione petri esset aliquod accidens. Idem 
+            <lb ed="#V" n="43"/>est ergo realiter natura humana: et suppositum nature humane. 
+            <lb ed="#V" n="44"/>Cum ergo vere natura humana sit in christo vere in christo est creatum 
+            <lb ed="#V" n="45"/>suppositum nature humane: et si sic in ipso sunt duo supposita scilicet 
+            <lb ed="#V" n="46"/>creatum et increatum.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e172">
+            ¶ Item suppositum nature humane in homine 
+            <lb ed="#V" n="47"/>singulari: non videtur esse aliud realiter quam compositum ex hac anima et 
+            <lb ed="#V" n="48"/>ex hoc corpore: sed in natura humana christi est compositum ex 
+            <lb ed="#V" n="49"/>hac anima: et ex hoc corpore. ergo in christo est creatum 
+            sup<lb ed="#V" n="50" break="no"/>positum nature humane: et si sic in ipso sunt duo supposita. 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e184">
+            <lb ed="#V" n="51"/>Contra. Dam. libro 30 c. 3. dicit: naturam diuinam et 
+            huma<lb ed="#V" n="52" break="no"/>nam vnitas inuicem secundum veritatem in vnam 
+            hy<lb ed="#V" n="53" break="no"/>postasim. Sed vbi non est nisi vna hypostasis: non est nisi 
+            <lb ed="#V" n="54"/>vnum suppositum. ergo in christo non sunt duo supposita.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e195">
+            ¶ Item 
+            <lb ed="#V" n="55"/>quod est vnitum digniori se non habet rationem suppositi. Aliter enim 
+            <lb ed="#V" n="56"/>manus hominis et pes essent in homine duo supposita: sed in christo 
+            <lb ed="#V" n="57"/>nam humana vnita est digniori se: ergo non habet rationem 
+            sup<lb ed="#V" n="58" break="no"/>positi: quod non esset verum si in christo essent duo supposita. 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e206">
+            <lb ed="#V" n="59"/>Respondeo quod in christo non sunt duo supposita: 
+            <lb ed="#V" n="60"/>quamuis enim naurma humana christi sit 
+            sin<lb ed="#V" n="61" break="no"/>gularis et indiuidua: et vna numero et particularis: tamen nec 
+            <lb ed="#V" n="62"/>sibi: nec alicui rei create ipsam habenti conuenit esse 
+            subsi<lb ed="#V" n="63" break="no"/>stentiam: nec rem nature: nec hypostasim: nec suppositum: 
+            <lb ed="#V" n="64"/>nec personam: quamuis aliquo modo possit dici substantia primo taliquo modo 
+            <lb ed="#V" n="65"/>non. Est enim indiuidua inquantum non est praedicabilis de pluribus: 
+            <lb ed="#V" n="66"/>sed de seipsa tantum et est singularis inquantum est signabilis vel 
+            fi<lb ed="#V" n="67" break="no"/>gnata: ita vt possit dici: hic est: et inquantum etiam est ab aliis 
+            <lb ed="#V" n="68"/>diuisa: et vna numero inquantum est indiuisibilis in plures natu¬ 
+            <!--00047.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>ras tales: et est particularis inquantum natura humana non tantum 
+            <lb ed="#V" n="70"/>nata est saluari in ea: sed etiam in naturis suppositorum 
+            crea<lb ed="#V" n="71" break="no"/>torum: vt in natura petri vel pauli: non tamen est subsistentia: quia in se 
+            <lb ed="#V" n="72"/>non existit: nec res nature: quia res nature est aliquid in se 
+            exi<lb ed="#V" n="73" break="no"/>stens habens in se naturam: nec hypostasis: quia hypostasis est res 
+            <lb ed="#V" n="74"/>in se existens habens se ad proprietatem essentialem: sicut suppositam 
+            <lb ed="#V" n="75"/>ad naturam. Unde hypostasis et suppositum sola ratione differre 
+            vi<lb ed="#V" n="76" break="no"/>dentur: ex quo vlterius patet quod natura humana in christo suppositum 
+            <lb ed="#V" n="77"/>non est: quia in se et per se non existit: quod tamen requiritur ad rationem 
+            sup<lb ed="#V" n="78" break="no"/>positi: nec etiam est persona: quia omnis persona est suppositum quamuis 
+            <lb ed="#V" n="79"/>non conuertatur. Et praeterea cum persona dicatur quasi per se sonans: 
+            nul<lb ed="#V" n="80" break="no"/>la res est persona que est vnita digniori se. Aliquo autem modo 
+            <lb ed="#V" n="81"/>potest dici substantia prima inquantum ratio quae conuenit humane nature: 
+            <lb ed="#V" n="82"/>inquantum natura humana est: hoc est nature humane in communi: saluatur 
+            <lb ed="#V" n="83"/>in ea: sicut saluatur in natura petri vel pauli: secundum autem alium 
+            mo<lb ed="#V" n="84" break="no"/>dum substantia prima dici non debet: inquantum scilicet non est in se existens: 
+            <lb ed="#V" n="85"/>nec de ipsa proprie loquendo praedicantur subslantie secunde: que 
+            <lb ed="#V" n="86"/>sunt species et genera: quamuis enim natura humana vere praedicetur de 
+            il<lb ed="#V" n="87" break="no"/>la: tamen homo non praedicatur de illa: quia quamuis hec sit vera christus est homo: 
+            <lb ed="#V" n="88"/>hec tamen non est vera humana natura christi est homo: et sicut secundum Auicen. 5 
+            <lb ed="#V" n="89"/>meta. c. 6 rationabilitas et sensibilitas non sunt differentiae: sed 
+            princi<lb ed="#V" n="90" break="no"/>pia differentiarum que sunt sensibile et rationale: sic proprie loquendo 
+            <lb ed="#V" n="91"/>humanitas vel natura humana non debet dici species: sed homo: nec 
+            <lb ed="#V" n="92"/>etiam dici potest quod sit aliquid creatum habens humanam naturam christi 
+            <lb ed="#V" n="93"/>cui conueniat ee subsistentiam vel rem nature vel hypostasim vel 
+            <lb ed="#V" n="94"/>suppositum vel personam vel substantiam primam simpliciter: quia tunc in illo 
+            <lb ed="#V" n="95"/>existeret humana natura et non in ipso verbo: et ita suppositum 
+            na<lb ed="#V" n="96" break="no"/>ture humane: non esset suppositum nature diuine: nec 
+            econuer<lb ed="#V" n="97" break="no"/>so: nec posset dici quod ille qui deus est: est homo: nec ille qui est 
+            <lb ed="#V" n="98"/>homo: est deus quod falsum est. In christo ergo non est nisi 
+            supposi<lb ed="#V" n="99" break="no"/>tum vnum quod est suppositum vtriusque nature: vnius ab 
+            <lb ed="#V" n="100"/>eterno alterius ex tempore. 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e304">
+            <lb ed="#V" n="101"/>Ad primum cum dicitur: quod suppositum est sub alio 
+            <lb ed="#V" n="102"/>positum et c. dico quod esse sub alio 
+            posi<lb ed="#V" n="103" break="no"/>tum dupliciter potest intelligi: aut secundum quod sonat in inferioritatem: 
+            <lb ed="#V" n="104"/>sicut dicimus quod inferior est positus sub superiori: et sic non est 
+            <lb ed="#V" n="105"/>verum quod suppositum sit idem quod sub alio positum: aut secundum quod 
+            so<lb ed="#V" n="106" break="no"/>nat in dignitatem et virtutem secundum quem modum dicimus: quod 
+            for<lb ed="#V" n="107" break="no"/>tis portans debilem est ei suppositus: et secundum hanc similitudinem 
+            <lb ed="#V" n="108"/>dicitur suppositum esse sub alio positum: quod in ipso substantificatur 
+            <lb ed="#V" n="109"/>et substentatur.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e326">
+            ¶ Ad secundum cum dicitur: quod in christo sunt due substantie etc. 
+            <lb ed="#V" n="110"/>dico quod falsum est. Nulla enim res est subsistentia que non in se 
+            <lb ed="#V" n="111"/>et per se existit.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e333">
+            ¶ Ad 3m dicendum: quod suppositum vltra naturam 
+            <lb ed="#V" n="112"/>dicit rationem in se et per se existendi quod nature non conuenit: 
+            <lb ed="#V" n="113"/>nisi assistente ad hoc influentia cause prime: quae non adest ad 
+            <lb ed="#V" n="114"/>hoc quod humana natura christi in se et per se existat: sed ad hoc 
+            <lb ed="#V" n="115"/>quod subsistat in verbo: et ideo seruata illius nature: et principiorum 
+            <lb ed="#V" n="116"/>suorum integritate: rationem tamen suppositi non habet: sed illius 
+            <lb ed="#V" n="117"/>solum verbum suppositum est.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e350">
+            ¶ Ad 4m dicendum: quod compositum 
+            <lb ed="#V" n="118"/>ex hac anima et ex hoc corpore non est suppositum nisi sit in se et 
+            <lb ed="#V" n="119"/>per se existens: quod non conuenit composito ex anima et corpore 
+            <lb ed="#V" n="120"/>christi propter rationem dictam in solutione argumenti praecedentis.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g12675-Dd1e360">
+          <head xml:id="kzz7yh-g12675-Hd1e362">Quaestio 2</head>
+          <p xml:id="kzz7yh-g12675-d1e364">
+            Quaestio II. 
+            <lb ed="#V" n="121"/>Ecundo quaeritur vtrum hic homo demrato 
+            <lb ed="#V" n="122"/>christo assumptus sit a filii dei 
+            per<lb ed="#V" n="123" break="no"/>sona. Et videtur quod sic: psal. ad deum loquens ait. 
+            <lb ed="#V" n="124"/>Beatus quem elegisti et assumpsisti: sed hoc non videtur 
+            <lb ed="#V" n="125"/>posse intelligi de alio beato nisi de christo. ergo filius dei 
+            as<lb ed="#V" n="126" break="no"/>sumpsit illum hominem qui est christus.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e380">
+            ¶ Item secundum Aug. I. de tri. 
+            <lb ed="#V" n="127"/>c. 6. homo fuit acceptus a verbo dei: sed si assumpsit hominem: 
+            <lb ed="#V" n="128"/>assumpsit aliquem hominem: sed non est dare quem hominem 
+            assum<lb ed="#V" n="129" break="no"/>psit nisi christum. ergo assumpsit hominem christum.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e389">
+            ¶ Item filius 
+            <lb ed="#V" n="130"/>dei est homo: non homo: quem non assumpsit: ergo est homo 
+            <lb ed="#V" n="131"/>quem assumpsit. Cum ergo sit ille homo: qui est christus: 
+            <lb ed="#V" n="132"/>assumpsit illum hominem qui est christus. 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e398">
+            <lb ed="#V" n="133"/>Contra assumens non est assumptum. Nullus enim 
+            <lb ed="#V" n="134"/>potest assumere se ipsum: sed filius dei est ille 
+            <lb ed="#V" n="135"/>homo qui est christus. ergo non assumpsit illum hominem quod 
+            <lb ed="#V" n="136"/>est christus.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e410">
+            ¶ Item vt superius habitum est: filius dei non 
+            <!--00048.xml-->
+            <pb ed="#V" n="19-v"/>
             <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g12675"><!-- l3d6a1 -->
-            <head xml:id="kzz7yh-g12675-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-g12675-d1e103">
-      ¶ Circa primum 
-      quaerun<lb ed="#V" n="26" break="no"/>tur tria.
-   </p>
-            <p xml:id="kzz7yh-g12675-d1e108">
-      ¶ Primo vtrum in christo sint duo supposita.
-   </p>
-            <p xml:id="kzz7yh-g12675-d1e110">
-      ¶ 
-      Se<lb ed="#V" n="27" break="no"/>cundo vtrum hic homo demonstrato christo assumptus sitl a filii 
-      <lb ed="#V" n="28"/>dei persona.
-   </p>
-            <p xml:id="kzz7yh-g12675-d1e117">
-      ¶ Tertio vtrum de ratione hominis 
-      christi<lb ed="#V" n="29" break="no"/>sit diuina natura.
-   </p>
-            <div xml:id="kzz7yh-g12675-Dd1e123">
-               <head xml:id="kzz7yh-g12675-Hd1e125">Quaestio 1</head>
-               <p xml:id="kzz7yh-g12675-d1e127">
-     Questio I 
-      <lb ed="#V" n="30"/>Rimo ostendo quod in christo sunt duo 
-      sup<lb ed="#V" n="31" break="no"/>posita. Suppositum est sub alio 
-      <lb ed="#V" n="32"/>positum. Sed inconueniens videtur dicere quod diuinum 
-      <lb ed="#V" n="33"/>suppositum sit positum sub humana natura: cum 
-      <lb ed="#V" n="34"/>sit ea dignius in infinitum: ergo cum supposito diuino est in 
-      <lb ed="#V" n="35"/>christo aliud suppositum sub natura humana positum. ergo 
-      in<lb ed="#V" n="36" break="no"/>christuo sunt duo supposita.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e145">
-      ¶ Item in christo sunt due 
-      subsisten<lb ed="#V" n="37" break="no"/>tie: quia natura humana in christo quum sit singularis subsistit 
-      <lb ed="#V" n="38"/>nature vniversali: quia singularia subsistunt vniversalibus. Persona etiam 
-      <lb ed="#V" n="39"/>filii dei subsistit diuine nature: et humane: sed quilibet 
-      subsisten<lb ed="#V" n="40" break="no"/>tia suppositum est: ergo in christo sunt duo supposita.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e156">
-      ¶ Item 
-      <lb ed="#V" n="41"/>suppositum nature humane: nihil reale addit vltra naturam 
-      <lb ed="#V" n="42"/>humanam. Aliter enim de ratione petri esset aliquod accidens. Idem 
-      <lb ed="#V" n="43"/>est ergo realiter natura humana: et suppositum nature humane. 
-      <lb ed="#V" n="44"/>Cum ergo vere natura humana sit in christo vere in christo est creatum 
-      <lb ed="#V" n="45"/>suppositum nature humane: et si sic in ipso sunt duo supposita scilicet 
-      <lb ed="#V" n="46"/>creatum et increatum.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e172">
-      ¶ Item suppositum nature humane in homine 
-      <lb ed="#V" n="47"/>singulari: non videtur esse aliud realiter quam compositum ex hac anima et 
-      <lb ed="#V" n="48"/>ex hoc corpore: sed in natura humana christi est compositum ex 
-      <lb ed="#V" n="49"/>hac anima: et ex hoc corpore. ergo in christo est creatum 
-      sup<lb ed="#V" n="50" break="no"/>positum nature humane: et si sic in ipso sunt duo supposita. 
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e184">
-                  <lb ed="#V" n="51"/>Contra. Dam. libro 30 c. 3. dicit: naturam diuinam et 
-      huma<lb ed="#V" n="52" break="no"/>nam vnitas inuicem secundum veritatem in vnam 
-      hy<lb ed="#V" n="53" break="no"/>postasim. Sed vbi non est nisi vna hypostasis: non est nisi 
-      <lb ed="#V" n="54"/>vnum suppositum. ergo in christo non sunt duo supposita.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e195">
-      ¶ Item 
-      <lb ed="#V" n="55"/>quod est vnitum digniori se non habet rationem suppositi. Aliter enim 
-      <lb ed="#V" n="56"/>manus hominis et pes essent in homine duo supposita: sed in christo 
-      <lb ed="#V" n="57"/>nam humana vnita est digniori se: ergo non habet rationem 
-      sup<lb ed="#V" n="58" break="no"/>positi: quod non esset verum si in christo essent duo supposita. 
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e206">
-                  <lb ed="#V" n="59"/>Respondeo quod in christo non sunt duo supposita: 
-      <lb ed="#V" n="60"/>quamuis enim naurma humana christi sit 
-      sin<lb ed="#V" n="61" break="no"/>gularis et indiuidua: et vna numero et particularis: tamen nec 
-      <lb ed="#V" n="62"/>sibi: nec alicui rei create ipsam habenti conuenit esse 
-      subsi<lb ed="#V" n="63" break="no"/>stentiam: nec rem nature: nec hypostasim: nec suppositum: 
-      <lb ed="#V" n="64"/>nec personam: quamuis aliquo modo possit dici substantia primo taliquo modo 
-      <lb ed="#V" n="65"/>non. Est enim indiuidua inquantum non est praedicabilis de pluribus: 
-      <lb ed="#V" n="66"/>sed de seipsa tantum et est singularis inquantum est signabilis vel 
-      fi<lb ed="#V" n="67" break="no"/>gnata: ita vt possit dici: hic est: et inquantum etiam est ab aliis 
-      <lb ed="#V" n="68"/>diuisa: et vna numero inquantum est indiuisibilis in plures natu¬ 
-      <!--00047.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>ras tales: et est particularis inquantum natura humana non tantum 
-      <lb ed="#V" n="70"/>nata est saluari in ea: sed etiam in naturis suppositorum 
-      crea<lb ed="#V" n="71" break="no"/>torum: vt in natura petri vel pauli: non tamen est subsistentia: quia in se 
-      <lb ed="#V" n="72"/>non existit: nec res nature: quia res nature est aliquid in se 
-      exi<lb ed="#V" n="73" break="no"/>stens habens in se naturam: nec hypostasis: quia hypostasis est res 
-      <lb ed="#V" n="74"/>in se existens habens se ad proprietatem essentialem: sicut suppositam 
-      <lb ed="#V" n="75"/>ad naturam. Unde hypostasis et suppositum sola ratione differre 
-      vi<lb ed="#V" n="76" break="no"/>dentur: ex quo vlterius patet quod natura humana in christo suppositum 
-      <lb ed="#V" n="77"/>non est: quia in se et per se non existit: quod tamen requiritur ad rationem 
-      sup<lb ed="#V" n="78" break="no"/>positi: nec etiam est persona: quia omnis persona est suppositum quamuis 
-      <lb ed="#V" n="79"/>non conuertatur. Et praeterea cum persona dicatur quasi per se sonans: 
-      nul<lb ed="#V" n="80" break="no"/>la res est persona que est vnita digniori se. Aliquo autem modo 
-      <lb ed="#V" n="81"/>potest dici substantia prima inquantum ratio quae conuenit humane nature: 
-      <lb ed="#V" n="82"/>inquantum natura humana est: hoc est nature humane in communi: saluatur 
-      <lb ed="#V" n="83"/>in ea: sicut saluatur in natura petri vel pauli: secundum autem alium 
-      mo<lb ed="#V" n="84" break="no"/>dum substantia prima dici non debet: inquantum scilicet non est in se existens: 
-      <lb ed="#V" n="85"/>nec de ipsa proprie loquendo praedicantur subslantie secunde: que 
-      <lb ed="#V" n="86"/>sunt species et genera: quamuis enim natura humana vere praedicetur de 
-      il<lb ed="#V" n="87" break="no"/>la: tamen homo non praedicatur de illa: quia quamuis hec sit vera christus est homo: 
-      <lb ed="#V" n="88"/>hec tamen non est vera humana natura christi est homo: et sicut secundum Auicen. 5 
-      <lb ed="#V" n="89"/>meta. c. 6 rationabilitas et sensibilitas non sunt differentiae: sed 
-      princi<lb ed="#V" n="90" break="no"/>pia differentiarum que sunt sensibile et rationale: sic proprie loquendo 
-      <lb ed="#V" n="91"/>humanitas vel natura humana non debet dici species: sed homo: nec 
-      <lb ed="#V" n="92"/>etiam dici potest quod sit aliquid creatum habens humanam naturam christi 
-      <lb ed="#V" n="93"/>cui conueniat ee subsistentiam vel rem nature vel hypostasim vel 
-      <lb ed="#V" n="94"/>suppositum vel personam vel substantiam primam simpliciter: quia tunc in illo 
-      <lb ed="#V" n="95"/>existeret humana natura et non in ipso verbo: et ita suppositum 
-      na<lb ed="#V" n="96" break="no"/>ture humane: non esset suppositum nature diuine: nec 
-      econuer<lb ed="#V" n="97" break="no"/>so: nec posset dici quod ille qui deus est: est homo: nec ille qui est 
-      <lb ed="#V" n="98"/>homo: est deus quod falsum est. In christo ergo non est nisi 
-      supposi<lb ed="#V" n="99" break="no"/>tum vnum quod est suppositum vtriusque nature: vnius ab 
-      <lb ed="#V" n="100"/>eterno alterius ex tempore. 
-    </p>
-               <p xml:id="kzz7yh-g12675-d1e304">
-                  <lb ed="#V" n="101"/>Ad primum cum dicitur: quod suppositum est sub alio 
-      <lb ed="#V" n="102"/>positum et c. dico quod esse sub alio 
-      posi<lb ed="#V" n="103" break="no"/>tum dupliciter potest intelligi: aut secundum quod sonat in inferioritatem: 
-      <lb ed="#V" n="104"/>sicut dicimus quod inferior est positus sub superiori: et sic non est 
-      <lb ed="#V" n="105"/>verum quod suppositum sit idem quod sub alio positum: aut secundum quod 
-      so<lb ed="#V" n="106" break="no"/>nat in dignitatem et virtutem secundum quem modum dicimus: quod 
-      for<lb ed="#V" n="107" break="no"/>tis portans debilem est ei suppositus: et secundum hanc similitudinem 
-      <lb ed="#V" n="108"/>dicitur suppositum esse sub alio positum: quod in ipso substantificatur 
-      <lb ed="#V" n="109"/>et substentatur.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e326">
-      ¶ Ad secundum cum dicitur: quod in christo sunt due substantie etc. 
-      <lb ed="#V" n="110"/>dico quod falsum est. Nulla enim res est subsistentia que non in se 
-      <lb ed="#V" n="111"/>et per se existit.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e333">
-      ¶ Ad 3m dicendum: quod suppositum vltra naturam 
-      <lb ed="#V" n="112"/>dicit rationem in se et per se existendi quod nature non conuenit: 
-      <lb ed="#V" n="113"/>nisi assistente ad hoc influentia cause prime: quae non adest ad 
-      <lb ed="#V" n="114"/>hoc quod humana natura christi in se et per se existat: sed ad hoc 
-      <lb ed="#V" n="115"/>quod subsistat in verbo: et ideo seruata illius nature: et principiorum 
-      <lb ed="#V" n="116"/>suorum integritate: rationem tamen suppositi non habet: sed illius 
-      <lb ed="#V" n="117"/>solum verbum suppositum est.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e350">
-      ¶ Ad 4m dicendum: quod compositum 
-      <lb ed="#V" n="118"/>ex hac anima et ex hoc corpore non est suppositum nisi sit in se et 
-      <lb ed="#V" n="119"/>per se existens: quod non conuenit composito ex anima et corpore 
-      <lb ed="#V" n="120"/>christi propter rationem dictam in solutione argumenti praecedentis.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g12675-Dd1e360">
-               <head xml:id="kzz7yh-g12675-Hd1e362">Quaestio 2</head>
-               <p xml:id="kzz7yh-g12675-d1e364">
-      Quaestio II. 
-      <lb ed="#V" n="121"/>Ecundo quaeritur vtrum hic homo demrato 
-      <lb ed="#V" n="122"/>christo assumptus sit a filii dei 
-      per<lb ed="#V" n="123" break="no"/>sona. Et videtur quod sic: psal. ad deum loquens ait. 
-      <lb ed="#V" n="124"/>Beatus quem elegisti et assumpsisti: sed hoc non videtur 
-      <lb ed="#V" n="125"/>posse intelligi de alio beato nisi de christo. ergo filius dei 
-      as<lb ed="#V" n="126" break="no"/>sumpsit illum hominem qui est christus.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e380">
-      ¶ Item secundum Aug. I. de tri. 
-      <lb ed="#V" n="127"/>c. 6. homo fuit acceptus a verbo dei: sed si assumpsit hominem: 
-      <lb ed="#V" n="128"/>assumpsit aliquem hominem: sed non est dare quem hominem 
-      assum<lb ed="#V" n="129" break="no"/>psit nisi christum. ergo assumpsit hominem christum.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e389">
-      ¶ Item filius 
-      <lb ed="#V" n="130"/>dei est homo: non homo: quem non assumpsit: ergo est homo 
-      <lb ed="#V" n="131"/>quem assumpsit. Cum ergo sit ille homo: qui est christus: 
-      <lb ed="#V" n="132"/>assumpsit illum hominem qui est christus. 
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e398">
-                  <lb ed="#V" n="133"/>Contra assumens non est assumptum. Nullus enim 
-      <lb ed="#V" n="134"/>potest assumere se ipsum: sed filius dei est ille 
-      <lb ed="#V" n="135"/>homo qui est christus. ergo non assumpsit illum hominem quod 
-      <lb ed="#V" n="136"/>est christus.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e410">
-      ¶ Item vt superius habitum est: filius dei non 
-      <!--00048.xml-->
-      <pb ed="#V" n="19-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>assumpsit hominis personam: sed ille homo qui christus est: est 
-      <lb ed="#V" n="2"/>hominis persona: ergo non assumpsit illum hominem qui est christus. 
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e423">
-                  <lb ed="#V" n="3"/>Respondeo quod ille homo quod est christus nfuit 
-      assum<lb ed="#V" n="4" break="no"/>ptus a persona filii dei: quia ille 
-      ho<lb ed="#V" n="5" break="no"/>mo qui est christus est ipsa persona filii dei in duabus naturis: 
-      <lb ed="#V" n="6"/>nec est concedendum quod filius dei assumpsit aliquem hominem: 
-      <lb ed="#V" n="7"/>quia aliquis homo dicit suppositum nature humane. Unde illi de 
-      <lb ed="#V" n="8"/>prima opinione qui ex anima et corpore dixerunt constitui aliquem 
-      <lb ed="#V" n="9"/>hominem: et illum hominem assumptum a filio dei: et quod filius dei 
-      <lb ed="#V" n="10"/>cepit esse ille homo: non est intelligibilis: non est intelligibile: 
-      <lb ed="#V" n="11"/>vt duorum vnum fiat aliud nisi per conuersionem vnius in 
-      al<lb ed="#V" n="12" break="no"/>terum. Unde illa opinio includit in christo esse duo supposita: 
-      <lb ed="#V" n="13"/>quod falsum est: nec est etiam concedendum sine 
-      determinatio<lb ed="#V" n="14" break="no"/>ne quod filius dei assumpserit hominem: quia quamuis homo possit 
-      <lb ed="#V" n="15"/>supponere pro natura: vel pro supposito: vt superius est 
-      <lb ed="#V" n="16"/>habitum: tamen communius accipitur inquantum supponit pro 
-      sup<lb ed="#V" n="17" break="no"/>posito quam pro natura. Hec tamen concedenda est: filius dei assumpsit 
-      <lb ed="#V" n="18"/>hominem secundum quod homo accipitur pro natura humana: filium autem dei 
-      <lb ed="#V" n="19"/>assumpsisse naturam humanam simpliciter est concedendum. 
-    </p>
-               <p xml:id="kzz7yh-g12675-d1e462">
-                  <lb ed="#V" n="20"/>Ad primum in oppositum dicendum: quod psal loquitu 
-      <lb ed="#V" n="21"/>de assumptione que est per 
-      adoptio<lb ed="#V" n="22" break="no"/>nem. Unde glo. ibidem. Christus quencumque beatum 
-      assum<lb ed="#V" n="23" break="no"/>psit in adoptionem filii.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e473">
-      ¶ Ad secundum dicendum: quod illa 
-      au<lb ed="#V" n="24" break="no"/>ctoritas Aug. intelligenda est de homine: inquantum accipitur 
-      pro<lb ed="#V" n="25" break="no"/>natura humana: vt superius deum est: et sic non valet contia 
-      <lb ed="#V" n="26"/>accepit hominem. ergo aliquem hominem: quia aliquis homo non 
-      <lb ed="#V" n="27"/>accipitur: nisi pro supposito humane nature
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e484">
-      ¶ Ad 3m 
-      di<lb ed="#V" n="28" break="no"/>cendum: quod hec non est recipienda: filius dei est homo: quem 
-      <lb ed="#V" n="29"/>assumpsit: quia hoc includit filium dei assumpsisse se ipsme 
-      <lb ed="#V" n="30"/>sed hec est vera: filius dei est homo: quem non assumpsit: 
-      <lb ed="#V" n="31"/>sed cuius assumpsit humanam naturam. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g12675-Dd1e496">
-               <head xml:id="kzz7yh-g12675-Hd1e498">Quaestio 3</head>
-               <p xml:id="kzz7yh-g12675-d1e500">
-      Quaestio III 
-      <lb ed="#V" n="32"/>Tertio queritur vtrum de ratione hominis christi sit 
-      <lb ed="#V" n="33"/>ipsa diuina natura: et humana. Et 
-      <lb ed="#V" n="34"/>videtur quod non: quia quando aliqua duo sunt de ratione 
-      ali<lb ed="#V" n="35" break="no"/>cuius constituunt aliquod vnum per essentiam: vt genus 
-      <lb ed="#V" n="36"/>et differentia speciem: et anima et corpus hominem: sed ex diuina natura: et 
-      <lb ed="#V" n="37"/>humana non constituitur aliquod vnum per essentiam: quia non sunt 
-      <lb ed="#V" n="38"/>inter se componibiles: ergo non sunt de ratione hominis christi. 
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e518">
-                  <lb ed="#V" n="39"/>¶ Item illud quod est de ratione alicuius hominis praedicatur de eo 
-      <lb ed="#V" n="40"/>vnde genus: et differentia praedicantur de petro: Sed humana 
-      natu<lb ed="#V" n="41" break="no"/>ra non praedicatur de homine christo: ergo non est de ratione illius. 
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e527">
-                  <lb ed="#V" n="42"/>¶ Item homo praedicatur vniuoce de petro et de christo sed 
-      <lb ed="#V" n="43"/>hoc non esset verum si natura diuina esset de ratione hominis christi: 
-      <lb ed="#V" n="44"/>cum non sit de ratione hominis petri. ergo videtur quod 
-      diui<lb ed="#V" n="45" break="no"/>na natura non sit de ratione hominis christi.¬ 
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e538">
-                  <lb ed="#V" n="46"/>Contra. de ratione hominis christi est humana natura: est 
-      <lb ed="#V" n="47"/>enim de ratione cuiuscumque hominis: de ratione etiam 
-      <lb ed="#V" n="48"/>hominis christi est diuina persona: sed de ratione diuine persone: est 
-      diui<lb ed="#V" n="49" break="no"/>na natura. ergo de ratione hominis christi: est natura diuina et 
-      hu<lb ed="#V" n="50" break="no"/>mana.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e552">
-      ¶ Item omne signatum per aliquod nomen est de 
-      ra<lb ed="#V" n="51" break="no"/>tione illius: sed secundum Dam. libro 3. c. 3. hoc nomen christus: est 
-      no<lb ed="#V" n="52" break="no"/>men persone duarum naturarum existens significatiuum intelligens 
-      <lb ed="#V" n="53"/>per illas diuinam et humanam. ergo de ratione hominis 
-      christi<lb ed="#V" n="54" break="no"/>est diuina natura et humana. 
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e563">
-                  <lb ed="#V" n="55"/>Respondeo quod diuina natura et humana sunt 
-      <lb ed="#V" n="56"/>de hominis christi ratione non accipiendo 
-      <lb ed="#V" n="57"/>rationem pro diffinitione proprie dicta: sed extendendo nomen 
-      <lb ed="#V" n="58"/>rationis ad omnes illud quod ipse terminus significat. hoc enim 
-      <lb ed="#V" n="59"/>nomen christus naturam diuinam et humanam significat: ab illis 
-      <lb ed="#V" n="60"/>enim imponitur ad significandum: sed proprie loquendo 
-      suppo<lb ed="#V" n="61" break="no"/>nit ipsam personam. Proprie enim loquendo terminus significat 
-      <lb ed="#V" n="62"/>formam a qua imponitur: et supponit illud cui imponitur. Unde 
-      <lb ed="#V" n="63"/>secundum philosophum in praedicamentis: album solam qualitatem significat: et 
-      <lb ed="#V" n="64"/>tamen aliud supponit: homo etiam solam naturam humanam 
-      signi<lb ed="#V" n="65" break="no"/>ficat: et tamen petrum vel paulum: et sic de aliis supponit. Secundum 
-      <lb ed="#V" n="66"/>autem illos qui sunt de prima opinione: quam ponit magister in littera 
-      <lb ed="#V" n="67"/>oporteret dicere quod diuina natura et humana non esset de 
-      <lb ed="#V" n="68"/>ratione hominis christi: quia eorum opinio includit hominem christum ex vnio¬ 
-      <!--00048.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>ne anime ad corpus eius esse constitutum: et quantum ad 
-      na<lb ed="#V" n="70" break="no"/>turam: et quantum ad personam: sed illa opinio est abiicienda: sicut 
-      <lb ed="#V" n="71"/>erronea. Secundum autem illos qui dicunt terminum singularem 
-      <lb ed="#V" n="72"/>idem significare et supponere opetet dicere quod christus significaret 
-      <lb ed="#V" n="73"/>non tantummodo illas duas naturas: sed etiam personam et 
-      princi<lb ed="#V" n="74" break="no"/>palius personam quam naturas: quia persona in recto: et naturas in 
-      <lb ed="#V" n="75"/>obliquo: cui satis concordat Dam. cum dixit quod christus 
-      signifi<lb ed="#V" n="76" break="no"/>cat personam in duabus naturis. 
-    </p>
-               <p xml:id="kzz7yh-g12675-d1e618">
-                  <lb ed="#V" n="77"/>Ad primum in oppositum cum dicitur: quod quando aliqua 
-      <lb ed="#V" n="78"/>duo sunt de ratione alicuius constituunt 
-      <lb ed="#V" n="79"/>aliquod vnum per essentiam etc. Dico quod falsum est: nisi illud 
-      <lb ed="#V" n="80"/>de cuius ratione sunt vere possit vua diffinitione diffiniri. 
-      <lb ed="#V" n="81"/>De ratione enim compositi ex substantia et accidente est accidens 
-      <lb ed="#V" n="82"/>et substantia: que tamen nihil vnum per essentiam constituunt. 
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e634">
-                  <lb ed="#V" n="83"/>¶ Ad secundum cum dicitur: quod illud quod est de ratione alicuius hominis 
-      <lb ed="#V" n="84"/>praedicatur de eo etc. Dicendum quod verum est quod eo modo quo genus 
-      <lb ed="#V" n="85"/>et differentia dicuntur esse de ratione alicuius: quia significant in 
-      <lb ed="#V" n="86"/>concreto totum illud quod significat species vel indiuiduum 
-      <lb ed="#V" n="87"/>de quibus dicuntur: quamuis sub modo alio: quia quod significat genus 
-      <lb ed="#V" n="88"/>modo distincto: et indeterminato significat differentia 
-      <lb ed="#V" n="89"/>modo indistincto et determinato: et species modo distincto 
-      <lb ed="#V" n="90"/>et determinato: et petrus et paulus modo distincto et 
-      signifi<lb ed="#V" n="91" break="no"/>cato. Unde genus et differentia non sunt partes reales speciei vel 
-      indi<lb ed="#V" n="92" break="no"/>uidui: sed secundum rationem: inquantum ex eis constituitur speciei 
-      diffini<lb ed="#V" n="93" break="no"/>tio. Accipiendo autem esse de ratione alicuius eo modo quo 
-      par<lb ed="#V" n="94" break="no"/>tes integrales sunt de ratione sui totius: sic propositio falsa est. 
-      <lb ed="#V" n="95"/>Corpus enim secundum quod est pars integralis hominis non praedicatur de 
-      <lb ed="#V" n="96"/>homine: nec paries de domo: quamuis autem natur humana et 
-      di<lb ed="#V" n="97" break="no"/>uina proprie loquendo non sunt partes integrales: christi tamen ad 
-      <lb ed="#V" n="98"/>modum vel ad aliqualem similitudinem partium 
-      integra<lb ed="#V" n="99" break="no"/>lium se habent in christo: et ideo quamuis diuina natura praedicetur 
-      <lb ed="#V" n="100"/>de christo per identitatem: quia persona non distinguitur a 
-      natu<lb ed="#V" n="101" break="no"/>ra diuina: non tamen humana natura praedicatur de ipso.
-   </p>
-               <p xml:id="kzz7yh-g12675-d1e678">
-      ¶ Ad 
-      <lb ed="#V" n="102"/>tertium dicendum: quod quamuis homo dicatur vniuoce de petro et 
-      <lb ed="#V" n="103"/>de christo: non tamen propter hoc opetet quod suppositum dicatur 
-      vni<lb ed="#V" n="104" break="no"/>uoce de supposito christi: quod est increatum: et de supposito 
-      pe<lb ed="#V" n="105" break="no"/>tri quod est creatum: quia homo dicitur vniuoce de christo: et 
-      pe<lb ed="#V" n="106" break="no"/>tro ratione humane nature: non ratione suppositi.
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="1"/>assumpsit hominis personam: sed ille homo qui christus est: est 
+            <lb ed="#V" n="2"/>hominis persona: ergo non assumpsit illum hominem qui est christus. 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e423">
+            <lb ed="#V" n="3"/>Respondeo quod ille homo quod est christus nfuit 
+            assum<lb ed="#V" n="4" break="no"/>ptus a persona filii dei: quia ille 
+            ho<lb ed="#V" n="5" break="no"/>mo qui est christus est ipsa persona filii dei in duabus naturis: 
+            <lb ed="#V" n="6"/>nec est concedendum quod filius dei assumpsit aliquem hominem: 
+            <lb ed="#V" n="7"/>quia aliquis homo dicit suppositum nature humane. Unde illi de 
+            <lb ed="#V" n="8"/>prima opinione qui ex anima et corpore dixerunt constitui aliquem 
+            <lb ed="#V" n="9"/>hominem: et illum hominem assumptum a filio dei: et quod filius dei 
+            <lb ed="#V" n="10"/>cepit esse ille homo: non est intelligibilis: non est intelligibile: 
+            <lb ed="#V" n="11"/>vt duorum vnum fiat aliud nisi per conuersionem vnius in 
+            al<lb ed="#V" n="12" break="no"/>terum. Unde illa opinio includit in christo esse duo supposita: 
+            <lb ed="#V" n="13"/>quod falsum est: nec est etiam concedendum sine 
+            determinatio<lb ed="#V" n="14" break="no"/>ne quod filius dei assumpserit hominem: quia quamuis homo possit 
+            <lb ed="#V" n="15"/>supponere pro natura: vel pro supposito: vt superius est 
+            <lb ed="#V" n="16"/>habitum: tamen communius accipitur inquantum supponit pro 
+            sup<lb ed="#V" n="17" break="no"/>posito quam pro natura. Hec tamen concedenda est: filius dei assumpsit 
+            <lb ed="#V" n="18"/>hominem secundum quod homo accipitur pro natura humana: filium autem dei 
+            <lb ed="#V" n="19"/>assumpsisse naturam humanam simpliciter est concedendum. 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e462">
+            <lb ed="#V" n="20"/>Ad primum in oppositum dicendum: quod psal loquitu 
+            <lb ed="#V" n="21"/>de assumptione que est per 
+            adoptio<lb ed="#V" n="22" break="no"/>nem. Unde glo. ibidem. Christus quencumque beatum 
+            assum<lb ed="#V" n="23" break="no"/>psit in adoptionem filii.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e473">
+            ¶ Ad secundum dicendum: quod illa 
+            au<lb ed="#V" n="24" break="no"/>ctoritas Aug. intelligenda est de homine: inquantum accipitur 
+            pro<lb ed="#V" n="25" break="no"/>natura humana: vt superius deum est: et sic non valet contia 
+            <lb ed="#V" n="26"/>accepit hominem. ergo aliquem hominem: quia aliquis homo non 
+            <lb ed="#V" n="27"/>accipitur: nisi pro supposito humane nature
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e484">
+            ¶ Ad 3m 
+            di<lb ed="#V" n="28" break="no"/>cendum: quod hec non est recipienda: filius dei est homo: quem 
+            <lb ed="#V" n="29"/>assumpsit: quia hoc includit filium dei assumpsisse se ipsme 
+            <lb ed="#V" n="30"/>sed hec est vera: filius dei est homo: quem non assumpsit: 
+            <lb ed="#V" n="31"/>sed cuius assumpsit humanam naturam. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g12675-Dd1e496">
+          <head xml:id="kzz7yh-g12675-Hd1e498">Quaestio 3</head>
+          <p xml:id="kzz7yh-g12675-d1e500">
+            Quaestio III 
+            <lb ed="#V" n="32"/>Tertio queritur vtrum de ratione hominis christi sit 
+            <lb ed="#V" n="33"/>ipsa diuina natura: et humana. Et 
+            <lb ed="#V" n="34"/>videtur quod non: quia quando aliqua duo sunt de ratione 
+            ali<lb ed="#V" n="35" break="no"/>cuius constituunt aliquod vnum per essentiam: vt genus 
+            <lb ed="#V" n="36"/>et differentia speciem: et anima et corpus hominem: sed ex diuina natura: et 
+            <lb ed="#V" n="37"/>humana non constituitur aliquod vnum per essentiam: quia non sunt 
+            <lb ed="#V" n="38"/>inter se componibiles: ergo non sunt de ratione hominis christi. 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e518">
+            <lb ed="#V" n="39"/>¶ Item illud quod est de ratione alicuius hominis praedicatur de eo 
+            <lb ed="#V" n="40"/>vnde genus: et differentia praedicantur de petro: Sed humana 
+            natu<lb ed="#V" n="41" break="no"/>ra non praedicatur de homine christo: ergo non est de ratione illius. 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e527">
+            <lb ed="#V" n="42"/>¶ Item homo praedicatur vniuoce de petro et de christo sed 
+            <lb ed="#V" n="43"/>hoc non esset verum si natura diuina esset de ratione hominis christi: 
+            <lb ed="#V" n="44"/>cum non sit de ratione hominis petri. ergo videtur quod 
+            diui<lb ed="#V" n="45" break="no"/>na natura non sit de ratione hominis christi.¬ 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e538">
+            <lb ed="#V" n="46"/>Contra. de ratione hominis christi est humana natura: est 
+            <lb ed="#V" n="47"/>enim de ratione cuiuscumque hominis: de ratione etiam 
+            <lb ed="#V" n="48"/>hominis christi est diuina persona: sed de ratione diuine persone: est 
+            diui<lb ed="#V" n="49" break="no"/>na natura. ergo de ratione hominis christi: est natura diuina et 
+            hu<lb ed="#V" n="50" break="no"/>mana.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e552">
+            ¶ Item omne signatum per aliquod nomen est de 
+            ra<lb ed="#V" n="51" break="no"/>tione illius: sed secundum Dam. libro 3. c. 3. hoc nomen christus: est 
+            no<lb ed="#V" n="52" break="no"/>men persone duarum naturarum existens significatiuum intelligens 
+            <lb ed="#V" n="53"/>per illas diuinam et humanam. ergo de ratione hominis 
+            christi<lb ed="#V" n="54" break="no"/>est diuina natura et humana. 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e563">
+            <lb ed="#V" n="55"/>Respondeo quod diuina natura et humana sunt 
+            <lb ed="#V" n="56"/>de hominis christi ratione non accipiendo 
+            <lb ed="#V" n="57"/>rationem pro diffinitione proprie dicta: sed extendendo nomen 
+            <lb ed="#V" n="58"/>rationis ad omnes illud quod ipse terminus significat. hoc enim 
+            <lb ed="#V" n="59"/>nomen christus naturam diuinam et humanam significat: ab illis 
+            <lb ed="#V" n="60"/>enim imponitur ad significandum: sed proprie loquendo 
+            suppo<lb ed="#V" n="61" break="no"/>nit ipsam personam. Proprie enim loquendo terminus significat 
+            <lb ed="#V" n="62"/>formam a qua imponitur: et supponit illud cui imponitur. Unde 
+            <lb ed="#V" n="63"/>secundum philosophum in praedicamentis: album solam qualitatem significat: et 
+            <lb ed="#V" n="64"/>tamen aliud supponit: homo etiam solam naturam humanam 
+            signi<lb ed="#V" n="65" break="no"/>ficat: et tamen petrum vel paulum: et sic de aliis supponit. Secundum 
+            <lb ed="#V" n="66"/>autem illos qui sunt de prima opinione: quam ponit magister in littera 
+            <lb ed="#V" n="67"/>oporteret dicere quod diuina natura et humana non esset de 
+            <lb ed="#V" n="68"/>ratione hominis christi: quia eorum opinio includit hominem christum ex vnio¬ 
+            <!--00048.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>ne anime ad corpus eius esse constitutum: et quantum ad 
+            na<lb ed="#V" n="70" break="no"/>turam: et quantum ad personam: sed illa opinio est abiicienda: sicut 
+            <lb ed="#V" n="71"/>erronea. Secundum autem illos qui dicunt terminum singularem 
+            <lb ed="#V" n="72"/>idem significare et supponere opetet dicere quod christus significaret 
+            <lb ed="#V" n="73"/>non tantummodo illas duas naturas: sed etiam personam et 
+            princi<lb ed="#V" n="74" break="no"/>palius personam quam naturas: quia persona in recto: et naturas in 
+            <lb ed="#V" n="75"/>obliquo: cui satis concordat Dam. cum dixit quod christus 
+            signifi<lb ed="#V" n="76" break="no"/>cat personam in duabus naturis. 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e618">
+            <lb ed="#V" n="77"/>Ad primum in oppositum cum dicitur: quod quando aliqua 
+            <lb ed="#V" n="78"/>duo sunt de ratione alicuius constituunt 
+            <lb ed="#V" n="79"/>aliquod vnum per essentiam etc. Dico quod falsum est: nisi illud 
+            <lb ed="#V" n="80"/>de cuius ratione sunt vere possit vua diffinitione diffiniri. 
+            <lb ed="#V" n="81"/>De ratione enim compositi ex substantia et accidente est accidens 
+            <lb ed="#V" n="82"/>et substantia: que tamen nihil vnum per essentiam constituunt. 
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e634">
+            <lb ed="#V" n="83"/>¶ Ad secundum cum dicitur: quod illud quod est de ratione alicuius hominis 
+            <lb ed="#V" n="84"/>praedicatur de eo etc. Dicendum quod verum est quod eo modo quo genus 
+            <lb ed="#V" n="85"/>et differentia dicuntur esse de ratione alicuius: quia significant in 
+            <lb ed="#V" n="86"/>concreto totum illud quod significat species vel indiuiduum 
+            <lb ed="#V" n="87"/>de quibus dicuntur: quamuis sub modo alio: quia quod significat genus 
+            <lb ed="#V" n="88"/>modo distincto: et indeterminato significat differentia 
+            <lb ed="#V" n="89"/>modo indistincto et determinato: et species modo distincto 
+            <lb ed="#V" n="90"/>et determinato: et petrus et paulus modo distincto et 
+            signifi<lb ed="#V" n="91" break="no"/>cato. Unde genus et differentia non sunt partes reales speciei vel 
+            indi<lb ed="#V" n="92" break="no"/>uidui: sed secundum rationem: inquantum ex eis constituitur speciei 
+            diffini<lb ed="#V" n="93" break="no"/>tio. Accipiendo autem esse de ratione alicuius eo modo quo 
+            par<lb ed="#V" n="94" break="no"/>tes integrales sunt de ratione sui totius: sic propositio falsa est. 
+            <lb ed="#V" n="95"/>Corpus enim secundum quod est pars integralis hominis non praedicatur de 
+            <lb ed="#V" n="96"/>homine: nec paries de domo: quamuis autem natur humana et 
+            di<lb ed="#V" n="97" break="no"/>uina proprie loquendo non sunt partes integrales: christi tamen ad 
+            <lb ed="#V" n="98"/>modum vel ad aliqualem similitudinem partium 
+            integra<lb ed="#V" n="99" break="no"/>lium se habent in christo: et ideo quamuis diuina natura praedicetur 
+            <lb ed="#V" n="100"/>de christo per identitatem: quia persona non distinguitur a 
+            natu<lb ed="#V" n="101" break="no"/>ra diuina: non tamen humana natura praedicatur de ipso.
+          </p>
+          <p xml:id="kzz7yh-g12675-d1e678">
+            ¶ Ad 
+            <lb ed="#V" n="102"/>tertium dicendum: quod quamuis homo dicatur vniuoce de petro et 
+            <lb ed="#V" n="103"/>de christo: non tamen propter hoc opetet quod suppositum dicatur 
+            vni<lb ed="#V" n="104" break="no"/>uoce de supposito christi: quod est increatum: et de supposito 
+            pe<lb ed="#V" n="105" break="no"/>tri quod est creatum: quia homo dicitur vniuoce de christo: et 
+            pe<lb ed="#V" n="106" break="no"/>tro ratione humane nature: non ratione suppositi.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

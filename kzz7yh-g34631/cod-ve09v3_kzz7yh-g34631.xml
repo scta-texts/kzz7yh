@@ -1,376 +1,376 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="49-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="49-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g34631"><!-- l3d15a1 -->
+        <head xml:id="kzz7yh-g34631-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-g34631-d1e103">
+          ¶ Circa primum queruntur quatuor. 
+        </p>
+        <p xml:id="kzz7yh-g34631-d1e105">
+          <lb ed="#V" n="58"/>¶ Primo vtrum necessarium fuit filium dei assumere 
+          natu<lb ed="#V" n="59" break="no"/>ram humanam cum aliquibus defectibus.
+        </p>
+        <p xml:id="kzz7yh-g34631-d1e112">
+          ¶ Secundo 
+          <lb ed="#V" n="60"/>vtrum fuerit congruum.
+        </p>
+        <p xml:id="kzz7yh-g34631-d1e117">
+          ¶ Tertio vtrum congruum fuerit ipsum 
+          <lb ed="#V" n="61"/>assumere omnes humanae nature defectus.
+        </p>
+        <p xml:id="kzz7yh-g34631-d1e123">
+          ¶ Quarto vtrum 
+          <lb ed="#V" n="62"/>illos defactuns: quos cum natura humana assumpsit contraxerit.
+        </p>
+        <div xml:id="kzz7yh-g34631-Dd1e128">
+          <head xml:id="kzz7yh-g34631-Hd1e130">Quaestio 1</head>
+          <head xml:id="kzz7yh-g34631-Hd1e135" type="question-title">Utrum necessarium fuit filium Dei assumere naturam humanam cum aliquibus defectibus</head>
+          <p xml:id="kzz7yh-g34631-d1e132">
+            Quaea ilie. 
+            <lb ed="#V" n="63"/>PRimo ostendo: quod suit necessarium filium 
+            <lb ed="#V" n="64"/>dei assumere naturam humanam: 
+            <lb ed="#V" n="65"/>cum aliquibus defectibus: quia vt dicitur Luc. vlti¬ 
+            <!--00110.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="66"/>Oportebat pati christum: sed pati non potuisset: nisi 
+            huma<lb ed="#V" n="67" break="no"/>nam naturam cum aliquibus defectibus assumpsisset.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e150">
+            ¶ Item 
+            <lb ed="#V" n="68"/>quod filius dei disposuit se facturum: necessarium est fieri: quia 
+            <lb ed="#V" n="69"/>dispositio sua mutari non potest: sed ab eterno disposuit 
+            assu<lb ed="#V" n="70" break="no"/>mere: ex tempore: naturam humanam cum aliquibus 
+            <lb ed="#V" n="71"/>defectibus: ergo hoc necessarium fuit. 
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e161">
+            <lb ed="#V" n="72"/>Contra. secundum Augu. 13 de tri. c. 10 Deus alio modo 
+            <lb ed="#V" n="73"/>potuisset nos liberare. quam per suam mortem: 
+            <lb ed="#V" n="74"/>si voluisset. ergo ad nostram liberationem non fuit necessarium: 
+            <lb ed="#V" n="75"/>ipsum assumere naturam humanam cum aliquibus defectibus 
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e172">
+            <lb ed="#V" n="76"/>Respondeo quod filium dei assumere humanam 
+            <lb ed="#V" n="77"/>naturm cum aliquibus defectibus: 
+            <lb ed="#V" n="78"/>non fuit necessarium: necessitate absoluta: nec secundum se: nec ad 
+            <lb ed="#V" n="79"/>nostram liberationem: quia alio modo potuisset nos liberare 
+            <lb ed="#V" n="80"/>quam per suam passionem: si voluisset vt concludit 
+            argu<lb ed="#V" n="81" break="no"/>mentum ad secundam partem. fuit tamen necessarium necessitate 
+            con<lb ed="#V" n="82" break="no"/>ditionata scilicet manente ordinatione: qua ordinauerat nos 
+            <lb ed="#V" n="83"/>liberare per viam redemptionis: et per suam mortem: quia 
+            <lb ed="#V" n="84"/>nec mori: nec pati potuisset: nisi naturam humanam cum 
+            <lb ed="#V" n="85"/>aliquibus defectibus assumpsisset. 
+            <lb ed="#V" n="86"/>Et sic patet solutio ad primum argumentum: ad 
+            par<lb ed="#V" n="87" break="no"/>tem primam Ad secundum cum dicitur: quod illud quod 
+            <lb ed="#V" n="88"/>filius dei disposuit se facturum: necessarium est fieri etc. dico quod 
+            <lb ed="#V" n="89"/>verum est de necessitate consequentie: seu conditionata: 
+            <lb ed="#V" n="90"/>non tamen necessarium est de necessitate consequentis: seu absoluta: et quia de 
+            <lb ed="#V" n="91"/>differentia istarum duarum necessitatum: satis dictum est 
+            <lb ed="#V" n="92"/>li. i. ideo hic breuius pertransiui. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g34631-Dd1e212">
+          <head xml:id="kzz7yh-g34631-Hd1e214">Quaestio 2</head>
+          <head xml:id="kzz7yh-g34631-Hd1e224" type="question-title">Utrum fuerit congruum</head>
+          <p xml:id="kzz7yh-g34631-d1e216">
+            Quaestio 
+            <lb ed="#V" n="93"/>SEcundo queritur: vtrum fuerit congruum filium 
+            <lb ed="#V" n="94"/>dei assumere naturam humanam cum 
+            <lb ed="#V" n="95"/>aliquibus defectibus: et videtur quod non. Non fuit 
+            con<lb ed="#V" n="96" break="no"/>gruum filium dei assumere aliquid: per quod 
+            <lb ed="#V" n="97"/>despectui haberetur: sed per defectuum assumptionem 
+            habi<lb ed="#V" n="98" break="no"/>tus fuit despectui. Unde <ref xml:id="kzz7yh-g34631-Rd1e242">Isaia. 53.</ref> Uidimus eum: sequitur 
+            <lb ed="#V" n="99"/><quote xml:id="kzz7yh-g34631-Qd1e245" source="http://scta.info/resource/is53_3@1-20">despectum: et nouissimum virorum: et parum post sequitur: 
+              <lb ed="#V" n="100"/>Et quasi absconditus vultus eius et despectum</quote>: vnde nec 
+            <lb ed="#V" n="101"/>reputauimus eum: ergo non fuit congruum: quod nature 
+            huma<lb ed="#V" n="102" break="no"/>ne defectus assumpsit.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e240">
+            ¶ Item contraria coriis curantur: sed 
+            si<lb ed="#V" n="103" break="no"/>lius dei naturam humanam assumpsit ad curandum eius 
+            defe<lb ed="#V" n="104" break="no"/>ctus. ergo non debuit eam assumere cum defectibus suis. 
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e247">
+            <lb ed="#V" n="105"/>¶ Item sicut summe iustitie repugnat effectus 
+            culpabi<lb ed="#V" n="106" break="no"/>lis: ita summe potentie repugnat defectus infirmitatis: et 
+            <lb ed="#V" n="107"/>penalitatis: sed propter iustitiam summam: que in ipso est: non 
+            <lb ed="#V" n="108"/>debuit assumere naturam humanam cum defectibus 
+            culpa<lb ed="#V" n="109" break="no"/>bilibus. ergo similiter propter potentiam summam: que in ipso est: non 
+            <lb ed="#V" n="110"/>debuit assumere naturam humanam cum infirmitatibus: 
+            <lb ed="#V" n="111"/>seu defectibus penalibus. 
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e265">
+            <lb ed="#V" n="112"/>Contra mediator inter aliqua duo det cuicare cum 
+            <lb ed="#V" n="113"/>vtroque: sed christus fuit mediator inter nos: et 
+            <lb ed="#V" n="114"/>deum ergo cum communicauerit eum deo in iustitia: debuit 
+            con<lb ed="#V" n="115" break="no"/>care nobis cum pena.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e277">
+            ¶ Item <ref xml:id="kzz7yh-g34631-Rd1e294" corresp="#kzz7yh-g34631-Qd1e297">Augu. 4 li de trinitate c. 3.</ref> 
+            <lb ed="#V" n="116"/><quote xml:id="kzz7yh-g34631-Qd1e297" source="http://scta.info/resource/adt-l4-d1e539@207-216">Una mors nostri saluatoris: duabus mortibus nostris saluti: 
+              <lb ed="#V" n="117"/>vel saluatio fuit:</quote> sed non potuisset mori: nisi naturam 
+            huma<lb ed="#V" n="118" break="no"/>nam cum aliquibus defectibus assumpsisset. Cum ergo 
+            <lb ed="#V" n="119"/>congruum fuerit: vt naturam humanam assumeret: suunicntum quod 
+            <lb ed="#V" n="120"/>expediebat nostre saluti: congruum fuit vt eam cum 
+            de<lb ed="#V" n="121" break="no"/>fectibus suis assumeret. 
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e293">
+            <lb ed="#V" n="122"/>Respondeo quod congruum fuit dei filium 
+            assu<lb ed="#V" n="123" break="no"/>mere naturam humanam: cum 
+            ali<lb ed="#V" n="124" break="no"/>quibus defectibus vt veram naturam humanam se 
+            assum<lb ed="#V" n="125" break="no"/>pesisse manifestaret: et vt per exemplum nos ad 
+            profundita<lb ed="#V" n="126" break="no"/>tem humilitatis inuitaret: sicut enim dicit <ref xml:id="kzz7yh-g34631-Rd1e325" corresp="#kzz7yh-g34631-Qd1e330">Augu. 4 de tri. 
+              <lb ed="#V" n="127"/>c. 10.</ref> <quote xml:id="kzz7yh-g34631-Qd1e330" source="http://scta.info/resource/adt-l4-d1e570@28-44">Sicut diabolus superbus hominem superbientem perduxit 
+                <lb ed="#V" n="128"/>ad mortem: ita christus humilis: hominem obedientem reduxit 
+                <lb ed="#V" n="129"/>ad vitam</quote>: et etiam vt nos per passionem de seruitute  
+            dia<lb ed="#V" n="130" break="no"/>bolica liberaret: quia hic modus liberationi nostre 
+            conuenientissi<lb ed="#V" n="131" break="no"/>mus fuit: secundum <ref xml:id="kzz7yh-g34631-Rd1e341">Augu. 13 de trini. c. 10.</ref> Pro nobis autem 
+            pati<lb ed="#V" n="132"/>non potuisset: nisi naturam humanam assumpsisset cum 
+            <lb ed="#V" n="133"/>aliquibus defectibus suio. 2 1 
+            <!--00111.xml-->
+            <pb ed="#V" n="50-r"/>
             <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g34631"><!-- l3d15a1 -->
-            <head xml:id="kzz7yh-g34631-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-g34631-d1e103">
-      ¶ Circa primum queruntur quatuor. 
-   </p>
-            <p xml:id="kzz7yh-g34631-d1e105">
-               <lb ed="#V" n="58"/>¶ Primo vtrum necessarium fuit filium dei assumere 
-      natu<lb ed="#V" n="59" break="no"/>ram humanam cum aliquibus defectibus.
-   </p>
-            <p xml:id="kzz7yh-g34631-d1e112">
-      ¶ Secundo 
-      <lb ed="#V" n="60"/>vtrum fuerit congruum.
-   </p>
-            <p xml:id="kzz7yh-g34631-d1e117">
-      ¶ Tertio vtrum congruum fuerit ipsum 
-      <lb ed="#V" n="61"/>assumere omnes humaene nature defectus.
-   </p>
-            <p xml:id="kzz7yh-g34631-d1e123">
-      ¶ Quarto vtrum 
-      <lb ed="#V" n="62"/>illos defactuns: quos cum natura humana assumpsit contraxerit.
-   </p>
-            <div xml:id="kzz7yh-g34631-Dd1e128">
-               <head xml:id="kzz7yh-g34631-Hd1e130">Quaestio 1</head>
-               <head xml:id="kzz7yh-g34631-Hd1e135" type="question-title">Utrum necessarium fuit filium Dei assumere naturam humanam cum aliquibus defectibus</head>
-               <p xml:id="kzz7yh-g34631-d1e132">
-     Quaea ilie. 
-      <lb ed="#V" n="63"/>PRimo ostendo: quod suit necessarium filium 
-      <lb ed="#V" n="64"/>dei assumere naturam humanam: 
-      <lb ed="#V" n="65"/>cum aliquibus defectibus: quia vt dicitur Luc. vlti¬ 
-      <!--00110.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="66"/>Oportebat pati christum: sed pati non potuisset: nisi 
-      huma<lb ed="#V" n="67" break="no"/>nam naturam cum aliquibus defectibus assumpsisset.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e150">
-      ¶ Item 
-      <lb ed="#V" n="68"/>quod filius dei disposuit se facturum: necessarium est fieri: quia 
-      <lb ed="#V" n="69"/>dispositio sua mutari non potest: sed ab eterno disposuit 
-      assu<lb ed="#V" n="70" break="no"/>mere: ex tempore: naturam humanam cum aliquibus 
-      <lb ed="#V" n="71"/>defectibus: ergo hoc necessarium fuit. 
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e161">
-                  <lb ed="#V" n="72"/>Contra. secundum Augu. 13 de tri. c. 10 Deus alio modo 
-      <lb ed="#V" n="73"/>potuisset nos liberare. quam per suam mortem: 
-      <lb ed="#V" n="74"/>si voluisset. ergo ad nostram liberationem non fuit necessarium: 
-      <lb ed="#V" n="75"/>ipsum assumere naturam humanam cum aliquibus defectibus 
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e172">
-                  <lb ed="#V" n="76"/>Respondeo quod filium dei assumere humanam 
-      <lb ed="#V" n="77"/>naturm cum aliquibus defectibus: 
-      <lb ed="#V" n="78"/>non fuit necessarium: necessitate absoluta: nec secundum se: nec ad 
-      <lb ed="#V" n="79"/>nostram liberationem: quia alio modo potuisset nos liberare 
-      <lb ed="#V" n="80"/>quam per suam passionem: si voluisset vt concludit 
-      argu<lb ed="#V" n="81" break="no"/>mentum ad secundam partem. fuit tamen necessarium necessitate 
-      con<lb ed="#V" n="82" break="no"/>ditionata scilicet manente ordinatione: qua ordinauerat nos 
-      <lb ed="#V" n="83"/>liberare per viam redemptionis: et per suam mortem: quia 
-      <lb ed="#V" n="84"/>nec mori: nec pati potuisset: nisi naturam humanam cum 
-      <lb ed="#V" n="85"/>aliquibus defectibus assumpsisset. 
-      <lb ed="#V" n="86"/>Et sic patet solutio ad primum argumentum: ad 
-      par<lb ed="#V" n="87" break="no"/>tem primam Ad secundum cum dicitur: quod illud quod 
-      <lb ed="#V" n="88"/>filius dei disposuit se facturum: necessarium est fieri etc. dico quod 
-      <lb ed="#V" n="89"/>verum est de necessitate consequentie: seu conditionata: 
-      <lb ed="#V" n="90"/>non tamen necessarium est de necessitate consequentis: seu absoluta: et quia de 
-      <lb ed="#V" n="91"/>differentia istarum duarum necessitatum: satis dictum est 
-      <lb ed="#V" n="92"/>li. i. ideo hic breuius pertransiui. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g34631-Dd1e212">
-               <head xml:id="kzz7yh-g34631-Hd1e214">Quaestio 2</head>
-               <head xml:id="kzz7yh-g34631-Hd1e224" type="question-title">Utrum fuerit congruum</head>
-               <p xml:id="kzz7yh-g34631-d1e216">
-      Quaestio 
-      <lb ed="#V" n="93"/>SEcundo queritur: vtrum fuerit congruum filium 
-      <lb ed="#V" n="94"/>dei assumere naturam humanam cum 
-      <lb ed="#V" n="95"/>aliquibus defectibus: et videtur quod non. Non fuit 
-      con<lb ed="#V" n="96" break="no"/>gruum filium dei assumere aliquid: per quod 
-      <lb ed="#V" n="97"/>despectui haberetur: sed per defectuum assumptionem 
-      habi<lb ed="#V" n="98" break="no"/>tus fuit despectui. Unde <ref xml:id="kzz7yh-g34631-Rd1e242">Isaia. 53.</ref> Uidimus eum: sequitur 
-      <lb ed="#V" n="99"/><quote xml:id="kzz7yh-g34631-Qd1e245" source="http://scta.info/resource/is53_3@1-20">despectum: et nouissimum virorum: et parum post sequitur: 
-      <lb ed="#V" n="100"/>Et quasi absconditus vultus eius et despectum</quote>: vnde nec 
-      <lb ed="#V" n="101"/>reputauimus eum: ergo non fuit congruum: quod nature 
-      huma<lb ed="#V" n="102" break="no"/>ne defectus assumpsit.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e240">
-      ¶ Item contraria coriis curantur: sed 
-      si<lb ed="#V" n="103" break="no"/>lius dei naturam humanam assumpsit ad curandum eius 
-      defe<lb ed="#V" n="104" break="no"/>ctus. ergo non debuit eam assumere cum defectibus suis. 
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e247">
-                  <lb ed="#V" n="105"/>¶ Item sicut summe iustitie repugnat effectus 
-      culpabi<lb ed="#V" n="106" break="no"/>lis: ita summe potentie repugnat defectus infirmitatis: et 
-      <lb ed="#V" n="107"/>penalitatis: sed propter iustitiam summam: que in ipso est: non 
-      <lb ed="#V" n="108"/>debuit assumere naturam humanam cum defectibus 
-      culpa<lb ed="#V" n="109" break="no"/>bilibus. ergo similiter propter potentiam summam: que in ipso est: non 
-      <lb ed="#V" n="110"/>debuit assumere naturam humanam cum infirmitatibus: 
-      <lb ed="#V" n="111"/>seu defectibus penalibus. 
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e265">
-                  <lb ed="#V" n="112"/>Contra mediator inter aliqua duo det cuicare cum 
-      <lb ed="#V" n="113"/>vtroque: sed christus fuit mediator inter nos: et 
-      <lb ed="#V" n="114"/>deum ergo cum communicauerit eum deo in iustitia: debuit 
-      con<lb ed="#V" n="115" break="no"/>care nobis cum pena.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e277">
-      ¶ Item <ref xml:id="kzz7yh-g34631-Rd1e294" corresp="#kzz7yh-g34631-Qd1e297">Augu. 4 li de trinitate c. 3.</ref> 
-      <lb ed="#V" n="116"/><quote xml:id="kzz7yh-g34631-Qd1e297" source="http://scta.info/resource/adt-l4-d1e539@207-216">Una mors nostri saluatoris: duabus mortibus nostris saluti: 
-      <lb ed="#V" n="117"/>vel saluatio fuit:</quote> sed non potuisset mori: nisi naturam 
-      huma<lb ed="#V" n="118" break="no"/>nam cum aliquibus defectibus assumpsisset. Cum ergo 
-      <lb ed="#V" n="119"/>congruum fuerit: vt naturam humanam assumeret: suunicntum quod 
-      <lb ed="#V" n="120"/>expediebat nostre saluti: congruum fuit vt eam cum 
-      de<lb ed="#V" n="121" break="no"/>fectibus suis assumeret. 
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e293">
-                  <lb ed="#V" n="122"/>Respondeo quod congruum fuit dei filium 
-      assu<lb ed="#V" n="123" break="no"/>mere naturam humanam: cum 
-      ali<lb ed="#V" n="124" break="no"/>quibus defectibus vt veram naturam humanam se 
-      assum<lb ed="#V" n="125" break="no"/>pesisse manifestaret: et vt per exemplum nos ad 
-      profundita<lb ed="#V" n="126" break="no"/>tem humilitatis inuitaret: sicut enim dicit <ref xml:id="kzz7yh-g34631-Rd1e325" corresp="#kzz7yh-g34631-Qd1e330">Augu. 4 de tri. 
-      <lb ed="#V" n="127"/>c. 10.</ref> <quote xml:id="kzz7yh-g34631-Qd1e330" source="http://scta.info/resource/adt-l4-d1e570@28-44">Sicut diabolus superbus hominem superbientem perduxit 
-      <lb ed="#V" n="128"/>ad mortem: ita christus humilis: hominem obedientem reduxit 
-      <lb ed="#V" n="129"/>ad vitam</quote>: et etiam vt nos per passionem de seruitute  
-      dia<lb ed="#V" n="130" break="no"/>bolica liberaret: quia hic modus liberationi nostre 
-      conuenientissi<lb ed="#V" n="131" break="no"/>mus fuit: secundum <ref xml:id="kzz7yh-g34631-Rd1e341">Augu. 13 de trini. c. 10.</ref> Pro nobis autem 
-      pati<lb ed="#V" n="132"/>non potuisset: nisi naturam humanam assumpsisset cum 
-      <lb ed="#V" n="133"/>aliquibus defectibus suio. 2 1 
-      <!--00111.xml-->
-      <pb ed="#V" n="50-r"/>
-                  <cb ed="#V" n="a"/>
-               </p>
-               <p xml:id="kzz7yh-g34631-d1e328">
-                  <lb ed="#V" n="1"/>Ad primum in oppositum dicendum quod per 
-      assum<lb ed="#V" n="2" break="no"/>ptionem modorum defectuum: non fuit 
-      <lb ed="#V" n="3"/>habitus despectui: nisi per malitiam despicientium. Cum 
-      <lb ed="#V" n="4"/>tamen propter assumptionem illam magis debuisset ab eis 
-      hono<lb ed="#V" n="5" break="no"/>rari: quia quanto magnus: magis se humiliat pro 
-      subdito<lb ed="#V" n="6" break="no"/>rum vtilitate: tanto perfectius debet a subditis honorari. 
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e344">
-                  <lb ed="#V" n="7"/>¶ Ad secundum dicendum quod non melius potest infirmitas curari: 
-      <lb ed="#V" n="8"/>quam eius causam destruendo. Sed causa nostre infirmitatis: fuit 
-      su<lb ed="#V" n="9" break="no"/>perbia propter cuius destructionem humiliauit se filius dei: 
-      na<lb ed="#V" n="10" break="no"/>turam humanam assumendo cum aliquibus defectibus 
-      <lb ed="#V" n="11"/>suis: et sic ordinauit nostram infirmitatem curare per contrarium 
-      <lb ed="#V" n="12"/>sue causae
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e360">
-      ¶ Ad 3m dicendum quod sicut in natura diuina: non potest esse 
-      cul <lb ed="#V" n="13" break="no"/>pa: ita nec penalis defectus: quia penalis defectus naturam creata 
-      <lb ed="#V" n="14"/>adeo non separat: sed magis vnit: inquantum est materia 
-      exer<lb ed="#V" n="15" break="no"/>cende virtutis. defectus autem culpabilis a deo separat: secundum 
-      <lb ed="#V" n="16"/>illud <ref xml:id="kzz7yh-g34631-Rd1e397">Isaie. 59</ref>. <quote xml:id="kzz7yh-g34631-Qd1e400" source="http://scta.info/resource/is59_2@2-12">Iniquitates videre diuiserunt inter vos: et er 
-      <lb ed="#V" n="17"/>deum vestrum.</quote> ideo congruum suit vt filius dei naturam 
-      <lb ed="#V" n="18"/>humanam cum defectibus penalibus assumeret et non 
-      <lb ed="#V" n="19"/>culpabilibus. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g34631-Dd1e379">
-               <head xml:id="kzz7yh-g34631-Hd1e381">Quaestio 3</head>
-               <head xml:id="kzz7yh-g34631-Hd1e416" type="question-title">utrum congruum fuerit ipsum assumere omnes humaene nature defectus.</head>
-               <p xml:id="kzz7yh-g34631-d1e383">
-      Questio III 
-      <lb ed="#V" n="20"/>TErtio queritur: vtrum congruum fuerit: filium 
-      <lb ed="#V" n="21"/>dei cum humana natura assumere 
-      <lb ed="#V" n="22"/>omnes ipsius nature defectus: et videtur quod sic. ad hebtr. 2o 
-      <lb ed="#V" n="23"/>Debuit per omnia fribus similari vt misericors 
-      <lb ed="#V" n="24"/><!-- line coord error -->
-      <lb ed="#V" n="25"/>steret.
-   </p>
-   <!-- Not sure what's going on here, between lines 219 and 229. Also unknown citation on 225.-->
-               <p xml:id="kzz7yh-g34631-d1e399">
-      ¶ Item Damas. libro 3. c. 6. Quod inassumptum est: non 
-      <lb ed="#V" n="26"/>culpabile est: sed filius dei humanam naturam assumpsit ad 
-      <lb ed="#V" n="27"/>curandum omnes eius defectibus. ergo eam assumere debuit 
-      <lb ed="#V" n="28"/>cum omnibus defectibus suis.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e408">
-      ¶ Item per misericordiam 
-      <lb ed="#V" n="29"/>assumpsit nostram humanam naturam. secundum illud Luc I per 
-      vi<lb ed="#V" n="30" break="no"/>scera misericordie dei nostri visitauit nos oriens exalto: sed 
-      <lb ed="#V" n="31"/>maiorem affectum misericordie ostendisse in assumendo. 
-      <lb ed="#V" n="32"/>Omnes defectus nostros quam aliquos assumendo et aliquos non: 
-      <lb ed="#V" n="33"/>ergo videtur quod omnes assumere debuit. 
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e421">
-                  <lb ed="#V" n="34"/>Contra. <ref xml:id="kzz7yh-g34631-Rd1e465">Ansel. li. 2. Cur deus homo</ref> bene ante
-                  <!--Unknown citation-->
-      me<lb ed="#V" n="35" break="no"/>dium dicit de christo quod ignorantiam non 
-      po<lb ed="#V" n="36" break="no"/>tuit assumere sapienter: sed non fuit congruum: filium dei 
-      <lb ed="#V" n="37"/>aliquem defectum assumere cum humana natura: qui sapienter 
-      <lb ed="#V" n="38"/>assumi non potuit. ergo non fuit congruum quod assumeret 
-      <lb ed="#V" n="39"/>defectum ignorantie.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e438">
-      ¶ Item non fuit congruum: ipsum 
-      <lb ed="#V" n="40"/>assumere naturam humanam non integram: sed quidam sunt 
-      <lb ed="#V" n="41"/>defectus: qui repugnant integritati nature: vt cecitas et 
-      mem<lb ed="#V" n="42" break="no"/>brorum defectus: ergo non debuit assumere omnes defectus humane nature. 
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e447">
-                  <lb ed="#V" n="43"/>Respondeo defectuum humane nature: quidam 
-      <lb ed="#V" n="44"/>sunt culpabiles quidam penales. 
-      <lb ed="#V" n="45"/>Culpabiles autem assumere non potuit propter summam 
-      rectitu<lb ed="#V" n="46" break="no"/>dinem que in eo est.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e458">
-      ¶ Penalium autem quidam sunt ex 
-      <lb ed="#V" n="47"/>peccato persone in qua sunt consequentes. quidam autem ad 
-      <lb ed="#V" n="48"/>peccatum disponentes: et quidam perfectioni gratie 
-      repugnan<lb ed="#V" n="49" break="no"/>tes: et istos assumere non debuit: quia nec ipsum dicebat: nec 
-      <lb ed="#V" n="50"/>ad opus redemptionis nostre expediebat. Unde non 
-      assum<lb ed="#V" n="51" break="no"/>psit difficultatem ad bonum: nec pronitatem ad malum: nec 
-      <lb ed="#V" n="52"/>ignorantie vitium. Alii autem sunt defectus: pure penales 
-      <lb ed="#V" n="53"/>et illorum quidam sunt personales: sicut sunt diuersa 
-      egri<lb ed="#V" n="54" break="no"/>tudinum genera: et sic de aliis: qui defectus aliquas personas 
-      <lb ed="#V" n="55"/>specialiter respiciunt. et hos defectus filius dei: cum 
-      humana<lb ed="#V" n="56" break="no"/>nara non assumpsit. Alii sunt totam naturam humanam 
-      con<lb ed="#V" n="57" break="no"/>sequentes: et omnes istos filius dei cum natura humana 
-      assum<lb ed="#V" n="58" break="no"/>psit: quia vt defectus totius humane nature curaret: ipsam 
-      <lb ed="#V" n="59"/>naturam humanam assumpsit. 
-    </p>
-               <p xml:id="kzz7yh-g34631-d1e489">
-                  <lb ed="#V" n="60"/>Ad primum in oppositum dicendum quod illa auctoritas 
-      <lb ed="#V" n="61"/>intelligenda est quantum ad omnia 
-      <lb ed="#V" n="62"/>que consequuntur totam naturam humanam. nec ad peccatum in 
-      <lb ed="#V" n="63"/>elinant: nec perfectioni gratiae repugnant.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e500">
-      ¶ Ad secundum dicendum quod 
-      <lb ed="#V" n="64"/>sicut in hoc quod assumpsit naturam humanam: in qua omnes 
-      conue<lb ed="#V" n="65" break="no"/>niunt: curauit omnes homines quantum in se fuit: ita in hoc quod 
-      <lb ed="#V" n="66"/>assumpsit defectus consequentes totam humanam naturam: et quibus 
-      <lb ed="#V" n="67"/>quasi praiemordialibus causis oriuntur alii personales defectus 
-      <lb ed="#V" n="68"/>omnes alios defectus curauit: quantum in se fuit.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e513">
-      ¶ Ad tertium 
-      <lb ed="#V" n="69"/>dicendum quod minor est falss. non enim suis sed effectus misericor 
-      <!--00111.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="70"/>die: si defectus assumpsisset: quos ipsum assumere non 
-      de<lb ed="#V" n="71" break="no"/>cebat: et ad peccatum inclinant: et perfectioni gratiae repugnant: quia 
-      <lb ed="#V" n="72"/>hoc ad releuationem nostre miserie non expediuisset. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g34631-Dd1e530">
-               <head xml:id="kzz7yh-g34631-Hd1e532">Quaestio 4</head>
-               <head xml:id="kzz7yh-g34631-Hd1e579" type="question-title">Utrum illos defectus: quos cum natura humana assumpsit contraxerit.</head>
-               <p xml:id="kzz7yh-g34631-d1e534">
-      Quaestio IIII. 
-      <lb ed="#V" n="73"/>QUarto queritur: vtrum illos defectus: quos 
-      <lb ed="#V" n="74"/>cum humana natura assumpsit 
-      contraxe<lb ed="#V" n="75" break="no"/>rit: et videtur quod sic. Illud contrahitur: quod cum alio trahitur 
-      <lb ed="#V" n="76"/>sed defectus quos assumpsit cum humana 
-      nar<lb ed="#V" n="77" break="no"/>ad se traxit.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e547">
-      ¶ Item illud quod ex principiis nature causantur: cum 
-      <lb ed="#V" n="78"/>nama contrahitur: sed isti defectus scilicet fames et sitis: et huiusmodi causantur ex 
-      <lb ed="#V" n="79"/>naturalibus principiis corporis humani. Causantur enim per 
-      mu<lb ed="#V" n="80" break="no"/>tuam actionem: et passionem contrariorum. ergo istos defectus filius 
-      <lb ed="#V" n="81"/>dei cum humana natura contraxit.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e558">
-      ¶ Item defectus in quibus 
-      pro<lb ed="#V" n="82" break="no"/>les a suaorigine assimilatur patri vel matri contracti sunt sed in illis 
-      <lb ed="#V" n="83"/>defectibus: quos filius dei cum humana natura assumpsit a 
-      <lb ed="#V" n="84"/>sua origine assimilatus est matri. ergo illos defectum contraxit. 
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e567">
-                  <lb ed="#V" n="85"/>Contra. defectus voluntarie assumpti non sunt concti: 
-      <lb ed="#V" n="86"/>sed secundum Damas. liro 3. c. 17. Filius dei cum 
-      hu<lb ed="#V" n="87" break="no"/>mana natura famem et sitim voluntarie assumpsit. ergo illos 
-      <lb ed="#V" n="88"/>cum natura humana non contraxit.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e579">
-      ¶ Item defectus contracti nobis 
-      <lb ed="#V" n="89"/>propter culpam originalem debentur. Unde secundum <ref xml:id="kzz7yh-g34631-Rd1e631">Augu. 13 de tri. c. 
-      <lb ed="#V" n="90"/>16.</ref> <quote xml:id="kzz7yh-g34631-Qd1e636" source="http://scta.info/resource/adt-l13-d1e1492@26-40">Omnia mala huius seculi dolores laboresque hominum 
-      ve<lb ed="#V" n="91" break="no"/>niunt de meritis originalis peccati</quote>: sed christus non habuit 
-      ori<lb ed="#V" n="92" break="no"/>ginalem peccatum. ergo fames et sitis et similia non 
-      fue<lb ed="#V" n="93" break="no"/>runt in ipso defectus contracti. 
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e592">
-                  <lb ed="#V" n="94"/>Respondeo quod filius dei defectus illos: quos cum 
-      <lb ed="#V" n="95"/>humana natura assumpsit non contraxit. 
-      Il<lb ed="#V" n="96" break="no"/>los enim defectus dicitur pure contrahere: quos a sua origine simul cum 
-      <lb ed="#V" n="97"/>nam sua in se: vel in suis naturalibus causis accipit: et ipsam naturam 
-      <lb ed="#V" n="98"/>prout in ipso est de necessitate consequuntur. Defectum autem nature 
-      <lb ed="#V" n="99"/>humane: qui fuerunt in christo:equamuis in ipso fuerunt a sua 
-      <lb ed="#V" n="100"/>origine: non tamen de necessitate consecuti sunt naturam humanam 
-      <lb ed="#V" n="101"/>prout in ipso fuit: sed voluntarie et dispensatiue tales 
-      defe<lb ed="#V" n="102" break="no"/>ctus in sua natura humana permisit et reliquit. Predicti enim 
-      de<lb ed="#V" n="103" break="no"/>fectus non consequuntur naturam humanam de necessitate: nisi in 
-      <lb ed="#V" n="104"/>quantum tracta est a primis parentibus: et proximis per 
-      ori<lb ed="#V" n="105" break="no"/>ginem vitiosam natura autem humana christi ex matre accepta est: 
-      <lb ed="#V" n="106"/>non per vitiosam originem. Unde nec peccatum originale 
-      ha<lb ed="#V" n="107" break="no"/>buit. Predictos ergo defectus non contraxit: quia ipsos cum natura 
-      <lb ed="#V" n="108"/>sua non de necessitate contraxit: sed voluntarie assumpsit. 
-      <lb ed="#V" n="109"/>Ex dictis patet solutio ad primum in oppositum: quia quamuio 
-      <lb ed="#V" n="110"/>praedictos defectus cum natura humana ad se
-      <lb ed="#V" n="111"/>traxit: voluntarie tamen hoc fecit.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e634">
-      ¶ Ad secundum dicendum quod fames 
-      <lb ed="#V" n="112"/>et sitis in homine: quamuis causentur ex principiis nature sibi relicte 
-      <lb ed="#V" n="113"/>tamen filius dei assumere potuit naturam humanam cum perfectione 
-      <lb ed="#V" n="114"/>primo sibi indita pro habente aliquam penalitatem oriri in homine: 
-      <lb ed="#V" n="115"/>et ideo in hoc quod naturam humanam cum illa perfectione assumere 
-      <lb ed="#V" n="116"/>voluit: praedictos defectus in assumpta naura voluntarie 
-      reli<lb ed="#V" n="117" break="no"/>quit.
-   </p>
-               <p xml:id="kzz7yh-g34631-d1e650">
-      ¶ Ad tertium dicendum quod non oet quod maior sit vera nisi 
-      de<lb ed="#V" n="118" break="no"/>fectus illi de necessitate consequantur naturam prolis: prout in ipsa 
-      <lb ed="#V" n="119"/>est. Predicti autem defectus non de necessitate consecuti sunt 
-      <lb ed="#V" n="120"/>naturam humanam: prout in christo fuit: vt dictum est. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e328">
+            <lb ed="#V" n="1"/>Ad primum in oppositum dicendum quod per 
+            assum<lb ed="#V" n="2" break="no"/>ptionem modorum defectuum: non fuit 
+            <lb ed="#V" n="3"/>habitus despectui: nisi per malitiam despicientium. Cum 
+            <lb ed="#V" n="4"/>tamen propter assumptionem illam magis debuisset ab eis 
+            hono<lb ed="#V" n="5" break="no"/>rari: quia quanto magnus: magis se humiliat pro 
+            subdito<lb ed="#V" n="6" break="no"/>rum vtilitate: tanto perfectius debet a subditis honorari. 
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e344">
+            <lb ed="#V" n="7"/>¶ Ad secundum dicendum quod non melius potest infirmitas curari: 
+            <lb ed="#V" n="8"/>quam eius causam destruendo. Sed causa nostre infirmitatis: fuit 
+            su<lb ed="#V" n="9" break="no"/>perbia propter cuius destructionem humiliauit se filius dei: 
+            na<lb ed="#V" n="10" break="no"/>turam humanam assumendo cum aliquibus defectibus 
+            <lb ed="#V" n="11"/>suis: et sic ordinauit nostram infirmitatem curare per contrarium 
+            <lb ed="#V" n="12"/>sue causae
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e360">
+            ¶ Ad 3m dicendum quod sicut in natura diuina: non potest esse 
+            cul <lb ed="#V" n="13" break="no"/>pa: ita nec penalis defectus: quia penalis defectus naturam creata 
+            <lb ed="#V" n="14"/>adeo non separat: sed magis vnit: inquantum est materia 
+            exer<lb ed="#V" n="15" break="no"/>cende virtutis. defectus autem culpabilis a deo separat: secundum 
+            <lb ed="#V" n="16"/>illud <ref xml:id="kzz7yh-g34631-Rd1e397">Isaie. 59</ref>. <quote xml:id="kzz7yh-g34631-Qd1e400" source="http://scta.info/resource/is59_2@2-12">Iniquitates videre diuiserunt inter vos: et er 
+              <lb ed="#V" n="17"/>deum vestrum.</quote> ideo congruum suit vt filius dei naturam 
+            <lb ed="#V" n="18"/>humanam cum defectibus penalibus assumeret et non 
+            <lb ed="#V" n="19"/>culpabilibus. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g34631-Dd1e379">
+          <head xml:id="kzz7yh-g34631-Hd1e381">Quaestio 3</head>
+          <head xml:id="kzz7yh-g34631-Hd1e416" type="question-title">utrum congruum fuerit ipsum assumere omnes humaene nature defectus.</head>
+          <p xml:id="kzz7yh-g34631-d1e383">
+            Questio III 
+            <lb ed="#V" n="20"/>TErtio queritur: vtrum congruum fuerit: filium 
+            <lb ed="#V" n="21"/>dei cum humana natura assumere 
+            <lb ed="#V" n="22"/>omnes ipsius nature defectus: et videtur quod sic. ad hebtr. 2o 
+            <lb ed="#V" n="23"/>Debuit per omnia fribus similari vt misericors 
+            <lb ed="#V" n="24"/><!-- line coord error -->
+            <lb ed="#V" n="25"/>steret.
+          </p>
+          <!-- Not sure what's going on here, between lines 219 and 229. Also unknown citation on 225.-->
+          <p xml:id="kzz7yh-g34631-d1e399">
+            ¶ Item Damas. libro 3. c. 6. Quod inassumptum est: non 
+            <lb ed="#V" n="26"/>culpabile est: sed filius dei humanam naturam assumpsit ad 
+            <lb ed="#V" n="27"/>curandum omnes eius defectibus. ergo eam assumere debuit 
+            <lb ed="#V" n="28"/>cum omnibus defectibus suis.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e408">
+            ¶ Item per misericordiam 
+            <lb ed="#V" n="29"/>assumpsit nostram humanam naturam. secundum illud Luc I per 
+            vi<lb ed="#V" n="30" break="no"/>scera misericordie dei nostri visitauit nos oriens exalto: sed 
+            <lb ed="#V" n="31"/>maiorem affectum misericordie ostendisse in assumendo. 
+            <lb ed="#V" n="32"/>Omnes defectus nostros quam aliquos assumendo et aliquos non: 
+            <lb ed="#V" n="33"/>ergo videtur quod omnes assumere debuit. 
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e421">
+            <lb ed="#V" n="34"/>Contra. <ref xml:id="kzz7yh-g34631-Rd1e465">Ansel. li. 2. Cur deus homo</ref> bene ante
+            <!--Unknown citation-->
+            me<lb ed="#V" n="35" break="no"/>dium dicit de christo quod ignorantiam non 
+            po<lb ed="#V" n="36" break="no"/>tuit assumere sapienter: sed non fuit congruum: filium dei 
+            <lb ed="#V" n="37"/>aliquem defectum assumere cum humana natura: qui sapienter 
+            <lb ed="#V" n="38"/>assumi non potuit. ergo non fuit congruum quod assumeret 
+            <lb ed="#V" n="39"/>defectum ignorantie.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e438">
+            ¶ Item non fuit congruum: ipsum 
+            <lb ed="#V" n="40"/>assumere naturam humanam non integram: sed quidam sunt 
+            <lb ed="#V" n="41"/>defectus: qui repugnant integritati nature: vt cecitas et 
+            mem<lb ed="#V" n="42" break="no"/>brorum defectus: ergo non debuit assumere omnes defectus humane nature. 
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e447">
+            <lb ed="#V" n="43"/>Respondeo defectuum humane nature: quidam 
+            <lb ed="#V" n="44"/>sunt culpabiles quidam penales. 
+            <lb ed="#V" n="45"/>Culpabiles autem assumere non potuit propter summam 
+            rectitu<lb ed="#V" n="46" break="no"/>dinem que in eo est.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e458">
+            ¶ Penalium autem quidam sunt ex 
+            <lb ed="#V" n="47"/>peccato persone in qua sunt consequentes. quidam autem ad 
+            <lb ed="#V" n="48"/>peccatum disponentes: et quidam perfectioni gratie 
+            repugnan<lb ed="#V" n="49" break="no"/>tes: et istos assumere non debuit: quia nec ipsum dicebat: nec 
+            <lb ed="#V" n="50"/>ad opus redemptionis nostre expediebat. Unde non 
+            assum<lb ed="#V" n="51" break="no"/>psit difficultatem ad bonum: nec pronitatem ad malum: nec 
+            <lb ed="#V" n="52"/>ignorantie vitium. Alii autem sunt defectus: pure penales 
+            <lb ed="#V" n="53"/>et illorum quidam sunt personales: sicut sunt diuersa 
+            egri<lb ed="#V" n="54" break="no"/>tudinum genera: et sic de aliis: qui defectus aliquas personas 
+            <lb ed="#V" n="55"/>specialiter respiciunt. et hos defectus filius dei: cum 
+            humana<lb ed="#V" n="56" break="no"/>nara non assumpsit. Alii sunt totam naturam humanam 
+            con<lb ed="#V" n="57" break="no"/>sequentes: et omnes istos filius dei cum natura humana 
+            assum<lb ed="#V" n="58" break="no"/>psit: quia vt defectus totius humane nature curaret: ipsam 
+            <lb ed="#V" n="59"/>naturam humanam assumpsit. 
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e489">
+            <lb ed="#V" n="60"/>Ad primum in oppositum dicendum quod illa auctoritas 
+            <lb ed="#V" n="61"/>intelligenda est quantum ad omnia 
+            <lb ed="#V" n="62"/>que consequuntur totam naturam humanam. nec ad peccatum in 
+            <lb ed="#V" n="63"/>elinant: nec perfectioni gratiae repugnant.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e500">
+            ¶ Ad secundum dicendum quod 
+            <lb ed="#V" n="64"/>sicut in hoc quod assumpsit naturam humanam: in qua omnes 
+            conue<lb ed="#V" n="65" break="no"/>niunt: curauit omnes homines quantum in se fuit: ita in hoc quod 
+            <lb ed="#V" n="66"/>assumpsit defectus consequentes totam humanam naturam: et quibus 
+            <lb ed="#V" n="67"/>quasi praiemordialibus causis oriuntur alii personales defectus 
+            <lb ed="#V" n="68"/>omnes alios defectus curauit: quantum in se fuit.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e513">
+            ¶ Ad tertium 
+            <lb ed="#V" n="69"/>dicendum quod minor est falss. non enim suis sed effectus misericor 
+            <!--00111.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="70"/>die: si defectus assumpsisset: quos ipsum assumere non 
+            de<lb ed="#V" n="71" break="no"/>cebat: et ad peccatum inclinant: et perfectioni gratiae repugnant: quia 
+            <lb ed="#V" n="72"/>hoc ad releuationem nostre miserie non expediuisset. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g34631-Dd1e530">
+          <head xml:id="kzz7yh-g34631-Hd1e532">Quaestio 4</head>
+          <head xml:id="kzz7yh-g34631-Hd1e579" type="question-title">Utrum illos defectus: quos cum natura humana assumpsit contraxerit.</head>
+          <p xml:id="kzz7yh-g34631-d1e534">
+            Quaestio IIII. 
+            <lb ed="#V" n="73"/>QUarto queritur: vtrum illos defectus: quos 
+            <lb ed="#V" n="74"/>cum humana natura assumpsit 
+            contraxe<lb ed="#V" n="75" break="no"/>rit: et videtur quod sic. Illud contrahitur: quod cum alio trahitur 
+            <lb ed="#V" n="76"/>sed defectus quos assumpsit cum humana 
+            nar<lb ed="#V" n="77" break="no"/>ad se traxit.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e547">
+            ¶ Item illud quod ex principiis nature causantur: cum 
+            <lb ed="#V" n="78"/>nama contrahitur: sed isti defectus scilicet fames et sitis: et huiusmodi causantur ex 
+            <lb ed="#V" n="79"/>naturalibus principiis corporis humani. Causantur enim per 
+            mu<lb ed="#V" n="80" break="no"/>tuam actionem: et passionem contrariorum. ergo istos defectus filius 
+            <lb ed="#V" n="81"/>dei cum humana natura contraxit.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e558">
+            ¶ Item defectus in quibus 
+            pro<lb ed="#V" n="82" break="no"/>les a suaorigine assimilatur patri vel matri contracti sunt sed in illis 
+            <lb ed="#V" n="83"/>defectibus: quos filius dei cum humana natura assumpsit a 
+            <lb ed="#V" n="84"/>sua origine assimilatus est matri. ergo illos defectum contraxit. 
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e567">
+            <lb ed="#V" n="85"/>Contra. defectus voluntarie assumpti non sunt concti: 
+            <lb ed="#V" n="86"/>sed secundum Damas. liro 3. c. 17. Filius dei cum 
+            hu<lb ed="#V" n="87" break="no"/>mana natura famem et sitim voluntarie assumpsit. ergo illos 
+            <lb ed="#V" n="88"/>cum natura humana non contraxit.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e579">
+            ¶ Item defectus contracti nobis 
+            <lb ed="#V" n="89"/>propter culpam originalem debentur. Unde secundum <ref xml:id="kzz7yh-g34631-Rd1e631">Augu. 13 de tri. c. 
+              <lb ed="#V" n="90"/>16.</ref> <quote xml:id="kzz7yh-g34631-Qd1e636" source="http://scta.info/resource/adt-l13-d1e1492@26-40">Omnia mala huius seculi dolores laboresque hominum 
+                ve<lb ed="#V" n="91" break="no"/>niunt de meritis originalis peccati</quote>: sed christus non habuit 
+            ori<lb ed="#V" n="92" break="no"/>ginalem peccatum. ergo fames et sitis et similia non 
+            fue<lb ed="#V" n="93" break="no"/>runt in ipso defectus contracti. 
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e592">
+            <lb ed="#V" n="94"/>Respondeo quod filius dei defectus illos: quos cum 
+            <lb ed="#V" n="95"/>humana natura assumpsit non contraxit. 
+            Il<lb ed="#V" n="96" break="no"/>los enim defectus dicitur pure contrahere: quos a sua origine simul cum 
+            <lb ed="#V" n="97"/>nam sua in se: vel in suis naturalibus causis accipit: et ipsam naturam 
+            <lb ed="#V" n="98"/>prout in ipso est de necessitate consequuntur. Defectum autem nature 
+            <lb ed="#V" n="99"/>humane: qui fuerunt in christo:equamuis in ipso fuerunt a sua 
+            <lb ed="#V" n="100"/>origine: non tamen de necessitate consecuti sunt naturam humanam 
+            <lb ed="#V" n="101"/>prout in ipso fuit: sed voluntarie et dispensatiue tales 
+            defe<lb ed="#V" n="102" break="no"/>ctus in sua natura humana permisit et reliquit. Predicti enim 
+            de<lb ed="#V" n="103" break="no"/>fectus non consequuntur naturam humanam de necessitate: nisi in 
+            <lb ed="#V" n="104"/>quantum tracta est a primis parentibus: et proximis per 
+            ori<lb ed="#V" n="105" break="no"/>ginem vitiosam natura autem humana christi ex matre accepta est: 
+            <lb ed="#V" n="106"/>non per vitiosam originem. Unde nec peccatum originale 
+            ha<lb ed="#V" n="107" break="no"/>buit. Predictos ergo defectus non contraxit: quia ipsos cum natura 
+            <lb ed="#V" n="108"/>sua non de necessitate contraxit: sed voluntarie assumpsit. 
+            <lb ed="#V" n="109"/>Ex dictis patet solutio ad primum in oppositum: quia quamuio 
+            <lb ed="#V" n="110"/>praedictos defectus cum natura humana ad se
+            <lb ed="#V" n="111"/>traxit: voluntarie tamen hoc fecit.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e634">
+            ¶ Ad secundum dicendum quod fames 
+            <lb ed="#V" n="112"/>et sitis in homine: quamuis causentur ex principiis nature sibi relicte 
+            <lb ed="#V" n="113"/>tamen filius dei assumere potuit naturam humanam cum perfectione 
+            <lb ed="#V" n="114"/>primo sibi indita pro habente aliquam penalitatem oriri in homine: 
+            <lb ed="#V" n="115"/>et ideo in hoc quod naturam humanam cum illa perfectione assumere 
+            <lb ed="#V" n="116"/>voluit: praedictos defectus in assumpta naura voluntarie 
+            reli<lb ed="#V" n="117" break="no"/>quit.
+          </p>
+          <p xml:id="kzz7yh-g34631-d1e650">
+            ¶ Ad tertium dicendum quod non oet quod maior sit vera nisi 
+            de<lb ed="#V" n="118" break="no"/>fectus illi de necessitate consequantur naturam prolis: prout in ipsa 
+            <lb ed="#V" n="119"/>est. Predicti autem defectus non de necessitate consecuti sunt 
+            <lb ed="#V" n="120"/>naturam humanam: prout in christo fuit: vt dictum est. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

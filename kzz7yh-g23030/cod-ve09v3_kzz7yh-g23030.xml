@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="33-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g23030"><!-- l3d10cl -->
-            <head xml:id="kzz7yh-g23030-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-g23030-d1e103">
-               <lb ed="#V" n="77"/>CIrca litteram. Quidam dicunt 
-      <lb ed="#V" n="78"/>christum secundum hominem
-      <lb ed="#V" n="79"/>non esse personam: nec aliquid: primum concedendum 
-      <lb ed="#V" n="80"/>est: non enim inquantum homo: est persona: sed 2m ftum 
-      <lb ed="#V" n="81"/>est. Inquantum enim homo aliquid est: 2m multiplicem habet 
-      ratio<lb ed="#V" n="82" break="no"/>nem. Uult dicere quod hec dictio secundum: cum dicitur christus secundum quod 
-      ho<lb ed="#V" n="83" break="no"/>mo: potest nominare concomitantiam: vel causam. Notandum tamen 
-      <lb ed="#V" n="84"/>quod cum dicitur christus secundum quod homo: hec dictio secundum magis proprie 
-      <lb ed="#V" n="85"/>notat causam quam concomitantiam: et magis proprie causam praecisam: 
-      <lb ed="#V" n="86"/>quam non praecisam. Illa tamen persone descriptio non est data pro 
-      <lb ed="#V" n="87"/>illis tribus personis: quod est verum: si stricte accipiantur ea que in 
-      <lb ed="#V" n="88"/>diffinitione ponuntur: Sed boetius illa large accipit: cum 
-      di<lb ed="#V" n="89" break="no"/>cit in libro de duabus naturis: et vna persona christi quod persona est 
-      <lb ed="#V" n="90"/>rationalis nature indiuidua substantia. Ut autem ipse ens homo sit 
-      <lb ed="#V" n="91"/>filius dei per gratiam habet pro tanto scilicet quod filius dei factus est 
-      <lb ed="#V" n="92"/>homo non per naturam: sed per gratiam. Non sic dicitur filius 
-      natu<lb ed="#V" n="93" break="no"/>ra: sicut dicitur deus natura: dicitur enim deus natura: quasi formaliter: sed 
-      <lb ed="#V" n="94"/>dicitur filius natura: propter modum originis: quia producuntur per 
-      mo<lb ed="#V" n="95" break="no"/>dum nature. Nature filius: non quia natura ipsum genuerit: 
-      <lb ed="#V" n="96"/>quia diuina natura nec generat: nec generatur: sed quia productus est 
-      <lb ed="#V" n="97"/>per modum nature. Dici potest christum filium virginis esse 
-      <lb ed="#V" n="98"/>natura: vel naturaliter: et gratia: quia inquantum homo est 
-      <lb ed="#V" n="99"/>filius virginis natura exponendo: vt supra expositum est: 
-      <lb ed="#V" n="100"/>et inquantum deus gratia. Sed non talis hic filius: quia nos 
-      <lb ed="#V" n="101"/>sumus filii dei per adoptionem: ipse vero per naturam: et non 
-      <lb ed="#V" n="102"/>dicitur filiatio de vtraque praedictarum filiationum vniuoce: 
-      <lb ed="#V" n="103"/>nec pure equoce: sed analogice. Origine non adoptione: 
-      <lb ed="#V" n="104"/>hoc dicitur contra Nestorium: qui cum poneret in 
-      christo<lb ed="#V" n="105" break="no"/>duas personas scilicet creatam et increatam: non potuit ipsum 
-      <lb ed="#V" n="106"/>ponere filium nisi per adoptionis gratiam. Ueritate non 
-      <lb ed="#V" n="107"/>nuncupatione: hoc dici potest contra Sabellium: qui ponebat 
-      <lb ed="#V" n="108"/>personas distingui nullo modo realiter: sed nominaliter tantum. 
-      Na<lb ed="#V" n="109" break="no"/>tiuitate non creatione. Hoc dictum est contra Arrium qui 
-      <lb ed="#V" n="110"/>dicebat christum esse creaturam: ita sane: quia filius dei: 
-      <lb ed="#V" n="111"/>etiam secundum quod homo: non est filius adoptiuus: vt in 
-      quaestio<lb ed="#V" n="112" break="no"/>nibus ostensum est. Sane dici potest: vult dicere in sua 
-      re<lb ed="#V" n="113" break="no"/>sponsione quod concedendum est quod filius dei: inquantum 
-      ho<lb ed="#V" n="114" break="no"/>mo: fuit predestinatus: vel quod filius dei fuit predestinatus 
-      <lb ed="#V" n="115"/>esse homo: et quod humana natura predestinata fuit: vt 
-      per<lb ed="#V" n="116" break="no"/>sone filii dei vniretur. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="33-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g23030"><!-- l3d10cl -->
+        <head xml:id="kzz7yh-g23030-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-g23030-d1e103">
+          <lb ed="#V" n="77"/>CIrca litteram. Quidam dicunt 
+          <lb ed="#V" n="78"/>christum secundum hominem
+          <lb ed="#V" n="79"/>non esse personam: nec aliquid: primum concedendum 
+          <lb ed="#V" n="80"/>est: non enim inquantum homo: est persona: sed 2m ftum 
+          <lb ed="#V" n="81"/>est. Inquantum enim homo aliquid est: 2m multiplicem habet 
+          ratio<lb ed="#V" n="82" break="no"/>nem. Uult dicere quod hec dictio secundum: cum dicitur christus secundum quod 
+          ho<lb ed="#V" n="83" break="no"/>mo: potest nominare concomitantiam: vel causam. Notandum tamen 
+          <lb ed="#V" n="84"/>quod cum dicitur christus secundum quod homo: hec dictio secundum magis proprie 
+          <lb ed="#V" n="85"/>notat causam quam concomitantiam: et magis proprie causam praecisam: 
+          <lb ed="#V" n="86"/>quam non praecisam. Illa tamen persone descriptio non est data pro 
+          <lb ed="#V" n="87"/>illis tribus personis: quod est verum: si stricte accipiantur ea que in 
+          <lb ed="#V" n="88"/>diffinitione ponuntur: Sed boetius illa large accipit: cum 
+          di<lb ed="#V" n="89" break="no"/>cit in libro de duabus naturis: et vna persona christi quod persona est 
+          <lb ed="#V" n="90"/>rationalis nature indiuidua substantia. Ut autem ipse ens homo sit 
+          <lb ed="#V" n="91"/>filius dei per gratiam habet pro tanto scilicet quod filius dei factus est 
+          <lb ed="#V" n="92"/>homo non per naturam: sed per gratiam. Non sic dicitur filius 
+          natu<lb ed="#V" n="93" break="no"/>ra: sicut dicitur deus natura: dicitur enim deus natura: quasi formaliter: sed 
+          <lb ed="#V" n="94"/>dicitur filius natura: propter modum originis: quia producuntur per 
+          mo<lb ed="#V" n="95" break="no"/>dum nature. Nature filius: non quia natura ipsum genuerit: 
+          <lb ed="#V" n="96"/>quia diuina natura nec generat: nec generatur: sed quia productus est 
+          <lb ed="#V" n="97"/>per modum nature. Dici potest christum filium virginis esse 
+          <lb ed="#V" n="98"/>natura: vel naturaliter: et gratia: quia inquantum homo est 
+          <lb ed="#V" n="99"/>filius virginis natura exponendo: vt supra expositum est: 
+          <lb ed="#V" n="100"/>et inquantum deus gratia. Sed non talis hic filius: quia nos 
+          <lb ed="#V" n="101"/>sumus filii dei per adoptionem: ipse vero per naturam: et non 
+          <lb ed="#V" n="102"/>dicitur filiatio de vtraque praedictarum filiationum vniuoce: 
+          <lb ed="#V" n="103"/>nec pure equoce: sed analogice. Origine non adoptione: 
+          <lb ed="#V" n="104"/>hoc dicitur contra Nestorium: qui cum poneret in 
+          christo<lb ed="#V" n="105" break="no"/>duas personas scilicet creatam et increatam: non potuit ipsum 
+          <lb ed="#V" n="106"/>ponere filium nisi per adoptionis gratiam. Ueritate non 
+          <lb ed="#V" n="107"/>nuncupatione: hoc dici potest contra Sabellium: qui ponebat 
+          <lb ed="#V" n="108"/>personas distingui nullo modo realiter: sed nominaliter tantum. 
+          Na<lb ed="#V" n="109" break="no"/>tiuitate non creatione. Hoc dictum est contra Arrium qui 
+          <lb ed="#V" n="110"/>dicebat christum esse creaturam: ita sane: quia filius dei: 
+          <lb ed="#V" n="111"/>etiam secundum quod homo: non est filius adoptiuus: vt in 
+          quaestio<lb ed="#V" n="112" break="no"/>nibus ostensum est. Sane dici potest: vult dicere in sua 
+          re<lb ed="#V" n="113" break="no"/>sponsione quod concedendum est quod filius dei: inquantum 
+          ho<lb ed="#V" n="114" break="no"/>mo: fuit predestinatus: vel quod filius dei fuit predestinatus 
+          <lb ed="#V" n="115"/>esse homo: et quod humana natura predestinata fuit: vt 
+          per<lb ed="#V" n="116" break="no"/>sone filii dei vniretur. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

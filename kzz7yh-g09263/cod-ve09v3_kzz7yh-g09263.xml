@@ -1,275 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 3</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 3</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="13-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 3</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 3</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="13-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g09263"><!-- l3d4a3 -->
+        <head xml:id="kzz7yh-g09263-Hd1e101">Articulus 3</head>
+        <p xml:id="kzz7yh-g09263-d1e103">
+          <lb ed="#V" n="115"/>Consequenter queritur de tertio 
+          prin<lb ed="#V" n="116" break="no"/>cipali. Et circa hoc 
+          <lb ed="#V" n="117"/>queruntur duo.
+        </p>
+        <p xml:id="kzz7yh-g09263-d1e112">
+          ¶ Primo vtrum propter aliquod 
+          me<lb ed="#V" n="118" break="no"/>ritum filius dei naturam humanam assumpserit. 
+        </p>
+        <p xml:id="kzz7yh-g09263-d1e117">
+          <lb ed="#V" n="119"/>¶ Secundo vtrum christo gratia naturalis sit. 
+        </p>
+        <div xml:id="kzz7yh-g09263-Dd1e122">
+          <head xml:id="kzz7yh-g09263-Hd1e124">Quaestio 1</head>
+          <head xml:id="kzz7yh-g09263-Hd1e128" type="question-title">Utrum propter aliquod meritum filius dei naturam humanam assumpserit.</head>
+          <p xml:id="kzz7yh-g09263-d1e126">
+            Quaestio I. 
+            <lb ed="#V" n="120"/>PRimo ostendo quod propter aliquod meritum filius 
+            <lb ed="#V" n="121"/>dei naturam humanam assumpsit Glo. 
+            <lb ed="#V" n="122"/>super illud psalmum. Propter miseriam inopum et gemitum 
+            <lb ed="#V" n="123"/>pauperum: nunc exurgam dicit dominus id est mittam filium 
+            pro<lb ed="#V" n="124" break="no"/>pter miseriam inopum tollendam: idest mortalitatem et 
+            pas<lb ed="#V" n="125" break="no"/>sibilitatem: et hoc faciam propter gemitum pauperum: qui de 
+            ma<lb ed="#V" n="126" break="no"/>lis gemunt: et pro peccatis conteruntur: naura aliter non essent 
+            au<lb ed="#V" n="127" break="no"/>xilio digni: ergo videtur quod preces penitentium 
+            impetra<lb ed="#V" n="128" break="no"/>uerunt filii dei incarnationem.
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e148">
+            ¶ Item qui pie petit 
+            per<lb ed="#V" n="129" break="no"/>seueranter: et ad salutem ex charitate meretur obtinere 
+            <lb ed="#V" n="130"/>illud quod petit: secundum illud verbum Saluatoris in 
+            euan<lb ed="#V" n="131" break="no"/>gelio Matth. 7. Omnis qui petit accipit: sed sancti 
+            pa<lb ed="#V" n="132" break="no"/>tres qui fuerunt ante aduentum christi: sic petiuerunt 
+            fi<lb ed="#V" n="133" break="no"/>lii dei incarnationem in quorum persona dicitur in 
+            psal<lb ed="#V" n="134" break="no"/>mis. Excita domine potentiam tuam et veni. Et Isa. 
+            <lb ed="#V" n="135"/>74. Utinam disrumperes celos: et descenderes: ergo 
+            vide<lb ed="#V" n="136" break="no"/>tur quod sancti patres qui praecesserunt incarnationi filii dei 
+            <!--00037.xml-->
+            <pb ed="#V" n="14-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ipsam meruerunt.
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e177">
+            ¶ Item qui meretur aliquid 
+            mere<lb ed="#V" n="2" break="no"/>tur et hoc sine quo illud haberi non potest: alias enim 
+            me<lb ed="#V" n="3" break="no"/>ritum esset casum: sed sancti patres meruerunt vitam 
+            <lb ed="#V" n="4"/>eternam ad quam secundum ordinem quem deus institueret 
+            <lb ed="#V" n="5"/>attingere non poterant nisi per filii dei incarnationem: 
+            <lb ed="#V" n="6"/>ergo videtur quod meruerunt eam. 
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e190">
+            <lb ed="#V" n="7"/>Contra. ad <ref xml:id="kzz7yh-g09263-Rd1e200">Thi. 3.</ref> Benignitas et humanitas 
+            appa<lb ed="#V" n="8" break="no"/>ruit Saluatoris nostri dei non ex operibus iustitie 
+            <lb ed="#V" n="9"/>que fecimus nos: sed secundum mieniam suam saluos nos fecit.
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e200">
+            ¶ Item 
+            <lb ed="#V" n="10"/>ad Ro. xi. Si gratia dei iam non ex operibus alioquin gratia iam non 
+            <lb ed="#V" n="11"/>est gratia: sed secundum Aug. 13 de trini. c. 19. In rebus per 
+            tem<lb ed="#V" n="12" break="no"/>pus ortis: illa summa gratia est quod homo in vnitate persone coniunctus 
+            <lb ed="#V" n="13"/>est deo: ergo hoc non fuit factum propter aliqua merita. 
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e211">
+            <lb ed="#V" n="14"/>Respondeo quod incarntio filii potest considerari: vel 
+            <lb ed="#V" n="15"/>quantum ad essentiam: vel quantum ad 
+            <lb ed="#V" n="16"/>circumstantiam. Primo modo dico quod filius dei propter aliquod 
+            <lb ed="#V" n="17"/>meritum naturam humanam non assumpsit loquendo de merito 
+            sim<lb ed="#V" n="18" break="no"/>pliciter. Fundamentum enim omnis meriti non potest cadere sub 
+            me<lb ed="#V" n="19" break="no"/>rito: sed incarnatio filii dei semper fuit fundamentum omnis 
+            <lb ed="#V" n="20"/>meriti post lapsum nature humane inquantum sine fide eius 
+            <lb ed="#V" n="21"/>implicita vel explicita numquam potuit aliquis mereri vitam 
+            eter<lb ed="#V" n="22" break="no"/>nam: vnde Aug. iu enchi. c. penul. dicit quod nec antiquorum 
+            <lb ed="#V" n="23"/>quicumque iustorum preter christi fidem salutem potuit inuenire: ergo 
+            <lb ed="#V" n="24"/>nulla creatura per se: nec omnes simul mereri potuerunt 
+            fili<lb ed="#V" n="25" break="no"/>dei incarnationem.
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e240">
+            ¶ Preterea incarnatio filii dei fuit ad 
+            <lb ed="#V" n="26"/>reparandam humanam naturam: natura non excedit indiuidua 
+            <lb ed="#V" n="27"/>inquantum non tot sunt indiuidua in natura humana: quin apta 
+            <lb ed="#V" n="28"/>nata sit: quantum est de se pluribus communicari: quamuis ex 
+            ordinatio<lb ed="#V" n="29" break="no"/>ne creatoris prefixus sit praecisus numerus indiuiduorum: 
+            qui<lb ed="#V" n="30" break="no"/>bus communicabitur: ergo meritum nullius hominis puri: nec omnium 
+            <lb ed="#V" n="31"/>simul sufficere poterat ad reparationem nature humane: ergo 
+            <lb ed="#V" n="32"/>nec ad impetrandum filii dei incarnationem: per quam 
+            huma<lb ed="#V" n="33" break="no"/>na naum erat reparanda.
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e260">
+            ¶ Preterea reconciliatio 
+            humani<lb ed="#V" n="34" break="no"/>generis cum deo praesupponebat secundum ordinem quem deus 
+            insti<lb ed="#V" n="35" break="no"/>tuerat filii dei incarnationem: quia vt dicitur ad Col I. In christo 
+            <lb ed="#V" n="36"/>placuit omnem plenitudinem inhabitare: et per eum 
+            reconci<lb ed="#V" n="37" break="no"/>liari omnia in ipsum pacificari per sanguinem crucis eius: siue 
+            <lb ed="#V" n="38"/>que in terris: siue quae in celis sunt. Sed homines ante 
+            reconci<lb ed="#V" n="39" break="no"/>liationem cum deo mereri non poterant merito condigni: illud 
+            <lb ed="#V" n="40"/>quo erant reconciliandi: quia satisfacere non poterant pro delicto 
+            <lb ed="#V" n="41"/>secundum Ansel. libro 2. Cur deus homo non multum post principium: 
+            <lb ed="#V" n="42"/>ergo homines filii dei incarnationem non potuerunt 
+            mereri<lb ed="#V" n="43" break="no"/>Si autem loquemur de praedicta incarnatione: quantum ad 
+            cir<lb ed="#V" n="44" break="no"/>cunstantiam: hoc potest dupliciter esse: aut quantum ad 
+            circunstan<lb ed="#V" n="45" break="no"/>tiam temporis aut persone: in qua et de qua filius dei carnem 
+            <lb ed="#V" n="46"/>humanam assumpsit. Primo modo dici potest quod sancti patres 
+            <lb ed="#V" n="47"/>meruerunt: vt filius dei naturam humanam assumeret illo 
+            tem<lb ed="#V" n="48" break="no"/>pore quo eam assumpsit. Ipsi enim fragrantissimis 
+            deside<lb ed="#V" n="49" break="no"/>riis: presupposita incarnatione filii dei futura meruerunt 
+            <lb ed="#V" n="50"/>eius accelerationem. Secundo modo potest dici quod ipsa 
+            <lb ed="#V" n="51"/>virgo maria: quamuis merito condigni non meruit concipere 
+            <lb ed="#V" n="52"/>filium dei: cum hoc omne meritum excedat: tamen 
+            presuppo<lb ed="#V" n="53" break="no"/>sita futuritione incarnationis filii dei aliquo modo 
+            me<lb ed="#V" n="54" break="no"/>ruit vt ipsum filium dei conciperet: inquantum erat purissima 
+            <lb ed="#V" n="55"/>et in sanctitate perfectissima: et decebat secundum quod dicit Ansilmnus 
+            <lb ed="#V" n="56"/>libo de conceptione vir. vltra medium: vt illius hominis 
+            <lb ed="#V" n="57"/>conceptio de matre purissima fieret ea puritate qua maior 
+            <lb ed="#V" n="58"/>sub deo nequit intelligi: vnde illud meritum quo beata 
+            vir<lb ed="#V" n="59" break="no"/>go meruit fieri mater dei potest vocari meritum decentie: vel 
+            <lb ed="#V" n="60"/>congruitatis: vel secundum aliquos meritum dignitatis: et sic de 
+            vir<lb ed="#V" n="61" break="no"/>gine dicitur: beata viscera que meruerunt portare dominum 
+            <lb ed="#V" n="62"/>christum: et sic debet intelligi illa glosa super illud Luc. ii. 
+            bea<lb ed="#V" n="63" break="no"/>ta que credidisti: que dicit apparet mariam non dubitasse: et 
+            <lb ed="#V" n="64"/>ideo fructum assecutam esse. 
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e330">
+            <lb ed="#V" n="65"/>Ad primum in oppositum dicendum: quod illa glo 
+            loqui<lb ed="#V" n="66" break="no"/>tur de merito congrui non condigni
+            <lb ed="#V" n="67"/>quod non est meritum simplex.
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e339">
+            ¶ Ad secundum dicendum: quod sancti 
+            pa<lb ed="#V" n="68" break="no"/>tres non petebant incarnationem: quam indubitanter crede¬ 
+            <!--00037.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g09263"><!-- l3d4a3 -->
-            <head xml:id="kzz7yh-g09263-Hd1e101">Articulus 3</head>
-            <p xml:id="kzz7yh-g09263-d1e103">
-               <lb ed="#V" n="115"/>Consequenter queritur de tertio 
-      prin<lb ed="#V" n="116" break="no"/>cipali. Et circa hoc 
-      <lb ed="#V" n="117"/>queruntur duo.
-   </p>
-            <p xml:id="kzz7yh-g09263-d1e112">
-      ¶ Primo vtrum propter aliquod 
-      me<lb ed="#V" n="118" break="no"/>ritum filius dei naturam humanam assumpserit. 
-   </p>
-            <p xml:id="kzz7yh-g09263-d1e117">
-               <lb ed="#V" n="119"/>¶ Secundo vtrum christo gratia naturalis sit. 
-   </p>
-            <div xml:id="kzz7yh-g09263-Dd1e122">
-               <head xml:id="kzz7yh-g09263-Hd1e124">Quaestio 1</head>
-               <head xml:id="kzz7yh-g09263-Hd1e128" type="question-title">Utrum propter aliquod meritum filius dei naturam humanam assumpserit.</head>
-               <p xml:id="kzz7yh-g09263-d1e126">
-      Quaestio I. 
-      <lb ed="#V" n="120"/>PRimo ostendo quod propter aliquod meritum filius 
-      <lb ed="#V" n="121"/>dei naturam humanam assumpsit Glo. 
-      <lb ed="#V" n="122"/>super illud psalmum. Propter miseriam inopum et gemitum 
-      <lb ed="#V" n="123"/>pauperum: nunc exurgam dicit dominus id est mittam filium 
-      pro<lb ed="#V" n="124" break="no"/>pter miseriam inopum tollendam: idest mortalitatem et 
-      pas<lb ed="#V" n="125" break="no"/>sibilitatem: et hoc faciam propter gemitum pauperum: qui de 
-      ma<lb ed="#V" n="126" break="no"/>lis gemunt: et pro peccatis conteruntur: naura aliter non essent 
-      au<lb ed="#V" n="127" break="no"/>xilio digni: ergo videtur quod preces penitentium 
-      impetra<lb ed="#V" n="128" break="no"/>uerunt filii dei incarnationem.
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e148">
-      ¶ Item qui pie petit 
-      per<lb ed="#V" n="129" break="no"/>seueranter: et ad salutem ex charitate meretur obtinere 
-      <lb ed="#V" n="130"/>illud quod petit: secundum illud verbum Saluatoris in 
-      euan<lb ed="#V" n="131" break="no"/>gelio Matth. 7. Omnis qui petit accipit: sed sancti 
-      pa<lb ed="#V" n="132" break="no"/>tres qui fuerunt ante aduentum christi: sic petiuerunt 
-      fi<lb ed="#V" n="133" break="no"/>lii dei incarnationem in quorum persona dicitur in 
-      psal<lb ed="#V" n="134" break="no"/>mis. Excita domine potentiam tuam et veni. Et Isa. 
-      <lb ed="#V" n="135"/>74. Utinam disrumperes celos: et descenderes: ergo 
-      vide<lb ed="#V" n="136" break="no"/>tur quod sancti patres qui praecesserunt incarnationi filii dei 
-      <!--00037.xml-->
-      <pb ed="#V" n="14-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>ipsam meruerunt.
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e177">
-      ¶ Item qui meretur aliquid 
-      mere<lb ed="#V" n="2" break="no"/>tur et hoc sine quo illud haberi non potest: alias enim 
-      me<lb ed="#V" n="3" break="no"/>ritum esset casum: sed sancti patres meruerunt vitam 
-      <lb ed="#V" n="4"/>eternam ad quam secundum ordinem quem deus institueret 
-      <lb ed="#V" n="5"/>attingere non poterant nisi per filii dei incarnationem: 
-      <lb ed="#V" n="6"/>ergo videtur quod meruerunt eam. 
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e190">
-                  <lb ed="#V" n="7"/>Contra. ad <ref xml:id="kzz7yh-g09263-Rd1e200">Thi. 3.</ref> Benignitas et humanitas 
-      appa<lb ed="#V" n="8" break="no"/>ruit Saluatoris nostri dei non ex operibus iustitie 
-      <lb ed="#V" n="9"/>que fecimus nos: sed secundum mieniam suam saluos nos fecit.
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e200">
-      ¶ Item 
-      <lb ed="#V" n="10"/>ad Ro. xi. Si gratia dei iam non ex operibus alioquin gratia iam non 
-      <lb ed="#V" n="11"/>est gratia: sed secundum Aug. 13 de trini. c. 19. In rebus per 
-      tem<lb ed="#V" n="12" break="no"/>pus ortis: illa summa gratia est quod homo in vnitate persone coniunctus 
-      <lb ed="#V" n="13"/>est deo: ergo hoc non fuit factum propter aliqua merita. 
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e211">
-                  <lb ed="#V" n="14"/>Respondeo quod incarntio filii potest considerari: vel 
-      <lb ed="#V" n="15"/>quantum ad essentiam: vel quantum ad 
-      <lb ed="#V" n="16"/>circumstantiam. Primo modo dico quod filius dei propter aliquod 
-      <lb ed="#V" n="17"/>meritum naturam humanam non assumpsit loquendo de merito 
-      sim<lb ed="#V" n="18" break="no"/>pliciter. Fundamentum enim omnis meriti non potest cadere sub 
-      me<lb ed="#V" n="19" break="no"/>rito: sed incarnatio filii dei semper fuit fundamentum omnis 
-      <lb ed="#V" n="20"/>meriti post lapsum nature humane inquantum sine fide eius 
-      <lb ed="#V" n="21"/>implicita vel explicita numquam potuit aliquis mereri vitam 
-      eter<lb ed="#V" n="22" break="no"/>nam: vnde Aug. iu enchi. c. penul. dicit quod nec antiquorum 
-      <lb ed="#V" n="23"/>quicumque iustorum preter christi fidem salutem potuit inuenire: ergo 
-      <lb ed="#V" n="24"/>nulla creatura per se: nec omnes simul mereri potuerunt 
-      fili<lb ed="#V" n="25" break="no"/>dei incarnationem.
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e240">
-      ¶ Preterea incarnatio filii dei fuit ad 
-      <lb ed="#V" n="26"/>reparandam humanam naturam: natura non excedit indiuidua 
-      <lb ed="#V" n="27"/>inquantum non tot sunt indiuidua in natura humana: quin apta 
-      <lb ed="#V" n="28"/>nata sit: quantum est de se pluribus communicari: quamuis ex 
-      ordinatio<lb ed="#V" n="29" break="no"/>ne creatoris prefixus sit praecisus numerus indiuiduorum: 
-      qui<lb ed="#V" n="30" break="no"/>bus communicabitur: ergo meritum nullius hominis puri: nec omnium 
-      <lb ed="#V" n="31"/>simul sufficere poterat ad reparationem nature humane: ergo 
-      <lb ed="#V" n="32"/>nec ad impetrandum filii dei incarnationem: per quam 
-      huma<lb ed="#V" n="33" break="no"/>na naum erat reparanda.
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e260">
-      ¶ Preterea reconciliatio 
-      humani<lb ed="#V" n="34" break="no"/>generis cum deo praesupponebat secundum ordinem quem deus 
-      insti<lb ed="#V" n="35" break="no"/>tuerat filii dei incarnationem: quia vt dicitur ad Col I. In christo 
-      <lb ed="#V" n="36"/>placuit omnem plenitudinem inhabitare: et per eum 
-      reconci<lb ed="#V" n="37" break="no"/>liari omnia in ipsum pacificari per sanguinem crucis eius: siue 
-      <lb ed="#V" n="38"/>que in terris: siue quae in celis sunt. Sed homines ante 
-      reconci<lb ed="#V" n="39" break="no"/>liationem cum deo mereri non poterant merito condigni: illud 
-      <lb ed="#V" n="40"/>quo erant reconciliandi: quia satisfacere non poterant pro delicto 
-      <lb ed="#V" n="41"/>secundum Ansel. libro 2. Cur deus homo non multum post principium: 
-      <lb ed="#V" n="42"/>ergo homines filii dei incarnationem non potuerunt 
-      mereri<lb ed="#V" n="43" break="no"/>Si autem loquemur de praedicta incarnatione: quantum ad 
-      cir<lb ed="#V" n="44" break="no"/>cunstantiam: hoc potest dupliciter esse: aut quantum ad 
-      circunstan<lb ed="#V" n="45" break="no"/>tiam temporis aut persone: in qua et de qua filius dei carnem 
-      <lb ed="#V" n="46"/>humanam assumpsit. Primo modo dici potest quod sancti patres 
-      <lb ed="#V" n="47"/>meruerunt: vt filius dei naturam humanam assumeret illo 
-      tem<lb ed="#V" n="48" break="no"/>pore quo eam assumpsit. Ipsi enim fragrantissimis 
-      deside<lb ed="#V" n="49" break="no"/>riis: presupposita incarnatione filii dei futura meruerunt 
-      <lb ed="#V" n="50"/>eius accelerationem. Secundo modo potest dici quod ipsa 
-      <lb ed="#V" n="51"/>virgo maria: quamuis merito condigni non meruit concipere 
-      <lb ed="#V" n="52"/>filium dei: cum hoc omne meritum excedat: tamen 
-      presuppo<lb ed="#V" n="53" break="no"/>sita futuritione incarnationis filii dei aliquo modo 
-      me<lb ed="#V" n="54" break="no"/>ruit vt ipsum filium dei conciperet: inquantum erat purissima 
-      <lb ed="#V" n="55"/>et in sanctitate perfectissima: et decebat secundum quod dicit Ansilmnus 
-      <lb ed="#V" n="56"/>libo de conceptione vir. vltra medium: vt illius hominis 
-      <lb ed="#V" n="57"/>conceptio de matre purissima fieret ea puritate qua maior 
-      <lb ed="#V" n="58"/>sub deo nequit intelligi: vnde illud meritum quo beata 
-      vir<lb ed="#V" n="59" break="no"/>go meruit fieri mater dei potest vocari meritum decentie: vel 
-      <lb ed="#V" n="60"/>congruitatis: vel secundum aliquos meritum dignitatis: et sic de 
-      vir<lb ed="#V" n="61" break="no"/>gine dicitur: beata viscera que meruerunt portare dominum 
-      <lb ed="#V" n="62"/>christum: et sic debet intelligi illa glosa super illud Luc. ii. 
-      bea<lb ed="#V" n="63" break="no"/>ta que credidisti: que dicit apparet mariam non dubitasse: et 
-      <lb ed="#V" n="64"/>ideo fructum assecutam esse. 
-    </p>
-               <p xml:id="kzz7yh-g09263-d1e330">
-                  <lb ed="#V" n="65"/>Ad primum in oppositum dicendum: quod illa glo 
-      loqui<lb ed="#V" n="66" break="no"/>tur de merito congrui non condigni
-      <lb ed="#V" n="67"/>quod non est meritum simplex.
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e339">
-      ¶ Ad secundum dicendum: quod sancti 
-      pa<lb ed="#V" n="68" break="no"/>tres non petebant incarnationem: quam indubitanter crede¬ 
-      <!--00037.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>bant futuram: sed petebant eius accelerationem.
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e351">
-      ¶ Ad er 
-      <lb ed="#V" n="70"/>tium cum dicitur: quod qui meretur: et hoc sine quo illud 
-      ha<lb ed="#V" n="71" break="no"/>beri non potest etc. Dico quod non est verum: quando illud aliquod 
-      <lb ed="#V" n="72"/>est fundamentum merendi: filii autem dei incarnatio est 
-      fun<lb ed="#V" n="73" break="no"/>damentum meriti: vt superius dictum est.
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e362">
-      ¶ Preterea 
-      <lb ed="#V" n="74"/>filii dei incarnatio non fuit necessaria necessitate absoluta 
-      <lb ed="#V" n="75"/>ad hoc vt attingeremus ad vitam eternam. Unde Aug. 
-      <lb ed="#V" n="76"/>13. de trinitae. cap. 10. dicit: non alium modum liberandi nos 
-      <lb ed="#V" n="77"/>possibilem deo defuisse: cuius potestati equaliter cuncta 
-      <lb ed="#V" n="78"/>subiacent: quamuis fuerit necessarius presupposita diuina 
-      or<lb ed="#V" n="79" break="no"/>dinatione: qua per illum modum ordinauerat electos per 
-      <lb ed="#V" n="80"/>ducere ad vitam eternam. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g09263-Dd1e382">
-               <head xml:id="kzz7yh-g09263-Hd1e384">Quaestio 2</head>
-               <head xml:id="kzz7yh-g09263-Hd1e394" type="question-title">Utrum Christo gratia naturalis sit.</head>
-               <p xml:id="kzz7yh-g09263-d1e386">
-      Questio II 
-      <lb ed="#V" n="81"/>SEcundo queritur vtrum christo 
-      gra<lb ed="#V" n="82" break="no"/>tia naturalis sit. Et videtur 
-      <lb ed="#V" n="83"/>quod sic: quia quod inest rei a sua origine: est ei 
-      natu<lb ed="#V" n="84" break="no"/>rale: sed christus habuit gratiam a sua origine
-      <lb ed="#V" n="85"/>ergo gratia est ei naturalis.
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e399">
-      ¶ Item quod inest rei a 
-      prin<lb ed="#V" n="86" break="no"/>cipio intrinseco est ei naturale: sed gratia inest christo a 
-      di<lb ed="#V" n="87" break="no"/>uina natura que sibi est intrinseca: ergo christo gratia est 
-      <lb ed="#V" n="88"/>naturalis.
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e408">
-      ¶ Item Aug. in Enchi. cap. 25 et recitat 
-      Ma<lb ed="#V" n="89" break="no"/>gister in littera dicit quod quodammodo ipsa gratia est 
-      ho<lb ed="#V" n="90" break="no"/>mini christo naturalis. 
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e415">
-                  <lb ed="#V" n="91"/>Contra. Omne naturale creature est infra 
-      faculta<lb ed="#V" n="92" break="no"/>tem nature create: sed gratia non est infra
-      <lb ed="#V" n="93"/>facultatem nature create: quia non procedit in esse nisi per 
-      <lb ed="#V" n="94"/>creationem: ergo non est naturalis christo ratione 
-      huma<lb ed="#V" n="95" break="no"/>ne nature que creata est: nec ratione diuine nature: quia 
-      <lb ed="#V" n="96"/>nullius accidentis subiectum esse potest: ergo nullo 
-      mo<lb ed="#V" n="97" break="no"/>do est christo naturalis. 
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e434">
-                  <lb ed="#V" n="98"/>Respondeo quod gratia christi tripliciter potest 
-      <lb ed="#V" n="99"/>accipi. Uno modo quod habitum 
-      gra<lb ed="#V" n="100" break="no"/>tie existente in anima christi. Alio modo pro ipsa vnione 
-      <lb ed="#V" n="101"/>gratis facta. Alio modo pro ipsa gratia increata: idest 
-      pro<lb ed="#V" n="102" break="no"/>benignitate diuina: per quam filius dei assumere voluit 
-      <lb ed="#V" n="103"/>humanam naturam. Primo modo loquendo de gratia 
-      di<lb ed="#V" n="104" break="no"/>cendum quod est homini christo supernaturalis. Aliquo 
-      mo<lb ed="#V" n="105" break="no"/>do tamen se habet ad similitudinem naturalis 
-      proprieta<lb ed="#V" n="106" break="no"/>tis inquantum inest eni a prima origine et inseparabiliter 
-      <lb ed="#V" n="107"/>et a diuina natura que est intrinseca rationi nominis 
-      chri<lb ed="#V" n="108" break="no"/>sti: quod est nomen vnius persone in duabus naturis: vt 
-      <lb ed="#V" n="109"/>superius per Damas. ostensum est: et sic procedunt 
-      qua<lb ed="#V" n="110" break="no"/>tuorlargumenta ad partem primam simpliciter: tamen non 
-      <lb ed="#V" n="111"/>est naturalis christo: quia naturam humanam Iesu 
-      chri<lb ed="#V" n="112" break="no"/>sti eleuat supra suam naturalem facultatem: nec naturalis 
-      <lb ed="#V" n="113"/>hominis perfectio talem includit qualitatem: nec ex 
-      in<lb ed="#V" n="114" break="no"/>trinsecis principiis nature humane creata est. Si autem 
-      <lb ed="#V" n="115"/>loquamur de gratia modo secundo: sic dico etiam quod non 
-      <lb ed="#V" n="116"/>fuit homini christo naturalis: quia terminos humane 
-      na<lb ed="#V" n="117" break="no"/>ture excedit: et ex mera dei voluntate processit: propter 
-      ta<lb ed="#V" n="118" break="no"/>men inseparabilitatem: et quia fuit a prima origine 
-      huma<lb ed="#V" n="119" break="no"/>ne nature christi: et quia per illa idiomata naturalis filii 
-      <lb ed="#V" n="120"/>patris eterni communicantur filio virginis: habet aliquam: 
-      simi<lb ed="#V" n="121" break="no"/>litudinem proprietatis naturalis. Si autem loquamur 
-      se<lb ed="#V" n="122" break="no"/>cundo modo sic dico quod christo non fuit naturalis ratione 
-      <lb ed="#V" n="123"/>humane nature: sed ratione diuine.
-   </p>
-               <p xml:id="kzz7yh-g09263-d1e493">
-      ¶ Ex predictis 
-      pa<lb ed="#V" n="124" break="no"/>tet: quomodo procedunt argumenta ad vtramque partem. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="69"/>bant futuram: sed petebant eius accelerationem.
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e351">
+            ¶ Ad er 
+            <lb ed="#V" n="70"/>tium cum dicitur: quod qui meretur: et hoc sine quo illud 
+            ha<lb ed="#V" n="71" break="no"/>beri non potest etc. Dico quod non est verum: quando illud aliquod 
+            <lb ed="#V" n="72"/>est fundamentum merendi: filii autem dei incarnatio est 
+            fun<lb ed="#V" n="73" break="no"/>damentum meriti: vt superius dictum est.
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e362">
+            ¶ Preterea 
+            <lb ed="#V" n="74"/>filii dei incarnatio non fuit necessaria necessitate absoluta 
+            <lb ed="#V" n="75"/>ad hoc vt attingeremus ad vitam eternam. Unde Aug. 
+            <lb ed="#V" n="76"/>13. de trinitae. cap. 10. dicit: non alium modum liberandi nos 
+            <lb ed="#V" n="77"/>possibilem deo defuisse: cuius potestati equaliter cuncta 
+            <lb ed="#V" n="78"/>subiacent: quamuis fuerit necessarius presupposita diuina 
+            or<lb ed="#V" n="79" break="no"/>dinatione: qua per illum modum ordinauerat electos per 
+            <lb ed="#V" n="80"/>ducere ad vitam eternam. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g09263-Dd1e382">
+          <head xml:id="kzz7yh-g09263-Hd1e384">Quaestio 2</head>
+          <head xml:id="kzz7yh-g09263-Hd1e394" type="question-title">Utrum Christo gratia naturalis sit.</head>
+          <p xml:id="kzz7yh-g09263-d1e386">
+            Questio II 
+            <lb ed="#V" n="81"/>SEcundo queritur vtrum christo 
+            gra<lb ed="#V" n="82" break="no"/>tia naturalis sit. Et videtur 
+            <lb ed="#V" n="83"/>quod sic: quia quod inest rei a sua origine: est ei 
+            natu<lb ed="#V" n="84" break="no"/>rale: sed christus habuit gratiam a sua origine
+            <lb ed="#V" n="85"/>ergo gratia est ei naturalis.
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e399">
+            ¶ Item quod inest rei a 
+            prin<lb ed="#V" n="86" break="no"/>cipio intrinseco est ei naturale: sed gratia inest christo a 
+            di<lb ed="#V" n="87" break="no"/>uina natura que sibi est intrinseca: ergo christo gratia est 
+            <lb ed="#V" n="88"/>naturalis.
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e408">
+            ¶ Item Aug. in Enchi. cap. 25 et recitat 
+            Ma<lb ed="#V" n="89" break="no"/>gister in littera dicit quod quodammodo ipsa gratia est 
+            ho<lb ed="#V" n="90" break="no"/>mini christo naturalis. 
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e415">
+            <lb ed="#V" n="91"/>Contra. Omne naturale creature est infra 
+            faculta<lb ed="#V" n="92" break="no"/>tem nature create: sed gratia non est infra
+            <lb ed="#V" n="93"/>facultatem nature create: quia non procedit in esse nisi per 
+            <lb ed="#V" n="94"/>creationem: ergo non est naturalis christo ratione 
+            huma<lb ed="#V" n="95" break="no"/>ne nature que creata est: nec ratione diuine nature: quia 
+            <lb ed="#V" n="96"/>nullius accidentis subiectum esse potest: ergo nullo 
+            mo<lb ed="#V" n="97" break="no"/>do est christo naturalis. 
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e434">
+            <lb ed="#V" n="98"/>Respondeo quod gratia christi tripliciter potest 
+            <lb ed="#V" n="99"/>accipi. Uno modo quod habitum 
+            gra<lb ed="#V" n="100" break="no"/>tie existente in anima christi. Alio modo pro ipsa vnione 
+            <lb ed="#V" n="101"/>gratis facta. Alio modo pro ipsa gratia increata: idest 
+            pro<lb ed="#V" n="102" break="no"/>benignitate diuina: per quam filius dei assumere voluit 
+            <lb ed="#V" n="103"/>humanam naturam. Primo modo loquendo de gratia 
+            di<lb ed="#V" n="104" break="no"/>cendum quod est homini christo supernaturalis. Aliquo 
+            mo<lb ed="#V" n="105" break="no"/>do tamen se habet ad similitudinem naturalis 
+            proprieta<lb ed="#V" n="106" break="no"/>tis inquantum inest eni a prima origine et inseparabiliter 
+            <lb ed="#V" n="107"/>et a diuina natura que est intrinseca rationi nominis 
+            chri<lb ed="#V" n="108" break="no"/>sti: quod est nomen vnius persone in duabus naturis: vt 
+            <lb ed="#V" n="109"/>superius per Damas. ostensum est: et sic procedunt 
+            qua<lb ed="#V" n="110" break="no"/>tuorlargumenta ad partem primam simpliciter: tamen non 
+            <lb ed="#V" n="111"/>est naturalis christo: quia naturam humanam Iesu 
+            chri<lb ed="#V" n="112" break="no"/>sti eleuat supra suam naturalem facultatem: nec naturalis 
+            <lb ed="#V" n="113"/>hominis perfectio talem includit qualitatem: nec ex 
+            in<lb ed="#V" n="114" break="no"/>trinsecis principiis nature humane creata est. Si autem 
+            <lb ed="#V" n="115"/>loquamur de gratia modo secundo: sic dico etiam quod non 
+            <lb ed="#V" n="116"/>fuit homini christo naturalis: quia terminos humane 
+            na<lb ed="#V" n="117" break="no"/>ture excedit: et ex mera dei voluntate processit: propter 
+            ta<lb ed="#V" n="118" break="no"/>men inseparabilitatem: et quia fuit a prima origine 
+            huma<lb ed="#V" n="119" break="no"/>ne nature christi: et quia per illa idiomata naturalis filii 
+            <lb ed="#V" n="120"/>patris eterni communicantur filio virginis: habet aliquam: 
+            simi<lb ed="#V" n="121" break="no"/>litudinem proprietatis naturalis. Si autem loquamur 
+            se<lb ed="#V" n="122" break="no"/>cundo modo sic dico quod christo non fuit naturalis ratione 
+            <lb ed="#V" n="123"/>humane nature: sed ratione diuine.
+          </p>
+          <p xml:id="kzz7yh-g09263-d1e493">
+            ¶ Ex predictis 
+            pa<lb ed="#V" n="124" break="no"/>tet: quomodo procedunt argumenta ad vtramque partem. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
