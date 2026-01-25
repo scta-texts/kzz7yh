@@ -1,481 +1,481 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="153-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="153-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g108196"><!-- l3d40a1 -->
+        <head xml:id="kzz7yh-g108196-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-g108196-d1e103">
+          ¶ Circa primum 
+          <lb ed="#V" n="80"/>queruntur quinque.
+        </p>
+        <p xml:id="kzz7yh-g108196-d1e108">
+          ¶ Primo vtrum illa duo praecepta 
+          debue<lb ed="#V" n="81" break="no"/>rint dari in veteri lege.
+        </p>
+        <p xml:id="kzz7yh-g108196-d1e113">
+          ¶ Secundo vtrum sint formaliter 
+          <lb ed="#V" n="82"/>distincta inter se.
+        </p>
+        <p xml:id="kzz7yh-g108196-d1e118">
+          ¶ Tertio vtrum debuerint esse praecepta 
+          <lb ed="#V" n="83"/>distincta a praecepto de non mechando et non furando.
+        </p>
+        <p xml:id="kzz7yh-g108196-d1e124">
+          ¶ 
+          Quar<lb ed="#V" n="84" break="no"/>to vtrum percepta veteris legis poterant iustificare.
+        </p>
+        <p xml:id="kzz7yh-g108196-d1e129">
+          ¶ 
+          Qui<lb ed="#V" n="85" break="no"/>to vtrum eque essent obligati iudei ad obseruatione eorum: 
+          <lb ed="#V" n="86"/>sicut nos ad obseruationem praeceptorum euangelicorum. 
+        </p>
+        <div xml:id="kzz7yh-g108196-Dd1e136">
+          <head xml:id="kzz7yh-g108196-Hd1e138">Quaestio 1</head>
+          <p xml:id="kzz7yh-g108196-d1e140">
+            Quaestio I. 
+            <lb ed="#V" n="87"/>Rimo ostendendo quod illa duo praecepta non 
+            de<lb ed="#V" n="88" break="no"/>buerunt dari in veteri lege: quia 
+            <lb ed="#V" n="89"/>secundum sententiam Augu. in glo. super illud pslamum. Lex 
+            do<lb ed="#V" n="90" break="no"/>mini immaculata. Lex prohibet manum non animun. 
+            <lb ed="#V" n="91"/>Sed duo praecepta praedicta pertinet ad cohibitionem animi: 
+            <lb ed="#V" n="92"/>ergo non debuerunt dari in lege veteri.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e156">
+            ¶ Item ad heb. 7. 
+            <lb ed="#V" n="93"/>Nihil ad perfectum adduxit lex: sed lex ordinans actus 
+            ex<lb ed="#V" n="94" break="no"/>teriores et interiores adducit ad perfectum: ergo ad legem 
+            ve<lb ed="#V" n="95" break="no"/>terem non pertinebat ponere praedicta duo praecepta cum pertine 
+            <lb ed="#V" n="96"/>ante ad ordinationem interiorum actuum.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e167">
+            ¶ Item precepta legis 
+            <lb ed="#V" n="97"/>debent proportionari his que promittuntur in lege: sed in 
+            ie<lb ed="#V" n="98" break="no"/>ge promittebantur bona exteriora non interiora: quia vt dicit 
+            <lb ed="#V" n="99"/>magister in littera. In lege veteri promittuntur terrena: 
+            er<lb ed="#V" n="100" break="no"/>go duo vltima praecepta secunde tabule cum ad actus 
+            inte<lb ed="#V" n="101" break="no"/>riores pertineant non debuerunt dari in veteri lege. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e180">
+            <lb ed="#V" n="102"/>Contra data fuerunt in Exodo: vt patet Exo. Xx. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e186">
+            <lb ed="#V" n="103"/>¶ Item apostolus ad Ro. 7. Concupiscentia 
+            ne<lb ed="#V" n="104" break="no"/>sciebam esse peccatum nisi lex diceret non concupisces. A deo autem 
+            <lb ed="#V" n="105"/>nullum praeceptum datum est quod non debuerit dari vbi datum est. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e195">
+            <lb ed="#V" n="106"/>Respondeo quod lex vetus est spiritualis inquantum 
+            <lb ed="#V" n="107"/>continet mandata moralta: et 
+            ciui<lb ed="#V" n="108" break="no"/>lis inquantum continet precepta iudicialia.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e204">
+            ¶ Primo modo 
+            <lb ed="#V" n="109"/>ad ipsam pertinebat ordinare actus interiores et exteriores 
+            <lb ed="#V" n="110"/>et principalius interiores quam exteriores inquantum 
+            ordinatio<lb ed="#V" n="111" break="no"/>exteriorum dependet ab linterioribus. Unde et Deute 6 vbi 
+            <lb ed="#V" n="112"/>datur praeceptum de interiori dilectione dei a qua dependet 
+            ordi<lb ed="#V" n="113" break="no"/>natio omnium actuum aliorum
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e217">
+            ¶ Secundo modo ad eam pertinebat 
+            <lb ed="#V" n="114"/>principaliter ordinatio exteriorum actuum tantum: quamuis ex 
+            con<lb ed="#V" n="115" break="no"/>sequenti ad ipsam pertineret etiam ordinatio actuum 
+            inte<lb ed="#V" n="116" break="no"/>riorum propter hoc quod per deordinationem eorum multe oriuntur 
+            <lb ed="#V" n="117"/>deordinationes exteriores contra proximum. Qua de causa 
+            <lb ed="#V" n="118"/>etiam ciuilis lex humana praecepta dat de exterioribus 
+            acti<lb ed="#V" n="119" break="no"/>bus virtutum ordinantium interiores actus. Primo autem 
+            mo<lb ed="#V" n="120" break="no"/>do loquendo de lege veteri praeceptum de non concupiscendo 
+            vxo<lb ed="#V" n="121" break="no"/>rem proximi: et praeceptum de non concupiscendo passionem eius 
+            de<lb ed="#V" n="122" break="no"/>buerunt in ea dari: non sic aut loquendo de ea modo secundo. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e239">
+            <lb ed="#V" n="123"/>Argumenta ad partem primam procedunt de 
+            le<lb ed="#V" n="124" break="no"/>ge veteri non sub ratione qua spiritualis 
+            <lb ed="#V" n="125"/>est continens praecepta moralia: sed modo secundo. vnde dicit 
+            magi<lb ed="#V" n="126" break="no"/>in littera quod lex dicitur prohibere manum non animum non secundum moralia 
+            <!--00317.xml-->
+            <pb ed="#V" n="154-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sed secundum cerimonialia: et ibidem extendi hoc nomen 
+            cerimo<lb ed="#V" n="2" break="no"/>nialia: uon tantum ad cerimonialia proprie dicta: sed est ad iudicia 
+            <lb ed="#V" n="3"/>lia.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e263">
+            ¶ Argumenta ad partem aliam procedunt de lege veteri primo 
+            <lb ed="#V" n="4"/>modo. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g108196-Dd1e269">
+          <head xml:id="kzz7yh-g108196-Hd1e271">Quaestio 2</head>
+          <p xml:id="kzz7yh-g108196-d1e273">
+            Questio. II. 
+            <lb ed="#V" n="5"/>SEcundo quaeritur vtrum illa duo 
+            praecepta<lb ed="#V" n="6" break="no"/>sint formaliter distincta inter se 
+            <lb ed="#V" n="7"/>Et videtur quod non: quia res concupita non est forums 
+            concu<lb ed="#V" n="8" break="no"/>piscentie: sed illa duo praecepta non differunt nisi secundum 
+            <lb ed="#V" n="9"/>res concupitas: ergo non sunt formaliter distincta inter se. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e286">
+            <lb ed="#V" n="10"/>¶ Item charitas non distinguitur formaliter propter distinctionem 
+            <lb ed="#V" n="11"/>diligibilium: ergo a simili nec concupiscentia propter distinctionem 
+            con<lb ed="#V" n="12" break="no"/>cupiscibilium.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e295">
+            ¶ Item eiusdem rationis est concupiscere ancillam 
+            <lb ed="#V" n="13"/>proximi et eius vxorem. Utraque enim est res pertinens ad proximum 
+            <lb ed="#V" n="14"/>et materia carnalis delectationis secundum tactum: sed eadem prohibitione 
+            <lb ed="#V" n="15"/>prohibetur concupiscentia possessionis proximi et eius ancille: 
+            <lb ed="#V" n="16"/>ergo similiter eadem est prohibitio qua prohibetur 
+            con<lb ed="#V" n="17" break="no"/>cupiscentia vxoris proximi et possessionis eiusdem. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e308">
+            <lb ed="#V" n="18"/>Contra alia precepta formaliter distincta sunt 
+            er<lb ed="#V" n="19" break="no"/>go et ista. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e316">
+            <lb ed="#V" n="20"/>Respondeo quod illa duo praecepta sunt formaliter 
+            inter<lb ed="#V" n="21" break="no"/>se distincta quamuis enim ea que 
+            prohi<lb ed="#V" n="22" break="no"/>bent conueniant in generali ratione concupiscentie: tamen differut in 
+            <lb ed="#V" n="23"/>speciali ratione concupiscendi. Aliud est enim motiuum formaliter 
+            com<lb ed="#V" n="24" break="no"/>cupiscentie vxoris proximi quam possessionis sue. Coneupiscit enim 
+            <lb ed="#V" n="25"/>homo vxorem proximi propter delectationem carnis quae est secundum tactum: 
+            <lb ed="#V" n="26"/>possessionem autem concupiscit propter delectationem oculorum et 
+            suffi<lb ed="#V" n="27" break="no"/>cientie in exterioribus bonis: vnde et repressiones istarum 
+            concupi<lb ed="#V" n="28" break="no"/>scentiarum sunt formaliter differentes. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e338">
+            <lb ed="#V" n="29"/>Ad primum in oppositum dicunt quidam quod quamuis 
+            <lb ed="#V" n="30"/>res concupiscita non sit forma 
+            concu<lb ed="#V" n="31" break="no"/>piscentie tamen per habitudinem concupiscentiarum ad formalia 
+            con<lb ed="#V" n="32" break="no"/>cupiscendi motiua distinguuntur formaliter concupisceutie. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e349">
+            <lb ed="#V" n="33"/>¶ Ad secundum dicendum: quod non est simile: quia charitas omnia que 
+            dili<lb ed="#V" n="34" break="no"/>git: diligit sub vna ratione formali scilicet sub ratione summi bo. 
+            <lb ed="#V" n="35"/>ni.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e358">
+            ¶ Ad tertium dicendum: quod ancilla proximi dupliciter potest 
+            con<lb ed="#V" n="36" break="no"/>cupisci: aut vt possideatur sicut possidentur temporales 
+            diui<lb ed="#V" n="37" break="no"/>tie ad delectationem animalem que alio nomine dici potest 
+            concupi<lb ed="#V" n="38" break="no"/>scentia oculorum que est respectu diuitiarum: et sic prohibetur per 
+            se<lb ed="#V" n="39" break="no"/>ptimum praeceptum secunde tabule: vt cum ea concumbatur: et sic eius 
+            con<lb ed="#V" n="40" break="no"/>cupiscentia prohibetur per septimum preceptum secunde tabule. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g108196-Dd1e372">
+          <head xml:id="kzz7yh-g108196-Hd1e374">Quaestio 3</head>
+          <p xml:id="kzz7yh-g108196-d1e376">
+            <lb ed="#V" n="41"/>Questio. VIIIII 
+            <lb ed="#V" n="42"/>Ertio queritur vtrum debuerunt ista duo 
+            prae<lb ed="#V" n="43" break="no"/>cepta esse distincta a praecepto de non 
+            <lb ed="#V" n="44"/>mechando et non furando. Et videtur quod non. Actus 
+            ex<lb ed="#V" n="45" break="no"/>terior et interior sunt vnus actus in genere 
+            mo<lb ed="#V" n="46" break="no"/>ris: quia actus exterior moralis non est nisi inquantum procedit 
+            <lb ed="#V" n="47"/>ab actu interiori. Sed vnus actus in genere moris non debet 
+            prohi<lb ed="#V" n="48" break="no"/>bi nisi vna prohibitione: ergo eadem est prohibitio 
+            concupiscen<lb ed="#V" n="49" break="no"/>tie vxoris: et mechie et possessionis proximi et furti.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e398">
+            ¶ Item 
+            <lb ed="#V" n="50"/>eodem praecepto praecipitur non occidere et non concupiscere 
+            occide<lb ed="#V" n="51" break="no"/>re: ergo a simili eodem praecepto debuit prohiberi mechia et 
+            concu<lb ed="#V" n="52" break="no"/>piscentia mechie: et eodem praecepto furtum et concupiscentia 
+            fur<lb ed="#V" n="53" break="no"/>ti.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e409">
+            ¶ Item non magis differunt in genere nature corporalis 
+            infir<lb ed="#V" n="54" break="no"/>mitas: et eius causa quam actus exterior inordinatus et 
+            interior<lb ed="#V" n="55" break="no"/>in genere moris: sed per eandem medicinam si efficax est 
+            adhi<lb ed="#V" n="56" break="no"/>betur remedium contra corporalem infirmitatem: et eius causam: ergo a 
+            <lb ed="#V" n="57"/>simili: et per eandem prohibitionem potuit et debuit apponi 
+            remedi<lb ed="#V" n="58" break="no"/>um contra actu mechandi: et actum concupiscentie interiorem qui est 
+            <lb ed="#V" n="59"/>causa eius: et similiter argui potest de furto et de concupiscentia 
+            posses<lb ed="#V" n="60" break="no"/>sionis proximi. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e427">
+            <lb ed="#V" n="61"/>Contra secundum omnes. x. sunt praecepta decalogi scrpta. Exo. 
+            <lb ed="#V" n="62"/>xx. quod non esset verum nisi alio praecepto prohibe 
+            <lb ed="#V" n="63"/>retur mechia quam concupiscentia vxoris proximi: et alio praecepto sur 
+            <lb ed="#V" n="64"/>tum quam concupiscentia possessionis proximi.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e439">
+            ¶ Item respectu 
+            <lb ed="#V" n="65"/>deordinationum formaliter inter se distinctarum decens fuit 
+            <lb ed="#V" n="66"/>dare prohibitiones distinctas: sed actus mechandi et 
+            concu<lb ed="#V" n="67" break="no"/>piscentia vxoris proximi sunt deordinationes formaliter 
+            distin<lb ed="#V" n="68" break="no"/>cte: quia proximum obiectum prime deordinationis est delectatio¬ 
+            <!--00317.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g108196"><!-- l3d40a1 -->
-            <head xml:id="kzz7yh-g108196-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-g108196-d1e103">
-      ¶ Circa primum 
-      <lb ed="#V" n="80"/>queruntur quinque.
-   </p>
-            <p xml:id="kzz7yh-g108196-d1e108">
-      ¶ Primo vtrum illa duo praecepta 
-      debue<lb ed="#V" n="81" break="no"/>rint dari in veteri lege.
-   </p>
-            <p xml:id="kzz7yh-g108196-d1e113">
-      ¶ Secundo vtrum sint formaliter 
-      <lb ed="#V" n="82"/>distincta inter se.
-   </p>
-            <p xml:id="kzz7yh-g108196-d1e118">
-      ¶ Tertio vtrum debuerint esse praecepta 
-      <lb ed="#V" n="83"/>distincta a praecepto de non mechando et non furando.
-   </p>
-            <p xml:id="kzz7yh-g108196-d1e124">
-      ¶ 
-      Quar<lb ed="#V" n="84" break="no"/>to vtrum percepta veteris legis poterant iustificare.
-   </p>
-            <p xml:id="kzz7yh-g108196-d1e129">
-      ¶ 
-      Qui<lb ed="#V" n="85" break="no"/>to vtrum eque essent obligati iudei ad obseruatione eorum: 
-      <lb ed="#V" n="86"/>sicut nos ad obseruationem praeceptorum euangelicorum. 
-   </p>
-            <div xml:id="kzz7yh-g108196-Dd1e136">
-               <head xml:id="kzz7yh-g108196-Hd1e138">Quaestio 1</head>
-               <p xml:id="kzz7yh-g108196-d1e140">
-      Quaestio I. 
-      <lb ed="#V" n="87"/>Rimo ostendendo quod illa duo praecepta non 
-      de<lb ed="#V" n="88" break="no"/>buerunt dari in veteri lege: quia 
-      <lb ed="#V" n="89"/>secundum sententiam Augu. in glo. super illud pslamum. Lex 
-      do<lb ed="#V" n="90" break="no"/>mini immaculata. Lex prohibet manum non animun. 
-      <lb ed="#V" n="91"/>Sed duo praecepta praedicta pertinet ad cohibitionem animi: 
-      <lb ed="#V" n="92"/>ergo non debuerunt dari in lege veteri.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e156">
-      ¶ Item ad heb. 7. 
-      <lb ed="#V" n="93"/>Nihil ad perfectum adduxit lex: sed lex ordinans actus 
-      ex<lb ed="#V" n="94" break="no"/>teriores et interiores adducit ad perfectum: ergo ad legem 
-      ve<lb ed="#V" n="95" break="no"/>terem non pertinebat ponere praedicta duo praecepta cum pertine 
-      <lb ed="#V" n="96"/>ante ad ordinationem interiorum actuum.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e167">
-      ¶ Item precepta legis 
-      <lb ed="#V" n="97"/>debent proportionari his que promittuntur in lege: sed in 
-      ie<lb ed="#V" n="98" break="no"/>ge promittebantur bona exteriora non interiora: quia vt dicit 
-      <lb ed="#V" n="99"/>magister in littera. In lege veteri promittuntur terrena: 
-      er<lb ed="#V" n="100" break="no"/>go duo vltima praecepta secunde tabule cum ad actus 
-      inte<lb ed="#V" n="101" break="no"/>riores pertineant non debuerunt dari in veteri lege. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e180">
-                  <lb ed="#V" n="102"/>Contra data fuerunt in Exodo: vt patet Exo. Xx. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e186">
-                  <lb ed="#V" n="103"/>¶ Item apostolus ad Ro. 7. Concupiscentia 
-      ne<lb ed="#V" n="104" break="no"/>sciebam esse peccatum nisi lex diceret non concupisces. A deo autem 
-      <lb ed="#V" n="105"/>nullum praeceptum datum est quod non debuerit dari vbi datum est. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e195">
-                  <lb ed="#V" n="106"/>Respondeo quod lex vetus est spiritualis inquantum 
-      <lb ed="#V" n="107"/>continet mandata moralta: et 
-      ciui<lb ed="#V" n="108" break="no"/>lis inquantum continet precepta iudicialia.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e204">
-      ¶ Primo modo 
-      <lb ed="#V" n="109"/>ad ipsam pertinebat ordinare actus interiores et exteriores 
-      <lb ed="#V" n="110"/>et principalius interiores quam exteriores inquantum 
-      ordinatio<lb ed="#V" n="111" break="no"/>exteriorum dependet ab linterioribus. Unde et Deute 6 vbi 
-      <lb ed="#V" n="112"/>datur praeceptum de interiori dilectione dei a qua dependet 
-      ordi<lb ed="#V" n="113" break="no"/>natio omnium actuum aliorum
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e217">
-      ¶ Secundo modo ad eam pertinebat 
-      <lb ed="#V" n="114"/>principaliter ordinatio exteriorum actuum tantum: quamuis ex 
-      con<lb ed="#V" n="115" break="no"/>sequenti ad ipsam pertineret etiam ordinatio actuum 
-      inte<lb ed="#V" n="116" break="no"/>riorum propter hoc quod per deordinationem eorum multe oriuntur 
-      <lb ed="#V" n="117"/>deordinationes exteriores contra proximum. Qua de causa 
-      <lb ed="#V" n="118"/>etiam ciuilis lex humana praecepta dat de exterioribus 
-      acti<lb ed="#V" n="119" break="no"/>bus virtutum ordinantium interiores actus. Primo autem 
-      mo<lb ed="#V" n="120" break="no"/>do loquendo de lege veteri praeceptum de non concupiscendo 
-      vxo<lb ed="#V" n="121" break="no"/>rem proximi: et praeceptum de non concupiscendo passionem eius 
-      de<lb ed="#V" n="122" break="no"/>buerunt in ea dari: non sic aut loquendo de ea modo secundo. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e239">
-                  <lb ed="#V" n="123"/>Argumenta ad partem primam procedunt de 
-      le<lb ed="#V" n="124" break="no"/>ge veteri non sub ratione qua spiritualis 
-      <lb ed="#V" n="125"/>est continens praecepta moralia: sed modo secundo. vnde dicit 
-      magi<lb ed="#V" n="126" break="no"/>in littera quod lex dicitur prohibere manum non animum non secundum moralia 
-      <!--00317.xml-->
-      <pb ed="#V" n="154-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>sed secundum cerimonialia: et ibidem extendi hoc nomen 
-      cerimo<lb ed="#V" n="2" break="no"/>nialia: uon tantum ad cerimonialia proprie dicta: sed est ad iudicia 
-      <lb ed="#V" n="3"/>lia.
-    </p>
-               <p xml:id="kzz7yh-g108196-d1e263">
-      ¶ Argumenta ad partem aliam procedunt de lege veteri primo 
-      <lb ed="#V" n="4"/>modo. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g108196-Dd1e269">
-               <head xml:id="kzz7yh-g108196-Hd1e271">Quaestio 2</head>
-               <p xml:id="kzz7yh-g108196-d1e273">
-      Questio. II. 
-      <lb ed="#V" n="5"/>SEcundo quaeritur vtrum illa duo 
-      praecepta<lb ed="#V" n="6" break="no"/>sint formaliter distincta inter se 
-      <lb ed="#V" n="7"/>Et videtur quod non: quia res concupita non est forums 
-      concu<lb ed="#V" n="8" break="no"/>piscentie: sed illa duo praecepta non differunt nisi secundum 
-      <lb ed="#V" n="9"/>res concupitas: ergo non sunt formaliter distincta inter se. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e286">
-                  <lb ed="#V" n="10"/>¶ Item charitas non distinguitur formaliter propter distinctionem 
-      <lb ed="#V" n="11"/>diligibilium: ergo a simili nec concupiscentia propter distinctionem 
-      con<lb ed="#V" n="12" break="no"/>cupiscibilium.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e295">
-      ¶ Item eiusdem rationis est concupiscere ancillam 
-      <lb ed="#V" n="13"/>proximi et eius vxorem. Utraque enim est res pertinens ad proximum 
-      <lb ed="#V" n="14"/>et materia carnalis delectationis secundum tactum: sed eadem prohibitione 
-      <lb ed="#V" n="15"/>prohibetur concupiscentia possessionis proximi et eius ancille: 
-      <lb ed="#V" n="16"/>ergo similiter eadem est prohibitio qua prohibetur 
-      con<lb ed="#V" n="17" break="no"/>cupiscentia vxoris proximi et possessionis eiusdem. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e308">
-                  <lb ed="#V" n="18"/>Contra alia precepta formaliter distincta sunt 
-      er<lb ed="#V" n="19" break="no"/>go et ista. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e316">
-                  <lb ed="#V" n="20"/>Respondeo quod illa duo praecepta sunt formaliter 
-      inter<lb ed="#V" n="21" break="no"/>se distincta quamuis enim ea que 
-      prohi<lb ed="#V" n="22" break="no"/>bent conueniant in generali ratione concupiscentie: tamen differut in 
-      <lb ed="#V" n="23"/>speciali ratione concupiscendi. Aliud est enim motiuum formaliter 
-      com<lb ed="#V" n="24" break="no"/>cupiscentie vxoris proximi quam possessionis sue. Coneupiscit enim 
-      <lb ed="#V" n="25"/>homo vxorem proximi propter delectationem carnis quae est secundum tactum: 
-      <lb ed="#V" n="26"/>possessionem autem concupiscit propter delectationem oculorum et 
-      suffi<lb ed="#V" n="27" break="no"/>cientie in exterioribus bonis: vnde et repressiones istarum 
-      concupi<lb ed="#V" n="28" break="no"/>scentiarum sunt formaliter differentes. 
-    </p>
-               <p xml:id="kzz7yh-g108196-d1e338">
-                  <lb ed="#V" n="29"/>Ad primum in oppositum dicunt quidam quod quamuis 
-      <lb ed="#V" n="30"/>res concupiscita non sit forma 
-      concu<lb ed="#V" n="31" break="no"/>piscentie tamen per habitudinem concupiscentiarum ad formalia 
-      con<lb ed="#V" n="32" break="no"/>cupiscendi motiua distinguuntur formaliter concupisceutie. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e349">
-                  <lb ed="#V" n="33"/>¶ Ad secundum dicendum: quod non est simile: quia charitas omnia que 
-      dili<lb ed="#V" n="34" break="no"/>git: diligit sub vna ratione formali scilicet sub ratione summi bo. 
-      <lb ed="#V" n="35"/>ni.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e358">
-      ¶ Ad tertium dicendum: quod ancilla proximi dupliciter potest 
-      con<lb ed="#V" n="36" break="no"/>cupisci: aut vt possideatur sicut possidentur temporales 
-      diui<lb ed="#V" n="37" break="no"/>tie ad delectationem animalem que alio nomine dici potest 
-      concupi<lb ed="#V" n="38" break="no"/>scentia oculorum que est respectu diuitiarum: et sic prohibetur per 
-      se<lb ed="#V" n="39" break="no"/>ptimum praeceptum secunde tabule: vt cum ea concumbatur: et sic eius 
-      con<lb ed="#V" n="40" break="no"/>cupiscentia prohibetur per septimum preceptum secunde tabule. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g108196-Dd1e372">
-               <head xml:id="kzz7yh-g108196-Hd1e374">Quaestio 3</head>
-               <p xml:id="kzz7yh-g108196-d1e376">
-                  <lb ed="#V" n="41"/>Questio. VIIIII 
-      <lb ed="#V" n="42"/>Ertio queritur vtrum debuerunt ista duo 
-      prae<lb ed="#V" n="43" break="no"/>cepta esse distincta a praecepto de non 
-      <lb ed="#V" n="44"/>mechando et non furando. Et videtur quod non. Actus 
-      ex<lb ed="#V" n="45" break="no"/>terior et interior sunt vnus actus in genere 
-      mo<lb ed="#V" n="46" break="no"/>ris: quia actus exterior moralis non est nisi inquantum procedit 
-      <lb ed="#V" n="47"/>ab actu interiori. Sed vnus actus in genere moris non debet 
-      prohi<lb ed="#V" n="48" break="no"/>bi nisi vna prohibitione: ergo eadem est prohibitio 
-      concupiscen<lb ed="#V" n="49" break="no"/>tie vxoris: et mechie et possessionis proximi et furti.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e398">
-      ¶ Item 
-      <lb ed="#V" n="50"/>eodem praecepto praecipitur non occidere et non concupiscere 
-      occide<lb ed="#V" n="51" break="no"/>re: ergo a simili eodem praecepto debuit prohiberi mechia et 
-      concu<lb ed="#V" n="52" break="no"/>piscentia mechie: et eodem praecepto furtum et concupiscentia 
-      fur<lb ed="#V" n="53" break="no"/>ti.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e409">
-      ¶ Item non magis differunt in genere nature corporalis 
-      infir<lb ed="#V" n="54" break="no"/>mitas: et eius causa quam actus exterior inordinatus et 
-      interior<lb ed="#V" n="55" break="no"/>in genere moris: sed per eandem medicinam si efficax est 
-      adhi<lb ed="#V" n="56" break="no"/>betur remedium contra corporalem infirmitatem: et eius causam: ergo a 
-      <lb ed="#V" n="57"/>simili: et per eandem prohibitionem potuit et debuit apponi 
-      remedi<lb ed="#V" n="58" break="no"/>um contra actu mechandi: et actum concupiscentie interiorem qui est 
-      <lb ed="#V" n="59"/>causa eius: et similiter argui potest de furto et de concupiscentia 
-      posses<lb ed="#V" n="60" break="no"/>sionis proximi. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e427">
-                  <lb ed="#V" n="61"/>Contra secundum omnes. x. sunt praecepta decalogi scrpta. Exo. 
-      <lb ed="#V" n="62"/>xx. quod non esset verum nisi alio praecepto prohibe 
-      <lb ed="#V" n="63"/>retur mechia quam concupiscentia vxoris proximi: et alio praecepto sur 
-      <lb ed="#V" n="64"/>tum quam concupiscentia possessionis proximi.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e439">
-      ¶ Item respectu 
-      <lb ed="#V" n="65"/>deordinationum formaliter inter se distinctarum decens fuit 
-      <lb ed="#V" n="66"/>dare prohibitiones distinctas: sed actus mechandi et 
-      concu<lb ed="#V" n="67" break="no"/>piscentia vxoris proximi sunt deordinationes formaliter 
-      distin<lb ed="#V" n="68" break="no"/>cte: quia proximum obiectum prime deordinationis est delectatio¬ 
-      <!--00317.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>venerea. Obiectum autem secunde est exterior actus mechandi 
-      <lb ed="#V" n="70"/>ergo respectum earum debent esse prohibitiones distincte. Similiter potet 
-      argur<lb ed="#V" n="71" break="no"/>de inordinatione furti et concupiscentia possessionis proximi. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e461">
-                  <lb ed="#V" n="72"/>Respondeo quod concupiscenti vxoris proxuri 
-      du<lb ed="#V" n="73" break="no"/>pliciter considerari potest: aut inquantum ex 
-      <lb ed="#V" n="74"/>ipsa causatur exterior actus mechandi: et sic eadem prohibitione 
-      <lb ed="#V" n="75"/>prohibetur cum actum exteriori aut inquantum ex ipsa non sequitur 
-      <lb ed="#V" n="76"/>actus exterior: sicut quando impeditur concupiscens ne possit perpetra 
-      <lb ed="#V" n="77"/>re factum exterius: et ne putari posset talis concupiscentia 
-      clpan<lb ed="#V" n="78" break="no"/>non esse debuit specialiter prohiberi. Per tertium ergo praeceptum secunde 
-      <lb ed="#V" n="79"/>tabule simul prohibetur actus mechandi: et inordinata 
-      concupi<lb ed="#V" n="80" break="no"/>scentia interior a qua progreditur. Per sextum autem prohibetur 
-      concu<lb ed="#V" n="81" break="no"/>piscentia mechandi ad quam non sequitur exterior actus propter 
-      im<lb ed="#V" n="82" break="no"/>pedimentum quo concupiscens prohibetur a perpetratione illius et 
-      <lb ed="#V" n="83"/>accipitur ibi concupiscentia non pro passione appetitus sensiti 
-      <lb ed="#V" n="84"/>ui: sed pro deliberatoria voluntate mechandi: simili modo potest dici 
-      <lb ed="#V" n="85"/>de prohibitione furti: et de concupiscentia passionis proximi. 
-    </p>
-               <p xml:id="kzz7yh-g108196-d1e494">
-                  <lb ed="#V" n="86"/>Ad primum in oppositum dicendum: quod actus 
-      interi<lb ed="#V" n="87" break="no"/>or et exterior causatus ab illo sunt 
-      <lb ed="#V" n="88"/>vnus actus in genere moris: et concessum est quod vna prohibitione 
-      <lb ed="#V" n="89"/>prohibentur: non sic autem interior actus et exterior qui non 
-      causan<lb ed="#V" n="90" break="no"/>tur ab illo.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e507">
-      ¶ Ad secundum dicendum: quod non est simile de 
-      concupiscen<lb ed="#V" n="91" break="no"/>tia vxoris proximi: et possessionis eius: et de concupiscentia 
-      <lb ed="#V" n="92"/>occidendi et loquendi falsum testimonium: quia due prime 
-      concu<lb ed="#V" n="93" break="no"/>piscentie sunt respectu rerum que ex sola apprehensione 
-      imagina<lb ed="#V" n="94" break="no"/>tionis secundum se causant delectationem in apprehendente: alie autem 
-      <lb ed="#V" n="95"/>due non sic: sed magis sunt respectu rerum que imaginate 
-      ma<lb ed="#V" n="96" break="no"/>gis causant in imaginatione honorem quam delectationem secundum se 
-      <lb ed="#V" n="97"/>quamuis quandoque per accidens talium delectet imaginatio scilicet propter 
-      specie<lb ed="#V" n="98" break="no"/>vindicte vel lucri: et ideo concupiscentia vxoris proximi: et eius 
-      <lb ed="#V" n="99"/>possessionis magis debuerunt prohibitionibus specialibus 
-      prohi<lb ed="#V" n="100" break="no"/>beri quam concupiscentia homicidii et falsum testimonium loquem 
-      <lb ed="#V" n="101"/>di
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e533">
-      ¶ Ad tertium dicendum: quod procedit de actum exteriori et de 
-      com<lb ed="#V" n="102" break="no"/>cupiscentia a qua causatur: sicut enim alio modo proportionatur 
-      <lb ed="#V" n="103"/>medicina contra dispositionem ad infirmitatem antequam 
-      <lb ed="#V" n="104"/>causetur infirmitas quam contra eam iam coniunctam actualiter 
-      <lb ed="#V" n="105"/>infirmitati: sic aliud peaeceptum datur contra deordinationem 
-      <lb ed="#V" n="106"/>interiorem non actualiter coniunctam exteriori quam contra eam que 
-      <lb ed="#V" n="107"/>exteriori deordinationi accidentaliter est coniuncta.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e549">
-      ¶ 
-      Ar<lb ed="#V" n="108" break="no"/>gumenta ad partem aliam gratia conclusionis principalis possunt 
-      <lb ed="#V" n="109"/>concedi. Secundum tamen peccat in processu. Idem enim est formale 
-      <lb ed="#V" n="110"/>obiectum actus mechie et inordinate concupiscentie a qua 
-      <lb ed="#V" n="111"/>procedit. Utriusque enim formale obiectum est delectatio 
-      ve<lb ed="#V" n="112" break="no"/>nerea: non enim concupiscit actum mechandi nisi propter eam: secundum 
-      <lb ed="#V" n="113"/>enim philosophum. vi. Topi. c. xiiii. delectabile eligimus propter 
-      <lb ed="#V" n="114"/>delectationem. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g108196-Dd1e568">
-               <head xml:id="kzz7yh-g108196-Hd1e570">Quaestio 4</head>
-               <p xml:id="kzz7yh-g108196-d1e572">
-      Questio. IIII. 
-      <lb ed="#V" n="115"/>QUarto queritur vtrum praecepta veteris legio 
-      <lb ed="#V" n="116"/>poterant iustificare. Et videtur quod 
-      <lb ed="#V" n="117"/>sic Matth. xix. Si vis ad vitam ingredi 
-      serua<lb ed="#V" n="118" break="no"/>mandata.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e583">
-      ¶ Item ad Ro. ii. Factores legis 
-      iusti<lb ed="#V" n="119" break="no"/>ficabuntur.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e588">
-      ¶ Item ad Ro. ii. Lex quidem sancta et manda 
-      <lb ed="#V" n="120"/>tum sanctum: et iustum: et bonum: sed obseruatio sancti: iusti et 
-      bo<lb ed="#V" n="121" break="no"/>ni mandati iustificat.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e595">
-      ¶ Item Leuiti. xviii. Custodite 
-      le<lb ed="#V" n="122" break="no"/>ges meas atque iudicia que faciens homo viuet in eis: sed anima 
-      <lb ed="#V" n="123"/>non viuit nisi per iustitiam.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e603">
-      ¶ Item glo. super illud. ad Ro. 
-      <lb ed="#V" n="124"/>iii. Ex operibus legis non iustificatur omnis caro coram illo dicit de 
-      <lb ed="#V" n="125"/>lege loquimur secundum cerimonialia non secundum moralia que 
-      iustifi<lb ed="#V" n="126" break="no"/>causat.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e612">
-      ¶ Item non erant minoris virtutis mandata moralia in 
-      <lb ed="#V" n="127"/>lege scripta quam ante legem scriptam: sed ante legem scriptam per 
-      <lb ed="#V" n="128"/>eorum obseruationem iusti merebantur vitam eternam: et 
-      peccato<lb ed="#V" n="129" break="no"/>res de congruo disponebant se ad recipiendum iustitiam 
-      <lb ed="#V" n="130"/>ergo similiter in lege scripta. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e623">
-                  <lb ed="#V" n="131"/>Contra ad Ro. x. Si habraam ex operibus legis 
-      iustisi<lb ed="#V" n="132" break="no"/>catus est habet gloriam: sed non apud deum: ergo et 
-      <lb ed="#V" n="133"/>si mandata veteris legis iustificarent in conuentu hominum: non tamen 
-      <lb ed="#V" n="134"/>t conuentu dei.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e634">
-      ¶ Item glo. super illud i. ad cor. iii. Lratra occidit 
-      <lb ed="#V" n="135"/>dicit aduerte quam dicat litteram que occidit: et parum 
-      postea<lb ed="#V" n="136" break="no"/>certe est decalogus: ergo precepta moralia in veteri lege 
-      <!--00318.xml-->
-      <pb ed="#V" n="154-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>occidebant: non ergo iustificabant.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e650">
-      ¶ Item primo Cor. XV. Uir 
-      <lb ed="#V" n="2"/>tus peccati lex: sed praecepta legis quae dant virtutem peccato non 
-      iu<lb ed="#V" n="3" break="no"/>stificant: ergo praecepta veteris legis non iustificabant. 
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e657">
-                  <lb ed="#V" n="4"/>Respondeo quod iustificare quadrupliciter potest 
-      <lb ed="#V" n="5"/>accipi: vno modo effectiue: et sic 
-      <lb ed="#V" n="6"/>solus deus iustificat: alio modo formaliter: et sic non est 
-      iu<lb ed="#V" n="7" break="no"/>stificatio nisi per gratiam gratum facientem. Tertio modo pro 
-      exe<lb ed="#V" n="8" break="no"/>cutione huius quod iustum est: et sic praecepta veteris legis tam 
-      <lb ed="#V" n="9"/>moralia quam iudicialia et cerimonialia obseruatores eorum 
-      <lb ed="#V" n="10"/>iustisicabant: quia illa obseruare erat exequi quod. iustum erat: quia 
-      <lb ed="#V" n="11"/>illa precepta iusta erant et sanctam et bona. Quarto modo 
-      dicu<lb ed="#V" n="12" break="no"/>tur aliqua iustificare: per quorum obseruationem homo iustus 
-      <lb ed="#V" n="13"/>meretur fieri iustior: et non iustus meretur de congruo fieri iustus 
-      <lb ed="#V" n="14"/>et hecumodo si loquamur de iustificatione que est per iustitiam 
-      <lb ed="#V" n="15"/>acquisitam precepta veteris legis poterant iustificare. Si 
-      au<lb ed="#V" n="16" break="no"/>tem loquamur de iustificatione que est per iustitiam infusam etiam 
-      <lb ed="#V" n="17"/>distinguendum est de obseruatione preceptorum veteris legis 
-      <lb ed="#V" n="18"/>quia autem obseruabantur non in fide christi neque explicita neque 
-      <lb ed="#V" n="19"/>implicita: et principaliter propter bona temporalia que secundum 
-      sen<lb ed="#V" n="20" break="no"/>sum litteralem principaliter videbantur in veteri lege 
-      promis<lb ed="#V" n="21" break="no"/>sa: aut obseruabantur in fide christi: siue explicita: siue implicita et 
-      prin<lb ed="#V" n="22" break="no"/>cipaliter propter bona spiritualia quie secundum spiritualem sensum principaliter 
-      <lb ed="#V" n="23"/>erant in veteri lege promissa.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e704">
-      ¶ Primo modo dico quod 
-      iustifi<lb ed="#V" n="24" break="no"/>care non poterant praecepta legis veteris: neque moralia: neque 
-      <lb ed="#V" n="25"/>iudicialia: neque cerimonialia: vt enim dicit augu. enchi. 
-      pe<lb ed="#V" n="26" break="no"/>nul. c. Neque antiquorum quicumque iustorum preter christi fidem: 
-      sa<lb ed="#V" n="27" break="no"/>lutem potuit inuenire
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e715">
-      ¶ Secundo modo iustificabant praecepta 
-      <lb ed="#V" n="28"/>moralia et iudicialia et cerimonialia: quia sic ea obseruantes 
-      <lb ed="#V" n="29"/>obseruabant legem inquantu habebat quasi in vtero legem 
-      no<lb ed="#V" n="30" break="no"/>uam: vt enim dicitur in sermone de natiuitate beati Ioan. 
-      bapti<lb ed="#V" n="31" break="no"/>ste. Lex erat grauida christo: vnde sicut obseruantes legem 
-      <lb ed="#V" n="32"/>iam aliquo modo euangelici erant: vnde secundum Augu. ii. libro 
-      <lb ed="#V" n="33"/>contra aduersarium legis et prophetarum longe vltra medium. 
-      <lb ed="#V" n="34"/>Propsehe pertinebant ad nouum testum. Sacramenta tamen 
-      vete<lb ed="#V" n="35" break="no"/>ris legis ratione rei operate iustitiam non conferebant: sicut 
-      sa<lb ed="#V" n="36" break="no"/>cramenta legis noue: vt in prima Dist. lib. iiii. declarabitur 
-      <lb ed="#V" n="37"/>et quia ad desiderandum iustificationem promissa sunt allicientia 
-      <lb ed="#V" n="38"/>praecepta dirigentia sacramenta coadiuuantia Ideo per 
-      obserua<lb ed="#V" n="39" break="no"/>tionem etiam moralium preceptorum: non ita faciliter: nec ita 
-      per<lb ed="#V" n="40" break="no"/>fecte iustificabantur sicut iustificamur in noua lege.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e746">
-      ¶ 
-      A<lb ed="#V" n="41" break="no"/>gumenta ad partem primam procedunt de obseruatione praeceptorum 
-      <lb ed="#V" n="42"/>moralium in fide christi implicita vel explicita et principaliter 
-      <lb ed="#V" n="43"/>propter spiritualia bona. 
-      <lb ed="#V" n="44"/>Primum ad partem aliam procedit de obseruatione 
-      prae<lb ed="#V" n="45" break="no"/>ceptorum legis veteris non in fide 
-      christi<lb ed="#V" n="46" break="no"/>nec implicita nec explicita nec secundum sensum spiritualem sed lit. 
-      <lb ed="#V" n="47"/>teralem et principaliter propter temporalia bona.
-   </p>
-               <p xml:id="kzz7yh-g108196-d1e764">
-      ¶ Ad secundum dicendum 
-      <lb ed="#V" n="48"/>quod decalogus occidebat per occasionem: quia propter expressione 
-      <lb ed="#V" n="49"/>precepti erat transgressio grauior et concupiscentia auidior quae 
-      <lb ed="#V" n="50"/>magis nititur inuetitum quando non adest gratia coadiuuans 
-      <lb ed="#V" n="51"/>ad refrenandum: que non dabatur obseruatoribus 
-      decalogi<lb ed="#V" n="52" break="no"/>non in fide christi: sed secundum litteralem sensum et principaliter 
-      pro<lb ed="#V" n="53" break="no"/>pter temporalia bona. Unde augu. ii. libro contra aduersarium 
-      <lb ed="#V" n="54"/>legis et prophetarum vltra medium. Prohibitio peccati et 
-      <lb ed="#V" n="55"/>est lex auget profecto desiderium peccandi: quod non extinguitur 
-      <lb ed="#V" n="56"/>nisi contrario desiderio recte faciendi vbi fides per dilectio 
-      <lb ed="#V" n="57"/>nem operatur. hoc autem non prestat littera iubens sed spiritus 
-      iu<lb ed="#V" n="58" break="no"/>uans: non lex ergo sed gratia. Simili modo potest dici ad 
-      <lb ed="#V" n="59"/>tertium. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g108196-Dd1e795">
-               <head xml:id="kzz7yh-g108196-Hd1e797">Quaestio 5</head>
-               <p xml:id="kzz7yh-g108196-d1e799">
-      Questio I
-      <lb ed="#V" n="60"/>QUinto queritur vtrum equem essent 
-      obli<lb ed="#V" n="61" break="no"/>gati ad obseruationem preceptorum 
-      <lb ed="#V" n="62"/>veteris legis sicut nos ad obseruationem 
-      praece<lb ed="#V" n="63" break="no"/>ptorum euangelicorum. Sed quia certum est tanto 
-      homi<lb ed="#V" n="64" break="no"/>nem magis esse obligatum ad obseruationem diuinorum 
-      prece<lb ed="#V" n="65" break="no"/>ptorum quanto plura a deo recepit beneficia: et quanto ad 
-      ob<lb ed="#V" n="66" break="no"/>seruandum plura et specialiora a deo habet adiutoria: et 
-      in<lb ed="#V" n="67" break="no"/>noua lege plura beneficia a deo recepimus quam iudei in 
-      ve<lb ed="#V" n="68" break="no"/>teri lege: et specialiora: et plura a deo habemus adiutori 
-      <!--00318.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>ad obseruandum diuina precepta quam haberent iudei in 
-      ve<lb ed="#V" n="70" break="no"/>teri lege: ideo quamuis iudei in veteri lege fuerunt obligati 
-      <lb ed="#V" n="71"/>obligatione necessitatis ad obseruationem diuinorum 
-      prece<lb ed="#V" n="72" break="no"/>ptorum: ita quod ea transgrediendo mortaliter peccabant: tamen nos 
-      <lb ed="#V" n="73"/>in lege gratie que est lex euangelica fortius sumus 
-      obliga<lb ed="#V" n="74" break="no"/>i ad obseruandum diuina precepta quam essent iudei in veteri 
-      <lb ed="#V" n="75"/>lege: ita quod grauior est transgressio christianorum diuina 
-      praece<lb ed="#V" n="76" break="no"/>pta transgredientium quam esset transgressio iudeorum ceteris 
-      pa<lb ed="#V" n="77" break="no"/>ribus: et hoc dicens non intendo comperare. singularem personam 
-      <lb ed="#V" n="78"/>quia magis peccasset moises si fuisset transgressus diuinum 
-      prae<lb ed="#V" n="79" break="no"/>ptum quam modo vnus homo populatis transgrediendoillud 
-      pre<lb ed="#V" n="80" break="no"/>ceptu. Sed intendo comperare communitatem viuentem sub 
-      <lb ed="#V" n="81"/>lege euangelica illi que viuebat sub lege scripta. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="69"/>venerea. Obiectum autem secunde est exterior actus mechandi 
+            <lb ed="#V" n="70"/>ergo respectum earum debent esse prohibitiones distincte. Similiter potet 
+            argur<lb ed="#V" n="71" break="no"/>de inordinatione furti et concupiscentia possessionis proximi. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e461">
+            <lb ed="#V" n="72"/>Respondeo quod concupiscenti vxoris proxuri 
+            du<lb ed="#V" n="73" break="no"/>pliciter considerari potest: aut inquantum ex 
+            <lb ed="#V" n="74"/>ipsa causatur exterior actus mechandi: et sic eadem prohibitione 
+            <lb ed="#V" n="75"/>prohibetur cum actum exteriori aut inquantum ex ipsa non sequitur 
+            <lb ed="#V" n="76"/>actus exterior: sicut quando impeditur concupiscens ne possit perpetra 
+            <lb ed="#V" n="77"/>re factum exterius: et ne putari posset talis concupiscentia 
+            clpan<lb ed="#V" n="78" break="no"/>non esse debuit specialiter prohiberi. Per tertium ergo praeceptum secunde 
+            <lb ed="#V" n="79"/>tabule simul prohibetur actus mechandi: et inordinata 
+            concupi<lb ed="#V" n="80" break="no"/>scentia interior a qua progreditur. Per sextum autem prohibetur 
+            concu<lb ed="#V" n="81" break="no"/>piscentia mechandi ad quam non sequitur exterior actus propter 
+            im<lb ed="#V" n="82" break="no"/>pedimentum quo concupiscens prohibetur a perpetratione illius et 
+            <lb ed="#V" n="83"/>accipitur ibi concupiscentia non pro passione appetitus sensiti 
+            <lb ed="#V" n="84"/>ui: sed pro deliberatoria voluntate mechandi: simili modo potest dici 
+            <lb ed="#V" n="85"/>de prohibitione furti: et de concupiscentia passionis proximi. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e494">
+            <lb ed="#V" n="86"/>Ad primum in oppositum dicendum: quod actus 
+            interi<lb ed="#V" n="87" break="no"/>or et exterior causatus ab illo sunt 
+            <lb ed="#V" n="88"/>vnus actus in genere moris: et concessum est quod vna prohibitione 
+            <lb ed="#V" n="89"/>prohibentur: non sic autem interior actus et exterior qui non 
+            causan<lb ed="#V" n="90" break="no"/>tur ab illo.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e507">
+            ¶ Ad secundum dicendum: quod non est simile de 
+            concupiscen<lb ed="#V" n="91" break="no"/>tia vxoris proximi: et possessionis eius: et de concupiscentia 
+            <lb ed="#V" n="92"/>occidendi et loquendi falsum testimonium: quia due prime 
+            concu<lb ed="#V" n="93" break="no"/>piscentie sunt respectu rerum que ex sola apprehensione 
+            imagina<lb ed="#V" n="94" break="no"/>tionis secundum se causant delectationem in apprehendente: alie autem 
+            <lb ed="#V" n="95"/>due non sic: sed magis sunt respectu rerum que imaginate 
+            ma<lb ed="#V" n="96" break="no"/>gis causant in imaginatione honorem quam delectationem secundum se 
+            <lb ed="#V" n="97"/>quamuis quandoque per accidens talium delectet imaginatio scilicet propter 
+            specie<lb ed="#V" n="98" break="no"/>vindicte vel lucri: et ideo concupiscentia vxoris proximi: et eius 
+            <lb ed="#V" n="99"/>possessionis magis debuerunt prohibitionibus specialibus 
+            prohi<lb ed="#V" n="100" break="no"/>beri quam concupiscentia homicidii et falsum testimonium loquem 
+            <lb ed="#V" n="101"/>di
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e533">
+            ¶ Ad tertium dicendum: quod procedit de actum exteriori et de 
+            com<lb ed="#V" n="102" break="no"/>cupiscentia a qua causatur: sicut enim alio modo proportionatur 
+            <lb ed="#V" n="103"/>medicina contra dispositionem ad infirmitatem antequam 
+            <lb ed="#V" n="104"/>causetur infirmitas quam contra eam iam coniunctam actualiter 
+            <lb ed="#V" n="105"/>infirmitati: sic aliud peaeceptum datur contra deordinationem 
+            <lb ed="#V" n="106"/>interiorem non actualiter coniunctam exteriori quam contra eam que 
+            <lb ed="#V" n="107"/>exteriori deordinationi accidentaliter est coniuncta.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e549">
+            ¶ 
+            Ar<lb ed="#V" n="108" break="no"/>gumenta ad partem aliam gratia conclusionis principalis possunt 
+            <lb ed="#V" n="109"/>concedi. Secundum tamen peccat in processu. Idem enim est formale 
+            <lb ed="#V" n="110"/>obiectum actus mechie et inordinate concupiscentie a qua 
+            <lb ed="#V" n="111"/>procedit. Utriusque enim formale obiectum est delectatio 
+            ve<lb ed="#V" n="112" break="no"/>nerea: non enim concupiscit actum mechandi nisi propter eam: secundum 
+            <lb ed="#V" n="113"/>enim philosophum. vi. Topi. c. xiiii. delectabile eligimus propter 
+            <lb ed="#V" n="114"/>delectationem. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g108196-Dd1e568">
+          <head xml:id="kzz7yh-g108196-Hd1e570">Quaestio 4</head>
+          <p xml:id="kzz7yh-g108196-d1e572">
+            Questio. IIII. 
+            <lb ed="#V" n="115"/>QUarto queritur vtrum praecepta veteris legio 
+            <lb ed="#V" n="116"/>poterant iustificare. Et videtur quod 
+            <lb ed="#V" n="117"/>sic Matth. xix. Si vis ad vitam ingredi 
+            serua<lb ed="#V" n="118" break="no"/>mandata.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e583">
+            ¶ Item ad Ro. ii. Factores legis 
+            iusti<lb ed="#V" n="119" break="no"/>ficabuntur.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e588">
+            ¶ Item ad Ro. ii. Lex quidem sancta et manda 
+            <lb ed="#V" n="120"/>tum sanctum: et iustum: et bonum: sed obseruatio sancti: iusti et 
+            bo<lb ed="#V" n="121" break="no"/>ni mandati iustificat.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e595">
+            ¶ Item Leuiti. xviii. Custodite 
+            le<lb ed="#V" n="122" break="no"/>ges meas atque iudicia que faciens homo viuet in eis: sed anima 
+            <lb ed="#V" n="123"/>non viuit nisi per iustitiam.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e603">
+            ¶ Item glo. super illud. ad Ro. 
+            <lb ed="#V" n="124"/>iii. Ex operibus legis non iustificatur omnis caro coram illo dicit de 
+            <lb ed="#V" n="125"/>lege loquimur secundum cerimonialia non secundum moralia que 
+            iustifi<lb ed="#V" n="126" break="no"/>causat.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e612">
+            ¶ Item non erant minoris virtutis mandata moralia in 
+            <lb ed="#V" n="127"/>lege scripta quam ante legem scriptam: sed ante legem scriptam per 
+            <lb ed="#V" n="128"/>eorum obseruationem iusti merebantur vitam eternam: et 
+            peccato<lb ed="#V" n="129" break="no"/>res de congruo disponebant se ad recipiendum iustitiam 
+            <lb ed="#V" n="130"/>ergo similiter in lege scripta. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e623">
+            <lb ed="#V" n="131"/>Contra ad Ro. x. Si habraam ex operibus legis 
+            iustisi<lb ed="#V" n="132" break="no"/>catus est habet gloriam: sed non apud deum: ergo et 
+            <lb ed="#V" n="133"/>si mandata veteris legis iustificarent in conuentu hominum: non tamen 
+            <lb ed="#V" n="134"/>t conuentu dei.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e634">
+            ¶ Item glo. super illud i. ad cor. iii. Lratra occidit 
+            <lb ed="#V" n="135"/>dicit aduerte quam dicat litteram que occidit: et parum 
+            postea<lb ed="#V" n="136" break="no"/>certe est decalogus: ergo precepta moralia in veteri lege 
+            <!--00318.xml-->
+            <pb ed="#V" n="154-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>occidebant: non ergo iustificabant.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e650">
+            ¶ Item primo Cor. XV. Uir 
+            <lb ed="#V" n="2"/>tus peccati lex: sed praecepta legis quae dant virtutem peccato non 
+            iu<lb ed="#V" n="3" break="no"/>stificant: ergo praecepta veteris legis non iustificabant. 
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e657">
+            <lb ed="#V" n="4"/>Respondeo quod iustificare quadrupliciter potest 
+            <lb ed="#V" n="5"/>accipi: vno modo effectiue: et sic 
+            <lb ed="#V" n="6"/>solus deus iustificat: alio modo formaliter: et sic non est 
+            iu<lb ed="#V" n="7" break="no"/>stificatio nisi per gratiam gratum facientem. Tertio modo pro 
+            exe<lb ed="#V" n="8" break="no"/>cutione huius quod iustum est: et sic praecepta veteris legis tam 
+            <lb ed="#V" n="9"/>moralia quam iudicialia et cerimonialia obseruatores eorum 
+            <lb ed="#V" n="10"/>iustisicabant: quia illa obseruare erat exequi quod. iustum erat: quia 
+            <lb ed="#V" n="11"/>illa precepta iusta erant et sanctam et bona. Quarto modo 
+            dicu<lb ed="#V" n="12" break="no"/>tur aliqua iustificare: per quorum obseruationem homo iustus 
+            <lb ed="#V" n="13"/>meretur fieri iustior: et non iustus meretur de congruo fieri iustus 
+            <lb ed="#V" n="14"/>et hecumodo si loquamur de iustificatione que est per iustitiam 
+            <lb ed="#V" n="15"/>acquisitam precepta veteris legis poterant iustificare. Si 
+            au<lb ed="#V" n="16" break="no"/>tem loquamur de iustificatione que est per iustitiam infusam etiam 
+            <lb ed="#V" n="17"/>distinguendum est de obseruatione preceptorum veteris legis 
+            <lb ed="#V" n="18"/>quia autem obseruabantur non in fide christi neque explicita neque 
+            <lb ed="#V" n="19"/>implicita: et principaliter propter bona temporalia que secundum 
+            sen<lb ed="#V" n="20" break="no"/>sum litteralem principaliter videbantur in veteri lege 
+            promis<lb ed="#V" n="21" break="no"/>sa: aut obseruabantur in fide christi: siue explicita: siue implicita et 
+            prin<lb ed="#V" n="22" break="no"/>cipaliter propter bona spiritualia quie secundum spiritualem sensum principaliter 
+            <lb ed="#V" n="23"/>erant in veteri lege promissa.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e704">
+            ¶ Primo modo dico quod 
+            iustifi<lb ed="#V" n="24" break="no"/>care non poterant praecepta legis veteris: neque moralia: neque 
+            <lb ed="#V" n="25"/>iudicialia: neque cerimonialia: vt enim dicit augu. enchi. 
+            pe<lb ed="#V" n="26" break="no"/>nul. c. Neque antiquorum quicumque iustorum preter christi fidem: 
+            sa<lb ed="#V" n="27" break="no"/>lutem potuit inuenire
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e715">
+            ¶ Secundo modo iustificabant praecepta 
+            <lb ed="#V" n="28"/>moralia et iudicialia et cerimonialia: quia sic ea obseruantes 
+            <lb ed="#V" n="29"/>obseruabant legem inquantu habebat quasi in vtero legem 
+            no<lb ed="#V" n="30" break="no"/>uam: vt enim dicitur in sermone de natiuitate beati Ioan. 
+            bapti<lb ed="#V" n="31" break="no"/>ste. Lex erat grauida christo: vnde sicut obseruantes legem 
+            <lb ed="#V" n="32"/>iam aliquo modo euangelici erant: vnde secundum Augu. ii. libro 
+            <lb ed="#V" n="33"/>contra aduersarium legis et prophetarum longe vltra medium. 
+            <lb ed="#V" n="34"/>Propsehe pertinebant ad nouum testum. Sacramenta tamen 
+            vete<lb ed="#V" n="35" break="no"/>ris legis ratione rei operate iustitiam non conferebant: sicut 
+            sa<lb ed="#V" n="36" break="no"/>cramenta legis noue: vt in prima Dist. lib. iiii. declarabitur 
+            <lb ed="#V" n="37"/>et quia ad desiderandum iustificationem promissa sunt allicientia 
+            <lb ed="#V" n="38"/>praecepta dirigentia sacramenta coadiuuantia Ideo per 
+            obserua<lb ed="#V" n="39" break="no"/>tionem etiam moralium preceptorum: non ita faciliter: nec ita 
+            per<lb ed="#V" n="40" break="no"/>fecte iustificabantur sicut iustificamur in noua lege.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e746">
+            ¶ 
+            A<lb ed="#V" n="41" break="no"/>gumenta ad partem primam procedunt de obseruatione praeceptorum 
+            <lb ed="#V" n="42"/>moralium in fide christi implicita vel explicita et principaliter 
+            <lb ed="#V" n="43"/>propter spiritualia bona. 
+            <lb ed="#V" n="44"/>Primum ad partem aliam procedit de obseruatione 
+            prae<lb ed="#V" n="45" break="no"/>ceptorum legis veteris non in fide 
+            christi<lb ed="#V" n="46" break="no"/>nec implicita nec explicita nec secundum sensum spiritualem sed lit. 
+            <lb ed="#V" n="47"/>teralem et principaliter propter temporalia bona.
+          </p>
+          <p xml:id="kzz7yh-g108196-d1e764">
+            ¶ Ad secundum dicendum 
+            <lb ed="#V" n="48"/>quod decalogus occidebat per occasionem: quia propter expressione 
+            <lb ed="#V" n="49"/>precepti erat transgressio grauior et concupiscentia auidior quae 
+            <lb ed="#V" n="50"/>magis nititur inuetitum quando non adest gratia coadiuuans 
+            <lb ed="#V" n="51"/>ad refrenandum: que non dabatur obseruatoribus 
+            decalogi<lb ed="#V" n="52" break="no"/>non in fide christi: sed secundum litteralem sensum et principaliter 
+            pro<lb ed="#V" n="53" break="no"/>pter temporalia bona. Unde augu. ii. libro contra aduersarium 
+            <lb ed="#V" n="54"/>legis et prophetarum vltra medium. Prohibitio peccati et 
+            <lb ed="#V" n="55"/>est lex auget profecto desiderium peccandi: quod non extinguitur 
+            <lb ed="#V" n="56"/>nisi contrario desiderio recte faciendi vbi fides per dilectio 
+            <lb ed="#V" n="57"/>nem operatur. hoc autem non prestat littera iubens sed spiritus 
+            iu<lb ed="#V" n="58" break="no"/>uans: non lex ergo sed gratia. Simili modo potest dici ad 
+            <lb ed="#V" n="59"/>tertium. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g108196-Dd1e795">
+          <head xml:id="kzz7yh-g108196-Hd1e797">Quaestio 5</head>
+          <p xml:id="kzz7yh-g108196-d1e799">
+            Questio I
+            <lb ed="#V" n="60"/>QUinto queritur vtrum equem essent 
+            obli<lb ed="#V" n="61" break="no"/>gati ad obseruationem preceptorum 
+            <lb ed="#V" n="62"/>veteris legis sicut nos ad obseruationem 
+            praece<lb ed="#V" n="63" break="no"/>ptorum euangelicorum. Sed quia certum est tanto 
+            homi<lb ed="#V" n="64" break="no"/>nem magis esse obligatum ad obseruationem diuinorum 
+            prece<lb ed="#V" n="65" break="no"/>ptorum quanto plura a deo recepit beneficia: et quanto ad 
+            ob<lb ed="#V" n="66" break="no"/>seruandum plura et specialiora a deo habet adiutoria: et 
+            in<lb ed="#V" n="67" break="no"/>noua lege plura beneficia a deo recepimus quam iudei in 
+            ve<lb ed="#V" n="68" break="no"/>teri lege: et specialiora: et plura a deo habemus adiutori 
+            <!--00318.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>ad obseruandum diuina precepta quam haberent iudei in 
+            ve<lb ed="#V" n="70" break="no"/>teri lege: ideo quamuis iudei in veteri lege fuerunt obligati 
+            <lb ed="#V" n="71"/>obligatione necessitatis ad obseruationem diuinorum 
+            prece<lb ed="#V" n="72" break="no"/>ptorum: ita quod ea transgrediendo mortaliter peccabant: tamen nos 
+            <lb ed="#V" n="73"/>in lege gratie que est lex euangelica fortius sumus 
+            obliga<lb ed="#V" n="74" break="no"/>i ad obseruandum diuina precepta quam essent iudei in veteri 
+            <lb ed="#V" n="75"/>lege: ita quod grauior est transgressio christianorum diuina 
+            praece<lb ed="#V" n="76" break="no"/>pta transgredientium quam esset transgressio iudeorum ceteris 
+            pa<lb ed="#V" n="77" break="no"/>ribus: et hoc dicens non intendo comperare. singularem personam 
+            <lb ed="#V" n="78"/>quia magis peccasset moises si fuisset transgressus diuinum 
+            prae<lb ed="#V" n="79" break="no"/>ptum quam modo vnus homo populatis transgrediendoillud 
+            pre<lb ed="#V" n="80" break="no"/>ceptu. Sed intendo comperare communitatem viuentem sub 
+            <lb ed="#V" n="81"/>lege euangelica illi que viuebat sub lege scripta. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

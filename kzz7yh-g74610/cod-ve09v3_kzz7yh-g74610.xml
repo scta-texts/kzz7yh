@@ -1,457 +1,457 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 2</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 2</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="105-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 2</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 2</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="105-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g74610"><!-- l3d28a2 -->
+        <head xml:id="kzz7yh-g74610-Hd1e101">Articulus 2</head>
+        <p xml:id="kzz7yh-g74610-d1e103">
+          <lb ed="#V" n="120"/>Consequenter queritur de secundo 
+          <lb ed="#V" n="121"/>principali: et circa 
+          <lb ed="#V" n="122"/>hoc queruntur quatuor.
+        </p>
+        <p xml:id="kzz7yh-g74610-d1e112">
+          ¶ Primo vtrum 
+          sum<lb ed="#V" n="123" break="no"/>ma bonitas sit ratio prima diligendi omne 
+          il<lb ed="#V" n="124" break="no"/>lud quod disigitur ex charitate.
+        </p>
+        <p xml:id="kzz7yh-g74610-d1e119">
+          ¶ Secundo vtrum summa 
+          <lb ed="#V" n="125"/>bonitas sit charitatis obiectum secundum esse quod habet in 
+          re<lb ed="#V" n="126" break="no"/>vel secundum quod habet esse in mente.
+        </p>
+        <p xml:id="kzz7yh-g74610-d1e126">
+          ¶ Tertio vtrum ratio summe 
+          <lb ed="#V" n="127"/>bonitatis differat a summa bonitate.
+        </p>
+        <p xml:id="kzz7yh-g74610-d1e132">
+          ¶ Quarto vtrum 
+          <lb ed="#V" n="128"/>ex deliberatione diligere aliquid non propter summam 
+          boni<lb ed="#V" n="129" break="no"/>tatem: semper sit peccatum mortale. 
+        </p>
+        <div xml:id="kzz7yh-g74610-Dd1e139">
+          <head xml:id="kzz7yh-g74610-Hd1e141">Quaestio 1</head>
+          <p xml:id="kzz7yh-g74610-d1e143">
+            Questio. I 
+            <lb ed="#V" n="130"/>PRimo ostendo quod summa bonitas non 
+            <lb ed="#V" n="131"/>sit prima ratio diligendi ex 
+            cha<lb ed="#V" n="132" break="no"/>ritate: quia sicut se habet ens ad cognitionem: ita 
+            <lb ed="#V" n="133"/>bonum ad dilectionem: sed prima ratio 
+            cognoscen<lb ed="#V" n="134" break="no"/>di non est summum ens: sed ex commune creatori et creature 
+            <lb ed="#V" n="135"/>communitate analoga: ergo similiter prima ratio diligendi 
+            <lb ed="#V" n="136"/>non est summa bonitas: sed bonitas communis creatori et 
+            <!--00223.xml-->
+            <pb ed="#V" n="106-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>creature communitate analoga.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e169">
+            ¶ Item non diligitur bonum 
+            <lb ed="#V" n="2"/>nisi cognitum: sed primo ordine nature seu secundum rationem 
+            in<lb ed="#V" n="3" break="no"/>telligendi occurrit intellectui bonum communissime dictum 
+            <lb ed="#V" n="4"/>quam summum bonum: ergo prius diligit voluntas bonum 
+            con<lb ed="#V" n="5" break="no"/>munissime dictum quam summum bonum: sed primum dilectu est 
+            <lb ed="#V" n="6"/>prima ratio diligendi.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e182">
+            ¶ Item secundum sententiam philosophi innata est 
+            no<lb ed="#V" n="7" break="no"/>bis via a magis communibus ad minus communia: et a consusis 
+            <lb ed="#V" n="8"/>ad distincta. ergo prius mouetur voluntas nostra a 
+            boni<lb ed="#V" n="9" break="no"/>tate communissime dicta quam a bonitate increata. Sed illud 
+            <lb ed="#V" n="10"/>quo primo mouetur voluntas nostra ad diligendum est prima 
+            <lb ed="#V" n="11"/>ratio diligendi: ergo prima ratio diligendi est bonitas 
+            <lb ed="#V" n="12"/>communissime dicta. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e198">
+            <lb ed="#V" n="13"/>Contra sicut se habet prima veritas ad actum 
+            cre<lb ed="#V" n="14" break="no"/>dendi ita summa bonitas ad actum 
+            charita<lb ed="#V" n="15" break="no"/>tiue diligendi: sed prima veritas est prima ratio 
+            creden<lb ed="#V" n="16" break="no"/>di: ergo summa bonitas est prima ratio ex charitate 
+            di<lb ed="#V" n="17" break="no"/>ligendi.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e212">
+            ¶ Item illud propter quod diligendum est ex 
+            <lb ed="#V" n="18"/>charitate: quicquid ex charitate diligitur est prima ratio 
+            <lb ed="#V" n="19"/>diligendi ex charitate: sed propter summam bonitatem 
+            dili<lb ed="#V" n="20" break="no"/>gendum est quicquid ex charitate diligitur. Dicit enim 
+            An<lb ed="#V" n="21" break="no"/>sel. monolis 68 c. quod rationalis creatura nihil debet 
+            dilige<lb ed="#V" n="22" break="no"/>re nisi summam essentiam aut propter illam: ergo summa 
+            <lb ed="#V" n="23"/>bonitas est prima ratio diligendi ex charitate. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e228">
+            <lb ed="#V" n="24"/>Respondeo quod prima ratio diligendi ex 
+            charita<lb ed="#V" n="25" break="no"/>te est summa bonitas: sicut enim 
+            pri<lb ed="#V" n="26" break="no"/>ma ratio videndi est illud ratione cuius mouet visum 
+            quic<lb ed="#V" n="27" break="no"/>quid mouet visum vt lumen vel color. Et prima ratio 
+            in<lb ed="#V" n="28" break="no"/>telligendi est illud ratione cuius intelligitur quicquid 
+            in<lb ed="#V" n="29" break="no"/>telligitur: sicut est ens vel verum: ita concedendum est illud 
+            <lb ed="#V" n="30"/>esse primam rationem diligendi ex charitate ratione cuius diligitur 
+            <lb ed="#V" n="31"/>quicquid diligitur ex charitate. hoc autem estis summa bonitas. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e248">
+            <lb ed="#V" n="32"/>Ad primum in oppositum dicendum: quod non est 
+            simi<lb ed="#V" n="33" break="no"/>le de prima ratione diligendi ex 
+            <lb ed="#V" n="34"/>charitate: et de prima ratione diligendi communiter dicti 
+            si<lb ed="#V" n="35" break="no"/>cut enim diligere communius est quam diligere ex charitate: 
+            <lb ed="#V" n="36"/>ita prima ratio diligendi communior est quam prima ratio 
+            dili<lb ed="#V" n="37" break="no"/>gendi ex charitate: vnde si detur quod prima disigendi 
+            com<lb ed="#V" n="38" break="no"/>muniter dicti non sit summa bonitas: sed bonitas 
+            commu<lb ed="#V" n="39" break="no"/>nis creatori et creature communitate analoga: sicut videtur 
+            <lb ed="#V" n="40"/>concludere argumentum: non propter hoc sequitur: quod 
+            sum<lb ed="#V" n="41" break="no"/>ma bonitas non sit prima ratio diligendi ex charitate. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e272">
+            <lb ed="#V" n="42"/>¶ Ad secundum quod quamuis ex charitate non diligatur aliquid 
+            <lb ed="#V" n="43"/>nisi aliquo modo sit cognitum: non tamen ex hoc sequitur quod 
+            <lb ed="#V" n="44"/>bonum primo cognitum primo sit ex charitate dilectum: 
+            <lb ed="#V" n="45"/>et ideo non oportet: quod si communissima ratio boni primo 
+            oc<lb ed="#V" n="46" break="no"/>currat intellectui quam bonitas summa quod propter hoc 
+            pri<lb ed="#V" n="47" break="no"/>mo diligatur ex charitate quam bonitas summa.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e288">
+            ¶ Ad 
+            ter<lb ed="#V" n="48" break="no"/>tium patet solutio per illud quod dictum est ad primum. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g74610-Dd1e294">
+          <head xml:id="kzz7yh-g74610-Hd1e296">Quaestio 2</head>
+          <p xml:id="kzz7yh-g74610-d1e298">
+            <lb ed="#V" n="49"/>Questio. II. 
+            <lb ed="#V" n="50"/>Ecundo queritur vtrum summa 
+            boni<lb ed="#V" n="51" break="no"/>tas sit formale charitatis 
+            ob<lb ed="#V" n="52" break="no"/>iectum secundum esse quod habet in re vel secundum esse 
+            <lb ed="#V" n="53"/>quod habet in anima. Et videtur quod secundum esse 
+            <lb ed="#V" n="54"/>quod habet in anima: quia non est obiectum charitatis 
+            ni<lb ed="#V" n="55" break="no"/>si inquantum est cognita: quia per charitatem voluntas non 
+            po<lb ed="#V" n="56" break="no"/>test moueri in ipsam nisi cognitam. Sed esse cognitum est 
+            <lb ed="#V" n="57"/>esse in anima: ergo non est obiectum charitatis nisi secundum quod 
+            <lb ed="#V" n="58"/>habet esse in anima.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e322">
+            ¶ Item sicut se habet verum ad 
+            intelle<lb ed="#V" n="59" break="no"/>ctum ita bonum ad volutatem. Sed verum non est obiectum 
+            <lb ed="#V" n="60"/>intellectus nisi secundum quod habet esse in anima. Unde secundum 
+            <lb ed="#V" n="61"/>Auicem. I metaphy. c. 5. Enunciantes re vera non sunt 
+            ni<lb ed="#V" n="62" break="no"/>si per illud quod habet esse in anima: ergo a simili bonum 
+            <lb ed="#V" n="63"/>non obiectum volutatis nisi secundum esse quod habet in 
+            volu<lb ed="#V" n="64" break="no"/>tate: sed esse in voluntate est esse in anima: ergo non potest 
+            <lb ed="#V" n="65"/>esse charitatis obiectum nisi secundum esse quod habet in anima. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e340">
+            <lb ed="#V" n="66"/>¶ Item bonum quod non est in re nec esse potest: et dum 
+            ta<lb ed="#V" n="67" break="no"/>men sit in mente potest esse voluntatis obiectum: vnde secundum 
+            <lb ed="#V" n="68"/>philosophum tertio ethi. capitulo quinto. Uoluntas est im¬ 
+            <!--00223.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g74610"><!-- l3d28a2 -->
-            <head xml:id="kzz7yh-g74610-Hd1e101">Articulus 2</head>
-            <p xml:id="kzz7yh-g74610-d1e103">
-               <lb ed="#V" n="120"/>Consequenter queritur de secundo 
-      <lb ed="#V" n="121"/>principali: et circa 
-      <lb ed="#V" n="122"/>hoc queruntur quatuor.
-   </p>
-            <p xml:id="kzz7yh-g74610-d1e112">
-      ¶ Primo vtrum 
-      sum<lb ed="#V" n="123" break="no"/>ma bonitas sit ratio prima diligendi omne 
-      il<lb ed="#V" n="124" break="no"/>lud quod disigitur ex charitate.
-   </p>
-            <p xml:id="kzz7yh-g74610-d1e119">
-      ¶ Secundo vtrum summa 
-      <lb ed="#V" n="125"/>bonitas sit charitatis obiectum secudum esse quod habet in 
-      re<lb ed="#V" n="126" break="no"/>vel secundum quod habet esse in mente.
-   </p>
-            <p xml:id="kzz7yh-g74610-d1e126">
-      ¶ Tertio vtrum ratio summe 
-      <lb ed="#V" n="127"/>bonitatis differat a summa bonitate.
-   </p>
-            <p xml:id="kzz7yh-g74610-d1e132">
-      ¶ Quarto vtrum 
-      <lb ed="#V" n="128"/>ex deliberatione diligere aliquid non propter summam 
-      boni<lb ed="#V" n="129" break="no"/>tatem: semper sit peccatum mortale. 
-   </p>
-            <div xml:id="kzz7yh-g74610-Dd1e139">
-               <head xml:id="kzz7yh-g74610-Hd1e141">Quaestio 1</head>
-               <p xml:id="kzz7yh-g74610-d1e143">
-      Questio. I 
-      <lb ed="#V" n="130"/>PRimo ostendo quod summa bonitas non 
-      <lb ed="#V" n="131"/>sit prima ratio diligendi ex 
-      cha<lb ed="#V" n="132" break="no"/>ritate: quia sicut se habet ens ad cognitionem: ita 
-      <lb ed="#V" n="133"/>bonum ad dilectionem: sed prima ratio 
-      cognoscen<lb ed="#V" n="134" break="no"/>di non est summum ens: sed ex commune creatori et creature 
-      <lb ed="#V" n="135"/>communitate analoga: ergo similiter prima ratio diligendi 
-      <lb ed="#V" n="136"/>non est summa bonitas: sed bonitas communis creatori et 
-      <!--00223.xml-->
-      <pb ed="#V" n="106-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>creature communitate analoga.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e169">
-      ¶ Item non diligitur bonum 
-      <lb ed="#V" n="2"/>nisi cognitum: sed primo ordine nature seu secundum rationem 
-      in<lb ed="#V" n="3" break="no"/>telligendi occurrit intellectui bonum communissime dictum 
-      <lb ed="#V" n="4"/>quam summum bonum: ergo prius diligit voluntas bonum 
-      con<lb ed="#V" n="5" break="no"/>munissime dictum quam summum bonum: sed primum dilectu est 
-      <lb ed="#V" n="6"/>prima ratio diligendi.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e182">
-      ¶ Item secundum sententiam philosophi innata est 
-      no<lb ed="#V" n="7" break="no"/>bis via a magis communibus ad minus communia: et a consusis 
-      <lb ed="#V" n="8"/>ad distincta. ergo prius mouetur voluntas nostra a 
-      boni<lb ed="#V" n="9" break="no"/>tate communissime dicta quam a bonitate increata. Sed illud 
-      <lb ed="#V" n="10"/>quo primo mouetur voluntas nostra ad diligendum est prima 
-      <lb ed="#V" n="11"/>ratio diligendi: ergo prima ratio diligendi est bonitas 
-      <lb ed="#V" n="12"/>communissime dicta. 
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e198">
-                  <lb ed="#V" n="13"/>Contra sicut se habet prima veritas ad actum 
-      cre<lb ed="#V" n="14" break="no"/>dendi ita summa bonitas ad actum 
-      charita<lb ed="#V" n="15" break="no"/>tiue diligendi: sed prima veritas est prima ratio 
-      creden<lb ed="#V" n="16" break="no"/>di: ergo summa bonitas est prima ratio ex charitate 
-      di<lb ed="#V" n="17" break="no"/>ligendi.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e212">
-      ¶ Item illud propter quod diligendum est ex 
-      <lb ed="#V" n="18"/>charitate: quicquid ex charitate diligitur est prima ratio 
-      <lb ed="#V" n="19"/>diligendi ex charitate: sed propter summam bonitatem 
-      dili<lb ed="#V" n="20" break="no"/>gendum est quicquid ex charitate diligitur. Dicit enim 
-      An<lb ed="#V" n="21" break="no"/>sel. monolis 68 c. quod rationalis creatura nihil debet 
-      dilige<lb ed="#V" n="22" break="no"/>re nisi summam essentiam aut propter illam: ergo summa 
-      <lb ed="#V" n="23"/>bonitas est prima ratio diligendi ex charitate. 
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e228">
-                  <lb ed="#V" n="24"/>Respondeo quod prima ratio diligendi ex 
-      charita<lb ed="#V" n="25" break="no"/>te est summa bonitas: sicut enim 
-      pri<lb ed="#V" n="26" break="no"/>ma ratio videndi est illud ratione cuius mouet visum 
-      quic<lb ed="#V" n="27" break="no"/>quid mouet visum vt lumen vel color. Et prima ratio 
-      in<lb ed="#V" n="28" break="no"/>telligendi est illud ratione cuius intelligitur quicquid 
-      in<lb ed="#V" n="29" break="no"/>telligitur: sicut est ens vel verum: ita concedendum est illud 
-      <lb ed="#V" n="30"/>esse primam rationem diligendi ex charitate ratione cuius diligitur 
-      <lb ed="#V" n="31"/>quicquid diligitur ex charitate. hoc autem estis summa bonitas. 
-    </p>
-               <p xml:id="kzz7yh-g74610-d1e248">
-                  <lb ed="#V" n="32"/>Ad primum in oppositum dicendum: quod non est 
-      simi<lb ed="#V" n="33" break="no"/>le de prima ratione diligendi ex 
-      <lb ed="#V" n="34"/>charitate: et de prima ratione diligendi communiter dicti 
-      si<lb ed="#V" n="35" break="no"/>cut enim diligere communius est quam diligere ex charitate: 
-      <lb ed="#V" n="36"/>ita prima ratio diligendi communior est quam prima ratio 
-      dili<lb ed="#V" n="37" break="no"/>gendi ex charitate: vnde si detur quod prima disigendi 
-      com<lb ed="#V" n="38" break="no"/>muniter dicti non sit summa bonitas: sed bonitas 
-      commu<lb ed="#V" n="39" break="no"/>nis creatori et creature communitate analoga: sicut videtur 
-      <lb ed="#V" n="40"/>concludere argumentum: non propter hoc sequitur: quod 
-      sum<lb ed="#V" n="41" break="no"/>ma bonitas non sit prima ratio diligendi ex charitate. 
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e272">
-                  <lb ed="#V" n="42"/>¶ Ad secundum quod quamuis ex charitate non diligatur aliquid 
-      <lb ed="#V" n="43"/>nisi aliquo modo sit cognitum: non tamen ex hoc sequitur quod 
-      <lb ed="#V" n="44"/>bonum primo cognitum primo sit ex charitate dilectum: 
-      <lb ed="#V" n="45"/>et ideo non oportet: quod si communissima ratio boni primo 
-      oc<lb ed="#V" n="46" break="no"/>currat intellectui quam bonitas summa quod propter hoc 
-      pri<lb ed="#V" n="47" break="no"/>mo diligatur ex charitate quam bonitas summa.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e288">
-      ¶ Ad 
-      ter<lb ed="#V" n="48" break="no"/>tium patet solutio per illud quod dictum est ad primum. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g74610-Dd1e294">
-               <head xml:id="kzz7yh-g74610-Hd1e296">Quaestio 2</head>
-               <p xml:id="kzz7yh-g74610-d1e298">
-                  <lb ed="#V" n="49"/>Questio. II. 
-      <lb ed="#V" n="50"/>Ecundo queritur vtrum summa 
-      boni<lb ed="#V" n="51" break="no"/>tas sit formale charitatis 
-      ob<lb ed="#V" n="52" break="no"/>iectum secundum esse quod habet in re vel secundum esse 
-      <lb ed="#V" n="53"/>quod habet in anima. Et videtur quod secundum esse 
-      <lb ed="#V" n="54"/>quod habet in anima: quia non est obiectum charitatis 
-      ni<lb ed="#V" n="55" break="no"/>si inquantum est cognita: quia per charitatem voluntas non 
-      po<lb ed="#V" n="56" break="no"/>test moueri in ipsam nisi cognitam. Sed esse cognitum est 
-      <lb ed="#V" n="57"/>esse in anima: ergo non est obiectum charitatis nisi secundum quod 
-      <lb ed="#V" n="58"/>habet esse in anima.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e322">
-      ¶ Item sicut se habet verum ad 
-      intelle<lb ed="#V" n="59" break="no"/>ctum ita bonum ad volutatem. Sed verum non est obiectum 
-      <lb ed="#V" n="60"/>intellectus nisi secundum quod habet esse in anima. Unde secundum 
-      <lb ed="#V" n="61"/>Auicem. I metaphy. c. 5. Enunciantes re vera non sunt 
-      ni<lb ed="#V" n="62" break="no"/>si per illud quod habet esse in anima: ergo a simili bonum 
-      <lb ed="#V" n="63"/>non obiectum volutatis nisi secundum esse quod habet in 
-      volu<lb ed="#V" n="64" break="no"/>tate: sed esse in voluntate est esse in anima: ergo non potest 
-      <lb ed="#V" n="65"/>esse charitatis obiectum nisi secundum esse quod habet in anima. 
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e340">
-                  <lb ed="#V" n="66"/>¶ Item bonum quod non est in re nec esse potest: et dum 
-      ta<lb ed="#V" n="67" break="no"/>men sit in mente potest esse voluntatis obiectum: vnde secundum 
-      <lb ed="#V" n="68"/>philosophum tertio ethi. capitulo quinto. Uoluntas est im¬ 
-      <!--00223.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>possibilium. Sed bonum quod potest esse voluntatis 
-      obie<lb ed="#V" n="70" break="no"/>ctum potest esse charitatis obiectum: ergo bonum non secundum 
-      <lb ed="#V" n="71"/>aliquod esse reale: sed secundum solum esse quod habet in mente 
-      <lb ed="#V" n="72"/>potest esse charitatis obiectum. 
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e362">
-                  <lb ed="#V" n="73"/>Contra si summa bonitas esset charitatis obiectum 
-      <lb ed="#V" n="74"/>secundum esse quod habet in mente non plus 
-      di<lb ed="#V" n="75" break="no"/>ligeretur quam cognosceretur nec alio modo: sed hoc est falsum: 
-      <lb ed="#V" n="76"/>vt enim habetur in commento super illud septimi capituli 
-      an<lb ed="#V" n="77" break="no"/>gelice hierar. Calidum actutum et super feruidum plus 
-      dili<lb ed="#V" n="78" break="no"/>gitur quam intelligatur: et vt declaratum est lib. iI. Di. 17. quamuis 
-      <lb ed="#V" n="79"/>deus in via immediate a nobis non cognoscitur: tamen 
-      im<lb ed="#V" n="80" break="no"/>mediate diligitur: ergo summa bonitas non est charitatis 
-      <lb ed="#V" n="81"/>obiectum secundum esse quod habet immediate: sed secundum esse quood 
-      <lb ed="#V" n="82"/>habet in re.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e387">
-      ¶ Item secundum philosophum sexto metaphy. Uerum et 
-      fal<lb ed="#V" n="83" break="no"/>sum non sunt in rebus sed in mente: bonum et malum 
-      econuer<lb ed="#V" n="84" break="no"/>so: ergo nullum bonum potest esse obiectum charitatis secundum es 
-      <lb ed="#V" n="85"/>se in mente cum ibi non habeat esse. 
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e396">
-                  <lb ed="#V" n="86"/>Respondeo quod summa hominitas est formale 
-      cha<lb ed="#V" n="87" break="no"/>ritatis obiectum secundum esse quod 
-      ha<lb ed="#V" n="88" break="no"/>bet in re: et ex consequenti est eius obiectum secundum esse quod 
-      ha<lb ed="#V" n="89" break="no"/>bet in nostra mente: esse enim reale summe bonitatis 
-      reali<lb ed="#V" n="90" break="no"/>ter idem est cum ipsa bonitate: suum autem esse quod habet in 
-      <lb ed="#V" n="91"/>nostra mente in ratione cognoscibilis est ipsam nostre 
-      men<lb ed="#V" n="92" break="no"/>ti representari: vel ab ea aliquo modo cognosci: voluntas 
-      <lb ed="#V" n="93"/>autem nostra per charitatem primo et principaliter tendit per 
-      <lb ed="#V" n="94"/>dilectionem in ipsam summam bonitatem in suo reali esse 
-      <lb ed="#V" n="95"/>quod est idem cum ea: et ex consequenti diligit eam nostre 
-      men<lb ed="#V" n="96" break="no"/>ti representari: et a nostra mente cognosci. 
-    </p>
-               <p xml:id="kzz7yh-g74610-d1e422">
-                  <lb ed="#V" n="97"/>Ad primum in oppositum dicendum: quod non est idem 
-      <lb ed="#V" n="98"/>dicere ipsam summam bonitatem a 
-      <lb ed="#V" n="99"/>nostra mente cognitam esse formale obiectum charitatis: et 
-      <lb ed="#V" n="100"/>dicere ipsam secundum esse cognitum esse formale charitatis 
-      obie<lb ed="#V" n="101" break="no"/>ctum: quia secundum primum modum dicendi non aliud dicitur nisi quod 
-      <lb ed="#V" n="102"/>cognitio illius bonitatis est necessaria ad hoc vt 
-      volun<lb ed="#V" n="103" break="no"/>tas per charitatem diligendo tendat in ipsam existentem in 
-      <lb ed="#V" n="104"/>suo esse reali. Sed secundum alium modum dicendi includitur quod 
-      <lb ed="#V" n="105"/>voluntas per charitatem primo et principaliter tendat in 
-      ip<lb ed="#V" n="106" break="no"/>sam ratione illius esse quod est causa nostre menti 
-      represen<lb ed="#V" n="107" break="no"/>tari vel a mente nostra cognosci: quamuis autem ipsam esse 
-      <lb ed="#V" n="108"/>in mente nostra sit necessarium ad hoc: vt voluntas per 
-      <lb ed="#V" n="109"/>charitatem tendat in eam existentem in suo reali esse 
-      inquan<lb ed="#V" n="110" break="no"/>tu ipsam esse in mente est sue essentie realis ostensiuum: 
-      <lb ed="#V" n="111"/>non tamen ex hoc sequitur quod ratione sui esse quod habet in 
-      mem<lb ed="#V" n="112" break="no"/>te sit formale charitatis obiectum: et potest aliqualiter poni 
-      <lb ed="#V" n="113"/>exemplum: quamuis enim similitudo lapidis in mente sit 
-      ne<lb ed="#V" n="114" break="no"/>cessaria ad cognoscendum lapidem in suo esse reali secundum 
-      opinio<lb ed="#V" n="115" break="no"/>nem ponenttiu intellectum nostrum non posse intelligere 
-      eti<lb ed="#V" n="116" break="no"/>am dum est actu corporis corruptibilis forma nisi per 
-      ali<lb ed="#V" n="117" break="no"/>quam speciem intelligibilem qua informatur: non tamen est 
-      primari<lb ed="#V" n="118" break="no"/>um et directum cognitionis obiectum.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e472">
-      ¶ Ad secundum 
-      di<lb ed="#V" n="119" break="no"/>cunt quidam quod non est simile de obiecto intellectus et 
-      volun<lb ed="#V" n="120" break="no"/>tatis: quia operatio intellectus completur secundum quod intellectum 
-      <lb ed="#V" n="121"/>est in intelligente. Operatio autem voluntatis perficitur 
-      <lb ed="#V" n="122"/>in inclinatione volentis ad rem sicut ad terminum: sed 
-      <lb ed="#V" n="123"/>aliquibus non placet hec responsio: quia sicut ipsa res est amata 
-      <lb ed="#V" n="124"/>per voluntatem: ita ipsa res intelligitur per intellectum per eius 
-      <lb ed="#V" n="125"/>similitudinem. Unde Auicena. in auctoritate preallegata 
-      vos<lb ed="#V" n="126" break="no"/>cat rem esse in intellectu ipsam esse intellectam: vel ipsam 
-      <lb ed="#V" n="127"/>esse intellectui representatam. Dicendum ergo ad minorem 
-      <lb ed="#V" n="128"/>argumenti: quod res secundum suum esse reale intelligitur ab 
-      in<lb ed="#V" n="129" break="no"/>tellectu per suum esse quod habet in intellectu per suam 
-      es<lb ed="#V" n="130" break="no"/>sentiam vel per suam similitudinem: vel per esse quod habet 
-      <lb ed="#V" n="131"/>in imaginatione per suum fantasma.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e503">
-      ¶ Ad tertium dicendum 
-      <lb ed="#V" n="132"/>quod non plus concludit nisi quod aliquod bonum quod non habet 
-      <lb ed="#V" n="133"/>esse nisi in mente potest esse charitatis obiectum: sed ex hoc 
-      <lb ed="#V" n="134"/>non sequitur quod possit esse primarium et formale charitatis 
-      ob<lb ed="#V" n="135" break="no"/>fectum: tamen argumentum peccat in materia. Non enim 
-      <lb ed="#V" n="136"/>omne illud bonum quod potest esse obiectum voluntatis potest 
-      <!--00224.xml-->
-      <pb ed="#V" n="106-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>esse obiectum charitatis. bonum enim quod ab homine 
-      impossibi<lb ed="#V" n="2" break="no"/>le est haberi ex charitate non potest concupisci: quamuis illud 
-      <lb ed="#V" n="3"/>bonum homo possit ex charitate velle illi a quo possibile est et 
-      <lb ed="#V" n="4"/>conueniens homo haberi. 
-      <lb ed="#V" n="5"/>Primum argumentum ad partem aliam non plus 
-      con<lb ed="#V" n="6" break="no"/>cludit nisi quod summa bonitas non est 
-      cha<lb ed="#V" n="7" break="no"/>ritatis obiectum secundum illud esse quod habet in mente tantum: nec 
-      <lb ed="#V" n="8"/>etiam secundum illud esse est primarium et formale charitatis 
-      ob<lb ed="#V" n="9" break="no"/>iectum: et est verum.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e542">
-      ¶ Ad secundum dicendum: quod ibi loquitur 
-      <lb ed="#V" n="10"/>philosophus. de vero et falso que sunt circa compositionem et 
-      diuisio<lb ed="#V" n="11" break="no"/>nem que tantummodo sunt in intellectu non de vero quod est 
-      e<lb ed="#V" n="12" break="no"/>re ex hoc quod conformatur ad suum exemplar a quo dependet: 
-      <lb ed="#V" n="13"/>et de falso opposito isti vero quod consistit in apparentia 
-      <lb ed="#V" n="14"/>conformitatis: que non est in re. bonum autem dixit esse in re: quia 
-      <lb ed="#V" n="15"/>non sic causatur bonitas in re a nostra voluntate sicut in 
-      no<lb ed="#V" n="16" break="no"/>stra voluntate ab ipsa re: non enim quia diligo rem ideo bona 
-      <lb ed="#V" n="17"/>est: sed quia bona est: ideo dilectio qua diligo eam bona est 
-      <lb ed="#V" n="18"/>si ordinate diligo: non fuit ergo intentio philosophi 
-      nega<lb ed="#V" n="19" break="no"/>re bonum esse in nostra mente: eo modo quo cognitum est 
-      <lb ed="#V" n="20"/>in cognoscente. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g74610-Dd1e569">
-               <head xml:id="kzz7yh-g74610-Hd1e571">Quaestio 3</head>
-               <p xml:id="kzz7yh-g74610-d1e573">
-      Questio. III. 
-      <lb ed="#V" n="21"/>TErtio queritur vtrum ratio summe bon 
-      <lb ed="#V" n="22"/>tatis differat a summa bonitate. 
-      <lb ed="#V" n="23"/>Et videtur quonon: quia secundum Augu. 6 de trinitate. 
-      c<lb ed="#V" n="24" break="no"/>vlti. Omnes rationes viuentes et incommutabiles 
-      <lb ed="#V" n="25"/>in arte omnipotentis et sapientis dei vnum sunt: sed ratio 
-      <lb ed="#V" n="26"/>summe bonitatis est summe viuens et incommutabilis 
-      exi<lb ed="#V" n="27" break="no"/>stens in arte omnipotentis dei: ergo vnum est cum aliis 
-      rationi<lb ed="#V" n="28" break="no"/>bus que sunt in arte illa: sed ratio summe bonitatis 
-      ma<lb ed="#V" n="29" break="no"/>gis videtur conuenire cum summa bonitate quam quod veritatis 
-      rateo<lb ed="#V" n="30" break="no"/>ne: ergo videtur quod non differat a summa bonitate.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e597">
-      ¶ Item 
-      <lb ed="#V" n="31"/>philosophus. 4. metaphy. Dicit quod ratio quam significat nomen est 
-      <lb ed="#V" n="32"/>diffinitio: sed diffinitio idem est cum diffinito: ergo ratio 
-      <lb ed="#V" n="33"/>summe bonitatis non differt ab ea.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e606">
-      ¶ Item ratio summe 
-      <lb ed="#V" n="34"/>bonitatis est increata: quia fuit ab eterno: sed nulla res 
-      in<lb ed="#V" n="35" break="no"/>creata differt a summa bonitate: quia nihil est increatum 
-      ni<lb ed="#V" n="36" break="no"/>si deus: qui a sua bonitate non differt: ergo ratio summe 
-      <lb ed="#V" n="37"/>bonitatis non differt ab ea. 
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e617">
-                  <lb ed="#V" n="38"/>Contra siratio summe bonitatis non differt ab ea 
-      <lb ed="#V" n="39"/>pari ratione nec ratio veritatis ab ea differt 
-      <lb ed="#V" n="40"/>sed summa bonitas idem est cum summa veritate: ergo 
-      ra<lb ed="#V" n="41" break="no"/>tio summe bonitatis et summe veritatis idem essent: et sic 
-      <lb ed="#V" n="42"/>bonitas et veritas dei non differrent ratione: quod falsum est. 
-      <lb ed="#V" n="43"/>Attributa enim dei secundum rationem differunt: vt in primo 
-      li<lb ed="#V" n="44" break="no"/>bro. Di. 22. ostensum est.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e636">
-      ¶ Item quamuis diffinitio et 
-      diffini<lb ed="#V" n="45" break="no"/>tum realiter idem sint: tamen secundum rationem differunt: quia quod 
-      <lb ed="#V" n="46"/>dicit diffinitum modo indistincto: dicit diffinitio in 
-      par<lb ed="#V" n="47" break="no"/>tes secundum rationem distinctum. Unde philosopus I physi. 
-      To<lb ed="#V" n="48" break="no"/>tum quoddam et diffinitum significat vt circulus: 
-      diffinitio<lb ed="#V" n="49" break="no"/>autem ipsius diuidit in singula: sed ratio summe bonitatis 
-      <lb ed="#V" n="50"/>aliquo modo se habet ad summam bonitatem sicut 
-      diffini<lb ed="#V" n="51" break="no"/>tio ad diffinitum: quamuis non proprie sit diffinitio: ergo secundum 
-      ra<lb ed="#V" n="52" break="no"/>tionem differt a summa bonitate. 
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e656">
-                  <lb ed="#V" n="53"/>Ad istam quaestionem dicunt aliqui: quod non est 
-      <lb ed="#V" n="54"/>inconueniens in vna 
-      re<lb ed="#V" n="55" break="no"/>simplicissima inuenire differentiam secundum suum esse intellectum. 
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e665">
-                  <lb ed="#V" n="56"/>¶ Unde quamuis veritas dei et eius bonitas sit vna res 
-      sim<lb ed="#V" n="57" break="no"/>plicissima non est tamen inconueniens quod differant secundum suum 
-      <lb ed="#V" n="58"/>esse intellectum inter se et a suis rationibus: et sue rationes 
-      <lb ed="#V" n="59"/>inter se nec dicunt istam differentiam inter predicta 
-      reperi<lb ed="#V" n="60" break="no"/>ri tantum secundum suum esse intellectum in comparatione ad 
-      intel<lb ed="#V" n="61" break="no"/>lectum creatum: sed etiam in comparatione ad intellectum diuinum. 
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e681">
-                  <lb ed="#V" n="62"/>¶ Sed hic modus respondendi obscurus est et male 
-      in<lb ed="#V" n="63" break="no"/>telligibilis: nec video quomodo possit sustineri nisi verba 
-      mul<lb ed="#V" n="64" break="no"/>tum distorqueantur. Inter ea enim que in deo sunt per modum 
-      <lb ed="#V" n="65"/>rei intrinsece quantumcumque conciderentur: vt a diuino 
-      intel<lb ed="#V" n="66" break="no"/>lectu intellecta non video quomodo sit differentia nisi 
-      eo<lb ed="#V" n="67" break="no"/>rum differentia per comparationem ad aliquod extrinsecum at 
-      <lb ed="#V" n="68"/>tenditur.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e699">
-      ¶ Uidetur ergo mihi dicendum aliter ad quaestionem 
-      <!--00224.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>secuet quod ratio summe bonitatis dupliciter potest accipi. 
-      Uno<lb ed="#V" n="70" break="no"/>modo pro illa quam format diuinus intellectus de sua 
-      bo<lb ed="#V" n="71" break="no"/>nitate: et hoc in deo est: non tantum per modum rei 
-      intelle<lb ed="#V" n="72" break="no"/>cte: sed etiam per modum rei intrinsece: et sic loquendo de 
-      ra<lb ed="#V" n="73" break="no"/>tione summe bonitatis non video quomodo differat a summa 
-      <lb ed="#V" n="74"/>bonitate nisi sorte illa differentia attendatur per 
-      comparatio<lb ed="#V" n="75" break="no"/>ne ad creatum intellectum: qui aliam conceptionem format de 
-      sun<lb ed="#V" n="76" break="no"/>ma bonitate: et aliam de illius intrinseca ratione.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e723">
-      ¶ Alio 
-      <lb ed="#V" n="77"/>modo potest accipi ratio summe bonitatis pro illa que est 
-      <lb ed="#V" n="78"/>concepta ab intellectu creato vel conceptibilis et ab ipso deo 
-      <lb ed="#V" n="79"/>intellecta que in deo non est per modum rei intrinsece: sed 
-      <lb ed="#V" n="80"/>est in diuino intellectu obiectiue tantum: sicut obiectum 
-      <lb ed="#V" n="81"/>secundarium: quia obiectum primarium intellectus 
-      diuini<lb ed="#V" n="82" break="no"/>in eo est per modum rei intrinsece: non tantum obiectiue. Et 
-      <lb ed="#V" n="83"/>sic loquendo de ratione summe bonitatis: dico quod differt a 
-      sun<lb ed="#V" n="84" break="no"/>ma bonitate: quia talis ratio creatura est: et summa bonitas 
-      <lb ed="#V" n="85"/>est ipse creator. 
-    </p>
-               <p xml:id="kzz7yh-g74610-d1e746">
-                  <lb ed="#V" n="86"/>Ad primum dicendum: quod illa auctoritas 
-      intelli<lb ed="#V" n="87" break="no"/>genda est de rationibus existentibus 
-      <lb ed="#V" n="88"/>in deo per modum rei intrinsece non obiectiue tantum.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e755">
-      ¶ Ad 
-      se<lb ed="#V" n="89" break="no"/>cundum dicendum: quod ratio summe bonitatis concepta vel 
-      con<lb ed="#V" n="90" break="no"/>ceptibilis a creato intellectu non se habet ad summam 
-      bo<lb ed="#V" n="91" break="no"/>nitatem vt diffinitio ad diffinitum: quia diffinitio totam 
-      essen<lb ed="#V" n="92" break="no"/>tiam diffiniti comprehendit et terminat. Unde quandoque a 
-      phi<lb ed="#V" n="93" break="no"/>losopho vocatur terminus: sed nulla ratio concepta vel 
-      <lb ed="#V" n="94"/>conceptibilis a creato intellectu summam bonitatem 
-      comprehen<lb ed="#V" n="95" break="no"/>dit: quia talis conceptio finita est: deus autem infinitus: 
-      quapro<lb ed="#V" n="96" break="no"/>pter bene dicit Auicena 8 metaphy. c. 2. Quod primus non 
-      ha<lb ed="#V" n="97" break="no"/>bet diffinitionem.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e777">
-      ¶ Ad tertium dicendum: quod rationem 
-      <lb ed="#V" n="98"/>summe bonitatis fuisse ab eterno dupliciter potest 
-      intelligi<lb ed="#V" n="99" break="no"/>vno modo ita quod fuerit ab eterno in deo per modum rei in 
-      <lb ed="#V" n="100"/>trinsece. Et sic verum est quod illa non differt a summa 
-      boni<lb ed="#V" n="101" break="no"/>tate. Alio modo ita quod fuerit ab eterno in diuino 
-      intelle<lb ed="#V" n="102" break="no"/>ctu non per modum rei intrinsece: sed obiectiue tantum: sicut 
-      co<lb ed="#V" n="103" break="no"/>lor est in visu: et lapis qui intelligitur in intellectu: et sic non 
-      <lb ed="#V" n="104"/>oportet quod sit res increata. Tali enim modo fuit ab 
-      eter<lb ed="#V" n="105" break="no"/>no quelibet creatura in diuino intellectu.
-   </p>
-               <p xml:id="kzz7yh-g74610-d1e797">
-      ¶ 
-      Argumen<lb ed="#V" n="106" break="no"/>ta ad partem aliam procedunt de ratione summe bouitatis. 
-      Secun<lb ed="#V" n="107" break="no"/>do modo dicta: quamuis secundum argumentum concedendum 
-      <lb ed="#V" n="108"/>esset: et de ratione summe bonitatis primo modo dicta secundum 
-      <lb ed="#V" n="109"/>illam opinionem que in principio corporis quaestionis fuit recitata 
-      <lb ed="#V" n="110"/>secundum illam enim non est inconueniens dicere quod illa ratio 
-      <lb ed="#V" n="111"/>et summa bonitas inquantum intellecte sunt differant 
-      ra<lb ed="#V" n="112" break="no"/>tione. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g74610-Dd1e816">
-               <head xml:id="kzz7yh-g74610-Hd1e818">Quaestio 4</head>
-               <p xml:id="kzz7yh-g74610-d1e820">
-      Questio. IIII. 
-      <lb ed="#V" n="113"/>QUarto queritur vtrum ex deliberatione 
-      <lb ed="#V" n="114"/>diligere aliquid: non propter 
-      sum<lb ed="#V" n="115" break="no"/>mam bonitatem semper sit peccatum mortale: sed 
-      <lb ed="#V" n="116"/>quia veritas huius quaestionis clare videri potest per 
-      <lb ed="#V" n="117"/>illam quaestionem que determinata est superius lib. 2. Di. 47. que 
-      <lb ed="#V" n="118"/>est vtrum propter omne peccatum ex deliberatione 
-      com<lb ed="#V" n="119" break="no"/>missum obligetur peccans ad penam eternam. Ideo ad 
-      <lb ed="#V" n="120"/>presens supersedeo de ista questione.
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="69"/>possibilium. Sed bonum quod potest esse voluntatis 
+            obie<lb ed="#V" n="70" break="no"/>ctum potest esse charitatis obiectum: ergo bonum non secundum 
+            <lb ed="#V" n="71"/>aliquod esse reale: sed secundum solum esse quod habet in mente 
+            <lb ed="#V" n="72"/>potest esse charitatis obiectum. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e362">
+            <lb ed="#V" n="73"/>Contra si summa bonitas esset charitatis obiectum 
+            <lb ed="#V" n="74"/>secundum esse quod habet in mente non plus 
+            di<lb ed="#V" n="75" break="no"/>ligeretur quam cognosceretur nec alio modo: sed hoc est falsum: 
+            <lb ed="#V" n="76"/>vt enim habetur in commento super illud septimi capituli 
+            an<lb ed="#V" n="77" break="no"/>gelice hierar. Calidum actutum et super feruidum plus 
+            dili<lb ed="#V" n="78" break="no"/>gitur quam intelligatur: et vt declaratum est lib. iI. Di. 17. quamuis 
+            <lb ed="#V" n="79"/>deus in via immediate a nobis non cognoscitur: tamen 
+            im<lb ed="#V" n="80" break="no"/>mediate diligitur: ergo summa bonitas non est charitatis 
+            <lb ed="#V" n="81"/>obiectum secundum esse quod habet immediate: sed secundum esse quood 
+            <lb ed="#V" n="82"/>habet in re.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e387">
+            ¶ Item secundum philosophum sexto metaphy. Uerum et 
+            fal<lb ed="#V" n="83" break="no"/>sum non sunt in rebus sed in mente: bonum et malum 
+            econuer<lb ed="#V" n="84" break="no"/>so: ergo nullum bonum potest esse obiectum charitatis secundum es 
+            <lb ed="#V" n="85"/>se in mente cum ibi non habeat esse. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e396">
+            <lb ed="#V" n="86"/>Respondeo quod summa hominitas est formale 
+            cha<lb ed="#V" n="87" break="no"/>ritatis obiectum secundum esse quod 
+            ha<lb ed="#V" n="88" break="no"/>bet in re: et ex consequenti est eius obiectum secundum esse quod 
+            ha<lb ed="#V" n="89" break="no"/>bet in nostra mente: esse enim reale summe bonitatis 
+            reali<lb ed="#V" n="90" break="no"/>ter idem est cum ipsa bonitate: suum autem esse quod habet in 
+            <lb ed="#V" n="91"/>nostra mente in ratione cognoscibilis est ipsam nostre 
+            men<lb ed="#V" n="92" break="no"/>ti representari: vel ab ea aliquo modo cognosci: voluntas 
+            <lb ed="#V" n="93"/>autem nostra per charitatem primo et principaliter tendit per 
+            <lb ed="#V" n="94"/>dilectionem in ipsam summam bonitatem in suo reali esse 
+            <lb ed="#V" n="95"/>quod est idem cum ea: et ex consequenti diligit eam nostre 
+            men<lb ed="#V" n="96" break="no"/>ti representari: et a nostra mente cognosci. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e422">
+            <lb ed="#V" n="97"/>Ad primum in oppositum dicendum: quod non est idem 
+            <lb ed="#V" n="98"/>dicere ipsam summam bonitatem a 
+            <lb ed="#V" n="99"/>nostra mente cognitam esse formale obiectum charitatis: et 
+            <lb ed="#V" n="100"/>dicere ipsam secundum esse cognitum esse formale charitatis 
+            obie<lb ed="#V" n="101" break="no"/>ctum: quia secundum primum modum dicendi non aliud dicitur nisi quod 
+            <lb ed="#V" n="102"/>cognitio illius bonitatis est necessaria ad hoc vt 
+            volun<lb ed="#V" n="103" break="no"/>tas per charitatem diligendo tendat in ipsam existentem in 
+            <lb ed="#V" n="104"/>suo esse reali. Sed secundum alium modum dicendi includitur quod 
+            <lb ed="#V" n="105"/>voluntas per charitatem primo et principaliter tendat in 
+            ip<lb ed="#V" n="106" break="no"/>sam ratione illius esse quod est causa nostre menti 
+            represen<lb ed="#V" n="107" break="no"/>tari vel a mente nostra cognosci: quamuis autem ipsam esse 
+            <lb ed="#V" n="108"/>in mente nostra sit necessarium ad hoc: vt voluntas per 
+            <lb ed="#V" n="109"/>charitatem tendat in eam existentem in suo reali esse 
+            inquan<lb ed="#V" n="110" break="no"/>tu ipsam esse in mente est sue essentie realis ostensiuum: 
+            <lb ed="#V" n="111"/>non tamen ex hoc sequitur quod ratione sui esse quod habet in 
+            mem<lb ed="#V" n="112" break="no"/>te sit formale charitatis obiectum: et potest aliqualiter poni 
+            <lb ed="#V" n="113"/>exemplum: quamuis enim similitudo lapidis in mente sit 
+            ne<lb ed="#V" n="114" break="no"/>cessaria ad cognoscendum lapidem in suo esse reali secundum 
+            opinio<lb ed="#V" n="115" break="no"/>nem ponenttiu intellectum nostrum non posse intelligere 
+            eti<lb ed="#V" n="116" break="no"/>am dum est actu corporis corruptibilis forma nisi per 
+            ali<lb ed="#V" n="117" break="no"/>quam speciem intelligibilem qua informatur: non tamen est 
+            primari<lb ed="#V" n="118" break="no"/>um et directum cognitionis obiectum.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e472">
+            ¶ Ad secundum 
+            di<lb ed="#V" n="119" break="no"/>cunt quidam quod non est simile de obiecto intellectus et 
+            volun<lb ed="#V" n="120" break="no"/>tatis: quia operatio intellectus completur secundum quod intellectum 
+            <lb ed="#V" n="121"/>est in intelligente. Operatio autem voluntatis perficitur 
+            <lb ed="#V" n="122"/>in inclinatione volentis ad rem sicut ad terminum: sed 
+            <lb ed="#V" n="123"/>aliquibus non placet hec responsio: quia sicut ipsa res est amata 
+            <lb ed="#V" n="124"/>per voluntatem: ita ipsa res intelligitur per intellectum per eius 
+            <lb ed="#V" n="125"/>similitudinem. Unde Auicena. in auctoritate preallegata 
+            vos<lb ed="#V" n="126" break="no"/>cat rem esse in intellectu ipsam esse intellectam: vel ipsam 
+            <lb ed="#V" n="127"/>esse intellectui representatam. Dicendum ergo ad minorem 
+            <lb ed="#V" n="128"/>argumenti: quod res secundum suum esse reale intelligitur ab 
+            in<lb ed="#V" n="129" break="no"/>tellectu per suum esse quod habet in intellectu per suam 
+            es<lb ed="#V" n="130" break="no"/>sentiam vel per suam similitudinem: vel per esse quod habet 
+            <lb ed="#V" n="131"/>in imaginatione per suum fantasma.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e503">
+            ¶ Ad tertium dicendum 
+            <lb ed="#V" n="132"/>quod non plus concludit nisi quod aliquod bonum quod non habet 
+            <lb ed="#V" n="133"/>esse nisi in mente potest esse charitatis obiectum: sed ex hoc 
+            <lb ed="#V" n="134"/>non sequitur quod possit esse primarium et formale charitatis 
+            ob<lb ed="#V" n="135" break="no"/>fectum: tamen argumentum peccat in materia. Non enim 
+            <lb ed="#V" n="136"/>omne illud bonum quod potest esse obiectum voluntatis potest 
+            <!--00224.xml-->
+            <pb ed="#V" n="106-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>esse obiectum charitatis. bonum enim quod ab homine 
+            impossibi<lb ed="#V" n="2" break="no"/>le est haberi ex charitate non potest concupisci: quamuis illud 
+            <lb ed="#V" n="3"/>bonum homo possit ex charitate velle illi a quo possibile est et 
+            <lb ed="#V" n="4"/>conueniens homo haberi. 
+            <lb ed="#V" n="5"/>Primum argumentum ad partem aliam non plus 
+            con<lb ed="#V" n="6" break="no"/>cludit nisi quod summa bonitas non est 
+            cha<lb ed="#V" n="7" break="no"/>ritatis obiectum secundum illud esse quod habet in mente tantum: nec 
+            <lb ed="#V" n="8"/>etiam secundum illud esse est primarium et formale charitatis 
+            ob<lb ed="#V" n="9" break="no"/>iectum: et est verum.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e542">
+            ¶ Ad secundum dicendum: quod ibi loquitur 
+            <lb ed="#V" n="10"/>philosophus. de vero et falso que sunt circa compositionem et 
+            diuisio<lb ed="#V" n="11" break="no"/>nem que tantummodo sunt in intellectu non de vero quod est 
+            e<lb ed="#V" n="12" break="no"/>re ex hoc quod conformatur ad suum exemplar a quo dependet: 
+            <lb ed="#V" n="13"/>et de falso opposito isti vero quod consistit in apparentia 
+            <lb ed="#V" n="14"/>conformitatis: que non est in re. bonum autem dixit esse in re: quia 
+            <lb ed="#V" n="15"/>non sic causatur bonitas in re a nostra voluntate sicut in 
+            no<lb ed="#V" n="16" break="no"/>stra voluntate ab ipsa re: non enim quia diligo rem ideo bona 
+            <lb ed="#V" n="17"/>est: sed quia bona est: ideo dilectio qua diligo eam bona est 
+            <lb ed="#V" n="18"/>si ordinate diligo: non fuit ergo intentio philosophi 
+            nega<lb ed="#V" n="19" break="no"/>re bonum esse in nostra mente: eo modo quo cognitum est 
+            <lb ed="#V" n="20"/>in cognoscente. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g74610-Dd1e569">
+          <head xml:id="kzz7yh-g74610-Hd1e571">Quaestio 3</head>
+          <p xml:id="kzz7yh-g74610-d1e573">
+            Questio. III. 
+            <lb ed="#V" n="21"/>TErtio queritur vtrum ratio summe bon 
+            <lb ed="#V" n="22"/>tatis differat a summa bonitate. 
+            <lb ed="#V" n="23"/>Et videtur quonon: quia secundum Augu. 6 de trinitate. 
+            c<lb ed="#V" n="24" break="no"/>vlti. Omnes rationes viuentes et incommutabiles 
+            <lb ed="#V" n="25"/>in arte omnipotentis et sapientis dei vnum sunt: sed ratio 
+            <lb ed="#V" n="26"/>summe bonitatis est summe viuens et incommutabilis 
+            exi<lb ed="#V" n="27" break="no"/>stens in arte omnipotentis dei: ergo vnum est cum aliis 
+            rationi<lb ed="#V" n="28" break="no"/>bus que sunt in arte illa: sed ratio summe bonitatis 
+            ma<lb ed="#V" n="29" break="no"/>gis videtur conuenire cum summa bonitate quam quod veritatis 
+            rateo<lb ed="#V" n="30" break="no"/>ne: ergo videtur quod non differat a summa bonitate.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e597">
+            ¶ Item 
+            <lb ed="#V" n="31"/>philosophus. 4. metaphy. Dicit quod ratio quam significat nomen est 
+            <lb ed="#V" n="32"/>diffinitio: sed diffinitio idem est cum diffinito: ergo ratio 
+            <lb ed="#V" n="33"/>summe bonitatis non differt ab ea.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e606">
+            ¶ Item ratio summe 
+            <lb ed="#V" n="34"/>bonitatis est increata: quia fuit ab eterno: sed nulla res 
+            in<lb ed="#V" n="35" break="no"/>creata differt a summa bonitate: quia nihil est increatum 
+            ni<lb ed="#V" n="36" break="no"/>si deus: qui a sua bonitate non differt: ergo ratio summe 
+            <lb ed="#V" n="37"/>bonitatis non differt ab ea. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e617">
+            <lb ed="#V" n="38"/>Contra siratio summe bonitatis non differt ab ea 
+            <lb ed="#V" n="39"/>pari ratione nec ratio veritatis ab ea differt 
+            <lb ed="#V" n="40"/>sed summa bonitas idem est cum summa veritate: ergo 
+            ra<lb ed="#V" n="41" break="no"/>tio summe bonitatis et summe veritatis idem essent: et sic 
+            <lb ed="#V" n="42"/>bonitas et veritas dei non differrent ratione: quod falsum est. 
+            <lb ed="#V" n="43"/>Attributa enim dei secundum rationem differunt: vt in primo 
+            li<lb ed="#V" n="44" break="no"/>bro. Di. 22. ostensum est.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e636">
+            ¶ Item quamuis diffinitio et 
+            diffini<lb ed="#V" n="45" break="no"/>tum realiter idem sint: tamen secundum rationem differunt: quia quod 
+            <lb ed="#V" n="46"/>dicit diffinitum modo indistincto: dicit diffinitio in 
+            par<lb ed="#V" n="47" break="no"/>tes secundum rationem distinctum. Unde philosopus I physi. 
+            To<lb ed="#V" n="48" break="no"/>tum quoddam et diffinitum significat vt circulus: 
+            diffinitio<lb ed="#V" n="49" break="no"/>autem ipsius diuidit in singula: sed ratio summe bonitatis 
+            <lb ed="#V" n="50"/>aliquo modo se habet ad summam bonitatem sicut 
+            diffini<lb ed="#V" n="51" break="no"/>tio ad diffinitum: quamuis non proprie sit diffinitio: ergo secundum 
+            ra<lb ed="#V" n="52" break="no"/>tionem differt a summa bonitate. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e656">
+            <lb ed="#V" n="53"/>Ad istam quaestionem dicunt aliqui: quod non est 
+            <lb ed="#V" n="54"/>inconueniens in vna 
+            re<lb ed="#V" n="55" break="no"/>simplicissima inuenire differentiam secundum suum esse intellectum. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e665">
+            <lb ed="#V" n="56"/>¶ Unde quamuis veritas dei et eius bonitas sit vna res 
+            sim<lb ed="#V" n="57" break="no"/>plicissima non est tamen inconueniens quod differant secundum suum 
+            <lb ed="#V" n="58"/>esse intellectum inter se et a suis rationibus: et sue rationes 
+            <lb ed="#V" n="59"/>inter se nec dicunt istam differentiam inter predicta 
+            reperi<lb ed="#V" n="60" break="no"/>ri tantum secundum suum esse intellectum in comparatione ad 
+            intel<lb ed="#V" n="61" break="no"/>lectum creatum: sed etiam in comparatione ad intellectum diuinum. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e681">
+            <lb ed="#V" n="62"/>¶ Sed hic modus respondendi obscurus est et male 
+            in<lb ed="#V" n="63" break="no"/>telligibilis: nec video quomodo possit sustineri nisi verba 
+            mul<lb ed="#V" n="64" break="no"/>tum distorqueantur. Inter ea enim que in deo sunt per modum 
+            <lb ed="#V" n="65"/>rei intrinsece quantumcumque conciderentur: vt a diuino 
+            intel<lb ed="#V" n="66" break="no"/>lectu intellecta non video quomodo sit differentia nisi 
+            eo<lb ed="#V" n="67" break="no"/>rum differentia per comparationem ad aliquod extrinsecum at 
+            <lb ed="#V" n="68"/>tenditur.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e699">
+            ¶ Uidetur ergo mihi dicendum aliter ad quaestionem 
+            <!--00224.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>secuet quod ratio summe bonitatis dupliciter potest accipi. 
+            Uno<lb ed="#V" n="70" break="no"/>modo pro illa quam format diuinus intellectus de sua 
+            bo<lb ed="#V" n="71" break="no"/>nitate: et hoc in deo est: non tantum per modum rei 
+            intelle<lb ed="#V" n="72" break="no"/>cte: sed etiam per modum rei intrinsece: et sic loquendo de 
+            ra<lb ed="#V" n="73" break="no"/>tione summe bonitatis non video quomodo differat a summa 
+            <lb ed="#V" n="74"/>bonitate nisi sorte illa differentia attendatur per 
+            comparatio<lb ed="#V" n="75" break="no"/>ne ad creatum intellectum: qui aliam conceptionem format de 
+            sun<lb ed="#V" n="76" break="no"/>ma bonitate: et aliam de illius intrinseca ratione.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e723">
+            ¶ Alio 
+            <lb ed="#V" n="77"/>modo potest accipi ratio summe bonitatis pro illa que est 
+            <lb ed="#V" n="78"/>concepta ab intellectu creato vel conceptibilis et ab ipso deo 
+            <lb ed="#V" n="79"/>intellecta que in deo non est per modum rei intrinsece: sed 
+            <lb ed="#V" n="80"/>est in diuino intellectu obiectiue tantum: sicut obiectum 
+            <lb ed="#V" n="81"/>secundarium: quia obiectum primarium intellectus 
+            diuini<lb ed="#V" n="82" break="no"/>in eo est per modum rei intrinsece: non tantum obiectiue. Et 
+            <lb ed="#V" n="83"/>sic loquendo de ratione summe bonitatis: dico quod differt a 
+            sun<lb ed="#V" n="84" break="no"/>ma bonitate: quia talis ratio creatura est: et summa bonitas 
+            <lb ed="#V" n="85"/>est ipse creator. 
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e746">
+            <lb ed="#V" n="86"/>Ad primum dicendum: quod illa auctoritas 
+            intelli<lb ed="#V" n="87" break="no"/>genda est de rationibus existentibus 
+            <lb ed="#V" n="88"/>in deo per modum rei intrinsece non obiectiue tantum.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e755">
+            ¶ Ad 
+            se<lb ed="#V" n="89" break="no"/>cundum dicendum: quod ratio summe bonitatis concepta vel 
+            con<lb ed="#V" n="90" break="no"/>ceptibilis a creato intellectu non se habet ad summam 
+            bo<lb ed="#V" n="91" break="no"/>nitatem vt diffinitio ad diffinitum: quia diffinitio totam 
+            essen<lb ed="#V" n="92" break="no"/>tiam diffiniti comprehendit et terminat. Unde quandoque a 
+            phi<lb ed="#V" n="93" break="no"/>losopho vocatur terminus: sed nulla ratio concepta vel 
+            <lb ed="#V" n="94"/>conceptibilis a creato intellectu summam bonitatem 
+            comprehen<lb ed="#V" n="95" break="no"/>dit: quia talis conceptio finita est: deus autem infinitus: 
+            quapro<lb ed="#V" n="96" break="no"/>pter bene dicit Auicena 8 metaphy. c. 2. Quod primus non 
+            ha<lb ed="#V" n="97" break="no"/>bet diffinitionem.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e777">
+            ¶ Ad tertium dicendum: quod rationem 
+            <lb ed="#V" n="98"/>summe bonitatis fuisse ab eterno dupliciter potest 
+            intelligi<lb ed="#V" n="99" break="no"/>vno modo ita quod fuerit ab eterno in deo per modum rei in 
+            <lb ed="#V" n="100"/>trinsece. Et sic verum est quod illa non differt a summa 
+            boni<lb ed="#V" n="101" break="no"/>tate. Alio modo ita quod fuerit ab eterno in diuino 
+            intelle<lb ed="#V" n="102" break="no"/>ctu non per modum rei intrinsece: sed obiectiue tantum: sicut 
+            co<lb ed="#V" n="103" break="no"/>lor est in visu: et lapis qui intelligitur in intellectu: et sic non 
+            <lb ed="#V" n="104"/>oportet quod sit res increata. Tali enim modo fuit ab 
+            eter<lb ed="#V" n="105" break="no"/>no quelibet creatura in diuino intellectu.
+          </p>
+          <p xml:id="kzz7yh-g74610-d1e797">
+            ¶ 
+            Argumen<lb ed="#V" n="106" break="no"/>ta ad partem aliam procedunt de ratione summe bouitatis. 
+            Secun<lb ed="#V" n="107" break="no"/>do modo dicta: quamuis secundum argumentum concedendum 
+            <lb ed="#V" n="108"/>esset: et de ratione summe bonitatis primo modo dicta secundum 
+            <lb ed="#V" n="109"/>illam opinionem que in principio corporis quaestionis fuit recitata 
+            <lb ed="#V" n="110"/>secundum illam enim non est inconueniens dicere quod illa ratio 
+            <lb ed="#V" n="111"/>et summa bonitas inquantum intellecte sunt differant 
+            ra<lb ed="#V" n="112" break="no"/>tione. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g74610-Dd1e816">
+          <head xml:id="kzz7yh-g74610-Hd1e818">Quaestio 4</head>
+          <p xml:id="kzz7yh-g74610-d1e820">
+            Questio. IIII. 
+            <lb ed="#V" n="113"/>QUarto queritur vtrum ex deliberatione 
+            <lb ed="#V" n="114"/>diligere aliquid: non propter 
+            sum<lb ed="#V" n="115" break="no"/>mam bonitatem semper sit peccatum mortale: sed 
+            <lb ed="#V" n="116"/>quia veritas huius quaestionis clare videri potest per 
+            <lb ed="#V" n="117"/>illam quaestionem que determinata est superius lib. 2. Di. 47. que 
+            <lb ed="#V" n="118"/>est vtrum propter omne peccatum ex deliberatione 
+            com<lb ed="#V" n="119" break="no"/>missum obligetur peccans ad penam eternam. Ideo ad 
+            <lb ed="#V" n="120"/>presens supersedeo de ista questione.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

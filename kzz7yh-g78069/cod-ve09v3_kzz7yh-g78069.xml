@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="110-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g78069"><!-- l3d29cl -->
-            <head xml:id="kzz7yh-g78069-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-g78069-d1e103">
-               <lb ed="#V" n="73"/>CIrca litteram Multorum 
-      cha<lb ed="#V" n="74" break="no"/>ritas inordinata est 
-      <lb ed="#V" n="75"/>hic non accipitur charitas pro charitate que 
-      <lb ed="#V" n="76"/>virtus est: sed pro dilectione quacunque qua 
-      ali<lb ed="#V" n="77" break="no"/>quis habet rem aliquam multum charam. A charitate enim 
-      <lb ed="#V" n="78"/>que virtus est nunquam elicitur inordinatus dilectionis actus. 
-   </p>
-            <p xml:id="kzz7yh-g78069-d1e119">
-               <lb ed="#V" n="79"/>¶ Primo deus diligendus est: secundo parentes hic 
-      loqui<lb ed="#V" n="80" break="no"/>tur de dilectione aliorum a diligente. Diligens enim plus debet 
-      <lb ed="#V" n="81"/>se ipsum diligere quam parentes. Domestici si boni sunt: 
-      ma<lb ed="#V" n="82" break="no"/>lis filiis preponendi sunt. hoc exponunt aliqui non 
-      quan<lb ed="#V" n="83" break="no"/>tum ad affectum: sed quantum ad effectum: non qualencumque: 
-      <lb ed="#V" n="84"/>sed illum qui est collatio beneficiorum ecclsiasticorum: vel 
-      eleua<lb ed="#V" n="85" break="no"/>tio ad regimen aliorum: siue temporale: siue ecclarsiasticum.
-   </p>
-            <p xml:id="kzz7yh-g78069-d1e137">
-      ¶ Potest 
-      <lb ed="#V" n="86"/>est exponi quantum ad affectum: quia bonis domesticis est optam 
-      <lb ed="#V" n="87"/>da vita eterna: quae non est malis filiis optanda pro statu in quo 
-      <lb ed="#V" n="88"/>sunt quamdiu mali sunt. Potest est tanta super abundantia 
-      ma<lb ed="#V" n="89" break="no"/>litie esse in filiis: et tanta bonitatis abundantia in domesticis 
-      <lb ed="#V" n="90"/>quod simpliciter ex maiori affectu profectus domesticorum debet 
-      <lb ed="#V" n="91"/>diligi: quam profectus filiorum. Cupio dissolui inon affectu naturali 
-      <lb ed="#V" n="92"/>quia naturali appetitum anima refugit separationem a corpore. Illud 
-      <lb ed="#V" n="93"/>ergo verbum intelligendum est de deliberatiuo voluntatis motum. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="110-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g78069"><!-- l3d29cl -->
+        <head xml:id="kzz7yh-g78069-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-g78069-d1e103">
+          <lb ed="#V" n="73"/>CIrca litteram Multorum 
+          cha<lb ed="#V" n="74" break="no"/>ritas inordinata est 
+          <lb ed="#V" n="75"/>hic non accipitur charitas pro charitate que 
+          <lb ed="#V" n="76"/>virtus est: sed pro dilectione quacunque qua 
+          ali<lb ed="#V" n="77" break="no"/>quis habet rem aliquam multum charam. A charitate enim 
+          <lb ed="#V" n="78"/>que virtus est nunquam elicitur inordinatus dilectionis actus. 
+        </p>
+        <p xml:id="kzz7yh-g78069-d1e119">
+          <lb ed="#V" n="79"/>¶ Primo deus diligendus est: secundo parentes hic 
+          loqui<lb ed="#V" n="80" break="no"/>tur de dilectione aliorum a diligente. Diligens enim plus debet 
+          <lb ed="#V" n="81"/>se ipsum diligere quam parentes. Domestici si boni sunt: 
+          ma<lb ed="#V" n="82" break="no"/>lis filiis preponendi sunt. hoc exponunt aliqui non 
+          quan<lb ed="#V" n="83" break="no"/>tum ad affectum: sed quantum ad effectum: non qualencumque: 
+          <lb ed="#V" n="84"/>sed illum qui est collatio beneficiorum ecclsiasticorum: vel 
+          eleua<lb ed="#V" n="85" break="no"/>tio ad regimen aliorum: siue temporale: siue ecclarsiasticum.
+        </p>
+        <p xml:id="kzz7yh-g78069-d1e137">
+          ¶ Potest 
+          <lb ed="#V" n="86"/>est exponi quantum ad affectum: quia bonis domesticis est optam 
+          <lb ed="#V" n="87"/>da vita eterna: quae non est malis filiis optanda pro statu in quo 
+          <lb ed="#V" n="88"/>sunt quamdiu mali sunt. Potest est tanta super abundantia 
+          ma<lb ed="#V" n="89" break="no"/>litie esse in filiis: et tanta bonitatis abundantia in domesticis 
+          <lb ed="#V" n="90"/>quod simpliciter ex maiori affectu profectus domesticorum debet 
+          <lb ed="#V" n="91"/>diligi: quam profectus filiorum. Cupio dissolui inon affectu naturali 
+          <lb ed="#V" n="92"/>quia naturali appetitum anima refugit separationem a corpore. Illud 
+          <lb ed="#V" n="93"/>ergo verbum intelligendum est de deliberatiuo voluntatis motum. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

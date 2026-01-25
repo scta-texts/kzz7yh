@@ -1,92 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="153-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g107898"><!-- l3d39cl -->
-            <head xml:id="kzz7yh-g107898-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-g107898-d1e103">
-               <lb ed="#V" n="118"/>Circa litteram. Et qu verum est putas quod 
-      fal<lb ed="#V" n="119" break="no"/>sum est iurat hoc est intelligendum de 
-      <lb ed="#V" n="120"/>iuramento assertorio quod est respectu praeteriti vel 
-      <lb ed="#V" n="121"/>praesentis. Instantiam autem habet aliquando in iuramento 
-      promis<lb ed="#V" n="122" break="no"/>sorio: quia si aliquis iurat aliquid se facturum: e intendens hoc facere 
-      <lb ed="#V" n="123"/>et impeditu ex legitima cane ne impleat quod promisit non periurauit 
-      <lb ed="#V" n="124"/>quamuis iurauerit salsum qua verum putabat. Unde non periurauit 
-      <lb ed="#V" n="125"/>apostolus non veniendo ad Corinthios ad quos se 
-      ventu<lb ed="#V" n="126" break="no"/>rum iurauerat. In talibus enim iuramentis subintesliguntur 
-      <lb ed="#V" n="127"/>multe conditiones scilicet si deo placuerit: vel pape: vel si res in 
-      <lb ed="#V" n="128"/>eodem statu permanserit: vel si possibilitas affuerit: vt 
-      mul<lb ed="#V" n="129" break="no"/>te alie. Ex quo propositum mutat vel terminum transgreditur 
-      <lb ed="#V" n="130"/>iuratio talis sit periurium reatum quod intelligendum est nisi ex 
-      <lb ed="#V" n="131"/>ausa legitima propositum mutauerit vel terminum transgre 
-      <lb ed="#V" n="132"/>sus fuerit que causa de iure subintelligi debuit: et ibi 
-      ac<lb ed="#V" n="133" break="no"/>cipitur periurium pro reatu periurii. Non est appetenda 
-      iura<lb ed="#V" n="134" break="no"/>tio sicut bona. intelligendum est de per se bona: et de 
-      iura<lb ed="#V" n="135" break="no"/>tione que potest bene et male fieri non de iuratione cum tribus 
-      <lb ed="#V" n="136"/>comitibus suis Est etiam quoddam genus iuramenti 
-      gra<lb ed="#V" n="137" break="no"/>uissimum quod sit per executionem quod secundum aliquos est intelli¬ 
-      <!--00316.xml-->
-      <pb ed="#V" n="153-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>gendum in reputatione iurantis. Dicunt enim quod grauius est 
-      <lb ed="#V" n="2"/>iurare per deum: potest tamen dici verbum esse verum simpliciter: quia sic 
-      iu<lb ed="#V" n="3" break="no"/>rat per deum iurat: quia salutem suam vel filiorum deo obligat nisi 
-      ve<lb ed="#V" n="4" break="no"/>rum sit vel faciat illud quod iurat. Minus malum est per 
-      de<lb ed="#V" n="5" break="no"/>os falsos iurare veraciter hoc intelligendum est 
-      comperan<lb ed="#V" n="6" break="no"/>do actum iurandi exteriorem secundum se non secundum 
-      circunstan<lb ed="#V" n="7" break="no"/>tiam venerationis interioris. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="153-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g107898"><!-- l3d39cl -->
+        <head xml:id="kzz7yh-g107898-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-g107898-d1e103">
+          <lb ed="#V" n="118"/>Circa litteram. Et qu verum est putas quod 
+          fal<lb ed="#V" n="119" break="no"/>sum est iurat hoc est intelligendum de 
+          <lb ed="#V" n="120"/>iuramento assertorio quod est respectu praeteriti vel 
+          <lb ed="#V" n="121"/>praesentis. Instantiam autem habet aliquando in iuramento 
+          promis<lb ed="#V" n="122" break="no"/>sorio: quia si aliquis iurat aliquid se facturum: e intendens hoc facere 
+          <lb ed="#V" n="123"/>et impeditu ex legitima cane ne impleat quod promisit non periurauit 
+          <lb ed="#V" n="124"/>quamuis iurauerit salsum qua verum putabat. Unde non periurauit 
+          <lb ed="#V" n="125"/>apostolus non veniendo ad Corinthios ad quos se 
+          ventu<lb ed="#V" n="126" break="no"/>rum iurauerat. In talibus enim iuramentis subintesliguntur 
+          <lb ed="#V" n="127"/>multe conditiones scilicet si deo placuerit: vel pape: vel si res in 
+          <lb ed="#V" n="128"/>eodem statu permanserit: vel si possibilitas affuerit: vt 
+          mul<lb ed="#V" n="129" break="no"/>te alie. Ex quo propositum mutat vel terminum transgreditur 
+          <lb ed="#V" n="130"/>iuratio talis sit periurium reatum quod intelligendum est nisi ex 
+          <lb ed="#V" n="131"/>ausa legitima propositum mutauerit vel terminum transgre 
+          <lb ed="#V" n="132"/>sus fuerit que causa de iure subintelligi debuit: et ibi 
+          ac<lb ed="#V" n="133" break="no"/>cipitur periurium pro reatu periurii. Non est appetenda 
+          iura<lb ed="#V" n="134" break="no"/>tio sicut bona. intelligendum est de per se bona: et de 
+          iura<lb ed="#V" n="135" break="no"/>tione que potest bene et male fieri non de iuratione cum tribus 
+          <lb ed="#V" n="136"/>comitibus suis Est etiam quoddam genus iuramenti 
+          gra<lb ed="#V" n="137" break="no"/>uissimum quod sit per executionem quod secundum aliquos est intelli¬ 
+          <!--00316.xml-->
+          <pb ed="#V" n="153-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>gendum in reputatione iurantis. Dicunt enim quod grauius est 
+          <lb ed="#V" n="2"/>iurare per deum: potest tamen dici verbum esse verum simpliciter: quia sic 
+          iu<lb ed="#V" n="3" break="no"/>rat per deum iurat: quia salutem suam vel filiorum deo obligat nisi 
+          ve<lb ed="#V" n="4" break="no"/>rum sit vel faciat illud quod iurat. Minus malum est per 
+          de<lb ed="#V" n="5" break="no"/>os falsos iurare veraciter hoc intelligendum est 
+          comperan<lb ed="#V" n="6" break="no"/>do actum iurandi exteriorem secundum se non secundum 
+          circunstan<lb ed="#V" n="7" break="no"/>tiam venerationis interioris. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

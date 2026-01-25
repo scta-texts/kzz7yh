@@ -1,424 +1,424 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="116-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="116-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g82178"><!-- l3d32a1 -->
+        <head xml:id="kzz7yh-g82178-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-g82178-d1e103">
+          ¶ Citcua dbinus oxunt quatuor.
+        </p>
+        <p xml:id="kzz7yh-g82178-d1e105">
+          ¶ uimo 
+          <lb ed="#V" n="22"/>vtrum deus diligat omnem creatura.
+        </p>
+        <p xml:id="kzz7yh-g82178-d1e110">
+          ¶ Secundo vtrum ab 
+          eter<lb ed="#V" n="23" break="no"/>no dilexerit creaturam.
+        </p>
+        <p xml:id="kzz7yh-g82178-d1e115">
+          ¶ Tertio vtrum prius fuerit secundum 
+          ratio<lb ed="#V" n="24" break="no"/>nem intelligendi creaturam esse bonam quam ipsam a deo diligi. 
+        </p>
+        <p xml:id="kzz7yh-g82178-d1e121">
+          <lb ed="#V" n="25"/>¶ Quarto vtrum deus eadem dilectione diligat se: et 
+          crea<lb ed="#V" n="26" break="no"/>turam.
+        </p>
+        <div xml:id="kzz7yh-g82178-Dd1e128">
+          <head xml:id="kzz7yh-g82178-Hd1e130">Quaestio 1</head>
+          <p xml:id="kzz7yh-g82178-d1e132">
+            Questio. I. 
+            <lb ed="#V" n="27"/>PRimo ostendo quod deus non diligit omnem 
+            <lb ed="#V" n="28"/>creaturam: quia deus non diligit illud 
+            <lb ed="#V" n="29"/>quod odit: sed deus odit reprobos. Dicitur enim 
+            Ma<lb ed="#V" n="30" break="no"/>la. I. Esau odio habui: ergo non diligit omnem 
+            <lb ed="#V" n="31"/>creaturam.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e145">
+            ¶ Item omnis dilectio autem est amicitie: aut 
+            concupi<lb ed="#V" n="32" break="no"/>scentie: sed deus nullam creaturam diligit amore concupiscentie. 
+            <lb ed="#V" n="33"/>Nullum enim bonum creatum optat: nec est creaturas inainatas 
+            di<lb ed="#V" n="34" break="no"/>ligit amore amicitie. Sicut enim dicit philosophus. 8. ethi. cap. 2. 
+            In<lb ed="#V" n="35" break="no"/>animatorum amatione non dter amicitia: ergo deus non diligit 
+            omnem<lb ed="#V" n="36" break="no"/>creaturam.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e158">
+            ¶ Item deus non diligit creaturam affectu: quia 
+            as<lb ed="#V" n="37" break="no"/>fectiones non cadunt in deo: nec in effectu: quia dilectio est in 
+            <lb ed="#V" n="38"/>diligente. Effectus autem dei non est in deo: sed in creatura: 
+            ergo<lb ed="#V" n="39" break="no"/>nullo modo diligit creaturam. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e167">
+            <lb ed="#V" n="40"/>Contra Sapienta 1 dicit sapiens ad deum. Diligis omnia 
+            <lb ed="#V" n="41"/>que sunt.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e175">
+            ¶ Item omnis sapiens artifex 
+            dili<lb ed="#V" n="42" break="no"/>git suum effectum. Sed deus est artifex sapiens et bonus 
+            cu<lb ed="#V" n="43" break="no"/>ius quilibet creatura est effectus: ergo diligit omnem creaturam. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e182">
+            <lb ed="#V" n="44"/>Respondeo omnis creatura habet aliquam 
+            bonita<lb ed="#V" n="45" break="no"/>tem: sed omni creature deus vult 
+            <lb ed="#V" n="46"/>illam bonitatem: quam habet quamdiu eam habet: cum ergo diligere 
+            <lb ed="#V" n="47"/>rem sit velle illi bonum: sequitur quod deus diligat omnem 
+            creatu<lb ed="#V" n="48" break="no"/>ram. Illa tamen speciali dilectione qua vult electis vitam eternam 
+            <lb ed="#V" n="49"/>non diligit omnem creaturam: sic intelligendo quod praedictum ponum 
+            <lb ed="#V" n="50"/>non vult cuilibet creature. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e200">
+            <lb ed="#V" n="51"/>Ad primum in oppsitum dicendum: quod eandem 
+            re<lb ed="#V" n="52" break="no"/>deus secundum aliquid diligit: et secndum aliud 
+            <lb ed="#V" n="53"/>odit: vnde in reprobis diligit naturam et odit culpam.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e209">
+            ¶ Ad 
+            <lb ed="#V" n="54"/>secundum dicunt quidam quod large accipiendo amorem 
+            concupiscen<lb ed="#V" n="55" break="no"/>tie: quae est non tantum respectu rei quam amans vult sibi: sed et 
+            re<lb ed="#V" n="56" break="no"/>spectu rei quam vult amico. Potest dici quod deus diligit 
+            ianima<lb ed="#V" n="57" break="no"/>tas creaturas amore concupiscentie non quia velit eas sibi: sed 
+            <lb ed="#V" n="58"/>quia vult eas habere illam bonitatem: quam habent propter electos.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e222">
+            ¶ Alii 
+            <lb ed="#V" n="59"/>dicunt quod pro tanto potest dici: quod diligit eas amore concupisce 
+            <lb ed="#V" n="60"/>tie inquatum vult eas habere bonitatem: quam habent ad sue 
+            po<lb ed="#V" n="61" break="no"/>tentie: et sapientie: et bonitatis manifestationem. Mihi autem 
+            <lb ed="#V" n="62"/>videtur dicendum: quod proprie loquendo ille amor non est 
+            concupi<lb ed="#V" n="63" break="no"/>scentie nec amicitie.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e235">
+            ¶ Ad tertium dicendum: quod secundum quod 
+            affe<lb ed="#V" n="64" break="no"/>ctus nomen est passionis: deus nihil diligit ex affectu: sed secundum 
+            <lb ed="#V" n="65"/>quod est nomen efficacis actus voluntatis: sic deus disigit omnem 
+            crea<lb ed="#V" n="66" break="no"/>turam ex affectu: quia cuilibet crearure vult bonum: quod illa habet. 
+            <lb ed="#V" n="67"/>Diligit est quamlibet creaturam effectu: quia i qualibet creatura est 
+            <lb ed="#V" n="68"/>aliqus effectus difectonis diuine: quamuis autem dilectio primo di¬ 
+            <!--00244.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>cta sit in diligente: tamen secundo modo dicta est in dilecto: nec ita 
+            proprie<lb ed="#V" n="70" break="no"/>potest dilectio dici: sicut effectus dilectionis. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g82178-Dd1e258">
+          <head xml:id="kzz7yh-g82178-Hd1e260">Quaestio 2</head>
+          <p xml:id="kzz7yh-g82178-d1e262">
+            Questio. II. 
+            <lb ed="#V" n="71"/>SEcundo quaeritur vtrum ab eterno 
+            dilexe<lb ed="#V" n="72" break="no"/>rit creaturam. Et videtur quod non. 
+            Di<lb ed="#V" n="73" break="no"/>lectio enim non est nisi boni: sed creature non fuerunt 
+            <lb ed="#V" n="74"/>ab eterno bone: quia ab eterno non fuerunt: ergo 
+            <lb ed="#V" n="75"/>eas non dilexit ab eterno.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e275">
+            ¶ Item secundum sententiam Diony. 10. c. 
+            <lb ed="#V" n="76"/>de diuinis nominibus. Omnis amor est vis vnitiua amantis et 
+            ama<lb ed="#V" n="77" break="no"/>ti: sed non potest esse vnio cum re quae non est: ergo cum creature ab 
+            <lb ed="#V" n="78"/>eterno non fuerunt: non potuerunt a deo diligi ab eterno. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e284">
+            <lb ed="#V" n="79"/>¶ Item amans vult amatum esse: ergo si deus dilexerit 
+            crea<lb ed="#V" n="80" break="no"/>turas: ab eterno voluit esse eas ab eterno quod falsum est: quia 
+            <lb ed="#V" n="81"/>sicut dicit pslamum. Omnia quaecumque voluit dominus fecit. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e293">
+            <lb ed="#V" n="82"/>Contra ad Ephe. i. Elegit non ante mundi constitutio 
+            <lb ed="#V" n="83"/>nem: sed electio includit dilectione electi: 
+            er<lb ed="#V" n="84" break="no"/>go ab eterno dilexit nos.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e303">
+            ¶ Item <ref xml:id="kzz7yh-g82178-Rffaacc" corresp="#kzz7yh-g82178-Qcavvnn">Augu. 5 libro de tri.</ref> versus 
+            <lb ed="#V" n="85"/>finem: et recitat <ref xml:id="kzz7yh-g82178-Rccnn12" corresp="#kzz7yh-g82178-Qcavvnn" target="http://scta.info/resource/pl-l3d32c3-d1e124@3-17">magister in littera</ref>. <quote xml:id="kzz7yh-g82178-Qcavvnn" source="http://scta.info/resource/adt-l5-d1e769@283-299">Absit vt deus temporaliter aliquem 
+              <lb ed="#V" n="86"/>diligat: quasi noua dilectione quae in ipso ante non erat</quote>: ergo 
+            <lb ed="#V" n="87"/>omne illud quod diligit ab eterno dilexit. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e312">
+            <lb ed="#V" n="88"/>Respondeo quod deus ab aeterno dilexit creaturam. 
+            <lb ed="#V" n="89"/>Ille enim rem diligit qui vult ei bonum: 
+            <lb ed="#V" n="90"/>deus autem ab eterno voluit creature bonum secundum rationem et et 
+            <lb ed="#V" n="91"/>bonum reale: sed voluit quod creatura haberet ab eterno 
+            bo<lb ed="#V" n="92" break="no"/>num secundum rationem sicut habuit: ab eterno enim habuit esse 
+            in<lb ed="#V" n="93" break="no"/>tellectum quod est esse secundum rationem. Ab eterno enim quelibet 
+            crea<lb ed="#V" n="94" break="no"/>tura fuit ab intellectu diuino intellecta: ens autem et bonum: 
+            si<lb ed="#V" n="95" break="no"/>ue in esse intellecto siue in esse reali conuertuntur: ergo ab 
+            eter<lb ed="#V" n="96" break="no"/>no bene fuerunt in esse intellecto: quod est esse secundum rationem: non 
+            <lb ed="#V" n="97"/>voluit autem quod haberent bonum reale ab eterno quamuis ab 
+            eter<lb ed="#V" n="98" break="no"/>no voluerit quod haberent bonum in esse reali in tempore non tantum autem 
+            <lb ed="#V" n="99"/>diligit ille rem qui statim eam vult adipisci illud bonum quod 
+            <lb ed="#V" n="100"/>ei vult: sed est qui vult illud bonum quod ei vult adipisci 
+            con<lb ed="#V" n="101" break="no"/>gruo tempore in futuro. Et sic deus illud bonum 
+            rea<lb ed="#V" n="102" break="no"/>le: quod ab eterno voluit creaturis voluit eas 
+            adipisci<lb ed="#V" n="103" break="no"/>in tempore. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e349">
+            <lb ed="#V" n="104"/>Ad primum in oppositum cum dicitur quod 
+            dile<lb ed="#V" n="105" break="no"/>ctio non est nisi boni etc. Dico quod 
+            <lb ed="#V" n="106"/>verum est extendendo bonum non solum ad bonum 
+            in<lb ed="#V" n="107" break="no"/>actu: sed ad bonum in potentia et in cognitione 
+            diligen<lb ed="#V" n="108" break="no"/>tis quanuis autem primo modo creature non fuerint 
+            bo<lb ed="#V" n="109" break="no"/>ne ab eterno. Fuerunt tamen ab eterno bone: tertio 
+            mo<lb ed="#V" n="110" break="no"/>do et etiam secundo modo: quia ab eterno fuerunt in 
+            po<lb ed="#V" n="111" break="no"/>tentia dei eas diligentis.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e369">
+            ¶ Ad secundum cum dicitur: 
+            <lb ed="#V" n="112"/>quod non potest esse vnio cum re que non est etc. Dico quod 
+            <lb ed="#V" n="113"/>verum est loquendo de re que non est: nec in esse reali: a 
+            <lb ed="#V" n="114"/>nec in esse intellecto: cum re autem que est in esse intellecto 
+            <lb ed="#V" n="115"/>potest esse vnio que est per affectum que est vnio quam 
+            <lb ed="#V" n="116"/>primo respicit amor: creature autem fuerunt ab eterno 
+            <lb ed="#V" n="117"/>in esse intellecto: quia ab eterno fuerunt a diuino 
+            intelle<lb ed="#V" n="118" break="no"/>ctu intellecte.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e387">
+            ¶ Ad tertium cum dicitur: quod amans vult 
+            <lb ed="#V" n="119"/>amatum esse etc. Dico quod verum est: sed non semper 
+            sta<lb ed="#V" n="120" break="no"/>tim: nec quocunque modo.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e394">
+            ¶ Argumenta ad partem 
+            ali<lb ed="#V" n="121" break="no"/>am pocedunt de dilectione quantum ad actum 
+            volen<lb ed="#V" n="122" break="no"/>di bonum: non de illa que est secundum effectum: quia planum 
+            <lb ed="#V" n="123"/>est quod nullum effectum ab eterno contulit creature. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g82178-Dd1e404">
+          <head xml:id="kzz7yh-g82178-Hd1e406">Quaestio 3</head>
+          <p xml:id="kzz7yh-g82178-d1e408">
+            <lb ed="#V" n="124"/>Questio III. 
+            <lb ed="#V" n="125"/>TErtio queritur vtrum prius fuerit 
+            crea<lb ed="#V" n="126" break="no"/>tura bona quam a deo dilecta. Et 
+            vi<lb ed="#V" n="127" break="no"/>detur quod sic. Prius fuit secundum rationem 
+            in<lb ed="#V" n="128" break="no"/>telligendi creatura cognoscibilis: quam a deo 
+            co<lb ed="#V" n="129" break="no"/>
+            <!-- line coord error -->
+            <lb ed="#V" n="130"/>gnita et factibilis quam facta: ergo et diligibilis quam diuse 
+            <lb ed="#V" n="131"/>cta: sed nunquam fuit diligibilis: nisi inquantum bona: 
+            <lb ed="#V" n="132"/>ergo prius secundum rationem intelligendi suit bona: 
+            <lb ed="#V" n="133"/>quam a deo dilecta.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e434">
+            ¶ Item obiectum prius est 
+            secun<lb ed="#V" n="134" break="no"/>dum rationem intelligendi quam actus: sed bonum 
+            crea<lb ed="#V" n="135" break="no"/>tum est diuine dilectionis obiectum: quanuis non 
+            pri<lb ed="#V" n="136" break="no"/>mum: ergo prius secundum rationem intelligendi suit 
+            <lb ed="#V" n="137"/>bonum creatum: quam diuina dilectio respectu boni creati. 
+            <!--00245.xml-->
+            <pb ed="#V" n="117-r"/>
             <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g82178"><!-- l3d32a1 -->
-            <head xml:id="kzz7yh-g82178-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-g82178-d1e103">
-      ¶ Citcua dbinus oxunt quatuor.
-   </p>
-            <p xml:id="kzz7yh-g82178-d1e105">
-      ¶ uimo 
-      <lb ed="#V" n="22"/>vtrum deus diligat omnem creatura.
-   </p>
-            <p xml:id="kzz7yh-g82178-d1e110">
-      ¶ Secundo vtrum ab 
-      eter<lb ed="#V" n="23" break="no"/>no dilexerit creaturam.
-   </p>
-            <p xml:id="kzz7yh-g82178-d1e115">
-      ¶ Tertio vtrum prius fuerit secundum 
-      ratio<lb ed="#V" n="24" break="no"/>nem intelligendi creaturam esse bonam quam ipsam a deo diligi. 
-   </p>
-            <p xml:id="kzz7yh-g82178-d1e121">
-               <lb ed="#V" n="25"/>¶ Quarto vtrum deus eadem dilectione diligat se: et 
-      crea<lb ed="#V" n="26" break="no"/>turam.
-   </p>
-            <div xml:id="kzz7yh-g82178-Dd1e128">
-               <head xml:id="kzz7yh-g82178-Hd1e130">Quaestio 1</head>
-               <p xml:id="kzz7yh-g82178-d1e132">
-     Questio. I. 
-      <lb ed="#V" n="27"/>PRimo ostendo quod deus non diligit omnem 
-      <lb ed="#V" n="28"/>creaturam: quia deus non diligit illud 
-      <lb ed="#V" n="29"/>quod odit: sed deus odit reprobos. Dicitur enim 
-      Ma<lb ed="#V" n="30" break="no"/>la. I. Esau odio habui: ergo non diligit omnem 
-      <lb ed="#V" n="31"/>creaturam.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e145">
-      ¶ Item omnis dilectio autem est amicitie: aut 
-      concupi<lb ed="#V" n="32" break="no"/>scentie: sed deus nullam creaturam diligit amore concupiscentie. 
-      <lb ed="#V" n="33"/>Nullum enim bonum creatum optat: nec est creaturas inainatas 
-      di<lb ed="#V" n="34" break="no"/>ligit amore amicitie. Sicut enim dicit philosophus. 8. ethi. cap. 2. 
-      In<lb ed="#V" n="35" break="no"/>animatorum amatione non dter amicitia: ergo deus non diligit 
-      omnem<lb ed="#V" n="36" break="no"/>creaturam.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e158">
-      ¶ Item deus non diligit creaturam affectu: quia 
-      as<lb ed="#V" n="37" break="no"/>fectiones non cadunt in deo: nec in effectu: quia dilectio est in 
-      <lb ed="#V" n="38"/>diligente. Effectus autem dei non est in deo: sed in creatura: 
-      ergo<lb ed="#V" n="39" break="no"/>nullo modo diligit creaturam. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e167">
-                  <lb ed="#V" n="40"/>Contra Sapienta 1 dicit sapiens ad deum. Diligis omnia 
-      <lb ed="#V" n="41"/>que sunt.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e175">
-      ¶ Item omnis sapiens artifex 
-      dili<lb ed="#V" n="42" break="no"/>git suum effectum. Sed deus est artifex sapiens et bonus 
-      cu<lb ed="#V" n="43" break="no"/>ius quilibet creatura est effectus: ergo diligit omnem creaturam. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e182">
-                  <lb ed="#V" n="44"/>Respondeo omnis creatura habet aliquam 
-      bonita<lb ed="#V" n="45" break="no"/>tem: sed omni creature deus vult 
-      <lb ed="#V" n="46"/>illam bonitatem: quam habet quamdiu eam habet: cum ergo diligere 
-      <lb ed="#V" n="47"/>rem sit velle illi bonum: sequitur quod deus diligat omnem 
-      creatu<lb ed="#V" n="48" break="no"/>ram. Illa tamen speciali dilectione qua vult electis vitam eternam 
-      <lb ed="#V" n="49"/>non diligit omnem creaturam: sic intelligendo quod praedictum ponum 
-      <lb ed="#V" n="50"/>non vult cuilibet creature. 
-    </p>
-               <p xml:id="kzz7yh-g82178-d1e200">
-                  <lb ed="#V" n="51"/>Ad primum in oppsitum dicendum: quod eandem 
-      re<lb ed="#V" n="52" break="no"/>deus secundum aliquid diligit: et secndum aliud 
-      <lb ed="#V" n="53"/>odit: vnde in reprobis diligit naturam et odit culpam.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e209">
-      ¶ Ad 
-      <lb ed="#V" n="54"/>secundum dicunt quidam quod large accipiendo amorem 
-      concupiscen<lb ed="#V" n="55" break="no"/>tie: quae est non tantum respectu rei quam amans vult sibi: sed et 
-      re<lb ed="#V" n="56" break="no"/>spectu rei quam vult amico. Potest dici quod deus diligit 
-      ianima<lb ed="#V" n="57" break="no"/>tas creaturas amore concupiscentie non quia velit eas sibi: sed 
-      <lb ed="#V" n="58"/>quia vult eas habere illam bonitatem: quam habent propter electos.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e222">
-      ¶ Alii 
-      <lb ed="#V" n="59"/>dicunt quod pro tanto potest dici: quod diligit eas amore concupisce 
-      <lb ed="#V" n="60"/>tie inquatum vult eas habere bonitatem: quam habent ad sue 
-      po<lb ed="#V" n="61" break="no"/>tentie: et sapientie: et bonitatis manifestationem. Mihi autem 
-      <lb ed="#V" n="62"/>videtur dicendum: quod proprie loquendo ille amor non est 
-      concupi<lb ed="#V" n="63" break="no"/>scentie nec amicitie.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e235">
-      ¶ Ad tertium dicendum: quod secundum quod 
-      affe<lb ed="#V" n="64" break="no"/>ctus nomen est passionis: deus nihil diligit ex affectu: sed secundum 
-      <lb ed="#V" n="65"/>quod est nomen efficacis actus voluntatis: sic deus disigit omnem 
-      crea<lb ed="#V" n="66" break="no"/>turam ex affectu: quia cuilibet crearure vult bonum: quod illa habet. 
-      <lb ed="#V" n="67"/>Diligit est quamlibet creaturam effectu: quia i qualibet creatura est 
-      <lb ed="#V" n="68"/>aliqus effectus difectonis diuine: quamuis autem dilectio primo di¬ 
-      <!--00244.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>cta sit in diligente: tamen secundo modo dicta est in dilecto: nec ita 
-      proprie<lb ed="#V" n="70" break="no"/>potest dilectio dici: sicut effectus dilectionis. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g82178-Dd1e258">
-               <head xml:id="kzz7yh-g82178-Hd1e260">Quaestio 2</head>
-               <p xml:id="kzz7yh-g82178-d1e262">
-      Questio. II. 
-      <lb ed="#V" n="71"/>SEcundo quaeritur vtrum ab eterno 
-      dilexe<lb ed="#V" n="72" break="no"/>rit creaturam. Et videtur quod non. 
-      Di<lb ed="#V" n="73" break="no"/>lectio enim non est nisi boni: sed creature non fuerunt 
-      <lb ed="#V" n="74"/>ab eterno bone: quia ab eterno non fuerunt: ergo 
-      <lb ed="#V" n="75"/>eas non dilexit ab eterno.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e275">
-      ¶ Item secundum sententiam Diony. 10. c. 
-      <lb ed="#V" n="76"/>de diuinis nominibus. Omnis amor est vis vnitiua amantis et 
-      ama<lb ed="#V" n="77" break="no"/>ti: sed non potest esse vnio cum re quae non est: ergo cum creature ab 
-      <lb ed="#V" n="78"/>eterno non fuerunt: non potuerunt a deo diligi ab eterno. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e284">
-                  <lb ed="#V" n="79"/>¶ Item amans vult amatum esse: ergo si deus dilexerit 
-      crea<lb ed="#V" n="80" break="no"/>turas: ab eterno voluit esse eas ab eterno quod falsum est: quia 
-      <lb ed="#V" n="81"/>sicut dicit pslamum. Omnia quaecumque voluit dominus fecit. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e293">
-                  <lb ed="#V" n="82"/>Contra ad Ephe. i. Elegit non ante mundi constitutio 
-      <lb ed="#V" n="83"/>nem: sed electio includit dilectione electi: 
-      er<lb ed="#V" n="84" break="no"/>go ab eterno dilexit nos.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e303">
-      ¶ Item <ref xml:id="kzz7yh-g82178-Rffaacc" corresp="#kzz7yh-g82178-Qcavvnn">Augu. 5 libro de tri.</ref> versus 
-      <lb ed="#V" n="85"/>finem: et recitat <ref xml:id="kzz7yh-g82178-Rccnn12" corresp="#kzz7yh-g82178-Qcavvnn" target="http://scta.info/resource/pl-l3d32c3-d1e124@3-17">magister in littera</ref>. <quote xml:id="kzz7yh-g82178-Qcavvnn" source="http://scta.info/resource/adt-l5-d1e769@283-299">Absit vt deus temporaliter aliquem 
-      <lb ed="#V" n="86"/>diligat: quasi noua dilectione quae in ipso ante non erat</quote>: ergo 
-      <lb ed="#V" n="87"/>omne illud quod diligit ab eterno dilexit. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e312">
-                  <lb ed="#V" n="88"/>Respondeo quod deus ab aeterno dilexit creaturam. 
-      <lb ed="#V" n="89"/>Ille enim rem diligit qui vult ei bonum: 
-      <lb ed="#V" n="90"/>deus autem ab eterno voluit creature bonum secundum rationem et et 
-      <lb ed="#V" n="91"/>bonum reale: sed voluit quod creatura haberet ab eterno 
-      bo<lb ed="#V" n="92" break="no"/>num secundum rationem sicut habuit: ab eterno enim habuit esse 
-      in<lb ed="#V" n="93" break="no"/>tellectum quod est esse secundum rationem. Ab eterno enim quelibet 
-      crea<lb ed="#V" n="94" break="no"/>tura fuit ab intellectu diuino intellecta: ens autem et bonum: 
-      si<lb ed="#V" n="95" break="no"/>ue in esse intellecto siue in esse reali conuertuntur: ergo ab 
-      eter<lb ed="#V" n="96" break="no"/>no bene fuerunt in esse intellecto: quod est esse secundum rationem: non 
-      <lb ed="#V" n="97"/>voluit autem quod haberent bonum reale ab eterno quamuis ab 
-      eter<lb ed="#V" n="98" break="no"/>no voluerit quod haberent bonum in esse reali in tempore non tantum autem 
-      <lb ed="#V" n="99"/>diligit ille rem qui statim eam vult adipisci illud bonum quod 
-      <lb ed="#V" n="100"/>ei vult: sed est qui vult illud bonum quod ei vult adipisci 
-      con<lb ed="#V" n="101" break="no"/>gruo tempore in futuro. Et sic deus illud bonum 
-      rea<lb ed="#V" n="102" break="no"/>le: quod ab eterno voluit creaturis voluit eas 
-      adipisci<lb ed="#V" n="103" break="no"/>in tempore. 
-    </p>
-      <p xml:id="kzz7yh-g82178-d1e349">
-         <lb ed="#V" n="104"/>Ad primum in oppositum cum dicitur quod 
-         dile<lb ed="#V" n="105" break="no"/>ctio non est nisi boni etc. Dico quod 
-         <lb ed="#V" n="106"/>verum est extendendo bonum non solum ad bonum 
-         in<lb ed="#V" n="107" break="no"/>actu: sed ad bonum in potentia et in cognitione 
-         diligen<lb ed="#V" n="108" break="no"/>tis quanuis autem primo modo creature non fuerint 
-         bo<lb ed="#V" n="109" break="no"/>ne ab eterno. Fuerunt tamen ab eterno bone: tertio 
-         mo<lb ed="#V" n="110" break="no"/>do et etiam secundo modo: quia ab eterno fuerunt in 
-         po<lb ed="#V" n="111" break="no"/>tentia dei eas diligentis.
-   </p>
-   <p xml:id="kzz7yh-g82178-d1e369">
-      ¶ Ad secundum cum dicitur: 
-      <lb ed="#V" n="112"/>quod non potest esse vnio cum re que non est etc. Dico quod 
-      <lb ed="#V" n="113"/>verum est loquendo de re que non est: nec in esse reali: a 
-      <lb ed="#V" n="114"/>nec in esse intellecto: cum re autem que est in esse intellecto 
-      <lb ed="#V" n="115"/>potest esse vnio que est per affectum que est vnio quam 
-      <lb ed="#V" n="116"/>primo respicit amor: creature autem fuerunt ab eterno 
-      <lb ed="#V" n="117"/>in esse intellecto: quia ab eterno fuerunt a diuino 
-      intelle<lb ed="#V" n="118" break="no"/>ctu intellecte.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e387">
-      ¶ Ad tertium cum dicitur: quod amans vult 
-      <lb ed="#V" n="119"/>amatum esse etc. Dico quod verum est: sed non semper 
-      sta<lb ed="#V" n="120" break="no"/>tim: nec quocunque modo.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e394">
-      ¶ Argumenta ad partem 
-      ali<lb ed="#V" n="121" break="no"/>am pocedunt de dilectione quantum ad actum 
-      volen<lb ed="#V" n="122" break="no"/>di bonum: non de illa que est secundum effectum: quia planum 
-      <lb ed="#V" n="123"/>est quod nullum effectum ab eterno contulit creature. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g82178-Dd1e404">
-               <head xml:id="kzz7yh-g82178-Hd1e406">Quaestio 3</head>
-               <p xml:id="kzz7yh-g82178-d1e408">
-                  <lb ed="#V" n="124"/>Questio III. 
-      <lb ed="#V" n="125"/>TErtio queritur vtrum prius fuerit 
-      crea<lb ed="#V" n="126" break="no"/>tura bona quam a deo dilecta. Et 
-      vi<lb ed="#V" n="127" break="no"/>detur quod sic. Prius fuit secundum rationem 
-      in<lb ed="#V" n="128" break="no"/>telligendi creatura cognoscibilis: quam a deo 
-      co<lb ed="#V" n="129" break="no"/>
-                  <!-- line coord error -->
-                  <lb ed="#V" n="130"/>gnita et factibilis quam facta: ergo et diligibilis quam diuse 
-      <lb ed="#V" n="131"/>cta: sed nunquam fuit diligibilis: nisi inquantum bona: 
-      <lb ed="#V" n="132"/>ergo prius secundum rationem intelligendi suit bona: 
-      <lb ed="#V" n="133"/>quam a deo dilecta.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e434">
-      ¶ Item obiectum prius est 
-      secun<lb ed="#V" n="134" break="no"/>dum rationem intelligendi quam actus: sed bonum 
-      crea<lb ed="#V" n="135" break="no"/>tum est diuine dilectionis obiectum: quanuis non 
-      pri<lb ed="#V" n="136" break="no"/>mum: ergo prius secundum rationem intelligendi suit 
-      <lb ed="#V" n="137"/>bonum creatum: quam diuina dilectio respectu boni creati. 
-      <!--00245.xml-->
-      <pb ed="#V" n="117-r"/>
-                  <cb ed="#V" n="a"/>
-               </p>
-               <p xml:id="kzz7yh-g82178-d1e452">
-                  <lb ed="#V" n="1"/>¶ Item irrationabiliter diligit vel imperfecte qui non 
-      <lb ed="#V" n="2"/>diligit rem: quia bona est: sed deus non diligit creaturam 
-      <lb ed="#V" n="3"/>irrationabiliter nec imperfecte: ergo diligit eam: quia est bona: 
-      <lb ed="#V" n="4"/>et si sic prius secundum rationem intelligendi fuit bona quam a deo dilecta. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e463">
-                  <lb ed="#V" n="5"/>Contram vt in precedenti questione habitum est. 
-      crea<lb ed="#V" n="6" break="no"/>tura fuit a deo electa ab eterno: sed non fuit 
-      <lb ed="#V" n="7"/>bona nisi ex tempore: quia non fuit ens nisi in tempore: ergo 
-      <lb ed="#V" n="8"/>prius fuit a deo dilecta quam bona.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e475">
-      ¶ Item causa prior est 
-      ef<lb ed="#V" n="9" break="no"/>fectu. Sed magister in littera loquens de dilectione dei 
-      <lb ed="#V" n="10"/>ad nos dicit quod omnia bona nostra ex dilectione eius 
-      no<lb ed="#V" n="11" break="no"/>bis proueniunt: ergo prius fuimus a deo dilecti quam boni. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e484">
-                  <lb ed="#V" n="12"/>Respondeo quod creatura fuisse bonam tripliciter 
-      <lb ed="#V" n="13"/>potest intelligi: aut in effectu: aut 
-      <lb ed="#V" n="14"/>in potentia ordinata ad effectum: aut in esse intellecto. 
-      <lb ed="#V" n="15"/>Primo modo planum est: quod prius fuit creatura a deo 
-      di<lb ed="#V" n="16" break="no"/>lecta quam fuerit bona: vt bene concludunt argumenta ad 
-      secun<lb ed="#V" n="17" break="no"/>dam partem: quia enim deus voluit creaturam fieri bonam: et 
-      in<lb ed="#V" n="18" break="no"/>sua bonitate conseruari: ideo est bona: et in sua bonitate 
-      com<lb ed="#V" n="19" break="no"/>seruatur quamdiu conseruatur.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e504">
-      ¶ Loquendo etiam secundo 
-      mo<lb ed="#V" n="20" break="no"/>do potest dici quod prius secundum rationem intelligendi suit bona 
-      <lb ed="#V" n="21"/>quam a deo dilecta non enim quia deus voluit posse fieri 
-      crea<lb ed="#V" n="22" break="no"/>turam bonam: ideo potuit a deo fieri creatura bona quod 
-      <lb ed="#V" n="23"/>est ipsam esse bonam in potentia: sed quia a deo potuit fieri 
-      <lb ed="#V" n="24"/>creatura bona: ideo deus voluit ipsam posse fieri bonam. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e517">
-                  <lb ed="#V" n="25"/>¶ Loquendo tertio modo fuit secundum rationem intelligendi 
-      crea<lb ed="#V" n="26" break="no"/>tura bona quam a deo dilecta. Prius enim secundum rationem 
-      intelli<lb ed="#V" n="27" break="no"/>gendi intellexit deus bonitatem creature quod suit ipsam esse 
-      <lb ed="#V" n="28"/>bonam in esse intellecto: quod esse secundum rationem quam 
-      vel<lb ed="#V" n="29" break="no"/>let ei bonum reale vel bonum secundum rationem: quia prius secundum 
-      ra<lb ed="#V" n="30" break="no"/>tionem intelligendi bonitatem creature intellextt quam vellet 
-      <lb ed="#V" n="31"/>ipsam esse intellectam: quia velle aliquam bonitatem esse 
-      in<lb ed="#V" n="32" break="no"/>tellectam includit cognitionem illius bonitatis. vnde et 
-      <lb ed="#V" n="33"/>prius et secundum rationem intelligendi deus. intellexit bonitatem 
-      <lb ed="#V" n="34"/>suam quam vellet intelligere eam. Amor enim intelligendi 
-      <lb ed="#V" n="35"/>sua bonitate aliquam cognitionem sue bonitatis includit. 
-    </p>
-               <p xml:id="kzz7yh-g82178-d1e543">
-                  <lb ed="#V" n="36"/>Ad primum in oppositum dicendum: quod creatura 
-      <lb ed="#V" n="37"/>nunquam fuit diligibilis nisi 
-      inquan<lb ed="#V" n="38" break="no"/>tum bona: vel in effectu: vel in potentia: vel in esse 
-      intel<lb ed="#V" n="39" break="no"/>lecto: et quamuis non fuerit prius bona in effectu quam a deo 
-      <lb ed="#V" n="40"/>dilecta: tamen secundum rationem intelligendi prius fuit bona 
-      <lb ed="#V" n="41"/>in potentia diligentis et in esse intellecto quam a deo difecta. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e559">
-                  <lb ed="#V" n="42"/>¶ Ad secundum cum dicitur: quod prius secundum rationem 
-      intelli<lb ed="#V" n="43" break="no"/>gendi est obiectum quam actus etc. Dico quod de obiecto 
-      secun<lb ed="#V" n="44" break="no"/>dario dilectionis diuine loquendo: et de esse realiter in 
-      ef<lb ed="#V" n="45" break="no"/>fectu non est verum: vt satis patet ex predictis
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e571">
-      ¶ Ad 
-      ter<lb ed="#V" n="46" break="no"/>tium dicendum: quod maior falsa est nisi esse bonum extendas 
-      <lb ed="#V" n="47"/>ad esse bonum in effectu et in potentia: qui enim rem 
-      possi<lb ed="#V" n="48" break="no"/>bilem fieri bonam diligit ad hoc vt sit bona non 
-      irratio<lb ed="#V" n="49" break="no"/>nabiliter diligit eam quod bene dedit intelligere Augu. 
-      <lb ed="#V" n="50"/>octauo de trinitate. capitulo sexto dicens. Qui amat homines 
-      <lb ed="#V" n="51"/>aut quia iusti sunt: et aut vt iusti sint amare debet. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g82178-Dd1e588">
-               <head xml:id="kzz7yh-g82178-Hd1e590">Quaestio 4</head>
-               <p xml:id="kzz7yh-g82178-d1e592">
-                  <lb ed="#V" n="52"/>Questio. IIII. 
-      <lb ed="#V" n="53"/>Uarto queritur vtrum deus eadem 
-      dile<lb ed="#V" n="54" break="no"/>ctione diligat se et creaturam. Et 
-      <lb ed="#V" n="55"/>videtur quod non: quia difectio qua diligit 
-      creatu<lb ed="#V" n="56" break="no"/>ram recipit magis et minus. Dicit enim 
-      magi<lb ed="#V" n="57" break="no"/>ster in littera quod electorum alios magis alios minus 
-      dile<lb ed="#V" n="58" break="no"/>xit ab eterno: sed dilectio qua se diligit non recipit magis 
-      <lb ed="#V" n="59"/>et minus: ergo non eadem dilectione diligit se et creatu 
-      <lb ed="#V" n="60"/>ras.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e614">
-      ¶ Item actus diuersificantur secundum obiecta: sed deus et 
-      <lb ed="#V" n="61"/>creatura sunt diuersa diligendi obiecta: ergo eodem actu non 
-      <lb ed="#V" n="62"/>diligit se et creaturam.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e621">
-      ¶ Item dilectio qua diligit se causa 
-      <lb ed="#V" n="63"/>est dilectionis qua diligit creaturam: quia enim se diligit. 
-      <lb ed="#V" n="64"/>ideo creaturas diligit inquantum eum imitantur: sed non est idem 
-      <lb ed="#V" n="65"/>causa et effectus: ergo non est eadem dilectio qua se 
-      dili<lb ed="#V" n="66" break="no"/>git et creaturam. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e632">
-                  <lb ed="#V" n="67"/>Contra eodem actu cognoscendi deus cognoscit se 
-      <lb ed="#V" n="68"/>et creaturas: ergo a simili eodem actu dili¬ 
-      <!--00245.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>gendi diligit se et creaturas.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e646">
-      ¶ Item magister. 17. distin. 
-      <lb ed="#V" n="70"/>libro primo vult quod eadem dilectione que est spiritus 
-      san<lb ed="#V" n="71" break="no"/>ctus pater et filius diligunt se inuicem et nos. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e653">
-                  <lb ed="#V" n="72"/>Respondeo quod de diectione qua deus diligit nos 
-      <lb ed="#V" n="73"/>possumus loqui dupliciter: quia aut 
-      <lb ed="#V" n="74"/>de ipsa quantum ad sui essentiam: sic enim de ipsa 
-      pro<lb ed="#V" n="75" break="no"/>prie loquimur. Aut de ipsa ratione boni optari per eam. 
-      <lb ed="#V" n="76"/>primo modo dicendum: quod realiter eadem est dilectio qua 
-      <lb ed="#V" n="77"/>deus diligit se et creaturam. eodem enim actu volendi quod 
-      <lb ed="#V" n="78"/>realiter est idem: quod ipse vult sibi bonum increatum: et 
-      crea<lb ed="#V" n="79" break="no"/>ture bonum creatum: differunt tamen secundum relationes 
-      ra<lb ed="#V" n="80" break="no"/>tionis: quia in illo actu diligendi inquantum est respectu 
-      <lb ed="#V" n="81"/>creature est quedam relatio rationis ad creaturam: et 
-      in<lb ed="#V" n="82" break="no"/>quantum respectu dei est in eo alia relatio rationis ad 
-      de<lb ed="#V" n="83" break="no"/>um.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e682">
-      ¶ Primo modo dicendum: quod non est eadem: quia 
-      <lb ed="#V" n="84"/>deus diligendo se vult sibi bonum increatum per 
-      essen<lb ed="#V" n="85" break="no"/>tiam: et illo eodem actu vult creature aliquam illius 
-      bo<lb ed="#V" n="86" break="no"/>ni imitationem.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e691">
-      ¶ Argumenta ad partem secundam 
-      be<lb ed="#V" n="87" break="no"/>ne procedunt: concludunt enim de ipsa dilectione 
-      ratio<lb ed="#V" n="88" break="no"/>ne sui non ratione boni voliti. 
-    </p>
-               <p xml:id="kzz7yh-g82178-d1e698">
-                  <lb ed="#V" n="89"/>Ad primum in oppositum dicendum: quod dilectioque 
-      <lb ed="#V" n="90"/>diligit creaturam proprie 
-      loquen<lb ed="#V" n="91" break="no"/>do non recipit magis et minus: quia ratione sui non 
-      reci<lb ed="#V" n="92" break="no"/>pit magis et minus: sed pro tanto dicitur recipere magis 
-      <lb ed="#V" n="93"/>et minus: quia eodem actu volendi vult vni creature 
-      ma<lb ed="#V" n="94" break="no"/>ius bonum quam alii: et hoc concordat expositioni magistri in littera. 
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e714">
-                  <lb ed="#V" n="95"/>¶ Ad secundum cum dicitur: quod actus diuersificantur 
-      <lb ed="#V" n="96"/>secundum obiecta: dico quod verum est dei obiectis primis et 
-      for<lb ed="#V" n="97" break="no"/>malibus: sic autem non sunt diuersa obiecta dilectionis 
-      <lb ed="#V" n="98"/>qua deus diligit se et creaturas: quia enim deus disigit se 
-      <lb ed="#V" n="99"/>diligit creaturam: et illo eodem actu quo sibi vult bonum 
-      <lb ed="#V" n="100"/>increatum per essentiam vult per suam essentiam 
-      crea<lb ed="#V" n="101" break="no"/>ture bonum suum.
-   </p>
-               <p xml:id="kzz7yh-g82178-d1e733">
-      ¶ Ad tertium dicendum: quod 
-      dilectio<lb ed="#V" n="102" break="no"/>qua deus diligit se non est causa dilectionis qua diligit 
-      <lb ed="#V" n="103"/>creaturam: quia vna dilectio est: et tamen per hoc quod 
-      di<lb ed="#V" n="104" break="no"/>ligit se diligit creaturam: sicut videmus quod deus per hoc 
-      <lb ed="#V" n="105"/>quod scit se scit alia a se: nec tamen illud scire quo scit se est 
-      <lb ed="#V" n="106"/>causa illius scire quo scit alia a se: quia realiter vnum et 
-      <lb ed="#V" n="107"/>idem scire est. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e452">
+            <lb ed="#V" n="1"/>¶ Item irrationabiliter diligit vel imperfecte qui non 
+            <lb ed="#V" n="2"/>diligit rem: quia bona est: sed deus non diligit creaturam 
+            <lb ed="#V" n="3"/>irrationabiliter nec imperfecte: ergo diligit eam: quia est bona: 
+            <lb ed="#V" n="4"/>et si sic prius secundum rationem intelligendi fuit bona quam a deo dilecta. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e463">
+            <lb ed="#V" n="5"/>Contram vt in precedenti questione habitum est. 
+            crea<lb ed="#V" n="6" break="no"/>tura fuit a deo electa ab eterno: sed non fuit 
+            <lb ed="#V" n="7"/>bona nisi ex tempore: quia non fuit ens nisi in tempore: ergo 
+            <lb ed="#V" n="8"/>prius fuit a deo dilecta quam bona.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e475">
+            ¶ Item causa prior est 
+            ef<lb ed="#V" n="9" break="no"/>fectu. Sed magister in littera loquens de dilectione dei 
+            <lb ed="#V" n="10"/>ad nos dicit quod omnia bona nostra ex dilectione eius 
+            no<lb ed="#V" n="11" break="no"/>bis proueniunt: ergo prius fuimus a deo dilecti quam boni. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e484">
+            <lb ed="#V" n="12"/>Respondeo quod creatura fuisse bonam tripliciter 
+            <lb ed="#V" n="13"/>potest intelligi: aut in effectu: aut 
+            <lb ed="#V" n="14"/>in potentia ordinata ad effectum: aut in esse intellecto. 
+            <lb ed="#V" n="15"/>Primo modo planum est: quod prius fuit creatura a deo 
+            di<lb ed="#V" n="16" break="no"/>lecta quam fuerit bona: vt bene concludunt argumenta ad 
+            secun<lb ed="#V" n="17" break="no"/>dam partem: quia enim deus voluit creaturam fieri bonam: et 
+            in<lb ed="#V" n="18" break="no"/>sua bonitate conseruari: ideo est bona: et in sua bonitate 
+            com<lb ed="#V" n="19" break="no"/>seruatur quamdiu conseruatur.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e504">
+            ¶ Loquendo etiam secundo 
+            mo<lb ed="#V" n="20" break="no"/>do potest dici quod prius secundum rationem intelligendi suit bona 
+            <lb ed="#V" n="21"/>quam a deo dilecta non enim quia deus voluit posse fieri 
+            crea<lb ed="#V" n="22" break="no"/>turam bonam: ideo potuit a deo fieri creatura bona quod 
+            <lb ed="#V" n="23"/>est ipsam esse bonam in potentia: sed quia a deo potuit fieri 
+            <lb ed="#V" n="24"/>creatura bona: ideo deus voluit ipsam posse fieri bonam. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e517">
+            <lb ed="#V" n="25"/>¶ Loquendo tertio modo fuit secundum rationem intelligendi 
+            crea<lb ed="#V" n="26" break="no"/>tura bona quam a deo dilecta. Prius enim secundum rationem 
+            intelli<lb ed="#V" n="27" break="no"/>gendi intellexit deus bonitatem creature quod suit ipsam esse 
+            <lb ed="#V" n="28"/>bonam in esse intellecto: quod esse secundum rationem quam 
+            vel<lb ed="#V" n="29" break="no"/>let ei bonum reale vel bonum secundum rationem: quia prius secundum 
+            ra<lb ed="#V" n="30" break="no"/>tionem intelligendi bonitatem creature intellextt quam vellet 
+            <lb ed="#V" n="31"/>ipsam esse intellectam: quia velle aliquam bonitatem esse 
+            in<lb ed="#V" n="32" break="no"/>tellectam includit cognitionem illius bonitatis. vnde et 
+            <lb ed="#V" n="33"/>prius et secundum rationem intelligendi deus. intellexit bonitatem 
+            <lb ed="#V" n="34"/>suam quam vellet intelligere eam. Amor enim intelligendi 
+            <lb ed="#V" n="35"/>sua bonitate aliquam cognitionem sue bonitatis includit. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e543">
+            <lb ed="#V" n="36"/>Ad primum in oppositum dicendum: quod creatura 
+            <lb ed="#V" n="37"/>nunquam fuit diligibilis nisi 
+            inquan<lb ed="#V" n="38" break="no"/>tum bona: vel in effectu: vel in potentia: vel in esse 
+            intel<lb ed="#V" n="39" break="no"/>lecto: et quamuis non fuerit prius bona in effectu quam a deo 
+            <lb ed="#V" n="40"/>dilecta: tamen secundum rationem intelligendi prius fuit bona 
+            <lb ed="#V" n="41"/>in potentia diligentis et in esse intellecto quam a deo difecta. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e559">
+            <lb ed="#V" n="42"/>¶ Ad secundum cum dicitur: quod prius secundum rationem 
+            intelli<lb ed="#V" n="43" break="no"/>gendi est obiectum quam actus etc. Dico quod de obiecto 
+            secun<lb ed="#V" n="44" break="no"/>dario dilectionis diuine loquendo: et de esse realiter in 
+            ef<lb ed="#V" n="45" break="no"/>fectu non est verum: vt satis patet ex predictis
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e571">
+            ¶ Ad 
+            ter<lb ed="#V" n="46" break="no"/>tium dicendum: quod maior falsa est nisi esse bonum extendas 
+            <lb ed="#V" n="47"/>ad esse bonum in effectu et in potentia: qui enim rem 
+            possi<lb ed="#V" n="48" break="no"/>bilem fieri bonam diligit ad hoc vt sit bona non 
+            irratio<lb ed="#V" n="49" break="no"/>nabiliter diligit eam quod bene dedit intelligere Augu. 
+            <lb ed="#V" n="50"/>octauo de trinitate. capitulo sexto dicens. Qui amat homines 
+            <lb ed="#V" n="51"/>aut quia iusti sunt: et aut vt iusti sint amare debet. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g82178-Dd1e588">
+          <head xml:id="kzz7yh-g82178-Hd1e590">Quaestio 4</head>
+          <p xml:id="kzz7yh-g82178-d1e592">
+            <lb ed="#V" n="52"/>Questio. IIII. 
+            <lb ed="#V" n="53"/>Uarto queritur vtrum deus eadem 
+            dile<lb ed="#V" n="54" break="no"/>ctione diligat se et creaturam. Et 
+            <lb ed="#V" n="55"/>videtur quod non: quia difectio qua diligit 
+            creatu<lb ed="#V" n="56" break="no"/>ram recipit magis et minus. Dicit enim 
+            magi<lb ed="#V" n="57" break="no"/>ster in littera quod electorum alios magis alios minus 
+            dile<lb ed="#V" n="58" break="no"/>xit ab eterno: sed dilectio qua se diligit non recipit magis 
+            <lb ed="#V" n="59"/>et minus: ergo non eadem dilectione diligit se et creatu 
+            <lb ed="#V" n="60"/>ras.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e614">
+            ¶ Item actus diuersificantur secundum obiecta: sed deus et 
+            <lb ed="#V" n="61"/>creatura sunt diuersa diligendi obiecta: ergo eodem actu non 
+            <lb ed="#V" n="62"/>diligit se et creaturam.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e621">
+            ¶ Item dilectio qua diligit se causa 
+            <lb ed="#V" n="63"/>est dilectionis qua diligit creaturam: quia enim se diligit. 
+            <lb ed="#V" n="64"/>ideo creaturas diligit inquantum eum imitantur: sed non est idem 
+            <lb ed="#V" n="65"/>causa et effectus: ergo non est eadem dilectio qua se 
+            dili<lb ed="#V" n="66" break="no"/>git et creaturam. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e632">
+            <lb ed="#V" n="67"/>Contra eodem actu cognoscendi deus cognoscit se 
+            <lb ed="#V" n="68"/>et creaturas: ergo a simili eodem actu dili¬ 
+            <!--00245.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>gendi diligit se et creaturas.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e646">
+            ¶ Item magister. 17. distin. 
+            <lb ed="#V" n="70"/>libro primo vult quod eadem dilectione que est spiritus 
+            san<lb ed="#V" n="71" break="no"/>ctus pater et filius diligunt se inuicem et nos. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e653">
+            <lb ed="#V" n="72"/>Respondeo quod de diectione qua deus diligit nos 
+            <lb ed="#V" n="73"/>possumus loqui dupliciter: quia aut 
+            <lb ed="#V" n="74"/>de ipsa quantum ad sui essentiam: sic enim de ipsa 
+            pro<lb ed="#V" n="75" break="no"/>prie loquimur. Aut de ipsa ratione boni optari per eam. 
+            <lb ed="#V" n="76"/>primo modo dicendum: quod realiter eadem est dilectio qua 
+            <lb ed="#V" n="77"/>deus diligit se et creaturam. eodem enim actu volendi quod 
+            <lb ed="#V" n="78"/>realiter est idem: quod ipse vult sibi bonum increatum: et 
+            crea<lb ed="#V" n="79" break="no"/>ture bonum creatum: differunt tamen secundum relationes 
+            ra<lb ed="#V" n="80" break="no"/>tionis: quia in illo actu diligendi inquantum est respectu 
+            <lb ed="#V" n="81"/>creature est quedam relatio rationis ad creaturam: et 
+            in<lb ed="#V" n="82" break="no"/>quantum respectu dei est in eo alia relatio rationis ad 
+            de<lb ed="#V" n="83" break="no"/>um.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e682">
+            ¶ Primo modo dicendum: quod non est eadem: quia 
+            <lb ed="#V" n="84"/>deus diligendo se vult sibi bonum increatum per 
+            essen<lb ed="#V" n="85" break="no"/>tiam: et illo eodem actu vult creature aliquam illius 
+            bo<lb ed="#V" n="86" break="no"/>ni imitationem.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e691">
+            ¶ Argumenta ad partem secundam 
+            be<lb ed="#V" n="87" break="no"/>ne procedunt: concludunt enim de ipsa dilectione 
+            ratio<lb ed="#V" n="88" break="no"/>ne sui non ratione boni voliti. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e698">
+            <lb ed="#V" n="89"/>Ad primum in oppositum dicendum: quod dilectioque 
+            <lb ed="#V" n="90"/>diligit creaturam proprie 
+            loquen<lb ed="#V" n="91" break="no"/>do non recipit magis et minus: quia ratione sui non 
+            reci<lb ed="#V" n="92" break="no"/>pit magis et minus: sed pro tanto dicitur recipere magis 
+            <lb ed="#V" n="93"/>et minus: quia eodem actu volendi vult vni creature 
+            ma<lb ed="#V" n="94" break="no"/>ius bonum quam alii: et hoc concordat expositioni magistri in littera. 
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e714">
+            <lb ed="#V" n="95"/>¶ Ad secundum cum dicitur: quod actus diuersificantur 
+            <lb ed="#V" n="96"/>secundum obiecta: dico quod verum est dei obiectis primis et 
+            for<lb ed="#V" n="97" break="no"/>malibus: sic autem non sunt diuersa obiecta dilectionis 
+            <lb ed="#V" n="98"/>qua deus diligit se et creaturas: quia enim deus disigit se 
+            <lb ed="#V" n="99"/>diligit creaturam: et illo eodem actu quo sibi vult bonum 
+            <lb ed="#V" n="100"/>increatum per essentiam vult per suam essentiam 
+            crea<lb ed="#V" n="101" break="no"/>ture bonum suum.
+          </p>
+          <p xml:id="kzz7yh-g82178-d1e733">
+            ¶ Ad tertium dicendum: quod 
+            dilectio<lb ed="#V" n="102" break="no"/>qua deus diligit se non est causa dilectionis qua diligit 
+            <lb ed="#V" n="103"/>creaturam: quia vna dilectio est: et tamen per hoc quod 
+            di<lb ed="#V" n="104" break="no"/>ligit se diligit creaturam: sicut videmus quod deus per hoc 
+            <lb ed="#V" n="105"/>quod scit se scit alia a se: nec tamen illud scire quo scit se est 
+            <lb ed="#V" n="106"/>causa illius scire quo scit alia a se: quia realiter vnum et 
+            <lb ed="#V" n="107"/>idem scire est. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

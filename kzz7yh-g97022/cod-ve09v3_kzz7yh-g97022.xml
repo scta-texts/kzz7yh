@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="138-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g97022"><!-- l3d35cl -->
-            <head xml:id="kzz7yh-g97022-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-g97022-d1e103">
-               <lb ed="#V" n="14"/>CIrca litteram. Sapientia est rerum 
-      <lb ed="#V" n="15"/>humanarum 
-      diuina<lb ed="#V" n="16" break="no"/>rumque scientia: diuinarum scilicet primo et principaliter: humanarum 
-      <lb ed="#V" n="17"/>autem ex coneneti inquantum per diuinas regulas iudicat 
-      <lb ed="#V" n="18"/>de rebus humanis. Quo fides saluberrima que ad veram 
-      <lb ed="#V" n="19"/>betitudinem ducit gignitur. Contra virtutes theologice 
-      ordi<lb ed="#V" n="20" break="no"/>ne causalitatis priores sunt donis: quia ex vnione anime ad deum que 
-      <lb ed="#V" n="21"/>est per virtutes theologicas causantur a deo in nobis dona. Rmisens 
-      <lb ed="#V" n="22"/>quod verbum magistri sic intelligendum est quod homo per donum scientie: quod 
-      <lb ed="#V" n="23"/>habet dispositiue gignit fidem in alio.
-   </p>
-            <p xml:id="kzz7yh-g97022-d1e127">
-      ¶ Nuc scio ex parte 
-      quam<lb ed="#V" n="24" break="no"/>scientiam profecto contemplationis dei vult intelligi. Ibi loquitur magister 
-      <lb ed="#V" n="25"/>de enigmatica contemplatione quae in patria non remanebit. 
-      Intel<lb ed="#V" n="26" break="no"/>ligentia non modo de eternis est. est enim de eternis et temporalibus: sed 
-      <lb ed="#V" n="27"/>de temporalibus in relatione ad eternas. Per donum enim intellectus 
-      com<lb ed="#V" n="28" break="no"/>siderantur primo et principaliter creata spectabilia 
-      inquan<lb ed="#V" n="29" break="no"/>tum valent ad intelligendum fidei veritatem: que de deo 
-      <lb ed="#V" n="30"/>est.
-   </p>
-            <p xml:id="kzz7yh-g97022-d1e145">
-      ¶ Contemplationem et delectationem . Ita quod 
-      con<lb ed="#V" n="31" break="no"/>templatio est actus: et delectatio est effectus. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="138-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g97022"><!-- l3d35cl -->
+        <head xml:id="kzz7yh-g97022-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-g97022-d1e103">
+          <lb ed="#V" n="14"/>CIrca litteram. Sapientia est rerum 
+          <lb ed="#V" n="15"/>humanarum 
+          diuina<lb ed="#V" n="16" break="no"/>rumque scientia: diuinarum scilicet primo et principaliter: humanarum 
+          <lb ed="#V" n="17"/>autem ex coneneti inquantum per diuinas regulas iudicat 
+          <lb ed="#V" n="18"/>de rebus humanis. Quo fides saluberrima que ad veram 
+          <lb ed="#V" n="19"/>betitudinem ducit gignitur. Contra virtutes theologice 
+          ordi<lb ed="#V" n="20" break="no"/>ne causalitatis priores sunt donis: quia ex vnione anime ad deum que 
+          <lb ed="#V" n="21"/>est per virtutes theologicas causantur a deo in nobis dona. Rmisens 
+          <lb ed="#V" n="22"/>quod verbum magistri sic intelligendum est quod homo per donum scientie: quod 
+          <lb ed="#V" n="23"/>habet dispositiue gignit fidem in alio.
+        </p>
+        <p xml:id="kzz7yh-g97022-d1e127">
+          ¶ Nuc scio ex parte 
+          quam<lb ed="#V" n="24" break="no"/>scientiam profecto contemplationis dei vult intelligi. Ibi loquitur magister 
+          <lb ed="#V" n="25"/>de enigmatica contemplatione quae in patria non remanebit. 
+          Intel<lb ed="#V" n="26" break="no"/>ligentia non modo de eternis est. est enim de eternis et temporalibus: sed 
+          <lb ed="#V" n="27"/>de temporalibus in relatione ad eternas. Per donum enim intellectus 
+          com<lb ed="#V" n="28" break="no"/>siderantur primo et principaliter creata spectabilia 
+          inquan<lb ed="#V" n="29" break="no"/>tum valent ad intelligendum fidei veritatem: que de deo 
+          <lb ed="#V" n="30"/>est.
+        </p>
+        <p xml:id="kzz7yh-g97022-d1e145">
+          ¶ Contemplationem et delectationem . Ita quod 
+          con<lb ed="#V" n="31" break="no"/>templatio est actus: et delectatio est effectus. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

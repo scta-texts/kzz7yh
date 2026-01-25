@@ -1,403 +1,403 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 2</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 2</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="151-r"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 2</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 2</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="151-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g106233"><!-- l3d39a2 -->
+        <head xml:id="kzz7yh-g106233-Hd1e101">Articulus 2</head>
+        <p xml:id="kzz7yh-g106233-d1e103">
+          <lb ed="#V" n="63"/>Consequenter queritur de secundo 
+          <lb ed="#V" n="64"/>principali: et circa 
+          <lb ed="#V" n="65"/>hoc queruntur. tria.
+        </p>
+        <p xml:id="kzz7yh-g106233-d1e112">
+          ¶ Primo vtrum 
+          homo<lb ed="#V" n="66" break="no"/>obligetur per iuramentum dolosum.
+        </p>
+        <p xml:id="kzz7yh-g106233-d1e117">
+          ¶ Secundo 
+          <lb ed="#V" n="67"/>vtrum per iuramentum coactum.
+        </p>
+        <p xml:id="kzz7yh-g106233-d1e122">
+          ¶ Tertio vtrum per 
+          <lb ed="#V" n="68"/>iuramentum incautum siue indiscretum. 
+        </p>
+        <div xml:id="kzz7yh-g106233-Dd1e128">
+          <head xml:id="kzz7yh-g106233-Hd1e130">Quaestio 1</head>
+          <p xml:id="kzz7yh-g106233-d1e132">
+            Quaestio 
+            <!--00311.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>Rimo ostendo quod homo obligatur per 
+            iura<lb ed="#V" n="70" break="no"/>mentum dolosum. Isidorus. 2 
+            <lb ed="#V" n="71"/>lib. de summo bono. capitulo. 3i. et recitat 
+            magi<lb ed="#V" n="72" break="no"/>ster in littera: quacunque arte verborum quisque 
+            <lb ed="#V" n="73"/>luret: deus tamen qui conscientie testis est: ita hoc accipit 
+            <lb ed="#V" n="74"/>sicut ille cui iuratur intelligit: ergo qui iuramento 
+            promit<lb ed="#V" n="75" break="no"/>tit aliquid licitum in corde tenens contrarium: quod est 
+            <lb ed="#V" n="76"/>iurare dolose obligatur ad adimplendum.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e156">
+            ¶ Item extra 
+            <lb ed="#V" n="77"/>de iureiuran. et si christus. §. id est in glo. qualitercunque iuratur: 
+            <lb ed="#V" n="78"/>si licitum est quod inuratur seruandum est iuramentum: 
+            <lb ed="#V" n="79"/>ergo cum homo iurat aliquid licitum se facturum: siue in 
+            <lb ed="#V" n="80"/>ret dolose: siue non obligatur:
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e167">
+            ¶ Item. xxii. q. ii. In dolo 
+            <lb ed="#V" n="81"/>iurat qui aliter facturus est quam promittit. glo. i: qui aliter 
+            pro<lb ed="#V" n="82" break="no"/>ponit facere: sed vt habetur extra de rescriptis. Sedes 
+            apo<lb ed="#V" n="83" break="no"/>stolica. Fraus et dolus alicui patrocinari non debent: 
+            er<lb ed="#V" n="84" break="no"/>go predicto modo iuranti non patrocinatur dolus eius 
+            <lb ed="#V" n="85"/>quin maneat obligatus.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e180">
+            ¶ Item recipiens sacrum 
+            ordi<lb ed="#V" n="86" break="no"/>nem: et si non intendat se obligare ad continentiam: tamen 
+            <lb ed="#V" n="87"/>quia talibus precipitur continere est ad continentiam 
+            ob<lb ed="#V" n="88" break="no"/>ligatus: ergo similiter cum aliquis iurat aliquod licitum 
+            <lb ed="#V" n="89"/>se facturum: quamuis non intendat facere: tamen quia facit 
+            <lb ed="#V" n="90"/>illud quod precipitur implendum videtur quod sit ad 
+            faci<lb ed="#V" n="91" break="no"/>endum obligatus. 
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e197">
+            <lb ed="#V" n="92"/>Contra Augu. contra mendacium inter principium 
+            <lb ed="#V" n="93"/>et medium. Qui loquitur ore veritatem 
+            ni<lb ed="#V" n="94" break="no"/>hil ei prodest si eam in corde non tenet: ergo a simili. 
+            Qui<lb ed="#V" n="95" break="no"/>ore iurat se aliquid licitum facturum non ligatur ad 
+            faci<lb ed="#V" n="96" break="no"/>endum si ita in corde non tenet.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e210">
+            ¶ Item ealiquis iurans 
+            <lb ed="#V" n="97"/>alicui quod non stabit contra eum: nihilominus potest 
+            sta<lb ed="#V" n="98" break="no"/>re contra eum pro se: vel pro ecclesia sua: vel pro 
+            communi<lb ed="#V" n="99" break="no"/>tate sua extra de iureiuran. petitio. in glo. ergo multo 
+            mi<lb ed="#V" n="100" break="no"/>nus videtur obligatus qui aliquid se facturum iurat: si 
+            <lb ed="#V" n="101"/>contrarium intendat. 
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e223">
+            <lb ed="#V" n="102"/>Respondeo quod qui dolose surat pximo suo 
+            ali<lb ed="#V" n="103" break="no"/>quid licitum se facturum vel non 
+            <lb ed="#V" n="104"/>facturum in foro iudicii: obligatur ad faciendum: vt 
+            iura<lb ed="#V" n="105" break="no"/>uit. Si contra ipsum possit probari quod iurauerit. In 
+            foro<lb ed="#V" n="106" break="no"/>autem conscientie qui tantum deum respicit: qui 
+            iudica<lb ed="#V" n="107" break="no"/>re habet non tantum de exterioribus: sed de interioribus 
+            <lb ed="#V" n="108"/>non manet obligatus ad faciendum: vt dicunt aliqui. 
+            De<lb ed="#V" n="109" break="no"/>us enim plus ponderat intentionem quam verba. 
+            Mortali<lb ed="#V" n="110" break="no"/>ter tamen peccat: quia periurat iurando se facturum quod 
+            <lb ed="#V" n="111"/>facere non proponit: et cauere tenetur indennitati proximi: quem 
+            <lb ed="#V" n="112"/>dolose iurando decipit. Aliis autem videtur quod non tantum 
+            <lb ed="#V" n="113"/>mortaliter: peccat periurando: sed etiam non tantum in 
+            <lb ed="#V" n="114"/>foro exteriori: sed etiam in foro conscientie obligatur ad 
+            <lb ed="#V" n="115"/>adimplendum quod iurat taliter ne proximus sedatur qui 
+            <lb ed="#V" n="116"/>iuramentum bona intentione recepit: quamuis enim 
+            dolo<lb ed="#V" n="117" break="no"/>se iurans se obligare non intendat explicite tamen 
+            impli<lb ed="#V" n="118" break="no"/>cite se obligare intendit inquantum intendit facere quod 
+            <lb ed="#V" n="119"/>secundum rationem rectam tenetur obseruare: vt caueatur 
+            de<lb ed="#V" n="120" break="no"/>ceptioni et indemnitati proximi. 
+            <lb ed="#V" n="121"/>Qui vult tenere primam opinionem potest 
+            <lb ed="#V" n="122"/>dicere quod duo prima 
+            argu<lb ed="#V" n="123" break="no"/>menta procedunt de obligatione quantum ad forum 
+            exterio<lb ed="#V" n="124" break="no"/>ris iudicii.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e275">
+            ¶ Ad tertium dicendum quod iuranti in dolo non 
+            pa<lb ed="#V" n="125" break="no"/>trocinatur dolus: quia mortaliter peccat quod multo grauius 
+            <lb ed="#V" n="126"/>est quam esse obligatum ad faciendum illud quod iurat.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e282">
+            ¶ Ad 
+            <lb ed="#V" n="127"/>quartum dicendum quod non valet: quia obligatio ad continentiam 
+            <lb ed="#V" n="128"/>ex statuto ecclesie annexa est ordini sacro: sed obligatio ad 
+            <lb ed="#V" n="129"/>faciendum quod iuratur: non est annexa iuramento per 
+            <lb ed="#V" n="130"/>statutum ecclesie: nisi inquantum presumitur iurans in 
+            obli<lb ed="#V" n="131" break="no"/>gationem consensisse: et ideo non est ei annexa: nisi quantum 
+            <lb ed="#V" n="132"/>ad forum iudicii: quando non intendit facere illud quod se iurat facturum. 
+            <lb ed="#V" n="133"/>Qui vult tenere aliam opinionem que aliquibus 
+            magis<lb ed="#V" n="134" break="no"/>videtur consons rationi potest dicere ad principium in 
+            op<lb ed="#V" n="135" break="no"/>positum quod plura requiruntur ad meritum quam ad hoc quod homo homin 
+            obli<lb ed="#V" n="136" break="no"/>getur. Actus enim exteriores non sunt meritorii nisi per relationem et 
+            <!--00312.xml-->
+            <pb ed="#V" n="151-v"/>
             <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g106233"><!-- l3d39a2 -->
-            <head xml:id="kzz7yh-g106233-Hd1e101">Articulus 2</head>
-            <p xml:id="kzz7yh-g106233-d1e103">
-               <lb ed="#V" n="63"/>Consequenter queritur de secundo 
-      <lb ed="#V" n="64"/>principali: et circa 
-      <lb ed="#V" n="65"/>hoc queruntur. tria.
-   </p>
-            <p xml:id="kzz7yh-g106233-d1e112">
-      ¶ Primo vtrum 
-      homo<lb ed="#V" n="66" break="no"/>obligetur per iuramentum dolosum.
-   </p>
-            <p xml:id="kzz7yh-g106233-d1e117">
-      ¶ Secundo 
-      <lb ed="#V" n="67"/>vtrum per iuramentum coactum.
-   </p>
-            <p xml:id="kzz7yh-g106233-d1e122">
-      ¶ Tertio vtrum per 
-      <lb ed="#V" n="68"/>iuramentum incautum siue indiscretum. 
-   </p>
-            <div xml:id="kzz7yh-g106233-Dd1e128">
-               <head xml:id="kzz7yh-g106233-Hd1e130">Quaestio 1</head>
-               <p xml:id="kzz7yh-g106233-d1e132">
-      Quaestio 
-      <!--00311.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>Rimo ostendo quod homo obligatur per 
-      iura<lb ed="#V" n="70" break="no"/>mentum dolosum. Isidorus. 2 
-      <lb ed="#V" n="71"/>lib. de summo bono. capitulo. 3i. et recitat 
-      magi<lb ed="#V" n="72" break="no"/>ster in littera: quacunque arte verborum quisque 
-      <lb ed="#V" n="73"/>luret: deus tamen qui conscientie testis est: ita hoc accipit 
-      <lb ed="#V" n="74"/>sicut ille cui iuratur intelligit: ergo qui iuramento 
-      promit<lb ed="#V" n="75" break="no"/>tit aliquid licitum in corde tenens contrarium: quod est 
-      <lb ed="#V" n="76"/>iurare dolose obligatur ad adimplendum.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e156">
-      ¶ Item extra 
-      <lb ed="#V" n="77"/>de iureiuran. et si christus. §. id est in glo. qualitercunque iuratur: 
-      <lb ed="#V" n="78"/>si licitum est quod inuratur seruandum est iuramentum: 
-      <lb ed="#V" n="79"/>ergo cum homo iurat aliquid licitum se facturum: siue in 
-      <lb ed="#V" n="80"/>ret dolose: siue non obligatur:
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e167">
-      ¶ Item. xxii. q. ii. In dolo 
-      <lb ed="#V" n="81"/>iurat qui aliter facturus est quam promittit. glo. i: qui aliter 
-      pro<lb ed="#V" n="82" break="no"/>ponit facere: sed vt habetur extra de rescriptis. Sedes 
-      apo<lb ed="#V" n="83" break="no"/>stolica. Fraus et dolus alicui patrocinari non debent: 
-      er<lb ed="#V" n="84" break="no"/>go predicto modo iuranti non patrocinatur dolus eius 
-      <lb ed="#V" n="85"/>quin maneat obligatus.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e180">
-      ¶ Item recipiens sacrum 
-      ordi<lb ed="#V" n="86" break="no"/>nem: et si non intendat se obligare ad continentiam: tamen 
-      <lb ed="#V" n="87"/>quia talibus precipitur continere est ad continentiam 
-      ob<lb ed="#V" n="88" break="no"/>ligatus: ergo similiter cum aliquis iurat aliquod licitum 
-      <lb ed="#V" n="89"/>se facturum: quamuis non intendat facere: tamen quia facit 
-      <lb ed="#V" n="90"/>illud quod precipitur implendum videtur quod sit ad 
-      faci<lb ed="#V" n="91" break="no"/>endum obligatus. 
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e197">
-                  <lb ed="#V" n="92"/>Contra Augu. contra mendacium inter principium 
-      <lb ed="#V" n="93"/>et medium. Qui loquitur ore veritatem 
-      ni<lb ed="#V" n="94" break="no"/>hil ei prodest si eam in corde non tenet: ergo a simili. 
-      Qui<lb ed="#V" n="95" break="no"/>ore iurat se aliquid licitum facturum non ligatur ad 
-      faci<lb ed="#V" n="96" break="no"/>endum si ita in corde non tenet.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e210">
-      ¶ Item ealiquis iurans 
-      <lb ed="#V" n="97"/>alicui quod non stabit contra eum: nihilominus potest 
-      sta<lb ed="#V" n="98" break="no"/>re contra eum pro se: vel pro ecclesia sua: vel pro 
-      communi<lb ed="#V" n="99" break="no"/>tate sua extra de iureiuran. petitio. in glo. ergo multo 
-      mi<lb ed="#V" n="100" break="no"/>nus videtur obligatus qui aliquid se facturum iurat: si 
-      <lb ed="#V" n="101"/>contrarium intendat. 
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e223">
-                  <lb ed="#V" n="102"/>Respondeo quod qui dolose surat pximo suo 
-      ali<lb ed="#V" n="103" break="no"/>quid licitum se facturum vel non 
-      <lb ed="#V" n="104"/>facturum in foro iudicii: obligatur ad faciendum: vt 
-      iura<lb ed="#V" n="105" break="no"/>uit. Si contra ipsum possit probari quod iurauerit. In 
-      foro<lb ed="#V" n="106" break="no"/>autem conscientie qui tantum deum respicit: qui 
-      iudica<lb ed="#V" n="107" break="no"/>re habet non tantum de exterioribus: sed de interioribus 
-      <lb ed="#V" n="108"/>non manet obligatus ad faciendum: vt dicunt aliqui. 
-      De<lb ed="#V" n="109" break="no"/>us enim plus ponderat intentionem quam verba. 
-      Mortali<lb ed="#V" n="110" break="no"/>ter tamen peccat: quia periurat iurando se facturum quod 
-      <lb ed="#V" n="111"/>facere non proponit: et cauere tenetur indennitati proximi: quem 
-      <lb ed="#V" n="112"/>dolose iurando decipit. Aliis autem videtur quod non tantum 
-      <lb ed="#V" n="113"/>mortaliter: peccat periurando: sed etiam non tantum in 
-      <lb ed="#V" n="114"/>foro exteriori: sed etiam in foro conscientie obligatur ad 
-      <lb ed="#V" n="115"/>adimplendum quod iurat taliter ne proximus sedatur qui 
-      <lb ed="#V" n="116"/>iuramentum bona intentione recepit: quamuis enim 
-      dolo<lb ed="#V" n="117" break="no"/>se iurans se obligare non intendat explicite tamen 
-      impli<lb ed="#V" n="118" break="no"/>cite se obligare intendit inquantum intendit facere quod 
-      <lb ed="#V" n="119"/>secundum rationem rectam tenetur obseruare: vt caueatur 
-      de<lb ed="#V" n="120" break="no"/>ceptioni et indemnitati proximi. 
-      <lb ed="#V" n="121"/>Qui vult tenere primam opinionem potest 
-      <lb ed="#V" n="122"/>dicere quod duo prima 
-      argu<lb ed="#V" n="123" break="no"/>menta procedunt de obligatione quantum ad forum 
-      exterio<lb ed="#V" n="124" break="no"/>ris iudicii.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e275">
-      ¶ Ad tertium dicendum quod iuranti in dolo non 
-      pa<lb ed="#V" n="125" break="no"/>trocinatur dolus: quia mortaliter peccat quod multo grauius 
-      <lb ed="#V" n="126"/>est quam esse obligatum ad faciendum illud quod iurat.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e282">
-      ¶ Ad 
-      <lb ed="#V" n="127"/>quartum dicendum quod non valet: quia obligatio ad continentiam 
-      <lb ed="#V" n="128"/>ex statuto ecclesie annexa est ordini sacro: sed obligatio ad 
-      <lb ed="#V" n="129"/>faciendum quod iuratur: non est annexa iuramento per 
-      <lb ed="#V" n="130"/>statutum ecclesie: nisi inquantum presumitur iurans in 
-      obli<lb ed="#V" n="131" break="no"/>gationem consensisse: et ideo non est ei annexa: nisi quantum 
-      <lb ed="#V" n="132"/>ad forum iudicii: quando non intendit facere illud quod se iurat facturum. 
-      <lb ed="#V" n="133"/>Qui vult tenere aliam opinionem que aliquibus 
-      magis<lb ed="#V" n="134" break="no"/>videtur consons rationi potest dicere ad principium in 
-      op<lb ed="#V" n="135" break="no"/>positum quod plura requiruntur ad meritum quam ad hoc quod homo homin 
-      obli<lb ed="#V" n="136" break="no"/>getur. Actus enim exteriores non sunt meritorii nisi per relationem et 
-      <!--00312.xml-->
-      <pb ed="#V" n="151-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>conformitatem ad interiores actus: sed actus exterior 
-      be<lb ed="#V" n="2" break="no"/>ne est obligatorius: quamuis in obligationem non 
-      consen<lb ed="#V" n="3" break="no"/>tiat explicite homo interius: et hoc propter causam 
-      in<lb ed="#V" n="4" break="no"/>questione dictam.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e321">
-      ¶ Ad secundum dicendum quod non 
-      va<lb ed="#V" n="5" break="no"/>let. Illo enim generali sermone non includitur nec ipse: 
-      <lb ed="#V" n="6"/>nec sua ecclesia: nec communitas sua: vt enim dicit glo. ibidem: 
-      <lb ed="#V" n="7"/>et. C. de solutionibus. Inquisitio. generali sermone non 
-      <lb ed="#V" n="8"/>continetur persona loquentis: vnde si postea stat 
-      contra<lb ed="#V" n="9" break="no"/>eum in casibus predictis non facit contra suum 
-      iuramen<lb ed="#V" n="10" break="no"/>tum 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g106233-Dd1e338">
-               <head xml:id="kzz7yh-g106233-Hd1e340">Quaestio 2</head>
-               <p xml:id="kzz7yh-g106233-d1e342">
-      Questio. II. 
-      <lb ed="#V" n="11"/>SEcundo queritur vtrum homo 
-      obli<lb ed="#V" n="12" break="no"/>getur per iuramentum 
-      coa<lb ed="#V" n="13" break="no"/>ctum: et videtur quod sic: extra de iureiu. si vero 
-      ali<lb ed="#V" n="14" break="no"/>quis dicit papa a pluribus predecessoribus 
-      no<lb ed="#V" n="15" break="no"/>stris factum esse recolitur quod clerici qui coactum ministerium ecclsie 
-      <lb ed="#V" n="16"/>abiurarunt de iuramento absolutionis beneficium meruerunt et 
-      <lb ed="#V" n="17"/>ad coercendam iniquitatem eorum qui eccliasticos viros ad 
-      praestan<lb ed="#V" n="18" break="no"/>dum illud compellunt permisu sunt in eadem ecclesia ministrare: sed 
-      <lb ed="#V" n="19"/>non requiretur absolutio: nisi praecessisset obligatio: ergo 
-      obliga<lb ed="#V" n="20" break="no"/>tio contrahitur per iuramentum coactum.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e366">
-      ¶ Item iuramentum 
-      pro<lb ed="#V" n="21" break="no"/>mifforium: quod habet comites iudicium: et iustitiam: et veritatem est 
-      <lb ed="#V" n="22"/>obligatorium: sed coactio non remouet a iuramento aliquem 
-      isto<lb ed="#V" n="23" break="no"/>rum communitum: ergo iuramentum coactum est obligatorium.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e375">
-      ¶ Item 
-      <lb ed="#V" n="24"/>obligatio est per interiorem voluntatis actum: sed voluntas 
-      <lb ed="#V" n="25"/>quantum ad illum actum sufficienter cogi non potest: ergo nulla coactio 
-      <lb ed="#V" n="26"/>impedit: quin per iuramentum permissorium voluntas se obliget. 
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e384">
-                  <lb ed="#V" n="27"/>Contra extra de his que vi metus ve causa funt. 
-      Ab<lb ed="#V" n="28" break="no"/>bas que metu: et vi siunt de iure debent in 
-      irri<lb ed="#V" n="29" break="no"/>tum reuocari: ergo iuramentum coactum non est vere 
-      obligato<lb ed="#V" n="30" break="no"/>rium.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e396">
-      ¶ Item. ff. de eo quod metus causa l. iii. ait praetor. quod metus 
-      <lb ed="#V" n="31"/>causa gestum erit ratum non habeo: sed hoc non est nisi quia 
-      me<lb ed="#V" n="32" break="no"/>tus aliquo modo cogit: ergo coactum iuramentum non obligat. 
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e403">
-                  <lb ed="#V" n="33"/>Respondeo quod hominem obligari per suramntum 
-      coa<lb ed="#V" n="34" break="no"/>ctum dupliciter potest intelligi: autm quantum 
-      <lb ed="#V" n="35"/>ad forum conscientie: aut quantum ad forum exterioris iudicii. 
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e412">
-                  <lb ed="#V" n="36"/>¶ Primo modo credo quod si intendebat se obligare quamuis 
-      <lb ed="#V" n="37"/>coactus quod obligatus est: quia voluntas ad consentiendum 
-      nul<lb ed="#V" n="38" break="no"/>lam sufficienti coactione cogi potest. Si tamen compulsus est per 
-      me<lb ed="#V" n="39" break="no"/>tum qui cadere debet in constantem virum: iudex debet illud iu 
-      <lb ed="#V" n="40"/>ramentum relaxare: vel partem aduersam ad relaxandum 
-      <lb ed="#V" n="41"/>compellere ne ille qui eum compulit ex sua malitia commodum 
-      re<lb ed="#V" n="42" break="no"/>portet: et huic concordat illud quod allegatum est in artiatro 
-      pri<lb ed="#V" n="43" break="no"/>mo. ad partem primam. Si autem quantum ad forum exterioris 
-      iu<lb ed="#V" n="44" break="no"/>dicii distinguendum est: quia aut inducitur ad iurandum per 
-      <lb ed="#V" n="45"/>leuem metum: aut per metum qui cadere potest in homine 
-      constan<lb ed="#V" n="46" break="no"/>tissimo. Primo modo obligatur ad implendum quod iurauit: si tamen 
-      <lb ed="#V" n="47"/>licitum est. Unde de metum excusante dicitur. ff. de eo quod 
-      me<lb ed="#V" n="48" break="no"/>tus causascilicet metum. Metum non vani hominis. Sed qui et in 
-      homi<lb ed="#V" n="49" break="no"/>ne constantissimo cadat. Ad hoc edictum pertinere dicimus. 
-      <lb ed="#V" n="50"/>hoc etiam probatur per illud quod dicitur extra de his que vi metusue 
-      <lb ed="#V" n="51"/>causa fiunt: ad audientiam. Secundo modo quantum ad aliquos 
-      <lb ed="#V" n="52"/>casus obligatio nulla est ipso iure: vt in contractu matrimonii 
-      <lb ed="#V" n="53"/>extra de sponsalibus. cum locum: vbi dicitur quod locum consensus non 
-      <lb ed="#V" n="54"/>habet: vbi metus vel coactio intercedit. Et in traditione 
-      <lb ed="#V" n="55"/>seu promissione rei ecclesiastice. extra de iureiuram c. 2. Et 
-      <lb ed="#V" n="56"/>in pluribus aliis casibus quos enumerare non opetet ad 
-      pre<lb ed="#V" n="57" break="no"/>sens necocium. In aliquibus autem casibus non est irrita ipso 
-      <lb ed="#V" n="58"/>iure: sed rescindi potest ipso iure per actionem: et per 
-      exceptio<lb ed="#V" n="59" break="no"/>nem. ff. de eo quod metus causacilicet metum autem praesentem. § sed quod 
-      pre<lb ed="#V" n="60" break="no"/>tor. vbi dicitur quod in negociis perfectis et exceptionem interdum 
-      <lb ed="#V" n="61"/>et actionem competere in imperfectis autem solum exceptionem. 
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e471">
-                  <lb ed="#V" n="62"/>¶ Argumenta ad partem primam procedunt de 
-      obliga<lb ed="#V" n="63" break="no"/>tione in foro iudicii exterioris.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-g106233-Dd1e479">
-               <head xml:id="kzz7yh-g106233-Hd1e481">Quaestio 3</head>
-               <p xml:id="kzz7yh-g106233-d1e483">
-      Quaestio III. 
-      <lb ed="#V" n="64"/>Ertio queritur vtrum homo obligetur per 
-      <lb ed="#V" n="65"/>iuramentum incautum: et videtur quod sic 
-      <lb ed="#V" n="66"/>Iosue. 9. habetur quod Iosue fecit pacem cum 
-      Ga<lb ed="#V" n="67" break="no"/>baonitis: et inito sedere pollicitus est: vt non 
-      occi<lb ed="#V" n="68" break="no"/>derentur: principes quoque multitudinis iurauerunt eis: et tamen 
-      <!--00312.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>illicitum fuit iuramentum cum deus eis precepisset vt 
-      <lb ed="#V" n="70"/>hominibus terre illius non inirent fedus: vt habetur Exo. 23. 
-      <lb ed="#V" n="71"/>Et tamen Iosue seruauit iuramentum et cum ergo de hoc 
-      <lb ed="#V" n="72"/>non sit reprehensus: videtur quod iuramentum incautum 
-      ob<lb ed="#V" n="73" break="no"/>liget
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e511">
-      ¶ Item. 22 q. 4. Innocens. §. vlti quod illicitum iura 
-      <lb ed="#V" n="74"/>mentum obseruari prohibetur: non est generaliter 
-      intelli<lb ed="#V" n="75" break="no"/>gendum: ergo est aliquod iuramentum illicitum 
-      obseruan<lb ed="#V" n="76" break="no"/>dum: sed omne iuramentum illicitum est incautum.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e520">
-      ¶ Item 
-      <lb ed="#V" n="77"/>eodem . §. videtur sentire Gratianus quod iuramentum de 
-      <lb ed="#V" n="78"/>non assumendo vestem religionis nulla auctoritate 
-      prohi<lb ed="#V" n="79" break="no"/>betur seruari: sed tale iuramentum incautum est: quia est 
-      con<lb ed="#V" n="80" break="no"/>tra diuinum consilium: ergo aliquod inuramentum 
-      incau<lb ed="#V" n="81" break="no"/>tum est obligatorium
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e533">
-      ¶ Item. 83. distin. Florentinum. 
-      Ur<lb ed="#V" n="82" break="no"/>detur velle Grego. quod si aliquis tactis sacrosanctis 
-      euan<lb ed="#V" n="83" break="no"/>geliis iuret se non recepturum episcoatum: et postea eligatur 
-      <lb ed="#V" n="84"/>repellendus est quod non videretur verum: nisi tale 
-      iu<lb ed="#V" n="85" break="no"/>ramentum esset seruandum: sed tale iuramentum est 
-      in<lb ed="#V" n="86" break="no"/>cautum: cum statui perfectionis deroget: ergo aliquando 
-      <lb ed="#V" n="87"/>iuramentum incautum est obligatorium. 
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e550">
-                  <lb ed="#V" n="88"/>Contra 22 q. iii. et recitat magister in littera. Ine 
-      ma<lb ed="#V" n="89" break="no"/>lis promissis rescinde fidem in turpori 
-      voto<lb ed="#V" n="90" break="no"/>muta decretum: quod incaute vouisti non facias: ergo a 
-      <lb ed="#V" n="91"/>simili non est faciendum quod est incaute iuratum.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e561">
-      ¶ Item 
-      <lb ed="#V" n="92"/>eadem quaestione. Si aliquod forte incautius nos iurasse 
-      con<lb ed="#V" n="93" break="no"/>tigerit: quod seruatum peiorem vergat in exitum: illud 
-      sa<lb ed="#V" n="94" break="no"/>lubriori mutandum consilio nouerimus. 
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e570">
-                  <lb ed="#V" n="95"/>Respondeo quod iuramentum potest esse 
-      incau<lb ed="#V" n="96" break="no"/>tum: vel ratione modi iurandi: vel 
-      <lb ed="#V" n="97"/>ratione eius quod iuratum est. Primo modo dupliciter 
-      <lb ed="#V" n="98"/>scilicet vel quia non est factum ex deliberatione: et sic non ob 
-      <lb ed="#V" n="99"/>ligat de necessitate: sed tantum de congruitate: etiam si licitum 
-      <lb ed="#V" n="100"/>sit quod iuratur. Aut quia non sit cum debita reuerentia: et 
-      <lb ed="#V" n="101"/>sic peccat homo iurando: et obligatur ad obseruandum quod 
-      <lb ed="#V" n="102"/>iurauit: si licitum est quod iurauit: iuramentum autem 
-      in<lb ed="#V" n="103" break="no"/>cautum ratione huius quod inuratum est: est omne illud quo 
-      <lb ed="#V" n="104"/>iuratum est aliquid derogans charitati: et nullum tale 
-      iu<lb ed="#V" n="105" break="no"/>ramentum obligat iurantem ad obseruandum: peccat 
-      ta<lb ed="#V" n="106" break="no"/>men qui sic iurat: quia omnia diuina precepta: et consilia 
-      ordinan<lb ed="#V" n="107" break="no"/>tur ad charitatem: quia sicut dicit Apostolus I ad 
-      Ti<lb ed="#V" n="108" break="no"/>mo 1. Finis precepti est charitas. Nullum iuramentum 
-      <lb ed="#V" n="109"/>est obligatorium: quod derogat alicui precepto: seu 
-      consi<lb ed="#V" n="110" break="no"/>lio: quia etiam quodlibet peccatum mortale derogat alicui 
-      <lb ed="#V" n="111"/>diuino precepto: quia est contra aliquod diuinum 
-      prece<lb ed="#V" n="112" break="no"/>ptum: et etiam per peccatum veniale inquantum est 
-      que<lb ed="#V" n="113" break="no"/>dam obliquatio a rectitudine diuinorum preceptorum: et 
-      <lb ed="#V" n="114"/>dispositio ad mortale peccatum: ideo nullum iuramentum 
-      <lb ed="#V" n="115"/>de faciendo aliquod peccatum mortale: vel veniale est 
-      ob<lb ed="#V" n="116" break="no"/>ligatorium: quia etiam diuina consilia sunt de bonis 
-      ope<lb ed="#V" n="117" break="no"/>ribus supererogationis: et perfectionis: ideo nullum 
-      iura<lb ed="#V" n="118" break="no"/>mentum de non faciendo aliquod bonum opus super 
-      ero<lb ed="#V" n="119" break="no"/>gationis: vel faciendo contrarium bonis operibus super 
-      <lb ed="#V" n="120"/>erogationis obligat. Nec etiam iuramentum de non 
-      fa<lb ed="#V" n="121" break="no"/>ciendo ea que melius est facere quam non facere: vel de 
-      faci<lb ed="#V" n="122" break="no"/>endo ea que melius est non facere quam facere: ideo iurans 
-      <lb ed="#V" n="123"/>quod non retinebit aliquem in suo seruitio: quem alias 
-      me<lb ed="#V" n="124" break="no"/>lius esset retinere quam non retinere: vel quod non loquatur 
-      pro<lb ed="#V" n="125" break="no"/>ximo cum quo alias melius esset loqui quam non loqui: vel 
-      <lb ed="#V" n="126"/>quod non faciet sibi consolationem vel subuentionem 
-      tem<lb ed="#V" n="127" break="no"/>poralem vel spiritualem: que alias melius esset facere quam 
-      <lb ed="#V" n="128"/>non facere: vel quod non visitabit eum in domo sua 
-      quem<lb ed="#V" n="129" break="no"/>alias melius esset in domo visitare quam non visitare: et sic de 
-      <lb ed="#V" n="130"/>similibus non obligatur ad obseruandum quod iurauit: 
-      <lb ed="#V" n="131"/>quia etiam status religionis et prelationis sunt status 
-      per<lb ed="#V" n="132" break="no"/>fecti: ideo qui iurat se nunquam intraturum religionem: vel 
-      <lb ed="#V" n="133"/>non recepturum prelationem: non obligatur ad 
-      obseruan<lb ed="#V" n="134" break="no"/>dum quod iurauit: propter tantum reuerentiam diuini nominis 
-      in<lb ed="#V" n="135" break="no"/>uocati: et ad punitionem temeritatis sic iurantium: et propter 
-      reue<lb ed="#V" n="136" break="no"/>tentiam illorum qui praesunt non debet homo propria auctoritate venire 
-      <!--00313.xml-->
-      <pb ed="#V" n="152-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>contra quodlibet iuramentum: sed pro aliquibus debet 
-      re<lb ed="#V" n="2" break="no"/>currere ad suum superiorem qui ipsum a tali iuramento 
-      de<lb ed="#V" n="3" break="no"/>bet absoluere vel declarare ipsum non esse obligatum maxime 
-      <lb ed="#V" n="4"/>quando potest oriri dubium obseruatum: vergat in 
-      peio<lb ed="#V" n="5" break="no"/>rem exitum quam non obseruatur.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e681">
-      ¶ Contra tamen 
-      quodli<lb ed="#V" n="6" break="no"/>bet iuramentum quod ratione rei iurate derogt charitat i vel 
-      <lb ed="#V" n="7"/>tius perfectioni vel disponentibus ad eam: potest homo 
-      <lb ed="#V" n="8"/>venire propria auctoritate in casu necessitatis. 
-    </p>
-               <p xml:id="kzz7yh-g106233-d1e690">
-                  <lb ed="#V" n="9"/>Ad primum in oppositum dicendum quod deus non 
-      praece<lb ed="#V" n="10" break="no"/>perat filiis israel occidere illos qui 
-      <lb ed="#V" n="11"/>habitabant in terra promissionis: nisi essent 
-      incorrigibi<lb ed="#V" n="12" break="no"/>les: quales non fuerunt Gabaonites. Unde non fuit contra 
-      <lb ed="#V" n="13"/>diuinum praeceptum non occidere eos: maxime cum eos 
-      subiu<lb ed="#V" n="14" break="no"/>gauerit Iosue seruituti que est mors ciuilis.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e706">
-      ¶ Ad secundum 
-      <lb ed="#V" n="15"/>dicendum quod ibi non debet teneri Gratianus.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e712">
-      ¶ Ad tertium 
-      <lb ed="#V" n="16"/>dicendum quod quamuis tale iuramentum nulla auctoritate 
-      pro<lb ed="#V" n="17" break="no"/>hibeatur seruari: non tamen precipitur seruari: et ideo non sequitur 
-      <lb ed="#V" n="18"/>quod homo obligetur per tale iuramentum.
-   </p>
-               <p xml:id="kzz7yh-g106233-d1e721">
-      ¶ Ad quartum 
-      <lb ed="#V" n="19"/>dicendum quod ille qui iurat se nunquam recepturum episaoatum non 
-      re<lb ed="#V" n="20" break="no"/>pellitur ab episctoatu: quia tale iuramentu obliget: sed quia sic 
-      so<lb ed="#V" n="21" break="no"/>lemniter iurando cum illicitum fuerit iuramentum grauiter 
-      <lb ed="#V" n="22"/>peccauit: et propter huius peccatum repellitur. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="1"/>conformitatem ad interiores actus: sed actus exterior 
+            be<lb ed="#V" n="2" break="no"/>ne est obligatorius: quamuis in obligationem non 
+            consen<lb ed="#V" n="3" break="no"/>tiat explicite homo interius: et hoc propter causam 
+            in<lb ed="#V" n="4" break="no"/>questione dictam.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e321">
+            ¶ Ad secundum dicendum quod non 
+            va<lb ed="#V" n="5" break="no"/>let. Illo enim generali sermone non includitur nec ipse: 
+            <lb ed="#V" n="6"/>nec sua ecclesia: nec communitas sua: vt enim dicit glo. ibidem: 
+            <lb ed="#V" n="7"/>et. C. de solutionibus. Inquisitio. generali sermone non 
+            <lb ed="#V" n="8"/>continetur persona loquentis: vnde si postea stat 
+            contra<lb ed="#V" n="9" break="no"/>eum in casibus predictis non facit contra suum 
+            iuramen<lb ed="#V" n="10" break="no"/>tum 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g106233-Dd1e338">
+          <head xml:id="kzz7yh-g106233-Hd1e340">Quaestio 2</head>
+          <p xml:id="kzz7yh-g106233-d1e342">
+            Questio. II. 
+            <lb ed="#V" n="11"/>SEcundo queritur vtrum homo 
+            obli<lb ed="#V" n="12" break="no"/>getur per iuramentum 
+            coa<lb ed="#V" n="13" break="no"/>ctum: et videtur quod sic: extra de iureiu. si vero 
+            ali<lb ed="#V" n="14" break="no"/>quis dicit papa a pluribus predecessoribus 
+            no<lb ed="#V" n="15" break="no"/>stris factum esse recolitur quod clerici qui coactum ministerium ecclsie 
+            <lb ed="#V" n="16"/>abiurarunt de iuramento absolutionis beneficium meruerunt et 
+            <lb ed="#V" n="17"/>ad coercendam iniquitatem eorum qui eccliasticos viros ad 
+            praestan<lb ed="#V" n="18" break="no"/>dum illud compellunt permisu sunt in eadem ecclesia ministrare: sed 
+            <lb ed="#V" n="19"/>non requiretur absolutio: nisi praecessisset obligatio: ergo 
+            obliga<lb ed="#V" n="20" break="no"/>tio contrahitur per iuramentum coactum.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e366">
+            ¶ Item iuramentum 
+            pro<lb ed="#V" n="21" break="no"/>mifforium: quod habet comites iudicium: et iustitiam: et veritatem est 
+            <lb ed="#V" n="22"/>obligatorium: sed coactio non remouet a iuramento aliquem 
+            isto<lb ed="#V" n="23" break="no"/>rum communitum: ergo iuramentum coactum est obligatorium.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e375">
+            ¶ Item 
+            <lb ed="#V" n="24"/>obligatio est per interiorem voluntatis actum: sed voluntas 
+            <lb ed="#V" n="25"/>quantum ad illum actum sufficienter cogi non potest: ergo nulla coactio 
+            <lb ed="#V" n="26"/>impedit: quin per iuramentum permissorium voluntas se obliget. 
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e384">
+            <lb ed="#V" n="27"/>Contra extra de his que vi metus ve causa funt. 
+            Ab<lb ed="#V" n="28" break="no"/>bas que metu: et vi siunt de iure debent in 
+            irri<lb ed="#V" n="29" break="no"/>tum reuocari: ergo iuramentum coactum non est vere 
+            obligato<lb ed="#V" n="30" break="no"/>rium.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e396">
+            ¶ Item. ff. de eo quod metus causa l. iii. ait praetor. quod metus 
+            <lb ed="#V" n="31"/>causa gestum erit ratum non habeo: sed hoc non est nisi quia 
+            me<lb ed="#V" n="32" break="no"/>tus aliquo modo cogit: ergo coactum iuramentum non obligat. 
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e403">
+            <lb ed="#V" n="33"/>Respondeo quod hominem obligari per suramntum 
+            coa<lb ed="#V" n="34" break="no"/>ctum dupliciter potest intelligi: autm quantum 
+            <lb ed="#V" n="35"/>ad forum conscientie: aut quantum ad forum exterioris iudicii. 
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e412">
+            <lb ed="#V" n="36"/>¶ Primo modo credo quod si intendebat se obligare quamuis 
+            <lb ed="#V" n="37"/>coactus quod obligatus est: quia voluntas ad consentiendum 
+            nul<lb ed="#V" n="38" break="no"/>lam sufficienti coactione cogi potest. Si tamen compulsus est per 
+            me<lb ed="#V" n="39" break="no"/>tum qui cadere debet in constantem virum: iudex debet illud iu 
+            <lb ed="#V" n="40"/>ramentum relaxare: vel partem aduersam ad relaxandum 
+            <lb ed="#V" n="41"/>compellere ne ille qui eum compulit ex sua malitia commodum 
+            re<lb ed="#V" n="42" break="no"/>portet: et huic concordat illud quod allegatum est in artiatro 
+            pri<lb ed="#V" n="43" break="no"/>mo. ad partem primam. Si autem quantum ad forum exterioris 
+            iu<lb ed="#V" n="44" break="no"/>dicii distinguendum est: quia aut inducitur ad iurandum per 
+            <lb ed="#V" n="45"/>leuem metum: aut per metum qui cadere potest in homine 
+            constan<lb ed="#V" n="46" break="no"/>tissimo. Primo modo obligatur ad implendum quod iurauit: si tamen 
+            <lb ed="#V" n="47"/>licitum est. Unde de metum excusante dicitur. ff. de eo quod 
+            me<lb ed="#V" n="48" break="no"/>tus causascilicet metum. Metum non vani hominis. Sed qui et in 
+            homi<lb ed="#V" n="49" break="no"/>ne constantissimo cadat. Ad hoc edictum pertinere dicimus. 
+            <lb ed="#V" n="50"/>hoc etiam probatur per illud quod dicitur extra de his que vi metusue 
+            <lb ed="#V" n="51"/>causa fiunt: ad audientiam. Secundo modo quantum ad aliquos 
+            <lb ed="#V" n="52"/>casus obligatio nulla est ipso iure: vt in contractu matrimonii 
+            <lb ed="#V" n="53"/>extra de sponsalibus. cum locum: vbi dicitur quod locum consensus non 
+            <lb ed="#V" n="54"/>habet: vbi metus vel coactio intercedit. Et in traditione 
+            <lb ed="#V" n="55"/>seu promissione rei ecclesiastice. extra de iureiuram c. 2. Et 
+            <lb ed="#V" n="56"/>in pluribus aliis casibus quos enumerare non opetet ad 
+            pre<lb ed="#V" n="57" break="no"/>sens necocium. In aliquibus autem casibus non est irrita ipso 
+            <lb ed="#V" n="58"/>iure: sed rescindi potest ipso iure per actionem: et per 
+            exceptio<lb ed="#V" n="59" break="no"/>nem. ff. de eo quod metus causacilicet metum autem praesentem. § sed quod 
+            pre<lb ed="#V" n="60" break="no"/>tor. vbi dicitur quod in negociis perfectis et exceptionem interdum 
+            <lb ed="#V" n="61"/>et actionem competere in imperfectis autem solum exceptionem. 
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e471">
+            <lb ed="#V" n="62"/>¶ Argumenta ad partem primam procedunt de 
+            obliga<lb ed="#V" n="63" break="no"/>tione in foro iudicii exterioris.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-g106233-Dd1e479">
+          <head xml:id="kzz7yh-g106233-Hd1e481">Quaestio 3</head>
+          <p xml:id="kzz7yh-g106233-d1e483">
+            Quaestio III. 
+            <lb ed="#V" n="64"/>Ertio queritur vtrum homo obligetur per 
+            <lb ed="#V" n="65"/>iuramentum incautum: et videtur quod sic 
+            <lb ed="#V" n="66"/>Iosue. 9. habetur quod Iosue fecit pacem cum 
+            Ga<lb ed="#V" n="67" break="no"/>baonitis: et inito sedere pollicitus est: vt non 
+            occi<lb ed="#V" n="68" break="no"/>derentur: principes quoque multitudinis iurauerunt eis: et tamen 
+            <!--00312.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>illicitum fuit iuramentum cum deus eis precepisset vt 
+            <lb ed="#V" n="70"/>hominibus terre illius non inirent fedus: vt habetur Exo. 23. 
+            <lb ed="#V" n="71"/>Et tamen Iosue seruauit iuramentum et cum ergo de hoc 
+            <lb ed="#V" n="72"/>non sit reprehensus: videtur quod iuramentum incautum 
+            ob<lb ed="#V" n="73" break="no"/>liget
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e511">
+            ¶ Item. 22 q. 4. Innocens. §. vlti quod illicitum iura 
+            <lb ed="#V" n="74"/>mentum obseruari prohibetur: non est generaliter 
+            intelli<lb ed="#V" n="75" break="no"/>gendum: ergo est aliquod iuramentum illicitum 
+            obseruan<lb ed="#V" n="76" break="no"/>dum: sed omne iuramentum illicitum est incautum.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e520">
+            ¶ Item 
+            <lb ed="#V" n="77"/>eodem . §. videtur sentire Gratianus quod iuramentum de 
+            <lb ed="#V" n="78"/>non assumendo vestem religionis nulla auctoritate 
+            prohi<lb ed="#V" n="79" break="no"/>betur seruari: sed tale iuramentum incautum est: quia est 
+            con<lb ed="#V" n="80" break="no"/>tra diuinum consilium: ergo aliquod inuramentum 
+            incau<lb ed="#V" n="81" break="no"/>tum est obligatorium
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e533">
+            ¶ Item. 83. distin. Florentinum. 
+            Ur<lb ed="#V" n="82" break="no"/>detur velle Grego. quod si aliquis tactis sacrosanctis 
+            euan<lb ed="#V" n="83" break="no"/>geliis iuret se non recepturum episcoatum: et postea eligatur 
+            <lb ed="#V" n="84"/>repellendus est quod non videretur verum: nisi tale 
+            iu<lb ed="#V" n="85" break="no"/>ramentum esset seruandum: sed tale iuramentum est 
+            in<lb ed="#V" n="86" break="no"/>cautum: cum statui perfectionis deroget: ergo aliquando 
+            <lb ed="#V" n="87"/>iuramentum incautum est obligatorium. 
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e550">
+            <lb ed="#V" n="88"/>Contra 22 q. iii. et recitat magister in littera. Ine 
+            ma<lb ed="#V" n="89" break="no"/>lis promissis rescinde fidem in turpori 
+            voto<lb ed="#V" n="90" break="no"/>muta decretum: quod incaute vouisti non facias: ergo a 
+            <lb ed="#V" n="91"/>simili non est faciendum quod est incaute iuratum.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e561">
+            ¶ Item 
+            <lb ed="#V" n="92"/>eadem quaestione. Si aliquod forte incautius nos iurasse 
+            con<lb ed="#V" n="93" break="no"/>tigerit: quod seruatum peiorem vergat in exitum: illud 
+            sa<lb ed="#V" n="94" break="no"/>lubriori mutandum consilio nouerimus. 
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e570">
+            <lb ed="#V" n="95"/>Respondeo quod iuramentum potest esse 
+            incau<lb ed="#V" n="96" break="no"/>tum: vel ratione modi iurandi: vel 
+            <lb ed="#V" n="97"/>ratione eius quod iuratum est. Primo modo dupliciter 
+            <lb ed="#V" n="98"/>scilicet vel quia non est factum ex deliberatione: et sic non ob 
+            <lb ed="#V" n="99"/>ligat de necessitate: sed tantum de congruitate: etiam si licitum 
+            <lb ed="#V" n="100"/>sit quod iuratur. Aut quia non sit cum debita reuerentia: et 
+            <lb ed="#V" n="101"/>sic peccat homo iurando: et obligatur ad obseruandum quod 
+            <lb ed="#V" n="102"/>iurauit: si licitum est quod iurauit: iuramentum autem 
+            in<lb ed="#V" n="103" break="no"/>cautum ratione huius quod inuratum est: est omne illud quo 
+            <lb ed="#V" n="104"/>iuratum est aliquid derogans charitati: et nullum tale 
+            iu<lb ed="#V" n="105" break="no"/>ramentum obligat iurantem ad obseruandum: peccat 
+            ta<lb ed="#V" n="106" break="no"/>men qui sic iurat: quia omnia diuina precepta: et consilia 
+            ordinan<lb ed="#V" n="107" break="no"/>tur ad charitatem: quia sicut dicit Apostolus I ad 
+            Ti<lb ed="#V" n="108" break="no"/>mo 1. Finis precepti est charitas. Nullum iuramentum 
+            <lb ed="#V" n="109"/>est obligatorium: quod derogat alicui precepto: seu 
+            consi<lb ed="#V" n="110" break="no"/>lio: quia etiam quodlibet peccatum mortale derogat alicui 
+            <lb ed="#V" n="111"/>diuino precepto: quia est contra aliquod diuinum 
+            prece<lb ed="#V" n="112" break="no"/>ptum: et etiam per peccatum veniale inquantum est 
+            que<lb ed="#V" n="113" break="no"/>dam obliquatio a rectitudine diuinorum preceptorum: et 
+            <lb ed="#V" n="114"/>dispositio ad mortale peccatum: ideo nullum iuramentum 
+            <lb ed="#V" n="115"/>de faciendo aliquod peccatum mortale: vel veniale est 
+            ob<lb ed="#V" n="116" break="no"/>ligatorium: quia etiam diuina consilia sunt de bonis 
+            ope<lb ed="#V" n="117" break="no"/>ribus supererogationis: et perfectionis: ideo nullum 
+            iura<lb ed="#V" n="118" break="no"/>mentum de non faciendo aliquod bonum opus super 
+            ero<lb ed="#V" n="119" break="no"/>gationis: vel faciendo contrarium bonis operibus super 
+            <lb ed="#V" n="120"/>erogationis obligat. Nec etiam iuramentum de non 
+            fa<lb ed="#V" n="121" break="no"/>ciendo ea que melius est facere quam non facere: vel de 
+            faci<lb ed="#V" n="122" break="no"/>endo ea que melius est non facere quam facere: ideo iurans 
+            <lb ed="#V" n="123"/>quod non retinebit aliquem in suo seruitio: quem alias 
+            me<lb ed="#V" n="124" break="no"/>lius esset retinere quam non retinere: vel quod non loquatur 
+            pro<lb ed="#V" n="125" break="no"/>ximo cum quo alias melius esset loqui quam non loqui: vel 
+            <lb ed="#V" n="126"/>quod non faciet sibi consolationem vel subuentionem 
+            tem<lb ed="#V" n="127" break="no"/>poralem vel spiritualem: que alias melius esset facere quam 
+            <lb ed="#V" n="128"/>non facere: vel quod non visitabit eum in domo sua 
+            quem<lb ed="#V" n="129" break="no"/>alias melius esset in domo visitare quam non visitare: et sic de 
+            <lb ed="#V" n="130"/>similibus non obligatur ad obseruandum quod iurauit: 
+            <lb ed="#V" n="131"/>quia etiam status religionis et prelationis sunt status 
+            per<lb ed="#V" n="132" break="no"/>fecti: ideo qui iurat se nunquam intraturum religionem: vel 
+            <lb ed="#V" n="133"/>non recepturum prelationem: non obligatur ad 
+            obseruan<lb ed="#V" n="134" break="no"/>dum quod iurauit: propter tantum reuerentiam diuini nominis 
+            in<lb ed="#V" n="135" break="no"/>uocati: et ad punitionem temeritatis sic iurantium: et propter 
+            reue<lb ed="#V" n="136" break="no"/>tentiam illorum qui praesunt non debet homo propria auctoritate venire 
+            <!--00313.xml-->
+            <pb ed="#V" n="152-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>contra quodlibet iuramentum: sed pro aliquibus debet 
+            re<lb ed="#V" n="2" break="no"/>currere ad suum superiorem qui ipsum a tali iuramento 
+            de<lb ed="#V" n="3" break="no"/>bet absoluere vel declarare ipsum non esse obligatum maxime 
+            <lb ed="#V" n="4"/>quando potest oriri dubium obseruatum: vergat in 
+            peio<lb ed="#V" n="5" break="no"/>rem exitum quam non obseruatur.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e681">
+            ¶ Contra tamen 
+            quodli<lb ed="#V" n="6" break="no"/>bet iuramentum quod ratione rei iurate derogt charitat i vel 
+            <lb ed="#V" n="7"/>tius perfectioni vel disponentibus ad eam: potest homo 
+            <lb ed="#V" n="8"/>venire propria auctoritate in casu necessitatis. 
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e690">
+            <lb ed="#V" n="9"/>Ad primum in oppositum dicendum quod deus non 
+            praece<lb ed="#V" n="10" break="no"/>perat filiis israel occidere illos qui 
+            <lb ed="#V" n="11"/>habitabant in terra promissionis: nisi essent 
+            incorrigibi<lb ed="#V" n="12" break="no"/>les: quales non fuerunt Gabaonites. Unde non fuit contra 
+            <lb ed="#V" n="13"/>diuinum praeceptum non occidere eos: maxime cum eos 
+            subiu<lb ed="#V" n="14" break="no"/>gauerit Iosue seruituti que est mors ciuilis.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e706">
+            ¶ Ad secundum 
+            <lb ed="#V" n="15"/>dicendum quod ibi non debet teneri Gratianus.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e712">
+            ¶ Ad tertium 
+            <lb ed="#V" n="16"/>dicendum quod quamuis tale iuramentum nulla auctoritate 
+            pro<lb ed="#V" n="17" break="no"/>hibeatur seruari: non tamen precipitur seruari: et ideo non sequitur 
+            <lb ed="#V" n="18"/>quod homo obligetur per tale iuramentum.
+          </p>
+          <p xml:id="kzz7yh-g106233-d1e721">
+            ¶ Ad quartum 
+            <lb ed="#V" n="19"/>dicendum quod ille qui iurat se nunquam recepturum episaoatum non 
+            re<lb ed="#V" n="20" break="no"/>pellitur ab episctoatu: quia tale iuramentu obliget: sed quia sic 
+            so<lb ed="#V" n="21" break="no"/>lemniter iurando cum illicitum fuerit iuramentum grauiter 
+            <lb ed="#V" n="22"/>peccauit: et propter huius peccatum repellitur. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

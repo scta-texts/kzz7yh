@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="130-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g91695"><!-- l3d33cl -->
-            <head xml:id="kzz7yh-g91695-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-g91695-d1e103">
-      <!--00270.xml-->
-               <pb ed="#V" n="130-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>Crca litteram. Cui regenti ese subditum 
-      iusti<lb ed="#V" n="2" break="no"/>tie est scilicet mediante humilitate quae 
-      conti<lb ed="#V" n="3" break="no"/>netur sub iustitia eo modo quo ostendetur 4 li. domino 
-      conce<lb ed="#V" n="4" break="no"/>dente in tractatum de praesentia. Nullum bonum deo 
-      pre<lb ed="#V" n="5" break="no"/>ponere. Mutanda est negatiua in affirmatiuam: sub hoc sensu 
-      <lb ed="#V" n="6"/>quod ibi erit actus prudentie deum omni bono creato praeponere. 
-      <lb ed="#V" n="7"/>Fortitudinis ei firmissime coherere non sicut obiecto quod 
-      <lb ed="#V" n="8"/>sc non respicit deum aliqua virtus cardinalis: sed sicut 
-      fi<lb ed="#V" n="9" break="no"/>ni: actum tamen habebit aliquem circa obiectum: vt in quodo 
-      <lb ed="#V" n="10"/>nibus expositum est: et statim adhuc patebit Alios vsus 
-      <lb ed="#V" n="11"/>tunc habebunt quam modo. Nec hoc est inconueniens. 
-      <lb ed="#V" n="12"/>Uidemus enim quod motor grauis aliam actionem habet 
-      re<lb ed="#V" n="13" break="no"/>spectu grauis distantis a cetro quam respectu grauis 
-      existen<lb ed="#V" n="14" break="no"/>tis in centro: quia prima actio est causare motum: secunda 
-      cau<lb ed="#V" n="15" break="no"/>sare quietem seu exclusionem motus: ita dico a simili quod 
-      temperan<lb ed="#V" n="16" break="no"/>tia alium actum habet respectu sui obiecti in distantia a fine 
-      <lb ed="#V" n="17"/>quam in coniunctione cum fine. Et est primus actus moderare 
-      <lb ed="#V" n="18"/>delectationes cardinales: secundus actus est causare in 
-      con<lb ed="#V" n="19" break="no"/>cupiscibili quietem per omnimodam exclusionem omnium 
-      delecta<lb ed="#V" n="20" break="no"/>tionum carnalium. Et hunc actum exprimit augu. xiiii. de tri. 
-      <lb ed="#V" n="21"/>c. ix. Ubi dicit quod in patria erit temperantie actus nullo 
-      de<lb ed="#V" n="22" break="no"/>fectu noxio delectari. Actus fortitudinis in distantia a 
-      fi<lb ed="#V" n="23" break="no"/>ne esti. moderare audacias et timores: et periculo mortis 
-      <lb ed="#V" n="24"/>resistere: in patria erit actus eius omnes tales passiones 
-      <lb ed="#V" n="25"/>perfecte excludere firmando irascibilem in securitate. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="130-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g91695"><!-- l3d33cl -->
+        <head xml:id="kzz7yh-g91695-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-g91695-d1e103">
+          <!--00270.xml-->
+          <pb ed="#V" n="130-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Crca litteram. Cui regenti ese subditum 
+          iusti<lb ed="#V" n="2" break="no"/>tie est scilicet mediante humilitate quae 
+          conti<lb ed="#V" n="3" break="no"/>netur sub iustitia eo modo quo ostendetur 4 li. domino 
+          conce<lb ed="#V" n="4" break="no"/>dente in tractatum de praesentia. Nullum bonum deo 
+          pre<lb ed="#V" n="5" break="no"/>ponere. Mutanda est negatiua in affirmatiuam: sub hoc sensu 
+          <lb ed="#V" n="6"/>quod ibi erit actus prudentie deum omni bono creato praeponere. 
+          <lb ed="#V" n="7"/>Fortitudinis ei firmissime coherere non sicut obiecto quod 
+          <lb ed="#V" n="8"/>sc non respicit deum aliqua virtus cardinalis: sed sicut 
+          fi<lb ed="#V" n="9" break="no"/>ni: actum tamen habebit aliquem circa obiectum: vt in quodo 
+          <lb ed="#V" n="10"/>nibus expositum est: et statim adhuc patebit Alios vsus 
+          <lb ed="#V" n="11"/>tunc habebunt quam modo. Nec hoc est inconueniens. 
+          <lb ed="#V" n="12"/>Uidemus enim quod motor grauis aliam actionem habet 
+          re<lb ed="#V" n="13" break="no"/>spectu grauis distantis a cetro quam respectu grauis 
+          existen<lb ed="#V" n="14" break="no"/>tis in centro: quia prima actio est causare motum: secunda 
+          cau<lb ed="#V" n="15" break="no"/>sare quietem seu exclusionem motus: ita dico a simili quod 
+          temperan<lb ed="#V" n="16" break="no"/>tia alium actum habet respectu sui obiecti in distantia a fine 
+          <lb ed="#V" n="17"/>quam in coniunctione cum fine. Et est primus actus moderare 
+          <lb ed="#V" n="18"/>delectationes cardinales: secundus actus est causare in 
+          con<lb ed="#V" n="19" break="no"/>cupiscibili quietem per omnimodam exclusionem omnium 
+          delecta<lb ed="#V" n="20" break="no"/>tionum carnalium. Et hunc actum exprimit augu. xiiii. de tri. 
+          <lb ed="#V" n="21"/>c. ix. Ubi dicit quod in patria erit temperantie actus nullo 
+          de<lb ed="#V" n="22" break="no"/>fectu noxio delectari. Actus fortitudinis in distantia a 
+          fi<lb ed="#V" n="23" break="no"/>ne esti. moderare audacias et timores: et periculo mortis 
+          <lb ed="#V" n="24"/>resistere: in patria erit actus eius omnes tales passiones 
+          <lb ed="#V" n="25"/>perfecte excludere firmando irascibilem in securitate. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

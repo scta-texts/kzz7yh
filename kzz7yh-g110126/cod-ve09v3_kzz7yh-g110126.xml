@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-04">September 04, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-g110126"><!-- l3d40cl -->
-            <head xml:id="kzz7yh-g110126-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-g110126-d1e103">
-               <lb ed="#V" n="105"/>CIrca litteram ex botene es. on 
-      <lb ed="#V" n="106"/>tra nihil sec 
-      chri<lb ed="#V" n="107" break="no"/>stus contra legem bonam sed tetigit leprosum vt 
-      <lb ed="#V" n="108"/>habetur Matth. 8. Qui tactus erat in lege a 
-      <lb ed="#V" n="109"/>hibitus curabat etiam in sabbato: et tamen lex prohibebat ope 
-      <lb ed="#V" n="110"/>rari in sabbato. vnde vt habetur Ioan. nono. Dixerunt 
-      <lb ed="#V" n="111"/>iudei de christo: non est hoc homo a deo qui sabbatum non 
-      <lb ed="#V" n="112"/>custodit.
-   </p>
-            <p xml:id="kzz7yh-g110126-d1e123">
-      ¶ Respondeo quod tactus leprosi prohibitus: erat 
-      <lb ed="#V" n="113"/>in lege inquantum vt homo ex hoc incurrebat 
-      immundi<lb ed="#V" n="114" break="no"/>ciam cuiusdam irregularitatis sicut ex tactu mortui: sed 
-      <lb ed="#V" n="115"/>dominus qui erat mundator leprosi immundiciam incurre 
-      <lb ed="#V" n="116"/>re non poterat: non ergo erat intelligenda illa lex de eo qui 
-      <lb ed="#V" n="117"/>leprosum effectiue posset mundare. Curando etiam infirmos 
-      <lb ed="#V" n="118"/>in sabbato contra preceptum de obseruatione sabbati non 
-      <lb ed="#V" n="119"/>faciebat: non enim erat illud preceptum intelligendum de 
-      <lb ed="#V" n="120"/>vocatione a tali opere cum saluti etiam suorum 
-      animali<lb ed="#V" n="121" break="no"/>um iudei sabbato prouiderent.
-   </p>
-            <p xml:id="kzz7yh-g110126-d1e145">
-      ¶ Ipsum autem dominum 
-      <lb ed="#V" n="122"/>qui infirmos curauit in sabbato: et curationes quas fecit 
-      <lb ed="#V" n="123"/>et omnia eius opera laudemus non reprehendamus: et eius 
-      <lb ed="#V" n="124"/>clementiam ex cordis intimis muocemus: vt ipse per 
-      gra<lb ed="#V" n="125" break="no"/>tiam suam velit animas nostras a lepra peccati curare: et 
-      <lb ed="#V" n="126"/>det mihi virtutem conuenienter tractandi materiam 
-      li<lb ed="#V" n="127" break="no"/>bri quartiu ad laudem suam: et bonorem qui est 
-      benedi<lb ed="#V" n="128" break="no"/>ctus in secula seculorum. Amen. 
-      <lb ed="#V" n="129"/>Im 3S 
-   </p>
-            <p xml:id="kzz7yh-g110126-d1e165">
-               <lb ed="#V" n="130"/>¶ Scriptum explicit super tertio sententiarum editum 
-      <lb ed="#V" n="131"/>a fratre Ricardo de media villa ordinis fratrum 
-      mino<lb ed="#V" n="132" break="no"/>rum doctore subtilissimo: ac omnium theologorum 
-      prin<lb ed="#V" n="133" break="no"/>cipe per sacre theologie bacchalarium fratrem 
-      Ange<lb ed="#V" n="134" break="no"/>lum Lucidum Firmanum eiusdem ordinis: maxima cum 
-      <lb ed="#V" n="135"/>diligentia emendatum: ordinatum: et quotationibus: 
-      addi<lb ed="#V" n="136" break="no"/>tionibusque pluribus decoratum: nunc primo impressum. 
-      </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-04">September 04, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v3">Venice, 1509, v. 3</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-g110126"><!-- l3d40cl -->
+        <head xml:id="kzz7yh-g110126-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-g110126-d1e103">
+          <lb ed="#V" n="105"/>CIrca litteram ex botene es. on 
+          <lb ed="#V" n="106"/>tra nihil sec 
+          chri<lb ed="#V" n="107" break="no"/>stus contra legem bonam sed tetigit leprosum vt 
+          <lb ed="#V" n="108"/>habetur Matth. 8. Qui tactus erat in lege a 
+          <lb ed="#V" n="109"/>hibitus curabat etiam in sabbato: et tamen lex prohibebat ope 
+          <lb ed="#V" n="110"/>rari in sabbato. vnde vt habetur Ioan. nono. Dixerunt 
+          <lb ed="#V" n="111"/>iudei de christo: non est hoc homo a deo qui sabbatum non 
+          <lb ed="#V" n="112"/>custodit.
+        </p>
+        <p xml:id="kzz7yh-g110126-d1e123">
+          ¶ Respondeo quod tactus leprosi prohibitus: erat 
+          <lb ed="#V" n="113"/>in lege inquantum vt homo ex hoc incurrebat 
+          immundi<lb ed="#V" n="114" break="no"/>ciam cuiusdam irregularitatis sicut ex tactu mortui: sed 
+          <lb ed="#V" n="115"/>dominus qui erat mundator leprosi immundiciam incurre 
+          <lb ed="#V" n="116"/>re non poterat: non ergo erat intelligenda illa lex de eo qui 
+          <lb ed="#V" n="117"/>leprosum effectiue posset mundare. Curando etiam infirmos 
+          <lb ed="#V" n="118"/>in sabbato contra preceptum de obseruatione sabbati non 
+          <lb ed="#V" n="119"/>faciebat: non enim erat illud preceptum intelligendum de 
+          <lb ed="#V" n="120"/>vocatione a tali opere cum saluti etiam suorum 
+          animali<lb ed="#V" n="121" break="no"/>um iudei sabbato prouiderent.
+        </p>
+        <p xml:id="kzz7yh-g110126-d1e145">
+          ¶ Ipsum autem dominum 
+          <lb ed="#V" n="122"/>qui infirmos curauit in sabbato: et curationes quas fecit 
+          <lb ed="#V" n="123"/>et omnia eius opera laudemus non reprehendamus: et eius 
+          <lb ed="#V" n="124"/>clementiam ex cordis intimis muocemus: vt ipse per 
+          gra<lb ed="#V" n="125" break="no"/>tiam suam velit animas nostras a lepra peccati curare: et 
+          <lb ed="#V" n="126"/>det mihi virtutem conuenienter tractandi materiam 
+          li<lb ed="#V" n="127" break="no"/>bri quartiu ad laudem suam: et bonorem qui est 
+          benedi<lb ed="#V" n="128" break="no"/>ctus in secula seculorum. Amen. 
+          <lb ed="#V" n="129"/>Im 3S 
+        </p>
+        <p xml:id="kzz7yh-g110126-d1e165">
+          <lb ed="#V" n="130"/>¶ Scriptum explicit super tertio sententiarum editum 
+          <lb ed="#V" n="131"/>a fratre Ricardo de media villa ordinis fratrum 
+          mino<lb ed="#V" n="132" break="no"/>rum doctore subtilissimo: ac omnium theologorum 
+          prin<lb ed="#V" n="133" break="no"/>cipe per sacre theologie bacchalarium fratrem 
+          Ange<lb ed="#V" n="134" break="no"/>lum Lucidum Firmanum eiusdem ordinis: maxima cum 
+          <lb ed="#V" n="135"/>diligentia emendatum: ordinatum: et quotationibus: 
+          addi<lb ed="#V" n="136" break="no"/>tionibusque pluribus decoratum: nunc primo impressum. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
