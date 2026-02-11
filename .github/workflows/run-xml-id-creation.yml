@@ -1,7 +1,13 @@
 name: Run XML ID creation
 
 on:
-  pull_request_target:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Pull Request number to process (required for manual run)'
+        required: false
+        type: string
+  pull_request:
     types: [ready_for_review]
   
 jobs:
@@ -35,15 +41,29 @@ jobs:
       run: |
         wget https://gist.githubusercontent.com/jeffreycwitt/07e9ca3cf73cad708f78bcf05273212f/raw/d93fe6ad36ebb31682eaa32d2dce14d950ee7605/line-number-creation.xsl -O stylesheetLineNumber.xsl
       
+    - name: Determine PR number
+      id: pr-number
+      run: |
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ -z "${{ github.event.inputs.pr_number }}" ]; then
+            echo "PR number input is required for manual run." >&2
+            exit 1
+          fi
+          echo "pr_number=${{ github.event.inputs.pr_number }}" >> $GITHUB_OUTPUT
+        else
+          echo "pr_number=${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
+        fi
+
     - name: Get changed files
       id: changed-files
       uses: actions/github-script@v4
       with:
         script: |
+          const pr_number = process.env.PR_NUMBER || '${{ steps.pr-number.outputs.pr_number }}';
           const { data: files } = await github.pulls.listFiles({
             owner: context.repo.owner,
             repo: context.repo.repo,
-            pull_number: context.payload.pull_request.number,
+            pull_number: pr_number,
           });
           const changedFiles = files.map(file => file.filename).join(' ');
           console.log("Changed files:", changedFiles);
@@ -57,8 +77,16 @@ jobs:
 
     - name: Set Target Branch 
       run: |
-        TARGET_BRANCH=${{ github.event.pull_request.head.ref }}
-        echo "TARGET_BRANCH=${TARGET_BRANCH}" >> $GITHUB_ENV
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          pr_number=${{ steps.pr-number.outputs.pr_number }}
+          branch=$(gh pr view $pr_number --json headRefName -q ".headRefName")
+          echo "TARGET_BRANCH=$branch" >> $GITHUB_ENV
+        else
+          TARGET_BRANCH=${{ github.event.pull_request.head.ref }}
+          echo "TARGET_BRANCH=${TARGET_BRANCH}" >> $GITHUB_ENV
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Debug CHANGED_FILES
       run: |
