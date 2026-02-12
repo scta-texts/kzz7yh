@@ -1,385 +1,385 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="128-r"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="128-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k92677"><!-- l4d25a1 -->
+        <head xml:id="kzz7yh-k92677-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-k92677-d1e103">
+          <lb ed="#V" n="98"/>CIrca primum queruntur tria.
+        </p>
+        <p xml:id="kzz7yh-k92677-d1e108">
+          ¶ Primo 
+          <lb ed="#V" n="99"/>vtrum solus episcopus posst 
+          ordi<lb ed="#V" n="100" break="no"/>nes conferre.
+        </p>
+        <p xml:id="kzz7yh-k92677-d1e115">
+          ¶ Secundo vtrum episotus hereticus. 
+        </p>
+        <p xml:id="kzz7yh-k92677-d1e117">
+          <lb ed="#V" n="101"/>¶ Tertio vtrum episotmus degradatus. 
+        </p>
+        <div xml:id="kzz7yh-k92677-Dd1e123">
+          <head xml:id="kzz7yh-k92677-Hd1e125">Quaestio 1</head>
+          <p xml:id="kzz7yh-k92677-d1e127">
+            Quaestio I.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e129">
+            <lb ed="#V" n="102"/>PRimo ostendo quod praesoyter non epistmus 
+            pos<lb ed="#V" n="103" break="no"/>sit ordinare. Quia cum sacerdos 
+            <lb ed="#V" n="104"/>ordinatur non solus episotmus ei manus imponit: sed etiam 
+            <lb ed="#V" n="105"/>omnes praesbyteri qui sunt praesentes. decre. di. 23. 
+            Pre<lb ed="#V" n="106" break="no"/>fbyter: ergo non solum episomus ipsum ordinat.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e142">
+            ¶ Item quae ad 
+            so<lb ed="#V" n="107" break="no"/>lum episcotum pertinent non epscto committi non possunt: sed minores 
+            or<lb ed="#V" n="108" break="no"/>dines quandoque conseruntur ex commissione a non episcois. extra de 
+            or<lb ed="#V" n="109" break="no"/>dinatis ab episcopo qui renunciauit. c. I. ergo conferre saltem 
+            <lb ed="#V" n="110"/>minores ordines ad solum episcopum non pertinet.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e153">
+            ¶ Item 
+            <lb ed="#V" n="111"/>magis excellit presbyter diaconum quam episcopus episco. 
+            <lb ed="#V" n="112"/>pum: sed vnus episcopus potest alium consecrare: ergo 
+            <lb ed="#V" n="113"/>presbyter potest diaconum ordinare. 
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e163">
+            <lb ed="#V" n="114"/>Contra Isy. libro 17 ety. c. 12 dicit de pontifice quod 
+            ip<lb ed="#V" n="115" break="no"/>se efficit sacerdotes atque leuitas: ipse omnes 
+            or<lb ed="#V" n="116" break="no"/>dines ecclesiasticos disponit: ergo ordines conferre ad 
+            nul<lb ed="#V" n="117" break="no"/>lum alium pertinet.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e174">
+            ¶ Item solus episotus potest virgines 
+            conse<lb ed="#V" n="118" break="no"/>crare. 26. q. 6. Si iubet: et altare consecrare: eadem. q. ministra 
+            <lb ed="#V" n="119"/>re. Sed maius est conferre ordines quam altare consecrare: vel 
+            <lb ed="#V" n="120"/>virgines: ergo solus episcopus potest ordines conferre.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e183">
+            <!--00288.xml-->
+            <pb ed="#V" n="128-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Respondeo potestas conferendi ordines: alicui 
+            <lb ed="#V" n="2"/>potest conuenire dupliter scilicet vel ex 
+            ordi<lb ed="#V" n="3" break="no"/>naria potestate: vel ex generali seu speciali commissione.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e199">
+            ¶ 
+            Se<lb ed="#V" n="4" break="no"/>cundo modo minores ordines conferre possunt: quandoque 
+            <lb ed="#V" n="5"/>non episcopis conuenire: vt ostendebatur in arguendo.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e206">
+            ¶ 
+            Pri<lb ed="#V" n="6" break="no"/>mo modo potestas conferendi quencumque ordinem conuenit 
+            so<lb ed="#V" n="7" break="no"/>lis episcopis. Cuius causa est institutio diuina: cuius 
+            insti<lb ed="#V" n="8" break="no"/>tutionis fuit ratio congrua: quia sicut ad solum principem 
+            per<lb ed="#V" n="9" break="no"/>tinet non tantum ordinare viros bellatores in exercitu: sed etiam 
+            <lb ed="#V" n="10"/>exercitus duces. Sic ad episcopos qui sunt in ecclesia 
+            prin<lb ed="#V" n="11" break="no"/>cipes non tantum pertinet homines ordinare ad certandum contra 
+            <lb ed="#V" n="12"/>fidei persecutores audacter confitendo christi fidem: quod sit per 
+            <lb ed="#V" n="13"/>sacramentum confirmationis: sed etiam ad ipsos solos 
+            perti<lb ed="#V" n="14" break="no"/>net duces ecclesiastici exercitus constituere: quod faciunt 
+            sa<lb ed="#V" n="15" break="no"/>cramentum ordinis conferendo: vt enim superius dictum 
+            <lb ed="#V" n="16"/>est distin. 5 ordinati administrandum sacramenta ad hoc 
+            <lb ed="#V" n="17"/>sunt deputati vt sint duces aliorum. 
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e235">
+            <lb ed="#V" n="18"/>Ad primum in oppositum dicendum: quod in manuum 
+            <lb ed="#V" n="19"/>impositione non confertur ordo secundum 
+            <lb ed="#V" n="20"/>quorundam opinionem. Uel potest dici secundum alios quod impositio 
+            <lb ed="#V" n="21"/>manuum episcopi est ad ordinem conferendum: sed 
+            impositio<lb ed="#V" n="22" break="no"/>manuum sacerdotum assistentium est ad concordiam et 
+            commu<lb ed="#V" n="23" break="no"/>nionem ecclesiasticam significandam.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e252">
+            ¶ Ad secundum patet 
+            solu<lb ed="#V" n="24" break="no"/>tio ex dictis in quaestione.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e257">
+            ¶ Ad tertium dicendum: quod quamuis 
+            <lb ed="#V" n="25"/>praefbyter magis excellat diaconum in ordine quam episcopus 
+            <lb ed="#V" n="26"/>episcopum consecrandum: tamen in dignitate est econtrario: 
+            con<lb ed="#V" n="27" break="no"/>secrandus enim in episcopum nondum habet dignitatem 
+            epi<lb ed="#V" n="28" break="no"/>scopalem: quamuis ante hec habeat que iurisdictionis sunt 
+            <lb ed="#V" n="29"/>post suam confirmationem. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k92677-Dd1e271">
+          <head xml:id="kzz7yh-k92677-Hd1e273">Quaestio 2</head>
+          <p xml:id="kzz7yh-k92677-d1e275">
+            Questio II
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e277">
+            <lb ed="#V" n="30"/>SEcundo queritur vtrum episcopus 
+            he<lb ed="#V" n="31" break="no"/>reticus possit ordines conferre. 
+            <lb ed="#V" n="32"/>Et videtur quod nonm in ordinando deus agit 
+            princi<lb ed="#V" n="33" break="no"/>paliter: et ordinans instrumentaliter: sed instrumentum 
+            <lb ed="#V" n="34"/>non agit nisi coniunctum principali motori: ergo nec 
+            episco<lb ed="#V" n="35" break="no"/>pus ordinat nisi in ordinando sit deo coniunctus: sed episco 
+            <lb ed="#V" n="36"/>heretici in ordinando deo non sunt coniuncti: quia vt habetur 
+            <lb ed="#V" n="37"/>prima. q. prima. Odit. Odit dominus sacrificia hereticorum: et a se 
+            <lb ed="#V" n="38"/>proiicit: ergo verum ordinem conferre non possunt.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e299">
+            ¶ Item 
+            <lb ed="#V" n="39"/>ea. q. Si qui a symoniacis. Qui scienter se a symoniacis 
+            <lb ed="#V" n="40"/>consecrari: immo execrari permiserint eorum consecrationem 
+            om<lb ed="#V" n="41" break="no"/>nino irritam esse decernimus: ergo multo fortius irrita est 
+            <lb ed="#V" n="42"/>ordinatio collata ab hereticis.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e310">
+            ¶ Item maius est 
+            sacramen<lb ed="#V" n="43" break="no"/>tum ordinis conferre quam recipere: sed heretici non possunt 
+            <lb ed="#V" n="44"/>recipere ordinis sacramentum: ergo nec conferre. 
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e318">
+            <lb ed="#V" n="45"/>Contra. Aug. 2. li. contra epistolam parmeniani vltra 
+            <lb ed="#V" n="46"/>medium: dicit de hereticis quod sicut habent 
+            <lb ed="#V" n="47"/>in baptismo quod per eos dari possit: sic in ordinatione ius 
+            <lb ed="#V" n="48"/>vtrumque dandi ad perniciem suam quamdiu charitatem non 
+            <lb ed="#V" n="49"/>habent vnitatis.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e331">
+            ¶ Item sacerdos hereticus potest 
+            cor<lb ed="#V" n="50" break="no"/>pus christi consecrare: ergo a simili episcopus hereticus 
+            <lb ed="#V" n="51"/>potest ordines conferre. 
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e338">
+            <lb ed="#V" n="52"/>Respondeo quod episcopi heretici: autem fuerunt 
+            or<lb ed="#V" n="53" break="no"/>dinati et consecrati in forma 
+            eccle<lb ed="#V" n="54" break="no"/>sie: aut non: si non: veri episcopi non sunt: et ex consequenti nec 
+            <lb ed="#V" n="55"/>ordines conferre possunt: si sic: veri episcopi sunt: sed 
+            officii<lb ed="#V" n="56" break="no"/>executionem non habent: quia vt superius habitum est: omnes 
+            <lb ed="#V" n="57"/>heretici ipso iure sunt maiori excommunicatione 
+            excommu<lb ed="#V" n="58" break="no"/>nicati: et omnes sic excommunicati sunt suspensi ab omnibus 
+            <lb ed="#V" n="59"/>actibus legitimis: et ideo episcopi heretici executionem 
+            or<lb ed="#V" n="60" break="no"/>dinis conferre non possunt: quia eam non habent: et quia quod 
+            <lb ed="#V" n="61"/>non habet aliquis dare non potest prima. q. 7. Diambertum. et 
+            ex<lb ed="#V" n="62" break="no"/>tra. de ordinatis ab episcopo qui renunciauit. c. 1. in glo. 
+            <lb ed="#V" n="63"/>Uerum tamen ordinem conferunt: si cum debita intentione 
+            <lb ed="#V" n="64"/>formam ecclesie seruant decre. di. 19. Secundum. Si autem 
+            for<lb ed="#V" n="65" break="no"/>mam ecclesie non seruant cum debita intentione verum 
+            <lb ed="#V" n="66"/>ordinem non conferunt: quantumcumque tamen seruent 
+            for<lb ed="#V" n="67" break="no"/>mam ecclesie in ordinando mortaliter peccant: quia ab 
+            exe<lb ed="#V" n="68" break="no"/>cutione sui officii sunt ipso iure suspensi.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e377">
+            <!--00288.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k92677"><!-- l4d25a1 -->
-            <head xml:id="kzz7yh-k92677-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-k92677-d1e103">
-               <lb ed="#V" n="98"/>CIrca primum queruntur tria.
-   </p>
-            <p xml:id="kzz7yh-k92677-d1e108">
-      ¶ Primo 
-      <lb ed="#V" n="99"/>vtrum solus episcopus posst 
-      ordi<lb ed="#V" n="100" break="no"/>nes conferre.
-   </p>
-            <p xml:id="kzz7yh-k92677-d1e115">
-      ¶ Secundo vtrum episotus hereticus. 
-   </p>
-            <p xml:id="kzz7yh-k92677-d1e117">
-               <lb ed="#V" n="101"/>¶ Tertio vtrum episotmus degradatus. 
-   </p>
-            <div xml:id="kzz7yh-k92677-Dd1e123">
-               <head xml:id="kzz7yh-k92677-Hd1e125">Quaestio 1</head>
-               <p xml:id="kzz7yh-k92677-d1e127">
-      Quaestio I.
-    </p>
-               <p xml:id="kzz7yh-k92677-d1e129">
-                  <lb ed="#V" n="102"/>PRimo ostendo quod praesoyter non epistmus 
-      pos<lb ed="#V" n="103" break="no"/>sit ordinare. Quia cum sacerdos 
-      <lb ed="#V" n="104"/>ordinatur non solus episotmus ei manus imponit: sed etiam 
-      <lb ed="#V" n="105"/>omnes praesbyteri qui sunt praesentes. decre. di. 23. 
-      Pre<lb ed="#V" n="106" break="no"/>fbyter: ergo non solum episomus ipsum ordinat.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e142">
-      ¶ Item quae ad 
-      so<lb ed="#V" n="107" break="no"/>lum episcotum pertinent non epscto committi non possunt: sed minores 
-      or<lb ed="#V" n="108" break="no"/>dines quandoque conseruntur ex commissione a non episcois. extra de 
-      or<lb ed="#V" n="109" break="no"/>dinatis ab episcopo qui renunciauit. c. I. ergo conferre saltem 
-      <lb ed="#V" n="110"/>minores ordines ad solum episcopum non pertinet.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e153">
-      ¶ Item 
-      <lb ed="#V" n="111"/>magis excellit presbyter diaconum quam episcopus episco. 
-      <lb ed="#V" n="112"/>pum: sed vnus episcopus potest alium consecrare: ergo 
-      <lb ed="#V" n="113"/>presbyter potest diaconum ordinare. 
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e163">
-                  <lb ed="#V" n="114"/>Contra Isy. libro 17 ety. c. 12 dicit de pontifice quod 
-      ip<lb ed="#V" n="115" break="no"/>se efficit sacerdotes atque leuitas: ipse omnes 
-      or<lb ed="#V" n="116" break="no"/>dines ecclesiasticos disponit: ergo ordines conferre ad 
-      nul<lb ed="#V" n="117" break="no"/>lum alium pertinet.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e174">
-      ¶ Item solus episotus potest virgines 
-      conse<lb ed="#V" n="118" break="no"/>crare. 26. q. 6. Si iubet: et altare consecrare: eadem. q. ministra 
-      <lb ed="#V" n="119"/>re. Sed maius est conferre ordines quam altare consecrare: vel 
-      <lb ed="#V" n="120"/>virgines: ergo solus episcopus potest ordines conferre.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e183">
-      <!--00288.xml-->
-                  <pb ed="#V" n="128-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>Respondeo potestas conferendi ordines: alicui 
-      <lb ed="#V" n="2"/>potest conuenire dupliter scilicet vel ex 
-      ordi<lb ed="#V" n="3" break="no"/>naria potestate: vel ex generali seu speciali commissione.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e199">
-      ¶ 
-      Se<lb ed="#V" n="4" break="no"/>cundo modo minores ordines conferre possunt: quandoque 
-      <lb ed="#V" n="5"/>non episcopis conuenire: vt ostendebatur in arguendo.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e206">
-      ¶ 
-      Pri<lb ed="#V" n="6" break="no"/>mo modo potestas conferendi quencumque ordinem conuenit 
-      so<lb ed="#V" n="7" break="no"/>lis episcopis. Cuius causa est institutio diuina: cuius 
-      insti<lb ed="#V" n="8" break="no"/>tutionis fuit ratio congrua: quia sicut ad solum principem 
-      per<lb ed="#V" n="9" break="no"/>tinet non tantum ordinare viros bellatores in exercitu: sed etiam 
-      <lb ed="#V" n="10"/>exercitus duces. Sic ad episcopos qui sunt in ecclesia 
-      prin<lb ed="#V" n="11" break="no"/>cipes non tantum pertinet homines ordinare ad certandum contra 
-      <lb ed="#V" n="12"/>fidei persecutores audacter confitendo christi fidem: quod sit per 
-      <lb ed="#V" n="13"/>sacramentum confirmationis: sed etiam ad ipsos solos 
-      perti<lb ed="#V" n="14" break="no"/>net duces ecclesiastici exercitus constituere: quod faciunt 
-      sa<lb ed="#V" n="15" break="no"/>cramentum ordinis conferendo: vt enim superius dictum 
-      <lb ed="#V" n="16"/>est distin. 5 ordinati administrandum sacramenta ad hoc 
-      <lb ed="#V" n="17"/>sunt deputati vt sint duces aliorum. 
-    </p>
-               <p xml:id="kzz7yh-k92677-d1e235">
-                  <lb ed="#V" n="18"/>Ad primum in oppositum dicendum: quod in manuum 
-      <lb ed="#V" n="19"/>impositione non confertur ordo secundum 
-      <lb ed="#V" n="20"/>quorundam opinionem. Uel potest dici secundum alios quod impositio 
-      <lb ed="#V" n="21"/>manuum episcopi est ad ordinem conferendum: sed 
-      impositio<lb ed="#V" n="22" break="no"/>manuum sacerdotum assistentium est ad concordiam et 
-      commu<lb ed="#V" n="23" break="no"/>nionem ecclesiasticam significandam.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e252">
-      ¶ Ad secundum patet 
-      solu<lb ed="#V" n="24" break="no"/>tio ex dictis in quaestione.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e257">
-      ¶ Ad tertium dicendum: quod quamuis 
-      <lb ed="#V" n="25"/>praefbyter magis excellat diaconum in ordine quam episcopus 
-      <lb ed="#V" n="26"/>episcopum consecrandum: tamen in dignitate est econtrario: 
-      con<lb ed="#V" n="27" break="no"/>secrandus enim in episcopum nondum habet dignitatem 
-      epi<lb ed="#V" n="28" break="no"/>scopalem: quamuis ante hec habeat que iurisdictionis sunt 
-      <lb ed="#V" n="29"/>post suam confirmationem. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k92677-Dd1e271">
-               <head xml:id="kzz7yh-k92677-Hd1e273">Quaestio 2</head>
-               <p xml:id="kzz7yh-k92677-d1e275">
-      Questio II
-    </p>
-               <p xml:id="kzz7yh-k92677-d1e277">
-                  <lb ed="#V" n="30"/>SEcundo queritur vtrum episcopus 
-      he<lb ed="#V" n="31" break="no"/>reticus possit ordines conferre. 
-      <lb ed="#V" n="32"/>Et videtur quod nonm in ordinando deus agit 
-      princi<lb ed="#V" n="33" break="no"/>paliter: et ordinans instrumentaliter: sed instrumentum 
-      <lb ed="#V" n="34"/>non agit nisi coniunctum principali motori: ergo nec 
-      episco<lb ed="#V" n="35" break="no"/>pus ordinat nisi in ordinando sit deo coniunctus: sed episco 
-      <lb ed="#V" n="36"/>heretici in ordinando deo non sunt coniuncti: quia vt habetur 
-      <lb ed="#V" n="37"/>prima. q. prima. Odit. Odit dominus sacrificia hereticorum: et a se 
-      <lb ed="#V" n="38"/>proiicit: ergo verum ordinem conferre non possunt.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e299">
-      ¶ Item 
-      <lb ed="#V" n="39"/>ea. q. Si qui a symoniacis. Qui scienter se a symoniacis 
-      <lb ed="#V" n="40"/>consecrari: immo execrari permiserint eorum consecrationem 
-      om<lb ed="#V" n="41" break="no"/>nino irritam esse decernimus: ergo multo fortius irrita est 
-      <lb ed="#V" n="42"/>ordinatio collata ab hereticis.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e310">
-      ¶ Item maius est 
-      sacramen<lb ed="#V" n="43" break="no"/>tum ordinis conferre quam recipere: sed heretici non possunt 
-      <lb ed="#V" n="44"/>recipere ordinis sacramentum: ergo nec conferre. 
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e318">
-                  <lb ed="#V" n="45"/>Contra. Aug. 2. li. contra epistolam parmeniani vltra 
-      <lb ed="#V" n="46"/>medium: dicit de hereticis quod sicut habent 
-      <lb ed="#V" n="47"/>in baptismo quod per eos dari possit: sic in ordinatione ius 
-      <lb ed="#V" n="48"/>vtrumque dandi ad perniciem suam quamdiu charitatem non 
-      <lb ed="#V" n="49"/>habent vnitatis.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e331">
-      ¶ Item sacerdos hereticus potest 
-      cor<lb ed="#V" n="50" break="no"/>pus christi consecrare: ergo a simili episcopus hereticus 
-      <lb ed="#V" n="51"/>potest ordines conferre. 
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e338">
-                  <lb ed="#V" n="52"/>Respondeo quod episcopi heretici: autem fuerunt 
-      or<lb ed="#V" n="53" break="no"/>dinati et consecrati in forma 
-      eccle<lb ed="#V" n="54" break="no"/>sie: aut non: si non: veri episcopi non sunt: et ex consequenti nec 
-      <lb ed="#V" n="55"/>ordines conferre possunt: si sic: veri episcopi sunt: sed 
-      officii<lb ed="#V" n="56" break="no"/>executionem non habent: quia vt superius habitum est: omnes 
-      <lb ed="#V" n="57"/>heretici ipso iure sunt maiori excommunicatione 
-      excommu<lb ed="#V" n="58" break="no"/>nicati: et omnes sic excommunicati sunt suspensi ab omnibus 
-      <lb ed="#V" n="59"/>actibus legitimis: et ideo episcopi heretici executionem 
-      or<lb ed="#V" n="60" break="no"/>dinis conferre non possunt: quia eam non habent: et quia quod 
-      <lb ed="#V" n="61"/>non habet aliquis dare non potest prima. q. 7. Diambertum. et 
-      ex<lb ed="#V" n="62" break="no"/>tra. de ordinatis ab episcopo qui renunciauit. c. 1. in glo. 
-      <lb ed="#V" n="63"/>Uerum tamen ordinem conferunt: si cum debita intentione 
-      <lb ed="#V" n="64"/>formam ecclesie seruant decre. di. 19. Secundum. Si autem 
-      for<lb ed="#V" n="65" break="no"/>mam ecclesie non seruant cum debita intentione verum 
-      <lb ed="#V" n="66"/>ordinem non conferunt: quantumcumque tamen seruent 
-      for<lb ed="#V" n="67" break="no"/>mam ecclesie in ordinando mortaliter peccant: quia ab 
-      exe<lb ed="#V" n="68" break="no"/>cutione sui officii sunt ipso iure suspensi.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e377">
-      <!--00288.xml-->
-                  <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>Ad primum in oppositum dicendum quod 
-      episcopi<lb ed="#V" n="70" break="no"/>heretici: et si non sint deo 
-      coniuncti<lb ed="#V" n="71" break="no"/>per fidem et charitatem: que coniunctio respicit episcopum in 
-      <lb ed="#V" n="72"/>quantum est singularis persona: tamen deo coniuncti sunt secundum quid 
-      <lb ed="#V" n="73"/>scilicet inquantum mouentur a deo in obseruando formam ecclesie 
-      <lb ed="#V" n="74"/>in ordinando: quia quo ad hoc ministri ecclesie sunt.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e397">
-      ¶ Ad 
-      <lb ed="#V" n="75"/>secundum dicendum quod talis consecratio dicitur irrita quantum ad 
-      <lb ed="#V" n="76"/>executionem.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e404">
-      ¶ Ad tertium dicendum quod sicut heretici verum 
-      <lb ed="#V" n="77"/>ordinem conferre possunt de facto: non tamen de iure: sic et 
-      <lb ed="#V" n="78"/>recipere. Unde quamuis hereticus si ordinatur in forma 
-      <lb ed="#V" n="79"/>ecclesie verum ordinem recipit: tamen recipiendo 
-      mor<lb ed="#V" n="80" break="no"/>taliter peccat. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k92677-Dd1e416">
-               <head xml:id="kzz7yh-k92677-Hd1e418">Quaestio 3</head>
-               <p xml:id="kzz7yh-k92677-d1e420">
-      Questio. III.
-    </p>
-               <p xml:id="kzz7yh-k92677-d1e422">
-                  <lb ed="#V" n="81"/>TErtio queritur vtrum episcopus 
-      degrada<lb ed="#V" n="82" break="no"/>tus possit ordines conferre. Et 
-      vi<lb ed="#V" n="83" break="no"/>detur quod non. prima. q. prima. Quod quidam §. 
-      Opponi<lb ed="#V" n="84" break="no"/>tur aute. Degradatus episcopus potestatem 
-      lar<lb ed="#V" n="85" break="no"/>giendi sacros ordines non habet: facultatem tamen baptizandi 
-      <lb ed="#V" n="86"/>non amisit.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e438">
-      ¶ Item princeps iuste depositus non est 
-      prin<lb ed="#V" n="87" break="no"/>ceps: ergo a simili nec episcopus iuste degradatus est 
-      epi<lb ed="#V" n="88" break="no"/>scopus: sed non episcopus non potest ordines conferre: ergo 
-      <lb ed="#V" n="89"/>nec episcopus degradatus.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e447">
-      ¶ Item non potest veram 
-      ton<lb ed="#V" n="90" break="no"/>suram conferre: quia tonsuratus ab eo debet iterum tonsura 
-      <lb ed="#V" n="91"/>ri: ergo a simili non potest conferre verum ordinem. 
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e455">
-                  <lb ed="#V" n="92"/>Contra vt superius ostensum est. dist. 13. Sacerdos 
-      <lb ed="#V" n="93"/>degradatus potest christi corpus consecrare: 
-      <lb ed="#V" n="94"/>ergo a simili episcopus degradatus potest ordines conferre¬ 
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e464">
-                  <lb ed="#V" n="95"/>¶ Item heretici ipso iure sunt omni dignitate priuati: cum 
-      <lb ed="#V" n="96"/>ergo episcopi heretici possint ordines conferre de facto: 
-      <lb ed="#V" n="97"/>quamuis non de iure: vt in praecedenti quaestione habitum est: 
-      <lb ed="#V" n="98"/>episcopus degradatus potest ordines conferre de facto: 
-      quam<lb ed="#V" n="99" break="no"/>uis non de iure.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e477">
-      ¶ Item illa potestas fundata est super 
-      <lb ed="#V" n="100"/>aliquid quod per hominem auferri non potest: fundata enim est super 
-      <lb ed="#V" n="101"/>factum esse consecrationis: et decreto diuine sententie: quod 
-      decre<lb ed="#V" n="102" break="no"/>tum est vt ille qui sic consecratus est: talem habeat potestatem. 
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e486">
-                  <lb ed="#V" n="103"/>Ad istam quaestionem dixerunt aliqui quod quamuis 
-      <lb ed="#V" n="104"/>episcopi suspensi 
-      excom<lb ed="#V" n="105" break="no"/>municati heretici possint ordines de facto conferre: hoc 
-      <lb ed="#V" n="106"/>tamen non possunt episcopi degradati: quia degradati non 
-      <lb ed="#V" n="107"/>tantum sunt suspensi ab officii executione: sed etiam sunt 
-      spo<lb ed="#V" n="108" break="no"/>liati episcopali dignitate: vnde non remanent epistoi: quamuis 
-      <lb ed="#V" n="109"/>enim per hominem auferri non possit a sacerdote potestas 
-      con<lb ed="#V" n="110" break="no"/>ficiendi corpus christi verum: eo quod nulli concessit christus talem 
-      <lb ed="#V" n="111"/>potestatem: quia nec decebat pro magna dignitate corporis 
-      <lb ed="#V" n="112"/>sui: quia tamen dignitas episcopalis respicit corpus christi 
-      my<lb ed="#V" n="113" break="no"/>sticum: super quod concessit vicario suo potestatem: potest ab 
-      epi<lb ed="#V" n="114" break="no"/>scopo dignitas episcopalis totaliter auferri aucioritate 
-      vica<lb ed="#V" n="115" break="no"/>rii christi.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e517">
-      ¶ Sed contra hoc sic potest argui. Altare. calix. et sic 
-      <lb ed="#V" n="116"/>de aliis semel consecrata nunque consecrationem amittere possunt 
-      <lb ed="#V" n="117"/>nisi destruantur: ergo multo fortius nec episcotum: cum consecratio episo 
-      <lb ed="#V" n="118"/>sit a deo principaliter: quamuis ab homine ministerialiter.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e526">
-      ¶ Preterea. 
-      <lb ed="#V" n="119"/>episctmus qui resignauit loco et dignitati: quamuis talis exequi non 
-      de<lb ed="#V" n="120" break="no"/>beat officium episcoi de iure: tamen si ordinat verum ordinem confert: 
-      <lb ed="#V" n="121"/>quamuis non ordis executionem. extra de ordi. ab episco qui 
-      renuncia<lb ed="#V" n="122" break="no"/>uit epriseatui. c. I quia vt ibi dicit gl. resignatio non abstulit isti 
-      <lb ed="#V" n="123"/>ordinem: sed ordis executionem: sed degradatus non est magis 
-      spo<lb ed="#V" n="124" break="no"/>liatus dignitate epistoali quam iste: quamuis turpiori modo sit ab 
-      execu<lb ed="#V" n="125" break="no"/>tione illius dignitatis suspensus quam iste: ergo videtur quod episctus degradatus 
-      <lb ed="#V" n="126"/>possit verum ordinem conferre de fctmo: quamuis non debeat de iure. 
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e547">
-                  <lb ed="#V" n="127"/>¶ Et ideo alii hanc conclusionem concedunt dicentes: episcotum per hominem 
-      di<lb ed="#V" n="128" break="no"/>gnitate epistoali totaliter spoliari non posse. Unde degradatio: non 
-      <lb ed="#V" n="129"/>est dignitatis ablatio: sed perpetua suspensio ab executione 
-      di<lb ed="#V" n="130" break="no"/>gnitatis illius. extra de conse. ecclesie. in gl. ibi enim dicitur quod visibilis 
-      <lb ed="#V" n="131"/>vnctio exterior signum est interioris vnctionis in corde: 
-      quam<lb ed="#V" n="132" break="no"/>perpetua est: et amitti non potest: licet executio quandoque suspendatur. 
-      <lb ed="#V" n="133"/>Qui tenent hanc secundam opinionem que mihi 
-      <lb ed="#V" n="134"/>videtur rationabilior possunt dicere 
-      <lb ed="#V" n="135"/>ad primum quod degradatus ideo dicitur potestatem 
-      largien<lb ed="#V" n="136" break="no"/>di sacros ordines non habere: quia effectu sue potestatis pe¬ 
-      <!--00289.xml-->
-      <pb ed="#V" n="129-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>nitus priuatur: secundum quod patet per textum sequentem. Unde secundum 
-      <lb ed="#V" n="2"/>glo. ibidem confert ordinem: sed non ordinis executionem. 
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e582">
-                  <lb ed="#V" n="3"/>¶ Ad secundum dicendum quod sicut dignitatem apostola 
-      <lb ed="#V" n="4"/>tus omnes apostoli: quorum sunt episcopi successores: 
-      im<lb ed="#V" n="5" break="no"/>mediate acceperunt a christo: ita episcopus quantum ad 
-      di<lb ed="#V" n="6" break="no"/>gnitatem epistalem supra se potestatem que illam sibi possit 
-      au<lb ed="#V" n="7" break="no"/>ferre non habet nisi diuinam: quamuis eius executio a 
-      superio<lb ed="#V" n="8" break="no"/>ri in iurisdictione dependeat potestatem scilicet a potestate pape que 
-      <lb ed="#V" n="9"/>est omnibus aliis potestatibus superior in iurisdictione: vt 
-      supe<lb ed="#V" n="10" break="no"/>rius dictum est. Sed principatus terrenus dependet a 
-      potesta<lb ed="#V" n="11" break="no"/>te capitis ecclesie: et principatus inferior a superiori: ideo ab 
-      <lb ed="#V" n="12"/>inferiori potest principatus auferri per principem superiorem: et uo 
-      <lb ed="#V" n="13"/>principe superiori per vicarium christi cum iusta causa et 
-      rationabi<lb ed="#V" n="14" break="no"/>lis hoc requiritur.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e611">
-      ¶ Ad tertium dicendum quod tonsuratus ab eo 
-      <lb ed="#V" n="15"/>non debet iterum tonsurari: sed tamen debet puniri. 
-      <lb ed="#V" n="16"/>Qui tenent opionem primam possent dicere ad 
-      pri<lb ed="#V" n="17" break="no"/>mum in oppositum sicut dictum est in 
-      <lb ed="#V" n="18"/>corporeiquaestionis.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e622">
-      ¶ Ad secundum dicendum quod heretici ipso iure 
-      <lb ed="#V" n="19"/>non sunt priuati omni dignitate: nisi quantum ad executio 
-      <lb ed="#V" n="20"/>nem. Unde magis debent dici ab omni dignitate suspeciensi 
-      <lb ed="#V" n="21"/>quam piruati: per sententiam tamen sunt priuandi.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e631">
-      ¶ Ad tertium 
-      <lb ed="#V" n="22"/>dicendum quod sicut a deo decretum est: vt ille circa quem fit 
-      <lb ed="#V" n="23"/>talis consecratio habeat talem potestatem: ita decretum 
-      <lb ed="#V" n="24"/>est: vt ille qui degradatur careat illa potestate. 
-    </p>
-               <p xml:id="kzz7yh-k92677-d1e640">
-                  <lb ed="#V" n="25"/>Ad primum quod arguebatur in corpore quaestionis 
-      <lb ed="#V" n="26"/>contra hanc opinionem solui potest per 
-      <lb ed="#V" n="27"/>interemptionem maioris. Papa enim posset ab altari et 
-      cali<lb ed="#V" n="28" break="no"/>ce auferre consecrationem absque illorum destructione.
-   </p>
-               <p xml:id="kzz7yh-k92677-d1e652">
-      ¶ Ad 
-      se<lb ed="#V" n="29" break="no"/>cundum etiam dicendum quod per resignationem non potest se episcopo 
-      <lb ed="#V" n="30"/>priuare omnibus quibus posset priuari per degradationem: 
-      <lb ed="#V" n="31"/>quamuis enim iurisdictio siue ordinaria siue delegata sola 
-      <lb ed="#V" n="32"/>voluntate et verbo possit conferri: tamen consecratio epistalis 
-      digni<lb ed="#V" n="33" break="no"/>tatis sola voluntate et verbo non confertur: immo facto opus 
-      <lb ed="#V" n="34"/>est. extra. de consec. ecclesie. Aqua. in glo. A simili dico quod 
-      <lb ed="#V" n="35"/>quamuis sola voluntate et verbo possint episcti ab his que sunt 
-      <lb ed="#V" n="36"/>iurisdictionis priuari: tamen sola voluntate et verbo non possunt 
-      <lb ed="#V" n="37"/>priuari dignitate episcopali. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="69"/>Ad primum in oppositum dicendum quod 
+            episcopi<lb ed="#V" n="70" break="no"/>heretici: et si non sint deo 
+            coniuncti<lb ed="#V" n="71" break="no"/>per fidem et charitatem: que coniunctio respicit episcopum in 
+            <lb ed="#V" n="72"/>quantum est singularis persona: tamen deo coniuncti sunt secundum quid 
+            <lb ed="#V" n="73"/>scilicet inquantum mouentur a deo in obseruando formam ecclesie 
+            <lb ed="#V" n="74"/>in ordinando: quia quo ad hoc ministri ecclesie sunt.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e397">
+            ¶ Ad 
+            <lb ed="#V" n="75"/>secundum dicendum quod talis consecratio dicitur irrita quantum ad 
+            <lb ed="#V" n="76"/>executionem.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e404">
+            ¶ Ad tertium dicendum quod sicut heretici verum 
+            <lb ed="#V" n="77"/>ordinem conferre possunt de facto: non tamen de iure: sic et 
+            <lb ed="#V" n="78"/>recipere. Unde quamuis hereticus si ordinatur in forma 
+            <lb ed="#V" n="79"/>ecclesie verum ordinem recipit: tamen recipiendo 
+            mor<lb ed="#V" n="80" break="no"/>taliter peccat. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k92677-Dd1e416">
+          <head xml:id="kzz7yh-k92677-Hd1e418">Quaestio 3</head>
+          <p xml:id="kzz7yh-k92677-d1e420">
+            Questio. III.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e422">
+            <lb ed="#V" n="81"/>TErtio queritur vtrum episcopus 
+            degrada<lb ed="#V" n="82" break="no"/>tus possit ordines conferre. Et 
+            vi<lb ed="#V" n="83" break="no"/>detur quod non. prima. q. prima. Quod quidam §. 
+            Opponi<lb ed="#V" n="84" break="no"/>tur aute. Degradatus episcopus potestatem 
+            lar<lb ed="#V" n="85" break="no"/>giendi sacros ordines non habet: facultatem tamen baptizandi 
+            <lb ed="#V" n="86"/>non amisit.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e438">
+            ¶ Item princeps iuste depositus non est 
+            prin<lb ed="#V" n="87" break="no"/>ceps: ergo a simili nec episcopus iuste degradatus est 
+            epi<lb ed="#V" n="88" break="no"/>scopus: sed non episcopus non potest ordines conferre: ergo 
+            <lb ed="#V" n="89"/>nec episcopus degradatus.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e447">
+            ¶ Item non potest veram 
+            ton<lb ed="#V" n="90" break="no"/>suram conferre: quia tonsuratus ab eo debet iterum tonsura 
+            <lb ed="#V" n="91"/>ri: ergo a simili non potest conferre verum ordinem. 
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e455">
+            <lb ed="#V" n="92"/>Contra vt superius ostensum est. dist. 13. Sacerdos 
+            <lb ed="#V" n="93"/>degradatus potest christi corpus consecrare: 
+            <lb ed="#V" n="94"/>ergo a simili episcopus degradatus potest ordines conferre¬ 
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e464">
+            <lb ed="#V" n="95"/>¶ Item heretici ipso iure sunt omni dignitate priuati: cum 
+            <lb ed="#V" n="96"/>ergo episcopi heretici possint ordines conferre de facto: 
+            <lb ed="#V" n="97"/>quamuis non de iure: vt in praecedenti quaestione habitum est: 
+            <lb ed="#V" n="98"/>episcopus degradatus potest ordines conferre de facto: 
+            quam<lb ed="#V" n="99" break="no"/>uis non de iure.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e477">
+            ¶ Item illa potestas fundata est super 
+            <lb ed="#V" n="100"/>aliquid quod per hominem auferri non potest: fundata enim est super 
+            <lb ed="#V" n="101"/>factum esse consecrationis: et decreto diuine sententie: quod 
+            decre<lb ed="#V" n="102" break="no"/>tum est vt ille qui sic consecratus est: talem habeat potestatem. 
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e486">
+            <lb ed="#V" n="103"/>Ad istam quaestionem dixerunt aliqui quod quamuis 
+            <lb ed="#V" n="104"/>episcopi suspensi 
+            excom<lb ed="#V" n="105" break="no"/>municati heretici possint ordines de facto conferre: hoc 
+            <lb ed="#V" n="106"/>tamen non possunt episcopi degradati: quia degradati non 
+            <lb ed="#V" n="107"/>tantum sunt suspensi ab officii executione: sed etiam sunt 
+            spo<lb ed="#V" n="108" break="no"/>liati episcopali dignitate: vnde non remanent epistoi: quamuis 
+            <lb ed="#V" n="109"/>enim per hominem auferri non possit a sacerdote potestas 
+            con<lb ed="#V" n="110" break="no"/>ficiendi corpus christi verum: eo quod nulli concessit christus talem 
+            <lb ed="#V" n="111"/>potestatem: quia nec decebat pro magna dignitate corporis 
+            <lb ed="#V" n="112"/>sui: quia tamen dignitas episcopalis respicit corpus christi 
+            my<lb ed="#V" n="113" break="no"/>sticum: super quod concessit vicario suo potestatem: potest ab 
+            epi<lb ed="#V" n="114" break="no"/>scopo dignitas episcopalis totaliter auferri aucioritate 
+            vica<lb ed="#V" n="115" break="no"/>rii christi.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e517">
+            ¶ Sed contra hoc sic potest argui. Altare. calix. et sic 
+            <lb ed="#V" n="116"/>de aliis semel consecrata nunque consecrationem amittere possunt 
+            <lb ed="#V" n="117"/>nisi destruantur: ergo multo fortius nec episcotum: cum consecratio episo 
+            <lb ed="#V" n="118"/>sit a deo principaliter: quamuis ab homine ministerialiter.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e526">
+            ¶ Preterea. 
+            <lb ed="#V" n="119"/>episctmus qui resignauit loco et dignitati: quamuis talis exequi non 
+            de<lb ed="#V" n="120" break="no"/>beat officium episcoi de iure: tamen si ordinat verum ordinem confert: 
+            <lb ed="#V" n="121"/>quamuis non ordis executionem. extra de ordi. ab episco qui 
+            renuncia<lb ed="#V" n="122" break="no"/>uit epriseatui. c. I quia vt ibi dicit gl. resignatio non abstulit isti 
+            <lb ed="#V" n="123"/>ordinem: sed ordis executionem: sed degradatus non est magis 
+            spo<lb ed="#V" n="124" break="no"/>liatus dignitate epistoali quam iste: quamuis turpiori modo sit ab 
+            execu<lb ed="#V" n="125" break="no"/>tione illius dignitatis suspensus quam iste: ergo videtur quod episctus degradatus 
+            <lb ed="#V" n="126"/>possit verum ordinem conferre de fctmo: quamuis non debeat de iure. 
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e547">
+            <lb ed="#V" n="127"/>¶ Et ideo alii hanc conclusionem concedunt dicentes: episcotum per hominem 
+            di<lb ed="#V" n="128" break="no"/>gnitate epistoali totaliter spoliari non posse. Unde degradatio: non 
+            <lb ed="#V" n="129"/>est dignitatis ablatio: sed perpetua suspensio ab executione 
+            di<lb ed="#V" n="130" break="no"/>gnitatis illius. extra de conse. ecclesie. in gl. ibi enim dicitur quod visibilis 
+            <lb ed="#V" n="131"/>vnctio exterior signum est interioris vnctionis in corde: 
+            quam<lb ed="#V" n="132" break="no"/>perpetua est: et amitti non potest: licet executio quandoque suspendatur. 
+            <lb ed="#V" n="133"/>Qui tenent hanc secundam opinionem que mihi 
+            <lb ed="#V" n="134"/>videtur rationabilior possunt dicere 
+            <lb ed="#V" n="135"/>ad primum quod degradatus ideo dicitur potestatem 
+            largien<lb ed="#V" n="136" break="no"/>di sacros ordines non habere: quia effectu sue potestatis pe¬ 
+            <!--00289.xml-->
+            <pb ed="#V" n="129-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nitus priuatur: secundum quod patet per textum sequentem. Unde secundum 
+            <lb ed="#V" n="2"/>glo. ibidem confert ordinem: sed non ordinis executionem. 
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e582">
+            <lb ed="#V" n="3"/>¶ Ad secundum dicendum quod sicut dignitatem apostola 
+            <lb ed="#V" n="4"/>tus omnes apostoli: quorum sunt episcopi successores: 
+            im<lb ed="#V" n="5" break="no"/>mediate acceperunt a christo: ita episcopus quantum ad 
+            di<lb ed="#V" n="6" break="no"/>gnitatem epistalem supra se potestatem que illam sibi possit 
+            au<lb ed="#V" n="7" break="no"/>ferre non habet nisi diuinam: quamuis eius executio a 
+            superio<lb ed="#V" n="8" break="no"/>ri in iurisdictione dependeat potestatem scilicet a potestate pape que 
+            <lb ed="#V" n="9"/>est omnibus aliis potestatibus superior in iurisdictione: vt 
+            supe<lb ed="#V" n="10" break="no"/>rius dictum est. Sed principatus terrenus dependet a 
+            potesta<lb ed="#V" n="11" break="no"/>te capitis ecclesie: et principatus inferior a superiori: ideo ab 
+            <lb ed="#V" n="12"/>inferiori potest principatus auferri per principem superiorem: et uo 
+            <lb ed="#V" n="13"/>principe superiori per vicarium christi cum iusta causa et 
+            rationabi<lb ed="#V" n="14" break="no"/>lis hoc requiritur.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e611">
+            ¶ Ad tertium dicendum quod tonsuratus ab eo 
+            <lb ed="#V" n="15"/>non debet iterum tonsurari: sed tamen debet puniri. 
+            <lb ed="#V" n="16"/>Qui tenent opionem primam possent dicere ad 
+            pri<lb ed="#V" n="17" break="no"/>mum in oppositum sicut dictum est in 
+            <lb ed="#V" n="18"/>corporeiquaestionis.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e622">
+            ¶ Ad secundum dicendum quod heretici ipso iure 
+            <lb ed="#V" n="19"/>non sunt priuati omni dignitate: nisi quantum ad executio 
+            <lb ed="#V" n="20"/>nem. Unde magis debent dici ab omni dignitate suspeciensi 
+            <lb ed="#V" n="21"/>quam piruati: per sententiam tamen sunt priuandi.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e631">
+            ¶ Ad tertium 
+            <lb ed="#V" n="22"/>dicendum quod sicut a deo decretum est: vt ille circa quem fit 
+            <lb ed="#V" n="23"/>talis consecratio habeat talem potestatem: ita decretum 
+            <lb ed="#V" n="24"/>est: vt ille qui degradatur careat illa potestate. 
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e640">
+            <lb ed="#V" n="25"/>Ad primum quod arguebatur in corpore quaestionis 
+            <lb ed="#V" n="26"/>contra hanc opinionem solui potest per 
+            <lb ed="#V" n="27"/>interemptionem maioris. Papa enim posset ab altari et 
+            cali<lb ed="#V" n="28" break="no"/>ce auferre consecrationem absque illorum destructione.
+          </p>
+          <p xml:id="kzz7yh-k92677-d1e652">
+            ¶ Ad 
+            se<lb ed="#V" n="29" break="no"/>cundum etiam dicendum quod per resignationem non potest se episcopo 
+            <lb ed="#V" n="30"/>priuare omnibus quibus posset priuari per degradationem: 
+            <lb ed="#V" n="31"/>quamuis enim iurisdictio siue ordinaria siue delegata sola 
+            <lb ed="#V" n="32"/>voluntate et verbo possit conferri: tamen consecratio epistalis 
+            digni<lb ed="#V" n="33" break="no"/>tatis sola voluntate et verbo non confertur: immo facto opus 
+            <lb ed="#V" n="34"/>est. extra. de consec. ecclesie. Aqua. in glo. A simili dico quod 
+            <lb ed="#V" n="35"/>quamuis sola voluntate et verbo possint episcti ab his que sunt 
+            <lb ed="#V" n="36"/>iurisdictionis priuari: tamen sola voluntate et verbo non possunt 
+            <lb ed="#V" n="37"/>priuari dignitate episcopali. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

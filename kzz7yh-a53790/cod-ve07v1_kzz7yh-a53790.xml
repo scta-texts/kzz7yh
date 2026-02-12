@@ -1,274 +1,274 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 3</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 3</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="79-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a53790"><!-- l1d24a3 -->
-            <head xml:id="kzz7yh-a53790-Hd1e101">Articulus 3</head>
-            <p xml:id="kzz7yh-a53790-d1e103">
-               <lb ed="#V" n="27"/>Contra queritur de tertio principali et circa 
-      <lb ed="#V" n="28"/>hoc queruntur tria.
-   </p>
-            <p xml:id="kzz7yh-a53790-d1e110">
-      ¶ Primo vtrum 
-      <lb ed="#V" n="29"/>de significato huius nominis quod est trinitas sit 
-      essen<lb ed="#V" n="30" break="no"/>tialis.
-   </p>
-            <p xml:id="kzz7yh-a53790-d1e117">
-      ¶ Secundo dato quod sit aliquo modo: queritur vtrum 
-      <lb ed="#V" n="31"/>illa vnitas sit vnitas summe
-   </p>
-            <p xml:id="kzz7yh-a53790-d1e122">
-      ¶ 3o vtrum illa vnitas et 
-      sim<lb ed="#V" n="32" break="no"/>plicitas sunt in deo plura attributa.
-   </p>
-            <div xml:id="kzz7yh-a53790-Dd1e128">
-               <head xml:id="kzz7yh-a53790-Hd1e130">Quaestio 1</head>
-               <head xml:id="kzz7yh-a53790-Hd1e134" type="question-title">Utrum de significato huius nominis quod est trinitas sit essentialis</head>
-               <p xml:id="kzz7yh-a53790-d1e132">
-      Quaestio I. 
-      <lb ed="#V" n="33"/>PRimo ostendo quod de significato huius nominis quod 
-      <lb ed="#V" n="34"/>est trinitas non sit essentialis vnitas: 
-      <lb ed="#V" n="35"/>quia aliter esset nugatio dicendo deus est trinus et vnus 
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e141">
-                  <lb ed="#V" n="36"/>¶ Item Boe. i. lib. de tri. c. x. Substantia continet 
-      <lb ed="#V" n="37"/>vnitatem: relatio multiplicat trinitatem ergo de 
-      significato<lb ed="#V" n="38" break="no"/>huius nominis quod est trinitas non est nisi vnitas relatatiua. 
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e150">
-                  <lb ed="#V" n="39"/>¶ Item si de significato trinitatis esset essentialis vnitas 
-      <lb ed="#V" n="40"/>videtur quod diuina essentia conuenienter posset dici 
-      trina<lb ed="#V" n="41" break="no"/>quod tamen falsum est. 
-    </p>
-               <p xml:id="kzz7yh-a53790-d1e159">
-                  <lb ed="#V" n="42"/>Contra secundum Isidorum libro ethymo c. 4 Trinitas 
-      di<lb ed="#V" n="43" break="no"/>trium vnitas: sed nulla est vnitas trium: nisi 
-      <lb ed="#V" n="44"/>essentialis: ergo illa vnitas est de signato trinitatis.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e169">
-      ¶ Item 
-      <lb ed="#V" n="45"/>illud est de significato nominis: per quod nomen apprehenditur. Sed 
-      <lb ed="#V" n="46"/>in diuinis nomen trinitatis per illud nomen apprehendit non 
-      <lb ed="#V" n="47"/>tantummodo tres personas: sed etiam essentie vnitatem: ergo de 
-      <lb ed="#V" n="48"/>siguificato trinitatis aliquo modo est essentialis vnitas. 
-    </p>
-               <p xml:id="kzz7yh-a53790-d1e180">
-                  <lb ed="#V" n="49"/>Respondeo quod de significato trinitatis aliquo 
-      mo<lb ed="#V" n="50" break="no"/>do est essentialis vnitas: quia significat 3 
-      <lb ed="#V" n="51"/>personas et essentie vnitatem: sed quamuis secundum ethymologiam essenti 
-      <lb ed="#V" n="52"/>alis vnitas significetur in recto et tres persone in obliquo 
-      <lb ed="#V" n="53"/>quae ethius: trinitas est trium vnitas tamen habendo aspectum ad 
-      il<lb ed="#V" n="54" break="no"/>lud ad quod nomen imponitur ad signandum: tres persone 
-      signi<lb ed="#V" n="55" break="no"/>ficantur in recto et essentialis vnitas in obliquo non enim 
-      impo<lb ed="#V" n="56" break="no"/>nitur ad signndum essentiam trium personarum sed ad signndum 
-      <lb ed="#V" n="57"/>tres personas vnius essentie: vnde in divinis idem est 
-      trini<lb ed="#V" n="58" break="no"/>tas quod tres persone vnius essentie et sic patet quod principalius 
-      <lb ed="#V" n="59"/>significat tres vnitates personales quam essentialem vnitatem. 
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e206">
-                  <lb ed="#V" n="60"/>¶ Argumenta que probant quod essentialis vnitas clauditur 
-      <lb ed="#V" n="61"/>in significato trinitatis quantum ad hoc: essent concedenda si tamen 
-      <lb ed="#V" n="62"/>per illa intendis probare quod principaliter sit de significato 
-      tri<lb ed="#V" n="63" break="no"/>nitatis non concludunt quia non opetet quod si principaliter cadit in 
-      <lb ed="#V" n="64"/>nominis ethimous: quod propter hoc principalitersit de nominis significato. 
-      <lb ed="#V" n="65"/>Et sic patet solutio ad primum argumentum illius partis.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e222">
-      ¶ Ad 2m cum 
-      <lb ed="#V" n="66"/>dicitur quod audiens nomen trinitatis apprehendit essentie 
-      <lb ed="#V" n="67"/>vnitatem etc. dico quod verum est non tamen pomo et principaliter. 
-      Pri<lb ed="#V" n="68" break="no"/>mo enim et principaliter apprehendit tres personas et secun¬ 
-      <!--00171.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>do vnam essentiam. Secundo soluendum est ad argumenta 
-      <lb ed="#V" n="70"/>que probant quod essentialis vnitas non clauditur in signato trintatis.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e240">
-                  <lb ed="#V" n="71"/>Ad primum cum dicitur quod tunc esset nugatio 
-      <lb ed="#V" n="72"/>dicendo deus est trinus et vnus etc. 
-      <lb ed="#V" n="73"/>dico quod non est verum quia tunc iste terminus trinus cadit a 
-      per<lb ed="#V" n="74" break="no"/>te signationis sue scilicet ab illa quam non signat: principaliter: sicut 
-      <lb ed="#V" n="75"/>cum dicitur nasus simus iste terminus simus iam non 
-      signifi<lb ed="#V" n="76" break="no"/>cat illud quod sigmbat non principaliter: cum per se sumebatur. Unde 
-      <lb ed="#V" n="77"/>cum per se sumitur in suo significato clauditur nasus non tamen 
-      <lb ed="#V" n="78"/>principaliter: sed secnario.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e260">
-      ¶ Ad 2m cum dicitur quod relatio 
-      signifi<lb ed="#V" n="79" break="no"/>cat et multiplicat trinitatem etc. Dico quod ibi accepit Boe. 
-      <lb ed="#V" n="80"/>trinitatem quantum ad illud quod principaliter est designatio 
-      <lb ed="#V" n="81"/>trinitatis quod est tres persone volens dicere quod per proprietatem 
-      <lb ed="#V" n="82"/>raras distinguntur inter se.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e272">
-      ¶ Ade3m cum dicitur quod de signato 
-      tri<lb ed="#V" n="83" break="no"/>nitatis esset essentialis vnitas essentia posset dici trina etc. 
-      <lb ed="#V" n="84"/>dico quod non sequitur: quamuis enim trinitas et trinus idem 
-      signi<lb ed="#V" n="85" break="no"/>ficent: tamen sub modo alio et alio. Et ideo quamuis ista 
-      con<lb ed="#V" n="86" break="no"/>cederetur essentia est trinitas et essentia est tres persone: tamen 
-      <lb ed="#V" n="87"/>ista non debent concedi essentia est trina: quia enim significat vt 
-      <lb ed="#V" n="88"/>in contentione ad illud de quo dicitur si diceretur essentia est trima 
-      <lb ed="#V" n="89"/>videntur signare distitionem divinae essentiai tres essentias.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a53790-Dd1e291">
-               <head xml:id="kzz7yh-a53790-Hd1e293">Quaestio 2</head>
-               <head xml:id="kzz7yh-a53790-Hd1e301" type="question-title">Utrum essentials unitas quae clauditur in significato trinitatis sit unitas summa</head>
-               <p xml:id="kzz7yh-a53790-d1e295">
-      Quaestio II. 
-      <lb ed="#V" n="90"/>Secundo querendum licet vtrum essentia 
-      <lb ed="#V" n="91"/>tis vnitas que clauditur in 
-      signifi<lb ed="#V" n="92" break="no"/>cato trinitatis sit vnitas summa nisi quia hec questio
-      <lb ed="#V" n="93"/>virtualiter superius determinata est scilicet Di. 8. in illa 
-      <lb ed="#V" n="94"/>quaestione in qua probatum est in deo esse summam simplicitatem ex hoc 
-      <lb ed="#V" n="95"/>enim sequitur in deo esse summam vnitatem.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a53790-Dd1e312">
-               <head xml:id="kzz7yh-a53790-Hd1e314">Quaestio 3</head>
-               <head xml:id="kzz7yh-a53790-Hd1e326" type="question-title">Utrum illa unitas et simplicitas sunt in deo plura attributa</head>
-               <p xml:id="kzz7yh-a53790-d1e316">
-                  <lb ed="#V" n="96"/>Consequenter quod 3o loco fuit 
-      proposi<lb ed="#V" n="97" break="no"/>tum scilicet vtrum illa 
-      vni<lb ed="#V" n="98" break="no"/>tas et simplicitas sunt in deo plura attributa: et 
-      vi<lb ed="#V" n="99" break="no"/>detur quod non quam intellectus viatoris potest 
-      apprehende<lb ed="#V" n="100" break="no"/>re vnum attributum non apprehendendo aliud. Unde potest 
-      <lb ed="#V" n="101"/>apprehendere sapientiam in deo non intuendo est potentiam 
-      <lb ed="#V" n="102"/>vel iusticiam. Sed intellectus noster non potest deum intelligere 
-      <lb ed="#V" n="103"/>simplicem nisi intelligendo ipsum vnum: ergo vnitas et 
-      sim<lb ed="#V" n="104" break="no"/>plicitas non sunt plura attributa.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e338">
-      ¶ Item essentia non est 
-      <lb ed="#V" n="105"/>attributum: sed illud cui attributa attribuuntur. Sed 
-      vni<lb ed="#V" n="106" break="no"/>tas nihil aliud positiuum dicit. quam essentia ergo non est 
-      ma<lb ed="#V" n="107" break="no"/>gis attributum quam essentia: et si non est attributum non est alium 
-      <lb ed="#V" n="108"/>attributum a simplicitate.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e349">
-      ¶ Item ratio vnius attributi non 
-      <lb ed="#V" n="109"/>est de ratione alterius: sed de ratione simplicitatis est ratio 
-      vni<lb ed="#V" n="110" break="no"/>tatis: quia simplex est ens indiuisum non compositum ex aliis: 
-      <lb ed="#V" n="111"/>neque componibile alii. Ens autem indiuisum est ratio vnius: 
-      <lb ed="#V" n="112"/>ergo vnitas et simplicitas plura attributa non sunt. 
-    </p>
-               <p xml:id="kzz7yh-a53790-d1e360">
-                  <lb ed="#V" n="113"/>Contra aliquid dicitur vnum quod non est simplex: ergo alia 
-      <lb ed="#V" n="114"/>ex ratio simplicitatis et vnitatis: sed talia sunt plura 
-      <lb ed="#V" n="115"/>attributa: ergo vnitas et simplicitas sunt plura attributa in deo. 
-    </p>
-               <p xml:id="kzz7yh-a53790-d1e370">
-                  <lb ed="#V" n="116"/>Respondeo extendendo nomen attributi ad omnes 
-      per<lb ed="#V" n="117" break="no"/>fectiones: et proprietates divinae essentie quae 
-      <lb ed="#V" n="118"/>de ea vere et proprie praedicantur ita vt dicantur attributa sub 
-      <lb ed="#V" n="119"/>ratione qua intellectus dicit eas esse in divina essentia secundum 
-      quem<lb ed="#V" n="120" break="no"/>modum dicimus quod qui dicit aliquam rem simplicem vel vnam 
-      <lb ed="#V" n="121"/>attribuit ei simplicitatem vel vnitatem: dico quod simplicitas 
-      <lb ed="#V" n="122"/>et vnitas in deo sunt plura attributa loquendo de 
-      pluralita<lb ed="#V" n="123" break="no"/>te secundum rationem quod videtur ex hoc: quia ea que excluduntur per ista scilicet 
-      <lb ed="#V" n="124"/>compositio et divino alterius et alterius rationis sunt quia diuino 
-      <lb ed="#V" n="125"/>est quasi opposita compositioni.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e394">
-      ¶ Cum ergo ratio vnius sit per 
-      ne<lb ed="#V" n="126" break="no"/>gationem diuisionis: et simplicis per negationem compositionis: 
-      sequi<lb ed="#V" n="127" break="no"/>tur quod simplicitas et vnitas in deo plura sunt secundum rationem. 
-      <lb ed="#V" n="128"/>Unde alium conceptum facit noster intellectus de diuina 
-      sim<lb ed="#V" n="129" break="no"/>plicitate: aliunde divina vnitate.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e405">
-      ¶ Preterea simplicitas 
-      <lb ed="#V" n="130"/>cum diuina essentia nominat aliquid positiuum quod tamen non 
-      dif<lb ed="#V" n="131" break="no"/>fert a divina essentia secundum rem: sed tantum secundum rationem. Sed 
-      di<lb ed="#V" n="132" break="no"/>na vnitas non dicit cum divina essentia: aliquam rem positiuam 
-      <lb ed="#V" n="133"/>secundum quorundam opinionem: que supra exposita: est quia non dicit 
-      <lb ed="#V" n="134"/>cum diuina essentia nisi negationem diuisionis: ergo secundum hanc 
-      <lb ed="#V" n="135"/>opinionem planum est quod vnitas divina secundum rationem differt a 
-      diui<lb ed="#V" n="136" break="no"/>na simplicitate. Negatio vero bedicitur differre secundum rationem 
-      <!--00172.xml-->
-      <pb ed="#V" n="79-v"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>vel cooperatur ad differentiam secundum rationem: quia aliquo modo 
-      <lb ed="#V" n="2"/>negationes possunt dici res rationis inquantum sunt 
-      apprehen<lb ed="#V" n="3" break="no"/>sibiles ab intellectu per oppositam positionem.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e436">
-                  <lb ed="#V" n="4"/>Ad primum in oppositum cum dicitur quod intellectus noster 
-      <lb ed="#V" n="5"/>non potest deum intelligere simplicem nisi 
-      <lb ed="#V" n="6"/>intelligendo ipsum vnum etc. dico quod quamuis in deo idem sunt 
-      <lb ed="#V" n="7"/>realiter simplicitas et vnitas: tamen intellectus noster potest 
-      in<lb ed="#V" n="8" break="no"/>telligere deum sub vna ratione non intelligendo ipsum sub 
-      <lb ed="#V" n="9"/>alia: Cogitare enim possumus negationem compositionis non 
-      <lb ed="#V" n="10"/>cogitando negationem diuisionis.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e454">
-      ¶ Ad 2m cum dicitur quod 
-      essen<lb ed="#V" n="11" break="no"/>tia non est attributum: dico quod verum est: sed ex hoc 
-      nonsequi<lb ed="#V" n="12" break="no"/>tur quod vnitas non sit attributum: quia quod nominat esse 
-      abso<lb ed="#V" n="13" break="no"/>lute nominat vnitas sub ratione indiuisionis.
-   </p>
-               <p xml:id="kzz7yh-a53790-d1e463">
-      ¶ Ad 3m cum dicitur 
-      <lb ed="#V" n="14"/>quod de ratione simplicitatis est: ratio vnitatis etc. dico quod non 
-      <lb ed="#V" n="15"/>est verum quia ratio simplicitatis est esse non compositum ex aliis: 
-      <lb ed="#V" n="16"/>nec composibile alii. Ad hoc autem sequitur quod sit ens 
-      indiui<lb ed="#V" n="17" break="no"/>sum: sed ex hoc non sequitur quod esse indiuisum sit de ratione 
-      sim<lb ed="#V" n="18" break="no"/>plicis. Aliquid enim sequitur ad aliud quod non est de ratione 
-      <lb ed="#V" n="19"/>illius ad quod sequitur sicut ad esse hominem sequitur esse 
-      <lb ed="#V" n="20"/>risibile: et tamen ratio risibilitatis non est de ratione humanitatis.
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 3</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 3</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="79-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a53790"><!-- l1d24a3 -->
+        <head xml:id="kzz7yh-a53790-Hd1e101">Articulus 3</head>
+        <p xml:id="kzz7yh-a53790-d1e103">
+          <lb ed="#V" n="27"/>Contra queritur de tertio principali et circa 
+          <lb ed="#V" n="28"/>hoc queruntur tria.
+        </p>
+        <p xml:id="kzz7yh-a53790-d1e110">
+          ¶ Primo vtrum 
+          <lb ed="#V" n="29"/>de significato huius nominis quod est trinitas sit 
+          essen<lb ed="#V" n="30" break="no"/>tialis.
+        </p>
+        <p xml:id="kzz7yh-a53790-d1e117">
+          ¶ Secundo dato quod sit aliquo modo: queritur vtrum 
+          <lb ed="#V" n="31"/>illa vnitas sit vnitas summe
+        </p>
+        <p xml:id="kzz7yh-a53790-d1e122">
+          ¶ 3o vtrum illa vnitas et 
+          sim<lb ed="#V" n="32" break="no"/>plicitas sunt in deo plura attributa.
+        </p>
+        <div xml:id="kzz7yh-a53790-Dd1e128">
+          <head xml:id="kzz7yh-a53790-Hd1e130">Quaestio 1</head>
+          <head xml:id="kzz7yh-a53790-Hd1e134" type="question-title">Utrum de significato huius nominis quod est trinitas sit essentialis</head>
+          <p xml:id="kzz7yh-a53790-d1e132">
+            Quaestio I. 
+            <lb ed="#V" n="33"/>PRimo ostendo quod de significato huius nominis quod 
+            <lb ed="#V" n="34"/>est trinitas non sit essentialis vnitas: 
+            <lb ed="#V" n="35"/>quia aliter esset nugatio dicendo deus est trinus et vnus 
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e141">
+            <lb ed="#V" n="36"/>¶ Item Boe. i. lib. de tri. c. x. Substantia continet 
+            <lb ed="#V" n="37"/>vnitatem: relatio multiplicat trinitatem ergo de 
+            significato<lb ed="#V" n="38" break="no"/>huius nominis quod est trinitas non est nisi vnitas relatatiua. 
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e150">
+            <lb ed="#V" n="39"/>¶ Item si de significato trinitatis esset essentialis vnitas 
+            <lb ed="#V" n="40"/>videtur quod diuina essentia conuenienter posset dici 
+            trina<lb ed="#V" n="41" break="no"/>quod tamen falsum est. 
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e159">
+            <lb ed="#V" n="42"/>Contra secundum Isidorum libro ethymo c. 4 Trinitas 
+            di<lb ed="#V" n="43" break="no"/>trium vnitas: sed nulla est vnitas trium: nisi 
+            <lb ed="#V" n="44"/>essentialis: ergo illa vnitas est de signato trinitatis.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e169">
+            ¶ Item 
+            <lb ed="#V" n="45"/>illud est de significato nominis: per quod nomen apprehenditur. Sed 
+            <lb ed="#V" n="46"/>in diuinis nomen trinitatis per illud nomen apprehendit non 
+            <lb ed="#V" n="47"/>tantummodo tres personas: sed etiam essentie vnitatem: ergo de 
+            <lb ed="#V" n="48"/>siguificato trinitatis aliquo modo est essentialis vnitas. 
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e180">
+            <lb ed="#V" n="49"/>Respondeo quod de significato trinitatis aliquo 
+            mo<lb ed="#V" n="50" break="no"/>do est essentialis vnitas: quia significat 3 
+            <lb ed="#V" n="51"/>personas et essentie vnitatem: sed quamuis secundum ethymologiam essenti 
+            <lb ed="#V" n="52"/>alis vnitas significetur in recto et tres persone in obliquo 
+            <lb ed="#V" n="53"/>quae ethius: trinitas est trium vnitas tamen habendo aspectum ad 
+            il<lb ed="#V" n="54" break="no"/>lud ad quod nomen imponitur ad signandum: tres persone 
+            signi<lb ed="#V" n="55" break="no"/>ficantur in recto et essentialis vnitas in obliquo non enim 
+            impo<lb ed="#V" n="56" break="no"/>nitur ad signndum essentiam trium personarum sed ad signndum 
+            <lb ed="#V" n="57"/>tres personas vnius essentie: vnde in divinis idem est 
+            trini<lb ed="#V" n="58" break="no"/>tas quod tres persone vnius essentie et sic patet quod principalius 
+            <lb ed="#V" n="59"/>significat tres vnitates personales quam essentialem vnitatem. 
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e206">
+            <lb ed="#V" n="60"/>¶ Argumenta que probant quod essentialis vnitas clauditur 
+            <lb ed="#V" n="61"/>in significato trinitatis quantum ad hoc: essent concedenda si tamen 
+            <lb ed="#V" n="62"/>per illa intendis probare quod principaliter sit de significato 
+            tri<lb ed="#V" n="63" break="no"/>nitatis non concludunt quia non opetet quod si principaliter cadit in 
+            <lb ed="#V" n="64"/>nominis ethimous: quod propter hoc principalitersit de nominis significato. 
+            <lb ed="#V" n="65"/>Et sic patet solutio ad primum argumentum illius partis.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e222">
+            ¶ Ad 2m cum 
+            <lb ed="#V" n="66"/>dicitur quod audiens nomen trinitatis apprehendit essentie 
+            <lb ed="#V" n="67"/>vnitatem etc. dico quod verum est non tamen pomo et principaliter. 
+            Pri<lb ed="#V" n="68" break="no"/>mo enim et principaliter apprehendit tres personas et secun¬ 
+            <!--00171.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>do vnam essentiam. Secundo soluendum est ad argumenta 
+            <lb ed="#V" n="70"/>que probant quod essentialis vnitas non clauditur in signato trintatis.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e240">
+            <lb ed="#V" n="71"/>Ad primum cum dicitur quod tunc esset nugatio 
+            <lb ed="#V" n="72"/>dicendo deus est trinus et vnus etc. 
+            <lb ed="#V" n="73"/>dico quod non est verum quia tunc iste terminus trinus cadit a 
+            per<lb ed="#V" n="74" break="no"/>te signationis sue scilicet ab illa quam non signat: principaliter: sicut 
+            <lb ed="#V" n="75"/>cum dicitur nasus simus iste terminus simus iam non 
+            signifi<lb ed="#V" n="76" break="no"/>cat illud quod sigmbat non principaliter: cum per se sumebatur. Unde 
+            <lb ed="#V" n="77"/>cum per se sumitur in suo significato clauditur nasus non tamen 
+            <lb ed="#V" n="78"/>principaliter: sed secnario.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e260">
+            ¶ Ad 2m cum dicitur quod relatio 
+            signifi<lb ed="#V" n="79" break="no"/>cat et multiplicat trinitatem etc. Dico quod ibi accepit Boe. 
+            <lb ed="#V" n="80"/>trinitatem quantum ad illud quod principaliter est designatio 
+            <lb ed="#V" n="81"/>trinitatis quod est tres persone volens dicere quod per proprietatem 
+            <lb ed="#V" n="82"/>raras distinguntur inter se.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e272">
+            ¶ Ade3m cum dicitur quod de signato 
+            tri<lb ed="#V" n="83" break="no"/>nitatis esset essentialis vnitas essentia posset dici trina etc. 
+            <lb ed="#V" n="84"/>dico quod non sequitur: quamuis enim trinitas et trinus idem 
+            signi<lb ed="#V" n="85" break="no"/>ficent: tamen sub modo alio et alio. Et ideo quamuis ista 
+            con<lb ed="#V" n="86" break="no"/>cederetur essentia est trinitas et essentia est tres persone: tamen 
+            <lb ed="#V" n="87"/>ista non debent concedi essentia est trina: quia enim significat vt 
+            <lb ed="#V" n="88"/>in contentione ad illud de quo dicitur si diceretur essentia est trima 
+            <lb ed="#V" n="89"/>videntur signare distitionem divinae essentiai tres essentias.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a53790-Dd1e291">
+          <head xml:id="kzz7yh-a53790-Hd1e293">Quaestio 2</head>
+          <head xml:id="kzz7yh-a53790-Hd1e301" type="question-title">Utrum essentials unitas quae clauditur in significato trinitatis sit unitas summa</head>
+          <p xml:id="kzz7yh-a53790-d1e295">
+            Quaestio II. 
+            <lb ed="#V" n="90"/>Secundo querendum licet vtrum essentia 
+            <lb ed="#V" n="91"/>tis vnitas que clauditur in 
+            signifi<lb ed="#V" n="92" break="no"/>cato trinitatis sit vnitas summa nisi quia hec questio
+            <lb ed="#V" n="93"/>virtualiter superius determinata est scilicet Di. 8. in illa 
+            <lb ed="#V" n="94"/>quaestione in qua probatum est in deo esse summam simplicitatem ex hoc 
+            <lb ed="#V" n="95"/>enim sequitur in deo esse summam vnitatem.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a53790-Dd1e312">
+          <head xml:id="kzz7yh-a53790-Hd1e314">Quaestio 3</head>
+          <head xml:id="kzz7yh-a53790-Hd1e326" type="question-title">Utrum illa unitas et simplicitas sunt in deo plura attributa</head>
+          <p xml:id="kzz7yh-a53790-d1e316">
+            <lb ed="#V" n="96"/>Consequenter quod 3o loco fuit 
+            proposi<lb ed="#V" n="97" break="no"/>tum scilicet vtrum illa 
+            vni<lb ed="#V" n="98" break="no"/>tas et simplicitas sunt in deo plura attributa: et 
+            vi<lb ed="#V" n="99" break="no"/>detur quod non quam intellectus viatoris potest 
+            apprehende<lb ed="#V" n="100" break="no"/>re vnum attributum non apprehendendo aliud. Unde potest 
+            <lb ed="#V" n="101"/>apprehendere sapientiam in deo non intuendo est potentiam 
+            <lb ed="#V" n="102"/>vel iusticiam. Sed intellectus noster non potest deum intelligere 
+            <lb ed="#V" n="103"/>simplicem nisi intelligendo ipsum vnum: ergo vnitas et 
+            sim<lb ed="#V" n="104" break="no"/>plicitas non sunt plura attributa.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e338">
+            ¶ Item essentia non est 
+            <lb ed="#V" n="105"/>attributum: sed illud cui attributa attribuuntur. Sed 
+            vni<lb ed="#V" n="106" break="no"/>tas nihil aliud positiuum dicit. quam essentia ergo non est 
+            ma<lb ed="#V" n="107" break="no"/>gis attributum quam essentia: et si non est attributum non est alium 
+            <lb ed="#V" n="108"/>attributum a simplicitate.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e349">
+            ¶ Item ratio vnius attributi non 
+            <lb ed="#V" n="109"/>est de ratione alterius: sed de ratione simplicitatis est ratio 
+            vni<lb ed="#V" n="110" break="no"/>tatis: quia simplex est ens indiuisum non compositum ex aliis: 
+            <lb ed="#V" n="111"/>neque componibile alii. Ens autem indiuisum est ratio vnius: 
+            <lb ed="#V" n="112"/>ergo vnitas et simplicitas plura attributa non sunt. 
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e360">
+            <lb ed="#V" n="113"/>Contra aliquid dicitur vnum quod non est simplex: ergo alia 
+            <lb ed="#V" n="114"/>ex ratio simplicitatis et vnitatis: sed talia sunt plura 
+            <lb ed="#V" n="115"/>attributa: ergo vnitas et simplicitas sunt plura attributa in deo. 
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e370">
+            <lb ed="#V" n="116"/>Respondeo extendendo nomen attributi ad omnes 
+            per<lb ed="#V" n="117" break="no"/>fectiones: et proprietates divinae essentie quae 
+            <lb ed="#V" n="118"/>de ea vere et proprie praedicantur ita vt dicantur attributa sub 
+            <lb ed="#V" n="119"/>ratione qua intellectus dicit eas esse in divina essentia secundum 
+            quem<lb ed="#V" n="120" break="no"/>modum dicimus quod qui dicit aliquam rem simplicem vel vnam 
+            <lb ed="#V" n="121"/>attribuit ei simplicitatem vel vnitatem: dico quod simplicitas 
+            <lb ed="#V" n="122"/>et vnitas in deo sunt plura attributa loquendo de 
+            pluralita<lb ed="#V" n="123" break="no"/>te secundum rationem quod videtur ex hoc: quia ea que excluduntur per ista scilicet 
+            <lb ed="#V" n="124"/>compositio et divino alterius et alterius rationis sunt quia diuino 
+            <lb ed="#V" n="125"/>est quasi opposita compositioni.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e394">
+            ¶ Cum ergo ratio vnius sit per 
+            ne<lb ed="#V" n="126" break="no"/>gationem diuisionis: et simplicis per negationem compositionis: 
+            sequi<lb ed="#V" n="127" break="no"/>tur quod simplicitas et vnitas in deo plura sunt secundum rationem. 
+            <lb ed="#V" n="128"/>Unde alium conceptum facit noster intellectus de diuina 
+            sim<lb ed="#V" n="129" break="no"/>plicitate: aliunde divina vnitate.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e405">
+            ¶ Preterea simplicitas 
+            <lb ed="#V" n="130"/>cum diuina essentia nominat aliquid positiuum quod tamen non 
+            dif<lb ed="#V" n="131" break="no"/>fert a divina essentia secundum rem: sed tantum secundum rationem. Sed 
+            di<lb ed="#V" n="132" break="no"/>na vnitas non dicit cum divina essentia: aliquam rem positiuam 
+            <lb ed="#V" n="133"/>secundum quorundam opinionem: que supra exposita: est quia non dicit 
+            <lb ed="#V" n="134"/>cum diuina essentia nisi negationem diuisionis: ergo secundum hanc 
+            <lb ed="#V" n="135"/>opinionem planum est quod vnitas divina secundum rationem differt a 
+            diui<lb ed="#V" n="136" break="no"/>na simplicitate. Negatio vero bedicitur differre secundum rationem 
+            <!--00172.xml-->
+            <pb ed="#V" n="79-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>vel cooperatur ad differentiam secundum rationem: quia aliquo modo 
+            <lb ed="#V" n="2"/>negationes possunt dici res rationis inquantum sunt 
+            apprehen<lb ed="#V" n="3" break="no"/>sibiles ab intellectu per oppositam positionem.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e436">
+            <lb ed="#V" n="4"/>Ad primum in oppositum cum dicitur quod intellectus noster 
+            <lb ed="#V" n="5"/>non potest deum intelligere simplicem nisi 
+            <lb ed="#V" n="6"/>intelligendo ipsum vnum etc. dico quod quamuis in deo idem sunt 
+            <lb ed="#V" n="7"/>realiter simplicitas et vnitas: tamen intellectus noster potest 
+            in<lb ed="#V" n="8" break="no"/>telligere deum sub vna ratione non intelligendo ipsum sub 
+            <lb ed="#V" n="9"/>alia: Cogitare enim possumus negationem compositionis non 
+            <lb ed="#V" n="10"/>cogitando negationem diuisionis.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e454">
+            ¶ Ad 2m cum dicitur quod 
+            essen<lb ed="#V" n="11" break="no"/>tia non est attributum: dico quod verum est: sed ex hoc 
+            nonsequi<lb ed="#V" n="12" break="no"/>tur quod vnitas non sit attributum: quia quod nominat esse 
+            abso<lb ed="#V" n="13" break="no"/>lute nominat vnitas sub ratione indiuisionis.
+          </p>
+          <p xml:id="kzz7yh-a53790-d1e463">
+            ¶ Ad 3m cum dicitur 
+            <lb ed="#V" n="14"/>quod de ratione simplicitatis est: ratio vnitatis etc. dico quod non 
+            <lb ed="#V" n="15"/>est verum quia ratio simplicitatis est esse non compositum ex aliis: 
+            <lb ed="#V" n="16"/>nec composibile alii. Ad hoc autem sequitur quod sit ens 
+            indiui<lb ed="#V" n="17" break="no"/>sum: sed ex hoc non sequitur quod esse indiuisum sit de ratione 
+            sim<lb ed="#V" n="18" break="no"/>plicis. Aliquid enim sequitur ad aliud quod non est de ratione 
+            <lb ed="#V" n="19"/>illius ad quod sequitur sicut ad esse hominem sequitur esse 
+            <lb ed="#V" n="20"/>risibile: et tamen ratio risibilitatis non est de ratione humanitatis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

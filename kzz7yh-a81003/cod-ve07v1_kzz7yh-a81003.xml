@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="118-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a81003"><!-- l1d37cl -->
-            <head xml:id="kzz7yh-a81003-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-a81003-d1e103">
-               <lb ed="#V" n="72"/>Circa litteram apud se habitabat. Et sic patet quod 
-      <lb ed="#V" n="73"/>hec prepositio apud non semper dicit 
-      trans<lb ed="#V" n="74" break="no"/>lationem et distinctionem secundum rem: sed aliquando secundum 
-      mo<lb ed="#V" n="75" break="no"/>dum et rationem solum. (Ut ab eo cognoscatur: et 
-      dili<lb ed="#V" n="76" break="no"/>gatur) scilicet in actu: vel in hitu. (Paruuli enim baptizati deum 
-      <lb ed="#V" n="77"/>habent per gratiam: quamuis ipsum non cognoscant nec diligant 
-      <lb ed="#V" n="78"/>in actu. (Spiritualis creatus fordibus corporis etiam leprosi vel 
-      <lb ed="#V" n="79"/>quantuncumque polluti inquenari non potest) scilicet fordibus corporalibus 
-      <lb ed="#V" n="80"/>tamen anima a carne infecta per ptem primorum parentium 
-      contra<lb ed="#V" n="81" break="no"/>hit sordem originalis peccati. (Spiritus creature per tempus 
-      <lb ed="#V" n="82"/>mouetur). motus enim eius siue de loco ad locum. siue secundum 
-      <lb ed="#V" n="83"/>cogitationes: et affectiones tempore mensurantur large 
-      accipi<lb ed="#V" n="84" break="no"/>endo tempus: sed eorum esse substantiale est in euo.
-   </p>
-            <p xml:id="kzz7yh-a81003-d1e134">
-      ¶ In 
-      duo<lb ed="#V" n="85" break="no"/>bus sapientibus quorum alter altero corpore grandior est: sed 
-      sa<lb ed="#V" n="86" break="no"/>pientior non est: vna sapientia est id est equalis vel vna 
-      sapien<lb ed="#V" n="87" break="no"/>tia per comparationem ad scita vnitate proportionis: vel potest dici 
-      <lb ed="#V" n="88"/>quod Aug. intendebat dicere quod ab illis duobus equaliter 
-      perti<lb ed="#V" n="89" break="no"/>ciparetur sapientia in creatura que est vna.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="118-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a81003"><!-- l1d37cl -->
+        <head xml:id="kzz7yh-a81003-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-a81003-d1e103">
+          <lb ed="#V" n="72"/>Circa litteram apud se habitabat. Et sic patet quod 
+          <lb ed="#V" n="73"/>hec prepositio apud non semper dicit 
+          trans<lb ed="#V" n="74" break="no"/>lationem et distinctionem secundum rem: sed aliquando secundum 
+          mo<lb ed="#V" n="75" break="no"/>dum et rationem solum. (Ut ab eo cognoscatur: et 
+          dili<lb ed="#V" n="76" break="no"/>gatur) scilicet in actu: vel in hitu. (Paruuli enim baptizati deum 
+          <lb ed="#V" n="77"/>habent per gratiam: quamuis ipsum non cognoscant nec diligant 
+          <lb ed="#V" n="78"/>in actu. (Spiritualis creatus fordibus corporis etiam leprosi vel 
+          <lb ed="#V" n="79"/>quantuncumque polluti inquenari non potest) scilicet fordibus corporalibus 
+          <lb ed="#V" n="80"/>tamen anima a carne infecta per ptem primorum parentium 
+          contra<lb ed="#V" n="81" break="no"/>hit sordem originalis peccati. (Spiritus creature per tempus 
+          <lb ed="#V" n="82"/>mouetur). motus enim eius siue de loco ad locum. siue secundum 
+          <lb ed="#V" n="83"/>cogitationes: et affectiones tempore mensurantur large 
+          accipi<lb ed="#V" n="84" break="no"/>endo tempus: sed eorum esse substantiale est in euo.
+        </p>
+        <p xml:id="kzz7yh-a81003-d1e134">
+          ¶ In 
+          duo<lb ed="#V" n="85" break="no"/>bus sapientibus quorum alter altero corpore grandior est: sed 
+          sa<lb ed="#V" n="86" break="no"/>pientior non est: vna sapientia est id est equalis vel vna 
+          sapien<lb ed="#V" n="87" break="no"/>tia per comparationem ad scita vnitate proportionis: vel potest dici 
+          <lb ed="#V" n="88"/>quod Aug. intendebat dicere quod ab illis duobus equaliter 
+          perti<lb ed="#V" n="89" break="no"/>ciparetur sapientia in creatura que est vna.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

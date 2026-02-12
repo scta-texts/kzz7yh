@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="50-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f35717"><!-- l2d12cl -->
-            <head xml:id="kzz7yh-f35717-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-f35717-d1e103">
-               <lb ed="#V" n="8"/>CIrca litteram eadem etum 
-      vocit<lb ed="#V" n="9" break="no"/>abyssum. Nota quod 
-      <lb ed="#V" n="10"/>maeria pro statu sue creationis dicta est terra: ibi in 
-      <lb ed="#V" n="11"/>principio creauit deus caelum et terram: dicta est etiam 
-      <lb ed="#V" n="12"/>abyssus ibi in tenebre erant super faciem abyssi. Dicta 
-      <lb ed="#V" n="13"/>est etiam aque ibi et spiritus domini serebatur super aquas. Nomine 
-      <lb ed="#V" n="14"/>terre nominatur: quia in ipsa stabiliter forma vt in 
-      fundamen<lb ed="#V" n="15" break="no"/>to. Nomine abyssi: cuia materiam de se dicit quid in 
-      completissi<lb ed="#V" n="16" break="no"/>mum: et forma dicit quid magis completum et actuale: et ideo 
-      <lb ed="#V" n="17"/>forma comparatur luci per quandam similitudinem: et materia 
-      <lb ed="#V" n="18"/>abysso tenebrose. Nominatur autem nomine aque: quia 
-      <lb ed="#V" n="19"/>sicut aqua per se est male terminabilis complete per se: et 
-      <lb ed="#V" n="20"/>bene per aliud: sic materia non est terminabilis per se sed per 
-      for<lb ed="#V" n="21" break="no"/>mam: non enim tenebre aliquid sunt: sed ipsa lucis essentia. 
-      Ue<lb ed="#V" n="22" break="no"/>rum est formaliter et in recto: quia tamen absentia lucis non est 
-      <lb ed="#V" n="23"/>tenebra nisi in subiecto illuminabili: ideo ex consequenti 
-      <lb ed="#V" n="24"/>et in obliquo importat aliquid positiuum: ratione cuius 
-      dicun<lb ed="#V" n="25" break="no"/>tur benedicere domino. Sic enim accipiuntur pro 
-      illumi<lb ed="#V" n="26" break="no"/>nabili non illuminato: nondum lucis gratia deus opus suum 
-      <lb ed="#V" n="27"/>venustauerat. Unde nota quod cum dicitur tenebre erant super 
-      fa<lb ed="#V" n="28" break="no"/>tiem abyssi ibi accipiunt tenebre pro lucis negatione. Cum autem 
-      <lb ed="#V" n="29"/>dicitur et diuisit deus lucem a tenebris ibi accipiuntur 
-      te<lb ed="#V" n="30" break="no"/>nebre pro lucis priuatione: quatuor modis operatur deus. 
-   </p>
-            <p xml:id="kzz7yh-f35717-d1e155">
-               <lb ed="#V" n="31"/>¶ Contra in his non continetur opus iustisicationis 
-      <lb ed="#V" n="32"/>et glorificationis.
-   </p>
-            <p xml:id="kzz7yh-f35717-d1e162">
-      ¶ Respondeo loquitur hoc de operibus 
-      <lb ed="#V" n="33"/>generalibus respectu totius creature: primo operatur in 
-      <lb ed="#V" n="34"/>verbo omnia disponendo: hoc accipit operari large et improprie 
-      <lb ed="#V" n="35"/>secuet pro inferiort actione ipsius dei. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="50-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f35717"><!-- l2d12cl -->
+        <head xml:id="kzz7yh-f35717-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-f35717-d1e103">
+          <lb ed="#V" n="8"/>CIrca litteram eadem etum 
+          vocit<lb ed="#V" n="9" break="no"/>abyssum. Nota quod 
+          <lb ed="#V" n="10"/>maeria pro statu sue creationis dicta est terra: ibi in 
+          <lb ed="#V" n="11"/>principio creauit deus caelum et terram: dicta est etiam 
+          <lb ed="#V" n="12"/>abyssus ibi in tenebre erant super faciem abyssi. Dicta 
+          <lb ed="#V" n="13"/>est etiam aque ibi et spiritus domini serebatur super aquas. Nomine 
+          <lb ed="#V" n="14"/>terre nominatur: quia in ipsa stabiliter forma vt in 
+          fundamen<lb ed="#V" n="15" break="no"/>to. Nomine abyssi: cuia materiam de se dicit quid in 
+          completissi<lb ed="#V" n="16" break="no"/>mum: et forma dicit quid magis completum et actuale: et ideo 
+          <lb ed="#V" n="17"/>forma comparatur luci per quandam similitudinem: et materia 
+          <lb ed="#V" n="18"/>abysso tenebrose. Nominatur autem nomine aque: quia 
+          <lb ed="#V" n="19"/>sicut aqua per se est male terminabilis complete per se: et 
+          <lb ed="#V" n="20"/>bene per aliud: sic materia non est terminabilis per se sed per 
+          for<lb ed="#V" n="21" break="no"/>mam: non enim tenebre aliquid sunt: sed ipsa lucis essentia. 
+          Ue<lb ed="#V" n="22" break="no"/>rum est formaliter et in recto: quia tamen absentia lucis non est 
+          <lb ed="#V" n="23"/>tenebra nisi in subiecto illuminabili: ideo ex consequenti 
+          <lb ed="#V" n="24"/>et in obliquo importat aliquid positiuum: ratione cuius 
+          dicun<lb ed="#V" n="25" break="no"/>tur benedicere domino. Sic enim accipiuntur pro 
+          illumi<lb ed="#V" n="26" break="no"/>nabili non illuminato: nondum lucis gratia deus opus suum 
+          <lb ed="#V" n="27"/>venustauerat. Unde nota quod cum dicitur tenebre erant super 
+          fa<lb ed="#V" n="28" break="no"/>tiem abyssi ibi accipiunt tenebre pro lucis negatione. Cum autem 
+          <lb ed="#V" n="29"/>dicitur et diuisit deus lucem a tenebris ibi accipiuntur 
+          te<lb ed="#V" n="30" break="no"/>nebre pro lucis priuatione: quatuor modis operatur deus. 
+        </p>
+        <p xml:id="kzz7yh-f35717-d1e155">
+          <lb ed="#V" n="31"/>¶ Contra in his non continetur opus iustisicationis 
+          <lb ed="#V" n="32"/>et glorificationis.
+        </p>
+        <p xml:id="kzz7yh-f35717-d1e162">
+          ¶ Respondeo loquitur hoc de operibus 
+          <lb ed="#V" n="33"/>generalibus respectu totius creature: primo operatur in 
+          <lb ed="#V" n="34"/>verbo omnia disponendo: hoc accipit operari large et improprie 
+          <lb ed="#V" n="35"/>secuet pro inferiort actione ipsius dei. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

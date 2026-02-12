@@ -1,340 +1,340 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="139-r"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="139-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k100551"><!-- l4d27a1 -->
+        <head xml:id="kzz7yh-k100551-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-k100551-d1e103">
+          <lb ed="#V" n="50"/>CIrca primum quaeruntur quatuor.
+        </p>
+        <p xml:id="kzz7yh-k100551-d1e108">
+          ¶ Primo vtrum 
+          <lb ed="#V" n="51"/>conuenienter nominetur matrimonium nomine 
+          <lb ed="#V" n="52"/>coniugii: et nuptiarum et matrimonii.
+        </p>
+        <p xml:id="kzz7yh-k100551-d1e115">
+          ¶ Secundo vtrum 
+          <lb ed="#V" n="53"/>ad contrahendum matrimonium necessarius sit verus 
+          vi<lb ed="#V" n="54" break="no"/>ri et mulieris consensus.
+        </p>
+        <p xml:id="kzz7yh-k100551-d1e122">
+          ¶ Tertio vtrum sufficiat consensus 
+          ta<lb ed="#V" n="55" break="no"/>citus.
+        </p>
+        <p xml:id="kzz7yh-k100551-d1e128">
+          ¶ Quarto quid consulendum est alteri coniugum: cui alter 
+          <lb ed="#V" n="56"/>affirmat quod numquam in eum consensit nec consentit. 
+        </p>
+        <div xml:id="kzz7yh-k100551-Dd1e133">
+          <head xml:id="kzz7yh-k100551-Hd1e135">Quaestio 1</head>
+          <p xml:id="kzz7yh-k100551-d1e137">
+            Quaestio I. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e139">
+            <lb ed="#V" n="57"/>PRimo ostendo quod matrimonium praedictio 
+            <lb ed="#V" n="58"/>nomibus inconuenienter nominetur. 
+            Con<lb ed="#V" n="59" break="no"/>iugium enim dicitur a coniunctione: sed coniunctio genus est 
+            <lb ed="#V" n="60"/>ad coniunctionem matrimonii: cum ergo genus non 
+            du<lb ed="#V" n="61" break="no"/>cat in distinctam cognitionem speciei: et res per suum nomen debeat 
+            <lb ed="#V" n="62"/>distincte significari inconuenienter dicitur coniugium.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e155">
+            ¶ Item secundum 
+            <lb ed="#V" n="63"/>
+            <ref xml:id="kzz7yh-k100551-Rd1e159">philosophum. 4. meta.</ref> ratio quam significat nomen diffinitio: 
+            diffini<lb ed="#V" n="64" break="no"/>tio autem indicat essentiam rei: cum ergo nubere non pertineat 
+            <!--00309.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="65"/>ad matrimonii essentiam: sed ad causam: et nuptie dicantur a 
+            nu<lb ed="#V" n="66" break="no"/>bendo inconuenienter nominantur nomine nuptiarum.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e173">
+            ¶ Item a 
+            di<lb ed="#V" n="67" break="no"/>gniori vnumquodque denominandum est: sed in procreatione prolis 
+            <lb ed="#V" n="68"/>dignius principium est pater quam mater: ergo matrimonium 
+            <lb ed="#V" n="69"/>conuenientius diceretur patrimonium. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e183">
+            <lb ed="#V" n="70"/>Contra. in vsu communi tribus praedictis nominibus ien 
+            <lb ed="#V" n="71"/>nominatur. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e190">
+            <lb ed="#V" n="72"/>Respondeo quod circa matrimonium tria 
+            consideran<lb ed="#V" n="73" break="no"/>da sunt scilicet causa essentia: et effectus. 
+            Rto<lb ed="#V" n="74" break="no"/>ne primi dicuntur nuptie a nube: vsi Isi. libro 9 etymolis. c. vlt. 
+            <lb ed="#V" n="75"/>Nuptie dicuntur eo quod ibi nubentium capita velent. Ratione 
+            <lb ed="#V" n="76"/>essentie dicitur coniugium. Raitione effectus quae est proles dicitur matrimonium 
+            <lb ed="#V" n="77"/>quasi matris munium id est offintum: eo quod matri maxime incumbit offinum 
+            <lb ed="#V" n="78"/>nutriende prolis: vel quasi matrem muniens: quia per ipsum prole 
+            mu<lb ed="#V" n="79" break="no"/>nitur: vel quasi matrem mouens scilicet ne derelinquat virum. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e210">
+            <lb ed="#V" n="80"/>Ad primum in oppositum dicendum: quod sicut accidenti 
+            <lb ed="#V" n="81"/>communi: quia habet plus de ratione accidentalita 
+            <lb ed="#V" n="82"/>tis quam proprium: appropriatur nomen accidentis. Sic quia in 
+            matrimo<lb ed="#V" n="83" break="no"/>nio est maxima coniunctio: quia est ibi coniunctio corporum et animorum 
+            <lb ed="#V" n="84"/>ideo conuenienter nominatur nomine coniugii a coniunctione dictum: quamuis 
+            in<lb ed="#V" n="85" break="no"/>ueniatur coniunctio in rebus aliis.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e226">
+            ¶ Ad 2m dicendum: quod quamuis 
+            no<lb ed="#V" n="86" break="no"/>men imponatur ad significandum essentiam rei: tamen frequenter 
+            impo<lb ed="#V" n="87" break="no"/>nitur ab accidente rei: quia per nomen res innotescit: et sicut dicit 
+            <lb ed="#V" n="88"/>philosophus primo de anima. accidentia maximam partem conferunt ad 
+            cognoscen<lb ed="#V" n="89" break="no"/>dum quod quid est: ita dico quod potest nomen rei conuenienter imponi 
+            <lb ed="#V" n="90"/>ad significandam rei essentia a cansa effectiua: quia multum cooperatur 
+            <lb ed="#V" n="91"/>ad rei cognitionem.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e242">
+            ¶ Ad 3m dicendum: quod quamuis sit vir 
+            principa<lb ed="#V" n="92" break="no"/>lius principium in prolis generatione quam mulier: tamen in nutritione est ecoo 
+            <lb ed="#V" n="93"/>quia dum est in ventre matris nutritur menstruo sanguine matris sue. 
+            <lb ed="#V" n="94"/>et postquam natus est nutritur acte matris: et postquam ablactatus est 
+            <lb ed="#V" n="95"/>adhuc per magnum tempus magis incumbit offinum nutriendi ipsum 
+            <lb ed="#V" n="96"/>matri quam patri. Econuerso quia in acquisitione possessionis 
+            principa<lb ed="#V" n="97" break="no"/>lior est pater quam mater ideo dicitur patrimonium. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k100551-Dd1e259">
+          <head xml:id="kzz7yh-k100551-Hd1e261">Quaestio 2</head>
+          <p xml:id="kzz7yh-k100551-d1e263">
+            Quaestio II.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e265">
+            <lb ed="#V" n="98"/>SEcundo queritur vtrum ad contrahendum 
+            matrimo<lb ed="#V" n="99" break="no"/>nium: necessarius sit verus viri et 
+            mu<lb ed="#V" n="100" break="no"/>lieris consensus. Et videtur quod non. quia cum nunquam possit 
+            <lb ed="#V" n="101"/>constare de vero consensu: nuquam possent homines esse 
+            cer<lb ed="#V" n="102" break="no"/>ti vtrum essent in vero matrimonio: quod videtur inconueniens.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e278">
+            ¶ Item magister 
+            <lb ed="#V" n="103"/>homo di. c. 2. dicit quod si vir et mulier verbis explicant: quod tamen 
+            cor<lb ed="#V" n="104" break="no"/>de non volunt: si non fit ibi coactio vel dolus matrimous contrabunt: 
+            <lb ed="#V" n="105"/>sed non est verus consensus si verbo explicant quod corde non volunt. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e287">
+            <lb ed="#V" n="106"/>¶ Item ad ea quae sunt ab institutione divina non requiritur consensus 
+            <lb ed="#V" n="107"/>voluntatis humane: sed matrimoum vt superius visum est ab institutione 
+            <lb ed="#V" n="108"/>divina est: ergo ad hoc non requiritur consensus voluntatis humane. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e297">
+            <lb ed="#V" n="109"/>Contra. ad veram collationem sacramentrequiritur vera intentio 
+            con<lb ed="#V" n="110" break="no"/>ferendi: ergo similiter ad vere contrahendum sacramentum matrimonii 
+            re<lb ed="#V" n="111" break="no"/>quiritur vera intentio contrahendi.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e306">
+            ¶ Item extra de spositio. Tua nos. in si. sine 
+            <lb ed="#V" n="112"/>consensu cetera nequeunt fedus perficere coniugale: sed non est 
+            con<lb ed="#V" n="113" break="no"/>sensus nisi sit verus: ergo ad hoc requiritur verus consensus. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e313">
+            <lb ed="#V" n="114"/>¶ Respondeo quod ad hoc vt vere contrahatur in foro consciente et dei qui 
+            cor<lb ed="#V" n="115" break="no"/>dium nouit occulta requiritur verus consensus 
+            inte<lb ed="#V" n="116" break="no"/>rior: quamuis non sufficent: sine institutione divina: quia cum vir et 
+            mu<lb ed="#V" n="117" break="no"/>lier plearie subsint dominio dei: non liceret vni transferre corpus 
+            <lb ed="#V" n="118"/>suum in potestatem alterius nisi concurrente ad hoc domini voluntate et auctoritate 
+            <lb ed="#V" n="119"/>tamen quantum ad iudium ecclie militantis quae secundum exteriora iudicat: si 
+            <lb ed="#V" n="120"/>dicantur verba quae consensum interiorem exprimunt: quamuis secundum rei veritatem 
+            <lb ed="#V" n="121"/>non assit: iudicabitur matrimus: nisi signis euidentibus probari 
+            po<lb ed="#V" n="122" break="no"/>tuerit numquam interiorem consensum affuisse: quod probare nimis esset 
+            <lb ed="#V" n="123"/>difficile: nec ad proesens occurrit mihi quomodo hoc sit possibile. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e337">
+            <lb ed="#V" n="124"/>Ad primum in oppositum dicendum: quod quamuis non possit 
+            con<lb ed="#V" n="125" break="no"/>stare certa scientia de vero consensu: de hoc 
+            ti<lb ed="#V" n="126" break="no"/>potest constare per probabilem coniecturam: et hoc sufficit: sic enim dic philosophus 
+            prame<lb ed="#V" n="127" break="no"/>ethi. c. 2. disciplinati est in tantum certitudinem inquerere secundum vnumquod 
+            <lb ed="#V" n="128"/>quam genus imquantum rei natura sufficit.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e350">
+            ¶ Ad 2m dicendum quod verbum 
+            magistri<lb ed="#V" n="129" break="no"/>intelligendum est quantum ad iudium ecclsie quae per exteriorem expressionem conse 
+            <lb ed="#V" n="130"/>sus praesumit interiorem consensum affuisse.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e357">
+            ¶ Ad 3m dicendum: et 
+            <lb ed="#V" n="131"/>ad ea que sunt ab institutione diuina requiritur consensus 
+            volun<lb ed="#V" n="132" break="no"/>tatis humane in quibus deus instituit vt requiratur: deus autem instituendo 
+            <!--00310.xml-->
+            <pb ed="#V" n="139-v"/>
             <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k100551"><!-- l4d27a1 -->
-            <head xml:id="kzz7yh-k100551-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-k100551-d1e103">
-               <lb ed="#V" n="50"/>CIrca primum quaeruntur quatuor.
-   </p>
-            <p xml:id="kzz7yh-k100551-d1e108">
-      ¶ Primo vtrum 
-      <lb ed="#V" n="51"/>conuenienter nominetur matrimonium nomine 
-      <lb ed="#V" n="52"/>coniugii: et nuptiarum et matrimonii.
-   </p>
-            <p xml:id="kzz7yh-k100551-d1e115">
-      ¶ Secundo vtrum 
-      <lb ed="#V" n="53"/>ad contrahendum matrimonium necessarius sit verus 
-      vi<lb ed="#V" n="54" break="no"/>ri et mulieris consensus.
-   </p>
-            <p xml:id="kzz7yh-k100551-d1e122">
-      ¶ Tertio vtrum sufficiat consensus 
-      ta<lb ed="#V" n="55" break="no"/>citus.
-   </p>
-            <p xml:id="kzz7yh-k100551-d1e128">
-      ¶ Quarto quid consulendum est alteri coniugum: cui alter 
-      <lb ed="#V" n="56"/>affirmat quod numquam in eum consensit nec consentit. 
-   </p>
-            <div xml:id="kzz7yh-k100551-Dd1e133">
-               <head xml:id="kzz7yh-k100551-Hd1e135">Quaestio 1</head>
-               <p xml:id="kzz7yh-k100551-d1e137">
-    Quaestio I. 
-  </p>
-               <p xml:id="kzz7yh-k100551-d1e139">
-                  <lb ed="#V" n="57"/>PRimo ostendo quod matrimonium praedictio 
-      <lb ed="#V" n="58"/>nomibus inconuenienter nominetur. 
-      Con<lb ed="#V" n="59" break="no"/>iugium enim dicitur a coniunctione: sed coniunctio genus est 
-      <lb ed="#V" n="60"/>ad coniunctionem matrimonii: cum ergo genus non 
-      du<lb ed="#V" n="61" break="no"/>cat in distinctam cognitionem speciei: et res per suum nomen debeat 
-      <lb ed="#V" n="62"/>distincte significari inconuenienter dicitur coniugium.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e155">
-      ¶ Item secundum 
-      <lb ed="#V" n="63"/>
-                  <ref xml:id="kzz7yh-k100551-Rd1e159">philosophum. 4. meta.</ref> ratio quam significat nomen diffinitio: 
-      diffini<lb ed="#V" n="64" break="no"/>tio autem indicat essentiam rei: cum ergo nubere non pertineat 
-      <!--00309.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="65"/>ad matrimonii essentiam: sed ad causam: et nuptie dicantur a 
-      nu<lb ed="#V" n="66" break="no"/>bendo inconuenienter nominantur nomine nuptiarum.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e173">
-      ¶ Item a 
-      di<lb ed="#V" n="67" break="no"/>gniori vnumquodque denominandum est: sed in procreatione prolis 
-      <lb ed="#V" n="68"/>dignius principium est pater quam mater: ergo matrimonium 
-      <lb ed="#V" n="69"/>conuenientius diceretur patrimonium. 
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e183">
-                  <lb ed="#V" n="70"/>Contra. in vsu communi tribus praedictis nominibus ien 
-      <lb ed="#V" n="71"/>nominatur. 
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e190">
-                  <lb ed="#V" n="72"/>Respondeo quod circa matrimonium tria 
-      consideran<lb ed="#V" n="73" break="no"/>da sunt scilicet causa essentia: et effectus. 
-      Rto<lb ed="#V" n="74" break="no"/>ne primi dicuntur nuptie a nube: vsi Isi. libro 9 etymolis. c. vlt. 
-      <lb ed="#V" n="75"/>Nuptie dicuntur eo quod ibi nubentium capita velent. Ratione 
-      <lb ed="#V" n="76"/>essentie dicitur coniugium. Raitione effectus quae est proles dicitur matrimonium 
-      <lb ed="#V" n="77"/>quasi matris munium id est offintum: eo quod matri maxime incumbit offinum 
-      <lb ed="#V" n="78"/>nutriende prolis: vel quasi matrem muniens: quia per ipsum prole 
-      mu<lb ed="#V" n="79" break="no"/>nitur: vel quasi matrem mouens scilicet ne derelinquat virum. 
-    </p>
-               <p xml:id="kzz7yh-k100551-d1e210">
-                  <lb ed="#V" n="80"/>Ad primum in oppositum dicendum: quod sicut accidenti 
-      <lb ed="#V" n="81"/>communi: quia habet plus de ratione accidentalita 
-      <lb ed="#V" n="82"/>tis quam proprium: appropriatur nomen accidentis. Sic quia in 
-      matrimo<lb ed="#V" n="83" break="no"/>nio est maxima coniunctio: quia est ibi coniunctio corporum et animorum 
-      <lb ed="#V" n="84"/>ideo conuenienter nominatur nomine coniugii a coniunctione dictum: quamuis 
-      in<lb ed="#V" n="85" break="no"/>ueniatur coniunctio in rebus aliis.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e226">
-      ¶ Ad 2m dicendum: quod quamuis 
-      no<lb ed="#V" n="86" break="no"/>men imponatur ad significandum essentiam rei: tamen frequenter 
-      impo<lb ed="#V" n="87" break="no"/>nitur ab accidente rei: quia per nomen res innotescit: et sicut dicit 
-      <lb ed="#V" n="88"/>philosophus primo de anima. accidentia maximam partem conferunt ad 
-      cognoscen<lb ed="#V" n="89" break="no"/>dum quod quid est: ita dico quod potest nomen rei conuenienter imponi 
-      <lb ed="#V" n="90"/>ad significandam rei essentia a cansa effectiua: quia multum cooperatur 
-      <lb ed="#V" n="91"/>ad rei cognitionem.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e242">
-      ¶ Ad 3m dicendum: quod quamuis sit vir 
-      principa<lb ed="#V" n="92" break="no"/>lius principium in prolis generatione quam mulier: tamen in nutritione est ecoo 
-      <lb ed="#V" n="93"/>quia dum est in ventre matris nutritur menstruo sanguine matris sue. 
-      <lb ed="#V" n="94"/>et postquam natus est nutritur acte matris: et postquam ablactatus est 
-      <lb ed="#V" n="95"/>adhuc per magnum tempus magis incumbit offinum nutriendi ipsum 
-      <lb ed="#V" n="96"/>matri quam patri. Econuerso quia in acquisitione possessionis 
-      principa<lb ed="#V" n="97" break="no"/>lior est pater quam mater ideo dicitur patrimonium. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k100551-Dd1e259">
-               <head xml:id="kzz7yh-k100551-Hd1e261">Quaestio 2</head>
-               <p xml:id="kzz7yh-k100551-d1e263">
-      Quaestio II.
-    </p>
-               <p xml:id="kzz7yh-k100551-d1e265">
-                  <lb ed="#V" n="98"/>SEcundo queritur vtrum ad contrahendum 
-      matrimo<lb ed="#V" n="99" break="no"/>nium: necessarius sit verus viri et 
-      mu<lb ed="#V" n="100" break="no"/>lieris consensus. Et videtur quod non. quia cum nunquam possit 
-      <lb ed="#V" n="101"/>constare de vero consensu: nuquam possent homines esse 
-      cer<lb ed="#V" n="102" break="no"/>ti vtrum essent in vero matrimonio: quod videtur inconueniens.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e278">
-      ¶ Item magister 
-      <lb ed="#V" n="103"/>homo di. c. 2. dicit quod si vir et mulier verbis explicant: quod tamen 
-      cor<lb ed="#V" n="104" break="no"/>de non volunt: si non fit ibi coactio vel dolus matrimous contrabunt: 
-      <lb ed="#V" n="105"/>sed non est verus consensus si verbo explicant quod corde non volunt. 
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e287">
-                  <lb ed="#V" n="106"/>¶ Item ad ea quae sunt ab institutione divina non requiritur consensus 
-      <lb ed="#V" n="107"/>voluntatis humane: sed matrimoum vt superius visum est ab institutione 
-      <lb ed="#V" n="108"/>divina est: ergo ad hoc non requiritur consensus voluntatis humane. 
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e297">
-                  <lb ed="#V" n="109"/>Contra. ad veram collationem sacramentrequiritur vera intentio 
-      con<lb ed="#V" n="110" break="no"/>ferendi: ergo similiter ad vere contrahendum sacramentum matrimonii 
-      re<lb ed="#V" n="111" break="no"/>quiritur vera intentio contrahendi.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e306">
-      ¶ Item extra de spositio. Tua nos. in si. sine 
-      <lb ed="#V" n="112"/>consensu cetera nequeunt fedus perficere coniugale: sed non est 
-      con<lb ed="#V" n="113" break="no"/>sensus nisi sit verus: ergo ad hoc requiritur verus consensus. 
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e313">
-                  <lb ed="#V" n="114"/>¶ Respondeo quod ad hoc vt vere contrahatur in foro consciente et dei qui 
-      cor<lb ed="#V" n="115" break="no"/>dium nouit occulta requiritur verus consensus 
-      inte<lb ed="#V" n="116" break="no"/>rior: quamuis non sufficent: sine institutione divina: quia cum vir et 
-      mu<lb ed="#V" n="117" break="no"/>lier plearie subsint dominio dei: non liceret vni transferre corpus 
-      <lb ed="#V" n="118"/>suum in potestatem alterius nisi concurrente ad hoc domini voluntate et auctoritate 
-      <lb ed="#V" n="119"/>tamen quantum ad iudium ecclie militantis quae secundum exteriora iudicat: si 
-      <lb ed="#V" n="120"/>dicantur verba quae consensum interiorem exprimunt: quamuis secundum rei veritatem 
-      <lb ed="#V" n="121"/>non assit: iudicabitur matrimus: nisi signis euidentibus probari 
-      po<lb ed="#V" n="122" break="no"/>tuerit numquam interiorem consensum affuisse: quod probare nimis esset 
-      <lb ed="#V" n="123"/>difficile: nec ad proesens occurrit mihi quomodo hoc sit possibile. 
-    </p>
-               <p xml:id="kzz7yh-k100551-d1e337">
-                  <lb ed="#V" n="124"/>Ad primum in oppositum dicendum: quod quamuis non possit 
-      con<lb ed="#V" n="125" break="no"/>stare certa scientia de vero consensu: de hoc 
-      ti<lb ed="#V" n="126" break="no"/>potest constare per probabilem coniecturam: et hoc sufficit: sic enim dic philosophus 
-      prame<lb ed="#V" n="127" break="no"/>ethi. c. 2. disciplinati est in tantum certitudinem inquerere secundum vnumquod 
-      <lb ed="#V" n="128"/>quam genus imquantum rei natura sufficit.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e350">
-      ¶ Ad 2m dicendum quod verbum 
-      magistri<lb ed="#V" n="129" break="no"/>intelligendum est quantum ad iudium ecclsie quae per exteriorem expressionem conse 
-      <lb ed="#V" n="130"/>sus praesumit interiorem consensum affuisse.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e357">
-      ¶ Ad 3m dicendum: et 
-      <lb ed="#V" n="131"/>ad ea que sunt ab institutione diuina requiritur consensus 
-      volun<lb ed="#V" n="132" break="no"/>tatis humane in quibus deus instituit vt requiratur: deus autem instituendo 
-      <!--00310.xml-->
-      <pb ed="#V" n="139-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>matrimonium implicite instituit vt requiratur ad hoc viri et 
-      <lb ed="#V" n="2"/>mulieris consensus: et hoc fuit rationabile cum in matrimonio sit 
-      <lb ed="#V" n="3"/>aliquid carnale et humanum. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k100551-Dd1e378">
-               <head xml:id="kzz7yh-k100551-Hd1e380">Quaestio 3</head>
-               <p xml:id="kzz7yh-k100551-d1e382">
-      Questio. III.
-    </p>
-               <p xml:id="kzz7yh-k100551-d1e384">
-                  <lb ed="#V" n="4"/>TErtio queritur vtrum ad contrahendum 
-      matri<lb ed="#V" n="5" break="no"/>monium sufficiat consensus tacitus. Et 
-      <lb ed="#V" n="6"/>videtur quod sic. extra de sponsalibus. Tue fraternitati: 
-      matri<lb ed="#V" n="7" break="no"/>monium in veritate contrahitur per legitimi viri et 
-      <lb ed="#V" n="8"/>mulieris consensum: sed necessaria sunt quantum ad ecclesiam 
-      ver<lb ed="#V" n="9" break="no"/>ba consensum exprimentia de praesenti: ergo verba non requiruntur ad 
-      <lb ed="#V" n="10"/>hoc vt in foro dei matrimonium contrahatur: sed tantum ad hoc vt 
-      <lb ed="#V" n="11"/>ab ecclesia contractum matrimonium iudicetur.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e404">
-      ¶ Item 32 q. 2. 
-      <lb ed="#V" n="12"/>Non omnis. §. Cum dicitur in tex. et in glo. et in decr. praedicta in 
-      gl<lb ed="#V" n="13" break="no"/>Si parentes contrahant pro filiis praesentibus et scientibus sufficit eorum 
-      <lb ed="#V" n="14"/>taciturnitas.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e413">
-      ¶ Item consensus tacitus facit adulterium dicente 
-      <lb ed="#V" n="15"/>domino Matth. 5. Quicumque viderit mulierem ad 
-      concupiscen<lb ed="#V" n="16" break="no"/>dum eam iam mechatus est eam in corde suo: ergo a simili 
-      con<lb ed="#V" n="17" break="no"/>sensus tacitus potest facere matrimonium. 
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e423">
-                  <lb ed="#V" n="18"/>Contra. consensus tacitus alicuius non dat ius alii in 
-      re<lb ed="#V" n="19" break="no"/>sua: sed per matrimonium habet vir potestatem 
-      <lb ed="#V" n="20"/>in corpore mulieris: et econuerso secundum apistolum 1 Cori. 7. ergo ad 
-      <lb ed="#V" n="21"/>matrimonium contrahendum non sufficit consensus non expressus. 
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e434">
-                  <lb ed="#V" n="22"/>¶ Item Magister huius dis. c. 2. dicit de viro et muliere quod 
-      si<lb ed="#V" n="23" break="no"/>consentiant mente: et non exprimant verbis vel aliis certis signis 
-      <lb ed="#V" n="24"/>talis consensus matrimonium non efficit. 
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e443">
-                  <lb ed="#V" n="25"/>Respondeo quod ad contrahendum matrimonium 
-      re<lb ed="#V" n="26" break="no"/>quiritur consensus mutuus per verba de 
-      <lb ed="#V" n="27"/>praesenti: vel per alia signa in non potentibus loqui: et dico paer alia 
-      <lb ed="#V" n="28"/>signa: quia muti possunt contrahere matrimonium. extra de sponsa. Tue 
-      <lb ed="#V" n="29"/>fraternitati. Inter etiam absentes et qui se numquam viderunt potest 
-      <lb ed="#V" n="30"/>contrahi matrimonium per procuratorem et litteras consensus mutuos 
-      <lb ed="#V" n="31"/>exprimentes: dum tamen fama vel auditu vel aliquo modo se 
-      mo<lb ed="#V" n="32" break="no"/>uerint 30. q. 5. Nec illud in glo. et 32. q. 2. Non omnis . §. Cum 
-      <lb ed="#V" n="33"/>dicitur. in glo. Romn autem quare requiritur expressio mutui consensus per 
-      <lb ed="#V" n="34"/>aliquod sensibile signum est: quia sic est institutum: cuius 
-      institutio<lb ed="#V" n="35" break="no"/>nis fuit ratio congrua: quia matrimonium est sacramentum: et de ratione 
-      sa<lb ed="#V" n="36" break="no"/>cramenti est vt superius visum est: quod in eo sit aliquod sensibile 
-      <lb ed="#V" n="37"/>signum. Aliam etiam rationem assignant aliqui: quia in contractu 
-      matri<lb ed="#V" n="38" break="no"/>monii quilibet donat alii potestatem corporis sui quantum ad 
-      con<lb ed="#V" n="39" break="no"/>iugalem actum: donatio aut non perficitur nisi concurrente 
-      consensu<lb ed="#V" n="40" break="no"/>donatoris et donatarii: donatarius autem consentire non potest 
-      <lb ed="#V" n="41"/>in donationem: nisi donator voluntatem suam sibi exprimat: quod 
-      <lb ed="#V" n="42"/>sine signo sensibili facere non potest. 
-    </p>
-               <p xml:id="kzz7yh-k100551-d1e485">
-                  <lb ed="#V" n="43"/>Ad primum in oppositum dicendum quod quamuis 
-      verba<lb ed="#V" n="44" break="no"/>sint necessaria quantum ad ecclesiam 
-      <lb ed="#V" n="45"/>nihilominus sunt est necessaria ad hoc vt in iudicio dei 
-      matrimo<lb ed="#V" n="46" break="no"/>nium contrahatur: vnde verba decretalis intelligenda sunt per 
-      ap<lb ed="#V" n="47" break="no"/>propriationem: eo quod in iudicio dei principalior est consensus 
-      <lb ed="#V" n="48"/>interior quam expressio eius exterior. In iudicio autem ecclesie 
-      <lb ed="#V" n="49"/>militantis est econtrario.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e503">
-      ¶ Ad secundum dicendum: quod dicunt aliqui quod 
-      <lb ed="#V" n="50"/>in casu predicto sufficit consensus sine verbis illorum qui contrahunt: 
-      <lb ed="#V" n="51"/>quia verba parentum et taciturnitas filiorum praesentium: et verba 
-      in<lb ed="#V" n="52" break="no"/>telligentium equalent sensibili signo exprimenti interiorem 
-      <lb ed="#V" n="53"/>consensum: maxime quando ex aliquo gestu annuunt: et ex 
-      verecun<lb ed="#V" n="54" break="no"/>dia loque omittunt: si autem verba dicerentur per alios quam per 
-      pa<lb ed="#V" n="55" break="no"/>rentes non sufficeret taciturnitas predicta: plus enim in hoc 
-      <lb ed="#V" n="56"/>valent verba parentum: eo quod filii sunt aliquid substantie eorum. Alii 
-      <lb ed="#V" n="57"/>glosas praedictas negant: nec enim ex tex. ex quo accipiuntur secundum 
-      <lb ed="#V" n="58"/>rei veritatem possunt haberi.
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e525">
-      ¶ Ad tertium dicendum: quod non est 
-      simi<lb ed="#V" n="59" break="no"/>le: quia peccatum committi potest in sola voluntate: sed ad sacramentum 
-      re<lb ed="#V" n="60" break="no"/>quiritur sensibile signum ex diuina institutione. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k100551-Dd1e533">
-               <head xml:id="kzz7yh-k100551-Hd1e535">Quaestio 4</head>
-               <p xml:id="kzz7yh-k100551-d1e537">
-      Quaestio IIII
-    </p>
-               <p xml:id="kzz7yh-k100551-d1e539">
-                  <lb ed="#V" n="61"/>QUarto queritur quid consulendum est alte 
-      <lb ed="#V" n="62"/>ri coniugum: cui alter affirmat quod 
-      <lb ed="#V" n="63"/>nunquam in eum consensit: nec consentit. 
-   </p>
-               <p xml:id="kzz7yh-k100551-d1e548">
-                  <lb ed="#V" n="64"/>¶ Respondeo quod consulendum est ei quod hoc non 
-      <lb ed="#V" n="65"/>credat: quia nec alteri coniugum in hoc credere tenetur. extra de 
-      <lb ed="#V" n="66"/>probationibus. Per tuas. nimis indignum est iuxta legitimas 
-      <lb ed="#V" n="67"/>sanctiones: vt quod sua quisque voce dilucide protestatus est in 
-      <lb ed="#V" n="68"/>eundem casum proprio valeat testimonio infirmare. Si autem 
-      <!--00310.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>temerarie credat quod alter coniunx verum dicat durante ista 
-      cre<lb ed="#V" n="70" break="no"/>dulitate non licet ei cum illo carnaliter commisceri: nec ad 
-      pe<lb ed="#V" n="71" break="no"/>titionem propriam: quia credit quod non fit eius coniunx: nec ad 
-      peti<lb ed="#V" n="72" break="no"/>tionem alterius: quia sibi in hoc praeiudicat quamdiu affirmat se 
-      <lb ed="#V" n="73"/>coniugem non esse: si autem postea affirmat se mentitum esse: et 
-      <lb ed="#V" n="74"/>petat debitum: si alter coniunx remaneat in praestina 
-      credulita<lb ed="#V" n="75" break="no"/>te perplexus est quamdiu durat illa credulitas: quia illa 
-      creduli<lb ed="#V" n="76" break="no"/>tate manente non credit alterum suum coniugem esse: vnde si 
-      red<lb ed="#V" n="77" break="no"/>deret debitum contra scientiam faceret: quia nec debitum credit esse: immo 
-      <lb ed="#V" n="78"/>indebitum: si aut non reddit est peccat: quia quamuis alter coniunx 
-      <lb ed="#V" n="79"/>in dicendo se non esse coniugem piudicaret sibi quo ad 
-      pote<lb ed="#V" n="80" break="no"/>statem exigendi debitum quamdiu hoc non reuocabat: tamen postquam 
-      <lb ed="#V" n="81"/>reuocat credo quod expirat illud praeiudicium: quia reuocatio 
-      <lb ed="#V" n="82"/>concordat verbis quibus in contractum expressit suum 
-      con<lb ed="#V" n="83" break="no"/>sensum de presenti. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="1"/>matrimonium implicite instituit vt requiratur ad hoc viri et 
+            <lb ed="#V" n="2"/>mulieris consensus: et hoc fuit rationabile cum in matrimonio sit 
+            <lb ed="#V" n="3"/>aliquid carnale et humanum. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k100551-Dd1e378">
+          <head xml:id="kzz7yh-k100551-Hd1e380">Quaestio 3</head>
+          <p xml:id="kzz7yh-k100551-d1e382">
+            Questio. III.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e384">
+            <lb ed="#V" n="4"/>TErtio queritur vtrum ad contrahendum 
+            matri<lb ed="#V" n="5" break="no"/>monium sufficiat consensus tacitus. Et 
+            <lb ed="#V" n="6"/>videtur quod sic. extra de sponsalibus. Tue fraternitati: 
+            matri<lb ed="#V" n="7" break="no"/>monium in veritate contrahitur per legitimi viri et 
+            <lb ed="#V" n="8"/>mulieris consensum: sed necessaria sunt quantum ad ecclesiam 
+            ver<lb ed="#V" n="9" break="no"/>ba consensum exprimentia de praesenti: ergo verba non requiruntur ad 
+            <lb ed="#V" n="10"/>hoc vt in foro dei matrimonium contrahatur: sed tantum ad hoc vt 
+            <lb ed="#V" n="11"/>ab ecclesia contractum matrimonium iudicetur.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e404">
+            ¶ Item 32 q. 2. 
+            <lb ed="#V" n="12"/>Non omnis. §. Cum dicitur in tex. et in glo. et in decr. praedicta in 
+            gl<lb ed="#V" n="13" break="no"/>Si parentes contrahant pro filiis praesentibus et scientibus sufficit eorum 
+            <lb ed="#V" n="14"/>taciturnitas.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e413">
+            ¶ Item consensus tacitus facit adulterium dicente 
+            <lb ed="#V" n="15"/>domino Matth. 5. Quicumque viderit mulierem ad 
+            concupiscen<lb ed="#V" n="16" break="no"/>dum eam iam mechatus est eam in corde suo: ergo a simili 
+            con<lb ed="#V" n="17" break="no"/>sensus tacitus potest facere matrimonium. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e423">
+            <lb ed="#V" n="18"/>Contra. consensus tacitus alicuius non dat ius alii in 
+            re<lb ed="#V" n="19" break="no"/>sua: sed per matrimonium habet vir potestatem 
+            <lb ed="#V" n="20"/>in corpore mulieris: et econuerso secundum apistolum 1 Cori. 7. ergo ad 
+            <lb ed="#V" n="21"/>matrimonium contrahendum non sufficit consensus non expressus. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e434">
+            <lb ed="#V" n="22"/>¶ Item Magister huius dis. c. 2. dicit de viro et muliere quod 
+            si<lb ed="#V" n="23" break="no"/>consentiant mente: et non exprimant verbis vel aliis certis signis 
+            <lb ed="#V" n="24"/>talis consensus matrimonium non efficit. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e443">
+            <lb ed="#V" n="25"/>Respondeo quod ad contrahendum matrimonium 
+            re<lb ed="#V" n="26" break="no"/>quiritur consensus mutuus per verba de 
+            <lb ed="#V" n="27"/>praesenti: vel per alia signa in non potentibus loqui: et dico paer alia 
+            <lb ed="#V" n="28"/>signa: quia muti possunt contrahere matrimonium. extra de sponsa. Tue 
+            <lb ed="#V" n="29"/>fraternitati. Inter etiam absentes et qui se numquam viderunt potest 
+            <lb ed="#V" n="30"/>contrahi matrimonium per procuratorem et litteras consensus mutuos 
+            <lb ed="#V" n="31"/>exprimentes: dum tamen fama vel auditu vel aliquo modo se 
+            mo<lb ed="#V" n="32" break="no"/>uerint 30. q. 5. Nec illud in glo. et 32. q. 2. Non omnis . §. Cum 
+            <lb ed="#V" n="33"/>dicitur. in glo. Romn autem quare requiritur expressio mutui consensus per 
+            <lb ed="#V" n="34"/>aliquod sensibile signum est: quia sic est institutum: cuius 
+            institutio<lb ed="#V" n="35" break="no"/>nis fuit ratio congrua: quia matrimonium est sacramentum: et de ratione 
+            sa<lb ed="#V" n="36" break="no"/>cramenti est vt superius visum est: quod in eo sit aliquod sensibile 
+            <lb ed="#V" n="37"/>signum. Aliam etiam rationem assignant aliqui: quia in contractu 
+            matri<lb ed="#V" n="38" break="no"/>monii quilibet donat alii potestatem corporis sui quantum ad 
+            con<lb ed="#V" n="39" break="no"/>iugalem actum: donatio aut non perficitur nisi concurrente 
+            consensu<lb ed="#V" n="40" break="no"/>donatoris et donatarii: donatarius autem consentire non potest 
+            <lb ed="#V" n="41"/>in donationem: nisi donator voluntatem suam sibi exprimat: quod 
+            <lb ed="#V" n="42"/>sine signo sensibili facere non potest. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e485">
+            <lb ed="#V" n="43"/>Ad primum in oppositum dicendum quod quamuis 
+            verba<lb ed="#V" n="44" break="no"/>sint necessaria quantum ad ecclesiam 
+            <lb ed="#V" n="45"/>nihilominus sunt est necessaria ad hoc vt in iudicio dei 
+            matrimo<lb ed="#V" n="46" break="no"/>nium contrahatur: vnde verba decretalis intelligenda sunt per 
+            ap<lb ed="#V" n="47" break="no"/>propriationem: eo quod in iudicio dei principalior est consensus 
+            <lb ed="#V" n="48"/>interior quam expressio eius exterior. In iudicio autem ecclesie 
+            <lb ed="#V" n="49"/>militantis est econtrario.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e503">
+            ¶ Ad secundum dicendum: quod dicunt aliqui quod 
+            <lb ed="#V" n="50"/>in casu predicto sufficit consensus sine verbis illorum qui contrahunt: 
+            <lb ed="#V" n="51"/>quia verba parentum et taciturnitas filiorum praesentium: et verba 
+            in<lb ed="#V" n="52" break="no"/>telligentium equalent sensibili signo exprimenti interiorem 
+            <lb ed="#V" n="53"/>consensum: maxime quando ex aliquo gestu annuunt: et ex 
+            verecun<lb ed="#V" n="54" break="no"/>dia loque omittunt: si autem verba dicerentur per alios quam per 
+            pa<lb ed="#V" n="55" break="no"/>rentes non sufficeret taciturnitas predicta: plus enim in hoc 
+            <lb ed="#V" n="56"/>valent verba parentum: eo quod filii sunt aliquid substantie eorum. Alii 
+            <lb ed="#V" n="57"/>glosas praedictas negant: nec enim ex tex. ex quo accipiuntur secundum 
+            <lb ed="#V" n="58"/>rei veritatem possunt haberi.
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e525">
+            ¶ Ad tertium dicendum: quod non est 
+            simi<lb ed="#V" n="59" break="no"/>le: quia peccatum committi potest in sola voluntate: sed ad sacramentum 
+            re<lb ed="#V" n="60" break="no"/>quiritur sensibile signum ex diuina institutione. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k100551-Dd1e533">
+          <head xml:id="kzz7yh-k100551-Hd1e535">Quaestio 4</head>
+          <p xml:id="kzz7yh-k100551-d1e537">
+            Quaestio IIII
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e539">
+            <lb ed="#V" n="61"/>QUarto queritur quid consulendum est alte 
+            <lb ed="#V" n="62"/>ri coniugum: cui alter affirmat quod 
+            <lb ed="#V" n="63"/>nunquam in eum consensit: nec consentit. 
+          </p>
+          <p xml:id="kzz7yh-k100551-d1e548">
+            <lb ed="#V" n="64"/>¶ Respondeo quod consulendum est ei quod hoc non 
+            <lb ed="#V" n="65"/>credat: quia nec alteri coniugum in hoc credere tenetur. extra de 
+            <lb ed="#V" n="66"/>probationibus. Per tuas. nimis indignum est iuxta legitimas 
+            <lb ed="#V" n="67"/>sanctiones: vt quod sua quisque voce dilucide protestatus est in 
+            <lb ed="#V" n="68"/>eundem casum proprio valeat testimonio infirmare. Si autem 
+            <!--00310.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>temerarie credat quod alter coniunx verum dicat durante ista 
+            cre<lb ed="#V" n="70" break="no"/>dulitate non licet ei cum illo carnaliter commisceri: nec ad 
+            pe<lb ed="#V" n="71" break="no"/>titionem propriam: quia credit quod non fit eius coniunx: nec ad 
+            peti<lb ed="#V" n="72" break="no"/>tionem alterius: quia sibi in hoc praeiudicat quamdiu affirmat se 
+            <lb ed="#V" n="73"/>coniugem non esse: si autem postea affirmat se mentitum esse: et 
+            <lb ed="#V" n="74"/>petat debitum: si alter coniunx remaneat in praestina 
+            credulita<lb ed="#V" n="75" break="no"/>te perplexus est quamdiu durat illa credulitas: quia illa 
+            creduli<lb ed="#V" n="76" break="no"/>tate manente non credit alterum suum coniugem esse: vnde si 
+            red<lb ed="#V" n="77" break="no"/>deret debitum contra scientiam faceret: quia nec debitum credit esse: immo 
+            <lb ed="#V" n="78"/>indebitum: si aut non reddit est peccat: quia quamuis alter coniunx 
+            <lb ed="#V" n="79"/>in dicendo se non esse coniugem piudicaret sibi quo ad 
+            pote<lb ed="#V" n="80" break="no"/>statem exigendi debitum quamdiu hoc non reuocabat: tamen postquam 
+            <lb ed="#V" n="81"/>reuocat credo quod expirat illud praeiudicium: quia reuocatio 
+            <lb ed="#V" n="82"/>concordat verbis quibus in contractum expressit suum 
+            con<lb ed="#V" n="83" break="no"/>sensum de presenti. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

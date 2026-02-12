@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="53-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f38383"><!-- l2d13cl -->
-            <head xml:id="kzz7yh-f38383-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-f38383-d1e103">
-               <lb ed="#V" n="72"/>CIrca litteram sanctus est 
-      vespe<lb ed="#V" n="73" break="no"/>re et mane dies 
-      <lb ed="#V" n="74"/>vnus id est primo factum est vespere: et postea 
-      ma<lb ed="#V" n="75" break="no"/>ne. Et sic completus est dies vnus: dies scilicet 
-      na<lb ed="#V" n="76" break="no"/>turalis: qui comprehendit diem artificialem et noctem. Sed 
-      <lb ed="#V" n="77"/>denominatur a parte digniori. de preiacenti materia 
-      for<lb ed="#V" n="78" break="no"/>maliter factum est vt lux esset id est de preiacenti materia 
-      ali<lb ed="#V" n="79" break="no"/>qua forma: quamuis incomplete informata facta est illa lux: 
-      <lb ed="#V" n="80"/>vel per hoc quod data est alicui parti materie preiacenti 
-      ali<lb ed="#V" n="81" break="no"/>qua forma lucis: quamuis incompleta facta est illa pars 
-      ma<lb ed="#V" n="82" break="no"/>terie lucida. Ante lucem nec dies fuit nec nox: licet tempus 
-      <lb ed="#V" n="83"/>fuerit. Negatio enim lucis non facit noctem: sed 
-      priuatio<lb ed="#V" n="84" break="no"/>lucis in nostro hemisperio propter terre oppositionem. 
-      Di<lb ed="#V" n="85" break="no"/>es diuersis modis accipitur in scriptura. Uno modo 
-      pro<lb ed="#V" n="86" break="no"/>lumine in aere: et sic est nomen qualitatis. Alio modo pro 
-      <lb ed="#V" n="87"/>spatio 24. horarum. et sic est nomen quantitatis. Nec est 
-      in<lb ed="#V" n="88" break="no"/>telligendum quod semper dies naturalis habeat 24. horas. 
-      <lb ed="#V" n="89"/>precise: ita vt nec plus nec minus quantuncumque modicum. 
-      <lb ed="#V" n="90"/>Quia certa demonstratione ostenditur dies naturales esse 
-      <lb ed="#V" n="91"/>inequales propter obliquitatem 3odiaci: et proprium 
-      mo<lb ed="#V" n="92" break="no"/>tum solis sub 3odiaco. Quia tamen illa inequalitas est 
-      val<lb ed="#V" n="93" break="no"/>de modica et insensibilis: ideo quilibet dies naturalis 
-      di<lb ed="#V" n="94" break="no"/>citur habere. 24. horas. Et nota quod dies naturalis a 
-      va<lb ed="#V" n="95" break="no"/>riis sumit exordia diuersa: vnde versus. Mane diem 
-      gre<lb ed="#V" n="96" break="no"/>ci: gens incipit astra sequentes: In medio lucis: iudeus 
-      <lb ed="#V" n="97"/>vespere facta: Inchoat ecclesia medio sub tempore noctis. 
-      <lb ed="#V" n="98"/>Fuit nox illo triduo omnino tenebrosa: secuet quia non 
-      illu<lb ed="#V" n="99" break="no"/>strabitur aliquo lumine lune vel syderum. Si enim 
-      cau<lb ed="#V" n="100" break="no"/>sa eius pater est. causam ibi accipit communiter extendendo 
-      no<lb ed="#V" n="101" break="no"/>men cause: ad nomen principii: quia cum causa sit ad 
-      cu<lb ed="#V" n="102" break="no"/>ius sequitur aliud proprie loquendo de causa: pater non 
-      <lb ed="#V" n="103"/>debet dici causa filii: sed principium. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="53-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f38383"><!-- l2d13cl -->
+        <head xml:id="kzz7yh-f38383-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-f38383-d1e103">
+          <lb ed="#V" n="72"/>CIrca litteram sanctus est 
+          vespe<lb ed="#V" n="73" break="no"/>re et mane dies 
+          <lb ed="#V" n="74"/>vnus id est primo factum est vespere: et postea 
+          ma<lb ed="#V" n="75" break="no"/>ne. Et sic completus est dies vnus: dies scilicet 
+          na<lb ed="#V" n="76" break="no"/>turalis: qui comprehendit diem artificialem et noctem. Sed 
+          <lb ed="#V" n="77"/>denominatur a parte digniori. de preiacenti materia 
+          for<lb ed="#V" n="78" break="no"/>maliter factum est vt lux esset id est de preiacenti materia 
+          ali<lb ed="#V" n="79" break="no"/>qua forma: quamuis incomplete informata facta est illa lux: 
+          <lb ed="#V" n="80"/>vel per hoc quod data est alicui parti materie preiacenti 
+          ali<lb ed="#V" n="81" break="no"/>qua forma lucis: quamuis incompleta facta est illa pars 
+          ma<lb ed="#V" n="82" break="no"/>terie lucida. Ante lucem nec dies fuit nec nox: licet tempus 
+          <lb ed="#V" n="83"/>fuerit. Negatio enim lucis non facit noctem: sed 
+          priuatio<lb ed="#V" n="84" break="no"/>lucis in nostro hemisperio propter terre oppositionem. 
+          Di<lb ed="#V" n="85" break="no"/>es diuersis modis accipitur in scriptura. Uno modo 
+          pro<lb ed="#V" n="86" break="no"/>lumine in aere: et sic est nomen qualitatis. Alio modo pro 
+          <lb ed="#V" n="87"/>spatio 24. horarum. et sic est nomen quantitatis. Nec est 
+          in<lb ed="#V" n="88" break="no"/>telligendum quod semper dies naturalis habeat 24. horas. 
+          <lb ed="#V" n="89"/>precise: ita vt nec plus nec minus quantuncumque modicum. 
+          <lb ed="#V" n="90"/>Quia certa demonstratione ostenditur dies naturales esse 
+          <lb ed="#V" n="91"/>inequales propter obliquitatem 3odiaci: et proprium 
+          mo<lb ed="#V" n="92" break="no"/>tum solis sub 3odiaco. Quia tamen illa inequalitas est 
+          val<lb ed="#V" n="93" break="no"/>de modica et insensibilis: ideo quilibet dies naturalis 
+          di<lb ed="#V" n="94" break="no"/>citur habere. 24. horas. Et nota quod dies naturalis a 
+          va<lb ed="#V" n="95" break="no"/>riis sumit exordia diuersa: vnde versus. Mane diem 
+          gre<lb ed="#V" n="96" break="no"/>ci: gens incipit astra sequentes: In medio lucis: iudeus 
+          <lb ed="#V" n="97"/>vespere facta: Inchoat ecclesia medio sub tempore noctis. 
+          <lb ed="#V" n="98"/>Fuit nox illo triduo omnino tenebrosa: secuet quia non 
+          illu<lb ed="#V" n="99" break="no"/>strabitur aliquo lumine lune vel syderum. Si enim 
+          cau<lb ed="#V" n="100" break="no"/>sa eius pater est. causam ibi accipit communiter extendendo 
+          no<lb ed="#V" n="101" break="no"/>men cause: ad nomen principii: quia cum causa sit ad 
+          cu<lb ed="#V" n="102" break="no"/>ius sequitur aliud proprie loquendo de causa: pater non 
+          <lb ed="#V" n="103"/>debet dici causa filii: sed principium. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

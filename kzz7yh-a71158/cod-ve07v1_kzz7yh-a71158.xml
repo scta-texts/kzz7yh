@@ -1,257 +1,257 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="104-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a71158"><!-- l1d34a1 -->
-            <head xml:id="kzz7yh-a71158-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-a71158-d1e103">
-      ¶ Circa primum 
-      que<lb ed="#V" n="88" break="no"/>runtur duo.
-   </p>
-            <p xml:id="kzz7yh-a71158-d1e108">
-      ¶ Primo vtrum persona et essentia realiter idem 
-      <lb ed="#V" n="89"/>sunt.
-   </p>
-            <p xml:id="kzz7yh-a71158-d1e113">
-      ¶ Secundo vtrum persona aliquam rem addat super essentiam. 
-   </p>
-            <div xml:id="kzz7yh-a71158-Dd1e115">
-               <head xml:id="kzz7yh-a71158-Hd1e117">Quaestio 1</head>
-               <head xml:id="kzz7yh-a71158-Hd1e122" type="question-title">Utrum persona et essentia realiter idem sunt</head>
-               <p xml:id="kzz7yh-a71158-d1e119">
-                  <lb ed="#V" n="90"/>¶ Questio I. 
-      <lb ed="#V" n="91"/>PRimo ostendo quod persona et essentia realiter 
-      <lb ed="#V" n="92"/>non sunt idem <ref xml:id="kzz7yh-a71158-Rd1e133">Boetius in lib. de 
-      <lb ed="#V" n="93"/>duabus naturis et vna persona christi</ref> aliam assignat 
-      <lb ed="#V" n="94"/>diffinitionem nature: aliam assignat diffinitionem persone: 
-      <lb ed="#V" n="95"/>sed quorum diffinitio est diuersa: ipsa sunt diuersa.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e135">
-      ¶ Item 
-      <lb ed="#V" n="96"/>hec est falsa: Socrates est natura humana: quod nec esset 
-      ve<lb ed="#V" n="97" break="no"/>rum si realiter esset idem.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e142">
-      ¶ Item <ref xml:id="kzz7yh-a71158-Rd1e153">philosophus. 7. topi.</ref> Quecumque 
-      <lb ed="#V" n="98"/>vni et eidem sunt eadem inter se sunt eadem: sed persone 
-      in<lb ed="#V" n="99" break="no"/>ter se non sunt eedem: ergo cum essentia non sunt idem. 
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e149">
-                  <lb ed="#V" n="100"/>¶ Item <ref xml:id="kzz7yh-a71158-Rd1e165">philosophus. 7o topi.</ref> Quantumcunque differentiam assignantes 
-      <lb ed="#V" n="101"/>ostendemus quoniam non idem: sed aliqua est differentia inter 
-      essen<lb ed="#V" n="102" break="no"/>tiam et personam: quia essentia communicatur persona non: ergo 
-      <lb ed="#V" n="103"/>essentia et persona: non sunt idem. 
-    </p>
-               <p xml:id="kzz7yh-a71158-d1e161">
-                  <lb ed="#V" n="104"/>Contra <ref xml:id="kzz7yh-a71158-Rd1e178">Boe. i. libro de trinitate c. 3</ref> hoc vere vnum est 
-      <lb ed="#V" n="105"/>in quo nullus numerus: nullum in eo aliud 
-      <lb ed="#V" n="106"/>praeter quam id quod est. Cum ergo deus vere sit vnus vt superius 
-      <lb ed="#V" n="107"/>probatum est nullum in eo est aliud preterquam id quod est 
-      perso<lb ed="#V" n="108" break="no"/>na: ergo non est res alia a diuina essentia.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e174">
-      ¶ Item <ref xml:id="kzz7yh-a71158-Rd1e192">Alanus 
-      <lb ed="#V" n="109"/>ix.</ref> propositione de maximis theo. Quicquid est in deo deus est: ergo 
-      <lb ed="#V" n="110"/>cum persone sint in diuina essentia: sequitur quod persone 
-      rea<lb ed="#V" n="111" break="no"/>liter idem sint quod diuina essentia. 
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e183">
-                  <lb ed="#V" n="112"/>Respondeo dico quod quelibet personam comparata ad diuinam 
-      <lb ed="#V" n="113"/>essentiam realiter idem est cum ea: aliter 
-      <lb ed="#V" n="114"/>enim esset in diuinis realis compotmo: quod impossibile est: 
-      dif<lb ed="#V" n="115" break="no"/>fert tamen persona ab essentia secundum rationem: non sicut dicimus 
-      <lb ed="#V" n="116"/>attributa secundum rationem differre: sed propter differentem modum 
-      <lb ed="#V" n="117"/>se habendi: quia in modo se habendi ad alterum differunt 
-      <lb ed="#V" n="118"/>secundum affirmationem: et negationem: quia persona se habet ad alium: 
-      <lb ed="#V" n="119"/>essentia vero non: et essentia se habet absolute: persona vero non. 
-      <lb ed="#V" n="120"/>Et ex hoc est quod plures sunt persone essentia manente vna. 
-      <lb ed="#V" n="121"/>et quod aliquid predicatur de essentia: sicut communicari: quod non 
-      <lb ed="#V" n="122"/>predicatur de persona: et quod aliqua res predicatur de persona: 
-      <lb ed="#V" n="123"/>que non predicatur de essentia: sicut distingui: et referri. Quomodo 
-      <!--00222.xml-->
-      <pb ed="#V" n="104-v"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>autem cum predictis possint stare quod relatio vere maneat 
-      <lb ed="#V" n="2"/>in divinis declaratum est supra Di. xxvi. in illa quaestione vtrum 
-      <lb ed="#V" n="3"/>proprietates personarum sint relationes.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e225">
-                  <lb ed="#V" n="4"/>Ad primum in oppositum cum dicitur: quod alia est 
-      diffini<lb ed="#V" n="5" break="no"/>tio persone: alia essentie etc. dico quod 
-      <lb ed="#V" n="6"/>verum est secundum rationem eo modo quo potest esse diffinitio in 
-      diui<lb ed="#V" n="7" break="no"/>nis
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e236">
-      ¶ Ad 2m dico quod non est simile de natura humana per 
-      com<lb ed="#V" n="8" break="no"/>parationem ad Socratem: et de natura divina per comparationem 
-      <lb ed="#V" n="9"/>ad diuinas personas: quia natura humana et etiam Socrates 
-      <lb ed="#V" n="10"/>et Plato et sic de aliis compositi sunt nulla autem est 
-      composi<lb ed="#V" n="11" break="no"/>tio in diuina natura neque in diuina persona.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e247">
-      ¶ Ad tertium 
-      <lb ed="#V" n="12"/>cum dicitur quod quecunque vni et eidem sunt eadem inter se: 
-      <lb ed="#V" n="13"/>sunt eadem etc. dico quod verum est quando sunt eadem illi et secundum 
-      <lb ed="#V" n="14"/>rem et secundum modum se habendi: sic aut non est eadem persona 
-      <lb ed="#V" n="15"/>essentie.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e259">
-      ¶ Ad 4m cum dicitur quod quantulancunque 
-      differen<lb ed="#V" n="16" break="no"/>tiam assignantes ostendemus quoniam non idem etc. dico quod 
-      ve<lb ed="#V" n="17" break="no"/>rum est vel secundum rem: vel secundum rationem persona autem non est 
-      ea<lb ed="#V" n="18" break="no"/>dem essentie secundum rationem non accipiendo differre secundum 
-      ratio<lb ed="#V" n="19" break="no"/>nem: sicut dictum est eo modo quo attributa secundum rationem 
-      <lb ed="#V" n="20"/>differunt: sed loquendo de diuersitate secundum rationem 
-      fun<lb ed="#V" n="21" break="no"/>datam super diuersum modum se habendi. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a71158-Dd1e277">
-               <head xml:id="kzz7yh-a71158-Hd1e279">Quaestio 2</head>
-               <head xml:id="kzz7yh-a71158-Hd1e301" type="question-title">Utrum persona aliqua rem addat super essentiam</head>
-               <p xml:id="kzz7yh-a71158-d1e281">
-                  <lb ed="#V" n="22"/>¶ Questio. II. 
-      <lb ed="#V" n="23"/>SEcundo queritur vtrum persona aliqua rem 
-      <lb ed="#V" n="24"/>addat super essentiam: et videtur 
-      <lb ed="#V" n="25"/>quod sic: quia quanto res est communicabilior: tanto simplicior 
-      <lb ed="#V" n="26"/>Unde res que est genus generalissimum communicabilior 
-      <lb ed="#V" n="27"/>est quam res que est genus subalternum: ergo cum essentia sit 
-      communi<lb ed="#V" n="28" break="no"/>cabilis: persona vero non: simplicior est essentia quam persona: 
-      <lb ed="#V" n="29"/>ergo persona aliquid addit super essentiam.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e301">
-      ¶ Item aliqua 
-      <lb ed="#V" n="30"/>conueueniunt in essentia que non conueniunt in persona: quod non 
-      <lb ed="#V" n="31"/>esset verum: si persona nihil adderet super essentiam.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e308">
-      ¶ Item 
-      <lb ed="#V" n="32"/>concretum addit super abstractum: sed essentia significat per 
-      <lb ed="#V" n="33"/>modum abstracti: persona per modum concreti ergo persona 
-      ali<lb ed="#V" n="34" break="no"/>quid addit super essentiam.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e317">
-      ¶ Item si persona nihil adderet 
-      <lb ed="#V" n="35"/>super essentiam vere diceretur quod Socrates est humanitas 
-      <lb ed="#V" n="36"/>quod falsum est: si ergo persona addit super essentiam in 
-      huma<lb ed="#V" n="37" break="no"/>nis videtur quod etiam addit in divinis: vel quare non. 
-    </p>
-               <p xml:id="kzz7yh-a71158-d1e327">
-                  <lb ed="#V" n="38"/>Contra si persona aliquid addit superesentiam cum 
-      esen<lb ed="#V" n="39" break="no"/>tia sit de ratione persone in persona esset 
-      rea<lb ed="#V" n="40" break="no"/>lis compositio: quod falsum est.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e336">
-      ¶ Item non addit aliquid 
-      ma<lb ed="#V" n="41" break="no"/>ius diuina essentia: nec aliquid minus: quia persona non est 
-      in<lb ed="#V" n="42" break="no"/>ferior essentia: nec aliquid equale quia sic aliquid esset equale 
-      <lb ed="#V" n="43"/>divine essentie quod non esset ipsa et haec impossibile est. 
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e345">
-                  <lb ed="#V" n="44"/>Respondeo quod personam aliquam rem addere 
-      su<lb ed="#V" n="45" break="no"/>per essentiam potest intelligi 
-      duplici<lb ed="#V" n="46" break="no"/>ter vno modo ita quod cum essentia dicat aliquam rem 
-      rea<lb ed="#V" n="47" break="no"/>liter ab essentia differentem: et sic falsum est. Aliomodo quod in 
-      <lb ed="#V" n="48"/>essentia dicat aliquam rem non realiter ab essentia 
-      differen<lb ed="#V" n="49" break="no"/>tem: sed secundum rationem fundatam super diuersum modum se 
-      haben<lb ed="#V" n="50" break="no"/>di. Et sic verum est: persona enim cum essentia dicit 
-      proprie<lb ed="#V" n="51" break="no"/>tatem vt subsistentem: que proprietas relatio est. Unde credo
-      <lb ed="#V" n="52"/>me superius dixisse quod relationes in divinis sunt subsistentes: 
-      <lb ed="#V" n="53"/>et ad essentiam comperate realiter idem sunt cum ea: et tamen 
-      ve<lb ed="#V" n="54" break="no"/>re manent ralationes: sicut superius. 26. Di. declaratum est in 
-      il<lb ed="#V" n="55" break="no"/>la questione vtrum in diuinis proprietates sint relationes.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e374">
-                  <lb ed="#V" n="56"/>Ad primum in oppositum cum dicitur quod quanto res 
-      <lb ed="#V" n="57"/>est communicabilior tanto 
-      simplici<lb ed="#V" n="58" break="no"/>or etc. dico quod hoc intelligi debet de communicabilitate rei que 
-      rea<lb ed="#V" n="59" break="no"/>liter diuiditur in personis: quibus communicatur talis autem non est 
-      con<lb ed="#V" n="60" break="no"/>municabilitas diuine essentie.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e387">
-      ¶ Ad 2m cum dicitur quod 
-      ali<lb ed="#V" n="61" break="no"/>qua conueniunt in essentia que non conueniunt in persona etc. 
-      <lb ed="#V" n="62"/>dico quod verum est: Sed ex hoc non sequitur quod de intellectu 
-      <lb ed="#V" n="63"/>persone sit res alia ab essentia: sed quod de intellectu 
-      perso<lb ed="#V" n="64" break="no"/>ne est res differens ab essentia non realiter: sed secundum rationem 
-      <lb ed="#V" n="65"/>fundatam super diuersum modum se habendi.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e400">
-      ¶ Ad 3m cum 
-      <lb ed="#V" n="66"/>dicitur quod concretum addit super abstractum etc. dico quod 
-      in<lb ed="#V" n="67" break="no"/>telligi debet vbi est concretio secundum rem: hec autem concretio non 
-      <lb ed="#V" n="68"/>est in diuina persona.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e410">
-      ¶ Ad 4m dico quod non opetet quod si perso¬ 
-      <!--00222.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>na addat super essentiam in humanis rem diuersam ab 
-      essen<lb ed="#V" n="70" break="no"/>tia quod propter hoc ista sit in diuinis. Dicunt tamen aliqui quod in 
-      <lb ed="#V" n="71"/>creaturis persona super essentiam nihil addit reale absolutum 
-      <lb ed="#V" n="72"/>sed tantummodo aliquid differens ab essentia secundum rationem tantum: vel 
-      <lb ed="#V" n="73"/>secundum respectum: et vtrum hoc sit verum vel non propono 
-      decla<lb ed="#V" n="74" break="no"/>rare in lib. secundo in questione de ratione indiduationis.
-   </p>
-               <p xml:id="kzz7yh-a71158-d1e430">
-      ¶ 
-      Ar<lb ed="#V" n="75" break="no"/>gumenta ad oppositum bene ostendunt quod divine persone vltra 
-      <lb ed="#V" n="76"/>diuinam essentiam non dicunt aliquid realiter differens ab ea. 
-      <lb ed="#V" n="77"/>Sed ex hoc non sequitur quin de intellectu persone sit res 
-      <lb ed="#V" n="78"/>aliqua differens ab essenta tantum secundum rationem fundatam 
-      <lb ed="#V" n="79"/>super diuersum modum se habendi. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="104-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a71158"><!-- l1d34a1 -->
+        <head xml:id="kzz7yh-a71158-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-a71158-d1e103">
+          ¶ Circa primum 
+          que<lb ed="#V" n="88" break="no"/>runtur duo.
+        </p>
+        <p xml:id="kzz7yh-a71158-d1e108">
+          ¶ Primo vtrum persona et essentia realiter idem 
+          <lb ed="#V" n="89"/>sunt.
+        </p>
+        <p xml:id="kzz7yh-a71158-d1e113">
+          ¶ Secundo vtrum persona aliquam rem addat super essentiam. 
+        </p>
+        <div xml:id="kzz7yh-a71158-Dd1e115">
+          <head xml:id="kzz7yh-a71158-Hd1e117">Quaestio 1</head>
+          <head xml:id="kzz7yh-a71158-Hd1e122" type="question-title">Utrum persona et essentia realiter idem sunt</head>
+          <p xml:id="kzz7yh-a71158-d1e119">
+            <lb ed="#V" n="90"/>¶ Questio I. 
+            <lb ed="#V" n="91"/>PRimo ostendo quod persona et essentia realiter 
+            <lb ed="#V" n="92"/>non sunt idem <ref xml:id="kzz7yh-a71158-Rd1e133">Boetius in lib. de 
+              <lb ed="#V" n="93"/>duabus naturis et vna persona christi</ref> aliam assignat 
+            <lb ed="#V" n="94"/>diffinitionem nature: aliam assignat diffinitionem persone: 
+            <lb ed="#V" n="95"/>sed quorum diffinitio est diuersa: ipsa sunt diuersa.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e135">
+            ¶ Item 
+            <lb ed="#V" n="96"/>hec est falsa: Socrates est natura humana: quod nec esset 
+            ve<lb ed="#V" n="97" break="no"/>rum si realiter esset idem.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e142">
+            ¶ Item <ref xml:id="kzz7yh-a71158-Rd1e153">philosophus. 7. topi.</ref> Quecumque 
+            <lb ed="#V" n="98"/>vni et eidem sunt eadem inter se sunt eadem: sed persone 
+            in<lb ed="#V" n="99" break="no"/>ter se non sunt eedem: ergo cum essentia non sunt idem. 
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e149">
+            <lb ed="#V" n="100"/>¶ Item <ref xml:id="kzz7yh-a71158-Rd1e165">philosophus. 7o topi.</ref> Quantumcunque differentiam assignantes 
+            <lb ed="#V" n="101"/>ostendemus quoniam non idem: sed aliqua est differentia inter 
+            essen<lb ed="#V" n="102" break="no"/>tiam et personam: quia essentia communicatur persona non: ergo 
+            <lb ed="#V" n="103"/>essentia et persona: non sunt idem. 
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e161">
+            <lb ed="#V" n="104"/>Contra <ref xml:id="kzz7yh-a71158-Rd1e178">Boe. i. libro de trinitate c. 3</ref> hoc vere vnum est 
+            <lb ed="#V" n="105"/>in quo nullus numerus: nullum in eo aliud 
+            <lb ed="#V" n="106"/>praeter quam id quod est. Cum ergo deus vere sit vnus vt superius 
+            <lb ed="#V" n="107"/>probatum est nullum in eo est aliud preterquam id quod est 
+            perso<lb ed="#V" n="108" break="no"/>na: ergo non est res alia a diuina essentia.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e174">
+            ¶ Item <ref xml:id="kzz7yh-a71158-Rd1e192">Alanus 
+              <lb ed="#V" n="109"/>ix.</ref> propositione de maximis theo. Quicquid est in deo deus est: ergo 
+            <lb ed="#V" n="110"/>cum persone sint in diuina essentia: sequitur quod persone 
+            rea<lb ed="#V" n="111" break="no"/>liter idem sint quod diuina essentia. 
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e183">
+            <lb ed="#V" n="112"/>Respondeo dico quod quelibet personam comparata ad diuinam 
+            <lb ed="#V" n="113"/>essentiam realiter idem est cum ea: aliter 
+            <lb ed="#V" n="114"/>enim esset in diuinis realis compotmo: quod impossibile est: 
+            dif<lb ed="#V" n="115" break="no"/>fert tamen persona ab essentia secundum rationem: non sicut dicimus 
+            <lb ed="#V" n="116"/>attributa secundum rationem differre: sed propter differentem modum 
+            <lb ed="#V" n="117"/>se habendi: quia in modo se habendi ad alterum differunt 
+            <lb ed="#V" n="118"/>secundum affirmationem: et negationem: quia persona se habet ad alium: 
+            <lb ed="#V" n="119"/>essentia vero non: et essentia se habet absolute: persona vero non. 
+            <lb ed="#V" n="120"/>Et ex hoc est quod plures sunt persone essentia manente vna. 
+            <lb ed="#V" n="121"/>et quod aliquid predicatur de essentia: sicut communicari: quod non 
+            <lb ed="#V" n="122"/>predicatur de persona: et quod aliqua res predicatur de persona: 
+            <lb ed="#V" n="123"/>que non predicatur de essentia: sicut distingui: et referri. Quomodo 
+            <!--00222.xml-->
+            <pb ed="#V" n="104-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>autem cum predictis possint stare quod relatio vere maneat 
+            <lb ed="#V" n="2"/>in divinis declaratum est supra Di. xxvi. in illa quaestione vtrum 
+            <lb ed="#V" n="3"/>proprietates personarum sint relationes.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e225">
+            <lb ed="#V" n="4"/>Ad primum in oppositum cum dicitur: quod alia est 
+            diffini<lb ed="#V" n="5" break="no"/>tio persone: alia essentie etc. dico quod 
+            <lb ed="#V" n="6"/>verum est secundum rationem eo modo quo potest esse diffinitio in 
+            diui<lb ed="#V" n="7" break="no"/>nis
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e236">
+            ¶ Ad 2m dico quod non est simile de natura humana per 
+            com<lb ed="#V" n="8" break="no"/>parationem ad Socratem: et de natura divina per comparationem 
+            <lb ed="#V" n="9"/>ad diuinas personas: quia natura humana et etiam Socrates 
+            <lb ed="#V" n="10"/>et Plato et sic de aliis compositi sunt nulla autem est 
+            composi<lb ed="#V" n="11" break="no"/>tio in diuina natura neque in diuina persona.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e247">
+            ¶ Ad tertium 
+            <lb ed="#V" n="12"/>cum dicitur quod quecunque vni et eidem sunt eadem inter se: 
+            <lb ed="#V" n="13"/>sunt eadem etc. dico quod verum est quando sunt eadem illi et secundum 
+            <lb ed="#V" n="14"/>rem et secundum modum se habendi: sic aut non est eadem persona 
+            <lb ed="#V" n="15"/>essentie.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e259">
+            ¶ Ad 4m cum dicitur quod quantulancunque 
+            differen<lb ed="#V" n="16" break="no"/>tiam assignantes ostendemus quoniam non idem etc. dico quod 
+            ve<lb ed="#V" n="17" break="no"/>rum est vel secundum rem: vel secundum rationem persona autem non est 
+            ea<lb ed="#V" n="18" break="no"/>dem essentie secundum rationem non accipiendo differre secundum 
+            ratio<lb ed="#V" n="19" break="no"/>nem: sicut dictum est eo modo quo attributa secundum rationem 
+            <lb ed="#V" n="20"/>differunt: sed loquendo de diuersitate secundum rationem 
+            fun<lb ed="#V" n="21" break="no"/>datam super diuersum modum se habendi. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a71158-Dd1e277">
+          <head xml:id="kzz7yh-a71158-Hd1e279">Quaestio 2</head>
+          <head xml:id="kzz7yh-a71158-Hd1e301" type="question-title">Utrum persona aliqua rem addat super essentiam</head>
+          <p xml:id="kzz7yh-a71158-d1e281">
+            <lb ed="#V" n="22"/>¶ Questio. II. 
+            <lb ed="#V" n="23"/>SEcundo queritur vtrum persona aliqua rem 
+            <lb ed="#V" n="24"/>addat super essentiam: et videtur 
+            <lb ed="#V" n="25"/>quod sic: quia quanto res est communicabilior: tanto simplicior 
+            <lb ed="#V" n="26"/>Unde res que est genus generalissimum communicabilior 
+            <lb ed="#V" n="27"/>est quam res que est genus subalternum: ergo cum essentia sit 
+            communi<lb ed="#V" n="28" break="no"/>cabilis: persona vero non: simplicior est essentia quam persona: 
+            <lb ed="#V" n="29"/>ergo persona aliquid addit super essentiam.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e301">
+            ¶ Item aliqua 
+            <lb ed="#V" n="30"/>conueueniunt in essentia que non conueniunt in persona: quod non 
+            <lb ed="#V" n="31"/>esset verum: si persona nihil adderet super essentiam.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e308">
+            ¶ Item 
+            <lb ed="#V" n="32"/>concretum addit super abstractum: sed essentia significat per 
+            <lb ed="#V" n="33"/>modum abstracti: persona per modum concreti ergo persona 
+            ali<lb ed="#V" n="34" break="no"/>quid addit super essentiam.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e317">
+            ¶ Item si persona nihil adderet 
+            <lb ed="#V" n="35"/>super essentiam vere diceretur quod Socrates est humanitas 
+            <lb ed="#V" n="36"/>quod falsum est: si ergo persona addit super essentiam in 
+            huma<lb ed="#V" n="37" break="no"/>nis videtur quod etiam addit in divinis: vel quare non. 
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e327">
+            <lb ed="#V" n="38"/>Contra si persona aliquid addit superesentiam cum 
+            esen<lb ed="#V" n="39" break="no"/>tia sit de ratione persone in persona esset 
+            rea<lb ed="#V" n="40" break="no"/>lis compositio: quod falsum est.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e336">
+            ¶ Item non addit aliquid 
+            ma<lb ed="#V" n="41" break="no"/>ius diuina essentia: nec aliquid minus: quia persona non est 
+            in<lb ed="#V" n="42" break="no"/>ferior essentia: nec aliquid equale quia sic aliquid esset equale 
+            <lb ed="#V" n="43"/>divine essentie quod non esset ipsa et haec impossibile est. 
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e345">
+            <lb ed="#V" n="44"/>Respondeo quod personam aliquam rem addere 
+            su<lb ed="#V" n="45" break="no"/>per essentiam potest intelligi 
+            duplici<lb ed="#V" n="46" break="no"/>ter vno modo ita quod cum essentia dicat aliquam rem 
+            rea<lb ed="#V" n="47" break="no"/>liter ab essentia differentem: et sic falsum est. Aliomodo quod in 
+            <lb ed="#V" n="48"/>essentia dicat aliquam rem non realiter ab essentia 
+            differen<lb ed="#V" n="49" break="no"/>tem: sed secundum rationem fundatam super diuersum modum se 
+            haben<lb ed="#V" n="50" break="no"/>di. Et sic verum est: persona enim cum essentia dicit 
+            proprie<lb ed="#V" n="51" break="no"/>tatem vt subsistentem: que proprietas relatio est. Unde credo
+            <lb ed="#V" n="52"/>me superius dixisse quod relationes in divinis sunt subsistentes: 
+            <lb ed="#V" n="53"/>et ad essentiam comperate realiter idem sunt cum ea: et tamen 
+            ve<lb ed="#V" n="54" break="no"/>re manent ralationes: sicut superius. 26. Di. declaratum est in 
+            il<lb ed="#V" n="55" break="no"/>la questione vtrum in diuinis proprietates sint relationes.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e374">
+            <lb ed="#V" n="56"/>Ad primum in oppositum cum dicitur quod quanto res 
+            <lb ed="#V" n="57"/>est communicabilior tanto 
+            simplici<lb ed="#V" n="58" break="no"/>or etc. dico quod hoc intelligi debet de communicabilitate rei que 
+            rea<lb ed="#V" n="59" break="no"/>liter diuiditur in personis: quibus communicatur talis autem non est 
+            con<lb ed="#V" n="60" break="no"/>municabilitas diuine essentie.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e387">
+            ¶ Ad 2m cum dicitur quod 
+            ali<lb ed="#V" n="61" break="no"/>qua conueniunt in essentia que non conueniunt in persona etc. 
+            <lb ed="#V" n="62"/>dico quod verum est: Sed ex hoc non sequitur quod de intellectu 
+            <lb ed="#V" n="63"/>persone sit res alia ab essentia: sed quod de intellectu 
+            perso<lb ed="#V" n="64" break="no"/>ne est res differens ab essentia non realiter: sed secundum rationem 
+            <lb ed="#V" n="65"/>fundatam super diuersum modum se habendi.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e400">
+            ¶ Ad 3m cum 
+            <lb ed="#V" n="66"/>dicitur quod concretum addit super abstractum etc. dico quod 
+            in<lb ed="#V" n="67" break="no"/>telligi debet vbi est concretio secundum rem: hec autem concretio non 
+            <lb ed="#V" n="68"/>est in diuina persona.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e410">
+            ¶ Ad 4m dico quod non opetet quod si perso¬ 
+            <!--00222.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>na addat super essentiam in humanis rem diuersam ab 
+            essen<lb ed="#V" n="70" break="no"/>tia quod propter hoc ista sit in diuinis. Dicunt tamen aliqui quod in 
+            <lb ed="#V" n="71"/>creaturis persona super essentiam nihil addit reale absolutum 
+            <lb ed="#V" n="72"/>sed tantummodo aliquid differens ab essentia secundum rationem tantum: vel 
+            <lb ed="#V" n="73"/>secundum respectum: et vtrum hoc sit verum vel non propono 
+            decla<lb ed="#V" n="74" break="no"/>rare in lib. secundo in questione de ratione indiduationis.
+          </p>
+          <p xml:id="kzz7yh-a71158-d1e430">
+            ¶ 
+            Ar<lb ed="#V" n="75" break="no"/>gumenta ad oppositum bene ostendunt quod divine persone vltra 
+            <lb ed="#V" n="76"/>diuinam essentiam non dicunt aliquid realiter differens ab ea. 
+            <lb ed="#V" n="77"/>Sed ex hoc non sequitur quin de intellectu persone sit res 
+            <lb ed="#V" n="78"/>aliqua differens ab essenta tantum secundum rationem fundatam 
+            <lb ed="#V" n="79"/>super diuersum modum se habendi. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

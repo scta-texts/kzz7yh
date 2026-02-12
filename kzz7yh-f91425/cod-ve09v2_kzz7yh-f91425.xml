@@ -1,432 +1,432 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 2</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 2</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="128-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f91425"><!-- l2d31a2 -->
-            <head xml:id="kzz7yh-f91425-Hd1e101">Articulus 2</head>
-            <p xml:id="kzz7yh-f91425-d1e103">
-               <lb ed="#V" n="25"/>COnsequenter queritur de secundo 
-      <lb ed="#V" n="26"/>principali. Et 
-      cir<lb ed="#V" n="27" break="no"/>ca hoc queruntur tria.
-   </p>
-            <p xml:id="kzz7yh-f91425-d1e112">
-      ¶ Primo vtrum caro 
-      pos<lb ed="#V" n="28" break="no"/>sit animam inficere.
-   </p>
-            <p xml:id="kzz7yh-f91425-d1e117">
-      ¶ Secundo vtrum illa 
-      infectio<lb ed="#V" n="29" break="no"/>causetur ex propagatione vel libidine.
-   </p>
-            <p xml:id="kzz7yh-f91425-d1e122">
-      ¶ Tertio vtrum 
-      <lb ed="#V" n="30"/>anima contrahat originale peccatum per aliquem 
-      natu<lb ed="#V" n="31" break="no"/>ralem appetitum in voluntate.
-   </p>
-            <div xml:id="kzz7yh-f91425-Dd1e130">
-               <head xml:id="kzz7yh-f91425-Hd1e132">Quaestio 1</head>
-               <head xml:id="kzz7yh-f91425-Hd1e136" type="question-title">Utrum caro possit animam inficere</head>
-               <p xml:id="kzz7yh-f91425-d1e134">
-      ¶ Quaestio 
-      <lb ed="#V" n="32"/>PRimo ostendo quod anima non 
-      pos<lb ed="#V" n="33" break="no"/>sit infici a carne: 
-      <lb ed="#V" n="34"/>quia sicut dicit <ref xml:id="kzz7yh-f91425-Rd1e147">philosophus. 3. de anima</ref>: semper 
-      honorabi<lb ed="#V" n="35" break="no"/>lius est agens patiente. Sed caro non est 
-      honora<lb ed="#V" n="36" break="no"/>bilior quam anima: ergo anima non potest inficia carne.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e147">
-      ¶ Item 
-      <lb ed="#V" n="37"/>philosophus 1 de generatione: que agut et patiuntur adinuicem 
-      con<lb ed="#V" n="38" break="no"/>municant in materia. Sed corpus et anima non 
-      commu<lb ed="#V" n="39" break="no"/>nicant in materia: ergo anima non potest infici a carne.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e156">
-      ¶ Item 
-      <lb ed="#V" n="40"/>secundum philosophum. 2. de anima: intellectus nullius partis corporis 
-      <lb ed="#V" n="41"/>est actus: ergo pars intellectiua a carne infici non potest. 
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e163">
-                  <lb ed="#V" n="42"/>¶ Item nulla corruptis maior est in effectu quam in causa: 
-      <lb ed="#V" n="43"/>sed corruptio culpabilis maior est quam penalis: quia plus 
-      ha<lb ed="#V" n="44" break="no"/>bet de ratione mali secundum Aug. in secundo de innocentibus: 
-      er<lb ed="#V" n="45" break="no"/>go anima non potest infici infectione culpe per penalem 
-      cor<lb ed="#V" n="46" break="no"/>ruptionem ipsius carnis.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e177">
-      ¶ Item caro non agit in animam 
-      <lb ed="#V" n="47"/>imperando: sicut voluntas imperat virtuti motiue que 
-      <lb ed="#V" n="48"/>est in membris nature per influentiam: sicut agunt 
-      cor<lb ed="#V" n="49" break="no"/>pora superiora in inferioribus. Nec per praedominantiam 
-      con<lb ed="#V" n="50" break="no"/>trarietatis: sicut agit calidum in frigidum: ergo videtur quod 
-      <lb ed="#V" n="51"/>nullo modo caro agat in animam. Sed inficere est agere. 
-      <lb ed="#V" n="52"/>ergo caro non potest animam inficere. 
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e193">
-                  <lb ed="#V" n="53"/>Contra glosa super illud ad <ref xml:id="kzz7yh-f91425-Rd1e205">Rom. 7.</ref> <quote xml:id="kzz7yh-f91425-Qd1e209" source="http://scta.info/resource/rom7_18@1-13">Scio quod non 
-      <lb ed="#V" n="54"/>habitat in carne mea bonum</quote>: dicit quod 
-      pecca<lb ed="#V" n="55" break="no"/>tum habitat in carne: sed non formaliter: vt ostensum est: 
-      er<lb ed="#V" n="56" break="no"/>go causaliter.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e204">
-      ¶ Item secundum diuersas corporum completiones: 
-      <lb ed="#V" n="57"/>anime diuersas contrabunt inclinationes. Sicut dicit Con 
-      <lb ed="#V" n="58"/>stabulus in lib. de exorcismis et characteribus: et experientia 
-      <lb ed="#V" n="59"/>docet: ergo similiter per earum vniones ad carnes 
-      infe<lb ed="#V" n="60" break="no"/>ctas: contrahere possunt infectiones. 
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e215">
-                  <lb ed="#V" n="61"/>Respondeo quod animam infici a carne possibile 
-      <lb ed="#V" n="62"/>est. Infectio anime de qua est sermo: est 
-      <lb ed="#V" n="63"/>necessitas habendi interdum pronitatem ad aliquam 
-      in<lb ed="#V" n="64" break="no"/>ordinatam motionem quando poterit exire in actum. Hanc 
-      <lb ed="#V" n="65"/>autem necessitatem esse in anima paruuli per carnem 
-      possibi<lb ed="#V" n="66" break="no"/>le est. In vnione enim anime ad carnem appetitiua 
-      orga<lb ed="#V" n="67" break="no"/>nica id est sensualitas: secundum diuersam complexionem organi 
-      com<lb ed="#V" n="68" break="no"/>trahit neccssitatem appetendi diuersa: et idem diuersimo¬ 
-      <!--00270.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>de pro tempore quo potest exire in actum: sicut patet in 
-      ho<lb ed="#V" n="70" break="no"/>minibus diuersarum complexionum. Et quia sensualitas et 
-      <lb ed="#V" n="71"/>appetitiua non organica id est voluntas sunt in eadem forma 
-      <lb ed="#V" n="72"/>radicate: sensualitas appetens aliquid inclinat 
-      volunta<lb ed="#V" n="73" break="no"/>tem ad illud volendum: non tamen cogit: ergo similiter 
-      possi<lb ed="#V" n="74" break="no"/>bile est: cum anima paruuli vnitur carni infecte et 
-      inordina<lb ed="#V" n="75" break="no"/>te quod per carnem contrahat sensualitas necessitatem 
-      appe<lb ed="#V" n="76" break="no"/>tendi interdum modo inordinato et infecto pro illo tempore quo 
-      <lb ed="#V" n="77"/>exire poterit in actum: et voluntas necessitatem habendi proni 
-      <lb ed="#V" n="78"/>tatem interdum ad aliquam inordinatam motionem et 
-      infe<lb ed="#V" n="79" break="no"/>ctam. Cui concordat Anselmus de concep. virgi. ca. 7. dicens de 
-      <lb ed="#V" n="80"/>paruulis: quoniam in semine trahunt peccandi: cum 
-      ho<lb ed="#V" n="81" break="no"/>mines iam erunt necessitatem. 
-    </p>
-               <p xml:id="kzz7yh-f91425-d1e267">
-                  <lb ed="#V" n="82"/>Ad primum in oppositum dicendum: quod 
-      auctori<lb ed="#V" n="83" break="no"/>tas philosophi intelligenda est de agente per 
-      <lb ed="#V" n="84"/>influentiam: vel per contrarietatis praedominantiam non per 
-      <lb ed="#V" n="85"/>quandam naturalem colligantiam. Si enim fortius leue 
-      col<lb ed="#V" n="86" break="no"/>ligatum esset modico graui et debili: illud graue 
-      nihilomi<lb ed="#V" n="87" break="no"/>nus inclinaret leue deorsum: et aliquo modo impediret 
-      re<lb ed="#V" n="88" break="no"/>tardando a suo motu sursum: nec tamen propter hoc esset 
-      ho<lb ed="#V" n="89" break="no"/>norabilius eo.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e287">
-      ¶ Ad secundum dicendum: quod illa auctoritas 
-      <lb ed="#V" n="90"/>philosophi intelligenda est de his que agunt et patiuntur 
-      adinuicen<lb ed="#V" n="91" break="no"/>ratione contrarietatis.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e295">
-      ¶ Ad tertium dicendum: quod quamuis 
-      <lb ed="#V" n="92"/>intellectus et voluntas non sint virtutes organice: tamen 
-      <lb ed="#V" n="93"/>radicantur in eadem forma cum virtutibus organicis. 
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e302">
-                  <lb ed="#V" n="94"/>¶ Ad quartum dicendum: quod illa propoitio intelligenda est de causa 
-      <lb ed="#V" n="95"/>principali non instrumentali. Semen autem ex quo formatur 
-      <lb ed="#V" n="96"/>caro paruuli est quasi instrumentum mediante quo infici. 
-      <lb ed="#V" n="97"/>tur an ima paruuli per ipsum adam in quo per peccatum 
-      <lb ed="#V" n="98"/>fuit maior infectio quam in animabus paruulorum.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e315">
-      ¶ Uel potest 
-      <lb ed="#V" n="99"/>dici quod infectio aliquando intenditur ex nobilitate nature 
-      <lb ed="#V" n="100"/>que inficitur: quia quanto natura est dignior: tanto peior est 
-      <lb ed="#V" n="101"/>eius corruptio: vel infectio. Sicut dicit Aug. 15 de trini. 
-      <lb ed="#V" n="102"/>ca. 9.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e326">
-      ¶ Ad qu intum dicendum: quod procedit ab 
-      insufficien<lb ed="#V" n="103" break="no"/>ti: omittit enim modum agendi quo aliquid agit in aliud 
-      <lb ed="#V" n="104"/>per naturalem colligantiam. Uel per hoc quod in re vna 
-      radi<lb ed="#V" n="105" break="no"/>cantur.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f91425-Dd1e336">
-               <head xml:id="kzz7yh-f91425-Hd1e338">Quaestio 2</head>
-               <head xml:id="kzz7yh-f91425-Hd1e351" type="question-title">Utrum illa infectio causetur ex propagatione vel ex libidine vel alio modo</head>
-               <p xml:id="kzz7yh-f91425-d1e340">
-      ¶ Questio. II. 
-      <lb ed="#V" n="106"/>SEcundo queritur vtrum illa infectio 
-      cau<lb ed="#V" n="107" break="no"/>setur ex propagatione: vel ex  
-      libi<lb ed="#V" n="108" break="no"/>dine: vel alio modo. Et primo ostendo quod neutro 
-      prae<lb ed="#V" n="109" break="no"/>dictorum modorum: quia si aliquis miraculose 
-      for<lb ed="#V" n="110" break="no"/>metur de aliqua parte carnis infecte: anima illa haberet 
-      <lb ed="#V" n="111"/>peccatum originale: quia contrahitur ex vnione anime ad 
-      car<lb ed="#V" n="112" break="no"/>nem infectam: et tamen non esset contractum illud peccatum: nec 
-      <lb ed="#V" n="113"/>per propagationem: nec per libidinem.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e360">
-      ¶ Item peccatum 
-      <lb ed="#V" n="114"/>originale prouenit in omnes a primo parente inquantum omnes 
-      <lb ed="#V" n="115"/>fuerunt in ipso peccante. Sed de isto qui modo predicto 
-      <lb ed="#V" n="116"/>formaretur: posset dici quod fuisset in adam peccante: ergo 
-      <lb ed="#V" n="117"/>beret peccatum originale sine propagatione et libidine.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e371">
-      ¶ Item 
-      <lb ed="#V" n="118"/>ostendo quod illa infectio causetur ex propagatione non ex 
-      li<lb ed="#V" n="119" break="no"/>bidine: in coitum qui est sine peccato non est libido: et tamen 
-      <lb ed="#V" n="120"/>propagati per talem coitum contrahunt originale 
-      pecca<lb ed="#V" n="121" break="no"/>tum: ergo contrahitur per propagationem non per 
-      libidi<lb ed="#V" n="122" break="no"/>nem.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e384">
-      ¶ Item si libido esset causa originalis peccati 
-      ma<lb ed="#V" n="123" break="no"/>ior libido generantium: esset causa maioris originalis 
-      pec<lb ed="#V" n="124" break="no"/>cati: et sic originale non esset equaliter in omnibus: quod 
-      fal<lb ed="#V" n="125" break="no"/>sum est: vt inferius ostendetur.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e394">
-      ¶ Item quod contrahatur 
-      <lb ed="#V" n="126"/>per libidinem ostendo sic. Aug. de fide ad Petrum 
-      long<lb ed="#V" n="127" break="no"/>post principium: et recitat magister in littera: dum sibi per 
-      <lb ed="#V" n="128"/>uicem vir mulierque miscentur: sine libidine non est p n 
-      <lb ed="#V" n="129"/>tum concubitus: et ob hoc filiorum ex eorum 
-      carn<lb ed="#V" n="130" break="no"/>tium non potest sine peccato esse conceptus: vbi 
-      <lb ed="#V" n="131"/>in paruulos non tamen transmittit propagatio: 
-      <lb ed="#V" n="132"/>do.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e412">
-      ¶ Item peccatum originale cum sit peccatum 
-      <lb ed="#V" n="133"/>re contrahi non potest: nisi per actum virtutis de 
-      <lb ed="#V" n="134"/>tis propagationi nature. Hoc autem est 
-      gener<lb ed="#V" n="135" break="no"/>maxime infecta est: vt superius ostensum est: 
-      <lb ed="#V" n="136"/>est cum delectatione rationem obnubilante 
-      <!--00271.xml-->
-      <pb ed="#V" n="129-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>delectatio libidinosa videtur: ergo nunquam nisi per 
-      libidi<lb ed="#V" n="2" break="no"/>nem contrahitur originale peccatum. 
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e434">
-                  <lb ed="#V" n="3"/>Respondeo quod peccatum originale contrabitur ex 
-      <lb ed="#V" n="4"/>vnione anime ad carnem 
-      immedia<lb ed="#V" n="5" break="no"/>te formatam ex semine infecto et transfuso per actionem 
-      <lb ed="#V" n="6"/>virtutis generatiue. Et ideo secundum quod libido accipitur pro 
-      in<lb ed="#V" n="7" break="no"/>fectione virtutis generatiue: sic dico quod infectio 
-      origina<lb ed="#V" n="8" break="no"/>lis peccati non causatur nisi ex libidine. Si autem libido 
-      <lb ed="#V" n="9"/>accipiatur pro improba voluntate: vel pro immoderata 
-      sen<lb ed="#V" n="10" break="no"/>sualitatis delectatione: sic dico quod non causatur per 
-      libidi<lb ed="#V" n="11" break="no"/>nem: quia genitus per concubitum factum sine 
-      improba<lb ed="#V" n="12" break="no"/>voluntate et fine immoderata sensualitatis delectatione 
-      nihi<lb ed="#V" n="13" break="no"/>lominus contraheret infectionem originalis peccati. 
-    </p>
-               <p xml:id="kzz7yh-f91425-d1e460">
-                  <lb ed="#V" n="14"/>Ad primum argumentum dicendum: quod homo 
-      mi<lb ed="#V" n="15" break="no"/>raculose formatus de aliqua parte 
-      car<lb ed="#V" n="16" break="no"/>nis infecte: quamuis esset de necessitate subiectus 
-      penalita<lb ed="#V" n="17" break="no"/>ti et corruptioni si suis naturalibus relinqueretur: et haberet 
-      <lb ed="#V" n="18"/>interdum etiam inclinationes deordinatas: non tamen 
-      <lb ed="#V" n="19"/>ita vehementes: nec ita indecentes: sicut geniti ex semine 
-      <lb ed="#V" n="20"/>transfuso per concubitum: quia nec eius natura ita esset 
-      <lb ed="#V" n="21"/>deordinata. Non tamen contraheret originalem culpam: quia 
-      <lb ed="#V" n="22"/>quamuis careret originali iustitia: illa tamen carentia in eo 
-      <lb ed="#V" n="23"/>culpa non esset: quia non esset debitor originalis iustitie. 
-      <lb ed="#V" n="24"/>Illi enim soli ad illam obligantur qui ab adam descendunt 
-      <lb ed="#V" n="25"/>per concubitum viri et femine. Non contrahitur ergo 
-      ori<lb ed="#V" n="26" break="no"/>ginalis culpa ex vnione anime ad carnem: nisi inquantum 
-      <lb ed="#V" n="27"/>illa caro est formata de infecto semine secundum legem nature: 
-      <lb ed="#V" n="28"/>hoec est per virtutem informatiuam que est in semine: que a 
-      <lb ed="#V" n="29"/>patre transfunditur cum ipso semine.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e497">
-      ¶ Ad secundum 
-      di<lb ed="#V" n="30" break="no"/>cendum: quod quamuis si aliquis formaretur de aliqua parte 
-      <lb ed="#V" n="31"/>carnis infecte posset dici fuisse in adam secundum corpulentam 
-      <lb ed="#V" n="32"/>substantiam: non tamen secundum seminalem rationem: et ideo non 
-      <lb ed="#V" n="33"/>esset debitor originalis iustitie. Nec dicendum esset illum 
-      <lb ed="#V" n="34"/>fuisse in adam secundum corpulentam substantiam: propter hoc quod 
-      <lb ed="#V" n="35"/>aliqua pars corporis eius actu fuisset in adam. Sed quia 
-      <lb ed="#V" n="36"/>in adam fuit corporale semen continens virtualiter non 
-      <lb ed="#V" n="37"/>actu illam carnem de qua iste miraculose formatus esset. 
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e517">
-                  <lb ed="#V" n="38"/>¶ Ad tertium et quartum dicendum: quod procedunt de 
-      libi<lb ed="#V" n="39" break="no"/>dine secundum quod accipitur pro improba voluntate: vel 
-      immodera<lb ed="#V" n="40" break="no"/>ta carnis delectatione: et sic accipiendo libidinem: verum 
-      <lb ed="#V" n="41"/>est quod per eam non contrahitur infectio originalis culpe. 
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e529">
-                  <lb ed="#V" n="42"/>¶ Quintum et sextum argumentum procedunt de 
-      libidi<lb ed="#V" n="43" break="no"/>ne secundum quod accipitur pro corruptione: vel infectione potentie 
-      <lb ed="#V" n="44"/>generatiue: et ideo concedantur. De tali enim libidine 
-      ver<lb ed="#V" n="45" break="no"/>bum Augustini preallegatum intelligendum est. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f91425-Dd1e541">
-               <head xml:id="kzz7yh-f91425-Hd1e543">Quaestio 3</head>
-               <head xml:id="kzz7yh-f91425-Hd1e560" type="question-title">Utrum anima contrahat originale peccatum per aliquem naturalem appetitum in voluntate</head>
-               <p xml:id="kzz7yh-f91425-d1e545">
-                  <lb ed="#V" n="46"/>¶ Questio. III. 
-      <lb ed="#V" n="47"/>TErtio queritur vtrum anima 
-      con<lb ed="#V" n="48" break="no"/>trahat 
-      origina<lb ed="#V" n="49" break="no"/>le peccatum per aliquem naturalem appetitum in 
-      <lb ed="#V" n="50"/>voluntate. Et videtur quod sic. Quia <ref xml:id="kzz7yh-f91425-Rd1e576">Augu. in libro 
-      <lb ed="#V" n="51"/>33. q. q. 3.</ref> dicit quod illud quo homo est deterior est vitium 
-      <lb ed="#V" n="52"/>voluntatis. Sed per peccatum originale anima est 
-      dete<lb ed="#V" n="53" break="no"/>rior: ergo contrahit originale peccatum per actum vitiosum 
-      <lb ed="#V" n="54"/>voluntatis.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e567">
-      ¶ Item anima contrahit originale peccatu 
-      <lb ed="#V" n="55"/>inquantum est infecti corporis forma. Sed omnis forma 
-      <lb ed="#V" n="56"/>naturalem habet appetitum ad suam materiam: ergo 
-      vi<lb ed="#V" n="57" break="no"/>detur quod per naturalem appetitum ad corpus contrahat 
-      <lb ed="#V" n="58"/>originale peccatum.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e578">
-      ¶ Item si anima innocens esset in 
-      <lb ed="#V" n="59"/>igne infernali: nihil pateretur ab illo igne. Sed caro 
-      quan<lb ed="#V" n="60" break="no"/>tumcunque infecta non est magis actiua quam ignis: ergo 
-      si<lb ed="#V" n="61" break="no"/>anima non esset priuata innocentia per aliquem actum 
-      <lb ed="#V" n="62"/>voluntatis ab ipsa carne nihil posset pati: ergo nec 
-      in<lb ed="#V" n="63" break="no"/>fici ab eadem. 
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e591">
-                  <lb ed="#V" n="64"/>Contra naturalis appetitus voluntatis semper est 
-      <lb ed="#V" n="65"/>rectus: sed impossibile esset per rectum 
-      ap<lb ed="#V" n="66" break="no"/>petitum culpam contrahere: ergo anima non contrahit 
-      <lb ed="#V" n="67"/>originale peccatum per aliquem appetitum naturalem 
-      <lb ed="#V" n="68"/>ipsius voluntatis.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e605">
-      ¶ Item peccatum originale traduci 
-      <!--00271.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>tur a parente in prolem quantum ad causam. Sed a 
-      pa<lb ed="#V" n="70" break="no"/>rentibus caro traducitur non anima: ergo non 
-      contra<lb ed="#V" n="71" break="no"/>hitur per aliquem actum ipsius anime: siue naturalem: siue alium. 
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e618">
-                  <lb ed="#V" n="72"/>Respondeo naturalis appetitus potest dici 
-      du<lb ed="#V" n="73" break="no"/>pliciter. Uno modo accipitur pro
-      <lb ed="#V" n="74"/>naturali aptitudine ad aliquid: et hoc modo dicitur 
-      for<lb ed="#V" n="75" break="no"/>ma appetere informare materiam: quia naturalem 
-      apti<lb ed="#V" n="76" break="no"/>tudinem habet ad informandum eam. Et materia 
-      appe<lb ed="#V" n="77" break="no"/>tere informari a forma: quia in ipsa est naturalis 
-      aptitu<lb ed="#V" n="78" break="no"/>do: vt informetur per eam. Et sic loquitur philosophus I 
-      <lb ed="#V" n="79"/>physicorum de appetitum: vbi dicit quod materia appetit 
-      for<lb ed="#V" n="80" break="no"/>mam: sicut femina masculum. Sed vic appetitus magis 
-      <lb ed="#V" n="81"/>dicitur secundum similitudinem quam secundum proprietatem: vt 
-      vide<lb ed="#V" n="82" break="no"/>tur Auicenne. Qui dicit suo lib. 1. physicorum. 2. capi. 
-      Di<lb ed="#V" n="83" break="no"/>cunt hyle affici desiderio forme: et hyle assimilant femine: 
-      <lb ed="#V" n="84"/>formam autem assimilant masculo. Et hoc est quod ego non 
-      <lb ed="#V" n="85"/>intelligo: et postquam arguit contra illum loquendi modum 
-      <lb ed="#V" n="86"/>dicit: propter hec omnia difficilis est mihi intellectus 
-      hu<lb ed="#V" n="87" break="no"/>ius verbi: quia magis videtur hic esse dictio figuratiue 
-      <lb ed="#V" n="88"/>loquentium quam philosophorum. Dico ergo quod loquendo de 
-      <lb ed="#V" n="89"/>tali appetitum a nima sine eo non posset contrahere 
-      origi<lb ed="#V" n="90" break="no"/>nale peccatum: quia nisi esset appetitus in anima ex ipsa 
-      <lb ed="#V" n="91"/>et corpore non posset vnum constitui per essentiam: sicut 
-      <lb ed="#V" n="92"/>ex materia et forma.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e666">
-      ¶ Alio modo dicitur naturalis 
-      ap<lb ed="#V" n="93" break="no"/>petitus propris quoddam naturale velle ipsius anime: 
-      <lb ed="#V" n="94"/>cuius obiectum est bonum absolute: et est a voluntate: vt 
-      <lb ed="#V" n="95"/>natura: non vt est deliberatiua: et vt est habens pro 
-      regu<lb ed="#V" n="96" break="no"/>la naturalem instinctum intellectus. Et sic loquendo de 
-      <lb ed="#V" n="97"/>appetitu dicunt quidam quod non est causa per quam 
-      con<lb ed="#V" n="98" break="no"/>trahitur peccatum originale: nec est etiam causa sine qua 
-      <lb ed="#V" n="99"/>non: quia anima contrahit peccatum originale in 
-      instan<lb ed="#V" n="100" break="no"/>ti sue infusionis: sed nullus actus volendi potest esse in anima in 
-      instan<lb ed="#V" n="101" break="no"/>ti sue creationis. Dicit enim Hug. I. lib. de sacra. par. 5. 
-      <lb ed="#V" n="102"/>ca. 23 quod velle autem facere motum habet: et de hoc in illud 
-      <lb ed="#V" n="103"/>successum et moram. Sed nullus motus nature nec 
-      ali<lb ed="#V" n="104" break="no"/>qua successio potest esse in iustanti. Alii dicunt quod anima 
-      <lb ed="#V" n="105"/>ab instanti sue infusionis habet corporis sui aliquam 
-      co<lb ed="#V" n="106" break="no"/>gnitionem naturalem et ad ipsum aliquem naturalem 
-      ap<lb ed="#V" n="107" break="no"/>petitum in actu: quem necessarium dicunt esse ad hoc: 
-      <lb ed="#V" n="108"/>vt anima inficiatur a carne. Nec propter hoc peccatum 
-      <lb ed="#V" n="109"/>originale debet dici actuale: quia anima non inficitur per 
-      <lb ed="#V" n="110"/>illum appetitum: sicut per causam infectionis sue: sed 
-      <lb ed="#V" n="111"/>quia sine ipso anima non posset infici a carne. Ego 
-      au<lb ed="#V" n="112" break="no"/>tem dico quod siue anima ab instanti sue infusionis habeat 
-      <lb ed="#V" n="113"/>ad ipsum corpus aliquem naturalem appetitum in actu: 
-      <lb ed="#V" n="114"/>siue non: ille tamen appetitus in actu non est 
-      necessa<lb ed="#V" n="115" break="no"/>rius ad hoc quod anima inficiatur a carne: quia anima 
-      par<lb ed="#V" n="116" break="no"/>uuli non contrahit a carne necessitatem concupiscendi 
-      <lb ed="#V" n="117"/>pro instanti infusionis sue. Sed pro illo tempore quo 
-      po<lb ed="#V" n="118" break="no"/>terit exire in actum: est tamen necessarius ad hoc in actu: 
-      <lb ed="#V" n="119"/>vel in aptitudine: quia si in anima nullus esset naturalis 
-      <lb ed="#V" n="120"/>appetitus ad suum corpus ab instanti infusionis sue: nece 
-      <lb ed="#V" n="121"/>esset postea suturus: anima non contraheret a carne 
-      ne<lb ed="#V" n="122" break="no"/>cessitatem habendi pronitatem ad aliquam inordinatam 
-      <lb ed="#V" n="123"/>motionem pro quocunque tempore: quia non esset tunc 
-      ne<lb ed="#V" n="124" break="no"/>cesse pro aliquo tempore aliquam potentiam anime 
-      de<lb ed="#V" n="125" break="no"/>orsum inclinari ab ipsa carne.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e740">
-      ¶ His visis faciliter potest 
-      <lb ed="#V" n="126"/>responderi ad argumenta. 
-    </p>
-               <p xml:id="kzz7yh-f91425-d1e745">
-                  <lb ed="#V" n="127"/>Ad primum dicendum: quod illa auctoritas 
-      <ref xml:id="kzz7yh-f91425-Rd1e770">Au<lb ed="#V" n="128" break="no"/>gustini</ref> intelligenda est de illa 
-      de<lb ed="#V" n="129" break="no"/>terioratione que est post contractionem originalis 
-      pec<lb ed="#V" n="130" break="no"/>cati.
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e756">
-      ¶ Ad secundum dicendum: quod procedit de 
-      appeti<lb ed="#V" n="131" break="no"/>tu secundum quod accipitur pro naturali aptitudine ad aliquid. 
-   </p>
-               <p xml:id="kzz7yh-f91425-d1e762">
-                  <lb ed="#V" n="132"/>¶ Ad tertium dicendum: quod non valet: quia ignis non 
-      <lb ed="#V" n="133"/>agit per naturalem colligantiam in animam: sed 
-      inquan<lb ed="#V" n="134" break="no"/>tum est instrumentum diuine iustitie. Ut ostendetur in 
-      <lb ed="#V" n="135"/>quarto: anima autem per quandam colligantiam natu. 
-      <lb ed="#V" n="136"/>ralem cum carne infecta inficitur ab ea.
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 2</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 2</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="128-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f91425"><!-- l2d31a2 -->
+        <head xml:id="kzz7yh-f91425-Hd1e101">Articulus 2</head>
+        <p xml:id="kzz7yh-f91425-d1e103">
+          <lb ed="#V" n="25"/>COnsequenter queritur de secundo 
+          <lb ed="#V" n="26"/>principali. Et 
+          cir<lb ed="#V" n="27" break="no"/>ca hoc queruntur tria.
+        </p>
+        <p xml:id="kzz7yh-f91425-d1e112">
+          ¶ Primo vtrum caro 
+          pos<lb ed="#V" n="28" break="no"/>sit animam inficere.
+        </p>
+        <p xml:id="kzz7yh-f91425-d1e117">
+          ¶ Secundo vtrum illa 
+          infectio<lb ed="#V" n="29" break="no"/>causetur ex propagatione vel libidine.
+        </p>
+        <p xml:id="kzz7yh-f91425-d1e122">
+          ¶ Tertio vtrum 
+          <lb ed="#V" n="30"/>anima contrahat originale peccatum per aliquem 
+          natu<lb ed="#V" n="31" break="no"/>ralem appetitum in voluntate.
+        </p>
+        <div xml:id="kzz7yh-f91425-Dd1e130">
+          <head xml:id="kzz7yh-f91425-Hd1e132">Quaestio 1</head>
+          <head xml:id="kzz7yh-f91425-Hd1e136" type="question-title">Utrum caro possit animam inficere</head>
+          <p xml:id="kzz7yh-f91425-d1e134">
+            ¶ Quaestio 
+            <lb ed="#V" n="32"/>PRimo ostendo quod anima non 
+            pos<lb ed="#V" n="33" break="no"/>sit infici a carne: 
+            <lb ed="#V" n="34"/>quia sicut dicit <ref xml:id="kzz7yh-f91425-Rd1e147">philosophus. 3. de anima</ref>: semper 
+            honorabi<lb ed="#V" n="35" break="no"/>lius est agens patiente. Sed caro non est 
+            honora<lb ed="#V" n="36" break="no"/>bilior quam anima: ergo anima non potest inficia carne.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e147">
+            ¶ Item 
+            <lb ed="#V" n="37"/>philosophus 1 de generatione: que agut et patiuntur adinuicem 
+            con<lb ed="#V" n="38" break="no"/>municant in materia. Sed corpus et anima non 
+            commu<lb ed="#V" n="39" break="no"/>nicant in materia: ergo anima non potest infici a carne.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e156">
+            ¶ Item 
+            <lb ed="#V" n="40"/>secundum philosophum. 2. de anima: intellectus nullius partis corporis 
+            <lb ed="#V" n="41"/>est actus: ergo pars intellectiua a carne infici non potest. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e163">
+            <lb ed="#V" n="42"/>¶ Item nulla corruptis maior est in effectu quam in causa: 
+            <lb ed="#V" n="43"/>sed corruptio culpabilis maior est quam penalis: quia plus 
+            ha<lb ed="#V" n="44" break="no"/>bet de ratione mali secundum Aug. in secundo de innocentibus: 
+            er<lb ed="#V" n="45" break="no"/>go anima non potest infici infectione culpe per penalem 
+            cor<lb ed="#V" n="46" break="no"/>ruptionem ipsius carnis.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e177">
+            ¶ Item caro non agit in animam 
+            <lb ed="#V" n="47"/>imperando: sicut voluntas imperat virtuti motiue que 
+            <lb ed="#V" n="48"/>est in membris nature per influentiam: sicut agunt 
+            cor<lb ed="#V" n="49" break="no"/>pora superiora in inferioribus. Nec per praedominantiam 
+            con<lb ed="#V" n="50" break="no"/>trarietatis: sicut agit calidum in frigidum: ergo videtur quod 
+            <lb ed="#V" n="51"/>nullo modo caro agat in animam. Sed inficere est agere. 
+            <lb ed="#V" n="52"/>ergo caro non potest animam inficere. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e193">
+            <lb ed="#V" n="53"/>Contra glosa super illud ad <ref xml:id="kzz7yh-f91425-Rd1e205">Rom. 7.</ref> <quote xml:id="kzz7yh-f91425-Qd1e209" source="http://scta.info/resource/rom7_18@1-13">Scio quod non 
+              <lb ed="#V" n="54"/>habitat in carne mea bonum</quote>: dicit quod 
+            pecca<lb ed="#V" n="55" break="no"/>tum habitat in carne: sed non formaliter: vt ostensum est: 
+            er<lb ed="#V" n="56" break="no"/>go causaliter.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e204">
+            ¶ Item secundum diuersas corporum completiones: 
+            <lb ed="#V" n="57"/>anime diuersas contrabunt inclinationes. Sicut dicit Con 
+            <lb ed="#V" n="58"/>stabulus in lib. de exorcismis et characteribus: et experientia 
+            <lb ed="#V" n="59"/>docet: ergo similiter per earum vniones ad carnes 
+            infe<lb ed="#V" n="60" break="no"/>ctas: contrahere possunt infectiones. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e215">
+            <lb ed="#V" n="61"/>Respondeo quod animam infici a carne possibile 
+            <lb ed="#V" n="62"/>est. Infectio anime de qua est sermo: est 
+            <lb ed="#V" n="63"/>necessitas habendi interdum pronitatem ad aliquam 
+            in<lb ed="#V" n="64" break="no"/>ordinatam motionem quando poterit exire in actum. Hanc 
+            <lb ed="#V" n="65"/>autem necessitatem esse in anima paruuli per carnem 
+            possibi<lb ed="#V" n="66" break="no"/>le est. In vnione enim anime ad carnem appetitiua 
+            orga<lb ed="#V" n="67" break="no"/>nica id est sensualitas: secundum diuersam complexionem organi 
+            com<lb ed="#V" n="68" break="no"/>trahit neccssitatem appetendi diuersa: et idem diuersimo¬ 
+            <!--00270.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>de pro tempore quo potest exire in actum: sicut patet in 
+            ho<lb ed="#V" n="70" break="no"/>minibus diuersarum complexionum. Et quia sensualitas et 
+            <lb ed="#V" n="71"/>appetitiua non organica id est voluntas sunt in eadem forma 
+            <lb ed="#V" n="72"/>radicate: sensualitas appetens aliquid inclinat 
+            volunta<lb ed="#V" n="73" break="no"/>tem ad illud volendum: non tamen cogit: ergo similiter 
+            possi<lb ed="#V" n="74" break="no"/>bile est: cum anima paruuli vnitur carni infecte et 
+            inordina<lb ed="#V" n="75" break="no"/>te quod per carnem contrahat sensualitas necessitatem 
+            appe<lb ed="#V" n="76" break="no"/>tendi interdum modo inordinato et infecto pro illo tempore quo 
+            <lb ed="#V" n="77"/>exire poterit in actum: et voluntas necessitatem habendi proni 
+            <lb ed="#V" n="78"/>tatem interdum ad aliquam inordinatam motionem et 
+            infe<lb ed="#V" n="79" break="no"/>ctam. Cui concordat Anselmus de concep. virgi. ca. 7. dicens de 
+            <lb ed="#V" n="80"/>paruulis: quoniam in semine trahunt peccandi: cum 
+            ho<lb ed="#V" n="81" break="no"/>mines iam erunt necessitatem. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e267">
+            <lb ed="#V" n="82"/>Ad primum in oppositum dicendum: quod 
+            auctori<lb ed="#V" n="83" break="no"/>tas philosophi intelligenda est de agente per 
+            <lb ed="#V" n="84"/>influentiam: vel per contrarietatis praedominantiam non per 
+            <lb ed="#V" n="85"/>quandam naturalem colligantiam. Si enim fortius leue 
+            col<lb ed="#V" n="86" break="no"/>ligatum esset modico graui et debili: illud graue 
+            nihilomi<lb ed="#V" n="87" break="no"/>nus inclinaret leue deorsum: et aliquo modo impediret 
+            re<lb ed="#V" n="88" break="no"/>tardando a suo motu sursum: nec tamen propter hoc esset 
+            ho<lb ed="#V" n="89" break="no"/>norabilius eo.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e287">
+            ¶ Ad secundum dicendum: quod illa auctoritas 
+            <lb ed="#V" n="90"/>philosophi intelligenda est de his que agunt et patiuntur 
+            adinuicen<lb ed="#V" n="91" break="no"/>ratione contrarietatis.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e295">
+            ¶ Ad tertium dicendum: quod quamuis 
+            <lb ed="#V" n="92"/>intellectus et voluntas non sint virtutes organice: tamen 
+            <lb ed="#V" n="93"/>radicantur in eadem forma cum virtutibus organicis. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e302">
+            <lb ed="#V" n="94"/>¶ Ad quartum dicendum: quod illa propoitio intelligenda est de causa 
+            <lb ed="#V" n="95"/>principali non instrumentali. Semen autem ex quo formatur 
+            <lb ed="#V" n="96"/>caro paruuli est quasi instrumentum mediante quo infici. 
+            <lb ed="#V" n="97"/>tur an ima paruuli per ipsum adam in quo per peccatum 
+            <lb ed="#V" n="98"/>fuit maior infectio quam in animabus paruulorum.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e315">
+            ¶ Uel potest 
+            <lb ed="#V" n="99"/>dici quod infectio aliquando intenditur ex nobilitate nature 
+            <lb ed="#V" n="100"/>que inficitur: quia quanto natura est dignior: tanto peior est 
+            <lb ed="#V" n="101"/>eius corruptio: vel infectio. Sicut dicit Aug. 15 de trini. 
+            <lb ed="#V" n="102"/>ca. 9.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e326">
+            ¶ Ad qu intum dicendum: quod procedit ab 
+            insufficien<lb ed="#V" n="103" break="no"/>ti: omittit enim modum agendi quo aliquid agit in aliud 
+            <lb ed="#V" n="104"/>per naturalem colligantiam. Uel per hoc quod in re vna 
+            radi<lb ed="#V" n="105" break="no"/>cantur.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f91425-Dd1e336">
+          <head xml:id="kzz7yh-f91425-Hd1e338">Quaestio 2</head>
+          <head xml:id="kzz7yh-f91425-Hd1e351" type="question-title">Utrum illa infectio causetur ex propagatione vel ex libidine vel alio modo</head>
+          <p xml:id="kzz7yh-f91425-d1e340">
+            ¶ Questio. II. 
+            <lb ed="#V" n="106"/>SEcundo queritur vtrum illa infectio 
+            cau<lb ed="#V" n="107" break="no"/>setur ex propagatione: vel ex  
+            libi<lb ed="#V" n="108" break="no"/>dine: vel alio modo. Et primo ostendo quod neutro 
+            prae<lb ed="#V" n="109" break="no"/>dictorum modorum: quia si aliquis miraculose 
+            for<lb ed="#V" n="110" break="no"/>metur de aliqua parte carnis infecte: anima illa haberet 
+            <lb ed="#V" n="111"/>peccatum originale: quia contrahitur ex vnione anime ad 
+            car<lb ed="#V" n="112" break="no"/>nem infectam: et tamen non esset contractum illud peccatum: nec 
+            <lb ed="#V" n="113"/>per propagationem: nec per libidinem.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e360">
+            ¶ Item peccatum 
+            <lb ed="#V" n="114"/>originale prouenit in omnes a primo parente inquantum omnes 
+            <lb ed="#V" n="115"/>fuerunt in ipso peccante. Sed de isto qui modo predicto 
+            <lb ed="#V" n="116"/>formaretur: posset dici quod fuisset in adam peccante: ergo 
+            <lb ed="#V" n="117"/>beret peccatum originale sine propagatione et libidine.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e371">
+            ¶ Item 
+            <lb ed="#V" n="118"/>ostendo quod illa infectio causetur ex propagatione non ex 
+            li<lb ed="#V" n="119" break="no"/>bidine: in coitum qui est sine peccato non est libido: et tamen 
+            <lb ed="#V" n="120"/>propagati per talem coitum contrahunt originale 
+            pecca<lb ed="#V" n="121" break="no"/>tum: ergo contrahitur per propagationem non per 
+            libidi<lb ed="#V" n="122" break="no"/>nem.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e384">
+            ¶ Item si libido esset causa originalis peccati 
+            ma<lb ed="#V" n="123" break="no"/>ior libido generantium: esset causa maioris originalis 
+            pec<lb ed="#V" n="124" break="no"/>cati: et sic originale non esset equaliter in omnibus: quod 
+            fal<lb ed="#V" n="125" break="no"/>sum est: vt inferius ostendetur.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e394">
+            ¶ Item quod contrahatur 
+            <lb ed="#V" n="126"/>per libidinem ostendo sic. Aug. de fide ad Petrum 
+            long<lb ed="#V" n="127" break="no"/>post principium: et recitat magister in littera: dum sibi per 
+            <lb ed="#V" n="128"/>uicem vir mulierque miscentur: sine libidine non est p n 
+            <lb ed="#V" n="129"/>tum concubitus: et ob hoc filiorum ex eorum 
+            carn<lb ed="#V" n="130" break="no"/>tium non potest sine peccato esse conceptus: vbi 
+            <lb ed="#V" n="131"/>in paruulos non tamen transmittit propagatio: 
+            <lb ed="#V" n="132"/>do.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e412">
+            ¶ Item peccatum originale cum sit peccatum 
+            <lb ed="#V" n="133"/>re contrahi non potest: nisi per actum virtutis de 
+            <lb ed="#V" n="134"/>tis propagationi nature. Hoc autem est 
+            gener<lb ed="#V" n="135" break="no"/>maxime infecta est: vt superius ostensum est: 
+            <lb ed="#V" n="136"/>est cum delectatione rationem obnubilante 
+            <!--00271.xml-->
+            <pb ed="#V" n="129-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>delectatio libidinosa videtur: ergo nunquam nisi per 
+            libidi<lb ed="#V" n="2" break="no"/>nem contrahitur originale peccatum. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e434">
+            <lb ed="#V" n="3"/>Respondeo quod peccatum originale contrabitur ex 
+            <lb ed="#V" n="4"/>vnione anime ad carnem 
+            immedia<lb ed="#V" n="5" break="no"/>te formatam ex semine infecto et transfuso per actionem 
+            <lb ed="#V" n="6"/>virtutis generatiue. Et ideo secundum quod libido accipitur pro 
+            in<lb ed="#V" n="7" break="no"/>fectione virtutis generatiue: sic dico quod infectio 
+            origina<lb ed="#V" n="8" break="no"/>lis peccati non causatur nisi ex libidine. Si autem libido 
+            <lb ed="#V" n="9"/>accipiatur pro improba voluntate: vel pro immoderata 
+            sen<lb ed="#V" n="10" break="no"/>sualitatis delectatione: sic dico quod non causatur per 
+            libidi<lb ed="#V" n="11" break="no"/>nem: quia genitus per concubitum factum sine 
+            improba<lb ed="#V" n="12" break="no"/>voluntate et fine immoderata sensualitatis delectatione 
+            nihi<lb ed="#V" n="13" break="no"/>lominus contraheret infectionem originalis peccati. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e460">
+            <lb ed="#V" n="14"/>Ad primum argumentum dicendum: quod homo 
+            mi<lb ed="#V" n="15" break="no"/>raculose formatus de aliqua parte 
+            car<lb ed="#V" n="16" break="no"/>nis infecte: quamuis esset de necessitate subiectus 
+            penalita<lb ed="#V" n="17" break="no"/>ti et corruptioni si suis naturalibus relinqueretur: et haberet 
+            <lb ed="#V" n="18"/>interdum etiam inclinationes deordinatas: non tamen 
+            <lb ed="#V" n="19"/>ita vehementes: nec ita indecentes: sicut geniti ex semine 
+            <lb ed="#V" n="20"/>transfuso per concubitum: quia nec eius natura ita esset 
+            <lb ed="#V" n="21"/>deordinata. Non tamen contraheret originalem culpam: quia 
+            <lb ed="#V" n="22"/>quamuis careret originali iustitia: illa tamen carentia in eo 
+            <lb ed="#V" n="23"/>culpa non esset: quia non esset debitor originalis iustitie. 
+            <lb ed="#V" n="24"/>Illi enim soli ad illam obligantur qui ab adam descendunt 
+            <lb ed="#V" n="25"/>per concubitum viri et femine. Non contrahitur ergo 
+            ori<lb ed="#V" n="26" break="no"/>ginalis culpa ex vnione anime ad carnem: nisi inquantum 
+            <lb ed="#V" n="27"/>illa caro est formata de infecto semine secundum legem nature: 
+            <lb ed="#V" n="28"/>hoec est per virtutem informatiuam que est in semine: que a 
+            <lb ed="#V" n="29"/>patre transfunditur cum ipso semine.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e497">
+            ¶ Ad secundum 
+            di<lb ed="#V" n="30" break="no"/>cendum: quod quamuis si aliquis formaretur de aliqua parte 
+            <lb ed="#V" n="31"/>carnis infecte posset dici fuisse in adam secundum corpulentam 
+            <lb ed="#V" n="32"/>substantiam: non tamen secundum seminalem rationem: et ideo non 
+            <lb ed="#V" n="33"/>esset debitor originalis iustitie. Nec dicendum esset illum 
+            <lb ed="#V" n="34"/>fuisse in adam secundum corpulentam substantiam: propter hoc quod 
+            <lb ed="#V" n="35"/>aliqua pars corporis eius actu fuisset in adam. Sed quia 
+            <lb ed="#V" n="36"/>in adam fuit corporale semen continens virtualiter non 
+            <lb ed="#V" n="37"/>actu illam carnem de qua iste miraculose formatus esset. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e517">
+            <lb ed="#V" n="38"/>¶ Ad tertium et quartum dicendum: quod procedunt de 
+            libi<lb ed="#V" n="39" break="no"/>dine secundum quod accipitur pro improba voluntate: vel 
+            immodera<lb ed="#V" n="40" break="no"/>ta carnis delectatione: et sic accipiendo libidinem: verum 
+            <lb ed="#V" n="41"/>est quod per eam non contrahitur infectio originalis culpe. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e529">
+            <lb ed="#V" n="42"/>¶ Quintum et sextum argumentum procedunt de 
+            libidi<lb ed="#V" n="43" break="no"/>ne secundum quod accipitur pro corruptione: vel infectione potentie 
+            <lb ed="#V" n="44"/>generatiue: et ideo concedantur. De tali enim libidine 
+            ver<lb ed="#V" n="45" break="no"/>bum Augustini preallegatum intelligendum est. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f91425-Dd1e541">
+          <head xml:id="kzz7yh-f91425-Hd1e543">Quaestio 3</head>
+          <head xml:id="kzz7yh-f91425-Hd1e560" type="question-title">Utrum anima contrahat originale peccatum per aliquem naturalem appetitum in voluntate</head>
+          <p xml:id="kzz7yh-f91425-d1e545">
+            <lb ed="#V" n="46"/>¶ Questio. III. 
+            <lb ed="#V" n="47"/>TErtio queritur vtrum anima 
+            con<lb ed="#V" n="48" break="no"/>trahat 
+            origina<lb ed="#V" n="49" break="no"/>le peccatum per aliquem naturalem appetitum in 
+            <lb ed="#V" n="50"/>voluntate. Et videtur quod sic. Quia <ref xml:id="kzz7yh-f91425-Rd1e576">Augu. in libro 
+              <lb ed="#V" n="51"/>33. q. q. 3.</ref> dicit quod illud quo homo est deterior est vitium 
+            <lb ed="#V" n="52"/>voluntatis. Sed per peccatum originale anima est 
+            dete<lb ed="#V" n="53" break="no"/>rior: ergo contrahit originale peccatum per actum vitiosum 
+            <lb ed="#V" n="54"/>voluntatis.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e567">
+            ¶ Item anima contrahit originale peccatu 
+            <lb ed="#V" n="55"/>inquantum est infecti corporis forma. Sed omnis forma 
+            <lb ed="#V" n="56"/>naturalem habet appetitum ad suam materiam: ergo 
+            vi<lb ed="#V" n="57" break="no"/>detur quod per naturalem appetitum ad corpus contrahat 
+            <lb ed="#V" n="58"/>originale peccatum.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e578">
+            ¶ Item si anima innocens esset in 
+            <lb ed="#V" n="59"/>igne infernali: nihil pateretur ab illo igne. Sed caro 
+            quan<lb ed="#V" n="60" break="no"/>tumcunque infecta non est magis actiua quam ignis: ergo 
+            si<lb ed="#V" n="61" break="no"/>anima non esset priuata innocentia per aliquem actum 
+            <lb ed="#V" n="62"/>voluntatis ab ipsa carne nihil posset pati: ergo nec 
+            in<lb ed="#V" n="63" break="no"/>fici ab eadem. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e591">
+            <lb ed="#V" n="64"/>Contra naturalis appetitus voluntatis semper est 
+            <lb ed="#V" n="65"/>rectus: sed impossibile esset per rectum 
+            ap<lb ed="#V" n="66" break="no"/>petitum culpam contrahere: ergo anima non contrahit 
+            <lb ed="#V" n="67"/>originale peccatum per aliquem appetitum naturalem 
+            <lb ed="#V" n="68"/>ipsius voluntatis.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e605">
+            ¶ Item peccatum originale traduci 
+            <!--00271.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>tur a parente in prolem quantum ad causam. Sed a 
+            pa<lb ed="#V" n="70" break="no"/>rentibus caro traducitur non anima: ergo non 
+            contra<lb ed="#V" n="71" break="no"/>hitur per aliquem actum ipsius anime: siue naturalem: siue alium. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e618">
+            <lb ed="#V" n="72"/>Respondeo naturalis appetitus potest dici 
+            du<lb ed="#V" n="73" break="no"/>pliciter. Uno modo accipitur pro
+            <lb ed="#V" n="74"/>naturali aptitudine ad aliquid: et hoc modo dicitur 
+            for<lb ed="#V" n="75" break="no"/>ma appetere informare materiam: quia naturalem 
+            apti<lb ed="#V" n="76" break="no"/>tudinem habet ad informandum eam. Et materia 
+            appe<lb ed="#V" n="77" break="no"/>tere informari a forma: quia in ipsa est naturalis 
+            aptitu<lb ed="#V" n="78" break="no"/>do: vt informetur per eam. Et sic loquitur philosophus I 
+            <lb ed="#V" n="79"/>physicorum de appetitum: vbi dicit quod materia appetit 
+            for<lb ed="#V" n="80" break="no"/>mam: sicut femina masculum. Sed vic appetitus magis 
+            <lb ed="#V" n="81"/>dicitur secundum similitudinem quam secundum proprietatem: vt 
+            vide<lb ed="#V" n="82" break="no"/>tur Auicenne. Qui dicit suo lib. 1. physicorum. 2. capi. 
+            Di<lb ed="#V" n="83" break="no"/>cunt hyle affici desiderio forme: et hyle assimilant femine: 
+            <lb ed="#V" n="84"/>formam autem assimilant masculo. Et hoc est quod ego non 
+            <lb ed="#V" n="85"/>intelligo: et postquam arguit contra illum loquendi modum 
+            <lb ed="#V" n="86"/>dicit: propter hec omnia difficilis est mihi intellectus 
+            hu<lb ed="#V" n="87" break="no"/>ius verbi: quia magis videtur hic esse dictio figuratiue 
+            <lb ed="#V" n="88"/>loquentium quam philosophorum. Dico ergo quod loquendo de 
+            <lb ed="#V" n="89"/>tali appetitum a nima sine eo non posset contrahere 
+            origi<lb ed="#V" n="90" break="no"/>nale peccatum: quia nisi esset appetitus in anima ex ipsa 
+            <lb ed="#V" n="91"/>et corpore non posset vnum constitui per essentiam: sicut 
+            <lb ed="#V" n="92"/>ex materia et forma.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e666">
+            ¶ Alio modo dicitur naturalis 
+            ap<lb ed="#V" n="93" break="no"/>petitus propris quoddam naturale velle ipsius anime: 
+            <lb ed="#V" n="94"/>cuius obiectum est bonum absolute: et est a voluntate: vt 
+            <lb ed="#V" n="95"/>natura: non vt est deliberatiua: et vt est habens pro 
+            regu<lb ed="#V" n="96" break="no"/>la naturalem instinctum intellectus. Et sic loquendo de 
+            <lb ed="#V" n="97"/>appetitu dicunt quidam quod non est causa per quam 
+            con<lb ed="#V" n="98" break="no"/>trahitur peccatum originale: nec est etiam causa sine qua 
+            <lb ed="#V" n="99"/>non: quia anima contrahit peccatum originale in 
+            instan<lb ed="#V" n="100" break="no"/>ti sue infusionis: sed nullus actus volendi potest esse in anima in 
+            instan<lb ed="#V" n="101" break="no"/>ti sue creationis. Dicit enim Hug. I. lib. de sacra. par. 5. 
+            <lb ed="#V" n="102"/>ca. 23 quod velle autem facere motum habet: et de hoc in illud 
+            <lb ed="#V" n="103"/>successum et moram. Sed nullus motus nature nec 
+            ali<lb ed="#V" n="104" break="no"/>qua successio potest esse in iustanti. Alii dicunt quod anima 
+            <lb ed="#V" n="105"/>ab instanti sue infusionis habet corporis sui aliquam 
+            co<lb ed="#V" n="106" break="no"/>gnitionem naturalem et ad ipsum aliquem naturalem 
+            ap<lb ed="#V" n="107" break="no"/>petitum in actu: quem necessarium dicunt esse ad hoc: 
+            <lb ed="#V" n="108"/>vt anima inficiatur a carne. Nec propter hoc peccatum 
+            <lb ed="#V" n="109"/>originale debet dici actuale: quia anima non inficitur per 
+            <lb ed="#V" n="110"/>illum appetitum: sicut per causam infectionis sue: sed 
+            <lb ed="#V" n="111"/>quia sine ipso anima non posset infici a carne. Ego 
+            au<lb ed="#V" n="112" break="no"/>tem dico quod siue anima ab instanti sue infusionis habeat 
+            <lb ed="#V" n="113"/>ad ipsum corpus aliquem naturalem appetitum in actu: 
+            <lb ed="#V" n="114"/>siue non: ille tamen appetitus in actu non est 
+            necessa<lb ed="#V" n="115" break="no"/>rius ad hoc quod anima inficiatur a carne: quia anima 
+            par<lb ed="#V" n="116" break="no"/>uuli non contrahit a carne necessitatem concupiscendi 
+            <lb ed="#V" n="117"/>pro instanti infusionis sue. Sed pro illo tempore quo 
+            po<lb ed="#V" n="118" break="no"/>terit exire in actum: est tamen necessarius ad hoc in actu: 
+            <lb ed="#V" n="119"/>vel in aptitudine: quia si in anima nullus esset naturalis 
+            <lb ed="#V" n="120"/>appetitus ad suum corpus ab instanti infusionis sue: nece 
+            <lb ed="#V" n="121"/>esset postea suturus: anima non contraheret a carne 
+            ne<lb ed="#V" n="122" break="no"/>cessitatem habendi pronitatem ad aliquam inordinatam 
+            <lb ed="#V" n="123"/>motionem pro quocunque tempore: quia non esset tunc 
+            ne<lb ed="#V" n="124" break="no"/>cesse pro aliquo tempore aliquam potentiam anime 
+            de<lb ed="#V" n="125" break="no"/>orsum inclinari ab ipsa carne.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e740">
+            ¶ His visis faciliter potest 
+            <lb ed="#V" n="126"/>responderi ad argumenta. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e745">
+            <lb ed="#V" n="127"/>Ad primum dicendum: quod illa auctoritas 
+            <ref xml:id="kzz7yh-f91425-Rd1e770">Au<lb ed="#V" n="128" break="no"/>gustini</ref> intelligenda est de illa 
+            de<lb ed="#V" n="129" break="no"/>terioratione que est post contractionem originalis 
+            pec<lb ed="#V" n="130" break="no"/>cati.
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e756">
+            ¶ Ad secundum dicendum: quod procedit de 
+            appeti<lb ed="#V" n="131" break="no"/>tu secundum quod accipitur pro naturali aptitudine ad aliquid. 
+          </p>
+          <p xml:id="kzz7yh-f91425-d1e762">
+            <lb ed="#V" n="132"/>¶ Ad tertium dicendum: quod non valet: quia ignis non 
+            <lb ed="#V" n="133"/>agit per naturalem colligantiam in animam: sed 
+            inquan<lb ed="#V" n="134" break="no"/>tum est instrumentum diuine iustitie. Ut ostendetur in 
+            <lb ed="#V" n="135"/>quarto: anima autem per quandam colligantiam natu. 
+            <lb ed="#V" n="136"/>ralem cum carne infecta inficitur ab ea.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

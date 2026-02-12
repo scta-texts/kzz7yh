@@ -1,84 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="24-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k16857"><!-- l4d5cl -->
-            <head xml:id="kzz7yh-k16857-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-k16857-d1e103">
-               <lb ed="#V" n="47"/>CIrca litteram. Si quos 
-      baptiza<lb ed="#V" n="48" break="no"/>uit ebriosus. Non 
-      <lb ed="#V" n="49"/>est hoc intelligendum de ebrioso actu existente in 
-      <lb ed="#V" n="50"/>ebrietate ligante simpliciter rationis vsum. quia 
-      <lb ed="#V" n="51"/>talis non posset habere intentionem 
-      baptizan<lb ed="#V" n="52" break="no"/>di: sed de assueto ad ebrietatem: non tamen quando 
-      bapti<lb ed="#V" n="53" break="no"/>zat existente ebrio: vel non habente ebrietatem que 
-      to<lb ed="#V" n="54" break="no"/>taliter impediat rationis vsum. Si in heresi quacumque etc. 
-      <lb ed="#V" n="55"/>hoc expositum est in questionibus. Non hominem iudicat 
-      <lb ed="#V" n="56"/>qui baptizat: subministrare scilicet gratiam christi interius. 
-      Un<lb ed="#V" n="57" break="no"/>de sequatur. Sed spiritum dei etc. Munus enim equale 
-      in<lb ed="#V" n="58" break="no"/>bonis: siue a bonis siue a malis baptizarentur: hoc in 
-      que<lb ed="#V" n="59" break="no"/>stionibus est expositum: quod per illum fluit purum est: 
-      id<lb ed="#V" n="60" break="no"/>est quod fluit per ministerium illius. Ne seruus in seruo 
-      <lb ed="#V" n="61"/>spem poneret scilicet tanquam in remuneratore: potest enim 
-      <lb ed="#V" n="62"/>homo spem ponere in homine tanquam in adiutore. Tot 
-      <lb ed="#V" n="63"/>essent baptismi quot serui scilicet denominatione et esset 
-      <lb ed="#V" n="64"/>schisma in ecclesia. Ita in ministerio haberet intus 
-      mun<lb ed="#V" n="65" break="no"/>dare: hoc effectiue intelligendo falsum est. Posset deus 
-      <lb ed="#V" n="66"/>per aliquem causare: hoc simpliciter falsum est: vt 
-      osten<lb ed="#V" n="67" break="no"/>sum est in questionibus: et opinio Magistri in isto 
-      passu<lb ed="#V" n="68" break="no"/>communiter non tenetur.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="24-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k16857"><!-- l4d5cl -->
+        <head xml:id="kzz7yh-k16857-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-k16857-d1e103">
+          <lb ed="#V" n="47"/>CIrca litteram. Si quos 
+          baptiza<lb ed="#V" n="48" break="no"/>uit ebriosus. Non 
+          <lb ed="#V" n="49"/>est hoc intelligendum de ebrioso actu existente in 
+          <lb ed="#V" n="50"/>ebrietate ligante simpliciter rationis vsum. quia 
+          <lb ed="#V" n="51"/>talis non posset habere intentionem 
+          baptizan<lb ed="#V" n="52" break="no"/>di: sed de assueto ad ebrietatem: non tamen quando 
+          bapti<lb ed="#V" n="53" break="no"/>zat existente ebrio: vel non habente ebrietatem que 
+          to<lb ed="#V" n="54" break="no"/>taliter impediat rationis vsum. Si in heresi quacumque etc. 
+          <lb ed="#V" n="55"/>hoc expositum est in questionibus. Non hominem iudicat 
+          <lb ed="#V" n="56"/>qui baptizat: subministrare scilicet gratiam christi interius. 
+          Un<lb ed="#V" n="57" break="no"/>de sequatur. Sed spiritum dei etc. Munus enim equale 
+          in<lb ed="#V" n="58" break="no"/>bonis: siue a bonis siue a malis baptizarentur: hoc in 
+          que<lb ed="#V" n="59" break="no"/>stionibus est expositum: quod per illum fluit purum est: 
+          id<lb ed="#V" n="60" break="no"/>est quod fluit per ministerium illius. Ne seruus in seruo 
+          <lb ed="#V" n="61"/>spem poneret scilicet tanquam in remuneratore: potest enim 
+          <lb ed="#V" n="62"/>homo spem ponere in homine tanquam in adiutore. Tot 
+          <lb ed="#V" n="63"/>essent baptismi quot serui scilicet denominatione et esset 
+          <lb ed="#V" n="64"/>schisma in ecclesia. Ita in ministerio haberet intus 
+          mun<lb ed="#V" n="65" break="no"/>dare: hoc effectiue intelligendo falsum est. Posset deus 
+          <lb ed="#V" n="66"/>per aliquem causare: hoc simpliciter falsum est: vt 
+          osten<lb ed="#V" n="67" break="no"/>sum est in questionibus: et opinio Magistri in isto 
+          passu<lb ed="#V" n="68" break="no"/>communiter non tenetur.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,803 +1,803 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 5</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 5</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="124-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f88687"><!-- l2d30a5 -->
-            <head xml:id="kzz7yh-f88687-Hd1e101">Articulus 5</head>
-            <p xml:id="kzz7yh-f88687-d1e103">
-               <lb ed="#V" n="52"/>COnsequenter queritur de quinto 
-      <lb ed="#V" n="53"/>principali. Et 
-      cir<lb ed="#V" n="54" break="no"/>ca hoc queruntur duo.
-   </p>
-            <p xml:id="kzz7yh-f88687-d1e112">
-      ¶ Primo vtrum aliquid 
-      <lb ed="#V" n="55"/>de alimento transeat in veritatem humane 
-      na<lb ed="#V" n="56" break="no"/>ture ipsius comedentis.
-   </p>
-            <p xml:id="kzz7yh-f88687-d1e119">
-      ¶ Secundo vtrum generatio fiat 
-      <lb ed="#V" n="57"/>de superfluo alimenti autem de substantia gnanntis. 
-   </p>
-            <div xml:id="kzz7yh-f88687-Dd1e124">
-               <head xml:id="kzz7yh-f88687-Hd1e126">Quaestio 1</head>
-               <head xml:id="kzz7yh-f88687-Hd1e130" type="question-title">Utrum aliquid de alimento transeat in veritatem humane nature ipsius comedentis</head>
-               <p xml:id="kzz7yh-f88687-d1e128">
-      Quaestio I. 
-      <lb ed="#V" n="58"/>PRimo ostendo quod nihil de 
-      ali<lb ed="#V" n="59" break="no"/>mento transit 
-      <lb ed="#V" n="60"/>in veritatem humane nature ipsius 
-      comeden<lb ed="#V" n="61" break="no"/>tis. Saluator <ref xml:id="kzz7yh-f88687-Rd1e143">Matth. 15.</ref> Omne quod in os intrat 
-      <lb ed="#V" n="62"/>in ventrem vadit et in secessum emittitur: ergo in 
-      natu<lb ed="#V" n="63" break="no"/>ram comedentis non conuertitur.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e144">
-      ¶ Item philosophus primo 
-      <lb ed="#V" n="64"/>de generatione cap. de augmento distinguens carnem in 
-      <lb ed="#V" n="65"/>carnem secundum materiam et secundum speciem: dicit quod caro secundum 
-      spe<lb ed="#V" n="66" break="no"/>ciem manet: et quod caro que fluit et refluit est caro secundum 
-      ma<lb ed="#V" n="67" break="no"/>teriam. Sed caro generata de nutrimento non est manens 
-      <lb ed="#V" n="68"/>sed fluens: ergo nutrimentum non conuertitur in carnem 
-      <!--00262.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>secundum speciem: que sola videtur esse de veritate humane 
-      na<lb ed="#V" n="70" break="no"/>ture.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e166">
-      ¶ Item si alimentum conuerteretur in veritatem 
-      <lb ed="#V" n="71"/>humane nature oporteret ipsum subintrare interiora 
-      car<lb ed="#V" n="72" break="no"/>nis et ossis quod impossibile videtur: quia non posset dici quod 
-      <lb ed="#V" n="73"/>reciperetur in vacuo: quia non est ponere vacuum nec in 
-      <lb ed="#V" n="74"/>pleno: quia duo corpora simul naturaliter esse non possunt. 
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e177">
-                  <lb ed="#V" n="75"/>¶ Item nutritio non est generatio. Sed si alimentum 
-      con<lb ed="#V" n="76" break="no"/>uerteretur in veritatem humane nature: nutritio esset 
-      ge<lb ed="#V" n="77" break="no"/>neratio: quia tunc caro generaretur de alimento: ergo 
-      ali<lb ed="#V" n="78" break="no"/>mentum non conuertitur in veritatem humane 
-      natu<lb ed="#V" n="79" break="no"/>re.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e191">
-      ¶ Item si nutrimentum conuerteretur in veritatem 
-      <lb ed="#V" n="80"/>nature humani corporis continue partes que sunt de 
-      ve<lb ed="#V" n="81" break="no"/>ritate humani corporis deperderentur: et per alimentum 
-      <lb ed="#V" n="82"/>restaurarentur: et sic tandiu posset homo viuere quod tota 
-      pri<lb ed="#V" n="83" break="no"/>ma caro deperderetur: et esset alia per nutrimetum 
-      sub<lb ed="#V" n="84" break="no"/>stituta: et sic homo non remaneret idem in numero 
-      quan<lb ed="#V" n="85" break="no"/>tum ad corpus.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e207">
-      ¶ Item mors non accidit nisi propter 
-      <lb ed="#V" n="86"/>deperditionem alicuius spectantis ad veritatem 
-      huma<lb ed="#V" n="87" break="no"/>ne nature. Sed si alimentum conuerteretur in veritatem 
-      <lb ed="#V" n="88"/>humane nature: per ipsum posset restaurari quicquid 
-      de<lb ed="#V" n="89" break="no"/>perditur de veritate humane nature: ergo naturaliter 
-      ho<lb ed="#V" n="90" break="no"/>mo esset incorruptibilis: quod falsum est.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e220">
-      ¶ Item nulla 
-      <lb ed="#V" n="91"/>res debilitatur per coniunctionem sui similis: ssed 
-      natu<lb ed="#V" n="92" break="no"/>ra humana debilitatur per receptionem nutrimenti: 
-      si<lb ed="#V" n="93" break="no"/>cut vinum per receptionem aque. Unde philosophus 
-      <lb ed="#V" n="94"/>primo de generatione. appositionem nutrimenti ad 
-      carnen<lb ed="#V" n="95" break="no"/>comparat superinfusioni aque vino: ergo nutrimentum 
-      <lb ed="#V" n="96"/>non conuertitur in carnem similem relique carni. 
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e236">
-                  <lb ed="#V" n="97"/>Contra <ref xml:id="kzz7yh-f88687-Rd1e247">Aug. in libro de vera religione</ref> longe vltra 
-      <lb ed="#V" n="98"/>medium dicit quod alimenta carnis corrupta 
-      <lb ed="#V" n="99"/>idest amittentia formam suam in membrorum fabricam 
-      <lb ed="#V" n="100"/>migrant. Sed predicta fabrica est de veritate humane 
-      na<lb ed="#V" n="101" break="no"/>ture: ergo aliquid de alimento conuertitur in veritatem 
-      <lb ed="#V" n="102"/>humane nature.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e252">
-      ¶ Item philosophus primo de 
-      gene<lb ed="#V" n="103" break="no"/>ratione capi. de augmento. vult quod illud quo caro 
-      auge<lb ed="#V" n="104" break="no"/>tur: est in potentia caro: et parum post subdit: quod sicut ignis 
-      <lb ed="#V" n="105"/>tangens vrenda facit vstum sic adueniente: eo quod est 
-      ca<lb ed="#V" n="106" break="no"/>ro in potentia: ipsa caro facit actu carnem. Cum ergo ignis 
-      <lb ed="#V" n="107"/>tangens vrenda faciat vstionem similem vstioni prime. 
-      <lb ed="#V" n="108"/>Uidetur quod actu caro ipsum alimentum quod est caro in 
-      po<lb ed="#V" n="109" break="no"/>tentia conuertat in carnem similem prime.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e270">
-      ¶ Item ignis 
-      <lb ed="#V" n="110"/>agens in aerem ipsum conuertit in verum ignem: ergo 
-      <lb ed="#V" n="111"/>a simili caro agens in nutrimentum quod est in potentia 
-      ca<lb ed="#V" n="112" break="no"/>ro ipsum conuertit in veram carnem.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e280">
-      ¶ Item tunc est 
-      <lb ed="#V" n="113"/>vera caro cum potest facere verum opus debitum 
-      carni<lb ed="#V" n="114" break="no"/>quia sicut dicit philosophus. 4. metheororum: que possunt 
-      <lb ed="#V" n="115"/>facere suiipsius opus hoc est singulum: idest in hoc est 
-      vnun<lb ed="#V" n="116" break="no"/>quodque perfectum: ergo caro hominis cum sit perfecta 
-      <lb ed="#V" n="117"/>nutrimentum potest conuertere in carnem similem sibi. 
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e293">
-                  <lb ed="#V" n="118"/>Ad istam questionem dicunt quidam 
-      <lb ed="#V" n="119"/>cuius 
-      opinio<lb ed="#V" n="120" break="no"/>nis fuit Magister: quod quamuis cibi et humores in carnes: 
-      <lb ed="#V" n="121"/>et sanguinem transeant: non tamen transeunt in 
-      verita<lb ed="#V" n="122" break="no"/>tem humane nature. Dicunt enim quod primi parentes in 
-      <lb ed="#V" n="123"/>generatione filii deciderunt aliquam partem sue proprie substantie. Et illa 
-      <lb ed="#V" n="124"/>per naturam multiplicata est in seipsa sine conuersione alicuius 
-      <lb ed="#V" n="125"/>in seipsam. Et similiter dicunt de illo genito respectu 
-      pro<lb ed="#V" n="126" break="no"/>lis sue. Et hoc solum dicunt pertinere ad illam carnem que 
-      <lb ed="#V" n="127"/>est de veritate humane nature. Caro autem in quam conuertitur 
-      <lb ed="#V" n="128"/>nutrimentum fomenum est carnis predicte ne a natura 
-      <lb ed="#V" n="129"/>li calore consumatur: sicut cum auro in fornace plumbum 
-      po<lb ed="#V" n="130" break="no"/>nitur ne consumatur aurum ab igne. Et hanc carnem dicunt 
-      <lb ed="#V" n="131"/>esse non resurgendam: sed tantummodo carnem a primis 
-      pa<lb ed="#V" n="132" break="no"/>rentibus tractam.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e328">
-      ¶ Sed contra hanc opinionem arguo sic: 
-      <lb ed="#V" n="133"/>Hugo primo libro de sacra. par 6 ca. 36. de nihilo aliquid 
-      <lb ed="#V" n="134"/>facere: et de aliquo aliqua in maius: et de aliquibus aliquid 
-      <lb ed="#V" n="135"/>in minus: siue de aliquo nihil: solus deus potest. Unde quod 
-      il<lb ed="#V" n="136" break="no"/>la parua portio a primis parentibus decisa esset multipli¬ 
-      <!--00263.xml-->
-      <pb ed="#V" n="125-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>cata intum: vt de illa esset facta caro omnium hominum: qui ab 
-      <lb ed="#V" n="2"/>adam naturaliter descenderunt: sine alicuius alimenti 
-      conuer<lb ed="#V" n="3" break="no"/>sione in carnem non potuit esse per opus nature: et ex 
-      com<lb ed="#V" n="4" break="no"/>sequenti sequeretur quod actio nutritiue et generatiue non essent 
-      <lb ed="#V" n="5"/>naturales actiones: sed miraculose: quod falsum est.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e357">
-      ¶ Ali 
-      <lb ed="#V" n="6"/>dicunt quod aliquid de nutrimento conuertitur in veram 
-      car<lb ed="#V" n="7" break="no"/>nem equalem in virtute carni relique post. conuersionem 
-      <lb ed="#V" n="8"/>factam: quia virtus que est in semine est quedam 
-      impressio<lb ed="#V" n="9" break="no"/>deriuata ab anima generantis. Unde non potest esse 
-      maio<lb ed="#V" n="10" break="no"/>ris virtutis in agendo quam ipsa anima a qua deriuatur. Cum 
-      <lb ed="#V" n="11"/>ergo per virtutem que est in semine: vere tramsmutetur materia 
-      <lb ed="#V" n="12"/>ad carnem equalem in virtute carni generantis: multo 
-      <lb ed="#V" n="13"/>fortius per potentiam nutritiuam ipsius anime potest 
-      nutri<lb ed="#V" n="14" break="no"/>mentum conuerti in veram carnem equalem in virtute 
-      re<lb ed="#V" n="15" break="no"/>lique carni ipsius nutrimenti.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e381">
-      ¶ Sed contra hanc opinio 
-      <lb ed="#V" n="16"/>nem arguitur quod si esset vera hac opinio posset tota prima 
-      ca<lb ed="#V" n="17" break="no"/>ro defluere: et per successionem alia caro subsistut: et sic 
-      pos<lb ed="#V" n="18" break="no"/>set corpus hominis totaliter fieri aliud in numero per 
-      na<lb ed="#V" n="19" break="no"/>turam quod est inconueniens. Nec effugere possunt per quoddam 
-      <lb ed="#V" n="20"/>exemplum quod adducunt dicentes quod si igni radicato in 
-      mul<lb ed="#V" n="21" break="no"/>titudine lignorum addantur successiue ligna: et per istum 
-      <lb ed="#V" n="22"/>modum continue nutriatur: manet idem ignis in numero: 
-      <lb ed="#V" n="23"/>etiam postquam ligna prima fuerint combusta: quia si 
-      asser<lb ed="#V" n="24" break="no"/>vnus putridus esset in naui: et alius sanus substitueretur: 
-      <lb ed="#V" n="25"/>et sic deinceps: quo vsque omnes primi asseres essent 
-      remo<lb ed="#V" n="26" break="no"/>ti: et alii noui substituti: non remaneret eadem nauis in 
-      nu<lb ed="#V" n="27" break="no"/>mero quantuncumque prime naui assimilaretur in forma.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e410">
-      ¶ Potest 
-      <lb ed="#V" n="28"/>etiam dici quod ratio adducta pro hac opinione non cogit: 
-      <lb ed="#V" n="29"/>quia cum maior sit nature sollicitudo circa conseruationem 
-      <lb ed="#V" n="30"/>speciei humane quam alicuius indiuidui signati: et nutritiua 
-      <lb ed="#V" n="31"/>ordinata sit ad conseruationem indiuidui: et generatiua ad 
-      <lb ed="#V" n="32"/>conseruationem speciei. Uidetur quod ab institutore nature: 
-      <lb ed="#V" n="33"/>fortior sit instituta generatiua quam nutritiua: et quod adhuc etiam 
-      <lb ed="#V" n="34"/>sit fortior: et ideo non est mirum si semen potest conuerte 
-      <lb ed="#V" n="35"/>re in carnem fortiorem quam sit caro in quam conuertitur 
-      ali<lb ed="#V" n="36" break="no"/>mentum per nutritiuam.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e433">
-      ¶ Preterea virtus 
-      generati<lb ed="#V" n="37" break="no"/>ua operatur de materia disposita per nutritiuam: quia 
-      nu<lb ed="#V" n="38" break="no"/>tritiua partem de alimento conuertit ad sustentationem 
-      <lb ed="#V" n="39"/>indiuidui: et aliam partem que ad hoc superfluit reponit: 
-      <lb ed="#V" n="40"/>et disponit ad conseruationem speciei: et ideo non est mirum 
-      si<lb ed="#V" n="41" break="no"/>generatiua conuertit semen in carnem virtuosiorem qua 
-      <lb ed="#V" n="42"/>ipsa nutritiua alimentum in quod operatur absque dispositione 
-      <lb ed="#V" n="43"/>precedente in nutriente per aliquam aliam virtutem anime. 
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e451">
-                  <lb ed="#V" n="44"/>¶ Uidetur ergo mihi dicendum ad quaestionem: quod sicut dicit 
-      <lb ed="#V" n="45"/>philosophus. 2. metaphy. vnumquodque sicut se habet: vt sit: ita et ad 
-      <lb ed="#V" n="46"/>veritatem: idem est ergo essentia rei. Et veritas eius nisi 
-      <lb ed="#V" n="47"/>quod ipsa essentia dicitur absolute. Ueritas autem essentie 
-      im<lb ed="#V" n="48" break="no"/>portat vltra essentiam conformitatem ad suum exemplar quod 
-      <lb ed="#V" n="49"/>habet in diuina mente. Unde dicit Anselmus in libro de 
-      veri<lb ed="#V" n="50" break="no"/>tate ca. 7. quod necessitas est in omnium que sunt essentia: 
-      <lb ed="#V" n="51"/>quod hoc sunt quod in summa veritate sunt. Quod ergo est de 
-      veri<lb ed="#V" n="52" break="no"/>tate humane nature tanquam aliquid absolutum est de eius 
-      <lb ed="#V" n="53"/>essentia et econuerso. Certum est autem alimentum non posse 
-      con<lb ed="#V" n="54" break="no"/>uerti in essentiam nature humane ratione sue forme 
-      com<lb ed="#V" n="55" break="no"/>pletiue que est anima intellectiua. Si ergo conuertatur in 
-      <lb ed="#V" n="56"/>essentiam nature humane: oportet quod conuertatur in 
-      car<lb ed="#V" n="57" break="no"/>nem que est de essentia humane nature: sub carne 
-      compre<lb ed="#V" n="58" break="no"/>hendendo ossa et alias corporis partes. Caro autem huius 
-      <lb ed="#V" n="59"/>indiuidui signati dupliciter potest intelligi esse: de essentia 
-      na<lb ed="#V" n="60" break="no"/>ture humane significate in isto indiuiduo. Uno modo 
-      tan<lb ed="#V" n="61" break="no"/>quam necessaria ad repositionem illius indiuidui in 
-      specie<lb ed="#V" n="62" break="no"/>nature humane. Alio modo tanquam necessaria ad 
-      conserua<lb ed="#V" n="63" break="no"/>tionem ipsius indiuidui vsque ad periodum debitam et ad 
-      <lb ed="#V" n="64"/>perfectam quantitatem ipsius. Primo modo nulla caro 
-      in<lb ed="#V" n="65" break="no"/>isto indiuiduo est de essentia sue nature humane: nisi illa 
-      <lb ed="#V" n="66"/>que formata est ex semine a parentibus ministrato. 
-      Secun<lb ed="#V" n="67" break="no"/>do modo caro in quam conuertitur nutrimentum in isto 
-      in<lb ed="#V" n="68" break="no"/>diuiduo est de essentia nature humane ipsius: a comple¬ 
-      <!--00263.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>tiua enim forma nature humane perficitur et animatur: et prout 
-      <lb ed="#V" n="70"/>possibile est nature humane vnum constituit cum 
-      carne<lb ed="#V" n="71" break="no"/>alia.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e519">
-      ¶ Sciendum tamen quod prima caro virtuosior est: 
-      si<lb ed="#V" n="72" break="no"/>cut due rationes ostendunt facte contra opinionem que 
-      re<lb ed="#V" n="73" break="no"/>citata fuit immediate ante istam. Quihus posset addi tertia: 
-      <lb ed="#V" n="74"/>quia forma completiua nature humane: et istam carnem 
-      <lb ed="#V" n="75"/>secundam non respicit: nisi propter aliam et per aliam. Ex 
-      qui<lb ed="#V" n="76" break="no"/>bus sequitur quod prima caro minus est fluens quam secunda: et quod 
-      <lb ed="#V" n="77"/>prima radicalis dicitur non secunda: et quod illud quod 
-      deper<lb ed="#V" n="78" break="no"/>ditur de ea per nuirimentum restaurari non potest
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e537">
-      ¶ 
-      Qui<lb ed="#V" n="79" break="no"/>bus dictis concordare videntur periti medici dicentes: in 
-      <lb ed="#V" n="80"/>homine esse humidum radicale et nutrimentale: et 
-      radi<lb ed="#V" n="81" break="no"/>cale restaurari non posse. Sicut enim in homine illud 
-      du<lb ed="#V" n="82" break="no"/>plex humidum ponitur: sic in eo poni potest caro 
-      radica<lb ed="#V" n="83" break="no"/>lis et nutrimentalis.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e550">
-      ¶ Dico ego quod alimentum conuertitur 
-      <lb ed="#V" n="84"/>in essentiam istius corporis humani: non quia conuertatur 
-      <lb ed="#V" n="85"/>in carnem primo modo dictam: sed secundo. 
-      <!--TODO: Add a paragraph here-->
-      <lb ed="#V" n="86"/>Duo prima argumenta ad partem istam 
-      proce<lb ed="#V" n="87" break="no"/>dunt de carne secundo modo dicta. 
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e561">
-                  <lb ed="#V" n="88"/>¶ Ad tertium dicendum: quod non est simile de generatione 
-      <lb ed="#V" n="89"/>ignis ex aere et conuersione nutrimenti in carnem: sed 
-      ali<lb ed="#V" n="90" break="no"/>qualiter est simile quamuis a remotis de illa generatione et 
-      <lb ed="#V" n="91"/>de transmutatione seminis in carnem per generatiuam. 
-      <lb ed="#V" n="92"/>Et ego bene concedo quod per ipsam potest semen 
-      conuer<lb ed="#V" n="93" break="no"/>ti in carnem: ita virtuosam et veram: sicut est caro ipsius 
-      ge<lb ed="#V" n="94" break="no"/>nerantis.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e580">
-      ¶ Ad quartum dicendum: quod caro potest 
-      conuer<lb ed="#V" n="95" break="no"/>tere nutrimentum in carnem similem sibi prout possibi 
-      <lb ed="#V" n="96"/>leest nature: et hoc sufficit ad hoc quod habeat perfectionem 
-      na<lb ed="#V" n="97" break="no"/>turalem que sibi debetur. 
-    </p>
-               <p xml:id="kzz7yh-f88687-d1e589">
-                  <lb ed="#V" n="98"/>Ad primum argumentum contra partem istam 
-      <lb ed="#V" n="99"/>dicendum: quod illud verbum 
-      salua<lb ed="#V" n="100" break="no"/>toris intelligitur de superfluitatibus immundis ipsius 
-      ci<lb ed="#V" n="101" break="no"/>bi non conuenientibus corpori: vnde glosa super illud et 
-      <lb ed="#V" n="102"/>in secessum emittitur: dicit post digestiones. Uel forte 
-      sal<lb ed="#V" n="103" break="no"/>uator: per hoc notare voluit: carnem in quam conuertitur 
-      nu<lb ed="#V" n="104" break="no"/>trimentum esse carnem fluentem respectu alterius 
-      car<lb ed="#V" n="105" break="no"/>nis: et eam per fluxum in secessum emitti.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e609">
-      ¶ Ad secundum 
-      <lb ed="#V" n="106"/>dicendum: quod de distinctione carnis in carnem secundum materiam: et 
-      <lb ed="#V" n="107"/>secundum speciem quatuor sunt opiniones.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e616">
-      ¶ Una est quod caro 
-      <lb ed="#V" n="108"/>secundum speciem est tantum illa que est a parentibus tracta per opus 
-      <lb ed="#V" n="109"/>generatiue: eo quod in illa fundatur species: et caro in 
-      quam<lb ed="#V" n="110" break="no"/>conuertitur nutrimentum est caro non secundum speciem: sed 
-      <lb ed="#V" n="111"/>secundum materiam: quia aduenit post repositionem hominis 
-      <lb ed="#V" n="112"/>in specie. Unde cum Aristoteles dicit quod vnaqueque talium 
-      <lb ed="#V" n="113"/>partium est duplex quemadimodum et aliorum in materia 
-      spe<lb ed="#V" n="114" break="no"/>ciem habentium: dicunt sic exponendum: aliorum scilicet 
-      nutri<lb ed="#V" n="115" break="no"/>bilium: vt sunt plante in materia speciem habentium id est que 
-      <lb ed="#V" n="116"/>distinguuntur in partem secundum materiam et formam: sicut de 
-      <lb ed="#V" n="117"/>carne et osse dictum est. Sed quamuis secundum aliquem 
-      respe<lb ed="#V" n="118" break="no"/>ctum predicta distinctio sit rationabilis: non tamen illo modo 
-      <lb ed="#V" n="119"/>loquitur philosophus de carne secundum materiam et secundum speciem: vnde 
-      predi<lb ed="#V" n="120" break="no"/>cta expositio sue littere extorta est violenter.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e647">
-      ¶ Alia 
-      opi<lb ed="#V" n="121" break="no"/>nio est quod caro secundum speciem dicitur illa que per se potest in 
-      <lb ed="#V" n="122"/>opus carnis: et illa secundum materiam que per se non potest in opus 
-      <lb ed="#V" n="123"/>carnis. Et dicunt aliqui quod talis est caro in quam 
-      conuer<lb ed="#V" n="124" break="no"/>titur nutrimentum: quia per se non posset in opus carnis: 
-      <lb ed="#V" n="125"/>sed coniuncta cum carue a parentibus tracta: sed illa 
-      pos<lb ed="#V" n="126" break="no"/>set sine ista. Uidetur tamen magis esse intentio philosophi: quod etiam 
-      <lb ed="#V" n="127"/>in carne tracta a parentibus sit caro secundum materiam et secundum 
-      <lb ed="#V" n="128"/>speciem.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e667">
-      ¶ Unde tertia opinio est quod caro secundum materiam 
-      <lb ed="#V" n="129"/>est ita modica portio carnis: quod per se non posset in opus 
-      <lb ed="#V" n="130"/>carnis. Et caro secundum speciem est ita magna carnis portio: quod 
-      <lb ed="#V" n="131"/>per se posset in opus carnis: et cuilibet parti tali dicit 
-      ad<lb ed="#V" n="132" break="no"/>uenire aliquid de nutrimento: et ideo quamlibet talem 
-      par<lb ed="#V" n="133" break="no"/>tem dicit augeri.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e681">
-      ¶ Quarta opinio est quod carnem secundum 
-      spe<lb ed="#V" n="134" break="no"/>ciem vocat formam carnis: et carnem secundum materiam ipsius 
-      <lb ed="#V" n="135"/>carnis materiam: et materiam dicit fluere et formam manere: 
-      <lb ed="#V" n="136"/>quia cum tantum sit de materia sub vna parte forme quod inde¬ 
-      <!--00264.xml-->
-      <pb ed="#V" n="125-v"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>possint fieri plures partes fluente vna parte potest 
-      salua<lb ed="#V" n="2" break="no"/>ri forma in alia parte quousque alia pars materie per 
-      nutri<lb ed="#V" n="3" break="no"/>mentum substituatur loco illius partis materie que 
-      deflu<lb ed="#V" n="4" break="no"/>xit.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e705">
-      ¶ Quinta etiam fuit opinio: quod sicut homo secundum 
-      spe<lb ed="#V" n="5" break="no"/>ciem dicitur homo non signatus: sed homo in communi: et 
-      homo<lb ed="#V" n="6" break="no"/>secundum materiam dici potest quodlibet hominis indiuiduum: et 
-      spe<lb ed="#V" n="7" break="no"/>cies manet: et indiuidua fluunt: sic dicunt quod philosophus vocauit 
-      <lb ed="#V" n="8"/>carnem in communi: carnem secundum speciem: et quancumque 
-      parten<lb ed="#V" n="9" break="no"/>carnis signatam carnem secundum materiam: et quecumque pars signata fluit: 
-      <lb ed="#V" n="10"/>et ideo dicitur quod caro secundum materiam est fluens. Et secundum hanc 
-      opi<lb ed="#V" n="11" break="no"/>nionem: caro secundum speciem dicit compositum ex forma carnis 
-      <lb ed="#V" n="12"/>et materia in communi: et caro secundum materiam compositum exra 
-      for<lb ed="#V" n="13" break="no"/>ma carnis et materia signata.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e727">
-      ¶ His ergo opinionibus visis: 
-      <lb ed="#V" n="14"/>que magis recitate sunt propter philosophi expositionem: quam propter 
-      ar<lb ed="#V" n="15" break="no"/>gumenti solutionem: dico quod non sola caro secundum speciem est de 
-      <lb ed="#V" n="16"/>veritate humane nature istius indiuidui: vt argumentum 
-      <lb ed="#V" n="17"/>supponebat: sed etiam caro secundum materiam: accipiendo 
-      verita<lb ed="#V" n="18" break="no"/>tem humane nature modo secundo exposito in corpore 
-      <lb ed="#V" n="19"/>questionis.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e743">
-      ¶ Ad tertium dicendum secundum aliquos quod in 
-      nu<lb ed="#V" n="20" break="no"/>trimento sit resolutio vsque ad essentiam materie prime: et 
-      <lb ed="#V" n="21"/>illa materia sit sub forma carnis preexistente: et informatur 
-      <lb ed="#V" n="22"/>ab ea: et quia ipsa materia sic per se considerata non est 
-      cor<lb ed="#V" n="23" break="no"/>pus et plures partes materie simul efle possunt: ideo dicunt 
-      <lb ed="#V" n="24"/>quod illud quod ministratur de alimento: recipitur in pleno: nec 
-      <lb ed="#V" n="25"/>propter hoc duo corpora simul sunt.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e759">
-      ¶ Alii dicunt quod ipsa 
-      hu<lb ed="#V" n="26" break="no"/>miditas nutrimentalis recipitur in poris existentibus in 
-      men<lb ed="#V" n="27" break="no"/>bris non vacuis: sed plenis humiditate subtili: que 
-      adue<lb ed="#V" n="28" break="no"/>niente ista secunda humiditate inspissatur: et sic minorem 
-      <lb ed="#V" n="29"/>locum occupat. Et hoc secunda in illa parte pori succedit: 
-      <lb ed="#V" n="30"/>nec propter hoc dici potest quod in tota carne non sint: nisi pori: 
-      <lb ed="#V" n="31"/>quia inter porum et alium porum propinquissimum sibi: semper 
-      <lb ed="#V" n="32"/>est aliquid de carne: sine poro: vnde cum dicitur. id est de 
-      genera<lb ed="#V" n="33" break="no"/>tione quod quelibet pars aucti est aucta intelligendum est in 
-      <lb ed="#V" n="34"/>forma totius: vel secundum quodcumque signum sensatum: vt etiam 
-      <lb ed="#V" n="35"/>videtur sentire philosophus. Et ideo dicunt aliqui quod quodlibet signum 
-      <lb ed="#V" n="36"/>sensatum carnis vocat carnem secundum speciem quom quamlibet 
-      <lb ed="#V" n="37"/>partem carnis secundum speciem dicat augeri.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e788">
-      ¶ Ad quartum 
-      di<lb ed="#V" n="38" break="no"/>cendum: quod secundum opinionem dicentium quod materia nutrimenti 
-      <lb ed="#V" n="39"/>expoliatur omni forma: et sit sub forma nutriti praeexistente: 
-      <lb ed="#V" n="40"/>absque hoc quod aliqua forma educatur de potentia materie 
-      alimen<lb ed="#V" n="41" break="no"/>ti facile est videre differentiam inter nutritionem et 
-      gene<lb ed="#V" n="42" break="no"/>rationem. Si autem ponatur aliqua forma educi de 
-      ma<lb ed="#V" n="43" break="no"/>teria nutrimenti conueniens ipsi nutrito: adhuc proprie 
-      ge<lb ed="#V" n="44" break="no"/>neratio dici non potest: quia non fit illa eductio: nisi post sut 
-      <lb ed="#V" n="45"/>vnionem cum nutrito. Et ponunt aliqui exemplum de 
-      <lb ed="#V" n="46"/>nutritione ignis: si enim materia qua nutriri debet 
-      incen<lb ed="#V" n="47" break="no"/>datur per se et postea alii materie substitueretur: esset 
-      no<lb ed="#V" n="48" break="no"/>ui ignis generatio: si autem ponatur cum aliis lignis 
-      inflan<lb ed="#V" n="49" break="no"/>matis: dicitur ignis nutriri et non nouus ignis. Sed hoc 
-      so<lb ed="#V" n="50" break="no"/>lutio falsum includit: et non est enim euasio: quia siue lignum 
-      <lb ed="#V" n="51"/>quod additur igni: prius accendatur per se: siue in 
-      coniunctio<lb ed="#V" n="52" break="no"/>ne cum aliis: semper est generatio alicuius partis flamme: 
-      <lb ed="#V" n="53"/>quia eadem flamma in numero existens in vno ligno: vel 
-      <lb ed="#V" n="54"/>aliqua pars eius non sit in alio ligno: si ergo illud lignum 
-      <lb ed="#V" n="55"/>appositum inflammatur: oportet quod aliqua noua flamma 
-      genere<lb ed="#V" n="56" break="no"/>tur.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e833">
-      ¶ Dico ergo quod postquam humiditas nutrimentalis in 
-      <lb ed="#V" n="57"/>bibita est in poris membrorum: sicut non est inconueniens quod 
-      <lb ed="#V" n="58"/>ibi corrumpatur aliqua forma: ita non est inconueniens quod de 
-      <lb ed="#V" n="59"/>materia eius educatur aliqua forma carnis incompleta: et sic 
-      <lb ed="#V" n="60"/>fiat sub forma carnis completa praeexistente: talis enim 
-      ge<lb ed="#V" n="61" break="no"/>neratio non est a potentia generatiua: prout distincta est 
-      con<lb ed="#V" n="62" break="no"/>tra nutritiuam.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e849">
-      ¶ Ad quintum dicendum: quod argumentum 
-      <lb ed="#V" n="63"/>bene procederet: si alimentum conuerteretur in veram 
-      car<lb ed="#V" n="64" break="no"/>nem humanam primo modo dictam: hoc est in carnem equa 
-      <lb ed="#V" n="65"/>lem in virtute carni formate ex semine a parentibus 
-      mi<lb ed="#V" n="66" break="no"/>nistrato. Sed non est ita: vt in corpore quaestionis visum est. 
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e860">
-                  <lb ed="#V" n="67"/>¶ Ad sextum dicendum: quod si poneremus quod caro in 
-      quam<lb ed="#V" n="68" break="no"/>eonuertitur nutrimentum esset equalis in virtute alii car¬ 
-      <!--00264.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>ni post conuersionem factam: adhuc non posset 
-      concludi<lb ed="#V" n="70" break="no"/>quod homo esset incorruptibilis naturaliter. Quia cum omne 
-      <lb ed="#V" n="71"/>agens physicum in agendo patiatur secundum philosophum 3. physicorum 
-      <lb ed="#V" n="72"/>caro tracta a parentibus per conuersionem alimenti in 
-      <lb ed="#V" n="73"/>carnem patitur ex consequenti debilitatur plus et plus: ita 
-      <lb ed="#V" n="74"/>tandem quod ad vltimum deficit virtus in ea. Sed si pone 
-      <lb ed="#V" n="75"/>remus quod caro in quam conuertitur nutrimentum esset 
-      equa<lb ed="#V" n="76" break="no"/>lis in virtute carni tracte a parentibus: antequam sit aliquid 
-      <lb ed="#V" n="77"/>passa et in aliquo debilitata ad hoc sequeretur hominem esse 
-      na<lb ed="#V" n="78" break="no"/>turaliter immortalem per ministrationem alimenti.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e893">
-      ¶ 
-      Pre<lb ed="#V" n="79" break="no"/>terea sicut visum est in corpore quaestionis: alimentum non dicitur 
-      con<lb ed="#V" n="80" break="no"/>uerti in veritatem humane nature: quia conuertatur in 
-      car<lb ed="#V" n="81" break="no"/>nem equalbilem in virtute carni tracte a parentibus: etiam 
-      <lb ed="#V" n="82"/>postquam passa est ab alimento quod per ipsam in carnem 
-      con<lb ed="#V" n="83" break="no"/>uertitur. Sed dicitur conuerti in veritatem humane 
-      natu<lb ed="#V" n="84" break="no"/>re secundum modum quendam alium expositum in corpore quaestionis. 
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e909">
-                  <lb ed="#V" n="85"/>¶ Ad septimum dicendum: quod nutrimentum secundum sententiam phlosophi. 2. 
-      <lb ed="#V" n="86"/>de anima: potest considerari ante suam decoctionem: et post 
-      <lb ed="#V" n="87"/>suam decoctionem completam. Primo modo est 
-      dissimi<lb ed="#V" n="88" break="no"/>le. Secundo modo sit simile: vnde dico quod natura carnis 
-      pati<lb ed="#V" n="89" break="no"/>tur a nutrimento primo modo dicto non secundo. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f88687-Dd1e924">
-               <head xml:id="kzz7yh-f88687-Hd1e926">Quaestio 2</head>
-               <head xml:id="kzz7yh-f88687-Hd1e940" type="question-title">Utrum generatio fiat de superfluo alimenti sive de substantia generatis</head>
-               <p xml:id="kzz7yh-f88687-d1e928">
-                  <lb ed="#V" n="90"/>¶ Questio. II. 
-      <lb ed="#V" n="91"/>SEcundo queritur vtrum 
-      ge<lb ed="#V" n="92" break="no"/>neratio 
-      fi<lb ed="#V" n="93" break="no"/>at de superfluo alimenti: siue de substantia 
-      gene<lb ed="#V" n="94" break="no"/>rantis: et ostendo quod de substantia generantis tantum: 
-      <lb ed="#V" n="95"/>quia secundum <ref xml:id="kzz7yh-f88687-Rd1e958">Dam. lib. I. ca. 8. Generatio</ref> est ex substantia 
-      ge<lb ed="#V" n="96" break="no"/>nerantis produci quod generatur secundum substantiam.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e946">
-      ¶ Item secundum 
-      <lb ed="#V" n="97"/>Aug. 10. super genesem inter principium et finem: quasi eque 
-      <lb ed="#V" n="98"/>distanter: leui et christus secundum carnem fuerunt in lumbis abra 
-      <lb ed="#V" n="99"/>he: sed leui secundum concupiscentiam carnalem: Christus autem 
-      <lb ed="#V" n="100"/>secundum subslantiam corporalem. Hoc autem verum non esset: nisi 
-      <lb ed="#V" n="101"/>de substantia parentum esset generatio filiorum.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e959">
-      ¶ Item 
-      <lb ed="#V" n="102"/>statim cum adam fuit plasmatus antequam comedisset 
-      po<lb ed="#V" n="103" break="no"/>tuisset transfundere semen ad generandum: quia fuit factus 
-      <lb ed="#V" n="104"/>perfectus. Et sicut dicit philosophus. 4. meta. tunc vnumquodque 
-      perfe<lb ed="#V" n="105" break="no"/>ctum est: cum potest perficere tale alterum: quale ipsum 
-      <lb ed="#V" n="106"/>est. Sed si generatio esset de superfluo alimenti: et non 
-      de<lb ed="#V" n="107" break="no"/>substantia generantis adam ante comestionem semen trant 
-      <lb ed="#V" n="108"/>fundere non potuisset.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e977">
-      ¶ Item cum superfluum 
-      alimen<lb ed="#V" n="109" break="no"/>ti aliquando sit generatum ex carnibus porcinis: vel 
-      bo<lb ed="#V" n="110" break="no"/>uinis si fieret generatio de illo superfluo: et non de 
-      substan<lb ed="#V" n="111" break="no"/>tia generantis: magis attineret filius illi porco: vel boui 
-      <lb ed="#V" n="112"/>quam patri suo: quod falsum est.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e989">
-      ¶ Item ex parentibus 
-      lepro<lb ed="#V" n="113" break="no"/>sis generantur filii leprosi: quod non videretur necessarium: sed 
-      <lb ed="#V" n="114"/>filii non generarentur de substantia parentum suorum.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e996">
-      ¶ Item 
-      <lb ed="#V" n="115"/>ex emissione superflui non debilitatur natura: sed per 
-      emis<lb ed="#V" n="116" break="no"/>sionem multi seminis natura debilitatur: ergo semen non 
-      <lb ed="#V" n="117"/>est de superfluo alimenti: videtur ergo quod de substantia 
-      ge<lb ed="#V" n="118" break="no"/>nerantis.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1007">
-      ¶ Item filii magis assimilantur parentibus quam 
-      <lb ed="#V" n="119"/>extraneis. Sed si non generarentur de substantia 
-      paren<lb ed="#V" n="120" break="no"/>tum suorum non videretur ratio: quare magis assimilarentur 
-      <lb ed="#V" n="121"/>parentibus quam aliis: ergo generantur filii aut tantum ex 
-      substan<lb ed="#V" n="122" break="no"/>tia parentum: aut saltem ex substantia parentum mixta 
-      <lb ed="#V" n="123"/>cum superfluitate alimenti. 
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1020">
-                  <lb ed="#V" n="124"/>Contra <ref xml:id="kzz7yh-f88687-Rd1e1041">philosophus. 15 de animalibus</ref> dicit: quod semen est 
-      su<lb ed="#V" n="125" break="no"/>perfluitas vltimi cibi.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1027">
-      ¶ Item per 
-      resolu<lb ed="#V" n="126" break="no"/>tionem alicuius quod est de substantia corporis grauatur 
-      na<lb ed="#V" n="127" break="no"/>tura: sed per remissionem seminis non semper grauatur 
-      na<lb ed="#V" n="128" break="no"/>tura: immo aliquando iuuatur: ergo semen non sit de 
-      ali<lb ed="#V" n="129" break="no"/>quo quod resoluatur ex substantia generantis.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1038">
-      ¶ Item semen
-      <lb ed="#V" n="130"/>habet situm determinatum in corpore: scilicet in vasis 
-      se<lb ed="#V" n="131" break="no"/>minariis. Sed ea qui resoluuntur a copore non habent situm 
-      deter<lb ed="#V" n="132" break="no"/>minatum in corpore. Sicut patet in sudore: et similibus: ergo 
-      vide<lb ed="#V" n="133" break="no"/>tur quod in semine de quo sit prolis generatio: nihil est resolutum 
-      <lb ed="#V" n="134"/>a corpore: conde ante actum fuisset de substantia generantis. 
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1052">
-                  <lb ed="#V" n="135"/>Ad istam questionem dicunt quidam: quod semen 
-      de<lb ed="#V" n="136" break="no"/>quo generatur filius: non tantum est de substantia 
-      <!--00265.xml-->
-      <pb ed="#V" n="126-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>proximorum parentum: sed etiam primorum: quia primi 
-      pa<lb ed="#V" n="2" break="no"/>rentes deciderunt aliquam portionem sue substantie: que per 
-      <lb ed="#V" n="3"/>sui multiplicationem sine alicuius alterius conuersione in 
-      <lb ed="#V" n="4"/>ipsam facta est sufficiens proli sue: et proles a primis 
-      paren<lb ed="#V" n="5" break="no"/>tibus immediate genita simili modo genuit prolem suam: et sic 
-      <lb ed="#V" n="6"/>deinceps.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1078">
-      ¶ Sed hec opinio non est rationabilis: includit enim 
-      <lb ed="#V" n="7"/>generationem corporum humanorum non esse naturalem: talis 
-      <lb ed="#V" n="8"/>enim multiplicatio soli deo possibilis est. Sicut in quaestione 
-      <lb ed="#V" n="9"/>precedenti ostensum est. Et si homo profundius 
-      conside<lb ed="#V" n="10" break="no"/>ret videre potest quod talis opinio includit aliquam substantiam 
-      <lb ed="#V" n="11"/>per naturam fieri non de aliquo.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1091">
-      ¶ Alii dicunt quod 
-      semen<lb ed="#V" n="12" break="no"/>et si non sit de substantia remotorum parentum: tamen est 
-      <lb ed="#V" n="13"/>de substantia proximorum tantum.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1098">
-      ¶ Sed contra Aug. de vera 
-      <lb ed="#V" n="14"/>religi. longe vltra medium libri dicit quod alimenta 
-      corpo<lb ed="#V" n="15" break="no"/>ri non apta per congruos meatus eiiciuntur: quorum aliud 
-      <lb ed="#V" n="16"/>feculentissimum redditur terre ad alias formas assumendas: 
-      <lb ed="#V" n="17"/>aliud per totum corpus exhalat: aliud totius animalis 
-      la<lb ed="#V" n="18" break="no"/>tentes numeros accipit: et inchoatur in prolem.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1111">
-      ¶ Alii 
-      <lb ed="#V" n="19"/>dicunt quod semen constituitur ex aliquo resoluto de substantia 
-      <lb ed="#V" n="20"/>generantis: et ex superfluitate cibi tertia digestionem 
-      dige<lb ed="#V" n="21" break="no"/>sti: simul commixtis. Non enim videtur eis rationabile quod 
-      semen<lb ed="#V" n="22" break="no"/>tantum sit constitutum ex superfluo tertie digestionis propter 
-      ratio<lb ed="#V" n="23" break="no"/>nes adductas in opponendo contra hanc parte.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1124">
-      ¶ Ego 
-      <lb ed="#V" n="24"/>autem sine preiudicio dico quod semen constituitur de superfluo 
-      ali<lb ed="#V" n="25" break="no"/>menti: et quod nihil est ibi quod ante fuerit de substantia 
-      paren<lb ed="#V" n="26" break="no"/>tum in actu.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1134">
-      ¶ Ad cuius intelligentiam sciendum quod cibus 
-      <lb ed="#V" n="27"/>digeritur in stomacho digestione prima: si non 
-      computel<lb ed="#V" n="28" break="no"/>illa que est in ore: in epate digestione secunda: et ibi 
-      generan<lb ed="#V" n="29" break="no"/>tur humores: deinde humores deriuantur per membra: et 
-      <lb ed="#V" n="30"/>ibi digeritur cibus tertia digestione: et per nutritiuam 
-      con<lb ed="#V" n="31" break="no"/>uertitur pars in substantiam corporis ad conseruationem 
-      in<lb ed="#V" n="32" break="no"/>diuidui: et alia reponitur ad conseruationem speciei: et sic ptet 
-      <lb ed="#V" n="33"/>quod nutritiua praeparat et disponit materiam generatiue. Est 
-      <lb ed="#V" n="34"/>ergo semen de superfluo tertie digestionis: superfluum 
-      di<lb ed="#V" n="35" break="no"/>co indiuiduo: quia necessarium est speciei conseruande per 
-      <lb ed="#V" n="36"/>naturam
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1158">
-      ¶ Hec autem opinio confirmari potest per 
-      auctori<lb ed="#V" n="37" break="no"/>tatem: et per rationem: et per signa.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1163">
-      ¶ Dicit enim philosophus. 15 de 
-      <lb ed="#V" n="38"/>animalibus: quod sperma non est nisi superfluitas cibi 
-      vlti<lb ed="#V" n="39" break="no"/>mi: et parum post sperma est superfluum vltimi cibi 
-      sangui<lb ed="#V" n="40" break="no"/>nei qui spargitur per membra.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1172">
-      ¶ Item Auic. 15 de anima 
-      <lb ed="#V" n="41"/>libus cap. vlti. dicit sic quod est res certa: quia sperma est 
-      super<lb ed="#V" n="42" break="no"/>fluitas vltime digestionis: et est superfluitas bene digesta: et est 
-      <lb ed="#V" n="43"/>posita in creatura propter iuuamentum: et albescit propter 
-      for<lb ed="#V" n="44" break="no"/>titudinem digestionis: et quando sit cum nimio 
-      conamine<lb ed="#V" n="45" break="no"/>exibit sanguinolentum: et ita sanguis menstruus est super 
-      <lb ed="#V" n="46"/>fluitas vltime digestionis: sed non peruenit vsque ad digestio 
-      <lb ed="#V" n="47"/>nem spermatis.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1190">
-      ¶ Secundo confirmo opinionem per 
-      ratio<lb ed="#V" n="48" break="no"/>nem. Si enim aliquid resoluitur de substantia parentum in 
-      <lb ed="#V" n="49"/>actu de quo fiat semen per se: vel per sui commixtionem cum 
-      <lb ed="#V" n="50"/>superfluo alimenti: aut retinet naturam eius a quo 
-      resol<lb ed="#V" n="51" break="no"/>uitur: et de cuius substantia fuit in actu: aut non: si non: tunc 
-      <lb ed="#V" n="52"/>resoluitur ab eo per viam corruptionis: per quam recedit 
-      <lb ed="#V" n="53"/>a natura generantis: et sic non remanet virtus in eo ad trans 
-      <lb ed="#V" n="54"/>mutandum materiam ad formam similem generanti.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1208">
-      ¶ 
-      Pre<lb ed="#V" n="55" break="no"/>terea iam natura superflue tramsmutasset illam humiditatem 
-      ter<lb ed="#V" n="56" break="no"/>tie digestionis ex qua generanda erat proles: quia secundum 
-      opinio<lb ed="#V" n="57" break="no"/>nem que ponit semen fieri per dissolutionem alicuius a 
-      cor<lb ed="#V" n="58" break="no"/>pore oporteret reduci illam portionem ad statum illum 
-      in<lb ed="#V" n="59" break="no"/>quo erat post vltimam digestionem ante quam in substanm: iam 
-      cor<lb ed="#V" n="60" break="no"/>poris esset conuersa.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1225">
-      ¶ Si autem in actu retinet naturam eius 
-      <lb ed="#V" n="61"/>a quo resoluitur: aut resolutum est ab aliqua parte 
-      corpo<lb ed="#V" n="62" break="no"/>ris determinata tantum: autem ab omnibus partibus. Si primo modo 
-      <lb ed="#V" n="63"/>non esset in eo virtus mouendi materiam ad materiam 
-      par<lb ed="#V" n="64" break="no"/>tium aliarum. Si secundo modo illud resolutum esset quoddam 
-      <lb ed="#V" n="65"/>paruum animal in actu: quia actualiter haberet materiam et 
-      for<lb ed="#V" n="66" break="no"/>mam similem animali a quo resolutum est: et virtutes omnium 
-      par<lb ed="#V" n="67" break="no"/>tium corporis in actu: quod falsum est. Nihilergo 
-      dissol<lb ed="#V" n="68" break="no"/>uitur ad hoc vt fiat semen: vel pars seminis quod prius 
-      <!--00265.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>esset de substantia parentum in actu: restat ergo quod sit de 
-      <lb ed="#V" n="70"/>superfluo vltime digestionis tantum.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1254">
-      ¶ Cui concordat philosophus. 15 
-      <lb ed="#V" n="71"/>de animalibus dicens: quod sperma est superfluum et non est 
-      <lb ed="#V" n="72"/>secundum viam dissolutionis: vt in eodem libro dicit postea: quod 
-      <lb ed="#V" n="73"/>sermo singentium quod sperma est dissolutum est falsus. 
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1263">
-                  <lb ed="#V" n="74"/>¶ Tertio confirmo opinionem per signa: vnum est: quia 
-      mul<lb ed="#V" n="75" break="no"/>ta et superflua comestio augmentat materiam spermatis 
-      <lb ed="#V" n="76"/>et excitat generatiuam
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1272">
-      ¶ Aliud est: quia ceteris paribus 
-      mi<lb ed="#V" n="77" break="no"/>nuitur sperma in illis qui fortem habent tertiam digestionem 
-      <lb ed="#V" n="78"/>et multo indigent cibo. Unde Auic. 15 de animalibus ca. penul. 
-      <lb ed="#V" n="79"/>dicit quod non inuenitur sperma in pueris: quoniam sua digestio 
-      ter<lb ed="#V" n="80" break="no"/>tia est fortis: et sua necessitas ad cibum est multa: et tunc non 
-      <lb ed="#V" n="81"/>erit in eis superfluitas supple seminalis.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1285">
-      ¶ Aliud est: quia 
-      <lb ed="#V" n="82"/>sicut dicit philosophus. 15 de animalibus: homines multe carnis et multe 
-      <lb ed="#V" n="83"/>pinguedinis non spermatizant nisi modicum: et huius 
-      <lb ed="#V" n="84"/>est ratio: quia parum remanet de superfluitate: quia nutritiua 
-      <lb ed="#V" n="85"/>multum conuertit de illa in substantiam nutriti.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1296">
-      ¶ Ad 
-      <lb ed="#V" n="86"/>hoec etiam possent adduci multa alia signa que aduitandum 
-      <lb ed="#V" n="87"/>prolixitatem dimitto. 
-    </p>
-               <p xml:id="kzz7yh-f88687-d1e1304">
-                  <lb ed="#V" n="88"/>Ad primum in oppositum dicendum: quod pro 
-      tan<lb ed="#V" n="89" break="no"/>to filii dicuntur generari de 
-      substan<lb ed="#V" n="90" break="no"/>tia patris: non quia generentur de eo quod erat de substantia 
-      pa<lb ed="#V" n="91" break="no"/>tris in actu: sed in potentia propinqua: quia illud superfluum 
-      <lb ed="#V" n="92"/>de quo sit semen est in propinquissima dispositione ad hoc vt 
-      <lb ed="#V" n="93"/>conuertatur in corporis substantiam: et deciditur cum 
-      qua<lb ed="#V" n="94" break="no"/>dam virtute ab anima patris diriuata: et pro tanto dicitur 
-      <lb ed="#V" n="95"/>fuisse leui in lumbis abrahe secundum corpulentam substantiam 
-      <lb ed="#V" n="96"/>et rationem seminalem.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1326">
-      ¶ Et sic patet solutio ad secundum. 
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1328">
-                  <lb ed="#V" n="97"/>¶ Ad tertium dicendum quod secundum philosophum id est libo de somno et vigi. 
-      <lb ed="#V" n="98"/>humores sunt corporis nutrimentum: vnde cibus si 
-      nutri<lb ed="#V" n="99" break="no"/>re debeat conuertitur in humores: qui postea deriuantur 
-      <lb ed="#V" n="100"/>ad membra. Cum autem adam fuerit factus perfectus: 
-      fue<lb ed="#V" n="101" break="no"/>runt in eo producti humores qui et possent nutrire 
-      indi<lb ed="#V" n="102" break="no"/>uiduum et de quibus posset remanere aliqua superfluitas 
-      <lb ed="#V" n="103"/>que posset esse generationis principium vsque ad aliquod tempus: 
-      <lb ed="#V" n="104"/>quo secundum dictamen sue rationis comedere debuisset.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1348">
-      ¶ Ad 
-      <lb ed="#V" n="105"/>quartum dicendum: quod quamuis illud superfluum generatum 
-      <lb ed="#V" n="106"/>sit de carnibus porcinis: quia tamen iam in tantum transmuta 
-      <lb ed="#V" n="107"/>tum est: et corpori paterno assimilatum per virtutem 
-      nutri<lb ed="#V" n="108" break="no"/>tiue: ita vt sit in propinquissima dispositione ad hoc vt 
-      conuer<lb ed="#V" n="109" break="no"/>tatur in substantiam corporis: et cum deciditur transmittitur 
-      <lb ed="#V" n="110"/>cum eo virtus ab anima patris deriuata: ideo fetus de 
-      st<lb ed="#V" n="111" break="no"/>lo genitus attinet patri et non porco: quia attinentia non 
-      at<lb ed="#V" n="112" break="no"/>tenditur secundum materiam: sed secundum formam et virtutem ab 
-      ani<lb ed="#V" n="113" break="no"/>ma deriuatam. Si enim attinentia esset secundum materiam: vt 
-      <lb ed="#V" n="114"/>grosso modo loquar: et inter res non viuentes esset 
-      attinem<lb ed="#V" n="115" break="no"/>tia: ignis genitus ex materia aeris maiorem 
-      propinquita<lb ed="#V" n="116" break="no"/>tem haberet ad aerem de cuius materia genitus est quam ad 
-      <lb ed="#V" n="117"/>ignem generantem: quod tamen aperte falsum est.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1379">
-      ¶ Ad 
-      quan<lb ed="#V" n="118" break="no"/>tum dicendum: quod in parentibus leprosis illud superfluum 
-      <lb ed="#V" n="119"/>tertie digestionis propter sui magnam propinquitatem ad hoc 
-      <lb ed="#V" n="120"/>vt conuertatur in substantiam corporis iam infectum est: et 
-      <lb ed="#V" n="121"/>preterea spiritus in quibus est vis informatiua deriuata ab 
-      <lb ed="#V" n="122"/>anima patris infecti sunt: et ipsa vis etiam infecta est: et ideo 
-      <lb ed="#V" n="123"/>transmutat semen ad formam corporis simili infectione 
-      <lb ed="#V" n="124"/>infecti.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1397">
-      ¶ Ad sextum dicendum: quod per emissionem seminis 
-      <lb ed="#V" n="125"/>temperatam natura non debilitatur: sed iuuatur. Sed quia 
-      <lb ed="#V" n="126"/>virtus generatiua imperat nutritiue: cum homo nimis 
-      <lb ed="#V" n="127"/>exit in actum generatiue parum conuertit nutritiua 
-      de<lb ed="#V" n="128" break="no"/>humiditate tertia digestione digesta: et multum reponit 
-      <lb ed="#V" n="129"/>de ea ad opus generatiue: et propter hoc extenuatur 
-      corp<lb ed="#V" n="130" break="no"/>hominum excedentium in coitu: quia non est quo sufficienter 
-      <lb ed="#V" n="131"/>restauretur illud quod in eorum corporibus deperditur. Cui 
-      <lb ed="#V" n="132"/>concordat Auic. 15 de animalibus ca. penul. dicens quod 
-      sper<lb ed="#V" n="133" break="no"/>matis eiectio non inducit infirmitatem: sed etiam iuuat: 
-      <lb ed="#V" n="134"/>nisi fortasse alteretur per viam corruptionis.
-   </p>
-               <p xml:id="kzz7yh-f88687-d1e1422">
-      ¶ Ad 
-      septi<lb ed="#V" n="135" break="no"/>mum dicendum: quod assimilatio generantis ad genitum: non 
-      <lb ed="#V" n="136"/>est propter naturam materie: sed est per virtutem informa¬ 
-      <!--00266.xml-->
-      <pb ed="#V" n="126-v"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>tiuam traductam cum semine: eo quod retinet similitudinem 
-      <lb ed="#V" n="2"/>paterne virtutis a qua deriuatur: et quantum in se est magis 
-      <lb ed="#V" n="3"/>mouet ad assimilationem parentis propinqui. Sed aliquam 
-      <lb ed="#V" n="4"/>do non potest propter indispositionem materie: vel 
-      alicu<lb ed="#V" n="5" break="no"/>ius alterius cause impedientis effectum. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 5</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 5</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="124-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f88687"><!-- l2d30a5 -->
+        <head xml:id="kzz7yh-f88687-Hd1e101">Articulus 5</head>
+        <p xml:id="kzz7yh-f88687-d1e103">
+          <lb ed="#V" n="52"/>COnsequenter queritur de quinto 
+          <lb ed="#V" n="53"/>principali. Et 
+          cir<lb ed="#V" n="54" break="no"/>ca hoc queruntur duo.
+        </p>
+        <p xml:id="kzz7yh-f88687-d1e112">
+          ¶ Primo vtrum aliquid 
+          <lb ed="#V" n="55"/>de alimento transeat in veritatem humane 
+          na<lb ed="#V" n="56" break="no"/>ture ipsius comedentis.
+        </p>
+        <p xml:id="kzz7yh-f88687-d1e119">
+          ¶ Secundo vtrum generatio fiat 
+          <lb ed="#V" n="57"/>de superfluo alimenti autem de substantia gnanntis. 
+        </p>
+        <div xml:id="kzz7yh-f88687-Dd1e124">
+          <head xml:id="kzz7yh-f88687-Hd1e126">Quaestio 1</head>
+          <head xml:id="kzz7yh-f88687-Hd1e130" type="question-title">Utrum aliquid de alimento transeat in veritatem humane nature ipsius comedentis</head>
+          <p xml:id="kzz7yh-f88687-d1e128">
+            Quaestio I. 
+            <lb ed="#V" n="58"/>PRimo ostendo quod nihil de 
+            ali<lb ed="#V" n="59" break="no"/>mento transit 
+            <lb ed="#V" n="60"/>in veritatem humane nature ipsius 
+            comeden<lb ed="#V" n="61" break="no"/>tis. Saluator <ref xml:id="kzz7yh-f88687-Rd1e143">Matth. 15.</ref> Omne quod in os intrat 
+            <lb ed="#V" n="62"/>in ventrem vadit et in secessum emittitur: ergo in 
+            natu<lb ed="#V" n="63" break="no"/>ram comedentis non conuertitur.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e144">
+            ¶ Item philosophus primo 
+            <lb ed="#V" n="64"/>de generatione cap. de augmento distinguens carnem in 
+            <lb ed="#V" n="65"/>carnem secundum materiam et secundum speciem: dicit quod caro secundum 
+            spe<lb ed="#V" n="66" break="no"/>ciem manet: et quod caro que fluit et refluit est caro secundum 
+            ma<lb ed="#V" n="67" break="no"/>teriam. Sed caro generata de nutrimento non est manens 
+            <lb ed="#V" n="68"/>sed fluens: ergo nutrimentum non conuertitur in carnem 
+            <!--00262.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>secundum speciem: que sola videtur esse de veritate humane 
+            na<lb ed="#V" n="70" break="no"/>ture.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e166">
+            ¶ Item si alimentum conuerteretur in veritatem 
+            <lb ed="#V" n="71"/>humane nature oporteret ipsum subintrare interiora 
+            car<lb ed="#V" n="72" break="no"/>nis et ossis quod impossibile videtur: quia non posset dici quod 
+            <lb ed="#V" n="73"/>reciperetur in vacuo: quia non est ponere vacuum nec in 
+            <lb ed="#V" n="74"/>pleno: quia duo corpora simul naturaliter esse non possunt. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e177">
+            <lb ed="#V" n="75"/>¶ Item nutritio non est generatio. Sed si alimentum 
+            con<lb ed="#V" n="76" break="no"/>uerteretur in veritatem humane nature: nutritio esset 
+            ge<lb ed="#V" n="77" break="no"/>neratio: quia tunc caro generaretur de alimento: ergo 
+            ali<lb ed="#V" n="78" break="no"/>mentum non conuertitur in veritatem humane 
+            natu<lb ed="#V" n="79" break="no"/>re.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e191">
+            ¶ Item si nutrimentum conuerteretur in veritatem 
+            <lb ed="#V" n="80"/>nature humani corporis continue partes que sunt de 
+            ve<lb ed="#V" n="81" break="no"/>ritate humani corporis deperderentur: et per alimentum 
+            <lb ed="#V" n="82"/>restaurarentur: et sic tandiu posset homo viuere quod tota 
+            pri<lb ed="#V" n="83" break="no"/>ma caro deperderetur: et esset alia per nutrimetum 
+            sub<lb ed="#V" n="84" break="no"/>stituta: et sic homo non remaneret idem in numero 
+            quan<lb ed="#V" n="85" break="no"/>tum ad corpus.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e207">
+            ¶ Item mors non accidit nisi propter 
+            <lb ed="#V" n="86"/>deperditionem alicuius spectantis ad veritatem 
+            huma<lb ed="#V" n="87" break="no"/>ne nature. Sed si alimentum conuerteretur in veritatem 
+            <lb ed="#V" n="88"/>humane nature: per ipsum posset restaurari quicquid 
+            de<lb ed="#V" n="89" break="no"/>perditur de veritate humane nature: ergo naturaliter 
+            ho<lb ed="#V" n="90" break="no"/>mo esset incorruptibilis: quod falsum est.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e220">
+            ¶ Item nulla 
+            <lb ed="#V" n="91"/>res debilitatur per coniunctionem sui similis: ssed 
+            natu<lb ed="#V" n="92" break="no"/>ra humana debilitatur per receptionem nutrimenti: 
+            si<lb ed="#V" n="93" break="no"/>cut vinum per receptionem aque. Unde philosophus 
+            <lb ed="#V" n="94"/>primo de generatione. appositionem nutrimenti ad 
+            carnen<lb ed="#V" n="95" break="no"/>comparat superinfusioni aque vino: ergo nutrimentum 
+            <lb ed="#V" n="96"/>non conuertitur in carnem similem relique carni. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e236">
+            <lb ed="#V" n="97"/>Contra <ref xml:id="kzz7yh-f88687-Rd1e247">Aug. in libro de vera religione</ref> longe vltra 
+            <lb ed="#V" n="98"/>medium dicit quod alimenta carnis corrupta 
+            <lb ed="#V" n="99"/>idest amittentia formam suam in membrorum fabricam 
+            <lb ed="#V" n="100"/>migrant. Sed predicta fabrica est de veritate humane 
+            na<lb ed="#V" n="101" break="no"/>ture: ergo aliquid de alimento conuertitur in veritatem 
+            <lb ed="#V" n="102"/>humane nature.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e252">
+            ¶ Item philosophus primo de 
+            gene<lb ed="#V" n="103" break="no"/>ratione capi. de augmento. vult quod illud quo caro 
+            auge<lb ed="#V" n="104" break="no"/>tur: est in potentia caro: et parum post subdit: quod sicut ignis 
+            <lb ed="#V" n="105"/>tangens vrenda facit vstum sic adueniente: eo quod est 
+            ca<lb ed="#V" n="106" break="no"/>ro in potentia: ipsa caro facit actu carnem. Cum ergo ignis 
+            <lb ed="#V" n="107"/>tangens vrenda faciat vstionem similem vstioni prime. 
+            <lb ed="#V" n="108"/>Uidetur quod actu caro ipsum alimentum quod est caro in 
+            po<lb ed="#V" n="109" break="no"/>tentia conuertat in carnem similem prime.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e270">
+            ¶ Item ignis 
+            <lb ed="#V" n="110"/>agens in aerem ipsum conuertit in verum ignem: ergo 
+            <lb ed="#V" n="111"/>a simili caro agens in nutrimentum quod est in potentia 
+            ca<lb ed="#V" n="112" break="no"/>ro ipsum conuertit in veram carnem.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e280">
+            ¶ Item tunc est 
+            <lb ed="#V" n="113"/>vera caro cum potest facere verum opus debitum 
+            carni<lb ed="#V" n="114" break="no"/>quia sicut dicit philosophus. 4. metheororum: que possunt 
+            <lb ed="#V" n="115"/>facere suiipsius opus hoc est singulum: idest in hoc est 
+            vnun<lb ed="#V" n="116" break="no"/>quodque perfectum: ergo caro hominis cum sit perfecta 
+            <lb ed="#V" n="117"/>nutrimentum potest conuertere in carnem similem sibi. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e293">
+            <lb ed="#V" n="118"/>Ad istam questionem dicunt quidam 
+            <lb ed="#V" n="119"/>cuius 
+            opinio<lb ed="#V" n="120" break="no"/>nis fuit Magister: quod quamuis cibi et humores in carnes: 
+            <lb ed="#V" n="121"/>et sanguinem transeant: non tamen transeunt in 
+            verita<lb ed="#V" n="122" break="no"/>tem humane nature. Dicunt enim quod primi parentes in 
+            <lb ed="#V" n="123"/>generatione filii deciderunt aliquam partem sue proprie substantie. Et illa 
+            <lb ed="#V" n="124"/>per naturam multiplicata est in seipsa sine conuersione alicuius 
+            <lb ed="#V" n="125"/>in seipsam. Et similiter dicunt de illo genito respectu 
+            pro<lb ed="#V" n="126" break="no"/>lis sue. Et hoc solum dicunt pertinere ad illam carnem que 
+            <lb ed="#V" n="127"/>est de veritate humane nature. Caro autem in quam conuertitur 
+            <lb ed="#V" n="128"/>nutrimentum fomenum est carnis predicte ne a natura 
+            <lb ed="#V" n="129"/>li calore consumatur: sicut cum auro in fornace plumbum 
+            po<lb ed="#V" n="130" break="no"/>nitur ne consumatur aurum ab igne. Et hanc carnem dicunt 
+            <lb ed="#V" n="131"/>esse non resurgendam: sed tantummodo carnem a primis 
+            pa<lb ed="#V" n="132" break="no"/>rentibus tractam.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e328">
+            ¶ Sed contra hanc opinionem arguo sic: 
+            <lb ed="#V" n="133"/>Hugo primo libro de sacra. par 6 ca. 36. de nihilo aliquid 
+            <lb ed="#V" n="134"/>facere: et de aliquo aliqua in maius: et de aliquibus aliquid 
+            <lb ed="#V" n="135"/>in minus: siue de aliquo nihil: solus deus potest. Unde quod 
+            il<lb ed="#V" n="136" break="no"/>la parua portio a primis parentibus decisa esset multipli¬ 
+            <!--00263.xml-->
+            <pb ed="#V" n="125-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>cata intum: vt de illa esset facta caro omnium hominum: qui ab 
+            <lb ed="#V" n="2"/>adam naturaliter descenderunt: sine alicuius alimenti 
+            conuer<lb ed="#V" n="3" break="no"/>sione in carnem non potuit esse per opus nature: et ex 
+            com<lb ed="#V" n="4" break="no"/>sequenti sequeretur quod actio nutritiue et generatiue non essent 
+            <lb ed="#V" n="5"/>naturales actiones: sed miraculose: quod falsum est.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e357">
+            ¶ Ali 
+            <lb ed="#V" n="6"/>dicunt quod aliquid de nutrimento conuertitur in veram 
+            car<lb ed="#V" n="7" break="no"/>nem equalem in virtute carni relique post. conuersionem 
+            <lb ed="#V" n="8"/>factam: quia virtus que est in semine est quedam 
+            impressio<lb ed="#V" n="9" break="no"/>deriuata ab anima generantis. Unde non potest esse 
+            maio<lb ed="#V" n="10" break="no"/>ris virtutis in agendo quam ipsa anima a qua deriuatur. Cum 
+            <lb ed="#V" n="11"/>ergo per virtutem que est in semine: vere tramsmutetur materia 
+            <lb ed="#V" n="12"/>ad carnem equalem in virtute carni generantis: multo 
+            <lb ed="#V" n="13"/>fortius per potentiam nutritiuam ipsius anime potest 
+            nutri<lb ed="#V" n="14" break="no"/>mentum conuerti in veram carnem equalem in virtute 
+            re<lb ed="#V" n="15" break="no"/>lique carni ipsius nutrimenti.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e381">
+            ¶ Sed contra hanc opinio 
+            <lb ed="#V" n="16"/>nem arguitur quod si esset vera hac opinio posset tota prima 
+            ca<lb ed="#V" n="17" break="no"/>ro defluere: et per successionem alia caro subsistut: et sic 
+            pos<lb ed="#V" n="18" break="no"/>set corpus hominis totaliter fieri aliud in numero per 
+            na<lb ed="#V" n="19" break="no"/>turam quod est inconueniens. Nec effugere possunt per quoddam 
+            <lb ed="#V" n="20"/>exemplum quod adducunt dicentes quod si igni radicato in 
+            mul<lb ed="#V" n="21" break="no"/>titudine lignorum addantur successiue ligna: et per istum 
+            <lb ed="#V" n="22"/>modum continue nutriatur: manet idem ignis in numero: 
+            <lb ed="#V" n="23"/>etiam postquam ligna prima fuerint combusta: quia si 
+            asser<lb ed="#V" n="24" break="no"/>vnus putridus esset in naui: et alius sanus substitueretur: 
+            <lb ed="#V" n="25"/>et sic deinceps: quo vsque omnes primi asseres essent 
+            remo<lb ed="#V" n="26" break="no"/>ti: et alii noui substituti: non remaneret eadem nauis in 
+            nu<lb ed="#V" n="27" break="no"/>mero quantuncumque prime naui assimilaretur in forma.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e410">
+            ¶ Potest 
+            <lb ed="#V" n="28"/>etiam dici quod ratio adducta pro hac opinione non cogit: 
+            <lb ed="#V" n="29"/>quia cum maior sit nature sollicitudo circa conseruationem 
+            <lb ed="#V" n="30"/>speciei humane quam alicuius indiuidui signati: et nutritiua 
+            <lb ed="#V" n="31"/>ordinata sit ad conseruationem indiuidui: et generatiua ad 
+            <lb ed="#V" n="32"/>conseruationem speciei. Uidetur quod ab institutore nature: 
+            <lb ed="#V" n="33"/>fortior sit instituta generatiua quam nutritiua: et quod adhuc etiam 
+            <lb ed="#V" n="34"/>sit fortior: et ideo non est mirum si semen potest conuerte 
+            <lb ed="#V" n="35"/>re in carnem fortiorem quam sit caro in quam conuertitur 
+            ali<lb ed="#V" n="36" break="no"/>mentum per nutritiuam.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e433">
+            ¶ Preterea virtus 
+            generati<lb ed="#V" n="37" break="no"/>ua operatur de materia disposita per nutritiuam: quia 
+            nu<lb ed="#V" n="38" break="no"/>tritiua partem de alimento conuertit ad sustentationem 
+            <lb ed="#V" n="39"/>indiuidui: et aliam partem que ad hoc superfluit reponit: 
+            <lb ed="#V" n="40"/>et disponit ad conseruationem speciei: et ideo non est mirum 
+            si<lb ed="#V" n="41" break="no"/>generatiua conuertit semen in carnem virtuosiorem qua 
+            <lb ed="#V" n="42"/>ipsa nutritiua alimentum in quod operatur absque dispositione 
+            <lb ed="#V" n="43"/>precedente in nutriente per aliquam aliam virtutem anime. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e451">
+            <lb ed="#V" n="44"/>¶ Uidetur ergo mihi dicendum ad quaestionem: quod sicut dicit 
+            <lb ed="#V" n="45"/>philosophus. 2. metaphy. vnumquodque sicut se habet: vt sit: ita et ad 
+            <lb ed="#V" n="46"/>veritatem: idem est ergo essentia rei. Et veritas eius nisi 
+            <lb ed="#V" n="47"/>quod ipsa essentia dicitur absolute. Ueritas autem essentie 
+            im<lb ed="#V" n="48" break="no"/>portat vltra essentiam conformitatem ad suum exemplar quod 
+            <lb ed="#V" n="49"/>habet in diuina mente. Unde dicit Anselmus in libro de 
+            veri<lb ed="#V" n="50" break="no"/>tate ca. 7. quod necessitas est in omnium que sunt essentia: 
+            <lb ed="#V" n="51"/>quod hoc sunt quod in summa veritate sunt. Quod ergo est de 
+            veri<lb ed="#V" n="52" break="no"/>tate humane nature tanquam aliquid absolutum est de eius 
+            <lb ed="#V" n="53"/>essentia et econuerso. Certum est autem alimentum non posse 
+            con<lb ed="#V" n="54" break="no"/>uerti in essentiam nature humane ratione sue forme 
+            com<lb ed="#V" n="55" break="no"/>pletiue que est anima intellectiua. Si ergo conuertatur in 
+            <lb ed="#V" n="56"/>essentiam nature humane: oportet quod conuertatur in 
+            car<lb ed="#V" n="57" break="no"/>nem que est de essentia humane nature: sub carne 
+            compre<lb ed="#V" n="58" break="no"/>hendendo ossa et alias corporis partes. Caro autem huius 
+            <lb ed="#V" n="59"/>indiuidui signati dupliciter potest intelligi esse: de essentia 
+            na<lb ed="#V" n="60" break="no"/>ture humane significate in isto indiuiduo. Uno modo 
+            tan<lb ed="#V" n="61" break="no"/>quam necessaria ad repositionem illius indiuidui in 
+            specie<lb ed="#V" n="62" break="no"/>nature humane. Alio modo tanquam necessaria ad 
+            conserua<lb ed="#V" n="63" break="no"/>tionem ipsius indiuidui vsque ad periodum debitam et ad 
+            <lb ed="#V" n="64"/>perfectam quantitatem ipsius. Primo modo nulla caro 
+            in<lb ed="#V" n="65" break="no"/>isto indiuiduo est de essentia sue nature humane: nisi illa 
+            <lb ed="#V" n="66"/>que formata est ex semine a parentibus ministrato. 
+            Secun<lb ed="#V" n="67" break="no"/>do modo caro in quam conuertitur nutrimentum in isto 
+            in<lb ed="#V" n="68" break="no"/>diuiduo est de essentia nature humane ipsius: a comple¬ 
+            <!--00263.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>tiua enim forma nature humane perficitur et animatur: et prout 
+            <lb ed="#V" n="70"/>possibile est nature humane vnum constituit cum 
+            carne<lb ed="#V" n="71" break="no"/>alia.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e519">
+            ¶ Sciendum tamen quod prima caro virtuosior est: 
+            si<lb ed="#V" n="72" break="no"/>cut due rationes ostendunt facte contra opinionem que 
+            re<lb ed="#V" n="73" break="no"/>citata fuit immediate ante istam. Quihus posset addi tertia: 
+            <lb ed="#V" n="74"/>quia forma completiua nature humane: et istam carnem 
+            <lb ed="#V" n="75"/>secundam non respicit: nisi propter aliam et per aliam. Ex 
+            qui<lb ed="#V" n="76" break="no"/>bus sequitur quod prima caro minus est fluens quam secunda: et quod 
+            <lb ed="#V" n="77"/>prima radicalis dicitur non secunda: et quod illud quod 
+            deper<lb ed="#V" n="78" break="no"/>ditur de ea per nuirimentum restaurari non potest
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e537">
+            ¶ 
+            Qui<lb ed="#V" n="79" break="no"/>bus dictis concordare videntur periti medici dicentes: in 
+            <lb ed="#V" n="80"/>homine esse humidum radicale et nutrimentale: et 
+            radi<lb ed="#V" n="81" break="no"/>cale restaurari non posse. Sicut enim in homine illud 
+            du<lb ed="#V" n="82" break="no"/>plex humidum ponitur: sic in eo poni potest caro 
+            radica<lb ed="#V" n="83" break="no"/>lis et nutrimentalis.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e550">
+            ¶ Dico ego quod alimentum conuertitur 
+            <lb ed="#V" n="84"/>in essentiam istius corporis humani: non quia conuertatur 
+            <lb ed="#V" n="85"/>in carnem primo modo dictam: sed secundo. 
+            <!--TODO: Add a paragraph here-->
+            <lb ed="#V" n="86"/>Duo prima argumenta ad partem istam 
+            proce<lb ed="#V" n="87" break="no"/>dunt de carne secundo modo dicta. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e561">
+            <lb ed="#V" n="88"/>¶ Ad tertium dicendum: quod non est simile de generatione 
+            <lb ed="#V" n="89"/>ignis ex aere et conuersione nutrimenti in carnem: sed 
+            ali<lb ed="#V" n="90" break="no"/>qualiter est simile quamuis a remotis de illa generatione et 
+            <lb ed="#V" n="91"/>de transmutatione seminis in carnem per generatiuam. 
+            <lb ed="#V" n="92"/>Et ego bene concedo quod per ipsam potest semen 
+            conuer<lb ed="#V" n="93" break="no"/>ti in carnem: ita virtuosam et veram: sicut est caro ipsius 
+            ge<lb ed="#V" n="94" break="no"/>nerantis.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e580">
+            ¶ Ad quartum dicendum: quod caro potest 
+            conuer<lb ed="#V" n="95" break="no"/>tere nutrimentum in carnem similem sibi prout possibi 
+            <lb ed="#V" n="96"/>leest nature: et hoc sufficit ad hoc quod habeat perfectionem 
+            na<lb ed="#V" n="97" break="no"/>turalem que sibi debetur. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e589">
+            <lb ed="#V" n="98"/>Ad primum argumentum contra partem istam 
+            <lb ed="#V" n="99"/>dicendum: quod illud verbum 
+            salua<lb ed="#V" n="100" break="no"/>toris intelligitur de superfluitatibus immundis ipsius 
+            ci<lb ed="#V" n="101" break="no"/>bi non conuenientibus corpori: vnde glosa super illud et 
+            <lb ed="#V" n="102"/>in secessum emittitur: dicit post digestiones. Uel forte 
+            sal<lb ed="#V" n="103" break="no"/>uator: per hoc notare voluit: carnem in quam conuertitur 
+            nu<lb ed="#V" n="104" break="no"/>trimentum esse carnem fluentem respectu alterius 
+            car<lb ed="#V" n="105" break="no"/>nis: et eam per fluxum in secessum emitti.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e609">
+            ¶ Ad secundum 
+            <lb ed="#V" n="106"/>dicendum: quod de distinctione carnis in carnem secundum materiam: et 
+            <lb ed="#V" n="107"/>secundum speciem quatuor sunt opiniones.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e616">
+            ¶ Una est quod caro 
+            <lb ed="#V" n="108"/>secundum speciem est tantum illa que est a parentibus tracta per opus 
+            <lb ed="#V" n="109"/>generatiue: eo quod in illa fundatur species: et caro in 
+            quam<lb ed="#V" n="110" break="no"/>conuertitur nutrimentum est caro non secundum speciem: sed 
+            <lb ed="#V" n="111"/>secundum materiam: quia aduenit post repositionem hominis 
+            <lb ed="#V" n="112"/>in specie. Unde cum Aristoteles dicit quod vnaqueque talium 
+            <lb ed="#V" n="113"/>partium est duplex quemadimodum et aliorum in materia 
+            spe<lb ed="#V" n="114" break="no"/>ciem habentium: dicunt sic exponendum: aliorum scilicet 
+            nutri<lb ed="#V" n="115" break="no"/>bilium: vt sunt plante in materia speciem habentium id est que 
+            <lb ed="#V" n="116"/>distinguuntur in partem secundum materiam et formam: sicut de 
+            <lb ed="#V" n="117"/>carne et osse dictum est. Sed quamuis secundum aliquem 
+            respe<lb ed="#V" n="118" break="no"/>ctum predicta distinctio sit rationabilis: non tamen illo modo 
+            <lb ed="#V" n="119"/>loquitur philosophus de carne secundum materiam et secundum speciem: vnde 
+            predi<lb ed="#V" n="120" break="no"/>cta expositio sue littere extorta est violenter.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e647">
+            ¶ Alia 
+            opi<lb ed="#V" n="121" break="no"/>nio est quod caro secundum speciem dicitur illa que per se potest in 
+            <lb ed="#V" n="122"/>opus carnis: et illa secundum materiam que per se non potest in opus 
+            <lb ed="#V" n="123"/>carnis. Et dicunt aliqui quod talis est caro in quam 
+            conuer<lb ed="#V" n="124" break="no"/>titur nutrimentum: quia per se non posset in opus carnis: 
+            <lb ed="#V" n="125"/>sed coniuncta cum carue a parentibus tracta: sed illa 
+            pos<lb ed="#V" n="126" break="no"/>set sine ista. Uidetur tamen magis esse intentio philosophi: quod etiam 
+            <lb ed="#V" n="127"/>in carne tracta a parentibus sit caro secundum materiam et secundum 
+            <lb ed="#V" n="128"/>speciem.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e667">
+            ¶ Unde tertia opinio est quod caro secundum materiam 
+            <lb ed="#V" n="129"/>est ita modica portio carnis: quod per se non posset in opus 
+            <lb ed="#V" n="130"/>carnis. Et caro secundum speciem est ita magna carnis portio: quod 
+            <lb ed="#V" n="131"/>per se posset in opus carnis: et cuilibet parti tali dicit 
+            ad<lb ed="#V" n="132" break="no"/>uenire aliquid de nutrimento: et ideo quamlibet talem 
+            par<lb ed="#V" n="133" break="no"/>tem dicit augeri.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e681">
+            ¶ Quarta opinio est quod carnem secundum 
+            spe<lb ed="#V" n="134" break="no"/>ciem vocat formam carnis: et carnem secundum materiam ipsius 
+            <lb ed="#V" n="135"/>carnis materiam: et materiam dicit fluere et formam manere: 
+            <lb ed="#V" n="136"/>quia cum tantum sit de materia sub vna parte forme quod inde¬ 
+            <!--00264.xml-->
+            <pb ed="#V" n="125-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>possint fieri plures partes fluente vna parte potest 
+            salua<lb ed="#V" n="2" break="no"/>ri forma in alia parte quousque alia pars materie per 
+            nutri<lb ed="#V" n="3" break="no"/>mentum substituatur loco illius partis materie que 
+            deflu<lb ed="#V" n="4" break="no"/>xit.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e705">
+            ¶ Quinta etiam fuit opinio: quod sicut homo secundum 
+            spe<lb ed="#V" n="5" break="no"/>ciem dicitur homo non signatus: sed homo in communi: et 
+            homo<lb ed="#V" n="6" break="no"/>secundum materiam dici potest quodlibet hominis indiuiduum: et 
+            spe<lb ed="#V" n="7" break="no"/>cies manet: et indiuidua fluunt: sic dicunt quod philosophus vocauit 
+            <lb ed="#V" n="8"/>carnem in communi: carnem secundum speciem: et quancumque 
+            parten<lb ed="#V" n="9" break="no"/>carnis signatam carnem secundum materiam: et quecumque pars signata fluit: 
+            <lb ed="#V" n="10"/>et ideo dicitur quod caro secundum materiam est fluens. Et secundum hanc 
+            opi<lb ed="#V" n="11" break="no"/>nionem: caro secundum speciem dicit compositum ex forma carnis 
+            <lb ed="#V" n="12"/>et materia in communi: et caro secundum materiam compositum exra 
+            for<lb ed="#V" n="13" break="no"/>ma carnis et materia signata.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e727">
+            ¶ His ergo opinionibus visis: 
+            <lb ed="#V" n="14"/>que magis recitate sunt propter philosophi expositionem: quam propter 
+            ar<lb ed="#V" n="15" break="no"/>gumenti solutionem: dico quod non sola caro secundum speciem est de 
+            <lb ed="#V" n="16"/>veritate humane nature istius indiuidui: vt argumentum 
+            <lb ed="#V" n="17"/>supponebat: sed etiam caro secundum materiam: accipiendo 
+            verita<lb ed="#V" n="18" break="no"/>tem humane nature modo secundo exposito in corpore 
+            <lb ed="#V" n="19"/>questionis.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e743">
+            ¶ Ad tertium dicendum secundum aliquos quod in 
+            nu<lb ed="#V" n="20" break="no"/>trimento sit resolutio vsque ad essentiam materie prime: et 
+            <lb ed="#V" n="21"/>illa materia sit sub forma carnis preexistente: et informatur 
+            <lb ed="#V" n="22"/>ab ea: et quia ipsa materia sic per se considerata non est 
+            cor<lb ed="#V" n="23" break="no"/>pus et plures partes materie simul efle possunt: ideo dicunt 
+            <lb ed="#V" n="24"/>quod illud quod ministratur de alimento: recipitur in pleno: nec 
+            <lb ed="#V" n="25"/>propter hoc duo corpora simul sunt.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e759">
+            ¶ Alii dicunt quod ipsa 
+            hu<lb ed="#V" n="26" break="no"/>miditas nutrimentalis recipitur in poris existentibus in 
+            men<lb ed="#V" n="27" break="no"/>bris non vacuis: sed plenis humiditate subtili: que 
+            adue<lb ed="#V" n="28" break="no"/>niente ista secunda humiditate inspissatur: et sic minorem 
+            <lb ed="#V" n="29"/>locum occupat. Et hoc secunda in illa parte pori succedit: 
+            <lb ed="#V" n="30"/>nec propter hoc dici potest quod in tota carne non sint: nisi pori: 
+            <lb ed="#V" n="31"/>quia inter porum et alium porum propinquissimum sibi: semper 
+            <lb ed="#V" n="32"/>est aliquid de carne: sine poro: vnde cum dicitur. id est de 
+            genera<lb ed="#V" n="33" break="no"/>tione quod quelibet pars aucti est aucta intelligendum est in 
+            <lb ed="#V" n="34"/>forma totius: vel secundum quodcumque signum sensatum: vt etiam 
+            <lb ed="#V" n="35"/>videtur sentire philosophus. Et ideo dicunt aliqui quod quodlibet signum 
+            <lb ed="#V" n="36"/>sensatum carnis vocat carnem secundum speciem quom quamlibet 
+            <lb ed="#V" n="37"/>partem carnis secundum speciem dicat augeri.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e788">
+            ¶ Ad quartum 
+            di<lb ed="#V" n="38" break="no"/>cendum: quod secundum opinionem dicentium quod materia nutrimenti 
+            <lb ed="#V" n="39"/>expoliatur omni forma: et sit sub forma nutriti praeexistente: 
+            <lb ed="#V" n="40"/>absque hoc quod aliqua forma educatur de potentia materie 
+            alimen<lb ed="#V" n="41" break="no"/>ti facile est videre differentiam inter nutritionem et 
+            gene<lb ed="#V" n="42" break="no"/>rationem. Si autem ponatur aliqua forma educi de 
+            ma<lb ed="#V" n="43" break="no"/>teria nutrimenti conueniens ipsi nutrito: adhuc proprie 
+            ge<lb ed="#V" n="44" break="no"/>neratio dici non potest: quia non fit illa eductio: nisi post sut 
+            <lb ed="#V" n="45"/>vnionem cum nutrito. Et ponunt aliqui exemplum de 
+            <lb ed="#V" n="46"/>nutritione ignis: si enim materia qua nutriri debet 
+            incen<lb ed="#V" n="47" break="no"/>datur per se et postea alii materie substitueretur: esset 
+            no<lb ed="#V" n="48" break="no"/>ui ignis generatio: si autem ponatur cum aliis lignis 
+            inflan<lb ed="#V" n="49" break="no"/>matis: dicitur ignis nutriri et non nouus ignis. Sed hoc 
+            so<lb ed="#V" n="50" break="no"/>lutio falsum includit: et non est enim euasio: quia siue lignum 
+            <lb ed="#V" n="51"/>quod additur igni: prius accendatur per se: siue in 
+            coniunctio<lb ed="#V" n="52" break="no"/>ne cum aliis: semper est generatio alicuius partis flamme: 
+            <lb ed="#V" n="53"/>quia eadem flamma in numero existens in vno ligno: vel 
+            <lb ed="#V" n="54"/>aliqua pars eius non sit in alio ligno: si ergo illud lignum 
+            <lb ed="#V" n="55"/>appositum inflammatur: oportet quod aliqua noua flamma 
+            genere<lb ed="#V" n="56" break="no"/>tur.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e833">
+            ¶ Dico ergo quod postquam humiditas nutrimentalis in 
+            <lb ed="#V" n="57"/>bibita est in poris membrorum: sicut non est inconueniens quod 
+            <lb ed="#V" n="58"/>ibi corrumpatur aliqua forma: ita non est inconueniens quod de 
+            <lb ed="#V" n="59"/>materia eius educatur aliqua forma carnis incompleta: et sic 
+            <lb ed="#V" n="60"/>fiat sub forma carnis completa praeexistente: talis enim 
+            ge<lb ed="#V" n="61" break="no"/>neratio non est a potentia generatiua: prout distincta est 
+            con<lb ed="#V" n="62" break="no"/>tra nutritiuam.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e849">
+            ¶ Ad quintum dicendum: quod argumentum 
+            <lb ed="#V" n="63"/>bene procederet: si alimentum conuerteretur in veram 
+            car<lb ed="#V" n="64" break="no"/>nem humanam primo modo dictam: hoc est in carnem equa 
+            <lb ed="#V" n="65"/>lem in virtute carni formate ex semine a parentibus 
+            mi<lb ed="#V" n="66" break="no"/>nistrato. Sed non est ita: vt in corpore quaestionis visum est. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e860">
+            <lb ed="#V" n="67"/>¶ Ad sextum dicendum: quod si poneremus quod caro in 
+            quam<lb ed="#V" n="68" break="no"/>eonuertitur nutrimentum esset equalis in virtute alii car¬ 
+            <!--00264.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>ni post conuersionem factam: adhuc non posset 
+            concludi<lb ed="#V" n="70" break="no"/>quod homo esset incorruptibilis naturaliter. Quia cum omne 
+            <lb ed="#V" n="71"/>agens physicum in agendo patiatur secundum philosophum 3. physicorum 
+            <lb ed="#V" n="72"/>caro tracta a parentibus per conuersionem alimenti in 
+            <lb ed="#V" n="73"/>carnem patitur ex consequenti debilitatur plus et plus: ita 
+            <lb ed="#V" n="74"/>tandem quod ad vltimum deficit virtus in ea. Sed si pone 
+            <lb ed="#V" n="75"/>remus quod caro in quam conuertitur nutrimentum esset 
+            equa<lb ed="#V" n="76" break="no"/>lis in virtute carni tracte a parentibus: antequam sit aliquid 
+            <lb ed="#V" n="77"/>passa et in aliquo debilitata ad hoc sequeretur hominem esse 
+            na<lb ed="#V" n="78" break="no"/>turaliter immortalem per ministrationem alimenti.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e893">
+            ¶ 
+            Pre<lb ed="#V" n="79" break="no"/>terea sicut visum est in corpore quaestionis: alimentum non dicitur 
+            con<lb ed="#V" n="80" break="no"/>uerti in veritatem humane nature: quia conuertatur in 
+            car<lb ed="#V" n="81" break="no"/>nem equalbilem in virtute carni tracte a parentibus: etiam 
+            <lb ed="#V" n="82"/>postquam passa est ab alimento quod per ipsam in carnem 
+            con<lb ed="#V" n="83" break="no"/>uertitur. Sed dicitur conuerti in veritatem humane 
+            natu<lb ed="#V" n="84" break="no"/>re secundum modum quendam alium expositum in corpore quaestionis. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e909">
+            <lb ed="#V" n="85"/>¶ Ad septimum dicendum: quod nutrimentum secundum sententiam phlosophi. 2. 
+            <lb ed="#V" n="86"/>de anima: potest considerari ante suam decoctionem: et post 
+            <lb ed="#V" n="87"/>suam decoctionem completam. Primo modo est 
+            dissimi<lb ed="#V" n="88" break="no"/>le. Secundo modo sit simile: vnde dico quod natura carnis 
+            pati<lb ed="#V" n="89" break="no"/>tur a nutrimento primo modo dicto non secundo. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f88687-Dd1e924">
+          <head xml:id="kzz7yh-f88687-Hd1e926">Quaestio 2</head>
+          <head xml:id="kzz7yh-f88687-Hd1e940" type="question-title">Utrum generatio fiat de superfluo alimenti sive de substantia generatis</head>
+          <p xml:id="kzz7yh-f88687-d1e928">
+            <lb ed="#V" n="90"/>¶ Questio. II. 
+            <lb ed="#V" n="91"/>SEcundo queritur vtrum 
+            ge<lb ed="#V" n="92" break="no"/>neratio 
+            fi<lb ed="#V" n="93" break="no"/>at de superfluo alimenti: siue de substantia 
+            gene<lb ed="#V" n="94" break="no"/>rantis: et ostendo quod de substantia generantis tantum: 
+            <lb ed="#V" n="95"/>quia secundum <ref xml:id="kzz7yh-f88687-Rd1e958">Dam. lib. I. ca. 8. Generatio</ref> est ex substantia 
+            ge<lb ed="#V" n="96" break="no"/>nerantis produci quod generatur secundum substantiam.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e946">
+            ¶ Item secundum 
+            <lb ed="#V" n="97"/>Aug. 10. super genesem inter principium et finem: quasi eque 
+            <lb ed="#V" n="98"/>distanter: leui et christus secundum carnem fuerunt in lumbis abra 
+            <lb ed="#V" n="99"/>he: sed leui secundum concupiscentiam carnalem: Christus autem 
+            <lb ed="#V" n="100"/>secundum subslantiam corporalem. Hoc autem verum non esset: nisi 
+            <lb ed="#V" n="101"/>de substantia parentum esset generatio filiorum.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e959">
+            ¶ Item 
+            <lb ed="#V" n="102"/>statim cum adam fuit plasmatus antequam comedisset 
+            po<lb ed="#V" n="103" break="no"/>tuisset transfundere semen ad generandum: quia fuit factus 
+            <lb ed="#V" n="104"/>perfectus. Et sicut dicit philosophus. 4. meta. tunc vnumquodque 
+            perfe<lb ed="#V" n="105" break="no"/>ctum est: cum potest perficere tale alterum: quale ipsum 
+            <lb ed="#V" n="106"/>est. Sed si generatio esset de superfluo alimenti: et non 
+            de<lb ed="#V" n="107" break="no"/>substantia generantis adam ante comestionem semen trant 
+            <lb ed="#V" n="108"/>fundere non potuisset.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e977">
+            ¶ Item cum superfluum 
+            alimen<lb ed="#V" n="109" break="no"/>ti aliquando sit generatum ex carnibus porcinis: vel 
+            bo<lb ed="#V" n="110" break="no"/>uinis si fieret generatio de illo superfluo: et non de 
+            substan<lb ed="#V" n="111" break="no"/>tia generantis: magis attineret filius illi porco: vel boui 
+            <lb ed="#V" n="112"/>quam patri suo: quod falsum est.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e989">
+            ¶ Item ex parentibus 
+            lepro<lb ed="#V" n="113" break="no"/>sis generantur filii leprosi: quod non videretur necessarium: sed 
+            <lb ed="#V" n="114"/>filii non generarentur de substantia parentum suorum.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e996">
+            ¶ Item 
+            <lb ed="#V" n="115"/>ex emissione superflui non debilitatur natura: sed per 
+            emis<lb ed="#V" n="116" break="no"/>sionem multi seminis natura debilitatur: ergo semen non 
+            <lb ed="#V" n="117"/>est de superfluo alimenti: videtur ergo quod de substantia 
+            ge<lb ed="#V" n="118" break="no"/>nerantis.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1007">
+            ¶ Item filii magis assimilantur parentibus quam 
+            <lb ed="#V" n="119"/>extraneis. Sed si non generarentur de substantia 
+            paren<lb ed="#V" n="120" break="no"/>tum suorum non videretur ratio: quare magis assimilarentur 
+            <lb ed="#V" n="121"/>parentibus quam aliis: ergo generantur filii aut tantum ex 
+            substan<lb ed="#V" n="122" break="no"/>tia parentum: aut saltem ex substantia parentum mixta 
+            <lb ed="#V" n="123"/>cum superfluitate alimenti. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1020">
+            <lb ed="#V" n="124"/>Contra <ref xml:id="kzz7yh-f88687-Rd1e1041">philosophus. 15 de animalibus</ref> dicit: quod semen est 
+            su<lb ed="#V" n="125" break="no"/>perfluitas vltimi cibi.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1027">
+            ¶ Item per 
+            resolu<lb ed="#V" n="126" break="no"/>tionem alicuius quod est de substantia corporis grauatur 
+            na<lb ed="#V" n="127" break="no"/>tura: sed per remissionem seminis non semper grauatur 
+            na<lb ed="#V" n="128" break="no"/>tura: immo aliquando iuuatur: ergo semen non sit de 
+            ali<lb ed="#V" n="129" break="no"/>quo quod resoluatur ex substantia generantis.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1038">
+            ¶ Item semen
+            <lb ed="#V" n="130"/>habet situm determinatum in corpore: scilicet in vasis 
+            se<lb ed="#V" n="131" break="no"/>minariis. Sed ea qui resoluuntur a copore non habent situm 
+            deter<lb ed="#V" n="132" break="no"/>minatum in corpore. Sicut patet in sudore: et similibus: ergo 
+            vide<lb ed="#V" n="133" break="no"/>tur quod in semine de quo sit prolis generatio: nihil est resolutum 
+            <lb ed="#V" n="134"/>a corpore: conde ante actum fuisset de substantia generantis. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1052">
+            <lb ed="#V" n="135"/>Ad istam questionem dicunt quidam: quod semen 
+            de<lb ed="#V" n="136" break="no"/>quo generatur filius: non tantum est de substantia 
+            <!--00265.xml-->
+            <pb ed="#V" n="126-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>proximorum parentum: sed etiam primorum: quia primi 
+            pa<lb ed="#V" n="2" break="no"/>rentes deciderunt aliquam portionem sue substantie: que per 
+            <lb ed="#V" n="3"/>sui multiplicationem sine alicuius alterius conuersione in 
+            <lb ed="#V" n="4"/>ipsam facta est sufficiens proli sue: et proles a primis 
+            paren<lb ed="#V" n="5" break="no"/>tibus immediate genita simili modo genuit prolem suam: et sic 
+            <lb ed="#V" n="6"/>deinceps.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1078">
+            ¶ Sed hec opinio non est rationabilis: includit enim 
+            <lb ed="#V" n="7"/>generationem corporum humanorum non esse naturalem: talis 
+            <lb ed="#V" n="8"/>enim multiplicatio soli deo possibilis est. Sicut in quaestione 
+            <lb ed="#V" n="9"/>precedenti ostensum est. Et si homo profundius 
+            conside<lb ed="#V" n="10" break="no"/>ret videre potest quod talis opinio includit aliquam substantiam 
+            <lb ed="#V" n="11"/>per naturam fieri non de aliquo.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1091">
+            ¶ Alii dicunt quod 
+            semen<lb ed="#V" n="12" break="no"/>et si non sit de substantia remotorum parentum: tamen est 
+            <lb ed="#V" n="13"/>de substantia proximorum tantum.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1098">
+            ¶ Sed contra Aug. de vera 
+            <lb ed="#V" n="14"/>religi. longe vltra medium libri dicit quod alimenta 
+            corpo<lb ed="#V" n="15" break="no"/>ri non apta per congruos meatus eiiciuntur: quorum aliud 
+            <lb ed="#V" n="16"/>feculentissimum redditur terre ad alias formas assumendas: 
+            <lb ed="#V" n="17"/>aliud per totum corpus exhalat: aliud totius animalis 
+            la<lb ed="#V" n="18" break="no"/>tentes numeros accipit: et inchoatur in prolem.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1111">
+            ¶ Alii 
+            <lb ed="#V" n="19"/>dicunt quod semen constituitur ex aliquo resoluto de substantia 
+            <lb ed="#V" n="20"/>generantis: et ex superfluitate cibi tertia digestionem 
+            dige<lb ed="#V" n="21" break="no"/>sti: simul commixtis. Non enim videtur eis rationabile quod 
+            semen<lb ed="#V" n="22" break="no"/>tantum sit constitutum ex superfluo tertie digestionis propter 
+            ratio<lb ed="#V" n="23" break="no"/>nes adductas in opponendo contra hanc parte.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1124">
+            ¶ Ego 
+            <lb ed="#V" n="24"/>autem sine preiudicio dico quod semen constituitur de superfluo 
+            ali<lb ed="#V" n="25" break="no"/>menti: et quod nihil est ibi quod ante fuerit de substantia 
+            paren<lb ed="#V" n="26" break="no"/>tum in actu.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1134">
+            ¶ Ad cuius intelligentiam sciendum quod cibus 
+            <lb ed="#V" n="27"/>digeritur in stomacho digestione prima: si non 
+            computel<lb ed="#V" n="28" break="no"/>illa que est in ore: in epate digestione secunda: et ibi 
+            generan<lb ed="#V" n="29" break="no"/>tur humores: deinde humores deriuantur per membra: et 
+            <lb ed="#V" n="30"/>ibi digeritur cibus tertia digestione: et per nutritiuam 
+            con<lb ed="#V" n="31" break="no"/>uertitur pars in substantiam corporis ad conseruationem 
+            in<lb ed="#V" n="32" break="no"/>diuidui: et alia reponitur ad conseruationem speciei: et sic ptet 
+            <lb ed="#V" n="33"/>quod nutritiua praeparat et disponit materiam generatiue. Est 
+            <lb ed="#V" n="34"/>ergo semen de superfluo tertie digestionis: superfluum 
+            di<lb ed="#V" n="35" break="no"/>co indiuiduo: quia necessarium est speciei conseruande per 
+            <lb ed="#V" n="36"/>naturam
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1158">
+            ¶ Hec autem opinio confirmari potest per 
+            auctori<lb ed="#V" n="37" break="no"/>tatem: et per rationem: et per signa.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1163">
+            ¶ Dicit enim philosophus. 15 de 
+            <lb ed="#V" n="38"/>animalibus: quod sperma non est nisi superfluitas cibi 
+            vlti<lb ed="#V" n="39" break="no"/>mi: et parum post sperma est superfluum vltimi cibi 
+            sangui<lb ed="#V" n="40" break="no"/>nei qui spargitur per membra.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1172">
+            ¶ Item Auic. 15 de anima 
+            <lb ed="#V" n="41"/>libus cap. vlti. dicit sic quod est res certa: quia sperma est 
+            super<lb ed="#V" n="42" break="no"/>fluitas vltime digestionis: et est superfluitas bene digesta: et est 
+            <lb ed="#V" n="43"/>posita in creatura propter iuuamentum: et albescit propter 
+            for<lb ed="#V" n="44" break="no"/>titudinem digestionis: et quando sit cum nimio 
+            conamine<lb ed="#V" n="45" break="no"/>exibit sanguinolentum: et ita sanguis menstruus est super 
+            <lb ed="#V" n="46"/>fluitas vltime digestionis: sed non peruenit vsque ad digestio 
+            <lb ed="#V" n="47"/>nem spermatis.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1190">
+            ¶ Secundo confirmo opinionem per 
+            ratio<lb ed="#V" n="48" break="no"/>nem. Si enim aliquid resoluitur de substantia parentum in 
+            <lb ed="#V" n="49"/>actu de quo fiat semen per se: vel per sui commixtionem cum 
+            <lb ed="#V" n="50"/>superfluo alimenti: aut retinet naturam eius a quo 
+            resol<lb ed="#V" n="51" break="no"/>uitur: et de cuius substantia fuit in actu: aut non: si non: tunc 
+            <lb ed="#V" n="52"/>resoluitur ab eo per viam corruptionis: per quam recedit 
+            <lb ed="#V" n="53"/>a natura generantis: et sic non remanet virtus in eo ad trans 
+            <lb ed="#V" n="54"/>mutandum materiam ad formam similem generanti.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1208">
+            ¶ 
+            Pre<lb ed="#V" n="55" break="no"/>terea iam natura superflue tramsmutasset illam humiditatem 
+            ter<lb ed="#V" n="56" break="no"/>tie digestionis ex qua generanda erat proles: quia secundum 
+            opinio<lb ed="#V" n="57" break="no"/>nem que ponit semen fieri per dissolutionem alicuius a 
+            cor<lb ed="#V" n="58" break="no"/>pore oporteret reduci illam portionem ad statum illum 
+            in<lb ed="#V" n="59" break="no"/>quo erat post vltimam digestionem ante quam in substanm: iam 
+            cor<lb ed="#V" n="60" break="no"/>poris esset conuersa.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1225">
+            ¶ Si autem in actu retinet naturam eius 
+            <lb ed="#V" n="61"/>a quo resoluitur: aut resolutum est ab aliqua parte 
+            corpo<lb ed="#V" n="62" break="no"/>ris determinata tantum: autem ab omnibus partibus. Si primo modo 
+            <lb ed="#V" n="63"/>non esset in eo virtus mouendi materiam ad materiam 
+            par<lb ed="#V" n="64" break="no"/>tium aliarum. Si secundo modo illud resolutum esset quoddam 
+            <lb ed="#V" n="65"/>paruum animal in actu: quia actualiter haberet materiam et 
+            for<lb ed="#V" n="66" break="no"/>mam similem animali a quo resolutum est: et virtutes omnium 
+            par<lb ed="#V" n="67" break="no"/>tium corporis in actu: quod falsum est. Nihilergo 
+            dissol<lb ed="#V" n="68" break="no"/>uitur ad hoc vt fiat semen: vel pars seminis quod prius 
+            <!--00265.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>esset de substantia parentum in actu: restat ergo quod sit de 
+            <lb ed="#V" n="70"/>superfluo vltime digestionis tantum.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1254">
+            ¶ Cui concordat philosophus. 15 
+            <lb ed="#V" n="71"/>de animalibus dicens: quod sperma est superfluum et non est 
+            <lb ed="#V" n="72"/>secundum viam dissolutionis: vt in eodem libro dicit postea: quod 
+            <lb ed="#V" n="73"/>sermo singentium quod sperma est dissolutum est falsus. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1263">
+            <lb ed="#V" n="74"/>¶ Tertio confirmo opinionem per signa: vnum est: quia 
+            mul<lb ed="#V" n="75" break="no"/>ta et superflua comestio augmentat materiam spermatis 
+            <lb ed="#V" n="76"/>et excitat generatiuam
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1272">
+            ¶ Aliud est: quia ceteris paribus 
+            mi<lb ed="#V" n="77" break="no"/>nuitur sperma in illis qui fortem habent tertiam digestionem 
+            <lb ed="#V" n="78"/>et multo indigent cibo. Unde Auic. 15 de animalibus ca. penul. 
+            <lb ed="#V" n="79"/>dicit quod non inuenitur sperma in pueris: quoniam sua digestio 
+            ter<lb ed="#V" n="80" break="no"/>tia est fortis: et sua necessitas ad cibum est multa: et tunc non 
+            <lb ed="#V" n="81"/>erit in eis superfluitas supple seminalis.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1285">
+            ¶ Aliud est: quia 
+            <lb ed="#V" n="82"/>sicut dicit philosophus. 15 de animalibus: homines multe carnis et multe 
+            <lb ed="#V" n="83"/>pinguedinis non spermatizant nisi modicum: et huius 
+            <lb ed="#V" n="84"/>est ratio: quia parum remanet de superfluitate: quia nutritiua 
+            <lb ed="#V" n="85"/>multum conuertit de illa in substantiam nutriti.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1296">
+            ¶ Ad 
+            <lb ed="#V" n="86"/>hoec etiam possent adduci multa alia signa que aduitandum 
+            <lb ed="#V" n="87"/>prolixitatem dimitto. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1304">
+            <lb ed="#V" n="88"/>Ad primum in oppositum dicendum: quod pro 
+            tan<lb ed="#V" n="89" break="no"/>to filii dicuntur generari de 
+            substan<lb ed="#V" n="90" break="no"/>tia patris: non quia generentur de eo quod erat de substantia 
+            pa<lb ed="#V" n="91" break="no"/>tris in actu: sed in potentia propinqua: quia illud superfluum 
+            <lb ed="#V" n="92"/>de quo sit semen est in propinquissima dispositione ad hoc vt 
+            <lb ed="#V" n="93"/>conuertatur in corporis substantiam: et deciditur cum 
+            qua<lb ed="#V" n="94" break="no"/>dam virtute ab anima patris diriuata: et pro tanto dicitur 
+            <lb ed="#V" n="95"/>fuisse leui in lumbis abrahe secundum corpulentam substantiam 
+            <lb ed="#V" n="96"/>et rationem seminalem.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1326">
+            ¶ Et sic patet solutio ad secundum. 
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1328">
+            <lb ed="#V" n="97"/>¶ Ad tertium dicendum quod secundum philosophum id est libo de somno et vigi. 
+            <lb ed="#V" n="98"/>humores sunt corporis nutrimentum: vnde cibus si 
+            nutri<lb ed="#V" n="99" break="no"/>re debeat conuertitur in humores: qui postea deriuantur 
+            <lb ed="#V" n="100"/>ad membra. Cum autem adam fuerit factus perfectus: 
+            fue<lb ed="#V" n="101" break="no"/>runt in eo producti humores qui et possent nutrire 
+            indi<lb ed="#V" n="102" break="no"/>uiduum et de quibus posset remanere aliqua superfluitas 
+            <lb ed="#V" n="103"/>que posset esse generationis principium vsque ad aliquod tempus: 
+            <lb ed="#V" n="104"/>quo secundum dictamen sue rationis comedere debuisset.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1348">
+            ¶ Ad 
+            <lb ed="#V" n="105"/>quartum dicendum: quod quamuis illud superfluum generatum 
+            <lb ed="#V" n="106"/>sit de carnibus porcinis: quia tamen iam in tantum transmuta 
+            <lb ed="#V" n="107"/>tum est: et corpori paterno assimilatum per virtutem 
+            nutri<lb ed="#V" n="108" break="no"/>tiue: ita vt sit in propinquissima dispositione ad hoc vt 
+            conuer<lb ed="#V" n="109" break="no"/>tatur in substantiam corporis: et cum deciditur transmittitur 
+            <lb ed="#V" n="110"/>cum eo virtus ab anima patris deriuata: ideo fetus de 
+            st<lb ed="#V" n="111" break="no"/>lo genitus attinet patri et non porco: quia attinentia non 
+            at<lb ed="#V" n="112" break="no"/>tenditur secundum materiam: sed secundum formam et virtutem ab 
+            ani<lb ed="#V" n="113" break="no"/>ma deriuatam. Si enim attinentia esset secundum materiam: vt 
+            <lb ed="#V" n="114"/>grosso modo loquar: et inter res non viuentes esset 
+            attinem<lb ed="#V" n="115" break="no"/>tia: ignis genitus ex materia aeris maiorem 
+            propinquita<lb ed="#V" n="116" break="no"/>tem haberet ad aerem de cuius materia genitus est quam ad 
+            <lb ed="#V" n="117"/>ignem generantem: quod tamen aperte falsum est.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1379">
+            ¶ Ad 
+            quan<lb ed="#V" n="118" break="no"/>tum dicendum: quod in parentibus leprosis illud superfluum 
+            <lb ed="#V" n="119"/>tertie digestionis propter sui magnam propinquitatem ad hoc 
+            <lb ed="#V" n="120"/>vt conuertatur in substantiam corporis iam infectum est: et 
+            <lb ed="#V" n="121"/>preterea spiritus in quibus est vis informatiua deriuata ab 
+            <lb ed="#V" n="122"/>anima patris infecti sunt: et ipsa vis etiam infecta est: et ideo 
+            <lb ed="#V" n="123"/>transmutat semen ad formam corporis simili infectione 
+            <lb ed="#V" n="124"/>infecti.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1397">
+            ¶ Ad sextum dicendum: quod per emissionem seminis 
+            <lb ed="#V" n="125"/>temperatam natura non debilitatur: sed iuuatur. Sed quia 
+            <lb ed="#V" n="126"/>virtus generatiua imperat nutritiue: cum homo nimis 
+            <lb ed="#V" n="127"/>exit in actum generatiue parum conuertit nutritiua 
+            de<lb ed="#V" n="128" break="no"/>humiditate tertia digestione digesta: et multum reponit 
+            <lb ed="#V" n="129"/>de ea ad opus generatiue: et propter hoc extenuatur 
+            corp<lb ed="#V" n="130" break="no"/>hominum excedentium in coitu: quia non est quo sufficienter 
+            <lb ed="#V" n="131"/>restauretur illud quod in eorum corporibus deperditur. Cui 
+            <lb ed="#V" n="132"/>concordat Auic. 15 de animalibus ca. penul. dicens quod 
+            sper<lb ed="#V" n="133" break="no"/>matis eiectio non inducit infirmitatem: sed etiam iuuat: 
+            <lb ed="#V" n="134"/>nisi fortasse alteretur per viam corruptionis.
+          </p>
+          <p xml:id="kzz7yh-f88687-d1e1422">
+            ¶ Ad 
+            septi<lb ed="#V" n="135" break="no"/>mum dicendum: quod assimilatio generantis ad genitum: non 
+            <lb ed="#V" n="136"/>est propter naturam materie: sed est per virtutem informa¬ 
+            <!--00266.xml-->
+            <pb ed="#V" n="126-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>tiuam traductam cum semine: eo quod retinet similitudinem 
+            <lb ed="#V" n="2"/>paterne virtutis a qua deriuatur: et quantum in se est magis 
+            <lb ed="#V" n="3"/>mouet ad assimilationem parentis propinqui. Sed aliquam 
+            <lb ed="#V" n="4"/>do non potest propter indispositionem materie: vel 
+            alicu<lb ed="#V" n="5" break="no"/>ius alterius cause impedientis effectum. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

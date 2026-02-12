@@ -1,340 +1,340 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="149-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f106172"><!-- l2d37a1 -->
-            <head xml:id="kzz7yh-f106172-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-f106172-d1e103">
-      ¶ 
-      Cir<lb ed="#V" n="35" break="no"/>ca primum queruntur duo.
-   </p>
-            <p xml:id="kzz7yh-f106172-d1e108">
-      ¶ Primo vtrum actio: mala 
-      <lb ed="#V" n="36"/>que peccatum est sit natura aliqua.
-   </p>
-            <p xml:id="kzz7yh-f106172-d1e113">
-      ¶ Secundo vtrum 
-      principa<lb ed="#V" n="37" break="no"/>lius dicatur malum de culpa quam de pena. 
-   </p>
-            <div xml:id="kzz7yh-f106172-Dd1e118">
-               <head xml:id="kzz7yh-f106172-Hd1e120">Quaestio 1</head>
-               <head xml:id="kzz7yh-f106172-Hd1e124" type="question-title">Utrum actio mala que peccatum est sit natura aliqua</head>
-               <p xml:id="kzz7yh-f106172-d1e122">
-      Quaestio I. 
-      <lb ed="#V" n="38"/>PRimo ostendo quod actio 
-      mala<lb ed="#V" n="39" break="no"/>que peccatum 
-      <lb ed="#V" n="40"/>est non est natura aliqua. <ref xml:id="kzz7yh-f106172-Rd1e135">Boe. de consolus lib. 4.</ref> 
-      <lb ed="#V" n="41"/>non multum post principium dicit quod esse est quod 
-      or<lb ed="#V" n="42" break="no"/>dinem retinet seruatque naturam: sed mala actio non retinet 
-      <lb ed="#V" n="43"/>ordinem: nec seruat naturam: ergo non est aliquod ens.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e138">
-      ¶ Item 
-      <lb ed="#V" n="44"/>Augu. hyponosticon responsione quarta. Omne malum 
-      <lb ed="#V" n="45"/>natura non est: sed actus accidens ex defectu boni. Actus ergo 
-      <lb ed="#V" n="46"/>malus natura non est.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e147">
-      ¶ Item nulla natura corrumpit naturam a qua 
-      prin<lb ed="#V" n="47" break="no"/>cipiatur: sed mala actio corrumpit naturam male agentis 
-      dimi<lb ed="#V" n="48" break="no"/>nuendo naturalem eius aptitudinem ad virtutem: ergo non 
-      <lb ed="#V" n="49"/>est aliqua natura.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e156">
-      ¶ Item Aug. 5 libro de trinitate. cap. 4. di. 
-      <lb ed="#V" n="50"/>cit quod anima minus viuit: cum desipit. Sed secundum philosophum. 2. 
-      <lb ed="#V" n="51"/>de anima. viuere viuentibus est esse: ergo anima minus 
-      <lb ed="#V" n="52"/>est cum desipit. Sed per rem que est natura subiectum eius 
-      <lb ed="#V" n="53"/>non minus est: ergo desipere et alie actiones male natura non sunt. 
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e168">
-                  <lb ed="#V" n="54"/>Contra actio mala est in vno decem 
-      predicamento<lb ed="#V" n="55" break="no"/>rum scilicet in predicamento actionis. Sed illa 
-      <lb ed="#V" n="56"/>decem predicamenta sunt decem post rerum genera: ergo 
-      <lb ed="#V" n="57"/>actio mala res est aliqua et natura.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e179">
-      ¶ Item illud quod non est 
-      <lb ed="#V" n="58"/>aliqua natura nullum effectum naturale producit: sed actio 
-      ma<lb ed="#V" n="59" break="no"/>la vtpote fornicaria effectum naturalem producit scilicet prolem: 
-      er<lb ed="#V" n="60" break="no"/>go talis actio est aliqua natura. 
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e188">
-                  <lb ed="#V" n="61"/>Respondeo quod de actione mala possumus loque <!--abbreviation--> 
-      <lb ed="#V" n="62"/>dupliciter. Aut sub ratione qua mala: aut 
-      <lb ed="#V" n="63"/>sub ratione qua actio. Primo modo non est<!--stray mark?--> natura aliqua 
-      <lb ed="#V" n="64"/>sed carentia boni debiti in actione. Superius enim 
-      osten<lb ed="#V" n="65" break="no"/>sum est: quod malum sub rationem qua malum non est natura aliqua. 
-      <lb ed="#V" n="66"/>Secundo modo extendendo nomen nature ad omnem essentiam 
-      <lb ed="#V" n="67"/>sic dico quod est natura aliqua: dicit enim tem positiuam. 
-      <!--00312.xml-->
-      <cb ed="#P" n="b"/>
-               </p>
-               <p xml:id="kzz7yh-f106172-d1e210">
-                  <lb ed="#V" n="68"/>Ad primum in oppositum dicendum quod ibi <ref xml:id="kzz7yh-f106172-Rd1e225">Boe</ref>. 
-      lo<lb ed="#V" n="69" break="no"/>quitur de bene esse: et bene verum 
-      <lb ed="#V" n="70"/>est: quod tale ens non est actio mala.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e219">
-      ¶ Uel potest dici quod 
-      ac<lb ed="#V" n="71" break="no"/>tio mala: et si inquantum mala non remaneat ordinem: nec 
-      <lb ed="#V" n="72"/>seruet naturam: tamen inquantum est actio sibi conuenit.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e226">
-      ¶ Ad 
-      <lb ed="#V" n="73"/>secundum dicendum quod in illo verbo accipitur natura non pro quacumque 
-      <lb ed="#V" n="74"/>essentia: sed pro essentia que est substantia cui principalius 
-      con<lb ed="#V" n="75" break="no"/>uenit nomen nature quam accidentibus.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e236">
-      ¶ Ad tertium dicendum quod 
-      <lb ed="#V" n="76"/>mala actio non corrumpit naturam a qua principiatur: non enum 
-      <lb ed="#V" n="77"/>principiatur a naturali aptitudine ad virtutem quam 
-      dimi<lb ed="#V" n="78" break="no"/>nuit: sed a potentia voluntatis quam nec corrumpit nec 
-      dimi<lb ed="#V" n="79" break="no"/>nuit. Et preterea corrumpere bonum sibi conuenit sub ratione 
-      <lb ed="#V" n="80"/>qua mala non sub ratione qua actio tantum.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e249">
-      ¶ Ad quartum cum 
-      <lb ed="#V" n="81"/>dicitur quod anima minus viuit cum desipit etc. Dico quod hoc 
-      <lb ed="#V" n="82"/>non intelligitur quantum ad primum actum vite: sed quantum 
-      <lb ed="#V" n="83"/>ad secundos.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e258">
-      ¶ Uel potest dici quod ibi loquitur de viuere in 
-      <lb ed="#V" n="84"/>genere moris: quod est bene viuere.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e263">
-      ¶ Argumenta ad 
-      par<lb ed="#V" n="85" break="no"/>tem aliam procedunt de actione mala sub ratione qua 
-      <lb ed="#V" n="86"/>actio est. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f106172-Dd1e272">
-               <head xml:id="kzz7yh-f106172-Hd1e274">Quaestio 2</head>
-               <head xml:id="kzz7yh-f106172-Hd1e290" type="question-title">Utrum principalius dicatur malum de culpa quam de pena</head>
-               <p xml:id="kzz7yh-f106172-d1e276">
-      Questio. II. 
-      <lb ed="#V" n="87"/>SEcundo queritur vtrum principalius 
-      <lb ed="#V" n="88"/>dicatur malum de culpa quam de 
-      <lb ed="#V" n="89"/>pena. Et videtur quod non. Sicut se habet meritum 
-      <lb ed="#V" n="90"/>ad premium: sic culpa ad penam: et sicut duo prima 
-      <lb ed="#V" n="91"/>se habent ad bonum: sic duo secunda ad malum: sed bonum 
-      prin<lb ed="#V" n="92" break="no"/>cipalius dicitur de premio quam de merito: ergo et malum 
-      principa<lb ed="#V" n="93" break="no"/>lius dicitur de pena quam de culpa.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e294">
-      ¶ Item malum principalius dicitur 
-      <lb ed="#V" n="94"/>de corruptione substantie: quam accidentis: quia bonu 
-      principa<lb ed="#V" n="95" break="no"/>lius dicitur de substantia quam de accidente: sed per culpam 
-      inquan<lb ed="#V" n="96" break="no"/>tum culpa est: non fit corruptio in homine nisi quantum ad 
-      <lb ed="#V" n="97"/>secundum esse: quod est accidens: per multas autem penas sit 
-      corru<lb ed="#V" n="98" break="no"/>ptio in homine quantum ad primum esse substantie: ergo multis 
-      <lb ed="#V" n="99"/>penis principalius conuenit ratio mali quam ipsi culpe.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e310">
-      ¶ Item 
-      <lb ed="#V" n="100"/>secundum philosophum id est poster. propter quod vnumquodque tale et illud magis 
-      <lb ed="#V" n="101"/>sed culpa fugienda est propter eternam penam: ergo pena 
-      eter<lb ed="#V" n="102" break="no"/>na magis est fugienda: sed ei quod est magis fugiendum 
-      princi<lb ed="#V" n="103" break="no"/>palius conuenit ratio mali: ergo principalius conuenit 
-      pe<lb ed="#V" n="104" break="no"/>ne eterne quam culpe.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e323">
-      ¶ Item damnari peius est quam non esse 
-      <lb ed="#V" n="105"/>vnde de iuda qui erat damnandus. Dicitur Matth. 26. 
-      me<lb ed="#V" n="106" break="no"/>lius erar illi si natus non fuisset homo ille: sed non esse peius 
-      <lb ed="#V" n="107"/>est quam peccare: quia nihil relinquit de naturali aptitudine 
-      <lb ed="#V" n="108"/>ad virtutem: peccatum autem aliquid relinquit de illa vt 
-      su<lb ed="#V" n="109" break="no"/>perius ostensum est: ergo a primo pena eterna peior est quam 
-      <lb ed="#V" n="110"/>peccatum.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e340">
-      ¶ Item peccatu non est malum nisi quia nocet: nec 
-      <lb ed="#V" n="111"/>nocet: nisi quia corrupit bonum: vnde Aug. in Ench. 5. cap. 
-      <lb ed="#V" n="112"/>dicit si nullo bono priuat non nocet: nocet autem adimendo 
-      <lb ed="#V" n="113"/>bonum: sed corruptio boni per peccatum facta: pena est: 
-      er<lb ed="#V" n="114" break="no"/>go a primo peccatum: non est malum: nisi quia est causa alicuius 
-      pe<lb ed="#V" n="115" break="no"/>ne: et si sic alicui pene principalius conuenit ratio mali quam peccato. 
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e353">
-                  <lb ed="#V" n="116"/>Contra <ref xml:id="kzz7yh-f106172-Rd1e374">Diony. de diui. nomi. cap. 4.</ref> puniri non est 
-      <lb ed="#V" n="117"/>malum: sed fieri pena dignum: ergo 
-      principa<lb ed="#V" n="118" break="no"/>lius dicitur malum de culpa: per quam homo efficitur 
-      di<lb ed="#V" n="119" break="no"/>gnus pena quam de pena.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e364">
-      ¶ Item Aug. 4. libro de ciui. cap. 
-      <lb ed="#V" n="120"/>2. dicit quod mala morum vel sola mala vel maxima 
-      deputan<lb ed="#V" n="121" break="no"/>da sunt: sed mala morum sunt peccata: ergo peccata maxima 
-      <lb ed="#V" n="122"/>mala sunt.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e373">
-      ¶ Item in eodem cap. dicit quod stulti sola mala 
-      <lb ed="#V" n="123"/>corporis externarumque rerum perpeti exhorrent que plerum 
-      <lb ed="#V" n="124"/>qua patiuntur et boni: illa vero mala: non dico patientur: sed 
-      <lb ed="#V" n="125"/>libenter habent: quibus ipsi sunt mali: per illa mala 
-      no<lb ed="#V" n="126" break="no"/>tans mala culpe. Cum ergo propter malum pene: non sit 
-      homo<lb ed="#V" n="127" break="no"/>malus: sed propter malum culpe: vt predictus textus insinuat 
-      <lb ed="#V" n="128"/>maius malum est culpa quam pena. 
-      <!--TODO: Add paragraph break-->
-      <lb ed="#V" n="129"/>Respondeo quod malum principalius dicitur de  
-      ma<lb ed="#V" n="130" break="no"/>lo culpe quam de malo pene. 
-      Opti<lb ed="#V" n="131" break="no"/>mum enim hominis bonum: maxime consistit in perfecto 
-      <lb ed="#V" n="132"/>actu intellectus et voluntatis: quia in hoc consistit hominis 
-      <lb ed="#V" n="133"/>beatitudo: ergo maximum hominis malum: consistit in 
-      de<lb ed="#V" n="134" break="no"/>fectiuo actu intellectus et voluntatis. Sed defectiuus actus 
-      <lb ed="#V" n="135"/>voluntatis peccatum est: ergo maximum hominis malum 
-      <!--00313.xml-->
-      <pb ed="#V" n="150-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>peccatum est.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e412">
-      ¶ Preterea pena sub ratione qua pena est 
-      <lb ed="#V" n="2"/>a deo: culpa sub ratione qua culpa non est a deo: sed in 
-      effe<lb ed="#V" n="3" break="no"/>ctu est aliqua similitudo sue cause: quia sicut dicit Diony. 
-      <lb ed="#V" n="4"/>2. cap. de diui. no. causatiua habent causalium receptas 
-      ima<lb ed="#V" n="5" break="no"/>gines: ergo in pena sub ratione qua pena est aliqua 
-      parti<lb ed="#V" n="6" break="no"/>cipatio bonitatis: in culpa autem sub ratione qua culpa 
-      <lb ed="#V" n="7"/>nulla est. Unde Aug. id est tractatum super Ioan. Exponens 
-      il<lb ed="#V" n="8" break="no"/>lud verbum Ioan id est Sine ipso factum est nihil: vult quod per 
-      ni<lb ed="#V" n="9" break="no"/>hil intelligatur peccatum: ergo principalius conuenit ratio 
-      <lb ed="#V" n="10"/>mali culpe quampene.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e434">
-      ¶ Preterea malum pene directe 
-      op<lb ed="#V" n="11" break="no"/>ponitur bono creature inquantum per ipsam priuatur 
-      ali<lb ed="#V" n="12" break="no"/>quo bono temporali: sicut per destructionem oculorum 
-      priua<lb ed="#V" n="13" break="no"/>tur visu: vel inquantum est in creatura carentia quedam 
-      bo<lb ed="#V" n="14" break="no"/>ni perpetui: vt est carentia visionis dei. Malum vero 
-      cul<lb ed="#V" n="15" break="no"/>pe directe contrariatur diuino honori auo deus est 
-      hono<lb ed="#V" n="16" break="no"/>randus secundum se: et diuino amori: quo amandus est secundum se: sed 
-      <lb ed="#V" n="17"/>peius est esse contra deum secundum se: quam contra aliquam 
-      partici<lb ed="#V" n="18" break="no"/>pationem eius in creatura: ergo longe maius malum est 
-      cul<lb ed="#V" n="19" break="no"/>pa quam pena.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e457">
-      ¶ Preterea bonum creature consistit maxime 
-      <lb ed="#V" n="20"/>in debito eius ordine ad vltimum finem. Malum ergo quod 
-      <lb ed="#V" n="21"/>magis contrariatur huic ordini maius est. Sed culpa 
-      ma<lb ed="#V" n="22" break="no"/>gis contrariatur huic ordini quam pena: quia culpa 
-      formali<lb ed="#V" n="23" break="no"/>ter est deordinatio ab vltimo sine: per penam autem magis 
-      <lb ed="#V" n="24"/>ordinatur creatura ad vltimum finem: quam deordinetur. Unde 
-      <lb ed="#V" n="25"/>deordinatus per culpam ordinatur per penam: ergo 
-      cul<lb ed="#V" n="26" break="no"/>pa longe maius malum est quam pena. Unde tanta est 
-      gra<lb ed="#V" n="27" break="no"/>uitas mali culpe: quod dicit Ansels id est libo cur deus homo cap. 
-      <lb ed="#V" n="28"/>2I quod pro conseruanda tota creatura: nihil deberem facere 
-      <lb ed="#V" n="29"/>contra voluntatem dei: etiam si plures essent mundi 
-      pleni<lb ed="#V" n="30" break="no"/>creaturis: sicut iste est: et si in infinito numero multiplica 
-      <lb ed="#V" n="31"/>rentur: et similiter mihi ostenderentur: id ipsum 
-      respon<lb ed="#V" n="32" break="no"/>derem et hanc responsionem factam in forma discipuli: 
-      <lb ed="#V" n="33"/>Ansel. in forma Magistri approbat statiem dicens 
-      discipu<lb ed="#V" n="34" break="no"/>lo nihil rectius potes. 
-    </p>
-               <p xml:id="kzz7yh-f106172-d1e492">
-                  <lb ed="#V" n="35"/>Ad primum in oppositum dicendum quod meritum et 
-      pre<lb ed="#V" n="36" break="no"/>mium aliter se habent ad bonum quam 
-      <lb ed="#V" n="37"/>pena et culpa ad malum: premium enim importat 
-      perfectio<lb ed="#V" n="38" break="no"/>rem coniunctionem cum deo quam meritum. Unde addit aliquam 
-      <lb ed="#V" n="39"/>rationem boni super meritum. Culpa vero importat 
-      maio<lb ed="#V" n="40" break="no"/>rem deordinationem: et elongationem a sine quam pena: et ideo 
-      <lb ed="#V" n="41"/>plus importat de ratione mali quam pena.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e510">
-      ¶ Ad secundum dicendum quod 
-      <lb ed="#V" n="42"/>bona spiritualia moralia et bona disponentia ad ea quorum 
-      cor<lb ed="#V" n="43" break="no"/>ruptio est per culpam maiora bona sunt quam substantia 
-      corpo<lb ed="#V" n="44" break="no"/>ris et aliqua solatia anime que corrumpuntur per penam. 
-      <lb ed="#V" n="45"/>substantia enim anime per aliquam penam non corrumpitur. 
-      <lb ed="#V" n="46"/>Non est autem inconueniens dicere aliqua accidentia esse 
-      no<lb ed="#V" n="47" break="no"/>biliora quam aliquas substantias: maxime quantum ad rationem 
-      <lb ed="#V" n="48"/>faciendi pertingere ad vltimum finem.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e528">
-      ¶ Ad tertium dicendum 
-      <lb ed="#V" n="49"/>quod culpa non est principaliter fugienda: propter penam: sed 
-      <lb ed="#V" n="50"/>consequenter: fugienda est enim principaliter propter diuinum 
-      <lb ed="#V" n="51"/>bonorem et amorem. illud autem verbum philosophi: propter quod 
-      vnun<lb ed="#V" n="52" break="no"/>quodque tale: et illud magis: intelligendum est de eo: propter 
-      <lb ed="#V" n="53"/>quod illud est principaliter tale non ex consequenti.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e541">
-      ¶ Ad 
-      <lb ed="#V" n="54"/>quartum dicendum quod non intendebat saluator dicere quod melius 
-      <lb ed="#V" n="55"/>fuisset iude non esse: quam damnari habendo aspectum ad penam 
-      <lb ed="#V" n="56"/>tantum. Sed habendo aspectum ad culpam eius que delenda 
-      <lb ed="#V" n="57"/>non erat: sed permansura in pena eterna.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e552">
-      ¶ Preterea cum 
-      <lb ed="#V" n="58"/>dicitur quod non esse peius est quam peccare. Dico quod falsum est 
-      <lb ed="#V" n="59"/>quia in non esse non est malum: neque bonum.
-   </p>
-               <p xml:id="kzz7yh-f106172-d1e560">
-      ¶ Ad quintum 
-      <lb ed="#V" n="60"/>dicendum quod si per actum peccati nulla corruptio 
-      remane<lb ed="#V" n="61" break="no"/>ret in anima post eius actum nec aliqua obligatio ad 
-      pe<lb ed="#V" n="62" break="no"/>nam. Adhuc peccatum quamdiu duraret in anima esset 
-      quod<lb ed="#V" n="63" break="no"/>dam anime nocumentum inquantum est quedam 
-      deordina<lb ed="#V" n="64" break="no"/>tio anime ab vltimo fine. Unde peccatum sub ratione qua 
-      <lb ed="#V" n="65"/>peccatum: nocumentum est et causa nocumenti quod est pena. 
-      <lb ed="#V" n="66"/>Unde sicut maior est calor in igne: quam calor causatus in 
-      ae<lb ed="#V" n="67" break="no"/>re per ipsum: ita maius est nocumentum quod est peccatum 
-      <lb ed="#V" n="68"/>quam nocumentum pene: cuius peccatum est causa. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="149-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f106172"><!-- l2d37a1 -->
+        <head xml:id="kzz7yh-f106172-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-f106172-d1e103">
+          ¶ 
+          Cir<lb ed="#V" n="35" break="no"/>ca primum queruntur duo.
+        </p>
+        <p xml:id="kzz7yh-f106172-d1e108">
+          ¶ Primo vtrum actio: mala 
+          <lb ed="#V" n="36"/>que peccatum est sit natura aliqua.
+        </p>
+        <p xml:id="kzz7yh-f106172-d1e113">
+          ¶ Secundo vtrum 
+          principa<lb ed="#V" n="37" break="no"/>lius dicatur malum de culpa quam de pena. 
+        </p>
+        <div xml:id="kzz7yh-f106172-Dd1e118">
+          <head xml:id="kzz7yh-f106172-Hd1e120">Quaestio 1</head>
+          <head xml:id="kzz7yh-f106172-Hd1e124" type="question-title">Utrum actio mala que peccatum est sit natura aliqua</head>
+          <p xml:id="kzz7yh-f106172-d1e122">
+            Quaestio I. 
+            <lb ed="#V" n="38"/>PRimo ostendo quod actio 
+            mala<lb ed="#V" n="39" break="no"/>que peccatum 
+            <lb ed="#V" n="40"/>est non est natura aliqua. <ref xml:id="kzz7yh-f106172-Rd1e135">Boe. de consolus lib. 4.</ref> 
+            <lb ed="#V" n="41"/>non multum post principium dicit quod esse est quod 
+            or<lb ed="#V" n="42" break="no"/>dinem retinet seruatque naturam: sed mala actio non retinet 
+            <lb ed="#V" n="43"/>ordinem: nec seruat naturam: ergo non est aliquod ens.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e138">
+            ¶ Item 
+            <lb ed="#V" n="44"/>Augu. hyponosticon responsione quarta. Omne malum 
+            <lb ed="#V" n="45"/>natura non est: sed actus accidens ex defectu boni. Actus ergo 
+            <lb ed="#V" n="46"/>malus natura non est.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e147">
+            ¶ Item nulla natura corrumpit naturam a qua 
+            prin<lb ed="#V" n="47" break="no"/>cipiatur: sed mala actio corrumpit naturam male agentis 
+            dimi<lb ed="#V" n="48" break="no"/>nuendo naturalem eius aptitudinem ad virtutem: ergo non 
+            <lb ed="#V" n="49"/>est aliqua natura.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e156">
+            ¶ Item Aug. 5 libro de trinitate. cap. 4. di. 
+            <lb ed="#V" n="50"/>cit quod anima minus viuit: cum desipit. Sed secundum philosophum. 2. 
+            <lb ed="#V" n="51"/>de anima. viuere viuentibus est esse: ergo anima minus 
+            <lb ed="#V" n="52"/>est cum desipit. Sed per rem que est natura subiectum eius 
+            <lb ed="#V" n="53"/>non minus est: ergo desipere et alie actiones male natura non sunt. 
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e168">
+            <lb ed="#V" n="54"/>Contra actio mala est in vno decem 
+            predicamento<lb ed="#V" n="55" break="no"/>rum scilicet in predicamento actionis. Sed illa 
+            <lb ed="#V" n="56"/>decem predicamenta sunt decem post rerum genera: ergo 
+            <lb ed="#V" n="57"/>actio mala res est aliqua et natura.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e179">
+            ¶ Item illud quod non est 
+            <lb ed="#V" n="58"/>aliqua natura nullum effectum naturale producit: sed actio 
+            ma<lb ed="#V" n="59" break="no"/>la vtpote fornicaria effectum naturalem producit scilicet prolem: 
+            er<lb ed="#V" n="60" break="no"/>go talis actio est aliqua natura. 
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e188">
+            <lb ed="#V" n="61"/>Respondeo quod de actione mala possumus loque <!--abbreviation--> 
+            <lb ed="#V" n="62"/>dupliciter. Aut sub ratione qua mala: aut 
+            <lb ed="#V" n="63"/>sub ratione qua actio. Primo modo non est<!--stray mark?--> natura aliqua 
+            <lb ed="#V" n="64"/>sed carentia boni debiti in actione. Superius enim 
+            osten<lb ed="#V" n="65" break="no"/>sum est: quod malum sub rationem qua malum non est natura aliqua. 
+            <lb ed="#V" n="66"/>Secundo modo extendendo nomen nature ad omnem essentiam 
+            <lb ed="#V" n="67"/>sic dico quod est natura aliqua: dicit enim tem positiuam. 
+            <!--00312.xml-->
+            <cb ed="#P" n="b"/>
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e210">
+            <lb ed="#V" n="68"/>Ad primum in oppositum dicendum quod ibi <ref xml:id="kzz7yh-f106172-Rd1e225">Boe</ref>. 
+            lo<lb ed="#V" n="69" break="no"/>quitur de bene esse: et bene verum 
+            <lb ed="#V" n="70"/>est: quod tale ens non est actio mala.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e219">
+            ¶ Uel potest dici quod 
+            ac<lb ed="#V" n="71" break="no"/>tio mala: et si inquantum mala non remaneat ordinem: nec 
+            <lb ed="#V" n="72"/>seruet naturam: tamen inquantum est actio sibi conuenit.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e226">
+            ¶ Ad 
+            <lb ed="#V" n="73"/>secundum dicendum quod in illo verbo accipitur natura non pro quacumque 
+            <lb ed="#V" n="74"/>essentia: sed pro essentia que est substantia cui principalius 
+            con<lb ed="#V" n="75" break="no"/>uenit nomen nature quam accidentibus.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e236">
+            ¶ Ad tertium dicendum quod 
+            <lb ed="#V" n="76"/>mala actio non corrumpit naturam a qua principiatur: non enum 
+            <lb ed="#V" n="77"/>principiatur a naturali aptitudine ad virtutem quam 
+            dimi<lb ed="#V" n="78" break="no"/>nuit: sed a potentia voluntatis quam nec corrumpit nec 
+            dimi<lb ed="#V" n="79" break="no"/>nuit. Et preterea corrumpere bonum sibi conuenit sub ratione 
+            <lb ed="#V" n="80"/>qua mala non sub ratione qua actio tantum.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e249">
+            ¶ Ad quartum cum 
+            <lb ed="#V" n="81"/>dicitur quod anima minus viuit cum desipit etc. Dico quod hoc 
+            <lb ed="#V" n="82"/>non intelligitur quantum ad primum actum vite: sed quantum 
+            <lb ed="#V" n="83"/>ad secundos.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e258">
+            ¶ Uel potest dici quod ibi loquitur de viuere in 
+            <lb ed="#V" n="84"/>genere moris: quod est bene viuere.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e263">
+            ¶ Argumenta ad 
+            par<lb ed="#V" n="85" break="no"/>tem aliam procedunt de actione mala sub ratione qua 
+            <lb ed="#V" n="86"/>actio est. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f106172-Dd1e272">
+          <head xml:id="kzz7yh-f106172-Hd1e274">Quaestio 2</head>
+          <head xml:id="kzz7yh-f106172-Hd1e290" type="question-title">Utrum principalius dicatur malum de culpa quam de pena</head>
+          <p xml:id="kzz7yh-f106172-d1e276">
+            Questio. II. 
+            <lb ed="#V" n="87"/>SEcundo queritur vtrum principalius 
+            <lb ed="#V" n="88"/>dicatur malum de culpa quam de 
+            <lb ed="#V" n="89"/>pena. Et videtur quod non. Sicut se habet meritum 
+            <lb ed="#V" n="90"/>ad premium: sic culpa ad penam: et sicut duo prima 
+            <lb ed="#V" n="91"/>se habent ad bonum: sic duo secunda ad malum: sed bonum 
+            prin<lb ed="#V" n="92" break="no"/>cipalius dicitur de premio quam de merito: ergo et malum 
+            principa<lb ed="#V" n="93" break="no"/>lius dicitur de pena quam de culpa.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e294">
+            ¶ Item malum principalius dicitur 
+            <lb ed="#V" n="94"/>de corruptione substantie: quam accidentis: quia bonu 
+            principa<lb ed="#V" n="95" break="no"/>lius dicitur de substantia quam de accidente: sed per culpam 
+            inquan<lb ed="#V" n="96" break="no"/>tum culpa est: non fit corruptio in homine nisi quantum ad 
+            <lb ed="#V" n="97"/>secundum esse: quod est accidens: per multas autem penas sit 
+            corru<lb ed="#V" n="98" break="no"/>ptio in homine quantum ad primum esse substantie: ergo multis 
+            <lb ed="#V" n="99"/>penis principalius conuenit ratio mali quam ipsi culpe.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e310">
+            ¶ Item 
+            <lb ed="#V" n="100"/>secundum philosophum id est poster. propter quod vnumquodque tale et illud magis 
+            <lb ed="#V" n="101"/>sed culpa fugienda est propter eternam penam: ergo pena 
+            eter<lb ed="#V" n="102" break="no"/>na magis est fugienda: sed ei quod est magis fugiendum 
+            princi<lb ed="#V" n="103" break="no"/>palius conuenit ratio mali: ergo principalius conuenit 
+            pe<lb ed="#V" n="104" break="no"/>ne eterne quam culpe.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e323">
+            ¶ Item damnari peius est quam non esse 
+            <lb ed="#V" n="105"/>vnde de iuda qui erat damnandus. Dicitur Matth. 26. 
+            me<lb ed="#V" n="106" break="no"/>lius erar illi si natus non fuisset homo ille: sed non esse peius 
+            <lb ed="#V" n="107"/>est quam peccare: quia nihil relinquit de naturali aptitudine 
+            <lb ed="#V" n="108"/>ad virtutem: peccatum autem aliquid relinquit de illa vt 
+            su<lb ed="#V" n="109" break="no"/>perius ostensum est: ergo a primo pena eterna peior est quam 
+            <lb ed="#V" n="110"/>peccatum.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e340">
+            ¶ Item peccatu non est malum nisi quia nocet: nec 
+            <lb ed="#V" n="111"/>nocet: nisi quia corrupit bonum: vnde Aug. in Ench. 5. cap. 
+            <lb ed="#V" n="112"/>dicit si nullo bono priuat non nocet: nocet autem adimendo 
+            <lb ed="#V" n="113"/>bonum: sed corruptio boni per peccatum facta: pena est: 
+            er<lb ed="#V" n="114" break="no"/>go a primo peccatum: non est malum: nisi quia est causa alicuius 
+            pe<lb ed="#V" n="115" break="no"/>ne: et si sic alicui pene principalius conuenit ratio mali quam peccato. 
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e353">
+            <lb ed="#V" n="116"/>Contra <ref xml:id="kzz7yh-f106172-Rd1e374">Diony. de diui. nomi. cap. 4.</ref> puniri non est 
+            <lb ed="#V" n="117"/>malum: sed fieri pena dignum: ergo 
+            principa<lb ed="#V" n="118" break="no"/>lius dicitur malum de culpa: per quam homo efficitur 
+            di<lb ed="#V" n="119" break="no"/>gnus pena quam de pena.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e364">
+            ¶ Item Aug. 4. libro de ciui. cap. 
+            <lb ed="#V" n="120"/>2. dicit quod mala morum vel sola mala vel maxima 
+            deputan<lb ed="#V" n="121" break="no"/>da sunt: sed mala morum sunt peccata: ergo peccata maxima 
+            <lb ed="#V" n="122"/>mala sunt.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e373">
+            ¶ Item in eodem cap. dicit quod stulti sola mala 
+            <lb ed="#V" n="123"/>corporis externarumque rerum perpeti exhorrent que plerum 
+            <lb ed="#V" n="124"/>qua patiuntur et boni: illa vero mala: non dico patientur: sed 
+            <lb ed="#V" n="125"/>libenter habent: quibus ipsi sunt mali: per illa mala 
+            no<lb ed="#V" n="126" break="no"/>tans mala culpe. Cum ergo propter malum pene: non sit 
+            homo<lb ed="#V" n="127" break="no"/>malus: sed propter malum culpe: vt predictus textus insinuat 
+            <lb ed="#V" n="128"/>maius malum est culpa quam pena. 
+            <!--TODO: Add paragraph break-->
+            <lb ed="#V" n="129"/>Respondeo quod malum principalius dicitur de  
+            ma<lb ed="#V" n="130" break="no"/>lo culpe quam de malo pene. 
+            Opti<lb ed="#V" n="131" break="no"/>mum enim hominis bonum: maxime consistit in perfecto 
+            <lb ed="#V" n="132"/>actu intellectus et voluntatis: quia in hoc consistit hominis 
+            <lb ed="#V" n="133"/>beatitudo: ergo maximum hominis malum: consistit in 
+            de<lb ed="#V" n="134" break="no"/>fectiuo actu intellectus et voluntatis. Sed defectiuus actus 
+            <lb ed="#V" n="135"/>voluntatis peccatum est: ergo maximum hominis malum 
+            <!--00313.xml-->
+            <pb ed="#V" n="150-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>peccatum est.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e412">
+            ¶ Preterea pena sub ratione qua pena est 
+            <lb ed="#V" n="2"/>a deo: culpa sub ratione qua culpa non est a deo: sed in 
+            effe<lb ed="#V" n="3" break="no"/>ctu est aliqua similitudo sue cause: quia sicut dicit Diony. 
+            <lb ed="#V" n="4"/>2. cap. de diui. no. causatiua habent causalium receptas 
+            ima<lb ed="#V" n="5" break="no"/>gines: ergo in pena sub ratione qua pena est aliqua 
+            parti<lb ed="#V" n="6" break="no"/>cipatio bonitatis: in culpa autem sub ratione qua culpa 
+            <lb ed="#V" n="7"/>nulla est. Unde Aug. id est tractatum super Ioan. Exponens 
+            il<lb ed="#V" n="8" break="no"/>lud verbum Ioan id est Sine ipso factum est nihil: vult quod per 
+            ni<lb ed="#V" n="9" break="no"/>hil intelligatur peccatum: ergo principalius conuenit ratio 
+            <lb ed="#V" n="10"/>mali culpe quampene.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e434">
+            ¶ Preterea malum pene directe 
+            op<lb ed="#V" n="11" break="no"/>ponitur bono creature inquantum per ipsam priuatur 
+            ali<lb ed="#V" n="12" break="no"/>quo bono temporali: sicut per destructionem oculorum 
+            priua<lb ed="#V" n="13" break="no"/>tur visu: vel inquantum est in creatura carentia quedam 
+            bo<lb ed="#V" n="14" break="no"/>ni perpetui: vt est carentia visionis dei. Malum vero 
+            cul<lb ed="#V" n="15" break="no"/>pe directe contrariatur diuino honori auo deus est 
+            hono<lb ed="#V" n="16" break="no"/>randus secundum se: et diuino amori: quo amandus est secundum se: sed 
+            <lb ed="#V" n="17"/>peius est esse contra deum secundum se: quam contra aliquam 
+            partici<lb ed="#V" n="18" break="no"/>pationem eius in creatura: ergo longe maius malum est 
+            cul<lb ed="#V" n="19" break="no"/>pa quam pena.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e457">
+            ¶ Preterea bonum creature consistit maxime 
+            <lb ed="#V" n="20"/>in debito eius ordine ad vltimum finem. Malum ergo quod 
+            <lb ed="#V" n="21"/>magis contrariatur huic ordini maius est. Sed culpa 
+            ma<lb ed="#V" n="22" break="no"/>gis contrariatur huic ordini quam pena: quia culpa 
+            formali<lb ed="#V" n="23" break="no"/>ter est deordinatio ab vltimo sine: per penam autem magis 
+            <lb ed="#V" n="24"/>ordinatur creatura ad vltimum finem: quam deordinetur. Unde 
+            <lb ed="#V" n="25"/>deordinatus per culpam ordinatur per penam: ergo 
+            cul<lb ed="#V" n="26" break="no"/>pa longe maius malum est quam pena. Unde tanta est 
+            gra<lb ed="#V" n="27" break="no"/>uitas mali culpe: quod dicit Ansels id est libo cur deus homo cap. 
+            <lb ed="#V" n="28"/>2I quod pro conseruanda tota creatura: nihil deberem facere 
+            <lb ed="#V" n="29"/>contra voluntatem dei: etiam si plures essent mundi 
+            pleni<lb ed="#V" n="30" break="no"/>creaturis: sicut iste est: et si in infinito numero multiplica 
+            <lb ed="#V" n="31"/>rentur: et similiter mihi ostenderentur: id ipsum 
+            respon<lb ed="#V" n="32" break="no"/>derem et hanc responsionem factam in forma discipuli: 
+            <lb ed="#V" n="33"/>Ansel. in forma Magistri approbat statiem dicens 
+            discipu<lb ed="#V" n="34" break="no"/>lo nihil rectius potes. 
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e492">
+            <lb ed="#V" n="35"/>Ad primum in oppositum dicendum quod meritum et 
+            pre<lb ed="#V" n="36" break="no"/>mium aliter se habent ad bonum quam 
+            <lb ed="#V" n="37"/>pena et culpa ad malum: premium enim importat 
+            perfectio<lb ed="#V" n="38" break="no"/>rem coniunctionem cum deo quam meritum. Unde addit aliquam 
+            <lb ed="#V" n="39"/>rationem boni super meritum. Culpa vero importat 
+            maio<lb ed="#V" n="40" break="no"/>rem deordinationem: et elongationem a sine quam pena: et ideo 
+            <lb ed="#V" n="41"/>plus importat de ratione mali quam pena.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e510">
+            ¶ Ad secundum dicendum quod 
+            <lb ed="#V" n="42"/>bona spiritualia moralia et bona disponentia ad ea quorum 
+            cor<lb ed="#V" n="43" break="no"/>ruptio est per culpam maiora bona sunt quam substantia 
+            corpo<lb ed="#V" n="44" break="no"/>ris et aliqua solatia anime que corrumpuntur per penam. 
+            <lb ed="#V" n="45"/>substantia enim anime per aliquam penam non corrumpitur. 
+            <lb ed="#V" n="46"/>Non est autem inconueniens dicere aliqua accidentia esse 
+            no<lb ed="#V" n="47" break="no"/>biliora quam aliquas substantias: maxime quantum ad rationem 
+            <lb ed="#V" n="48"/>faciendi pertingere ad vltimum finem.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e528">
+            ¶ Ad tertium dicendum 
+            <lb ed="#V" n="49"/>quod culpa non est principaliter fugienda: propter penam: sed 
+            <lb ed="#V" n="50"/>consequenter: fugienda est enim principaliter propter diuinum 
+            <lb ed="#V" n="51"/>bonorem et amorem. illud autem verbum philosophi: propter quod 
+            vnun<lb ed="#V" n="52" break="no"/>quodque tale: et illud magis: intelligendum est de eo: propter 
+            <lb ed="#V" n="53"/>quod illud est principaliter tale non ex consequenti.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e541">
+            ¶ Ad 
+            <lb ed="#V" n="54"/>quartum dicendum quod non intendebat saluator dicere quod melius 
+            <lb ed="#V" n="55"/>fuisset iude non esse: quam damnari habendo aspectum ad penam 
+            <lb ed="#V" n="56"/>tantum. Sed habendo aspectum ad culpam eius que delenda 
+            <lb ed="#V" n="57"/>non erat: sed permansura in pena eterna.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e552">
+            ¶ Preterea cum 
+            <lb ed="#V" n="58"/>dicitur quod non esse peius est quam peccare. Dico quod falsum est 
+            <lb ed="#V" n="59"/>quia in non esse non est malum: neque bonum.
+          </p>
+          <p xml:id="kzz7yh-f106172-d1e560">
+            ¶ Ad quintum 
+            <lb ed="#V" n="60"/>dicendum quod si per actum peccati nulla corruptio 
+            remane<lb ed="#V" n="61" break="no"/>ret in anima post eius actum nec aliqua obligatio ad 
+            pe<lb ed="#V" n="62" break="no"/>nam. Adhuc peccatum quamdiu duraret in anima esset 
+            quod<lb ed="#V" n="63" break="no"/>dam anime nocumentum inquantum est quedam 
+            deordina<lb ed="#V" n="64" break="no"/>tio anime ab vltimo fine. Unde peccatum sub ratione qua 
+            <lb ed="#V" n="65"/>peccatum: nocumentum est et causa nocumenti quod est pena. 
+            <lb ed="#V" n="66"/>Unde sicut maior est calor in igne: quam calor causatus in 
+            ae<lb ed="#V" n="67" break="no"/>re per ipsum: ita maius est nocumentum quod est peccatum 
+            <lb ed="#V" n="68"/>quam nocumentum pene: cuius peccatum est causa. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

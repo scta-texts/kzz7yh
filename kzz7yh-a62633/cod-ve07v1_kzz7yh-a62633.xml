@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="91-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a62633"><!-- l1d28cl -->
-            <head xml:id="kzz7yh-a62633-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-a62633-d1e103">
-               <lb ed="#V" n="56"/>CIrca litteram (differt pater a filio auctoritate 
-      ge<lb ed="#V" n="57" break="no"/>nerationis): ibi accipitur differre pro 
-      distin<lb ed="#V" n="58" break="no"/>gui: et ibi accipit auctoritas pro principiatione actiua. 
-      <lb ed="#V" n="59"/>per modum nature. (Negatiua particularia non efficit 
-      <lb ed="#V" n="60"/>vt quod sine illa relatione dicitur eadem praeposita substantialiter dicatur): 
-      <lb ed="#V" n="61"/>expone sicut expositum est in quaestione qua queritur vtrum 
-      <sic>innascibi<lb ed="#V" n="62" break="no"/>bilitas</sic> sit realis relatio in solutione cuiusdam argumenti. 
-      (In<lb ed="#V" n="63" break="no"/>genitus quid est nisi non genitus: hoc intelligendum est de 
-      in<lb ed="#V" n="64" break="no"/>genito prout accipitur in divinis quia in deo locum non habet 
-      priua<lb ed="#V" n="65" break="no"/>to. De ingenito autem in creaturis non est verum. (Potest dici non 
-      <lb ed="#V" n="66"/>est idem: sed diuersum esse patrem et esse filium): quia quamuis in 
-      <lb ed="#V" n="67"/>duinis non sit nisi vnum esse simpliciter: quia ibi non est nisi 
-      <lb ed="#V" n="68"/>vna essentia: tamen esse personam est in diuinis plurificatum: idem 
-      <!--00196.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="69"/>est ergo esse quod simpliciter praedicatur de tribus personis: cum 
-      dici<lb ed="#V" n="70" break="no"/>mus pater est: filius est: spiritus sanctus est: sed non est idem 
-      patrem<lb ed="#V" n="71" break="no"/>esse prem: et filium esse filium: et spiritum sancntum esse spirituss. (Solus filius 
-      <lb ed="#V" n="72"/>dicitur verbum.)
-   </p>
-            <p xml:id="kzz7yh-a62633-d1e147">
-      ¶ Contra Aug. i. li. de trini. c. xii. si verbum 
-      <lb ed="#V" n="73"/>patris loqutur seipsum loqutur: sed qui loqutur gignit: ergo 
-      ver<lb ed="#V" n="74" break="no"/>bum patris gignit seipsum verbum: ergo non solum est filius sed 
-      <lb ed="#V" n="75"/>etiam patr.
-   </p>
-            <p xml:id="kzz7yh-a62633-d1e156">
-      ¶ Respondeo. Uerbum patris non loquitur secundum quod loqui est 
-      <lb ed="#V" n="76"/>producere verbum: sed secundum quod loque accipitur pro intelligere in 
-      ver<lb ed="#V" n="77" break="no"/>bo: vel per verbum. Uerbum enim intelligit se in seipso: et per seipsum. 
-      <lb ed="#V" n="78"/>(Idem dici accipiamus cum dicitur verbum ac si dicatur 
-      <lb ed="#V" n="79"/>nata sapientia).
-   </p>
-            <p xml:id="kzz7yh-a62633-d1e167">
-      ¶ Contra creatura videtur esse verbum 
-      <lb ed="#V" n="80"/>dei cum sit aliquid ab ipso repraesentans ipsum diuinum conceptum 
-      <lb ed="#V" n="81"/>et tamen creatura non est nata sapientia.
-   </p>
-            <p xml:id="kzz7yh-a62633-d1e175">
-      ¶ Respondeo quod 
-      <lb ed="#V" n="82"/>creatura proprie non dicitur verbum dei: improprie tamen et 
-      <lb ed="#V" n="83"/>quasi per quandam similitudinem potest dici quasi vox verbum 
-      <lb ed="#V" n="84"/>dei: eo quod sicut vox sensibilis exterius representat nostrum 
-      <lb ed="#V" n="85"/>conceptum interiorem qui est verbum: sic creature quaedam 
-      sen<lb ed="#V" n="86" break="no"/>tiunt quedam intelligibiliter aliqualiter a remotis repsen 
-      <lb ed="#V" n="87"/>tant diuinum conceptum: qui proprie est verbum dei. Et secundum quod 
-      <lb ed="#V" n="88"/>creatura potest accipi pro verbo: sic creare pro dicere. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="91-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a62633"><!-- l1d28cl -->
+        <head xml:id="kzz7yh-a62633-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-a62633-d1e103">
+          <lb ed="#V" n="56"/>CIrca litteram (differt pater a filio auctoritate 
+          ge<lb ed="#V" n="57" break="no"/>nerationis): ibi accipitur differre pro 
+          distin<lb ed="#V" n="58" break="no"/>gui: et ibi accipit auctoritas pro principiatione actiua. 
+          <lb ed="#V" n="59"/>per modum nature. (Negatiua particularia non efficit 
+          <lb ed="#V" n="60"/>vt quod sine illa relatione dicitur eadem praeposita substantialiter dicatur): 
+          <lb ed="#V" n="61"/>expone sicut expositum est in quaestione qua queritur vtrum 
+          <sic>innascibi<lb ed="#V" n="62" break="no"/>bilitas</sic> sit realis relatio in solutione cuiusdam argumenti. 
+          (In<lb ed="#V" n="63" break="no"/>genitus quid est nisi non genitus: hoc intelligendum est de 
+          in<lb ed="#V" n="64" break="no"/>genito prout accipitur in divinis quia in deo locum non habet 
+          priua<lb ed="#V" n="65" break="no"/>to. De ingenito autem in creaturis non est verum. (Potest dici non 
+          <lb ed="#V" n="66"/>est idem: sed diuersum esse patrem et esse filium): quia quamuis in 
+          <lb ed="#V" n="67"/>duinis non sit nisi vnum esse simpliciter: quia ibi non est nisi 
+          <lb ed="#V" n="68"/>vna essentia: tamen esse personam est in diuinis plurificatum: idem 
+          <!--00196.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="69"/>est ergo esse quod simpliciter praedicatur de tribus personis: cum 
+          dici<lb ed="#V" n="70" break="no"/>mus pater est: filius est: spiritus sanctus est: sed non est idem 
+          patrem<lb ed="#V" n="71" break="no"/>esse prem: et filium esse filium: et spiritum sancntum esse spirituss. (Solus filius 
+          <lb ed="#V" n="72"/>dicitur verbum.)
+        </p>
+        <p xml:id="kzz7yh-a62633-d1e147">
+          ¶ Contra Aug. i. li. de trini. c. xii. si verbum 
+          <lb ed="#V" n="73"/>patris loqutur seipsum loqutur: sed qui loqutur gignit: ergo 
+          ver<lb ed="#V" n="74" break="no"/>bum patris gignit seipsum verbum: ergo non solum est filius sed 
+          <lb ed="#V" n="75"/>etiam patr.
+        </p>
+        <p xml:id="kzz7yh-a62633-d1e156">
+          ¶ Respondeo. Uerbum patris non loquitur secundum quod loqui est 
+          <lb ed="#V" n="76"/>producere verbum: sed secundum quod loque accipitur pro intelligere in 
+          ver<lb ed="#V" n="77" break="no"/>bo: vel per verbum. Uerbum enim intelligit se in seipso: et per seipsum. 
+          <lb ed="#V" n="78"/>(Idem dici accipiamus cum dicitur verbum ac si dicatur 
+          <lb ed="#V" n="79"/>nata sapientia).
+        </p>
+        <p xml:id="kzz7yh-a62633-d1e167">
+          ¶ Contra creatura videtur esse verbum 
+          <lb ed="#V" n="80"/>dei cum sit aliquid ab ipso repraesentans ipsum diuinum conceptum 
+          <lb ed="#V" n="81"/>et tamen creatura non est nata sapientia.
+        </p>
+        <p xml:id="kzz7yh-a62633-d1e175">
+          ¶ Respondeo quod 
+          <lb ed="#V" n="82"/>creatura proprie non dicitur verbum dei: improprie tamen et 
+          <lb ed="#V" n="83"/>quasi per quandam similitudinem potest dici quasi vox verbum 
+          <lb ed="#V" n="84"/>dei: eo quod sicut vox sensibilis exterius representat nostrum 
+          <lb ed="#V" n="85"/>conceptum interiorem qui est verbum: sic creature quaedam 
+          sen<lb ed="#V" n="86" break="no"/>tiunt quedam intelligibiliter aliqualiter a remotis repsen 
+          <lb ed="#V" n="87"/>tant diuinum conceptum: qui proprie est verbum dei. Et secundum quod 
+          <lb ed="#V" n="88"/>creatura potest accipi pro verbo: sic creare pro dicere. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

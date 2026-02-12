@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="167-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f118937"><!-- l2d41cl -->
-            <head xml:id="kzz7yh-f118937-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-f118937-d1e103">
-               <lb ed="#V" n="46"/>CIrca litteram. Fides intentionem 
-      di<lb ed="#V" n="47" break="no"/>rigit. hoc expositum est 
-      <lb ed="#V" n="48"/>in littera dis. praecedenti. Omnis infidelium vita peccatum est: 
-      <lb ed="#V" n="49"/>hoc expositum est in 3a. q. dis. praesentis. Illa quae non 
-      vo<lb ed="#V" n="50" break="no"/>luntaria peccata non immerito dicuntur: quia vel a nescientibus vel a 
-      <lb ed="#V" n="51"/>coactis perpetrantur: non omni modo possunt sine voluntate committi. 
-   </p>
-            <p xml:id="kzz7yh-f118937-d1e119">
-               <lb ed="#V" n="52"/>¶ Ad cuius intelligentiam nonnium: quod vno modo dicitur voluntarium 
-      <lb ed="#V" n="53"/>quod est a voluntate nullo inclinante: nec exterius: nec interius: et 
-      <lb ed="#V" n="54"/>sic peccatum lucifer fuit voluntarium. Alio modo quod est a 
-      volun<lb ed="#V" n="55" break="no"/>tate aliquo suggerente exterius: sed nullo inclmante interius: et 
-      <lb ed="#V" n="56"/>sic principium peccatum primi hominis fuit voluntarium.
-   </p>
-            <p xml:id="kzz7yh-f118937-d1e132">
-      ¶ 3o modo quod a 
-      vo<lb ed="#V" n="57" break="no"/>luntate aliquo inclinante interius et exterius: et sic peccatum ex 
-      deli<lb ed="#V" n="58" break="no"/>beratione perpetratum in statu nature lapse: aliquando est voluntarium. 
-   </p>
-            <p xml:id="kzz7yh-f118937-d1e139">
-               <lb ed="#V" n="59"/>¶ 4o modo quod est. a voluntate non mouente ad illud directe: 
-      <lb ed="#V" n="60"/>sed mouente ad incompossibile: et sic hominem non ire ad mirtinum qui se 
-      <lb ed="#V" n="61"/>iebriat est voluntarium.
-   </p>
-            <p xml:id="kzz7yh-f118937-d1e149">
-      ¶ 5o modo quod est a voluntate imquantum 
-      <lb ed="#V" n="62"/>refugit aliquod penale malum: quod timet: et sic peccatum quod homo 
-      fa<lb ed="#V" n="63" break="no"/>cit vt vitet aliquam temporalem penam est voluntarium.
-   </p>
-            <p xml:id="kzz7yh-f118937-d1e156">
-      ¶ 6o quod est 
-      <lb ed="#V" n="64"/>a voluntate propter defectu cognitionis in ratione: et sic peccatum ex 
-      igno<lb ed="#V" n="65" break="no"/>rantia est voluntarium.
-   </p>
-            <p xml:id="kzz7yh-f118937-d1e163">
-      ¶ 7illud quod sequitur hominem par aliquid: 
-      <lb ed="#V" n="66"/>quod voluntarie facit: et sic fatuitates quis faciut ebrii: qui se 
-      <lb ed="#V" n="67"/>voluntarie inebriauerunt: possunt dici aliquo modo voluntarie. 
-   </p>
-            <p xml:id="kzz7yh-f118937-d1e170">
-               <lb ed="#V" n="68"/>¶ 8o modo quod voluntas potuit prohibere et debuit et non pro¬ 
-      <!--00347.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="69"/>hibuit: dicitur voluntarium.
-   </p>
-            <p xml:id="kzz7yh-f118937-d1e181">
-      ¶ 9o quod introductum est ab aliena 
-      <lb ed="#V" n="70"/>voluntate: sicut a causa prima: et sic peccatum originale est 
-      volunta<lb ed="#V" n="71" break="no"/>rium: nusquam nisi voluntate peccatum est: hoc in. 5. questione 
-      <lb ed="#V" n="72"/>dist. presentis expositum est. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="167-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f118937"><!-- l2d41cl -->
+        <head xml:id="kzz7yh-f118937-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-f118937-d1e103">
+          <lb ed="#V" n="46"/>CIrca litteram. Fides intentionem 
+          di<lb ed="#V" n="47" break="no"/>rigit. hoc expositum est 
+          <lb ed="#V" n="48"/>in littera dis. praecedenti. Omnis infidelium vita peccatum est: 
+          <lb ed="#V" n="49"/>hoc expositum est in 3a. q. dis. praesentis. Illa quae non 
+          vo<lb ed="#V" n="50" break="no"/>luntaria peccata non immerito dicuntur: quia vel a nescientibus vel a 
+          <lb ed="#V" n="51"/>coactis perpetrantur: non omni modo possunt sine voluntate committi. 
+        </p>
+        <p xml:id="kzz7yh-f118937-d1e119">
+          <lb ed="#V" n="52"/>¶ Ad cuius intelligentiam nonnium: quod vno modo dicitur voluntarium 
+          <lb ed="#V" n="53"/>quod est a voluntate nullo inclinante: nec exterius: nec interius: et 
+          <lb ed="#V" n="54"/>sic peccatum lucifer fuit voluntarium. Alio modo quod est a 
+          volun<lb ed="#V" n="55" break="no"/>tate aliquo suggerente exterius: sed nullo inclmante interius: et 
+          <lb ed="#V" n="56"/>sic principium peccatum primi hominis fuit voluntarium.
+        </p>
+        <p xml:id="kzz7yh-f118937-d1e132">
+          ¶ 3o modo quod a 
+          vo<lb ed="#V" n="57" break="no"/>luntate aliquo inclinante interius et exterius: et sic peccatum ex 
+          deli<lb ed="#V" n="58" break="no"/>beratione perpetratum in statu nature lapse: aliquando est voluntarium. 
+        </p>
+        <p xml:id="kzz7yh-f118937-d1e139">
+          <lb ed="#V" n="59"/>¶ 4o modo quod est. a voluntate non mouente ad illud directe: 
+          <lb ed="#V" n="60"/>sed mouente ad incompossibile: et sic hominem non ire ad mirtinum qui se 
+          <lb ed="#V" n="61"/>iebriat est voluntarium.
+        </p>
+        <p xml:id="kzz7yh-f118937-d1e149">
+          ¶ 5o modo quod est a voluntate imquantum 
+          <lb ed="#V" n="62"/>refugit aliquod penale malum: quod timet: et sic peccatum quod homo 
+          fa<lb ed="#V" n="63" break="no"/>cit vt vitet aliquam temporalem penam est voluntarium.
+        </p>
+        <p xml:id="kzz7yh-f118937-d1e156">
+          ¶ 6o quod est 
+          <lb ed="#V" n="64"/>a voluntate propter defectu cognitionis in ratione: et sic peccatum ex 
+          igno<lb ed="#V" n="65" break="no"/>rantia est voluntarium.
+        </p>
+        <p xml:id="kzz7yh-f118937-d1e163">
+          ¶ 7illud quod sequitur hominem par aliquid: 
+          <lb ed="#V" n="66"/>quod voluntarie facit: et sic fatuitates quis faciut ebrii: qui se 
+          <lb ed="#V" n="67"/>voluntarie inebriauerunt: possunt dici aliquo modo voluntarie. 
+        </p>
+        <p xml:id="kzz7yh-f118937-d1e170">
+          <lb ed="#V" n="68"/>¶ 8o modo quod voluntas potuit prohibere et debuit et non pro¬ 
+          <!--00347.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="69"/>hibuit: dicitur voluntarium.
+        </p>
+        <p xml:id="kzz7yh-f118937-d1e181">
+          ¶ 9o quod introductum est ab aliena 
+          <lb ed="#V" n="70"/>voluntate: sicut a causa prima: et sic peccatum originale est 
+          volunta<lb ed="#V" n="71" break="no"/>rium: nusquam nisi voluntate peccatum est: hoc in. 5. questione 
+          <lb ed="#V" n="72"/>dist. presentis expositum est. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

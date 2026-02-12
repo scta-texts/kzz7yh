@@ -1,100 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="58-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k41705"><!-- l4d13cl -->
-            <head xml:id="kzz7yh-k41705-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-k41705-d1e103">
-               <lb ed="#V" n="112"/>Circa litteram. Prece mystica consecratur: 
-      <lb ed="#V" n="113"/>quia quamuis fiat per orationem indicatiuam: 
-      <lb ed="#V" n="114"/>eam tamen precem mysticam vocat: quia per eam 
-      no<lb ed="#V" n="115" break="no"/>bis multa bona impetrantur. Quid melius 
-      cor<lb ed="#V" n="116" break="no"/>pore et sanguine christi: hic per sanguinem intelligit totum christum 
-      <lb ed="#V" n="117"/>sub specie vini: et per corpus totum christum sub specie panis: quia 
-      <lb ed="#V" n="118"/>quamuis substantia panis non conuertatur nisi in substantiam corporis nec 
-      <lb ed="#V" n="119"/>substantia vini nisi in sanguinem: tamen sub vtraque specie totus est christus per 
-      <lb ed="#V" n="120"/>concomitantiam vt superius declaratum est. Excommunicati vel de 
-      <lb ed="#V" n="121"/>heresi manifeste notati non vder hoc sacramentum posse 
-      confice<lb ed="#V" n="122" break="no"/>re: hoc falsum est nisi restringatur ad posse de iure: vt in 
-      <lb ed="#V" n="123"/>quaestionibus visum est. Missa dicitur etc. missam beatus Petrus 
-      <lb ed="#V" n="124"/>apostolus primus omnium anthiochie dicitur celebrasse secundum quod 
-      di<lb ed="#V" n="125" break="no"/>cit Hhum 2 libro de sacra. parte 8 c. vl. et de consecratione 
-      distin<lb ed="#V" n="126" break="no"/>ctione prima. Iacobus dicitur quod Iacobus cui primum 
-      credita<lb ed="#V" n="127" break="no"/>est hierosolymitana ecclesia: et Bafilius cesariensis episcopo 
-      <lb ed="#V" n="128"/>addiderunt nobis misse celebrationem id est ordinem 
-      celebran<lb ed="#V" n="129" break="no"/>de misse secundum glo. ibidem: et post alii alia addiderunt ad 
-      de<lb ed="#V" n="130" break="no"/>corem et solennitatem vt habetur. di. xi. ecclesiasticarum: dicitur autem 
-      <lb ed="#V" n="131"/>missa secundum magistrum eo quod celestis missus scilicet angelus 
-      adue<lb ed="#V" n="132" break="no"/>niat ad consecrandum: non vt consecret: sed vt sacerdoti 
-      con<lb ed="#V" n="133" break="no"/>secranti assistat: vnde ly consecrandum debet legi 
-      impersona<lb ed="#V" n="134" break="no"/>liter: nec intelligendum quod tantum mittatur vnus angelus sed 
-      <lb ed="#V" n="135"/>magna multitudo angelorum. Dicitur etiam missa secundum hu. 
-      <lb ed="#V" n="136"/>vbi prius eo quod popostulos fidelis per ministerium. sacerdotis quod 
-      <!--00146.xml-->
-      <pb ed="#V" n="58-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>mediatoris vice fungitur inter deum et homines: preces et 
-      vo<lb ed="#V" n="2" break="no"/>ta et oblationes deo mit it. Uel missa dicitur: quia per 
-      transubstantiatio<lb ed="#V" n="3" break="no"/>nem substantiae panis et vini intcorpus christi et sanguinem incipit 
-      <lb ed="#V" n="4"/>sub vtraque specie totus esse christus quasi de nouo esset missus. 
-      <lb ed="#V" n="5"/>Iube hoc perferri per manus etc. hec id est horum significata scilicet 
-      <lb ed="#V" n="6"/>ecclesie membra: iube perferri in sublime altare suum id est in 
-      <lb ed="#V" n="7"/>ecclesiam triumphantem. Nunquid si hoc mysterium here ticus 
-      <lb ed="#V" n="8"/>ausus fuerit vsurpare angelus de celis mittit deus non 
-      <lb ed="#V" n="9"/>propter consecrantem mittit tamen propter sa ati dignitatem. Et 
-      <lb ed="#V" n="10"/>sensus id est peruersus assensus fit crimen. c. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="58-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k41705"><!-- l4d13cl -->
+        <head xml:id="kzz7yh-k41705-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-k41705-d1e103">
+          <lb ed="#V" n="112"/>Circa litteram. Prece mystica consecratur: 
+          <lb ed="#V" n="113"/>quia quamuis fiat per orationem indicatiuam: 
+          <lb ed="#V" n="114"/>eam tamen precem mysticam vocat: quia per eam 
+          no<lb ed="#V" n="115" break="no"/>bis multa bona impetrantur. Quid melius 
+          cor<lb ed="#V" n="116" break="no"/>pore et sanguine christi: hic per sanguinem intelligit totum christum 
+          <lb ed="#V" n="117"/>sub specie vini: et per corpus totum christum sub specie panis: quia 
+          <lb ed="#V" n="118"/>quamuis substantia panis non conuertatur nisi in substantiam corporis nec 
+          <lb ed="#V" n="119"/>substantia vini nisi in sanguinem: tamen sub vtraque specie totus est christus per 
+          <lb ed="#V" n="120"/>concomitantiam vt superius declaratum est. Excommunicati vel de 
+          <lb ed="#V" n="121"/>heresi manifeste notati non vder hoc sacramentum posse 
+          confice<lb ed="#V" n="122" break="no"/>re: hoc falsum est nisi restringatur ad posse de iure: vt in 
+          <lb ed="#V" n="123"/>quaestionibus visum est. Missa dicitur etc. missam beatus Petrus 
+          <lb ed="#V" n="124"/>apostolus primus omnium anthiochie dicitur celebrasse secundum quod 
+          di<lb ed="#V" n="125" break="no"/>cit Hhum 2 libro de sacra. parte 8 c. vl. et de consecratione 
+          distin<lb ed="#V" n="126" break="no"/>ctione prima. Iacobus dicitur quod Iacobus cui primum 
+          credita<lb ed="#V" n="127" break="no"/>est hierosolymitana ecclesia: et Bafilius cesariensis episcopo 
+          <lb ed="#V" n="128"/>addiderunt nobis misse celebrationem id est ordinem 
+          celebran<lb ed="#V" n="129" break="no"/>de misse secundum glo. ibidem: et post alii alia addiderunt ad 
+          de<lb ed="#V" n="130" break="no"/>corem et solennitatem vt habetur. di. xi. ecclesiasticarum: dicitur autem 
+          <lb ed="#V" n="131"/>missa secundum magistrum eo quod celestis missus scilicet angelus 
+          adue<lb ed="#V" n="132" break="no"/>niat ad consecrandum: non vt consecret: sed vt sacerdoti 
+          con<lb ed="#V" n="133" break="no"/>secranti assistat: vnde ly consecrandum debet legi 
+          impersona<lb ed="#V" n="134" break="no"/>liter: nec intelligendum quod tantum mittatur vnus angelus sed 
+          <lb ed="#V" n="135"/>magna multitudo angelorum. Dicitur etiam missa secundum hu. 
+          <lb ed="#V" n="136"/>vbi prius eo quod popostulos fidelis per ministerium. sacerdotis quod 
+          <!--00146.xml-->
+          <pb ed="#V" n="58-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>mediatoris vice fungitur inter deum et homines: preces et 
+          vo<lb ed="#V" n="2" break="no"/>ta et oblationes deo mit it. Uel missa dicitur: quia per 
+          transubstantiatio<lb ed="#V" n="3" break="no"/>nem substantiae panis et vini intcorpus christi et sanguinem incipit 
+          <lb ed="#V" n="4"/>sub vtraque specie totus esse christus quasi de nouo esset missus. 
+          <lb ed="#V" n="5"/>Iube hoc perferri per manus etc. hec id est horum significata scilicet 
+          <lb ed="#V" n="6"/>ecclesie membra: iube perferri in sublime altare suum id est in 
+          <lb ed="#V" n="7"/>ecclesiam triumphantem. Nunquid si hoc mysterium here ticus 
+          <lb ed="#V" n="8"/>ausus fuerit vsurpare angelus de celis mittit deus non 
+          <lb ed="#V" n="9"/>propter consecrantem mittit tamen propter sa ati dignitatem. Et 
+          <lb ed="#V" n="10"/>sensus id est peruersus assensus fit crimen. c. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

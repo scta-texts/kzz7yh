@@ -1,416 +1,416 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="44-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f31379"><!-- l2d11a1 -->
-            <head xml:id="kzz7yh-f31379-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-f31379-d1e103">
-      ¶ Circa primum 
-      que<lb ed="#V" n="21" break="no"/>truntur tria.
-   </p>
-            <p xml:id="kzz7yh-f31379-d1e108">
-      ¶ Primo vtrum angelica 
-      custo<lb ed="#V" n="22" break="no"/>dia omnibus hominibus adhibeatur.
-   </p>
-            <p xml:id="kzz7yh-f31379-d1e113">
-      ¶ Secundo vtrum 
-      <lb ed="#V" n="23"/>adhibita aliquando subtrahatur.
-   </p>
-            <p xml:id="kzz7yh-f31379-d1e118">
-      ¶ Tertio vtrum inter 
-      an<lb ed="#V" n="24" break="no"/>gelos adhibitos ad custodiam hominum interdum 
-      con<lb ed="#V" n="25" break="no"/>trouersia oriatur.
-   </p>
-            <div xml:id="kzz7yh-f31379-Dd1e126">
-               <head xml:id="kzz7yh-f31379-Hd1e128">Quaestio 1</head>
-               <head xml:id="kzz7yh-f31379-Hd1e132" type="question-title">Utrum angelica custodia omnibus hominibus adhibeatur</head>
-               <p xml:id="kzz7yh-f31379-d1e130">
-      ¶ Questio I. 
-      <lb ed="#V" n="26"/>PRimo ostendo quod non 
-      omni<lb ed="#V" n="27" break="no"/>bus hominibus 
-      <lb ed="#V" n="28"/>adhibetur custodia angelica. quia maior est 
-      custo<lb ed="#V" n="29" break="no"/>diens custodito. Sed nullus angelus maior est 
-      <lb ed="#V" n="30"/>christo: ergo a nullo angelo custodiebatur.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e143">
-      ¶ Item 
-      cu<lb ed="#V" n="31" break="no"/>stodia est propter impugnantes necessaria. Sed 
-      homo<lb ed="#V" n="32" break="no"/>in statu innocentie non habebat aliquam pugnam. ergo 
-      <lb ed="#V" n="33"/>nec angelicam custodiam.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e152">
-      ¶ Item angelica custodia 
-      adhi<lb ed="#V" n="34" break="no"/>betur ad promouendum hominem in bonum. Sed 
-      anti<lb ed="#V" n="35" break="no"/>christus non poterit promoueri in bonum: quia erit 
-      ob<lb ed="#V" n="36" break="no"/>stinatus in malo. ergo nullus angelus deputabitur ad illum 
-      <lb ed="#V" n="37"/>custodiendum.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e163">
-      ¶ Item pueri ante vsum libero arbitri non 
-      <lb ed="#V" n="38"/>possunt mereri nec demereri. ergo vt videtur superfluum 
-      <lb ed="#V" n="39"/>esset ipsos ab angelis custodiri.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e171">
-      ¶ Item qui permittit 
-      er<lb ed="#V" n="40" break="no"/>rare rem commissam sue custodie dignus est reprehendi. Sed 
-      <lb ed="#V" n="41"/>boni angeli non possunt fieri reprehensione digni. ergo cum 
-      <lb ed="#V" n="42"/>multi homines errent. videntur ab abgelis non custodiri¬ 
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e180">
-                  <lb ed="#V" n="43"/>¶ Item Iob. 7. quid faciam tibi ocustos hominum. Deus. 
-      <lb ed="#V" n="44"/>ergo custodit homines per se ipsum. Ergo superfluum esset 
-      <lb ed="#V" n="45"/>hominem custodiri per angelum. 
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e189">
-                  <lb ed="#V" n="46"/>Contra Glo: super illud Matth. 18. angeli eorum 
-      <lb ed="#V" n="47"/>semper vident faciem patris: dicit: quod 
-      homi<lb ed="#V" n="48" break="no"/>nes non sunt contemnendi: quia ad eorum custodiam 
-      mittun<lb ed="#V" n="49" break="no"/>tur angeli.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e200">
-      ¶ Item Glo. super illud ecclesi. 17. in vnam 
-      <lb ed="#V" n="50"/>quamque gentem preposuit rectores. ibi. angelos. quibus 
-      <lb ed="#V" n="51"/>commisit deus custodiam simgularium gentium.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e207">
-      ¶ Item 
-      <lb ed="#V" n="52"/>Glo. Mat. 18 super illud. angeli eorum. magna deignitas 
-      <lb ed="#V" n="53"/>animarum vt vnaqueque habeat ab ortu natiuitatis in 
-      cu<lb ed="#V" n="54" break="no"/>stodiam sui angelum delegatum. 
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e216">
-                  <lb ed="#V" n="55"/>Respondeo quod vnicuique puto homini viatori 
-      <lb ed="#V" n="56"/>fuit adhita custodia angeli. et ante 
-      <lb ed="#V" n="57"/>lapsum et post lapsum et adhibebitur vsque ad completionem 
-      nu<lb ed="#V" n="58" break="no"/>meri electorum. Sicut enim dicit Diony. in libro de angelica hie 
-      <lb ed="#V" n="59"/>rar. capi. 4. lex diuine prouidentie est inferiora reducere in 
-      <lb ed="#V" n="60"/>deum per superiora. homines autem per naturam angelis sunt 
-      <lb ed="#V" n="61"/>inferiores. et sub ratione qua isti sunt viatores et illi 
-      com<lb ed="#V" n="62" break="no"/>prehensores. Et ideo consonum fuit diuine prouidencie: vt 
-      <lb ed="#V" n="63"/>quilibet purus homo ab angelo custodiretur. vt electos 
-      <lb ed="#V" n="64"/>in procuratione sue salutis adiuuarent. et reprobos ab 
-      ali<lb ed="#V" n="65" break="no"/>quibus malis actionibus vel effectibus retraherent. Fuit 
-      <lb ed="#V" n="66"/>etiam hoc consonum diuine misincordie. Cum enim secundum quod dicit 
-      <lb ed="#V" n="67"/>Mar. in littera: quilibet homo habeat malum angelum 
-      <lb ed="#V" n="68"/>sibi ad exercitium deputatum a principe demonum decuit 
-      <!--00101.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>magnitudinem diuine mise ricordie vt ab ipsa 
-      deputa<lb ed="#V" n="70" break="no"/>retur vnicuique puro homini bonus angelus in 
-      adiuto<lb ed="#V" n="71" break="no"/>rium. Et dixi puro homini: quia nullus angelus fuit 
-      depu<lb ed="#V" n="72" break="no"/>tatus ad custodiendum christum. Sed missi fuerunt 
-      ange<lb ed="#V" n="73" break="no"/>li ad exhibendum sibi tanquam domino suo obsequium. 
-      <!--TODO: Add paragraph break-->
-      <lb ed="#V" n="74"/>Unde primum argumentum concedendum est. 
-      <lb ed="#V" n="75"/>bene enim concedo quod christus
-      <lb ed="#V" n="76"/>angelica custodia non indiguit: nec eam habuit: quia et 
-      an<lb ed="#V" n="77" break="no"/>gelis dominabatur: et diuina suauitate perfectissime fruebatur. 
-      <lb ed="#V" n="78"/>simul enim erat viator et perfectissimus comprehensor. Unde cum 
-      <lb ed="#V" n="79"/>Luce. 22. legatur angelus christum confortasse: illa 
-      conforta<lb ed="#V" n="80" break="no"/>tio debet intelligi pro quadam assistentia amicalis 
-      reue<lb ed="#V" n="81" break="no"/>tie
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e282">
-      ¶ Ad 2m dicendum quod quamuis homo in statu innocentie: 
-      <lb ed="#V" n="82"/>non haberet pugnam interiorem: tamen habuit 
-      impugna<lb ed="#V" n="83" break="no"/>tionem exterius: non tamen violentiam in ferendo: sed malum 
-      <lb ed="#V" n="84"/>suadendo. Et preterea non tantum ahibetur angelica 
-      custo<lb ed="#V" n="85" break="no"/>dia ad prohibendum malum: sed esiam ad promouendum 
-      bo<lb ed="#V" n="86" break="no"/>num.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e295">
-      ¶ Ad 3m dicendum quod quamuis diabolus totum 
-      posside<lb ed="#V" n="87" break="no"/>bit antixprsum vt dicit Glosionus super illud. 2. ad Thesu. 2. cuius 
-      <lb ed="#V" n="88"/>est aduentus secundum operationem sathane: tamen habebit 
-      ange<lb ed="#V" n="89" break="no"/>lum custodem: quia quamuis non proficiet in promotione 
-      salu<lb ed="#V" n="90" break="no"/>tis illius: tamen multos effectus malos prohibebit quos 
-      <lb ed="#V" n="91"/>faceret nisi essent boni angeli.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e308">
-      ¶ Ad 4m dicendum quod quamuis 
-      pu<lb ed="#V" n="92" break="no"/>eri ante vsum liberi arbitrii non possint mereri nec 
-      demere<lb ed="#V" n="93" break="no"/>ri: tamen a diabolo posset corporibus eorum violentia 
-      in<lb ed="#V" n="94" break="no"/>ferri: a qua prohibentur ab angelis sanctis.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e317">
-      ¶ Ad 5m dicendum 
-      <lb ed="#V" n="95"/>quod quamuis multi homines errent: tamen angeli custodes 
-      eo<lb ed="#V" n="96" break="no"/>rum ex hoc non debent reprehendi: quia hoc non est propter defectum 
-      <lb ed="#V" n="97"/>eorum. Sed quia multi homines peruerse vtuntur libero 
-      arbitrio<lb ed="#V" n="98" break="no"/>quod non potest cogi. Si enim custodibus suis se conformarent 
-      <lb ed="#V" n="99"/>et obtemperarent: non errarent
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e330">
-      ¶ Ad 6m dicendum quod quamuis 
-      de<lb ed="#V" n="100" break="no"/>us immediate homines custodiat per seipsum: custodit etiam 
-      <lb ed="#V" n="101"/>eos mediate per angelicum ministerium non propter 
-      cu<lb ed="#V" n="102" break="no"/>stodie sue insufficientiam: sed propter dilectionis quam 
-      ha<lb ed="#V" n="103" break="no"/>bet ad nos manifestationem: et sue bonitatis 
-      communicatio<lb ed="#V" n="104" break="no"/>nem: et propter maiorem pertium vniuersi connexionem: quia et sicut per 
-      <lb ed="#V" n="105"/>illam custodiam homines adiuuantur: ita angeli in 
-      custo<lb ed="#V" n="106" break="no"/>diendo aliquod premium accidentale merentur. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f31379-Dd1e349">
-               <head xml:id="kzz7yh-f31379-Hd1e351">Quaestio 2</head>
-               <head xml:id="kzz7yh-f31379-Hd1e362" type="question-title">Utrum angelica custodia aliquando homini subtrahatur</head>
-               <p xml:id="kzz7yh-f31379-d1e353">
-      Quaesio II. 
-      <lb ed="#V" n="107"/>SEcundo queritur vtrum 
-      ange<lb ed="#V" n="108" break="no"/>lica custodia 
-      <lb ed="#V" n="109"/>aliquando homini subtrahatur. Et videtur quod sic Glossa 
-      su<lb ed="#V" n="110" break="no"/>per illud Iere. 51. curauimus babylonem et non est 
-      sa<lb ed="#V" n="111" break="no"/>nata: derelinquamus eam. exponit hoc esse dictum in persona 
-      an<lb ed="#V" n="112" break="no"/>gelorum. ergo videtur quod deseruerunt custodire babylonem. 
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e369">
-                  <lb ed="#V" n="113"/>¶ Item super illud Isa. 5. auferam sepem eius. dicit Glosu id est 
-      an<lb ed="#V" n="114" break="no"/>gelorum custodiam. ergo videtur quod genti iudeorum significate per 
-      <lb ed="#V" n="115"/>vineam quam deus custodia angelorum quasi sepiuerat: 
-      subtra<lb ed="#V" n="116" break="no"/>xit angelorum custodiam.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e380">
-      ¶ Item Dama. libro 2. capi. 3. dicit de 
-      <lb ed="#V" n="117"/>angelis quod dum sunt in celo non sunt in terra: et cum ad 
-      ter<lb ed="#V" n="118" break="no"/>ram a deo mittuntur: non remanent in celo. Cum ergo 
-      transfe<lb ed="#V" n="119" break="no"/>runtur de terram ad caelum: aliquando deserunt quos custodiunt. 
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e389">
-                  <lb ed="#V" n="120"/>Contra Apuleius in libro de deo socratis. loquens de 
-      <lb ed="#V" n="121"/>angelo custode sic ait. hoc quem dico prorsus
-      cu<lb ed="#V" n="122" break="no"/>stos singularis: prefectus domesticus: speculator proprius 
-      <lb ed="#V" n="123"/>curator intimus: cognitor assiduus obseruator 
-      indiuidu<lb ed="#V" n="124" break="no"/>us: arbiter inseparabilis testis: malorum improbator: bonorum 
-      <lb ed="#V" n="125"/>approbator.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e406">
-      ¶ Item ita est bonus angelus sollicitus in ad 
-      <lb ed="#V" n="126"/>iuuando sicut malus in impugnando. Sed malus nunquam 
-      de<lb ed="#V" n="127" break="no"/>sinit insidiari. Unde Ber. immedita. suis. ca. 21. mors vbique 
-      <lb ed="#V" n="128"/>tibi minatur: diabolus infidiatur. Ergo videtur quod bons 
-      <lb ed="#V" n="129"/>angelus nunquam desinit auxiliari. 
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e417">
-                  <lb ed="#V" n="130"/>Ad istam quaestionem voluerunt aliqui dicere quod aliquando
-      an<lb ed="#V" n="131" break="no"/>gelus deserit quem custodiebat: quando scilicet 
-      vi<lb ed="#V" n="132" break="no"/>det ipsum ita obstinatum quod circa ipsum non potest proficere. Sicut 
-      <lb ed="#V" n="133"/>medicus deserit infirmum de cuius saitate desperat.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e428">
-      ¶ Pro quae etiam 
-      <lb ed="#V" n="134"/>opinione videtur facere quod superius dictum est distin. 6 secuend 
-      <lb ed="#V" n="135"/>quod malus angelus cum ita perfecte vincitur ab aliquo 
-      <lb ed="#V" n="136"/>quod non estimat se amplius illum vincere posse recedit ab eo. 
-      <!--00102.xml-->
-      <pb ed="#V" n="44-v"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>et dimittit ipsum impugnante. Unde similiter videtur quod 
-      <lb ed="#V" n="2"/>cum bonus angelus illum quem custodiebat inuenerit ita 
-      re<lb ed="#V" n="3" break="no"/>bellem et in malo obstinatum quod non estimat se circa illum 
-      <lb ed="#V" n="4"/>posse proficere recedit ab eo.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e452">
-      ¶ Alia est opinio 
-      probabi<lb ed="#V" n="5" break="no"/>lior et communior: quod nunquam alicui homini subtrahitur angelica 
-      <lb ed="#V" n="6"/>custodia quamdiu est in via. quin seper hebeat eam: vel ad sui 
-      promotio<lb ed="#V" n="7" break="no"/>nem in bonu. vel ad sui retractionem ab aliquo malo. 
-    </p>
-               <p xml:id="kzz7yh-f31379-d1e461">
-                  <lb ed="#V" n="8"/>Ad primum in oppositum dicendum quod illa 
-      aucto<lb ed="#V" n="9" break="no"/>ritas est intelligenda de 
-      subtra<lb ed="#V" n="10" break="no"/>ctione custodie quantum ad effectum promotionis in bonum. 
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e470">
-                  <lb ed="#V" n="11"/>¶ Ad 2m potest simili modo respondi. non tamen 
-      respe<lb ed="#V" n="12" break="no"/>ctu cuiuslibet iudei. sed respectu maioris partis eorum. 
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e478">
-                  <lb ed="#V" n="13"/>¶ Ad 3m dicendum quod cum angelus aliquem custodiens 
-      <lb ed="#V" n="14"/>transfert se de terra ad caelum: remanet aliquis effectus 
-      custo<lb ed="#V" n="15" break="no"/>die in illo quem custodit quousque reuertatur ad eum.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e487">
-      ¶ Ea 
-      <lb ed="#V" n="16"/>etiam que adducta suerunt pro alia opinione in corpore 
-      que<lb ed="#V" n="17" break="no"/>stionis uon cogunt. quia angelus circa hominem quantuncunque 
-      ma<lb ed="#V" n="18" break="no"/>lum dum est in via potest exercere effectum retractonis 
-      <lb ed="#V" n="19"/>ab aliquo malo quod non potest medicus circa quencumque 
-      infir<lb ed="#V" n="20" break="no"/>mum. Angelus. etiam malus nisi sit ita perfecte victus quod non 
-      <lb ed="#V" n="21"/>estimat se posse illum a quo victus est retrahere ab aliquo 
-      <lb ed="#V" n="22"/>bono non recedit totaliter ab eo.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f31379-Dd1e506">
-               <head xml:id="kzz7yh-f31379-Hd1e508">Quaestio 3</head>
-               <head xml:id="kzz7yh-f31379-Hd1e523" type="question-title">Utrum inter angelos adhibitos ad custodiam hominum interdum controversia oriatur</head>
-               <p xml:id="kzz7yh-f31379-d1e510">
-      ¶ Quaestio III. 
-      <lb ed="#V" n="23"/>TErtio queritur vtrum inter 
-      ange<lb ed="#V" n="24" break="no"/>los adhibitos ad 
-      <lb ed="#V" n="25"/>custodiam hominum interdum controuersia oriatur 
-      <lb ed="#V" n="26"/>Et videtur quod sic Glo. super illud Daniel. 7. quatuor 
-      <lb ed="#V" n="27"/>venti celi pugnabant etc. dicit quod quatuor venti sunt 
-      qua<lb ed="#V" n="28" break="no"/>tuor angelice potestates que regnis in quadripertito 
-      mun<lb ed="#V" n="29" break="no"/>do positis presunt.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e528">
-      ¶ Item Danie. 10 dicit angelus 
-      Da<lb ed="#V" n="30" break="no"/>nieli princeps regni persarum restitit mihi. Sed secundum Glo. per 
-      <lb ed="#V" n="31"/>illum principem intelligitur angelus custos prouincie 
-      per<lb ed="#V" n="32" break="no"/>sarum. Ergo videtur quod angeli inter se habeant controuersiam 
-      <lb ed="#V" n="33"/>aliquando.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e539">
-      ¶ Item Grego. 17. libro Mora. inter principium et 
-      <lb ed="#V" n="34"/>medium. quia certa angelorum ministeria dispensandis 
-      sin<lb ed="#V" n="35" break="no"/>gulis quibusque gentibus sunt prelata: cum subiectorum 
-      <lb ed="#V" n="36"/>mores aduersum se vicissim prepositorum spirituum opecem 
-      meren<lb ed="#V" n="37" break="no"/>tur: ipsi qui presunt spiritus contra se venire refetuntur 
-      <lb ed="#V" n="38"/>Ergo videtur quod propter conrietatem populorum quos custodiunt 
-      <lb ed="#V" n="39"/>inter se angeli custodientes contrariantur. 
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e555">
-                  <lb ed="#V" n="40"/>Contra Iob. 25. dicitur de deo quod facit concordiam in 
-      <lb ed="#V" n="41"/>sublimibus suis.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e563">
-      ¶ Item plus potest 
-      amor<lb ed="#V" n="42" break="no"/>vnius ad concordiam amancium. quam odium vnius ad 
-      concor<lb ed="#V" n="43" break="no"/>diam odientium. Sed mali spiritus inter se concordant 
-      in<lb ed="#V" n="44" break="no"/>odium nostrum. ergo multo fortius angeli boni inter se 
-      <lb ed="#V" n="45"/>semper concordant propter amorem ad principem suum. 
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e574">
-                  <lb ed="#V" n="46"/>Respondeo quod inter angelos bonos nulla 
-      po<lb ed="#V" n="47" break="no"/>test esse discordia. omnes enim 
-      crea<lb ed="#V" n="48" break="no"/>ture a principio primo procedunt. et quanto magis ab eo 
-      di<lb ed="#V" n="49" break="no"/>stant: tanto magis distant inter se. et quanto magis ei 
-      appro<lb ed="#V" n="50" break="no"/>pinquant tanto magis vniuntur inter se. Unde Diony. 5. 
-      <lb ed="#V" n="51"/>capi. de. di. no. comparat egressionem creaturarum a deo: 
-      egres<lb ed="#V" n="52" break="no"/>sui linearum a centro. eo quod linee quanto magis elongantur 
-      <lb ed="#V" n="53"/>a centro: tanto magis elongantur inter se et ille partes que 
-      <lb ed="#V" n="54"/>centro sunt propinquiores: sunt propinquores inter se. et 
-      <lb ed="#V" n="55"/>vbi iunguntur centro iunguntur inter se. Cum ergo 
-      bo<lb ed="#V" n="56" break="no"/>ni angeli perfecte sint coniuncti deo: per cognitionem et amorem 
-      <lb ed="#V" n="57"/>quantum fieri potest vniuntur inter se per amorem. Quod verum 
-      <lb ed="#V" n="58"/>non esset si aliquando inter se discordiam haberent. 
-    </p>
-               <p xml:id="kzz7yh-f31379-d1e605">
-                  <lb ed="#V" n="59"/>Ad primum in oppositum dicendum quod illa pugna
-      <lb ed="#V" n="60"/>non erat discordie. nec vna pugna
-      <lb ed="#V" n="61"/>Sed quia angeli custodes illorum regnorum procurant 
-      bo<lb ed="#V" n="62" break="no"/>num gencium quibus presunt. et merita illarum gentium 
-      quando<lb ed="#V" n="63" break="no"/>qua contraria sunt inter se. ideo per quandam metaphoram 
-      <lb ed="#V" n="64"/>quandoque dicuntur contrariari inter se custodes earum. non 
-      <lb ed="#V" n="65"/>quod illa contrarietas inter gentes illas veniat ex parte 
-      cu<lb ed="#V" n="66" break="no"/>stodum suorum.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e625">
-      ¶ Uel potest dici quod quando angeli super 
-      <lb ed="#V" n="67"/>aliquo facto voluntatem dei nesciunt. vtpote super 
-      libera<lb ed="#V" n="68" break="no"/>tione alicuius populi captiui quod dum angelus qui preest 
-      <!--00102.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>captiuantibus: et angelus qui praeest captiuatis super hoc 
-      sen<lb ed="#V" n="70" break="no"/>tentiam dei expectant: per quandam similitudinem dicuntur 
-      <lb ed="#V" n="71"/>inter se contrariari. Sicut expectentes sententiam 
-      iudicis<lb ed="#V" n="72" break="no"/>inter partes contrarias. quorum quidam sunt aduocati 
-      vni<lb ed="#V" n="73" break="no"/>us partis: et alii alterius.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e647">
-      ¶ Ad 2m dicendum quod lachryme 
-      Da<lb ed="#V" n="74" break="no"/>nie. et merita. et lachryme bonorum relictorum in iudea: 
-      <lb ed="#V" n="75"/>quibus Michael preerat quantum est ex parte sua 
-      mereban<lb ed="#V" n="76" break="no"/>tur iudei captiuorum in perside liberationem. Et hoc pro 
-      il<lb ed="#V" n="77" break="no"/>lis captiuis angelus eis prepositus allegabat qui loqui 
-      <lb ed="#V" n="78"/>venerat Dan veli Angelus autem qui persis praeerat allegabat quod 
-      <lb ed="#V" n="79"/>adhuc in illis captiuis aliquid purgandu restabat. et quia illi 
-      <lb ed="#V" n="80"/>captiui erant fideles remanentia eorum inter persas ipsis persis vt 
-      <lb ed="#V" n="81"/>illis erat. et super hec diuinam sententiam corditer expectabant. 
-      <lb ed="#V" n="82"/>Unde Grego. 17. Mora. longe ante medium. exponens 
-      <lb ed="#V" n="83"/>illud princeps regni persarum restitit mihi. sic ait. acsi a 
-      <lb ed="#V" n="84"/>parte dicat: precum quidem tuarum merita exigunt vt hisra 
-      <lb ed="#V" n="85"/>eliticus populus a iugo sue captluitatis exuatur. sed est 
-      <lb ed="#V" n="86"/>adhoc quod in eodem populo purgari debeat. Unde 
-      excep<lb ed="#V" n="87" break="no"/>tioni illius persarum princeps mihi iure contradicit. 
-      quam<lb ed="#V" n="88" break="no"/>uis preces tuas eorum quoque lachryme qui in udea 
-      reli<lb ed="#V" n="89" break="no"/>cti sunt adiuuent. quapropter dixit quod Michael qui preerat 
-      <lb ed="#V" n="90"/>relictis in iudea venit in adiutorium sibi.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e686">
-      ¶ Ad 3m dicendum 
-      <lb ed="#V" n="91"/>quod angeli contra se venire dicuntur eo modo quo superius 
-      <lb ed="#V" n="92"/>est expositum non quia sibi inuicem contrarientur. 
-      Un<lb ed="#V" n="93" break="no"/>de Grego. 17. libro Mora. parum post auctoritatem prius 
-      <lb ed="#V" n="94"/>in arguendo allegatam. Recte dicitur quod contra se 
-      angeli<lb ed="#V" n="95" break="no"/>veniunt. qui subiectarum sibi gentium vicissim merita 
-      con<lb ed="#V" n="96" break="no"/>tra dicunt. natuam sublimes spiritus eisdem gentibus 
-      prin<lb ed="#V" n="97" break="no"/>cipantes nequaquam pro iniuste agentibus decertant. sed eorum 
-      <lb ed="#V" n="98"/>facta iuste iudicantes examinant. cum vnius cuiusque 
-      gen<lb ed="#V" n="99" break="no"/>tis vel culpa vel iusticia ad superne curie consilium ducitur: 
-      <lb ed="#V" n="100"/>eiusdem gentis prepositus vel obtinuisse incertaminer vel 
-      <lb ed="#V" n="101"/>non obtinuisse perhibetur. quorum tamen omnia vna est 
-      victo<lb ed="#V" n="102" break="no"/>ria sui super se opificis voluntas summa.
-   </p>
-               <p xml:id="kzz7yh-f31379-d1e716">
-      ¶ 
-      Argumen<lb ed="#V" n="103" break="no"/>ta ad partem aliam gratia principalis conclusionis 
-      concedi<lb ed="#V" n="104" break="no"/>possunt. Sciendum tamen quod quamuis omnes demones 
-      con<lb ed="#V" n="105" break="no"/>cordent ad malum nostrum: tamen se inuicem odiunt. et 
-      <lb ed="#V" n="106"/>voluntates eorum per se discordes sunt. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="44-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f31379"><!-- l2d11a1 -->
+        <head xml:id="kzz7yh-f31379-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-f31379-d1e103">
+          ¶ Circa primum 
+          que<lb ed="#V" n="21" break="no"/>truntur tria.
+        </p>
+        <p xml:id="kzz7yh-f31379-d1e108">
+          ¶ Primo vtrum angelica 
+          custo<lb ed="#V" n="22" break="no"/>dia omnibus hominibus adhibeatur.
+        </p>
+        <p xml:id="kzz7yh-f31379-d1e113">
+          ¶ Secundo vtrum 
+          <lb ed="#V" n="23"/>adhibita aliquando subtrahatur.
+        </p>
+        <p xml:id="kzz7yh-f31379-d1e118">
+          ¶ Tertio vtrum inter 
+          an<lb ed="#V" n="24" break="no"/>gelos adhibitos ad custodiam hominum interdum 
+          con<lb ed="#V" n="25" break="no"/>trouersia oriatur.
+        </p>
+        <div xml:id="kzz7yh-f31379-Dd1e126">
+          <head xml:id="kzz7yh-f31379-Hd1e128">Quaestio 1</head>
+          <head xml:id="kzz7yh-f31379-Hd1e132" type="question-title">Utrum angelica custodia omnibus hominibus adhibeatur</head>
+          <p xml:id="kzz7yh-f31379-d1e130">
+            ¶ Questio I. 
+            <lb ed="#V" n="26"/>PRimo ostendo quod non 
+            omni<lb ed="#V" n="27" break="no"/>bus hominibus 
+            <lb ed="#V" n="28"/>adhibetur custodia angelica. quia maior est 
+            custo<lb ed="#V" n="29" break="no"/>diens custodito. Sed nullus angelus maior est 
+            <lb ed="#V" n="30"/>christo: ergo a nullo angelo custodiebatur.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e143">
+            ¶ Item 
+            cu<lb ed="#V" n="31" break="no"/>stodia est propter impugnantes necessaria. Sed 
+            homo<lb ed="#V" n="32" break="no"/>in statu innocentie non habebat aliquam pugnam. ergo 
+            <lb ed="#V" n="33"/>nec angelicam custodiam.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e152">
+            ¶ Item angelica custodia 
+            adhi<lb ed="#V" n="34" break="no"/>betur ad promouendum hominem in bonum. Sed 
+            anti<lb ed="#V" n="35" break="no"/>christus non poterit promoueri in bonum: quia erit 
+            ob<lb ed="#V" n="36" break="no"/>stinatus in malo. ergo nullus angelus deputabitur ad illum 
+            <lb ed="#V" n="37"/>custodiendum.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e163">
+            ¶ Item pueri ante vsum libero arbitri non 
+            <lb ed="#V" n="38"/>possunt mereri nec demereri. ergo vt videtur superfluum 
+            <lb ed="#V" n="39"/>esset ipsos ab angelis custodiri.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e171">
+            ¶ Item qui permittit 
+            er<lb ed="#V" n="40" break="no"/>rare rem commissam sue custodie dignus est reprehendi. Sed 
+            <lb ed="#V" n="41"/>boni angeli non possunt fieri reprehensione digni. ergo cum 
+            <lb ed="#V" n="42"/>multi homines errent. videntur ab abgelis non custodiri¬ 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e180">
+            <lb ed="#V" n="43"/>¶ Item Iob. 7. quid faciam tibi ocustos hominum. Deus. 
+            <lb ed="#V" n="44"/>ergo custodit homines per se ipsum. Ergo superfluum esset 
+            <lb ed="#V" n="45"/>hominem custodiri per angelum. 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e189">
+            <lb ed="#V" n="46"/>Contra Glo: super illud Matth. 18. angeli eorum 
+            <lb ed="#V" n="47"/>semper vident faciem patris: dicit: quod 
+            homi<lb ed="#V" n="48" break="no"/>nes non sunt contemnendi: quia ad eorum custodiam 
+            mittun<lb ed="#V" n="49" break="no"/>tur angeli.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e200">
+            ¶ Item Glo. super illud ecclesi. 17. in vnam 
+            <lb ed="#V" n="50"/>quamque gentem preposuit rectores. ibi. angelos. quibus 
+            <lb ed="#V" n="51"/>commisit deus custodiam simgularium gentium.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e207">
+            ¶ Item 
+            <lb ed="#V" n="52"/>Glo. Mat. 18 super illud. angeli eorum. magna deignitas 
+            <lb ed="#V" n="53"/>animarum vt vnaqueque habeat ab ortu natiuitatis in 
+            cu<lb ed="#V" n="54" break="no"/>stodiam sui angelum delegatum. 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e216">
+            <lb ed="#V" n="55"/>Respondeo quod vnicuique puto homini viatori 
+            <lb ed="#V" n="56"/>fuit adhita custodia angeli. et ante 
+            <lb ed="#V" n="57"/>lapsum et post lapsum et adhibebitur vsque ad completionem 
+            nu<lb ed="#V" n="58" break="no"/>meri electorum. Sicut enim dicit Diony. in libro de angelica hie 
+            <lb ed="#V" n="59"/>rar. capi. 4. lex diuine prouidentie est inferiora reducere in 
+            <lb ed="#V" n="60"/>deum per superiora. homines autem per naturam angelis sunt 
+            <lb ed="#V" n="61"/>inferiores. et sub ratione qua isti sunt viatores et illi 
+            com<lb ed="#V" n="62" break="no"/>prehensores. Et ideo consonum fuit diuine prouidencie: vt 
+            <lb ed="#V" n="63"/>quilibet purus homo ab angelo custodiretur. vt electos 
+            <lb ed="#V" n="64"/>in procuratione sue salutis adiuuarent. et reprobos ab 
+            ali<lb ed="#V" n="65" break="no"/>quibus malis actionibus vel effectibus retraherent. Fuit 
+            <lb ed="#V" n="66"/>etiam hoc consonum diuine misincordie. Cum enim secundum quod dicit 
+            <lb ed="#V" n="67"/>Mar. in littera: quilibet homo habeat malum angelum 
+            <lb ed="#V" n="68"/>sibi ad exercitium deputatum a principe demonum decuit 
+            <!--00101.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>magnitudinem diuine mise ricordie vt ab ipsa 
+            deputa<lb ed="#V" n="70" break="no"/>retur vnicuique puro homini bonus angelus in 
+            adiuto<lb ed="#V" n="71" break="no"/>rium. Et dixi puro homini: quia nullus angelus fuit 
+            depu<lb ed="#V" n="72" break="no"/>tatus ad custodiendum christum. Sed missi fuerunt 
+            ange<lb ed="#V" n="73" break="no"/>li ad exhibendum sibi tanquam domino suo obsequium. 
+            <!--TODO: Add paragraph break-->
+            <lb ed="#V" n="74"/>Unde primum argumentum concedendum est. 
+            <lb ed="#V" n="75"/>bene enim concedo quod christus
+            <lb ed="#V" n="76"/>angelica custodia non indiguit: nec eam habuit: quia et 
+            an<lb ed="#V" n="77" break="no"/>gelis dominabatur: et diuina suauitate perfectissime fruebatur. 
+            <lb ed="#V" n="78"/>simul enim erat viator et perfectissimus comprehensor. Unde cum 
+            <lb ed="#V" n="79"/>Luce. 22. legatur angelus christum confortasse: illa 
+            conforta<lb ed="#V" n="80" break="no"/>tio debet intelligi pro quadam assistentia amicalis 
+            reue<lb ed="#V" n="81" break="no"/>tie
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e282">
+            ¶ Ad 2m dicendum quod quamuis homo in statu innocentie: 
+            <lb ed="#V" n="82"/>non haberet pugnam interiorem: tamen habuit 
+            impugna<lb ed="#V" n="83" break="no"/>tionem exterius: non tamen violentiam in ferendo: sed malum 
+            <lb ed="#V" n="84"/>suadendo. Et preterea non tantum ahibetur angelica 
+            custo<lb ed="#V" n="85" break="no"/>dia ad prohibendum malum: sed esiam ad promouendum 
+            bo<lb ed="#V" n="86" break="no"/>num.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e295">
+            ¶ Ad 3m dicendum quod quamuis diabolus totum 
+            posside<lb ed="#V" n="87" break="no"/>bit antixprsum vt dicit Glosionus super illud. 2. ad Thesu. 2. cuius 
+            <lb ed="#V" n="88"/>est aduentus secundum operationem sathane: tamen habebit 
+            ange<lb ed="#V" n="89" break="no"/>lum custodem: quia quamuis non proficiet in promotione 
+            salu<lb ed="#V" n="90" break="no"/>tis illius: tamen multos effectus malos prohibebit quos 
+            <lb ed="#V" n="91"/>faceret nisi essent boni angeli.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e308">
+            ¶ Ad 4m dicendum quod quamuis 
+            pu<lb ed="#V" n="92" break="no"/>eri ante vsum liberi arbitrii non possint mereri nec 
+            demere<lb ed="#V" n="93" break="no"/>ri: tamen a diabolo posset corporibus eorum violentia 
+            in<lb ed="#V" n="94" break="no"/>ferri: a qua prohibentur ab angelis sanctis.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e317">
+            ¶ Ad 5m dicendum 
+            <lb ed="#V" n="95"/>quod quamuis multi homines errent: tamen angeli custodes 
+            eo<lb ed="#V" n="96" break="no"/>rum ex hoc non debent reprehendi: quia hoc non est propter defectum 
+            <lb ed="#V" n="97"/>eorum. Sed quia multi homines peruerse vtuntur libero 
+            arbitrio<lb ed="#V" n="98" break="no"/>quod non potest cogi. Si enim custodibus suis se conformarent 
+            <lb ed="#V" n="99"/>et obtemperarent: non errarent
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e330">
+            ¶ Ad 6m dicendum quod quamuis 
+            de<lb ed="#V" n="100" break="no"/>us immediate homines custodiat per seipsum: custodit etiam 
+            <lb ed="#V" n="101"/>eos mediate per angelicum ministerium non propter 
+            cu<lb ed="#V" n="102" break="no"/>stodie sue insufficientiam: sed propter dilectionis quam 
+            ha<lb ed="#V" n="103" break="no"/>bet ad nos manifestationem: et sue bonitatis 
+            communicatio<lb ed="#V" n="104" break="no"/>nem: et propter maiorem pertium vniuersi connexionem: quia et sicut per 
+            <lb ed="#V" n="105"/>illam custodiam homines adiuuantur: ita angeli in 
+            custo<lb ed="#V" n="106" break="no"/>diendo aliquod premium accidentale merentur. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f31379-Dd1e349">
+          <head xml:id="kzz7yh-f31379-Hd1e351">Quaestio 2</head>
+          <head xml:id="kzz7yh-f31379-Hd1e362" type="question-title">Utrum angelica custodia aliquando homini subtrahatur</head>
+          <p xml:id="kzz7yh-f31379-d1e353">
+            Quaesio II. 
+            <lb ed="#V" n="107"/>SEcundo queritur vtrum 
+            ange<lb ed="#V" n="108" break="no"/>lica custodia 
+            <lb ed="#V" n="109"/>aliquando homini subtrahatur. Et videtur quod sic Glossa 
+            su<lb ed="#V" n="110" break="no"/>per illud Iere. 51. curauimus babylonem et non est 
+            sa<lb ed="#V" n="111" break="no"/>nata: derelinquamus eam. exponit hoc esse dictum in persona 
+            an<lb ed="#V" n="112" break="no"/>gelorum. ergo videtur quod deseruerunt custodire babylonem. 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e369">
+            <lb ed="#V" n="113"/>¶ Item super illud Isa. 5. auferam sepem eius. dicit Glosu id est 
+            an<lb ed="#V" n="114" break="no"/>gelorum custodiam. ergo videtur quod genti iudeorum significate per 
+            <lb ed="#V" n="115"/>vineam quam deus custodia angelorum quasi sepiuerat: 
+            subtra<lb ed="#V" n="116" break="no"/>xit angelorum custodiam.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e380">
+            ¶ Item Dama. libro 2. capi. 3. dicit de 
+            <lb ed="#V" n="117"/>angelis quod dum sunt in celo non sunt in terra: et cum ad 
+            ter<lb ed="#V" n="118" break="no"/>ram a deo mittuntur: non remanent in celo. Cum ergo 
+            transfe<lb ed="#V" n="119" break="no"/>runtur de terram ad caelum: aliquando deserunt quos custodiunt. 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e389">
+            <lb ed="#V" n="120"/>Contra Apuleius in libro de deo socratis. loquens de 
+            <lb ed="#V" n="121"/>angelo custode sic ait. hoc quem dico prorsus
+            cu<lb ed="#V" n="122" break="no"/>stos singularis: prefectus domesticus: speculator proprius 
+            <lb ed="#V" n="123"/>curator intimus: cognitor assiduus obseruator 
+            indiuidu<lb ed="#V" n="124" break="no"/>us: arbiter inseparabilis testis: malorum improbator: bonorum 
+            <lb ed="#V" n="125"/>approbator.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e406">
+            ¶ Item ita est bonus angelus sollicitus in ad 
+            <lb ed="#V" n="126"/>iuuando sicut malus in impugnando. Sed malus nunquam 
+            de<lb ed="#V" n="127" break="no"/>sinit insidiari. Unde Ber. immedita. suis. ca. 21. mors vbique 
+            <lb ed="#V" n="128"/>tibi minatur: diabolus infidiatur. Ergo videtur quod bons 
+            <lb ed="#V" n="129"/>angelus nunquam desinit auxiliari. 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e417">
+            <lb ed="#V" n="130"/>Ad istam quaestionem voluerunt aliqui dicere quod aliquando
+            an<lb ed="#V" n="131" break="no"/>gelus deserit quem custodiebat: quando scilicet 
+            vi<lb ed="#V" n="132" break="no"/>det ipsum ita obstinatum quod circa ipsum non potest proficere. Sicut 
+            <lb ed="#V" n="133"/>medicus deserit infirmum de cuius saitate desperat.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e428">
+            ¶ Pro quae etiam 
+            <lb ed="#V" n="134"/>opinione videtur facere quod superius dictum est distin. 6 secuend 
+            <lb ed="#V" n="135"/>quod malus angelus cum ita perfecte vincitur ab aliquo 
+            <lb ed="#V" n="136"/>quod non estimat se amplius illum vincere posse recedit ab eo. 
+            <!--00102.xml-->
+            <pb ed="#V" n="44-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>et dimittit ipsum impugnante. Unde similiter videtur quod 
+            <lb ed="#V" n="2"/>cum bonus angelus illum quem custodiebat inuenerit ita 
+            re<lb ed="#V" n="3" break="no"/>bellem et in malo obstinatum quod non estimat se circa illum 
+            <lb ed="#V" n="4"/>posse proficere recedit ab eo.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e452">
+            ¶ Alia est opinio 
+            probabi<lb ed="#V" n="5" break="no"/>lior et communior: quod nunquam alicui homini subtrahitur angelica 
+            <lb ed="#V" n="6"/>custodia quamdiu est in via. quin seper hebeat eam: vel ad sui 
+            promotio<lb ed="#V" n="7" break="no"/>nem in bonu. vel ad sui retractionem ab aliquo malo. 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e461">
+            <lb ed="#V" n="8"/>Ad primum in oppositum dicendum quod illa 
+            aucto<lb ed="#V" n="9" break="no"/>ritas est intelligenda de 
+            subtra<lb ed="#V" n="10" break="no"/>ctione custodie quantum ad effectum promotionis in bonum. 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e470">
+            <lb ed="#V" n="11"/>¶ Ad 2m potest simili modo respondi. non tamen 
+            respe<lb ed="#V" n="12" break="no"/>ctu cuiuslibet iudei. sed respectu maioris partis eorum. 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e478">
+            <lb ed="#V" n="13"/>¶ Ad 3m dicendum quod cum angelus aliquem custodiens 
+            <lb ed="#V" n="14"/>transfert se de terra ad caelum: remanet aliquis effectus 
+            custo<lb ed="#V" n="15" break="no"/>die in illo quem custodit quousque reuertatur ad eum.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e487">
+            ¶ Ea 
+            <lb ed="#V" n="16"/>etiam que adducta suerunt pro alia opinione in corpore 
+            que<lb ed="#V" n="17" break="no"/>stionis uon cogunt. quia angelus circa hominem quantuncunque 
+            ma<lb ed="#V" n="18" break="no"/>lum dum est in via potest exercere effectum retractonis 
+            <lb ed="#V" n="19"/>ab aliquo malo quod non potest medicus circa quencumque 
+            infir<lb ed="#V" n="20" break="no"/>mum. Angelus. etiam malus nisi sit ita perfecte victus quod non 
+            <lb ed="#V" n="21"/>estimat se posse illum a quo victus est retrahere ab aliquo 
+            <lb ed="#V" n="22"/>bono non recedit totaliter ab eo.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f31379-Dd1e506">
+          <head xml:id="kzz7yh-f31379-Hd1e508">Quaestio 3</head>
+          <head xml:id="kzz7yh-f31379-Hd1e523" type="question-title">Utrum inter angelos adhibitos ad custodiam hominum interdum controversia oriatur</head>
+          <p xml:id="kzz7yh-f31379-d1e510">
+            ¶ Quaestio III. 
+            <lb ed="#V" n="23"/>TErtio queritur vtrum inter 
+            ange<lb ed="#V" n="24" break="no"/>los adhibitos ad 
+            <lb ed="#V" n="25"/>custodiam hominum interdum controuersia oriatur 
+            <lb ed="#V" n="26"/>Et videtur quod sic Glo. super illud Daniel. 7. quatuor 
+            <lb ed="#V" n="27"/>venti celi pugnabant etc. dicit quod quatuor venti sunt 
+            qua<lb ed="#V" n="28" break="no"/>tuor angelice potestates que regnis in quadripertito 
+            mun<lb ed="#V" n="29" break="no"/>do positis presunt.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e528">
+            ¶ Item Danie. 10 dicit angelus 
+            Da<lb ed="#V" n="30" break="no"/>nieli princeps regni persarum restitit mihi. Sed secundum Glo. per 
+            <lb ed="#V" n="31"/>illum principem intelligitur angelus custos prouincie 
+            per<lb ed="#V" n="32" break="no"/>sarum. Ergo videtur quod angeli inter se habeant controuersiam 
+            <lb ed="#V" n="33"/>aliquando.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e539">
+            ¶ Item Grego. 17. libro Mora. inter principium et 
+            <lb ed="#V" n="34"/>medium. quia certa angelorum ministeria dispensandis 
+            sin<lb ed="#V" n="35" break="no"/>gulis quibusque gentibus sunt prelata: cum subiectorum 
+            <lb ed="#V" n="36"/>mores aduersum se vicissim prepositorum spirituum opecem 
+            meren<lb ed="#V" n="37" break="no"/>tur: ipsi qui presunt spiritus contra se venire refetuntur 
+            <lb ed="#V" n="38"/>Ergo videtur quod propter conrietatem populorum quos custodiunt 
+            <lb ed="#V" n="39"/>inter se angeli custodientes contrariantur. 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e555">
+            <lb ed="#V" n="40"/>Contra Iob. 25. dicitur de deo quod facit concordiam in 
+            <lb ed="#V" n="41"/>sublimibus suis.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e563">
+            ¶ Item plus potest 
+            amor<lb ed="#V" n="42" break="no"/>vnius ad concordiam amancium. quam odium vnius ad 
+            concor<lb ed="#V" n="43" break="no"/>diam odientium. Sed mali spiritus inter se concordant 
+            in<lb ed="#V" n="44" break="no"/>odium nostrum. ergo multo fortius angeli boni inter se 
+            <lb ed="#V" n="45"/>semper concordant propter amorem ad principem suum. 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e574">
+            <lb ed="#V" n="46"/>Respondeo quod inter angelos bonos nulla 
+            po<lb ed="#V" n="47" break="no"/>test esse discordia. omnes enim 
+            crea<lb ed="#V" n="48" break="no"/>ture a principio primo procedunt. et quanto magis ab eo 
+            di<lb ed="#V" n="49" break="no"/>stant: tanto magis distant inter se. et quanto magis ei 
+            appro<lb ed="#V" n="50" break="no"/>pinquant tanto magis vniuntur inter se. Unde Diony. 5. 
+            <lb ed="#V" n="51"/>capi. de. di. no. comparat egressionem creaturarum a deo: 
+            egres<lb ed="#V" n="52" break="no"/>sui linearum a centro. eo quod linee quanto magis elongantur 
+            <lb ed="#V" n="53"/>a centro: tanto magis elongantur inter se et ille partes que 
+            <lb ed="#V" n="54"/>centro sunt propinquiores: sunt propinquores inter se. et 
+            <lb ed="#V" n="55"/>vbi iunguntur centro iunguntur inter se. Cum ergo 
+            bo<lb ed="#V" n="56" break="no"/>ni angeli perfecte sint coniuncti deo: per cognitionem et amorem 
+            <lb ed="#V" n="57"/>quantum fieri potest vniuntur inter se per amorem. Quod verum 
+            <lb ed="#V" n="58"/>non esset si aliquando inter se discordiam haberent. 
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e605">
+            <lb ed="#V" n="59"/>Ad primum in oppositum dicendum quod illa pugna
+            <lb ed="#V" n="60"/>non erat discordie. nec vna pugna
+            <lb ed="#V" n="61"/>Sed quia angeli custodes illorum regnorum procurant 
+            bo<lb ed="#V" n="62" break="no"/>num gencium quibus presunt. et merita illarum gentium 
+            quando<lb ed="#V" n="63" break="no"/>qua contraria sunt inter se. ideo per quandam metaphoram 
+            <lb ed="#V" n="64"/>quandoque dicuntur contrariari inter se custodes earum. non 
+            <lb ed="#V" n="65"/>quod illa contrarietas inter gentes illas veniat ex parte 
+            cu<lb ed="#V" n="66" break="no"/>stodum suorum.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e625">
+            ¶ Uel potest dici quod quando angeli super 
+            <lb ed="#V" n="67"/>aliquo facto voluntatem dei nesciunt. vtpote super 
+            libera<lb ed="#V" n="68" break="no"/>tione alicuius populi captiui quod dum angelus qui preest 
+            <!--00102.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>captiuantibus: et angelus qui praeest captiuatis super hoc 
+            sen<lb ed="#V" n="70" break="no"/>tentiam dei expectant: per quandam similitudinem dicuntur 
+            <lb ed="#V" n="71"/>inter se contrariari. Sicut expectentes sententiam 
+            iudicis<lb ed="#V" n="72" break="no"/>inter partes contrarias. quorum quidam sunt aduocati 
+            vni<lb ed="#V" n="73" break="no"/>us partis: et alii alterius.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e647">
+            ¶ Ad 2m dicendum quod lachryme 
+            Da<lb ed="#V" n="74" break="no"/>nie. et merita. et lachryme bonorum relictorum in iudea: 
+            <lb ed="#V" n="75"/>quibus Michael preerat quantum est ex parte sua 
+            mereban<lb ed="#V" n="76" break="no"/>tur iudei captiuorum in perside liberationem. Et hoc pro 
+            il<lb ed="#V" n="77" break="no"/>lis captiuis angelus eis prepositus allegabat qui loqui 
+            <lb ed="#V" n="78"/>venerat Dan veli Angelus autem qui persis praeerat allegabat quod 
+            <lb ed="#V" n="79"/>adhuc in illis captiuis aliquid purgandu restabat. et quia illi 
+            <lb ed="#V" n="80"/>captiui erant fideles remanentia eorum inter persas ipsis persis vt 
+            <lb ed="#V" n="81"/>illis erat. et super hec diuinam sententiam corditer expectabant. 
+            <lb ed="#V" n="82"/>Unde Grego. 17. Mora. longe ante medium. exponens 
+            <lb ed="#V" n="83"/>illud princeps regni persarum restitit mihi. sic ait. acsi a 
+            <lb ed="#V" n="84"/>parte dicat: precum quidem tuarum merita exigunt vt hisra 
+            <lb ed="#V" n="85"/>eliticus populus a iugo sue captluitatis exuatur. sed est 
+            <lb ed="#V" n="86"/>adhoc quod in eodem populo purgari debeat. Unde 
+            excep<lb ed="#V" n="87" break="no"/>tioni illius persarum princeps mihi iure contradicit. 
+            quam<lb ed="#V" n="88" break="no"/>uis preces tuas eorum quoque lachryme qui in udea 
+            reli<lb ed="#V" n="89" break="no"/>cti sunt adiuuent. quapropter dixit quod Michael qui preerat 
+            <lb ed="#V" n="90"/>relictis in iudea venit in adiutorium sibi.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e686">
+            ¶ Ad 3m dicendum 
+            <lb ed="#V" n="91"/>quod angeli contra se venire dicuntur eo modo quo superius 
+            <lb ed="#V" n="92"/>est expositum non quia sibi inuicem contrarientur. 
+            Un<lb ed="#V" n="93" break="no"/>de Grego. 17. libro Mora. parum post auctoritatem prius 
+            <lb ed="#V" n="94"/>in arguendo allegatam. Recte dicitur quod contra se 
+            angeli<lb ed="#V" n="95" break="no"/>veniunt. qui subiectarum sibi gentium vicissim merita 
+            con<lb ed="#V" n="96" break="no"/>tra dicunt. natuam sublimes spiritus eisdem gentibus 
+            prin<lb ed="#V" n="97" break="no"/>cipantes nequaquam pro iniuste agentibus decertant. sed eorum 
+            <lb ed="#V" n="98"/>facta iuste iudicantes examinant. cum vnius cuiusque 
+            gen<lb ed="#V" n="99" break="no"/>tis vel culpa vel iusticia ad superne curie consilium ducitur: 
+            <lb ed="#V" n="100"/>eiusdem gentis prepositus vel obtinuisse incertaminer vel 
+            <lb ed="#V" n="101"/>non obtinuisse perhibetur. quorum tamen omnia vna est 
+            victo<lb ed="#V" n="102" break="no"/>ria sui super se opificis voluntas summa.
+          </p>
+          <p xml:id="kzz7yh-f31379-d1e716">
+            ¶ 
+            Argumen<lb ed="#V" n="103" break="no"/>ta ad partem aliam gratia principalis conclusionis 
+            concedi<lb ed="#V" n="104" break="no"/>possunt. Sciendum tamen quod quamuis omnes demones 
+            con<lb ed="#V" n="105" break="no"/>cordent ad malum nostrum: tamen se inuicem odiunt. et 
+            <lb ed="#V" n="106"/>voluntates eorum per se discordes sunt. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

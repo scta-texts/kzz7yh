@@ -1,495 +1,495 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="70-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a47778"><!-- l1d21a1 -->
-            <head xml:id="kzz7yh-a47778-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-a47778-d1e103">
-               <lb ed="#V" n="76"/>Circa hanc dist. queruntur quinque primo vtrum hec 
-      <lb ed="#V" n="77"/>sint recipienda. deus ab eterno fuit solus. 
-   </p>
-            <p xml:id="kzz7yh-a47778-d1e110">
-               <lb ed="#V" n="78"/>¶ Secundo vtrum hec sit vera. Solus pater est patr.
-   </p>
-            <p xml:id="kzz7yh-a47778-d1e115">
-      ¶ 
-      Ter<lb ed="#V" n="79" break="no"/>tio vtrum hec sit vera: solus pater est deus.
-   </p>
-            <p xml:id="kzz7yh-a47778-d1e120">
-      ¶ 4o. Utrum 
-      <lb ed="#V" n="80"/>hec sit vera solus deus est pater.
-   </p>
-            <p xml:id="kzz7yh-a47778-d1e126">
-      ¶ Quinto vtrum hec 
-      <lb ed="#V" n="81"/>sit vera. trinitas est solus deus. 
-   </p>
-            <div xml:id="kzz7yh-a47778-Dd1e131">
-               <head xml:id="kzz7yh-a47778-Hd1e133">Quaestio 1</head>
-               <head xml:id="kzz7yh-a47778-Hd1e137" type="question-title">Utrum haec sit recipienda</head>
-               <p xml:id="kzz7yh-a47778-d1e135">
-     Questio I. 
-      <lb ed="#V" n="82"/>PRimo ostendo quod hec sit recipienda. deus ab 
-      <lb ed="#V" n="83"/>eterno fuit solus: quia ab eterno fuit 
-      <lb ed="#V" n="84"/>deus: nec fuit ab eterno aliqua res nisi deus: ergo 
-      <lb ed="#V" n="85"/>deus ab eterno fuit solus.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e146">
-      ¶ Item philosophus libo elencho. 
-      <lb ed="#V" n="86"/>Solus idem est quod non cum alio. sed deus ab eterno non fuit cum 
-      <lb ed="#V" n="87"/>alio. ergo deus ab eterno fuit solus.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e153">
-      ¶ Item qualet persona 
-      de<lb ed="#V" n="88" break="no"/>us: est ergo quamuis ab eterno fuerunt in deo plures persone: 
-      <lb ed="#V" n="89"/>non propter hoc potest dici ab eterno fuisse cum alio. ergo 
-      <lb ed="#V" n="90"/>non obstante pluralitate personarum deus ab eterno fuit solus. 
-    </p>
-               <p xml:id="kzz7yh-a47778-d1e162">
-                  <lb ed="#V" n="91"/>Contra Hylarius exponens illud verbum gen. Sed 
-      faci<lb ed="#V" n="92" break="no"/>amus hominem etc. li. iii. de tri. sic dicit. 
-      Profes<lb ed="#V" n="93" break="no"/>sio confortii substulit intelligentiam singularis: quia confortium 
-      ali<lb ed="#V" n="94" break="no"/>quid non potest esse sibiipsi solitario: neque rursum solitudo 
-      so<lb ed="#V" n="95" break="no"/>litarii recipit faciamus. In deo ergo non est solitudo. sed si 
-      <lb ed="#V" n="96"/>deus ab eterno fuit solus fuisset solitarius: ergo deus 
-      nun<lb ed="#V" n="97" break="no"/>quam fuit solus.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e181">
-      ¶ Item Genesecu primo dicit deus: faciamus 
-      <lb ed="#V" n="98"/>hominem etc. his verbis in se ostendit pluritatem. Pluralitas autem ex 
-      <lb ed="#V" n="99"/>cludere videtur solitudinem. ergo deus nunquam fuit solus. 
-    </p>
-               <p xml:id="kzz7yh-a47778-d1e188">
-                  <lb ed="#V" n="100"/>Respondeo quod hec dictiosolus non videtur in proposito posse 
-      <lb ed="#V" n="101"/>accipi sincathegoreumatice: sed tantummodo 
-      ca<lb ed="#V" n="102" break="no"/>thegoreumatice: quia hic non videtur facere respectu 
-      ali<lb ed="#V" n="103" break="no"/>cuius praedicati exclusionem sicut facit cum dicitur. Solus deus 
-      <lb ed="#V" n="104"/>est creator. et ideo cum dicitur. deus ab eterno fuit solus. sensus est 
-      <lb ed="#V" n="105"/>quod deus ab eterno fuit solitarius. quod recipi non debet: quia quamuis 
-      <lb ed="#V" n="106"/>ab eterno omnio non fuit aliqua essentia alia quam divina: tamen in illa 
-      essen<lb ed="#V" n="107" break="no"/>tia est et fuit ab eterno personarum pluralitas quaie a deo 
-      solitudi<lb ed="#V" n="108" break="no"/>nem excludit.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e210">
-      ¶ Ad primum in oppositum. cum dicitur quod ab eterno non 
-      <lb ed="#V" n="109"/>fuit aliqua res nisi deus etc. dico quod verum est. sed tamen in ipst 
-      <lb ed="#V" n="110"/>est et fuit ab eterno pluralitas personarum.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e217">
-      ¶ Ad 2m cum dicitur 
-      <lb ed="#V" n="111"/>quod solus idem est quod non cum alio etc. potest dici quod solus non tantum 
-      <lb ed="#V" n="112"/>modo habet istum sensum: sed etiam istum: vt dicatur solus cum quo: 
-      <lb ed="#V" n="113"/>vel in quo non sunt aliqui inter se distincti. ab eterno autem 
-      fu<lb ed="#V" n="114" break="no"/>erunt in deo aliqui inter se distincti scilicet pater et filius et spiritus sanctus. 
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e228">
-                  <lb ed="#V" n="115"/>¶ Ad 3m cum dicitur quod deus ab eterno non potest dici fuisse cum 
-      <lb ed="#V" n="116"/>alio etc. dico quod quuis hoc sit verum: tamen fuit cum illis qui inter 
-      <lb ed="#V" n="117"/>se sunt: alii in persona scilicet cum patre et filio et cum 
-      spi<lb ed="#V" n="118" break="no"/>rirusancto.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a47778-Dd1e240">
-               <head xml:id="kzz7yh-a47778-Hd1e242">Quaestio 2</head>
-               <head xml:id="kzz7yh-a47778-Hd1e250" type="question-title">Utrum haec sit vera</head>
-               <p xml:id="kzz7yh-a47778-d1e244">
-      Quaestio II. 
-      <lb ed="#V" n="119"/>SEcundo queritur vtrum hec sit vera. Solus 
-      pa<lb ed="#V" n="120" break="no"/>ter est pater. et videtur quod non: quia videtur 
-      <lb ed="#V" n="121"/>implicare solitudinem circa patrem sicut dicendo: homo a 
-      <lb ed="#V" n="122"/>bus currit. implicatur albedo circa hominem: pater aut 
-      so<lb ed="#V" n="123" break="no"/>litarius non est.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e257">
-      ¶ Item pater dicit cum alio: quia cum filio so¬ 
-      <!--00155.xml-->
-      <pb ed="#V" n="71-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>tus dicit non cum alio. ergo quandocumque hec dictio solus 
-      adiun<lb ed="#V" n="2" break="no"/>gitut isti dictioni que est pater simul iunguntur opposite 
-      si<lb ed="#V" n="3" break="no"/>gnificationes. et ideo semper videtur esse falsitas in tali propositione. 
-    </p>
-               <p xml:id="kzz7yh-a47778-d1e273">
-                  <lb ed="#V" n="4"/>Contra proprium est patri esse patrem. ergo sibi 
-      so<lb ed="#V" n="5" break="no"/>li conuenit. 
-    </p>
-               <p xml:id="kzz7yh-a47778-d1e280">
-                  <lb ed="#V" n="6"/>Respondeo dicunt aliquid quod ista solus pater est pater. potest triplicem 
-      <lb ed="#V" n="7"/>sensum habere. Unde secundum quod ly solus potest teneri 
-      ca<lb ed="#V" n="8" break="no"/>thegoreumatice. qui sensus est iste: pr solitarius est pater 
-      dupli<lb ed="#V" n="9" break="no"/>cem sensum potest hebere secundum quod ly solus tenetur sincathegoreu 
-      <lb ed="#V" n="10"/>matice. Unde secundum quod ponit re suam circa subiectum in comparatione ad 
-      <lb ed="#V" n="11"/>praedicatum compositionis iplicite. tunc enim est sensus ille qui solus est 
-      <lb ed="#V" n="12"/>patr. est patr alium secundum quod ponit rem suam circa subiectum in comparatione 
-      <lb ed="#V" n="13"/>ad praedicatum compositionis explicite: et tunc est sensus. pater est 
-      pa<lb ed="#V" n="14" break="no"/>ter et nullus alius a pre est patur. In primo sensu hec est iifa: 
-      so<lb ed="#V" n="15" break="no"/>lus pater est pater: quia pater solitarius non est. In secundo sensu et tertio vera 
-      <lb ed="#V" n="16"/>est. quamuis aut hec distinctio debeat reuereri ad concordam 
-      <lb ed="#V" n="17"/>dum auctoritates sanctorum: qui plus curauerunt de re quam de verborum 
-      <lb ed="#V" n="18"/>virtute tamen in proposito locum non habet virtus sermonis et ratio 
-      <lb ed="#V" n="19"/>huiusmodi est quia nullus terius ad adiunctus substantiuo immediate 
-      <lb ed="#V" n="20"/>quantum est de se dat intelligem compositioni virtute verborum: tamen ad 
-      <lb ed="#V" n="21"/>veritatem propositionis in qua adiectiuum immediate adiungitur 
-      sub<lb ed="#V" n="22" break="no"/>stantiuo sequitur illa expotmo quandoque. Unde si dicam homo albus currit: 
-      <lb ed="#V" n="23"/>sequitur hominem esse album quia non posset esse verum quod albus 
-      ho<lb ed="#V" n="24" break="no"/>mo curreret nisi esset homo albus tamen non est veritate huius quod 
-      <lb ed="#V" n="25"/>dico homo albus: quia si dicam homo albus non currit non implicatur 
-      homo<lb ed="#V" n="26" break="no"/>esse albius. Unde in affirmatiuis locum hebet verbum. 
-      Priscia<lb ed="#V" n="27" break="no"/>ni cum dicit quod in tali adiunctione intelligitur qui est vel qui fuit 
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e331">
-                  <lb ed="#V" n="28"/>¶ Dico ergo ad quaestionem quod secundum ly solus tenetur sincathe 
-      <lb ed="#V" n="29"/>goreumatice ista solus pater est pater: non hebetalium 
-      sensum<lb ed="#V" n="30" break="no"/>virtute verborum nisi istu pater est pater: et nullus alius a patre est 
-      <lb ed="#V" n="31"/>pater. et hoc verum est: si tamen virtute verborum heberet etiam istum 
-      <lb ed="#V" n="32"/>sensum: Illle qui solus est pater est patr etiam in illo sensu vera 
-      es<lb ed="#V" n="33" break="no"/>set. Unde secundum quod ly solus tenetur sincathegoreumatice. et ista 
-      <lb ed="#V" n="34"/>simpliciter est concedenda tanquam vera. solus pater est pater. 
-    </p>
-               <p xml:id="kzz7yh-a47778-d1e349">
-                  <lb ed="#V" n="35"/>Ad primum in oppositum cum dicitur quod dicendo solus pater est pater. Uidetur 
-      <lb ed="#V" n="36"/>implicare solitudinem circa patrem etc. dico quod verum est: si 
-      ly<lb ed="#V" n="37" break="no"/>solus acciperetur pro solitario. bene enim sequeretur solitarius 
-      <lb ed="#V" n="38"/>pater est patr. ergo pater est solitarius et in isto sensu propotio esset 
-      fal<lb ed="#V" n="39" break="no"/>sa propter falsam implicationem.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e362">
-      ¶ Ad secundum cum dicitur quod cum hec 
-      di<lb ed="#V" n="40" break="no"/>ctio solus adiungitur huic terimo pater simul iunguntur 
-      oppo<lb ed="#V" n="41" break="no"/>site signationes etc. dico quod non est verum secundum quodly solus non 
-      di<lb ed="#V" n="42" break="no"/>cit solitudinem absolute circa patrem: sed respectu huius 
-      praedi<lb ed="#V" n="43" break="no"/>cati quod est esse patrem. Non enim ista contradicunt quod. pater 
-      <lb ed="#V" n="44"/>sit cum alio: et tamen nullus cum eo est pater.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a47778-Dd1e376">
-               <head xml:id="kzz7yh-a47778-Hd1e378">Quaestio 3</head>
-               <head xml:id="kzz7yh-a47778-Hd1e390" type="question-title">Utrum hec sit vera</head>
-               <p xml:id="kzz7yh-a47778-d1e380">
-      Quaestio III 
-      <lb ed="#V" n="45"/>Tertio queritur vtrum hec sit vera. solus pater 
-      <lb ed="#V" n="46"/>est deus et videtur quod sic: quia philosophus primus 
-      phisi<lb ed="#V" n="47" break="no"/>corum dicit contra illo qui ponebant tantum vnum esse quod est 
-      <lb ed="#V" n="48"/>principium quod ex hoc ponebant esse multa: quia cum ponunt 
-      <lb ed="#V" n="49"/>tantum principium ponut est principiatum: ergo cum pater sit principium 
-      <lb ed="#V" n="50"/>filii et spiritusscienti: dictio exclusiua addita patri non excludit filium 
-      <lb ed="#V" n="51"/>neque spiritum sanctum et si ita est: hec est simpliciter vera solus pater est 
-      de<lb ed="#V" n="52" break="no"/>us.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e400">
-      ¶ Item Math. xv. dicitur quod nemo nouit filium nisi patr. si 
-      <lb ed="#V" n="53"/>ergo solus pater nouit filium cum nosce filium sit praedicatum 
-      esser<lb ed="#V" n="54" break="no"/>tiale pari ratione debet ista concedi quod solus pater est deus.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e407">
-      ¶ Item 
-      <lb ed="#V" n="55"/>dictio exclusiua addita anstenti non excludit conseqens. vnde non sequitur 
-      <lb ed="#V" n="56"/>solus homo currit: ergo risibile non currit: sed vnum relatiuorum 
-      <lb ed="#V" n="57"/>sequitur ad aliud: ergo addita vni relatio non excludit ad aliud. Cum 
-      <lb ed="#V" n="58"/>ergo dicitur solus patr est deus: non excluduntur ide silius et spiritus sanctus ergo etc. 
-    </p>
-               <p xml:id="kzz7yh-a47778-d1e418">
-                  <lb ed="#V" n="59"/>Contra alius a patre est deus: non est ergo verum quod solus 
-      <lb ed="#V" n="60"/>pater sit deus.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e426">
-      ¶ Item bene sequitur solus 
-      homo<lb ed="#V" n="61" break="no"/>currit: ergo quicunque currit est homo. ergo similiter sequitur 
-      so<lb ed="#V" n="62" break="no"/>lus pater est deus ergo quicunque est deus est pater: quod falsum est. 
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e433">
-                  <lb ed="#V" n="63"/>Respondeo quod si hec dictio solus accipiatur  
-      cathego<lb ed="#V" n="64" break="no"/>reumatice sic a subiecto excludit consortium 
-      <lb ed="#V" n="65"/>simpliciter: et sub illo sensu propotio est falsa propter falsam praedicationem 
-      <lb ed="#V" n="66"/>Si autem accipiatur secundum quod tenetur sincathegoreumatice sic 
-      fa<lb ed="#V" n="67" break="no"/>cit exclusionem circa subiectum non simpliciter: sed respectu praedicati: 
-      <lb ed="#V" n="68"/>vel compositionis implicite. sub hoc sensu: ille qui solus est pater est 
-      <!--00155.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>deus qui sensus verus est vel respectu praedicati compositionis 
-      ex<lb ed="#V" n="70" break="no"/>plicite: et tunc est sensus pater est deus et nullus alius a patre est 
-      <lb ed="#V" n="71"/>deus quod falsum est et secundum istum sensum procedebant argumenta 
-      <lb ed="#V" n="72"/>probantia istam esse falsam: solus pater est deus. Utrum autem ex 
-      vi<lb ed="#V" n="73" break="no"/>sermonis possit in praedicta propositione hebere iste sensus: ille qui 
-      <lb ed="#V" n="74"/>solus est pater est deus: multi negant: et ideo praedictam propositionem 
-      <lb ed="#V" n="75"/>simpliciter concedunt falsam in omni sensum qui potest heberi ex ui secundumonis. 
-    </p>
-               <p xml:id="kzz7yh-a47778-d1e468">
-                  <lb ed="#V" n="76"/>Ad primum in oppositum dico quod philosophus non intendebat negare quin 
-      di<lb ed="#V" n="77" break="no"/>ctio exclusiua addita principio excludat principiatum 
-      <lb ed="#V" n="78"/>sed quod ponendo videtur tantum: quod est principium ponebant impossibitia: quia non est 
-      <lb ed="#V" n="79"/>principium nisi sit principiatum et perdictionem exclusiuam 
-      additan<lb ed="#V" n="80" break="no"/>printia excludebant principiatum et ita ponebant et negabant prim 
-      <lb ed="#V" n="81"/>cipiatum.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e484">
-      ¶ Ad secundum cum dicitur quod qua ratione conceditur quod 
-      so<lb ed="#V" n="82" break="no"/>lus pater nouit filium debet concedi quod solus pater est deus etc. dico quod 
-      <lb ed="#V" n="83"/>ista non debet concedi solus pater nouit filium: quamuis ista sint vera nemo 
-      <lb ed="#V" n="84"/>nouit filium nisi patur. quia per hanc dictione nemo non excluditur nisi 
-      <lb ed="#V" n="85"/>illud quod est in essentia aliud a patre: sed per hanc dictionem 
-      so<lb ed="#V" n="86" break="no"/>lus excluditur non tantummodo illud quod est aliud a patre in essentia 
-      <lb ed="#V" n="87"/>sed etiam illi qui sunt aliia patre in persona.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e500">
-      ¶ Ad 3m cum dicitur quod 
-      <lb ed="#V" n="88"/>dictio exclusiua addita ansteti non excludit conseqens etc. dico quod 
-      <lb ed="#V" n="89"/>verum est: quando conseqens est de ratione astentis: et ideo quia animal est de 
-      ro<lb ed="#V" n="90" break="no"/>ne hominis ideo dictio exclusiua addita homini non excludit aliam et 
-      <lb ed="#V" n="91"/>quia homo et risibile idem sunt in supposito: ideo dictio 
-      exclusi<lb ed="#V" n="92" break="no"/>ua addita homini non excludit risibile. Unde autem 
-      correlatiuo<lb ed="#V" n="93" break="no"/>rum in creaturis non est de alterius essentia. In deo autem 
-      <lb ed="#V" n="94"/>et si pater et filius sunt eiusdem essentie: tamen filius non 
-      <lb ed="#V" n="95"/>est de ratione patris sub ratione qua pater est.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a47778-Dd1e521">
-               <head xml:id="kzz7yh-a47778-Hd1e523">Quaestio 4</head>
-               <head xml:id="kzz7yh-a47778-Hd1e539" type="question-title">Utrum hec sit vera</head>
-               <p xml:id="kzz7yh-a47778-d1e525">
-      Quaestio IIII. 
-      <lb ed="#V" n="96"/>QUarto queritur vtrum hec sit vera. Solus  
-      de<lb ed="#V" n="97" break="no"/>us est pater: et videtur quod non: quia illa que 
-      <lb ed="#V" n="98"/>videtur eius conuersa scilicet solus pater est deus: est falsa.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e534">
-      ¶ Item 
-      <lb ed="#V" n="99"/>trinitas non est pater: deus est trinitas: ergo deus non 
-      <lb ed="#V" n="100"/>est pater et si sic solus deus non est pater.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e541">
-      ¶ Item substantia non 
-      <lb ed="#V" n="101"/>est rlautio etiam in diuinis quia sicut dicit Boetius in libro de tri. c. x. 
-      <lb ed="#V" n="102"/>Substantia continet vnitatem relatio multiplicat trinitatem: sed deus 
-      <lb ed="#V" n="103"/>signt substantiam: pater signat rlutionem. ergo deus non est pater: cum ergo 
-      in<lb ed="#V" n="104" break="no"/>cludatur ab ista solus deus est pater: falsa est hec solus deus est patr. 
-    </p>
-               <p xml:id="kzz7yh-a47778-d1e552">
-                  <lb ed="#V" n="105"/>Contra deus est pater: et nullus alius a deo est pater:  
-      er<lb ed="#V" n="106" break="no"/>go solus deus est pater. 
-    </p>
-               <p xml:id="kzz7yh-a47778-d1e560">
-                  <lb ed="#V" n="107"/>Respondeo quod si hec dictio solus accipiatur prout facit 
-      exclu<lb ed="#V" n="108" break="no"/>sionem circa subiectum absolute sic falsa est: quia tunc 
-      <lb ed="#V" n="109"/>esset sensus: deus solitarius est patur. Si autem accipiatur prout 
-      po<lb ed="#V" n="110" break="no"/>nit rem suam circa subiectum in comparatione ad praedicatum siue compotionis 
-      <lb ed="#V" n="111"/>implicite siue compositionis explicite vera est propositio. Uerum enm 
-      <lb ed="#V" n="112"/>est dicere quod ille qui solus est deus est pater et etiam quod deus est 
-      <lb ed="#V" n="113"/>pater: et nullus alius a deo est pater. Nos enim loquimur hic de 
-      <lb ed="#V" n="114"/>persona patris filii omnipotentis: et secundum sensum vltimo positum 
-      proce<lb ed="#V" n="115" break="no"/>dit argumentum probans istam esse veram. Solus deus est pater.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e582">
-                  <lb ed="#V" n="116"/>Ad primum in oppositum cum dicitur: quod ista solus pater est deus: quae 
-      vi<lb ed="#V" n="117" break="no"/>detur esse conuersa istius est falsa etc. Dico quod illa solum 
-      <lb ed="#V" n="118"/>pater est deus non est illa: in quam conuertitur praedicta propotio cum enim 
-      <lb ed="#V" n="119"/>sint plures: non debet conuerti vnica conuersione sed pluribus equal:m 
-      <lb ed="#V" n="120"/>enim istis duabus: deus est pater: et nullus alius a deo est pater: 
-      <lb ed="#V" n="121"/>et qualem istarum conuertitur in propositionem veram. Prima enim 
-      con<lb ed="#V" n="122" break="no"/>uertitur iu hanc: pater est deus et hec est vera. Secunda conuertitur 
-      <lb ed="#V" n="123"/>in hanc. Nullus pater est alius a deo et hec est vera est: quia hic est 
-      <lb ed="#V" n="124"/>sermo de patre filii omipotentis.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e604">
-      ¶ Ad secundum dico quod ibi est 
-      <lb ed="#V" n="125"/>peccatum ad similitudinem fallacie accident. quamuis enim persone 
-      <lb ed="#V" n="126"/>distinguantur inter se: nulla tamen persona distinguitur a divina 
-      essen<lb ed="#V" n="127" break="no"/>tia. vnde propter distinctionem personarum inter se: trinitas non est pater 
-      <lb ed="#V" n="128"/>et propter hoc quod nulla persona. distinguitur a diuina essentia vere 
-      di<lb ed="#V" n="129" break="no"/>citur quod deus est trinitas et quod deus est patr.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e617">
-      ¶ Ad tertium 
-      di<lb ed="#V" n="130" break="no"/>co quod ralatio in divinis est comparata ad divinam substantiam realiter est idem 
-      <lb ed="#V" n="131"/>cum ea. Unde bene dicitur. diuina substantia est 
-      pater<lb ed="#V" n="132" break="no"/>nitas comparata tamen ad relationem oppositam 
-      distin<lb ed="#V" n="133" break="no"/>guitur ab ea vnde paternitas non est filiatio nec pater 
-      fi<lb ed="#V" n="134" break="no"/>lius: et tamen deus est pater.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a47778-Dd1e631">
-               <head xml:id="kzz7yh-a47778-Hd1e633">Quaestio 5</head>
-               <head xml:id="kzz7yh-a47778-Hd1e653" type="question-title">Utrum utrum haec sit vera trinitas est solus deus</head>
-               <p xml:id="kzz7yh-a47778-d1e635">
-      Quaestio. V 
-      <lb ed="#V" n="135"/>QUinto queritur vtrum hec sit vera trinitas est 
-      <lb ed="#V" n="136"/>solus deus: et videtur quod non: quia secundum 
-      <!--00156.xml-->
-      <pb ed="#V" n="71-v"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>phylosophum ii. per hyer. Nomina et verba transposita idem 
-      <lb ed="#V" n="2"/>siguificat: sed hec est falsa trinitas est deus solus ergo et ista 
-      <lb ed="#V" n="3"/>trinitas est solus deus.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e655">
-      ¶ Item hec est falsa trinitas est 
-      <lb ed="#V" n="4"/>ille qui solus est deus ergo et ista trinitas est solus deus antes 
-      <lb ed="#V" n="5"/>probatur sic: quia hoc pronomen ille ostendit aliquem in masculino 
-      <lb ed="#V" n="6"/>genere: sicut illud ostenderet aliud in neutro: sed de nullo 
-      sup<lb ed="#V" n="7" break="no"/>posito scilicet nec: de patre nec de filio: neque de spiritu sancto potest 
-      ve<lb ed="#V" n="8" break="no"/>re dici: solus ille est deus.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e668">
-      ¶ Item propositio in qua hoc siguimentum 
-      <lb ed="#V" n="9"/>omnis additur praedicato false est vnde false sunt iste homo est 
-      <lb ed="#V" n="10"/>omnis homo: et omnis homo est omnis homo. ergo a simili et de hac 
-      distin<lb ed="#V" n="11" break="no"/>ctione solus cum sit nata esse dispotmo subiti in compositione ad 
-      praedi<lb ed="#V" n="12" break="no"/>catum sicut hoc signum omnis: sed in ista trinitas est solus deus 
-      <lb ed="#V" n="13"/>hec dictio solus additur predicato: ergo est falsa. 
-    </p>
-               <p xml:id="kzz7yh-a47778-d1e681">
-                  <lb ed="#V" n="14"/>Contra Aug. vi. de trinitate c. vltimo dicit patrem et filium et 
-      <lb ed="#V" n="15"/>spiritum sanctum esse vnum solum deum.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e689">
-      ¶ Item hoc 
-      <lb ed="#V" n="16"/>idem dicit magister in littera. Ait enim sic esse solum 
-      de<lb ed="#V" n="17" break="no"/>um dicimns patrem et filium et spiritum sanctum. 
-    </p>
-               <p xml:id="kzz7yh-a47778-d1e696">
-                  <lb ed="#V" n="18"/>Respondeo quod iste quattuor differunt aliquo modo trinitas 
-      <lb ed="#V" n="19"/>est deus solus: et trinitas est solus deus: et 
-      tri<lb ed="#V" n="20" break="no"/>nitas est solum deus: et trinitas est vnus solus deus. 
-      Pri<lb ed="#V" n="21" break="no"/>ma enim falsa est: quia ly solus quando ponitur aperte praedicati post 
-      <lb ed="#V" n="22"/>suum substantiuum implicat solitudinem absolute circa ipsum 
-      <lb ed="#V" n="23"/>vnde sensus est trinitas est deus solus id est trinitas est deus 
-      so<lb ed="#V" n="24" break="no"/>litarius: quod falsum est cum in ea sit pluritas personarum.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e714">
-      ¶ Hec 
-      <lb ed="#V" n="25"/>aut trinitas est solus deus: falsa non est tamen non est satis eui ve 
-      <lb ed="#V" n="26"/>denter propria: quia non excludit euidenter nisi illud quod ex 
-      <lb ed="#V" n="27"/>nam praedicati sine dictione exclusiua excluderetur. Cum enim 
-      <lb ed="#V" n="28"/>dicimus trinitas est deus in hoc includimus ipsam non esse 
-      ali<lb ed="#V" n="29" break="no"/>ud neque alium a deo: tamen hoc non aufert totaliter proprietatem 
-      predi<lb ed="#V" n="30" break="no"/>cte propositionis: nec facit quod omnino sit nugatio per hocquod additur 
-      <lb ed="#V" n="31"/>solus quia per eius adiunctionem expressius et euidentius 
-      excludi<lb ed="#V" n="32" break="no"/>tur quod sine hac dictione solus ex natura praedicati excluderetur: 
-      <lb ed="#V" n="33"/>hec autem trinitas est solum deus: quamuis ab aliquibus iudicetur in 
-      <lb ed="#V" n="34"/>propria propter rationem predictam scilicet quia non excludit nisi quod ex natura 
-      <lb ed="#V" n="35"/>pedicati excluderetur non in deo tamen quod propter hoc propria debeat 
-      <lb ed="#V" n="36"/>dici quia quamuis gratie nature sequatur trinitas est deus: ergo 
-      <lb ed="#V" n="37"/>trinitas est deus tantum: gratia tamen forus non valeret argumentum quia si 
-      pa<lb ed="#V" n="38" break="no"/>ter et spiritus sanctus accepissent naturam humanam sicut filius: 
-      <lb ed="#V" n="39"/>non valeret ista conea: trinitas est deus ergo trinitas est deus 
-      <lb ed="#V" n="40"/>tantum: sicut non valet ista: filius est deus: ergo filius est deus 
-      <lb ed="#V" n="41"/>tantum. Dicimus enim et verum est quod filius non solum est deus: sed 
-      <lb ed="#V" n="42"/>etiam homo dico ergo quod ista trinitas est solum deus: vera est 
-      <lb ed="#V" n="43"/>et propria: et proprietas eius magis est euidens quam proprietas 
-      isti<lb ed="#V" n="44" break="no"/>us: trinitas est solus deus: quia aduerbium cum sit adiectiuum 
-      <lb ed="#V" n="45"/>verbi sertur ad omne positionem: et quia compositio indifferenter respicit 
-      <lb ed="#V" n="46"/>subiectum et praedicatum ideo conuenienter additur et euidenter proprie 
-      tan<lb ed="#V" n="47" break="no"/>subieato quam praedicato hec autem dictio solus prout est dictio 
-      sinca<lb ed="#V" n="48" break="no"/>thegoreumatica cum sit nomen semper refertur ad subiectum 
-      ali<lb ed="#V" n="49" break="no"/>cuius compositionis: vnde cum dicimus trinitas est solus deus: 
-      <lb ed="#V" n="50"/>trinitas est ille qui solus est deus: vel trinitas est aliquid ens 
-      <lb ed="#V" n="51"/>quod solum est deus: et quia compositio ad cuius subiectum refertur hec 
-      di<lb ed="#V" n="52" break="no"/>ctio solus: non est expressa sed implicita: ideo non est euidenter 
-      <lb ed="#V" n="53"/>propria.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e779">
-      ¶ Hec aut trinitas est vnus solus deus est vera: et 
-      <lb ed="#V" n="54"/>omnibus aliis euidentius propria: tunc enim clarum est quid per eam ex 
-      <lb ed="#V" n="55"/>cluditur. Excludit enim deorum pluralitatem: ita vt sit sensus: 
-      <lb ed="#V" n="56"/>trinitas est vnus deus tamen plures dii et sic expediebat dice 
-      <lb ed="#V" n="57"/>re contra aliquos hereticos qui ponebant tres personas esse tres 
-      <lb ed="#V" n="58"/>deos.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e792">
-      ¶ Argumenta que probant istam esse veram: trinitas 
-      <lb ed="#V" n="59"/>est solus deus gratia conclusionis posset concedi quamuis aliqua de 
-      <lb ed="#V" n="60"/>illis auctoritatibus sic possent exponi vt dictio exclusiua 
-      re<lb ed="#V" n="61" break="no"/>ferretur ad subiectum: et non ad predicatum.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e801">
-                  <lb ed="#V" n="62"/>Ad primum in oppositum cum dicitur quod nomina et verba 
-      transpo<lb ed="#V" n="63" break="no"/>sita idem signunt etc. Dico quod in dictione 
-      <lb ed="#V" n="64"/>exclusiua non habet veritatem ratione negationis implicite quia 
-      <lb ed="#V" n="65"/>differunt preponere et postponere negationem ipsi 
-      termi<lb ed="#V" n="66" break="no"/>no. Unde quamuis non differat dicere homo albus: albus homo: non 
-      <lb ed="#V" n="67"/>propter hoc sequitur quod idem sit dicere: trinitas est solus deus: et 
-      <!--00156.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="68"/>trinitas est deus solus.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e824">
-      ¶ Ad 2m cum dicitur quod hec propotio est falsa: 
-      tri<lb ed="#V" n="69" break="no"/>nitas est ille qui solus est deus etc dico quod immo est vera: et cum 
-      <lb ed="#V" n="70"/>dicis quod hoc pronomen ille dicit aliquod suppsium dico quod verum est 
-      <lb ed="#V" n="71"/>vocando fuppsium ipsum quod est hoc est diuinam essentiam signatam 
-      <lb ed="#V" n="72"/>vt in suppositione: et sic signatur hoc nomen deus. Unde cum dicitur 
-      <lb ed="#V" n="73"/>trinitas est ille qui solus est deus: sensus est: trinitas est ille 
-      <lb ed="#V" n="74"/>deus qui solus est deus.
-   </p>
-               <p xml:id="kzz7yh-a47778-d1e840">
-      ¶ Ad tertium cum dicitur quod propotio est 
-      fal<lb ed="#V" n="75" break="no"/>sa in qua hoc signum omnis additur praedicato. Unde ista est 
-      fal<lb ed="#V" n="76" break="no"/>sa: omnis homoest: omnis homo etc dico quod verum est: sed hoc non est: quod 
-      <lb ed="#V" n="77"/>terminus in praedicato non posset stare nisi pro forma quia estimo 
-      <lb ed="#V" n="78"/>quod terminus siue aperte subieti siue a parte praedicati potest stare: vel 
-      pro<lb ed="#V" n="79" break="no"/>supposito vel pro forma et pro quocumque verificetur. propotio 
-      vera<lb ed="#V" n="80" break="no"/>debet dici simpliciter est ergo ista falsa omnis homo est omnis homo quod 
-      <lb ed="#V" n="81"/>et aperte subiecnti et aperte predicati distribuitur iste terminus homo 
-      pro<lb ed="#V" n="82" break="no"/>omnibus suis suppositis: vnde sensus est quod Paulus est Petrum 
-      <lb ed="#V" n="83"/>et Ioannes est Andreas. Et sic de omnibus aliis hominibus. Unde 
-      <lb ed="#V" n="84"/>simpeliciter ista: omnis homo est omnis homo signtat vnum quenque hominiem: 
-      es<lb ed="#V" n="85" break="no"/>se quemliet hominem: quod falsum est. Unde aliquando hoc signum ominis 
-      <lb ed="#V" n="86"/>potest addi praedicato et est propotio vera vt si dicam deus est omnis 
-      <lb ed="#V" n="87"/>persona in creata quia deus est pater: deus est filius: deus est spiritus 
-      <lb ed="#V" n="88"/>sanctus. Dico ergo quod hec dictio solus aliquando additur praeto: et est 
-      <lb ed="#V" n="89"/>propotio falsa: aliquando additur praeto et est propotio vera sicut in proposito. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="70-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a47778"><!-- l1d21a1 -->
+        <head xml:id="kzz7yh-a47778-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-a47778-d1e103">
+          <lb ed="#V" n="76"/>Circa hanc dist. queruntur quinque primo vtrum hec 
+          <lb ed="#V" n="77"/>sint recipienda. deus ab eterno fuit solus. 
+        </p>
+        <p xml:id="kzz7yh-a47778-d1e110">
+          <lb ed="#V" n="78"/>¶ Secundo vtrum hec sit vera. Solus pater est patr.
+        </p>
+        <p xml:id="kzz7yh-a47778-d1e115">
+          ¶ 
+          Ter<lb ed="#V" n="79" break="no"/>tio vtrum hec sit vera: solus pater est deus.
+        </p>
+        <p xml:id="kzz7yh-a47778-d1e120">
+          ¶ 4o. Utrum 
+          <lb ed="#V" n="80"/>hec sit vera solus deus est pater.
+        </p>
+        <p xml:id="kzz7yh-a47778-d1e126">
+          ¶ Quinto vtrum hec 
+          <lb ed="#V" n="81"/>sit vera. trinitas est solus deus. 
+        </p>
+        <div xml:id="kzz7yh-a47778-Dd1e131">
+          <head xml:id="kzz7yh-a47778-Hd1e133">Quaestio 1</head>
+          <head xml:id="kzz7yh-a47778-Hd1e137" type="question-title">Utrum haec sit recipienda</head>
+          <p xml:id="kzz7yh-a47778-d1e135">
+            Questio I. 
+            <lb ed="#V" n="82"/>PRimo ostendo quod hec sit recipienda. deus ab 
+            <lb ed="#V" n="83"/>eterno fuit solus: quia ab eterno fuit 
+            <lb ed="#V" n="84"/>deus: nec fuit ab eterno aliqua res nisi deus: ergo 
+            <lb ed="#V" n="85"/>deus ab eterno fuit solus.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e146">
+            ¶ Item philosophus libo elencho. 
+            <lb ed="#V" n="86"/>Solus idem est quod non cum alio. sed deus ab eterno non fuit cum 
+            <lb ed="#V" n="87"/>alio. ergo deus ab eterno fuit solus.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e153">
+            ¶ Item qualet persona 
+            de<lb ed="#V" n="88" break="no"/>us: est ergo quamuis ab eterno fuerunt in deo plures persone: 
+            <lb ed="#V" n="89"/>non propter hoc potest dici ab eterno fuisse cum alio. ergo 
+            <lb ed="#V" n="90"/>non obstante pluralitate personarum deus ab eterno fuit solus. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e162">
+            <lb ed="#V" n="91"/>Contra Hylarius exponens illud verbum gen. Sed 
+            faci<lb ed="#V" n="92" break="no"/>amus hominem etc. li. iii. de tri. sic dicit. 
+            Profes<lb ed="#V" n="93" break="no"/>sio confortii substulit intelligentiam singularis: quia confortium 
+            ali<lb ed="#V" n="94" break="no"/>quid non potest esse sibiipsi solitario: neque rursum solitudo 
+            so<lb ed="#V" n="95" break="no"/>litarii recipit faciamus. In deo ergo non est solitudo. sed si 
+            <lb ed="#V" n="96"/>deus ab eterno fuit solus fuisset solitarius: ergo deus 
+            nun<lb ed="#V" n="97" break="no"/>quam fuit solus.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e181">
+            ¶ Item Genesecu primo dicit deus: faciamus 
+            <lb ed="#V" n="98"/>hominem etc. his verbis in se ostendit pluritatem. Pluralitas autem ex 
+            <lb ed="#V" n="99"/>cludere videtur solitudinem. ergo deus nunquam fuit solus. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e188">
+            <lb ed="#V" n="100"/>Respondeo quod hec dictiosolus non videtur in proposito posse 
+            <lb ed="#V" n="101"/>accipi sincathegoreumatice: sed tantummodo 
+            ca<lb ed="#V" n="102" break="no"/>thegoreumatice: quia hic non videtur facere respectu 
+            ali<lb ed="#V" n="103" break="no"/>cuius praedicati exclusionem sicut facit cum dicitur. Solus deus 
+            <lb ed="#V" n="104"/>est creator. et ideo cum dicitur. deus ab eterno fuit solus. sensus est 
+            <lb ed="#V" n="105"/>quod deus ab eterno fuit solitarius. quod recipi non debet: quia quamuis 
+            <lb ed="#V" n="106"/>ab eterno omnio non fuit aliqua essentia alia quam divina: tamen in illa 
+            essen<lb ed="#V" n="107" break="no"/>tia est et fuit ab eterno personarum pluralitas quaie a deo 
+            solitudi<lb ed="#V" n="108" break="no"/>nem excludit.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e210">
+            ¶ Ad primum in oppositum. cum dicitur quod ab eterno non 
+            <lb ed="#V" n="109"/>fuit aliqua res nisi deus etc. dico quod verum est. sed tamen in ipst 
+            <lb ed="#V" n="110"/>est et fuit ab eterno pluralitas personarum.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e217">
+            ¶ Ad 2m cum dicitur 
+            <lb ed="#V" n="111"/>quod solus idem est quod non cum alio etc. potest dici quod solus non tantum 
+            <lb ed="#V" n="112"/>modo habet istum sensum: sed etiam istum: vt dicatur solus cum quo: 
+            <lb ed="#V" n="113"/>vel in quo non sunt aliqui inter se distincti. ab eterno autem 
+            fu<lb ed="#V" n="114" break="no"/>erunt in deo aliqui inter se distincti scilicet pater et filius et spiritus sanctus. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e228">
+            <lb ed="#V" n="115"/>¶ Ad 3m cum dicitur quod deus ab eterno non potest dici fuisse cum 
+            <lb ed="#V" n="116"/>alio etc. dico quod quuis hoc sit verum: tamen fuit cum illis qui inter 
+            <lb ed="#V" n="117"/>se sunt: alii in persona scilicet cum patre et filio et cum 
+            spi<lb ed="#V" n="118" break="no"/>rirusancto.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a47778-Dd1e240">
+          <head xml:id="kzz7yh-a47778-Hd1e242">Quaestio 2</head>
+          <head xml:id="kzz7yh-a47778-Hd1e250" type="question-title">Utrum haec sit vera</head>
+          <p xml:id="kzz7yh-a47778-d1e244">
+            Quaestio II. 
+            <lb ed="#V" n="119"/>SEcundo queritur vtrum hec sit vera. Solus 
+            pa<lb ed="#V" n="120" break="no"/>ter est pater. et videtur quod non: quia videtur 
+            <lb ed="#V" n="121"/>implicare solitudinem circa patrem sicut dicendo: homo a 
+            <lb ed="#V" n="122"/>bus currit. implicatur albedo circa hominem: pater aut 
+            so<lb ed="#V" n="123" break="no"/>litarius non est.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e257">
+            ¶ Item pater dicit cum alio: quia cum filio so¬ 
+            <!--00155.xml-->
+            <pb ed="#V" n="71-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>tus dicit non cum alio. ergo quandocumque hec dictio solus 
+            adiun<lb ed="#V" n="2" break="no"/>gitut isti dictioni que est pater simul iunguntur opposite 
+            si<lb ed="#V" n="3" break="no"/>gnificationes. et ideo semper videtur esse falsitas in tali propositione. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e273">
+            <lb ed="#V" n="4"/>Contra proprium est patri esse patrem. ergo sibi 
+            so<lb ed="#V" n="5" break="no"/>li conuenit. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e280">
+            <lb ed="#V" n="6"/>Respondeo dicunt aliquid quod ista solus pater est pater. potest triplicem 
+            <lb ed="#V" n="7"/>sensum habere. Unde secundum quod ly solus potest teneri 
+            ca<lb ed="#V" n="8" break="no"/>thegoreumatice. qui sensus est iste: pr solitarius est pater 
+            dupli<lb ed="#V" n="9" break="no"/>cem sensum potest hebere secundum quod ly solus tenetur sincathegoreu 
+            <lb ed="#V" n="10"/>matice. Unde secundum quod ponit re suam circa subiectum in comparatione ad 
+            <lb ed="#V" n="11"/>praedicatum compositionis iplicite. tunc enim est sensus ille qui solus est 
+            <lb ed="#V" n="12"/>patr. est patr alium secundum quod ponit rem suam circa subiectum in comparatione 
+            <lb ed="#V" n="13"/>ad praedicatum compositionis explicite: et tunc est sensus. pater est 
+            pa<lb ed="#V" n="14" break="no"/>ter et nullus alius a pre est patur. In primo sensu hec est iifa: 
+            so<lb ed="#V" n="15" break="no"/>lus pater est pater: quia pater solitarius non est. In secundo sensu et tertio vera 
+            <lb ed="#V" n="16"/>est. quamuis aut hec distinctio debeat reuereri ad concordam 
+            <lb ed="#V" n="17"/>dum auctoritates sanctorum: qui plus curauerunt de re quam de verborum 
+            <lb ed="#V" n="18"/>virtute tamen in proposito locum non habet virtus sermonis et ratio 
+            <lb ed="#V" n="19"/>huiusmodi est quia nullus terius ad adiunctus substantiuo immediate 
+            <lb ed="#V" n="20"/>quantum est de se dat intelligem compositioni virtute verborum: tamen ad 
+            <lb ed="#V" n="21"/>veritatem propositionis in qua adiectiuum immediate adiungitur 
+            sub<lb ed="#V" n="22" break="no"/>stantiuo sequitur illa expotmo quandoque. Unde si dicam homo albus currit: 
+            <lb ed="#V" n="23"/>sequitur hominem esse album quia non posset esse verum quod albus 
+            ho<lb ed="#V" n="24" break="no"/>mo curreret nisi esset homo albus tamen non est veritate huius quod 
+            <lb ed="#V" n="25"/>dico homo albus: quia si dicam homo albus non currit non implicatur 
+            homo<lb ed="#V" n="26" break="no"/>esse albius. Unde in affirmatiuis locum hebet verbum. 
+            Priscia<lb ed="#V" n="27" break="no"/>ni cum dicit quod in tali adiunctione intelligitur qui est vel qui fuit 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e331">
+            <lb ed="#V" n="28"/>¶ Dico ergo ad quaestionem quod secundum ly solus tenetur sincathe 
+            <lb ed="#V" n="29"/>goreumatice ista solus pater est pater: non hebetalium 
+            sensum<lb ed="#V" n="30" break="no"/>virtute verborum nisi istu pater est pater: et nullus alius a patre est 
+            <lb ed="#V" n="31"/>pater. et hoc verum est: si tamen virtute verborum heberet etiam istum 
+            <lb ed="#V" n="32"/>sensum: Illle qui solus est pater est patr etiam in illo sensu vera 
+            es<lb ed="#V" n="33" break="no"/>set. Unde secundum quod ly solus tenetur sincathegoreumatice. et ista 
+            <lb ed="#V" n="34"/>simpliciter est concedenda tanquam vera. solus pater est pater. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e349">
+            <lb ed="#V" n="35"/>Ad primum in oppositum cum dicitur quod dicendo solus pater est pater. Uidetur 
+            <lb ed="#V" n="36"/>implicare solitudinem circa patrem etc. dico quod verum est: si 
+            ly<lb ed="#V" n="37" break="no"/>solus acciperetur pro solitario. bene enim sequeretur solitarius 
+            <lb ed="#V" n="38"/>pater est patr. ergo pater est solitarius et in isto sensu propotio esset 
+            fal<lb ed="#V" n="39" break="no"/>sa propter falsam implicationem.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e362">
+            ¶ Ad secundum cum dicitur quod cum hec 
+            di<lb ed="#V" n="40" break="no"/>ctio solus adiungitur huic terimo pater simul iunguntur 
+            oppo<lb ed="#V" n="41" break="no"/>site signationes etc. dico quod non est verum secundum quodly solus non 
+            di<lb ed="#V" n="42" break="no"/>cit solitudinem absolute circa patrem: sed respectu huius 
+            praedi<lb ed="#V" n="43" break="no"/>cati quod est esse patrem. Non enim ista contradicunt quod. pater 
+            <lb ed="#V" n="44"/>sit cum alio: et tamen nullus cum eo est pater.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a47778-Dd1e376">
+          <head xml:id="kzz7yh-a47778-Hd1e378">Quaestio 3</head>
+          <head xml:id="kzz7yh-a47778-Hd1e390" type="question-title">Utrum hec sit vera</head>
+          <p xml:id="kzz7yh-a47778-d1e380">
+            Quaestio III 
+            <lb ed="#V" n="45"/>Tertio queritur vtrum hec sit vera. solus pater 
+            <lb ed="#V" n="46"/>est deus et videtur quod sic: quia philosophus primus 
+            phisi<lb ed="#V" n="47" break="no"/>corum dicit contra illo qui ponebant tantum vnum esse quod est 
+            <lb ed="#V" n="48"/>principium quod ex hoc ponebant esse multa: quia cum ponunt 
+            <lb ed="#V" n="49"/>tantum principium ponut est principiatum: ergo cum pater sit principium 
+            <lb ed="#V" n="50"/>filii et spiritusscienti: dictio exclusiua addita patri non excludit filium 
+            <lb ed="#V" n="51"/>neque spiritum sanctum et si ita est: hec est simpliciter vera solus pater est 
+            de<lb ed="#V" n="52" break="no"/>us.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e400">
+            ¶ Item Math. xv. dicitur quod nemo nouit filium nisi patr. si 
+            <lb ed="#V" n="53"/>ergo solus pater nouit filium cum nosce filium sit praedicatum 
+            esser<lb ed="#V" n="54" break="no"/>tiale pari ratione debet ista concedi quod solus pater est deus.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e407">
+            ¶ Item 
+            <lb ed="#V" n="55"/>dictio exclusiua addita anstenti non excludit conseqens. vnde non sequitur 
+            <lb ed="#V" n="56"/>solus homo currit: ergo risibile non currit: sed vnum relatiuorum 
+            <lb ed="#V" n="57"/>sequitur ad aliud: ergo addita vni relatio non excludit ad aliud. Cum 
+            <lb ed="#V" n="58"/>ergo dicitur solus patr est deus: non excluduntur ide silius et spiritus sanctus ergo etc. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e418">
+            <lb ed="#V" n="59"/>Contra alius a patre est deus: non est ergo verum quod solus 
+            <lb ed="#V" n="60"/>pater sit deus.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e426">
+            ¶ Item bene sequitur solus 
+            homo<lb ed="#V" n="61" break="no"/>currit: ergo quicunque currit est homo. ergo similiter sequitur 
+            so<lb ed="#V" n="62" break="no"/>lus pater est deus ergo quicunque est deus est pater: quod falsum est. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e433">
+            <lb ed="#V" n="63"/>Respondeo quod si hec dictio solus accipiatur  
+            cathego<lb ed="#V" n="64" break="no"/>reumatice sic a subiecto excludit consortium 
+            <lb ed="#V" n="65"/>simpliciter: et sub illo sensu propotio est falsa propter falsam praedicationem 
+            <lb ed="#V" n="66"/>Si autem accipiatur secundum quod tenetur sincathegoreumatice sic 
+            fa<lb ed="#V" n="67" break="no"/>cit exclusionem circa subiectum non simpliciter: sed respectu praedicati: 
+            <lb ed="#V" n="68"/>vel compositionis implicite. sub hoc sensu: ille qui solus est pater est 
+            <!--00155.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>deus qui sensus verus est vel respectu praedicati compositionis 
+            ex<lb ed="#V" n="70" break="no"/>plicite: et tunc est sensus pater est deus et nullus alius a patre est 
+            <lb ed="#V" n="71"/>deus quod falsum est et secundum istum sensum procedebant argumenta 
+            <lb ed="#V" n="72"/>probantia istam esse falsam: solus pater est deus. Utrum autem ex 
+            vi<lb ed="#V" n="73" break="no"/>sermonis possit in praedicta propositione hebere iste sensus: ille qui 
+            <lb ed="#V" n="74"/>solus est pater est deus: multi negant: et ideo praedictam propositionem 
+            <lb ed="#V" n="75"/>simpliciter concedunt falsam in omni sensum qui potest heberi ex ui secundumonis. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e468">
+            <lb ed="#V" n="76"/>Ad primum in oppositum dico quod philosophus non intendebat negare quin 
+            di<lb ed="#V" n="77" break="no"/>ctio exclusiua addita principio excludat principiatum 
+            <lb ed="#V" n="78"/>sed quod ponendo videtur tantum: quod est principium ponebant impossibitia: quia non est 
+            <lb ed="#V" n="79"/>principium nisi sit principiatum et perdictionem exclusiuam 
+            additan<lb ed="#V" n="80" break="no"/>printia excludebant principiatum et ita ponebant et negabant prim 
+            <lb ed="#V" n="81"/>cipiatum.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e484">
+            ¶ Ad secundum cum dicitur quod qua ratione conceditur quod 
+            so<lb ed="#V" n="82" break="no"/>lus pater nouit filium debet concedi quod solus pater est deus etc. dico quod 
+            <lb ed="#V" n="83"/>ista non debet concedi solus pater nouit filium: quamuis ista sint vera nemo 
+            <lb ed="#V" n="84"/>nouit filium nisi patur. quia per hanc dictione nemo non excluditur nisi 
+            <lb ed="#V" n="85"/>illud quod est in essentia aliud a patre: sed per hanc dictionem 
+            so<lb ed="#V" n="86" break="no"/>lus excluditur non tantummodo illud quod est aliud a patre in essentia 
+            <lb ed="#V" n="87"/>sed etiam illi qui sunt aliia patre in persona.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e500">
+            ¶ Ad 3m cum dicitur quod 
+            <lb ed="#V" n="88"/>dictio exclusiua addita ansteti non excludit conseqens etc. dico quod 
+            <lb ed="#V" n="89"/>verum est: quando conseqens est de ratione astentis: et ideo quia animal est de 
+            ro<lb ed="#V" n="90" break="no"/>ne hominis ideo dictio exclusiua addita homini non excludit aliam et 
+            <lb ed="#V" n="91"/>quia homo et risibile idem sunt in supposito: ideo dictio 
+            exclusi<lb ed="#V" n="92" break="no"/>ua addita homini non excludit risibile. Unde autem 
+            correlatiuo<lb ed="#V" n="93" break="no"/>rum in creaturis non est de alterius essentia. In deo autem 
+            <lb ed="#V" n="94"/>et si pater et filius sunt eiusdem essentie: tamen filius non 
+            <lb ed="#V" n="95"/>est de ratione patris sub ratione qua pater est.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a47778-Dd1e521">
+          <head xml:id="kzz7yh-a47778-Hd1e523">Quaestio 4</head>
+          <head xml:id="kzz7yh-a47778-Hd1e539" type="question-title">Utrum hec sit vera</head>
+          <p xml:id="kzz7yh-a47778-d1e525">
+            Quaestio IIII. 
+            <lb ed="#V" n="96"/>QUarto queritur vtrum hec sit vera. Solus  
+            de<lb ed="#V" n="97" break="no"/>us est pater: et videtur quod non: quia illa que 
+            <lb ed="#V" n="98"/>videtur eius conuersa scilicet solus pater est deus: est falsa.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e534">
+            ¶ Item 
+            <lb ed="#V" n="99"/>trinitas non est pater: deus est trinitas: ergo deus non 
+            <lb ed="#V" n="100"/>est pater et si sic solus deus non est pater.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e541">
+            ¶ Item substantia non 
+            <lb ed="#V" n="101"/>est rlautio etiam in diuinis quia sicut dicit Boetius in libro de tri. c. x. 
+            <lb ed="#V" n="102"/>Substantia continet vnitatem relatio multiplicat trinitatem: sed deus 
+            <lb ed="#V" n="103"/>signt substantiam: pater signat rlutionem. ergo deus non est pater: cum ergo 
+            in<lb ed="#V" n="104" break="no"/>cludatur ab ista solus deus est pater: falsa est hec solus deus est patr. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e552">
+            <lb ed="#V" n="105"/>Contra deus est pater: et nullus alius a deo est pater:  
+            er<lb ed="#V" n="106" break="no"/>go solus deus est pater. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e560">
+            <lb ed="#V" n="107"/>Respondeo quod si hec dictio solus accipiatur prout facit 
+            exclu<lb ed="#V" n="108" break="no"/>sionem circa subiectum absolute sic falsa est: quia tunc 
+            <lb ed="#V" n="109"/>esset sensus: deus solitarius est patur. Si autem accipiatur prout 
+            po<lb ed="#V" n="110" break="no"/>nit rem suam circa subiectum in comparatione ad praedicatum siue compotionis 
+            <lb ed="#V" n="111"/>implicite siue compositionis explicite vera est propositio. Uerum enm 
+            <lb ed="#V" n="112"/>est dicere quod ille qui solus est deus est pater et etiam quod deus est 
+            <lb ed="#V" n="113"/>pater: et nullus alius a deo est pater. Nos enim loquimur hic de 
+            <lb ed="#V" n="114"/>persona patris filii omnipotentis: et secundum sensum vltimo positum 
+            proce<lb ed="#V" n="115" break="no"/>dit argumentum probans istam esse veram. Solus deus est pater.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e582">
+            <lb ed="#V" n="116"/>Ad primum in oppositum cum dicitur: quod ista solus pater est deus: quae 
+            vi<lb ed="#V" n="117" break="no"/>detur esse conuersa istius est falsa etc. Dico quod illa solum 
+            <lb ed="#V" n="118"/>pater est deus non est illa: in quam conuertitur praedicta propotio cum enim 
+            <lb ed="#V" n="119"/>sint plures: non debet conuerti vnica conuersione sed pluribus equal:m 
+            <lb ed="#V" n="120"/>enim istis duabus: deus est pater: et nullus alius a deo est pater: 
+            <lb ed="#V" n="121"/>et qualem istarum conuertitur in propositionem veram. Prima enim 
+            con<lb ed="#V" n="122" break="no"/>uertitur iu hanc: pater est deus et hec est vera. Secunda conuertitur 
+            <lb ed="#V" n="123"/>in hanc. Nullus pater est alius a deo et hec est vera est: quia hic est 
+            <lb ed="#V" n="124"/>sermo de patre filii omipotentis.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e604">
+            ¶ Ad secundum dico quod ibi est 
+            <lb ed="#V" n="125"/>peccatum ad similitudinem fallacie accident. quamuis enim persone 
+            <lb ed="#V" n="126"/>distinguantur inter se: nulla tamen persona distinguitur a divina 
+            essen<lb ed="#V" n="127" break="no"/>tia. vnde propter distinctionem personarum inter se: trinitas non est pater 
+            <lb ed="#V" n="128"/>et propter hoc quod nulla persona. distinguitur a diuina essentia vere 
+            di<lb ed="#V" n="129" break="no"/>citur quod deus est trinitas et quod deus est patr.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e617">
+            ¶ Ad tertium 
+            di<lb ed="#V" n="130" break="no"/>co quod ralatio in divinis est comparata ad divinam substantiam realiter est idem 
+            <lb ed="#V" n="131"/>cum ea. Unde bene dicitur. diuina substantia est 
+            pater<lb ed="#V" n="132" break="no"/>nitas comparata tamen ad relationem oppositam 
+            distin<lb ed="#V" n="133" break="no"/>guitur ab ea vnde paternitas non est filiatio nec pater 
+            fi<lb ed="#V" n="134" break="no"/>lius: et tamen deus est pater.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a47778-Dd1e631">
+          <head xml:id="kzz7yh-a47778-Hd1e633">Quaestio 5</head>
+          <head xml:id="kzz7yh-a47778-Hd1e653" type="question-title">Utrum utrum haec sit vera trinitas est solus deus</head>
+          <p xml:id="kzz7yh-a47778-d1e635">
+            Quaestio. V 
+            <lb ed="#V" n="135"/>QUinto queritur vtrum hec sit vera trinitas est 
+            <lb ed="#V" n="136"/>solus deus: et videtur quod non: quia secundum 
+            <!--00156.xml-->
+            <pb ed="#V" n="71-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>phylosophum ii. per hyer. Nomina et verba transposita idem 
+            <lb ed="#V" n="2"/>siguificat: sed hec est falsa trinitas est deus solus ergo et ista 
+            <lb ed="#V" n="3"/>trinitas est solus deus.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e655">
+            ¶ Item hec est falsa trinitas est 
+            <lb ed="#V" n="4"/>ille qui solus est deus ergo et ista trinitas est solus deus antes 
+            <lb ed="#V" n="5"/>probatur sic: quia hoc pronomen ille ostendit aliquem in masculino 
+            <lb ed="#V" n="6"/>genere: sicut illud ostenderet aliud in neutro: sed de nullo 
+            sup<lb ed="#V" n="7" break="no"/>posito scilicet nec: de patre nec de filio: neque de spiritu sancto potest 
+            ve<lb ed="#V" n="8" break="no"/>re dici: solus ille est deus.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e668">
+            ¶ Item propositio in qua hoc siguimentum 
+            <lb ed="#V" n="9"/>omnis additur praedicato false est vnde false sunt iste homo est 
+            <lb ed="#V" n="10"/>omnis homo: et omnis homo est omnis homo. ergo a simili et de hac 
+            distin<lb ed="#V" n="11" break="no"/>ctione solus cum sit nata esse dispotmo subiti in compositione ad 
+            praedi<lb ed="#V" n="12" break="no"/>catum sicut hoc signum omnis: sed in ista trinitas est solus deus 
+            <lb ed="#V" n="13"/>hec dictio solus additur predicato: ergo est falsa. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e681">
+            <lb ed="#V" n="14"/>Contra Aug. vi. de trinitate c. vltimo dicit patrem et filium et 
+            <lb ed="#V" n="15"/>spiritum sanctum esse vnum solum deum.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e689">
+            ¶ Item hoc 
+            <lb ed="#V" n="16"/>idem dicit magister in littera. Ait enim sic esse solum 
+            de<lb ed="#V" n="17" break="no"/>um dicimns patrem et filium et spiritum sanctum. 
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e696">
+            <lb ed="#V" n="18"/>Respondeo quod iste quattuor differunt aliquo modo trinitas 
+            <lb ed="#V" n="19"/>est deus solus: et trinitas est solus deus: et 
+            tri<lb ed="#V" n="20" break="no"/>nitas est solum deus: et trinitas est vnus solus deus. 
+            Pri<lb ed="#V" n="21" break="no"/>ma enim falsa est: quia ly solus quando ponitur aperte praedicati post 
+            <lb ed="#V" n="22"/>suum substantiuum implicat solitudinem absolute circa ipsum 
+            <lb ed="#V" n="23"/>vnde sensus est trinitas est deus solus id est trinitas est deus 
+            so<lb ed="#V" n="24" break="no"/>litarius: quod falsum est cum in ea sit pluritas personarum.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e714">
+            ¶ Hec 
+            <lb ed="#V" n="25"/>aut trinitas est solus deus: falsa non est tamen non est satis eui ve 
+            <lb ed="#V" n="26"/>denter propria: quia non excludit euidenter nisi illud quod ex 
+            <lb ed="#V" n="27"/>nam praedicati sine dictione exclusiua excluderetur. Cum enim 
+            <lb ed="#V" n="28"/>dicimus trinitas est deus in hoc includimus ipsam non esse 
+            ali<lb ed="#V" n="29" break="no"/>ud neque alium a deo: tamen hoc non aufert totaliter proprietatem 
+            predi<lb ed="#V" n="30" break="no"/>cte propositionis: nec facit quod omnino sit nugatio per hocquod additur 
+            <lb ed="#V" n="31"/>solus quia per eius adiunctionem expressius et euidentius 
+            excludi<lb ed="#V" n="32" break="no"/>tur quod sine hac dictione solus ex natura praedicati excluderetur: 
+            <lb ed="#V" n="33"/>hec autem trinitas est solum deus: quamuis ab aliquibus iudicetur in 
+            <lb ed="#V" n="34"/>propria propter rationem predictam scilicet quia non excludit nisi quod ex natura 
+            <lb ed="#V" n="35"/>pedicati excluderetur non in deo tamen quod propter hoc propria debeat 
+            <lb ed="#V" n="36"/>dici quia quamuis gratie nature sequatur trinitas est deus: ergo 
+            <lb ed="#V" n="37"/>trinitas est deus tantum: gratia tamen forus non valeret argumentum quia si 
+            pa<lb ed="#V" n="38" break="no"/>ter et spiritus sanctus accepissent naturam humanam sicut filius: 
+            <lb ed="#V" n="39"/>non valeret ista conea: trinitas est deus ergo trinitas est deus 
+            <lb ed="#V" n="40"/>tantum: sicut non valet ista: filius est deus: ergo filius est deus 
+            <lb ed="#V" n="41"/>tantum. Dicimus enim et verum est quod filius non solum est deus: sed 
+            <lb ed="#V" n="42"/>etiam homo dico ergo quod ista trinitas est solum deus: vera est 
+            <lb ed="#V" n="43"/>et propria: et proprietas eius magis est euidens quam proprietas 
+            isti<lb ed="#V" n="44" break="no"/>us: trinitas est solus deus: quia aduerbium cum sit adiectiuum 
+            <lb ed="#V" n="45"/>verbi sertur ad omne positionem: et quia compositio indifferenter respicit 
+            <lb ed="#V" n="46"/>subiectum et praedicatum ideo conuenienter additur et euidenter proprie 
+            tan<lb ed="#V" n="47" break="no"/>subieato quam praedicato hec autem dictio solus prout est dictio 
+            sinca<lb ed="#V" n="48" break="no"/>thegoreumatica cum sit nomen semper refertur ad subiectum 
+            ali<lb ed="#V" n="49" break="no"/>cuius compositionis: vnde cum dicimus trinitas est solus deus: 
+            <lb ed="#V" n="50"/>trinitas est ille qui solus est deus: vel trinitas est aliquid ens 
+            <lb ed="#V" n="51"/>quod solum est deus: et quia compositio ad cuius subiectum refertur hec 
+            di<lb ed="#V" n="52" break="no"/>ctio solus: non est expressa sed implicita: ideo non est euidenter 
+            <lb ed="#V" n="53"/>propria.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e779">
+            ¶ Hec aut trinitas est vnus solus deus est vera: et 
+            <lb ed="#V" n="54"/>omnibus aliis euidentius propria: tunc enim clarum est quid per eam ex 
+            <lb ed="#V" n="55"/>cluditur. Excludit enim deorum pluralitatem: ita vt sit sensus: 
+            <lb ed="#V" n="56"/>trinitas est vnus deus tamen plures dii et sic expediebat dice 
+            <lb ed="#V" n="57"/>re contra aliquos hereticos qui ponebant tres personas esse tres 
+            <lb ed="#V" n="58"/>deos.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e792">
+            ¶ Argumenta que probant istam esse veram: trinitas 
+            <lb ed="#V" n="59"/>est solus deus gratia conclusionis posset concedi quamuis aliqua de 
+            <lb ed="#V" n="60"/>illis auctoritatibus sic possent exponi vt dictio exclusiua 
+            re<lb ed="#V" n="61" break="no"/>ferretur ad subiectum: et non ad predicatum.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e801">
+            <lb ed="#V" n="62"/>Ad primum in oppositum cum dicitur quod nomina et verba 
+            transpo<lb ed="#V" n="63" break="no"/>sita idem signunt etc. Dico quod in dictione 
+            <lb ed="#V" n="64"/>exclusiua non habet veritatem ratione negationis implicite quia 
+            <lb ed="#V" n="65"/>differunt preponere et postponere negationem ipsi 
+            termi<lb ed="#V" n="66" break="no"/>no. Unde quamuis non differat dicere homo albus: albus homo: non 
+            <lb ed="#V" n="67"/>propter hoc sequitur quod idem sit dicere: trinitas est solus deus: et 
+            <!--00156.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="68"/>trinitas est deus solus.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e824">
+            ¶ Ad 2m cum dicitur quod hec propotio est falsa: 
+            tri<lb ed="#V" n="69" break="no"/>nitas est ille qui solus est deus etc dico quod immo est vera: et cum 
+            <lb ed="#V" n="70"/>dicis quod hoc pronomen ille dicit aliquod suppsium dico quod verum est 
+            <lb ed="#V" n="71"/>vocando fuppsium ipsum quod est hoc est diuinam essentiam signatam 
+            <lb ed="#V" n="72"/>vt in suppositione: et sic signatur hoc nomen deus. Unde cum dicitur 
+            <lb ed="#V" n="73"/>trinitas est ille qui solus est deus: sensus est: trinitas est ille 
+            <lb ed="#V" n="74"/>deus qui solus est deus.
+          </p>
+          <p xml:id="kzz7yh-a47778-d1e840">
+            ¶ Ad tertium cum dicitur quod propotio est 
+            fal<lb ed="#V" n="75" break="no"/>sa in qua hoc signum omnis additur praedicato. Unde ista est 
+            fal<lb ed="#V" n="76" break="no"/>sa: omnis homoest: omnis homo etc dico quod verum est: sed hoc non est: quod 
+            <lb ed="#V" n="77"/>terminus in praedicato non posset stare nisi pro forma quia estimo 
+            <lb ed="#V" n="78"/>quod terminus siue aperte subieti siue a parte praedicati potest stare: vel 
+            pro<lb ed="#V" n="79" break="no"/>supposito vel pro forma et pro quocumque verificetur. propotio 
+            vera<lb ed="#V" n="80" break="no"/>debet dici simpliciter est ergo ista falsa omnis homo est omnis homo quod 
+            <lb ed="#V" n="81"/>et aperte subiecnti et aperte predicati distribuitur iste terminus homo 
+            pro<lb ed="#V" n="82" break="no"/>omnibus suis suppositis: vnde sensus est quod Paulus est Petrum 
+            <lb ed="#V" n="83"/>et Ioannes est Andreas. Et sic de omnibus aliis hominibus. Unde 
+            <lb ed="#V" n="84"/>simpeliciter ista: omnis homo est omnis homo signtat vnum quenque hominiem: 
+            es<lb ed="#V" n="85" break="no"/>se quemliet hominem: quod falsum est. Unde aliquando hoc signum ominis 
+            <lb ed="#V" n="86"/>potest addi praedicato et est propotio vera vt si dicam deus est omnis 
+            <lb ed="#V" n="87"/>persona in creata quia deus est pater: deus est filius: deus est spiritus 
+            <lb ed="#V" n="88"/>sanctus. Dico ergo quod hec dictio solus aliquando additur praeto: et est 
+            <lb ed="#V" n="89"/>propotio falsa: aliquando additur praeto et est propotio vera sicut in proposito. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,497 +1,497 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 2</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 2</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="42-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f29985"><!-- l2d10a2 -->
-            <head xml:id="kzz7yh-f29985-Hd1e101">Articulus 2</head>
-            <p xml:id="kzz7yh-f29985-d1e103">
-               <lb ed="#V" n="21"/>COnsequenter queritur de. 2.
-      prin<lb ed="#V" n="22" break="no"/>cipali. Et circa hoc 
-      <lb ed="#V" n="23"/>queruntur tria.
-   </p>
-            <p xml:id="kzz7yh-f29985-d1e112">
-      ¶ Primo vtrum angeli possint 
-      <lb ed="#V" n="24"/>docere homines in assumpto corpore.
-   </p>
-            <p xml:id="kzz7yh-f29985-d1e117">
-      ¶ 
-      Secun<lb ed="#V" n="25" break="no"/>do vtrum hoc possint sine assumpto corpore.
-   </p>
-            <p xml:id="kzz7yh-f29985-d1e122">
-      ¶ Tertio vtrum 
-      <lb ed="#V" n="26"/>per ministerium quod nobis exhibent eorum 
-      contemplatio<lb ed="#V" n="27" break="no"/>minuatur.
-   </p>
-            <div xml:id="kzz7yh-f29985-Dd1e130">
-               <head xml:id="kzz7yh-f29985-Hd1e132">Quaestio 1</head>
-               <head xml:id="kzz7yh-f29985-Hd1e136" type="question-title">Utrum angeli possint docere homines in assumpto corpore</head>
-               <p xml:id="kzz7yh-f29985-d1e134">
-      ¶ Questio I. 
-      <lb ed="#V" n="28"/>PRimo ostendo quod angelus in 
-      <lb ed="#V" n="29"/>assumpto 
-      cor<lb ed="#V" n="30" break="no"/>pore non potest nos docere Glossa super illud 
-      Mat<lb ed="#V" n="31" break="no"/>teh. 13. Nolite vocari Rabbi. dicit: nec quod debetur 
-      <lb ed="#V" n="32"/>deo vobis presumatis: nec alios rabbi vocetis: ne dei 
-      ho<lb ed="#V" n="33" break="no"/>norem hominibus deferatis. Ergo videtur quod docere 
-      homi<lb ed="#V" n="34" break="no"/>nem est proprium solius dei.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e152">
-      ¶ Item Augu. 5 confes. 
-      ldeo<lb ed="#V" n="35" break="no"/>ge ante medium loquens ad deum dicit. Nec quisquam 
-      preter<lb ed="#V" n="36" break="no"/>te alius doctor est veri: vbicumque et vsdencumque claruerit: ergo 
-      so<lb ed="#V" n="37" break="no"/>lus deus potest docere.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e161">
-      ¶ Item scientia angeli non est 
-      quali<lb ed="#V" n="38" break="no"/>tas actiua. Sed res per qualitatem non actiuam non potest 
-      <lb ed="#V" n="39"/>causare similem qualitatem in alio. Ergo angelus non potest 
-      <lb ed="#V" n="40"/>scientiam in nobis causare per suam scientiam.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e170">
-      ¶ Item 
-      ange<lb ed="#V" n="41" break="no"/>lus per officium quod exercet mediante assumpto corpore: non 
-      <lb ed="#V" n="42"/>potest nobis propositionere nisi signa sensibilia. Sed sensibilia non 
-      <lb ed="#V" n="43"/>mouent intellectum. Ergo nullo modo mediante 
-      assumpto<lb ed="#V" n="44" break="no"/>corpore potest nos docere.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e182">
-      ¶ Item aut proponit signa rerum 
-      <lb ed="#V" n="45"/>notarum autem ignotarum. Si rerum notarum: tunc non docet 
-      <lb ed="#V" n="46"/>nos: quia iam sciremus illud quod vellet nos docere. Si rerum 
-      <lb ed="#V" n="47"/>ignotarum: talia signa non mouent nos. Ergo videtur quod 
-      propo<lb ed="#V" n="48" break="no"/>nendo signa sensibilia mediante assumpto corpore: non 
-      po<lb ed="#V" n="49" break="no"/>test nos docere.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e195">
-      ¶ Item eadem forma non est ab arte et a 
-      <lb ed="#V" n="50"/>natura. Sed scientia potest inesse homini a natura vt 
-      pa<lb ed="#V" n="51" break="no"/>tet in illis qui acquirunt scientiam per inuentionem. Ergo non 
-      <lb ed="#V" n="52"/>potest acquiri in homine per artem doctrine. 
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e204">
-                  <lb ed="#V" n="53"/>Contra homo potest docere hominem signa sensibilia 
-      <lb ed="#V" n="54"/>proponendo. Unde saluator. Mateh. vltimo 
-      di<lb ed="#V" n="55" break="no"/>cit discipulis: euntes docete omnes gentes. Ergo videtur 
-      <lb ed="#V" n="56"/>similiter quod angelus mediante assumpto corpore signa 
-      sen<lb ed="#V" n="57" break="no"/>sibilia proponendo potest nos docere.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e217">
-      ¶ Item vt habetur 
-      <lb ed="#V" n="58"/>in Thobia in pluribus locis raphael in corpore 
-      assumpto<lb ed="#V" n="59" break="no"/>iuuenem Thobiam docuit. 
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e224">
-                  <lb ed="#V" n="60"/>Respondeo quod angeli in corpore assumpto 
-      pos<lb ed="#V" n="61" break="no"/>sunt homines docere dispositiue 
-      signa<lb ed="#V" n="62" break="no"/>sensibilia proponendo: non scientiam in nobis efficiendo. Cum 
-      <lb ed="#V" n="63"/>enim aliqua forma nata est esse ab aliquo principio 
-      intrin<lb ed="#V" n="64" break="no"/>seco: et ab extrinseco principio creato: sicut ab arte creata: 
-      <lb ed="#V" n="65"/>illud principium creatum extrinsecum: non est 
-      princi<lb ed="#V" n="66" break="no"/>pale agens: sed adiuuans interius agens: quod est agens 
-      <lb ed="#V" n="67"/>principale in productione illius forme. Non loquendo 
-      <lb ed="#V" n="68"/>de principalitate simpliciter: quia illa soli agenti in crea¬ 
-      <!--00097.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>to conuenit: sed loquendo de principalitate in genere 
-      crea<lb ed="#V" n="70" break="no"/>ture. Uerbi gratia sanitas quandoque causatur a 
-      principio<lb ed="#V" n="71" break="no"/>intrinseco tantum: vt patet cum infirmus curatur per naturam 
-      <lb ed="#V" n="72"/>sine aliquo adiutorio medicine. Quandoque autem est a 
-      natu<lb ed="#V" n="73" break="no"/>ra et a medicina. Sed medicina non causat principaliter 
-      sani<lb ed="#V" n="74" break="no"/>tatem: sed naturam adiuuat sibi ministrando ea que habent 
-      <lb ed="#V" n="75"/>confortare naturalem virtutem: que confortata ita vt 
-      poten<lb ed="#V" n="76" break="no"/>tior sit morbo causat sanitatem.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e268">
-      ¶ Scientia autem in homine: 
-      quan<lb ed="#V" n="77" break="no"/>doque est a principio intrinseco ita quod non ab aliqua arte vel 
-      <lb ed="#V" n="78"/>doctrina creata. In homine enim est naurale lumen quo 
-      <lb ed="#V" n="79"/>per se ipsum statim cognoscit veritatem aliquorum 
-      princi<lb ed="#V" n="80" break="no"/>piorum que cum ordinate applicat ad aliqua particularia 
-      quo<lb ed="#V" n="81" break="no"/>rum memoriam et experientiam acquifiuit per sensum causatur 
-      <lb ed="#V" n="82"/>in eo scientia per modum inuentionis. Unde philosophus ist meta. 
-      ho<lb ed="#V" n="83" break="no"/>minibus scientia et ars per experientiam euenit. Et voco 
-      or<lb ed="#V" n="84" break="no"/>dinatam applicationem princpiorum vniversalium ad veritates 
-      mi<lb ed="#V" n="85" break="no"/>nus vniuersales quando primo applicantur ad illam veritatem que 
-      <lb ed="#V" n="86"/>immediatius in illo principio relucet: et deinde ad illam que 
-      <lb ed="#V" n="87"/>primo relucet in principio mediante prima: et sic de inceps 
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e295">
-                  <lb ed="#V" n="88"/>¶ Quandoque scientia acquiritur in homine et doctrinam 
-      crea<lb ed="#V" n="89" break="no"/>tam tanquam per exterius principium: et per proprium lumen 
-      <lb ed="#V" n="90"/>naturale: tanquam per principium interius: Ergo ipse doctor 
-      <lb ed="#V" n="91"/>creatus exterior non est efficiens in homine scientiam: Sed 
-      in<lb ed="#V" n="92" break="no"/>terius lumen coadiuuans: per quod tanquam per principale agens 
-      <lb ed="#V" n="93"/>in genere creature ipse homo reducendo intellectum suum de 
-      <lb ed="#V" n="94"/>potentia ad actum efficit scientiam in se ipso.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e313">
-      ¶ Potest 
-      <lb ed="#V" n="95"/>ergo angelus in assumpto corpore docere hominem 
-      adiuuan<lb ed="#V" n="96" break="no"/>do interius hominis lumen proponendo signa sensibialia 
-      conclu<lb ed="#V" n="97" break="no"/>sionum que immediate oriuntur ex veritatibus homini notis: de 
-      <lb ed="#V" n="98"/>inde signat conclusionis immediate sequentis: et sic deinceps 
-      propo<lb ed="#V" n="99" break="no"/>nendo etiam extra intellectui manuducentia sibi proportionalia. 
-    </p>
-               <p xml:id="kzz7yh-f29985-d1e326">
-                  <lb ed="#V" n="100"/>Ad primum in oppositum dicendum: quod sicut de deo 
-      <lb ed="#V" n="101"/>dicitur homini: qui sanat omnes 
-      <lb ed="#V" n="102"/>infirmitates tuas: eo quod natura sanans ab ipso est: nec operatur 
-      <lb ed="#V" n="103"/>nisi in virtute illius. Ita de ipso dicitur quod docet 
-      hominem<lb ed="#V" n="104" break="no"/>scientiam: quia lumen naturale ab ipso est in nobis: dicente 
-      psal<lb ed="#V" n="105" break="no"/>mista: signatum est super nos lumen vultus tui domine: per 
-      <lb ed="#V" n="106"/>quod non operatur homini nisi in virtute illius a quo datum est 
-      <lb ed="#V" n="107"/>sibi: et ideo esse doctorem sir pliciter principalem solius dei 
-      <lb ed="#V" n="108"/>poprium est.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e348">
-      ¶ Ad 2m dicendum quod illa auctoritas Augu. 
-      in<lb ed="#V" n="109" break="no"/>telligenda est de doctore primario et principali.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e353">
-      ¶ Ad 3m 
-      <lb ed="#V" n="110"/>cum dicitur quod res per qualitatem non actiua non potest creare 
-      simi<lb ed="#V" n="111" break="no"/>lem qualitatem etc. dico quod verum est per modum naturalis 
-      agen<lb ed="#V" n="112" break="no"/>tis: nec sic angelus causat scientiam in homine: sed tantum ex 
-      <lb ed="#V" n="113"/>citando et adiuuando intellectum ad hoc vt ordinate procedat 
-      <lb ed="#V" n="114"/>per suum naturale lumen a principiis ad conclusiones: quia hic 
-      <lb ed="#V" n="115"/>non intendo loqui nisi de scientia que virtualiter continetur in 
-      <lb ed="#V" n="116"/>principiis: quorum cognitio homini in nata est.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e371">
-      ¶ Ad 4m 
-      <lb ed="#V" n="117"/>cum dicitur quod sensibilia non mouent intellectum etc. dico quod 
-      <lb ed="#V" n="118"/>verum est per se et immediate: tamen signa sensibilia ordinare 
-      pro<lb ed="#V" n="119" break="no"/>posita causant cum adiutorio inrerioris sensitiue in organo 
-      <lb ed="#V" n="120"/>imaginationis fantasmata ordinata: et intellectus per suum 
-      <lb ed="#V" n="121"/>actiuum naturali actione mediantibus illis fantasmatibus 
-      <lb ed="#V" n="122"/>sicut agentibus instrumentalibus: ordinate educit de 
-      poten<lb ed="#V" n="123" break="no"/>tia sui ipsius vt est possibilis ad actum species intelligibiles 
-      <lb ed="#V" n="124"/>quibus se ipsum deducit a veritate sibi nota: ad veritatem 
-      <lb ed="#V" n="125"/>que immediate nata est intelligi per eam: et ab illa ad aliam 
-      im<lb ed="#V" n="126" break="no"/>mediate sequentem: et sic deinceps.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e396">
-      ¶ Ad 5m dicendum quod 
-      pro<lb ed="#V" n="127" break="no"/>ponit signa rerum naturalium in vniuersali. Uerbi gratia iste 
-      ho<lb ed="#V" n="128" break="no"/>mo scit quod omne totum est maius sua parte: iste ergo scit quid est 
-      to<lb ed="#V" n="129" break="no"/>tum et quid est pars: proponet ergo sibi angelus signa istius 
-      <lb ed="#V" n="130"/>veritatis. Unumquodque statim corporum est quoddam totum: quo 
-      <lb ed="#V" n="131"/>apprehenso corporis videbit quod vnumquodque corporeum est 
-      <lb ed="#V" n="132"/>maius sua parte: et sic fiet in particulari quod ante sciebat in 
-      <lb ed="#V" n="133"/>vniuersali: oportet tamen ad hoc vt doceat quod proponat 
-      si<lb ed="#V" n="134" break="no"/>gna de quibus scientiat homo quid est quod dicitur per 
-      no<lb ed="#V" n="135" break="no"/>men: quod est etiam scire signatum debiliter: tamen et in 
-      <lb ed="#V" n="136"/>vniversali.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e420">
-      ¶ Ad 6m dicendum: quod non plus concludit: in quod doctor crea¬ 
-      <!--00098.xml-->
-      <pb ed="#V" n="42-v"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>tus non potest in alio scientiam efficere nisi mediante 
-      intrin<lb ed="#V" n="2" break="no"/>seco agente. et hoc est vnum.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f29985-Dd1e434">
-               <head xml:id="kzz7yh-f29985-Hd1e436">Quaestio 2</head>
-               <head xml:id="kzz7yh-f29985-Hd1e444" type="question-title">Utrum angeli sine assumpto corpore possint homines docere</head>
-               <p xml:id="kzz7yh-f29985-d1e438">
-      ¶ Questio. II. 
-      <lb ed="#V" n="3"/>SEcundo queritur vtrum 
-      ange<lb ed="#V" n="4" break="no"/>li sine 
-      assum<lb ed="#V" n="5" break="no"/>pto corpore possint homines docere. Et videtur quod non. 
-      <lb ed="#V" n="6"/>Ber. 5. secundum super Cane. vltra medium sermonis sic dicit: 
-      <lb ed="#V" n="7"/>Scitote nullum creatorum spirituum per se nostris mentibus 
-      <lb ed="#V" n="8"/>applicari: vt nullo videlicet mediante nostri sui ve corporis 
-      <lb ed="#V" n="9"/>instrumento ita nobis immisceatur vel infundatur quo eius 
-      <lb ed="#V" n="10"/>participatione docti siue doctiores vel boni siue meliores 
-      <lb ed="#V" n="11"/>efficiamur.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e460">
-      ¶ Item angelus non potest in nostro 
-      intellec<lb ed="#V" n="12" break="no"/>tu speciem intelligibilem imprimere. quia tunc posset facere quod 
-      <lb ed="#V" n="13"/>cecus natus quid intelligeret est color. nec in imaginatione 
-      spe<lb ed="#V" n="14" break="no"/>ciem imaginabilem. quia tunc posset facere quod cecus natus 
-      <lb ed="#V" n="15"/>imaginaretur colorem. Ergo videtur quod sine assumpto corpore 
-      <lb ed="#V" n="16"/>non possunt homines docere.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e473">
-      ¶ Item intentio requiritur ad 
-      co<lb ed="#V" n="17" break="no"/>gnitionem vnde quando aliquid est ante oculos: si non adsit 
-      in<lb ed="#V" n="18" break="no"/>tentio non videtur. Sed angelus non potest nostram 
-      intentio<lb ed="#V" n="19" break="no"/>nem conuertere: quia tunc posset nos facere cogitare quicquid 
-      <lb ed="#V" n="20"/>ipse vellet. Ergo videtur quod angeli sine assumpto corpore 
-      <lb ed="#V" n="21"/>non possunt nos docere.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e486">
-      ¶ Item minus luminare non 
-      <lb ed="#V" n="22"/>illuminat in presentia maioris. vt patet in stella et sole. Sed 
-      <lb ed="#V" n="23"/>deus qui est summum luminare illuminat omnem hominem 
-      <lb ed="#V" n="24"/>venientem in hune mundum vt dicitur Ioh i. Ergo angelus 
-      <lb ed="#V" n="25"/>quie est minus luminare: non potest hominem illuminare docendo. 
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e498">
-                  <lb ed="#V" n="26"/>Contra luminare quod recipit lumen ab alio etiam 
-      illu<lb ed="#V" n="27" break="no"/>minat aliud effectiue. vt patet in stellis. 
-      Er<lb ed="#V" n="28" break="no"/>go similiter angelus per lumen quod recepit a deo potest in 
-      homi<lb ed="#V" n="29" break="no"/>ne scientie lumen efficere.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e509">
-      ¶ Item Auicena. 3. meth. ca 8. 
-      <lb ed="#V" n="30"/>dicit quod nos imprimimur ab intelligentiis. Si ergo possunt in 
-      <lb ed="#V" n="31"/>nostero intellectu imprimere: possunt nos effectiue docem: vt videtur. 
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e516">
-                  <lb ed="#V" n="32"/>Respondeo quod angeli sine assumpto corpore 
-      pos<lb ed="#V" n="33" break="no"/>sunt docere homines. Non species in
-      <lb ed="#V" n="34"/>intellectu creando: quia nihil possunt creare. Nec 
-      speciem<lb ed="#V" n="35" break="no"/>intelligibilem ab ista que est in se multiplicatam in 
-      intel<lb ed="#V" n="36" break="no"/>lectu hominis imprimendo: quia non esset 
-      proportiona<lb ed="#V" n="37" break="no"/>lis humano intellectui. Et quia forte sic ponere 
-      mul<lb ed="#V" n="38" break="no"/>tiplicationem est positionere aliquid fieri a creatura non de aliquo 
-      <lb ed="#V" n="39"/>Nec speciem intelligibilem vel lumen intelligibile de potentia 
-      <lb ed="#V" n="40"/>intellectus hominis educendo propter modum existendi quem habet 
-      <lb ed="#V" n="41"/>in corpore quo indispositus est ad immediate recipiendum actio 
-      <lb ed="#V" n="42"/>nem intelligentie. Nec easdem species intelligibiles numero 
-      <lb ed="#V" n="43"/>quas ipse hebet intellectui hominis presentando. quia 
-      intelle<lb ed="#V" n="44" break="no"/>ctus illas intueri non posset: sicut nec substantiam intelligentie 
-      <lb ed="#V" n="45"/>immediate potest intueri: et propter modum existendi quem hebet in corpore 
-      <lb ed="#V" n="46"/>corruptibili. et propter illarum specierum improportionalitatem ad ipsum. 
-      <lb ed="#V" n="47"/>Ex quibus sequitur quod angelus non potest hominem docere immediate 
-      <lb ed="#V" n="48"/>efficiendo scientiam in intellectu ipstus. nec immediate operando 
-      cir<lb ed="#V" n="49" break="no"/>ca ipsum. Potest tamen ipsum ad scientiam disponere sine 
-      assum<lb ed="#V" n="50" break="no"/>pto corpore operando circa spiritus et humores et fantasma 
-      <lb ed="#V" n="51"/>ta que sunt in organis que sunt virium sensitiuarum: quia 
-      fan<lb ed="#V" n="52" break="no"/>tasmata sunt ibi sub distin. situ. Ita vt si imaginor duas 
-      <lb ed="#V" n="53"/>res distantes. imaginor eas per duo fantasmata distantia. 
-      <lb ed="#V" n="54"/>ita quod sicut se hebet distantia inter res imaginatas ad ipsas. 
-      <lb ed="#V" n="55"/>ita se hebet proportionaliter distantia inter fantasmata ad fantats 
-      <lb ed="#V" n="56"/>mata. Et sicut per paruum santasma imaginor rem magnam 
-      <lb ed="#V" n="57"/>ita per modicam distantiam inter fantasmata imaginor res 
-      mul<lb ed="#V" n="58" break="no"/>tum per distantes. Et sicut eedem litter diuersimode ordinate 
-      di<lb ed="#V" n="59" break="no"/>uersa significant. sic fantasmata diuersimode ordinata 
-      <lb ed="#V" n="60"/>diuersa representant. Dico ergo quod angelus facere 
-      pos<lb ed="#V" n="61" break="no"/>test vt similitudines sensate que sunt in imaginatiua. et in 
-      <lb ed="#V" n="62"/>tentiones que sunt in custoditiua siue in memoratiua 
-      me<lb ed="#V" n="63" break="no"/>diantibus spiritibus tanquam per medium deferens sub alio et alic 
-      <lb ed="#V" n="64"/>ordine multiplicentur. hoc est educantur de potentia illorum 
-      spi<lb ed="#V" n="65" break="no"/>rituum vsque ad cogitatiuam sensibilem. Et sic facere potest vt 
-      <lb ed="#V" n="66"/>ab eisdem fantasmatibus ipsa cogitatiua sensibilis 
-      diuersimo<lb ed="#V" n="67" break="no"/>de moueatur. et ex consequenti quod intellectus ab eisdem fantasma 
-      <lb ed="#V" n="68"/>tibus diuersum ordinem intelligibilem naturali actione abstra¬ 
-      <!--00098.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>hat: et sic de re prius incognita edocetur. Quia etiam nimius 
-      <lb ed="#V" n="70"/>motus humorum impedit actionem intellectus et sedatio iuuat. 
-      <lb ed="#V" n="71"/>quapropter dic philosophus is phy. quod pueri primo appellant omnes viros 
-      pa<lb ed="#V" n="72" break="no"/>tres et postea discernut vnumquemque. et. 7. phy. quod anima sedendo 
-      <lb ed="#V" n="73"/>et quiescedo sit sciens et prudens. Angelus sedando motum illum 
-      <lb ed="#V" n="74"/>est aliquam dispositionem facit in homine ad scientiam. Transmittendo etiam 
-      <lb ed="#V" n="75"/>lum intellectuale sibi circumfusum. de quo in praecedenti dis. dem 
-      <lb ed="#V" n="76"/>est super fantasmata reddit ea aptiora ad hoc vt sint instru 
-      <lb ed="#V" n="77"/>mentalia agentia ad reducendum possibilitatem que est in 
-      intel<lb ed="#V" n="78" break="no"/>lectu ad actum. In qua reductione et intellectus per suum actum est 
-      prin<lb ed="#V" n="79" break="no"/>cipale agens sub deo. et sic etiam per hanc viam angelus facit in 
-      <lb ed="#V" n="80"/>homine aliquam dispositionem ad scientiam. 
-    </p>
-               <p xml:id="kzz7yh-f29985-d1e629">
-                  <lb ed="#V" n="81"/>Ad primum in oppositum dicendum quod illa auctoritas Ber. 
-      <lb ed="#V" n="82"/>debet intelligi de creatione scientie in
-      <lb ed="#V" n="83"/>intellectu hominis per aliquam immediatam in ipso intellectu impressionem. 
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e638">
-                  <lb ed="#V" n="84"/>¶ Ad 2m dicendum quod illud argumentum procedit ab insufficienti. Sicut ex 
-      <lb ed="#V" n="85"/>dictis in quaestione potest videri.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e645">
-      ¶ Ad 3m dicendum quod quamuis 
-      ange<lb ed="#V" n="86" break="no"/>lus non possit nostram intentione quocumque voluerit conuertere: 
-      <lb ed="#V" n="87"/>potest tamen disponere ad eius conuersionem mediante ipsa 
-      cogi<lb ed="#V" n="88" break="no"/>tatiua a sensibili quae est virtus organo alligata: quam ab eisdem 
-      <lb ed="#V" n="89"/>fantasmatibus potest facere moueri secundum alium et alium 
-      ordinen<lb ed="#V" n="90" break="no"/>vt superius est hitum.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e659">
-      ¶ Ad 4m cum dicitur quod minus luminare non 
-      <lb ed="#V" n="91"/>illuminat in praesentia maioris luminaris etc. dico quod hoc 
-      intelli<lb ed="#V" n="92" break="no"/>gendum est de luminaribus sensibilibus: quorum maius luminare 
-      <lb ed="#V" n="93"/>est improportionale minori et secundum totam suam virtutem illuminat. et 
-      <lb ed="#V" n="94"/>minus illuminat ad similitudinem modo quo luminare 
-      ma<lb ed="#V" n="95" break="no"/>ius illuminat: sicut est in stella et sole: quia tuc oculus ita vincitur 
-      <lb ed="#V" n="96"/>a lumine maioris luminaris quod immutari vivel se apprehendere 
-      im<lb ed="#V" n="97" break="no"/>mutari non potest a lumine minioris. Quamuis autem deus sit 
-      lumina<lb ed="#V" n="98" break="no"/>re fortiorislucis incomparabiliter quam sit lux angeli: non tamen illuminat 
-      <lb ed="#V" n="99"/>hominem secundum totam suam virtutem. quia tante illuminationis huius capax son 
-      <lb ed="#V" n="100"/>est. Nec etiam angelus ad similitudinem illiusimoni hominem 
-      illu<lb ed="#V" n="101" break="no"/>miniat: quia deus illuminat hominem in eius intellectu lumen 
-      im<lb ed="#V" n="102" break="no"/>mediate efficiendo. Angelus autem mediate disponendo 
-      intel<lb ed="#V" n="103" break="no"/>lectum ad scientiam. Deus est et angelus luminaria sensibilia non 
-      <lb ed="#V" n="104"/>sunt: et sicut secundum philosophum. 3. de anima. cum intelligit valde 
-      intelligibi<lb ed="#V" n="105" break="no"/>lia non minus intelligit infima sed etiam magis. ita dico quod 
-      <lb ed="#V" n="106"/>intellectus illuminatus a fortiori lumine: non propter hoc minus potest 
-      <lb ed="#V" n="107"/>illuminari a luminari minus forti.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e698">
-      ¶ Argumenta ad partem 
-      <lb ed="#V" n="108"/>aliam quia nituntur concludere quod angelus efficiat scientiam in 
-      intel<lb ed="#V" n="109" break="no"/>lectu hominis immediate soluenda sunt. 
-    </p>
-               <p xml:id="kzz7yh-f29985-d1e705">
-                  <lb ed="#V" n="110"/>Ad primum ergo dicendum: quod lumen scientiae in 
-      ange<lb ed="#V" n="111" break="no"/>lo non sic est qualitas actiua sicut 
-      <lb ed="#V" n="112"/>lumen in stella receptum a sole: nec intellectus humanus dum est 
-      <lb ed="#V" n="113"/>corporalis corruptibilis forma sic est dispositus ad recipiendum 
-      <lb ed="#V" n="114"/>immediate actionem intelligentie create. sicut aer ad 
-      recipien<lb ed="#V" n="115" break="no"/>dum influentiam lune: et ideo non est simile.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e721">
-      ¶ Ad 2m dicendum quod 
-      <lb ed="#V" n="116"/>illud verbum Auicema. negandum est: aut glosan. ita vt pro hoc 
-      <lb ed="#V" n="117"/>verbo imprimim: idem intelligatur quod dispotonimur. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f29985-Dd1e729">
-               <head xml:id="kzz7yh-f29985-Hd1e731">Quaestio 3</head>
-               <head xml:id="kzz7yh-f29985-Hd1e743" type="question-title">Utrum per ministerium quod angeli nobis exhibent eorum contemplatio minuatur</head>
-               <p xml:id="kzz7yh-f29985-d1e733">
-      Quaestio III. 
-      <lb ed="#V" n="118"/>TErtio queritur vtrum per 
-      ministe<lb ed="#V" n="119" break="no"/>rium quod angeli 
-      no<lb ed="#V" n="120" break="no"/>bis exhibent eorum contemplatio minuatur. Et videtur 
-      <lb ed="#V" n="121"/>quod sic. Aliqua virtus creata quanto ad plura 
-      inten<lb ed="#V" n="122" break="no"/>ta est tanto ad quodlibet illorum est debilior. Ergo virtus 
-      an<lb ed="#V" n="123" break="no"/>geli intenta ad ministrationem debilior est ad 
-      contemplatio<lb ed="#V" n="124" break="no"/>nem.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e751">
-      ¶ Item Thobie. 12. dicit Raphael angelus. tempus est vt 
-      <lb ed="#V" n="125"/>reuertar ad eum qui me misit. Hec autem reuersio non videtur 
-      po<lb ed="#V" n="126" break="no"/>se intelligi a ministratione ad contemplationem. Ergo quando 
-      <lb ed="#V" n="127"/>mistrabat: non contemplabatur.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e760">
-      ¶ Item secundum philosophum. 2. topi. contingit 
-      <lb ed="#V" n="128"/>plura scire simul: intelligere aut non. Sed angeli dum 
-      mini<lb ed="#V" n="129" break="no"/>strant intelligunt ea que spectant ad suum ministerium. 
-      <lb ed="#V" n="130"/>Ergo dum ministrant non vident deum. 
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e769">
-                  <lb ed="#V" n="131"/>Contra cum plus suam gloriam diligant quam nostram si per suum 
-      <lb ed="#V" n="132"/>ministerium nostram salutem procurando eorum contemplatio 
-      <lb ed="#V" n="133"/>minueretur numquam voluntarii nob ministrarent: cum in ipsorum 
-      beatitu<lb ed="#V" n="134" break="no"/>dine eorum contemplatio includatur.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e781">
-      ¶ Item Grego. 2. li. Mora. non 
-      <lb ed="#V" n="135"/>multum post principium loquens de angelis nobis ministram 
-      <lb ed="#V" n="136"/>tibus sic ait quod non sic a diuina visione foras exeunt vt in¬ 
-      <!--00099.xml-->
-      <pb ed="#V" n="43-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>terne contemplationis gaudiis priuentur. quia fi conditoris aspectum 
-      <lb ed="#V" n="2"/>exeuntes amitterent: nec iacetes erigere nec ignorantibus 
-      ue<lb ed="#V" n="3" break="no"/>ra nunciare potuissent. Sed qua ratione non tollitur eadem 
-      ra<lb ed="#V" n="4" break="no"/>tione non minuitur: vt videtur. 
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e803">
-                  <lb ed="#V" n="5"/>Respondeo quod per ministerium quod angeli nobis 
-      <lb ed="#V" n="6"/>exhibent eorum contemplatio non 
-      minui<lb ed="#V" n="7" break="no"/>tur. Cuius ratio est. quando due cognitiones ita se habent quod vna 
-      <lb ed="#V" n="8"/>regulatur per aliam. simul potest intellectus vtramque habere 
-      co<lb ed="#V" n="9" break="no"/>gnitionem. et illis cognitionibus intelligere plura vnum 
-      refe<lb ed="#V" n="10" break="no"/>rendo ad aliud. abque hoc quod vna cognitio diminuat aliam in 
-      <lb ed="#V" n="11"/>aliquo. Sed cognitio qua angeli cognoscunt ea que requirum 
-      <lb ed="#V" n="12"/>tur ad suum ministerium quod nobis exhibent: regulatur per 
-      di<lb ed="#V" n="13" break="no"/>uinam contemplationem et refertur ad eam. Ergo illa 
-      cognitio<lb ed="#V" n="14" break="no"/>qua cognoscunt ea. etiam improprio genere que circa nos 
-      <lb ed="#V" n="15"/>operantur in nullo minuit eorum visionem qua deum 
-      contemplan<lb ed="#V" n="16" break="no"/>tur.
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e832">
-      ¶ Preterea operatio directa per aliquam diuinam 
-      contem<lb ed="#V" n="17" break="no"/>plationem non minuit eam. Sed operatio quam angeli circa nos 
-      <lb ed="#V" n="18"/>exercent in ministrando dirigitur per diuinam contemplationem. 
-      er<lb ed="#V" n="19" break="no"/>go non minuit eam. Si ergo angelorum contemplatio non 
-      mi<lb ed="#V" n="20" break="no"/>nuitur per cognitionem qua etiam in proprio genere ea que 
-      <lb ed="#V" n="21"/>spectant ad suum ministerium intuentur. nec per operationem 
-      <lb ed="#V" n="22"/>quam circa nos exequuntur sequitur quod per ministerium quod nobis 
-      <lb ed="#V" n="23"/>exhiberet eorum contemplatio non minutur. et quod ad tot possint 
-      <lb ed="#V" n="24"/>esse intenti absque hoc quod eorum intellectus distrahatur: hoc 
-      potissi<lb ed="#V" n="25" break="no"/>me ex hoc prouenit quod per gloriam virtus sui intellectus 
-      ro<lb ed="#V" n="26" break="no"/>boratur. et quasi ampliatur. 
-    </p>
-               <p xml:id="kzz7yh-f29985-d1e856">
-                  <lb ed="#V" n="27"/>Ad primum in oppositum cum dicitur quod quanto aliquia 
-      <lb ed="#V" n="28"/>virtus creata ad plura intenta est. 
-      <lb ed="#V" n="29"/>tanto ad quodlibet illorum est debilior etc. dico quod non est 
-      <lb ed="#V" n="30"/>vnum quando vna intentio per aliam regulatur: et refertur ad eam. 
-      <lb ed="#V" n="31"/>et maxime in glorificato intellectu. Sic autem est in proposito. 
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e869">
-                  <lb ed="#V" n="32"/>¶ Ad 2m dicendum quod illa reuersio de qua loquebatur 
-      Rapha<lb ed="#V" n="33" break="no"/>el intelligenda est a sua manifestatione visibili ad 
-      inuisibilita<lb ed="#V" n="34" break="no"/>tem corporalem. sicut eius missio fuerat ipsum diuina aucto 
-      <lb ed="#V" n="35"/>ritate visibiliter manifestari ad ministrandum visibiliter. 
-   </p>
-               <p xml:id="kzz7yh-f29985-d1e880">
-                  <lb ed="#V" n="36"/>¶ Ad 3m cum dicitur quod non contingit plura simul 
-      intellige<lb ed="#V" n="37" break="no"/>re. dico quod intelligendum est de intellectione distincta et 
-      per<lb ed="#V" n="38" break="no"/>fecta qua perfecte intelliguntur plura vt plura sunt: non 
-      referen<lb ed="#V" n="39" break="no"/>do vnum ad alid. nec dirigendo se in cognitione vnius par alterius 
-      <lb ed="#V" n="40"/>cognitione. et de intellectu relicto sue naturali virtuti. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 2</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 2</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="42-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f29985"><!-- l2d10a2 -->
+        <head xml:id="kzz7yh-f29985-Hd1e101">Articulus 2</head>
+        <p xml:id="kzz7yh-f29985-d1e103">
+          <lb ed="#V" n="21"/>COnsequenter queritur de. 2.
+          prin<lb ed="#V" n="22" break="no"/>cipali. Et circa hoc 
+          <lb ed="#V" n="23"/>queruntur tria.
+        </p>
+        <p xml:id="kzz7yh-f29985-d1e112">
+          ¶ Primo vtrum angeli possint 
+          <lb ed="#V" n="24"/>docere homines in assumpto corpore.
+        </p>
+        <p xml:id="kzz7yh-f29985-d1e117">
+          ¶ 
+          Secun<lb ed="#V" n="25" break="no"/>do vtrum hoc possint sine assumpto corpore.
+        </p>
+        <p xml:id="kzz7yh-f29985-d1e122">
+          ¶ Tertio vtrum 
+          <lb ed="#V" n="26"/>per ministerium quod nobis exhibent eorum 
+          contemplatio<lb ed="#V" n="27" break="no"/>minuatur.
+        </p>
+        <div xml:id="kzz7yh-f29985-Dd1e130">
+          <head xml:id="kzz7yh-f29985-Hd1e132">Quaestio 1</head>
+          <head xml:id="kzz7yh-f29985-Hd1e136" type="question-title">Utrum angeli possint docere homines in assumpto corpore</head>
+          <p xml:id="kzz7yh-f29985-d1e134">
+            ¶ Questio I. 
+            <lb ed="#V" n="28"/>PRimo ostendo quod angelus in 
+            <lb ed="#V" n="29"/>assumpto 
+            cor<lb ed="#V" n="30" break="no"/>pore non potest nos docere Glossa super illud 
+            Mat<lb ed="#V" n="31" break="no"/>teh. 13. Nolite vocari Rabbi. dicit: nec quod debetur 
+            <lb ed="#V" n="32"/>deo vobis presumatis: nec alios rabbi vocetis: ne dei 
+            ho<lb ed="#V" n="33" break="no"/>norem hominibus deferatis. Ergo videtur quod docere 
+            homi<lb ed="#V" n="34" break="no"/>nem est proprium solius dei.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e152">
+            ¶ Item Augu. 5 confes. 
+            ldeo<lb ed="#V" n="35" break="no"/>ge ante medium loquens ad deum dicit. Nec quisquam 
+            preter<lb ed="#V" n="36" break="no"/>te alius doctor est veri: vbicumque et vsdencumque claruerit: ergo 
+            so<lb ed="#V" n="37" break="no"/>lus deus potest docere.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e161">
+            ¶ Item scientia angeli non est 
+            quali<lb ed="#V" n="38" break="no"/>tas actiua. Sed res per qualitatem non actiuam non potest 
+            <lb ed="#V" n="39"/>causare similem qualitatem in alio. Ergo angelus non potest 
+            <lb ed="#V" n="40"/>scientiam in nobis causare per suam scientiam.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e170">
+            ¶ Item 
+            ange<lb ed="#V" n="41" break="no"/>lus per officium quod exercet mediante assumpto corpore: non 
+            <lb ed="#V" n="42"/>potest nobis propositionere nisi signa sensibilia. Sed sensibilia non 
+            <lb ed="#V" n="43"/>mouent intellectum. Ergo nullo modo mediante 
+            assumpto<lb ed="#V" n="44" break="no"/>corpore potest nos docere.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e182">
+            ¶ Item aut proponit signa rerum 
+            <lb ed="#V" n="45"/>notarum autem ignotarum. Si rerum notarum: tunc non docet 
+            <lb ed="#V" n="46"/>nos: quia iam sciremus illud quod vellet nos docere. Si rerum 
+            <lb ed="#V" n="47"/>ignotarum: talia signa non mouent nos. Ergo videtur quod 
+            propo<lb ed="#V" n="48" break="no"/>nendo signa sensibilia mediante assumpto corpore: non 
+            po<lb ed="#V" n="49" break="no"/>test nos docere.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e195">
+            ¶ Item eadem forma non est ab arte et a 
+            <lb ed="#V" n="50"/>natura. Sed scientia potest inesse homini a natura vt 
+            pa<lb ed="#V" n="51" break="no"/>tet in illis qui acquirunt scientiam per inuentionem. Ergo non 
+            <lb ed="#V" n="52"/>potest acquiri in homine per artem doctrine. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e204">
+            <lb ed="#V" n="53"/>Contra homo potest docere hominem signa sensibilia 
+            <lb ed="#V" n="54"/>proponendo. Unde saluator. Mateh. vltimo 
+            di<lb ed="#V" n="55" break="no"/>cit discipulis: euntes docete omnes gentes. Ergo videtur 
+            <lb ed="#V" n="56"/>similiter quod angelus mediante assumpto corpore signa 
+            sen<lb ed="#V" n="57" break="no"/>sibilia proponendo potest nos docere.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e217">
+            ¶ Item vt habetur 
+            <lb ed="#V" n="58"/>in Thobia in pluribus locis raphael in corpore 
+            assumpto<lb ed="#V" n="59" break="no"/>iuuenem Thobiam docuit. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e224">
+            <lb ed="#V" n="60"/>Respondeo quod angeli in corpore assumpto 
+            pos<lb ed="#V" n="61" break="no"/>sunt homines docere dispositiue 
+            signa<lb ed="#V" n="62" break="no"/>sensibilia proponendo: non scientiam in nobis efficiendo. Cum 
+            <lb ed="#V" n="63"/>enim aliqua forma nata est esse ab aliquo principio 
+            intrin<lb ed="#V" n="64" break="no"/>seco: et ab extrinseco principio creato: sicut ab arte creata: 
+            <lb ed="#V" n="65"/>illud principium creatum extrinsecum: non est 
+            princi<lb ed="#V" n="66" break="no"/>pale agens: sed adiuuans interius agens: quod est agens 
+            <lb ed="#V" n="67"/>principale in productione illius forme. Non loquendo 
+            <lb ed="#V" n="68"/>de principalitate simpliciter: quia illa soli agenti in crea¬ 
+            <!--00097.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>to conuenit: sed loquendo de principalitate in genere 
+            crea<lb ed="#V" n="70" break="no"/>ture. Uerbi gratia sanitas quandoque causatur a 
+            principio<lb ed="#V" n="71" break="no"/>intrinseco tantum: vt patet cum infirmus curatur per naturam 
+            <lb ed="#V" n="72"/>sine aliquo adiutorio medicine. Quandoque autem est a 
+            natu<lb ed="#V" n="73" break="no"/>ra et a medicina. Sed medicina non causat principaliter 
+            sani<lb ed="#V" n="74" break="no"/>tatem: sed naturam adiuuat sibi ministrando ea que habent 
+            <lb ed="#V" n="75"/>confortare naturalem virtutem: que confortata ita vt 
+            poten<lb ed="#V" n="76" break="no"/>tior sit morbo causat sanitatem.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e268">
+            ¶ Scientia autem in homine: 
+            quan<lb ed="#V" n="77" break="no"/>doque est a principio intrinseco ita quod non ab aliqua arte vel 
+            <lb ed="#V" n="78"/>doctrina creata. In homine enim est naurale lumen quo 
+            <lb ed="#V" n="79"/>per se ipsum statim cognoscit veritatem aliquorum 
+            princi<lb ed="#V" n="80" break="no"/>piorum que cum ordinate applicat ad aliqua particularia 
+            quo<lb ed="#V" n="81" break="no"/>rum memoriam et experientiam acquifiuit per sensum causatur 
+            <lb ed="#V" n="82"/>in eo scientia per modum inuentionis. Unde philosophus ist meta. 
+            ho<lb ed="#V" n="83" break="no"/>minibus scientia et ars per experientiam euenit. Et voco 
+            or<lb ed="#V" n="84" break="no"/>dinatam applicationem princpiorum vniversalium ad veritates 
+            mi<lb ed="#V" n="85" break="no"/>nus vniuersales quando primo applicantur ad illam veritatem que 
+            <lb ed="#V" n="86"/>immediatius in illo principio relucet: et deinde ad illam que 
+            <lb ed="#V" n="87"/>primo relucet in principio mediante prima: et sic de inceps 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e295">
+            <lb ed="#V" n="88"/>¶ Quandoque scientia acquiritur in homine et doctrinam 
+            crea<lb ed="#V" n="89" break="no"/>tam tanquam per exterius principium: et per proprium lumen 
+            <lb ed="#V" n="90"/>naturale: tanquam per principium interius: Ergo ipse doctor 
+            <lb ed="#V" n="91"/>creatus exterior non est efficiens in homine scientiam: Sed 
+            in<lb ed="#V" n="92" break="no"/>terius lumen coadiuuans: per quod tanquam per principale agens 
+            <lb ed="#V" n="93"/>in genere creature ipse homo reducendo intellectum suum de 
+            <lb ed="#V" n="94"/>potentia ad actum efficit scientiam in se ipso.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e313">
+            ¶ Potest 
+            <lb ed="#V" n="95"/>ergo angelus in assumpto corpore docere hominem 
+            adiuuan<lb ed="#V" n="96" break="no"/>do interius hominis lumen proponendo signa sensibialia 
+            conclu<lb ed="#V" n="97" break="no"/>sionum que immediate oriuntur ex veritatibus homini notis: de 
+            <lb ed="#V" n="98"/>inde signat conclusionis immediate sequentis: et sic deinceps 
+            propo<lb ed="#V" n="99" break="no"/>nendo etiam extra intellectui manuducentia sibi proportionalia. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e326">
+            <lb ed="#V" n="100"/>Ad primum in oppositum dicendum: quod sicut de deo 
+            <lb ed="#V" n="101"/>dicitur homini: qui sanat omnes 
+            <lb ed="#V" n="102"/>infirmitates tuas: eo quod natura sanans ab ipso est: nec operatur 
+            <lb ed="#V" n="103"/>nisi in virtute illius. Ita de ipso dicitur quod docet 
+            hominem<lb ed="#V" n="104" break="no"/>scientiam: quia lumen naturale ab ipso est in nobis: dicente 
+            psal<lb ed="#V" n="105" break="no"/>mista: signatum est super nos lumen vultus tui domine: per 
+            <lb ed="#V" n="106"/>quod non operatur homini nisi in virtute illius a quo datum est 
+            <lb ed="#V" n="107"/>sibi: et ideo esse doctorem sir pliciter principalem solius dei 
+            <lb ed="#V" n="108"/>poprium est.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e348">
+            ¶ Ad 2m dicendum quod illa auctoritas Augu. 
+            in<lb ed="#V" n="109" break="no"/>telligenda est de doctore primario et principali.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e353">
+            ¶ Ad 3m 
+            <lb ed="#V" n="110"/>cum dicitur quod res per qualitatem non actiua non potest creare 
+            simi<lb ed="#V" n="111" break="no"/>lem qualitatem etc. dico quod verum est per modum naturalis 
+            agen<lb ed="#V" n="112" break="no"/>tis: nec sic angelus causat scientiam in homine: sed tantum ex 
+            <lb ed="#V" n="113"/>citando et adiuuando intellectum ad hoc vt ordinate procedat 
+            <lb ed="#V" n="114"/>per suum naturale lumen a principiis ad conclusiones: quia hic 
+            <lb ed="#V" n="115"/>non intendo loqui nisi de scientia que virtualiter continetur in 
+            <lb ed="#V" n="116"/>principiis: quorum cognitio homini in nata est.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e371">
+            ¶ Ad 4m 
+            <lb ed="#V" n="117"/>cum dicitur quod sensibilia non mouent intellectum etc. dico quod 
+            <lb ed="#V" n="118"/>verum est per se et immediate: tamen signa sensibilia ordinare 
+            pro<lb ed="#V" n="119" break="no"/>posita causant cum adiutorio inrerioris sensitiue in organo 
+            <lb ed="#V" n="120"/>imaginationis fantasmata ordinata: et intellectus per suum 
+            <lb ed="#V" n="121"/>actiuum naturali actione mediantibus illis fantasmatibus 
+            <lb ed="#V" n="122"/>sicut agentibus instrumentalibus: ordinate educit de 
+            poten<lb ed="#V" n="123" break="no"/>tia sui ipsius vt est possibilis ad actum species intelligibiles 
+            <lb ed="#V" n="124"/>quibus se ipsum deducit a veritate sibi nota: ad veritatem 
+            <lb ed="#V" n="125"/>que immediate nata est intelligi per eam: et ab illa ad aliam 
+            im<lb ed="#V" n="126" break="no"/>mediate sequentem: et sic deinceps.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e396">
+            ¶ Ad 5m dicendum quod 
+            pro<lb ed="#V" n="127" break="no"/>ponit signa rerum naturalium in vniuersali. Uerbi gratia iste 
+            ho<lb ed="#V" n="128" break="no"/>mo scit quod omne totum est maius sua parte: iste ergo scit quid est 
+            to<lb ed="#V" n="129" break="no"/>tum et quid est pars: proponet ergo sibi angelus signa istius 
+            <lb ed="#V" n="130"/>veritatis. Unumquodque statim corporum est quoddam totum: quo 
+            <lb ed="#V" n="131"/>apprehenso corporis videbit quod vnumquodque corporeum est 
+            <lb ed="#V" n="132"/>maius sua parte: et sic fiet in particulari quod ante sciebat in 
+            <lb ed="#V" n="133"/>vniuersali: oportet tamen ad hoc vt doceat quod proponat 
+            si<lb ed="#V" n="134" break="no"/>gna de quibus scientiat homo quid est quod dicitur per 
+            no<lb ed="#V" n="135" break="no"/>men: quod est etiam scire signatum debiliter: tamen et in 
+            <lb ed="#V" n="136"/>vniversali.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e420">
+            ¶ Ad 6m dicendum: quod non plus concludit: in quod doctor crea¬ 
+            <!--00098.xml-->
+            <pb ed="#V" n="42-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>tus non potest in alio scientiam efficere nisi mediante 
+            intrin<lb ed="#V" n="2" break="no"/>seco agente. et hoc est vnum.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f29985-Dd1e434">
+          <head xml:id="kzz7yh-f29985-Hd1e436">Quaestio 2</head>
+          <head xml:id="kzz7yh-f29985-Hd1e444" type="question-title">Utrum angeli sine assumpto corpore possint homines docere</head>
+          <p xml:id="kzz7yh-f29985-d1e438">
+            ¶ Questio. II. 
+            <lb ed="#V" n="3"/>SEcundo queritur vtrum 
+            ange<lb ed="#V" n="4" break="no"/>li sine 
+            assum<lb ed="#V" n="5" break="no"/>pto corpore possint homines docere. Et videtur quod non. 
+            <lb ed="#V" n="6"/>Ber. 5. secundum super Cane. vltra medium sermonis sic dicit: 
+            <lb ed="#V" n="7"/>Scitote nullum creatorum spirituum per se nostris mentibus 
+            <lb ed="#V" n="8"/>applicari: vt nullo videlicet mediante nostri sui ve corporis 
+            <lb ed="#V" n="9"/>instrumento ita nobis immisceatur vel infundatur quo eius 
+            <lb ed="#V" n="10"/>participatione docti siue doctiores vel boni siue meliores 
+            <lb ed="#V" n="11"/>efficiamur.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e460">
+            ¶ Item angelus non potest in nostro 
+            intellec<lb ed="#V" n="12" break="no"/>tu speciem intelligibilem imprimere. quia tunc posset facere quod 
+            <lb ed="#V" n="13"/>cecus natus quid intelligeret est color. nec in imaginatione 
+            spe<lb ed="#V" n="14" break="no"/>ciem imaginabilem. quia tunc posset facere quod cecus natus 
+            <lb ed="#V" n="15"/>imaginaretur colorem. Ergo videtur quod sine assumpto corpore 
+            <lb ed="#V" n="16"/>non possunt homines docere.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e473">
+            ¶ Item intentio requiritur ad 
+            co<lb ed="#V" n="17" break="no"/>gnitionem vnde quando aliquid est ante oculos: si non adsit 
+            in<lb ed="#V" n="18" break="no"/>tentio non videtur. Sed angelus non potest nostram 
+            intentio<lb ed="#V" n="19" break="no"/>nem conuertere: quia tunc posset nos facere cogitare quicquid 
+            <lb ed="#V" n="20"/>ipse vellet. Ergo videtur quod angeli sine assumpto corpore 
+            <lb ed="#V" n="21"/>non possunt nos docere.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e486">
+            ¶ Item minus luminare non 
+            <lb ed="#V" n="22"/>illuminat in presentia maioris. vt patet in stella et sole. Sed 
+            <lb ed="#V" n="23"/>deus qui est summum luminare illuminat omnem hominem 
+            <lb ed="#V" n="24"/>venientem in hune mundum vt dicitur Ioh i. Ergo angelus 
+            <lb ed="#V" n="25"/>quie est minus luminare: non potest hominem illuminare docendo. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e498">
+            <lb ed="#V" n="26"/>Contra luminare quod recipit lumen ab alio etiam 
+            illu<lb ed="#V" n="27" break="no"/>minat aliud effectiue. vt patet in stellis. 
+            Er<lb ed="#V" n="28" break="no"/>go similiter angelus per lumen quod recepit a deo potest in 
+            homi<lb ed="#V" n="29" break="no"/>ne scientie lumen efficere.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e509">
+            ¶ Item Auicena. 3. meth. ca 8. 
+            <lb ed="#V" n="30"/>dicit quod nos imprimimur ab intelligentiis. Si ergo possunt in 
+            <lb ed="#V" n="31"/>nostero intellectu imprimere: possunt nos effectiue docem: vt videtur. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e516">
+            <lb ed="#V" n="32"/>Respondeo quod angeli sine assumpto corpore 
+            pos<lb ed="#V" n="33" break="no"/>sunt docere homines. Non species in
+            <lb ed="#V" n="34"/>intellectu creando: quia nihil possunt creare. Nec 
+            speciem<lb ed="#V" n="35" break="no"/>intelligibilem ab ista que est in se multiplicatam in 
+            intel<lb ed="#V" n="36" break="no"/>lectu hominis imprimendo: quia non esset 
+            proportiona<lb ed="#V" n="37" break="no"/>lis humano intellectui. Et quia forte sic ponere 
+            mul<lb ed="#V" n="38" break="no"/>tiplicationem est positionere aliquid fieri a creatura non de aliquo 
+            <lb ed="#V" n="39"/>Nec speciem intelligibilem vel lumen intelligibile de potentia 
+            <lb ed="#V" n="40"/>intellectus hominis educendo propter modum existendi quem habet 
+            <lb ed="#V" n="41"/>in corpore quo indispositus est ad immediate recipiendum actio 
+            <lb ed="#V" n="42"/>nem intelligentie. Nec easdem species intelligibiles numero 
+            <lb ed="#V" n="43"/>quas ipse hebet intellectui hominis presentando. quia 
+            intelle<lb ed="#V" n="44" break="no"/>ctus illas intueri non posset: sicut nec substantiam intelligentie 
+            <lb ed="#V" n="45"/>immediate potest intueri: et propter modum existendi quem hebet in corpore 
+            <lb ed="#V" n="46"/>corruptibili. et propter illarum specierum improportionalitatem ad ipsum. 
+            <lb ed="#V" n="47"/>Ex quibus sequitur quod angelus non potest hominem docere immediate 
+            <lb ed="#V" n="48"/>efficiendo scientiam in intellectu ipstus. nec immediate operando 
+            cir<lb ed="#V" n="49" break="no"/>ca ipsum. Potest tamen ipsum ad scientiam disponere sine 
+            assum<lb ed="#V" n="50" break="no"/>pto corpore operando circa spiritus et humores et fantasma 
+            <lb ed="#V" n="51"/>ta que sunt in organis que sunt virium sensitiuarum: quia 
+            fan<lb ed="#V" n="52" break="no"/>tasmata sunt ibi sub distin. situ. Ita vt si imaginor duas 
+            <lb ed="#V" n="53"/>res distantes. imaginor eas per duo fantasmata distantia. 
+            <lb ed="#V" n="54"/>ita quod sicut se hebet distantia inter res imaginatas ad ipsas. 
+            <lb ed="#V" n="55"/>ita se hebet proportionaliter distantia inter fantasmata ad fantats 
+            <lb ed="#V" n="56"/>mata. Et sicut per paruum santasma imaginor rem magnam 
+            <lb ed="#V" n="57"/>ita per modicam distantiam inter fantasmata imaginor res 
+            mul<lb ed="#V" n="58" break="no"/>tum per distantes. Et sicut eedem litter diuersimode ordinate 
+            di<lb ed="#V" n="59" break="no"/>uersa significant. sic fantasmata diuersimode ordinata 
+            <lb ed="#V" n="60"/>diuersa representant. Dico ergo quod angelus facere 
+            pos<lb ed="#V" n="61" break="no"/>test vt similitudines sensate que sunt in imaginatiua. et in 
+            <lb ed="#V" n="62"/>tentiones que sunt in custoditiua siue in memoratiua 
+            me<lb ed="#V" n="63" break="no"/>diantibus spiritibus tanquam per medium deferens sub alio et alic 
+            <lb ed="#V" n="64"/>ordine multiplicentur. hoc est educantur de potentia illorum 
+            spi<lb ed="#V" n="65" break="no"/>rituum vsque ad cogitatiuam sensibilem. Et sic facere potest vt 
+            <lb ed="#V" n="66"/>ab eisdem fantasmatibus ipsa cogitatiua sensibilis 
+            diuersimo<lb ed="#V" n="67" break="no"/>de moueatur. et ex consequenti quod intellectus ab eisdem fantasma 
+            <lb ed="#V" n="68"/>tibus diuersum ordinem intelligibilem naturali actione abstra¬ 
+            <!--00098.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>hat: et sic de re prius incognita edocetur. Quia etiam nimius 
+            <lb ed="#V" n="70"/>motus humorum impedit actionem intellectus et sedatio iuuat. 
+            <lb ed="#V" n="71"/>quapropter dic philosophus is phy. quod pueri primo appellant omnes viros 
+            pa<lb ed="#V" n="72" break="no"/>tres et postea discernut vnumquemque. et. 7. phy. quod anima sedendo 
+            <lb ed="#V" n="73"/>et quiescedo sit sciens et prudens. Angelus sedando motum illum 
+            <lb ed="#V" n="74"/>est aliquam dispositionem facit in homine ad scientiam. Transmittendo etiam 
+            <lb ed="#V" n="75"/>lum intellectuale sibi circumfusum. de quo in praecedenti dis. dem 
+            <lb ed="#V" n="76"/>est super fantasmata reddit ea aptiora ad hoc vt sint instru 
+            <lb ed="#V" n="77"/>mentalia agentia ad reducendum possibilitatem que est in 
+            intel<lb ed="#V" n="78" break="no"/>lectu ad actum. In qua reductione et intellectus per suum actum est 
+            prin<lb ed="#V" n="79" break="no"/>cipale agens sub deo. et sic etiam per hanc viam angelus facit in 
+            <lb ed="#V" n="80"/>homine aliquam dispositionem ad scientiam. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e629">
+            <lb ed="#V" n="81"/>Ad primum in oppositum dicendum quod illa auctoritas Ber. 
+            <lb ed="#V" n="82"/>debet intelligi de creatione scientie in
+            <lb ed="#V" n="83"/>intellectu hominis per aliquam immediatam in ipso intellectu impressionem. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e638">
+            <lb ed="#V" n="84"/>¶ Ad 2m dicendum quod illud argumentum procedit ab insufficienti. Sicut ex 
+            <lb ed="#V" n="85"/>dictis in quaestione potest videri.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e645">
+            ¶ Ad 3m dicendum quod quamuis 
+            ange<lb ed="#V" n="86" break="no"/>lus non possit nostram intentione quocumque voluerit conuertere: 
+            <lb ed="#V" n="87"/>potest tamen disponere ad eius conuersionem mediante ipsa 
+            cogi<lb ed="#V" n="88" break="no"/>tatiua a sensibili quae est virtus organo alligata: quam ab eisdem 
+            <lb ed="#V" n="89"/>fantasmatibus potest facere moueri secundum alium et alium 
+            ordinen<lb ed="#V" n="90" break="no"/>vt superius est hitum.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e659">
+            ¶ Ad 4m cum dicitur quod minus luminare non 
+            <lb ed="#V" n="91"/>illuminat in praesentia maioris luminaris etc. dico quod hoc 
+            intelli<lb ed="#V" n="92" break="no"/>gendum est de luminaribus sensibilibus: quorum maius luminare 
+            <lb ed="#V" n="93"/>est improportionale minori et secundum totam suam virtutem illuminat. et 
+            <lb ed="#V" n="94"/>minus illuminat ad similitudinem modo quo luminare 
+            ma<lb ed="#V" n="95" break="no"/>ius illuminat: sicut est in stella et sole: quia tuc oculus ita vincitur 
+            <lb ed="#V" n="96"/>a lumine maioris luminaris quod immutari vivel se apprehendere 
+            im<lb ed="#V" n="97" break="no"/>mutari non potest a lumine minioris. Quamuis autem deus sit 
+            lumina<lb ed="#V" n="98" break="no"/>re fortiorislucis incomparabiliter quam sit lux angeli: non tamen illuminat 
+            <lb ed="#V" n="99"/>hominem secundum totam suam virtutem. quia tante illuminationis huius capax son 
+            <lb ed="#V" n="100"/>est. Nec etiam angelus ad similitudinem illiusimoni hominem 
+            illu<lb ed="#V" n="101" break="no"/>miniat: quia deus illuminat hominem in eius intellectu lumen 
+            im<lb ed="#V" n="102" break="no"/>mediate efficiendo. Angelus autem mediate disponendo 
+            intel<lb ed="#V" n="103" break="no"/>lectum ad scientiam. Deus est et angelus luminaria sensibilia non 
+            <lb ed="#V" n="104"/>sunt: et sicut secundum philosophum. 3. de anima. cum intelligit valde 
+            intelligibi<lb ed="#V" n="105" break="no"/>lia non minus intelligit infima sed etiam magis. ita dico quod 
+            <lb ed="#V" n="106"/>intellectus illuminatus a fortiori lumine: non propter hoc minus potest 
+            <lb ed="#V" n="107"/>illuminari a luminari minus forti.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e698">
+            ¶ Argumenta ad partem 
+            <lb ed="#V" n="108"/>aliam quia nituntur concludere quod angelus efficiat scientiam in 
+            intel<lb ed="#V" n="109" break="no"/>lectu hominis immediate soluenda sunt. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e705">
+            <lb ed="#V" n="110"/>Ad primum ergo dicendum: quod lumen scientiae in 
+            ange<lb ed="#V" n="111" break="no"/>lo non sic est qualitas actiua sicut 
+            <lb ed="#V" n="112"/>lumen in stella receptum a sole: nec intellectus humanus dum est 
+            <lb ed="#V" n="113"/>corporalis corruptibilis forma sic est dispositus ad recipiendum 
+            <lb ed="#V" n="114"/>immediate actionem intelligentie create. sicut aer ad 
+            recipien<lb ed="#V" n="115" break="no"/>dum influentiam lune: et ideo non est simile.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e721">
+            ¶ Ad 2m dicendum quod 
+            <lb ed="#V" n="116"/>illud verbum Auicema. negandum est: aut glosan. ita vt pro hoc 
+            <lb ed="#V" n="117"/>verbo imprimim: idem intelligatur quod dispotonimur. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f29985-Dd1e729">
+          <head xml:id="kzz7yh-f29985-Hd1e731">Quaestio 3</head>
+          <head xml:id="kzz7yh-f29985-Hd1e743" type="question-title">Utrum per ministerium quod angeli nobis exhibent eorum contemplatio minuatur</head>
+          <p xml:id="kzz7yh-f29985-d1e733">
+            Quaestio III. 
+            <lb ed="#V" n="118"/>TErtio queritur vtrum per 
+            ministe<lb ed="#V" n="119" break="no"/>rium quod angeli 
+            no<lb ed="#V" n="120" break="no"/>bis exhibent eorum contemplatio minuatur. Et videtur 
+            <lb ed="#V" n="121"/>quod sic. Aliqua virtus creata quanto ad plura 
+            inten<lb ed="#V" n="122" break="no"/>ta est tanto ad quodlibet illorum est debilior. Ergo virtus 
+            an<lb ed="#V" n="123" break="no"/>geli intenta ad ministrationem debilior est ad 
+            contemplatio<lb ed="#V" n="124" break="no"/>nem.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e751">
+            ¶ Item Thobie. 12. dicit Raphael angelus. tempus est vt 
+            <lb ed="#V" n="125"/>reuertar ad eum qui me misit. Hec autem reuersio non videtur 
+            po<lb ed="#V" n="126" break="no"/>se intelligi a ministratione ad contemplationem. Ergo quando 
+            <lb ed="#V" n="127"/>mistrabat: non contemplabatur.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e760">
+            ¶ Item secundum philosophum. 2. topi. contingit 
+            <lb ed="#V" n="128"/>plura scire simul: intelligere aut non. Sed angeli dum 
+            mini<lb ed="#V" n="129" break="no"/>strant intelligunt ea que spectant ad suum ministerium. 
+            <lb ed="#V" n="130"/>Ergo dum ministrant non vident deum. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e769">
+            <lb ed="#V" n="131"/>Contra cum plus suam gloriam diligant quam nostram si per suum 
+            <lb ed="#V" n="132"/>ministerium nostram salutem procurando eorum contemplatio 
+            <lb ed="#V" n="133"/>minueretur numquam voluntarii nob ministrarent: cum in ipsorum 
+            beatitu<lb ed="#V" n="134" break="no"/>dine eorum contemplatio includatur.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e781">
+            ¶ Item Grego. 2. li. Mora. non 
+            <lb ed="#V" n="135"/>multum post principium loquens de angelis nobis ministram 
+            <lb ed="#V" n="136"/>tibus sic ait quod non sic a diuina visione foras exeunt vt in¬ 
+            <!--00099.xml-->
+            <pb ed="#V" n="43-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>terne contemplationis gaudiis priuentur. quia fi conditoris aspectum 
+            <lb ed="#V" n="2"/>exeuntes amitterent: nec iacetes erigere nec ignorantibus 
+            ue<lb ed="#V" n="3" break="no"/>ra nunciare potuissent. Sed qua ratione non tollitur eadem 
+            ra<lb ed="#V" n="4" break="no"/>tione non minuitur: vt videtur. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e803">
+            <lb ed="#V" n="5"/>Respondeo quod per ministerium quod angeli nobis 
+            <lb ed="#V" n="6"/>exhibent eorum contemplatio non 
+            minui<lb ed="#V" n="7" break="no"/>tur. Cuius ratio est. quando due cognitiones ita se habent quod vna 
+            <lb ed="#V" n="8"/>regulatur per aliam. simul potest intellectus vtramque habere 
+            co<lb ed="#V" n="9" break="no"/>gnitionem. et illis cognitionibus intelligere plura vnum 
+            refe<lb ed="#V" n="10" break="no"/>rendo ad aliud. abque hoc quod vna cognitio diminuat aliam in 
+            <lb ed="#V" n="11"/>aliquo. Sed cognitio qua angeli cognoscunt ea que requirum 
+            <lb ed="#V" n="12"/>tur ad suum ministerium quod nobis exhibent: regulatur per 
+            di<lb ed="#V" n="13" break="no"/>uinam contemplationem et refertur ad eam. Ergo illa 
+            cognitio<lb ed="#V" n="14" break="no"/>qua cognoscunt ea. etiam improprio genere que circa nos 
+            <lb ed="#V" n="15"/>operantur in nullo minuit eorum visionem qua deum 
+            contemplan<lb ed="#V" n="16" break="no"/>tur.
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e832">
+            ¶ Preterea operatio directa per aliquam diuinam 
+            contem<lb ed="#V" n="17" break="no"/>plationem non minuit eam. Sed operatio quam angeli circa nos 
+            <lb ed="#V" n="18"/>exercent in ministrando dirigitur per diuinam contemplationem. 
+            er<lb ed="#V" n="19" break="no"/>go non minuit eam. Si ergo angelorum contemplatio non 
+            mi<lb ed="#V" n="20" break="no"/>nuitur per cognitionem qua etiam in proprio genere ea que 
+            <lb ed="#V" n="21"/>spectant ad suum ministerium intuentur. nec per operationem 
+            <lb ed="#V" n="22"/>quam circa nos exequuntur sequitur quod per ministerium quod nobis 
+            <lb ed="#V" n="23"/>exhiberet eorum contemplatio non minutur. et quod ad tot possint 
+            <lb ed="#V" n="24"/>esse intenti absque hoc quod eorum intellectus distrahatur: hoc 
+            potissi<lb ed="#V" n="25" break="no"/>me ex hoc prouenit quod per gloriam virtus sui intellectus 
+            ro<lb ed="#V" n="26" break="no"/>boratur. et quasi ampliatur. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e856">
+            <lb ed="#V" n="27"/>Ad primum in oppositum cum dicitur quod quanto aliquia 
+            <lb ed="#V" n="28"/>virtus creata ad plura intenta est. 
+            <lb ed="#V" n="29"/>tanto ad quodlibet illorum est debilior etc. dico quod non est 
+            <lb ed="#V" n="30"/>vnum quando vna intentio per aliam regulatur: et refertur ad eam. 
+            <lb ed="#V" n="31"/>et maxime in glorificato intellectu. Sic autem est in proposito. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e869">
+            <lb ed="#V" n="32"/>¶ Ad 2m dicendum quod illa reuersio de qua loquebatur 
+            Rapha<lb ed="#V" n="33" break="no"/>el intelligenda est a sua manifestatione visibili ad 
+            inuisibilita<lb ed="#V" n="34" break="no"/>tem corporalem. sicut eius missio fuerat ipsum diuina aucto 
+            <lb ed="#V" n="35"/>ritate visibiliter manifestari ad ministrandum visibiliter. 
+          </p>
+          <p xml:id="kzz7yh-f29985-d1e880">
+            <lb ed="#V" n="36"/>¶ Ad 3m cum dicitur quod non contingit plura simul 
+            intellige<lb ed="#V" n="37" break="no"/>re. dico quod intelligendum est de intellectione distincta et 
+            per<lb ed="#V" n="38" break="no"/>fecta qua perfecte intelliguntur plura vt plura sunt: non 
+            referen<lb ed="#V" n="39" break="no"/>do vnum ad alid. nec dirigendo se in cognitione vnius par alterius 
+            <lb ed="#V" n="40"/>cognitione. et de intellectu relicto sue naturali virtuti. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

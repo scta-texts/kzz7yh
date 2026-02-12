@@ -1,494 +1,494 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="162-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f115544"><!-- l2d40a1 -->
-            <head xml:id="kzz7yh-f115544-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-f115544-d1e103">
-      ¶ Circa principium quaeruntur 
-      <lb ed="#V" n="23"/>quatuor.
-   </p>
-            <p xml:id="kzz7yh-f115544-d1e108">
-      ¶ Primo vtrum omnis actus exterior bona intentione factus sit 
-      <lb ed="#V" n="24"/>meritorius.
-   </p>
-            <p xml:id="kzz7yh-f115544-d1e113">
-      ¶ 2o vtrum agens tantum mereatur quantum intendit mereri per 
-      <lb ed="#V" n="25"/>bonitatem illius actus.
-   </p>
-            <p xml:id="kzz7yh-f115544-d1e118">
-      ¶ 3o vtrum bonitas actualis intentionis 
-      ad<lb ed="#V" n="26" break="no"/>dat aliquam bominitatem vltra bonitatem ipsius habitus.
-   </p>
-            <p xml:id="kzz7yh-f115544-d1e124">
-      ¶ 
-      Quar<lb ed="#V" n="27" break="no"/>to vtrum vltra meritum bone intentionis aliquod meritum 
-      <lb ed="#V" n="28"/>addat actus exterior.
-   </p>
-            <div xml:id="kzz7yh-f115544-Dd1e131">
-               <head xml:id="kzz7yh-f115544-Hd1e133">Quaestio 1</head>
-               <head xml:id="kzz7yh-f115544-Hd1e137" type="question-title">Utrum omnis actus exterior bona intentione factus sit meritorius</head>
-               <p xml:id="kzz7yh-f115544-d1e135">
-      ¶ Questio I.
-      <lb ed="#V" n="29"/>PRimo ostendendo quod omnis actus exterior bona 
-      inten<lb ed="#V" n="30" break="no"/>tione factus sit meritorius. <ref xml:id="kzz7yh-f115544-Rd1e146">Matth. 7.</ref> 
-      <lb ed="#V" n="31"/><quote xml:id="kzz7yh-f115544-Qd1e149" source="http://scta.info/resource/mt7_18@1-7">non potest arbor bona fructus malos facere</quote>. Sed secundum 
-      <ref xml:id="kzz7yh-f115544-Rd1e152">glo<lb ed="#V" n="32" break="no"/>sam</ref> super <ref xml:id="kzz7yh-f115544-Rd1e158">illud verbum ibidem</ref>: <quote xml:id="kzz7yh-f115544-Qd1e160" source="http://scta.info/resource/mt7_19@1-2">omnis arbor</quote> etc. <quote xml:id="kzz7yh-f115544-Qd1e163">Uoluntas 
-      vni<lb ed="#V" n="33" break="no"/>uscuiusque est arbor bona: vel mala</quote>: ergo ex bona voluntate: sit 
-      bo<lb ed="#V" n="34" break="no"/>nus actus. Sed intentio est velle: ergo omne opsmus bonum est quod sit bona 
-      intem<lb ed="#V" n="35" break="no"/>tione.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e153">
-      ¶ Item bonitas est in actum exteriori ex bonitate actus 
-      inte<lb ed="#V" n="36" break="no"/>rioris. Sed actus interior bonus est ex intentione boni finis: ergo actus 
-      <lb ed="#V" n="37"/>exterior bonous est si ex bona intentione sit.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e160">
-      ¶ Item potentior est 
-      bo<lb ed="#V" n="38" break="no"/>na intentio quam mala. Sed quicumque actus exterior si mala 
-      in<lb ed="#V" n="39" break="no"/>tentione fiat malus est: ergo quicumque actus exterior si 
-      bos<lb ed="#V" n="40" break="no"/>na intentione siat bonus est. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e169">
-                  <lb ed="#V" n="41"/>Contra <ref xml:id="kzz7yh-f115544-Rd1e194">philosophus. 2 ethi. ca. 6</ref> dicit quod quaedam confestim 
-      nomina<lb ed="#V" n="42" break="no"/>ta ordinata sunt cum malitia puta gaudium de 
-      <lb ed="#V" n="43"/>malo inuerecundia inuidia et in operationibus adulterium furtum. Et 
-      <lb ed="#V" n="44"/>stati. q. post subdit. Non est igrati vnquam circa hoc dirigem: sed semper 
-      pec<lb ed="#V" n="45" break="no"/>care.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e183">
-      ¶ Item secundum Hu. de scuom vic. in libro de arra sponse non 
-      mul<lb ed="#V" n="46" break="no"/>tum post principium: amor transformat amantem in amatum: ergo nullo modo 
-      <lb ed="#V" n="47"/>potest voluntas velle malum: quin sit malum quaecumque intentione fiat. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e190">
-                  <lb ed="#V" n="48"/>¶ Item potentior est lex divina quam quaecumque intentio nostra: ergo exterior 
-      <lb ed="#V" n="49"/>actus per legem dinam prohitus: quacumque intetione fiat: non potest fieri bon. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e197">
-                  <lb ed="#V" n="50"/>Respondeo quod intentio potest dicem motum voluntatem
-      or<lb ed="#V" n="51" break="no"/>dinantis actum exteriorem in finem: vniversal ipsum 
-      <lb ed="#V" n="52"/>finem intentum. Si accipiatur primus: sic omnis actus exterior bona intentione 
-      <lb ed="#V" n="53"/>factus est meritorius. Nam ille motus voluntatis ordinantis actum 
-      <lb ed="#V" n="54"/>exteriorem in finem numquam est bonus: nisi sit ordo rectus: et ad hoc quod 
-      <lb ed="#V" n="55"/>ordo sit rectus requiritur quod actus sit ordinabilis et quod voluntas sit 
-      <lb ed="#V" n="56"/>ordinans et quod finis sit bonus et in se et in ratione finiendi quod includit 
-      <lb ed="#V" n="57"/>quod sit melior his quae sunt ad finem: et talis ad quem actus debet 
-      dirigi<lb ed="#V" n="58" break="no"/>secundum rectum iudicium rationis.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e219">
-      ¶ Si autem accipiatur pro fine intento: 
-      <lb ed="#V" n="59"/>sic non est verum: quod omnis actus exterior bona intentione factus sit 
-      me<lb ed="#V" n="60" break="no"/>ritorius. Sed tantummodo illi actus quae sunt de genere bonorum. Uel illi quod 
-      <lb ed="#V" n="61"/>de se sunt indifferentes: qui quandoque possunt esse meritorii ratione finis intenti. 
-    </p>
-               <p xml:id="kzz7yh-f115544-d1e228">
-                  <lb ed="#V" n="62"/>Ad primum dicendum quod procedit de intentione primo modo dicta. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e233">
-                  <lb ed="#V" n="63"/>¶ Ad secundum dicendum: quod minor non est vera: 
-      <lb ed="#V" n="64"/>nisi de intentione primo modo dicta: qui enim vellet mentiri: propter  
-      delibera<lb ed="#V" n="65" break="no"/>tionem innocentis: talis actus voluntatis non esset bonus quamuis 
-      inten<lb ed="#V" n="66" break="no"/>deret bonu fines.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e245">
-      ¶ Ad 3m dicendum: quod quamuis potentior sit bo¬ 
-      <!--00338.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="67"/>na intentio quam mala quantum est ex se: tamen quia plura requiruntur ad hoc quod 
-      <lb ed="#V" n="68"/>aliquid sit bonum quam ad hoc quod aliquid sit malum: quia sic dicit Dio. 
-      <lb ed="#V" n="69"/>de di. no. ca. 8. magis prope finem quam prope medium: bonum 
-      confi<lb ed="#V" n="70" break="no"/>stit ex integra et tota causa: malum vero ex particularibus defectibus. 
-      <lb ed="#V" n="71"/>Idon actus de se bonus fieri potest malus per intentionem malam: et 
-      ma<lb ed="#V" n="72" break="no"/>lus non potest fieri bonus: propter quancumque finem intentum. Unde Ber. de 
-      <lb ed="#V" n="73"/>praecepto et dispen 38 ca. bonum prorsus condemnat intentio 
-      par<lb ed="#V" n="74" break="no"/>ua et malum non penitus excusat recta.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e269">
-      ¶ Uel potest dici quod 
-      ma<lb ed="#V" n="75" break="no"/>ior est intelligenda respectu vnius effectus boni: sicut potentior 
-      <lb ed="#V" n="76"/>est bonus domificator ad faciendum bene domum quam malus: sed 
-      <lb ed="#V" n="77"/>si comparentur ad diuersos actus: sicut bona ad actum bonum et 
-      <lb ed="#V" n="78"/>mala ad actum malum: sic dico quod falsa est. Sic enim mala 
-      inten<lb ed="#V" n="79" break="no"/>tio potentior est ad efficiendum actum exteriorem malum quam bona 
-      <lb ed="#V" n="80"/>intentio ad faciendum actum exteriorem bonum.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e285">
-      ¶ Argumenta 
-      <lb ed="#V" n="81"/>ad partem aliam procedunt de intentione 2oo dicta.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f115544-Dd1e291">
-               <head xml:id="kzz7yh-f115544-Hd1e293">Quaestio 2</head>
-               <head xml:id="kzz7yh-f115544-Hd1e319" type="question-title">Utrum agens tamen mereatur quantum intendit mereri per bonitatem actus sui</head>
-               <p xml:id="kzz7yh-f115544-d1e295">
-      ¶ Quaestio II. 
-      <lb ed="#V" n="82"/>SEcundo quaeritur vtrum agens tantum mereatur quantum 
-      <lb ed="#V" n="83"/>intendit mereri per bonitatem actus 
-      <lb ed="#V" n="84"/>sui. Et videtur quod sic: quia quantum homo intendit peccare per 
-      ma<lb ed="#V" n="85" break="no"/>lum actum tantum peccat: ergo a simili quantum intendit mereri per 
-      <lb ed="#V" n="86"/>bonum actum tantum meretur.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e308">
-      ¶ Item glosa super illud <ref xml:id="kzz7yh-f115544-Rd1e337">Matth. 12.</ref> 
-      <lb ed="#V" n="87"/><quote xml:id="kzz7yh-f115544-Qd1e340" source="http://scta.info/resource/mt12_35@1-5">bonus homo de bono thesauro</quote> etc. dicit quod tantum boni quis facit 
-      <lb ed="#V" n="88"/>quantum intendit.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e315">
-      ¶ Item valor rei pensatur secundum formam: sed 
-      inten<lb ed="#V" n="89" break="no"/>tio dat actui exterioris formam in genere moris: ergo tantum valet 
-      <lb ed="#V" n="90"/>actus exterior quantum agens ipsum valere intendit. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e322">
-                  <lb ed="#V" n="91"/>Contra quae credit paruum bonum esse tanti meriti quantum 
-      <lb ed="#V" n="92"/>magnum errat: sed nunquam faciens paruum bonum
-      <lb ed="#V" n="93"/>intendit tantum per illud mereri quantum per maius bonum: nisi crederet 
-      <lb ed="#V" n="94"/>illud bonum maius esse quam sit: error autem non confert ad meritum: ergo 
-      <lb ed="#V" n="95"/>non est verum: quod semper tantum quis mereatur per suum actum quantum intendit. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e336">
-                  <lb ed="#V" n="96"/>¶ Item frequenter homo minus intendit ex humilitate 
-      mereri<lb ed="#V" n="97" break="no"/>per aliquem actum quam superbiis per similem actum: sed humilitas non 
-      mi<lb ed="#V" n="98" break="no"/>nuit meritum nec superbia auget: ergo quod non semper tantum mereatur 
-      <lb ed="#V" n="99"/>homo per suum actum quantum mereri intendit. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e347">
-                  <lb ed="#V" n="100"/>Respondeo quod agentem tantum mereri quantum 
-      inten<lb ed="#V" n="101" break="no"/>dit mereri per bonitatem sui actus 
-      du<lb ed="#V" n="102" break="no"/>pliciter potest intelligi. vno modo: ita quod actus tantum valeat admeritum 
-      <lb ed="#V" n="103"/>quantum agens ipsum estimat valere. Et sic non est verum. Aliqui 
-      <lb ed="#V" n="104"/>enim superbus hypocrita intendit actum suum multum valere: ad 
-      <lb ed="#V" n="105"/>meritum: cum tamen parum valeat.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e363">
-      ¶ Alio modo quod quanta est 
-      boni<lb ed="#V" n="106" break="no"/>tas actus intentionis: tantum actus exterior valeat admeritum: et 
-      <lb ed="#V" n="107"/>sic dico quod verum est: ipsa autem intentio sepe maior est in 
-      boni<lb ed="#V" n="108" break="no"/>tate in illo qui suum actum non tantum estimat valere quam in illo quid 
-      <lb ed="#V" n="109"/>actum suum magis estimat valere. 
-    </p>
-               <p xml:id="kzz7yh-f115544-d1e374">
-                  <lb ed="#V" n="110"/>Ad primum dicendum quod quamuis tantum homo peccet quantum 
-      <lb ed="#V" n="111"/>homo estimat peccare in peccatum 
-      facien<lb ed="#V" n="112" break="no"/>do: non tamen ex hoc sequitur quod tantum mereatur quantum estimat mereri
-      in<lb ed="#V" n="113" break="no"/>operando. Plura enim requiruntur ad augmentum meriti quam ad 
-      aug<lb ed="#V" n="114" break="no"/>mentum peccati: eo quod bonum constat ex integra et tota causa: malum 
-      <lb ed="#V" n="115"/>vero ex particularibus defectibus.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e390">
-      ¶ Ad 2m cum dicitur quod tantum quis 
-      bo<lb ed="#V" n="116" break="no"/>ni facit quantum intendit: dico quod sic debet intelligi quod quantum bonus est 
-      <lb ed="#V" n="117"/>actus intendendi tantum bonus est actus exterior elicitus ex illa 
-      inten<lb ed="#V" n="118" break="no"/>tione: quia per intentionem est in eo bonitas moralis.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e399">
-      ¶ Tertium 
-      <lb ed="#V" n="119"/>non plus concludit: nisi quod quantum est de bonitate in intentione 
-      inte<lb ed="#V" n="120" break="no"/>riori tantum est de bonitate in actu exteriori.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e407">
-      ¶ Argumenta ad 
-      <lb ed="#V" n="121"/>partem aliam nihil plus coneludunt: nisi quod non semper tantum vale: 
-      <lb ed="#V" n="122"/>actus exterior quantum agens ipsum valere intendit ad 
-      me<lb ed="#V" n="123" break="no"/>ritum. Et hoc est verum.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f115544-Dd1e417">
-               <head xml:id="kzz7yh-f115544-Hd1e419">Quaestio 3</head>
-               <head xml:id="kzz7yh-f115544-Hd1e453" type="question-title">Utrum bonitas actualis intentionis addat aliquam bonitatem ultra bonitatem ipsius habitus et virtus quod non</head>
-               <p xml:id="kzz7yh-f115544-d1e421">
-      ¶ Questio. III 
-      <lb ed="#V" n="124"/>TErtio queritur vtrum bonitas actualis 
-      inten<lb ed="#V" n="125" break="no"/>tionis addat aliquam bonitatem vltra 
-      <lb ed="#V" n="126"/>bonitatem ipsius habitus et videtur quod non <ref xml:id="kzz7yh-f115544-Rd1e464">3. Zach. 4.</ref> 
-      exe<lb ed="#V" n="127" break="no"/>quabit gratiam gratiae: ergo videtur quod secundum quantitatem habitus gratiae 
-      <lb ed="#V" n="128"/>erit quantitas glie <!--word?-->.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e434">
-      ¶ Item tantum deus acceptat opera quantum 
-      acce<lb ed="#V" n="129" break="no"/>ptat operantem: vnde interlinealis. super illud Gen. 8 respexit dominus 
-      <lb ed="#V" n="130"/>ad Abel et ad munera eius. Dicit quod oblatio placet ex 
-      mun<lb ed="#V" n="131" break="no"/>ditia offerentis: sed tantum acceptat deus hominem quantum habet de gratia 
-      <lb ed="#V" n="132"/>eius: ergo non est bonitas in homine: nisi secundum quantitatem habitus gratiae. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e445">
-                  <lb ed="#V" n="133"/>¶ Item si non est bonitas gratiein vno: nisi propter aliud non 
-      <lb ed="#V" n="134"/>plus est de bonitate in duobus: quam in vno tantum. Sed in inten¬ 
-      <!--00339.xml-->
-      <pb ed="#V" n="163-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>tione interiori: non est aliqua bonitas: nisi propter habitum gratiae: 
-      loquem<lb ed="#V" n="2" break="no"/>do de bonitate remunerabili a deo: de qua hoc loquimur: quia 
-      <lb ed="#V" n="3"/>si intentio procedit non ex gratia: non est a deo remunerabilis: ergo 
-      <lb ed="#V" n="4"/>intentio actualis nullam bonitatem addit super hitum gratiae: vt videtur. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e467">
-                  <lb ed="#V" n="5"/>Contra per actus voluntatis elicitos ex gratia: mereri 
-      dici<lb ed="#V" n="6" break="no"/>mur vitam eternam quod verum non esset si super habitum 
-      <lb ed="#V" n="7"/>gratiae actualis intentio nullam superadderet bonitatem.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e477">
-      ¶ Item 
-      <lb ed="#V" n="8"/>glosa super illud ad Ro. 4. ei quae operatur merces non imputatur etc id est 
-      <lb ed="#V" n="9"/>non dabitur secundum gratiam fidei tantum: sed secundum debitum operationis sue: aut 
-      <lb ed="#V" n="10"/>ergo accipitur hoc de operatione exteriori: autem interiori: si de 
-      interio<lb ed="#V" n="11" break="no"/>ri habeo propositum: si de exteriori multo fortius verum est de 
-      inte<lb ed="#V" n="12" break="no"/>riori: cum actus exterior non hebeat bonitatem moralem: nisi 
-      <lb ed="#V" n="13"/>per comparationem ad actum interiorem. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e493">
-                  <lb ed="#V" n="14"/>Ad istam questionem dixerunt aliqui quod 
-      <lb ed="#V" n="15"/>actualis intentio 
-      su<lb ed="#V" n="16" break="no"/>pra bonitatem habitus gratiae: nullam superaddit bonitatem remune 
-      <lb ed="#V" n="17"/>rabilem a deo quantum ad principium essentiale: vnde si moriantur duo 
-      inequa<lb ed="#V" n="18" break="no"/>li hieitu gratiae: quamuis vnus ex sua gratia plurles hunisset bonas 
-      inten<lb ed="#V" n="19" break="no"/>taiones actuales quam alius equale habebunt principium essentiale quod consistit in 
-      <lb ed="#V" n="20"/>clara dei visione et perfecta eius finitione. Hoc enim praemium 
-      mensura<lb ed="#V" n="21" break="no"/>ri dicunt secundum hitus gratiae quantitatem: quia tamen valet quantum ad habitus gratiae 
-      <lb ed="#V" n="22"/>radicationem et conseruationem: et disponit ad eius augmtationem: 
-      <lb ed="#V" n="23"/>ideo ex consiti valere dicitur ad praemium substantiale: superaddit etiam aliquam 
-      bo<lb ed="#V" n="24" break="no"/>nitatem per comparatione ad praemium accidentale de quo fiet 
-      memn<lb ed="#V" n="25" break="no"/>tio in sequenti quaestione
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e522">
-      ¶ Sed contra hanc opinionem potest argui per 
-      <lb ed="#V" n="26"/>Ber. libro de libero arti non multum ante finem dicentem sola nempe 
-      inter<lb ed="#V" n="27" break="no"/>dum bona voluntas sufficit: cetera non prosunt vbi sola defuerit: 
-      <lb ed="#V" n="28"/>non prosunt: dixerim: sed agenti non cernenti. Ualet itaque 
-      inten<lb ed="#V" n="29" break="no"/>tio ad meritum: actio ad exemplum.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e533">
-      ¶ Preterea quasi in fine 
-      eius<lb ed="#V" n="30" break="no"/>dem libro dicit quod ad promerendum coronam deus facit hominem 
-      <lb ed="#V" n="31"/>coadiutorem: cum facit volentem: hoc est sue voluntati 
-      consentien<lb ed="#V" n="32" break="no"/>tem: itaque voluntas in auxilium: auxilium reputatur in meritum: hoc 
-      <lb ed="#V" n="33"/>planum est quod accipit voluntatem pro actu voluntatis: ergo actus 
-      vo<lb ed="#V" n="34" break="no"/>luntatis interior superaddit aliquam rationem merendi coronam. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e546">
-                  <lb ed="#V" n="35"/>¶ Preterea actus est finis ipsius habitus et nobilior eo: vnde et 
-      <lb ed="#V" n="36"/>habitus glalie ad actum glurie ordinatur: signo aliquid de praemio 
-      essen<lb ed="#V" n="37" break="no"/>tiali respondeat ipsi hitui gratiae: videtur etiam quod respondeat aliquid de praemio 
-      <lb ed="#V" n="38"/>essentiali ipsi intentioni interiori per gratiam elicite: irrationabile enim 
-      <lb ed="#V" n="39"/>videretur quod quantum ad praemium essentiale remuneraretur homo 
-      pro<lb ed="#V" n="40" break="no"/>hitu gratiae et non pro voluntatis actibus interioribus ex gratia 
-      elici<lb ed="#V" n="41" break="no"/>tis ad quos gratiae habitus ordinatur.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e564">
-      ¶ Ion mihi videtur: sine 
-      praeiudi<lb ed="#V" n="42" break="no"/>cio dicendum: quod actualis intentio elicita a voluntate per gratiam 
-      ali<lb ed="#V" n="43" break="no"/>quam bonitatem remunerabilem a deo quantum ad praemium 
-      essen<lb ed="#V" n="44" break="no"/>tiale superaddit habitui gratie. Ita quod praemium essentiale respondet 
-      <lb ed="#V" n="45"/>ipsi habitui gratiae: et actibus voluntatis interioribus ex ipso 
-      hitu<lb ed="#V" n="46" break="no"/>elicitis: propter enim actus tales datur anime post expletionem poenitentie: 
-      ma<lb ed="#V" n="47" break="no"/>ior habitus luminis glurie: et maius augmentum habitus 
-      charita<lb ed="#V" n="48" break="no"/>tis: quam si cum solo habitum gratiae: sine praedictis actibus a corpore 
-      re<lb ed="#V" n="49" break="no"/>cessisset: et ex conseqenti sequitur quod deum clarius videt et perfectius 
-      <lb ed="#V" n="50"/>eo fruitur quam si praedictos actus per habitum sue gratiae non elicisset. 
-    </p>
-               <p xml:id="kzz7yh-f115544-d1e587">
-                  <lb ed="#V" n="51"/>Ad primum in oppositum dicendum: quod in illa auctoritate: 
-      <lb ed="#V" n="52"/>nomine gratiae comprehenditur et ipse 
-      habi<lb ed="#V" n="53" break="no"/>tus et boni interiores voluntatis actus: qui ex gratia eliciuntur. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e596">
-                  <lb ed="#V" n="54"/>¶ Ad secundum cum dicitur: quod oblatio placet propter munditiam 
-      offe<lb ed="#V" n="55" break="no"/>rentis etc. dico quod verum est: non tamen ex hoc sequitur quod oblatio 
-      in<lb ed="#V" n="56" break="no"/>teriorum actuum voluntatis ex illa habituali munditia 
-      eli<lb ed="#V" n="57" break="no"/>citorum non placeat: quandam enim bonitatem habent quam ex 
-      habitua<lb ed="#V" n="58" break="no"/>li munditia trahunt: qui tamen non est illa eadem in nuon quae est in 
-      <lb ed="#V" n="59"/>habituali munditia: sicut rami et fructus aliquam bonitatem 
-      <lb ed="#V" n="60"/>habent quae non est illa eadem in nuon qui est actu in radice: eam tamen 
-      <lb ed="#V" n="61"/>ex radice traxerunt
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e616">
-      ¶ Ad 3m dicendum: quod non esse bonitatem in 
-      <lb ed="#V" n="62"/>vno: nisi propter aliud dupliciter potest intelligi: vno modo ita quod 
-      boni<lb ed="#V" n="63" break="no"/>tas compositi ex duobus non sit: nisi per vnum formaliter: vel 
-      actua<lb ed="#V" n="64" break="no"/>liter: et sic propositio potest intelligi vera: alio modo ita quod in vno non 
-      <lb ed="#V" n="65"/>sit bonitas: nisi propter aliud originaliter: vel virtualiter: et sic 
-      ma<lb ed="#V" n="66" break="no"/>ior propotio veritatem non habet. Non enim est bonitas in ramis: 
-      <lb ed="#V" n="67"/>nisi propter radicem virtualiter et originaliter: tamen formaliter et actualiter 
-      <lb ed="#V" n="68"/>est aliqua bonitas in ramis quae non est actualiter et formaliter in ra¬ 
-      <!--00339.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>dice quamuis in ea praefuerit in virtate. Plus autem valet 
-      boni<lb ed="#V" n="70" break="no"/>tas secundum quod est in actu: quam secundum quod est in potentia. Simili modo 
-      <lb ed="#V" n="71"/>potest dici de actibus voluntatis interioribus et gratuitis per 
-      com<lb ed="#V" n="72" break="no"/>parationem ad suam radicem quae est hitus gratie.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f115544-Dd1e648">
-               <head xml:id="kzz7yh-f115544-Hd1e650">Quaestio 4</head>
-               <head xml:id="kzz7yh-f115544-Hd1e693" type="question-title">Utrum ultra meritum bone intentionis aliquod meritum addat exterior actus</head>
-               <p xml:id="kzz7yh-f115544-d1e652">
-      ¶ Quaestio IIII. 
-      <lb ed="#V" n="73"/>QUarto queritur vtrum vltra 
-      me<lb ed="#V" n="74" break="no"/>ritum bone 
-      in<lb ed="#V" n="75" break="no"/>tentionis aliquod meritum addat exterior actus. Et 
-      <lb ed="#V" n="76"/>videtur quod non: quia aliter dans maiorem elemosynam 
-      <lb ed="#V" n="77"/>magis meretur: quam ille qui dat minorem: sed hoc non est semper verum. 
-      <lb ed="#V" n="78"/>Unde dicit Saluator Matth. 12. de paupere vidua que misit in 
-      <lb ed="#V" n="79"/>gazophylatium duo minuta: quoniam vidua: et pauper plus omnibus 
-      <lb ed="#V" n="80"/>misit qui miserunt in:gazophylatium.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e672">
-      ¶ Item de beatio 
-      Mar<lb ed="#V" n="81" break="no"/>tino creatura. O beatissima anima quam et si gladius 
-      persecutio<lb ed="#V" n="82" break="no"/>nis non abstulit: palmam tamen martyrii non amisit: ergo 
-      exte<lb ed="#V" n="83" break="no"/>rior passio martyrii nullum superaddit meritum bone 
-      volun<lb ed="#V" n="84" break="no"/>tati: ergo multo minus actus exteriores: nisi preuilegiati. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e683">
-                  <lb ed="#V" n="85"/>¶ Item voluntas habendi sacramentum: si non assit facultas sufficit 
-      <lb ed="#V" n="86"/>secundum sententiam beati Aug. 4. libro de baptismo contra donatistas 
-      cir<lb ed="#V" n="87" break="no"/>ca finem. Sed hoc non esset si exterior receptio sacramenti aliquod 
-      me<lb ed="#V" n="88" break="no"/>ritum adderet super bonam intentionem interiorem: vt videtur. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e694">
-                  <lb ed="#V" n="89"/>Contra <ref xml:id="kzz7yh-f115544-Rd1e743">glosa</ref> super illud <ref xml:id="kzz7yh-f115544-Rd1e745">Gal 6.</ref> tempore suo meremus non 
-      <lb ed="#V" n="90"/>deficientes dicit quod quantum seruiremus in 
-      ope<lb ed="#V" n="91" break="no"/>ribus tantum meremus in fructibus: ibi autem loqutur de exteriori 
-      ope<lb ed="#V" n="92" break="no"/>ratione: vt videtur.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e706">
-      ¶ Item quaedam sunt opera praeuilegiata: vt 
-      <lb ed="#V" n="93"/>doctrina martyrium virginitas per quae homo si habentur in opere 
-      <lb ed="#V" n="94"/>meretur aureolam: non autem si habentur sola intentione.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e713">
-      ¶ Item 
-      <lb ed="#V" n="95"/>Apost. 2. cor. 9. loquens de exteriori operatione dicit quod qui 
-      perce<lb ed="#V" n="96" break="no"/>seminat perce et metet: quod non esset verum: nisi exteriores actus 
-      <lb ed="#V" n="97"/>superadderent aliquam rationem bomoni meriti vltra intentionem interiorem. 
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e722">
-                  <lb ed="#V" n="98"/>Respondeo quod ad praesens possumus loqui de 
-      meri<lb ed="#V" n="99" break="no"/>to dupliter scilicet vel respectu praemii 
-      acci<lb ed="#V" n="100" break="no"/>dentalis: vel respectu praemii substantialis: si primo modo tuc dico quod 
-      <lb ed="#V" n="101"/>actus exteriores al iquam rationem meriti superaddunt intentioni 
-      inte<lb ed="#V" n="102" break="no"/>riori: praemium enim accidentale est gaudium quod habent sancti de bono 
-      crea<lb ed="#V" n="103" break="no"/>to: qui autem plurles bonos actus exteriores fecerunt: ceteris 
-      pari<lb ed="#V" n="104" break="no"/>bus plus gaudent de bono creato quam alii qui pautiores 
-      <lb ed="#V" n="105"/>actus exteriores fecerunt. Hoc autem praemium duplex est quoddam 
-      <lb ed="#V" n="106"/>commune et quoddam praeuilegiatum: commune autem debetur operanti: propter opera 
-      <lb ed="#V" n="107"/>sua non rationem habentia victorie excellentis. Priuilegiatum autem 
-      <lb ed="#V" n="108"/>quod dicitur aureola est gaudium de operibus a se factis rationem habentibus 
-      vi<lb ed="#V" n="109" break="no"/>ctorie excellentis: per quod apparebit exterius quidam decor 
-      in<lb ed="#V" n="110" break="no"/>corpore qui praedictum interius gaudium declarabit exterius. Unde 
-      <lb ed="#V" n="111"/>et illud peremium dicitur principalius esse in anima: quamuis aliqua perfectio 
-      ex<lb ed="#V" n="112" break="no"/>hoc exterius redundet in corpore. Ista autem opera habentia rationem 
-      excel<lb ed="#V" n="113" break="no"/>lentis victorie: quibus debetur aureola: ad tria genera reducuntur. 
-      <lb ed="#V" n="114"/>Tres enim hebemus inimicos: carnem quae contra nos pugnat per 
-      carna<lb ed="#V" n="115" break="no"/>les delitias: quae perfecte et excellenter vincuntur per virginitatem. 
-      <lb ed="#V" n="116"/>Mundum quae contra nos pugnat per tyranicas violentias quae perfecte 
-      <lb ed="#V" n="117"/>et excellenter vincuntur per martyrium. Diabolum qui pugnat 
-      <lb ed="#V" n="118"/>contra nos per fallaces fraudulentias: quae perfecte et excellenter 
-      vin<lb ed="#V" n="119" break="no"/>cuntur per puram doctrinam fidei: et morum quae doctor non tantum 
-      de<lb ed="#V" n="120" break="no"/>prehendit Diabolicas fraudulentias. Sed alios docendo facit 
-      <lb ed="#V" n="121"/>quantum in se est: vt et alii eas deprehendant: et ideo triplex est 
-      aureo<lb ed="#V" n="122" break="no"/>la scilicet virginum Martyrum et doctorum. Si autem loquamur de 
-      me<lb ed="#V" n="123" break="no"/>rito respectum praemii substantialis. Sic videtur quod actus exteriores: vel 
-      opera<lb ed="#V" n="124" break="no"/>non addunt aliquam rationem meriti: vltra bonum actum voluntatis 
-      <lb ed="#V" n="125"/>interiorem: nisi dispositiue: inquantum scilicet elemosyne date 
-      mltipli<lb ed="#V" n="126" break="no"/>cant aptode deum intercessores pro dante. Propter quod dicitur Thob. 
-      <lb ed="#V" n="127"/>12. quod elemosyna a morte liberat: et ipsa est qui purgat peccata: 
-      <lb ed="#V" n="128"/>et facit inuenire vitam erernam: et per sapientem dicitur puer. 13 quod 
-      redem<lb ed="#V" n="129" break="no"/>ptio anime diuitis diuitie eius: et imquantum actus exteriores excitant 
-      <lb ed="#V" n="130"/>actum voluntatis interiorem ad bonum: et inquantum mediante 
-      excita<lb ed="#V" n="131" break="no"/>tione actuum interiorum valetium ad habitus interiores gratiae 
-      <lb ed="#V" n="132"/>radicationem et conseruationem: cui habitui et interioribus 
-      <lb ed="#V" n="133"/>actibus eius debetur premium substantiale. 
-    </p>
-               <p xml:id="kzz7yh-f115544-d1e803">
-                  <lb ed="#V" n="134"/>Ad primum dicendum: quod dans maiorem elemosynam 
-      <lb ed="#V" n="135"/>supposita equalitate in habitu et actu 
-      <lb ed="#V" n="136"/>interiori plus meretur quantum ad praemium accidentale: et quantum ad praes<pb ed="#V" n="163-v"/><cb ed="#P" n="a"/><lb ed="#V" n="1" break="no"/>mium 
-                  substantiale dispositiue modo praedicto. Sed quando pauper ex maiori 
-      <lb ed="#V" n="2"/>hitum gratiae: vel ex intensiori motu intentionis gratuite dat peruam 
-      <lb ed="#V" n="3"/>elemosynam et diues ex minori hbientu gratiae: et minori deuotione 
-      <lb ed="#V" n="4"/>interioris actus voluntatis dat magnam elemosynam: tunc dico 
-      <lb ed="#V" n="5"/>simpliciter omnibus pensatis quod magis meretur ille pauper quam ille 
-      di<lb ed="#V" n="6" break="no"/>ues: et sic fuit in illa vidua.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e832">
-      ¶ Ad 2m dicendum: quod illud verbum 
-      <lb ed="#V" n="7"/>intelligitur de palma substantiali quae aurea dicitur. Sicut enim in linea 
-      circu<lb ed="#V" n="8" break="no"/>lari: principium fini coniungitur et econuerso: et propter eius perfectionem quod sibi 
-      <lb ed="#V" n="9"/>additur accidentale est: ita per palmam substantialem creatura rationalis: ita 
-      <lb ed="#V" n="10"/>perfecte coniungitur suo princtia per cognitionem et amorem quod omne praemium 
-      <lb ed="#V" n="11"/>aliud isti superadditum accidentale est: ad quod signandu praemium 
-      acci<lb ed="#V" n="12" break="no"/>dentale praieuilegiatum aureola dicitur quod est diminutiuum auree: hoc 
-      <lb ed="#V" n="13"/>autem duo praemia signata fuerunt Exo. 25. vbi dicitur facies illi labium 
-      <lb ed="#V" n="14"/>aureum per circuitum: et ipsi labio coronam in interrasilem: altera. 4: 
-      <lb ed="#V" n="15"/>digitis: et super illam alteram coronam aureolam
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e854">
-      ¶ Ad 3m dicendum: quod 
-      <lb ed="#V" n="16"/>de lege communi sacramentum desideratum et hitum: plus confert est ad 
-      sba<lb ed="#V" n="17" break="no"/>le praemium quam desideratum non hitum ceteris paribus. Non sic enim 
-      <lb ed="#V" n="18"/>dicendum est de sacramento: sicut de aliis actibus exterioribus: vt deo 
-      <lb ed="#V" n="19"/>dante declarabitur in quarto: tamen si haberi non potest in effectu: non propter 
-      <lb ed="#V" n="20"/>hoc perdit a dultus vitam eternam: qui sibimet subuenit ipsum 
-      desi<lb ed="#V" n="21" break="no"/>derando in affectu. Nec plus voluit dicere <ref xml:id="kzz7yh-f115544-Rd1e914">Aug. in loco 
-      <lb ed="#V" n="22"/>praeallegato</ref>.
-   </p>
-               <p xml:id="kzz7yh-f115544-d1e873">
-      ¶ Ad argumenta ad partem aliam: patet quid 
-      di<lb ed="#V" n="23" break="no"/>ci debeat per illa que in corpore quaestionis dicta sunt. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="162-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f115544"><!-- l2d40a1 -->
+        <head xml:id="kzz7yh-f115544-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-f115544-d1e103">
+          ¶ Circa principium quaeruntur 
+          <lb ed="#V" n="23"/>quatuor.
+        </p>
+        <p xml:id="kzz7yh-f115544-d1e108">
+          ¶ Primo vtrum omnis actus exterior bona intentione factus sit 
+          <lb ed="#V" n="24"/>meritorius.
+        </p>
+        <p xml:id="kzz7yh-f115544-d1e113">
+          ¶ 2o vtrum agens tantum mereatur quantum intendit mereri per 
+          <lb ed="#V" n="25"/>bonitatem illius actus.
+        </p>
+        <p xml:id="kzz7yh-f115544-d1e118">
+          ¶ 3o vtrum bonitas actualis intentionis 
+          ad<lb ed="#V" n="26" break="no"/>dat aliquam bominitatem vltra bonitatem ipsius habitus.
+        </p>
+        <p xml:id="kzz7yh-f115544-d1e124">
+          ¶ 
+          Quar<lb ed="#V" n="27" break="no"/>to vtrum vltra meritum bone intentionis aliquod meritum 
+          <lb ed="#V" n="28"/>addat actus exterior.
+        </p>
+        <div xml:id="kzz7yh-f115544-Dd1e131">
+          <head xml:id="kzz7yh-f115544-Hd1e133">Quaestio 1</head>
+          <head xml:id="kzz7yh-f115544-Hd1e137" type="question-title">Utrum omnis actus exterior bona intentione factus sit meritorius</head>
+          <p xml:id="kzz7yh-f115544-d1e135">
+            ¶ Questio I.
+            <lb ed="#V" n="29"/>PRimo ostendendo quod omnis actus exterior bona 
+            inten<lb ed="#V" n="30" break="no"/>tione factus sit meritorius. <ref xml:id="kzz7yh-f115544-Rd1e146">Matth. 7.</ref> 
+            <lb ed="#V" n="31"/><quote xml:id="kzz7yh-f115544-Qd1e149" source="http://scta.info/resource/mt7_18@1-7">non potest arbor bona fructus malos facere</quote>. Sed secundum 
+            <ref xml:id="kzz7yh-f115544-Rd1e152">glo<lb ed="#V" n="32" break="no"/>sam</ref> super <ref xml:id="kzz7yh-f115544-Rd1e158">illud verbum ibidem</ref>: <quote xml:id="kzz7yh-f115544-Qd1e160" source="http://scta.info/resource/mt7_19@1-2">omnis arbor</quote> etc. <quote xml:id="kzz7yh-f115544-Qd1e163">Uoluntas 
+              vni<lb ed="#V" n="33" break="no"/>uscuiusque est arbor bona: vel mala</quote>: ergo ex bona voluntate: sit 
+            bo<lb ed="#V" n="34" break="no"/>nus actus. Sed intentio est velle: ergo omne opsmus bonum est quod sit bona 
+            intem<lb ed="#V" n="35" break="no"/>tione.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e153">
+            ¶ Item bonitas est in actum exteriori ex bonitate actus 
+            inte<lb ed="#V" n="36" break="no"/>rioris. Sed actus interior bonus est ex intentione boni finis: ergo actus 
+            <lb ed="#V" n="37"/>exterior bonous est si ex bona intentione sit.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e160">
+            ¶ Item potentior est 
+            bo<lb ed="#V" n="38" break="no"/>na intentio quam mala. Sed quicumque actus exterior si mala 
+            in<lb ed="#V" n="39" break="no"/>tentione fiat malus est: ergo quicumque actus exterior si 
+            bos<lb ed="#V" n="40" break="no"/>na intentione siat bonus est. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e169">
+            <lb ed="#V" n="41"/>Contra <ref xml:id="kzz7yh-f115544-Rd1e194">philosophus. 2 ethi. ca. 6</ref> dicit quod quaedam confestim 
+            nomina<lb ed="#V" n="42" break="no"/>ta ordinata sunt cum malitia puta gaudium de 
+            <lb ed="#V" n="43"/>malo inuerecundia inuidia et in operationibus adulterium furtum. Et 
+            <lb ed="#V" n="44"/>stati. q. post subdit. Non est igrati vnquam circa hoc dirigem: sed semper 
+            pec<lb ed="#V" n="45" break="no"/>care.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e183">
+            ¶ Item secundum Hu. de scuom vic. in libro de arra sponse non 
+            mul<lb ed="#V" n="46" break="no"/>tum post principium: amor transformat amantem in amatum: ergo nullo modo 
+            <lb ed="#V" n="47"/>potest voluntas velle malum: quin sit malum quaecumque intentione fiat. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e190">
+            <lb ed="#V" n="48"/>¶ Item potentior est lex divina quam quaecumque intentio nostra: ergo exterior 
+            <lb ed="#V" n="49"/>actus per legem dinam prohitus: quacumque intetione fiat: non potest fieri bon. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e197">
+            <lb ed="#V" n="50"/>Respondeo quod intentio potest dicem motum voluntatem
+            or<lb ed="#V" n="51" break="no"/>dinantis actum exteriorem in finem: vniversal ipsum 
+            <lb ed="#V" n="52"/>finem intentum. Si accipiatur primus: sic omnis actus exterior bona intentione 
+            <lb ed="#V" n="53"/>factus est meritorius. Nam ille motus voluntatis ordinantis actum 
+            <lb ed="#V" n="54"/>exteriorem in finem numquam est bonus: nisi sit ordo rectus: et ad hoc quod 
+            <lb ed="#V" n="55"/>ordo sit rectus requiritur quod actus sit ordinabilis et quod voluntas sit 
+            <lb ed="#V" n="56"/>ordinans et quod finis sit bonus et in se et in ratione finiendi quod includit 
+            <lb ed="#V" n="57"/>quod sit melior his quae sunt ad finem: et talis ad quem actus debet 
+            dirigi<lb ed="#V" n="58" break="no"/>secundum rectum iudicium rationis.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e219">
+            ¶ Si autem accipiatur pro fine intento: 
+            <lb ed="#V" n="59"/>sic non est verum: quod omnis actus exterior bona intentione factus sit 
+            me<lb ed="#V" n="60" break="no"/>ritorius. Sed tantummodo illi actus quae sunt de genere bonorum. Uel illi quod 
+            <lb ed="#V" n="61"/>de se sunt indifferentes: qui quandoque possunt esse meritorii ratione finis intenti. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e228">
+            <lb ed="#V" n="62"/>Ad primum dicendum quod procedit de intentione primo modo dicta. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e233">
+            <lb ed="#V" n="63"/>¶ Ad secundum dicendum: quod minor non est vera: 
+            <lb ed="#V" n="64"/>nisi de intentione primo modo dicta: qui enim vellet mentiri: propter  
+            delibera<lb ed="#V" n="65" break="no"/>tionem innocentis: talis actus voluntatis non esset bonus quamuis 
+            inten<lb ed="#V" n="66" break="no"/>deret bonu fines.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e245">
+            ¶ Ad 3m dicendum: quod quamuis potentior sit bo¬ 
+            <!--00338.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="67"/>na intentio quam mala quantum est ex se: tamen quia plura requiruntur ad hoc quod 
+            <lb ed="#V" n="68"/>aliquid sit bonum quam ad hoc quod aliquid sit malum: quia sic dicit Dio. 
+            <lb ed="#V" n="69"/>de di. no. ca. 8. magis prope finem quam prope medium: bonum 
+            confi<lb ed="#V" n="70" break="no"/>stit ex integra et tota causa: malum vero ex particularibus defectibus. 
+            <lb ed="#V" n="71"/>Idon actus de se bonus fieri potest malus per intentionem malam: et 
+            ma<lb ed="#V" n="72" break="no"/>lus non potest fieri bonus: propter quancumque finem intentum. Unde Ber. de 
+            <lb ed="#V" n="73"/>praecepto et dispen 38 ca. bonum prorsus condemnat intentio 
+            par<lb ed="#V" n="74" break="no"/>ua et malum non penitus excusat recta.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e269">
+            ¶ Uel potest dici quod 
+            ma<lb ed="#V" n="75" break="no"/>ior est intelligenda respectu vnius effectus boni: sicut potentior 
+            <lb ed="#V" n="76"/>est bonus domificator ad faciendum bene domum quam malus: sed 
+            <lb ed="#V" n="77"/>si comparentur ad diuersos actus: sicut bona ad actum bonum et 
+            <lb ed="#V" n="78"/>mala ad actum malum: sic dico quod falsa est. Sic enim mala 
+            inten<lb ed="#V" n="79" break="no"/>tio potentior est ad efficiendum actum exteriorem malum quam bona 
+            <lb ed="#V" n="80"/>intentio ad faciendum actum exteriorem bonum.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e285">
+            ¶ Argumenta 
+            <lb ed="#V" n="81"/>ad partem aliam procedunt de intentione 2oo dicta.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f115544-Dd1e291">
+          <head xml:id="kzz7yh-f115544-Hd1e293">Quaestio 2</head>
+          <head xml:id="kzz7yh-f115544-Hd1e319" type="question-title">Utrum agens tamen mereatur quantum intendit mereri per bonitatem actus sui</head>
+          <p xml:id="kzz7yh-f115544-d1e295">
+            ¶ Quaestio II. 
+            <lb ed="#V" n="82"/>SEcundo quaeritur vtrum agens tantum mereatur quantum 
+            <lb ed="#V" n="83"/>intendit mereri per bonitatem actus 
+            <lb ed="#V" n="84"/>sui. Et videtur quod sic: quia quantum homo intendit peccare per 
+            ma<lb ed="#V" n="85" break="no"/>lum actum tantum peccat: ergo a simili quantum intendit mereri per 
+            <lb ed="#V" n="86"/>bonum actum tantum meretur.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e308">
+            ¶ Item glosa super illud <ref xml:id="kzz7yh-f115544-Rd1e337">Matth. 12.</ref> 
+            <lb ed="#V" n="87"/><quote xml:id="kzz7yh-f115544-Qd1e340" source="http://scta.info/resource/mt12_35@1-5">bonus homo de bono thesauro</quote> etc. dicit quod tantum boni quis facit 
+            <lb ed="#V" n="88"/>quantum intendit.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e315">
+            ¶ Item valor rei pensatur secundum formam: sed 
+            inten<lb ed="#V" n="89" break="no"/>tio dat actui exterioris formam in genere moris: ergo tantum valet 
+            <lb ed="#V" n="90"/>actus exterior quantum agens ipsum valere intendit. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e322">
+            <lb ed="#V" n="91"/>Contra quae credit paruum bonum esse tanti meriti quantum 
+            <lb ed="#V" n="92"/>magnum errat: sed nunquam faciens paruum bonum
+            <lb ed="#V" n="93"/>intendit tantum per illud mereri quantum per maius bonum: nisi crederet 
+            <lb ed="#V" n="94"/>illud bonum maius esse quam sit: error autem non confert ad meritum: ergo 
+            <lb ed="#V" n="95"/>non est verum: quod semper tantum quis mereatur per suum actum quantum intendit. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e336">
+            <lb ed="#V" n="96"/>¶ Item frequenter homo minus intendit ex humilitate 
+            mereri<lb ed="#V" n="97" break="no"/>per aliquem actum quam superbiis per similem actum: sed humilitas non 
+            mi<lb ed="#V" n="98" break="no"/>nuit meritum nec superbia auget: ergo quod non semper tantum mereatur 
+            <lb ed="#V" n="99"/>homo per suum actum quantum mereri intendit. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e347">
+            <lb ed="#V" n="100"/>Respondeo quod agentem tantum mereri quantum 
+            inten<lb ed="#V" n="101" break="no"/>dit mereri per bonitatem sui actus 
+            du<lb ed="#V" n="102" break="no"/>pliciter potest intelligi. vno modo: ita quod actus tantum valeat admeritum 
+            <lb ed="#V" n="103"/>quantum agens ipsum estimat valere. Et sic non est verum. Aliqui 
+            <lb ed="#V" n="104"/>enim superbus hypocrita intendit actum suum multum valere: ad 
+            <lb ed="#V" n="105"/>meritum: cum tamen parum valeat.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e363">
+            ¶ Alio modo quod quanta est 
+            boni<lb ed="#V" n="106" break="no"/>tas actus intentionis: tantum actus exterior valeat admeritum: et 
+            <lb ed="#V" n="107"/>sic dico quod verum est: ipsa autem intentio sepe maior est in 
+            boni<lb ed="#V" n="108" break="no"/>tate in illo qui suum actum non tantum estimat valere quam in illo quid 
+            <lb ed="#V" n="109"/>actum suum magis estimat valere. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e374">
+            <lb ed="#V" n="110"/>Ad primum dicendum quod quamuis tantum homo peccet quantum 
+            <lb ed="#V" n="111"/>homo estimat peccare in peccatum 
+            facien<lb ed="#V" n="112" break="no"/>do: non tamen ex hoc sequitur quod tantum mereatur quantum estimat mereri
+            in<lb ed="#V" n="113" break="no"/>operando. Plura enim requiruntur ad augmentum meriti quam ad 
+            aug<lb ed="#V" n="114" break="no"/>mentum peccati: eo quod bonum constat ex integra et tota causa: malum 
+            <lb ed="#V" n="115"/>vero ex particularibus defectibus.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e390">
+            ¶ Ad 2m cum dicitur quod tantum quis 
+            bo<lb ed="#V" n="116" break="no"/>ni facit quantum intendit: dico quod sic debet intelligi quod quantum bonus est 
+            <lb ed="#V" n="117"/>actus intendendi tantum bonus est actus exterior elicitus ex illa 
+            inten<lb ed="#V" n="118" break="no"/>tione: quia per intentionem est in eo bonitas moralis.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e399">
+            ¶ Tertium 
+            <lb ed="#V" n="119"/>non plus concludit: nisi quod quantum est de bonitate in intentione 
+            inte<lb ed="#V" n="120" break="no"/>riori tantum est de bonitate in actu exteriori.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e407">
+            ¶ Argumenta ad 
+            <lb ed="#V" n="121"/>partem aliam nihil plus coneludunt: nisi quod non semper tantum vale: 
+            <lb ed="#V" n="122"/>actus exterior quantum agens ipsum valere intendit ad 
+            me<lb ed="#V" n="123" break="no"/>ritum. Et hoc est verum.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f115544-Dd1e417">
+          <head xml:id="kzz7yh-f115544-Hd1e419">Quaestio 3</head>
+          <head xml:id="kzz7yh-f115544-Hd1e453" type="question-title">Utrum bonitas actualis intentionis addat aliquam bonitatem ultra bonitatem ipsius habitus et virtus quod non</head>
+          <p xml:id="kzz7yh-f115544-d1e421">
+            ¶ Questio. III 
+            <lb ed="#V" n="124"/>TErtio queritur vtrum bonitas actualis 
+            inten<lb ed="#V" n="125" break="no"/>tionis addat aliquam bonitatem vltra 
+            <lb ed="#V" n="126"/>bonitatem ipsius habitus et videtur quod non <ref xml:id="kzz7yh-f115544-Rd1e464">3. Zach. 4.</ref> 
+            exe<lb ed="#V" n="127" break="no"/>quabit gratiam gratiae: ergo videtur quod secundum quantitatem habitus gratiae 
+            <lb ed="#V" n="128"/>erit quantitas glie <!--word?-->.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e434">
+            ¶ Item tantum deus acceptat opera quantum 
+            acce<lb ed="#V" n="129" break="no"/>ptat operantem: vnde interlinealis. super illud Gen. 8 respexit dominus 
+            <lb ed="#V" n="130"/>ad Abel et ad munera eius. Dicit quod oblatio placet ex 
+            mun<lb ed="#V" n="131" break="no"/>ditia offerentis: sed tantum acceptat deus hominem quantum habet de gratia 
+            <lb ed="#V" n="132"/>eius: ergo non est bonitas in homine: nisi secundum quantitatem habitus gratiae. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e445">
+            <lb ed="#V" n="133"/>¶ Item si non est bonitas gratiein vno: nisi propter aliud non 
+            <lb ed="#V" n="134"/>plus est de bonitate in duobus: quam in vno tantum. Sed in inten¬ 
+            <!--00339.xml-->
+            <pb ed="#V" n="163-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>tione interiori: non est aliqua bonitas: nisi propter habitum gratiae: 
+            loquem<lb ed="#V" n="2" break="no"/>do de bonitate remunerabili a deo: de qua hoc loquimur: quia 
+            <lb ed="#V" n="3"/>si intentio procedit non ex gratia: non est a deo remunerabilis: ergo 
+            <lb ed="#V" n="4"/>intentio actualis nullam bonitatem addit super hitum gratiae: vt videtur. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e467">
+            <lb ed="#V" n="5"/>Contra per actus voluntatis elicitos ex gratia: mereri 
+            dici<lb ed="#V" n="6" break="no"/>mur vitam eternam quod verum non esset si super habitum 
+            <lb ed="#V" n="7"/>gratiae actualis intentio nullam superadderet bonitatem.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e477">
+            ¶ Item 
+            <lb ed="#V" n="8"/>glosa super illud ad Ro. 4. ei quae operatur merces non imputatur etc id est 
+            <lb ed="#V" n="9"/>non dabitur secundum gratiam fidei tantum: sed secundum debitum operationis sue: aut 
+            <lb ed="#V" n="10"/>ergo accipitur hoc de operatione exteriori: autem interiori: si de 
+            interio<lb ed="#V" n="11" break="no"/>ri habeo propositum: si de exteriori multo fortius verum est de 
+            inte<lb ed="#V" n="12" break="no"/>riori: cum actus exterior non hebeat bonitatem moralem: nisi 
+            <lb ed="#V" n="13"/>per comparationem ad actum interiorem. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e493">
+            <lb ed="#V" n="14"/>Ad istam questionem dixerunt aliqui quod 
+            <lb ed="#V" n="15"/>actualis intentio 
+            su<lb ed="#V" n="16" break="no"/>pra bonitatem habitus gratiae: nullam superaddit bonitatem remune 
+            <lb ed="#V" n="17"/>rabilem a deo quantum ad principium essentiale: vnde si moriantur duo 
+            inequa<lb ed="#V" n="18" break="no"/>li hieitu gratiae: quamuis vnus ex sua gratia plurles hunisset bonas 
+            inten<lb ed="#V" n="19" break="no"/>taiones actuales quam alius equale habebunt principium essentiale quod consistit in 
+            <lb ed="#V" n="20"/>clara dei visione et perfecta eius finitione. Hoc enim praemium 
+            mensura<lb ed="#V" n="21" break="no"/>ri dicunt secundum hitus gratiae quantitatem: quia tamen valet quantum ad habitus gratiae 
+            <lb ed="#V" n="22"/>radicationem et conseruationem: et disponit ad eius augmtationem: 
+            <lb ed="#V" n="23"/>ideo ex consiti valere dicitur ad praemium substantiale: superaddit etiam aliquam 
+            bo<lb ed="#V" n="24" break="no"/>nitatem per comparatione ad praemium accidentale de quo fiet 
+            memn<lb ed="#V" n="25" break="no"/>tio in sequenti quaestione
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e522">
+            ¶ Sed contra hanc opinionem potest argui per 
+            <lb ed="#V" n="26"/>Ber. libro de libero arti non multum ante finem dicentem sola nempe 
+            inter<lb ed="#V" n="27" break="no"/>dum bona voluntas sufficit: cetera non prosunt vbi sola defuerit: 
+            <lb ed="#V" n="28"/>non prosunt: dixerim: sed agenti non cernenti. Ualet itaque 
+            inten<lb ed="#V" n="29" break="no"/>tio ad meritum: actio ad exemplum.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e533">
+            ¶ Preterea quasi in fine 
+            eius<lb ed="#V" n="30" break="no"/>dem libro dicit quod ad promerendum coronam deus facit hominem 
+            <lb ed="#V" n="31"/>coadiutorem: cum facit volentem: hoc est sue voluntati 
+            consentien<lb ed="#V" n="32" break="no"/>tem: itaque voluntas in auxilium: auxilium reputatur in meritum: hoc 
+            <lb ed="#V" n="33"/>planum est quod accipit voluntatem pro actu voluntatis: ergo actus 
+            vo<lb ed="#V" n="34" break="no"/>luntatis interior superaddit aliquam rationem merendi coronam. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e546">
+            <lb ed="#V" n="35"/>¶ Preterea actus est finis ipsius habitus et nobilior eo: vnde et 
+            <lb ed="#V" n="36"/>habitus glalie ad actum glurie ordinatur: signo aliquid de praemio 
+            essen<lb ed="#V" n="37" break="no"/>tiali respondeat ipsi hitui gratiae: videtur etiam quod respondeat aliquid de praemio 
+            <lb ed="#V" n="38"/>essentiali ipsi intentioni interiori per gratiam elicite: irrationabile enim 
+            <lb ed="#V" n="39"/>videretur quod quantum ad praemium essentiale remuneraretur homo 
+            pro<lb ed="#V" n="40" break="no"/>hitu gratiae et non pro voluntatis actibus interioribus ex gratia 
+            elici<lb ed="#V" n="41" break="no"/>tis ad quos gratiae habitus ordinatur.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e564">
+            ¶ Ion mihi videtur: sine 
+            praeiudi<lb ed="#V" n="42" break="no"/>cio dicendum: quod actualis intentio elicita a voluntate per gratiam 
+            ali<lb ed="#V" n="43" break="no"/>quam bonitatem remunerabilem a deo quantum ad praemium 
+            essen<lb ed="#V" n="44" break="no"/>tiale superaddit habitui gratie. Ita quod praemium essentiale respondet 
+            <lb ed="#V" n="45"/>ipsi habitui gratiae: et actibus voluntatis interioribus ex ipso 
+            hitu<lb ed="#V" n="46" break="no"/>elicitis: propter enim actus tales datur anime post expletionem poenitentie: 
+            ma<lb ed="#V" n="47" break="no"/>ior habitus luminis glurie: et maius augmentum habitus 
+            charita<lb ed="#V" n="48" break="no"/>tis: quam si cum solo habitum gratiae: sine praedictis actibus a corpore 
+            re<lb ed="#V" n="49" break="no"/>cessisset: et ex conseqenti sequitur quod deum clarius videt et perfectius 
+            <lb ed="#V" n="50"/>eo fruitur quam si praedictos actus per habitum sue gratiae non elicisset. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e587">
+            <lb ed="#V" n="51"/>Ad primum in oppositum dicendum: quod in illa auctoritate: 
+            <lb ed="#V" n="52"/>nomine gratiae comprehenditur et ipse 
+            habi<lb ed="#V" n="53" break="no"/>tus et boni interiores voluntatis actus: qui ex gratia eliciuntur. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e596">
+            <lb ed="#V" n="54"/>¶ Ad secundum cum dicitur: quod oblatio placet propter munditiam 
+            offe<lb ed="#V" n="55" break="no"/>rentis etc. dico quod verum est: non tamen ex hoc sequitur quod oblatio 
+            in<lb ed="#V" n="56" break="no"/>teriorum actuum voluntatis ex illa habituali munditia 
+            eli<lb ed="#V" n="57" break="no"/>citorum non placeat: quandam enim bonitatem habent quam ex 
+            habitua<lb ed="#V" n="58" break="no"/>li munditia trahunt: qui tamen non est illa eadem in nuon quae est in 
+            <lb ed="#V" n="59"/>habituali munditia: sicut rami et fructus aliquam bonitatem 
+            <lb ed="#V" n="60"/>habent quae non est illa eadem in nuon qui est actu in radice: eam tamen 
+            <lb ed="#V" n="61"/>ex radice traxerunt
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e616">
+            ¶ Ad 3m dicendum: quod non esse bonitatem in 
+            <lb ed="#V" n="62"/>vno: nisi propter aliud dupliciter potest intelligi: vno modo ita quod 
+            boni<lb ed="#V" n="63" break="no"/>tas compositi ex duobus non sit: nisi per vnum formaliter: vel 
+            actua<lb ed="#V" n="64" break="no"/>liter: et sic propositio potest intelligi vera: alio modo ita quod in vno non 
+            <lb ed="#V" n="65"/>sit bonitas: nisi propter aliud originaliter: vel virtualiter: et sic 
+            ma<lb ed="#V" n="66" break="no"/>ior propotio veritatem non habet. Non enim est bonitas in ramis: 
+            <lb ed="#V" n="67"/>nisi propter radicem virtualiter et originaliter: tamen formaliter et actualiter 
+            <lb ed="#V" n="68"/>est aliqua bonitas in ramis quae non est actualiter et formaliter in ra¬ 
+            <!--00339.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>dice quamuis in ea praefuerit in virtate. Plus autem valet 
+            boni<lb ed="#V" n="70" break="no"/>tas secundum quod est in actu: quam secundum quod est in potentia. Simili modo 
+            <lb ed="#V" n="71"/>potest dici de actibus voluntatis interioribus et gratuitis per 
+            com<lb ed="#V" n="72" break="no"/>parationem ad suam radicem quae est hitus gratie.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f115544-Dd1e648">
+          <head xml:id="kzz7yh-f115544-Hd1e650">Quaestio 4</head>
+          <head xml:id="kzz7yh-f115544-Hd1e693" type="question-title">Utrum ultra meritum bone intentionis aliquod meritum addat exterior actus</head>
+          <p xml:id="kzz7yh-f115544-d1e652">
+            ¶ Quaestio IIII. 
+            <lb ed="#V" n="73"/>QUarto queritur vtrum vltra 
+            me<lb ed="#V" n="74" break="no"/>ritum bone 
+            in<lb ed="#V" n="75" break="no"/>tentionis aliquod meritum addat exterior actus. Et 
+            <lb ed="#V" n="76"/>videtur quod non: quia aliter dans maiorem elemosynam 
+            <lb ed="#V" n="77"/>magis meretur: quam ille qui dat minorem: sed hoc non est semper verum. 
+            <lb ed="#V" n="78"/>Unde dicit Saluator Matth. 12. de paupere vidua que misit in 
+            <lb ed="#V" n="79"/>gazophylatium duo minuta: quoniam vidua: et pauper plus omnibus 
+            <lb ed="#V" n="80"/>misit qui miserunt in:gazophylatium.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e672">
+            ¶ Item de beatio 
+            Mar<lb ed="#V" n="81" break="no"/>tino creatura. O beatissima anima quam et si gladius 
+            persecutio<lb ed="#V" n="82" break="no"/>nis non abstulit: palmam tamen martyrii non amisit: ergo 
+            exte<lb ed="#V" n="83" break="no"/>rior passio martyrii nullum superaddit meritum bone 
+            volun<lb ed="#V" n="84" break="no"/>tati: ergo multo minus actus exteriores: nisi preuilegiati. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e683">
+            <lb ed="#V" n="85"/>¶ Item voluntas habendi sacramentum: si non assit facultas sufficit 
+            <lb ed="#V" n="86"/>secundum sententiam beati Aug. 4. libro de baptismo contra donatistas 
+            cir<lb ed="#V" n="87" break="no"/>ca finem. Sed hoc non esset si exterior receptio sacramenti aliquod 
+            me<lb ed="#V" n="88" break="no"/>ritum adderet super bonam intentionem interiorem: vt videtur. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e694">
+            <lb ed="#V" n="89"/>Contra <ref xml:id="kzz7yh-f115544-Rd1e743">glosa</ref> super illud <ref xml:id="kzz7yh-f115544-Rd1e745">Gal 6.</ref> tempore suo meremus non 
+            <lb ed="#V" n="90"/>deficientes dicit quod quantum seruiremus in 
+            ope<lb ed="#V" n="91" break="no"/>ribus tantum meremus in fructibus: ibi autem loqutur de exteriori 
+            ope<lb ed="#V" n="92" break="no"/>ratione: vt videtur.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e706">
+            ¶ Item quaedam sunt opera praeuilegiata: vt 
+            <lb ed="#V" n="93"/>doctrina martyrium virginitas per quae homo si habentur in opere 
+            <lb ed="#V" n="94"/>meretur aureolam: non autem si habentur sola intentione.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e713">
+            ¶ Item 
+            <lb ed="#V" n="95"/>Apost. 2. cor. 9. loquens de exteriori operatione dicit quod qui 
+            perce<lb ed="#V" n="96" break="no"/>seminat perce et metet: quod non esset verum: nisi exteriores actus 
+            <lb ed="#V" n="97"/>superadderent aliquam rationem bomoni meriti vltra intentionem interiorem. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e722">
+            <lb ed="#V" n="98"/>Respondeo quod ad praesens possumus loqui de 
+            meri<lb ed="#V" n="99" break="no"/>to dupliter scilicet vel respectu praemii 
+            acci<lb ed="#V" n="100" break="no"/>dentalis: vel respectu praemii substantialis: si primo modo tuc dico quod 
+            <lb ed="#V" n="101"/>actus exteriores al iquam rationem meriti superaddunt intentioni 
+            inte<lb ed="#V" n="102" break="no"/>riori: praemium enim accidentale est gaudium quod habent sancti de bono 
+            crea<lb ed="#V" n="103" break="no"/>to: qui autem plurles bonos actus exteriores fecerunt: ceteris 
+            pari<lb ed="#V" n="104" break="no"/>bus plus gaudent de bono creato quam alii qui pautiores 
+            <lb ed="#V" n="105"/>actus exteriores fecerunt. Hoc autem praemium duplex est quoddam 
+            <lb ed="#V" n="106"/>commune et quoddam praeuilegiatum: commune autem debetur operanti: propter opera 
+            <lb ed="#V" n="107"/>sua non rationem habentia victorie excellentis. Priuilegiatum autem 
+            <lb ed="#V" n="108"/>quod dicitur aureola est gaudium de operibus a se factis rationem habentibus 
+            vi<lb ed="#V" n="109" break="no"/>ctorie excellentis: per quod apparebit exterius quidam decor 
+            in<lb ed="#V" n="110" break="no"/>corpore qui praedictum interius gaudium declarabit exterius. Unde 
+            <lb ed="#V" n="111"/>et illud peremium dicitur principalius esse in anima: quamuis aliqua perfectio 
+            ex<lb ed="#V" n="112" break="no"/>hoc exterius redundet in corpore. Ista autem opera habentia rationem 
+            excel<lb ed="#V" n="113" break="no"/>lentis victorie: quibus debetur aureola: ad tria genera reducuntur. 
+            <lb ed="#V" n="114"/>Tres enim hebemus inimicos: carnem quae contra nos pugnat per 
+            carna<lb ed="#V" n="115" break="no"/>les delitias: quae perfecte et excellenter vincuntur per virginitatem. 
+            <lb ed="#V" n="116"/>Mundum quae contra nos pugnat per tyranicas violentias quae perfecte 
+            <lb ed="#V" n="117"/>et excellenter vincuntur per martyrium. Diabolum qui pugnat 
+            <lb ed="#V" n="118"/>contra nos per fallaces fraudulentias: quae perfecte et excellenter 
+            vin<lb ed="#V" n="119" break="no"/>cuntur per puram doctrinam fidei: et morum quae doctor non tantum 
+            de<lb ed="#V" n="120" break="no"/>prehendit Diabolicas fraudulentias. Sed alios docendo facit 
+            <lb ed="#V" n="121"/>quantum in se est: vt et alii eas deprehendant: et ideo triplex est 
+            aureo<lb ed="#V" n="122" break="no"/>la scilicet virginum Martyrum et doctorum. Si autem loquamur de 
+            me<lb ed="#V" n="123" break="no"/>rito respectum praemii substantialis. Sic videtur quod actus exteriores: vel 
+            opera<lb ed="#V" n="124" break="no"/>non addunt aliquam rationem meriti: vltra bonum actum voluntatis 
+            <lb ed="#V" n="125"/>interiorem: nisi dispositiue: inquantum scilicet elemosyne date 
+            mltipli<lb ed="#V" n="126" break="no"/>cant aptode deum intercessores pro dante. Propter quod dicitur Thob. 
+            <lb ed="#V" n="127"/>12. quod elemosyna a morte liberat: et ipsa est qui purgat peccata: 
+            <lb ed="#V" n="128"/>et facit inuenire vitam erernam: et per sapientem dicitur puer. 13 quod 
+            redem<lb ed="#V" n="129" break="no"/>ptio anime diuitis diuitie eius: et imquantum actus exteriores excitant 
+            <lb ed="#V" n="130"/>actum voluntatis interiorem ad bonum: et inquantum mediante 
+            excita<lb ed="#V" n="131" break="no"/>tione actuum interiorum valetium ad habitus interiores gratiae 
+            <lb ed="#V" n="132"/>radicationem et conseruationem: cui habitui et interioribus 
+            <lb ed="#V" n="133"/>actibus eius debetur premium substantiale. 
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e803">
+            <lb ed="#V" n="134"/>Ad primum dicendum: quod dans maiorem elemosynam 
+            <lb ed="#V" n="135"/>supposita equalitate in habitu et actu 
+            <lb ed="#V" n="136"/>interiori plus meretur quantum ad praemium accidentale: et quantum ad praes<pb ed="#V" n="163-v"/><cb ed="#P" n="a"/><lb ed="#V" n="1" break="no"/>mium 
+            substantiale dispositiue modo praedicto. Sed quando pauper ex maiori 
+            <lb ed="#V" n="2"/>hitum gratiae: vel ex intensiori motu intentionis gratuite dat peruam 
+            <lb ed="#V" n="3"/>elemosynam et diues ex minori hbientu gratiae: et minori deuotione 
+            <lb ed="#V" n="4"/>interioris actus voluntatis dat magnam elemosynam: tunc dico 
+            <lb ed="#V" n="5"/>simpliciter omnibus pensatis quod magis meretur ille pauper quam ille 
+            di<lb ed="#V" n="6" break="no"/>ues: et sic fuit in illa vidua.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e832">
+            ¶ Ad 2m dicendum: quod illud verbum 
+            <lb ed="#V" n="7"/>intelligitur de palma substantiali quae aurea dicitur. Sicut enim in linea 
+            circu<lb ed="#V" n="8" break="no"/>lari: principium fini coniungitur et econuerso: et propter eius perfectionem quod sibi 
+            <lb ed="#V" n="9"/>additur accidentale est: ita per palmam substantialem creatura rationalis: ita 
+            <lb ed="#V" n="10"/>perfecte coniungitur suo princtia per cognitionem et amorem quod omne praemium 
+            <lb ed="#V" n="11"/>aliud isti superadditum accidentale est: ad quod signandu praemium 
+            acci<lb ed="#V" n="12" break="no"/>dentale praieuilegiatum aureola dicitur quod est diminutiuum auree: hoc 
+            <lb ed="#V" n="13"/>autem duo praemia signata fuerunt Exo. 25. vbi dicitur facies illi labium 
+            <lb ed="#V" n="14"/>aureum per circuitum: et ipsi labio coronam in interrasilem: altera. 4: 
+            <lb ed="#V" n="15"/>digitis: et super illam alteram coronam aureolam
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e854">
+            ¶ Ad 3m dicendum: quod 
+            <lb ed="#V" n="16"/>de lege communi sacramentum desideratum et hitum: plus confert est ad 
+            sba<lb ed="#V" n="17" break="no"/>le praemium quam desideratum non hitum ceteris paribus. Non sic enim 
+            <lb ed="#V" n="18"/>dicendum est de sacramento: sicut de aliis actibus exterioribus: vt deo 
+            <lb ed="#V" n="19"/>dante declarabitur in quarto: tamen si haberi non potest in effectu: non propter 
+            <lb ed="#V" n="20"/>hoc perdit a dultus vitam eternam: qui sibimet subuenit ipsum 
+            desi<lb ed="#V" n="21" break="no"/>derando in affectu. Nec plus voluit dicere <ref xml:id="kzz7yh-f115544-Rd1e914">Aug. in loco 
+              <lb ed="#V" n="22"/>praeallegato</ref>.
+          </p>
+          <p xml:id="kzz7yh-f115544-d1e873">
+            ¶ Ad argumenta ad partem aliam: patet quid 
+            di<lb ed="#V" n="23" break="no"/>ci debeat per illa que in corpore quaestionis dicta sunt. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

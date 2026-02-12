@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="163-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k118515"><!-- l4d35cl -->
-            <head xml:id="kzz7yh-k118515-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-k118515-d1e103">
-               <lb ed="#V" n="93"/>CIrca litteram imihit iniquus est 
-      <lb ed="#V" n="94"/>etc l. hyperbolice 
-      lo<lb ed="#V" n="95" break="no"/>quitur ad ostendendum magnitudine offense vel. 
-      Nih<lb ed="#V" n="96" break="no"/>hil inquius id est magis contra rationem iustitie quam 
-      <lb ed="#V" n="97"/>quando accusator reus est in eo in quo vult alium 
-      condemna<lb ed="#V" n="98" break="no"/>re. Cum tanto grauius eos puniri oportuerit. hoc 
-      intelli<lb ed="#V" n="99" break="no"/>gendum est quantum ad illud quod spectat ad peccatum 
-      lu<lb ed="#V" n="100" break="no"/>xurie: sed quantum ad iustitiam qua addit adulterium siu per 
-      <lb ed="#V" n="101"/>fornicationem: et quantum ad matrimonii lenonem plus 
-      vide<lb ed="#V" n="102" break="no"/>tur mulier peccare propter rationes in questionibus dictas. 
-      <lb ed="#V" n="103"/>Iniqus est retinere meretricem scilicet que penitere non vult. 
-   </p>
-            <p xml:id="kzz7yh-k118515-d1e129">
-               <lb ed="#V" n="104"/>¶ Patronus est turpitudinis qui celat crimen vxoris 
-      di<lb ed="#V" n="105" break="no"/>co quod verum est si celat crimen vxoris in preiudicium 
-      correctio<lb ed="#V" n="106" break="no"/>nis: non tamen si celat in supportationem infirmitatis. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="163-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k118515"><!-- l4d35cl -->
+        <head xml:id="kzz7yh-k118515-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-k118515-d1e103">
+          <lb ed="#V" n="93"/>CIrca litteram imihit iniquus est 
+          <lb ed="#V" n="94"/>etc l. hyperbolice 
+          lo<lb ed="#V" n="95" break="no"/>quitur ad ostendendum magnitudine offense vel. 
+          Nih<lb ed="#V" n="96" break="no"/>hil inquius id est magis contra rationem iustitie quam 
+          <lb ed="#V" n="97"/>quando accusator reus est in eo in quo vult alium 
+          condemna<lb ed="#V" n="98" break="no"/>re. Cum tanto grauius eos puniri oportuerit. hoc 
+          intelli<lb ed="#V" n="99" break="no"/>gendum est quantum ad illud quod spectat ad peccatum 
+          lu<lb ed="#V" n="100" break="no"/>xurie: sed quantum ad iustitiam qua addit adulterium siu per 
+          <lb ed="#V" n="101"/>fornicationem: et quantum ad matrimonii lenonem plus 
+          vide<lb ed="#V" n="102" break="no"/>tur mulier peccare propter rationes in questionibus dictas. 
+          <lb ed="#V" n="103"/>Iniqus est retinere meretricem scilicet que penitere non vult. 
+        </p>
+        <p xml:id="kzz7yh-k118515-d1e129">
+          <lb ed="#V" n="104"/>¶ Patronus est turpitudinis qui celat crimen vxoris 
+          di<lb ed="#V" n="105" break="no"/>co quod verum est si celat crimen vxoris in preiudicium 
+          correctio<lb ed="#V" n="106" break="no"/>nis: non tamen si celat in supportationem infirmitatis. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

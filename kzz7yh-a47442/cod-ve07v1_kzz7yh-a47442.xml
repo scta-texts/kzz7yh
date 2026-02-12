@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="70-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a47442"><!-- l1d20cl -->
-            <head xml:id="kzz7yh-a47442-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-a47442-d1e103">
-               <lb ed="#V" n="77"/>CIrca litteram (non potest qu atxebie in equauis 
-      <lb ed="#V" n="78"/>esse ei qui deditl. quod intelligendum 
-      <lb ed="#V" n="79"/>est de datione: et acceptione que sunt in diuinis: 
-      <lb ed="#V" n="80"/>quia ille qui accepitur: accebitl eandem dignitatem 
-      <lb ed="#V" n="81"/>in numelto que est in dantle
-   </p>
-            <p xml:id="kzz7yh-a47442-d1e116">
-      ¶ Si autem non potuit 
-      vbi<lb ed="#V" n="82" break="no"/>est omnipotentiam dei dris.
-   </p>
-            <p xml:id="kzz7yh-a47442-d1e121">
-      ¶ Contum filius non potest 
-      gi<lb ed="#V" n="83" break="no"/>gnerem filium sibi equalem: quia generare non potest: et tamen est omnipoten. 
-   </p>
-            <p xml:id="kzz7yh-a47442-d1e126">
-               <lb ed="#V" n="84"/>¶ Respondeo quad non est simile: quia soc posse in persona datris non 
-      <lb ed="#V" n="85"/>esti posse et ideo si hoc non posset: non poset quicquid 
-      possen<lb ed="#V" n="86" break="no"/>est posse. In dersona vertio fii hoc postse non esset ponsse: et 
-      <lb ed="#V" n="87"/>ides quamuis hoc non possit non propter hoc debet 
-      dici<lb ed="#V" n="88" break="no"/>minus potens. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="70-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a47442"><!-- l1d20cl -->
+        <head xml:id="kzz7yh-a47442-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-a47442-d1e103">
+          <lb ed="#V" n="77"/>CIrca litteram (non potest qu atxebie in equauis 
+          <lb ed="#V" n="78"/>esse ei qui deditl. quod intelligendum 
+          <lb ed="#V" n="79"/>est de datione: et acceptione que sunt in diuinis: 
+          <lb ed="#V" n="80"/>quia ille qui accepitur: accebitl eandem dignitatem 
+          <lb ed="#V" n="81"/>in numelto que est in dantle
+        </p>
+        <p xml:id="kzz7yh-a47442-d1e116">
+          ¶ Si autem non potuit 
+          vbi<lb ed="#V" n="82" break="no"/>est omnipotentiam dei dris.
+        </p>
+        <p xml:id="kzz7yh-a47442-d1e121">
+          ¶ Contum filius non potest 
+          gi<lb ed="#V" n="83" break="no"/>gnerem filium sibi equalem: quia generare non potest: et tamen est omnipoten. 
+        </p>
+        <p xml:id="kzz7yh-a47442-d1e126">
+          <lb ed="#V" n="84"/>¶ Respondeo quad non est simile: quia soc posse in persona datris non 
+          <lb ed="#V" n="85"/>esti posse et ideo si hoc non posset: non poset quicquid 
+          possen<lb ed="#V" n="86" break="no"/>est posse. In dersona vertio fii hoc postse non esset ponsse: et 
+          <lb ed="#V" n="87"/>ides quamuis hoc non possit non propter hoc debet 
+          dici<lb ed="#V" n="88" break="no"/>minus potens. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

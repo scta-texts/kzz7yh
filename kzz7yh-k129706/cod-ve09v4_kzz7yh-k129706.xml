@@ -1,457 +1,457 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="178-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="178-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k129706"><!-- l4d40a1 -->
+        <head xml:id="kzz7yh-k129706-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-k129706-d1e103">
+          Distin. 
+        </p>
+        <p xml:id="kzz7yh-k129706-d1e105">
+          <lb ed="#V" n="120"/>CIrca hanc distinctionem queruntur 
+          <lb ed="#V" n="121"/>sex.
+        </p>
+        <p xml:id="kzz7yh-k129706-d1e112">
+          ¶ Primo vtrum 
+          <lb ed="#V" n="122"/>consanguinitas sit aliquod vinculum.
+        </p>
+        <p xml:id="kzz7yh-k129706-d1e117">
+          ¶ Secundo vtrum 
+          <lb ed="#V" n="123"/>prestet matrimonio impedimentum.
+        </p>
+        <p xml:id="kzz7yh-k129706-d1e123">
+          ¶ 
+          Tertio<lb ed="#V" n="124" break="no"/>vtrum impediat matrimonium vltra gradum quartum. 
+        </p>
+        <p xml:id="kzz7yh-k129706-d1e128">
+          <lb ed="#V" n="125"/>¶ Quarto vtrum aliquis possit tantum distare a stipite quod 
+          <lb ed="#V" n="126"/>posset licite contrahere cum eo.
+        </p>
+        <p xml:id="kzz7yh-k129706-d1e135">
+          ¶ Quinto vtrum fideles contrahen¬ 
+          <!--00389.xml-->
+          <pb ed="#V" n="179-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>tes in gradu prohibito separandi sint postquam eonuertuntur ad 
+          <lb ed="#V" n="2"/>fidem.
+        </p>
+        <p xml:id="kzz7yh-k129706-d1e148">
+          ¶ Sexto vtrum illi qui ante concilium generale 
+          in<lb ed="#V" n="3" break="no"/>quo restricta suit linea consanguinitatis vsque ad quartum 
+          gra<lb ed="#V" n="4" break="no"/>dum contraxerunt in gradum quanto vel sexto vel septimo potuerunt 
+          <lb ed="#V" n="5"/>post praedictum concilium in suo coniugio remanere. 
+        </p>
+        <div xml:id="kzz7yh-k129706-Dd1e157">
+          <head xml:id="kzz7yh-k129706-Hd1e159">Quaestio 1</head>
+          <p xml:id="kzz7yh-k129706-d1e161">
+            Quaestio I
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e163">
+            <lb ed="#V" n="6"/>PRimo ostendo quod consanguinitas non sit 
+            <lb ed="#V" n="7"/>aliquod vinculum. ratione anime non est 
+            <lb ed="#V" n="8"/>aliquod vinculum consanguinitatis inter homines: quia 
+            <lb ed="#V" n="9"/>omnes anime rationales producuntur in esse per creationem: 
+            <lb ed="#V" n="10"/>nec ratione corporis: quia in his que respiciunt corpus communicant 
+            <lb ed="#V" n="11"/>homines cum brutis inter que non est vinculum aliquod 
+            consan<lb ed="#V" n="12" break="no"/>guinitatis. ergo inter homines non est aliquod consanguinitatis 
+            <lb ed="#V" n="13"/>vinculum.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e183">
+            ¶ Item aliqui homines non magis communicant 
+            inter<lb ed="#V" n="14" break="no"/>se in essentia speciei quam alii homines: nec in essentia numerali: 
+            <lb ed="#V" n="15"/>accidentaliter tamen quandoque colligantur inter se non descendentes ab 
+            <lb ed="#V" n="16"/>eodem stipite quam aliqui qui ab eodem stipite descendunt. 
+            <lb ed="#V" n="17"/>ergo inter descendentes ab eodem stipite non est 
+            vincu<lb ed="#V" n="18" break="no"/>lum consanguinitatis.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e196">
+            ¶ Item si vinculum consanguinitatis 
+            <lb ed="#V" n="19"/>esset inter homines per eorum descensum ab eodem stipite 
+            <lb ed="#V" n="20"/>per carnalem propagationem: tunc tantum se extenderet 
+            consan<lb ed="#V" n="21" break="no"/>guinitatis vinculum quantum ex se extendit carnalis 
+            pro<lb ed="#V" n="22" break="no"/>pagatio: sed homines omnes christo excepto per carnalem 
+            propaga<lb ed="#V" n="23" break="no"/>tionem descenderunt ab Adam: ergo inter homines omnes 
+            <lb ed="#V" n="24"/>esset consanguinitatis vinculum: quod falsum est. 
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e213">
+            <lb ed="#V" n="25"/>Contra amicitia est vinculum inter homines: sed philosophus. 8. 
+            <lb ed="#V" n="26"/>Ethi. c. 12. Inter alias species amicitie ponit 
+            <lb ed="#V" n="27"/>amicitiam consanguineorum. ergo aliquod vinculum 
+            consangui<lb ed="#V" n="28" break="no"/>nitatis est inter homines.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e224">
+            ¶ Item experientia docet illos 
+            <lb ed="#V" n="29"/>qui ab eodem stipite descenderunt magis colligari inter 
+            <lb ed="#V" n="30"/>se affectione naturali quam alios: ceteris paribus. ergo 
+            experien<lb ed="#V" n="31" break="no"/>tia docet inter homines esse aliquod vinculum consanguinitatis. 
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e233">
+            <lb ed="#V" n="32"/>Respondeo quod sicut dicit philosophus. 8. Ethi. ca. 12. 
+            <lb ed="#V" n="33"/>Omnis amicitia in aliqua communicatione 
+            <lb ed="#V" n="34"/>consistit et omnis communicatio alicuius amicitie causa est ita quod secundum 
+            <lb ed="#V" n="35"/>differnias communicationum sunt amicitiarum differntie secundum philosophum. vbi prium 
+            <lb ed="#V" n="36"/>Consanguinitas autem est quedam naturalis communicatio in 
+            sangui<lb ed="#V" n="37" break="no"/>ne. quod ideo dicitur: quia sanguis vltima digestione digestus est materia 
+            <lb ed="#V" n="38"/>proxima seminis: consanguinitas ergo est inter consanguineos 
+            <lb ed="#V" n="39"/>cuiusdam naturalis amicitie causa: et quia naturalis amicitia est 
+            forma<lb ed="#V" n="40" break="no"/>le vinculum et naturale illorum quorum est: ideo dicitur predicatione 
+            <lb ed="#V" n="41"/>causali quod consanguinitas est vinculum id est vinculi causa: sed quia 
+            con<lb ed="#V" n="42" break="no"/>sanguinitas non causat predictam naturalem amicitiam nisi 
+            <lb ed="#V" n="43"/>mediante cognitione communicationis in sanguine: que 
+            cogni<lb ed="#V" n="44" break="no"/>tio insufficienter inuenitur nisi in hominibus: quamuis in brutis 
+            <lb ed="#V" n="45"/>multis sit imperfecte aliqua cognitio predicte communicationis 
+            <lb ed="#V" n="46"/>inter parentem et immediatam eius prolem. vnde et 
+            vide<lb ed="#V" n="47" break="no"/>mus ipsos habere aliquam similitudinem naturalis amicitie 
+            adin<lb ed="#V" n="48" break="no"/>uicem ideo proprie loquendo non est vinculum consanguinitatis 
+            <lb ed="#V" n="49"/>nisi inter homines: quauis inter aliqua bruta sit secundum quid. 
+            <lb ed="#V" n="50"/>Ex dictis patet solutio ad primum argumentum in 
+            oppo<lb ed="#V" n="51" break="no"/>situm.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e279">
+            ¶ Ad secundum dicendum quod quamuis 
+            consan<lb ed="#V" n="52" break="no"/>guinei non magis communicent inter se et in essentia speciei quam 
+            <lb ed="#V" n="53"/>alii: nec est in essentia numerali. tamen magis conueniut in 
+            vir<lb ed="#V" n="54" break="no"/>tute naturali: sed non est necessarium quod magis communicent in virtute 
+            <lb ed="#V" n="55"/>naturali absolute: quia quandoque aliqui non consanguinei similiores sunt 
+            <lb ed="#V" n="56"/>in naturali virtute absolute quam aliqui consanguinei: semper tamen 
+            con<lb ed="#V" n="57" break="no"/>sanguinei magis conueniunt in virtute naturali a virtute 
+            stipi<lb ed="#V" n="58" break="no"/>tis deriuata.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e297">
+            ¶ Ad tertium dicunt aliqui quod tunc deficit 
+            <lb ed="#V" n="59"/>consanguinitas quando descendentes ab eodem stipite desinunt 
+            <lb ed="#V" n="60"/>esse similes in naturali virtute suo stipiti: quod dicunt necessarium fieri: 
+            <lb ed="#V" n="61"/>quia illa assimilatio paulatiue vadit diminuendo. quod patet: quia 
+            <lb ed="#V" n="62"/>naturalis virtus vt est deriuata a stipite non est ita fortis sicut 
+            <lb ed="#V" n="63"/>in stipite: sicut nec in ramis arboris est naturalis virtus quam 
+            <lb ed="#V" n="64"/>recipiunt a radice et stipite ita fortis sicut in radice et 
+            sti<lb ed="#V" n="65" break="no"/>pite inquantum eam a stepite accipiunt: quia contingere potest ex 
+            <lb ed="#V" n="66"/>alia causa quod aliqua naturalis virtus fortior sit in ramis vel 
+            fru<lb ed="#V" n="67" break="no"/>ctu quam in stipite vel radice: sicut quamuis in filio potest esse 
+            for<lb ed="#V" n="68" break="no"/>tior naturalis virtus quam in patre: hoc tamen non ex naturali virtute patris 
+            <!--00389.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k129706"><!-- l4d40a1 -->
-            <head xml:id="kzz7yh-k129706-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-k129706-d1e103">
-    Distin. 
-   </p>
-            <p xml:id="kzz7yh-k129706-d1e105">
-               <lb ed="#V" n="120"/>CIrca hanc distinctionem queruntur 
-      <lb ed="#V" n="121"/>sex.
-   </p>
-            <p xml:id="kzz7yh-k129706-d1e112">
-      ¶ Primo vtrum 
-      <lb ed="#V" n="122"/>consanguinitas sit aliquod vinculum.
-   </p>
-            <p xml:id="kzz7yh-k129706-d1e117">
-      ¶ Secundo vtrum 
-      <lb ed="#V" n="123"/>prestet matrimonio impedimentum.
-   </p>
-            <p xml:id="kzz7yh-k129706-d1e123">
-      ¶ 
-      Tertio<lb ed="#V" n="124" break="no"/>vtrum impediat matrimonium vltra gradum quartum. 
-   </p>
-            <p xml:id="kzz7yh-k129706-d1e128">
-               <lb ed="#V" n="125"/>¶ Quarto vtrum aliquis possit tantum distare a stipite quod 
-      <lb ed="#V" n="126"/>posset licite contrahere cum eo.
-   </p>
-            <p xml:id="kzz7yh-k129706-d1e135">
-      ¶ Quinto vtrum fideles contrahen¬ 
-      <!--00389.xml-->
-      <pb ed="#V" n="179-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>tes in gradu prohibito separandi sint postquam eonuertuntur ad 
-      <lb ed="#V" n="2"/>fidem.
-   </p>
-            <p xml:id="kzz7yh-k129706-d1e148">
-      ¶ Sexto vtrum illi qui ante concilium generale 
-      in<lb ed="#V" n="3" break="no"/>quo restricta suit linea consanguinitatis vsque ad quartum 
-      gra<lb ed="#V" n="4" break="no"/>dum contraxerunt in gradum quanto vel sexto vel septimo potuerunt 
-      <lb ed="#V" n="5"/>post praedictum concilium in suo coniugio remanere. 
-   </p>
-            <div xml:id="kzz7yh-k129706-Dd1e157">
-               <head xml:id="kzz7yh-k129706-Hd1e159">Quaestio 1</head>
-               <p xml:id="kzz7yh-k129706-d1e161">
-      Quaestio I
-    </p>
-               <p xml:id="kzz7yh-k129706-d1e163">
-                  <lb ed="#V" n="6"/>PRimo ostendo quod consanguinitas non sit 
-      <lb ed="#V" n="7"/>aliquod vinculum. ratione anime non est 
-      <lb ed="#V" n="8"/>aliquod vinculum consanguinitatis inter homines: quia 
-      <lb ed="#V" n="9"/>omnes anime rationales producuntur in esse per creationem: 
-      <lb ed="#V" n="10"/>nec ratione corporis: quia in his que respiciunt corpus communicant 
-      <lb ed="#V" n="11"/>homines cum brutis inter que non est vinculum aliquod 
-      consan<lb ed="#V" n="12" break="no"/>guinitatis. ergo inter homines non est aliquod consanguinitatis 
-      <lb ed="#V" n="13"/>vinculum.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e183">
-      ¶ Item aliqui homines non magis communicant 
-      inter<lb ed="#V" n="14" break="no"/>se in essentia speciei quam alii homines: nec in essentia numerali: 
-      <lb ed="#V" n="15"/>accidentaliter tamen quandoque colligantur inter se non descendentes ab 
-      <lb ed="#V" n="16"/>eodem stipite quam aliqui qui ab eodem stipite descendunt. 
-      <lb ed="#V" n="17"/>ergo inter descendentes ab eodem stipite non est 
-      vincu<lb ed="#V" n="18" break="no"/>lum consanguinitatis.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e196">
-      ¶ Item si vinculum consanguinitatis 
-      <lb ed="#V" n="19"/>esset inter homines per eorum descensum ab eodem stipite 
-      <lb ed="#V" n="20"/>per carnalem propagationem: tunc tantum se extenderet 
-      consan<lb ed="#V" n="21" break="no"/>guinitatis vinculum quantum ex se extendit carnalis 
-      pro<lb ed="#V" n="22" break="no"/>pagatio: sed homines omnes christo excepto per carnalem 
-      propaga<lb ed="#V" n="23" break="no"/>tionem descenderunt ab Adam: ergo inter homines omnes 
-      <lb ed="#V" n="24"/>esset consanguinitatis vinculum: quod falsum est. 
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e213">
-                  <lb ed="#V" n="25"/>Contra amicitia est vinculum inter homines: sed philosophus. 8. 
-      <lb ed="#V" n="26"/>Ethi. c. 12. Inter alias species amicitie ponit 
-      <lb ed="#V" n="27"/>amicitiam consanguineorum. ergo aliquod vinculum 
-      consangui<lb ed="#V" n="28" break="no"/>nitatis est inter homines.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e224">
-      ¶ Item experientia docet illos 
-      <lb ed="#V" n="29"/>qui ab eodem stipite descenderunt magis colligari inter 
-      <lb ed="#V" n="30"/>se affectione naturali quam alios: ceteris paribus. ergo 
-      experien<lb ed="#V" n="31" break="no"/>tia docet inter homines esse aliquod vinculum consanguinitatis. 
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e233">
-                  <lb ed="#V" n="32"/>Respondeo quod sicut dicit philosophus. 8. Ethi. ca. 12. 
-      <lb ed="#V" n="33"/>Omnis amicitia in aliqua communicatione 
-      <lb ed="#V" n="34"/>consistit et omnis communicatio alicuius amicitie causa est ita quod secundum 
-      <lb ed="#V" n="35"/>differnias communicationum sunt amicitiarum differntie secundum philosophum. vbi prium 
-      <lb ed="#V" n="36"/>Consanguinitas autem est quedam naturalis communicatio in 
-      sangui<lb ed="#V" n="37" break="no"/>ne. quod ideo dicitur: quia sanguis vltima digestione digestus est materia 
-      <lb ed="#V" n="38"/>proxima seminis: consanguinitas ergo est inter consanguineos 
-      <lb ed="#V" n="39"/>cuiusdam naturalis amicitie causa: et quia naturalis amicitia est 
-      forma<lb ed="#V" n="40" break="no"/>le vinculum et naturale illorum quorum est: ideo dicitur predicatione 
-      <lb ed="#V" n="41"/>causali quod consanguinitas est vinculum id est vinculi causa: sed quia 
-      con<lb ed="#V" n="42" break="no"/>sanguinitas non causat predictam naturalem amicitiam nisi 
-      <lb ed="#V" n="43"/>mediante cognitione communicationis in sanguine: que 
-      cogni<lb ed="#V" n="44" break="no"/>tio insufficienter inuenitur nisi in hominibus: quamuis in brutis 
-      <lb ed="#V" n="45"/>multis sit imperfecte aliqua cognitio predicte communicationis 
-      <lb ed="#V" n="46"/>inter parentem et immediatam eius prolem. vnde et 
-      vide<lb ed="#V" n="47" break="no"/>mus ipsos habere aliquam similitudinem naturalis amicitie 
-      adin<lb ed="#V" n="48" break="no"/>uicem ideo proprie loquendo non est vinculum consanguinitatis 
-      <lb ed="#V" n="49"/>nisi inter homines: quauis inter aliqua bruta sit secundum quid. 
-      <lb ed="#V" n="50"/>Ex dictis patet solutio ad primum argumentum in 
-      oppo<lb ed="#V" n="51" break="no"/>situm.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e279">
-      ¶ Ad secundum dicendum quod quamuis 
-      consan<lb ed="#V" n="52" break="no"/>guinei non magis communicent inter se et in essentia speciei quam 
-      <lb ed="#V" n="53"/>alii: nec est in essentia numerali. tamen magis conueniut in 
-      vir<lb ed="#V" n="54" break="no"/>tute naturali: sed non est necessarium quod magis communicent in virtute 
-      <lb ed="#V" n="55"/>naturali absolute: quia quandoque aliqui non consanguinei similiores sunt 
-      <lb ed="#V" n="56"/>in naturali virtute absolute quam aliqui consanguinei: semper tamen 
-      con<lb ed="#V" n="57" break="no"/>sanguinei magis conueniunt in virtute naturali a virtute 
-      stipi<lb ed="#V" n="58" break="no"/>tis deriuata.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e297">
-      ¶ Ad tertium dicunt aliqui quod tunc deficit 
-      <lb ed="#V" n="59"/>consanguinitas quando descendentes ab eodem stipite desinunt 
-      <lb ed="#V" n="60"/>esse similes in naturali virtute suo stipiti: quod dicunt necessarium fieri: 
-      <lb ed="#V" n="61"/>quia illa assimilatio paulatiue vadit diminuendo. quod patet: quia 
-      <lb ed="#V" n="62"/>naturalis virtus vt est deriuata a stipite non est ita fortis sicut 
-      <lb ed="#V" n="63"/>in stipite: sicut nec in ramis arboris est naturalis virtus quam 
-      <lb ed="#V" n="64"/>recipiunt a radice et stipite ita fortis sicut in radice et 
-      sti<lb ed="#V" n="65" break="no"/>pite inquantum eam a stepite accipiunt: quia contingere potest ex 
-      <lb ed="#V" n="66"/>alia causa quod aliqua naturalis virtus fortior sit in ramis vel 
-      fru<lb ed="#V" n="67" break="no"/>ctu quam in stipite vel radice: sicut quamuis in filio potest esse 
-      for<lb ed="#V" n="68" break="no"/>tior naturalis virtus quam in patre: hoc tamen non ex naturali virtute patris 
-      <!--00389.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>tantum: sed ex aliqua alia cooperante causa.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e328">
-      ¶ Sed contra si 
-      continge<lb ed="#V" n="70" break="no"/>ret quod vnus pater generaret filios plures qui non essent patri 
-      si<lb ed="#V" n="71" break="no"/>miliores in quacumque naturali virtute quam aliqui alii homines: 
-      ad<lb ed="#V" n="72" break="no"/>huc esset consanguinitas inter eos per hoc quod communicarent in 
-      <lb ed="#V" n="73"/>natura ab eodem stipite per virtutem naturalem propagata. 
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e340">
-                  <lb ed="#V" n="74"/>¶ Preterea. cum quanto virtus generantis fortior est 
-      tan<lb ed="#V" n="75" break="no"/>to per eam possit ad plures protendi naturalis assimilatio 
-      vir<lb ed="#V" n="76" break="no"/>tuti naturali stipitis contingere posset quod aliqui ab vno stipite 
-      <lb ed="#V" n="77"/>descendentes magis essent consanguinei inter se quam alii 
-      in<lb ed="#V" n="78" break="no"/>ter se ab alio stipite descendentes tam istis quam illis 
-      existenti<lb ed="#V" n="79" break="no"/>bus in eodem gradu ad suum stipitem: quod inconueniens 
-      <lb ed="#V" n="80"/>videtur. Ideo dicunt alii quod tantum se extendit consanguinitas 
-      quan<lb ed="#V" n="81" break="no"/>tum naturalis propagatio ab eodem stipite: et quod omnes homines habent 
-      <lb ed="#V" n="82"/>in se aliquam consanguinitatem inquantum ab eodem stipite 
-      <lb ed="#V" n="83"/>per naturalem propagationem descendunt: et talis 
-      consanguini<lb ed="#V" n="84" break="no"/>tas aliquam rationem habet vinculi: inquantum inter homines: qui 
-      <lb ed="#V" n="85"/>hunc descensum efficaciter recogitant: et in quibus non est 
-      <lb ed="#V" n="86"/>naturalis affectio per excessiuam malitiam deprauata: causat 
-      <lb ed="#V" n="87"/>aliquod vinculum amicitie naturalis quamuis debiliter. vnde 
-      Au<lb ed="#V" n="88" break="no"/>gu. 12 de ciui. ca. 21. Dicit quod ideo deus noluit omnes homines 
-      <lb ed="#V" n="89"/>ab vno descendere vt eo modo vehementius 
-      commenda<lb ed="#V" n="90" break="no"/>retur homini ipsius societatis vnitas vinculumque concordie: et 
-      <lb ed="#V" n="91"/>non tantum inter se nature similitudine: verum est cognationis affectu 
-      <lb ed="#V" n="92"/>homines necterentur: non dicitur ergo proprie consanguinitas 
-      defice<lb ed="#V" n="93" break="no"/>re: sed pro tanto deficere dicitur: quia per nimiam elongationem 
-      <lb ed="#V" n="94"/>a stipite naturalis amicitia fere totaliter euanescit: quam 
-      matrimo<lb ed="#V" n="95" break="no"/>niale vinculum aliquo modo reuocat fugientem. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k129706-Dd1e391">
-               <head xml:id="kzz7yh-k129706-Hd1e393">Quaestio 2</head>
-               <p xml:id="kzz7yh-k129706-d1e395">
-      Quaestio II.
-    </p>
-               <p xml:id="kzz7yh-k129706-d1e397">
-                  <lb ed="#V" n="96"/>SEcundo quaeritur vtrum consanguinitas 
-      <lb ed="#V" n="97"/>prestet matrimonio 
-      impedimen<lb ed="#V" n="98" break="no"/>tum. Et videtur quod non: quia ligati vinculo naturalis 
-      ami<lb ed="#V" n="99" break="no"/>citie facilius quam alii in amicitia perseuerant: sed 
-      <lb ed="#V" n="100"/>inter coniuges maxime vtilis perseuerantia amicitie ergo 
-      conm<lb ed="#V" n="101" break="no"/>sangninei aptiores sunt vt matrimonialiter copulentur inter se 
-      <lb ed="#V" n="102"/>quam extranei.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e415">
-      ¶ Item non impedit matrimonium quod nulli 
-      bo<lb ed="#V" n="103" break="no"/>no matrimonii contrariatur: sed consanguinitas non conriatur alicui 
-      bo<lb ed="#V" n="104" break="no"/>no matrimonii: quia ita possunt seruare fidem sicut extranei: et ita est 
-      <lb ed="#V" n="105"/>procreare prolem. ergo consanguinitas matrimonium non 
-      im<lb ed="#V" n="106" break="no"/>pedit.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e426">
-      ¶ Item Eua immediate sumpta fuit de Adam. et tamen 
-      <lb ed="#V" n="107"/>illa propiquitas non impediuit matrimonium inter eos: ergo multo 
-      <lb ed="#V" n="108"/>fortius nulla alia carnalis propinquitas matrimonium impedit. 
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e434">
-                  <lb ed="#V" n="109"/>Contra. Leui. 18. Omnis homo ad pximam sui 
-      sangui<lb ed="#V" n="110" break="no"/>nis non accedat.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e441">
-      ¶ Item Grego. ad 
-      Au<lb ed="#V" n="111" break="no"/>gui episcopum anglorum. et habetur. 35. q. 3. Quedam lex. et recitat 
-      <lb ed="#V" n="112"/>magister in littera post medium huius di. dicit: quod siue duorum 
-      <lb ed="#V" n="113"/>ftinum germanorum siue duarum sororum filius et filia misceantur 
-      <lb ed="#V" n="114"/>experimento didicit ex tali coniugio sobolem non posse 
-      suc<lb ed="#V" n="115" break="no"/>crescere: sed illud quod impedit sobolem succedentem debet 
-      im<lb ed="#V" n="116" break="no"/>pedire matrimonium: et quia est contra vnum bonum matrimonii: 
-      <lb ed="#V" n="117"/>ergo aliqua consanguinitas matrimonium impedit. 
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e459">
-                  <lb ed="#V" n="118"/>Respondeo quod aliqua consanguinitas impedit 
-      <lb ed="#V" n="119"/>matrimonium ex dictamine iuris nature 
-      <lb ed="#V" n="120"/>aliqua ex dictamine legis diuine: aliqua per statutum 
-      eccli<lb ed="#V" n="121" break="no"/>sie. Propter dictamen legis nature impeditur matrimonium filie 
-      <lb ed="#V" n="122"/>cum patre vel filii cum matre. vnde et in lege nature dictum est: 
-      <lb ed="#V" n="123"/>vt habetur Gen. 2. relinquet homo patrem et matrem et 
-      adhe<lb ed="#V" n="124" break="no"/>rebit vxori sue. Ius enim naturale dictat maiorem reuerentiam 
-      <lb ed="#V" n="125"/>deberi parentibus quam coniugibus: et dictat non sic debere 
-      tra<lb ed="#V" n="126" break="no"/>ctari turpiter parentes sicut se contractant coniuges: et magis tamen 
-      <lb ed="#V" n="127"/>est contra ius nature matrimonium filii cum matre quam filie cum patre: 
-      <lb ed="#V" n="128"/>quia vxor debet esse viro subiecta. contra autem ius nature est vt filius 
-      <lb ed="#V" n="129"/>teneat matrem subiectam. vnde et quedam animalia bruta 
-      <lb ed="#V" n="130"/>abhorrent coire cum matre sua: quamdiu cognoscant eam 
-      <lb ed="#V" n="131"/>esse suam. matrem. quod patet per illud quod narrat philo 
-      <lb ed="#V" n="132"/>sophus de animalibus libro 9 c. 46. de camello qui cum 
-      saltas<lb ed="#V" n="133" break="no"/>set super matrem suam coopertam postquam recognouit 
-      <lb ed="#V" n="134"/>ea esse matrem suam interfecit ingeniatore. Narrat etiam 
-      <lb ed="#V" n="135"/>de equo ibidem qui cum saltasset super matrem suam et 
-      <lb ed="#V" n="136"/>recognouit eam postquam discooperiebatur fugit et proiecit 
-      <!--00390.xml-->
-      <pb ed="#V" n="179-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>se de alto et mortuus est.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e511">
-      ¶ Ex dictamine legis diuine 
-      ao<lb ed="#V" n="2" break="no"/>hibentur matrimonialiter copulari consanguinei in 
-      pri<lb ed="#V" n="3" break="no"/>mo gradu et secundo ex vna parte tantum vt patet Le 
-      <lb ed="#V" n="4"/>ui. 18 Cuius ratio est: ne si possent matrimonialiter 
-      co<lb ed="#V" n="5" break="no"/>pulari daretur incentiuum luxurie: eo quod tales persone 
-      fre<lb ed="#V" n="6" break="no"/>quenter solent in eadem domo habitare.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e524">
-      ¶ Per statutum 
-      <lb ed="#V" n="7"/>ecclesie prohibentur matrimonialiter copulari 
-      consangui<lb ed="#V" n="8" break="no"/>nei etiam in tertio et quarto gradu: quia vsque tunc 
-      con<lb ed="#V" n="9" break="no"/>sueuit inter homines satis durare amicitia propter 
-      con<lb ed="#V" n="10" break="no"/>sanguinitatis vinculum nature: sed post illum gradum 
-      con<lb ed="#V" n="11" break="no"/>cedit eas posse copulari ad amicitiam quasi fugientem 
-      re<lb ed="#V" n="12" break="no"/>uocandam: vt sic charitas inter homines dilatetur: eo quod 
-      <lb ed="#V" n="13"/>coniunx ad consanguineos sui coniugis multum afficiatur. 
-      <lb ed="#V" n="14"/>n Ad primum in oppositum dicendum quod sicut 
-      <lb ed="#V" n="15"/>vna communicatio quandoque 
-      im<lb ed="#V" n="16" break="no"/>pedit aliam ita amicitia fundata super vnam 
-      communica<lb ed="#V" n="17" break="no"/>tionem. vnde amicitia consanguinitatis magis est 
-      impe<lb ed="#V" n="18" break="no"/>ditiua quam promotiua amicitie: que debet esse inter 
-      coniu<lb ed="#V" n="19" break="no"/>ges propter rationem communicationis super quam 
-      fun<lb ed="#V" n="20" break="no"/>data est.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e557">
-      ¶ Ad secundum dicendum quod et si non 
-      contra<lb ed="#V" n="21" break="no"/>rietur alicui bono matrimonii ex toto coniunctio 
-      consan<lb ed="#V" n="22" break="no"/>guineorum contrariatur tamen decenti obseruationi et 
-      <lb ed="#V" n="23"/>aliqualiter honestati bonorum illorum.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e567">
-      ¶ Ad tertium 
-      di<lb ed="#V" n="24" break="no"/>cendum quod Cua non fuit consanguinea Ade quia ab eo non 
-      <lb ed="#V" n="25"/>descendit per naturalem propagationem. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k129706-Dd1e576">
-               <head xml:id="kzz7yh-k129706-Hd1e578">Quaestio 3</head>
-               <p xml:id="kzz7yh-k129706-d1e580">
-      Quaestio III.
-    </p>
-               <p xml:id="kzz7yh-k129706-d1e582">
-                  <lb ed="#V" n="26"/>TErtio queritur vtrum consanguinitas 
-      im<lb ed="#V" n="27" break="no"/>pediat matrimonium vltra 
-      quar<lb ed="#V" n="28" break="no"/>tum gradum. Et videtur quod sic. extra de 
-      consan<lb ed="#V" n="29" break="no"/>et affir. quod dilectio. Contractus existentium in 
-      sex<lb ed="#V" n="30" break="no"/>to gradu ponitur sub indulgentia: quod non esset verum 
-      <lb ed="#V" n="31"/>nisi consanguinitas vltra quartum gradum de iure 
-      com<lb ed="#V" n="32" break="no"/>muni matrimonium impediret.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e600">
-      ¶ Item magister circa 
-      <lb ed="#V" n="33"/>principium huius distin. dicit quod consanguinei in 
-      septi<lb ed="#V" n="34" break="no"/>mo gradu vel infra copulari non debent.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e607">
-      ¶ Item idem 
-      <lb ed="#V" n="35"/>habetur. 35. q. 3. Pogenie. et. c. seq. et. c. Nulli. Que iura 
-      <lb ed="#V" n="36"/>recitat magister in littera satis cito post principium. 
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e615">
-                  <lb ed="#V" n="37"/>Contra ecclesia libere coniungit matrimonia vltra 
-      <lb ed="#V" n="38"/>quartum gradum consanguinitatis. 
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e622">
-                  <lb ed="#V" n="39"/>Respondeo quod consanguinitas non impedit 
-      ma<lb ed="#V" n="40" break="no"/>trimonium vltra quartum gradum 
-      <lb ed="#V" n="41"/>iura enim contrarium dicentia reuocata fuerunt in 
-      con<lb ed="#V" n="42" break="no"/>cilio generali: vt patet per illud quod habetur extra de 
-      <lb ed="#V" n="43"/>consan. et affini. Non debet. Ubi dicitur quod prohibitio de 
-      <lb ed="#V" n="44"/>coniugio antiquitus seruata difficultates frequenter 
-      in<lb ed="#V" n="45" break="no"/>ducebat. et aliquando pariebat periculum animarum. et ideo 
-      <lb ed="#V" n="46"/>hec prohibitio vsque ad quartum gradum restricta est: cui 
-      <lb ed="#V" n="47"/>numero congruit: vt ibidem dicitur: quia in corpore 
-      ho<lb ed="#V" n="48" break="no"/>minis sunt quatuor humores: qui constant ex quatuor 
-      ele<lb ed="#V" n="49" break="no"/>mentis: potest etiam huius reuocationis hec assignari 
-      ra<lb ed="#V" n="50" break="no"/>tio: quia iam propter refrigerium charitatis vinculum 
-      <lb ed="#V" n="51"/>amicitie inter consanguineos vltra quartum gradum ita 
-      <lb ed="#V" n="52"/>euanescit: et quasi fugit: quod ex tunc licitum esse debet ipsam 
-      <lb ed="#V" n="53"/>per matrimoniale vinculum reuocari.
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e657">
-      ¶ Ex dictis 
-      pa<lb ed="#V" n="54" break="no"/>tet solutio ad omnia in oppositum allegata. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k129706-Dd1e663">
-               <head xml:id="kzz7yh-k129706-Hd1e665">Quaestio 4</head>
-               <p xml:id="kzz7yh-k129706-d1e667">
-      Quaestio IIII
-    </p>
-               <p xml:id="kzz7yh-k129706-d1e669">
-                  <lb ed="#V" n="55"/>QUarto queritur vtrum aliquis tantum 
-      <lb ed="#V" n="56"/>posset distare a stipite quod licite 
-      <lb ed="#V" n="57"/>posset contrahere cum eo. 
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e678">
-                  <lb ed="#V" n="58"/>Respondeo quod non quia ratio naturalis dictat 
-      <lb ed="#V" n="59"/>quod ordo naturalis generationis 
-      de<lb ed="#V" n="60" break="no"/>bet procedere: non retrocedere: quod aliquo modo fieret. 
-      <lb ed="#V" n="61"/>si aliquis vel aliqua coniungeretur suo stipiti in carnalis 
-      <lb ed="#V" n="62"/>generationis opere: naturaliter etiam maiorem 
-      reueren<lb ed="#V" n="63" break="no"/>tiam debet homo illi a quo essendi sumpsit initium 
-      gene<lb ed="#V" n="64" break="no"/>ratione naturali: quamuis mediate: quam deat coniunx coniugi. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k129706-Dd1e697">
-               <head xml:id="kzz7yh-k129706-Hd1e699">Quaestio 5</head>
-               <p xml:id="kzz7yh-k129706-d1e701">
-      Quaestio V
-    </p>
-               <p xml:id="kzz7yh-k129706-d1e703">
-                  <lb ed="#V" n="65"/>QUinto queritur vtrum infideles 
-      con<lb ed="#V" n="66" break="no"/>trahentes in gradu prohibito 
-      <lb ed="#V" n="67"/>sint separandi postquam conuertuntur ad fidem. 
-      <!--00390.xml-->
-      <cb ed="#V" n="b"/>
-               </p>
-               <p xml:id="kzz7yh-k129706-d1e716">
-                  <lb ed="#V" n="68"/>Respondeo quod si contraxerunt in gradu 
-      prohi<lb ed="#V" n="69" break="no"/>bito a iure nature vel diuino 
-      ma<lb ed="#V" n="70" break="no"/>trimonium nullum fuit inter eos: et omnes enim subsunt 
-      <lb ed="#V" n="71"/>legi nature et legi diuine: et ideo postquam conuertuntur ad 
-      <lb ed="#V" n="72"/>fidem separandi sunt. Si autem contraxerunt in 
-      gradu<lb ed="#V" n="73" break="no"/>prohibito ab ecclesia tantum: cum statuta ecclesie non se 
-      <lb ed="#V" n="74"/>extendant ad infideles: qui nunquam sacramentum baptismi 
-      <lb ed="#V" n="75"/>susceperunt: tunc dico quod legitimum matrimonium fuit 
-      <lb ed="#V" n="76"/>inter eos contractum. et ideo post eorum conuersionem 
-      <lb ed="#V" n="77"/>ad fidem non sunt separandi: extra de consangui. et affini. 
-      <lb ed="#V" n="78"/>de fidelibus. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k129706-Dd1e743">
-               <head xml:id="kzz7yh-k129706-Hd1e745">Quaestio 6</head>
-               <p xml:id="kzz7yh-k129706-d1e747">
-      Quaestio VI
-    </p>
-               <p xml:id="kzz7yh-k129706-d1e749">
-                  <lb ed="#V" n="79"/>SExto queritur vtrum illi qui ante 
-      con<lb ed="#V" n="80" break="no"/>cilium generale in quo restricta fuit 
-      <lb ed="#V" n="81"/>linea consanguinitatis vsque ad quartum 
-      gra<lb ed="#V" n="82" break="no"/>dum contraxerunt in quinto gradu vel sexto. 
-      <lb ed="#V" n="83"/>vel septimo potuerint post predictum concilium in suo 
-      <lb ed="#V" n="84"/>coniugio remanere. 
-   </p>
-               <p xml:id="kzz7yh-k129706-d1e765">
-                  <lb ed="#V" n="85"/>Respondeo quod tales quando contraxerunt erant 
-      <lb ed="#V" n="86"/>persone illegitime ad 
-      contrahen<lb ed="#V" n="87" break="no"/>dum inter se: et ideo inter eos nullum fuit contractum 
-      ma<lb ed="#V" n="88" break="no"/>trimonium: nec per reuocationem illorum statutorum 
-      fue<lb ed="#V" n="89" break="no"/>runt illa matrimonia confirmata: quia constitutiones 
-      ma<lb ed="#V" n="90" break="no"/>trimonii ad preterita matrimonia non trahuntur: 
-      decre<lb ed="#V" n="91" break="no"/>torum distin 3I ante triennium. et 35. q. 3. de incestis. et 
-      ex<lb ed="#V" n="92" break="no"/>tra de consangui. et affini. Non debet. Ubi dicitur 
-      dece<lb ed="#V" n="93" break="no"/>tero libere copulentur: per quod datur intelligi secundum glo. 
-      <lb ed="#V" n="94"/>ibidem quod per istam constitutionem predicta 
-      matrimo<lb ed="#V" n="95" break="no"/>nia non fuerant confirmata: vnde sic coniuncti separari 
-      <lb ed="#V" n="96"/>potuerunt si voluerunt: nec debuerunt simul cohabitare 
-      <lb ed="#V" n="97"/>carnaliter nisi illi qui de nouo contraxerunt expresse vel 
-      <lb ed="#V" n="98"/>tacite: et dico tacite: quia si post publicationem 
-      restrictio<lb ed="#V" n="99" break="no"/>nis linee consanguinitatis vsque ad quartum gradum 
-      si<lb ed="#V" n="100" break="no"/>mul steterunt scienter intelliguntur ratificasse 
-      matrimo<lb ed="#V" n="101" break="no"/>nium. non tamen per hoc fuit ratificatum quo ad deum 
-      <lb ed="#V" n="102"/>nisi de nouo interuenerit mutuus interior consensus: nec 
-      <lb ed="#V" n="103"/>fuit necessaria noua expressio per verba: quia cum 
-      inte<lb ed="#V" n="104" break="no"/>riori consensum expressio consensus: quando contraxerunt 
-      <lb ed="#V" n="105"/>de facto sufficit ob matrimonii sauorem. extra de 
-      consan<lb ed="#V" n="106" break="no"/>gui. Non debet in glo. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="69"/>tantum: sed ex aliqua alia cooperante causa.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e328">
+            ¶ Sed contra si 
+            continge<lb ed="#V" n="70" break="no"/>ret quod vnus pater generaret filios plures qui non essent patri 
+            si<lb ed="#V" n="71" break="no"/>miliores in quacumque naturali virtute quam aliqui alii homines: 
+            ad<lb ed="#V" n="72" break="no"/>huc esset consanguinitas inter eos per hoc quod communicarent in 
+            <lb ed="#V" n="73"/>natura ab eodem stipite per virtutem naturalem propagata. 
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e340">
+            <lb ed="#V" n="74"/>¶ Preterea. cum quanto virtus generantis fortior est 
+            tan<lb ed="#V" n="75" break="no"/>to per eam possit ad plures protendi naturalis assimilatio 
+            vir<lb ed="#V" n="76" break="no"/>tuti naturali stipitis contingere posset quod aliqui ab vno stipite 
+            <lb ed="#V" n="77"/>descendentes magis essent consanguinei inter se quam alii 
+            in<lb ed="#V" n="78" break="no"/>ter se ab alio stipite descendentes tam istis quam illis 
+            existenti<lb ed="#V" n="79" break="no"/>bus in eodem gradu ad suum stipitem: quod inconueniens 
+            <lb ed="#V" n="80"/>videtur. Ideo dicunt alii quod tantum se extendit consanguinitas 
+            quan<lb ed="#V" n="81" break="no"/>tum naturalis propagatio ab eodem stipite: et quod omnes homines habent 
+            <lb ed="#V" n="82"/>in se aliquam consanguinitatem inquantum ab eodem stipite 
+            <lb ed="#V" n="83"/>per naturalem propagationem descendunt: et talis 
+            consanguini<lb ed="#V" n="84" break="no"/>tas aliquam rationem habet vinculi: inquantum inter homines: qui 
+            <lb ed="#V" n="85"/>hunc descensum efficaciter recogitant: et in quibus non est 
+            <lb ed="#V" n="86"/>naturalis affectio per excessiuam malitiam deprauata: causat 
+            <lb ed="#V" n="87"/>aliquod vinculum amicitie naturalis quamuis debiliter. vnde 
+            Au<lb ed="#V" n="88" break="no"/>gu. 12 de ciui. ca. 21. Dicit quod ideo deus noluit omnes homines 
+            <lb ed="#V" n="89"/>ab vno descendere vt eo modo vehementius 
+            commenda<lb ed="#V" n="90" break="no"/>retur homini ipsius societatis vnitas vinculumque concordie: et 
+            <lb ed="#V" n="91"/>non tantum inter se nature similitudine: verum est cognationis affectu 
+            <lb ed="#V" n="92"/>homines necterentur: non dicitur ergo proprie consanguinitas 
+            defice<lb ed="#V" n="93" break="no"/>re: sed pro tanto deficere dicitur: quia per nimiam elongationem 
+            <lb ed="#V" n="94"/>a stipite naturalis amicitia fere totaliter euanescit: quam 
+            matrimo<lb ed="#V" n="95" break="no"/>niale vinculum aliquo modo reuocat fugientem. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k129706-Dd1e391">
+          <head xml:id="kzz7yh-k129706-Hd1e393">Quaestio 2</head>
+          <p xml:id="kzz7yh-k129706-d1e395">
+            Quaestio II.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e397">
+            <lb ed="#V" n="96"/>SEcundo quaeritur vtrum consanguinitas 
+            <lb ed="#V" n="97"/>prestet matrimonio 
+            impedimen<lb ed="#V" n="98" break="no"/>tum. Et videtur quod non: quia ligati vinculo naturalis 
+            ami<lb ed="#V" n="99" break="no"/>citie facilius quam alii in amicitia perseuerant: sed 
+            <lb ed="#V" n="100"/>inter coniuges maxime vtilis perseuerantia amicitie ergo 
+            conm<lb ed="#V" n="101" break="no"/>sangninei aptiores sunt vt matrimonialiter copulentur inter se 
+            <lb ed="#V" n="102"/>quam extranei.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e415">
+            ¶ Item non impedit matrimonium quod nulli 
+            bo<lb ed="#V" n="103" break="no"/>no matrimonii contrariatur: sed consanguinitas non conriatur alicui 
+            bo<lb ed="#V" n="104" break="no"/>no matrimonii: quia ita possunt seruare fidem sicut extranei: et ita est 
+            <lb ed="#V" n="105"/>procreare prolem. ergo consanguinitas matrimonium non 
+            im<lb ed="#V" n="106" break="no"/>pedit.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e426">
+            ¶ Item Eua immediate sumpta fuit de Adam. et tamen 
+            <lb ed="#V" n="107"/>illa propiquitas non impediuit matrimonium inter eos: ergo multo 
+            <lb ed="#V" n="108"/>fortius nulla alia carnalis propinquitas matrimonium impedit. 
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e434">
+            <lb ed="#V" n="109"/>Contra. Leui. 18. Omnis homo ad pximam sui 
+            sangui<lb ed="#V" n="110" break="no"/>nis non accedat.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e441">
+            ¶ Item Grego. ad 
+            Au<lb ed="#V" n="111" break="no"/>gui episcopum anglorum. et habetur. 35. q. 3. Quedam lex. et recitat 
+            <lb ed="#V" n="112"/>magister in littera post medium huius di. dicit: quod siue duorum 
+            <lb ed="#V" n="113"/>ftinum germanorum siue duarum sororum filius et filia misceantur 
+            <lb ed="#V" n="114"/>experimento didicit ex tali coniugio sobolem non posse 
+            suc<lb ed="#V" n="115" break="no"/>crescere: sed illud quod impedit sobolem succedentem debet 
+            im<lb ed="#V" n="116" break="no"/>pedire matrimonium: et quia est contra vnum bonum matrimonii: 
+            <lb ed="#V" n="117"/>ergo aliqua consanguinitas matrimonium impedit. 
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e459">
+            <lb ed="#V" n="118"/>Respondeo quod aliqua consanguinitas impedit 
+            <lb ed="#V" n="119"/>matrimonium ex dictamine iuris nature 
+            <lb ed="#V" n="120"/>aliqua ex dictamine legis diuine: aliqua per statutum 
+            eccli<lb ed="#V" n="121" break="no"/>sie. Propter dictamen legis nature impeditur matrimonium filie 
+            <lb ed="#V" n="122"/>cum patre vel filii cum matre. vnde et in lege nature dictum est: 
+            <lb ed="#V" n="123"/>vt habetur Gen. 2. relinquet homo patrem et matrem et 
+            adhe<lb ed="#V" n="124" break="no"/>rebit vxori sue. Ius enim naturale dictat maiorem reuerentiam 
+            <lb ed="#V" n="125"/>deberi parentibus quam coniugibus: et dictat non sic debere 
+            tra<lb ed="#V" n="126" break="no"/>ctari turpiter parentes sicut se contractant coniuges: et magis tamen 
+            <lb ed="#V" n="127"/>est contra ius nature matrimonium filii cum matre quam filie cum patre: 
+            <lb ed="#V" n="128"/>quia vxor debet esse viro subiecta. contra autem ius nature est vt filius 
+            <lb ed="#V" n="129"/>teneat matrem subiectam. vnde et quedam animalia bruta 
+            <lb ed="#V" n="130"/>abhorrent coire cum matre sua: quamdiu cognoscant eam 
+            <lb ed="#V" n="131"/>esse suam. matrem. quod patet per illud quod narrat philo 
+            <lb ed="#V" n="132"/>sophus de animalibus libro 9 c. 46. de camello qui cum 
+            saltas<lb ed="#V" n="133" break="no"/>set super matrem suam coopertam postquam recognouit 
+            <lb ed="#V" n="134"/>ea esse matrem suam interfecit ingeniatore. Narrat etiam 
+            <lb ed="#V" n="135"/>de equo ibidem qui cum saltasset super matrem suam et 
+            <lb ed="#V" n="136"/>recognouit eam postquam discooperiebatur fugit et proiecit 
+            <!--00390.xml-->
+            <pb ed="#V" n="179-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>se de alto et mortuus est.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e511">
+            ¶ Ex dictamine legis diuine 
+            ao<lb ed="#V" n="2" break="no"/>hibentur matrimonialiter copulari consanguinei in 
+            pri<lb ed="#V" n="3" break="no"/>mo gradu et secundo ex vna parte tantum vt patet Le 
+            <lb ed="#V" n="4"/>ui. 18 Cuius ratio est: ne si possent matrimonialiter 
+            co<lb ed="#V" n="5" break="no"/>pulari daretur incentiuum luxurie: eo quod tales persone 
+            fre<lb ed="#V" n="6" break="no"/>quenter solent in eadem domo habitare.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e524">
+            ¶ Per statutum 
+            <lb ed="#V" n="7"/>ecclesie prohibentur matrimonialiter copulari 
+            consangui<lb ed="#V" n="8" break="no"/>nei etiam in tertio et quarto gradu: quia vsque tunc 
+            con<lb ed="#V" n="9" break="no"/>sueuit inter homines satis durare amicitia propter 
+            con<lb ed="#V" n="10" break="no"/>sanguinitatis vinculum nature: sed post illum gradum 
+            con<lb ed="#V" n="11" break="no"/>cedit eas posse copulari ad amicitiam quasi fugientem 
+            re<lb ed="#V" n="12" break="no"/>uocandam: vt sic charitas inter homines dilatetur: eo quod 
+            <lb ed="#V" n="13"/>coniunx ad consanguineos sui coniugis multum afficiatur. 
+            <lb ed="#V" n="14"/>n Ad primum in oppositum dicendum quod sicut 
+            <lb ed="#V" n="15"/>vna communicatio quandoque 
+            im<lb ed="#V" n="16" break="no"/>pedit aliam ita amicitia fundata super vnam 
+            communica<lb ed="#V" n="17" break="no"/>tionem. vnde amicitia consanguinitatis magis est 
+            impe<lb ed="#V" n="18" break="no"/>ditiua quam promotiua amicitie: que debet esse inter 
+            coniu<lb ed="#V" n="19" break="no"/>ges propter rationem communicationis super quam 
+            fun<lb ed="#V" n="20" break="no"/>data est.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e557">
+            ¶ Ad secundum dicendum quod et si non 
+            contra<lb ed="#V" n="21" break="no"/>rietur alicui bono matrimonii ex toto coniunctio 
+            consan<lb ed="#V" n="22" break="no"/>guineorum contrariatur tamen decenti obseruationi et 
+            <lb ed="#V" n="23"/>aliqualiter honestati bonorum illorum.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e567">
+            ¶ Ad tertium 
+            di<lb ed="#V" n="24" break="no"/>cendum quod Cua non fuit consanguinea Ade quia ab eo non 
+            <lb ed="#V" n="25"/>descendit per naturalem propagationem. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k129706-Dd1e576">
+          <head xml:id="kzz7yh-k129706-Hd1e578">Quaestio 3</head>
+          <p xml:id="kzz7yh-k129706-d1e580">
+            Quaestio III.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e582">
+            <lb ed="#V" n="26"/>TErtio queritur vtrum consanguinitas 
+            im<lb ed="#V" n="27" break="no"/>pediat matrimonium vltra 
+            quar<lb ed="#V" n="28" break="no"/>tum gradum. Et videtur quod sic. extra de 
+            consan<lb ed="#V" n="29" break="no"/>et affir. quod dilectio. Contractus existentium in 
+            sex<lb ed="#V" n="30" break="no"/>to gradu ponitur sub indulgentia: quod non esset verum 
+            <lb ed="#V" n="31"/>nisi consanguinitas vltra quartum gradum de iure 
+            com<lb ed="#V" n="32" break="no"/>muni matrimonium impediret.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e600">
+            ¶ Item magister circa 
+            <lb ed="#V" n="33"/>principium huius distin. dicit quod consanguinei in 
+            septi<lb ed="#V" n="34" break="no"/>mo gradu vel infra copulari non debent.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e607">
+            ¶ Item idem 
+            <lb ed="#V" n="35"/>habetur. 35. q. 3. Pogenie. et. c. seq. et. c. Nulli. Que iura 
+            <lb ed="#V" n="36"/>recitat magister in littera satis cito post principium. 
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e615">
+            <lb ed="#V" n="37"/>Contra ecclesia libere coniungit matrimonia vltra 
+            <lb ed="#V" n="38"/>quartum gradum consanguinitatis. 
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e622">
+            <lb ed="#V" n="39"/>Respondeo quod consanguinitas non impedit 
+            ma<lb ed="#V" n="40" break="no"/>trimonium vltra quartum gradum 
+            <lb ed="#V" n="41"/>iura enim contrarium dicentia reuocata fuerunt in 
+            con<lb ed="#V" n="42" break="no"/>cilio generali: vt patet per illud quod habetur extra de 
+            <lb ed="#V" n="43"/>consan. et affini. Non debet. Ubi dicitur quod prohibitio de 
+            <lb ed="#V" n="44"/>coniugio antiquitus seruata difficultates frequenter 
+            in<lb ed="#V" n="45" break="no"/>ducebat. et aliquando pariebat periculum animarum. et ideo 
+            <lb ed="#V" n="46"/>hec prohibitio vsque ad quartum gradum restricta est: cui 
+            <lb ed="#V" n="47"/>numero congruit: vt ibidem dicitur: quia in corpore 
+            ho<lb ed="#V" n="48" break="no"/>minis sunt quatuor humores: qui constant ex quatuor 
+            ele<lb ed="#V" n="49" break="no"/>mentis: potest etiam huius reuocationis hec assignari 
+            ra<lb ed="#V" n="50" break="no"/>tio: quia iam propter refrigerium charitatis vinculum 
+            <lb ed="#V" n="51"/>amicitie inter consanguineos vltra quartum gradum ita 
+            <lb ed="#V" n="52"/>euanescit: et quasi fugit: quod ex tunc licitum esse debet ipsam 
+            <lb ed="#V" n="53"/>per matrimoniale vinculum reuocari.
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e657">
+            ¶ Ex dictis 
+            pa<lb ed="#V" n="54" break="no"/>tet solutio ad omnia in oppositum allegata. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k129706-Dd1e663">
+          <head xml:id="kzz7yh-k129706-Hd1e665">Quaestio 4</head>
+          <p xml:id="kzz7yh-k129706-d1e667">
+            Quaestio IIII
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e669">
+            <lb ed="#V" n="55"/>QUarto queritur vtrum aliquis tantum 
+            <lb ed="#V" n="56"/>posset distare a stipite quod licite 
+            <lb ed="#V" n="57"/>posset contrahere cum eo. 
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e678">
+            <lb ed="#V" n="58"/>Respondeo quod non quia ratio naturalis dictat 
+            <lb ed="#V" n="59"/>quod ordo naturalis generationis 
+            de<lb ed="#V" n="60" break="no"/>bet procedere: non retrocedere: quod aliquo modo fieret. 
+            <lb ed="#V" n="61"/>si aliquis vel aliqua coniungeretur suo stipiti in carnalis 
+            <lb ed="#V" n="62"/>generationis opere: naturaliter etiam maiorem 
+            reueren<lb ed="#V" n="63" break="no"/>tiam debet homo illi a quo essendi sumpsit initium 
+            gene<lb ed="#V" n="64" break="no"/>ratione naturali: quamuis mediate: quam deat coniunx coniugi. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k129706-Dd1e697">
+          <head xml:id="kzz7yh-k129706-Hd1e699">Quaestio 5</head>
+          <p xml:id="kzz7yh-k129706-d1e701">
+            Quaestio V
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e703">
+            <lb ed="#V" n="65"/>QUinto queritur vtrum infideles 
+            con<lb ed="#V" n="66" break="no"/>trahentes in gradu prohibito 
+            <lb ed="#V" n="67"/>sint separandi postquam conuertuntur ad fidem. 
+            <!--00390.xml-->
+            <cb ed="#V" n="b"/>
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e716">
+            <lb ed="#V" n="68"/>Respondeo quod si contraxerunt in gradu 
+            prohi<lb ed="#V" n="69" break="no"/>bito a iure nature vel diuino 
+            ma<lb ed="#V" n="70" break="no"/>trimonium nullum fuit inter eos: et omnes enim subsunt 
+            <lb ed="#V" n="71"/>legi nature et legi diuine: et ideo postquam conuertuntur ad 
+            <lb ed="#V" n="72"/>fidem separandi sunt. Si autem contraxerunt in 
+            gradu<lb ed="#V" n="73" break="no"/>prohibito ab ecclesia tantum: cum statuta ecclesie non se 
+            <lb ed="#V" n="74"/>extendant ad infideles: qui nunquam sacramentum baptismi 
+            <lb ed="#V" n="75"/>susceperunt: tunc dico quod legitimum matrimonium fuit 
+            <lb ed="#V" n="76"/>inter eos contractum. et ideo post eorum conuersionem 
+            <lb ed="#V" n="77"/>ad fidem non sunt separandi: extra de consangui. et affini. 
+            <lb ed="#V" n="78"/>de fidelibus. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k129706-Dd1e743">
+          <head xml:id="kzz7yh-k129706-Hd1e745">Quaestio 6</head>
+          <p xml:id="kzz7yh-k129706-d1e747">
+            Quaestio VI
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e749">
+            <lb ed="#V" n="79"/>SExto queritur vtrum illi qui ante 
+            con<lb ed="#V" n="80" break="no"/>cilium generale in quo restricta fuit 
+            <lb ed="#V" n="81"/>linea consanguinitatis vsque ad quartum 
+            gra<lb ed="#V" n="82" break="no"/>dum contraxerunt in quinto gradu vel sexto. 
+            <lb ed="#V" n="83"/>vel septimo potuerint post predictum concilium in suo 
+            <lb ed="#V" n="84"/>coniugio remanere. 
+          </p>
+          <p xml:id="kzz7yh-k129706-d1e765">
+            <lb ed="#V" n="85"/>Respondeo quod tales quando contraxerunt erant 
+            <lb ed="#V" n="86"/>persone illegitime ad 
+            contrahen<lb ed="#V" n="87" break="no"/>dum inter se: et ideo inter eos nullum fuit contractum 
+            ma<lb ed="#V" n="88" break="no"/>trimonium: nec per reuocationem illorum statutorum 
+            fue<lb ed="#V" n="89" break="no"/>runt illa matrimonia confirmata: quia constitutiones 
+            ma<lb ed="#V" n="90" break="no"/>trimonii ad preterita matrimonia non trahuntur: 
+            decre<lb ed="#V" n="91" break="no"/>torum distin 3I ante triennium. et 35. q. 3. de incestis. et 
+            ex<lb ed="#V" n="92" break="no"/>tra de consangui. et affini. Non debet. Ubi dicitur 
+            dece<lb ed="#V" n="93" break="no"/>tero libere copulentur: per quod datur intelligi secundum glo. 
+            <lb ed="#V" n="94"/>ibidem quod per istam constitutionem predicta 
+            matrimo<lb ed="#V" n="95" break="no"/>nia non fuerant confirmata: vnde sic coniuncti separari 
+            <lb ed="#V" n="96"/>potuerunt si voluerunt: nec debuerunt simul cohabitare 
+            <lb ed="#V" n="97"/>carnaliter nisi illi qui de nouo contraxerunt expresse vel 
+            <lb ed="#V" n="98"/>tacite: et dico tacite: quia si post publicationem 
+            restrictio<lb ed="#V" n="99" break="no"/>nis linee consanguinitatis vsque ad quartum gradum 
+            si<lb ed="#V" n="100" break="no"/>mul steterunt scienter intelliguntur ratificasse 
+            matrimo<lb ed="#V" n="101" break="no"/>nium. non tamen per hoc fuit ratificatum quo ad deum 
+            <lb ed="#V" n="102"/>nisi de nouo interuenerit mutuus interior consensus: nec 
+            <lb ed="#V" n="103"/>fuit necessaria noua expressio per verba: quia cum 
+            inte<lb ed="#V" n="104" break="no"/>riori consensum expressio consensus: quando contraxerunt 
+            <lb ed="#V" n="105"/>de facto sufficit ob matrimonii sauorem. extra de 
+            consan<lb ed="#V" n="106" break="no"/>gui. Non debet in glo. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

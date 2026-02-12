@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="102-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a70287"><!-- l1d33cl -->
-            <head xml:id="kzz7yh-a70287-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-a70287-d1e103">
-               <lb ed="#V" n="102"/>Circa litteram. (Sacramenti natiuitas id est 
-      nati<lb ed="#V" n="103" break="no"/>uitas sacri secreti. (Sed extrinsecus 
-      af<lb ed="#V" n="104" break="no"/>firmata sunt.) error fuit Gyliberti poretani qui 
-      di<lb ed="#V" n="105" break="no"/>citur posuisse proprietates non ita esse in personis: 
-      <lb ed="#V" n="106"/>vel in essentia vt sicut interius insistentes sed extrinsecus. 
-      <lb ed="#V" n="107"/>assistentes. Sed ipse hoc retractauit in concilio Senonum 
-      <lb ed="#V" n="108"/>(Seipsis persone differunt) id est per proprietates que realiter idem 
-      <lb ed="#V" n="109"/>sunt quod ipse. (Quomdo differt pater a filio: eo quod diuina essentia 
-      <lb ed="#V" n="110"/>est: cum in essentia vnum sint.)
-   </p>
-            <p xml:id="kzz7yh-a70287-d1e125">
-      ¶ Respondeo quod non differt 
-      ab<lb ed="#V" n="111" break="no"/>eo inquantum est essentia sed inquantum secundum rationem: et secundum 
-      mo<lb ed="#V" n="112" break="no"/>dum se habendi ab essentia differt. (Incomprehensibile: 
-      quan<lb ed="#V" n="113" break="no"/>tum ad vim receptiuam. (Extra significantiam sermonis) 
-      quan<lb ed="#V" n="114" break="no"/>tum ad vim interpretatiuam. (Extra sensus intentionem:) 
-      quan<lb ed="#V" n="115" break="no"/>tum ad vim iudicatiuam: in quo paternitas est: pater est. verum 
-      <lb ed="#V" n="116"/>est loquendo de eo in quo est: vt in supposito: non est autem 
-      <lb ed="#V" n="117"/>in essentia vt in supposito vt superius visum est. (Quomdo in 
-      essen<lb ed="#V" n="118" break="no"/>tia diuina esse possunt: ita vt non eam determinant.) 
-      Cer<lb ed="#V" n="119" break="no"/>te quia non sunt in essentia vt in supposito: sed mediante 
-      sup<lb ed="#V" n="120" break="no"/>posito secundum rationem intelligendi: et hoc melius inuenies 
-      ex<lb ed="#V" n="121" break="no"/>planatum supra in illa quaestione. Utrum proprietates sint in 
-      essen<lb ed="#V" n="122" break="no"/>tia. (Angeli nesciunt) id est non faciunt nos scire. (Eo quod deu 
-      <lb ed="#V" n="123"/>est substantia est: Sed quod pater est substantia non est.)
-   </p>
-            <p xml:id="kzz7yh-a70287-d1e156">
-      ¶ 
-      Re<lb ed="#V" n="124" break="no"/>spondeo in argumento est fallacia accidentis: quamuis enim 
-      <lb ed="#V" n="125"/>paternitas et deitas differant secundum rationem: non propter hoc sequitur quin 
-      <lb ed="#V" n="126"/>paternitas realiter idem sit quod divina essentia. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="102-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a70287"><!-- l1d33cl -->
+        <head xml:id="kzz7yh-a70287-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-a70287-d1e103">
+          <lb ed="#V" n="102"/>Circa litteram. (Sacramenti natiuitas id est 
+          nati<lb ed="#V" n="103" break="no"/>uitas sacri secreti. (Sed extrinsecus 
+          af<lb ed="#V" n="104" break="no"/>firmata sunt.) error fuit Gyliberti poretani qui 
+          di<lb ed="#V" n="105" break="no"/>citur posuisse proprietates non ita esse in personis: 
+          <lb ed="#V" n="106"/>vel in essentia vt sicut interius insistentes sed extrinsecus. 
+          <lb ed="#V" n="107"/>assistentes. Sed ipse hoc retractauit in concilio Senonum 
+          <lb ed="#V" n="108"/>(Seipsis persone differunt) id est per proprietates que realiter idem 
+          <lb ed="#V" n="109"/>sunt quod ipse. (Quomdo differt pater a filio: eo quod diuina essentia 
+          <lb ed="#V" n="110"/>est: cum in essentia vnum sint.)
+        </p>
+        <p xml:id="kzz7yh-a70287-d1e125">
+          ¶ Respondeo quod non differt 
+          ab<lb ed="#V" n="111" break="no"/>eo inquantum est essentia sed inquantum secundum rationem: et secundum 
+          mo<lb ed="#V" n="112" break="no"/>dum se habendi ab essentia differt. (Incomprehensibile: 
+          quan<lb ed="#V" n="113" break="no"/>tum ad vim receptiuam. (Extra significantiam sermonis) 
+          quan<lb ed="#V" n="114" break="no"/>tum ad vim interpretatiuam. (Extra sensus intentionem:) 
+          quan<lb ed="#V" n="115" break="no"/>tum ad vim iudicatiuam: in quo paternitas est: pater est. verum 
+          <lb ed="#V" n="116"/>est loquendo de eo in quo est: vt in supposito: non est autem 
+          <lb ed="#V" n="117"/>in essentia vt in supposito vt superius visum est. (Quomdo in 
+          essen<lb ed="#V" n="118" break="no"/>tia diuina esse possunt: ita vt non eam determinant.) 
+          Cer<lb ed="#V" n="119" break="no"/>te quia non sunt in essentia vt in supposito: sed mediante 
+          sup<lb ed="#V" n="120" break="no"/>posito secundum rationem intelligendi: et hoc melius inuenies 
+          ex<lb ed="#V" n="121" break="no"/>planatum supra in illa quaestione. Utrum proprietates sint in 
+          essen<lb ed="#V" n="122" break="no"/>tia. (Angeli nesciunt) id est non faciunt nos scire. (Eo quod deu 
+          <lb ed="#V" n="123"/>est substantia est: Sed quod pater est substantia non est.)
+        </p>
+        <p xml:id="kzz7yh-a70287-d1e156">
+          ¶ 
+          Re<lb ed="#V" n="124" break="no"/>spondeo in argumento est fallacia accidentis: quamuis enim 
+          <lb ed="#V" n="125"/>paternitas et deitas differant secundum rationem: non propter hoc sequitur quin 
+          <lb ed="#V" n="126"/>paternitas realiter idem sit quod divina essentia. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

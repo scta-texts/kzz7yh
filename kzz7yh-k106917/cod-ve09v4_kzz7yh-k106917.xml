@@ -1,286 +1,286 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="147-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="147-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k106917"><!-- l4d30a1 -->
+        <head xml:id="kzz7yh-k106917-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-k106917-d1e103">
+          <lb ed="#V" n="62"/>CIrca primum quaeruntur duo.
+        </p>
+        <p xml:id="kzz7yh-k106917-d1e108">
+          ¶ Primo vtrum 
+          <lb ed="#V" n="63"/>aliquis error impediat matrimonium. 
+        </p>
+        <p xml:id="kzz7yh-k106917-d1e113">
+          <lb ed="#V" n="64"/>¶ 2o vtrum solus error respctu persone vel conditionis ei 
+          <lb ed="#V" n="65"/>cum qua contrahitur impediat matrimonium. 
+        </p>
+        <div xml:id="kzz7yh-k106917-Dd1e120">
+          <head xml:id="kzz7yh-k106917-Hd1e122">Quaestio 1</head>
+          <p xml:id="kzz7yh-k106917-d1e124">
+            Quaestio iIl.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e126">
+            <lb ed="#V" n="66"/>PRimo ostendo quod nullus error impediat 
+            <lb ed="#V" n="67"/>matrimonium: quia nihil impedit 
+            <lb ed="#V" n="68"/>matrimonium nisi sit contra aliquod de bomnis 
+            matrimo<lb ed="#V" n="69" break="no"/>nii: sed error cum nihil aliud sit quam aliud pro alio 
+            <lb ed="#V" n="70"/>putare secundum Augumentum Enchiridion. 13 c. non est contra aliquod de 
+            bo<lb ed="#V" n="71" break="no"/>nis matrimonii. vt patet inducenti: ergo non impedit 
+            matri<lb ed="#V" n="72" break="no"/>monium.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e144">
+            ¶ Item si aliquis baptizat vnum quem putat esse alium. 
+            <lb ed="#V" n="73"/>vel seruum quem putat esse liberum vere baptizat: ergo a 
+            si<lb ed="#V" n="74" break="no"/>mili si mulier contrahit cum vno quem putat alium: vel cum 
+            ser<lb ed="#V" n="75" break="no"/>uo quem putat liberum: verum contrahit matrimonium.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e153">
+            ¶ Item 
+            <lb ed="#V" n="76"/>non obstante errore persone fuit inter Iacob et Lyam 
+            matri<lb ed="#V" n="77" break="no"/>monium: vt habetur Gen. 29. sed si aliquis error impediret 
+            matri<lb ed="#V" n="78" break="no"/>monium: hoc maxime faceret error respectu persone: ergo 
+            nul<lb ed="#V" n="79" break="no"/>lus error impedit.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e165">
+            ¶ Item quamuis Isaac bedicendo Iacob 
+            <lb ed="#V" n="80"/>crederet benedicere Esau: valuit tamen bedictio Iacob: vt 
+            <lb ed="#V" n="81"/>enim habetr geneseo 27 dicit Isaac. bedixi ei et erit bedictus: ergo 
+            <lb ed="#V" n="82"/>a simili quamuis contrahat mulier cum vno quem credit 
+            <lb ed="#V" n="83"/>alium: verum est matrimonium: sed si talis error non 
+            im<lb ed="#V" n="84" break="no"/>pedit: multo fortius nullus alius. 
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e178">
+            <lb ed="#V" n="85"/>Contra si aliquis promittit se venditurum mihiautum: et pro 
+            <lb ed="#V" n="86"/>auro affert mihi aurichalcum non tenet contractus: 
+            <lb ed="#V" n="87"/>quia non consensi in emptione auricalchi: sed auri. error enim 
+            cir<lb ed="#V" n="88" break="no"/>ca materiam excludit consensum: sicut dicit magister huius di. c. 
+            <lb ed="#V" n="89"/>1. et est. 29. q. 1. ante mediu. cum ergo persone contrahentes sint materia 
+            <lb ed="#V" n="90"/>matrimonii. error respectu persone cum qua contrahitur impedit 
+            ma<lb ed="#V" n="91" break="no"/>trimonium.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e196">
+            ¶ Item secundum philosophum. 3. ethi. c. 3. Omne quod est propter 
+            <lb ed="#V" n="92"/>ignorantiam non est voluntarium: sed quod sit per errorem sit per 
+            igno<lb ed="#V" n="93" break="no"/>rantiam: ergo est non voluntarium: sed consensus actus est 
+            volun<lb ed="#V" n="94" break="no"/>tarius: ergo error respectu persone circa quam erratur: impedit 
+            <lb ed="#V" n="95"/>errantis consensum. et ex conseqenti matrimonium: quia quod 
+            im<lb ed="#V" n="96" break="no"/>pedit causam mpedit effectum. 
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e209">
+            <lb ed="#V" n="97"/>Respondeo secndum quod dicit magister huius di. c. 1. et e. 
+            <lb ed="#V" n="98"/>26. q. 1. §. 1. alius est error per sone 
+            ali<lb ed="#V" n="99" break="no"/>fortune. alius conditionis: alius qualitatis: verbi gratia. mulie 
+            <lb ed="#V" n="100"/>volens contrahere errat circa personam cum qua contrahit quando putat ipsum 
+            <lb ed="#V" n="101"/>esse alium qui non est: vt si putet ipsum esse Titium et est martinus 
+            <lb ed="#V" n="102"/>Errat circa eius fortunam: si putat eum esse diuitem: et est pauper 
+            <lb ed="#V" n="103"/>Errat circa eius conditionem: si putat eum esse liberum et seruus est. 
+            <lb ed="#V" n="104"/>Errat circa eius qualitatem: si putat eum esse bonum: et est malus. 
+            <lb ed="#V" n="105"/>Primus error in pedit matrimonium: quia impedit consensum ex 
+            <lb ed="#V" n="106"/>parte errantis respectu persone cum quae contrahit: cum enim Berta contrahit 
+            <lb ed="#V" n="107"/>cum Titio non putans illum esse Titium sed Martinum: non 
+            consen<lb ed="#V" n="108" break="no"/>tit in Titium sed in Martinum: quia sicut secundum Aug. 10. de trinitate. c. 
+            <lb ed="#V" n="109"/>1. non proaesent amari nisi cognita: sic non potest esse consensus in 
+            perso<lb ed="#V" n="110" break="no"/>nam non cognitam. Quomdo autem error conditionis impediat 
+            <lb ed="#V" n="111"/>matrimonium declarandum est inferius. distin. 36. Utrum 
+            <lb ed="#V" n="112"/>autem error fortune et qualitatis matrimonium impediat 
+            <lb ed="#V" n="113"/>vel non: declarabitur in sequenti questione. 
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e248">
+            <lb ed="#V" n="114"/>Ad primum in oppositum dicendum quod error persone est et 
+            <lb ed="#V" n="115"/>essentiam matrimonii inquantum 
+            impe<lb ed="#V" n="116" break="no"/>dit eius efficientem causam qui est mutuus consensus.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e257">
+            ¶ Ad 2m 
+            <lb ed="#V" n="117"/>dicendum quod non est simile: quia in susceptione baptismi efficitur 
+            simpli<lb ed="#V" n="118" break="no"/>melior conditio suscipientis non autem efficitur simpliciter melior 
+            <lb ed="#V" n="119"/>conditio matrimonium contrahentis: et ideo requiritur specialior 
+            in<lb ed="#V" n="120" break="no"/>tentio et consensus liberior in matrimonium contrahente quam in 
+            ba<lb ed="#V" n="121" break="no"/>ptizante.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e271">
+            ¶ Ad tertium dicendum quod sicut dicit magister in 
+            <lb ed="#V" n="122"/>littera huius distin. ca 1. quamuis concubitum Iacob cum 
+            <lb ed="#V" n="123"/>Lya non precesserit consensus. tamen est subsecutus: sicut 
+            <lb ed="#V" n="124"/>dicitur. 29. q. prima quasi statim post medium Iacob et 
+            <lb ed="#V" n="125"/>Lyam non fecit coniuges precedens consensus: sed 
+            subse<lb ed="#V" n="126" break="no"/>quens.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e284">
+            ¶ Ad quartum dicendum quod non est simile. quia 
+            il<lb ed="#V" n="127" break="no"/>la benedictio fuit opus dei: circa quod non potest cadere 
+            <!--00327.xml-->
+            <pb ed="#V" n="148-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>error. sed consensus est actus hominis circa quem etror 
+            <lb ed="#V" n="2"/>cadere potest.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e300">
+            ¶ Preterea illa benedictio debebatur 
+            Ia<lb ed="#V" n="3" break="no"/>cob ex ordinatione diuina: quod post factum Isaac per 
+            re<lb ed="#V" n="4" break="no"/>uelationem intelligens benedictionem confirmauit dicens 
+            <lb ed="#V" n="5"/>benedixi ei et erit benedictus. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k106917-Dd1e311">
+          <head xml:id="kzz7yh-k106917-Hd1e313">Quaestio 2</head>
+          <p xml:id="kzz7yh-k106917-d1e315">
+            Quaestio II.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e317">
+            <lb ed="#V" n="6"/>SEcundo queritur vtrum solus error 
+            <lb ed="#V" n="7"/>respectu persone vel 
+            condi<lb ed="#V" n="8" break="no"/>tionis eius cum qua contrahitur impediat 
+            matri<lb ed="#V" n="9" break="no"/>monium. Et videtur quod non: quia omnis error respectu alicuius 
+            dei<lb ed="#V" n="10" break="no"/>bomnis matrimonii impedit matrimonium: sed error sterilitatis est 
+            re<lb ed="#V" n="11" break="no"/>alicuus quod est contra bonum prolis. ergo error sterilitatis impedit 
+            matri<lb ed="#V" n="12" break="no"/>monium.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e335">
+            ¶ Item magister huius di. c id est Si quis seminam 
+            nobi<lb ed="#V" n="13" break="no"/>lem in coniugium petat et pro ea alia ignobilis tradatur ei. non 
+            <lb ed="#V" n="14"/>est inter eos coniugium. sed error ignobilitatis 
+            comprehendi<lb ed="#V" n="15" break="no"/>tur sub errore fortune vel qualitatis. ergo non solus error 
+            <lb ed="#V" n="16"/>persone vel conditionis impedit matrimonium.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e346">
+            ¶ Item 
+            om<lb ed="#V" n="17" break="no"/>nis error qui impedit voluntarium impedit matrimonium: 
+            <lb ed="#V" n="18"/>sed secundum philosophum. 3. ethico. ca. 3. Ignorantia cuiuslibet 
+            <lb ed="#V" n="19"/>circunstantie tollit voluntarium: ergo error respectu 
+            cuiuscum<lb ed="#V" n="20" break="no"/>quo circunstantie impedit matrimonium.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e358">
+            ¶ Item si aliqui 
+            con<lb ed="#V" n="21" break="no"/>trahit cum consanguinea quam putat extraneam impeditur 
+            matri<lb ed="#V" n="22" break="no"/>monium: sed error respectu consanguinitatis non est error 
+            re<lb ed="#V" n="23" break="no"/>spectu persone: nec respectu conditionis. ergo aliis error 
+            <lb ed="#V" n="24"/>ab illis impedit matrimonium. 
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e369">
+            <lb ed="#V" n="25"/>Contra magister huius dist. c. 1. et habetur. 29. q. 1. 
+            <lb ed="#V" n="26"/>ante medium. Error fortune et qualitatis 
+            <lb ed="#V" n="27"/>coniugitu consensum non excludit. error vero conditionis 
+            coniugalem<lb ed="#V" n="28" break="no"/>consensum euacuat. error quoque persone coniugalem consensum non 
+            <lb ed="#V" n="29"/>admittit. Cum ergo omnis error ad vnum de illis quatuor 
+            reduca<lb ed="#V" n="30" break="no"/>tur. solus error persone vel conditionis matrimonium impedit. 
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e385">
+            <lb ed="#V" n="31"/>Respondeo quod inter habentes vsum liberi 
+            ar<lb ed="#V" n="32" break="no"/>bitrii nullus alius error quam 
+            perso<lb ed="#V" n="33" break="no"/>ne: vel conditionis matrimonium impedit: quia nullus error 
+            <lb ed="#V" n="34"/>matrimonium impedit nisi sit respectu alicuius eorum que 
+            <lb ed="#V" n="35"/>sunt matrimonio essentialia. Sed solus error persone vel 
+            <lb ed="#V" n="36"/>conditionis est respectu eorum que sunt matrimonio 
+            essen<lb ed="#V" n="37" break="no"/>tialia: error enim persone est respectu huius quod estus materiale 
+            <lb ed="#V" n="38"/>in matrimonio. persone enim contrahentes sunt matrimonii materiam. 
+            <lb ed="#V" n="39"/>error vero conditionis est respectu huius quod est formale in 
+            ma<lb ed="#V" n="40" break="no"/>trimonio quod est obligatio per totam vitam ad reddendum debitum 
+            <lb ed="#V" n="41"/>cum ab altero coniuge exigatur: cui obligationi opponitur 
+            con<lb ed="#V" n="42" break="no"/>ditio seruitutis: quia seruus cum sit possessio domini sui: 
+            po<lb ed="#V" n="43" break="no"/>test occupari per dominum frequenter circa opera que non 
+            <lb ed="#V" n="44"/>patiuntur ipsum reddere debitum petenti: si contraxit 
+            preter<lb ed="#V" n="45" break="no"/>licentiam domini sui. Alie etiam rationes inferius dicentur. Et 
+            <lb ed="#V" n="46"/>ror autem fortune vel qualitatis non est nisi respectu eorum 
+            <lb ed="#V" n="47"/>que sunt accidentalia matrimonio. diuitie enim et 
+            pauper<lb ed="#V" n="48" break="no"/>tas: pulchritudo: et turpitudo: bomni mores et mali 
+            matrimo<lb ed="#V" n="49" break="no"/>nio sunt accidentalia: et ideo error circa talia 
+            matrimo<lb ed="#V" n="50" break="no"/>nium non impedit. tmnmd. 
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e431">
+            <lb ed="#V" n="51"/>Ad primum in oppositum dicendum quod bonum 
+            <lb ed="#V" n="52"/>prolis secundum quod est quid essentiale 
+            ma<lb ed="#V" n="53" break="no"/>trimonio non est generatio prolis: sed obligatio ad eius 
+            su<lb ed="#V" n="54" break="no"/>sceptionem et religiosam educationem si genita fuerit: contra hoc 
+            <lb ed="#V" n="55"/>aut non est sterilitas.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e444">
+            ¶ Ad secundum dicendum quod aliquando errat 
+            <lb ed="#V" n="56"/>contrahens circa subiectum nobilitatis: aliquando circa 
+            <lb ed="#V" n="57"/>nobilitatem subiecti non circa subiectum.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e451">
+            ¶ Primo 
+            mo<lb ed="#V" n="58" break="no"/>do est error persone vt cum intendit contrahere cum filia 
+            re<lb ed="#V" n="59" break="no"/>gis et loco illius sibi presentatur filia vnius ciuis: et ideo 
+            <lb ed="#V" n="60"/>talis error impedit matrimonium: et sic intelligitur 
+            aucto<lb ed="#V" n="61" break="no"/>ritas magistri.
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e463">
+            ¶ Secundo modo est error qualitatis nec 
+            <lb ed="#V" n="62"/>impedit matrimonium. vt si quis consentiat in personam 
+            <lb ed="#V" n="63"/>sibi notam: quia credit eam nobilem et tamen non est. 
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e470">
+            <lb ed="#V" n="64"/>¶ Ad tertium dicendum quod quamuis error cuiuslibet 
+            cir<lb ed="#V" n="65" break="no"/>cunstantie impediatur secundum quid voluntarium: error 
+            ta<lb ed="#V" n="66" break="no"/>men cuiuslibet circunstantie non impedit simpliciter 
+            vo<lb ed="#V" n="67" break="no"/>luntarium
+          </p>
+          <p xml:id="kzz7yh-k106917-d1e481">
+            ¶ Ad quartum dicendum. quod quedam sunt 
+            <lb ed="#V" n="68"/>umpedimenta matrimonii: siue respectu eorum fit ertor: 
+            <!--00327.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k106917"><!-- l4d30a1 -->
-            <head xml:id="kzz7yh-k106917-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-k106917-d1e103">
-               <lb ed="#V" n="62"/>CIrca primum quaeruntur duo.
-   </p>
-            <p xml:id="kzz7yh-k106917-d1e108">
-      ¶ Primo vtrum 
-      <lb ed="#V" n="63"/>aliquis error impediat matrimonium. 
-   </p>
-            <p xml:id="kzz7yh-k106917-d1e113">
-               <lb ed="#V" n="64"/>¶ 2o vtrum solus error respctu persone vel conditionis ei 
-      <lb ed="#V" n="65"/>cum qua contrahitur impediat matrimonium. 
-   </p>
-            <div xml:id="kzz7yh-k106917-Dd1e120">
-               <head xml:id="kzz7yh-k106917-Hd1e122">Quaestio 1</head>
-               <p xml:id="kzz7yh-k106917-d1e124">
-      Quaestio iIl.
-    </p>
-               <p xml:id="kzz7yh-k106917-d1e126">
-                  <lb ed="#V" n="66"/>PRimo ostendo quod nullus error impediat 
-      <lb ed="#V" n="67"/>matrimonium: quia nihil impedit 
-      <lb ed="#V" n="68"/>matrimonium nisi sit contra aliquod de bomnis 
-      matrimo<lb ed="#V" n="69" break="no"/>nii: sed error cum nihil aliud sit quam aliud pro alio 
-      <lb ed="#V" n="70"/>putare secundum Augumentum Enchiridion. 13 c. non est contra aliquod de 
-      bo<lb ed="#V" n="71" break="no"/>nis matrimonii. vt patet inducenti: ergo non impedit 
-      matri<lb ed="#V" n="72" break="no"/>monium.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e144">
-      ¶ Item si aliquis baptizat vnum quem putat esse alium. 
-      <lb ed="#V" n="73"/>vel seruum quem putat esse liberum vere baptizat: ergo a 
-      si<lb ed="#V" n="74" break="no"/>mili si mulier contrahit cum vno quem putat alium: vel cum 
-      ser<lb ed="#V" n="75" break="no"/>uo quem putat liberum: verum contrahit matrimonium.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e153">
-      ¶ Item 
-      <lb ed="#V" n="76"/>non obstante errore persone fuit inter Iacob et Lyam 
-      matri<lb ed="#V" n="77" break="no"/>monium: vt habetur Gen. 29. sed si aliquis error impediret 
-      matri<lb ed="#V" n="78" break="no"/>monium: hoc maxime faceret error respectu persone: ergo 
-      nul<lb ed="#V" n="79" break="no"/>lus error impedit.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e165">
-      ¶ Item quamuis Isaac bedicendo Iacob 
-      <lb ed="#V" n="80"/>crederet benedicere Esau: valuit tamen bedictio Iacob: vt 
-      <lb ed="#V" n="81"/>enim habetr geneseo 27 dicit Isaac. bedixi ei et erit bedictus: ergo 
-      <lb ed="#V" n="82"/>a simili quamuis contrahat mulier cum vno quem credit 
-      <lb ed="#V" n="83"/>alium: verum est matrimonium: sed si talis error non 
-      im<lb ed="#V" n="84" break="no"/>pedit: multo fortius nullus alius. 
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e178">
-                  <lb ed="#V" n="85"/>Contra si aliquis promittit se venditurum mihiautum: et pro 
-      <lb ed="#V" n="86"/>auro affert mihi aurichalcum non tenet contractus: 
-      <lb ed="#V" n="87"/>quia non consensi in emptione auricalchi: sed auri. error enim 
-      cir<lb ed="#V" n="88" break="no"/>ca materiam excludit consensum: sicut dicit magister huius di. c. 
-      <lb ed="#V" n="89"/>1. et est. 29. q. 1. ante mediu. cum ergo persone contrahentes sint materia 
-      <lb ed="#V" n="90"/>matrimonii. error respectu persone cum qua contrahitur impedit 
-      ma<lb ed="#V" n="91" break="no"/>trimonium.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e196">
-      ¶ Item secundum philosophum. 3. ethi. c. 3. Omne quod est propter 
-      <lb ed="#V" n="92"/>ignorantiam non est voluntarium: sed quod sit per errorem sit per 
-      igno<lb ed="#V" n="93" break="no"/>rantiam: ergo est non voluntarium: sed consensus actus est 
-      volun<lb ed="#V" n="94" break="no"/>tarius: ergo error respectu persone circa quam erratur: impedit 
-      <lb ed="#V" n="95"/>errantis consensum. et ex conseqenti matrimonium: quia quod 
-      im<lb ed="#V" n="96" break="no"/>pedit causam mpedit effectum. 
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e209">
-                  <lb ed="#V" n="97"/>Respondeo secndum quod dicit magister huius di. c. 1. et e. 
-      <lb ed="#V" n="98"/>26. q. 1. §. 1. alius est error per sone 
-      ali<lb ed="#V" n="99" break="no"/>fortune. alius conditionis: alius qualitatis: verbi gratia. mulie 
-      <lb ed="#V" n="100"/>volens contrahere errat circa personam cum qua contrahit quando putat ipsum 
-      <lb ed="#V" n="101"/>esse alium qui non est: vt si putet ipsum esse Titium et est martinus 
-      <lb ed="#V" n="102"/>Errat circa eius fortunam: si putat eum esse diuitem: et est pauper 
-      <lb ed="#V" n="103"/>Errat circa eius conditionem: si putat eum esse liberum et seruus est. 
-      <lb ed="#V" n="104"/>Errat circa eius qualitatem: si putat eum esse bonum: et est malus. 
-      <lb ed="#V" n="105"/>Primus error in pedit matrimonium: quia impedit consensum ex 
-      <lb ed="#V" n="106"/>parte errantis respectu persone cum quae contrahit: cum enim Berta contrahit 
-      <lb ed="#V" n="107"/>cum Titio non putans illum esse Titium sed Martinum: non 
-      consen<lb ed="#V" n="108" break="no"/>tit in Titium sed in Martinum: quia sicut secundum Aug. 10. de trinitate. c. 
-      <lb ed="#V" n="109"/>1. non proaesent amari nisi cognita: sic non potest esse consensus in 
-      perso<lb ed="#V" n="110" break="no"/>nam non cognitam. Quomdo autem error conditionis impediat 
-      <lb ed="#V" n="111"/>matrimonium declarandum est inferius. distin. 36. Utrum 
-      <lb ed="#V" n="112"/>autem error fortune et qualitatis matrimonium impediat 
-      <lb ed="#V" n="113"/>vel non: declarabitur in sequenti questione. 
-    </p>
-               <p xml:id="kzz7yh-k106917-d1e248">
-                  <lb ed="#V" n="114"/>Ad primum in oppositum dicendum quod error persone est et 
-      <lb ed="#V" n="115"/>essentiam matrimonii inquantum 
-      impe<lb ed="#V" n="116" break="no"/>dit eius efficientem causam qui est mutuus consensus.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e257">
-      ¶ Ad 2m 
-      <lb ed="#V" n="117"/>dicendum quod non est simile: quia in susceptione baptismi efficitur 
-      simpli<lb ed="#V" n="118" break="no"/>melior conditio suscipientis non autem efficitur simpliciter melior 
-      <lb ed="#V" n="119"/>conditio matrimonium contrahentis: et ideo requiritur specialior 
-      in<lb ed="#V" n="120" break="no"/>tentio et consensus liberior in matrimonium contrahente quam in 
-      ba<lb ed="#V" n="121" break="no"/>ptizante.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e271">
-      ¶ Ad tertium dicendum quod sicut dicit magister in 
-      <lb ed="#V" n="122"/>littera huius distin. ca 1. quamuis concubitum Iacob cum 
-      <lb ed="#V" n="123"/>Lya non precesserit consensus. tamen est subsecutus: sicut 
-      <lb ed="#V" n="124"/>dicitur. 29. q. prima quasi statim post medium Iacob et 
-      <lb ed="#V" n="125"/>Lyam non fecit coniuges precedens consensus: sed 
-      subse<lb ed="#V" n="126" break="no"/>quens.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e284">
-      ¶ Ad quartum dicendum quod non est simile. quia 
-      il<lb ed="#V" n="127" break="no"/>la benedictio fuit opus dei: circa quod non potest cadere 
-      <!--00327.xml-->
-      <pb ed="#V" n="148-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>error. sed consensus est actus hominis circa quem etror 
-      <lb ed="#V" n="2"/>cadere potest.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e300">
-      ¶ Preterea illa benedictio debebatur 
-      Ia<lb ed="#V" n="3" break="no"/>cob ex ordinatione diuina: quod post factum Isaac per 
-      re<lb ed="#V" n="4" break="no"/>uelationem intelligens benedictionem confirmauit dicens 
-      <lb ed="#V" n="5"/>benedixi ei et erit benedictus. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k106917-Dd1e311">
-               <head xml:id="kzz7yh-k106917-Hd1e313">Quaestio 2</head>
-               <p xml:id="kzz7yh-k106917-d1e315">
-      Quaestio II.
-    </p>
-               <p xml:id="kzz7yh-k106917-d1e317">
-                  <lb ed="#V" n="6"/>SEcundo queritur vtrum solus error 
-      <lb ed="#V" n="7"/>respectu persone vel 
-      condi<lb ed="#V" n="8" break="no"/>tionis eius cum qua contrahitur impediat 
-      matri<lb ed="#V" n="9" break="no"/>monium. Et videtur quod non: quia omnis error respectu alicuius 
-      dei<lb ed="#V" n="10" break="no"/>bomnis matrimonii impedit matrimonium: sed error sterilitatis est 
-      re<lb ed="#V" n="11" break="no"/>alicuus quod est contra bonum prolis. ergo error sterilitatis impedit 
-      matri<lb ed="#V" n="12" break="no"/>monium.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e335">
-      ¶ Item magister huius di. c id est Si quis seminam 
-      nobi<lb ed="#V" n="13" break="no"/>lem in coniugium petat et pro ea alia ignobilis tradatur ei. non 
-      <lb ed="#V" n="14"/>est inter eos coniugium. sed error ignobilitatis 
-      comprehendi<lb ed="#V" n="15" break="no"/>tur sub errore fortune vel qualitatis. ergo non solus error 
-      <lb ed="#V" n="16"/>persone vel conditionis impedit matrimonium.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e346">
-      ¶ Item 
-      om<lb ed="#V" n="17" break="no"/>nis error qui impedit voluntarium impedit matrimonium: 
-      <lb ed="#V" n="18"/>sed secundum philosophum. 3. ethico. ca. 3. Ignorantia cuiuslibet 
-      <lb ed="#V" n="19"/>circunstantie tollit voluntarium: ergo error respectu 
-      cuiuscum<lb ed="#V" n="20" break="no"/>quo circunstantie impedit matrimonium.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e358">
-      ¶ Item si aliqui 
-      con<lb ed="#V" n="21" break="no"/>trahit cum consanguinea quam putat extraneam impeditur 
-      matri<lb ed="#V" n="22" break="no"/>monium: sed error respectu consanguinitatis non est error 
-      re<lb ed="#V" n="23" break="no"/>spectu persone: nec respectu conditionis. ergo aliis error 
-      <lb ed="#V" n="24"/>ab illis impedit matrimonium. 
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e369">
-                  <lb ed="#V" n="25"/>Contra magister huius dist. c. 1. et habetur. 29. q. 1. 
-      <lb ed="#V" n="26"/>ante medium. Error fortune et qualitatis 
-      <lb ed="#V" n="27"/>coniugitu consensum non excludit. error vero conditionis 
-      coniugalem<lb ed="#V" n="28" break="no"/>consensum euacuat. error quoque persone coniugalem consensum non 
-      <lb ed="#V" n="29"/>admittit. Cum ergo omnis error ad vnum de illis quatuor 
-      reduca<lb ed="#V" n="30" break="no"/>tur. solus error persone vel conditionis matrimonium impedit. 
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e385">
-                  <lb ed="#V" n="31"/>Respondeo quod inter habentes vsum liberi 
-      ar<lb ed="#V" n="32" break="no"/>bitrii nullus alius error quam 
-      perso<lb ed="#V" n="33" break="no"/>ne: vel conditionis matrimonium impedit: quia nullus error 
-      <lb ed="#V" n="34"/>matrimonium impedit nisi sit respectu alicuius eorum que 
-      <lb ed="#V" n="35"/>sunt matrimonio essentialia. Sed solus error persone vel 
-      <lb ed="#V" n="36"/>conditionis est respectu eorum que sunt matrimonio 
-      essen<lb ed="#V" n="37" break="no"/>tialia: error enim persone est respectu huius quod estus materiale 
-      <lb ed="#V" n="38"/>in matrimonio. persone enim contrahentes sunt matrimonii materiam. 
-      <lb ed="#V" n="39"/>error vero conditionis est respectu huius quod est formale in 
-      ma<lb ed="#V" n="40" break="no"/>trimonio quod est obligatio per totam vitam ad reddendum debitum 
-      <lb ed="#V" n="41"/>cum ab altero coniuge exigatur: cui obligationi opponitur 
-      con<lb ed="#V" n="42" break="no"/>ditio seruitutis: quia seruus cum sit possessio domini sui: 
-      po<lb ed="#V" n="43" break="no"/>test occupari per dominum frequenter circa opera que non 
-      <lb ed="#V" n="44"/>patiuntur ipsum reddere debitum petenti: si contraxit 
-      preter<lb ed="#V" n="45" break="no"/>licentiam domini sui. Alie etiam rationes inferius dicentur. Et 
-      <lb ed="#V" n="46"/>ror autem fortune vel qualitatis non est nisi respectu eorum 
-      <lb ed="#V" n="47"/>que sunt accidentalia matrimonio. diuitie enim et 
-      pauper<lb ed="#V" n="48" break="no"/>tas: pulchritudo: et turpitudo: bomni mores et mali 
-      matrimo<lb ed="#V" n="49" break="no"/>nio sunt accidentalia: et ideo error circa talia 
-      matrimo<lb ed="#V" n="50" break="no"/>nium non impedit. tmnmd. 
-    </p>
-               <p xml:id="kzz7yh-k106917-d1e431">
-                  <lb ed="#V" n="51"/>Ad primum in oppositum dicendum quod bonum 
-      <lb ed="#V" n="52"/>prolis secundum quod est quid essentiale 
-      ma<lb ed="#V" n="53" break="no"/>trimonio non est generatio prolis: sed obligatio ad eius 
-      su<lb ed="#V" n="54" break="no"/>sceptionem et religiosam educationem si genita fuerit: contra hoc 
-      <lb ed="#V" n="55"/>aut non est sterilitas.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e444">
-      ¶ Ad secundum dicendum quod aliquando errat 
-      <lb ed="#V" n="56"/>contrahens circa subiectum nobilitatis: aliquando circa 
-      <lb ed="#V" n="57"/>nobilitatem subiecti non circa subiectum.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e451">
-      ¶ Primo 
-      mo<lb ed="#V" n="58" break="no"/>do est error persone vt cum intendit contrahere cum filia 
-      re<lb ed="#V" n="59" break="no"/>gis et loco illius sibi presentatur filia vnius ciuis: et ideo 
-      <lb ed="#V" n="60"/>talis error impedit matrimonium: et sic intelligitur 
-      aucto<lb ed="#V" n="61" break="no"/>ritas magistri.
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e463">
-      ¶ Secundo modo est error qualitatis nec 
-      <lb ed="#V" n="62"/>impedit matrimonium. vt si quis consentiat in personam 
-      <lb ed="#V" n="63"/>sibi notam: quia credit eam nobilem et tamen non est. 
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e470">
-                  <lb ed="#V" n="64"/>¶ Ad tertium dicendum quod quamuis error cuiuslibet 
-      cir<lb ed="#V" n="65" break="no"/>cunstantie impediatur secundum quid voluntarium: error 
-      ta<lb ed="#V" n="66" break="no"/>men cuiuslibet circunstantie non impedit simpliciter 
-      vo<lb ed="#V" n="67" break="no"/>luntarium
-   </p>
-               <p xml:id="kzz7yh-k106917-d1e481">
-      ¶ Ad quartum dicendum. quod quedam sunt 
-      <lb ed="#V" n="68"/>umpedimenta matrimonii: siue respectu eorum fit ertor: 
-      <!--00327.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>siue non: vt consanguinitas et plura alia de quibus 
-      dice<lb ed="#V" n="70" break="no"/>tur inferius. et talia non comprehenduntur sub 
-      impedi<lb ed="#V" n="71" break="no"/>mento erroris: quedam sunt que non impediunt nisi per 
-      <lb ed="#V" n="72"/>errorem adiunctu: sicut diuersitas persone: et conditio 
-      seruitu<lb ed="#V" n="73" break="no"/>tis: et pec tantum comprenduntur sub impedimento erroris. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="69"/>siue non: vt consanguinitas et plura alia de quibus 
+            dice<lb ed="#V" n="70" break="no"/>tur inferius. et talia non comprehenduntur sub 
+            impedi<lb ed="#V" n="71" break="no"/>mento erroris: quedam sunt que non impediunt nisi per 
+            <lb ed="#V" n="72"/>errorem adiunctu: sicut diuersitas persone: et conditio 
+            seruitu<lb ed="#V" n="73" break="no"/>tis: et pec tantum comprenduntur sub impedimento erroris. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,354 +1,354 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="130-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f92863"><!-- l2d32a1 -->
-            <head xml:id="kzz7yh-f92863-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-f92863-d1e103">
-      ¶ Circa primum queruntur duo. 
-   </p>
-            <p xml:id="kzz7yh-f92863-d1e105">
-               <lb ed="#V" n="61"/>¶ Primo vtrum per baptismum remittatur peccatum 
-      <lb ed="#V" n="62"/>originale quantum ad culpam que est in mente.
-   </p>
-            <p xml:id="kzz7yh-f92863-d1e112">
-      ¶ Secun¬ 
-      <!--00274.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="63"/>do vtrum deleatur quantum ad eius causam que est in 
-      <lb ed="#V" n="64"/>carne.
-   </p>
-            <div xml:id="kzz7yh-f92863-Dd1e123">
-               <head xml:id="kzz7yh-f92863-Hd1e125">Quaestio 1</head>
-               <p xml:id="kzz7yh-f92863-d1e127">
-      ¶ Questio. 
-      <lb ed="#V" n="65"/>PRimo ostendo quod per baptismum 
-      <lb ed="#V" n="66"/>non remittatur 
-      pec<lb ed="#V" n="67" break="no"/>catum originale quantum ad culpam que est in 
-      men<lb ed="#V" n="68" break="no"/>te. Concupiscere post baptismum culpa est. Quia 
-      <lb ed="#V" n="69"/>sicut dicit Aug. 19. de ciui. dei ca. 4. non nullum vitium 
-      <lb ed="#V" n="70"/>est cum caro concupiscit aduersus spiritum. Cum ergo 
-      <lb ed="#V" n="71"/>quales sunt actus tales sint habitus: habitualis 
-      concupi<lb ed="#V" n="72" break="no"/>centia post baptismum: culpa est non actualis: sed 
-      origi<lb ed="#V" n="73" break="no"/>nalis.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e149">
-      ¶ Item Boe. 3 libro topi. vbi est effectus causa de 
-      <lb ed="#V" n="74"/>esse non potest: sed pena que est effectus originalis 
-      pecca<lb ed="#V" n="75" break="no"/>ti manet: etiam post baptismum: ergo et post baptismum 
-      <lb ed="#V" n="76"/>originale manet.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e158">
-      ¶ Item originalis culpa est carentia 
-      ori<lb ed="#V" n="77" break="no"/>ginalis iustitie. sed per baptismum non restituitur 
-      origi<lb ed="#V" n="78" break="no"/>nalis iustitia: ergo nec per baptismum remittitur 
-      origina<lb ed="#V" n="79" break="no"/>lis culpa.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e167">
-      ¶ Item destructio priuationis in aliquo 
-      subie<lb ed="#V" n="80" break="no"/>cto: est per introductionem alicuius habitus oppositi: 
-      si<lb ed="#V" n="81" break="no"/>ergo ipsa culpa originalis que formaliter est priuatio 
-      tol<lb ed="#V" n="82" break="no"/>litur per baptismum. Aut hoc est per introductionem 
-      ori<lb ed="#V" n="83" break="no"/>ginalis iustitie. Aut characteris. Aut gratie gratum 
-      facien<lb ed="#V" n="84" break="no"/>tis. Non primo modo: quia originalis iustitia non 
-      resti<lb ed="#V" n="85" break="no"/>tuitur. Nec secundo modo: quia tunc in recipientibus 
-      ba<lb ed="#V" n="86" break="no"/>ptismum cum actuali voluntate mortaliter peccandi 
-      re<lb ed="#V" n="87" break="no"/>mittitur. Nec tertio modo: quia quando caderet 
-      homo<lb ed="#V" n="88" break="no"/>a gratia originale reuerteretur: quia destructo habitu 
-      re<lb ed="#V" n="89" break="no"/>manet similis priuatio illi que per habitum excludebatur: 
-      <lb ed="#V" n="90"/>ergo videtur quod culpa originalis per baptismum non remittitur. 
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e194">
-                  <lb ed="#V" n="91"/>Contra Aug. I. libro de baptismo paruulorum longe 
-      <lb ed="#V" n="92"/>ante medium: contra illos loquens qui 
-      di<lb ed="#V" n="93" break="no"/>cunt paruulos baptizari non pro originali peccato 
-      dimit<lb ed="#V" n="94" break="no"/>tendo: dicit quis christianorum ferat: cum dicitur ad 
-      eter<lb ed="#V" n="95" break="no"/>nam salutem posse quemquam peruenire si non renascatur in 
-      <lb ed="#V" n="96"/>christo quod per baptisimum fieri voluit. Sed per baptismum 
-      <lb ed="#V" n="97"/>non renascerentur in christo: nisi per ipsum remitteretur 
-      <lb ed="#V" n="98"/>originale peccatum.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e214">
-      ¶ Item eodem libro prope medium 
-      <lb ed="#V" n="99"/>dicit quod nulla ex nostro arbitrio preter baptismum 
-      chri<lb ed="#V" n="100" break="no"/>sti salus eterna promittebatur infantibus: in quo 
-      inclu<lb ed="#V" n="101" break="no"/>ditur quod per baptismum eis potest promitti vita eterna: 
-      <lb ed="#V" n="102"/>quod non esset verum si originalis culpa non remitteretur per 
-      <lb ed="#V" n="103"/>baptismum.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e227">
-      ¶ Item act. 2. dicit Petrus baptizetur 
-      vnus<lb ed="#V" n="104" break="no"/>quisque vestrum in nomine Iesu christi in remissionem 
-      pec<lb ed="#V" n="105" break="no"/>catorum vestrorum: et accipientis donum spiritus sancti. 
-      <lb ed="#V" n="106"/>Cum ergo nullum peccatum mortale possit remitti sine 
-      <lb ed="#V" n="107"/>alio: sequitur quod per baptismum remittitur originale peccatum. 
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e238">
-                  <lb ed="#V" n="108"/>Respondeo quod peccatum originale quantum ad 
-      <lb ed="#V" n="109"/>suum formale quod est carentia 
-      ori<lb ed="#V" n="110" break="no"/>ginalis iustitie cum debito habendi eam. Cui gratia 
-      gra<lb ed="#V" n="111" break="no"/>tum faciens est incompossibilis: eo quod sibi opponitur secundum 
-      <lb ed="#V" n="112"/>se simpliciter remittitur per baptismum: non quia in 
-      baptis<lb ed="#V" n="113" break="no"/>mo restituatur originalis iustitia. Sed quia ibi per 
-      meri<lb ed="#V" n="114" break="no"/>tum christi et gratiam gratum facientem que in baptismo 
-      <lb ed="#V" n="115"/>paruulo datur: et cuius gratie ex tunc paruulus debito:r 
-      <lb ed="#V" n="116"/>constituitur: debitum originalis iustitie remittitur: ita quod 
-      <lb ed="#V" n="117"/>debitum originalis iustitie in debitum gratie gratum 
-      fa<lb ed="#V" n="118" break="no"/>cientis commutatur. Et ideo quamuis puer post baptismum 
-      <lb ed="#V" n="119"/>careat originali iustitia: non tamen pro illa carentia 
-      cul<lb ed="#V" n="120" break="no"/>patur: quia non quecumque carentia iustitie: culpa est: sed 
-      ca<lb ed="#V" n="121" break="no"/>rentia iustitie ad quam habendam ille qui ea caret 
-      obli<lb ed="#V" n="122" break="no"/>gatur. Et his concordat Anselmus in lib. de concep. virgi. iuxta 
-      <lb ed="#V" n="123"/>finem liberi dicens. Iustitia que ante baptismum 
-      debeba<lb ed="#V" n="124" break="no"/>tur ab infantibus absque omni excusatione post baptismum 
-      <lb ed="#V" n="125"/>ab illis non exigitur quasi ex debito: quamdiu ergo sola 
-      ori<lb ed="#V" n="126" break="no"/>ginali in potentia non habent iustitiam: non sunt iniusti: 
-      <lb ed="#V" n="127"/>quoniam non est in eis absentia debite iustitie.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e284">
-      ¶ 
-      Quan<lb ed="#V" n="128" break="no"/>tum vero ad concupiscentiam que est materiale in peccato 
-      <lb ed="#V" n="129"/>originali: et cui non opponitur gratia gratum faciens secundum se: 
-      <lb ed="#V" n="130"/>sed quantum ad eius inclinationem eo quod inclinat ad contrarium 
-      <!--00275.xml-->
-      <pb ed="#V" n="131-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>huius: ad quod inclinat concupiscentia non totaliter 
-      re<lb ed="#V" n="2" break="no"/>mittitur. Sed per quandam gratiam gratis datam: sicut 
-      <lb ed="#V" n="3"/>forte est character baptismalis: et per gratiam gratum 
-      facien<lb ed="#V" n="4" break="no"/>tem: que ad contrarium inclinat: debilitatur. Unde 
-      cete<lb ed="#V" n="5" break="no"/>ris paribus in non baptizatis: fortior est: quia tamen in 
-      ba<lb ed="#V" n="6" break="no"/>ptizato non remanet coniuncta illi deformitati que 
-      for<lb ed="#V" n="7" break="no"/>maliter est culpa: ideo rationem culpe non retinet. Sicut 
-      <lb ed="#V" n="8"/>non potest vere dici quod corpus cares anima sit homo: 
-      ho<lb ed="#V" n="9" break="no"/>mo enim mortuus non est homo. Huic concordat Aug. id est 
-      <lb ed="#V" n="10"/>libo de nuptiis et concupiscentia prope medium locum 
-      in<lb ed="#V" n="11" break="no"/>termedium et finem dicens dimitti concupiscentiam 
-      car<lb ed="#V" n="12" break="no"/>nis in baptismo: non vt non sit: sed vt in peccatum non imputetur. 
-    </p>
-               <p xml:id="kzz7yh-f92863-d1e326">
-                  <lb ed="#V" n="13"/>Ad primum in oppositum dicendum: quod 
-      concu<lb ed="#V" n="14" break="no"/>piscere post baptismum culpa non 
-      <lb ed="#V" n="15"/>est: nisi processerit ex voluntatis omissione: vel 
-      commissio<lb ed="#V" n="16" break="no"/>ne: tamen semper vitium est: quia est motus discordans 
-      <lb ed="#V" n="17"/>a prima institutione nature. Differentia autem est inter 
-      <lb ed="#V" n="18"/>culpam et vitium. Ut superius ostensum est dis. 21.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e343">
-      ¶ Alii 
-      <lb ed="#V" n="19"/>concedentes quod concupiscere semper est aliqua culpa: 
-      di<lb ed="#V" n="20" break="no"/>cunt quod illa propositio: quales sunt actus tales sunt 
-      habi<lb ed="#V" n="21" break="no"/>tus: de habitibus acquisitis non innatis intelligenda est. 
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e352">
-                  <lb ed="#V" n="22"/>¶ Ad secundum dicendum: quod illa propositio vbi est 
-      effe<lb ed="#V" n="23" break="no"/>ctus: causa deesse non potest: intelligenda est de causa 
-      effi<lb ed="#V" n="24" break="no"/>ciente et conseruante: quamuis autem per culpam 
-      origina<lb ed="#V" n="25" break="no"/>lem sit in paruulo pena: non tamen conseruatur per eam. 
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e363">
-                  <lb ed="#V" n="26"/>¶ Ad tertium dicendum: quod quamuis per baptismum non 
-      <lb ed="#V" n="27"/>restituatur originalis iustitia: tamen remittitur debitum 
-      <lb ed="#V" n="28"/>habendi eam: et ideo post baptismum carentia originalis 
-      <lb ed="#V" n="29"/>iustitie culpa non est que ante baptismum culpa erat.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e374">
-      ¶ Ad 
-      <lb ed="#V" n="30"/>quartum dicendum: quod cum priuatio sit carentia rei debite 
-      <lb ed="#V" n="31"/>potest destrui vel per restitutionem habitus: cuius est 
-      ca<lb ed="#V" n="32" break="no"/>rentia: vel per aliquid quo simpliciter illud debitum 
-      qui<lb ed="#V" n="33" break="no"/>tatur: vel in aliud commutatur: primo modo non remittitr 
-      <lb ed="#V" n="34"/>originalis culpa per baptismum: quia per ipsum iustitia 
-      ori<lb ed="#V" n="35" break="no"/>ginalis non restituitur de lege communi: sed secundo modo: 
-      <lb ed="#V" n="36"/>in baptismo enim per meritum christi et gratiam gratum 
-      <lb ed="#V" n="37"/>facientem tollitur debitum habendi iustitiam: et ponitur 
-      <lb ed="#V" n="38"/>debitum habendi gratiam gratum facientem. De 
-      destructio<lb ed="#V" n="39" break="no"/>ne priuationis modo primo procedit argumentum: non 
-      de<lb ed="#V" n="40" break="no"/>destructione priuationis modo secundo: non enim oportet quod 
-      <lb ed="#V" n="41"/>si aliquid per quod debitum remittitur transeat: quod illud idem 
-      <lb ed="#V" n="42"/>debitum reuocetur maxime quando manet debitum in 
-      <lb ed="#V" n="43"/>quod primum debitum fuerat commutatum.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f92863-Dd1e409">
-               <head xml:id="kzz7yh-f92863-Hd1e411">Quaestio 2</head>
-               <p xml:id="kzz7yh-f92863-d1e413">
-      ¶ Quaestio II 
-      <lb ed="#V" n="44"/>SEcundo quaeritur vtrum per baptismum 
-      <lb ed="#V" n="45"/>peccatum originale deleatur 
-      <lb ed="#V" n="46"/>quantum ad eius causam que est in carne. Et 
-      vi<lb ed="#V" n="47" break="no"/>detur quod sic. Dam. 4 libro parum post principium 
-      <lb ed="#V" n="48"/>dicit: quoniam duplex homo ex anima et corpore 
-      duplicen<lb ed="#V" n="49" break="no"/>dedit nobis deus purgationem. Et purgationem per 
-      aquan<lb ed="#V" n="50" break="no"/>et spiritum: spiritu quidem quod secundum imaginem et similitudinem 
-      <lb ed="#V" n="51"/>renouante: Aqua autem per spiritus gratiam corpus a peccato 
-      pur<lb ed="#V" n="52" break="no"/>gante et a corruptione liberante: ergo per baptismum 
-      re<lb ed="#V" n="53" break="no"/>mouetur corporis corruptio que fuit originalis peccati 
-      cau<lb ed="#V" n="54" break="no"/>sa.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e439">
-      ¶ Item Boe. 3 libro topi. vbi est causa: ibi effectus de 
-      <lb ed="#V" n="55"/>esse non potest. Si ergo corruptio carnis cui anima 
-      con<lb ed="#V" n="56" break="no"/>iuncta est: que est casa originalis peccati manet peccatum 
-      ori<lb ed="#V" n="57" break="no"/>ginale in anima deesse non potest. Cum ergo ipsa culpa 
-      origi<lb ed="#V" n="58" break="no"/>nalis remittatur in mete: vt ostensum est. Sequitur quod 
-      remit<lb ed="#V" n="59" break="no"/>titur causa eius que erat in carne.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e452">
-      ¶ Item non est sufficiens 
-      <lb ed="#V" n="60"/>medicina qui curat morbum: et non radicem morbi. Sed 
-      <lb ed="#V" n="61"/>baptismus est sufficiens medicina contra peccatum: ergo non 
-      <lb ed="#V" n="62"/>tantummodo curat culpam originalem in mente: sed etiam eius 
-      <lb ed="#V" n="63"/>radicem que erat in carne.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e463">
-      ¶ Item philosophus. 2. topi. si illud quod 
-      <lb ed="#V" n="64"/>minus videtur inesse inest: et illud quod magis. Sed magis 
-      <lb ed="#V" n="65"/>videtur quod per baptismum possit remitti peccatum originale quantum 
-      <lb ed="#V" n="66"/>ad suam causam que est in carne: quam quantum ad culpam que 
-      <lb ed="#V" n="67"/>est in mente: quia longe maior est infectio que est in 
-      men<lb ed="#V" n="68" break="no"/>te quam feditas que est in carne. Cum ergo per baptismum 
-      <!--00275.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>deleatur peccatum originale quantum ad culpam que est 
-      <lb ed="#V" n="70"/>in mente: et multo fortius deletur quantum ad feditatem 
-      <lb ed="#V" n="71"/>que est in carne. 
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e488">
-                  <lb ed="#V" n="72"/>Contra apostolus <ref xml:id="kzz7yh-f92863-Rd1e496">Rom. 1</ref> <quote xml:id="kzz7yh-f92863-Qd1e498" source="http://scta.info/resource/rom11_16@9-13">si radix sancta et rami. 
-      <lb ed="#V" n="73"/>Sed a baptizato generatur natura prolis 
-      in<lb ed="#V" n="74" break="no"/>fecta</quote>: ergo in baptizato remanet natura carnis infecta. 
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e497">
-                  <lb ed="#V" n="75"/>¶ Item ex feditate carnis causatur concupiscentia. Sed in 
-      ba<lb ed="#V" n="76" break="no"/>ptizatis remanet concupientia: ergo in eis remanet caro infecta. 
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e504">
-                  <lb ed="#V" n="77"/>Ad istam questionem dicunt aliqui quod 
-      <lb ed="#V" n="78"/>causa peccati 
-      origi<lb ed="#V" n="79" break="no"/>nalis que est in carne per baptismum destruitur quo ad 
-      <lb ed="#V" n="80"/>hoc quod in eadem persona amplius non potest causare 
-      pecca<lb ed="#V" n="81" break="no"/>tu originale: non tamen ita destruitur quin possit causare 
-      <lb ed="#V" n="82"/>peccatum originale in prole: aliter enim geniti a 
-      baptiza<lb ed="#V" n="83" break="no"/>tis non contraherent peccatum originale: quod falsum est.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e522">
-      ¶ Sed 
-      <lb ed="#V" n="84"/>hoc responsio non bene clare et plene videtur satisfacere quaestioni. 
-      <lb ed="#V" n="85"/>Adhuc enim restat querendum: quare ista caro si 
-      rema<lb ed="#V" n="86" break="no"/>neat infecta: non potest causare originale peccatum in anima sibi 
-      <lb ed="#V" n="87"/>coniuncta: et tamen caro ab ista genita causabit peccatum 
-      ori<lb ed="#V" n="88" break="no"/>ginale in anima sibi coniuncta. Nec sufficit pro responsione 
-      <lb ed="#V" n="89"/>dicere quod concupiscentia in baptizato est minus intensa 
-      <lb ed="#V" n="90"/>quam in non baptizato: quia ponamus quod baptizatus sit 
-      ta<lb ed="#V" n="91" break="no"/>lis complexionis quod in eo multum vigeat concupiscentia: 
-      <lb ed="#V" n="92"/>et generet alium in quo multo nobilior est concupiscentia: 
-      <lb ed="#V" n="93"/>adhuc iste genitus nascetur in vtero: et de vterocnisi ante 
-      <lb ed="#V" n="94"/>fuerit sanctificatus in originali peccato.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e548">
-      ¶ Unde mihi 
-      <lb ed="#V" n="95"/>videtur dicendum: quod cum peccatum originale formaliter sit 
-      ca<lb ed="#V" n="96" break="no"/>rentia originalis iustitie debite nihil ad plenum est causa 
-      <lb ed="#V" n="97"/>originalis peccati: nisi sit causa carentie illius originalis 
-      <lb ed="#V" n="98"/>iustitie praesupposito debito habendi eam: quia quamuis illud 
-      de<lb ed="#V" n="99" break="no"/>bitum non sit peccatum: nec pars peccati: quia res aliqua est: et a deo 
-      <lb ed="#V" n="100"/>est: tamen carentia originalis iustitie: non est culpa: nisi sit 
-      praesup<lb ed="#V" n="101" break="no"/>positio illius debiti. Infectio autem que est in carne et si sit causa 
-      <lb ed="#V" n="102"/>carentie originalis iustitie in anima: non tamen causa est 
-      de<lb ed="#V" n="103" break="no"/>bite habendi eam. Sed illa donatio quae fuit data ipsi ade: immo 
-      <lb ed="#V" n="104"/>vt proprius loquar: toti humane nature in adam. Caro 
-      er<lb ed="#V" n="105" break="no"/>go infecta non potest causare culpam originalem in persona 
-      <lb ed="#V" n="106"/>cuius est caro: nisi illa persona sit debitrix originalis 
-      iusti<lb ed="#V" n="107" break="no"/>tie: illud autem debitum remittitur per baptismum: vt 
-      di<lb ed="#V" n="108" break="no"/>ctum est: et ideo in anima baptizati non potest amplius 
-      cau<lb ed="#V" n="109" break="no"/>sari originale peccatum ab infecta carne: et quia illud 
-      debi<lb ed="#V" n="110" break="no"/>tum non est remissum in non baptizato: ideo caro a 
-      bapti<lb ed="#V" n="111" break="no"/>3ato propagata potest animam sibi coniunctam inficere: 
-      <lb ed="#V" n="112"/>infectione originalis peccati. 
-    </p>
-               <p xml:id="kzz7yh-f92863-d1e590">
-                  <lb ed="#V" n="113"/>Ad primum in oppositum dicendum: quod po 
-      tan<lb ed="#V" n="114" break="no"/>to dicit Dam. per baptismum 
-      car<lb ed="#V" n="115" break="no"/>nem purgari: quia per baptismum feditas carnis et 
-      con<lb ed="#V" n="116" break="no"/>cupiscentia mitigantur: nec amplius possunt in anima 
-      ba<lb ed="#V" n="117" break="no"/>ptizati culpam originalem causare.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e604">
-      ¶ Ad secundum 
-      dicen<lb ed="#V" n="118" break="no"/>dum: quod corruptio carnis non est causa originalis culpe: 
-      <lb ed="#V" n="119"/>nisi presupposito debito originalis iustitie: quod debitum ipsi 
-      <lb ed="#V" n="120"/>baptizato remissum est.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e613">
-      ¶ Ad tertium dicendum: quod 
-      ba<lb ed="#V" n="121" break="no"/>ptismus est medicina persone: et per ipsum remittitur 
-      ori<lb ed="#V" n="122" break="no"/>ginalis culpa: vt est ipsius persone baptizate: et remouet 
-      <lb ed="#V" n="123"/>illud quod de necessitate praesupponebatur ad hoc quod per 
-      cor<lb ed="#V" n="124" break="no"/>ruptionem carnis possit causari culpa originalis in 
-      per<lb ed="#V" n="125" break="no"/>sona: et ita purgat et morbum et radicem per 
-      comparatio<lb ed="#V" n="126" break="no"/>nem ad personam baptizatam.
-   </p>
-               <p xml:id="kzz7yh-f92863-d1e629">
-      ¶ Ad quartum dicendum: quod 
-      <lb ed="#V" n="127"/>minor est falsa: quia quamuis maior sit infectio culpe que est 
-      <lb ed="#V" n="128"/>in mente: quam corruptio que est in carne: tamen quia 
-      gra<lb ed="#V" n="129" break="no"/>tia gratum faciens a deo est ordinata ad sanandum 
-      ani<lb ed="#V" n="130" break="no"/>mam magis quam carnem: ideo facilius est per eam 
-      purga<lb ed="#V" n="131" break="no"/>ri infectionem mentis quam infectionem carnis. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="130-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f92863"><!-- l2d32a1 -->
+        <head xml:id="kzz7yh-f92863-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-f92863-d1e103">
+          ¶ Circa primum queruntur duo. 
+        </p>
+        <p xml:id="kzz7yh-f92863-d1e105">
+          <lb ed="#V" n="61"/>¶ Primo vtrum per baptismum remittatur peccatum 
+          <lb ed="#V" n="62"/>originale quantum ad culpam que est in mente.
+        </p>
+        <p xml:id="kzz7yh-f92863-d1e112">
+          ¶ Secun¬ 
+          <!--00274.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="63"/>do vtrum deleatur quantum ad eius causam que est in 
+          <lb ed="#V" n="64"/>carne.
+        </p>
+        <div xml:id="kzz7yh-f92863-Dd1e123">
+          <head xml:id="kzz7yh-f92863-Hd1e125">Quaestio 1</head>
+          <p xml:id="kzz7yh-f92863-d1e127">
+            ¶ Questio. 
+            <lb ed="#V" n="65"/>PRimo ostendo quod per baptismum 
+            <lb ed="#V" n="66"/>non remittatur 
+            pec<lb ed="#V" n="67" break="no"/>catum originale quantum ad culpam que est in 
+            men<lb ed="#V" n="68" break="no"/>te. Concupiscere post baptismum culpa est. Quia 
+            <lb ed="#V" n="69"/>sicut dicit Aug. 19. de ciui. dei ca. 4. non nullum vitium 
+            <lb ed="#V" n="70"/>est cum caro concupiscit aduersus spiritum. Cum ergo 
+            <lb ed="#V" n="71"/>quales sunt actus tales sint habitus: habitualis 
+            concupi<lb ed="#V" n="72" break="no"/>centia post baptismum: culpa est non actualis: sed 
+            origi<lb ed="#V" n="73" break="no"/>nalis.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e149">
+            ¶ Item Boe. 3 libro topi. vbi est effectus causa de 
+            <lb ed="#V" n="74"/>esse non potest: sed pena que est effectus originalis 
+            pecca<lb ed="#V" n="75" break="no"/>ti manet: etiam post baptismum: ergo et post baptismum 
+            <lb ed="#V" n="76"/>originale manet.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e158">
+            ¶ Item originalis culpa est carentia 
+            ori<lb ed="#V" n="77" break="no"/>ginalis iustitie. sed per baptismum non restituitur 
+            origi<lb ed="#V" n="78" break="no"/>nalis iustitia: ergo nec per baptismum remittitur 
+            origina<lb ed="#V" n="79" break="no"/>lis culpa.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e167">
+            ¶ Item destructio priuationis in aliquo 
+            subie<lb ed="#V" n="80" break="no"/>cto: est per introductionem alicuius habitus oppositi: 
+            si<lb ed="#V" n="81" break="no"/>ergo ipsa culpa originalis que formaliter est priuatio 
+            tol<lb ed="#V" n="82" break="no"/>litur per baptismum. Aut hoc est per introductionem 
+            ori<lb ed="#V" n="83" break="no"/>ginalis iustitie. Aut characteris. Aut gratie gratum 
+            facien<lb ed="#V" n="84" break="no"/>tis. Non primo modo: quia originalis iustitia non 
+            resti<lb ed="#V" n="85" break="no"/>tuitur. Nec secundo modo: quia tunc in recipientibus 
+            ba<lb ed="#V" n="86" break="no"/>ptismum cum actuali voluntate mortaliter peccandi 
+            re<lb ed="#V" n="87" break="no"/>mittitur. Nec tertio modo: quia quando caderet 
+            homo<lb ed="#V" n="88" break="no"/>a gratia originale reuerteretur: quia destructo habitu 
+            re<lb ed="#V" n="89" break="no"/>manet similis priuatio illi que per habitum excludebatur: 
+            <lb ed="#V" n="90"/>ergo videtur quod culpa originalis per baptismum non remittitur. 
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e194">
+            <lb ed="#V" n="91"/>Contra Aug. I. libro de baptismo paruulorum longe 
+            <lb ed="#V" n="92"/>ante medium: contra illos loquens qui 
+            di<lb ed="#V" n="93" break="no"/>cunt paruulos baptizari non pro originali peccato 
+            dimit<lb ed="#V" n="94" break="no"/>tendo: dicit quis christianorum ferat: cum dicitur ad 
+            eter<lb ed="#V" n="95" break="no"/>nam salutem posse quemquam peruenire si non renascatur in 
+            <lb ed="#V" n="96"/>christo quod per baptisimum fieri voluit. Sed per baptismum 
+            <lb ed="#V" n="97"/>non renascerentur in christo: nisi per ipsum remitteretur 
+            <lb ed="#V" n="98"/>originale peccatum.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e214">
+            ¶ Item eodem libro prope medium 
+            <lb ed="#V" n="99"/>dicit quod nulla ex nostro arbitrio preter baptismum 
+            chri<lb ed="#V" n="100" break="no"/>sti salus eterna promittebatur infantibus: in quo 
+            inclu<lb ed="#V" n="101" break="no"/>ditur quod per baptismum eis potest promitti vita eterna: 
+            <lb ed="#V" n="102"/>quod non esset verum si originalis culpa non remitteretur per 
+            <lb ed="#V" n="103"/>baptismum.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e227">
+            ¶ Item act. 2. dicit Petrus baptizetur 
+            vnus<lb ed="#V" n="104" break="no"/>quisque vestrum in nomine Iesu christi in remissionem 
+            pec<lb ed="#V" n="105" break="no"/>catorum vestrorum: et accipientis donum spiritus sancti. 
+            <lb ed="#V" n="106"/>Cum ergo nullum peccatum mortale possit remitti sine 
+            <lb ed="#V" n="107"/>alio: sequitur quod per baptismum remittitur originale peccatum. 
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e238">
+            <lb ed="#V" n="108"/>Respondeo quod peccatum originale quantum ad 
+            <lb ed="#V" n="109"/>suum formale quod est carentia 
+            ori<lb ed="#V" n="110" break="no"/>ginalis iustitie cum debito habendi eam. Cui gratia 
+            gra<lb ed="#V" n="111" break="no"/>tum faciens est incompossibilis: eo quod sibi opponitur secundum 
+            <lb ed="#V" n="112"/>se simpliciter remittitur per baptismum: non quia in 
+            baptis<lb ed="#V" n="113" break="no"/>mo restituatur originalis iustitia. Sed quia ibi per 
+            meri<lb ed="#V" n="114" break="no"/>tum christi et gratiam gratum facientem que in baptismo 
+            <lb ed="#V" n="115"/>paruulo datur: et cuius gratie ex tunc paruulus debito:r 
+            <lb ed="#V" n="116"/>constituitur: debitum originalis iustitie remittitur: ita quod 
+            <lb ed="#V" n="117"/>debitum originalis iustitie in debitum gratie gratum 
+            fa<lb ed="#V" n="118" break="no"/>cientis commutatur. Et ideo quamuis puer post baptismum 
+            <lb ed="#V" n="119"/>careat originali iustitia: non tamen pro illa carentia 
+            cul<lb ed="#V" n="120" break="no"/>patur: quia non quecumque carentia iustitie: culpa est: sed 
+            ca<lb ed="#V" n="121" break="no"/>rentia iustitie ad quam habendam ille qui ea caret 
+            obli<lb ed="#V" n="122" break="no"/>gatur. Et his concordat Anselmus in lib. de concep. virgi. iuxta 
+            <lb ed="#V" n="123"/>finem liberi dicens. Iustitia que ante baptismum 
+            debeba<lb ed="#V" n="124" break="no"/>tur ab infantibus absque omni excusatione post baptismum 
+            <lb ed="#V" n="125"/>ab illis non exigitur quasi ex debito: quamdiu ergo sola 
+            ori<lb ed="#V" n="126" break="no"/>ginali in potentia non habent iustitiam: non sunt iniusti: 
+            <lb ed="#V" n="127"/>quoniam non est in eis absentia debite iustitie.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e284">
+            ¶ 
+            Quan<lb ed="#V" n="128" break="no"/>tum vero ad concupiscentiam que est materiale in peccato 
+            <lb ed="#V" n="129"/>originali: et cui non opponitur gratia gratum faciens secundum se: 
+            <lb ed="#V" n="130"/>sed quantum ad eius inclinationem eo quod inclinat ad contrarium 
+            <!--00275.xml-->
+            <pb ed="#V" n="131-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>huius: ad quod inclinat concupiscentia non totaliter 
+            re<lb ed="#V" n="2" break="no"/>mittitur. Sed per quandam gratiam gratis datam: sicut 
+            <lb ed="#V" n="3"/>forte est character baptismalis: et per gratiam gratum 
+            facien<lb ed="#V" n="4" break="no"/>tem: que ad contrarium inclinat: debilitatur. Unde 
+            cete<lb ed="#V" n="5" break="no"/>ris paribus in non baptizatis: fortior est: quia tamen in 
+            ba<lb ed="#V" n="6" break="no"/>ptizato non remanet coniuncta illi deformitati que 
+            for<lb ed="#V" n="7" break="no"/>maliter est culpa: ideo rationem culpe non retinet. Sicut 
+            <lb ed="#V" n="8"/>non potest vere dici quod corpus cares anima sit homo: 
+            ho<lb ed="#V" n="9" break="no"/>mo enim mortuus non est homo. Huic concordat Aug. id est 
+            <lb ed="#V" n="10"/>libo de nuptiis et concupiscentia prope medium locum 
+            in<lb ed="#V" n="11" break="no"/>termedium et finem dicens dimitti concupiscentiam 
+            car<lb ed="#V" n="12" break="no"/>nis in baptismo: non vt non sit: sed vt in peccatum non imputetur. 
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e326">
+            <lb ed="#V" n="13"/>Ad primum in oppositum dicendum: quod 
+            concu<lb ed="#V" n="14" break="no"/>piscere post baptismum culpa non 
+            <lb ed="#V" n="15"/>est: nisi processerit ex voluntatis omissione: vel 
+            commissio<lb ed="#V" n="16" break="no"/>ne: tamen semper vitium est: quia est motus discordans 
+            <lb ed="#V" n="17"/>a prima institutione nature. Differentia autem est inter 
+            <lb ed="#V" n="18"/>culpam et vitium. Ut superius ostensum est dis. 21.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e343">
+            ¶ Alii 
+            <lb ed="#V" n="19"/>concedentes quod concupiscere semper est aliqua culpa: 
+            di<lb ed="#V" n="20" break="no"/>cunt quod illa propositio: quales sunt actus tales sunt 
+            habi<lb ed="#V" n="21" break="no"/>tus: de habitibus acquisitis non innatis intelligenda est. 
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e352">
+            <lb ed="#V" n="22"/>¶ Ad secundum dicendum: quod illa propositio vbi est 
+            effe<lb ed="#V" n="23" break="no"/>ctus: causa deesse non potest: intelligenda est de causa 
+            effi<lb ed="#V" n="24" break="no"/>ciente et conseruante: quamuis autem per culpam 
+            origina<lb ed="#V" n="25" break="no"/>lem sit in paruulo pena: non tamen conseruatur per eam. 
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e363">
+            <lb ed="#V" n="26"/>¶ Ad tertium dicendum: quod quamuis per baptismum non 
+            <lb ed="#V" n="27"/>restituatur originalis iustitia: tamen remittitur debitum 
+            <lb ed="#V" n="28"/>habendi eam: et ideo post baptismum carentia originalis 
+            <lb ed="#V" n="29"/>iustitie culpa non est que ante baptismum culpa erat.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e374">
+            ¶ Ad 
+            <lb ed="#V" n="30"/>quartum dicendum: quod cum priuatio sit carentia rei debite 
+            <lb ed="#V" n="31"/>potest destrui vel per restitutionem habitus: cuius est 
+            ca<lb ed="#V" n="32" break="no"/>rentia: vel per aliquid quo simpliciter illud debitum 
+            qui<lb ed="#V" n="33" break="no"/>tatur: vel in aliud commutatur: primo modo non remittitr 
+            <lb ed="#V" n="34"/>originalis culpa per baptismum: quia per ipsum iustitia 
+            ori<lb ed="#V" n="35" break="no"/>ginalis non restituitur de lege communi: sed secundo modo: 
+            <lb ed="#V" n="36"/>in baptismo enim per meritum christi et gratiam gratum 
+            <lb ed="#V" n="37"/>facientem tollitur debitum habendi iustitiam: et ponitur 
+            <lb ed="#V" n="38"/>debitum habendi gratiam gratum facientem. De 
+            destructio<lb ed="#V" n="39" break="no"/>ne priuationis modo primo procedit argumentum: non 
+            de<lb ed="#V" n="40" break="no"/>destructione priuationis modo secundo: non enim oportet quod 
+            <lb ed="#V" n="41"/>si aliquid per quod debitum remittitur transeat: quod illud idem 
+            <lb ed="#V" n="42"/>debitum reuocetur maxime quando manet debitum in 
+            <lb ed="#V" n="43"/>quod primum debitum fuerat commutatum.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f92863-Dd1e409">
+          <head xml:id="kzz7yh-f92863-Hd1e411">Quaestio 2</head>
+          <p xml:id="kzz7yh-f92863-d1e413">
+            ¶ Quaestio II 
+            <lb ed="#V" n="44"/>SEcundo quaeritur vtrum per baptismum 
+            <lb ed="#V" n="45"/>peccatum originale deleatur 
+            <lb ed="#V" n="46"/>quantum ad eius causam que est in carne. Et 
+            vi<lb ed="#V" n="47" break="no"/>detur quod sic. Dam. 4 libro parum post principium 
+            <lb ed="#V" n="48"/>dicit: quoniam duplex homo ex anima et corpore 
+            duplicen<lb ed="#V" n="49" break="no"/>dedit nobis deus purgationem. Et purgationem per 
+            aquan<lb ed="#V" n="50" break="no"/>et spiritum: spiritu quidem quod secundum imaginem et similitudinem 
+            <lb ed="#V" n="51"/>renouante: Aqua autem per spiritus gratiam corpus a peccato 
+            pur<lb ed="#V" n="52" break="no"/>gante et a corruptione liberante: ergo per baptismum 
+            re<lb ed="#V" n="53" break="no"/>mouetur corporis corruptio que fuit originalis peccati 
+            cau<lb ed="#V" n="54" break="no"/>sa.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e439">
+            ¶ Item Boe. 3 libro topi. vbi est causa: ibi effectus de 
+            <lb ed="#V" n="55"/>esse non potest. Si ergo corruptio carnis cui anima 
+            con<lb ed="#V" n="56" break="no"/>iuncta est: que est casa originalis peccati manet peccatum 
+            ori<lb ed="#V" n="57" break="no"/>ginale in anima deesse non potest. Cum ergo ipsa culpa 
+            origi<lb ed="#V" n="58" break="no"/>nalis remittatur in mete: vt ostensum est. Sequitur quod 
+            remit<lb ed="#V" n="59" break="no"/>titur causa eius que erat in carne.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e452">
+            ¶ Item non est sufficiens 
+            <lb ed="#V" n="60"/>medicina qui curat morbum: et non radicem morbi. Sed 
+            <lb ed="#V" n="61"/>baptismus est sufficiens medicina contra peccatum: ergo non 
+            <lb ed="#V" n="62"/>tantummodo curat culpam originalem in mente: sed etiam eius 
+            <lb ed="#V" n="63"/>radicem que erat in carne.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e463">
+            ¶ Item philosophus. 2. topi. si illud quod 
+            <lb ed="#V" n="64"/>minus videtur inesse inest: et illud quod magis. Sed magis 
+            <lb ed="#V" n="65"/>videtur quod per baptismum possit remitti peccatum originale quantum 
+            <lb ed="#V" n="66"/>ad suam causam que est in carne: quam quantum ad culpam que 
+            <lb ed="#V" n="67"/>est in mente: quia longe maior est infectio que est in 
+            men<lb ed="#V" n="68" break="no"/>te quam feditas que est in carne. Cum ergo per baptismum 
+            <!--00275.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>deleatur peccatum originale quantum ad culpam que est 
+            <lb ed="#V" n="70"/>in mente: et multo fortius deletur quantum ad feditatem 
+            <lb ed="#V" n="71"/>que est in carne. 
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e488">
+            <lb ed="#V" n="72"/>Contra apostolus <ref xml:id="kzz7yh-f92863-Rd1e496">Rom. 1</ref> <quote xml:id="kzz7yh-f92863-Qd1e498" source="http://scta.info/resource/rom11_16@9-13">si radix sancta et rami. 
+              <lb ed="#V" n="73"/>Sed a baptizato generatur natura prolis 
+              in<lb ed="#V" n="74" break="no"/>fecta</quote>: ergo in baptizato remanet natura carnis infecta. 
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e497">
+            <lb ed="#V" n="75"/>¶ Item ex feditate carnis causatur concupiscentia. Sed in 
+            ba<lb ed="#V" n="76" break="no"/>ptizatis remanet concupientia: ergo in eis remanet caro infecta. 
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e504">
+            <lb ed="#V" n="77"/>Ad istam questionem dicunt aliqui quod 
+            <lb ed="#V" n="78"/>causa peccati 
+            origi<lb ed="#V" n="79" break="no"/>nalis que est in carne per baptismum destruitur quo ad 
+            <lb ed="#V" n="80"/>hoc quod in eadem persona amplius non potest causare 
+            pecca<lb ed="#V" n="81" break="no"/>tu originale: non tamen ita destruitur quin possit causare 
+            <lb ed="#V" n="82"/>peccatum originale in prole: aliter enim geniti a 
+            baptiza<lb ed="#V" n="83" break="no"/>tis non contraherent peccatum originale: quod falsum est.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e522">
+            ¶ Sed 
+            <lb ed="#V" n="84"/>hoc responsio non bene clare et plene videtur satisfacere quaestioni. 
+            <lb ed="#V" n="85"/>Adhuc enim restat querendum: quare ista caro si 
+            rema<lb ed="#V" n="86" break="no"/>neat infecta: non potest causare originale peccatum in anima sibi 
+            <lb ed="#V" n="87"/>coniuncta: et tamen caro ab ista genita causabit peccatum 
+            ori<lb ed="#V" n="88" break="no"/>ginale in anima sibi coniuncta. Nec sufficit pro responsione 
+            <lb ed="#V" n="89"/>dicere quod concupiscentia in baptizato est minus intensa 
+            <lb ed="#V" n="90"/>quam in non baptizato: quia ponamus quod baptizatus sit 
+            ta<lb ed="#V" n="91" break="no"/>lis complexionis quod in eo multum vigeat concupiscentia: 
+            <lb ed="#V" n="92"/>et generet alium in quo multo nobilior est concupiscentia: 
+            <lb ed="#V" n="93"/>adhuc iste genitus nascetur in vtero: et de vterocnisi ante 
+            <lb ed="#V" n="94"/>fuerit sanctificatus in originali peccato.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e548">
+            ¶ Unde mihi 
+            <lb ed="#V" n="95"/>videtur dicendum: quod cum peccatum originale formaliter sit 
+            ca<lb ed="#V" n="96" break="no"/>rentia originalis iustitie debite nihil ad plenum est causa 
+            <lb ed="#V" n="97"/>originalis peccati: nisi sit causa carentie illius originalis 
+            <lb ed="#V" n="98"/>iustitie praesupposito debito habendi eam: quia quamuis illud 
+            de<lb ed="#V" n="99" break="no"/>bitum non sit peccatum: nec pars peccati: quia res aliqua est: et a deo 
+            <lb ed="#V" n="100"/>est: tamen carentia originalis iustitie: non est culpa: nisi sit 
+            praesup<lb ed="#V" n="101" break="no"/>positio illius debiti. Infectio autem que est in carne et si sit causa 
+            <lb ed="#V" n="102"/>carentie originalis iustitie in anima: non tamen causa est 
+            de<lb ed="#V" n="103" break="no"/>bite habendi eam. Sed illa donatio quae fuit data ipsi ade: immo 
+            <lb ed="#V" n="104"/>vt proprius loquar: toti humane nature in adam. Caro 
+            er<lb ed="#V" n="105" break="no"/>go infecta non potest causare culpam originalem in persona 
+            <lb ed="#V" n="106"/>cuius est caro: nisi illa persona sit debitrix originalis 
+            iusti<lb ed="#V" n="107" break="no"/>tie: illud autem debitum remittitur per baptismum: vt 
+            di<lb ed="#V" n="108" break="no"/>ctum est: et ideo in anima baptizati non potest amplius 
+            cau<lb ed="#V" n="109" break="no"/>sari originale peccatum ab infecta carne: et quia illud 
+            debi<lb ed="#V" n="110" break="no"/>tum non est remissum in non baptizato: ideo caro a 
+            bapti<lb ed="#V" n="111" break="no"/>3ato propagata potest animam sibi coniunctam inficere: 
+            <lb ed="#V" n="112"/>infectione originalis peccati. 
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e590">
+            <lb ed="#V" n="113"/>Ad primum in oppositum dicendum: quod po 
+            tan<lb ed="#V" n="114" break="no"/>to dicit Dam. per baptismum 
+            car<lb ed="#V" n="115" break="no"/>nem purgari: quia per baptismum feditas carnis et 
+            con<lb ed="#V" n="116" break="no"/>cupiscentia mitigantur: nec amplius possunt in anima 
+            ba<lb ed="#V" n="117" break="no"/>ptizati culpam originalem causare.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e604">
+            ¶ Ad secundum 
+            dicen<lb ed="#V" n="118" break="no"/>dum: quod corruptio carnis non est causa originalis culpe: 
+            <lb ed="#V" n="119"/>nisi presupposito debito originalis iustitie: quod debitum ipsi 
+            <lb ed="#V" n="120"/>baptizato remissum est.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e613">
+            ¶ Ad tertium dicendum: quod 
+            ba<lb ed="#V" n="121" break="no"/>ptismus est medicina persone: et per ipsum remittitur 
+            ori<lb ed="#V" n="122" break="no"/>ginalis culpa: vt est ipsius persone baptizate: et remouet 
+            <lb ed="#V" n="123"/>illud quod de necessitate praesupponebatur ad hoc quod per 
+            cor<lb ed="#V" n="124" break="no"/>ruptionem carnis possit causari culpa originalis in 
+            per<lb ed="#V" n="125" break="no"/>sona: et ita purgat et morbum et radicem per 
+            comparatio<lb ed="#V" n="126" break="no"/>nem ad personam baptizatam.
+          </p>
+          <p xml:id="kzz7yh-f92863-d1e629">
+            ¶ Ad quartum dicendum: quod 
+            <lb ed="#V" n="127"/>minor est falsa: quia quamuis maior sit infectio culpe que est 
+            <lb ed="#V" n="128"/>in mente: quam corruptio que est in carne: tamen quia 
+            gra<lb ed="#V" n="129" break="no"/>tia gratum faciens a deo est ordinata ad sanandum 
+            ani<lb ed="#V" n="130" break="no"/>mam magis quam carnem: ideo facilius est per eam 
+            purga<lb ed="#V" n="131" break="no"/>ri infectionem mentis quam infectionem carnis. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

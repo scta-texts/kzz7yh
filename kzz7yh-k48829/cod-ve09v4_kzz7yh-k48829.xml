@@ -1,761 +1,761 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 2</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 2</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="68-r"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 2</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 2</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="68-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k48829"><!-- l4d15a2 -->
+        <head xml:id="kzz7yh-k48829-Hd1e101">Articulus 2</head>
+        <p xml:id="kzz7yh-k48829-d1e103">
+          ¶ Distin. 
+        </p>
+        <p xml:id="kzz7yh-k48829-d1e105">
+          <lb ed="#V" n="100"/>COnsequenter queritur de secundo 
+          princi<lb ed="#V" n="101" break="no"/>pali.
+        </p>
+        <p xml:id="kzz7yh-k48829-d1e112">
+          ¶ Et circa hoc 
+          <lb ed="#V" n="102"/>queruntur 8
+        </p>
+        <p xml:id="kzz7yh-k48829-d1e117">
+          ¶ Primo vtrum dare elemosynam 
+          <lb ed="#V" n="103"/>sit actus virtutis.
+        </p>
+        <p xml:id="kzz7yh-k48829-d1e123">
+          ¶ Secundo vtrum cadat sub 
+          <lb ed="#V" n="104"/>precepto.
+        </p>
+        <p xml:id="kzz7yh-k48829-d1e128">
+          ¶ Tertio vtrum magis sit satisfactoria inter 
+          par<lb ed="#V" n="105" break="no"/>tes satisfactionis.
+        </p>
+        <p xml:id="kzz7yh-k48829-d1e133">
+          ¶ Quarto vtrum elemosyne corporales 
+          <lb ed="#V" n="106"/>praeferende sint spiritualibus elemosynis.
+        </p>
+        <p xml:id="kzz7yh-k48829-d1e138">
+          ¶ Quinto vtrum 
+          <lb ed="#V" n="107"/>de quolibet bono sit elemosyna facienda.
+        </p>
+        <p xml:id="kzz7yh-k48829-d1e143">
+          ¶ Sexto vtrum 
+          <lb ed="#V" n="108"/>licitum sit cuilibet elemosynam facere.
+        </p>
+        <p xml:id="kzz7yh-k48829-d1e148">
+          ¶ Septimo vtrum aliquis 
+          <lb ed="#V" n="109"/>possit facere elemosynam sibiipsi.
+        </p>
+        <p xml:id="kzz7yh-k48829-d1e154">
+          ¶ Octauo vtrum 
+          ele<lb ed="#V" n="110" break="no"/>mosyna danda sit malis.
+        </p>
+        <div xml:id="kzz7yh-k48829-Dd1e159">
+          <head xml:id="kzz7yh-k48829-Hd1e161">Quaestio 1</head>
+          <p xml:id="kzz7yh-k48829-d1e163">
+            ¶ Quaestio 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e165">
+            <lb ed="#V" n="111"/>PRimo ostendo quod dare elemosynam non sit 
+            <lb ed="#V" n="112"/>actus virtutis. Dare elemosynam 
+            <lb ed="#V" n="113"/>est actus menie: sed menia non est virtus: quia secundum philosophum. 2. 
+            <lb ed="#V" n="114"/>ethi. 5. c. nulla passio est virtus: et sic dicit Dam. 
+            <lb ed="#V" n="115"/>ilib. 2. ca. 27. menia est species tristitie: tristitia vero passio est: 
+            da<lb ed="#V" n="116" break="no"/>re ergo elemosynam non est actus virtutis.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e181">
+            ¶ Item circa 
+            ex<lb ed="#V" n="117" break="no"/>teriora bona de quibus sit elemosyna non sunt nisi tres 
+            virtu<lb ed="#V" n="118" break="no"/>tes scilicet liberalitas: magnificentia: et iustitia: vt colligi potest ex 
+            <lb ed="#V" n="119"/>verbis phlosophi. 2. ethi. ca. 7. Sed dare elemosynam non est actus 
+            libe<lb ed="#V" n="120" break="no"/>ralitatis: quia liberalis non attenditur per indigentiam eius cui dat: 
+            <lb ed="#V" n="121"/>nec magnificentie: quia secundum philosophum. 4. ethi. ca. 5. Magnificentia 
+            <lb ed="#V" n="122"/>non est nisi circa magnos sumptus: misericordia autem circa 
+            <lb ed="#V" n="123"/>magnos et paruos: nec iustitie: quia sicut dicit <ref xml:id="kzz7yh-k48829-Rx9azjj" corresp="#kzz7yh-k48829-Qc9ajj">Augu. 19 de 
+              <lb ed="#V" n="124"/>ciui. ca. 21.</ref> <quote xml:id="kzz7yh-k48829-Qc9ajj" source="http://scta.info/resource/adcd-l19-d1e3156@242-250">Iustitia virtus est quae sua cuique distribuit</quote>: sed 
+            mise<lb ed="#V" n="125" break="no"/>ricordia dat illud quod est dantis proprium: non illius cui datur: 
+            <lb ed="#V" n="126"/>ergo dare elemosynam nullius virtutis est actus.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e205">
+            ¶ Item actus 
+            <lb ed="#V" n="127"/>virtutis semper est rectus: sed datio elemosyne potest esse non recta: vt 
+            <lb ed="#V" n="128"/>cum sit ex vanagloria: ergo non est actus virtutis. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e213">
+            <lb ed="#V" n="129"/>Contra vt superius habitum est: poenitentia est virtus: et 
+            satis<lb ed="#V" n="130" break="no"/>factio actus poenitentie: et datio elemosyne species 
+            sa<lb ed="#V" n="131" break="no"/>tisfactionis ex quibus sequitur quod sit actus virtutis.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e222">
+            ¶ Item: 
+            miseri<lb ed="#V" n="132" break="no"/>cordia contrariatur inuidie: quia sicut dicit Dam. libro 2. ca. 27. 
+            In<lb ed="#V" n="133" break="no"/>uidia est tristitia in alienis bonis: misericordia est tristitia 
+            <lb ed="#V" n="134"/>in alienis malis: cum ergo inuidia sit vitium: et contrarium 
+            <lb ed="#V" n="135"/>vitii sit virtus: misericordia est virtus: sed dare elemosynam 
+            <lb ed="#V" n="136"/>est actus misericordie: ergo est actus virtutis. 
+            <!--00168.xml-->
+            <pb ed="#V" n="68-v"/>
+            <cb ed="#V" n="a"/>
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e242">
+            <lb ed="#V" n="1"/>Respondeo quod dare elemosynam sub circum. 
+            <lb ed="#V" n="2"/>stantiis debitis actus est virtutis: 
+            <lb ed="#V" n="3"/>vel vt principii scilicet cum elicitur a virtute: vel vt termini scilicet cum 
+            <lb ed="#V" n="4"/>datur a non habente habitum virtutis: disponente se tamen 
+            per<lb ed="#V" n="5" break="no"/>hoc ad virtutem: dare enim elemosynam sub circumstantiis 
+            de<lb ed="#V" n="6" break="no"/>bitis semper est actus rectus: actus autem voluntarius rectus vel 
+            <lb ed="#V" n="7"/>elicitur per virtutem vel disponit ad virtutem. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e260">
+            <lb ed="#V" n="8"/>Ad primum in oppositum dicendum: quod 
+            misericor<lb ed="#V" n="9" break="no"/>dia potest accipi pro passione: et sic 
+            <lb ed="#V" n="10"/>non est virtus: vel pro habitu voluntatis quo habilitatur ad 
+            <lb ed="#V" n="11"/>subuen iendum propter deum miserie indigentis: et sic est virtus: 
+            <lb ed="#V" n="12"/>primo modo ponitur a Dam. species tristitie.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e273">
+            ¶ Ad secundum 
+            dicen<lb ed="#V" n="13" break="no"/>dum: quod dare elemosynam actus est liberalitatis: quia quamuis non 
+            <lb ed="#V" n="14"/>omnis liberalitas attendat indigentiam illius cui datur: tamen 
+            <lb ed="#V" n="15"/>vna species eius hoc attendit: et illa est misericordia cuius act 
+            <lb ed="#V" n="16"/>est elemosynam dare: et sic cum liberalitas sit aliquo modo 
+            <lb ed="#V" n="17"/>pars potentialis iustitie: dare elemosynam magis videtur 
+            perti<lb ed="#V" n="18" break="no"/>nere ad iustitiam quam ad aliquam aliam quatuor cardinalium 
+            <lb ed="#V" n="19"/>virtutum.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e291">
+            ¶ Ad tertium dicendum: quod dare elemosynam non est 
+            <lb ed="#V" n="20"/>actus virtutis nisi cum est debito modo circunstantiatus: et sic 
+            <lb ed="#V" n="21"/>nunquam potest esse nisi rectus.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k48829-Dd1e299">
+          <head xml:id="kzz7yh-k48829-Hd1e301">Quaestio 2</head>
+          <p xml:id="kzz7yh-k48829-d1e303">
+            ¶ Questio. II. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e305">
+            <lb ed="#V" n="22"/>SEcundo quaeritur vtrum dare 
+            elemosy<lb ed="#V" n="23" break="no"/>nam cadat sub praecepto. Et 
+            vi<lb ed="#V" n="24" break="no"/>quod non. Licitum est vnicuique retinere quod suum 
+            <lb ed="#V" n="25"/>est: sed homo facit elemosynam de suo: ergo hoin 
+            <lb ed="#V" n="26"/>non dare elemosynam licitum est: quod non esset verum si dare 
+            <lb ed="#V" n="27"/>elemosynam caderet sub precepto.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e321">
+            ¶ Item si esset praeceptum 
+            <lb ed="#V" n="28"/>reduceretur ad vnum de decem praecep is: non ad praeceptum 
+            <lb ed="#V" n="29"/>negatiuum: quia dare elemosynam aliquid affirmatiuum est: nec 
+            <lb ed="#V" n="30"/>ad praeceptum affirmatiuum: quia non ad aliquod praeceptum as 
+            <lb ed="#V" n="31"/>firmatiuum prime tabule: quia illa pertinent ad virtutem 
+            la<lb ed="#V" n="32" break="no"/>trie: vt in lib. 3. di. 37. ostensum est: nec ad praeceptum 
+            affir<lb ed="#V" n="33" break="no"/>matiuum secunde tabule: quia non est nisi vnum scilicet de 
+            hono<lb ed="#V" n="34" break="no"/>ratione parentum: ergo dare elemosynam non caua dit sub 
+            praece<lb ed="#V" n="35" break="no"/>pto.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e341">
+            ¶ Item si esset sub praecepto: tunc quotienscumque habens 
+            homo<lb ed="#V" n="36" break="no"/>vltra id quod sibi necessarium est: non daret illud indigenti 
+            <lb ed="#V" n="37"/>petenti: mortaliter peccaret: quod falsum est. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e349">
+            <lb ed="#V" n="38"/>Contra illud cadit sub precepto sine quo charitans 
+            <lb ed="#V" n="39"/>esse non potest: sed sicut dicit Ioan. in 1 cano. 
+            <lb ed="#V" n="40"/>sua. ca. 3 qui habuerit subsatiam huius mundi et viderit 
+            fra<lb ed="#V" n="41" break="no"/>trem suum necessitatem habere: et clauserit viscera sua ab eo: 
+            <lb ed="#V" n="42"/>quomodo charitas dei monet in eo. q. d. non manet: ergo dare 
+            <lb ed="#V" n="43"/>elemosynam cadit sub praecepto.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e365">
+            ¶ Item secundum philosophum. 5. ethi. ca. 2. 
+            <lb ed="#V" n="44"/>lex dat praecepta de actibus omnium virtutum: sed vt in praecedenti 
+            <lb ed="#V" n="45"/>quaestione habitum est: dare elemosynam est actus virtutis: 
+            <lb ed="#V" n="46"/>ergo est sub precepto. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e374">
+            <lb ed="#V" n="47"/>Respondeo quod dare elemosynam: est sub praecepto 
+            <lb ed="#V" n="48"/>legis nature: et legis diuine: et legis 
+            po<lb ed="#V" n="49" break="no"/>sitiue: lex enim naturalis praecepit proximum vere diligere non tantummodo 
+            <lb ed="#V" n="50"/>affectu: sed etiam effectu: quia non est verus affectus nisi sequatur et 
+            <lb ed="#V" n="51"/>fectus si possibile est: qui ergo indigentie fratris non subuenit non 
+            <lb ed="#V" n="52"/>veraciter ipsum diligit: quod volens innuere beatus Ioan. dicit in 
+            <lb ed="#V" n="53"/>prima cano. sua. ca. 3. Filioli non diligamus verbo neque lingua: 
+            <lb ed="#V" n="54"/>tantum scilicet sed opere et veritate.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e394">
+            ¶ Lex etiam diuina hoc praecipit: quia vt 
+            <lb ed="#V" n="55"/>habetur mathe. 25 christus improperabit reprobis maxime defectus 
+            <lb ed="#V" n="56"/>misericordie operum.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e401">
+            ¶ In iure canonico praecipitur: vnde decre. 
+            <lb ed="#V" n="57"/>di. 86. Fratniem nosterum: dicitur de quodam episco: largam manum hebeat: 
+            ne<lb ed="#V" n="58" break="no"/>cessitatem paratientibus occurrat: alienam inopiam suam credat: quia 
+            si<lb ed="#V" n="59" break="no"/>hoc non habet episcti vacuum nomen 13. et i. e. di. Non sitis et. c. pasce: 
+            <lb ed="#V" n="60"/>sic dicitur: quos in pascendo homines seruare poteris si non paueris 
+            <lb ed="#V" n="61"/>occidisti. et. 7. q. 1. Omnis: dicitur quod qui negant misicordiam faciendam 
+            <lb ed="#V" n="62"/>fugientibus et necessitatem patientibus ipsum christum negant: qui est 
+            mise<lb ed="#V" n="63" break="no"/>ricordia. Sed cum sit praeceptum affirmatiuum quamuis obliget 
+            sem<lb ed="#V" n="64" break="no"/>per: non tamen pro sper: sed pro loco et tempore: consideranda enim est facultas 
+            <lb ed="#V" n="65"/>habentis et miseuntia indigentis: si enim homo hebeat aliquid quod non sit necessarium 
+            <lb ed="#V" n="66"/>sustentationi sue nature: nec illorum: quibus tenetur prouidere sicut sunt 
+            <lb ed="#V" n="67"/>vxor filii serui et ancille: et sit tam notabilis necessitas seu in 
+            <lb ed="#V" n="68"/>digentia ex parte illius cui dandum est quod imineant probabilia signa¬ 
+            <!--00168.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k48829"><!-- l4d15a2 -->
-            <head xml:id="kzz7yh-k48829-Hd1e101">Articulus 2</head>
-            <p xml:id="kzz7yh-k48829-d1e103">
-      ¶ Distin. 
-   </p>
-            <p xml:id="kzz7yh-k48829-d1e105">
-               <lb ed="#V" n="100"/>COnsequenter queritur de secundo 
-      princi<lb ed="#V" n="101" break="no"/>pali.
-   </p>
-            <p xml:id="kzz7yh-k48829-d1e112">
-      ¶ Et circa hoc 
-      <lb ed="#V" n="102"/>queruntur 8
-   </p>
-            <p xml:id="kzz7yh-k48829-d1e117">
-      ¶ Primo vtrum dare elemosynam 
-      <lb ed="#V" n="103"/>sit actus virtutis.
-   </p>
-            <p xml:id="kzz7yh-k48829-d1e123">
-      ¶ Secundo vtrum cadat sub 
-      <lb ed="#V" n="104"/>precepto.
-   </p>
-            <p xml:id="kzz7yh-k48829-d1e128">
-      ¶ Tertio vtrum magis sit satisfactoria inter 
-      par<lb ed="#V" n="105" break="no"/>tes satisfactionis.
-   </p>
-            <p xml:id="kzz7yh-k48829-d1e133">
-      ¶ Quarto vtrum elemosyne corporales 
-      <lb ed="#V" n="106"/>praeferende sint spiritualibus elemosynis.
-   </p>
-            <p xml:id="kzz7yh-k48829-d1e138">
-      ¶ Quinto vtrum 
-      <lb ed="#V" n="107"/>de quolibet bono sit elemosyna facienda.
-   </p>
-            <p xml:id="kzz7yh-k48829-d1e143">
-      ¶ Sexto vtrum 
-      <lb ed="#V" n="108"/>licitum sit cuilibet elemosynam facere.
-   </p>
-            <p xml:id="kzz7yh-k48829-d1e148">
-      ¶ Septimo vtrum aliquis 
-      <lb ed="#V" n="109"/>possit facere elemosynam sibiipsi.
-   </p>
-            <p xml:id="kzz7yh-k48829-d1e154">
-      ¶ Octauo vtrum 
-      ele<lb ed="#V" n="110" break="no"/>mosyna danda sit malis.
-   </p>
-            <div xml:id="kzz7yh-k48829-Dd1e159">
-               <head xml:id="kzz7yh-k48829-Hd1e161">Quaestio 1</head>
-               <p xml:id="kzz7yh-k48829-d1e163">
-      ¶ Quaestio 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e165">
-                  <lb ed="#V" n="111"/>PRimo ostendo quod dare elemosynam non sit 
-      <lb ed="#V" n="112"/>actus virtutis. Dare elemosynam 
-      <lb ed="#V" n="113"/>est actus menie: sed menia non est virtus: quia secundum philosophum. 2. 
-      <lb ed="#V" n="114"/>ethi. 5. c. nulla passio est virtus: et sic dicit Dam. 
-      <lb ed="#V" n="115"/>ilib. 2. ca. 27. menia est species tristitie: tristitia vero passio est: 
-      da<lb ed="#V" n="116" break="no"/>re ergo elemosynam non est actus virtutis.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e181">
-      ¶ Item circa 
-      ex<lb ed="#V" n="117" break="no"/>teriora bona de quibus sit elemosyna non sunt nisi tres 
-      virtu<lb ed="#V" n="118" break="no"/>tes scilicet liberalitas: magnificentia: et iustitia: vt colligi potest ex 
-      <lb ed="#V" n="119"/>verbis phlosophi. 2. ethi. ca. 7. Sed dare elemosynam non est actus 
-      libe<lb ed="#V" n="120" break="no"/>ralitatis: quia liberalis non attenditur per indigentiam eius cui dat: 
-      <lb ed="#V" n="121"/>nec magnificentie: quia secundum philosophum. 4. ethi. ca. 5. Magnificentia 
-      <lb ed="#V" n="122"/>non est nisi circa magnos sumptus: misericordia autem circa 
-      <lb ed="#V" n="123"/>magnos et paruos: nec iustitie: quia sicut dicit <ref xml:id="kzz7yh-k48829-Rx9azjj" corresp="#kzz7yh-k48829-Qc9ajj">Augu. 19 de 
-      <lb ed="#V" n="124"/>ciui. ca. 21.</ref> <quote xml:id="kzz7yh-k48829-Qc9ajj" source="http://scta.info/resource/adcd-l19-d1e3156@242-250">Iustitia virtus est quae sua cuique distribuit</quote>: sed 
-      mise<lb ed="#V" n="125" break="no"/>ricordia dat illud quod est dantis proprium: non illius cui datur: 
-      <lb ed="#V" n="126"/>ergo dare elemosynam nullius virtutis est actus.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e205">
-      ¶ Item actus 
-      <lb ed="#V" n="127"/>virtutis semper est rectus: sed datio elemosyne potest esse non recta: vt 
-      <lb ed="#V" n="128"/>cum sit ex vanagloria: ergo non est actus virtutis. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e213">
-                  <lb ed="#V" n="129"/>Contra vt superius habitum est: poenitentia est virtus: et 
-      satis<lb ed="#V" n="130" break="no"/>factio actus poenitentie: et datio elemosyne species 
-      sa<lb ed="#V" n="131" break="no"/>tisfactionis ex quibus sequitur quod sit actus virtutis.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e222">
-      ¶ Item: 
-      miseri<lb ed="#V" n="132" break="no"/>cordia contrariatur inuidie: quia sicut dicit Dam. libro 2. ca. 27. 
-      In<lb ed="#V" n="133" break="no"/>uidia est tristitia in alienis bonis: misericordia est tristitia 
-      <lb ed="#V" n="134"/>in alienis malis: cum ergo inuidia sit vitium: et contrarium 
-      <lb ed="#V" n="135"/>vitii sit virtus: misericordia est virtus: sed dare elemosynam 
-      <lb ed="#V" n="136"/>est actus misericordie: ergo est actus virtutis. 
-      <!--00168.xml-->
-      <pb ed="#V" n="68-v"/>
-                  <cb ed="#V" n="a"/>
-               </p>
-               <p xml:id="kzz7yh-k48829-d1e242">
-                  <lb ed="#V" n="1"/>Respondeo quod dare elemosynam sub circum. 
-      <lb ed="#V" n="2"/>stantiis debitis actus est virtutis: 
-      <lb ed="#V" n="3"/>vel vt principii scilicet cum elicitur a virtute: vel vt termini scilicet cum 
-      <lb ed="#V" n="4"/>datur a non habente habitum virtutis: disponente se tamen 
-      per<lb ed="#V" n="5" break="no"/>hoc ad virtutem: dare enim elemosynam sub circumstantiis 
-      de<lb ed="#V" n="6" break="no"/>bitis semper est actus rectus: actus autem voluntarius rectus vel 
-      <lb ed="#V" n="7"/>elicitur per virtutem vel disponit ad virtutem. 
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e260">
-                  <lb ed="#V" n="8"/>Ad primum in oppositum dicendum: quod 
-      misericor<lb ed="#V" n="9" break="no"/>dia potest accipi pro passione: et sic 
-      <lb ed="#V" n="10"/>non est virtus: vel pro habitu voluntatis quo habilitatur ad 
-      <lb ed="#V" n="11"/>subuen iendum propter deum miserie indigentis: et sic est virtus: 
-      <lb ed="#V" n="12"/>primo modo ponitur a Dam. species tristitie.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e273">
-      ¶ Ad secundum 
-      dicen<lb ed="#V" n="13" break="no"/>dum: quod dare elemosynam actus est liberalitatis: quia quamuis non 
-      <lb ed="#V" n="14"/>omnis liberalitas attendat indigentiam illius cui datur: tamen 
-      <lb ed="#V" n="15"/>vna species eius hoc attendit: et illa est misericordia cuius act 
-      <lb ed="#V" n="16"/>est elemosynam dare: et sic cum liberalitas sit aliquo modo 
-      <lb ed="#V" n="17"/>pars potentialis iustitie: dare elemosynam magis videtur 
-      perti<lb ed="#V" n="18" break="no"/>nere ad iustitiam quam ad aliquam aliam quatuor cardinalium 
-      <lb ed="#V" n="19"/>virtutum.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e291">
-      ¶ Ad tertium dicendum: quod dare elemosynam non est 
-      <lb ed="#V" n="20"/>actus virtutis nisi cum est debito modo circunstantiatus: et sic 
-      <lb ed="#V" n="21"/>nunquam potest esse nisi rectus.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k48829-Dd1e299">
-               <head xml:id="kzz7yh-k48829-Hd1e301">Quaestio 2</head>
-               <p xml:id="kzz7yh-k48829-d1e303">
-      ¶ Questio. II. 
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e305">
-                  <lb ed="#V" n="22"/>SEcundo quaeritur vtrum dare 
-      elemosy<lb ed="#V" n="23" break="no"/>nam cadat sub praecepto. Et 
-      vi<lb ed="#V" n="24" break="no"/>quod non. Licitum est vnicuique retinere quod suum 
-      <lb ed="#V" n="25"/>est: sed homo facit elemosynam de suo: ergo hoin 
-      <lb ed="#V" n="26"/>non dare elemosynam licitum est: quod non esset verum si dare 
-      <lb ed="#V" n="27"/>elemosynam caderet sub precepto.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e321">
-      ¶ Item si esset praeceptum 
-      <lb ed="#V" n="28"/>reduceretur ad vnum de decem praecep is: non ad praeceptum 
-      <lb ed="#V" n="29"/>negatiuum: quia dare elemosynam aliquid affirmatiuum est: nec 
-      <lb ed="#V" n="30"/>ad praeceptum affirmatiuum: quia non ad aliquod praeceptum as 
-      <lb ed="#V" n="31"/>firmatiuum prime tabule: quia illa pertinent ad virtutem 
-      la<lb ed="#V" n="32" break="no"/>trie: vt in lib. 3. di. 37. ostensum est: nec ad praeceptum 
-      affir<lb ed="#V" n="33" break="no"/>matiuum secunde tabule: quia non est nisi vnum scilicet de 
-      hono<lb ed="#V" n="34" break="no"/>ratione parentum: ergo dare elemosynam non caua dit sub 
-      praece<lb ed="#V" n="35" break="no"/>pto.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e341">
-      ¶ Item si esset sub praecepto: tunc quotienscumque habens 
-      homo<lb ed="#V" n="36" break="no"/>vltra id quod sibi necessarium est: non daret illud indigenti 
-      <lb ed="#V" n="37"/>petenti: mortaliter peccaret: quod falsum est. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e349">
-                  <lb ed="#V" n="38"/>Contra illud cadit sub precepto sine quo charitans 
-      <lb ed="#V" n="39"/>esse non potest: sed sicut dicit Ioan. in 1 cano. 
-      <lb ed="#V" n="40"/>sua. ca. 3 qui habuerit subsatiam huius mundi et viderit 
-      fra<lb ed="#V" n="41" break="no"/>trem suum necessitatem habere: et clauserit viscera sua ab eo: 
-      <lb ed="#V" n="42"/>quomodo charitas dei monet in eo. q. d. non manet: ergo dare 
-      <lb ed="#V" n="43"/>elemosynam cadit sub praecepto.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e365">
-      ¶ Item secundum philosophum. 5. ethi. ca. 2. 
-      <lb ed="#V" n="44"/>lex dat praecepta de actibus omnium virtutum: sed vt in praecedenti 
-      <lb ed="#V" n="45"/>quaestione habitum est: dare elemosynam est actus virtutis: 
-      <lb ed="#V" n="46"/>ergo est sub precepto. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e374">
-                  <lb ed="#V" n="47"/>Respondeo quod dare elemosynam: est sub praecepto 
-      <lb ed="#V" n="48"/>legis nature: et legis diuine: et legis 
-      po<lb ed="#V" n="49" break="no"/>sitiue: lex enim naturalis praecepit proximum vere diligere non tantummodo 
-      <lb ed="#V" n="50"/>affectu: sed etiam effectu: quia non est verus affectus nisi sequatur et 
-      <lb ed="#V" n="51"/>fectus si possibile est: qui ergo indigentie fratris non subuenit non 
-      <lb ed="#V" n="52"/>veraciter ipsum diligit: quod volens innuere beatus Ioan. dicit in 
-      <lb ed="#V" n="53"/>prima cano. sua. ca. 3. Filioli non diligamus verbo neque lingua: 
-      <lb ed="#V" n="54"/>tantum scilicet sed opere et veritate.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e394">
-      ¶ Lex etiam diuina hoc praecipit: quia vt 
-      <lb ed="#V" n="55"/>habetur mathe. 25 christus improperabit reprobis maxime defectus 
-      <lb ed="#V" n="56"/>misericordie operum.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e401">
-      ¶ In iure canonico praecipitur: vnde decre. 
-      <lb ed="#V" n="57"/>di. 86. Fratniem nosterum: dicitur de quodam episco: largam manum hebeat: 
-      ne<lb ed="#V" n="58" break="no"/>cessitatem paratientibus occurrat: alienam inopiam suam credat: quia 
-      si<lb ed="#V" n="59" break="no"/>hoc non habet episcti vacuum nomen 13. et i. e. di. Non sitis et. c. pasce: 
-      <lb ed="#V" n="60"/>sic dicitur: quos in pascendo homines seruare poteris si non paueris 
-      <lb ed="#V" n="61"/>occidisti. et. 7. q. 1. Omnis: dicitur quod qui negant misicordiam faciendam 
-      <lb ed="#V" n="62"/>fugientibus et necessitatem patientibus ipsum christum negant: qui est 
-      mise<lb ed="#V" n="63" break="no"/>ricordia. Sed cum sit praeceptum affirmatiuum quamuis obliget 
-      sem<lb ed="#V" n="64" break="no"/>per: non tamen pro sper: sed pro loco et tempore: consideranda enim est facultas 
-      <lb ed="#V" n="65"/>habentis et miseuntia indigentis: si enim homo hebeat aliquid quod non sit necessarium 
-      <lb ed="#V" n="66"/>sustentationi sue nature: nec illorum: quibus tenetur prouidere sicut sunt 
-      <lb ed="#V" n="67"/>vxor filii serui et ancille: et sit tam notabilis necessitas seu in 
-      <lb ed="#V" n="68"/>digentia ex parte illius cui dandum est quod imineant probabilia signa¬ 
-      <!--00168.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>extreme necessitatis: tunc habens tenetur ex praecepto subuentre 
-      <lb ed="#V" n="70"/>indigenti: si etiam homo hebeat aliquid superfluum non tantum sustentationi 
-      <lb ed="#V" n="71"/>nature: sed etiam decentie sui status: tenetur de illo elemosynam 
-      facen<lb ed="#V" n="72" break="no"/>indigentibus etiam si non inuenirentur tales qui essent constituti in 
-      necessai<lb ed="#V" n="73" break="no"/>tate praedicta. Et si plures occurrant indigentes: quibus omnibus 
-      subue<lb ed="#V" n="74" break="no"/>nire non possit tenetur ceteris peribus: magis indigenti subuenire. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e447">
-                  <lb ed="#V" n="75"/>¶ Ad primum in oppositum dicendum: quod superfluum 
-      susten<lb ed="#V" n="76" break="no"/>tationi tue nature et si sit tuum proprium 
-      <lb ed="#V" n="77"/>quantum ad dispensationem seu auctoriatem admistrandi: quantum tamen ad 
-      <lb ed="#V" n="78"/>vsum: illorum est in quibus vides signa probabilia imminem 
-      necessita<lb ed="#V" n="79" break="no"/>tis extreme nisi subueniatur eisdem: a simili aliquo modo dico de 
-      <lb ed="#V" n="80"/>superfluo decentie tamntni status respectu indigentium citra praedictam 
-      ne<lb ed="#V" n="81" break="no"/>cessitatem. Unde contra illos qui de superfluo modis praedictis 
-      indigenti<lb ed="#V" n="82" break="no"/>bus subuenire nolunt: dicitur decre. di. 47. sic. Esurienitum panis 
-      <lb ed="#V" n="83"/>est quem tu detines: nudorum vestimtum est quod tu recludis: 
-      mi<lb ed="#V" n="84" break="no"/>serorum redemptio est et absolutio pecunia quam tu in terra de 
-      <lb ed="#V" n="85"/>fodis: et in hoc apparet quod elemosynam dare eo modo quo 
-      <lb ed="#V" n="86"/>cadit sub praecepto multum participat de ratione actus iustitie. Unde 
-      <lb ed="#V" n="87"/>et glo. super illud Matth. 5. Cum facis elemosynam: dicitur 
-      <lb ed="#V" n="88"/>elemosyna est pars iniustitie: et quamuis huius praecepti 
-      transgref<lb ed="#V" n="89" break="no"/>sores non semper puniantur lege humana: puniuntur tamen lege 
-      <lb ed="#V" n="90"/>diuina: secundum enim sententiam Aug. i. libro de libero arbitrio longe ante mediu: 
-      <lb ed="#V" n="91"/>multa impunita iuste relinquuntur lege humana: que tamen 
-      iu<lb ed="#V" n="92" break="no"/>ste vindicantur lege diuina.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e490">
-      ¶ Ad secundum dicendum: quod hoc praeceptum 
-      <lb ed="#V" n="93"/>reducitur ad praeceptum de honoratione parentum: sub quo 
-      com<lb ed="#V" n="94" break="no"/>prehenduntur praecepta affirmatiua de operibus pletatis.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e497">
-      ¶ Ad 
-      <lb ed="#V" n="95"/>tertium dicendum: quod non dans elemosynam in casibus supradictis 
-      <lb ed="#V" n="96"/>mortaliter peccat: alus autem dare elemosynam est 
-      confi<lb ed="#V" n="97" break="no"/>lium: non preceptum.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k48829-Dd1e507">
-               <head xml:id="kzz7yh-k48829-Hd1e509">Quaestio 3</head>
-               <p xml:id="kzz7yh-k48829-d1e511">
-      ¶ Questio. III.
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e513">
-                  <lb ed="#V" n="98"/>Tertio queritur vtrum dare elemosynam sit 
-      ma<lb ed="#V" n="99" break="no"/>gis satisfactorium inter partes 
-      satisfa<lb ed="#V" n="100" break="no"/>ctionis. Et videtur quod non. Auic. 10. meta. ca. 3. loquens 
-      <lb ed="#V" n="101"/>de obsequiis qui impenduntur propter deum: dicit: quod ex his 
-      <lb ed="#V" n="102"/>omnibus obsequiis illud est acceptabilius per quod agens paratur: quasi 
-      <lb ed="#V" n="103"/>sit loquens in deo et tendens in ipsum: et ad ipsum factus quasi proesenus ei: 
-      <lb ed="#V" n="104"/>et haec est oratio.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e531">
-      ¶ Item cum per satisfactionem sint causae peccatorum 
-      <lb ed="#V" n="105"/>excidende: illud magis est satisfactorium quod est: contra peiorem 
-      <lb ed="#V" n="106"/>radicem peccati: sed illa est superbia vite: contra quam est directe oratio: 
-      <lb ed="#V" n="107"/>ergo oro est magis satisfactoria inter satisfactionis partes. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e540">
-                  <lb ed="#V" n="108"/>¶ Item: satisfactio facienda est per opera penalia: sed ieiunium 
-      <lb ed="#V" n="109"/>magis est penale quam donatio elemosyne: ergo magis est 
-      sa<lb ed="#V" n="110" break="no"/>tisfactorium quam elemosyna. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e550">
-                  <lb ed="#V" n="111"/>Contra illud magis est satisfactorium: cui maxime 
-      ap<lb ed="#V" n="112" break="no"/>propriat scriptura contrariari peccatis: sed 
-      elemosy<lb ed="#V" n="113" break="no"/>na est huiusmodi: vnde Eccle. 3. Ignem ardentem extinguit aqua: et 
-      <lb ed="#V" n="114"/>et elemosyna resistit peccatis: ergo elemosyna est maxime 
-      satis<lb ed="#V" n="115" break="no"/>factoria.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e563">
-      ¶ Item postquam Thobi. 12. dicntum est: bona est oratio cum 
-      <lb ed="#V" n="116"/>ieiunio: et elemosyna: de elemosyna specialiter subiungitur: quoniam 
-      <lb ed="#V" n="117"/>elemosyna a morte liberat: et ipsa est qui purgat peccata et facit 
-      <lb ed="#V" n="118"/>inuenire vitam eternam: ergo videtur quod sit magis 
-      satisfa<lb ed="#V" n="119" break="no"/>ctoria elemosyna quam ieiunium vel oratio. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e574">
-                  <lb ed="#V" n="120"/>Ad istam quaestionem dicunt quidam quod in satisfactione tria 
-      <lb ed="#V" n="121"/>sunt scilicet vitatio culpe: ad quam maxime 
-      va<lb ed="#V" n="122" break="no"/>let oratio: solutio pene: ad quam maxime valet ieiunium: 
-      augmen<lb ed="#V" n="123" break="no"/>tum gratiae ad quod maxime valet elemosyna. Et quia augmentum 
-      <lb ed="#V" n="124"/>gratiae nobilius est quam vitatio culpe: quia non vitatur malum nisi 
-      <lb ed="#V" n="125"/>propter bonum: et quodlibet istorum melius est quam solutio pene: ideo inter 
-      <lb ed="#V" n="126"/>partes satisfactionis vtilior est elemosyna: et oratio vtilior quam 
-      ie<lb ed="#V" n="127" break="no"/>iunium. Quam conclusionem concedo.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e594">
-      ¶ Aliter tamen possum eam 
-      de<lb ed="#V" n="128" break="no"/>clarare: elemosyna enim debita intentione facta aliquo modo 
-      vir<lb ed="#V" n="129" break="no"/>tutem continet orationis et ieiunii: quia elemosyna eum cui datur 
-      <lb ed="#V" n="130"/>obligat ad orandum et ieiunandum: et alia bona faciendum si adest 
-      <lb ed="#V" n="131"/>facultas pro dante: elemofyna etiam inquantum datur propter deum est 
-      <lb ed="#V" n="132"/>quasi quaedam oblatio deo facta: oblatio autem facta deo aliquam 
-      vim<lb ed="#V" n="133" break="no"/>habet orationis: inquantum etiam exteriora bona sunt ad sustentationem 
-      <lb ed="#V" n="134"/>corporis: subtractio eorum per elemosynam aliquo modo virtutem 
-      <lb ed="#V" n="135"/>continet ieiunii: oratio similiter virtute aliquo modo continet ineiunium: quia 
-      <lb ed="#V" n="136"/>in oratione anima regimi corporis minus intendit: et ex conseqenti corpus de 
-      <!--00169.xml-->
-      <pb ed="#V" n="69-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>bitat: sicut ergo virtuosior est anima intellectiua quam 
-      sen<lb ed="#V" n="2" break="no"/>sitiua: quia continet ipsius virtutem et plus: et sensitiua quam 
-      vege<lb ed="#V" n="3" break="no"/>tatiua: quia continet eius virtutem et amplius: sic magis est 
-      sa<lb ed="#V" n="4" break="no"/>tisfactoria elemosyna quam oratio: et oratio quam ieiunium: quamuis 
-      <lb ed="#V" n="5"/>elemosyna non tantum excedat orationem et ieiunium in esse 
-      mo<lb ed="#V" n="6" break="no"/>ris quantum anima intellectiua excedit sensitiuam et 
-      ve<lb ed="#V" n="7" break="no"/>getatiuam in esse nature. 
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e638">
-                  <lb ed="#V" n="8"/>Ad primum in oppositum dicendum: quo omretio secundum 
-      essen<lb ed="#V" n="9" break="no"/>tiam dignior est quam donatio 
-      elemosy<lb ed="#V" n="10" break="no"/>ne: sed tamen quantum ad vsum vtilius est dare elemosynam 
-      <lb ed="#V" n="11"/>quam orare: et sic debet intelligi verbum Auic. quia tamen oratio et 
-      seiu<lb ed="#V" n="12" break="no"/>nium retrahunt a peccato: non tantum per modum meriti: sed 
-      <lb ed="#V" n="13"/>etiam per modum consuetudinis contrarie: ideo de illo 
-      demo<lb ed="#V" n="14" break="no"/>nio quod erat deputandum ad inclinandum homines ad 
-      ma<lb ed="#V" n="15" break="no"/>lam consuetudinem: dicitur Matth. 17. quod eiici non potest nisi per 
-      <lb ed="#V" n="16"/>orationem et ieiunium.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e660">
-      ¶ Ad secundum dicendum: quod contra superbiam 
-      <lb ed="#V" n="17"/>vite: est etiam elemosyna: quia vt superius habitum est 
-      conti<lb ed="#V" n="18" break="no"/>net aliquam orationis virtute.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e668">
-      ¶ Ad tertium dicendum: quod in 
-      satis<lb ed="#V" n="19" break="no"/>factione plus attendenda est bonitas quam penalitas: 
-      elemo<lb ed="#V" n="20" break="no"/>syna autem melior est ieiunio: quamuis ieiunium sit penalius 
-      <lb ed="#V" n="21"/>simpliciter: quod ideo dico: quia aliquibus penalius est 
-      elemosy<lb ed="#V" n="22" break="no"/>nam dare quam ieiunare.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k48829-Dd1e680">
-               <head xml:id="kzz7yh-k48829-Hd1e682">Quaestio 4</head>
-               <p xml:id="kzz7yh-k48829-d1e684">
-     Quaestio IIII. 
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e686">
-                  <lb ed="#V" n="23"/>Uarto queritur. vtrum 
-      elemo<lb ed="#V" n="24" break="no"/>syne 
-      corpora<lb ed="#V" n="25" break="no"/>les preferende sint spiritualibus elemosynis. Et 
-      vi<lb ed="#V" n="26" break="no"/>tur quod sic. Matth. 25. vbi christus predicit 
-      omissio<lb ed="#V" n="27" break="no"/>nes operum misericordie que improperabuntur reprobis 
-      <lb ed="#V" n="28"/>in iudicio: non fit mentio nisi de omissionibus elemosynarum 
-      <lb ed="#V" n="29"/>corporalium: quod non fieret nisi corporales essent spiritualibus 
-      <lb ed="#V" n="30"/>preferende.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e706">
-      ¶ Item corporalis elemosyna praeferenda est 
-      oratio<lb ed="#V" n="31" break="no"/>ni: sed de oratione potest fieri elemosyna: qui enim orat pro alio 
-      si<lb ed="#V" n="32" break="no"/>bi misericordiam impendit: cum ergo oratio sit res spiritualis: 
-      ele<lb ed="#V" n="33" break="no"/>mosyna corporalis paeferenda est spirituali. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e715">
-                  <lb ed="#V" n="34"/>Contra spiritus praefertur corpori: ergo a simili et 
-      elemo<lb ed="#V" n="35" break="no"/>syna spiritualis preferenda est corporali.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e723">
-      ¶ Item 
-      <lb ed="#V" n="36"/>decret. distine. 45 Due. elemosyna cordis multo maior est 
-      <lb ed="#V" n="37"/>quam elemosyna corporis. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e730">
-                  <lb ed="#V" n="38"/>Respondeo quod sunt elemosyne pure corpoales: 
-      <lb ed="#V" n="39"/>vt cum datur vel fit aliquid 
-      corpora<lb ed="#V" n="40" break="no"/>le ad subuentionem corporalis indigentie proximi: que sunt 
-      se<lb ed="#V" n="41" break="no"/>ptem: visitare infirmum: potare sitientem: cibare esurientem: 
-      <lb ed="#V" n="42"/>redimere incarceratum: vestire nudum: recipere hospitem: 
-      se<lb ed="#V" n="43" break="no"/>pelire mortuum: que hoc versu continentur. Uisito: poto: cibo: 
-      re<lb ed="#V" n="44" break="no"/>dimo: tego: colligo: condo.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e748">
-      ¶ Quedam sunt pure spirituales scilicet 
-      <lb ed="#V" n="45"/>cum datur vel cum sit aliquid spirituale ad subuetum spirituali 
-      indigen<lb ed="#V" n="46" break="no"/>tie proximi: et sic secundum Aug. enchi. 40. ca. qui dimittit corde 
-      il<lb ed="#V" n="47" break="no"/>li a quo offensus est: vel orat vt ei dimittatur: elemosynam 
-      <lb ed="#V" n="48"/>facit.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e759">
-      ¶ Alie sunt corporales ratione dati vel facti: et spirituales 
-      <lb ed="#V" n="49"/>ratione indigentie: ad quam subleuandam datum vel factum 
-      ordina<lb ed="#V" n="50" break="no"/>tur: vt cum aliquis verbo instruit ignorantem: vel verbere 
-      casti<lb ed="#V" n="51" break="no"/>gat peccantem: vel per aliquod donum vel aliquid aliud sensibi in 
-      <lb ed="#V" n="52"/>le consolatur tristem. Unde secundum Aug. vbi prius. Elemotyna 
-      <lb ed="#V" n="53"/>est facere tristi consolationem: ostendere erranti viam: dare 
-      deli<lb ed="#V" n="54" break="no"/>beranti consilium: et verbere emendare vel coercere peccantem. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e775">
-                  <lb ed="#V" n="55"/>¶ Alie sunt spirituales ratione dati vel facti: et corporales 
-      ra<lb ed="#V" n="56" break="no"/>tione indigentie: ad cuius subuentionem ordinatur datum 
-      <lb ed="#V" n="57"/>vel factum: vt cum aliquis deum orat: vt corporali indigentie 
-      pro<lb ed="#V" n="58" break="no"/>ximi subueniat: et ones iste elemosyne quaeinon sunt pure 
-      cor<lb ed="#V" n="59" break="no"/>porales reducuntur ad 6scilicet ad docere ignorantem: quod potest esse 
-      <lb ed="#V" n="60"/>respectu agibilium: vel respectu speculabilium: et talis 
-      ele<lb ed="#V" n="61" break="no"/>mosyna est doctrina: et castigare delinquentem et 
-      consolari<lb ed="#V" n="62" break="no"/>tristem: et remittere delinquentibus in hominem: et supportare 
-      <lb ed="#V" n="63"/>aliorum infirmitates: et pro aliis orare: que continentur in hoc 
-      <lb ed="#V" n="64"/>versu.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e799">
-      ¶ Consule castiga solare remitte fer ora. 
-      Elemosy<lb ed="#V" n="65" break="no"/>ne spirituales primo et secundo modo dicte praeferende sunt ceteris 
-      pa<lb ed="#V" n="66" break="no"/>ribus corporalibus elemosynis: quia cum satisfacere sit causas 
-      pec<lb ed="#V" n="67" break="no"/>catorum excidere et eorum suggestionibus non aditum indulgere: et 
-      <lb ed="#V" n="68"/>verc maxime possunt fieri per gratiam dei quam cfficacius merentur spiritua¬ 
-      <!--00169.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>les elemosyne quam corporales: quia indigentie anime que maior est 
-      <lb ed="#V" n="70"/>quam indigentia corporis subueniunt: magis sunt ceteris 
-      pa<lb ed="#V" n="71" break="no"/>ribus satisfactorie: quod ideo dico: quia homo ita exiliter posset 
-      ora<lb ed="#V" n="72" break="no"/>re vel docere ad subueniendum indigentie spirituali proximi: et 
-      <lb ed="#V" n="73"/>ita efficaciter laboratur ad subueniendum indigentie corporali: 
-      <lb ed="#V" n="74"/>vel indigentia spiritualis esse potest tam parua: corporalis autem tam 
-      <lb ed="#V" n="75"/>magna quod elemosyna corporalis praeferretur spirituali. 
-      elemosy<lb ed="#V" n="76" break="no"/>ne autem spirituales 3o modo dicte non videntur mihi corporalibus 
-      praefe<lb ed="#V" n="77" break="no"/>rende: quia quamuis oratio sit quid nobilius quam cibus vel potus: tamen non 
-      <lb ed="#V" n="78"/>ita ordinatur ad subueniendum indigentie corporali. Ad 
-      praefe<lb ed="#V" n="79" break="no"/>rendum autem elemosynam vnam alii non tantum respiciendum est ad 
-      <lb ed="#V" n="80"/>indigentiam cui debet subueniri: et ad factum quod ad hoc debet 
-      or<lb ed="#V" n="81" break="no"/>dinari: sed est ad conuenientiam vnius ad aliud. Utrum autem 
-      ele<lb ed="#V" n="82" break="no"/>mosyne spirituales primo modo dicte preferende sint 
-      elemosi<lb ed="#V" n="83" break="no"/>nis spiritualibus secundo modo dictis: videri potest per illud quod superius 
-      <lb ed="#V" n="84"/>habitum est libro 3 de comparatione vite contemplatiue ad actiuam. 
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e850">
-                  <lb ed="#V" n="85"/>Ad primum in opositum dicendum quod ibi christus fecit 
-      mentio<lb ed="#V" n="86" break="no"/>nem specialiter de elemosynis corporalibus 
-      <lb ed="#V" n="87"/>non vt ostenderet eas spiritualibus perferendas: sed ne aliquis 
-      extima<lb ed="#V" n="88" break="no"/>re posset eas non esse necessarias ad salutem.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e861">
-      ¶ Ad 2m dicendum: quod quando 
-      <lb ed="#V" n="89"/>elemosyna inter partes satisfactionis praefertur orationi non 
-      distin<lb ed="#V" n="90" break="no"/>guitur elemosyna ab illa quae fieri potest de oratione: et ego 
-      conce<lb ed="#V" n="91" break="no"/>do quod oratio inquantum homo per eam subuenit indigentie anime sue et 
-      pro<lb ed="#V" n="92" break="no"/>ximi magis est satisfactoria: quam inquantum per eam vacat 
-      contempla<lb ed="#V" n="93" break="no"/>tionis dulcedini: quia et si 3o modo sit dignior in essentia: primo 
-      <lb ed="#V" n="94"/>tamen modo ratione vsus magis est meritoria. Neque videatur 
-      <lb ed="#V" n="95"/>tibi distinctio friuola: quia similem distinctionem facit Augustinus. xi. 
-      <lb ed="#V" n="96"/>de ci. ca. 16. vbi ratione vsus panem praefert muri: et nummos 
-      pu<lb ed="#V" n="97" break="no"/>licibus: quamuis ratione dignitatis essentie sit econtario. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k48829-Dd1e884">
-               <head xml:id="kzz7yh-k48829-Hd1e886">Quaestio 6</head>
-               <p xml:id="kzz7yh-k48829-d1e888">
-      Quaestio VI 
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e890">
-                  <lb ed="#V" n="98"/>QUinto quaeritur vtrum de quolibet bono sit 
-      <lb ed="#V" n="99"/>elemosyna facienda. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e897">
-                  <lb ed="#V" n="100"/>¶ Respondeo bonorum tria sunt gena: vtur superius 
-      <lb ed="#V" n="101"/>dictum est scilicet anime: corporis: et bona exteriora: de 
-      bo<lb ed="#V" n="102" break="no"/>nis anime potest fieri elemosyna: vt cum aliquis orat pro alio: vel 
-      pec<lb ed="#V" n="103" break="no"/>canti in se percit ex corde: quod est maxima elemosyna. Unde 
-      <lb ed="#V" n="104"/>Aug. enchi. 4. c. Ea elemosyna nihil est maius: quae ex 
-      cor<lb ed="#V" n="105" break="no"/>de dimittimus quod in nos quisquam peccauit: de bonis corporis: 
-      <lb ed="#V" n="106"/>vt est cum aliquis seruit infirmis: de exterioribus autem bonis 
-      di<lb ed="#V" n="107" break="no"/>stinguendum est: quia aut sunt male acquisita: aut bene. Si male 
-      <lb ed="#V" n="108"/>aut licitum est ei: qui acquisiuit ea retinere aut non. Si sic: de 
-      <lb ed="#V" n="109"/>illis potest fieri elemosyna: vnde meretrix de pecunia 
-      quam<lb ed="#V" n="110" break="no"/>per meretricium acquisiuit potest elemosynam facere: illud enim quod 
-      <lb ed="#V" n="111"/>sic acquiritur licite retinere potest: quamuis enim in eo quod meretricatur 
-      <lb ed="#V" n="112"/>turpiter agat: et contra legem dei: quapropter illud quod accipit turpe 
-      <lb ed="#V" n="113"/>lucrum vocatur: tamen in accipiendo pecuniam pro eo quod damnificata 
-      <lb ed="#V" n="114"/>est contra legem dei non facit: vnde 14. q. 5. Qui habetis § Sed 
-      <lb ed="#V" n="115"/>hoc de peccato aliqua non numquam acquiruntur qui pauperibus iuste erogantur 
-      <lb ed="#V" n="116"/>de acquisito tamen per meretricium non sit sacrificium vel oblatio 
-      <lb ed="#V" n="117"/>ad altare propter scandalum et reuerentiam sacramentorum: vnde Deut 23t 
-      <lb ed="#V" n="118"/>Non offeres mercedem postribuli in domo domini dei tui. 
-      Si<lb ed="#V" n="119" break="no"/>autem non est licitum ea retinere: aut illis a quibus accepta sunt 
-      con<lb ed="#V" n="120" break="no"/>uenit ius repetendi: qualia sunt bona acquisita per vsuram vel 
-      <lb ed="#V" n="121"/>furtum vel rapinam: et de talibus non debet fieri elemosyna: sed 
-      re<lb ed="#V" n="122" break="no"/>stitutio: de iureiurando. Ea te. dicitur quod onus non remittitur: sed 
-      <lb ed="#V" n="123"/>augetur: cum culque improuide soluitur: quod alii ex debito est 
-      praestan<lb ed="#V" n="124" break="no"/>dum: sic etiam intellige quod dicitur primo. q. 1. Non est: non est 
-      putan<lb ed="#V" n="125" break="no"/>da elemosyna si pauperibus erogatur vel dispensetur: quod ex 
-      illi<lb ed="#V" n="126" break="no"/>citis rebus acquiritur: et 14. q. 5. Nolite: quod sumptum est ab Aug. 
-      <lb ed="#V" n="127"/>in lib.o de verbis domini. sermone 335 ante mediu. Nolite 
-      velle<lb ed="#V" n="128" break="no"/>elemosynas facere de fenore et vsuris: et I. c. Forte 
-      prohibe<lb ed="#V" n="129" break="no"/>tur expresse fieri de rapina: vnde ibidem dicitur. Si totum tribuat 
-      <lb ed="#V" n="130"/>pauperibus: quod abstulerat addit potius peccatum quam minuat. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e967">
-                  <lb ed="#V" n="131"/>¶ Aut non competit ius repetendi: quale est bonum acquisitum per 
-      <lb ed="#V" n="132"/>symoniam: quod bonum ille qui acquisiuit retinere non potest: exra de 
-      <lb ed="#V" n="133"/>symo. De hoc autem: quia contra legem accepit: nec ille qui dedit 
-      <lb ed="#V" n="134"/>potest repetere: quia contra iustitiam dedit. Et talis pecunia 
-      ero<lb ed="#V" n="135" break="no"/>ganda est in elemosynis: et sic datur soli praelato: ita quod si 
-      communi<lb ed="#V" n="136" break="no"/>tas non est in culpa debet dare ecclesie: in cuius ignominiam da¬ 
-      <!--00170.xml-->
-      <pb ed="#V" n="69-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>ta fuit: vt habetur cap. praedicto in tex. et l glo. Si autem communitas 
-      <lb ed="#V" n="2"/>est in culpa pecuniam debet restituere alicui monasterio quod 
-      i<lb ed="#V" n="3" break="no"/>le qui dedit intrauit in alleuiationem monasterii: et sic 
-      intelli<lb ed="#V" n="4" break="no"/>gi potest illud quod dicitur extra de symo. Ueniens. Si autem nullum 
-      <lb ed="#V" n="5"/>monasterium intrare voluerit aliis pauperibus eroganda est. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1001">
-                  <lb ed="#V" n="6"/>¶ De bene autem acquisitis distinguendum est: quia aut sunt necessaria 
-      <lb ed="#V" n="7"/>illi qui acquisiuit ad sustentationem nature: aut non. Si sic. de illis 
-      <lb ed="#V" n="8"/>non debet elemosynam facere: quia magis tenetur sibi secundum 
-      chari<lb ed="#V" n="9" break="no"/>tatis legem quam alii nisi sorte in casu in quo subtrahendo 
-      si<lb ed="#V" n="10" break="no"/>bi ipsi daret alicui soleni persone: de cuius morte immineret 
-      <lb ed="#V" n="11"/>notabile detrimentum rei pu. et profectui animarum: sed hoc 
-      face<lb ed="#V" n="12" break="no"/>re non esset necessitatis: sed perfectsonis.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1019">
-      ¶ Si non: aut sunt 
-      <lb ed="#V" n="13"/>necessaria sibi ad decentiam sui status: aut non. Si non: tenetur de 
-      il<lb ed="#V" n="14" break="no"/>lis elemosynam facere pauperibus non constitutis in periculo 
-      <lb ed="#V" n="15"/>necessitatis extreme. Si sic: non tenetur de illis facere 
-      elemo<lb ed="#V" n="16" break="no"/>synam per quam redderet se impotentem ad viuendum secundum 
-      <lb ed="#V" n="17"/>decentiam sui status nisi pauperibus in tanta indigentia constitut 
-      <lb ed="#V" n="18"/>quod appareant signa probabilia extreme necessitatis quisi 
-      possuntin<lb ed="#V" n="19" break="no"/>vel de proximo imminentis. Aliis est pauperibus tenetur loco et 
-      <lb ed="#V" n="20"/>tempore facere elemosynas non derogantes notabiliter modo 
-      vi<lb ed="#V" n="21" break="no"/>uendi secundum decentiam sui status. Talis enim decentia in 
-      indiuisibi<lb ed="#V" n="22" break="no"/>li non consistit: sed magnam habet latitudinem. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k48829-Dd1e1045">
-               <head xml:id="kzz7yh-k48829-Hd1e1047">Quaestio 6</head>
-               <p xml:id="kzz7yh-k48829-d1e1049">
-      Quaestio VI.
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e1051">
-                  <lb ed="#V" n="23"/>SExto queritur vtrum licitum sit 
-      <lb ed="#V" n="24"/>cuilibet facere 
-      esale<lb ed="#V" n="25" break="no"/>mosynam. Et videtur quod sic. quia facere elemosynam omnibus 
-      <lb ed="#V" n="26"/>praeceptum est. decret. di. 86. Non satis §. in singulis 
-      <lb ed="#V" n="27"/>quoque: et sumptum est ab Ambro. super Lucausa lib 2 longe ante 
-      <lb ed="#V" n="28"/>finem.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1067">
-      ¶ Item Aug. in quodam sermone dicit quod de diligendis 
-      <lb ed="#V" n="29"/>inimicis nemo vnquam se poterit excusare: quia de 
-      corde<lb ed="#V" n="30" break="no"/>hanc elemosynam implere iubemur. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1074">
-                  <lb ed="#V" n="31"/>Contra extra de decimis. Tua nobis. nulli licitum est. 
-      <lb ed="#V" n="32"/>aliena cuiquam concedere praeter domini voluntate: sed 
-      <lb ed="#V" n="33"/>vt dicitur extra de sta. mo. Cum ad monasterium. Prohibemus 
-      distri<lb ed="#V" n="34" break="no"/>cte virtute obe. sub obtestatione diuini iudicii. ne quis 
-      mo<lb ed="#V" n="35" break="no"/>nachorum proprium aliquo modo possideat: ergo monachi non 
-      <lb ed="#V" n="36"/>possunt facere elemosynam.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1091">
-      ¶ Item ille qui est alii subditus sine 
-      il<lb ed="#V" n="37" break="no"/>lius permissione nihil dare debet: sed vxor est sub potestate viri: vt 
-      <lb ed="#V" n="38"/>habetur Genm 3 et filius in obedientia parentum: vt habetur ad Ephe. 6 
-      <lb ed="#V" n="39"/>et serui subditi dominius: vt habetur. 1.t Pet 2 ergo vxoribus et filiis 
-      <lb ed="#V" n="40"/>et seruis elemosynas facere non licet. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1102">
-                  <lb ed="#V" n="41"/>Respondeo quod ordo naturalis exigit vt inferiora a 
-      <lb ed="#V" n="42"/>superioribus regulentur: et ideo illi quod sunt 
-      <lb ed="#V" n="43"/>sub aliena potestate constituti de eis: in quibus aliis subiiciuntur 
-      or<lb ed="#V" n="44" break="no"/>dinare non debent aliter quam eis fuerit a superioribus commissum: et qui 
-      <lb ed="#V" n="45"/>nullus: ideo alii est subditus quantum ad interiores intellectus et 
-      volun<lb ed="#V" n="46" break="no"/>tatis actus nisi soli deo: ideo de illis bomnis orando et corde 
-      dimit<lb ed="#V" n="47" break="no"/>tendo omnibus elemosynam facere licem: sed quia monacbus proprium non 
-      <lb ed="#V" n="48"/>habet: ideo de bonis exterioribus non potest elemosynam facere sine 
-      <lb ed="#V" n="49"/>licentia abbatis expressa vel probabiliter praesumpta: nisi 
-      dispensa<lb ed="#V" n="50" break="no"/>tio aliquorum bonorum monasterii sibi sit ab abbate commissa: 
-      <lb ed="#V" n="51"/>tunc enim de illis potest facere elemosynas moderatas et 
-      rationa<lb ed="#V" n="52" break="no"/>biles secundum proportionem bonorum quae sunt sibi ad dispensandum 
-      con<lb ed="#V" n="53" break="no"/>missa. Quia est vir est administrator bonorum tamquam caput 
-      mu<lb ed="#V" n="54" break="no"/>lieris: ideo non debet dare mulier elemosynas sine consensu 
-      viri<lb ed="#V" n="55" break="no"/>expresso vel supposito: exceptis communibus elemosynis et peruis per 
-      <lb ed="#V" n="56"/>comparationem ad possessiones eorum nisi praeter dotem quae ordinatur 
-      <lb ed="#V" n="57"/>ad sustentanda matrimonii onera heat res alias vniveal ex proprio 
-      <lb ed="#V" n="58"/>lucro vel per alium licitum modum: tunc enim de illis irrequisito asse. 
-      <lb ed="#V" n="59"/>su mariti potest facere elemosynas moderatas. Filii est 
-      fami<lb ed="#V" n="60" break="no"/>lias proposias possessiones non habent: nec est serui: immo serui sunt 
-      <lb ed="#V" n="61"/>possessio dominorum: et ideo facere elemosynas non debent nisi 
-      for<lb ed="#V" n="62" break="no"/>te aliquas modicas: de quibus possunt praesumere quod patri vel domino 
-      pla<lb ed="#V" n="63" break="no"/>ceat: nisi aliquorum bonorum esset eis a patribus vel dominis 
-      dispensa<lb ed="#V" n="64" break="no"/>tio commissa. Omnes tamen praedicti licite possunt et debent in casu necessa 
-      <lb ed="#V" n="65"/>tatis extreme indigentibus subuenire: etiam assensu superiorum non 
-      <lb ed="#V" n="66"/>habito expresse nec praesumpte
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1161">
-      ¶ Argumenta ad partem primam procedunt 
-      <lb ed="#V" n="67"/>de bonis anime de quibus quisque habet vsum liberi arbi non tantum licite 
-      po<lb ed="#V" n="68" break="no"/>test: sed tenetur elemosynam facere.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1168">
-      ¶ Ad argumenta ad partem aliam 
-      <!--00170.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>patet solutio ex dictis in quaestione. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k48829-Dd1e1178">
-               <head xml:id="kzz7yh-k48829-Hd1e1180">Quaestio 7</head>
-               <p xml:id="kzz7yh-k48829-d1e1182">
-      Quaestio VII 
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e1184">
-                  <lb ed="#V" n="70"/>Eptimo queritur vtrum aliquis possit 
-      ele<lb ed="#V" n="71" break="no"/>mosynam facere sibi ipsi. Et videtur 
-      <lb ed="#V" n="72"/>quod non. quia iustitia est circa oppositiones quae sunt ad 
-      alte<lb ed="#V" n="73" break="no"/>rum: sed dare elemosynam est actus misericordie quae est 
-      <lb ed="#V" n="74"/>pars iustitie: vt superius habitum est: ergo dare elemosynam non potest 
-      <lb ed="#V" n="75"/>esse actus hominis ad seipsum.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1200">
-      ¶ Item dare elemosynam effectus est 
-      <lb ed="#V" n="76"/>charitatis: sed secundum Greg. in quadam Homelis super illud Luc. 
-      <lb ed="#V" n="77"/>1o. Designauit dominus et alios septuagintaduos. Nemo ad 
-      <lb ed="#V" n="78"/>semetipsum proprie charitatem habere dicitur: ergo nec 
-      ali<lb ed="#V" n="79" break="no"/>quis potest elemosynam facere sibiipsi. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1211">
-                  <lb ed="#V" n="80"/>Contra Ecclus. 30. Miserere anime tue placens deo: secd 
-      da<lb ed="#V" n="81" break="no"/>re elemosynam opus est misericordie. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1219">
-                  <lb ed="#V" n="82"/>Respondeo quod hominis ad seipsum non potest esse 
-      iusti<lb ed="#V" n="83" break="no"/>tia proprie et simpliciter dicta: quia homo per 
-      iu<lb ed="#V" n="84" break="no"/>stitiam simpliciter dictam: illud quod non est sibi simpliciter debitum 
-      tri<lb ed="#V" n="85" break="no"/>buit illi cui simpliciter est debitum. Impossibile autem est quod eidem 
-      ho<lb ed="#V" n="86" break="no"/>mini sit aliquid simpliciter debitum: et non fit ei simpliciter debitum simul. 
-      <lb ed="#V" n="87"/>Unde dicit philosophus. 5 ethi. ca. xi. quod non est iniustitia ad quae ipsius 
-      <lb ed="#V" n="88"/>simpliciter: quia circa hoc non est iustitia simpliciter dicta. Iustitia 
-      <lb ed="#V" n="89"/>tamen metaphorice dicta que est aliqua pars potentialis vel 
-      imita<lb ed="#V" n="90" break="no"/>tio iustitie simpliciter dicte potest esse hominis ad seipsum: quia aliquid est 
-      <lb ed="#V" n="91"/>non debitum homini ratione vnius partis quod debitum est sibi ratione 
-      <lb ed="#V" n="92"/>alterius partis: sicut imperare debitum est anime: et subiici 
-      debi<lb ed="#V" n="93" break="no"/>tum est corpori: et ideo cum homo per animam castigat corpus: facit 
-      <lb ed="#V" n="94"/>actum iustitie metaphorice dicte: misericordia autem non est 
-      <lb ed="#V" n="95"/>iustitia simpliciter dicta: sed vt superius visum est: continetur 
-      <lb ed="#V" n="96"/>sub liberalitate quae est pars potentialis iustitie. Unde non est 
-      incon<lb ed="#V" n="97" break="no"/>ueniens quod actus eius qui est dare elemosynam sit hominis ad seipsum 
-      <lb ed="#V" n="98"/>quia aliquid potest esse suum secundum vnam rationem: quo indiget secundum aliam. 
-      <lb ed="#V" n="99"/>Unde cum homo penitendo dispositiue subuenit indigentie anime 
-      <lb ed="#V" n="100"/>sue: illud quod principaliter praesupposito adiutorio dei suum erat 
-      <lb ed="#V" n="101"/>potestatiue siue effectiue non formaliter sibi dispositiue 
-      tri<lb ed="#V" n="102" break="no"/>buit formaliter: non enim est inconueniens quod idem homo sit agens et 
-      re<lb ed="#V" n="103" break="no"/>cipiens idem secundum diuersam vel secundum aliam et aliam rationem. 
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e1269">
-                  <lb ed="#V" n="104"/>Ad primum in oppositum patet solutio ex iam dict. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1274">
-                  <lb ed="#V" n="105"/>¶ Ad secundum dicendum: quod verbum 
-      Greg<lb ed="#V" n="106" break="no"/>intelligendum est de homine qui seipsum tantum diligit et non alium. 
-      Ue<lb ed="#V" n="107" break="no"/>rum est enim quod talis ad seipsum charitatem non habet: sed 
-      inor<lb ed="#V" n="108" break="no"/>dinatum amorem.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k48829-Dd1e1286">
-               <head xml:id="kzz7yh-k48829-Hd1e1288">Quaestio 8</head>
-               <p xml:id="kzz7yh-k48829-d1e1290">
-     Questio. VIII
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e1292">
-                  <lb ed="#V" n="109"/>OCtauo queritur vtrum elemosyna danda 
-      <lb ed="#V" n="110"/>sit malis. Et videtur quod non. Eccl. 
-      <lb ed="#V" n="111"/>12. Ne suscipias peccatorem.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1301">
-      ¶ Item secundum philosophum. 2. 
-      <lb ed="#V" n="112"/>Top. Spernendum est inimicis benefacere: et si 
-      <lb ed="#V" n="113"/>hoc verum est de inimicis hominis: multo fortius de 
-      ini<lb ed="#V" n="114" break="no"/>micis dei. Sed malus homo inimilcus dei est. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1310">
-                  <lb ed="#V" n="115"/>Contra Math. 5. Benefacite his qui oderunt vos: 
-      <lb ed="#V" n="116"/>sed oditores fratrum sunt mali: ergo danda 
-      <lb ed="#V" n="117"/>est elemosyna hominibus malis. 
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1320">
-                  <lb ed="#V" n="118"/>Respondeo quod in homine malo duo 
-      consideran<lb ed="#V" n="119" break="no"/>da sunt scilicet natura: et vitium: et sicut 
-      <lb ed="#V" n="120"/>eius natura ita debet ex charitate diligi quod eius vitium 
-      odia<lb ed="#V" n="121" break="no"/>tur: vt superius habitum est. 3. libio sic ita debet per 
-      elemo<lb ed="#V" n="122" break="no"/>synam subueniri indigentie sue nature: vt per hoc in 
-      ma<lb ed="#V" n="123" break="no"/>litia non foueatur. Unde. 5. q. 5. Non omnis et sumptum 
-      <lb ed="#V" n="124"/>est ab Aug. in eplura ad Uincentium. non multum longe post 
-      <lb ed="#V" n="125"/>principium dicitur: quod vtilius esurienti panis tollitur: 
-      si<lb ed="#V" n="126" break="no"/>de cibo securus iustitiam negligat: quam esurienti panis 
-      fran<lb ed="#V" n="127" break="no"/>gatur: vt iniustitie seductus acquiescat. Nec est contrarium 
-      <lb ed="#V" n="128"/>huic quod dicitur. 86. dist. Non satis § pasce. quia ibi loquitur 
-      <lb ed="#V" n="129"/>de esuriente ad mortem. 
-    </p>
-               <p xml:id="kzz7yh-k48829-d1e1349">
-                  <lb ed="#V" n="130"/>Ad primum in opponsitum dicendum: quod illa 
-      auctori<lb ed="#V" n="131" break="no"/>tas intelligenda est de peccatore: qui 
-      <lb ed="#V" n="132"/>elemosyna sibi facta abutitur.
-   </p>
-               <p xml:id="kzz7yh-k48829-d1e1358">
-      ¶ Ad secundum dicendum quod illa 
-      au<lb ed="#V" n="133" break="no"/>ctoritas intelligenda est de inimicis sub ratione qua 
-      inimi<lb ed="#V" n="134" break="no"/>ci sunt: non sub ratione qua homines sunt: non tamen 
-      te<lb ed="#V" n="135" break="no"/>neor eis facere subuentionem qua sint potentiores ad 
-      exer<lb ed="#V" n="136" break="no"/>cendum malitiam contra me. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="69"/>extreme necessitatis: tunc habens tenetur ex praecepto subuentre 
+            <lb ed="#V" n="70"/>indigenti: si etiam homo hebeat aliquid superfluum non tantum sustentationi 
+            <lb ed="#V" n="71"/>nature: sed etiam decentie sui status: tenetur de illo elemosynam 
+            facen<lb ed="#V" n="72" break="no"/>indigentibus etiam si non inuenirentur tales qui essent constituti in 
+            necessai<lb ed="#V" n="73" break="no"/>tate praedicta. Et si plures occurrant indigentes: quibus omnibus 
+            subue<lb ed="#V" n="74" break="no"/>nire non possit tenetur ceteris peribus: magis indigenti subuenire. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e447">
+            <lb ed="#V" n="75"/>¶ Ad primum in oppositum dicendum: quod superfluum 
+            susten<lb ed="#V" n="76" break="no"/>tationi tue nature et si sit tuum proprium 
+            <lb ed="#V" n="77"/>quantum ad dispensationem seu auctoriatem admistrandi: quantum tamen ad 
+            <lb ed="#V" n="78"/>vsum: illorum est in quibus vides signa probabilia imminem 
+            necessita<lb ed="#V" n="79" break="no"/>tis extreme nisi subueniatur eisdem: a simili aliquo modo dico de 
+            <lb ed="#V" n="80"/>superfluo decentie tamntni status respectu indigentium citra praedictam 
+            ne<lb ed="#V" n="81" break="no"/>cessitatem. Unde contra illos qui de superfluo modis praedictis 
+            indigenti<lb ed="#V" n="82" break="no"/>bus subuenire nolunt: dicitur decre. di. 47. sic. Esurienitum panis 
+            <lb ed="#V" n="83"/>est quem tu detines: nudorum vestimtum est quod tu recludis: 
+            mi<lb ed="#V" n="84" break="no"/>serorum redemptio est et absolutio pecunia quam tu in terra de 
+            <lb ed="#V" n="85"/>fodis: et in hoc apparet quod elemosynam dare eo modo quo 
+            <lb ed="#V" n="86"/>cadit sub praecepto multum participat de ratione actus iustitie. Unde 
+            <lb ed="#V" n="87"/>et glo. super illud Matth. 5. Cum facis elemosynam: dicitur 
+            <lb ed="#V" n="88"/>elemosyna est pars iniustitie: et quamuis huius praecepti 
+            transgref<lb ed="#V" n="89" break="no"/>sores non semper puniantur lege humana: puniuntur tamen lege 
+            <lb ed="#V" n="90"/>diuina: secundum enim sententiam Aug. i. libro de libero arbitrio longe ante mediu: 
+            <lb ed="#V" n="91"/>multa impunita iuste relinquuntur lege humana: que tamen 
+            iu<lb ed="#V" n="92" break="no"/>ste vindicantur lege diuina.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e490">
+            ¶ Ad secundum dicendum: quod hoc praeceptum 
+            <lb ed="#V" n="93"/>reducitur ad praeceptum de honoratione parentum: sub quo 
+            com<lb ed="#V" n="94" break="no"/>prehenduntur praecepta affirmatiua de operibus pletatis.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e497">
+            ¶ Ad 
+            <lb ed="#V" n="95"/>tertium dicendum: quod non dans elemosynam in casibus supradictis 
+            <lb ed="#V" n="96"/>mortaliter peccat: alus autem dare elemosynam est 
+            confi<lb ed="#V" n="97" break="no"/>lium: non preceptum.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k48829-Dd1e507">
+          <head xml:id="kzz7yh-k48829-Hd1e509">Quaestio 3</head>
+          <p xml:id="kzz7yh-k48829-d1e511">
+            ¶ Questio. III.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e513">
+            <lb ed="#V" n="98"/>Tertio queritur vtrum dare elemosynam sit 
+            ma<lb ed="#V" n="99" break="no"/>gis satisfactorium inter partes 
+            satisfa<lb ed="#V" n="100" break="no"/>ctionis. Et videtur quod non. Auic. 10. meta. ca. 3. loquens 
+            <lb ed="#V" n="101"/>de obsequiis qui impenduntur propter deum: dicit: quod ex his 
+            <lb ed="#V" n="102"/>omnibus obsequiis illud est acceptabilius per quod agens paratur: quasi 
+            <lb ed="#V" n="103"/>sit loquens in deo et tendens in ipsum: et ad ipsum factus quasi proesenus ei: 
+            <lb ed="#V" n="104"/>et haec est oratio.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e531">
+            ¶ Item cum per satisfactionem sint causae peccatorum 
+            <lb ed="#V" n="105"/>excidende: illud magis est satisfactorium quod est: contra peiorem 
+            <lb ed="#V" n="106"/>radicem peccati: sed illa est superbia vite: contra quam est directe oratio: 
+            <lb ed="#V" n="107"/>ergo oro est magis satisfactoria inter satisfactionis partes. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e540">
+            <lb ed="#V" n="108"/>¶ Item: satisfactio facienda est per opera penalia: sed ieiunium 
+            <lb ed="#V" n="109"/>magis est penale quam donatio elemosyne: ergo magis est 
+            sa<lb ed="#V" n="110" break="no"/>tisfactorium quam elemosyna. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e550">
+            <lb ed="#V" n="111"/>Contra illud magis est satisfactorium: cui maxime 
+            ap<lb ed="#V" n="112" break="no"/>propriat scriptura contrariari peccatis: sed 
+            elemosy<lb ed="#V" n="113" break="no"/>na est huiusmodi: vnde Eccle. 3. Ignem ardentem extinguit aqua: et 
+            <lb ed="#V" n="114"/>et elemosyna resistit peccatis: ergo elemosyna est maxime 
+            satis<lb ed="#V" n="115" break="no"/>factoria.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e563">
+            ¶ Item postquam Thobi. 12. dicntum est: bona est oratio cum 
+            <lb ed="#V" n="116"/>ieiunio: et elemosyna: de elemosyna specialiter subiungitur: quoniam 
+            <lb ed="#V" n="117"/>elemosyna a morte liberat: et ipsa est qui purgat peccata et facit 
+            <lb ed="#V" n="118"/>inuenire vitam eternam: ergo videtur quod sit magis 
+            satisfa<lb ed="#V" n="119" break="no"/>ctoria elemosyna quam ieiunium vel oratio. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e574">
+            <lb ed="#V" n="120"/>Ad istam quaestionem dicunt quidam quod in satisfactione tria 
+            <lb ed="#V" n="121"/>sunt scilicet vitatio culpe: ad quam maxime 
+            va<lb ed="#V" n="122" break="no"/>let oratio: solutio pene: ad quam maxime valet ieiunium: 
+            augmen<lb ed="#V" n="123" break="no"/>tum gratiae ad quod maxime valet elemosyna. Et quia augmentum 
+            <lb ed="#V" n="124"/>gratiae nobilius est quam vitatio culpe: quia non vitatur malum nisi 
+            <lb ed="#V" n="125"/>propter bonum: et quodlibet istorum melius est quam solutio pene: ideo inter 
+            <lb ed="#V" n="126"/>partes satisfactionis vtilior est elemosyna: et oratio vtilior quam 
+            ie<lb ed="#V" n="127" break="no"/>iunium. Quam conclusionem concedo.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e594">
+            ¶ Aliter tamen possum eam 
+            de<lb ed="#V" n="128" break="no"/>clarare: elemosyna enim debita intentione facta aliquo modo 
+            vir<lb ed="#V" n="129" break="no"/>tutem continet orationis et ieiunii: quia elemosyna eum cui datur 
+            <lb ed="#V" n="130"/>obligat ad orandum et ieiunandum: et alia bona faciendum si adest 
+            <lb ed="#V" n="131"/>facultas pro dante: elemofyna etiam inquantum datur propter deum est 
+            <lb ed="#V" n="132"/>quasi quaedam oblatio deo facta: oblatio autem facta deo aliquam 
+            vim<lb ed="#V" n="133" break="no"/>habet orationis: inquantum etiam exteriora bona sunt ad sustentationem 
+            <lb ed="#V" n="134"/>corporis: subtractio eorum per elemosynam aliquo modo virtutem 
+            <lb ed="#V" n="135"/>continet ieiunii: oratio similiter virtute aliquo modo continet ineiunium: quia 
+            <lb ed="#V" n="136"/>in oratione anima regimi corporis minus intendit: et ex conseqenti corpus de 
+            <!--00169.xml-->
+            <pb ed="#V" n="69-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>bitat: sicut ergo virtuosior est anima intellectiua quam 
+            sen<lb ed="#V" n="2" break="no"/>sitiua: quia continet ipsius virtutem et plus: et sensitiua quam 
+            vege<lb ed="#V" n="3" break="no"/>tatiua: quia continet eius virtutem et amplius: sic magis est 
+            sa<lb ed="#V" n="4" break="no"/>tisfactoria elemosyna quam oratio: et oratio quam ieiunium: quamuis 
+            <lb ed="#V" n="5"/>elemosyna non tantum excedat orationem et ieiunium in esse 
+            mo<lb ed="#V" n="6" break="no"/>ris quantum anima intellectiua excedit sensitiuam et 
+            ve<lb ed="#V" n="7" break="no"/>getatiuam in esse nature. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e638">
+            <lb ed="#V" n="8"/>Ad primum in oppositum dicendum: quo omretio secundum 
+            essen<lb ed="#V" n="9" break="no"/>tiam dignior est quam donatio 
+            elemosy<lb ed="#V" n="10" break="no"/>ne: sed tamen quantum ad vsum vtilius est dare elemosynam 
+            <lb ed="#V" n="11"/>quam orare: et sic debet intelligi verbum Auic. quia tamen oratio et 
+            seiu<lb ed="#V" n="12" break="no"/>nium retrahunt a peccato: non tantum per modum meriti: sed 
+            <lb ed="#V" n="13"/>etiam per modum consuetudinis contrarie: ideo de illo 
+            demo<lb ed="#V" n="14" break="no"/>nio quod erat deputandum ad inclinandum homines ad 
+            ma<lb ed="#V" n="15" break="no"/>lam consuetudinem: dicitur Matth. 17. quod eiici non potest nisi per 
+            <lb ed="#V" n="16"/>orationem et ieiunium.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e660">
+            ¶ Ad secundum dicendum: quod contra superbiam 
+            <lb ed="#V" n="17"/>vite: est etiam elemosyna: quia vt superius habitum est 
+            conti<lb ed="#V" n="18" break="no"/>net aliquam orationis virtute.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e668">
+            ¶ Ad tertium dicendum: quod in 
+            satis<lb ed="#V" n="19" break="no"/>factione plus attendenda est bonitas quam penalitas: 
+            elemo<lb ed="#V" n="20" break="no"/>syna autem melior est ieiunio: quamuis ieiunium sit penalius 
+            <lb ed="#V" n="21"/>simpliciter: quod ideo dico: quia aliquibus penalius est 
+            elemosy<lb ed="#V" n="22" break="no"/>nam dare quam ieiunare.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k48829-Dd1e680">
+          <head xml:id="kzz7yh-k48829-Hd1e682">Quaestio 4</head>
+          <p xml:id="kzz7yh-k48829-d1e684">
+            Quaestio IIII. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e686">
+            <lb ed="#V" n="23"/>Uarto queritur. vtrum 
+            elemo<lb ed="#V" n="24" break="no"/>syne 
+            corpora<lb ed="#V" n="25" break="no"/>les preferende sint spiritualibus elemosynis. Et 
+            vi<lb ed="#V" n="26" break="no"/>tur quod sic. Matth. 25. vbi christus predicit 
+            omissio<lb ed="#V" n="27" break="no"/>nes operum misericordie que improperabuntur reprobis 
+            <lb ed="#V" n="28"/>in iudicio: non fit mentio nisi de omissionibus elemosynarum 
+            <lb ed="#V" n="29"/>corporalium: quod non fieret nisi corporales essent spiritualibus 
+            <lb ed="#V" n="30"/>preferende.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e706">
+            ¶ Item corporalis elemosyna praeferenda est 
+            oratio<lb ed="#V" n="31" break="no"/>ni: sed de oratione potest fieri elemosyna: qui enim orat pro alio 
+            si<lb ed="#V" n="32" break="no"/>bi misericordiam impendit: cum ergo oratio sit res spiritualis: 
+            ele<lb ed="#V" n="33" break="no"/>mosyna corporalis paeferenda est spirituali. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e715">
+            <lb ed="#V" n="34"/>Contra spiritus praefertur corpori: ergo a simili et 
+            elemo<lb ed="#V" n="35" break="no"/>syna spiritualis preferenda est corporali.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e723">
+            ¶ Item 
+            <lb ed="#V" n="36"/>decret. distine. 45 Due. elemosyna cordis multo maior est 
+            <lb ed="#V" n="37"/>quam elemosyna corporis. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e730">
+            <lb ed="#V" n="38"/>Respondeo quod sunt elemosyne pure corpoales: 
+            <lb ed="#V" n="39"/>vt cum datur vel fit aliquid 
+            corpora<lb ed="#V" n="40" break="no"/>le ad subuentionem corporalis indigentie proximi: que sunt 
+            se<lb ed="#V" n="41" break="no"/>ptem: visitare infirmum: potare sitientem: cibare esurientem: 
+            <lb ed="#V" n="42"/>redimere incarceratum: vestire nudum: recipere hospitem: 
+            se<lb ed="#V" n="43" break="no"/>pelire mortuum: que hoc versu continentur. Uisito: poto: cibo: 
+            re<lb ed="#V" n="44" break="no"/>dimo: tego: colligo: condo.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e748">
+            ¶ Quedam sunt pure spirituales scilicet 
+            <lb ed="#V" n="45"/>cum datur vel cum sit aliquid spirituale ad subuetum spirituali 
+            indigen<lb ed="#V" n="46" break="no"/>tie proximi: et sic secundum Aug. enchi. 40. ca. qui dimittit corde 
+            il<lb ed="#V" n="47" break="no"/>li a quo offensus est: vel orat vt ei dimittatur: elemosynam 
+            <lb ed="#V" n="48"/>facit.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e759">
+            ¶ Alie sunt corporales ratione dati vel facti: et spirituales 
+            <lb ed="#V" n="49"/>ratione indigentie: ad quam subleuandam datum vel factum 
+            ordina<lb ed="#V" n="50" break="no"/>tur: vt cum aliquis verbo instruit ignorantem: vel verbere 
+            casti<lb ed="#V" n="51" break="no"/>gat peccantem: vel per aliquod donum vel aliquid aliud sensibi in 
+            <lb ed="#V" n="52"/>le consolatur tristem. Unde secundum Aug. vbi prius. Elemotyna 
+            <lb ed="#V" n="53"/>est facere tristi consolationem: ostendere erranti viam: dare 
+            deli<lb ed="#V" n="54" break="no"/>beranti consilium: et verbere emendare vel coercere peccantem. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e775">
+            <lb ed="#V" n="55"/>¶ Alie sunt spirituales ratione dati vel facti: et corporales 
+            ra<lb ed="#V" n="56" break="no"/>tione indigentie: ad cuius subuentionem ordinatur datum 
+            <lb ed="#V" n="57"/>vel factum: vt cum aliquis deum orat: vt corporali indigentie 
+            pro<lb ed="#V" n="58" break="no"/>ximi subueniat: et ones iste elemosyne quaeinon sunt pure 
+            cor<lb ed="#V" n="59" break="no"/>porales reducuntur ad 6scilicet ad docere ignorantem: quod potest esse 
+            <lb ed="#V" n="60"/>respectu agibilium: vel respectu speculabilium: et talis 
+            ele<lb ed="#V" n="61" break="no"/>mosyna est doctrina: et castigare delinquentem et 
+            consolari<lb ed="#V" n="62" break="no"/>tristem: et remittere delinquentibus in hominem: et supportare 
+            <lb ed="#V" n="63"/>aliorum infirmitates: et pro aliis orare: que continentur in hoc 
+            <lb ed="#V" n="64"/>versu.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e799">
+            ¶ Consule castiga solare remitte fer ora. 
+            Elemosy<lb ed="#V" n="65" break="no"/>ne spirituales primo et secundo modo dicte praeferende sunt ceteris 
+            pa<lb ed="#V" n="66" break="no"/>ribus corporalibus elemosynis: quia cum satisfacere sit causas 
+            pec<lb ed="#V" n="67" break="no"/>catorum excidere et eorum suggestionibus non aditum indulgere: et 
+            <lb ed="#V" n="68"/>verc maxime possunt fieri per gratiam dei quam cfficacius merentur spiritua¬ 
+            <!--00169.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>les elemosyne quam corporales: quia indigentie anime que maior est 
+            <lb ed="#V" n="70"/>quam indigentia corporis subueniunt: magis sunt ceteris 
+            pa<lb ed="#V" n="71" break="no"/>ribus satisfactorie: quod ideo dico: quia homo ita exiliter posset 
+            ora<lb ed="#V" n="72" break="no"/>re vel docere ad subueniendum indigentie spirituali proximi: et 
+            <lb ed="#V" n="73"/>ita efficaciter laboratur ad subueniendum indigentie corporali: 
+            <lb ed="#V" n="74"/>vel indigentia spiritualis esse potest tam parua: corporalis autem tam 
+            <lb ed="#V" n="75"/>magna quod elemosyna corporalis praeferretur spirituali. 
+            elemosy<lb ed="#V" n="76" break="no"/>ne autem spirituales 3o modo dicte non videntur mihi corporalibus 
+            praefe<lb ed="#V" n="77" break="no"/>rende: quia quamuis oratio sit quid nobilius quam cibus vel potus: tamen non 
+            <lb ed="#V" n="78"/>ita ordinatur ad subueniendum indigentie corporali. Ad 
+            praefe<lb ed="#V" n="79" break="no"/>rendum autem elemosynam vnam alii non tantum respiciendum est ad 
+            <lb ed="#V" n="80"/>indigentiam cui debet subueniri: et ad factum quod ad hoc debet 
+            or<lb ed="#V" n="81" break="no"/>dinari: sed est ad conuenientiam vnius ad aliud. Utrum autem 
+            ele<lb ed="#V" n="82" break="no"/>mosyne spirituales primo modo dicte preferende sint 
+            elemosi<lb ed="#V" n="83" break="no"/>nis spiritualibus secundo modo dictis: videri potest per illud quod superius 
+            <lb ed="#V" n="84"/>habitum est libro 3 de comparatione vite contemplatiue ad actiuam. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e850">
+            <lb ed="#V" n="85"/>Ad primum in opositum dicendum quod ibi christus fecit 
+            mentio<lb ed="#V" n="86" break="no"/>nem specialiter de elemosynis corporalibus 
+            <lb ed="#V" n="87"/>non vt ostenderet eas spiritualibus perferendas: sed ne aliquis 
+            extima<lb ed="#V" n="88" break="no"/>re posset eas non esse necessarias ad salutem.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e861">
+            ¶ Ad 2m dicendum: quod quando 
+            <lb ed="#V" n="89"/>elemosyna inter partes satisfactionis praefertur orationi non 
+            distin<lb ed="#V" n="90" break="no"/>guitur elemosyna ab illa quae fieri potest de oratione: et ego 
+            conce<lb ed="#V" n="91" break="no"/>do quod oratio inquantum homo per eam subuenit indigentie anime sue et 
+            pro<lb ed="#V" n="92" break="no"/>ximi magis est satisfactoria: quam inquantum per eam vacat 
+            contempla<lb ed="#V" n="93" break="no"/>tionis dulcedini: quia et si 3o modo sit dignior in essentia: primo 
+            <lb ed="#V" n="94"/>tamen modo ratione vsus magis est meritoria. Neque videatur 
+            <lb ed="#V" n="95"/>tibi distinctio friuola: quia similem distinctionem facit Augustinus. xi. 
+            <lb ed="#V" n="96"/>de ci. ca. 16. vbi ratione vsus panem praefert muri: et nummos 
+            pu<lb ed="#V" n="97" break="no"/>licibus: quamuis ratione dignitatis essentie sit econtario. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k48829-Dd1e884">
+          <head xml:id="kzz7yh-k48829-Hd1e886">Quaestio 6</head>
+          <p xml:id="kzz7yh-k48829-d1e888">
+            Quaestio VI 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e890">
+            <lb ed="#V" n="98"/>QUinto quaeritur vtrum de quolibet bono sit 
+            <lb ed="#V" n="99"/>elemosyna facienda. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e897">
+            <lb ed="#V" n="100"/>¶ Respondeo bonorum tria sunt gena: vtur superius 
+            <lb ed="#V" n="101"/>dictum est scilicet anime: corporis: et bona exteriora: de 
+            bo<lb ed="#V" n="102" break="no"/>nis anime potest fieri elemosyna: vt cum aliquis orat pro alio: vel 
+            pec<lb ed="#V" n="103" break="no"/>canti in se percit ex corde: quod est maxima elemosyna. Unde 
+            <lb ed="#V" n="104"/>Aug. enchi. 4. c. Ea elemosyna nihil est maius: quae ex 
+            cor<lb ed="#V" n="105" break="no"/>de dimittimus quod in nos quisquam peccauit: de bonis corporis: 
+            <lb ed="#V" n="106"/>vt est cum aliquis seruit infirmis: de exterioribus autem bonis 
+            di<lb ed="#V" n="107" break="no"/>stinguendum est: quia aut sunt male acquisita: aut bene. Si male 
+            <lb ed="#V" n="108"/>aut licitum est ei: qui acquisiuit ea retinere aut non. Si sic: de 
+            <lb ed="#V" n="109"/>illis potest fieri elemosyna: vnde meretrix de pecunia 
+            quam<lb ed="#V" n="110" break="no"/>per meretricium acquisiuit potest elemosynam facere: illud enim quod 
+            <lb ed="#V" n="111"/>sic acquiritur licite retinere potest: quamuis enim in eo quod meretricatur 
+            <lb ed="#V" n="112"/>turpiter agat: et contra legem dei: quapropter illud quod accipit turpe 
+            <lb ed="#V" n="113"/>lucrum vocatur: tamen in accipiendo pecuniam pro eo quod damnificata 
+            <lb ed="#V" n="114"/>est contra legem dei non facit: vnde 14. q. 5. Qui habetis § Sed 
+            <lb ed="#V" n="115"/>hoc de peccato aliqua non numquam acquiruntur qui pauperibus iuste erogantur 
+            <lb ed="#V" n="116"/>de acquisito tamen per meretricium non sit sacrificium vel oblatio 
+            <lb ed="#V" n="117"/>ad altare propter scandalum et reuerentiam sacramentorum: vnde Deut 23t 
+            <lb ed="#V" n="118"/>Non offeres mercedem postribuli in domo domini dei tui. 
+            Si<lb ed="#V" n="119" break="no"/>autem non est licitum ea retinere: aut illis a quibus accepta sunt 
+            con<lb ed="#V" n="120" break="no"/>uenit ius repetendi: qualia sunt bona acquisita per vsuram vel 
+            <lb ed="#V" n="121"/>furtum vel rapinam: et de talibus non debet fieri elemosyna: sed 
+            re<lb ed="#V" n="122" break="no"/>stitutio: de iureiurando. Ea te. dicitur quod onus non remittitur: sed 
+            <lb ed="#V" n="123"/>augetur: cum culque improuide soluitur: quod alii ex debito est 
+            praestan<lb ed="#V" n="124" break="no"/>dum: sic etiam intellige quod dicitur primo. q. 1. Non est: non est 
+            putan<lb ed="#V" n="125" break="no"/>da elemosyna si pauperibus erogatur vel dispensetur: quod ex 
+            illi<lb ed="#V" n="126" break="no"/>citis rebus acquiritur: et 14. q. 5. Nolite: quod sumptum est ab Aug. 
+            <lb ed="#V" n="127"/>in lib.o de verbis domini. sermone 335 ante mediu. Nolite 
+            velle<lb ed="#V" n="128" break="no"/>elemosynas facere de fenore et vsuris: et I. c. Forte 
+            prohibe<lb ed="#V" n="129" break="no"/>tur expresse fieri de rapina: vnde ibidem dicitur. Si totum tribuat 
+            <lb ed="#V" n="130"/>pauperibus: quod abstulerat addit potius peccatum quam minuat. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e967">
+            <lb ed="#V" n="131"/>¶ Aut non competit ius repetendi: quale est bonum acquisitum per 
+            <lb ed="#V" n="132"/>symoniam: quod bonum ille qui acquisiuit retinere non potest: exra de 
+            <lb ed="#V" n="133"/>symo. De hoc autem: quia contra legem accepit: nec ille qui dedit 
+            <lb ed="#V" n="134"/>potest repetere: quia contra iustitiam dedit. Et talis pecunia 
+            ero<lb ed="#V" n="135" break="no"/>ganda est in elemosynis: et sic datur soli praelato: ita quod si 
+            communi<lb ed="#V" n="136" break="no"/>tas non est in culpa debet dare ecclesie: in cuius ignominiam da¬ 
+            <!--00170.xml-->
+            <pb ed="#V" n="69-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ta fuit: vt habetur cap. praedicto in tex. et l glo. Si autem communitas 
+            <lb ed="#V" n="2"/>est in culpa pecuniam debet restituere alicui monasterio quod 
+            i<lb ed="#V" n="3" break="no"/>le qui dedit intrauit in alleuiationem monasterii: et sic 
+            intelli<lb ed="#V" n="4" break="no"/>gi potest illud quod dicitur extra de symo. Ueniens. Si autem nullum 
+            <lb ed="#V" n="5"/>monasterium intrare voluerit aliis pauperibus eroganda est. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1001">
+            <lb ed="#V" n="6"/>¶ De bene autem acquisitis distinguendum est: quia aut sunt necessaria 
+            <lb ed="#V" n="7"/>illi qui acquisiuit ad sustentationem nature: aut non. Si sic. de illis 
+            <lb ed="#V" n="8"/>non debet elemosynam facere: quia magis tenetur sibi secundum 
+            chari<lb ed="#V" n="9" break="no"/>tatis legem quam alii nisi sorte in casu in quo subtrahendo 
+            si<lb ed="#V" n="10" break="no"/>bi ipsi daret alicui soleni persone: de cuius morte immineret 
+            <lb ed="#V" n="11"/>notabile detrimentum rei pu. et profectui animarum: sed hoc 
+            face<lb ed="#V" n="12" break="no"/>re non esset necessitatis: sed perfectsonis.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1019">
+            ¶ Si non: aut sunt 
+            <lb ed="#V" n="13"/>necessaria sibi ad decentiam sui status: aut non. Si non: tenetur de 
+            il<lb ed="#V" n="14" break="no"/>lis elemosynam facere pauperibus non constitutis in periculo 
+            <lb ed="#V" n="15"/>necessitatis extreme. Si sic: non tenetur de illis facere 
+            elemo<lb ed="#V" n="16" break="no"/>synam per quam redderet se impotentem ad viuendum secundum 
+            <lb ed="#V" n="17"/>decentiam sui status nisi pauperibus in tanta indigentia constitut 
+            <lb ed="#V" n="18"/>quod appareant signa probabilia extreme necessitatis quisi 
+            possuntin<lb ed="#V" n="19" break="no"/>vel de proximo imminentis. Aliis est pauperibus tenetur loco et 
+            <lb ed="#V" n="20"/>tempore facere elemosynas non derogantes notabiliter modo 
+            vi<lb ed="#V" n="21" break="no"/>uendi secundum decentiam sui status. Talis enim decentia in 
+            indiuisibi<lb ed="#V" n="22" break="no"/>li non consistit: sed magnam habet latitudinem. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k48829-Dd1e1045">
+          <head xml:id="kzz7yh-k48829-Hd1e1047">Quaestio 6</head>
+          <p xml:id="kzz7yh-k48829-d1e1049">
+            Quaestio VI.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1051">
+            <lb ed="#V" n="23"/>SExto queritur vtrum licitum sit 
+            <lb ed="#V" n="24"/>cuilibet facere 
+            esale<lb ed="#V" n="25" break="no"/>mosynam. Et videtur quod sic. quia facere elemosynam omnibus 
+            <lb ed="#V" n="26"/>praeceptum est. decret. di. 86. Non satis §. in singulis 
+            <lb ed="#V" n="27"/>quoque: et sumptum est ab Ambro. super Lucausa lib 2 longe ante 
+            <lb ed="#V" n="28"/>finem.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1067">
+            ¶ Item Aug. in quodam sermone dicit quod de diligendis 
+            <lb ed="#V" n="29"/>inimicis nemo vnquam se poterit excusare: quia de 
+            corde<lb ed="#V" n="30" break="no"/>hanc elemosynam implere iubemur. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1074">
+            <lb ed="#V" n="31"/>Contra extra de decimis. Tua nobis. nulli licitum est. 
+            <lb ed="#V" n="32"/>aliena cuiquam concedere praeter domini voluntate: sed 
+            <lb ed="#V" n="33"/>vt dicitur extra de sta. mo. Cum ad monasterium. Prohibemus 
+            distri<lb ed="#V" n="34" break="no"/>cte virtute obe. sub obtestatione diuini iudicii. ne quis 
+            mo<lb ed="#V" n="35" break="no"/>nachorum proprium aliquo modo possideat: ergo monachi non 
+            <lb ed="#V" n="36"/>possunt facere elemosynam.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1091">
+            ¶ Item ille qui est alii subditus sine 
+            il<lb ed="#V" n="37" break="no"/>lius permissione nihil dare debet: sed vxor est sub potestate viri: vt 
+            <lb ed="#V" n="38"/>habetur Genm 3 et filius in obedientia parentum: vt habetur ad Ephe. 6 
+            <lb ed="#V" n="39"/>et serui subditi dominius: vt habetur. 1.t Pet 2 ergo vxoribus et filiis 
+            <lb ed="#V" n="40"/>et seruis elemosynas facere non licet. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1102">
+            <lb ed="#V" n="41"/>Respondeo quod ordo naturalis exigit vt inferiora a 
+            <lb ed="#V" n="42"/>superioribus regulentur: et ideo illi quod sunt 
+            <lb ed="#V" n="43"/>sub aliena potestate constituti de eis: in quibus aliis subiiciuntur 
+            or<lb ed="#V" n="44" break="no"/>dinare non debent aliter quam eis fuerit a superioribus commissum: et qui 
+            <lb ed="#V" n="45"/>nullus: ideo alii est subditus quantum ad interiores intellectus et 
+            volun<lb ed="#V" n="46" break="no"/>tatis actus nisi soli deo: ideo de illis bomnis orando et corde 
+            dimit<lb ed="#V" n="47" break="no"/>tendo omnibus elemosynam facere licem: sed quia monacbus proprium non 
+            <lb ed="#V" n="48"/>habet: ideo de bonis exterioribus non potest elemosynam facere sine 
+            <lb ed="#V" n="49"/>licentia abbatis expressa vel probabiliter praesumpta: nisi 
+            dispensa<lb ed="#V" n="50" break="no"/>tio aliquorum bonorum monasterii sibi sit ab abbate commissa: 
+            <lb ed="#V" n="51"/>tunc enim de illis potest facere elemosynas moderatas et 
+            rationa<lb ed="#V" n="52" break="no"/>biles secundum proportionem bonorum quae sunt sibi ad dispensandum 
+            con<lb ed="#V" n="53" break="no"/>missa. Quia est vir est administrator bonorum tamquam caput 
+            mu<lb ed="#V" n="54" break="no"/>lieris: ideo non debet dare mulier elemosynas sine consensu 
+            viri<lb ed="#V" n="55" break="no"/>expresso vel supposito: exceptis communibus elemosynis et peruis per 
+            <lb ed="#V" n="56"/>comparationem ad possessiones eorum nisi praeter dotem quae ordinatur 
+            <lb ed="#V" n="57"/>ad sustentanda matrimonii onera heat res alias vniveal ex proprio 
+            <lb ed="#V" n="58"/>lucro vel per alium licitum modum: tunc enim de illis irrequisito asse. 
+            <lb ed="#V" n="59"/>su mariti potest facere elemosynas moderatas. Filii est 
+            fami<lb ed="#V" n="60" break="no"/>lias proposias possessiones non habent: nec est serui: immo serui sunt 
+            <lb ed="#V" n="61"/>possessio dominorum: et ideo facere elemosynas non debent nisi 
+            for<lb ed="#V" n="62" break="no"/>te aliquas modicas: de quibus possunt praesumere quod patri vel domino 
+            pla<lb ed="#V" n="63" break="no"/>ceat: nisi aliquorum bonorum esset eis a patribus vel dominis 
+            dispensa<lb ed="#V" n="64" break="no"/>tio commissa. Omnes tamen praedicti licite possunt et debent in casu necessa 
+            <lb ed="#V" n="65"/>tatis extreme indigentibus subuenire: etiam assensu superiorum non 
+            <lb ed="#V" n="66"/>habito expresse nec praesumpte
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1161">
+            ¶ Argumenta ad partem primam procedunt 
+            <lb ed="#V" n="67"/>de bonis anime de quibus quisque habet vsum liberi arbi non tantum licite 
+            po<lb ed="#V" n="68" break="no"/>test: sed tenetur elemosynam facere.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1168">
+            ¶ Ad argumenta ad partem aliam 
+            <!--00170.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>patet solutio ex dictis in quaestione. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k48829-Dd1e1178">
+          <head xml:id="kzz7yh-k48829-Hd1e1180">Quaestio 7</head>
+          <p xml:id="kzz7yh-k48829-d1e1182">
+            Quaestio VII 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1184">
+            <lb ed="#V" n="70"/>Eptimo queritur vtrum aliquis possit 
+            ele<lb ed="#V" n="71" break="no"/>mosynam facere sibi ipsi. Et videtur 
+            <lb ed="#V" n="72"/>quod non. quia iustitia est circa oppositiones quae sunt ad 
+            alte<lb ed="#V" n="73" break="no"/>rum: sed dare elemosynam est actus misericordie quae est 
+            <lb ed="#V" n="74"/>pars iustitie: vt superius habitum est: ergo dare elemosynam non potest 
+            <lb ed="#V" n="75"/>esse actus hominis ad seipsum.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1200">
+            ¶ Item dare elemosynam effectus est 
+            <lb ed="#V" n="76"/>charitatis: sed secundum Greg. in quadam Homelis super illud Luc. 
+            <lb ed="#V" n="77"/>1o. Designauit dominus et alios septuagintaduos. Nemo ad 
+            <lb ed="#V" n="78"/>semetipsum proprie charitatem habere dicitur: ergo nec 
+            ali<lb ed="#V" n="79" break="no"/>quis potest elemosynam facere sibiipsi. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1211">
+            <lb ed="#V" n="80"/>Contra Ecclus. 30. Miserere anime tue placens deo: secd 
+            da<lb ed="#V" n="81" break="no"/>re elemosynam opus est misericordie. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1219">
+            <lb ed="#V" n="82"/>Respondeo quod hominis ad seipsum non potest esse 
+            iusti<lb ed="#V" n="83" break="no"/>tia proprie et simpliciter dicta: quia homo per 
+            iu<lb ed="#V" n="84" break="no"/>stitiam simpliciter dictam: illud quod non est sibi simpliciter debitum 
+            tri<lb ed="#V" n="85" break="no"/>buit illi cui simpliciter est debitum. Impossibile autem est quod eidem 
+            ho<lb ed="#V" n="86" break="no"/>mini sit aliquid simpliciter debitum: et non fit ei simpliciter debitum simul. 
+            <lb ed="#V" n="87"/>Unde dicit philosophus. 5 ethi. ca. xi. quod non est iniustitia ad quae ipsius 
+            <lb ed="#V" n="88"/>simpliciter: quia circa hoc non est iustitia simpliciter dicta. Iustitia 
+            <lb ed="#V" n="89"/>tamen metaphorice dicta que est aliqua pars potentialis vel 
+            imita<lb ed="#V" n="90" break="no"/>tio iustitie simpliciter dicte potest esse hominis ad seipsum: quia aliquid est 
+            <lb ed="#V" n="91"/>non debitum homini ratione vnius partis quod debitum est sibi ratione 
+            <lb ed="#V" n="92"/>alterius partis: sicut imperare debitum est anime: et subiici 
+            debi<lb ed="#V" n="93" break="no"/>tum est corpori: et ideo cum homo per animam castigat corpus: facit 
+            <lb ed="#V" n="94"/>actum iustitie metaphorice dicte: misericordia autem non est 
+            <lb ed="#V" n="95"/>iustitia simpliciter dicta: sed vt superius visum est: continetur 
+            <lb ed="#V" n="96"/>sub liberalitate quae est pars potentialis iustitie. Unde non est 
+            incon<lb ed="#V" n="97" break="no"/>ueniens quod actus eius qui est dare elemosynam sit hominis ad seipsum 
+            <lb ed="#V" n="98"/>quia aliquid potest esse suum secundum vnam rationem: quo indiget secundum aliam. 
+            <lb ed="#V" n="99"/>Unde cum homo penitendo dispositiue subuenit indigentie anime 
+            <lb ed="#V" n="100"/>sue: illud quod principaliter praesupposito adiutorio dei suum erat 
+            <lb ed="#V" n="101"/>potestatiue siue effectiue non formaliter sibi dispositiue 
+            tri<lb ed="#V" n="102" break="no"/>buit formaliter: non enim est inconueniens quod idem homo sit agens et 
+            re<lb ed="#V" n="103" break="no"/>cipiens idem secundum diuersam vel secundum aliam et aliam rationem. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1269">
+            <lb ed="#V" n="104"/>Ad primum in oppositum patet solutio ex iam dict. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1274">
+            <lb ed="#V" n="105"/>¶ Ad secundum dicendum: quod verbum 
+            Greg<lb ed="#V" n="106" break="no"/>intelligendum est de homine qui seipsum tantum diligit et non alium. 
+            Ue<lb ed="#V" n="107" break="no"/>rum est enim quod talis ad seipsum charitatem non habet: sed 
+            inor<lb ed="#V" n="108" break="no"/>dinatum amorem.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k48829-Dd1e1286">
+          <head xml:id="kzz7yh-k48829-Hd1e1288">Quaestio 8</head>
+          <p xml:id="kzz7yh-k48829-d1e1290">
+            Questio. VIII
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1292">
+            <lb ed="#V" n="109"/>OCtauo queritur vtrum elemosyna danda 
+            <lb ed="#V" n="110"/>sit malis. Et videtur quod non. Eccl. 
+            <lb ed="#V" n="111"/>12. Ne suscipias peccatorem.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1301">
+            ¶ Item secundum philosophum. 2. 
+            <lb ed="#V" n="112"/>Top. Spernendum est inimicis benefacere: et si 
+            <lb ed="#V" n="113"/>hoc verum est de inimicis hominis: multo fortius de 
+            ini<lb ed="#V" n="114" break="no"/>micis dei. Sed malus homo inimilcus dei est. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1310">
+            <lb ed="#V" n="115"/>Contra Math. 5. Benefacite his qui oderunt vos: 
+            <lb ed="#V" n="116"/>sed oditores fratrum sunt mali: ergo danda 
+            <lb ed="#V" n="117"/>est elemosyna hominibus malis. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1320">
+            <lb ed="#V" n="118"/>Respondeo quod in homine malo duo 
+            consideran<lb ed="#V" n="119" break="no"/>da sunt scilicet natura: et vitium: et sicut 
+            <lb ed="#V" n="120"/>eius natura ita debet ex charitate diligi quod eius vitium 
+            odia<lb ed="#V" n="121" break="no"/>tur: vt superius habitum est. 3. libio sic ita debet per 
+            elemo<lb ed="#V" n="122" break="no"/>synam subueniri indigentie sue nature: vt per hoc in 
+            ma<lb ed="#V" n="123" break="no"/>litia non foueatur. Unde. 5. q. 5. Non omnis et sumptum 
+            <lb ed="#V" n="124"/>est ab Aug. in eplura ad Uincentium. non multum longe post 
+            <lb ed="#V" n="125"/>principium dicitur: quod vtilius esurienti panis tollitur: 
+            si<lb ed="#V" n="126" break="no"/>de cibo securus iustitiam negligat: quam esurienti panis 
+            fran<lb ed="#V" n="127" break="no"/>gatur: vt iniustitie seductus acquiescat. Nec est contrarium 
+            <lb ed="#V" n="128"/>huic quod dicitur. 86. dist. Non satis § pasce. quia ibi loquitur 
+            <lb ed="#V" n="129"/>de esuriente ad mortem. 
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1349">
+            <lb ed="#V" n="130"/>Ad primum in opponsitum dicendum: quod illa 
+            auctori<lb ed="#V" n="131" break="no"/>tas intelligenda est de peccatore: qui 
+            <lb ed="#V" n="132"/>elemosyna sibi facta abutitur.
+          </p>
+          <p xml:id="kzz7yh-k48829-d1e1358">
+            ¶ Ad secundum dicendum quod illa 
+            au<lb ed="#V" n="133" break="no"/>ctoritas intelligenda est de inimicis sub ratione qua 
+            inimi<lb ed="#V" n="134" break="no"/>ci sunt: non sub ratione qua homines sunt: non tamen 
+            te<lb ed="#V" n="135" break="no"/>neor eis facere subuentionem qua sint potentiores ad 
+            exer<lb ed="#V" n="136" break="no"/>cendum malitiam contra me. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

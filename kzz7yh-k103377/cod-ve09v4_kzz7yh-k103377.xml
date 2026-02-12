@@ -1,387 +1,387 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="142-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="142-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k103377"><!-- l4d28a1 -->
+        <head xml:id="kzz7yh-k103377-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-k103377-d1e103">
+          <lb ed="#V" n="97"/>CIrca primum queruntur quatuor.
+        </p>
+        <p xml:id="kzz7yh-k103377-d1e108">
+          ¶ 
+          Pri<lb ed="#V" n="98" break="no"/>mo vtrum expressus consensus de 
+          <lb ed="#V" n="99"/>futuro per se matrimonium efficere possit.
+        </p>
+        <p xml:id="kzz7yh-k103377-d1e115">
+          ¶ 
+          Se<lb ed="#V" n="100" break="no"/>cundo vtrum cum carnali copula sequente 
+          ac<lb ed="#V" n="101" break="no"/>cedente consensu de praesenti: per verba tamen de praesenti non expresso. 
+        </p>
+        <p xml:id="kzz7yh-k103377-d1e122">
+          <lb ed="#V" n="102"/>¶ Tertio vtrum sufficiat ad matrimonium solus consensus de 
+          <lb ed="#V" n="103"/>futuro cum carnali copula sequente.
+        </p>
+        <p xml:id="kzz7yh-k103377-d1e130">
+          ¶ Quarto vtrum post 
+          <lb ed="#V" n="104"/>carnalem copulam solum consensum de futuro sequentem 
+          matrimo<lb ed="#V" n="105" break="no"/>nium aliud contrahi possit. 
+        </p>
+        <div xml:id="kzz7yh-k103377-Dd1e137">
+          <head xml:id="kzz7yh-k103377-Hd1e139">Quaestio 1</head>
+          <p xml:id="kzz7yh-k103377-d1e141">
+            Questio I
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e143">
+            <lb ed="#V" n="106"/>PRimo ostendo quod consensus de futuro per 
+            <lb ed="#V" n="107"/>se matrimonium efficere potest: quia 
+            <lb ed="#V" n="108"/>consensus de praesenti efficit matrimonium proesenus: ergo 
+            <lb ed="#V" n="109"/>a simili consensus de futuro efficit matrimonium 
+            <lb ed="#V" n="110"/>futurum.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e156">
+            ¶ Item omne vinculum inter virum et mulierem 
+            for<lb ed="#V" n="111" break="no"/>tius sponsalibus est matrimonium: sed per simplicem 
+            promis<lb ed="#V" n="112" break="no"/>sionem contrahuntur sponsalia: cum ergo promissio iuramento 
+            fir<lb ed="#V" n="113" break="no"/>mata efficiat fortius vinculum quam promissio simplex: talis 
+            pro<lb ed="#V" n="114" break="no"/>missio efficit matrimonium.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e167">
+            ¶ Item vinculum 
+            indissolubi<lb ed="#V" n="115" break="no"/>le inter virum et mulierem quo ad mutuam translationem pote 
+            <lb ed="#V" n="116"/>statis corporum suorum contractum matrimonium est. Sed 
+            promis<lb ed="#V" n="117" break="no"/>sio de tali translatione causat vinculum indissolubile inter 
+            <!--00317.xml-->
+            <pb ed="#V" n="143-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>eos: quia impletio promissionis est de iure nature: quod 
+            <lb ed="#V" n="2"/>autem est de iure nature: solui non potest: ergo consensus 
+            <lb ed="#V" n="3"/>de futuro efficit matrimonium. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e190">
+            <lb ed="#V" n="4"/>Contra magister dist. praecedenti. c. 2. Efficiens matrimo 
+            <lb ed="#V" n="5"/>nii causa est consensus: non quilibet: sed per verba ex 
+            <lb ed="#V" n="6"/>pressus nec de futuro: sed de praesenti: ergo consensus de 
+            futu<lb ed="#V" n="7" break="no"/>ro etiam iuramento affirmatus matrimonium non facit. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e201">
+            <lb ed="#V" n="8"/>¶ Item magister huius dist. c. 1. probat quod consensus de 
+            futuro<lb ed="#V" n="9" break="no"/>etiam iuramento firmatus: matrimonium non facit. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e208">
+            <lb ed="#V" n="10"/>Respondeo quod per consensum de futuro vir et 
+            mu<lb ed="#V" n="11" break="no"/>lier promittunt se mutuo assumere 
+            <lb ed="#V" n="12"/>in matrimonium: et contractus matrimonii est 
+            adimpletio<lb ed="#V" n="13" break="no"/>promissionis illius: vinculum autem contractum per promissionem non 
+            <lb ed="#V" n="14"/>est promissionis impletio: quia illud vinculum est obligatio 
+            <lb ed="#V" n="15"/>ad implendum promissum: obligatio autem ad aliquid 
+            implen<lb ed="#V" n="16" break="no"/>dum non est ipsa adimpletio. vinculum ergo contractum per 
+            consensum<lb ed="#V" n="17" break="no"/>expressum per verba de futuro per se non potest efficere matrimonium. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e228">
+            <lb ed="#V" n="18"/>Ad primum in oppositum dicendum: quod consensus de 
+            <lb ed="#V" n="19"/>futuro dupliciter potest intelligi. 
+            Uno<lb ed="#V" n="20" break="no"/>modo pro consensu de futuro respectu matrimonii futuri: 
+            <lb ed="#V" n="21"/>et sic procedit argumentum: quia sicut consensus hodiernus per 
+            <lb ed="#V" n="22"/>verba de praesenti expressus hodie facit matrimonium: sic 
+            con<lb ed="#V" n="23" break="no"/>sensus crastinus qui tunc per verba de praesenti exprimetur cras 
+            <lb ed="#V" n="24"/>faciet matrimonium. Alio modo pro consensu de praesenti 
+            respe<lb ed="#V" n="25" break="no"/>ctu matrimonii futuri: et sic non valet processus argumenti: 
+            <lb ed="#V" n="26"/>quia consensus de praesenti attingit immediate matrimonium 
+            <lb ed="#V" n="27"/>quod efficit: seu vnitur ei sicut causa effectui: non sic autem potest dici 
+            <lb ed="#V" n="28"/>de consensu de praesenti respectu matrimonii futuri.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e254">
+            ¶ Ad 
+            <lb ed="#V" n="29"/>secundum dicendum: quod firmatio promissionis per iuramentum non 
+            mu<lb ed="#V" n="30" break="no"/>tat genus vinculi: sed idem genus vinculi fortificat. vnde 
+            <lb ed="#V" n="31"/>inter sponsalia quaedam sunt alia aliis fortiora.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e263">
+            ¶ Ad tertium 
+            <lb ed="#V" n="32"/>dicendum: quod impletio promissionis non est de iure nature: quando 
+            re<lb ed="#V" n="33" break="no"/>mittitur ab illo cui facta est: vel a iure. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k103377-Dd1e271">
+          <head xml:id="kzz7yh-k103377-Hd1e273">Quaestio 2</head>
+          <p xml:id="kzz7yh-k103377-d1e275">
+            Quaestio II.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e277">
+            <lb ed="#V" n="34"/>SEcundo queritur vtrum expressus 
+            consen<lb ed="#V" n="35" break="no"/>sus de futuro: cum carnali 
+            co<lb ed="#V" n="36" break="no"/>pula sequente accidente consensu de praesenti: per 
+            ver<lb ed="#V" n="37" break="no"/>ba tamen de praesenti non expresso: efficiat 
+            matrimo<lb ed="#V" n="38" break="no"/>nium. Et videtur quod non secundum magistrum dist. praecedenti. Efficiens 
+            <lb ed="#V" n="39"/>causa matrimonii est solus consensus per verba de praesenti 
+            expres<lb ed="#V" n="40" break="no"/>sus: sed per hypothesim praedictus consensus de praesenti non 
+            <lb ed="#V" n="41"/>exprimitur per verba de praesenti: sed tantum per carnalem copulam 
+            <lb ed="#V" n="42"/>et verba de futuro que praecesserunt: ergo omnia illa simul non 
+            <lb ed="#V" n="43"/>efficiunt matrimonium.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e301">
+            ¶ Item solus consensus de praesenti 
+            si<lb ed="#V" n="44" break="no"/>per verba vel alia signa non exprimitur esse praesens: 
+            matrimo<lb ed="#V" n="45" break="no"/>nium non efficit: quamuis sequantur sponsalia: sed carnalis 
+            copu<lb ed="#V" n="46" break="no"/>la adueniens de non matrimonio non efficit matrimonium: 
+            <lb ed="#V" n="47"/>sed factum matrimonium consumat: ergo carnalis 
+            copula<lb ed="#V" n="48" break="no"/>sequens sponsalia matrimonium non efficit: quamuis accedat 
+            con<lb ed="#V" n="49" break="no"/>sensus de presenti per verba de presenti non expressus. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e317">
+            <lb ed="#V" n="50"/>Contra omnis carnalis copula extra matrimonium 
+            fa<lb ed="#V" n="51" break="no"/>rcta est mortale peccatum. Sed carnalis 
+            co<lb ed="#V" n="52" break="no"/>pula cum conditionibus predictis non est mortale 
+            pecca<lb ed="#V" n="53" break="no"/>tum: ergo carnalis copula cum aliis predictis 
+            conditio<lb ed="#V" n="54" break="no"/>nibus verum efficit matrimonium. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e331">
+            <lb ed="#V" n="55"/>Respondeo quod sicut ex institutione sufficit ad 
+            con<lb ed="#V" n="56" break="no"/>trahendum matrimonium 
+            consen<lb ed="#V" n="57" break="no"/>sus de praesenti per verba vel alia signa expressus: sic ex 
+            insti<lb ed="#V" n="58" break="no"/>tutione sufficit ad contrahendum matrimonium inter 
+            legiti<lb ed="#V" n="59" break="no"/>mas personas consensus in matrimonium praesens expressus 
+            <lb ed="#V" n="60"/>per carnalem copulam in relatione ad verba que 
+            consen<lb ed="#V" n="61" break="no"/>sum de futuro prius expresserant: quamuis neutrum 
+            predi<lb ed="#V" n="62" break="no"/>ctorum per se sufficeret ad predicti consensus expressionem eo 
+            <lb ed="#V" n="63"/>modo quo requiritur ad causandum matrimonium. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e353">
+            <lb ed="#V" n="64"/>Ad primum in oppositum dicendum: quod quamuis 
+            con<lb ed="#V" n="65" break="no"/>sensus ille non exprimatur per 
+            ver<lb ed="#V" n="66" break="no"/>ba de presenti: exprimitur tamen per aliquod equiualens ex 
+            <lb ed="#V" n="67"/>vi institutionis matrimonii.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e364">
+            ¶ Ad secundum dicendum: quod in 
+            <lb ed="#V" n="68"/>casu predicto carnalis copula cum consensu de presenti¬ 
+            <!--00317.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k103377"><!-- l4d28a1 -->
-            <head xml:id="kzz7yh-k103377-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-k103377-d1e103">
-               <lb ed="#V" n="97"/>CIrca primum queruntur quatuor.
-   </p>
-            <p xml:id="kzz7yh-k103377-d1e108">
-      ¶ 
-      Pri<lb ed="#V" n="98" break="no"/>mo vtrum expressus consensus de 
-      <lb ed="#V" n="99"/>futuro per se matrimonium efficere possit.
-   </p>
-            <p xml:id="kzz7yh-k103377-d1e115">
-      ¶ 
-      Se<lb ed="#V" n="100" break="no"/>cundo vtrum cum carnali copula sequente 
-      ac<lb ed="#V" n="101" break="no"/>cedente consensu de praesenti: per verba tamen de praesenti non expresso. 
-   </p>
-            <p xml:id="kzz7yh-k103377-d1e122">
-               <lb ed="#V" n="102"/>¶ Tertio vtrum sufficiat ad matrimonium solus consensus de 
-      <lb ed="#V" n="103"/>futuro cum carnali copula sequente.
-   </p>
-            <p xml:id="kzz7yh-k103377-d1e130">
-      ¶ Quarto vtrum post 
-      <lb ed="#V" n="104"/>carnalem copulam solum consensum de futuro sequentem 
-      matrimo<lb ed="#V" n="105" break="no"/>nium aliud contrahi possit. 
-   </p>
-            <div xml:id="kzz7yh-k103377-Dd1e137">
-               <head xml:id="kzz7yh-k103377-Hd1e139">Quaestio 1</head>
-               <p xml:id="kzz7yh-k103377-d1e141">
-      Questio I
-    </p>
-               <p xml:id="kzz7yh-k103377-d1e143">
-                  <lb ed="#V" n="106"/>PRimo ostendo quod consensus de futuro per 
-      <lb ed="#V" n="107"/>se matrimonium efficere potest: quia 
-      <lb ed="#V" n="108"/>consensus de praesenti efficit matrimonium proesenus: ergo 
-      <lb ed="#V" n="109"/>a simili consensus de futuro efficit matrimonium 
-      <lb ed="#V" n="110"/>futurum.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e156">
-      ¶ Item omne vinculum inter virum et mulierem 
-      for<lb ed="#V" n="111" break="no"/>tius sponsalibus est matrimonium: sed per simplicem 
-      promis<lb ed="#V" n="112" break="no"/>sionem contrahuntur sponsalia: cum ergo promissio iuramento 
-      fir<lb ed="#V" n="113" break="no"/>mata efficiat fortius vinculum quam promissio simplex: talis 
-      pro<lb ed="#V" n="114" break="no"/>missio efficit matrimonium.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e167">
-      ¶ Item vinculum 
-      indissolubi<lb ed="#V" n="115" break="no"/>le inter virum et mulierem quo ad mutuam translationem pote 
-      <lb ed="#V" n="116"/>statis corporum suorum contractum matrimonium est. Sed 
-      promis<lb ed="#V" n="117" break="no"/>sio de tali translatione causat vinculum indissolubile inter 
-      <!--00317.xml-->
-      <pb ed="#V" n="143-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>eos: quia impletio promissionis est de iure nature: quod 
-      <lb ed="#V" n="2"/>autem est de iure nature: solui non potest: ergo consensus 
-      <lb ed="#V" n="3"/>de futuro efficit matrimonium. 
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e190">
-                  <lb ed="#V" n="4"/>Contra magister dist. praecedenti. c. 2. Efficiens matrimo 
-      <lb ed="#V" n="5"/>nii causa est consensus: non quilibet: sed per verba ex 
-      <lb ed="#V" n="6"/>pressus nec de futuro: sed de praesenti: ergo consensus de 
-      futu<lb ed="#V" n="7" break="no"/>ro etiam iuramento affirmatus matrimonium non facit. 
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e201">
-                  <lb ed="#V" n="8"/>¶ Item magister huius dist. c. 1. probat quod consensus de 
-      futuro<lb ed="#V" n="9" break="no"/>etiam iuramento firmatus: matrimonium non facit. 
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e208">
-                  <lb ed="#V" n="10"/>Respondeo quod per consensum de futuro vir et 
-      mu<lb ed="#V" n="11" break="no"/>lier promittunt se mutuo assumere 
-      <lb ed="#V" n="12"/>in matrimonium: et contractus matrimonii est 
-      adimpletio<lb ed="#V" n="13" break="no"/>promissionis illius: vinculum autem contractum per promissionem non 
-      <lb ed="#V" n="14"/>est promissionis impletio: quia illud vinculum est obligatio 
-      <lb ed="#V" n="15"/>ad implendum promissum: obligatio autem ad aliquid 
-      implen<lb ed="#V" n="16" break="no"/>dum non est ipsa adimpletio. vinculum ergo contractum per 
-      consensum<lb ed="#V" n="17" break="no"/>expressum per verba de futuro per se non potest efficere matrimonium. 
-    </p>
-               <p xml:id="kzz7yh-k103377-d1e228">
-                  <lb ed="#V" n="18"/>Ad primum in oppositum dicendum: quod consensus de 
-      <lb ed="#V" n="19"/>futuro dupliciter potest intelligi. 
-      Uno<lb ed="#V" n="20" break="no"/>modo pro consensu de futuro respectu matrimonii futuri: 
-      <lb ed="#V" n="21"/>et sic procedit argumentum: quia sicut consensus hodiernus per 
-      <lb ed="#V" n="22"/>verba de praesenti expressus hodie facit matrimonium: sic 
-      con<lb ed="#V" n="23" break="no"/>sensus crastinus qui tunc per verba de praesenti exprimetur cras 
-      <lb ed="#V" n="24"/>faciet matrimonium. Alio modo pro consensu de praesenti 
-      respe<lb ed="#V" n="25" break="no"/>ctu matrimonii futuri: et sic non valet processus argumenti: 
-      <lb ed="#V" n="26"/>quia consensus de praesenti attingit immediate matrimonium 
-      <lb ed="#V" n="27"/>quod efficit: seu vnitur ei sicut causa effectui: non sic autem potest dici 
-      <lb ed="#V" n="28"/>de consensu de praesenti respectu matrimonii futuri.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e254">
-      ¶ Ad 
-      <lb ed="#V" n="29"/>secundum dicendum: quod firmatio promissionis per iuramentum non 
-      mu<lb ed="#V" n="30" break="no"/>tat genus vinculi: sed idem genus vinculi fortificat. vnde 
-      <lb ed="#V" n="31"/>inter sponsalia quaedam sunt alia aliis fortiora.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e263">
-      ¶ Ad tertium 
-      <lb ed="#V" n="32"/>dicendum: quod impletio promissionis non est de iure nature: quando 
-      re<lb ed="#V" n="33" break="no"/>mittitur ab illo cui facta est: vel a iure. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k103377-Dd1e271">
-               <head xml:id="kzz7yh-k103377-Hd1e273">Quaestio 2</head>
-               <p xml:id="kzz7yh-k103377-d1e275">
-      Quaestio II.
-    </p>
-               <p xml:id="kzz7yh-k103377-d1e277">
-                  <lb ed="#V" n="34"/>SEcundo queritur vtrum expressus 
-      consen<lb ed="#V" n="35" break="no"/>sus de futuro: cum carnali 
-      co<lb ed="#V" n="36" break="no"/>pula sequente accidente consensu de praesenti: per 
-      ver<lb ed="#V" n="37" break="no"/>ba tamen de praesenti non expresso: efficiat 
-      matrimo<lb ed="#V" n="38" break="no"/>nium. Et videtur quod non secundum magistrum dist. praecedenti. Efficiens 
-      <lb ed="#V" n="39"/>causa matrimonii est solus consensus per verba de praesenti 
-      expres<lb ed="#V" n="40" break="no"/>sus: sed per hypothesim praedictus consensus de praesenti non 
-      <lb ed="#V" n="41"/>exprimitur per verba de praesenti: sed tantum per carnalem copulam 
-      <lb ed="#V" n="42"/>et verba de futuro que praecesserunt: ergo omnia illa simul non 
-      <lb ed="#V" n="43"/>efficiunt matrimonium.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e301">
-      ¶ Item solus consensus de praesenti 
-      si<lb ed="#V" n="44" break="no"/>per verba vel alia signa non exprimitur esse praesens: 
-      matrimo<lb ed="#V" n="45" break="no"/>nium non efficit: quamuis sequantur sponsalia: sed carnalis 
-      copu<lb ed="#V" n="46" break="no"/>la adueniens de non matrimonio non efficit matrimonium: 
-      <lb ed="#V" n="47"/>sed factum matrimonium consumat: ergo carnalis 
-      copula<lb ed="#V" n="48" break="no"/>sequens sponsalia matrimonium non efficit: quamuis accedat 
-      con<lb ed="#V" n="49" break="no"/>sensus de presenti per verba de presenti non expressus. 
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e317">
-                  <lb ed="#V" n="50"/>Contra omnis carnalis copula extra matrimonium 
-      fa<lb ed="#V" n="51" break="no"/>rcta est mortale peccatum. Sed carnalis 
-      co<lb ed="#V" n="52" break="no"/>pula cum conditionibus predictis non est mortale 
-      pecca<lb ed="#V" n="53" break="no"/>tum: ergo carnalis copula cum aliis predictis 
-      conditio<lb ed="#V" n="54" break="no"/>nibus verum efficit matrimonium. 
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e331">
-                  <lb ed="#V" n="55"/>Respondeo quod sicut ex institutione sufficit ad 
-      con<lb ed="#V" n="56" break="no"/>trahendum matrimonium 
-      consen<lb ed="#V" n="57" break="no"/>sus de praesenti per verba vel alia signa expressus: sic ex 
-      insti<lb ed="#V" n="58" break="no"/>tutione sufficit ad contrahendum matrimonium inter 
-      legiti<lb ed="#V" n="59" break="no"/>mas personas consensus in matrimonium praesens expressus 
-      <lb ed="#V" n="60"/>per carnalem copulam in relatione ad verba que 
-      consen<lb ed="#V" n="61" break="no"/>sum de futuro prius expresserant: quamuis neutrum 
-      predi<lb ed="#V" n="62" break="no"/>ctorum per se sufficeret ad predicti consensus expressionem eo 
-      <lb ed="#V" n="63"/>modo quo requiritur ad causandum matrimonium. 
-    </p>
-               <p xml:id="kzz7yh-k103377-d1e353">
-                  <lb ed="#V" n="64"/>Ad primum in oppositum dicendum: quod quamuis 
-      con<lb ed="#V" n="65" break="no"/>sensus ille non exprimatur per 
-      ver<lb ed="#V" n="66" break="no"/>ba de presenti: exprimitur tamen per aliquod equiualens ex 
-      <lb ed="#V" n="67"/>vi institutionis matrimonii.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e364">
-      ¶ Ad secundum dicendum: quod in 
-      <lb ed="#V" n="68"/>casu predicto carnalis copula cum consensu de presenti¬ 
-      <!--00317.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>in matrimonium et per verba de futuro que precesserant: 
-      <lb ed="#V" n="70"/>matrimonium et efficit et consumat. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k103377-Dd1e378">
-               <head xml:id="kzz7yh-k103377-Hd1e380">Quaestio 3</head>
-               <p xml:id="kzz7yh-k103377-d1e382">
-      Quaestio III
-    </p>
-               <p xml:id="kzz7yh-k103377-d1e384">
-                  <lb ed="#V" n="71"/>TErtio queritur vtrum fufficiat ad 
-      matrimo<lb ed="#V" n="72" break="no"/>nium solus consensus de futuro: cum 
-      <lb ed="#V" n="73"/>carnali copula sequente. Et videtur quod sic. quia 
-      iudi<lb ed="#V" n="74" break="no"/>cium ecclesie iustum est: sed in predicto casu 
-      eccle<lb ed="#V" n="75" break="no"/>sia iudicat esse matrimonium nisi aliud impedimentum 
-      ob<lb ed="#V" n="76" break="no"/>stiterit.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e400">
-      ¶ Item maius est exprimere consensum verbo et 
-      <lb ed="#V" n="77"/>facto quam verbo tantum. Sed in predicto casu persone suum 
-      con<lb ed="#V" n="78" break="no"/>sensum exprimunt verbo et facto: ergo verius est ibi 
-      matri<lb ed="#V" n="79" break="no"/>monium quam inter personas suum consensum exprimentes 
-      <lb ed="#V" n="80"/>per verba de presenti carnali copula non sequente. 
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e411">
-                  <lb ed="#V" n="81"/>Contra. vbi dolus adest et consensus abest non potest 
-      <lb ed="#V" n="82"/>fedus perfici coniugale: extra de spositio. Tua 
-      <lb ed="#V" n="83"/>nos. et constat hoc intelligi debere de consensu de praesenti: et 
-      <lb ed="#V" n="84"/>go ad contrahendum matrimonium non sufficit solum 
-      con<lb ed="#V" n="85" break="no"/>sensus de futuro cum carnali copula sequente. 
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e425">
-                  <lb ed="#V" n="86"/>Respondeo quod in casu predicto esset 
-      matrimo<lb ed="#V" n="87" break="no"/>nium praesumptum: et secundum iudicium 
-      <lb ed="#V" n="88"/>ecclesie eo quod ecclesia per verba que praecesserunt de futuro 
-      <lb ed="#V" n="89"/>et copulam carnalem sequentem praesumit consensum de presenti 
-      <lb ed="#V" n="90"/>affuisse: et ipsos se mutuo matrimoniali affectu 
-      cognouis<lb ed="#V" n="91" break="no"/>se: tamen non esset ibi matrimonium verum: nec secundum iudicium 
-      <lb ed="#V" n="92"/>dei: quia matrimonium secundum rei veritatem sine reali 
-      consen<lb ed="#V" n="93" break="no"/>su de presenti contrahi non potest. 
-    </p>
-               <p xml:id="kzz7yh-k103377-d1e445">
-                  <lb ed="#V" n="94"/>Ad primum in oppositum dicendum: quod in predicto 
-      <lb ed="#V" n="95"/>casu iudicium ecclesie iustum est 
-      <lb ed="#V" n="96"/>a iustitia iudicantis: quia iustum est vt iudicans qui non nouit 
-      <lb ed="#V" n="97"/>occulta cordium iudicet secundum ea que exterius patet: ille autem 
-      <lb ed="#V" n="98"/>iudex cui dicitur. Tu solus nosti corda filiorum hominum potest 
-      <lb ed="#V" n="99"/>iudicare secundum certitudinem de interiori consensu.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e461">
-      ¶ Ad 
-      se<lb ed="#V" n="100" break="no"/>cundum dicendum: quod quantuncumque exprimatur eonsensus si non 
-      <lb ed="#V" n="101"/>adest interius non est matrimonium secundum iudicium dei: 
-      quan<lb ed="#V" n="102" break="no"/>uis talis qui sic carnalem copulam extorsit teneatur 
-      imple<lb ed="#V" n="103" break="no"/>re quod verbo promisit. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k103377-Dd1e473">
-               <head xml:id="kzz7yh-k103377-Hd1e475">Quaestio 4</head>
-               <p xml:id="kzz7yh-k103377-d1e477">
-      Quaestio IIII
-    </p>
-               <p xml:id="kzz7yh-k103377-d1e479">
-                  <lb ed="#V" n="104"/>Uarto queritur vtrum post carnalem 
-      copu<lb ed="#V" n="105" break="no"/>tam solum consensum de futuro 
-      <lb ed="#V" n="106"/>sequentem: aliud matrimonium contrahi possit. Et 
-      <lb ed="#V" n="107"/>videtur quod non. extra de spon. Is qui sidem. Is 
-      <lb ed="#V" n="108"/>qui sidem dedit. mi. muliere super matrimonio contrahendo 
-      <lb ed="#V" n="109"/>carnali copula subsecuta: et si in facie ecclesie deducat aliam 
-      <lb ed="#V" n="110"/>et cognoscat: ad primam redire tenetur: quia licet praesumptum primum 
-      <lb ed="#V" n="111"/>matrimonium videatur: contra praesumptionem tamen huius non est 
-      <lb ed="#V" n="112"/>probatio admittenda.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e501">
-      ¶ Item ecclesia potest facere aliquas 
-      <lb ed="#V" n="113"/>personas illegitimas ad contrahendum inter se: cum ergo 
-      eccle<lb ed="#V" n="114" break="no"/>sia prohibeat illum qui post fidem datam de contrahendo 
-      mulie<lb ed="#V" n="115" break="no"/>ri: et postea carnaliter cognouit eandem: alii nubere illa 
-      viuen<lb ed="#V" n="116" break="no"/>te: videtur quod talis sit illegitimus ad contrahendum cum alia.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e512">
-      ¶ Item 
-      <lb ed="#V" n="117"/>si aliquis contrahit sponsalia cum aliqua quamuis nulla sint: 
-      pro<lb ed="#V" n="118" break="no"/>hibetur tamen ducere aliquam consanguineam illius in vxorem: extra 
-      <lb ed="#V" n="119"/>de spon. Ad audientiam: ergo a simili matrimonium quod 
-      <lb ed="#V" n="120"/>secundum rei veritatem nullum est: potest reddere personam 
-      il<lb ed="#V" n="121" break="no"/>legitimam ad contrahendum cum alia. 
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e526">
-                  <lb ed="#V" n="122"/>Contra consensus verus priualet praesumpto consensut. 
-      <lb ed="#V" n="123"/>Sed cum aliquis post promissionem factam 
-      <lb ed="#V" n="124"/>mulieri de ducendo eam in vxorem postea carnaliter 
-      cogno<lb ed="#V" n="125" break="no"/>scit eam non affectu maritali: sed fornicario: non est 
-      con<lb ed="#V" n="126" break="no"/>sensus nisi presumptus: ergo si postea consentiat in aliam 
-      <lb ed="#V" n="127"/>consensu de presenti per verba de presenti expresso et 
-      ecom<lb ed="#V" n="128" break="no"/>uerso: verum matrimonium contrahitur. 
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e544">
-                  <lb ed="#V" n="129"/>Ad istam quaestionem dixerunt aliquid quod quamuis 
-      <lb ed="#V" n="130"/>primum matrimonium non 
-      <lb ed="#V" n="131"/>fuerit verum: sed praesumptum: tamen ex constitutione ecclesie in sic 
-      <lb ed="#V" n="132"/>contrahentibus generatur impedimentum ne cum aliis contrahere 
-      <lb ed="#V" n="133"/>possint: et si vir contrahit cum alia prima viuente: vel mulier 
-      <lb ed="#V" n="134"/>cum alio primo viro viuente talia matrimonia tanquam 
-      nul<lb ed="#V" n="135" break="no"/>la sunt dirimenda. vnde extra de spositio. Is qui. dicitur de 
-      ma<lb ed="#V" n="136" break="no"/>trimonio contracto post matrimonium praesumptum quod nec 
-      <!--00318.xml-->
-      <pb ed="#V" n="143-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>verum: nec aliquod censetur matrimonium
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e573">
-      ¶ Sed quamuis 
-      <lb ed="#V" n="2"/>hec opinio sit probabilis: tamen non est vera: nec communiter 
-      te<lb ed="#V" n="3" break="no"/>netur a doctoribus: quia primum matrimonium cum non 
-      fue<lb ed="#V" n="4" break="no"/>rit verum: sed praesumptum non gerat in sic contrahentibus verum 
-      <lb ed="#V" n="5"/>impedimentum contrahendi cum aliis personis: sed praesumptum: 
-      <lb ed="#V" n="6"/>et quia ecclesia iudicat de interioribus per exteriores 
-      praesum<lb ed="#V" n="7" break="no"/>ptiones: secundum matrimonium quamuis esset verum secundum iudicium 
-      <lb ed="#V" n="8"/>dei: tamen dirimeretur per iudicium ecclesie: et ad priorem 
-      co<lb ed="#V" n="9" break="no"/>pulam compelluntur reuerti etiam per ecclesiasticam 
-      censu<lb ed="#V" n="10" break="no"/>ram: tamen quia secundum rei veritatem coniuges non fuerunt: et vera 
-      <lb ed="#V" n="11"/>sunt matrimonia que contraxerunt cum aliis: prius debet 
-      <lb ed="#V" n="12"/>permittere se quilibet excommunicari: et quancumque penam aliam 
-      <lb ed="#V" n="13"/>subire quam carnaliter copuletur priori: similiter dico de muliere 
-      re<lb ed="#V" n="14" break="no"/>spectu viri: nec propter hoc talis perplexus est: quia in hoc 
-      ca<lb ed="#V" n="15" break="no"/>su non obediendo ecclesie non peccat: sed sustinentia 
-      excommu<lb ed="#V" n="16" break="no"/>nicationis hac de causa meritoria sibi videtur: pro 
-      excom<lb ed="#V" n="17" break="no"/>municato tamen se gerere debet: et a susceptione 
-      euchari<lb ed="#V" n="18" break="no"/>stie maxime in loco vbi factum suum notum est: debet 
-      pro<lb ed="#V" n="19" break="no"/>pter scandalum abstinere. 
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e615">
-                  <lb ed="#V" n="20"/>¶ Ad primum in oppositum dicendum: quod illud 
-      ver<lb ed="#V" n="21" break="no"/>bum decretalis scilicet quod ad primam 
-      redi<lb ed="#V" n="22" break="no"/>re tenetur: et illud aliud quod fuit allegatum pro prima opinio 
-      <lb ed="#V" n="23"/>nem scilicet quod matrimonium contractum post praesumptum non est 
-      <lb ed="#V" n="24"/>verum: intelligenda sunt secundum iudicium ecclesie.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e628">
-      ¶ Ad 
-      secun<lb ed="#V" n="25" break="no"/>dum dicendum: quod ecclesia aliquando aliquid prohibet fieri 
-      decernen<lb ed="#V" n="26" break="no"/>do implicite vel explicite irritum et inane factum contra hanc 
-      <lb ed="#V" n="27"/>prohibitionem: et sic non prohibet contrahi matrimonium 
-      <lb ed="#V" n="28"/>post matrimonium praesumptum: quod secundum rei veritatem 
-      nul<lb ed="#V" n="29" break="no"/>lum est. Alio modo prohibet aliquid fieri non decernendo 
-      expli<lb ed="#V" n="30" break="no"/>cite vel implicite irritum vel inane si contrarium fiat: et quamuis 
-      <lb ed="#V" n="31"/>faciens contra talem prohibitionem peccet: tamen factum tenet 
-      <lb ed="#V" n="32"/>nisi sit aliud quod obsistat: et hoc modo ecclesia prohibet 
-      contra<lb ed="#V" n="33" break="no"/>hi matrimonium durante alio matrimonio praesumpto: quod 
-      <lb ed="#V" n="34"/>secundum rei veritatem est nullum.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e652">
-      ¶ Uel potest dici quod ecclesia non 
-      <lb ed="#V" n="35"/>prohibet contrahi secundum matrimonium nisi praesupponendo ex 
-      pre<lb ed="#V" n="36" break="no"/>sumptione quod primum sit verum: et ideo secundum matrimonium quamuis 
-      <lb ed="#V" n="37"/>realiter sit verum secundum dei iudicium: tamen secundum iudicium ecclesie est 
-      <lb ed="#V" n="38"/>nullum: et ita eo modo est nullum quo ab ecclesia fuit 
-      prohi<lb ed="#V" n="39" break="no"/>bitum.
-   </p>
-               <p xml:id="kzz7yh-k103377-d1e666">
-      ¶ Ad tertium dicendum: quod quamuis contrahens 
-      sponsa<lb ed="#V" n="40" break="no"/>lia cum aliqua que secundum rei veritatem nulla sunt: eo quod illam 
-      <lb ed="#V" n="41"/>in vxorem non potest habere: non possit postea etiam post mortem 
-      <lb ed="#V" n="42"/>illius aliquam sibi attinentem infra gradum prohibitum ducere 
-      <lb ed="#V" n="43"/>in vxorem: tamen post matrimonium praesumptum: quod secundum rei 
-      veri<lb ed="#V" n="44" break="no"/>tatem nullum est: aliud matrimonium contractum cum aliqua non 
-      <lb ed="#V" n="45"/>attinente priori tenet secundum iudicium dei: quia quod in predicta 
-      <lb ed="#V" n="46"/>decretali dictum est ordinatum est ab ecclesia propter 
-      publice<lb ed="#V" n="47" break="no"/>bonestatis iustitiam: vt dicit Apparatus ibidem: et est 
-      sta<lb ed="#V" n="48" break="no"/>tutum non tantum prohibens ne fiat: sed etiam decernens 
-      irri<lb ed="#V" n="49" break="no"/>tum et inane si contrarium fiat. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="69"/>in matrimonium et per verba de futuro que precesserant: 
+            <lb ed="#V" n="70"/>matrimonium et efficit et consumat. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k103377-Dd1e378">
+          <head xml:id="kzz7yh-k103377-Hd1e380">Quaestio 3</head>
+          <p xml:id="kzz7yh-k103377-d1e382">
+            Quaestio III
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e384">
+            <lb ed="#V" n="71"/>TErtio queritur vtrum fufficiat ad 
+            matrimo<lb ed="#V" n="72" break="no"/>nium solus consensus de futuro: cum 
+            <lb ed="#V" n="73"/>carnali copula sequente. Et videtur quod sic. quia 
+            iudi<lb ed="#V" n="74" break="no"/>cium ecclesie iustum est: sed in predicto casu 
+            eccle<lb ed="#V" n="75" break="no"/>sia iudicat esse matrimonium nisi aliud impedimentum 
+            ob<lb ed="#V" n="76" break="no"/>stiterit.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e400">
+            ¶ Item maius est exprimere consensum verbo et 
+            <lb ed="#V" n="77"/>facto quam verbo tantum. Sed in predicto casu persone suum 
+            con<lb ed="#V" n="78" break="no"/>sensum exprimunt verbo et facto: ergo verius est ibi 
+            matri<lb ed="#V" n="79" break="no"/>monium quam inter personas suum consensum exprimentes 
+            <lb ed="#V" n="80"/>per verba de presenti carnali copula non sequente. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e411">
+            <lb ed="#V" n="81"/>Contra. vbi dolus adest et consensus abest non potest 
+            <lb ed="#V" n="82"/>fedus perfici coniugale: extra de spositio. Tua 
+            <lb ed="#V" n="83"/>nos. et constat hoc intelligi debere de consensu de praesenti: et 
+            <lb ed="#V" n="84"/>go ad contrahendum matrimonium non sufficit solum 
+            con<lb ed="#V" n="85" break="no"/>sensus de futuro cum carnali copula sequente. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e425">
+            <lb ed="#V" n="86"/>Respondeo quod in casu predicto esset 
+            matrimo<lb ed="#V" n="87" break="no"/>nium praesumptum: et secundum iudicium 
+            <lb ed="#V" n="88"/>ecclesie eo quod ecclesia per verba que praecesserunt de futuro 
+            <lb ed="#V" n="89"/>et copulam carnalem sequentem praesumit consensum de presenti 
+            <lb ed="#V" n="90"/>affuisse: et ipsos se mutuo matrimoniali affectu 
+            cognouis<lb ed="#V" n="91" break="no"/>se: tamen non esset ibi matrimonium verum: nec secundum iudicium 
+            <lb ed="#V" n="92"/>dei: quia matrimonium secundum rei veritatem sine reali 
+            consen<lb ed="#V" n="93" break="no"/>su de presenti contrahi non potest. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e445">
+            <lb ed="#V" n="94"/>Ad primum in oppositum dicendum: quod in predicto 
+            <lb ed="#V" n="95"/>casu iudicium ecclesie iustum est 
+            <lb ed="#V" n="96"/>a iustitia iudicantis: quia iustum est vt iudicans qui non nouit 
+            <lb ed="#V" n="97"/>occulta cordium iudicet secundum ea que exterius patet: ille autem 
+            <lb ed="#V" n="98"/>iudex cui dicitur. Tu solus nosti corda filiorum hominum potest 
+            <lb ed="#V" n="99"/>iudicare secundum certitudinem de interiori consensu.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e461">
+            ¶ Ad 
+            se<lb ed="#V" n="100" break="no"/>cundum dicendum: quod quantuncumque exprimatur eonsensus si non 
+            <lb ed="#V" n="101"/>adest interius non est matrimonium secundum iudicium dei: 
+            quan<lb ed="#V" n="102" break="no"/>uis talis qui sic carnalem copulam extorsit teneatur 
+            imple<lb ed="#V" n="103" break="no"/>re quod verbo promisit. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k103377-Dd1e473">
+          <head xml:id="kzz7yh-k103377-Hd1e475">Quaestio 4</head>
+          <p xml:id="kzz7yh-k103377-d1e477">
+            Quaestio IIII
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e479">
+            <lb ed="#V" n="104"/>Uarto queritur vtrum post carnalem 
+            copu<lb ed="#V" n="105" break="no"/>tam solum consensum de futuro 
+            <lb ed="#V" n="106"/>sequentem: aliud matrimonium contrahi possit. Et 
+            <lb ed="#V" n="107"/>videtur quod non. extra de spon. Is qui sidem. Is 
+            <lb ed="#V" n="108"/>qui sidem dedit. mi. muliere super matrimonio contrahendo 
+            <lb ed="#V" n="109"/>carnali copula subsecuta: et si in facie ecclesie deducat aliam 
+            <lb ed="#V" n="110"/>et cognoscat: ad primam redire tenetur: quia licet praesumptum primum 
+            <lb ed="#V" n="111"/>matrimonium videatur: contra praesumptionem tamen huius non est 
+            <lb ed="#V" n="112"/>probatio admittenda.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e501">
+            ¶ Item ecclesia potest facere aliquas 
+            <lb ed="#V" n="113"/>personas illegitimas ad contrahendum inter se: cum ergo 
+            eccle<lb ed="#V" n="114" break="no"/>sia prohibeat illum qui post fidem datam de contrahendo 
+            mulie<lb ed="#V" n="115" break="no"/>ri: et postea carnaliter cognouit eandem: alii nubere illa 
+            viuen<lb ed="#V" n="116" break="no"/>te: videtur quod talis sit illegitimus ad contrahendum cum alia.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e512">
+            ¶ Item 
+            <lb ed="#V" n="117"/>si aliquis contrahit sponsalia cum aliqua quamuis nulla sint: 
+            pro<lb ed="#V" n="118" break="no"/>hibetur tamen ducere aliquam consanguineam illius in vxorem: extra 
+            <lb ed="#V" n="119"/>de spon. Ad audientiam: ergo a simili matrimonium quod 
+            <lb ed="#V" n="120"/>secundum rei veritatem nullum est: potest reddere personam 
+            il<lb ed="#V" n="121" break="no"/>legitimam ad contrahendum cum alia. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e526">
+            <lb ed="#V" n="122"/>Contra consensus verus priualet praesumpto consensut. 
+            <lb ed="#V" n="123"/>Sed cum aliquis post promissionem factam 
+            <lb ed="#V" n="124"/>mulieri de ducendo eam in vxorem postea carnaliter 
+            cogno<lb ed="#V" n="125" break="no"/>scit eam non affectu maritali: sed fornicario: non est 
+            con<lb ed="#V" n="126" break="no"/>sensus nisi presumptus: ergo si postea consentiat in aliam 
+            <lb ed="#V" n="127"/>consensu de presenti per verba de presenti expresso et 
+            ecom<lb ed="#V" n="128" break="no"/>uerso: verum matrimonium contrahitur. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e544">
+            <lb ed="#V" n="129"/>Ad istam quaestionem dixerunt aliquid quod quamuis 
+            <lb ed="#V" n="130"/>primum matrimonium non 
+            <lb ed="#V" n="131"/>fuerit verum: sed praesumptum: tamen ex constitutione ecclesie in sic 
+            <lb ed="#V" n="132"/>contrahentibus generatur impedimentum ne cum aliis contrahere 
+            <lb ed="#V" n="133"/>possint: et si vir contrahit cum alia prima viuente: vel mulier 
+            <lb ed="#V" n="134"/>cum alio primo viro viuente talia matrimonia tanquam 
+            nul<lb ed="#V" n="135" break="no"/>la sunt dirimenda. vnde extra de spositio. Is qui. dicitur de 
+            ma<lb ed="#V" n="136" break="no"/>trimonio contracto post matrimonium praesumptum quod nec 
+            <!--00318.xml-->
+            <pb ed="#V" n="143-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>verum: nec aliquod censetur matrimonium
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e573">
+            ¶ Sed quamuis 
+            <lb ed="#V" n="2"/>hec opinio sit probabilis: tamen non est vera: nec communiter 
+            te<lb ed="#V" n="3" break="no"/>netur a doctoribus: quia primum matrimonium cum non 
+            fue<lb ed="#V" n="4" break="no"/>rit verum: sed praesumptum non gerat in sic contrahentibus verum 
+            <lb ed="#V" n="5"/>impedimentum contrahendi cum aliis personis: sed praesumptum: 
+            <lb ed="#V" n="6"/>et quia ecclesia iudicat de interioribus per exteriores 
+            praesum<lb ed="#V" n="7" break="no"/>ptiones: secundum matrimonium quamuis esset verum secundum iudicium 
+            <lb ed="#V" n="8"/>dei: tamen dirimeretur per iudicium ecclesie: et ad priorem 
+            co<lb ed="#V" n="9" break="no"/>pulam compelluntur reuerti etiam per ecclesiasticam 
+            censu<lb ed="#V" n="10" break="no"/>ram: tamen quia secundum rei veritatem coniuges non fuerunt: et vera 
+            <lb ed="#V" n="11"/>sunt matrimonia que contraxerunt cum aliis: prius debet 
+            <lb ed="#V" n="12"/>permittere se quilibet excommunicari: et quancumque penam aliam 
+            <lb ed="#V" n="13"/>subire quam carnaliter copuletur priori: similiter dico de muliere 
+            re<lb ed="#V" n="14" break="no"/>spectu viri: nec propter hoc talis perplexus est: quia in hoc 
+            ca<lb ed="#V" n="15" break="no"/>su non obediendo ecclesie non peccat: sed sustinentia 
+            excommu<lb ed="#V" n="16" break="no"/>nicationis hac de causa meritoria sibi videtur: pro 
+            excom<lb ed="#V" n="17" break="no"/>municato tamen se gerere debet: et a susceptione 
+            euchari<lb ed="#V" n="18" break="no"/>stie maxime in loco vbi factum suum notum est: debet 
+            pro<lb ed="#V" n="19" break="no"/>pter scandalum abstinere. 
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e615">
+            <lb ed="#V" n="20"/>¶ Ad primum in oppositum dicendum: quod illud 
+            ver<lb ed="#V" n="21" break="no"/>bum decretalis scilicet quod ad primam 
+            redi<lb ed="#V" n="22" break="no"/>re tenetur: et illud aliud quod fuit allegatum pro prima opinio 
+            <lb ed="#V" n="23"/>nem scilicet quod matrimonium contractum post praesumptum non est 
+            <lb ed="#V" n="24"/>verum: intelligenda sunt secundum iudicium ecclesie.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e628">
+            ¶ Ad 
+            secun<lb ed="#V" n="25" break="no"/>dum dicendum: quod ecclesia aliquando aliquid prohibet fieri 
+            decernen<lb ed="#V" n="26" break="no"/>do implicite vel explicite irritum et inane factum contra hanc 
+            <lb ed="#V" n="27"/>prohibitionem: et sic non prohibet contrahi matrimonium 
+            <lb ed="#V" n="28"/>post matrimonium praesumptum: quod secundum rei veritatem 
+            nul<lb ed="#V" n="29" break="no"/>lum est. Alio modo prohibet aliquid fieri non decernendo 
+            expli<lb ed="#V" n="30" break="no"/>cite vel implicite irritum vel inane si contrarium fiat: et quamuis 
+            <lb ed="#V" n="31"/>faciens contra talem prohibitionem peccet: tamen factum tenet 
+            <lb ed="#V" n="32"/>nisi sit aliud quod obsistat: et hoc modo ecclesia prohibet 
+            contra<lb ed="#V" n="33" break="no"/>hi matrimonium durante alio matrimonio praesumpto: quod 
+            <lb ed="#V" n="34"/>secundum rei veritatem est nullum.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e652">
+            ¶ Uel potest dici quod ecclesia non 
+            <lb ed="#V" n="35"/>prohibet contrahi secundum matrimonium nisi praesupponendo ex 
+            pre<lb ed="#V" n="36" break="no"/>sumptione quod primum sit verum: et ideo secundum matrimonium quamuis 
+            <lb ed="#V" n="37"/>realiter sit verum secundum dei iudicium: tamen secundum iudicium ecclesie est 
+            <lb ed="#V" n="38"/>nullum: et ita eo modo est nullum quo ab ecclesia fuit 
+            prohi<lb ed="#V" n="39" break="no"/>bitum.
+          </p>
+          <p xml:id="kzz7yh-k103377-d1e666">
+            ¶ Ad tertium dicendum: quod quamuis contrahens 
+            sponsa<lb ed="#V" n="40" break="no"/>lia cum aliqua que secundum rei veritatem nulla sunt: eo quod illam 
+            <lb ed="#V" n="41"/>in vxorem non potest habere: non possit postea etiam post mortem 
+            <lb ed="#V" n="42"/>illius aliquam sibi attinentem infra gradum prohibitum ducere 
+            <lb ed="#V" n="43"/>in vxorem: tamen post matrimonium praesumptum: quod secundum rei 
+            veri<lb ed="#V" n="44" break="no"/>tatem nullum est: aliud matrimonium contractum cum aliqua non 
+            <lb ed="#V" n="45"/>attinente priori tenet secundum iudicium dei: quia quod in predicta 
+            <lb ed="#V" n="46"/>decretali dictum est ordinatum est ab ecclesia propter 
+            publice<lb ed="#V" n="47" break="no"/>bonestatis iustitiam: vt dicit Apparatus ibidem: et est 
+            sta<lb ed="#V" n="48" break="no"/>tutum non tantum prohibens ne fiat: sed etiam decernens 
+            irri<lb ed="#V" n="49" break="no"/>tum et inane si contrarium fiat. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

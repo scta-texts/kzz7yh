@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa littera</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa littera</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="71-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a48556"><!-- l1d21cl -->
-            <head xml:id="kzz7yh-a48556-Hd1e101">Circa littera</head>
-            <p xml:id="kzz7yh-a48556-d1e103">
-               <lb ed="#V" n="90"/>Circa litteram ( Dicamus esse quidem patrem) deum: 
-      <lb ed="#V" n="91"/>sed non eum esse solum deum quod aliqui sic 
-      <lb ed="#V" n="92"/>exponunt quod ly solum sit determinatio huius quod dico 
-      <lb ed="#V" n="93"/>eum sub hoc sensu non dicamus eum solum esse deum 
-      <lb ed="#V" n="94"/>qui autem dicunt quod est determinatio huius quod dico deum: 
-      di<lb ed="#V" n="95" break="no"/>cunt illud non esse dicendum: non quia sic falsum: sed quia aliqui possent 
-      <lb ed="#V" n="96"/>hoc male interpretari: et non habueris magnam necessitatem 
-      <lb ed="#V" n="97"/>de vsu ipsius propositionis. (Esse autem solum deum dicamus 
-      patrem<lb ed="#V" n="98" break="no"/>et filium et spiritum sanctum:) quod aliqui sic exponunt vt sit sensus. 
-      <lb ed="#V" n="99"/>Solus deus est pater et filius et spitus sanctus.
-   </p>
-            <p xml:id="kzz7yh-a48556-d1e127">
-      ¶ Alii autem 
-      <lb ed="#V" n="100"/>sic exponunt vt sit sensus: pater et filius et spiritus sanctus sunt 
-      <lb ed="#V" n="101"/>solus deus. (Nemo nouit patrem nisi filius.) Nota quod 
-      Ma<lb ed="#V" n="102" break="no"/>the. xi. sic hebetur. Nemo nouit filium nisi pater: neque patrem quis 
-      <lb ed="#V" n="103"/>nouit nisi filius: ita vt sit sensus. Nulla natura nouit filium 
-      ni<lb ed="#V" n="104" break="no"/>si illa natura que praedicatur de patre: loquendo de noticia 
-      comprie<lb ed="#V" n="105" break="no"/>hensiua: neque patrem quis nouit nisi filius id est nullus alterius nature 
-      <lb ed="#V" n="106"/>quam sit filius: nouit patrem scilicet noticia compraehensiua. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa littera</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa littera</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="71-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a48556"><!-- l1d21cl -->
+        <head xml:id="kzz7yh-a48556-Hd1e101">Circa littera</head>
+        <p xml:id="kzz7yh-a48556-d1e103">
+          <lb ed="#V" n="90"/>Circa litteram ( Dicamus esse quidem patrem) deum: 
+          <lb ed="#V" n="91"/>sed non eum esse solum deum quod aliqui sic 
+          <lb ed="#V" n="92"/>exponunt quod ly solum sit determinatio huius quod dico 
+          <lb ed="#V" n="93"/>eum sub hoc sensu non dicamus eum solum esse deum 
+          <lb ed="#V" n="94"/>qui autem dicunt quod est determinatio huius quod dico deum: 
+          di<lb ed="#V" n="95" break="no"/>cunt illud non esse dicendum: non quia sic falsum: sed quia aliqui possent 
+          <lb ed="#V" n="96"/>hoc male interpretari: et non habueris magnam necessitatem 
+          <lb ed="#V" n="97"/>de vsu ipsius propositionis. (Esse autem solum deum dicamus 
+          patrem<lb ed="#V" n="98" break="no"/>et filium et spiritum sanctum:) quod aliqui sic exponunt vt sit sensus. 
+          <lb ed="#V" n="99"/>Solus deus est pater et filius et spitus sanctus.
+        </p>
+        <p xml:id="kzz7yh-a48556-d1e127">
+          ¶ Alii autem 
+          <lb ed="#V" n="100"/>sic exponunt vt sit sensus: pater et filius et spiritus sanctus sunt 
+          <lb ed="#V" n="101"/>solus deus. (Nemo nouit patrem nisi filius.) Nota quod 
+          Ma<lb ed="#V" n="102" break="no"/>the. xi. sic hebetur. Nemo nouit filium nisi pater: neque patrem quis 
+          <lb ed="#V" n="103"/>nouit nisi filius: ita vt sit sensus. Nulla natura nouit filium 
+          ni<lb ed="#V" n="104" break="no"/>si illa natura que praedicatur de patre: loquendo de noticia 
+          comprie<lb ed="#V" n="105" break="no"/>hensiua: neque patrem quis nouit nisi filius id est nullus alterius nature 
+          <lb ed="#V" n="106"/>quam sit filius: nouit patrem scilicet noticia compraehensiua. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

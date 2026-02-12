@@ -1,436 +1,436 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 2</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 2</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="181-r"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 2</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 2</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="181-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k131531"><!-- l4d41a2 -->
+        <head xml:id="kzz7yh-k131531-Hd1e101">Articulus 2</head>
+        <p xml:id="kzz7yh-k131531-d1e103">
+          Di. II. 
+        </p>
+        <p xml:id="kzz7yh-k131531-d1e105">
+          <lb ed="#V" n="130"/>COnsequenter queritur de secundo 
+          <lb ed="#V" n="131"/>principali.
+        </p>
+        <p xml:id="kzz7yh-k131531-d1e112">
+          ¶ Et 
+          <lb ed="#V" n="132"/>circa hoc queruntur quatuor.
+        </p>
+        <p xml:id="kzz7yh-k131531-d1e117">
+          ¶ Primo vtrum 
+          <lb ed="#V" n="133"/>affinitas impediat matrimonium.
+        </p>
+        <p xml:id="kzz7yh-k131531-d1e123">
+          ¶ 
+          Secun<lb ed="#V" n="134" break="no"/>do vtrum possit prescribi contra prohibitionem de 
+          con<lb ed="#V" n="135" break="no"/>trahendo cum affine.
+        </p>
+        <p xml:id="kzz7yh-k131531-d1e130">
+          ¶ Tertio vtrum nati de tali 
+          ma<lb ed="#V" n="136" break="no"/>trimonio sint illegitimi.
+        </p>
+        <p xml:id="kzz7yh-k131531-d1e135">
+          ¶ Quarto vtrum ad accusan¬ 
+          <!--00394.xml-->
+          <pb ed="#V" n="181-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>dum impedimentum consanguineitatis vel affinitatis 
+          <lb ed="#V" n="2"/>sint admittendi tam extranei quam consanguinei. 
+        </p>
+        <div xml:id="kzz7yh-k131531-Dd1e148">
+          <head xml:id="kzz7yh-k131531-Hd1e150">Quaestio 1</head>
+          <p xml:id="kzz7yh-k131531-d1e152">
+            Quaestio I
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e154">
+            <lb ed="#V" n="3"/>PRimo ostendo quod assinitas non 
+            impe<lb ed="#V" n="4" break="no"/>diat matrimonium: quia effectus 
+            <lb ed="#V" n="5"/>non impedit causam: sed affinitas causatur ex 
+            <lb ed="#V" n="6"/>matrimonio. ergo non impedit matrimonium. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e165">
+            <lb ed="#V" n="7"/>¶ Item vir qui carnaliter cognoscit mulierem magis 
+            vi<lb ed="#V" n="8" break="no"/>detur attinere illi quam consanguineus suus: quia ille qui 
+            co<lb ed="#V" n="9" break="no"/>gnouit eam attinet sibi immediate: consanguineus suus eo 
+            <lb ed="#V" n="10"/>mediante: sed vir potest contrahere cum muliere quam 
+            <lb ed="#V" n="11"/>carnaliter cognouit. ergo multo fortius consanguineus suus. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e178">
+            <lb ed="#V" n="12"/>Contra. 35 q. 3. de propinquis. Equaliter vir 
+            con<lb ed="#V" n="13" break="no"/>iungatur in matrimonio eis qui sibi 
+            consan<lb ed="#V" n="14" break="no"/>guinei sunt et vxoris sue consanguineis post mortem sue 
+            <lb ed="#V" n="15"/>vxoris. ergo affinitas ita videtur matrimonium 
+            impe<lb ed="#V" n="16" break="no"/>dire sicut consanguinitas. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e192">
+            <lb ed="#V" n="17"/>Respondeo quod affinitas impedit matrimonium 
+            <lb ed="#V" n="18"/>in aliquo gradu de iure diuino. ius 
+            <lb ed="#V" n="19"/>enim diuinum prohibet: vt habetur. Leui. 18 filium non 
+            <lb ed="#V" n="20"/>contrahere cum vxore patris: nepotem cum vxore 
+            pa<lb ed="#V" n="21" break="no"/>trui: patrem cum vxore filii in aliquo gradu de iure post 
+            <lb ed="#V" n="22"/>tiuo: vnde de iure positiuo non licet contrahere cum 
+            affi<lb ed="#V" n="23" break="no"/>ne infra quartum gradum. extra de consan. et affini. Non 
+            <lb ed="#V" n="24"/>debet. Ubi dicitur prohibitio copule coniugalis quartum 
+            <lb ed="#V" n="25"/>consanguinitatis et affinitatis gradum de cetero non 
+            ex<lb ed="#V" n="26" break="no"/>cedat: quoniam in vlterioribus gradibus iam non potest 
+            <lb ed="#V" n="27"/>absque graui dispendio huiusmodi prohibitio 
+            generali<lb ed="#V" n="28" break="no"/>ter obseruari. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e221">
+            <lb ed="#V" n="29"/>Ad primum in oppositum dicendum quod 
+            asfini<lb ed="#V" n="30" break="no"/>tas non impedit matrimonium 
+            <lb ed="#V" n="31"/>ex quo causatur: sed aliud.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e230">
+            ¶ Ad secundum dicendum 
+            <lb ed="#V" n="32"/>quod cum nullus sit sibi consanguineus et affinitas 
+            contra<lb ed="#V" n="33" break="no"/>hatur mediante consanguinitate per carnalem copulam 
+            <lb ed="#V" n="34"/>seu matrimonium: mulier non efficitur affinis viro qui 
+            <lb ed="#V" n="35"/>cognoscit eam: sed eius consanguineis. Et si dicas saltem 
+            <lb ed="#V" n="36"/>magis videtur attinere sibi altero genere attinentie: et 
+            ex<lb ed="#V" n="37" break="no"/>consequenti minus videtur posse matrimonialiter 
+            copu<lb ed="#V" n="38" break="no"/>lari viro quam consanguineo eius: et dico quod non valet: quia 
+            <lb ed="#V" n="39"/>cum matrimonium ad procreationem prolis ordinetur: 
+            <lb ed="#V" n="40"/>et prolis procreatio non possit esse sine carnali copula 
+            ip<lb ed="#V" n="41" break="no"/>sa matrimonio non repugnat. vnde ipsum impedire non 
+            <lb ed="#V" n="42"/>debet 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k131531-Dd1e257">
+          <head xml:id="kzz7yh-k131531-Hd1e259">Quaestio 2</head>
+          <p xml:id="kzz7yh-k131531-d1e261">
+            Quaestio II.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e263">
+            <lb ed="#V" n="43"/>SEcundo quaeritur vtrum possit 
+            praescri<lb ed="#V" n="44" break="no"/>bi contra prohibitionem 
+            de<lb ed="#V" n="45" break="no"/>contrahendo cum affine. Et videtur quod sic: quia 
+            <lb ed="#V" n="46"/>contra ius pure positiuum potest currere 
+            pre<lb ed="#V" n="47" break="no"/>scriptio: sed prescriptio de contrahendo cum affine est de 
+            <lb ed="#V" n="48"/>iure pure positiuo. ergo contra ipsam potest valere 
+            pre<lb ed="#V" n="49" break="no"/>scriptio.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e281">
+            ¶ Item perceptio decimarum et oblationum est 
+            <lb ed="#V" n="50"/>aliquid spirituali annexum. vsus mulieris videtur esse 
+            <lb ed="#V" n="51"/>quid carnale tantum et sed contra ius percipiendi decimas 
+            <lb ed="#V" n="52"/>et oblationes valet praescriptio quadragenaria: extra de 
+            pre<lb ed="#V" n="53" break="no"/>scriptionibus. de quarta. ergo multo fortius potest 
+            prescri<lb ed="#V" n="54" break="no"/>bi contra illud ius quod prohibet contrahere cum affine. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e294">
+            <lb ed="#V" n="55"/>Contra eodem titulo vigilanti dicit dominus 
+            papa<lb ed="#V" n="56" break="no"/>de prescriptione quod nobis tam in rebus 
+            co<lb ed="#V" n="57" break="no"/>gnitis quam in latentibus placult non habere vigorem. 
+            er<lb ed="#V" n="58" break="no"/>go videtur quod per prescriptionem nullus possit iuste 
+            ali<lb ed="#V" n="59" break="no"/>quid obtinere. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e308">
+            <lb ed="#V" n="60"/>Respondeo quod quauis couri ius nature vei 
+            di<lb ed="#V" n="61" break="no"/>uinum nulla possit valere 
+            prescri<lb ed="#V" n="62" break="no"/>ptio: quandoque tamen valet contra ius pure positiuum 
+            <lb ed="#V" n="63"/>nisi sit tale de quo cauetur in iure: vt contra ipsum 
+            prescri<lb ed="#V" n="64" break="no"/>bi non possit. Ad hoc tamen vt prescriptio sit valida 
+            ne<lb ed="#V" n="65" break="no"/>cessaria sunt tria. Unum est quod possessor iusto titulo 
+            inci<lb ed="#V" n="66" break="no"/>piat possidere. 16. q. 3. Dilectio. §. Potest. Ubi dicitur quod 
+            <!--00394.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k131531"><!-- l4d41a2 -->
-            <head xml:id="kzz7yh-k131531-Hd1e101">Articulus 2</head>
-            <p xml:id="kzz7yh-k131531-d1e103">
-     Di. II. 
-    </p>
-            <p xml:id="kzz7yh-k131531-d1e105">
-               <lb ed="#V" n="130"/>COnsequenter queritur de secundo 
-      <lb ed="#V" n="131"/>principali.
-   </p>
-            <p xml:id="kzz7yh-k131531-d1e112">
-      ¶ Et 
-      <lb ed="#V" n="132"/>circa hoc queruntur quatuor.
-   </p>
-            <p xml:id="kzz7yh-k131531-d1e117">
-      ¶ Primo vtrum 
-      <lb ed="#V" n="133"/>affinitas impediat matrimonium.
-   </p>
-            <p xml:id="kzz7yh-k131531-d1e123">
-      ¶ 
-      Secun<lb ed="#V" n="134" break="no"/>do vtrum possit prescribi contra prohibitionem de 
-      con<lb ed="#V" n="135" break="no"/>trahendo cum affine.
-   </p>
-            <p xml:id="kzz7yh-k131531-d1e130">
-      ¶ Tertio vtrum nati de tali 
-      ma<lb ed="#V" n="136" break="no"/>trimonio sint illegitimi.
-   </p>
-            <p xml:id="kzz7yh-k131531-d1e135">
-      ¶ Quarto vtrum ad accusan¬ 
-      <!--00394.xml-->
-      <pb ed="#V" n="181-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>dum impedimentum consanguineitatis vel affinitatis 
-      <lb ed="#V" n="2"/>sint admittendi tam extranei quam consanguinei. 
-   </p>
-            <div xml:id="kzz7yh-k131531-Dd1e148">
-               <head xml:id="kzz7yh-k131531-Hd1e150">Quaestio 1</head>
-               <p xml:id="kzz7yh-k131531-d1e152">
-      Quaestio I
-    </p>
-               <p xml:id="kzz7yh-k131531-d1e154">
-                  <lb ed="#V" n="3"/>PRimo ostendo quod assinitas non 
-      impe<lb ed="#V" n="4" break="no"/>diat matrimonium: quia effectus 
-      <lb ed="#V" n="5"/>non impedit causam: sed affinitas causatur ex 
-      <lb ed="#V" n="6"/>matrimonio. ergo non impedit matrimonium. 
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e165">
-                  <lb ed="#V" n="7"/>¶ Item vir qui carnaliter cognoscit mulierem magis 
-      vi<lb ed="#V" n="8" break="no"/>detur attinere illi quam consanguineus suus: quia ille qui 
-      co<lb ed="#V" n="9" break="no"/>gnouit eam attinet sibi immediate: consanguineus suus eo 
-      <lb ed="#V" n="10"/>mediante: sed vir potest contrahere cum muliere quam 
-      <lb ed="#V" n="11"/>carnaliter cognouit. ergo multo fortius consanguineus suus. 
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e178">
-                  <lb ed="#V" n="12"/>Contra. 35 q. 3. de propinquis. Equaliter vir 
-      con<lb ed="#V" n="13" break="no"/>iungatur in matrimonio eis qui sibi 
-      consan<lb ed="#V" n="14" break="no"/>guinei sunt et vxoris sue consanguineis post mortem sue 
-      <lb ed="#V" n="15"/>vxoris. ergo affinitas ita videtur matrimonium 
-      impe<lb ed="#V" n="16" break="no"/>dire sicut consanguinitas. 
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e192">
-                  <lb ed="#V" n="17"/>Respondeo quod affinitas impedit matrimonium 
-      <lb ed="#V" n="18"/>in aliquo gradu de iure diuino. ius 
-      <lb ed="#V" n="19"/>enim diuinum prohibet: vt habetur. Leui. 18 filium non 
-      <lb ed="#V" n="20"/>contrahere cum vxore patris: nepotem cum vxore 
-      pa<lb ed="#V" n="21" break="no"/>trui: patrem cum vxore filii in aliquo gradu de iure post 
-      <lb ed="#V" n="22"/>tiuo: vnde de iure positiuo non licet contrahere cum 
-      affi<lb ed="#V" n="23" break="no"/>ne infra quartum gradum. extra de consan. et affini. Non 
-      <lb ed="#V" n="24"/>debet. Ubi dicitur prohibitio copule coniugalis quartum 
-      <lb ed="#V" n="25"/>consanguinitatis et affinitatis gradum de cetero non 
-      ex<lb ed="#V" n="26" break="no"/>cedat: quoniam in vlterioribus gradibus iam non potest 
-      <lb ed="#V" n="27"/>absque graui dispendio huiusmodi prohibitio 
-      generali<lb ed="#V" n="28" break="no"/>ter obseruari. 
-    </p>
-               <p xml:id="kzz7yh-k131531-d1e221">
-                  <lb ed="#V" n="29"/>Ad primum in oppositum dicendum quod 
-      asfini<lb ed="#V" n="30" break="no"/>tas non impedit matrimonium 
-      <lb ed="#V" n="31"/>ex quo causatur: sed aliud.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e230">
-      ¶ Ad secundum dicendum 
-      <lb ed="#V" n="32"/>quod cum nullus sit sibi consanguineus et affinitas 
-      contra<lb ed="#V" n="33" break="no"/>hatur mediante consanguinitate per carnalem copulam 
-      <lb ed="#V" n="34"/>seu matrimonium: mulier non efficitur affinis viro qui 
-      <lb ed="#V" n="35"/>cognoscit eam: sed eius consanguineis. Et si dicas saltem 
-      <lb ed="#V" n="36"/>magis videtur attinere sibi altero genere attinentie: et 
-      ex<lb ed="#V" n="37" break="no"/>consequenti minus videtur posse matrimonialiter 
-      copu<lb ed="#V" n="38" break="no"/>lari viro quam consanguineo eius: et dico quod non valet: quia 
-      <lb ed="#V" n="39"/>cum matrimonium ad procreationem prolis ordinetur: 
-      <lb ed="#V" n="40"/>et prolis procreatio non possit esse sine carnali copula 
-      ip<lb ed="#V" n="41" break="no"/>sa matrimonio non repugnat. vnde ipsum impedire non 
-      <lb ed="#V" n="42"/>debet 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k131531-Dd1e257">
-               <head xml:id="kzz7yh-k131531-Hd1e259">Quaestio 2</head>
-               <p xml:id="kzz7yh-k131531-d1e261">
-      Quaestio II.
-    </p>
-               <p xml:id="kzz7yh-k131531-d1e263">
-                  <lb ed="#V" n="43"/>SEcundo quaeritur vtrum possit 
-      praescri<lb ed="#V" n="44" break="no"/>bi contra prohibitionem 
-      de<lb ed="#V" n="45" break="no"/>contrahendo cum affine. Et videtur quod sic: quia 
-      <lb ed="#V" n="46"/>contra ius pure positiuum potest currere 
-      pre<lb ed="#V" n="47" break="no"/>scriptio: sed prescriptio de contrahendo cum affine est de 
-      <lb ed="#V" n="48"/>iure pure positiuo. ergo contra ipsam potest valere 
-      pre<lb ed="#V" n="49" break="no"/>scriptio.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e281">
-      ¶ Item perceptio decimarum et oblationum est 
-      <lb ed="#V" n="50"/>aliquid spirituali annexum. vsus mulieris videtur esse 
-      <lb ed="#V" n="51"/>quid carnale tantum et sed contra ius percipiendi decimas 
-      <lb ed="#V" n="52"/>et oblationes valet praescriptio quadragenaria: extra de 
-      pre<lb ed="#V" n="53" break="no"/>scriptionibus. de quarta. ergo multo fortius potest 
-      prescri<lb ed="#V" n="54" break="no"/>bi contra illud ius quod prohibet contrahere cum affine. 
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e294">
-                  <lb ed="#V" n="55"/>Contra eodem titulo vigilanti dicit dominus 
-      papa<lb ed="#V" n="56" break="no"/>de prescriptione quod nobis tam in rebus 
-      co<lb ed="#V" n="57" break="no"/>gnitis quam in latentibus placult non habere vigorem. 
-      er<lb ed="#V" n="58" break="no"/>go videtur quod per prescriptionem nullus possit iuste 
-      ali<lb ed="#V" n="59" break="no"/>quid obtinere. 
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e308">
-                  <lb ed="#V" n="60"/>Respondeo quod quauis couri ius nature vei 
-      di<lb ed="#V" n="61" break="no"/>uinum nulla possit valere 
-      prescri<lb ed="#V" n="62" break="no"/>ptio: quandoque tamen valet contra ius pure positiuum 
-      <lb ed="#V" n="63"/>nisi sit tale de quo cauetur in iure: vt contra ipsum 
-      prescri<lb ed="#V" n="64" break="no"/>bi non possit. Ad hoc tamen vt prescriptio sit valida 
-      ne<lb ed="#V" n="65" break="no"/>cessaria sunt tria. Unum est quod possessor iusto titulo 
-      inci<lb ed="#V" n="66" break="no"/>piat possidere. 16. q. 3. Dilectio. §. Potest. Ubi dicitur quod 
-      <!--00394.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="67"/>qui nullo titulo possidere incipit prescribere non potest. 
-      <lb ed="#V" n="68"/>Aliud est quod sit bone fidei possessor: hoc est quod credat se 
-      in<lb ed="#V" n="69" break="no"/>ste possidere: quia sicut dicitur: extra de prescriptionibus 
-      <lb ed="#V" n="70"/>Uigilanti. Nulla antiqua dierum possessio iuuat aliquem 
-      <lb ed="#V" n="71"/>male fidei possessorem nisi respuerit postquam nouerit se alie 
-      <lb ed="#V" n="72"/>ua possidere. tertium est quod possideat per totum tempus 
-      <lb ed="#V" n="73"/>determinatum a iure absque interruptione. illud tamen 
-      tem<lb ed="#V" n="74" break="no"/>pus determinatur breuius vel longius secundum conditiones 
-      <lb ed="#V" n="75"/>rerum que possidentur: et illorum contra quos 
-      prescribi<lb ed="#V" n="76" break="no"/>tur. Si autem prescribens ius acquirit in re que primo 
-      <lb ed="#V" n="77"/>de iure sua non erat. locum tamen in proposito non 
-      ha<lb ed="#V" n="78" break="no"/>bet: quia prohibitio de non contrahendo cum affine 
-      quan<lb ed="#V" n="79" break="no"/>tum ad aliquos gradus est de iure diuimo vt patet ex 
-      pre<lb ed="#V" n="80" break="no"/>cedenti questione. Illud etiam ius positiuum quod in aliis 
-      <lb ed="#V" n="81"/>gradibus contrahere prohibet: tale est quod de ipso cauetur 
-      <lb ed="#V" n="82"/>in iure vt contra ipsum prescriptio valere non possit. 
-      ex<lb ed="#V" n="83" break="no"/>tra de consanguinitate et affinitate. Non debet in fine. 
-      <lb ed="#V" n="84"/>Causa etiam quare iura voluerunt prescriptionem 
-      habe<lb ed="#V" n="85" break="no"/>re vigorem in proposito esse non potest: quia vt dicitur 
-      <lb ed="#V" n="86"/>extra de prescriptionibus. Uigilanti. Ephesinus 
-      legisla<lb ed="#V" n="87" break="no"/>tor solum propter vitandum miserorum segnitiem et 
-      lon<lb ed="#V" n="88" break="no"/>gi temporis errorem et confusionem prius tricenali vel 
-      <lb ed="#V" n="89"/>quadrigenali prescriptionem vigore legis imposuit. 
-      vn<lb ed="#V" n="90" break="no"/>de consuetudo quantumlibet longa non potest personas 
-      il<lb ed="#V" n="91" break="no"/>legitimas ad contrahendum facere legitimas: extra de 
-      <lb ed="#V" n="92"/>consanguinitate et affinitate quod super: in textu: et in glo. 
-      <lb ed="#V" n="93"/>Preterea cum matrimonium non tantum sit de iure 
-      po<lb ed="#V" n="94" break="no"/>sitiuo: sed etiam de iure nature et diuino: vt superius 
-      osten<lb ed="#V" n="95" break="no"/>sum est per nullam prescriptionem fieri potest vt 
-      matri<lb ed="#V" n="96" break="no"/>monium sit verum quod a principio nullum fuit. 
-    </p>
-               <p xml:id="kzz7yh-k131531-d1e395">
-                  <lb ed="#V" n="97"/>Ad primum in oppositum pater solutio ex im 
-      <lb ed="#V" n="98"/>dictis.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e402">
-      ¶ Secundum dicendum 
-      <lb ed="#V" n="99"/>quod carnalis vsus mulieris extra matrimonium est 
-      contra<lb ed="#V" n="100" break="no"/>rius nature. et ideo locum non habet ibi prescriptio. 
-      ip<lb ed="#V" n="101" break="no"/>sum etiam matrimonium est de iure nature et diuino: et 
-      <lb ed="#V" n="102"/>ideo nec prescriptio facere potest vt valeat matrimonium 
-      <lb ed="#V" n="103"/>quod a principio nullum fuit: vel efficaciter nullum: quod 
-      <lb ed="#V" n="104"/>a principio fuit verum: extra de consanguinitate et 
-      affini<lb ed="#V" n="105" break="no"/>tate. Non debet partim in textu: et partim in glo.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e420">
-      ¶ Ad 
-      <lb ed="#V" n="106"/>intellectum autem decreta. allegate in arguendo sciendum 
-      <lb ed="#V" n="107"/>quod decre. non dicit quod valeat prescriptio contra ius 
-      soluen<lb ed="#V" n="108" break="no"/>di decimas: quia contra hoc ius nulla prescriptio valere 
-      <lb ed="#V" n="109"/>potest: vt dicit concilium byturicense quod tenuit 
-      domi<lb ed="#V" n="110" break="no"/>nus Simon cardinalis: tunc legatus in regno francie: 
-      <lb ed="#V" n="111"/>et hoc est rationale: quia debitum soluendi decimas non 
-      <lb ed="#V" n="112"/>est tantum de iure positiuo: sed etiam de iure diuino: 
-      con<lb ed="#V" n="113" break="no"/>tra quod prescribi non potest: sed predicta decreta. bene 
-      <lb ed="#V" n="114"/>dixit quod clericus potest prescribere contra episcopum suum 
-      <lb ed="#V" n="115"/>ius percipiendi quartam decime et oblationes 
-      defuncto<lb ed="#V" n="116" break="no"/>rum. Aliqui autem dicunt quod quamuis non valeat 
-      prescri<lb ed="#V" n="117" break="no"/>ptio contra ius soluendi decimas secundum quod 
-      decima<lb ed="#V" n="118" break="no"/>accipitur pro alia portione necessaria ad sustentationem 
-      <lb ed="#V" n="119"/>ministrorum ecclesie: quia sic est de iure nature et 
-      diuino<lb ed="#V" n="120" break="no"/>quo ad omnes: tamen secundum quod decima accipitur 
-      pro<lb ed="#V" n="121" break="no"/>tali parte decimata potest prescribi contra ius soluendi 
-      <lb ed="#V" n="122"/>decimas: quia sic soluere decimam non est de iure nature 
-      <lb ed="#V" n="123"/>nec de iure diuino nisi quo ad filios israel: et est 
-      argumen<lb ed="#V" n="124" break="no"/>tum pro ista opinione: quia in maiori parte italie non 
-      sol<lb ed="#V" n="125" break="no"/>uuntur decime: nec tamen ecclesia procedit contra eos 
-      <lb ed="#V" n="126"/>compellendo eos ad solutionem.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e468">
-      ¶ Ad argumentum 
-      <lb ed="#V" n="127"/>ad partem aliam dicendum: quod illud verbum secundum 
-      <lb ed="#V" n="128"/>glo. ibidem intelligitur in male fidei possessore qui 
-      pre<lb ed="#V" n="129" break="no"/>scribere non potest: siue verus dominus sciat rem illam 
-      <lb ed="#V" n="130"/>ad se pertinere siue ignoret: nec dicitur male fidei 
-      possessor<lb ed="#V" n="131" break="no"/>qui post completam praescriptionem primo recognoscit quod res 
-      <lb ed="#V" n="132"/>quando eam inceperit possidere sua non erat de iure: quia secundum glo. 
-      <!--00395.xml-->
-      <pb ed="#V" n="182-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>super decretalem predictam completa prescriptione iam 
-      <lb ed="#V" n="2"/>possessor tutus est. secndum vtrumque ius: quod patet est per illud quod 
-      hbe<lb ed="#V" n="3" break="no"/>in. c. immediate sequenti. vnde illud verbum illius decre. 
-      vi<lb ed="#V" n="4" break="no"/>gilanti. nulla antiqua dierum possessio iuuat aliquem male 
-      si<lb ed="#V" n="5" break="no"/>dei possessorem nisi respuerit postquam se nouerit aliena 
-      possi<lb ed="#V" n="6" break="no"/>dere: intelligendum est si ante completam praescriptionem habuerit 
-      <lb ed="#V" n="7"/>malam fidem: vt dicit glo. ibidem. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k131531-Dd1e506">
-               <head xml:id="kzz7yh-k131531-Hd1e508">Quaestio 3</head>
-               <p xml:id="kzz7yh-k131531-d1e510">
-      Quaestio III
-    </p>
-               <p xml:id="kzz7yh-k131531-d1e512">
-                  <lb ed="#V" n="8"/>TErtio queritur vtrum nati de matrimo. 
-      <lb ed="#V" n="9"/>nio contracto inter affines vel 
-      con<lb ed="#V" n="10" break="no"/>sanguineos sint illegitimi. 
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e521">
-                  <lb ed="#V" n="11"/>Respondeo quod sicut dicitur extra qui si. sint legi. 
-      Tan<lb ed="#V" n="12" break="no"/>ta. in glo. quidam sunt filii 
-      legitimi<lb ed="#V" n="13" break="no"/>et naturales: quidam legitimi et non naturales: quidam naturales et non 
-      le<lb ed="#V" n="14" break="no"/>gitimi: quidam nec naturales nec legitimi. Legitimi et naturales sunt 
-      <lb ed="#V" n="15"/>qui nascuntur ex legitimo matrimonio seu in eo concipiuntur 
-      si<lb ed="#V" n="16" break="no"/>ue ante baptismum siue post. 28. q. 1. Numquid: et hoc siue 
-      matri<lb ed="#V" n="17" break="no"/>monium sit legitimum secundum rem et veritatem: vel secundum ecclesie 
-      ap<lb ed="#V" n="18" break="no"/>probationem siue ab initio: siue ex post facto et contrahentium 
-      re<lb ed="#V" n="19" break="no"/>putationem vel vtrumque vel alterius: extra qui si. sint legi. 
-      Tan<lb ed="#V" n="20" break="no"/>ta. in glo. Si vero aliquis clandestina matrimonia vel 
-      inter<lb ed="#V" n="21" break="no"/>dicta inire praesumpserit in gradu prohibito est ignoranter: 
-      <lb ed="#V" n="22"/>soboles de tali coniunctione suscepta prorsus illegitima 
-      cen<lb ed="#V" n="23" break="no"/>seatur de parentum ignorantia nullum habitura subsidium: cum 
-      <lb ed="#V" n="24"/>illi taliter contrahendo non expertes scientie vel saltem affectatores 
-      igno<lb ed="#V" n="25" break="no"/>rantie videantur: extra de clandestina despon. Cum inhibitio. 
-      <lb ed="#V" n="26"/>§. si quis. Pari modo est proles illegitima censeatur. si 
-      ambo<lb ed="#V" n="27" break="no"/>parentes impedimentum scientes legitimum preter omne inter 
-      <lb ed="#V" n="28"/>dictum etiam in conspectu ecclesie contrahere praesumpserunt. eo. c. vbi 
-      <lb ed="#V" n="29"/>prius. § pari modo. Legitimi et non naturales sunt adoptius 
-      <lb ed="#V" n="30"/>siue abrogati: de quibus habetur extra de cogna. legi. c. vnico. Na. 
-      <lb ed="#V" n="31"/>turales et non legitimi sunt nati ex concubinis in domo. Non 
-      <lb ed="#V" n="32"/>legitimi nec naturales sunt nati ex adulterio: extra qui si. sint 
-      le<lb ed="#V" n="33" break="no"/>giti. Tanta. Similiter dico de illis qui nascuntur ex incestu. 
-      Ille<lb ed="#V" n="34" break="no"/>gitimi enim qui nascuntur ex copula non legitima dicuntur esta non 
-      <lb ed="#V" n="35"/>naturales: non a natura generis: sed a natua speciei. pro tanto quia naturale iudicium 
-      <lb ed="#V" n="36"/>rationis manifeste tali copule conrium est: nec propter istam rationem 
-      <lb ed="#V" n="37"/>natus de concubina in domo indubitato affectu retenta id est 
-      <lb ed="#V" n="38"/>ex concubina que in domo tenetur quasi loco vxoris dicitur 
-      <lb ed="#V" n="39"/>non naturalis: quia quamuis talis copula sit contra naturale rationis iudicium: 
-      <lb ed="#V" n="40"/>non tamen ita manifeste sicut alia: et propter hoc quamuis ab eis 
-      exclu<lb ed="#V" n="41" break="no"/>datur ratio legitimitatis: non tamen ab eis excluditur vocabulum 
-      <lb ed="#V" n="42"/>naturalitatis.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e593">
-      ¶ Ex dictis patet quod ex copulatis in facie ecclesie 
-      <lb ed="#V" n="43"/>et sine contradictione in gradu consanguinitatis vel affinitatis 
-      <lb ed="#V" n="44"/>prohibito vtroque eorum vel altero impedimentum 
-      igno<lb ed="#V" n="45" break="no"/>rante conceptus diffinitiuam sententiam diuortii quamuis post eam 
-      <lb ed="#V" n="46"/>ex vtero natus legitimus est et succedere debet in patrna here 
-      <lb ed="#V" n="47"/>reditate. extra qui si. sint legiti. cum inter. in textu. et in glo. 
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e607">
-                  <lb ed="#V" n="48"/>¶ Similiter si aliquis habens vxorem legitimam et illa viuente 
-      <lb ed="#V" n="49"/>aliam ducit in faciem ecclesie. et sine contradictione illius 
-      im<lb ed="#V" n="50" break="no"/>pedimenti ignaram filius ex tali copula natus siue 
-      con<lb ed="#V" n="51" break="no"/>ceptus legitimus est: quamuis post eius exceptionem 
-      paren<lb ed="#V" n="52" break="no"/>tes sui per diffinitiuam ecclesie sententiam separentur. extra eo. 
-      <lb ed="#V" n="53"/>ti. ex tenore.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e623">
-      ¶ Legitimatur autem illegitimi duobus modis 
-      <lb ed="#V" n="54"/>secundum iura canonica.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e628">
-      ¶ Primus est per sequens 
-      matrimo<lb ed="#V" n="55" break="no"/>nium: quando scilicet solutus generans filium de soluta postmodum 
-      <lb ed="#V" n="56"/>in facie ecclesie cum ea contraxit: extra eo. ti. c. 1. Hic autem legitimam 
-      <lb ed="#V" n="57"/>di modus non se extendit ad natos ex adulterio: exr eo. ti. 
-      <lb ed="#V" n="58"/>Tanta.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e639">
-      ¶ Secundus modus est per dispensationem domini papee: 
-      <lb ed="#V" n="59"/>et hic modus legitimandi potest se extendere ad quoscumque 
-      <lb ed="#V" n="60"/>illegitimos et ad omnes illegitimos actus in tota ecclesia. 
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e646">
-                  <lb ed="#V" n="61"/>¶ Secundum autem iura ciuilia legitimantur 6 modis.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e651">
-      ¶ 
-      Pri<lb ed="#V" n="62" break="no"/>mus est quando pater filium naturalem ex concubina susceptum non 
-      <lb ed="#V" n="63"/>spurium tradidit curie ciuitatis sue vel metropolitane: et 
-      <lb ed="#V" n="64"/>sit officialis in illa curia: quod contingit propter curie honorem. 
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e661">
-                  <lb ed="#V" n="65"/>¶ Secundus quando pater filiam naturalem iungit officiali curie 
-      ci<lb ed="#V" n="66" break="no"/>uitatis sue vel metropolis.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e668">
-      ¶ Tertius quando ipsemet naturalis 
-      <lb ed="#V" n="67"/>filius offert se curie deficiente prole legitima. naturam alias non 
-      <lb ed="#V" n="68"/>liceret sibi se offerre.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e675">
-      ¶ Quartus quando deficiente prole le¬ 
-      <!--00395.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>gitima ipsa concubinam offert pro filio suo inegitimando 
-      pre<lb ed="#V" n="70" break="no"/>ces imperatori: et imperator eas suscipit.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e686">
-      ¶ Quintus quando 
-      <lb ed="#V" n="71"/>pater in testamento solenniter perfecto vocat eum 
-      legiti<lb ed="#V" n="72" break="no"/>mum filium suum.
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e693">
-      ¶ Sextus quando in testamento 
-      publica<lb ed="#V" n="73" break="no"/>manu confecto vel manum propria habente susceptionem trium 
-      <lb ed="#V" n="74"/>testium fide dignorum vocat eum legitimum. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k131531-Dd1e702">
-               <head xml:id="kzz7yh-k131531-Hd1e704">Quaestio 4</head>
-               <p xml:id="kzz7yh-k131531-d1e706">
-      Quaestio IIII
-    </p>
-               <p xml:id="kzz7yh-k131531-d1e708">
-                  <lb ed="#V" n="75"/>QUarto queritur vtrum ad accusandum 
-      <lb ed="#V" n="76"/>impedimentum 
-      consanguinita<lb ed="#V" n="77" break="no"/>tis vel affinitatis sint admittendi tam 
-      extra<lb ed="#V" n="78" break="no"/>nei quam consanguinei. 
-   </p>
-               <p xml:id="kzz7yh-k131531-d1e719">
-                  <lb ed="#V" n="79"/>Respondeo quod parentes eorum de quorim 
-      ma<lb ed="#V" n="80" break="no"/>trimonio agitur siue sratres et 
-      con<lb ed="#V" n="81" break="no"/>gnati vtriusque sexus sunt superstites aut non. si non: tunc 
-      <lb ed="#V" n="82"/>antiquiores extranei et veraciores quibus notum sit vtrum 
-      <lb ed="#V" n="83"/>sit ibi impedimentum consanguinitatis vel affinitatis possunt 
-      <lb ed="#V" n="84"/>impedimentum accusare. 3 §5 q. 6. Consanguineos et recitat 
-      <lb ed="#V" n="85"/>magister huius distin. c. vlti. Si autem sint 
-      consanguinei<lb ed="#V" n="86" break="no"/>superstites et tacent. tunc extranei repelluntur ab 
-      accusa<lb ed="#V" n="87" break="no"/>tione tamquam suspecti quod ex malitia accusent nisi per 
-      consan<lb ed="#V" n="88" break="no"/>guineos probare voluerint quod accusant. quod probatur per 
-      <lb ed="#V" n="89"/>illud quod habetur. c. supradicto. Rationabile enim est 
-      vt<lb ed="#V" n="90" break="no"/>ad accusandum impedimenta predicta magis 
-      recipian<lb ed="#V" n="91" break="no"/>tur consanguinei quam extranei: quoniam vnusquisque suam 
-      <lb ed="#V" n="92"/>genealogiam tum testibus et chartis. tum etiam ex 
-      recita<lb ed="#V" n="93" break="no"/>tione maiorum scire laborant: et melius recipi debent ad 
-      <lb ed="#V" n="94"/>accusandum qui melius impedimentum nouerint. extra. 
-      <lb ed="#V" n="95"/>Qui matrimonium accusare possunt. Uidetur: tamen si 
-      <lb ed="#V" n="96"/>quis est ad quem peruenerit noticia denunciationis: 
-      quam<lb ed="#V" n="97" break="no"/>do banni secundum consuetudinem in ecclesia fiunt et tacuit: 
-      <lb ed="#V" n="98"/>quod postea contra matrimonium accusare non potest: sed 
-      <lb ed="#V" n="99"/>tanquam suspectus repellendus est: nisi proprio firmauerit 
-      <lb ed="#V" n="100"/>iuramento quod postea didicerit que obiecit: et quod ad hoc 
-      ex<lb ed="#V" n="101" break="no"/>malitia non procedit. eo. ti. cum in tua: quia tunc etiam 
-      <lb ed="#V" n="102"/>si didicisset ab illis qui denunciationis tempore filuerunt 
-      <lb ed="#V" n="103"/>claudi non debent eidem aditus accusandi: quoniam et 
-      <lb ed="#V" n="104"/>si ab huiusmodi impetitione culpa de silentio tali 
-      contra<lb ed="#V" n="105" break="no"/>cta illos excluderet: ille tamen amoueri nequiret cum 
-      cul<lb ed="#V" n="106" break="no"/>pabilis non existat eodem. c. vbi prius: nec oportet 
-      accu<lb ed="#V" n="107" break="no"/>satorem se ad talionem obligare. talis enim obligatio 
-      lo<lb ed="#V" n="108" break="no"/>cum habet quando accusatur persona de crimine vt 
-      pu<lb ed="#V" n="109" break="no"/>niatur. hic autem non accusatur persona: sed factum illegitimum. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="67"/>qui nullo titulo possidere incipit prescribere non potest. 
+            <lb ed="#V" n="68"/>Aliud est quod sit bone fidei possessor: hoc est quod credat se 
+            in<lb ed="#V" n="69" break="no"/>ste possidere: quia sicut dicitur: extra de prescriptionibus 
+            <lb ed="#V" n="70"/>Uigilanti. Nulla antiqua dierum possessio iuuat aliquem 
+            <lb ed="#V" n="71"/>male fidei possessorem nisi respuerit postquam nouerit se alie 
+            <lb ed="#V" n="72"/>ua possidere. tertium est quod possideat per totum tempus 
+            <lb ed="#V" n="73"/>determinatum a iure absque interruptione. illud tamen 
+            tem<lb ed="#V" n="74" break="no"/>pus determinatur breuius vel longius secundum conditiones 
+            <lb ed="#V" n="75"/>rerum que possidentur: et illorum contra quos 
+            prescribi<lb ed="#V" n="76" break="no"/>tur. Si autem prescribens ius acquirit in re que primo 
+            <lb ed="#V" n="77"/>de iure sua non erat. locum tamen in proposito non 
+            ha<lb ed="#V" n="78" break="no"/>bet: quia prohibitio de non contrahendo cum affine 
+            quan<lb ed="#V" n="79" break="no"/>tum ad aliquos gradus est de iure diuimo vt patet ex 
+            pre<lb ed="#V" n="80" break="no"/>cedenti questione. Illud etiam ius positiuum quod in aliis 
+            <lb ed="#V" n="81"/>gradibus contrahere prohibet: tale est quod de ipso cauetur 
+            <lb ed="#V" n="82"/>in iure vt contra ipsum prescriptio valere non possit. 
+            ex<lb ed="#V" n="83" break="no"/>tra de consanguinitate et affinitate. Non debet in fine. 
+            <lb ed="#V" n="84"/>Causa etiam quare iura voluerunt prescriptionem 
+            habe<lb ed="#V" n="85" break="no"/>re vigorem in proposito esse non potest: quia vt dicitur 
+            <lb ed="#V" n="86"/>extra de prescriptionibus. Uigilanti. Ephesinus 
+            legisla<lb ed="#V" n="87" break="no"/>tor solum propter vitandum miserorum segnitiem et 
+            lon<lb ed="#V" n="88" break="no"/>gi temporis errorem et confusionem prius tricenali vel 
+            <lb ed="#V" n="89"/>quadrigenali prescriptionem vigore legis imposuit. 
+            vn<lb ed="#V" n="90" break="no"/>de consuetudo quantumlibet longa non potest personas 
+            il<lb ed="#V" n="91" break="no"/>legitimas ad contrahendum facere legitimas: extra de 
+            <lb ed="#V" n="92"/>consanguinitate et affinitate quod super: in textu: et in glo. 
+            <lb ed="#V" n="93"/>Preterea cum matrimonium non tantum sit de iure 
+            po<lb ed="#V" n="94" break="no"/>sitiuo: sed etiam de iure nature et diuino: vt superius 
+            osten<lb ed="#V" n="95" break="no"/>sum est per nullam prescriptionem fieri potest vt 
+            matri<lb ed="#V" n="96" break="no"/>monium sit verum quod a principio nullum fuit. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e395">
+            <lb ed="#V" n="97"/>Ad primum in oppositum pater solutio ex im 
+            <lb ed="#V" n="98"/>dictis.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e402">
+            ¶ Secundum dicendum 
+            <lb ed="#V" n="99"/>quod carnalis vsus mulieris extra matrimonium est 
+            contra<lb ed="#V" n="100" break="no"/>rius nature. et ideo locum non habet ibi prescriptio. 
+            ip<lb ed="#V" n="101" break="no"/>sum etiam matrimonium est de iure nature et diuino: et 
+            <lb ed="#V" n="102"/>ideo nec prescriptio facere potest vt valeat matrimonium 
+            <lb ed="#V" n="103"/>quod a principio nullum fuit: vel efficaciter nullum: quod 
+            <lb ed="#V" n="104"/>a principio fuit verum: extra de consanguinitate et 
+            affini<lb ed="#V" n="105" break="no"/>tate. Non debet partim in textu: et partim in glo.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e420">
+            ¶ Ad 
+            <lb ed="#V" n="106"/>intellectum autem decreta. allegate in arguendo sciendum 
+            <lb ed="#V" n="107"/>quod decre. non dicit quod valeat prescriptio contra ius 
+            soluen<lb ed="#V" n="108" break="no"/>di decimas: quia contra hoc ius nulla prescriptio valere 
+            <lb ed="#V" n="109"/>potest: vt dicit concilium byturicense quod tenuit 
+            domi<lb ed="#V" n="110" break="no"/>nus Simon cardinalis: tunc legatus in regno francie: 
+            <lb ed="#V" n="111"/>et hoc est rationale: quia debitum soluendi decimas non 
+            <lb ed="#V" n="112"/>est tantum de iure positiuo: sed etiam de iure diuino: 
+            con<lb ed="#V" n="113" break="no"/>tra quod prescribi non potest: sed predicta decreta. bene 
+            <lb ed="#V" n="114"/>dixit quod clericus potest prescribere contra episcopum suum 
+            <lb ed="#V" n="115"/>ius percipiendi quartam decime et oblationes 
+            defuncto<lb ed="#V" n="116" break="no"/>rum. Aliqui autem dicunt quod quamuis non valeat 
+            prescri<lb ed="#V" n="117" break="no"/>ptio contra ius soluendi decimas secundum quod 
+            decima<lb ed="#V" n="118" break="no"/>accipitur pro alia portione necessaria ad sustentationem 
+            <lb ed="#V" n="119"/>ministrorum ecclesie: quia sic est de iure nature et 
+            diuino<lb ed="#V" n="120" break="no"/>quo ad omnes: tamen secundum quod decima accipitur 
+            pro<lb ed="#V" n="121" break="no"/>tali parte decimata potest prescribi contra ius soluendi 
+            <lb ed="#V" n="122"/>decimas: quia sic soluere decimam non est de iure nature 
+            <lb ed="#V" n="123"/>nec de iure diuino nisi quo ad filios israel: et est 
+            argumen<lb ed="#V" n="124" break="no"/>tum pro ista opinione: quia in maiori parte italie non 
+            sol<lb ed="#V" n="125" break="no"/>uuntur decime: nec tamen ecclesia procedit contra eos 
+            <lb ed="#V" n="126"/>compellendo eos ad solutionem.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e468">
+            ¶ Ad argumentum 
+            <lb ed="#V" n="127"/>ad partem aliam dicendum: quod illud verbum secundum 
+            <lb ed="#V" n="128"/>glo. ibidem intelligitur in male fidei possessore qui 
+            pre<lb ed="#V" n="129" break="no"/>scribere non potest: siue verus dominus sciat rem illam 
+            <lb ed="#V" n="130"/>ad se pertinere siue ignoret: nec dicitur male fidei 
+            possessor<lb ed="#V" n="131" break="no"/>qui post completam praescriptionem primo recognoscit quod res 
+            <lb ed="#V" n="132"/>quando eam inceperit possidere sua non erat de iure: quia secundum glo. 
+            <!--00395.xml-->
+            <pb ed="#V" n="182-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>super decretalem predictam completa prescriptione iam 
+            <lb ed="#V" n="2"/>possessor tutus est. secndum vtrumque ius: quod patet est per illud quod 
+            hbe<lb ed="#V" n="3" break="no"/>in. c. immediate sequenti. vnde illud verbum illius decre. 
+            vi<lb ed="#V" n="4" break="no"/>gilanti. nulla antiqua dierum possessio iuuat aliquem male 
+            si<lb ed="#V" n="5" break="no"/>dei possessorem nisi respuerit postquam se nouerit aliena 
+            possi<lb ed="#V" n="6" break="no"/>dere: intelligendum est si ante completam praescriptionem habuerit 
+            <lb ed="#V" n="7"/>malam fidem: vt dicit glo. ibidem. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k131531-Dd1e506">
+          <head xml:id="kzz7yh-k131531-Hd1e508">Quaestio 3</head>
+          <p xml:id="kzz7yh-k131531-d1e510">
+            Quaestio III
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e512">
+            <lb ed="#V" n="8"/>TErtio queritur vtrum nati de matrimo. 
+            <lb ed="#V" n="9"/>nio contracto inter affines vel 
+            con<lb ed="#V" n="10" break="no"/>sanguineos sint illegitimi. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e521">
+            <lb ed="#V" n="11"/>Respondeo quod sicut dicitur extra qui si. sint legi. 
+            Tan<lb ed="#V" n="12" break="no"/>ta. in glo. quidam sunt filii 
+            legitimi<lb ed="#V" n="13" break="no"/>et naturales: quidam legitimi et non naturales: quidam naturales et non 
+            le<lb ed="#V" n="14" break="no"/>gitimi: quidam nec naturales nec legitimi. Legitimi et naturales sunt 
+            <lb ed="#V" n="15"/>qui nascuntur ex legitimo matrimonio seu in eo concipiuntur 
+            si<lb ed="#V" n="16" break="no"/>ue ante baptismum siue post. 28. q. 1. Numquid: et hoc siue 
+            matri<lb ed="#V" n="17" break="no"/>monium sit legitimum secundum rem et veritatem: vel secundum ecclesie 
+            ap<lb ed="#V" n="18" break="no"/>probationem siue ab initio: siue ex post facto et contrahentium 
+            re<lb ed="#V" n="19" break="no"/>putationem vel vtrumque vel alterius: extra qui si. sint legi. 
+            Tan<lb ed="#V" n="20" break="no"/>ta. in glo. Si vero aliquis clandestina matrimonia vel 
+            inter<lb ed="#V" n="21" break="no"/>dicta inire praesumpserit in gradu prohibito est ignoranter: 
+            <lb ed="#V" n="22"/>soboles de tali coniunctione suscepta prorsus illegitima 
+            cen<lb ed="#V" n="23" break="no"/>seatur de parentum ignorantia nullum habitura subsidium: cum 
+            <lb ed="#V" n="24"/>illi taliter contrahendo non expertes scientie vel saltem affectatores 
+            igno<lb ed="#V" n="25" break="no"/>rantie videantur: extra de clandestina despon. Cum inhibitio. 
+            <lb ed="#V" n="26"/>§. si quis. Pari modo est proles illegitima censeatur. si 
+            ambo<lb ed="#V" n="27" break="no"/>parentes impedimentum scientes legitimum preter omne inter 
+            <lb ed="#V" n="28"/>dictum etiam in conspectu ecclesie contrahere praesumpserunt. eo. c. vbi 
+            <lb ed="#V" n="29"/>prius. § pari modo. Legitimi et non naturales sunt adoptius 
+            <lb ed="#V" n="30"/>siue abrogati: de quibus habetur extra de cogna. legi. c. vnico. Na. 
+            <lb ed="#V" n="31"/>turales et non legitimi sunt nati ex concubinis in domo. Non 
+            <lb ed="#V" n="32"/>legitimi nec naturales sunt nati ex adulterio: extra qui si. sint 
+            le<lb ed="#V" n="33" break="no"/>giti. Tanta. Similiter dico de illis qui nascuntur ex incestu. 
+            Ille<lb ed="#V" n="34" break="no"/>gitimi enim qui nascuntur ex copula non legitima dicuntur esta non 
+            <lb ed="#V" n="35"/>naturales: non a natura generis: sed a natua speciei. pro tanto quia naturale iudicium 
+            <lb ed="#V" n="36"/>rationis manifeste tali copule conrium est: nec propter istam rationem 
+            <lb ed="#V" n="37"/>natus de concubina in domo indubitato affectu retenta id est 
+            <lb ed="#V" n="38"/>ex concubina que in domo tenetur quasi loco vxoris dicitur 
+            <lb ed="#V" n="39"/>non naturalis: quia quamuis talis copula sit contra naturale rationis iudicium: 
+            <lb ed="#V" n="40"/>non tamen ita manifeste sicut alia: et propter hoc quamuis ab eis 
+            exclu<lb ed="#V" n="41" break="no"/>datur ratio legitimitatis: non tamen ab eis excluditur vocabulum 
+            <lb ed="#V" n="42"/>naturalitatis.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e593">
+            ¶ Ex dictis patet quod ex copulatis in facie ecclesie 
+            <lb ed="#V" n="43"/>et sine contradictione in gradu consanguinitatis vel affinitatis 
+            <lb ed="#V" n="44"/>prohibito vtroque eorum vel altero impedimentum 
+            igno<lb ed="#V" n="45" break="no"/>rante conceptus diffinitiuam sententiam diuortii quamuis post eam 
+            <lb ed="#V" n="46"/>ex vtero natus legitimus est et succedere debet in patrna here 
+            <lb ed="#V" n="47"/>reditate. extra qui si. sint legiti. cum inter. in textu. et in glo. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e607">
+            <lb ed="#V" n="48"/>¶ Similiter si aliquis habens vxorem legitimam et illa viuente 
+            <lb ed="#V" n="49"/>aliam ducit in faciem ecclesie. et sine contradictione illius 
+            im<lb ed="#V" n="50" break="no"/>pedimenti ignaram filius ex tali copula natus siue 
+            con<lb ed="#V" n="51" break="no"/>ceptus legitimus est: quamuis post eius exceptionem 
+            paren<lb ed="#V" n="52" break="no"/>tes sui per diffinitiuam ecclesie sententiam separentur. extra eo. 
+            <lb ed="#V" n="53"/>ti. ex tenore.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e623">
+            ¶ Legitimatur autem illegitimi duobus modis 
+            <lb ed="#V" n="54"/>secundum iura canonica.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e628">
+            ¶ Primus est per sequens 
+            matrimo<lb ed="#V" n="55" break="no"/>nium: quando scilicet solutus generans filium de soluta postmodum 
+            <lb ed="#V" n="56"/>in facie ecclesie cum ea contraxit: extra eo. ti. c. 1. Hic autem legitimam 
+            <lb ed="#V" n="57"/>di modus non se extendit ad natos ex adulterio: exr eo. ti. 
+            <lb ed="#V" n="58"/>Tanta.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e639">
+            ¶ Secundus modus est per dispensationem domini papee: 
+            <lb ed="#V" n="59"/>et hic modus legitimandi potest se extendere ad quoscumque 
+            <lb ed="#V" n="60"/>illegitimos et ad omnes illegitimos actus in tota ecclesia. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e646">
+            <lb ed="#V" n="61"/>¶ Secundum autem iura ciuilia legitimantur 6 modis.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e651">
+            ¶ 
+            Pri<lb ed="#V" n="62" break="no"/>mus est quando pater filium naturalem ex concubina susceptum non 
+            <lb ed="#V" n="63"/>spurium tradidit curie ciuitatis sue vel metropolitane: et 
+            <lb ed="#V" n="64"/>sit officialis in illa curia: quod contingit propter curie honorem. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e661">
+            <lb ed="#V" n="65"/>¶ Secundus quando pater filiam naturalem iungit officiali curie 
+            ci<lb ed="#V" n="66" break="no"/>uitatis sue vel metropolis.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e668">
+            ¶ Tertius quando ipsemet naturalis 
+            <lb ed="#V" n="67"/>filius offert se curie deficiente prole legitima. naturam alias non 
+            <lb ed="#V" n="68"/>liceret sibi se offerre.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e675">
+            ¶ Quartus quando deficiente prole le¬ 
+            <!--00395.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>gitima ipsa concubinam offert pro filio suo inegitimando 
+            pre<lb ed="#V" n="70" break="no"/>ces imperatori: et imperator eas suscipit.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e686">
+            ¶ Quintus quando 
+            <lb ed="#V" n="71"/>pater in testamento solenniter perfecto vocat eum 
+            legiti<lb ed="#V" n="72" break="no"/>mum filium suum.
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e693">
+            ¶ Sextus quando in testamento 
+            publica<lb ed="#V" n="73" break="no"/>manu confecto vel manum propria habente susceptionem trium 
+            <lb ed="#V" n="74"/>testium fide dignorum vocat eum legitimum. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k131531-Dd1e702">
+          <head xml:id="kzz7yh-k131531-Hd1e704">Quaestio 4</head>
+          <p xml:id="kzz7yh-k131531-d1e706">
+            Quaestio IIII
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e708">
+            <lb ed="#V" n="75"/>QUarto queritur vtrum ad accusandum 
+            <lb ed="#V" n="76"/>impedimentum 
+            consanguinita<lb ed="#V" n="77" break="no"/>tis vel affinitatis sint admittendi tam 
+            extra<lb ed="#V" n="78" break="no"/>nei quam consanguinei. 
+          </p>
+          <p xml:id="kzz7yh-k131531-d1e719">
+            <lb ed="#V" n="79"/>Respondeo quod parentes eorum de quorim 
+            ma<lb ed="#V" n="80" break="no"/>trimonio agitur siue sratres et 
+            con<lb ed="#V" n="81" break="no"/>gnati vtriusque sexus sunt superstites aut non. si non: tunc 
+            <lb ed="#V" n="82"/>antiquiores extranei et veraciores quibus notum sit vtrum 
+            <lb ed="#V" n="83"/>sit ibi impedimentum consanguinitatis vel affinitatis possunt 
+            <lb ed="#V" n="84"/>impedimentum accusare. 3 §5 q. 6. Consanguineos et recitat 
+            <lb ed="#V" n="85"/>magister huius distin. c. vlti. Si autem sint 
+            consanguinei<lb ed="#V" n="86" break="no"/>superstites et tacent. tunc extranei repelluntur ab 
+            accusa<lb ed="#V" n="87" break="no"/>tione tamquam suspecti quod ex malitia accusent nisi per 
+            consan<lb ed="#V" n="88" break="no"/>guineos probare voluerint quod accusant. quod probatur per 
+            <lb ed="#V" n="89"/>illud quod habetur. c. supradicto. Rationabile enim est 
+            vt<lb ed="#V" n="90" break="no"/>ad accusandum impedimenta predicta magis 
+            recipian<lb ed="#V" n="91" break="no"/>tur consanguinei quam extranei: quoniam vnusquisque suam 
+            <lb ed="#V" n="92"/>genealogiam tum testibus et chartis. tum etiam ex 
+            recita<lb ed="#V" n="93" break="no"/>tione maiorum scire laborant: et melius recipi debent ad 
+            <lb ed="#V" n="94"/>accusandum qui melius impedimentum nouerint. extra. 
+            <lb ed="#V" n="95"/>Qui matrimonium accusare possunt. Uidetur: tamen si 
+            <lb ed="#V" n="96"/>quis est ad quem peruenerit noticia denunciationis: 
+            quam<lb ed="#V" n="97" break="no"/>do banni secundum consuetudinem in ecclesia fiunt et tacuit: 
+            <lb ed="#V" n="98"/>quod postea contra matrimonium accusare non potest: sed 
+            <lb ed="#V" n="99"/>tanquam suspectus repellendus est: nisi proprio firmauerit 
+            <lb ed="#V" n="100"/>iuramento quod postea didicerit que obiecit: et quod ad hoc 
+            ex<lb ed="#V" n="101" break="no"/>malitia non procedit. eo. ti. cum in tua: quia tunc etiam 
+            <lb ed="#V" n="102"/>si didicisset ab illis qui denunciationis tempore filuerunt 
+            <lb ed="#V" n="103"/>claudi non debent eidem aditus accusandi: quoniam et 
+            <lb ed="#V" n="104"/>si ab huiusmodi impetitione culpa de silentio tali 
+            contra<lb ed="#V" n="105" break="no"/>cta illos excluderet: ille tamen amoueri nequiret cum 
+            cul<lb ed="#V" n="106" break="no"/>pabilis non existat eodem. c. vbi prius: nec oportet 
+            accu<lb ed="#V" n="107" break="no"/>satorem se ad talionem obligare. talis enim obligatio 
+            lo<lb ed="#V" n="108" break="no"/>cum habet quando accusatur persona de crimine vt 
+            pu<lb ed="#V" n="109" break="no"/>niatur. hic autem non accusatur persona: sed factum illegitimum. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,296 +1,296 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 3</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 3</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="113-v"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 3</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 3</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="113-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k82341"><!-- l4d21a3 -->
+        <head xml:id="kzz7yh-k82341-Hd1e101">Articulus 3</head>
+        <p xml:id="kzz7yh-k82341-d1e103">
+          Distin. III
+        </p>
+        <p xml:id="kzz7yh-k82341-d1e105">
+          <lb ed="#V" n="120"/>Consequenter queritur de tertio 
+          <lb ed="#V" n="121"/>principali.
+        </p>
+        <p xml:id="kzz7yh-k82341-d1e112">
+          ¶ Et 
+          <lb ed="#V" n="122"/>circa hoc queruntur quatuor.
+        </p>
+        <p xml:id="kzz7yh-k82341-d1e117">
+          ¶ Primo vtrum 
+          <lb ed="#V" n="123"/>per confessionem generalem deleantur peccata 
+          <lb ed="#V" n="124"/>venialia.
+        </p>
+        <p xml:id="kzz7yh-k82341-d1e125">
+          ¶ Secundo vtrum illa confessio sit sacramentum. 
+        </p>
+        <p xml:id="kzz7yh-k82341-d1e127">
+          <lb ed="#V" n="125"/>¶ Tertio vtrum mortalia oblita deleantur per illam 
+          con<lb ed="#V" n="126" break="no"/>fessionem.
+        </p>
+        <p xml:id="kzz7yh-k82341-d1e134">
+          ¶ Quarto vtrum peccet confitens confitendo 
+          pec<lb ed="#V" n="127" break="no"/>cata que non fecit. 
+        </p>
+        <div xml:id="kzz7yh-k82341-Dd1e139">
+          <head xml:id="kzz7yh-k82341-Hd1e141">Quaestio 1</head>
+          <p xml:id="kzz7yh-k82341-d1e143">
+            Questio I 
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e145">
+            <lb ed="#V" n="128"/>PRimo ostendo quod per confessionem naturalem non 
+            <lb ed="#V" n="129"/>delentur peccata venialia: sine generali 
+            <lb ed="#V" n="130"/>confessione possunt venialia remitti per contritionem: et 
+            si<lb ed="#V" n="131" break="no"/>ne contritione non possunt remitti per generalem confessionem: 
+            <lb ed="#V" n="132"/>ergo non remittuntur per generalem confessionem: sed per contritionem.
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e158">
+            ¶ Item 
+            <lb ed="#V" n="133"/>quandoque aliqua peccata venialia per generalem contritionem non remittuntur: 
+            <lb ed="#V" n="134"/>vt sunt illa in quibus remanet voluntas habitualiter: sed ad 
+            re<lb ed="#V" n="135" break="no"/>missionem venialium plus valet generalis contritio quam generalis 
+            con<lb ed="#V" n="136" break="no"/>fessio: ergo sunt aliqua peccata venialia quae per generalem confessionem 
+            <!--00259.xml-->
+            <pb ed="#V" n="114-r"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non remittuntur.
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e178">
+            ¶ Item Io. in primam cano. c. I. Si 
+            di<lb ed="#V" n="2" break="no"/>xerimus quod peccatum non habemus nos ipsos seducimus: 
+            <lb ed="#V" n="3"/>et veritas in nobis non est: cum ergo multi faciant 
+            con<lb ed="#V" n="4" break="no"/>fessionem generalem mortalibus carentes: si per illam 
+            con<lb ed="#V" n="5" break="no"/>fessionem remitterentur venialia: tales omni peccato care 
+            <lb ed="#V" n="6"/>rent: ergo per eam venialia non remittuntur. 
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e192">
+            <lb ed="#V" n="7"/>Contra si per eam non remittuntur venialia multo 
+            mi<lb ed="#V" n="8" break="no"/>nus mortalia: ergo frustra fieret cum per eam 
+            <lb ed="#V" n="9"/>nullum peccantum remitteretur.
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e201">
+            ¶ Item potentior videtur ad remissionem 
+            <lb ed="#V" n="10"/>peccatorum venialium gnaturalis confessio: quam aspersio aqua bedicte: 
+            <lb ed="#V" n="11"/>vel epistalis bedictio: sed peccata venialia dicuntur remitti per 
+            <lb ed="#V" n="12"/>aspersionem aquae bedicte. de consecr. di. 3. Aquam. et per 
+            episco<lb ed="#V" n="13" break="no"/>palem bedictionem. Unde decre. di. 28 Presbyterum: bedi 
+            <lb ed="#V" n="14"/>ctio sacerdotis sanctificationis traditio est: ergo multo 
+            for<lb ed="#V" n="15" break="no"/>tius per generalem confessionem. 
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e217">
+            <lb ed="#V" n="16"/>Respondeo quod duplex est generalis confessio: quedam 
+            <lb ed="#V" n="17"/>sacramentalis quae sit sacerdoti in 
+            oc<lb ed="#V" n="18" break="no"/>culto: quaedam non sacramentalis que sit in prima et 
+            comple<lb ed="#V" n="19" break="no"/>torio in publico. Prima est cum homo de peccatis venialibus 
+            <lb ed="#V" n="20"/>sacerdoti confitetur in occulto de generibus singulorum: et non 
+            <lb ed="#V" n="21"/>de singulis generum: et per hanc remittuntur venialia: et per 
+            mo<lb ed="#V" n="22" break="no"/>dum meriti inquantum excitat motum voluntatis: et feruo 
+            <lb ed="#V" n="23"/>rem charitatis: per quae sit venialium remissio: et ex vi sacramentilicet 
+            <lb ed="#V" n="24"/>per absolutionem sacerdotis: per aliam autem non fit venialium 
+            <lb ed="#V" n="25"/>remissio ex vi sacramenti: sed tantummodo per modum meriti: quod 
+            <lb ed="#V" n="26"/>principaliter consistit in contritione ad quam habendam 
+            iuua<lb ed="#V" n="27" break="no"/>tur homo per confessionem generalem et orationem 
+            sacer<lb ed="#V" n="28" break="no"/>dotalem. Ratio autem quare ad remissionem venialium 
+            <lb ed="#V" n="29"/>non est necessaria contritio specialis: nec confessio est: quia 
+            <lb ed="#V" n="30"/>non auertunt a deo: et simul stant cum charitate: quod 
+            <lb ed="#V" n="31"/>de mortalibus dici non potest. 
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e254">
+            <lb ed="#V" n="32"/>Ad primum in oppositum dicendum: quod non plus 
+            <lb ed="#V" n="33"/>concludit nisi quod principalius 
+            remit<lb ed="#V" n="34" break="no"/>tuntur per contritionem quam per generalem confessionem: et quod 
+            <lb ed="#V" n="35"/>sine generali vel speciali contritione remiti non possunt per 
+            gene<lb ed="#V" n="36" break="no"/>ralem confessionem: et hoc est verum: generalis tamen confessio iuuat 
+            <lb ed="#V" n="37"/>ad illam contritionem habendam: et ad augendum iam 
+            habi<lb ed="#V" n="38" break="no"/>tam.
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e272">
+            ¶ Ad secundum dicendum: quod illa peccata venialia in quibus 
+            <lb ed="#V" n="39"/>voluntas remanet habitualiter: non comprehenduntur sub 
+            gene<lb ed="#V" n="40" break="no"/>rali contritione: et ideo neque per illam: neque per generalem 
+            confessio<lb ed="#V" n="41" break="no"/>nem remittuntur: sed tantum illa que voluntati displiceret: si ad 
+            <lb ed="#V" n="42"/>memoriam hominis in speciali reducerentur.
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e283">
+            ¶ Ad tertium 
+            dicen<lb ed="#V" n="43" break="no"/>dum: quod non fuit intentio beati Io. negare hominem posse ese 
+            <lb ed="#V" n="44"/>sine omni peccato per aliquod momentum temporis: sed quod 
+            <lb ed="#V" n="45"/>ista vita sine peccato transigi non potest: nec homo sine 
+            ali<lb ed="#V" n="46" break="no"/>quo peccato diu manere de lege communi.
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e295">
+            ¶ Primum 
+            ar<lb ed="#V" n="47" break="no"/>gumentum ad partem aliam quamuis gratia conclusionis possit 
+            con<lb ed="#V" n="48" break="no"/>cedi: tamen ex vi forme non concludit: quia si faciens 
+            confessio<lb ed="#V" n="49" break="no"/>nem generalem de nullo peccato veniali contereretur: nec in 
+            <lb ed="#V" n="50"/>generali nec in speciali: adhuc confessio generalis non fieret 
+            fru<lb ed="#V" n="51" break="no"/>stra: quamuis per eam nullum peccatum remitteretur: quia aliquam 
+            dispo<lb ed="#V" n="52" break="no"/>sitionem faceret in homine ad contritionem. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k82341-Dd1e312">
+          <head xml:id="kzz7yh-k82341-Hd1e314">Quaestio 2</head>
+          <p xml:id="kzz7yh-k82341-d1e316">
+            <lb ed="#V" n="53"/>¶ Ex dictis patet solutio ad quaestionem secundam. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k82341-Dd1e322">
+          <head xml:id="kzz7yh-k82341-Hd1e324">Quaestio 3</head>
+          <p xml:id="kzz7yh-k82341-d1e326">
+            Quaestio III.
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e328">
+            <lb ed="#V" n="54"/>Tertio queritur vtrum per confessionem 
+            ge<lb ed="#V" n="55" break="no"/>neralem deleantur mortalia oblita. Et 
+            <lb ed="#V" n="56"/>videtur quod non: quia homo de sua negligentia non 
+            de<lb ed="#V" n="57" break="no"/>bet commodum reportare: sed si homo purgaretur 
+            <lb ed="#V" n="58"/>a peccatis per suam negligentiam oblitis per generalem 
+            con<lb ed="#V" n="59" break="no"/>fessionem: de sua negligentia commodum reportaret: quia si esset 
+            <lb ed="#V" n="60"/>eorum memor: teneretur illa confiteri in speciali: ergo non 
+            remit<lb ed="#V" n="61" break="no"/>tuntur per confessionem generalem.
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e348">
+            ¶ Item per ea non 
+            <lb ed="#V" n="62"/>remittuntur peccata per ignorantiam commissa: vt patet 
+            <lb ed="#V" n="63"/>in fidelibus: ergo a simili nec oblita. 
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e355">
+            <lb ed="#V" n="64"/>Contra ad quorum peccatorum remissionem non 
+            <lb ed="#V" n="65"/>est necessaria contritio specialis sufficit 
+            con<lb ed="#V" n="66" break="no"/>fessio generalis: sed ad remissionem mortalium oblitorum 
+            <lb ed="#V" n="67"/>non est necessaria contritio specialis: ergo ad hoc sufficit 
+            <lb ed="#V" n="68"/>cum contritione confessio generalis. 
+            <!--00259.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k82341"><!-- l4d21a3 -->
-            <head xml:id="kzz7yh-k82341-Hd1e101">Articulus 3</head>
-            <p xml:id="kzz7yh-k82341-d1e103">
-    Distin. III
-  </p>
-            <p xml:id="kzz7yh-k82341-d1e105">
-               <lb ed="#V" n="120"/>Consequenter queritur de tertio 
-      <lb ed="#V" n="121"/>principali.
-   </p>
-            <p xml:id="kzz7yh-k82341-d1e112">
-      ¶ Et 
-      <lb ed="#V" n="122"/>circa hoc queruntur quatuor.
-   </p>
-            <p xml:id="kzz7yh-k82341-d1e117">
-      ¶ Primo vtrum 
-      <lb ed="#V" n="123"/>per confessionem generalem deleantur peccata 
-      <lb ed="#V" n="124"/>venialia.
-   </p>
-            <p xml:id="kzz7yh-k82341-d1e125">
-      ¶ Secundo vtrum illa confessio sit sacramentum. 
-   </p>
-            <p xml:id="kzz7yh-k82341-d1e127">
-               <lb ed="#V" n="125"/>¶ Tertio vtrum mortalia oblita deleantur per illam 
-      con<lb ed="#V" n="126" break="no"/>fessionem.
-   </p>
-            <p xml:id="kzz7yh-k82341-d1e134">
-      ¶ Quarto vtrum peccet confitens confitendo 
-      pec<lb ed="#V" n="127" break="no"/>cata que non fecit. 
-   </p>
-            <div xml:id="kzz7yh-k82341-Dd1e139">
-               <head xml:id="kzz7yh-k82341-Hd1e141">Quaestio 1</head>
-               <p xml:id="kzz7yh-k82341-d1e143">
-    Questio I 
-  </p>
-               <p xml:id="kzz7yh-k82341-d1e145">
-                  <lb ed="#V" n="128"/>PRimo ostendo quod per confessionem naturalem non 
-      <lb ed="#V" n="129"/>delentur peccata venialia: sine generali 
-      <lb ed="#V" n="130"/>confessione possunt venialia remitti per contritionem: et 
-      si<lb ed="#V" n="131" break="no"/>ne contritione non possunt remitti per generalem confessionem: 
-      <lb ed="#V" n="132"/>ergo non remittuntur per generalem confessionem: sed per contritionem.
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e158">
-      ¶ Item 
-      <lb ed="#V" n="133"/>quandoque aliqua peccata venialia per generalem contritionem non remittuntur: 
-      <lb ed="#V" n="134"/>vt sunt illa in quibus remanet voluntas habitualiter: sed ad 
-      re<lb ed="#V" n="135" break="no"/>missionem venialium plus valet generalis contritio quam generalis 
-      con<lb ed="#V" n="136" break="no"/>fessio: ergo sunt aliqua peccata venialia quae per generalem confessionem 
-      <!--00259.xml-->
-      <pb ed="#V" n="114-r"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>non remittuntur.
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e178">
-      ¶ Item Io. in primam cano. c. I. Si 
-      di<lb ed="#V" n="2" break="no"/>xerimus quod peccatum non habemus nos ipsos seducimus: 
-      <lb ed="#V" n="3"/>et veritas in nobis non est: cum ergo multi faciant 
-      con<lb ed="#V" n="4" break="no"/>fessionem generalem mortalibus carentes: si per illam 
-      con<lb ed="#V" n="5" break="no"/>fessionem remitterentur venialia: tales omni peccato care 
-      <lb ed="#V" n="6"/>rent: ergo per eam venialia non remittuntur. 
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e192">
-                  <lb ed="#V" n="7"/>Contra si per eam non remittuntur venialia multo 
-      mi<lb ed="#V" n="8" break="no"/>nus mortalia: ergo frustra fieret cum per eam 
-      <lb ed="#V" n="9"/>nullum peccantum remitteretur.
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e201">
-      ¶ Item potentior videtur ad remissionem 
-      <lb ed="#V" n="10"/>peccatorum venialium gnaturalis confessio: quam aspersio aqua bedicte: 
-      <lb ed="#V" n="11"/>vel epistalis bedictio: sed peccata venialia dicuntur remitti per 
-      <lb ed="#V" n="12"/>aspersionem aquae bedicte. de consecr. di. 3. Aquam. et per 
-      episco<lb ed="#V" n="13" break="no"/>palem bedictionem. Unde decre. di. 28 Presbyterum: bedi 
-      <lb ed="#V" n="14"/>ctio sacerdotis sanctificationis traditio est: ergo multo 
-      for<lb ed="#V" n="15" break="no"/>tius per generalem confessionem. 
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e217">
-                  <lb ed="#V" n="16"/>Respondeo quod duplex est generalis confessio: quedam 
-      <lb ed="#V" n="17"/>sacramentalis quae sit sacerdoti in 
-      oc<lb ed="#V" n="18" break="no"/>culto: quaedam non sacramentalis que sit in prima et 
-      comple<lb ed="#V" n="19" break="no"/>torio in publico. Prima est cum homo de peccatis venialibus 
-      <lb ed="#V" n="20"/>sacerdoti confitetur in occulto de generibus singulorum: et non 
-      <lb ed="#V" n="21"/>de singulis generum: et per hanc remittuntur venialia: et per 
-      mo<lb ed="#V" n="22" break="no"/>dum meriti inquantum excitat motum voluntatis: et feruo 
-      <lb ed="#V" n="23"/>rem charitatis: per quae sit venialium remissio: et ex vi sacramentilicet 
-      <lb ed="#V" n="24"/>per absolutionem sacerdotis: per aliam autem non fit venialium 
-      <lb ed="#V" n="25"/>remissio ex vi sacramenti: sed tantummodo per modum meriti: quod 
-      <lb ed="#V" n="26"/>principaliter consistit in contritione ad quam habendam 
-      iuua<lb ed="#V" n="27" break="no"/>tur homo per confessionem generalem et orationem 
-      sacer<lb ed="#V" n="28" break="no"/>dotalem. Ratio autem quare ad remissionem venialium 
-      <lb ed="#V" n="29"/>non est necessaria contritio specialis: nec confessio est: quia 
-      <lb ed="#V" n="30"/>non auertunt a deo: et simul stant cum charitate: quod 
-      <lb ed="#V" n="31"/>de mortalibus dici non potest. 
-    </p>
-               <p xml:id="kzz7yh-k82341-d1e254">
-                  <lb ed="#V" n="32"/>Ad primum in oppositum dicendum: quod non plus 
-      <lb ed="#V" n="33"/>concludit nisi quod principalius 
-      remit<lb ed="#V" n="34" break="no"/>tuntur per contritionem quam per generalem confessionem: et quod 
-      <lb ed="#V" n="35"/>sine generali vel speciali contritione remiti non possunt per 
-      gene<lb ed="#V" n="36" break="no"/>ralem confessionem: et hoc est verum: generalis tamen confessio iuuat 
-      <lb ed="#V" n="37"/>ad illam contritionem habendam: et ad augendum iam 
-      habi<lb ed="#V" n="38" break="no"/>tam.
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e272">
-      ¶ Ad secundum dicendum: quod illa peccata venialia in quibus 
-      <lb ed="#V" n="39"/>voluntas remanet habitualiter: non comprehenduntur sub 
-      gene<lb ed="#V" n="40" break="no"/>rali contritione: et ideo neque per illam: neque per generalem 
-      confessio<lb ed="#V" n="41" break="no"/>nem remittuntur: sed tantum illa que voluntati displiceret: si ad 
-      <lb ed="#V" n="42"/>memoriam hominis in speciali reducerentur.
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e283">
-      ¶ Ad tertium 
-      dicen<lb ed="#V" n="43" break="no"/>dum: quod non fuit intentio beati Io. negare hominem posse ese 
-      <lb ed="#V" n="44"/>sine omni peccato per aliquod momentum temporis: sed quod 
-      <lb ed="#V" n="45"/>ista vita sine peccato transigi non potest: nec homo sine 
-      ali<lb ed="#V" n="46" break="no"/>quo peccato diu manere de lege communi.
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e295">
-      ¶ Primum 
-      ar<lb ed="#V" n="47" break="no"/>gumentum ad partem aliam quamuis gratia conclusionis possit 
-      con<lb ed="#V" n="48" break="no"/>cedi: tamen ex vi forme non concludit: quia si faciens 
-      confessio<lb ed="#V" n="49" break="no"/>nem generalem de nullo peccato veniali contereretur: nec in 
-      <lb ed="#V" n="50"/>generali nec in speciali: adhuc confessio generalis non fieret 
-      fru<lb ed="#V" n="51" break="no"/>stra: quamuis per eam nullum peccatum remitteretur: quia aliquam 
-      dispo<lb ed="#V" n="52" break="no"/>sitionem faceret in homine ad contritionem. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k82341-Dd1e312">
-               <head xml:id="kzz7yh-k82341-Hd1e314">Quaestio 2</head>
-               <p xml:id="kzz7yh-k82341-d1e316">
-                  <lb ed="#V" n="53"/>¶ Ex dictis patet solutio ad quaestionem secundam. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k82341-Dd1e322">
-               <head xml:id="kzz7yh-k82341-Hd1e324">Quaestio 3</head>
-               <p xml:id="kzz7yh-k82341-d1e326">
-      Quaestio III.
-    </p>
-               <p xml:id="kzz7yh-k82341-d1e328">
-                  <lb ed="#V" n="54"/>Tertio queritur vtrum per confessionem 
-      ge<lb ed="#V" n="55" break="no"/>neralem deleantur mortalia oblita. Et 
-      <lb ed="#V" n="56"/>videtur quod non: quia homo de sua negligentia non 
-      de<lb ed="#V" n="57" break="no"/>bet commodum reportare: sed si homo purgaretur 
-      <lb ed="#V" n="58"/>a peccatis per suam negligentiam oblitis per generalem 
-      con<lb ed="#V" n="59" break="no"/>fessionem: de sua negligentia commodum reportaret: quia si esset 
-      <lb ed="#V" n="60"/>eorum memor: teneretur illa confiteri in speciali: ergo non 
-      remit<lb ed="#V" n="61" break="no"/>tuntur per confessionem generalem.
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e348">
-      ¶ Item per ea non 
-      <lb ed="#V" n="62"/>remittuntur peccata per ignorantiam commissa: vt patet 
-      <lb ed="#V" n="63"/>in fidelibus: ergo a simili nec oblita. 
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e355">
-                  <lb ed="#V" n="64"/>Contra ad quorum peccatorum remissionem non 
-      <lb ed="#V" n="65"/>est necessaria contritio specialis sufficit 
-      con<lb ed="#V" n="66" break="no"/>fessio generalis: sed ad remissionem mortalium oblitorum 
-      <lb ed="#V" n="67"/>non est necessaria contritio specialis: ergo ad hoc sufficit 
-      <lb ed="#V" n="68"/>cum contritione confessio generalis. 
-      <!--00259.xml-->
-      <cb ed="#V" n="b"/>
-               </p>
-               <p xml:id="kzz7yh-k82341-d1e374">
-                  <lb ed="#V" n="69"/>Respondeo quod per confessionem generalem cum 
-      <lb ed="#V" n="70"/>generali contritione remittuntur 
-      <lb ed="#V" n="71"/>mortalia oblita: deus enim ab homine non requirit vltra 
-      il<lb ed="#V" n="72" break="no"/>lud quod potest: de oblitis autem quamdiu oblita sunt: homo in 
-      <lb ed="#V" n="73"/>speciali non potest conteri: neque confiteri: tenetur tamen homo 
-      <lb ed="#V" n="74"/>facere quod in se est secundum quod humana patitur fragilitas: vt 
-      om<lb ed="#V" n="75" break="no"/>nia sua peccata mortalia ad memoriam in speciali 
-      reuo<lb ed="#V" n="76" break="no"/>cet: et si de oblitis postea memor fuerit: tenetur postea in 
-      <lb ed="#V" n="77"/>speciali conteri: et confiteri. Nec intelligendum est quod ad 
-      re<lb ed="#V" n="78" break="no"/>missionem mortalium oblitorum sufficiat generalis confessio: 
-      <lb ed="#V" n="79"/>non sacramentalis: si homo habeat copiam sacerdotis et 
-      fa<lb ed="#V" n="80" break="no"/>cultatem confitendi: quia his habitis tenetur de mortalibus oblitis 
-      <lb ed="#V" n="81"/>generaliter confiteri: et a sacerdote recipere absolutionem. 
-    </p>
-               <p xml:id="kzz7yh-k82341-d1e405">
-                  <lb ed="#V" n="82"/>Ad primum in oppositum dicendum: quod si 
-      homo<lb ed="#V" n="83" break="no"/>per suam negligentiam aliqua 
-      pecca<lb ed="#V" n="84" break="no"/>ta mortalia tradit obliuioni: non reportat ex hoc 
-      commo<lb ed="#V" n="85" break="no"/>dum: quia illa negligentia sibi imputatur in peccatum: et si de illis 
-      <lb ed="#V" n="86"/>in speciali confiteretur facilius obtineret remissionem: et 
-      maio<lb ed="#V" n="87" break="no"/>ris partis pene relaxationem.
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e421">
-      ¶ Ad secundum dicendum: quod non 
-      <lb ed="#V" n="88"/>est simile: quia magis est inuincibilis ignorantia facti: quam 
-      igno<lb ed="#V" n="89" break="no"/>rantia iuris: quia aliquid iuris potest homo ab alio 
-      requi<lb ed="#V" n="90" break="no"/>rere: quod de suo facto secreto non potest: vtraque tamen 
-      igno<lb ed="#V" n="91" break="no"/>rantia si simpliciter inuincibilis esset hominem a peccato 
-      <lb ed="#V" n="92"/>totaliter excusaret. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k82341-Dd1e436">
-               <head xml:id="kzz7yh-k82341-Hd1e438">Quaestio 4</head>
-               <p xml:id="kzz7yh-k82341-d1e440">
-      Questio. IIII
-    </p>
-               <p xml:id="kzz7yh-k82341-d1e442">
-                  <lb ed="#V" n="93"/>QUarto queritur vtrum peccet confitens 
-      con<lb ed="#V" n="94" break="no"/>fitendo peccata quae non fecit. Et 
-      vide<lb ed="#V" n="95" break="no"/>tur quod non. decre. di. 5. Ad eius. Bonarum 
-      mem<lb ed="#V" n="96" break="no"/>tium est ibi culpas suas cognoscere: vbi 
-      cul<lb ed="#V" n="97" break="no"/>pa non est.
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e455">
-      ¶ Item sine peccato potest homo 
-      satisface<lb ed="#V" n="98" break="no"/>re pro peccato quod non fecit: vt superius habitum est: 
-      <lb ed="#V" n="99"/>ergo a simili et confiteri de peccato quod non fecit. 
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e462">
-                  <lb ed="#V" n="100"/>Contrarium tenet magister huius di. c. penul. 
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e468">
-                  <lb ed="#V" n="101"/>¶ Item Aug. primo libro de ci. c. 21. 
-      <lb ed="#V" n="102"/>Falsi testimonii: non minus reus est qui de seipso falsum 
-      <lb ed="#V" n="103"/>fatetur: quam si aduersus proximum hoc faceret. 
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e477">
-                  <lb ed="#V" n="104"/>Respondeo quod confitens se fecisse peccatum quod non 
-      fe<lb ed="#V" n="105" break="no"/>cit: dupliciter peccat: tum quia conscientiam suam 
-      <lb ed="#V" n="106"/>in hoc sacerdoti non manifestat: sed magis occultat: tum quia 
-      <lb ed="#V" n="107"/>mentitur: quod sine peccato esse non potest. Unde magister huiu 
-      <lb ed="#V" n="108"/>dist. c. penul. et est. 22. q. 2. Cum humilitatis. Cum 
-      humi<lb ed="#V" n="109" break="no"/>litatis causa mentiris: si non eras peccator antequam 
-      menti<lb ed="#V" n="110" break="no"/>reris: mentiendo efficeris quod euitaueras. 
-    </p>
-               <p xml:id="kzz7yh-k82341-d1e495">
-                  <lb ed="#V" n="111"/>Ad primum in oppositum dicendum: quod ibi debet 
-      <lb ed="#V" n="112"/>accipi cognoscere pro formidare: 
-      <lb ed="#V" n="113"/>iuxta illud Iob. 9. Uerebar omnia opera mea.
-   </p>
-               <p xml:id="kzz7yh-k82341-d1e504">
-      ¶ Ad 
-      se<lb ed="#V" n="114" break="no"/>cundum dicendum: quod non est simile quia satisfacere pro 
-      pecca<lb ed="#V" n="115" break="no"/>to alterius est consonum charitati: sed quod homo confiteatur se fecisse 
-      <lb ed="#V" n="116"/>peccatum quod non fecit: est contrarium veritati. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e374">
+            <lb ed="#V" n="69"/>Respondeo quod per confessionem generalem cum 
+            <lb ed="#V" n="70"/>generali contritione remittuntur 
+            <lb ed="#V" n="71"/>mortalia oblita: deus enim ab homine non requirit vltra 
+            il<lb ed="#V" n="72" break="no"/>lud quod potest: de oblitis autem quamdiu oblita sunt: homo in 
+            <lb ed="#V" n="73"/>speciali non potest conteri: neque confiteri: tenetur tamen homo 
+            <lb ed="#V" n="74"/>facere quod in se est secundum quod humana patitur fragilitas: vt 
+            om<lb ed="#V" n="75" break="no"/>nia sua peccata mortalia ad memoriam in speciali 
+            reuo<lb ed="#V" n="76" break="no"/>cet: et si de oblitis postea memor fuerit: tenetur postea in 
+            <lb ed="#V" n="77"/>speciali conteri: et confiteri. Nec intelligendum est quod ad 
+            re<lb ed="#V" n="78" break="no"/>missionem mortalium oblitorum sufficiat generalis confessio: 
+            <lb ed="#V" n="79"/>non sacramentalis: si homo habeat copiam sacerdotis et 
+            fa<lb ed="#V" n="80" break="no"/>cultatem confitendi: quia his habitis tenetur de mortalibus oblitis 
+            <lb ed="#V" n="81"/>generaliter confiteri: et a sacerdote recipere absolutionem. 
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e405">
+            <lb ed="#V" n="82"/>Ad primum in oppositum dicendum: quod si 
+            homo<lb ed="#V" n="83" break="no"/>per suam negligentiam aliqua 
+            pecca<lb ed="#V" n="84" break="no"/>ta mortalia tradit obliuioni: non reportat ex hoc 
+            commo<lb ed="#V" n="85" break="no"/>dum: quia illa negligentia sibi imputatur in peccatum: et si de illis 
+            <lb ed="#V" n="86"/>in speciali confiteretur facilius obtineret remissionem: et 
+            maio<lb ed="#V" n="87" break="no"/>ris partis pene relaxationem.
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e421">
+            ¶ Ad secundum dicendum: quod non 
+            <lb ed="#V" n="88"/>est simile: quia magis est inuincibilis ignorantia facti: quam 
+            igno<lb ed="#V" n="89" break="no"/>rantia iuris: quia aliquid iuris potest homo ab alio 
+            requi<lb ed="#V" n="90" break="no"/>rere: quod de suo facto secreto non potest: vtraque tamen 
+            igno<lb ed="#V" n="91" break="no"/>rantia si simpliciter inuincibilis esset hominem a peccato 
+            <lb ed="#V" n="92"/>totaliter excusaret. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k82341-Dd1e436">
+          <head xml:id="kzz7yh-k82341-Hd1e438">Quaestio 4</head>
+          <p xml:id="kzz7yh-k82341-d1e440">
+            Questio. IIII
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e442">
+            <lb ed="#V" n="93"/>QUarto queritur vtrum peccet confitens 
+            con<lb ed="#V" n="94" break="no"/>fitendo peccata quae non fecit. Et 
+            vide<lb ed="#V" n="95" break="no"/>tur quod non. decre. di. 5. Ad eius. Bonarum 
+            mem<lb ed="#V" n="96" break="no"/>tium est ibi culpas suas cognoscere: vbi 
+            cul<lb ed="#V" n="97" break="no"/>pa non est.
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e455">
+            ¶ Item sine peccato potest homo 
+            satisface<lb ed="#V" n="98" break="no"/>re pro peccato quod non fecit: vt superius habitum est: 
+            <lb ed="#V" n="99"/>ergo a simili et confiteri de peccato quod non fecit. 
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e462">
+            <lb ed="#V" n="100"/>Contrarium tenet magister huius di. c. penul. 
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e468">
+            <lb ed="#V" n="101"/>¶ Item Aug. primo libro de ci. c. 21. 
+            <lb ed="#V" n="102"/>Falsi testimonii: non minus reus est qui de seipso falsum 
+            <lb ed="#V" n="103"/>fatetur: quam si aduersus proximum hoc faceret. 
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e477">
+            <lb ed="#V" n="104"/>Respondeo quod confitens se fecisse peccatum quod non 
+            fe<lb ed="#V" n="105" break="no"/>cit: dupliciter peccat: tum quia conscientiam suam 
+            <lb ed="#V" n="106"/>in hoc sacerdoti non manifestat: sed magis occultat: tum quia 
+            <lb ed="#V" n="107"/>mentitur: quod sine peccato esse non potest. Unde magister huiu 
+            <lb ed="#V" n="108"/>dist. c. penul. et est. 22. q. 2. Cum humilitatis. Cum 
+            humi<lb ed="#V" n="109" break="no"/>litatis causa mentiris: si non eras peccator antequam 
+            menti<lb ed="#V" n="110" break="no"/>reris: mentiendo efficeris quod euitaueras. 
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e495">
+            <lb ed="#V" n="111"/>Ad primum in oppositum dicendum: quod ibi debet 
+            <lb ed="#V" n="112"/>accipi cognoscere pro formidare: 
+            <lb ed="#V" n="113"/>iuxta illud Iob. 9. Uerebar omnia opera mea.
+          </p>
+          <p xml:id="kzz7yh-k82341-d1e504">
+            ¶ Ad 
+            se<lb ed="#V" n="114" break="no"/>cundum dicendum: quod non est simile quia satisfacere pro 
+            pecca<lb ed="#V" n="115" break="no"/>to alterius est consonum charitati: sed quod homo confiteatur se fecisse 
+            <lb ed="#V" n="116"/>peccatum quod non fecit: est contrarium veritati. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

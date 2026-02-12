@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="77-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f55355"><!-- l2d18cl -->
-            <head xml:id="kzz7yh-f55355-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-f55355-d1e103">
-               <lb ed="#V" n="3"/>CIrca litteram. Post vniuersa 
-      anima<lb ed="#V" n="4" break="no"/>lia ad eum ducta: quod 
-      <lb ed="#V" n="5"/>intelligi potest factum angelico. ministerio: siue ante adam 
-      <lb ed="#V" n="6"/>fuerit adducta spiritualiter seu imaginabiliter vel potius secundum 
-      <lb ed="#V" n="7"/>potentiam corporalem et localem: sicut et adducta fuit 
-      <lb ed="#V" n="8"/>ad eum mulier: vt nullam in eo sensisse penam: monstraretur. 
-      Scien<lb ed="#V" n="9" break="no"/>dum tamen quod cum diuisio continui naturaliter causet dolorem in re: quae 
-      <lb ed="#V" n="10"/>doloris capax est: adam in abstractione coste doluisset nisi 
-      fu<lb ed="#V" n="11" break="no"/>isset vis contemplationis anime: quae ita totaliter erat ad deum 
-      recolle<lb ed="#V" n="12" break="no"/>cta et intenta quod sensum doloris prohibuit vel nisi fuisset 
-      dolor<lb ed="#V" n="13" break="no"/>per diuinam posium supernaturaliter prohibitus: et hanc causam maxime videtur 
-      ap<lb ed="#V" n="14" break="no"/>probare magister in littera cum dic quod in hoc fiacto fuit probatum divinae 
-      po<lb ed="#V" n="15" break="no"/>tentie mirabile opsimus. Cum angelorum ministerio facta sit mulieris 
-      <lb ed="#V" n="16"/>formatio potest enim dici quod angeli exhibuerunt ministerium: vel 
-      <lb ed="#V" n="17"/>ipsum adam soporando secundum aliquos vel ipsam costam abstrahendo secundum 
-      <lb ed="#V" n="18"/>alios non supplendo illud quod deerat ad perfectam muliebris 
-      cor<lb ed="#V" n="19" break="no"/>poris quantitatem: nec corpus mulieris formando. Unde Augu. 9. 
-      <lb ed="#V" n="20"/>super Gen. inter medium et finem. Aliter quaeritur quemadmodum sit 
-      so<lb ed="#V" n="21" break="no"/>poratus adam costaque eius sine vllo doloris sensu a corporis 
-      compa<lb ed="#V" n="22" break="no"/>ge detracta sit: hoc enim fortasse dicantur potuisse per angelos fieri. 
-      <lb ed="#V" n="23"/>formare autem vel edificare costam vt mulier esset: vsque adeo 
-      <lb ed="#V" n="24"/>non potuit nisi deus a quo vniuersa natura subsistit vt ne 
-      il<lb ed="#V" n="25" break="no"/>lud carnis supplementum in corpore viri quod in illius coste 
-      succes<lb ed="#V" n="26" break="no"/>sit locum ab angelis factum esse crediderim. Sic nec ipsum hominem de 
-      <lb ed="#V" n="27"/>terre puluem. Et aliquibus interpositis non multum postea sic etiam 
-      <lb ed="#V" n="28"/>ait. Certissime dixerim supplementum illud carnis in coste 
-      lo<lb ed="#V" n="29" break="no"/>cum: et ipsius feine corpus et animam formationemque membrorum omnia visce 
-      <lb ed="#V" n="30"/>ra sensus omnes: et quicquid erat quo illa et creatura et homo et femina 
-      <lb ed="#V" n="31"/>erat non nisi illo opere dei saecntum: quod deus non per angelos: sed per semet 
-      <lb ed="#V" n="32"/>ipsum operatus est. Non quod nil agant vt aliquid creetur ibi potest 
-      accipi<lb ed="#V" n="33" break="no"/>creari pro produci: quod patet per hoc quod subiungitur: sed non ideo creatores 
-      <lb ed="#V" n="34"/>sunt: sicut nec agricole segetum aut arborum: sed dicimus 
-      corp<lb ed="#V" n="35" break="no"/>tantum per coniugii copulam seminari ibi loquitur de seinatione corporis per 
-      mo<lb ed="#V" n="36" break="no"/>dum licitum: quia sine coniugio per modu illicitum seminatur. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="77-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f55355"><!-- l2d18cl -->
+        <head xml:id="kzz7yh-f55355-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-f55355-d1e103">
+          <lb ed="#V" n="3"/>CIrca litteram. Post vniuersa 
+          anima<lb ed="#V" n="4" break="no"/>lia ad eum ducta: quod 
+          <lb ed="#V" n="5"/>intelligi potest factum angelico. ministerio: siue ante adam 
+          <lb ed="#V" n="6"/>fuerit adducta spiritualiter seu imaginabiliter vel potius secundum 
+          <lb ed="#V" n="7"/>potentiam corporalem et localem: sicut et adducta fuit 
+          <lb ed="#V" n="8"/>ad eum mulier: vt nullam in eo sensisse penam: monstraretur. 
+          Scien<lb ed="#V" n="9" break="no"/>dum tamen quod cum diuisio continui naturaliter causet dolorem in re: quae 
+          <lb ed="#V" n="10"/>doloris capax est: adam in abstractione coste doluisset nisi 
+          fu<lb ed="#V" n="11" break="no"/>isset vis contemplationis anime: quae ita totaliter erat ad deum 
+          recolle<lb ed="#V" n="12" break="no"/>cta et intenta quod sensum doloris prohibuit vel nisi fuisset 
+          dolor<lb ed="#V" n="13" break="no"/>per diuinam posium supernaturaliter prohibitus: et hanc causam maxime videtur 
+          ap<lb ed="#V" n="14" break="no"/>probare magister in littera cum dic quod in hoc fiacto fuit probatum divinae 
+          po<lb ed="#V" n="15" break="no"/>tentie mirabile opsimus. Cum angelorum ministerio facta sit mulieris 
+          <lb ed="#V" n="16"/>formatio potest enim dici quod angeli exhibuerunt ministerium: vel 
+          <lb ed="#V" n="17"/>ipsum adam soporando secundum aliquos vel ipsam costam abstrahendo secundum 
+          <lb ed="#V" n="18"/>alios non supplendo illud quod deerat ad perfectam muliebris 
+          cor<lb ed="#V" n="19" break="no"/>poris quantitatem: nec corpus mulieris formando. Unde Augu. 9. 
+          <lb ed="#V" n="20"/>super Gen. inter medium et finem. Aliter quaeritur quemadmodum sit 
+          so<lb ed="#V" n="21" break="no"/>poratus adam costaque eius sine vllo doloris sensu a corporis 
+          compa<lb ed="#V" n="22" break="no"/>ge detracta sit: hoc enim fortasse dicantur potuisse per angelos fieri. 
+          <lb ed="#V" n="23"/>formare autem vel edificare costam vt mulier esset: vsque adeo 
+          <lb ed="#V" n="24"/>non potuit nisi deus a quo vniuersa natura subsistit vt ne 
+          il<lb ed="#V" n="25" break="no"/>lud carnis supplementum in corpore viri quod in illius coste 
+          succes<lb ed="#V" n="26" break="no"/>sit locum ab angelis factum esse crediderim. Sic nec ipsum hominem de 
+          <lb ed="#V" n="27"/>terre puluem. Et aliquibus interpositis non multum postea sic etiam 
+          <lb ed="#V" n="28"/>ait. Certissime dixerim supplementum illud carnis in coste 
+          lo<lb ed="#V" n="29" break="no"/>cum: et ipsius feine corpus et animam formationemque membrorum omnia visce 
+          <lb ed="#V" n="30"/>ra sensus omnes: et quicquid erat quo illa et creatura et homo et femina 
+          <lb ed="#V" n="31"/>erat non nisi illo opere dei saecntum: quod deus non per angelos: sed per semet 
+          <lb ed="#V" n="32"/>ipsum operatus est. Non quod nil agant vt aliquid creetur ibi potest 
+          accipi<lb ed="#V" n="33" break="no"/>creari pro produci: quod patet per hoc quod subiungitur: sed non ideo creatores 
+          <lb ed="#V" n="34"/>sunt: sicut nec agricole segetum aut arborum: sed dicimus 
+          corp<lb ed="#V" n="35" break="no"/>tantum per coniugii copulam seminari ibi loquitur de seinatione corporis per 
+          mo<lb ed="#V" n="36" break="no"/>dum licitum: quia sine coniugio per modu illicitum seminatur. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

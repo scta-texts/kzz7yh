@@ -1,460 +1,460 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="63-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f45065"><!-- l2d15a1 -->
-            <head xml:id="kzz7yh-f45065-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-f45065-d1e103">
-               <lb ed="#V" n="17"/>¶ Circa primum queruntur duo.
-   </p>
-            <p xml:id="kzz7yh-f45065-d1e108">
-      ¶ Primo vtrum corpora 
-      <lb ed="#V" n="18"/>animalium ita sint composita ex quatuor elementis: quod vere 
-      <lb ed="#V" n="19"/>ibi maneant essentie formarum elementarium incomplete. 
-   </p>
-            <p xml:id="kzz7yh-f45065-d1e115">
-               <lb ed="#V" n="20"/>¶ Secundo vtrum in corporibus animalium elementa 
-      acti<lb ed="#V" n="21" break="no"/>ua predominentur passiuis.
-   </p>
-            <div xml:id="kzz7yh-f45065-Dd1e122">
-               <head xml:id="kzz7yh-f45065-Hd1e124">Quaestio 1</head>
-               <head xml:id="kzz7yh-f45065-Hd1e128" type="question-title">Utrum corpora animalium ita sint composita ex quatuor elementis quod vere ibi maneant essentie formarum elementarium incomplete</head>
-               <!--Check my question header please-->
-               <p xml:id="kzz7yh-f45065-d1e126">
-      ¶ Questio. I. 
-      <lb ed="#V" n="22"/>PRimo ostendo quod in corporibus 
-      <lb ed="#V" n="23"/>animalium non 
-      <lb ed="#V" n="24"/>manent essentie formarum elementarium nec 
-      comple<lb ed="#V" n="25" break="no"/>te nec incomplete: quia secundum <ref xml:id="kzz7yh-f45065-Rd1e143">philosophum i. de generatione.</ref> 
-      <lb ed="#V" n="26"/>quelibet pars mixti est mixta. Sed duo corpora siue 
-      com<lb ed="#V" n="27" break="no"/>pleta siue incompleta non possunt naturaliter simul esse: ergo 
-      <lb ed="#V" n="28"/>si esset mixtio ita non remanerent ibi elementa secundum essentias 
-      <lb ed="#V" n="29"/>suas: quelibet pars mixti non posset mixta esse.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e146">
-      ¶ Item 
-      <lb ed="#V" n="30"/>ita sunt composita corpora animalium ex elementis sicut 
-      me<lb ed="#V" n="31" break="no"/>dii colores ex extremis. Sed in medio colore non sunt 
-      me<lb ed="#V" n="32" break="no"/>dii colores secundum essentias suas nec completas nec 
-      incomple<lb ed="#V" n="33" break="no"/>tas: quia ita simplex qualitas est medius color: sicut 
-      extre<lb ed="#V" n="34" break="no"/>mus: ergo similiter in corporibus animalium non manent forme 
-      elemen<lb ed="#V" n="35" break="no"/>tares secundum essentias suas: nec completas nec incompletas. 
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e162">
-                  <lb ed="#V" n="36"/>¶ Item corpora animalium naturaliter generantur. Sed ignis 
-      <lb ed="#V" n="37"/>de spera sua ad inferiora naturaliter non descendit. ergo in 
-      cor<lb ed="#V" n="38" break="no"/>poribus animalium non est essentia ignis neque completa neque 
-      <lb ed="#V" n="39"/>incompleta.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e173">
-      ¶ Item caliditas ignea adurit: caliditas que est 
-      <lb ed="#V" n="40"/>in corporibus animalium naturaliter digerit: ergo caliditas quae 
-      <lb ed="#V" n="41"/>est in corporibus animalium non est ignea. 
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e181">
-                  <lb ed="#V" n="42"/>Contra philosophus in fine primi de generatione. mixtio est 
-      <lb ed="#V" n="43"/>miscibilium alteratorum vnio. ergo videtur quod 
-      <lb ed="#V" n="44"/>in mixtione elementa alterantur et vniuntur: et sic in 
-      mixto<lb ed="#V" n="45" break="no"/>remanent secundum suas essentias incompletas.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e192">
-      ¶ Item philosophus. 2. celi 
-      <lb ed="#V" n="46"/>et mundi. loquens de animalibus dicit: quod ipsa generantur ex 
-      re<lb ed="#V" n="47" break="no"/>bus contrariis diuersorum locorum: et non est aliqua pars anima. 
-      <lb ed="#V" n="48"/>lis in loco suo: quapropter sit: quod animal veterascit et 
-      fini<lb ed="#V" n="49" break="no"/>tur velociter. Hec autem vera non essent nisi elementa secundum 
-      su<lb ed="#V" n="50" break="no"/>as essentias incompletas remanerent in mixto.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e205">
-      ¶ Item Aui. 
-      <lb ed="#V" n="51"/>lib. 4. de animalibus. cap. de complexione in vniversali. Complexio 
-      <lb ed="#V" n="52"/>est res accidens ex contrariarum qualitatum operatione in 
-      par<lb ed="#V" n="53" break="no"/>ticulis minimis: et diuidentibus se adinuicem et tunc in eis 
-      <lb ed="#V" n="54"/>accidit vna qualitas que dicitur complexio. Sed ille 
-      qualita<lb ed="#V" n="55" break="no"/>tes non separantur a substantialibus formis: ergo in corporibus 
-      <lb ed="#V" n="56"/>animalium: cum sint complexionata sunt essentie elementorum 
-      <lb ed="#V" n="57"/>incomplete: in quibus radicantur ille contrarie qualitates: que 
-      <lb ed="#V" n="58"/>sunt caliditas: frigiditas: humiditas: et ficcitas.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e225">
-      ¶ Item 
-      <lb ed="#V" n="59"/>philosophus libro de sensu et sensato. vltra quod color sit in 
-      extremita<lb ed="#V" n="60" break="no"/>te perspicui terminati. ergo omne corpus coloratum est 
-      <lb ed="#V" n="61"/>compositum ex corpore perspicuo et opaco: quia terminatio 
-      per<lb ed="#V" n="62" break="no"/>spicui est per opacum. 
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e236">
-                  <lb ed="#V" n="63"/>Ad istam quaestionem dicunt quidam quod in 
-      corpo<lb ed="#V" n="64" break="no"/>ribus animalium sunt 
-      for<lb ed="#V" n="65" break="no"/>me substantiales elementorum secundum suas essentias incompletas 
-      <lb ed="#V" n="66"/>et haec opinio multas auctoritates habet pro se: quarum alique sunt 
-      <lb ed="#V" n="67"/>in opponendo allegate. Dicit etiam Damas. lib. 3. cap. 16 quod 
-      <lb ed="#V" n="68"/>necesse est difftere hominem ex quinque ad minus compositum esse 
-      <!--00139.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>naturis id est quatuor elementis et anima. Philosophus etiam 2. de 
-      ge<lb ed="#V" n="70" break="no"/>neratione. probat omnia corpora mixta esse composita ex 
-      qua<lb ed="#V" n="71" break="no"/>tuor elementis. Dico enim sic. Omnia mixta corpora 
-      quecun<lb ed="#V" n="72" break="no"/>que circa medium locum sunt: sunt ex omnibus composita 
-      sim<lb ed="#V" n="73" break="no"/>plicibus: terra quidem inest omnibus: quia vnumquodque 
-      ma<lb ed="#V" n="74" break="no"/>xime est et multum in proprio loco: aqua autem inest: quia oportet 
-      ter<lb ed="#V" n="75" break="no"/>minari compositum. Sola autem est simplicium bene 
-      termina<lb ed="#V" n="76" break="no"/>bile aqua. Amplius et terra sine humido non potest 
-      commora<lb ed="#V" n="77" break="no"/>ri. Sed hoc est quod continet terram scilicet si auferatur ex ipsa omnio 
-      hu<lb ed="#V" n="78" break="no"/>midum decidit vndique terra scilicet in pulueres. igitur et aqua 
-      pro<lb ed="#V" n="79" break="no"/>pter has insit causas: et postea statim probat: quod insunt ignis 
-      <lb ed="#V" n="80"/>et aer: et postea concludendo dicit quod in omni composito 
-      sim<lb ed="#V" n="81" break="no"/>plicia inerunt. Commen. etiam super. 12. meta. dicit: quod 
-      mate<lb ed="#V" n="82" break="no"/>ria prima habet habilitates ad recipiendum primas 
-      contra<lb ed="#V" n="83" break="no"/>rietates scilicet formas quatuor elementorum. Secundo vero habet 
-      <lb ed="#V" n="84"/>potentias consimilium partium mediantibus formis quatuor 
-      <lb ed="#V" n="85"/>elementorum: et ille potentie diuersantur secundum mixtiones 
-      diuer<lb ed="#V" n="86" break="no"/>sorum: quatuor elementorum: ita ex hoc diuersantur forme 
-      gene<lb ed="#V" n="87" break="no"/>rabilium.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e297">
-      ¶ Preterea ad hoc est ratio. In animalibus enim 
-      <lb ed="#V" n="88"/>est principium corruptionis intrinsecum. Unde secundum 
-      doctri<lb ed="#V" n="89" break="no"/>nam medicorum calidum naturale: quod fundatur in humido 
-      <lb ed="#V" n="90"/>radicali continue depascit ipsum humidum: et ipso humido 
-      <lb ed="#V" n="91"/>radicali consumpto destruitur calidum quod in ipso radicabatur: 
-      <lb ed="#V" n="92"/>et sic causatur mors scilicet per destructionem naturalis 
-      humi<lb ed="#V" n="93" break="no"/>di: et naturalis calidi: vnde corpora mortuorum efficiuntur 
-      <lb ed="#V" n="94"/>frigida et sicca. Si autem in corporibus mortuorum non essent 
-      <lb ed="#V" n="95"/>forme elementorum secundum suas essentias incompletas videtur istis 
-      <lb ed="#V" n="96"/>quod in eis non esset principium actiuum corruptionis 
-      intrinse<lb ed="#V" n="97" break="no"/>cum.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e322">
-      ¶ Preterea secundum philosophum. 2. de generatione. ex eisdem 
-      nu<lb ed="#V" n="98" break="no"/>triuntur omnia ex quibus sunt. nos autem videmus: quod ad 
-      nu<lb ed="#V" n="99" break="no"/>trimentum plante ministratur aqua et terra: ergo videtur 
-      <lb ed="#V" n="100"/>quod incompleta forma terre et aque in planta sunt: et pari ratione 
-      <lb ed="#V" n="101"/>in corporibus animalium: et si ibi est forma terre et forma aqua 
-      <lb ed="#V" n="102"/>ibi est forma aeris et ignis: et sic videtur arguere philosophus secundo 
-      <lb ed="#V" n="103"/>de generatione.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e338">
-      ¶ Alii dicunt quod forme elementares secndum suas 
-      <lb ed="#V" n="104"/>essentias nullo modo sunt in mixto: quia cum quelibet pars 
-      <lb ed="#V" n="105"/>mixti sit mixta: secundum philosophum primo de generatione. oporteret 
-      <lb ed="#V" n="106"/>quod ille forme essent simul in qualibet parte materie corporis 
-      <lb ed="#V" n="107"/>animalis. Cum ergo forma aque malores requirat 
-      dimensio<lb ed="#V" n="108" break="no"/>nes in materia sua quam forma terre: et forma aeris quam forma aque: 
-      <lb ed="#V" n="109"/>et forma ignis quam forma aeris. sequeretur quod eadem pars 
-      ma<lb ed="#V" n="110" break="no"/>terie simul esset sub maiori quantitate et minori quod est 
-      im<lb ed="#V" n="111" break="no"/>possibile. Et preterea dicunt ipsi forme elementares non 
-      re<lb ed="#V" n="112" break="no"/>cipiunt magis et minus: et constat quod secundum suas essentias 
-      com<lb ed="#V" n="113" break="no"/>pletas forme elementorum non possunt in mixto esse: ergo 
-      nul<lb ed="#V" n="114" break="no"/>lo modo. Dicunt ergo isti quod pro tanto dicuntur corpora animalium 
-      <lb ed="#V" n="115"/>esse composita ex quatuor elementis: quia in eis est forma 
-      quasi<lb ed="#V" n="116" break="no"/>media inter formas elementares aliquam conuenientiam habens 
-      <lb ed="#V" n="117"/>cum forma cuiuslibet elementi: vnde et qualitates actiue et 
-      <lb ed="#V" n="118"/>passiue que sunt in corporibus animalium aliquam 
-      conuenien<lb ed="#V" n="119" break="no"/>tiam habent cum qualitatibus actiuis et passiuis: que sunt in 
-      <lb ed="#V" n="120"/>elementis: sunt tamen temperatiores: nec mirum est si vnam formam 
-      <lb ed="#V" n="121"/>in corporibus: que mixta dicuntur consequuntur iste quatuor 
-      <lb ed="#V" n="122"/>virtutes: cum tamen non consequantur formam elementi vnius: quia 
-      <lb ed="#V" n="123"/>bene videmus quod virtutes quae ab inferioribus per plura participantur 
-      <lb ed="#V" n="124"/>et natura sublimiori participantur per vnum. 
-      <!--TODO: add paragraph-->
-      <lb ed="#V" n="125"/>Qui vult tenere opinionem primam potest 
-      di<lb ed="#V" n="126" break="no"/>cere. 
-   </p> <!--TODO: Fix paragraph-->
-               <p xml:id="kzz7yh-f45065-d1e390">
-     Ad primum in 
-      opposi<lb ed="#V" n="127" break="no"/>tum quod quamuis forme elementares secundum suas essentias 
-      incom<lb ed="#V" n="128" break="no"/>pletas sint in corporibus animalium: tamen quelibet pars 
-      il<lb ed="#V" n="129" break="no"/>lius corporis est mixta: quia forme elementares incomplete 
-      <lb ed="#V" n="130"/>simul sunt in qualibet parte materie corporis mixti: quamuis enim 
-      <lb ed="#V" n="131"/>due forme substantiales complete non possint simul esse in 
-      ea<lb ed="#V" n="132" break="no"/>dem parte materie: tamen secundum suas essentias incompletas simul 
-      pos<lb ed="#V" n="133" break="no"/>sunt esse: sicut patet in ferro ignito. Dicendum ergo quod 
-      ele<lb ed="#V" n="134" break="no"/>menta in mixtione diuidunt se vsque ad partes minimas 
-      <lb ed="#V" n="135"/>secundum sensum: et ille partes tramsmutant se: ita quod vna 
-      corrun<lb ed="#V" n="136" break="no"/>pit in alia complementum forme substantialis illius: et econuerso. 
-      <!--00140.xml-->
-      <pb ed="#V" n="63-v"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>Et vna etiam educit de materia alterius aliquam 
-      inchoa<lb ed="#V" n="2" break="no"/>tionem sue forme et econuerso: ita quod in qualibet illarum 
-      par<lb ed="#V" n="3" break="no"/>ticularium sunt forme substantiales quatuor elementorum 
-      <lb ed="#V" n="4"/>quantum ad aliquas inchoationes earum: hoc est secundum suas 
-      incon<lb ed="#V" n="5" break="no"/>pletas essentias: et sic per virtutem conciliantem elementa ad 
-      <lb ed="#V" n="6"/>mixtionem vniuntur: et fit ex illis vnum corpus: in cuius 
-      quae<lb ed="#V" n="7" break="no"/>libet parte sunt omnes quatuor forme modo predicto quamuis 
-      <lb ed="#V" n="8"/>non secundum eandem proportionem in qualibet parte: quia in 
-      <lb ed="#V" n="9"/>aliqua parte plus accedunt ad complementa sua forma 
-      elemen<lb ed="#V" n="10" break="no"/>torum actiuorum quam passiuorum in alia parte et econuerso: et 
-      <lb ed="#V" n="11"/>per illam diuersam: et diuersam proportionem 
-      diuersifican<lb ed="#V" n="12" break="no"/>tur mixta: et partes in heterogeneis mixtis.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e447">
-      ¶ Uel potest 
-      <lb ed="#V" n="13"/>dici et probabiliter: quod etiam contingit fieri mixtionem: per hoc 
-      <lb ed="#V" n="14"/>quod tria elementa agunt in quartum de materia eius 
-      educen<lb ed="#V" n="15" break="no"/>do formas suas citra complementum: et remittendo formam 
-      <lb ed="#V" n="16"/>quarti destruendo eius complementum.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e458">
-      ¶ Ad secundum dicunt 
-      <lb ed="#V" n="17"/>forte quidam: quod in coloribus mediis sunt extremi colores 
-      <lb ed="#V" n="18"/>secundum suas essentias incompletas: et secundum quod sunt in alia 
-      propor<lb ed="#V" n="19" break="no"/>tione constituuntur diuerse species colorum mediorum: et secundum hoc 
-      co<lb ed="#V" n="20" break="no"/>lores medii in essentia non sunt ita simplices sicut extremi. 
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e469">
-                  <lb ed="#V" n="21"/>¶ Uel potest argumentum solui per interemptionem 
-      maio<lb ed="#V" n="22" break="no"/>ris: quia non est talis necessitas ponendi incompletas essentias 
-      <lb ed="#V" n="23"/>extremorum colorum in constitutione coloris medii: sicut in 
-      con<lb ed="#V" n="24" break="no"/>pletas essentias formarum elementarium in compositione 
-      corpo<lb ed="#V" n="25" break="no"/>ris animalis et cuiuslibet mixti.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e483">
-      ¶ Ad tertium dicendum: quod 
-      <lb ed="#V" n="26"/>nihil de essentia ignis descendit inferius ad compositionem 
-      mixti<lb ed="#V" n="27" break="no"/>Sed per actionem virtutis conciliantis elementa ad 
-      mixtio<lb ed="#V" n="28" break="no"/>nem cooperante aliquo modo alia influentia spere ignis 
-      edu<lb ed="#V" n="29" break="no"/>citur forma ignis de materia alterius elementi: de cuius 
-      mate<lb ed="#V" n="30" break="no"/>ria alia duo elementa educunt formas suas secundum aliquem 
-      gra<lb ed="#V" n="31" break="no"/>dum incompletum in illa proportione quam exigit forma 
-      completi<lb ed="#V" n="32" break="no"/>ua illius mixti ad quam disponit illa mixtio elementorum. 
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e501">
-                  <lb ed="#V" n="33"/>¶ Ad quartum dicendum: quod caliditas ignea in humano 
-      corpo<lb ed="#V" n="34" break="no"/>re non adurit nec in corpore brutorum: quia est ibi temperata 
-      <lb ed="#V" n="35"/>propter hoc quod non est ibi completa: sed corporis illius nature 
-      <lb ed="#V" n="36"/>proportionata: et agit in virtute ipsius anime multo magi 
-      <lb ed="#V" n="37"/>quam in virtute propria.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e514">
-      ¶ Ad rationes autem adductas in 
-      <lb ed="#V" n="38"/>corpore questionis pro alia opinione respondent dicendo 
-      <lb ed="#V" n="39"/>ad primam quod generans mixtu: quia non intendit eductionem 
-      <lb ed="#V" n="40"/>formarum elementarium in proportione supradicta: nisi properter 
-      <lb ed="#V" n="41"/>formam completiuam illius mixti: ideo non educit de materia 
-      <lb ed="#V" n="42"/>dimensiones proportionatas forme illius elementi vel istius: 
-      <lb ed="#V" n="43"/>sed proportionatas completiue forme ipsius mixti.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e530">
-      ¶ Ad 
-      <lb ed="#V" n="44"/>aliam rationem respondent per interemptionem huius quod 
-      di<lb ed="#V" n="45" break="no"/>cebatur formas elementares non recipere magis et minus. 
-      Re<lb ed="#V" n="46" break="no"/>cipiunt enim magis et minus secundum quod superius ostensum eta 
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e539">
-                  <lb ed="#V" n="47"/>¶ Quod etiam dicit philosophus primo de generetione de elementis in 
-      <lb ed="#V" n="48"/>mixto: quod nec corrumpuntur nec alterum nec ambo. Saluatur 
-      <lb ed="#V" n="49"/>enim virtus eorum. Dicunt isti esse intelligendum modo supra 
-      <lb ed="#V" n="50"/>dicto scilicet propter manentes incompletos gradus eorum in 
-      qui<lb ed="#V" n="51" break="no"/>bus saluatur virtus eorum incompleta. 
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e552">
-                  <lb ed="#V" n="52"/>Qui vult tenere opinionem aliam potest 
-      dice<lb ed="#V" n="53" break="no"/>re ad primum in oppositum 
-      <lb ed="#V" n="54"/>quod illa alteratio de qua ibi loquitur philosophus non est 
-      alteratio<lb ed="#V" n="55" break="no"/>proprie dicta: que est qualitates sensibiles tantum. Sed extem 
-      <lb ed="#V" n="56"/>dit ibi nomen alterationis ad corruptionem formarum 
-      ele<lb ed="#V" n="57" break="no"/>mentarium secundum se totas: et generationem forme mixti in 
-      mate<lb ed="#V" n="58" break="no"/>ria etiam eorum.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e571">
-      ¶ Ad alia duo et ad alias omnes auctoritates 
-      <lb ed="#V" n="59"/>allegatas pro prima opinione in corpore questionis dicunt 
-      <lb ed="#V" n="60"/>illas debere ita intelligi quod in corporibus mixtorum sunt 
-      for<lb ed="#V" n="61" break="no"/>me elementares: non quantum ad essentiam vllo modo: sed 
-      quam<lb ed="#V" n="62" break="no"/>tum ad aliquam virtutem earum: eo modo quo dictum fuit in 
-      de<lb ed="#V" n="63" break="no"/>claratione istius opinionis. Dicunt etiam quod per istam viam 
-      <lb ed="#V" n="64"/>bene potest poni principium actiuum corruptionis intrinse 
-      <lb ed="#V" n="65"/>cum in corporibus animalium inquantum vna pars magis 
-      ha<lb ed="#V" n="66" break="no"/>bens virtutem calidi quam frigidi tramsmutat aliam: que non 
-      tan<lb ed="#V" n="67" break="no"/>tum debet habere de virtute calidi ad caliditatis excessum 
-      <lb ed="#V" n="68"/>Et sic potest dici de virtutibus: et per istam viam per actio¬ 
-      <!--00140.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>nem intrinsecam potest corrumpi armonica proportio illarum 
-      <lb ed="#V" n="70"/>virtutum: que necessaria est ad naturam illius mixti.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e604">
-      ¶ Ad 
-      <lb ed="#V" n="71"/>quartum dicendum: quod non sic debet intelligi verbum philosophi: quod illa 
-      per<lb ed="#V" n="72" break="no"/>spicuitas sit in corpore colorato per naturam vnius 
-      corpo<lb ed="#V" n="73" break="no"/>ris: et eius creatio per naturam alterius. Sed quod sunt in 
-      cor<lb ed="#V" n="74" break="no"/>pore per talem formam per quam corpus partim participat 
-      <lb ed="#V" n="75"/>perspicuitatem et partim opacitatem.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f45065-Dd1e619">
-               <head xml:id="kzz7yh-f45065-Hd1e621">Quaestio 2</head>
-               <head xml:id="kzz7yh-f45065-Hd1e638" type="question-title">Utrum in corporibus animalium elementa activa predominentur passivis quantum ad virtutem et videtur quod non</head>
-               <p xml:id="kzz7yh-f45065-d1e623">
-      ¶ Quaestio II. 
-      <lb ed="#V" n="76"/>SEcundo quaeritur vtrum in corporibus 
-      <lb ed="#V" n="77"/>animalium elementa actiua 
-      pre<lb ed="#V" n="78" break="no"/>dominentur passiuis quantum ad virtutem: et 
-      vide<lb ed="#V" n="79" break="no"/>tur quod non. Philosophus primo celi et mundi. sunt motus 
-      <lb ed="#V" n="80"/>corporum compositorum diuersi: verumtamen motio illorum est 
-      <lb ed="#V" n="81"/>per motum corporis simplicis vincentis super ipsum: sed 
-      cor<lb ed="#V" n="82" break="no"/>pora animalium naturaliter mouentur ad locum terre et aque non 
-      <lb ed="#V" n="83"/>ad locum aeris et ignis: ergo terra et aqua vincunt aerem et 
-      <lb ed="#V" n="84"/>ignem in corporibus animalium: ergo predominantur quantum 
-      <lb ed="#V" n="85"/>ad virtutem.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e647">
-      ¶ Item magis debent denominari corpora ab 
-      <lb ed="#V" n="86"/>elementis dominantibus secundum quantitatem virtutis quam secundum 
-      quan<lb ed="#V" n="87" break="no"/>titatem molis. Sed Gen id est Omnia animalia dicuntur facta 
-      <lb ed="#V" n="88"/>ex terra et aqua. Ergo terra vel aqua praedominantur 
-      quan<lb ed="#V" n="89" break="no"/>tum ad virtutem in corporibus animalium.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e658">
-      ¶ Item illud quantum 
-      <lb ed="#V" n="90"/>ad virtutem predominatur in corporibus animalium in quo est 
-      <lb ed="#V" n="91"/>radix vite. Sed vita radicatur in humido radicali: ergo 
-      <lb ed="#V" n="92"/>humiditas maxime dominatur quantum ad virtutem in 
-      cor<lb ed="#V" n="93" break="no"/>poribus animalium. Cum ergo humiditas sit qualitas 
-      passi<lb ed="#V" n="94" break="no"/>ua secundum philosophum. 2. de generatione videtur quod elementa 
-      passi<lb ed="#V" n="95" break="no"/>ua praedominentur in corporibus animalium. 
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e674">
-                  <lb ed="#V" n="96"/>Contra Aug. 3. super Gen. bene post principium 
-      di<lb ed="#V" n="97" break="no"/>cit quod anima cui vis sentiendi inest: cum corporea 
-      <lb ed="#V" n="98"/>non sit per subtilius corpus agitat vigorem sentiendi. Sed 
-      sub<lb ed="#V" n="99" break="no"/>tiliora elementa sunt elementa actiua: ergo in corporibus 
-      ani<lb ed="#V" n="100" break="no"/>malium elementa actiua quantum ad virtutem predominantur 
-      <lb ed="#V" n="101"/>passiuis.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e691">
-      ¶ Item secundum quod potest trahi ex sententia philosophi. libro de morte 
-      <lb ed="#V" n="102"/>et vita. Uita consistit in calido et humido de difficili 
-      exic<lb ed="#V" n="103" break="no"/>cabili. Sed caliditas non inuenitur nisi in aere et in igne 
-      hu<lb ed="#V" n="104" break="no"/>miditas: de difficili exiccabilis est humiditas aerea: ergo 
-      <lb ed="#V" n="105"/>in corporibus animalium maxime praedominantur quantum ad 
-      vir<lb ed="#V" n="106" break="no"/>tutem ignis et aeris que sunt elementa actiua. 
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e704">
-                  <lb ed="#V" n="107"/>Respondeo quod omnibus pensatis in corporibus 
-      <lb ed="#V" n="108"/>animalium elementa actiua: que sunt 
-      <lb ed="#V" n="109"/>ignis et aer: predominantur quantum ad virtutem elementis 
-      <lb ed="#V" n="110"/>passiuis: que sunt terra et aqua: passiua vero 
-      praedominan<lb ed="#V" n="111" break="no"/>tur quantum ad qunatitatem molis. Si enim elementa 
-      passiua<lb ed="#V" n="112" break="no"/>praedominarentur quantum ad virtutem: non essent apta 
-      corpora<lb ed="#V" n="113" break="no"/>ad suscipiendum influentiam sensus et motus: per animam: sic 
-      <lb ed="#V" n="114"/>nec corpora mineralia. Si autem elementa actiua praedomina 
-      <lb ed="#V" n="115"/>rentur quantum ad quantitatem molis: tunc non esset in corporibus 
-      <lb ed="#V" n="116"/>sufficiens soliditas propter raritatem ignis et aeris: et etiam 
-      ele<lb ed="#V" n="117" break="no"/>menta passiua propter debilitatem virtutis nimis cito 
-      cor<lb ed="#V" n="118" break="no"/>rumperentur ab elementis actiuis propter improportionem 
-      super<lb ed="#V" n="119" break="no"/>abundantie virtutis elementorum actiuorum: supra virtutem 
-      pas<lb ed="#V" n="120" break="no"/>siuorum. Est autem gradus determinatus vltra quem virtus 
-      <lb ed="#V" n="121"/>elementorum actiuorum non potest excedere virtutem elementorum 
-      <lb ed="#V" n="122"/>passiuorum salua illa proportione: que necessaria est in 
-      corpo<lb ed="#V" n="123" break="no"/>ribus animalium: ad operationes vite et sensus et bonam 
-      corpo<lb ed="#V" n="124" break="no"/>ris consistentiam. Et gradus vltra quem opertet virtutem 
-      elemen<lb ed="#V" n="125" break="no"/>torum actiuorum excedere virtutem elatorum passiuorum: ad hoc vt 
-      cor<lb ed="#V" n="126" break="no"/>pus sit aptum ad recipiendum animalem vitam. 
-    </p>
-               <p xml:id="kzz7yh-f45065-d1e750">
-                  <lb ed="#V" n="127"/>Ad primum in oppositum dicunt quidam quod cum 
-      gra<lb ed="#V" n="128" break="no"/>ue et leue consequantur raritatem et 
-      <lb ed="#V" n="129"/>densitatem: que sunt in composito ratione materie: et motus naturalis 
-      <lb ed="#V" n="130"/>sit in corporibus generabilibus et corruptibilibus per naturam 
-      <lb ed="#V" n="131"/>grauitatis et euitatis: quod corpora mixta monentur secundum 
-      exi<lb ed="#V" n="132" break="no"/>gentiam illius elementi: quod predienatur in eis quantum ad 
-      ma<lb ed="#V" n="133" break="no"/>teriam: et sic dominantur in corporibus mixtis corpora 
-      passi<lb ed="#V" n="134" break="no"/>ua. Sed contra hoc est: quia non semper corpus densius est 
-      gra<lb ed="#V" n="135" break="no"/>uius: quia plumbum grauius est ferro: et tamen rarius.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e772">
-      ¶ 
-      Pre<lb ed="#V" n="136" break="no"/>terea quamuis corpora mixta moueantur ratione materie: tamen 
-      <!--00141.xml-->
-      <pb ed="#V" n="64-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>mouent se ratione forme: ergo predominatio alicuius 
-      ele<lb ed="#V" n="2" break="no"/>menti secundum materiam non videtur ratio vt illud mixtum secundum 
-      <lb ed="#V" n="3"/>exigentiam illius elementi moueat se.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e790">
-      ¶ Uidetur ergo 
-      <lb ed="#V" n="4"/>mihi dicendum quod illud verbum philosophi intelligitur de victoria 
-      quan<lb ed="#V" n="5" break="no"/>tum ad predominantiam quantitatis molis: inquantum 
-      mixtio<lb ed="#V" n="6" break="no"/>in qua est talis predominantia: disponit ad talem formam 
-      <lb ed="#V" n="7"/>mixti completiuam que determinatur ad mouendum mixtum 
-      <lb ed="#V" n="8"/>ad illam partem: ad quam moueretur per suam formam 
-      elemen<lb ed="#V" n="9" break="no"/>tum ibi predominans quantum ad molem.
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e806">
-      ¶ Ad secundum 
-      <lb ed="#V" n="10"/>dicendum quod magis denominantur corpora animalium ab 
-      ele<lb ed="#V" n="11" break="no"/>mentis predominantibus secundum quantitatem molis quam ab 
-      elemen<lb ed="#V" n="12" break="no"/>tis predominantibus quantum ad quantitatem virtutis: quia 
-      <lb ed="#V" n="13"/>quantitas molis nobis est sensibilior: et quia mixtum dicitur 
-      <lb ed="#V" n="14"/>fieri de elementis proportionatis modo supradicto in 
-      pre<lb ed="#V" n="15" break="no"/>ceddenti tamquam de materia proxima. Ideo denominantur ab 
-      <lb ed="#V" n="16"/>elementis que plus habent de ratione materie: cuiusmodi sunt 
-      <lb ed="#V" n="17"/>elementa passiua. Et etiam quia naturalis motus omnium 
-      mix<lb ed="#V" n="18" break="no"/>torum est ad illam partem ad quam mouentur elementa passiua. 
-   </p>
-               <p xml:id="kzz7yh-f45065-d1e829">
-                  <lb ed="#V" n="19"/>¶ Ad tertium dicendum: quod vita radicatur in humido aereo: 
-      <lb ed="#V" n="20"/>quantum ad predominantiam sicut in principio magis passiuo: 
-      <lb ed="#V" n="21"/>et est per calidum aereum et igneum tanquam actualiori 
-      principio<lb ed="#V" n="22" break="no"/>vnde patet quod ad actiones vite animalis plus confert virtus 
-      <lb ed="#V" n="23"/>aeris et ignis: quam terre et aque. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="63-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f45065"><!-- l2d15a1 -->
+        <head xml:id="kzz7yh-f45065-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-f45065-d1e103">
+          <lb ed="#V" n="17"/>¶ Circa primum queruntur duo.
+        </p>
+        <p xml:id="kzz7yh-f45065-d1e108">
+          ¶ Primo vtrum corpora 
+          <lb ed="#V" n="18"/>animalium ita sint composita ex quatuor elementis: quod vere 
+          <lb ed="#V" n="19"/>ibi maneant essentie formarum elementarium incomplete. 
+        </p>
+        <p xml:id="kzz7yh-f45065-d1e115">
+          <lb ed="#V" n="20"/>¶ Secundo vtrum in corporibus animalium elementa 
+          acti<lb ed="#V" n="21" break="no"/>ua predominentur passiuis.
+        </p>
+        <div xml:id="kzz7yh-f45065-Dd1e122">
+          <head xml:id="kzz7yh-f45065-Hd1e124">Quaestio 1</head>
+          <head xml:id="kzz7yh-f45065-Hd1e128" type="question-title">Utrum corpora animalium ita sint composita ex quatuor elementis quod vere ibi maneant essentie formarum elementarium incomplete</head>
+          <!--Check my question header please-->
+          <p xml:id="kzz7yh-f45065-d1e126">
+            ¶ Questio. I. 
+            <lb ed="#V" n="22"/>PRimo ostendo quod in corporibus 
+            <lb ed="#V" n="23"/>animalium non 
+            <lb ed="#V" n="24"/>manent essentie formarum elementarium nec 
+            comple<lb ed="#V" n="25" break="no"/>te nec incomplete: quia secundum <ref xml:id="kzz7yh-f45065-Rd1e143">philosophum i. de generatione.</ref> 
+            <lb ed="#V" n="26"/>quelibet pars mixti est mixta. Sed duo corpora siue 
+            com<lb ed="#V" n="27" break="no"/>pleta siue incompleta non possunt naturaliter simul esse: ergo 
+            <lb ed="#V" n="28"/>si esset mixtio ita non remanerent ibi elementa secundum essentias 
+            <lb ed="#V" n="29"/>suas: quelibet pars mixti non posset mixta esse.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e146">
+            ¶ Item 
+            <lb ed="#V" n="30"/>ita sunt composita corpora animalium ex elementis sicut 
+            me<lb ed="#V" n="31" break="no"/>dii colores ex extremis. Sed in medio colore non sunt 
+            me<lb ed="#V" n="32" break="no"/>dii colores secundum essentias suas nec completas nec 
+            incomple<lb ed="#V" n="33" break="no"/>tas: quia ita simplex qualitas est medius color: sicut 
+            extre<lb ed="#V" n="34" break="no"/>mus: ergo similiter in corporibus animalium non manent forme 
+            elemen<lb ed="#V" n="35" break="no"/>tares secundum essentias suas: nec completas nec incompletas. 
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e162">
+            <lb ed="#V" n="36"/>¶ Item corpora animalium naturaliter generantur. Sed ignis 
+            <lb ed="#V" n="37"/>de spera sua ad inferiora naturaliter non descendit. ergo in 
+            cor<lb ed="#V" n="38" break="no"/>poribus animalium non est essentia ignis neque completa neque 
+            <lb ed="#V" n="39"/>incompleta.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e173">
+            ¶ Item caliditas ignea adurit: caliditas que est 
+            <lb ed="#V" n="40"/>in corporibus animalium naturaliter digerit: ergo caliditas quae 
+            <lb ed="#V" n="41"/>est in corporibus animalium non est ignea. 
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e181">
+            <lb ed="#V" n="42"/>Contra philosophus in fine primi de generatione. mixtio est 
+            <lb ed="#V" n="43"/>miscibilium alteratorum vnio. ergo videtur quod 
+            <lb ed="#V" n="44"/>in mixtione elementa alterantur et vniuntur: et sic in 
+            mixto<lb ed="#V" n="45" break="no"/>remanent secundum suas essentias incompletas.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e192">
+            ¶ Item philosophus. 2. celi 
+            <lb ed="#V" n="46"/>et mundi. loquens de animalibus dicit: quod ipsa generantur ex 
+            re<lb ed="#V" n="47" break="no"/>bus contrariis diuersorum locorum: et non est aliqua pars anima. 
+            <lb ed="#V" n="48"/>lis in loco suo: quapropter sit: quod animal veterascit et 
+            fini<lb ed="#V" n="49" break="no"/>tur velociter. Hec autem vera non essent nisi elementa secundum 
+            su<lb ed="#V" n="50" break="no"/>as essentias incompletas remanerent in mixto.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e205">
+            ¶ Item Aui. 
+            <lb ed="#V" n="51"/>lib. 4. de animalibus. cap. de complexione in vniversali. Complexio 
+            <lb ed="#V" n="52"/>est res accidens ex contrariarum qualitatum operatione in 
+            par<lb ed="#V" n="53" break="no"/>ticulis minimis: et diuidentibus se adinuicem et tunc in eis 
+            <lb ed="#V" n="54"/>accidit vna qualitas que dicitur complexio. Sed ille 
+            qualita<lb ed="#V" n="55" break="no"/>tes non separantur a substantialibus formis: ergo in corporibus 
+            <lb ed="#V" n="56"/>animalium: cum sint complexionata sunt essentie elementorum 
+            <lb ed="#V" n="57"/>incomplete: in quibus radicantur ille contrarie qualitates: que 
+            <lb ed="#V" n="58"/>sunt caliditas: frigiditas: humiditas: et ficcitas.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e225">
+            ¶ Item 
+            <lb ed="#V" n="59"/>philosophus libro de sensu et sensato. vltra quod color sit in 
+            extremita<lb ed="#V" n="60" break="no"/>te perspicui terminati. ergo omne corpus coloratum est 
+            <lb ed="#V" n="61"/>compositum ex corpore perspicuo et opaco: quia terminatio 
+            per<lb ed="#V" n="62" break="no"/>spicui est per opacum. 
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e236">
+            <lb ed="#V" n="63"/>Ad istam quaestionem dicunt quidam quod in 
+            corpo<lb ed="#V" n="64" break="no"/>ribus animalium sunt 
+            for<lb ed="#V" n="65" break="no"/>me substantiales elementorum secundum suas essentias incompletas 
+            <lb ed="#V" n="66"/>et haec opinio multas auctoritates habet pro se: quarum alique sunt 
+            <lb ed="#V" n="67"/>in opponendo allegate. Dicit etiam Damas. lib. 3. cap. 16 quod 
+            <lb ed="#V" n="68"/>necesse est difftere hominem ex quinque ad minus compositum esse 
+            <!--00139.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>naturis id est quatuor elementis et anima. Philosophus etiam 2. de 
+            ge<lb ed="#V" n="70" break="no"/>neratione. probat omnia corpora mixta esse composita ex 
+            qua<lb ed="#V" n="71" break="no"/>tuor elementis. Dico enim sic. Omnia mixta corpora 
+            quecun<lb ed="#V" n="72" break="no"/>que circa medium locum sunt: sunt ex omnibus composita 
+            sim<lb ed="#V" n="73" break="no"/>plicibus: terra quidem inest omnibus: quia vnumquodque 
+            ma<lb ed="#V" n="74" break="no"/>xime est et multum in proprio loco: aqua autem inest: quia oportet 
+            ter<lb ed="#V" n="75" break="no"/>minari compositum. Sola autem est simplicium bene 
+            termina<lb ed="#V" n="76" break="no"/>bile aqua. Amplius et terra sine humido non potest 
+            commora<lb ed="#V" n="77" break="no"/>ri. Sed hoc est quod continet terram scilicet si auferatur ex ipsa omnio 
+            hu<lb ed="#V" n="78" break="no"/>midum decidit vndique terra scilicet in pulueres. igitur et aqua 
+            pro<lb ed="#V" n="79" break="no"/>pter has insit causas: et postea statim probat: quod insunt ignis 
+            <lb ed="#V" n="80"/>et aer: et postea concludendo dicit quod in omni composito 
+            sim<lb ed="#V" n="81" break="no"/>plicia inerunt. Commen. etiam super. 12. meta. dicit: quod 
+            mate<lb ed="#V" n="82" break="no"/>ria prima habet habilitates ad recipiendum primas 
+            contra<lb ed="#V" n="83" break="no"/>rietates scilicet formas quatuor elementorum. Secundo vero habet 
+            <lb ed="#V" n="84"/>potentias consimilium partium mediantibus formis quatuor 
+            <lb ed="#V" n="85"/>elementorum: et ille potentie diuersantur secundum mixtiones 
+            diuer<lb ed="#V" n="86" break="no"/>sorum: quatuor elementorum: ita ex hoc diuersantur forme 
+            gene<lb ed="#V" n="87" break="no"/>rabilium.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e297">
+            ¶ Preterea ad hoc est ratio. In animalibus enim 
+            <lb ed="#V" n="88"/>est principium corruptionis intrinsecum. Unde secundum 
+            doctri<lb ed="#V" n="89" break="no"/>nam medicorum calidum naturale: quod fundatur in humido 
+            <lb ed="#V" n="90"/>radicali continue depascit ipsum humidum: et ipso humido 
+            <lb ed="#V" n="91"/>radicali consumpto destruitur calidum quod in ipso radicabatur: 
+            <lb ed="#V" n="92"/>et sic causatur mors scilicet per destructionem naturalis 
+            humi<lb ed="#V" n="93" break="no"/>di: et naturalis calidi: vnde corpora mortuorum efficiuntur 
+            <lb ed="#V" n="94"/>frigida et sicca. Si autem in corporibus mortuorum non essent 
+            <lb ed="#V" n="95"/>forme elementorum secundum suas essentias incompletas videtur istis 
+            <lb ed="#V" n="96"/>quod in eis non esset principium actiuum corruptionis 
+            intrinse<lb ed="#V" n="97" break="no"/>cum.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e322">
+            ¶ Preterea secundum philosophum. 2. de generatione. ex eisdem 
+            nu<lb ed="#V" n="98" break="no"/>triuntur omnia ex quibus sunt. nos autem videmus: quod ad 
+            nu<lb ed="#V" n="99" break="no"/>trimentum plante ministratur aqua et terra: ergo videtur 
+            <lb ed="#V" n="100"/>quod incompleta forma terre et aque in planta sunt: et pari ratione 
+            <lb ed="#V" n="101"/>in corporibus animalium: et si ibi est forma terre et forma aqua 
+            <lb ed="#V" n="102"/>ibi est forma aeris et ignis: et sic videtur arguere philosophus secundo 
+            <lb ed="#V" n="103"/>de generatione.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e338">
+            ¶ Alii dicunt quod forme elementares secndum suas 
+            <lb ed="#V" n="104"/>essentias nullo modo sunt in mixto: quia cum quelibet pars 
+            <lb ed="#V" n="105"/>mixti sit mixta: secundum philosophum primo de generatione. oporteret 
+            <lb ed="#V" n="106"/>quod ille forme essent simul in qualibet parte materie corporis 
+            <lb ed="#V" n="107"/>animalis. Cum ergo forma aque malores requirat 
+            dimensio<lb ed="#V" n="108" break="no"/>nes in materia sua quam forma terre: et forma aeris quam forma aque: 
+            <lb ed="#V" n="109"/>et forma ignis quam forma aeris. sequeretur quod eadem pars 
+            ma<lb ed="#V" n="110" break="no"/>terie simul esset sub maiori quantitate et minori quod est 
+            im<lb ed="#V" n="111" break="no"/>possibile. Et preterea dicunt ipsi forme elementares non 
+            re<lb ed="#V" n="112" break="no"/>cipiunt magis et minus: et constat quod secundum suas essentias 
+            com<lb ed="#V" n="113" break="no"/>pletas forme elementorum non possunt in mixto esse: ergo 
+            nul<lb ed="#V" n="114" break="no"/>lo modo. Dicunt ergo isti quod pro tanto dicuntur corpora animalium 
+            <lb ed="#V" n="115"/>esse composita ex quatuor elementis: quia in eis est forma 
+            quasi<lb ed="#V" n="116" break="no"/>media inter formas elementares aliquam conuenientiam habens 
+            <lb ed="#V" n="117"/>cum forma cuiuslibet elementi: vnde et qualitates actiue et 
+            <lb ed="#V" n="118"/>passiue que sunt in corporibus animalium aliquam 
+            conuenien<lb ed="#V" n="119" break="no"/>tiam habent cum qualitatibus actiuis et passiuis: que sunt in 
+            <lb ed="#V" n="120"/>elementis: sunt tamen temperatiores: nec mirum est si vnam formam 
+            <lb ed="#V" n="121"/>in corporibus: que mixta dicuntur consequuntur iste quatuor 
+            <lb ed="#V" n="122"/>virtutes: cum tamen non consequantur formam elementi vnius: quia 
+            <lb ed="#V" n="123"/>bene videmus quod virtutes quae ab inferioribus per plura participantur 
+            <lb ed="#V" n="124"/>et natura sublimiori participantur per vnum. 
+            <!--TODO: add paragraph-->
+            <lb ed="#V" n="125"/>Qui vult tenere opinionem primam potest 
+            di<lb ed="#V" n="126" break="no"/>cere. 
+          </p> <!--TODO: Fix paragraph-->
+          <p xml:id="kzz7yh-f45065-d1e390">
+            Ad primum in 
+            opposi<lb ed="#V" n="127" break="no"/>tum quod quamuis forme elementares secundum suas essentias 
+            incom<lb ed="#V" n="128" break="no"/>pletas sint in corporibus animalium: tamen quelibet pars 
+            il<lb ed="#V" n="129" break="no"/>lius corporis est mixta: quia forme elementares incomplete 
+            <lb ed="#V" n="130"/>simul sunt in qualibet parte materie corporis mixti: quamuis enim 
+            <lb ed="#V" n="131"/>due forme substantiales complete non possint simul esse in 
+            ea<lb ed="#V" n="132" break="no"/>dem parte materie: tamen secundum suas essentias incompletas simul 
+            pos<lb ed="#V" n="133" break="no"/>sunt esse: sicut patet in ferro ignito. Dicendum ergo quod 
+            ele<lb ed="#V" n="134" break="no"/>menta in mixtione diuidunt se vsque ad partes minimas 
+            <lb ed="#V" n="135"/>secundum sensum: et ille partes tramsmutant se: ita quod vna 
+            corrun<lb ed="#V" n="136" break="no"/>pit in alia complementum forme substantialis illius: et econuerso. 
+            <!--00140.xml-->
+            <pb ed="#V" n="63-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>Et vna etiam educit de materia alterius aliquam 
+            inchoa<lb ed="#V" n="2" break="no"/>tionem sue forme et econuerso: ita quod in qualibet illarum 
+            par<lb ed="#V" n="3" break="no"/>ticularium sunt forme substantiales quatuor elementorum 
+            <lb ed="#V" n="4"/>quantum ad aliquas inchoationes earum: hoc est secundum suas 
+            incon<lb ed="#V" n="5" break="no"/>pletas essentias: et sic per virtutem conciliantem elementa ad 
+            <lb ed="#V" n="6"/>mixtionem vniuntur: et fit ex illis vnum corpus: in cuius 
+            quae<lb ed="#V" n="7" break="no"/>libet parte sunt omnes quatuor forme modo predicto quamuis 
+            <lb ed="#V" n="8"/>non secundum eandem proportionem in qualibet parte: quia in 
+            <lb ed="#V" n="9"/>aliqua parte plus accedunt ad complementa sua forma 
+            elemen<lb ed="#V" n="10" break="no"/>torum actiuorum quam passiuorum in alia parte et econuerso: et 
+            <lb ed="#V" n="11"/>per illam diuersam: et diuersam proportionem 
+            diuersifican<lb ed="#V" n="12" break="no"/>tur mixta: et partes in heterogeneis mixtis.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e447">
+            ¶ Uel potest 
+            <lb ed="#V" n="13"/>dici et probabiliter: quod etiam contingit fieri mixtionem: per hoc 
+            <lb ed="#V" n="14"/>quod tria elementa agunt in quartum de materia eius 
+            educen<lb ed="#V" n="15" break="no"/>do formas suas citra complementum: et remittendo formam 
+            <lb ed="#V" n="16"/>quarti destruendo eius complementum.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e458">
+            ¶ Ad secundum dicunt 
+            <lb ed="#V" n="17"/>forte quidam: quod in coloribus mediis sunt extremi colores 
+            <lb ed="#V" n="18"/>secundum suas essentias incompletas: et secundum quod sunt in alia 
+            propor<lb ed="#V" n="19" break="no"/>tione constituuntur diuerse species colorum mediorum: et secundum hoc 
+            co<lb ed="#V" n="20" break="no"/>lores medii in essentia non sunt ita simplices sicut extremi. 
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e469">
+            <lb ed="#V" n="21"/>¶ Uel potest argumentum solui per interemptionem 
+            maio<lb ed="#V" n="22" break="no"/>ris: quia non est talis necessitas ponendi incompletas essentias 
+            <lb ed="#V" n="23"/>extremorum colorum in constitutione coloris medii: sicut in 
+            con<lb ed="#V" n="24" break="no"/>pletas essentias formarum elementarium in compositione 
+            corpo<lb ed="#V" n="25" break="no"/>ris animalis et cuiuslibet mixti.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e483">
+            ¶ Ad tertium dicendum: quod 
+            <lb ed="#V" n="26"/>nihil de essentia ignis descendit inferius ad compositionem 
+            mixti<lb ed="#V" n="27" break="no"/>Sed per actionem virtutis conciliantis elementa ad 
+            mixtio<lb ed="#V" n="28" break="no"/>nem cooperante aliquo modo alia influentia spere ignis 
+            edu<lb ed="#V" n="29" break="no"/>citur forma ignis de materia alterius elementi: de cuius 
+            mate<lb ed="#V" n="30" break="no"/>ria alia duo elementa educunt formas suas secundum aliquem 
+            gra<lb ed="#V" n="31" break="no"/>dum incompletum in illa proportione quam exigit forma 
+            completi<lb ed="#V" n="32" break="no"/>ua illius mixti ad quam disponit illa mixtio elementorum. 
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e501">
+            <lb ed="#V" n="33"/>¶ Ad quartum dicendum: quod caliditas ignea in humano 
+            corpo<lb ed="#V" n="34" break="no"/>re non adurit nec in corpore brutorum: quia est ibi temperata 
+            <lb ed="#V" n="35"/>propter hoc quod non est ibi completa: sed corporis illius nature 
+            <lb ed="#V" n="36"/>proportionata: et agit in virtute ipsius anime multo magi 
+            <lb ed="#V" n="37"/>quam in virtute propria.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e514">
+            ¶ Ad rationes autem adductas in 
+            <lb ed="#V" n="38"/>corpore questionis pro alia opinione respondent dicendo 
+            <lb ed="#V" n="39"/>ad primam quod generans mixtu: quia non intendit eductionem 
+            <lb ed="#V" n="40"/>formarum elementarium in proportione supradicta: nisi properter 
+            <lb ed="#V" n="41"/>formam completiuam illius mixti: ideo non educit de materia 
+            <lb ed="#V" n="42"/>dimensiones proportionatas forme illius elementi vel istius: 
+            <lb ed="#V" n="43"/>sed proportionatas completiue forme ipsius mixti.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e530">
+            ¶ Ad 
+            <lb ed="#V" n="44"/>aliam rationem respondent per interemptionem huius quod 
+            di<lb ed="#V" n="45" break="no"/>cebatur formas elementares non recipere magis et minus. 
+            Re<lb ed="#V" n="46" break="no"/>cipiunt enim magis et minus secundum quod superius ostensum eta 
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e539">
+            <lb ed="#V" n="47"/>¶ Quod etiam dicit philosophus primo de generetione de elementis in 
+            <lb ed="#V" n="48"/>mixto: quod nec corrumpuntur nec alterum nec ambo. Saluatur 
+            <lb ed="#V" n="49"/>enim virtus eorum. Dicunt isti esse intelligendum modo supra 
+            <lb ed="#V" n="50"/>dicto scilicet propter manentes incompletos gradus eorum in 
+            qui<lb ed="#V" n="51" break="no"/>bus saluatur virtus eorum incompleta. 
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e552">
+            <lb ed="#V" n="52"/>Qui vult tenere opinionem aliam potest 
+            dice<lb ed="#V" n="53" break="no"/>re ad primum in oppositum 
+            <lb ed="#V" n="54"/>quod illa alteratio de qua ibi loquitur philosophus non est 
+            alteratio<lb ed="#V" n="55" break="no"/>proprie dicta: que est qualitates sensibiles tantum. Sed extem 
+            <lb ed="#V" n="56"/>dit ibi nomen alterationis ad corruptionem formarum 
+            ele<lb ed="#V" n="57" break="no"/>mentarium secundum se totas: et generationem forme mixti in 
+            mate<lb ed="#V" n="58" break="no"/>ria etiam eorum.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e571">
+            ¶ Ad alia duo et ad alias omnes auctoritates 
+            <lb ed="#V" n="59"/>allegatas pro prima opinione in corpore questionis dicunt 
+            <lb ed="#V" n="60"/>illas debere ita intelligi quod in corporibus mixtorum sunt 
+            for<lb ed="#V" n="61" break="no"/>me elementares: non quantum ad essentiam vllo modo: sed 
+            quam<lb ed="#V" n="62" break="no"/>tum ad aliquam virtutem earum: eo modo quo dictum fuit in 
+            de<lb ed="#V" n="63" break="no"/>claratione istius opinionis. Dicunt etiam quod per istam viam 
+            <lb ed="#V" n="64"/>bene potest poni principium actiuum corruptionis intrinse 
+            <lb ed="#V" n="65"/>cum in corporibus animalium inquantum vna pars magis 
+            ha<lb ed="#V" n="66" break="no"/>bens virtutem calidi quam frigidi tramsmutat aliam: que non 
+            tan<lb ed="#V" n="67" break="no"/>tum debet habere de virtute calidi ad caliditatis excessum 
+            <lb ed="#V" n="68"/>Et sic potest dici de virtutibus: et per istam viam per actio¬ 
+            <!--00140.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>nem intrinsecam potest corrumpi armonica proportio illarum 
+            <lb ed="#V" n="70"/>virtutum: que necessaria est ad naturam illius mixti.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e604">
+            ¶ Ad 
+            <lb ed="#V" n="71"/>quartum dicendum: quod non sic debet intelligi verbum philosophi: quod illa 
+            per<lb ed="#V" n="72" break="no"/>spicuitas sit in corpore colorato per naturam vnius 
+            corpo<lb ed="#V" n="73" break="no"/>ris: et eius creatio per naturam alterius. Sed quod sunt in 
+            cor<lb ed="#V" n="74" break="no"/>pore per talem formam per quam corpus partim participat 
+            <lb ed="#V" n="75"/>perspicuitatem et partim opacitatem.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f45065-Dd1e619">
+          <head xml:id="kzz7yh-f45065-Hd1e621">Quaestio 2</head>
+          <head xml:id="kzz7yh-f45065-Hd1e638" type="question-title">Utrum in corporibus animalium elementa activa predominentur passivis quantum ad virtutem et videtur quod non</head>
+          <p xml:id="kzz7yh-f45065-d1e623">
+            ¶ Quaestio II. 
+            <lb ed="#V" n="76"/>SEcundo quaeritur vtrum in corporibus 
+            <lb ed="#V" n="77"/>animalium elementa actiua 
+            pre<lb ed="#V" n="78" break="no"/>dominentur passiuis quantum ad virtutem: et 
+            vide<lb ed="#V" n="79" break="no"/>tur quod non. Philosophus primo celi et mundi. sunt motus 
+            <lb ed="#V" n="80"/>corporum compositorum diuersi: verumtamen motio illorum est 
+            <lb ed="#V" n="81"/>per motum corporis simplicis vincentis super ipsum: sed 
+            cor<lb ed="#V" n="82" break="no"/>pora animalium naturaliter mouentur ad locum terre et aque non 
+            <lb ed="#V" n="83"/>ad locum aeris et ignis: ergo terra et aqua vincunt aerem et 
+            <lb ed="#V" n="84"/>ignem in corporibus animalium: ergo predominantur quantum 
+            <lb ed="#V" n="85"/>ad virtutem.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e647">
+            ¶ Item magis debent denominari corpora ab 
+            <lb ed="#V" n="86"/>elementis dominantibus secundum quantitatem virtutis quam secundum 
+            quan<lb ed="#V" n="87" break="no"/>titatem molis. Sed Gen id est Omnia animalia dicuntur facta 
+            <lb ed="#V" n="88"/>ex terra et aqua. Ergo terra vel aqua praedominantur 
+            quan<lb ed="#V" n="89" break="no"/>tum ad virtutem in corporibus animalium.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e658">
+            ¶ Item illud quantum 
+            <lb ed="#V" n="90"/>ad virtutem predominatur in corporibus animalium in quo est 
+            <lb ed="#V" n="91"/>radix vite. Sed vita radicatur in humido radicali: ergo 
+            <lb ed="#V" n="92"/>humiditas maxime dominatur quantum ad virtutem in 
+            cor<lb ed="#V" n="93" break="no"/>poribus animalium. Cum ergo humiditas sit qualitas 
+            passi<lb ed="#V" n="94" break="no"/>ua secundum philosophum. 2. de generatione videtur quod elementa 
+            passi<lb ed="#V" n="95" break="no"/>ua praedominentur in corporibus animalium. 
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e674">
+            <lb ed="#V" n="96"/>Contra Aug. 3. super Gen. bene post principium 
+            di<lb ed="#V" n="97" break="no"/>cit quod anima cui vis sentiendi inest: cum corporea 
+            <lb ed="#V" n="98"/>non sit per subtilius corpus agitat vigorem sentiendi. Sed 
+            sub<lb ed="#V" n="99" break="no"/>tiliora elementa sunt elementa actiua: ergo in corporibus 
+            ani<lb ed="#V" n="100" break="no"/>malium elementa actiua quantum ad virtutem predominantur 
+            <lb ed="#V" n="101"/>passiuis.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e691">
+            ¶ Item secundum quod potest trahi ex sententia philosophi. libro de morte 
+            <lb ed="#V" n="102"/>et vita. Uita consistit in calido et humido de difficili 
+            exic<lb ed="#V" n="103" break="no"/>cabili. Sed caliditas non inuenitur nisi in aere et in igne 
+            hu<lb ed="#V" n="104" break="no"/>miditas: de difficili exiccabilis est humiditas aerea: ergo 
+            <lb ed="#V" n="105"/>in corporibus animalium maxime praedominantur quantum ad 
+            vir<lb ed="#V" n="106" break="no"/>tutem ignis et aeris que sunt elementa actiua. 
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e704">
+            <lb ed="#V" n="107"/>Respondeo quod omnibus pensatis in corporibus 
+            <lb ed="#V" n="108"/>animalium elementa actiua: que sunt 
+            <lb ed="#V" n="109"/>ignis et aer: predominantur quantum ad virtutem elementis 
+            <lb ed="#V" n="110"/>passiuis: que sunt terra et aqua: passiua vero 
+            praedominan<lb ed="#V" n="111" break="no"/>tur quantum ad qunatitatem molis. Si enim elementa 
+            passiua<lb ed="#V" n="112" break="no"/>praedominarentur quantum ad virtutem: non essent apta 
+            corpora<lb ed="#V" n="113" break="no"/>ad suscipiendum influentiam sensus et motus: per animam: sic 
+            <lb ed="#V" n="114"/>nec corpora mineralia. Si autem elementa actiua praedomina 
+            <lb ed="#V" n="115"/>rentur quantum ad quantitatem molis: tunc non esset in corporibus 
+            <lb ed="#V" n="116"/>sufficiens soliditas propter raritatem ignis et aeris: et etiam 
+            ele<lb ed="#V" n="117" break="no"/>menta passiua propter debilitatem virtutis nimis cito 
+            cor<lb ed="#V" n="118" break="no"/>rumperentur ab elementis actiuis propter improportionem 
+            super<lb ed="#V" n="119" break="no"/>abundantie virtutis elementorum actiuorum: supra virtutem 
+            pas<lb ed="#V" n="120" break="no"/>siuorum. Est autem gradus determinatus vltra quem virtus 
+            <lb ed="#V" n="121"/>elementorum actiuorum non potest excedere virtutem elementorum 
+            <lb ed="#V" n="122"/>passiuorum salua illa proportione: que necessaria est in 
+            corpo<lb ed="#V" n="123" break="no"/>ribus animalium: ad operationes vite et sensus et bonam 
+            corpo<lb ed="#V" n="124" break="no"/>ris consistentiam. Et gradus vltra quem opertet virtutem 
+            elemen<lb ed="#V" n="125" break="no"/>torum actiuorum excedere virtutem elatorum passiuorum: ad hoc vt 
+            cor<lb ed="#V" n="126" break="no"/>pus sit aptum ad recipiendum animalem vitam. 
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e750">
+            <lb ed="#V" n="127"/>Ad primum in oppositum dicunt quidam quod cum 
+            gra<lb ed="#V" n="128" break="no"/>ue et leue consequantur raritatem et 
+            <lb ed="#V" n="129"/>densitatem: que sunt in composito ratione materie: et motus naturalis 
+            <lb ed="#V" n="130"/>sit in corporibus generabilibus et corruptibilibus per naturam 
+            <lb ed="#V" n="131"/>grauitatis et euitatis: quod corpora mixta monentur secundum 
+            exi<lb ed="#V" n="132" break="no"/>gentiam illius elementi: quod predienatur in eis quantum ad 
+            ma<lb ed="#V" n="133" break="no"/>teriam: et sic dominantur in corporibus mixtis corpora 
+            passi<lb ed="#V" n="134" break="no"/>ua. Sed contra hoc est: quia non semper corpus densius est 
+            gra<lb ed="#V" n="135" break="no"/>uius: quia plumbum grauius est ferro: et tamen rarius.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e772">
+            ¶ 
+            Pre<lb ed="#V" n="136" break="no"/>terea quamuis corpora mixta moueantur ratione materie: tamen 
+            <!--00141.xml-->
+            <pb ed="#V" n="64-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>mouent se ratione forme: ergo predominatio alicuius 
+            ele<lb ed="#V" n="2" break="no"/>menti secundum materiam non videtur ratio vt illud mixtum secundum 
+            <lb ed="#V" n="3"/>exigentiam illius elementi moueat se.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e790">
+            ¶ Uidetur ergo 
+            <lb ed="#V" n="4"/>mihi dicendum quod illud verbum philosophi intelligitur de victoria 
+            quan<lb ed="#V" n="5" break="no"/>tum ad predominantiam quantitatis molis: inquantum 
+            mixtio<lb ed="#V" n="6" break="no"/>in qua est talis predominantia: disponit ad talem formam 
+            <lb ed="#V" n="7"/>mixti completiuam que determinatur ad mouendum mixtum 
+            <lb ed="#V" n="8"/>ad illam partem: ad quam moueretur per suam formam 
+            elemen<lb ed="#V" n="9" break="no"/>tum ibi predominans quantum ad molem.
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e806">
+            ¶ Ad secundum 
+            <lb ed="#V" n="10"/>dicendum quod magis denominantur corpora animalium ab 
+            ele<lb ed="#V" n="11" break="no"/>mentis predominantibus secundum quantitatem molis quam ab 
+            elemen<lb ed="#V" n="12" break="no"/>tis predominantibus quantum ad quantitatem virtutis: quia 
+            <lb ed="#V" n="13"/>quantitas molis nobis est sensibilior: et quia mixtum dicitur 
+            <lb ed="#V" n="14"/>fieri de elementis proportionatis modo supradicto in 
+            pre<lb ed="#V" n="15" break="no"/>ceddenti tamquam de materia proxima. Ideo denominantur ab 
+            <lb ed="#V" n="16"/>elementis que plus habent de ratione materie: cuiusmodi sunt 
+            <lb ed="#V" n="17"/>elementa passiua. Et etiam quia naturalis motus omnium 
+            mix<lb ed="#V" n="18" break="no"/>torum est ad illam partem ad quam mouentur elementa passiua. 
+          </p>
+          <p xml:id="kzz7yh-f45065-d1e829">
+            <lb ed="#V" n="19"/>¶ Ad tertium dicendum: quod vita radicatur in humido aereo: 
+            <lb ed="#V" n="20"/>quantum ad predominantiam sicut in principio magis passiuo: 
+            <lb ed="#V" n="21"/>et est per calidum aereum et igneum tanquam actualiori 
+            principio<lb ed="#V" n="22" break="no"/>vnde patet quod ad actiones vite animalis plus confert virtus 
+            <lb ed="#V" n="23"/>aeris et ignis: quam terre et aque. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

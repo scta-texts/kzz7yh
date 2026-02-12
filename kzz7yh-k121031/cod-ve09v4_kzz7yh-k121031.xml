@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="167-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k121031"><!-- l4d37cl -->
-            <head xml:id="kzz7yh-k121031-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-k121031-d1e103">
-               <lb ed="#V" n="17"/>CIrca litteram. Uxorem virginem 
-      <lb ed="#V" n="18"/>ducere ecclestia 
-      ro<lb ed="#V" n="19" break="no"/>mana permittit. Hoc intelligendum est sub conditione: 
-      <lb ed="#V" n="20"/>rioin de cerero ictos udines dnone i 
-      <lb ed="#V" n="21"/>alias est eis licitum ducetr viduam. Gladium non habet nisi 
-      spiritua<lb ed="#V" n="22" break="no"/>lem.
-   </p>
-            <p xml:id="kzz7yh-k121031-d1e119">
-      ¶ Contra. Luce 22 dicitur. Ecce gladii duo hic. At ille 
-      <lb ed="#V" n="23"/>dixit eis. Satis est
-   </p>
-            <p xml:id="kzz7yh-k121031-d1e124">
-      ¶ Item Bernardus quarto libro de 
-      consi<lb ed="#V" n="24" break="no"/>deratione. ad Euge. c. 6 Ecclie est gladius spiritualis: et materialis. 
-   </p>
-            <p xml:id="kzz7yh-k121031-d1e129">
-               <lb ed="#V" n="25"/>¶ Respondeo quod vtrumque gladium habet ecclesia: sed sicut dicit Ber 
-      <lb ed="#V" n="26"/>nar. vbi prius. materialis e exercendus pro ecclstia militis 
-      manu<lb ed="#V" n="27" break="no"/>ad nutum sacerdotis et iussum imparatoris: spiritualis vero est 
-      ab<lb ed="#V" n="28" break="no"/>ecclesia exercendus. magister autem non loquitur nisi de 
-      <lb ed="#V" n="29"/>gladio ab ecclesia extrahendo. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="167-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k121031"><!-- l4d37cl -->
+        <head xml:id="kzz7yh-k121031-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-k121031-d1e103">
+          <lb ed="#V" n="17"/>CIrca litteram. Uxorem virginem 
+          <lb ed="#V" n="18"/>ducere ecclestia 
+          ro<lb ed="#V" n="19" break="no"/>mana permittit. Hoc intelligendum est sub conditione: 
+          <lb ed="#V" n="20"/>rioin de cerero ictos udines dnone i 
+          <lb ed="#V" n="21"/>alias est eis licitum ducetr viduam. Gladium non habet nisi 
+          spiritua<lb ed="#V" n="22" break="no"/>lem.
+        </p>
+        <p xml:id="kzz7yh-k121031-d1e119">
+          ¶ Contra. Luce 22 dicitur. Ecce gladii duo hic. At ille 
+          <lb ed="#V" n="23"/>dixit eis. Satis est
+        </p>
+        <p xml:id="kzz7yh-k121031-d1e124">
+          ¶ Item Bernardus quarto libro de 
+          consi<lb ed="#V" n="24" break="no"/>deratione. ad Euge. c. 6 Ecclie est gladius spiritualis: et materialis. 
+        </p>
+        <p xml:id="kzz7yh-k121031-d1e129">
+          <lb ed="#V" n="25"/>¶ Respondeo quod vtrumque gladium habet ecclesia: sed sicut dicit Ber 
+          <lb ed="#V" n="26"/>nar. vbi prius. materialis e exercendus pro ecclstia militis 
+          manu<lb ed="#V" n="27" break="no"/>ad nutum sacerdotis et iussum imparatoris: spiritualis vero est 
+          ab<lb ed="#V" n="28" break="no"/>ecclesia exercendus. magister autem non loquitur nisi de 
+          <lb ed="#V" n="29"/>gladio ab ecclesia extrahendo. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

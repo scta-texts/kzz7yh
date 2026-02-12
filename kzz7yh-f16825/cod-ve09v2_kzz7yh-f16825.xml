@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="23-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f16825"><!-- l2d4cl -->
-            <head xml:id="kzz7yh-f16825-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-f16825-d1e103">
-               <lb ed="#V" n="95"/>CIrca litteram nec in beatitudine: 
-      <lb ed="#V" n="96"/>nec in miseria 
-      crea<lb ed="#V" n="97" break="no"/>ti sunt. Loquendo de beatitudine que consistit in 
-      <lb ed="#V" n="98"/>clara dei visione: et perfecta fruitione: et tentionis 
-      <lb ed="#V" n="99"/>securitate. Sed fuerunt creati in natura recte instituta: 
-      <lb ed="#V" n="100"/>et in quadam delectatione: ex hoc quod cognouerunt se esse 
-      <lb ed="#V" n="101"/>viuere: et intelligere: et naturaliter se et deum amauerunt. 
-      <lb ed="#V" n="102"/>Beati quoque nunquam fuerunt illi qui ceciderunt: quia sui 
-      <lb ed="#V" n="103"/>euentus ignari fuerunt. idest peccati et supplicii futuri: quod 
-      <lb ed="#V" n="104"/>non est sic intelligendum quod si presciuissent suum 
-      pecca<lb ed="#V" n="105" break="no"/>tum et supplicium futurum minus miseri fuissent. Sed 
-      <lb ed="#V" n="106"/>quia vera beatitudo non potest esse cum ignorantia 
-      nun<lb ed="#V" n="107" break="no"/>quam future damnationis. Unde Glosilmus est sic: quia fuerunt 
-      <lb ed="#V" n="108"/>ignari supplicii futuri et peccati id est quia non fuerut certi se 
-      nun<lb ed="#V" n="109" break="no"/>quam habituros supplicium et peccatum. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="23-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f16825"><!-- l2d4cl -->
+        <head xml:id="kzz7yh-f16825-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-f16825-d1e103">
+          <lb ed="#V" n="95"/>CIrca litteram nec in beatitudine: 
+          <lb ed="#V" n="96"/>nec in miseria 
+          crea<lb ed="#V" n="97" break="no"/>ti sunt. Loquendo de beatitudine que consistit in 
+          <lb ed="#V" n="98"/>clara dei visione: et perfecta fruitione: et tentionis 
+          <lb ed="#V" n="99"/>securitate. Sed fuerunt creati in natura recte instituta: 
+          <lb ed="#V" n="100"/>et in quadam delectatione: ex hoc quod cognouerunt se esse 
+          <lb ed="#V" n="101"/>viuere: et intelligere: et naturaliter se et deum amauerunt. 
+          <lb ed="#V" n="102"/>Beati quoque nunquam fuerunt illi qui ceciderunt: quia sui 
+          <lb ed="#V" n="103"/>euentus ignari fuerunt. idest peccati et supplicii futuri: quod 
+          <lb ed="#V" n="104"/>non est sic intelligendum quod si presciuissent suum 
+          pecca<lb ed="#V" n="105" break="no"/>tum et supplicium futurum minus miseri fuissent. Sed 
+          <lb ed="#V" n="106"/>quia vera beatitudo non potest esse cum ignorantia 
+          nun<lb ed="#V" n="107" break="no"/>quam future damnationis. Unde Glosilmus est sic: quia fuerunt 
+          <lb ed="#V" n="108"/>ignari supplicii futuri et peccati id est quia non fuerut certi se 
+          nun<lb ed="#V" n="109" break="no"/>quam habituros supplicium et peccatum. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="80-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f57526"><!-- l2d19cl -->
-            <head xml:id="kzz7yh-f57526-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-f57526-d1e103">
-               <lb ed="#V" n="7"/>CIrca litteram. Tunc erat corpus 
-      <lb ed="#V" n="8"/>mortale et 
-      immorta<lb ed="#V" n="9" break="no"/>le nec hoc erat inconueniens: quia ibi accipitur 
-      immorta<lb ed="#V" n="10" break="no"/>le non pro non posse mori: quia sic mortale et 
-      immor<lb ed="#V" n="11" break="no"/>tale opposita sunt. Sed pro posse non mori: et sic mortale 
-      <lb ed="#V" n="12"/>et immortale non opponitur. Corpus mortuum est propter 
-      pec<lb ed="#V" n="13" break="no"/>catum id est necessitatem habet moriendi. Per horum edulium: hoc et 
-      <lb ed="#V" n="14"/>hiec edulis: et hoc edule est cibus habilis ad edendum: et non 
-      <lb ed="#V" n="15"/>dicitur hac edulium. Sumeret de ligno vite quo perfecte immortalis 
-      <lb ed="#V" n="16"/>factus cibi alimenta non vlterius requiereret: et forte ibi accipit 
-      li<lb ed="#V" n="17" break="no"/>gnum vite: pro ligno vite paradisi celestis: quia corporalis esus 
-      <lb ed="#V" n="18"/>ligni vite semel sumpti non potuisset corpus hominis 
-      fa<lb ed="#V" n="19" break="no"/>cere immortale illa immortalitate que vlterius cibi alimenta 
-      <lb ed="#V" n="20"/>non requereret. Uel potest dici quod si ibi loqutur de corporali 
-      esu<lb ed="#V" n="21" break="no"/>ligni vite: tunc dicendum est: quod per illum esum fuisset conseruatus 
-      <lb ed="#V" n="22"/>in bona corporis dispositione quousque fuisset translatus ad 
-      im<lb ed="#V" n="23" break="no"/>mortalitatem glorie in qua sibi alimenta vlterius non 
-      requere<lb ed="#V" n="24" break="no"/>ret: vsque ad tempus sue translationis. Utrum autem deus homines in 
-      <lb ed="#V" n="25"/>statu innocentie transtulisset successiue ad immortalitatem 
-      glo<lb ed="#V" n="26" break="no"/>rie: autem expectasset quousque esset impletus numerus 
-      ele<lb ed="#V" n="27" break="no"/>ctorum: et tuc omnes simul transtulisset: dubium est: videtur tamen 
-      proba<lb ed="#V" n="28" break="no"/>bilius quod translati fuissent successiue: quia simul omnes in 
-      <lb ed="#V" n="29"/>terrestri paradiso manere non potuissent. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="80-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f57526"><!-- l2d19cl -->
+        <head xml:id="kzz7yh-f57526-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-f57526-d1e103">
+          <lb ed="#V" n="7"/>CIrca litteram. Tunc erat corpus 
+          <lb ed="#V" n="8"/>mortale et 
+          immorta<lb ed="#V" n="9" break="no"/>le nec hoc erat inconueniens: quia ibi accipitur 
+          immorta<lb ed="#V" n="10" break="no"/>le non pro non posse mori: quia sic mortale et 
+          immor<lb ed="#V" n="11" break="no"/>tale opposita sunt. Sed pro posse non mori: et sic mortale 
+          <lb ed="#V" n="12"/>et immortale non opponitur. Corpus mortuum est propter 
+          pec<lb ed="#V" n="13" break="no"/>catum id est necessitatem habet moriendi. Per horum edulium: hoc et 
+          <lb ed="#V" n="14"/>hiec edulis: et hoc edule est cibus habilis ad edendum: et non 
+          <lb ed="#V" n="15"/>dicitur hac edulium. Sumeret de ligno vite quo perfecte immortalis 
+          <lb ed="#V" n="16"/>factus cibi alimenta non vlterius requiereret: et forte ibi accipit 
+          li<lb ed="#V" n="17" break="no"/>gnum vite: pro ligno vite paradisi celestis: quia corporalis esus 
+          <lb ed="#V" n="18"/>ligni vite semel sumpti non potuisset corpus hominis 
+          fa<lb ed="#V" n="19" break="no"/>cere immortale illa immortalitate que vlterius cibi alimenta 
+          <lb ed="#V" n="20"/>non requereret. Uel potest dici quod si ibi loqutur de corporali 
+          esu<lb ed="#V" n="21" break="no"/>ligni vite: tunc dicendum est: quod per illum esum fuisset conseruatus 
+          <lb ed="#V" n="22"/>in bona corporis dispositione quousque fuisset translatus ad 
+          im<lb ed="#V" n="23" break="no"/>mortalitatem glorie in qua sibi alimenta vlterius non 
+          requere<lb ed="#V" n="24" break="no"/>ret: vsque ad tempus sue translationis. Utrum autem deus homines in 
+          <lb ed="#V" n="25"/>statu innocentie transtulisset successiue ad immortalitatem 
+          glo<lb ed="#V" n="26" break="no"/>rie: autem expectasset quousque esset impletus numerus 
+          ele<lb ed="#V" n="27" break="no"/>ctorum: et tuc omnes simul transtulisset: dubium est: videtur tamen 
+          proba<lb ed="#V" n="28" break="no"/>bilius quod translati fuissent successiue: quia simul omnes in 
+          <lb ed="#V" n="29"/>terrestri paradiso manere non potuissent. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

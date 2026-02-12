@@ -1,100 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="90-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f64843"><!-- l2d22cl -->
-            <head xml:id="kzz7yh-f64843-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-f64843-d1e103">
-               <lb ed="#V" n="113"/>CIrca litteram voluit habere  
-      similitu<lb ed="#V" n="114" break="no"/>dinem dei cum 
-      equa<lb ed="#V" n="115" break="no"/>litate quadam.
-   </p>
-            <p xml:id="kzz7yh-f64843-d1e112">
-      ¶ Contra non potest appeti: quod non 
-      <lb ed="#V" n="116"/>potest cogitari. Sed perfectio dei totaliter a 
-      crea<lb ed="#V" n="117" break="no"/>tura cogitari non potest: ergo mulier non potuit appetere deo equari. 
-   </p>
-            <p xml:id="kzz7yh-f64843-d1e119">
-               <lb ed="#V" n="118"/>¶ Respondeo quod sicut potest cogitari ita appeti: cogitari potest secundum 
-      <lb ed="#V" n="119"/>quid et appeti secundum quid. Uel potet cogitari aliquid quod non potest 
-      com<lb ed="#V" n="120" break="no"/>uenire nisi soli deo et in creatura appetendo illud appetit 
-      <lb ed="#V" n="121"/>equari deo per accidens. Commissum veniale putauit quod 
-      per<lb ed="#V" n="122" break="no"/>emptorium erat: hoc non accipitur veniale prout distinguitur 
-      con<lb ed="#V" n="123" break="no"/>tra mortale: sed pro mortali de quae inter alia facilius habetur venia 
-      <lb ed="#V" n="124"/>nimia praesumptione elata: credidit ita esse futurum nec ex hoc 
-      <lb ed="#V" n="125"/>sequitur quod error precesserit primum eius peccatum: sed 
-      comestio<lb ed="#V" n="126" break="no"/>nis actu: arbitratus illud esse veniale non mortale delictum id est 
-      <lb ed="#V" n="127"/>non credebat illud delictum sibi inducere neceslitatem 
-      morien<lb ed="#V" n="128" break="no"/>di: et in haec fuit deceptus minus peccauit: qui de penitentia et de 
-      <lb ed="#V" n="129"/>dei misericordia cogitauit: minus enim peccat: qui peccando 
-      pe<lb ed="#V" n="130" break="no"/>nitere proponit: et dei misericordiam per penitentiam 
-      consequi<lb ed="#V" n="131" break="no"/>sperat quoam qui penitere non proponit: nec est mulier confitetur 
-      <lb ed="#V" n="132"/>peccatu: vt scilicet sicut debuisset: quia confessa fuit factum: sed 
-      co<lb ed="#V" n="133" break="no"/>nabatur excusare factum suum a culpabilitate: grauius est 
-      in<lb ed="#V" n="134" break="no"/>firmitate peccare: quam ignorantia: quia ceteris paribus plus 
-      <lb ed="#V" n="135"/>excusat ignorantia quam infirmitas: quia plus tollit de ratio 
-      <lb ed="#V" n="136"/>ne voluntarim: tollit enim cogitationem particularium circa que 
-      <!--00195.xml-->
-      <pb ed="#V" n="91-r"/>
-               <cb ed="#P" n="a"/>
-               <lb ed="#V" n="1"/>consistit oprotmo bona vel mala. Infirmitas vero diminuit de 
-      mo<lb ed="#V" n="2" break="no"/>tu proprio voluntatis qui sibi debetur sub ratione qua libera: non tamen 
-      to<lb ed="#V" n="3" break="no"/>taliter tollit: potest tamen esse tanta infirmitas et ignorantia tam perua: et tam 
-      vo<lb ed="#V" n="4" break="no"/>luntaria quod plus excusaret infirmitas quam ignorantia. In alio 
-      <lb ed="#V" n="5"/>causa extitit: vt fieret deterior ibi accipitur causa pro occasione. 
-      In<lb ed="#V" n="6" break="no"/>ipsa enim fuit causa: et in alio occasio. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="90-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f64843"><!-- l2d22cl -->
+        <head xml:id="kzz7yh-f64843-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-f64843-d1e103">
+          <lb ed="#V" n="113"/>CIrca litteram voluit habere  
+          similitu<lb ed="#V" n="114" break="no"/>dinem dei cum 
+          equa<lb ed="#V" n="115" break="no"/>litate quadam.
+        </p>
+        <p xml:id="kzz7yh-f64843-d1e112">
+          ¶ Contra non potest appeti: quod non 
+          <lb ed="#V" n="116"/>potest cogitari. Sed perfectio dei totaliter a 
+          crea<lb ed="#V" n="117" break="no"/>tura cogitari non potest: ergo mulier non potuit appetere deo equari. 
+        </p>
+        <p xml:id="kzz7yh-f64843-d1e119">
+          <lb ed="#V" n="118"/>¶ Respondeo quod sicut potest cogitari ita appeti: cogitari potest secundum 
+          <lb ed="#V" n="119"/>quid et appeti secundum quid. Uel potet cogitari aliquid quod non potest 
+          com<lb ed="#V" n="120" break="no"/>uenire nisi soli deo et in creatura appetendo illud appetit 
+          <lb ed="#V" n="121"/>equari deo per accidens. Commissum veniale putauit quod 
+          per<lb ed="#V" n="122" break="no"/>emptorium erat: hoc non accipitur veniale prout distinguitur 
+          con<lb ed="#V" n="123" break="no"/>tra mortale: sed pro mortali de quae inter alia facilius habetur venia 
+          <lb ed="#V" n="124"/>nimia praesumptione elata: credidit ita esse futurum nec ex hoc 
+          <lb ed="#V" n="125"/>sequitur quod error precesserit primum eius peccatum: sed 
+          comestio<lb ed="#V" n="126" break="no"/>nis actu: arbitratus illud esse veniale non mortale delictum id est 
+          <lb ed="#V" n="127"/>non credebat illud delictum sibi inducere neceslitatem 
+          morien<lb ed="#V" n="128" break="no"/>di: et in haec fuit deceptus minus peccauit: qui de penitentia et de 
+          <lb ed="#V" n="129"/>dei misericordia cogitauit: minus enim peccat: qui peccando 
+          pe<lb ed="#V" n="130" break="no"/>nitere proponit: et dei misericordiam per penitentiam 
+          consequi<lb ed="#V" n="131" break="no"/>sperat quoam qui penitere non proponit: nec est mulier confitetur 
+          <lb ed="#V" n="132"/>peccatu: vt scilicet sicut debuisset: quia confessa fuit factum: sed 
+          co<lb ed="#V" n="133" break="no"/>nabatur excusare factum suum a culpabilitate: grauius est 
+          in<lb ed="#V" n="134" break="no"/>firmitate peccare: quam ignorantia: quia ceteris paribus plus 
+          <lb ed="#V" n="135"/>excusat ignorantia quam infirmitas: quia plus tollit de ratio 
+          <lb ed="#V" n="136"/>ne voluntarim: tollit enim cogitationem particularium circa que 
+          <!--00195.xml-->
+          <pb ed="#V" n="91-r"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#V" n="1"/>consistit oprotmo bona vel mala. Infirmitas vero diminuit de 
+          mo<lb ed="#V" n="2" break="no"/>tu proprio voluntatis qui sibi debetur sub ratione qua libera: non tamen 
+          to<lb ed="#V" n="3" break="no"/>taliter tollit: potest tamen esse tanta infirmitas et ignorantia tam perua: et tam 
+          vo<lb ed="#V" n="4" break="no"/>luntaria quod plus excusaret infirmitas quam ignorantia. In alio 
+          <lb ed="#V" n="5"/>causa extitit: vt fieret deterior ibi accipitur causa pro occasione. 
+          In<lb ed="#V" n="6" break="no"/>ipsa enim fuit causa: et in alio occasio. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

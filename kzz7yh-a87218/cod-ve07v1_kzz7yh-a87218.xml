@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="127-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a87218"><!-- l1d40cl -->
-            <head xml:id="kzz7yh-a87218-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-a87218-d1e103">
-               <lb ed="#V" n="16"/>Circa litteram (predestinatio est hominis salutaribus) 
-      <lb ed="#V" n="17"/>est enim de hominibus tanquam de rebus 
-      sal<lb ed="#V" n="18" break="no"/>uandis et est respectu finalis gratie tanquam rei per 
-      <lb ed="#V" n="19"/>quam predestinati ordinantur in salutem: et est respectu 
-      <lb ed="#V" n="20"/>perpetue glorie tanquam rei ad quam consequendam praedestinati sunt 
-      <lb ed="#V" n="21"/>ordinati. (Intelligentia conditionis implicite veritatem facit 
-      <lb ed="#V" n="22"/>in dicto:) sed in isto dicto istum damnari est impossibile: quia 
-      ve<lb ed="#V" n="23" break="no"/>rum est implicando hanc conditionem si est predestinatus. Et 
-      <lb ed="#V" n="24"/>impossibilitatem in vero in isto scilicet illum damnari est possibile: 
-      <lb ed="#V" n="25"/>quia includendo hanc conditionem si est praedestinatus iam est 
-      im<lb ed="#V" n="26" break="no"/>possibile. (Quod in actionibus vel in compositionibus dei et 
-      ho<lb ed="#V" n="27" break="no"/>minum nullatenus excedunt: actiones enim et operationes dei 
-      <lb ed="#V" n="28"/>et hominum vocat actiones vel operationes: que sunt a deo per 
-      <lb ed="#V" n="29"/>hominem que actiones in preteritum transeunt. (Effectus 
-      pre<lb ed="#V" n="30" break="no"/>destinationis est gratiae appositio). Predestinatio tamen est causa 
-      gra<lb ed="#V" n="31" break="no"/>tie inhitu non in actu et ideo non opetet quod statim cum fuit 
-      <lb ed="#V" n="32"/>predestinatio fuerit gratia in predestinato. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="127-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a87218"><!-- l1d40cl -->
+        <head xml:id="kzz7yh-a87218-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-a87218-d1e103">
+          <lb ed="#V" n="16"/>Circa litteram (predestinatio est hominis salutaribus) 
+          <lb ed="#V" n="17"/>est enim de hominibus tanquam de rebus 
+          sal<lb ed="#V" n="18" break="no"/>uandis et est respectu finalis gratie tanquam rei per 
+          <lb ed="#V" n="19"/>quam predestinati ordinantur in salutem: et est respectu 
+          <lb ed="#V" n="20"/>perpetue glorie tanquam rei ad quam consequendam praedestinati sunt 
+          <lb ed="#V" n="21"/>ordinati. (Intelligentia conditionis implicite veritatem facit 
+          <lb ed="#V" n="22"/>in dicto:) sed in isto dicto istum damnari est impossibile: quia 
+          ve<lb ed="#V" n="23" break="no"/>rum est implicando hanc conditionem si est predestinatus. Et 
+          <lb ed="#V" n="24"/>impossibilitatem in vero in isto scilicet illum damnari est possibile: 
+          <lb ed="#V" n="25"/>quia includendo hanc conditionem si est praedestinatus iam est 
+          im<lb ed="#V" n="26" break="no"/>possibile. (Quod in actionibus vel in compositionibus dei et 
+          ho<lb ed="#V" n="27" break="no"/>minum nullatenus excedunt: actiones enim et operationes dei 
+          <lb ed="#V" n="28"/>et hominum vocat actiones vel operationes: que sunt a deo per 
+          <lb ed="#V" n="29"/>hominem que actiones in preteritum transeunt. (Effectus 
+          pre<lb ed="#V" n="30" break="no"/>destinationis est gratiae appositio). Predestinatio tamen est causa 
+          gra<lb ed="#V" n="31" break="no"/>tie inhitu non in actu et ideo non opetet quod statim cum fuit 
+          <lb ed="#V" n="32"/>predestinatio fuerit gratia in predestinato. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

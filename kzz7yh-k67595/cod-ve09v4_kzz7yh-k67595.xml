@@ -1,412 +1,412 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 3</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 3</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="94-r"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 3</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 3</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="94-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k67595"><!-- l4d18a3 -->
+        <head xml:id="kzz7yh-k67595-Hd1e101">Articulus 3</head>
+        <p xml:id="kzz7yh-k67595-d1e103">
+          Di. 3IIII 
+        </p>
+        <p xml:id="kzz7yh-k67595-d1e105">
+          <lb ed="#V" n="58"/>COnsequenter queritur de tertio 
+          <lb ed="#V" n="59"/>principali.
+        </p>
+        <p xml:id="kzz7yh-k67595-d1e112">
+          ¶ Et 
+          <lb ed="#V" n="60"/>circa hoc queruntur. 5
+        </p>
+        <p xml:id="kzz7yh-k67595-d1e117">
+          ¶ Primo vtrum 
+          ali<lb ed="#V" n="61" break="no"/>quis debeat excommunicari.
+        </p>
+        <p xml:id="kzz7yh-k67595-d1e123">
+          ¶ Secundo vtrum 
+          <lb ed="#V" n="62"/>pro solo peccato mortali.
+        </p>
+        <p xml:id="kzz7yh-k67595-d1e128">
+          ¶ Tertio vtrum vxor pro 
+          pec<lb ed="#V" n="63" break="no"/>cato mariti.
+        </p>
+        <p xml:id="kzz7yh-k67595-d1e133">
+          ¶ Quarto vtrum dominus pro peccato 
+          sub<lb ed="#V" n="64" break="no"/>ditorum
+        </p>
+        <p xml:id="kzz7yh-k67595-d1e138">
+          ¶ Quinto vtrum excommunicatus iniuste de 
+          <lb ed="#V" n="65"/>beat excommunicatus reputari. 
+        </p>
+        <div xml:id="kzz7yh-k67595-Dd1e143">
+          <head xml:id="kzz7yh-k67595-Hd1e145">Quaestio 1</head>
+          <p xml:id="kzz7yh-k67595-d1e147">
+            Quaestio 1 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e149">
+            <lb ed="#V" n="66"/>PRimo ostendo quod nullus dicitur 
+            excomnicari<lb ed="#V" n="67" break="no"/>quia per excommunicationem traditur 
+            <lb ed="#V" n="68"/>homo sathane in interitum carnis vt habtur. 1. Cor. 5. 
+            <!--00219.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>Sed nullus dicitut tradi sathane: de quo non est desperandum. 
+            <lb ed="#V" n="70"/>Cum ergo de nemine desperandum sit in via: secundum Aug. primo 
+            <lb ed="#V" n="71"/>libo retract. c. 18 nullus debet excommunicari.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e169">
+            ¶ Item in epitura 
+            It<lb ed="#V" n="72" break="no"/>de dicitur cum Michael archangelus cum diabolo disputant 
+            <lb ed="#V" n="73"/>altercaretur de Moysi corpore: non est ausus iudiciu 
+            infer<lb ed="#V" n="74" break="no"/>re blasphemie: sed dixit: imperet tibi dominus: sed ecclesia 
+            mili<lb ed="#V" n="75" break="no"/>tans debet se conformare triumphanti: ergo nulli debet 
+            maledi<lb ed="#V" n="76" break="no"/>ctionem excommunicationis inferri.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e182">
+            ¶ Item qualibet homo 
+            aui<lb ed="#V" n="77" break="no"/>est iustus: aut iniustus: si iustus excommunicari non debet: 
+            <lb ed="#V" n="78"/>nec iniustus: quia medicina sacramentorum indiget: 
+            er<lb ed="#V" n="79" break="no"/>go nullus debet excommunicari. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e192">
+            <lb ed="#V" n="80"/>Contra vt habetur I ad Cor. 5 apostolus mandauit 
+            quen<lb ed="#V" n="81" break="no"/>dam turpem fornicationem extra 
+            commu<lb ed="#V" n="82" break="no"/>nionem fidelium poni.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e201">
+            ¶ Item princeps debet vti gladio 
+            tem<lb ed="#V" n="83" break="no"/>porali ad correctionem malorum: ergo a simili prelatus 
+            de<lb ed="#V" n="84" break="no"/>bet vti gladio spirituali ad correctionem malorum: sed gladius 
+            <lb ed="#V" n="85"/>spiritualis est potestas excommunicandi: ergo quandoque debet 
+            excom<lb ed="#V" n="86" break="no"/>municare malos vt corrigantur. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e212">
+            <lb ed="#V" n="87"/>Respondeo excommunicatio est a communione 
+            <lb ed="#V" n="88"/>ecclesie separatio. xi. q. 3. Nihit: 
+            <lb ed="#V" n="89"/>sed quandoque debet homo a communione ecclesie separari: quia 
+            ali<lb ed="#V" n="90" break="no"/>quando sibi expedit: vt scilicet erubescens et fatigatus excitetur et 
+            <lb ed="#V" n="91"/>inclinetur ad se corrigendum per poenitentiam: quia etiam permanente 
+            <lb ed="#V" n="92"/>malitia communio sacramentorum non esset sibi vtilis sed 
+            no<lb ed="#V" n="93" break="no"/>ciua: est etiam quandoque vtile communitati fidelium: vt scilicet ex timo 
+            <lb ed="#V" n="94"/>re pene illius alii peccare timeant: et ne peruersus alios 
+            insi<lb ed="#V" n="95" break="no"/>cere possit 24. q. 3. Resecande: vbi dicitur sic: secande sunt 
+            pu<lb ed="#V" n="96" break="no"/>tride carnes: et scabiosa ouis a caulis repellenda: ne tota 
+            <lb ed="#V" n="97"/>domus massa corpus et pecora ardeat: corrumpatur: 
+            putre<lb ed="#V" n="98" break="no"/>scat et intereat: aliquando ergo debet homo excommunicari. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e241">
+            <lb ed="#V" n="99"/>Ad primum in oppositum dicendum quod ibi diet 
+            accipi<lb ed="#V" n="100" break="no"/>interitus pro flagellatione 
+            tempo<lb ed="#V" n="101" break="no"/>rali ordinata ad corruptionem.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e250">
+            ¶ Ad secundum dicendum quod non 
+            <lb ed="#V" n="102"/>valet: quia diabolus est incorrigibilis: homo non: et quamdit 
+            <lb ed="#V" n="103"/>est in via.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e257">
+            ¶ Ad tertium dicendum quod sicut medicina 
+            indisposi<lb ed="#V" n="104" break="no"/>tum non iuuat: sed sibi nocet quamuis sit vtilis disposito: sic 
+            <lb ed="#V" n="105"/>communio sacramentorum non iuuat indispositum sed 
+            volen<lb ed="#V" n="106" break="no"/>ti se disponere vtilis est. 2tet 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k67595-Dd1e267">
+          <head xml:id="kzz7yh-k67595-Hd1e269">Quaestio 2</head>
+          <p xml:id="kzz7yh-k67595-d1e271">
+            Quaestio
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e273">
+            <lb ed="#V" n="107"/>SEcundo queritur vtrum aliquis debeat 
+            <lb ed="#V" n="108"/>excommunicari pro solo peccato 
+            mor<lb ed="#V" n="109" break="no"/>tali. Et videtur quod non: quia quandoque excommunicaur 
+            inno<lb ed="#V" n="110" break="no"/>cens cum probatur crimen contumacie contra ipsum in 
+            <lb ed="#V" n="111"/>foro iudicii: nec tamen iudex hoc faciens reprehenditur: quamuis 
+            <lb ed="#V" n="112"/>in sua conscientia sciat illum innocentem: ergo aliquando debet 
+            homo<lb ed="#V" n="113" break="no"/>excommunicari non pro peccato mortali.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e291">
+            ¶ Item 
+            medicina<lb ed="#V" n="114" break="no"/>non tantum est ad curandum morbum: sed ad praeseruandum a 
+            mor<lb ed="#V" n="115" break="no"/>bo: ergo cum excommunicatio sit medicinalis: vt habetur 
+            <lb ed="#V" n="116"/>extra de sententia excom. Cum medicinalis: non tantummodo 
+            <lb ed="#V" n="117"/>debet ferri ad curandum peccatum mortale: sed etiam 
+            pro<lb ed="#V" n="118" break="no"/>prter periculum mortalis peccati 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e304">
+            <lb ed="#V" n="119"/>Contra extra de verborum signi. Ex pirte in gid. 
+            me<lb ed="#V" n="120" break="no"/>mo excommunicatur nisi pro mortali: quia aliter non 
+            <lb ed="#V" n="121"/>potest corrigi.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e314">
+            ¶ Item. xi. q. 3. Nemo enim: dicitur quod ana 
+            <lb ed="#V" n="122"/>thema non nisi pro mortali debet imponi crimine: et illis 
+            <lb ed="#V" n="123"/>qui aliter non potuerint corrigi. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e321">
+            <lb ed="#V" n="124"/>Respondeo quod excomncatio maior est grauisfima 
+            <lb ed="#V" n="125"/>pena quam ecclesia possit inferre. 
+            <lb ed="#V" n="126"/>Uude dicit decre. c. immediate praeallegato quod anathema est 
+            <lb ed="#V" n="127"/>eterne mortis damnatio: et 24. q. 3. Corripiantur: dicitur quod 
+            exi<lb ed="#V" n="128" break="no"/>communicatione nulla maior est pena in ecclesia. Et ideo dicit 
+            <lb ed="#V" n="129"/>gl. ibidem: quod non est infligenda pro leuibus criminibus. 
+            <lb ed="#V" n="130"/>Unde dicendum quod iudex nullum debet excommunicare nisi pro 
+            mor<lb ed="#V" n="131" break="no"/>tali peccato: nec pro quocumque mortali: sed pro peccato contum 
+            <lb ed="#V" n="132"/>macie: vel cui contumacia est annexa. xi. q. 3. Absit: quadrum 
+            <lb ed="#V" n="133"/>pliciter autem homo peccatum contumacie incurrit scilicet autem quando 
+            <lb ed="#V" n="134"/>sufficienter vocatus ad iudicium non venit nec 
+            remanen<lb ed="#V" n="135" break="no"/>di habet legitimam causam 24. q. 3. De illicita. Aut veniens 
+            re<lb ed="#V" n="136" break="no"/>spondere contennit: et rationem pretendere quare respondere 
+            <!--00220.xml-->
+            <pb ed="#V" n="94-v"/>
             <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k67595"><!-- l4d18a3 -->
-            <head xml:id="kzz7yh-k67595-Hd1e101">Articulus 3</head>
-            <p xml:id="kzz7yh-k67595-d1e103">
-     Di. 3IIII 
-    </p>
-            <p xml:id="kzz7yh-k67595-d1e105">
-               <lb ed="#V" n="58"/>COnsequenter queritur de tertio 
-      <lb ed="#V" n="59"/>principali.
-   </p>
-            <p xml:id="kzz7yh-k67595-d1e112">
-      ¶ Et 
-      <lb ed="#V" n="60"/>circa hoc queruntur. 5
-   </p>
-            <p xml:id="kzz7yh-k67595-d1e117">
-      ¶ Primo vtrum 
-      ali<lb ed="#V" n="61" break="no"/>quis debeat excommunicari.
-   </p>
-            <p xml:id="kzz7yh-k67595-d1e123">
-      ¶ Secundo vtrum 
-      <lb ed="#V" n="62"/>pro solo peccato mortali.
-   </p>
-            <p xml:id="kzz7yh-k67595-d1e128">
-      ¶ Tertio vtrum vxor pro 
-      pec<lb ed="#V" n="63" break="no"/>cato mariti.
-   </p>
-            <p xml:id="kzz7yh-k67595-d1e133">
-      ¶ Quarto vtrum dominus pro peccato 
-      sub<lb ed="#V" n="64" break="no"/>ditorum
-   </p>
-            <p xml:id="kzz7yh-k67595-d1e138">
-      ¶ Quinto vtrum excommunicatus iniuste de 
-      <lb ed="#V" n="65"/>beat excommunicatus reputari. 
-   </p>
-            <div xml:id="kzz7yh-k67595-Dd1e143">
-               <head xml:id="kzz7yh-k67595-Hd1e145">Quaestio 1</head>
-               <p xml:id="kzz7yh-k67595-d1e147">
-      Quaestio 1 
-    </p>
-               <p xml:id="kzz7yh-k67595-d1e149">
-                  <lb ed="#V" n="66"/>PRimo ostendo quod nullus dicitur 
-      excomnicari<lb ed="#V" n="67" break="no"/>quia per excommunicationem traditur 
-      <lb ed="#V" n="68"/>homo sathane in interitum carnis vt habtur. 1. Cor. 5. 
-      <!--00219.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>Sed nullus dicitut tradi sathane: de quo non est desperandum. 
-      <lb ed="#V" n="70"/>Cum ergo de nemine desperandum sit in via: secundum Aug. primo 
-      <lb ed="#V" n="71"/>libo retract. c. 18 nullus debet excommunicari.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e169">
-      ¶ Item in epitura 
-      It<lb ed="#V" n="72" break="no"/>de dicitur cum Michael archangelus cum diabolo disputant 
-      <lb ed="#V" n="73"/>altercaretur de Moysi corpore: non est ausus iudiciu 
-      infer<lb ed="#V" n="74" break="no"/>re blasphemie: sed dixit: imperet tibi dominus: sed ecclesia 
-      mili<lb ed="#V" n="75" break="no"/>tans debet se conformare triumphanti: ergo nulli debet 
-      maledi<lb ed="#V" n="76" break="no"/>ctionem excommunicationis inferri.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e182">
-      ¶ Item qualibet homo 
-      aui<lb ed="#V" n="77" break="no"/>est iustus: aut iniustus: si iustus excommunicari non debet: 
-      <lb ed="#V" n="78"/>nec iniustus: quia medicina sacramentorum indiget: 
-      er<lb ed="#V" n="79" break="no"/>go nullus debet excommunicari. 
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e192">
-                  <lb ed="#V" n="80"/>Contra vt habetur I ad Cor. 5 apostolus mandauit 
-      quen<lb ed="#V" n="81" break="no"/>dam turpem fornicationem extra 
-      commu<lb ed="#V" n="82" break="no"/>nionem fidelium poni.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e201">
-      ¶ Item princeps debet vti gladio 
-      tem<lb ed="#V" n="83" break="no"/>porali ad correctionem malorum: ergo a simili prelatus 
-      de<lb ed="#V" n="84" break="no"/>bet vti gladio spirituali ad correctionem malorum: sed gladius 
-      <lb ed="#V" n="85"/>spiritualis est potestas excommunicandi: ergo quandoque debet 
-      excom<lb ed="#V" n="86" break="no"/>municare malos vt corrigantur. 
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e212">
-                  <lb ed="#V" n="87"/>Respondeo excommunicatio est a communione 
-      <lb ed="#V" n="88"/>ecclesie separatio. xi. q. 3. Nihit: 
-      <lb ed="#V" n="89"/>sed quandoque debet homo a communione ecclesie separari: quia 
-      ali<lb ed="#V" n="90" break="no"/>quando sibi expedit: vt scilicet erubescens et fatigatus excitetur et 
-      <lb ed="#V" n="91"/>inclinetur ad se corrigendum per poenitentiam: quia etiam permanente 
-      <lb ed="#V" n="92"/>malitia communio sacramentorum non esset sibi vtilis sed 
-      no<lb ed="#V" n="93" break="no"/>ciua: est etiam quandoque vtile communitati fidelium: vt scilicet ex timo 
-      <lb ed="#V" n="94"/>re pene illius alii peccare timeant: et ne peruersus alios 
-      insi<lb ed="#V" n="95" break="no"/>cere possit 24. q. 3. Resecande: vbi dicitur sic: secande sunt 
-      pu<lb ed="#V" n="96" break="no"/>tride carnes: et scabiosa ouis a caulis repellenda: ne tota 
-      <lb ed="#V" n="97"/>domus massa corpus et pecora ardeat: corrumpatur: 
-      putre<lb ed="#V" n="98" break="no"/>scat et intereat: aliquando ergo debet homo excommunicari. 
-    </p>
-               <p xml:id="kzz7yh-k67595-d1e241">
-                  <lb ed="#V" n="99"/>Ad primum in oppositum dicendum quod ibi diet 
-      accipi<lb ed="#V" n="100" break="no"/>interitus pro flagellatione 
-      tempo<lb ed="#V" n="101" break="no"/>rali ordinata ad corruptionem.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e250">
-      ¶ Ad secundum dicendum quod non 
-      <lb ed="#V" n="102"/>valet: quia diabolus est incorrigibilis: homo non: et quamdit 
-      <lb ed="#V" n="103"/>est in via.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e257">
-      ¶ Ad tertium dicendum quod sicut medicina 
-      indisposi<lb ed="#V" n="104" break="no"/>tum non iuuat: sed sibi nocet quamuis sit vtilis disposito: sic 
-      <lb ed="#V" n="105"/>communio sacramentorum non iuuat indispositum sed 
-      volen<lb ed="#V" n="106" break="no"/>ti se disponere vtilis est. 2tet 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k67595-Dd1e267">
-               <head xml:id="kzz7yh-k67595-Hd1e269">Quaestio 2</head>
-               <p xml:id="kzz7yh-k67595-d1e271">
-      Quaestio
-    </p>
-               <p xml:id="kzz7yh-k67595-d1e273">
-                  <lb ed="#V" n="107"/>SEcundo queritur vtrum aliquis debeat 
-      <lb ed="#V" n="108"/>excommunicari pro solo peccato 
-      mor<lb ed="#V" n="109" break="no"/>tali. Et videtur quod non: quia quandoque excommunicaur 
-      inno<lb ed="#V" n="110" break="no"/>cens cum probatur crimen contumacie contra ipsum in 
-      <lb ed="#V" n="111"/>foro iudicii: nec tamen iudex hoc faciens reprehenditur: quamuis 
-      <lb ed="#V" n="112"/>in sua conscientia sciat illum innocentem: ergo aliquando debet 
-      homo<lb ed="#V" n="113" break="no"/>excommunicari non pro peccato mortali.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e291">
-      ¶ Item 
-      medicina<lb ed="#V" n="114" break="no"/>non tantum est ad curandum morbum: sed ad praeseruandum a 
-      mor<lb ed="#V" n="115" break="no"/>bo: ergo cum excommunicatio sit medicinalis: vt habetur 
-      <lb ed="#V" n="116"/>extra de sententia excom. Cum medicinalis: non tantummodo 
-      <lb ed="#V" n="117"/>debet ferri ad curandum peccatum mortale: sed etiam 
-      pro<lb ed="#V" n="118" break="no"/>prter periculum mortalis peccati 
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e304">
-                  <lb ed="#V" n="119"/>Contra extra de verborum signi. Ex pirte in gid. 
-      me<lb ed="#V" n="120" break="no"/>mo excommunicatur nisi pro mortali: quia aliter non 
-      <lb ed="#V" n="121"/>potest corrigi.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e314">
-      ¶ Item. xi. q. 3. Nemo enim: dicitur quod ana 
-      <lb ed="#V" n="122"/>thema non nisi pro mortali debet imponi crimine: et illis 
-      <lb ed="#V" n="123"/>qui aliter non potuerint corrigi. 
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e321">
-                  <lb ed="#V" n="124"/>Respondeo quod excomncatio maior est grauisfima 
-      <lb ed="#V" n="125"/>pena quam ecclesia possit inferre. 
-      <lb ed="#V" n="126"/>Uude dicit decre. c. immediate praeallegato quod anathema est 
-      <lb ed="#V" n="127"/>eterne mortis damnatio: et 24. q. 3. Corripiantur: dicitur quod 
-      exi<lb ed="#V" n="128" break="no"/>communicatione nulla maior est pena in ecclesia. Et ideo dicit 
-      <lb ed="#V" n="129"/>gl. ibidem: quod non est infligenda pro leuibus criminibus. 
-      <lb ed="#V" n="130"/>Unde dicendum quod iudex nullum debet excommunicare nisi pro 
-      mor<lb ed="#V" n="131" break="no"/>tali peccato: nec pro quocumque mortali: sed pro peccato contum 
-      <lb ed="#V" n="132"/>macie: vel cui contumacia est annexa. xi. q. 3. Absit: quadrum 
-      <lb ed="#V" n="133"/>pliciter autem homo peccatum contumacie incurrit scilicet autem quando 
-      <lb ed="#V" n="134"/>sufficienter vocatus ad iudicium non venit nec 
-      remanen<lb ed="#V" n="135" break="no"/>di habet legitimam causam 24. q. 3. De illicita. Aut veniens 
-      re<lb ed="#V" n="136" break="no"/>spondere contennit: et rationem pretendere quare respondere 
-      <!--00220.xml-->
-      <pb ed="#V" n="94-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>non debet. Aut antequam debeat discedit. xi. q. 3. certum est. Aut 
-      <lb ed="#V" n="2"/>sententie non obedit. 2. q. 6. Quisquis probatus. Ille autem quod 
-      <lb ed="#V" n="3"/>impedit aut procurat fraudulenter ne ad ipsum citatio 
-      perue<lb ed="#V" n="4" break="no"/>niat pro citato debet haberi. Ille etiam qui veniens se 
-      <lb ed="#V" n="5"/>non representat iudici: sed se occultat: reputandus est 
-      <lb ed="#V" n="6"/>quasi non venisset. 
-    </p>
-               <p xml:id="kzz7yh-k67595-d1e371">
-                  <lb ed="#V" n="7"/>Ad primum in oppositi dicentur quod etme ile que 
-      excom<lb ed="#V" n="8" break="no"/>municatur in predicto casu non sit 
-      <lb ed="#V" n="9"/>in mortali peccato cum iudex fert sententiam sicut pro mortali: 
-      <lb ed="#V" n="10"/>quia iudex in foro contentioso non debet iudicare secundum sententiam 
-      pro<lb ed="#V" n="11" break="no"/>prie conscientie: sed secundum allegata. 3. q. 7. Iudicet: vbi dicitur quod 
-      <lb ed="#V" n="12"/>bonus iudex nihil ex arbitrio suo facit et domestice 
-      propo<lb ed="#V" n="13" break="no"/>sito voluntatis: sed iuxta leges et iura pronunciat: et parum 
-      <lb ed="#V" n="14"/>post: sicut audit ita iudicat.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e391">
-      ¶ Ad secundum dicendum quod 
-      li<lb ed="#V" n="15" break="no"/>ulori medicina praeseruandum est a morbo quam sit illa qui requiritur 
-      <lb ed="#V" n="16"/>ad curationem iam habiti morbi.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k67595-Dd1e400">
-               <head xml:id="kzz7yh-k67595-Hd1e402">Quaestio 3</head>
-               <p xml:id="kzz7yh-k67595-d1e404">
-     Quaestio III.
-    </p>
-               <p xml:id="kzz7yh-k67595-d1e406">
-                  <lb ed="#V" n="17"/>TErtio queritur vtrum vxor debeat excommunica 
-      <lb ed="#V" n="18"/>ri pro pecco mariti. Et videtur quod sic: 
-      <lb ed="#V" n="19"/>quia pro eius peccato debet interdici: ergo a simili et 
-      excomuni<lb ed="#V" n="20" break="no"/>cari.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e417">
-      ¶ Item si vir impignorauit terram: et 
-      in<lb ed="#V" n="21" break="no"/>super debitis obligatus absentet se de terra: et assignata 
-      sue<lb ed="#V" n="22" break="no"/>rit vxori aliqua portio terre pro suo victu: poterit 
-      conueniri<lb ed="#V" n="23" break="no"/>a creditoribus mariti: et nisi pro posse satisfaciat poterit ex 
-      <lb ed="#V" n="24"/>communicari: ergo in hoc casu poterit vxor excommunicari 
-      pro<lb ed="#V" n="25" break="no"/>peccato mariti qui bona sua dissipauit. 
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e430">
-                  <lb ed="#V" n="26"/>Contra. 24. q. 3. §. 2. modo pro alicuius peccato tota 
-      <lb ed="#V" n="27"/>familia excommunicanda est: ergo a simili nec vxor 
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e438">
-                  <lb ed="#V" n="28"/>Respondeo quod excomunicatio non nisi pro mortali det 
-      <lb ed="#V" n="29"/>imponi crimine: et illis qui aliter non 
-      <lb ed="#V" n="30"/>potuerunt corrigi. xi. q. 3. Nemo episcorum: et cum peccatum 
-      ma<lb ed="#V" n="31" break="no"/>riti non sit peccatum vxoris: non est excommunicanda vxor pro pec . 
-      <lb ed="#V" n="32"/>cato mariti: nisi esset particeps criminis: sed tunc non esset 
-      <lb ed="#V" n="33"/>excommunicanda pro mariti peccato: sed pro suo. Similiter dico quod 
-      <lb ed="#V" n="34"/>filius non est excommunicandus pro peccato patris: nec seruus ao 
-      <lb ed="#V" n="35"/>peccato domini. 24. q. 3. Si habes. et i. e. c. §. Ut ergo: vbi dicitur 
-      <lb ed="#V" n="36"/>quod illicite excommunicatur quis pro peccato alterius: neque aliqua 
-      ra<lb ed="#V" n="37" break="no"/>tione nituntur qui pro peccato vnius in totam familiam 
-      <lb ed="#V" n="38"/>sententiam serunt excommunicationis. 
-    </p>
-               <p xml:id="kzz7yh-k67595-d1e464">
-                  <lb ed="#V" n="39"/>Ad primum in oppositum dicendum quod non est 
-      simi<lb ed="#V" n="40" break="no"/>le de interdicto et excommunicatio 
-      <lb ed="#V" n="41"/>ne: ionge enim maior pena est excommunicatio quam interdictio: 
-      <lb ed="#V" n="42"/>excomunicatione enim nulla pena maior est in ecclesia. 24. q. 3. 
-      <lb ed="#V" n="43"/>Corripiantur.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e477">
-      ¶ Ad secundum dicendum quod in illo casu 
-      <lb ed="#V" n="44"/>si vxor monita nollet satisfacere si talis est consuetudo vt 
-      <lb ed="#V" n="45"/>satisfacere debeat: excommunicaretur pro peccato proprio. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k67595-Dd1e485">
-               <head xml:id="kzz7yh-k67595-Hd1e487">Quaestio 4</head>
-               <p xml:id="kzz7yh-k67595-d1e489">
-      Quaestio IIII. 
-      <lb ed="#V" n="46"/>QUarto queritur vtrum dominus possit iuste 
-      <lb ed="#V" n="47"/>excommunicari bro peccato subditorum 
-      <lb ed="#V" n="48"/>suorum. Et videtur quod sic. I. Re. 2. Predicta fuit 
-      <lb ed="#V" n="49"/>per Samuelem futura punitio Heli de peccate 
-      <lb ed="#V" n="50"/>filiorum suorum: ergo a simili pater potest excommunicari pro 
-      pecca<lb ed="#V" n="51" break="no"/>to filiorum: et dominus pro peccato subditorum suorum.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e505">
-      ¶ Item 
-      tre<lb ed="#V" n="52" break="no"/>norum vltimo. Christus dominus captus est in peccatis nostris: 
-      <lb ed="#V" n="53"/>quod quedam glo. exponit de Iosia. Rex ergo a deo 
-      iu<lb ed="#V" n="54" break="no"/>ste punitur pro peccato populi: ergo a simili et pro 
-      pecca<lb ed="#V" n="55" break="no"/>to populi iuste excommunicatur. 
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e516">
-                  <lb ed="#V" n="56"/>Contra. vt superius habitum etr nemo pro 
-      pecca<lb ed="#V" n="57" break="no"/>tis alterius est excommunicandus. 
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e523">
-                  <lb ed="#V" n="58"/>Respondeo quod pro peccato populi dominus 
-      excomui<lb ed="#V" n="59" break="no"/>cari non debet nisi committendo vel 
-      <lb ed="#V" n="60"/>omitttendo sit particeps peccati populi: si enim princeps 
-      <lb ed="#V" n="61"/>notabiliter negligens et remissus fuerit in regimine 
-      poe<lb ed="#V" n="62" break="no"/>puli sui: ita vt propter eius negligentiam seu remissionem poplulus 
-      <lb ed="#V" n="63"/>iabatur in publica crimina: et maximen contra ecclesiam: si 
-      suffi<lb ed="#V" n="64" break="no"/>cienter ammonitus negligentiam suam non curauerit emenda 
-      <lb ed="#V" n="65"/>re iuste potest excommunicari: sed tunc non excommunica 
-      <lb ed="#V" n="66"/>retur pro subditorum peccato: sed pro suo. 
-    </p>
-               <p xml:id="kzz7yh-k67595-d1e546">
-                  <lb ed="#V" n="67"/>Ad primum in oppositum dicendum quod heli fuit 
-      priu<lb ed="#V" n="68" break="no"/>nitus praomo peccato proprio: quia filios 
-      <!--00220.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>suos modo debito non correxit. Unde in eius 
-      redargutio<lb ed="#V" n="70" break="no"/>nem dixit sibi vir dei ex parte domini. Magis honorasti filios 
-      <lb ed="#V" n="71"/>tuos quam me: vt habetur. 1. Re. 2.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e564">
-      ¶ Ad secundum dicendum quod secundum 
-      <lb ed="#V" n="72"/>aliquos Iosias pro peccato suo permissus fuit interfici: quia 
-      <lb ed="#V" n="73"/>non acqueuit sermonibus Necbao ex ore dei: vt habetur. 2. 
-      Pa<lb ed="#V" n="74" break="no"/>ralipomenon. 35
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e573">
-      ¶ Uel potest dici quod illud verbum Iere. 
-      <lb ed="#V" n="75"/>ad litteram intelligitur de redemptore nostro: quod 
-      verisimi<lb ed="#V" n="76" break="no"/>lius est. Unde glo. que illud verbum exponit de Iosia 
-      loque<lb ed="#V" n="77" break="no"/>tur secundum iudeorum opinionem.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e582">
-      ¶ Potest etiam dici ad 
-      pre<lb ed="#V" n="78" break="no"/>dicta duo argumentu simul quod non est simile de morte corporis: et 
-      <lb ed="#V" n="79"/>de pena excommnnicationis: quia excommunicatio 
-      dire<lb ed="#V" n="80" break="no"/>ctius est pena anime: est enim spiritualis pena. 24. q. 3. 
-      Si<lb ed="#V" n="81" break="no"/>habes. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k67595-Dd1e594">
-               <head xml:id="kzz7yh-k67595-Hd1e596">Quaestio 5</head>
-               <p xml:id="kzz7yh-k67595-d1e598">
-      Questio I
-    </p>
-               <p xml:id="kzz7yh-k67595-d1e600">
-                  <lb ed="#V" n="82"/>QUinto queritur vtrum excommunicatus 
-      iniu<lb ed="#V" n="83" break="no"/>ste: debeat excommunicatus reputari. 
-      <lb ed="#V" n="84"/>Et videtur quod non 24. q. 3. Crimen. §. illicita. 
-      <lb ed="#V" n="85"/>Illicita excommunicatio non ledit eum qui notatur: sed 
-      <lb ed="#V" n="86"/>illum a quo notatur: sed omnis excommunicatio iniusta est illicita: 
-      <lb ed="#V" n="87"/>ergo non ledit eum in quem fertur.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e616">
-      ¶ Item. xi. q. 3. Cui 
-      <lb ed="#V" n="88"/>illata. Si sententia iniusta est: tanto curare eam non debet: quanto 
-      <lb ed="#V" n="89"/>apud dominum et eius ecclesiam neminem potest grauare 
-      <lb ed="#V" n="90"/>iniqua sententia: ita ergo ea se non absolui desideret: qua 
-      <lb ed="#V" n="91"/>se nullatenus prospicit obligatum. 
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e627">
-                  <lb ed="#V" n="92"/>Contra. xi. q. 3. c. 1. Senentia pastoris siue iufa siue 
-      in<lb ed="#V" n="93" break="no"/>iusta fuerit: timenda est.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e635">
-      ¶ Item eadem. q. 
-      <lb ed="#V" n="94"/>quaie iustus est: dicitur. Iniuste sententia homo parere 
-      deb<lb ed="#V" n="95" break="no"/>ne ex superbia ligetur: qui prius ex puritate conscientie 
-      <lb ed="#V" n="96"/>absolutus tenebatur. 
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e644">
-                  <lb ed="#V" n="97"/>Respondeo. sicut diter xi qu 3. spistus. §. Siergo. 
-      <lb ed="#V" n="98"/>inima aliquando iniusta est ex animo 
-      profe<lb ed="#V" n="99" break="no"/>rentis: iusta vero ex ordine et causa: aliquando est iusta ex animo 
-      <lb ed="#V" n="100"/>et causa: sed non ex ordine: aliquando est iusta ex animo et ex 
-      or<lb ed="#V" n="101" break="no"/>dine: sed non ex causa. Iniusta est ex causa quando omnino nullum 
-      <lb ed="#V" n="102"/>delictum subest in eo in quam fertur excommunicatio:r quod sit 
-      <lb ed="#V" n="103"/>excommunicatione dignum. Ex animo iniusta est sententia quando non fertur 
-      <lb ed="#V" n="104"/>amore iustitie: sed liuore odii: vel praecio: aut fauore 
-      aduer<lb ed="#V" n="105" break="no"/>sariorum. Ex ordine iniusta est quando fertur iudiciali ordine non 
-      <lb ed="#V" n="106"/>seruato: eadem. q. c. seruetur. §. Item sententia. In his omnibus 
-      <lb ed="#V" n="107"/>casibus sententia excommunicationis iniusta timenda est et 
-      tenenda<lb ed="#V" n="108" break="no"/>quousque per eum qui eam tulit: vel per superiorem fuerit 
-      reuoca<lb ed="#V" n="109" break="no"/>ta: exceptis tribus casibus. Unus est quando excommunicans non 
-      <lb ed="#V" n="110"/>habet potestatem excommunicandi. Alius est quando fertur excommunicationis 
-      <lb ed="#V" n="111"/>sententia post appellationem legitimam: extra de appel. ad 
-      no<lb ed="#V" n="112" break="no"/>stram praesentiam: et de sen. excom. Per tuas. Tertius est quando 
-      <lb ed="#V" n="113"/>intolerabilis error patenter continetur in causa: vt 
-      habe<lb ed="#V" n="114" break="no"/>tur in decretali vltimo allegata. 
-    </p>
-               <p xml:id="kzz7yh-k67595-d1e686">
-                  <lb ed="#V" n="115"/>Ad primum in oppositu dicendum qua uiliud 
-      ve<lb ed="#V" n="116" break="no"/>bum intelligendum est de lesione 
-      <lb ed="#V" n="117"/>quo ad deum: et de illo qui excommunicationem non contemnit: et 
-      <lb ed="#V" n="118"/>quando excommunicatio est iniusta ex causa.
-   </p>
-               <p xml:id="kzz7yh-k67595-d1e697">
-      ¶ Ad secundum dicendum 
-      <lb ed="#V" n="119"/>quod illud decretum intelligendum est: vel de grauamine apud 
-      <lb ed="#V" n="120"/>deum: vel quando intolerabilis error continetur in causa: et si 
-      <lb ed="#V" n="121"/>est causa iniusta: non tamen est intolerabilis error. Illud 
-      ver<lb ed="#V" n="122" break="no"/>bum: se non absolui desideret: intelligendum est quantum ad 
-      <lb ed="#V" n="123"/>reatum: non quantum ad sui reconciliationem cum 
-      mi<lb ed="#V" n="124" break="no"/>litante ecclesia. 21233 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="1"/>non debet. Aut antequam debeat discedit. xi. q. 3. certum est. Aut 
+            <lb ed="#V" n="2"/>sententie non obedit. 2. q. 6. Quisquis probatus. Ille autem quod 
+            <lb ed="#V" n="3"/>impedit aut procurat fraudulenter ne ad ipsum citatio 
+            perue<lb ed="#V" n="4" break="no"/>niat pro citato debet haberi. Ille etiam qui veniens se 
+            <lb ed="#V" n="5"/>non representat iudici: sed se occultat: reputandus est 
+            <lb ed="#V" n="6"/>quasi non venisset. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e371">
+            <lb ed="#V" n="7"/>Ad primum in oppositi dicentur quod etme ile que 
+            excom<lb ed="#V" n="8" break="no"/>municatur in predicto casu non sit 
+            <lb ed="#V" n="9"/>in mortali peccato cum iudex fert sententiam sicut pro mortali: 
+            <lb ed="#V" n="10"/>quia iudex in foro contentioso non debet iudicare secundum sententiam 
+            pro<lb ed="#V" n="11" break="no"/>prie conscientie: sed secundum allegata. 3. q. 7. Iudicet: vbi dicitur quod 
+            <lb ed="#V" n="12"/>bonus iudex nihil ex arbitrio suo facit et domestice 
+            propo<lb ed="#V" n="13" break="no"/>sito voluntatis: sed iuxta leges et iura pronunciat: et parum 
+            <lb ed="#V" n="14"/>post: sicut audit ita iudicat.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e391">
+            ¶ Ad secundum dicendum quod 
+            li<lb ed="#V" n="15" break="no"/>ulori medicina praeseruandum est a morbo quam sit illa qui requiritur 
+            <lb ed="#V" n="16"/>ad curationem iam habiti morbi.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k67595-Dd1e400">
+          <head xml:id="kzz7yh-k67595-Hd1e402">Quaestio 3</head>
+          <p xml:id="kzz7yh-k67595-d1e404">
+            Quaestio III.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e406">
+            <lb ed="#V" n="17"/>TErtio queritur vtrum vxor debeat excommunica 
+            <lb ed="#V" n="18"/>ri pro pecco mariti. Et videtur quod sic: 
+            <lb ed="#V" n="19"/>quia pro eius peccato debet interdici: ergo a simili et 
+            excomuni<lb ed="#V" n="20" break="no"/>cari.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e417">
+            ¶ Item si vir impignorauit terram: et 
+            in<lb ed="#V" n="21" break="no"/>super debitis obligatus absentet se de terra: et assignata 
+            sue<lb ed="#V" n="22" break="no"/>rit vxori aliqua portio terre pro suo victu: poterit 
+            conueniri<lb ed="#V" n="23" break="no"/>a creditoribus mariti: et nisi pro posse satisfaciat poterit ex 
+            <lb ed="#V" n="24"/>communicari: ergo in hoc casu poterit vxor excommunicari 
+            pro<lb ed="#V" n="25" break="no"/>peccato mariti qui bona sua dissipauit. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e430">
+            <lb ed="#V" n="26"/>Contra. 24. q. 3. §. 2. modo pro alicuius peccato tota 
+            <lb ed="#V" n="27"/>familia excommunicanda est: ergo a simili nec vxor 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e438">
+            <lb ed="#V" n="28"/>Respondeo quod excomunicatio non nisi pro mortali det 
+            <lb ed="#V" n="29"/>imponi crimine: et illis qui aliter non 
+            <lb ed="#V" n="30"/>potuerunt corrigi. xi. q. 3. Nemo episcorum: et cum peccatum 
+            ma<lb ed="#V" n="31" break="no"/>riti non sit peccatum vxoris: non est excommunicanda vxor pro pec . 
+            <lb ed="#V" n="32"/>cato mariti: nisi esset particeps criminis: sed tunc non esset 
+            <lb ed="#V" n="33"/>excommunicanda pro mariti peccato: sed pro suo. Similiter dico quod 
+            <lb ed="#V" n="34"/>filius non est excommunicandus pro peccato patris: nec seruus ao 
+            <lb ed="#V" n="35"/>peccato domini. 24. q. 3. Si habes. et i. e. c. §. Ut ergo: vbi dicitur 
+            <lb ed="#V" n="36"/>quod illicite excommunicatur quis pro peccato alterius: neque aliqua 
+            ra<lb ed="#V" n="37" break="no"/>tione nituntur qui pro peccato vnius in totam familiam 
+            <lb ed="#V" n="38"/>sententiam serunt excommunicationis. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e464">
+            <lb ed="#V" n="39"/>Ad primum in oppositum dicendum quod non est 
+            simi<lb ed="#V" n="40" break="no"/>le de interdicto et excommunicatio 
+            <lb ed="#V" n="41"/>ne: ionge enim maior pena est excommunicatio quam interdictio: 
+            <lb ed="#V" n="42"/>excomunicatione enim nulla pena maior est in ecclesia. 24. q. 3. 
+            <lb ed="#V" n="43"/>Corripiantur.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e477">
+            ¶ Ad secundum dicendum quod in illo casu 
+            <lb ed="#V" n="44"/>si vxor monita nollet satisfacere si talis est consuetudo vt 
+            <lb ed="#V" n="45"/>satisfacere debeat: excommunicaretur pro peccato proprio. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k67595-Dd1e485">
+          <head xml:id="kzz7yh-k67595-Hd1e487">Quaestio 4</head>
+          <p xml:id="kzz7yh-k67595-d1e489">
+            Quaestio IIII. 
+            <lb ed="#V" n="46"/>QUarto queritur vtrum dominus possit iuste 
+            <lb ed="#V" n="47"/>excommunicari bro peccato subditorum 
+            <lb ed="#V" n="48"/>suorum. Et videtur quod sic. I. Re. 2. Predicta fuit 
+            <lb ed="#V" n="49"/>per Samuelem futura punitio Heli de peccate 
+            <lb ed="#V" n="50"/>filiorum suorum: ergo a simili pater potest excommunicari pro 
+            pecca<lb ed="#V" n="51" break="no"/>to filiorum: et dominus pro peccato subditorum suorum.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e505">
+            ¶ Item 
+            tre<lb ed="#V" n="52" break="no"/>norum vltimo. Christus dominus captus est in peccatis nostris: 
+            <lb ed="#V" n="53"/>quod quedam glo. exponit de Iosia. Rex ergo a deo 
+            iu<lb ed="#V" n="54" break="no"/>ste punitur pro peccato populi: ergo a simili et pro 
+            pecca<lb ed="#V" n="55" break="no"/>to populi iuste excommunicatur. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e516">
+            <lb ed="#V" n="56"/>Contra. vt superius habitum etr nemo pro 
+            pecca<lb ed="#V" n="57" break="no"/>tis alterius est excommunicandus. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e523">
+            <lb ed="#V" n="58"/>Respondeo quod pro peccato populi dominus 
+            excomui<lb ed="#V" n="59" break="no"/>cari non debet nisi committendo vel 
+            <lb ed="#V" n="60"/>omitttendo sit particeps peccati populi: si enim princeps 
+            <lb ed="#V" n="61"/>notabiliter negligens et remissus fuerit in regimine 
+            poe<lb ed="#V" n="62" break="no"/>puli sui: ita vt propter eius negligentiam seu remissionem poplulus 
+            <lb ed="#V" n="63"/>iabatur in publica crimina: et maximen contra ecclesiam: si 
+            suffi<lb ed="#V" n="64" break="no"/>cienter ammonitus negligentiam suam non curauerit emenda 
+            <lb ed="#V" n="65"/>re iuste potest excommunicari: sed tunc non excommunica 
+            <lb ed="#V" n="66"/>retur pro subditorum peccato: sed pro suo. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e546">
+            <lb ed="#V" n="67"/>Ad primum in oppositum dicendum quod heli fuit 
+            priu<lb ed="#V" n="68" break="no"/>nitus praomo peccato proprio: quia filios 
+            <!--00220.xml-->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="69"/>suos modo debito non correxit. Unde in eius 
+            redargutio<lb ed="#V" n="70" break="no"/>nem dixit sibi vir dei ex parte domini. Magis honorasti filios 
+            <lb ed="#V" n="71"/>tuos quam me: vt habetur. 1. Re. 2.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e564">
+            ¶ Ad secundum dicendum quod secundum 
+            <lb ed="#V" n="72"/>aliquos Iosias pro peccato suo permissus fuit interfici: quia 
+            <lb ed="#V" n="73"/>non acqueuit sermonibus Necbao ex ore dei: vt habetur. 2. 
+            Pa<lb ed="#V" n="74" break="no"/>ralipomenon. 35
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e573">
+            ¶ Uel potest dici quod illud verbum Iere. 
+            <lb ed="#V" n="75"/>ad litteram intelligitur de redemptore nostro: quod 
+            verisimi<lb ed="#V" n="76" break="no"/>lius est. Unde glo. que illud verbum exponit de Iosia 
+            loque<lb ed="#V" n="77" break="no"/>tur secundum iudeorum opinionem.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e582">
+            ¶ Potest etiam dici ad 
+            pre<lb ed="#V" n="78" break="no"/>dicta duo argumentu simul quod non est simile de morte corporis: et 
+            <lb ed="#V" n="79"/>de pena excommnnicationis: quia excommunicatio 
+            dire<lb ed="#V" n="80" break="no"/>ctius est pena anime: est enim spiritualis pena. 24. q. 3. 
+            Si<lb ed="#V" n="81" break="no"/>habes. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k67595-Dd1e594">
+          <head xml:id="kzz7yh-k67595-Hd1e596">Quaestio 5</head>
+          <p xml:id="kzz7yh-k67595-d1e598">
+            Questio I
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e600">
+            <lb ed="#V" n="82"/>QUinto queritur vtrum excommunicatus 
+            iniu<lb ed="#V" n="83" break="no"/>ste: debeat excommunicatus reputari. 
+            <lb ed="#V" n="84"/>Et videtur quod non 24. q. 3. Crimen. §. illicita. 
+            <lb ed="#V" n="85"/>Illicita excommunicatio non ledit eum qui notatur: sed 
+            <lb ed="#V" n="86"/>illum a quo notatur: sed omnis excommunicatio iniusta est illicita: 
+            <lb ed="#V" n="87"/>ergo non ledit eum in quem fertur.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e616">
+            ¶ Item. xi. q. 3. Cui 
+            <lb ed="#V" n="88"/>illata. Si sententia iniusta est: tanto curare eam non debet: quanto 
+            <lb ed="#V" n="89"/>apud dominum et eius ecclesiam neminem potest grauare 
+            <lb ed="#V" n="90"/>iniqua sententia: ita ergo ea se non absolui desideret: qua 
+            <lb ed="#V" n="91"/>se nullatenus prospicit obligatum. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e627">
+            <lb ed="#V" n="92"/>Contra. xi. q. 3. c. 1. Senentia pastoris siue iufa siue 
+            in<lb ed="#V" n="93" break="no"/>iusta fuerit: timenda est.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e635">
+            ¶ Item eadem. q. 
+            <lb ed="#V" n="94"/>quaie iustus est: dicitur. Iniuste sententia homo parere 
+            deb<lb ed="#V" n="95" break="no"/>ne ex superbia ligetur: qui prius ex puritate conscientie 
+            <lb ed="#V" n="96"/>absolutus tenebatur. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e644">
+            <lb ed="#V" n="97"/>Respondeo. sicut diter xi qu 3. spistus. §. Siergo. 
+            <lb ed="#V" n="98"/>inima aliquando iniusta est ex animo 
+            profe<lb ed="#V" n="99" break="no"/>rentis: iusta vero ex ordine et causa: aliquando est iusta ex animo 
+            <lb ed="#V" n="100"/>et causa: sed non ex ordine: aliquando est iusta ex animo et ex 
+            or<lb ed="#V" n="101" break="no"/>dine: sed non ex causa. Iniusta est ex causa quando omnino nullum 
+            <lb ed="#V" n="102"/>delictum subest in eo in quam fertur excommunicatio:r quod sit 
+            <lb ed="#V" n="103"/>excommunicatione dignum. Ex animo iniusta est sententia quando non fertur 
+            <lb ed="#V" n="104"/>amore iustitie: sed liuore odii: vel praecio: aut fauore 
+            aduer<lb ed="#V" n="105" break="no"/>sariorum. Ex ordine iniusta est quando fertur iudiciali ordine non 
+            <lb ed="#V" n="106"/>seruato: eadem. q. c. seruetur. §. Item sententia. In his omnibus 
+            <lb ed="#V" n="107"/>casibus sententia excommunicationis iniusta timenda est et 
+            tenenda<lb ed="#V" n="108" break="no"/>quousque per eum qui eam tulit: vel per superiorem fuerit 
+            reuoca<lb ed="#V" n="109" break="no"/>ta: exceptis tribus casibus. Unus est quando excommunicans non 
+            <lb ed="#V" n="110"/>habet potestatem excommunicandi. Alius est quando fertur excommunicationis 
+            <lb ed="#V" n="111"/>sententia post appellationem legitimam: extra de appel. ad 
+            no<lb ed="#V" n="112" break="no"/>stram praesentiam: et de sen. excom. Per tuas. Tertius est quando 
+            <lb ed="#V" n="113"/>intolerabilis error patenter continetur in causa: vt 
+            habe<lb ed="#V" n="114" break="no"/>tur in decretali vltimo allegata. 
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e686">
+            <lb ed="#V" n="115"/>Ad primum in oppositu dicendum qua uiliud 
+            ve<lb ed="#V" n="116" break="no"/>bum intelligendum est de lesione 
+            <lb ed="#V" n="117"/>quo ad deum: et de illo qui excommunicationem non contemnit: et 
+            <lb ed="#V" n="118"/>quando excommunicatio est iniusta ex causa.
+          </p>
+          <p xml:id="kzz7yh-k67595-d1e697">
+            ¶ Ad secundum dicendum 
+            <lb ed="#V" n="119"/>quod illud decretum intelligendum est: vel de grauamine apud 
+            <lb ed="#V" n="120"/>deum: vel quando intolerabilis error continetur in causa: et si 
+            <lb ed="#V" n="121"/>est causa iniusta: non tamen est intolerabilis error. Illud 
+            ver<lb ed="#V" n="122" break="no"/>bum: se non absolui desideret: intelligendum est quantum ad 
+            <lb ed="#V" n="123"/>reatum: non quantum ad sui reconciliationem cum 
+            mi<lb ed="#V" n="124" break="no"/>litante ecclesia. 21233 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

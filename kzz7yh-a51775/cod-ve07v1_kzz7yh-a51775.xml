@@ -1,237 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 2</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 2</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="76-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a51775"><!-- l1d23a2 -->
-            <head xml:id="kzz7yh-a51775-Hd1e101">Articulus 2</head>
-            <p xml:id="kzz7yh-a51775-d1e103">
-               <lb ed="#V" n="107"/>Consequenter queritur de 
-      numera<lb ed="#V" n="108" break="no"/>tione nominum  
-      praedicto<lb ed="#V" n="109" break="no"/>rum: et circa hoc quaeruntur tria. Cum enim supra di. 7o 
-      <lb ed="#V" n="110"/>ostensum sit quod in diuis sunt tres: quorum quilibet ibi supr 
-      <lb ed="#V" n="111"/>posuimus esse personam. Idon hoc supposito quod superius probatum est 
-      <lb ed="#V" n="112"/>scilicet quod in diuis sunt tres. Queritur hic primo de eo quod superius 
-      <lb ed="#V" n="113"/>suppositum est scilicet vtrum illi tres dici debeant tres persone. 
-      <lb ed="#V" n="114"/>Secundo vtrum debeant dici tres substantie. Tertio vtrum 
-      <lb ed="#V" n="115"/>debeant dici tres essentie. 
-    </p>
-            <div xml:id="kzz7yh-a51775-Dd1e125">
-               <head xml:id="kzz7yh-a51775-Hd1e127">Quaestio 1</head>
-               <head xml:id="kzz7yh-a51775-Hd1e131" type="question-title">Utrum illi tres dici debeant tres persone</head>
-               <p xml:id="kzz7yh-a51775-d1e129">
-                  <lb ed="#V" n="116"/>PRimo igitur ostendo quod non debeant dici tres 
-      <lb ed="#V" n="117"/>persone: quia quicquid est commune tribus in diuinis 
-      <lb ed="#V" n="118"/>pertinetur de eis in singulari: non in plurali: sed illis 
-      tri<lb ed="#V" n="119" break="no"/>bus qui sunt in diuis commune est esse personam. ergo illi tres non 
-      <lb ed="#V" n="120"/>debent dici tres persone: sed vna persona. Item nihil absolutum 
-      <lb ed="#V" n="121"/>pertinetur de tribus pluraliter secundum Boe. 2o liro de triniate. sed persona nomen 
-      <lb ed="#V" n="122"/>est absolutum. Non enim est dare correlatiuum ad quod referratur 
-      <lb ed="#V" n="123"/>persona. Unde Aug. vii. de trinitate. c. vi. Ad se quappe dicitur persona non 
-      <lb ed="#V" n="124"/>ad filium vel ad spiritum sanctum ergo non praedicatur de patre et filio et 
-      <lb ed="#V" n="125"/>spiritu sancto pluraliter. Item Aug. vii. de trinitate. c. vi. Neque in hac 
-      <lb ed="#V" n="126"/>trinitate cum dicimus persona patris aliud dicimus quam substantiam 
-      <lb ed="#V" n="127"/>patris: sed pater et filius et spiritus sanctus non sunt tres substantiae: ergo 
-      <lb ed="#V" n="128"/>non sunt tres persone.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e160">
-      ¶ Contra in symb. dicitur Alia est persona 
-      <lb ed="#V" n="129"/>patris: alia filii: alia spiritus sancti. ergo illi tres: tres sunt persone. 
-    </p>
-               <p xml:id="kzz7yh-a51775-d1e165">
-                  <lb ed="#V" n="130"/>Respondeo quod pater et filius: et spiritus sanctus debent dici tres 
-      <lb ed="#V" n="131"/>persone: quia cum persona sit suppositum rationalis 
-      <lb ed="#V" n="132"/>vel intellectualis nature distinctum proprietate ad dignitatem 
-      <lb ed="#V" n="133"/>pertinente: et pater et filius et spiritus sanctus sunt tria supposita nature 
-      <lb ed="#V" n="134"/>diuine quae intellectualis est: et quodlibet illorum sit distinctum ab alia 
-      <lb ed="#V" n="135"/>proprietate ad dignitatem pertinente: sequitur quod sicut illi tres 
-      di<lb ed="#V" n="136" break="no"/>ci debent tria supposita: ita dici debent tres persone.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e183">
-      <!--00166.xml-->
-                  <pb ed="#V" n="76-v"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>Ad primum oppositum cum dicitur quod quicquid est commune 
-      tri<lb ed="#V" n="2" break="no"/>bus in diuinis praedicatur de eis in 
-      sin<lb ed="#V" n="3"/>gulari: et non in pluri etc. dico quod verum est de hoc quod est illis commune secundam rem 
-      <lb ed="#V" n="4"/>sicut veritas bonitas et consimilia sedi persona non dicit aliqud 
-      <lb ed="#V" n="5"/>commune patri et filio et spiritui sancto secundum rem vt inferius ostendetur. 
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e204">
-                  <lb ed="#V" n="6"/>¶ Ad 2m cum dicitur quod persona nomen est absolutum etc. dico quod 
-      <lb ed="#V" n="7"/>impositum fuit nomen persone propter necessitatem expressionis fidei 
-      <lb ed="#V" n="8"/>ad significandum in diuinis rem rlaram: et cum Augu. dicit 
-      <lb ed="#V" n="9"/>quod ad se dicitur persona loquitur pro illo. tempore quo nomen persone non 
-      <lb ed="#V" n="10"/>erat publice impositum ad signndum rem rlaram: et cum 
-      di<lb ed="#V" n="11" break="no"/>cis quod non est dare rsatiuum ad quod persona referatur dico quod verum 
-      <lb ed="#V" n="12"/>est de mixta generalitate: sed ex hoc non sequitur quod non dicat rem 
-      <lb ed="#V" n="13"/>relatam. Uidemus enim quod non est dare ralacitum relationis in 
-      <lb ed="#V" n="14"/>sua generalitate: nec tamen propter hoc dicimus quod relatio in sua 
-      gene<lb ed="#V" n="15" break="no"/>ralitate dicat rem absolutam quia est dare correlatia speciealium 
-      re<lb ed="#V" n="16" break="no"/>lationum.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e230">
-      ¶ Ad 3m cum dicitur quod cum dicimus personam patris non 
-      <lb ed="#V" n="17"/>aliud dicimus quam substantiam pris etc. dico quod Augu. loqutur 
-      <lb ed="#V" n="18"/>pro illo tempore quo nomen personam non erat vsitatum nisi ad 
-      signn<lb ed="#V" n="19" break="no"/>dum substantiam absolutam et notabili proprietate distinctam.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a51775-Dd1e240">
-               <head xml:id="kzz7yh-a51775-Hd1e242">Quaestio 2</head>
-               <head xml:id="kzz7yh-a51775-Hd1e250" type="question-title">Utrum debeant dici tres substantiae</head>
-               <p xml:id="kzz7yh-a51775-d1e244">
-      Quaestio II. 
-      <lb ed="#V" n="20"/>SEcundo queritur vtrum debeant dici tres 
-      <lb ed="#V" n="21"/>substantiae et videtur quod sic Boetius in libro 
-      <lb ed="#V" n="22"/>de duabus naturis et vna persona christi. c. 3. dicimus vnam 
-      <lb ed="#V" n="23"/>essentiam et tres substantias.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e255">
-      ¶ Item Ansel. monoluis. c. vl. 
-      <lb ed="#V" n="24"/>Omnes persone sic subsistunt separate ad inuicem vt tot sit 
-      neces<lb ed="#V" n="25" break="no"/>se esse substantias quot personas ergo sicut pater et filius et spritus 
-      <lb ed="#V" n="26"/>sanctus dicuntur tres persone: ita dicunt dici quod tres substantie.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e264">
-      ¶ Item 
-      <lb ed="#V" n="27"/>Augu. septimo de trinitate. c. 4. dictum est a nostris grecis vna 
-      <lb ed="#V" n="28"/>essentia tres substantiae. Cum ergo greci in hoc non reprehendantur 
-      <lb ed="#V" n="29"/>videtur quod pater et filius: et ipusscus conuenienter possunt dici tres substantie. 
-    </p>
-               <p xml:id="kzz7yh-a51775-d1e273">
-                  <lb ed="#V" n="30"/>Contra omne nomen. signans in diuinis quod absolutum dicitur 
-      <lb ed="#V" n="31"/>de tribus simul singliter non pluribus sed nomen substantiae 
-      <lb ed="#V" n="32"/>est huiusmodi ergo non praedicatur de tribus personis pluraliter.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e283">
-      ¶ Item 
-      <lb ed="#V" n="33"/>Hierony. ad Dama. papam parum vltra mediu. Quis 
-      inquan<lb ed="#V" n="34" break="no"/>nisi ore sacrilego tres substantias: predicauit. q. d. nemo. 
-    </p>
-               <p xml:id="kzz7yh-a51775-d1e290">
-                  <lb ed="#V" n="35"/>Respondeo quod pater et filius et spiritus sanctus non dicunt dici 
-      <lb ed="#V" n="36"/>tres substantiae: quia quamuis persona in divinis se habeat secundum 
-      <lb ed="#V" n="37"/>aliqualem similitudinem substantiae proprie in creaturis et essentiam secundum 
-      <lb ed="#V" n="38"/>aliqualem similitudinem substantiae secunde: tamen propter remotionem 
-      anbiguita<lb ed="#V" n="39" break="no"/>tis et ne aliquis affirmando tres substantias cogeretur per hoc in 
-      di<lb ed="#V" n="40" break="no"/>nis affirmare tres essentias: ideo nome substantiae ex vsu 
-      appro<lb ed="#V" n="41" break="no"/>priatum est in diuinis ad significandum tantum illud quod se habet 
-      <lb ed="#V" n="42"/>ad similitudinem substantiae secunde hoc est essentiam: quamuis aut non 
-      de<lb ed="#V" n="43" break="no"/>beamus dicere patrem et filium et spiritum sanctum esse tres 
-      <lb ed="#V" n="44"/>substantias: quia sicut dicit Augu. 7. de trinitate. c. 4. Non aliter in 
-      ser<lb ed="#V" n="45" break="no"/>mone nostero id est latiuo essentia quam substantia solet intelligi: tamen 
-      conuenien<lb ed="#V" n="46" break="no"/>ter dicimus illos tres substantias.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e319">
-      ¶ Ad cuius intelligentiam 
-      no<lb ed="#V" n="47" break="no"/>tandum quod istis quatuor nomibus grecis. Usia Usiosis: 
-      <lb ed="#V" n="48"/>hypostasis prosopon respondent quattuor nomina latina scilicet 
-      essen<lb ed="#V" n="49" break="no"/>tia substantia subsistentia persona.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e328">
-      ¶ Essentia dicit ipsum quo est: 
-      <lb ed="#V" n="50"/>substantia ipsum quod est. Et hoc in re communicabili.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e333">
-      ¶ In re autem 
-      in<lb ed="#V" n="51" break="no"/>communicabili queritur pomus subsistentia nominat ipsam vt est quid 
-      distin<lb ed="#V" n="52" break="no"/>ctum persona vero vt quid distinctum notabili proprietate: eandem 
-      <lb ed="#V" n="53"/>rem ergo in diuinis nominat subsistentia et persona quamuis non 
-      sub<lb ed="#V" n="54" break="no"/>eadem ratione et quia antiquitus subsistere accipiebatur prout 
-      raesten<lb ed="#V" n="55" break="no"/>debat Usiosi: et ita prout significabat ipsum quod est rei communica 
-      <lb ed="#V" n="56"/>bilis et substantia prout respondebat hypostasi et ita prout significabat 
-      <lb ed="#V" n="57"/>rem in communicabilem quibusset proprietatibus distinguibilem vel 
-      di<lb ed="#V" n="58" break="no"/>stinctam ideo antiquitus in diuinis magis: dicebant tres 
-      <lb ed="#V" n="59"/>substantias quam tres subsistentias: quia tamen ex vsu nomen subiesistentie 
-      ac<lb ed="#V" n="60" break="no"/>cipitur prout respondet hypostasi: et substantia prout respondet Usio 
-      <lb ed="#V" n="61"/>Ion modo non licet nobis affirmare in diuis tres substantias cum liceat 
-      <lb ed="#V" n="62"/>nobis affirmar tres substantias coram simplicibus tamen minus prouectis 
-      <lb ed="#V" n="63"/>in theologia cum affirmantur tres substantiae in diuis expedit 
-      expo<lb ed="#V" n="64" break="no"/>nere quid intelligatur nomine subsistentie eo quod nomen 
-      subsisten<lb ed="#V" n="65" break="no"/>tie et substantie prime occursu videntur esse propinqua.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e368">
-                  <lb ed="#V" n="66"/>Ad primum in oppositum cum dicitur secundum boetium vnam 
-      essen<lb ed="#V" n="67" break="no"/>tiam tres substantias etc. dico quod loquitur pro 
-      <lb ed="#V" n="68"/>illo tempore quo substantia respondebat hypostasi sed modo apud nos raseon¬ 
-      <!--00166.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>det Usiosi.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e385">
-      ¶ Ad 2m cum artrio per Aug. dico quod ibi accipit 
-      sub<lb ed="#V" n="70" break="no"/>stantiam prosubsistentia.
-   </p>
-               <p xml:id="kzz7yh-a51775-d1e390">
-      ¶ Ad 3m cum dicit quod greci non 
-      repre<lb ed="#V" n="71" break="no"/>hendutur qui dicunt tres substantias dico quod verum est quia apud eos 
-      <lb ed="#V" n="72"/>in communi vsu per substantiam hypostasis intelligitur apud nos aut nonsic: 
-      <lb ed="#V" n="73"/>sed per substantiam intelligimus in divinis ipsum quod est rei communicabitu.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a51775-Dd1e400">
-               <head xml:id="kzz7yh-a51775-Hd1e402">Quaestio 3</head>
-               <head xml:id="kzz7yh-a51775-Hd1e414" type="question-title">Utrum pater et filius et spiritus sanctus debeant dici tres essentiae</head>
-               <p xml:id="kzz7yh-a51775-d1e404">
-      Quaestio III. 
-      <lb ed="#V" n="74"/>Tertio quaerendum esset vtrum pater et filius et spiritus 
-      <lb ed="#V" n="75"/>sanctus debeant dici tres essentie nisi quia 
-      <lb ed="#V" n="76"/>hec questio virtualiter superius determinata est. Disti. 
-      <lb ed="#V" n="77"/>secunda vbi ostensum est non esse nisi vnam divinam essentiam tantum ex 
-      <lb ed="#V" n="78"/>quo sequitur quod pater et filius et spiritus sanctus non sunt tres essentia.
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 2</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 2</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="76-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a51775"><!-- l1d23a2 -->
+        <head xml:id="kzz7yh-a51775-Hd1e101">Articulus 2</head>
+        <p xml:id="kzz7yh-a51775-d1e103">
+          <lb ed="#V" n="107"/>Consequenter queritur de 
+          numera<lb ed="#V" n="108" break="no"/>tione nominum  
+          praedicto<lb ed="#V" n="109" break="no"/>rum: et circa hoc quaeruntur tria. Cum enim supra di. 7o 
+          <lb ed="#V" n="110"/>ostensum sit quod in diuis sunt tres: quorum quilibet ibi supr 
+          <lb ed="#V" n="111"/>posuimus esse personam. Idon hoc supposito quod superius probatum est 
+          <lb ed="#V" n="112"/>scilicet quod in diuis sunt tres. Queritur hic primo de eo quod superius 
+          <lb ed="#V" n="113"/>suppositum est scilicet vtrum illi tres dici debeant tres persone. 
+          <lb ed="#V" n="114"/>Secundo vtrum debeant dici tres substantie. Tertio vtrum 
+          <lb ed="#V" n="115"/>debeant dici tres essentie. 
+        </p>
+        <div xml:id="kzz7yh-a51775-Dd1e125">
+          <head xml:id="kzz7yh-a51775-Hd1e127">Quaestio 1</head>
+          <head xml:id="kzz7yh-a51775-Hd1e131" type="question-title">Utrum illi tres dici debeant tres persone</head>
+          <p xml:id="kzz7yh-a51775-d1e129">
+            <lb ed="#V" n="116"/>PRimo igitur ostendo quod non debeant dici tres 
+            <lb ed="#V" n="117"/>persone: quia quicquid est commune tribus in diuinis 
+            <lb ed="#V" n="118"/>pertinetur de eis in singulari: non in plurali: sed illis 
+            tri<lb ed="#V" n="119" break="no"/>bus qui sunt in diuis commune est esse personam. ergo illi tres non 
+            <lb ed="#V" n="120"/>debent dici tres persone: sed vna persona. Item nihil absolutum 
+            <lb ed="#V" n="121"/>pertinetur de tribus pluraliter secundum Boe. 2o liro de triniate. sed persona nomen 
+            <lb ed="#V" n="122"/>est absolutum. Non enim est dare correlatiuum ad quod referratur 
+            <lb ed="#V" n="123"/>persona. Unde Aug. vii. de trinitate. c. vi. Ad se quappe dicitur persona non 
+            <lb ed="#V" n="124"/>ad filium vel ad spiritum sanctum ergo non praedicatur de patre et filio et 
+            <lb ed="#V" n="125"/>spiritu sancto pluraliter. Item Aug. vii. de trinitate. c. vi. Neque in hac 
+            <lb ed="#V" n="126"/>trinitate cum dicimus persona patris aliud dicimus quam substantiam 
+            <lb ed="#V" n="127"/>patris: sed pater et filius et spiritus sanctus non sunt tres substantiae: ergo 
+            <lb ed="#V" n="128"/>non sunt tres persone.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e160">
+            ¶ Contra in symb. dicitur Alia est persona 
+            <lb ed="#V" n="129"/>patris: alia filii: alia spiritus sancti. ergo illi tres: tres sunt persone. 
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e165">
+            <lb ed="#V" n="130"/>Respondeo quod pater et filius: et spiritus sanctus debent dici tres 
+            <lb ed="#V" n="131"/>persone: quia cum persona sit suppositum rationalis 
+            <lb ed="#V" n="132"/>vel intellectualis nature distinctum proprietate ad dignitatem 
+            <lb ed="#V" n="133"/>pertinente: et pater et filius et spiritus sanctus sunt tria supposita nature 
+            <lb ed="#V" n="134"/>diuine quae intellectualis est: et quodlibet illorum sit distinctum ab alia 
+            <lb ed="#V" n="135"/>proprietate ad dignitatem pertinente: sequitur quod sicut illi tres 
+            di<lb ed="#V" n="136" break="no"/>ci debent tria supposita: ita dici debent tres persone.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e183">
+            <!--00166.xml-->
+            <pb ed="#V" n="76-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>Ad primum oppositum cum dicitur quod quicquid est commune 
+            tri<lb ed="#V" n="2" break="no"/>bus in diuinis praedicatur de eis in 
+            sin<lb ed="#V" n="3"/>gulari: et non in pluri etc. dico quod verum est de hoc quod est illis commune secundam rem 
+            <lb ed="#V" n="4"/>sicut veritas bonitas et consimilia sedi persona non dicit aliqud 
+            <lb ed="#V" n="5"/>commune patri et filio et spiritui sancto secundum rem vt inferius ostendetur. 
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e204">
+            <lb ed="#V" n="6"/>¶ Ad 2m cum dicitur quod persona nomen est absolutum etc. dico quod 
+            <lb ed="#V" n="7"/>impositum fuit nomen persone propter necessitatem expressionis fidei 
+            <lb ed="#V" n="8"/>ad significandum in diuinis rem rlaram: et cum Augu. dicit 
+            <lb ed="#V" n="9"/>quod ad se dicitur persona loquitur pro illo. tempore quo nomen persone non 
+            <lb ed="#V" n="10"/>erat publice impositum ad signndum rem rlaram: et cum 
+            di<lb ed="#V" n="11" break="no"/>cis quod non est dare rsatiuum ad quod persona referatur dico quod verum 
+            <lb ed="#V" n="12"/>est de mixta generalitate: sed ex hoc non sequitur quod non dicat rem 
+            <lb ed="#V" n="13"/>relatam. Uidemus enim quod non est dare ralacitum relationis in 
+            <lb ed="#V" n="14"/>sua generalitate: nec tamen propter hoc dicimus quod relatio in sua 
+            gene<lb ed="#V" n="15" break="no"/>ralitate dicat rem absolutam quia est dare correlatia speciealium 
+            re<lb ed="#V" n="16" break="no"/>lationum.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e230">
+            ¶ Ad 3m cum dicitur quod cum dicimus personam patris non 
+            <lb ed="#V" n="17"/>aliud dicimus quam substantiam pris etc. dico quod Augu. loqutur 
+            <lb ed="#V" n="18"/>pro illo tempore quo nomen personam non erat vsitatum nisi ad 
+            signn<lb ed="#V" n="19" break="no"/>dum substantiam absolutam et notabili proprietate distinctam.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a51775-Dd1e240">
+          <head xml:id="kzz7yh-a51775-Hd1e242">Quaestio 2</head>
+          <head xml:id="kzz7yh-a51775-Hd1e250" type="question-title">Utrum debeant dici tres substantiae</head>
+          <p xml:id="kzz7yh-a51775-d1e244">
+            Quaestio II. 
+            <lb ed="#V" n="20"/>SEcundo queritur vtrum debeant dici tres 
+            <lb ed="#V" n="21"/>substantiae et videtur quod sic Boetius in libro 
+            <lb ed="#V" n="22"/>de duabus naturis et vna persona christi. c. 3. dicimus vnam 
+            <lb ed="#V" n="23"/>essentiam et tres substantias.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e255">
+            ¶ Item Ansel. monoluis. c. vl. 
+            <lb ed="#V" n="24"/>Omnes persone sic subsistunt separate ad inuicem vt tot sit 
+            neces<lb ed="#V" n="25" break="no"/>se esse substantias quot personas ergo sicut pater et filius et spritus 
+            <lb ed="#V" n="26"/>sanctus dicuntur tres persone: ita dicunt dici quod tres substantie.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e264">
+            ¶ Item 
+            <lb ed="#V" n="27"/>Augu. septimo de trinitate. c. 4. dictum est a nostris grecis vna 
+            <lb ed="#V" n="28"/>essentia tres substantiae. Cum ergo greci in hoc non reprehendantur 
+            <lb ed="#V" n="29"/>videtur quod pater et filius: et ipusscus conuenienter possunt dici tres substantie. 
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e273">
+            <lb ed="#V" n="30"/>Contra omne nomen. signans in diuinis quod absolutum dicitur 
+            <lb ed="#V" n="31"/>de tribus simul singliter non pluribus sed nomen substantiae 
+            <lb ed="#V" n="32"/>est huiusmodi ergo non praedicatur de tribus personis pluraliter.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e283">
+            ¶ Item 
+            <lb ed="#V" n="33"/>Hierony. ad Dama. papam parum vltra mediu. Quis 
+            inquan<lb ed="#V" n="34" break="no"/>nisi ore sacrilego tres substantias: predicauit. q. d. nemo. 
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e290">
+            <lb ed="#V" n="35"/>Respondeo quod pater et filius et spiritus sanctus non dicunt dici 
+            <lb ed="#V" n="36"/>tres substantiae: quia quamuis persona in divinis se habeat secundum 
+            <lb ed="#V" n="37"/>aliqualem similitudinem substantiae proprie in creaturis et essentiam secundum 
+            <lb ed="#V" n="38"/>aliqualem similitudinem substantiae secunde: tamen propter remotionem 
+            anbiguita<lb ed="#V" n="39" break="no"/>tis et ne aliquis affirmando tres substantias cogeretur per hoc in 
+            di<lb ed="#V" n="40" break="no"/>nis affirmare tres essentias: ideo nome substantiae ex vsu 
+            appro<lb ed="#V" n="41" break="no"/>priatum est in diuinis ad significandum tantum illud quod se habet 
+            <lb ed="#V" n="42"/>ad similitudinem substantiae secunde hoc est essentiam: quamuis aut non 
+            de<lb ed="#V" n="43" break="no"/>beamus dicere patrem et filium et spiritum sanctum esse tres 
+            <lb ed="#V" n="44"/>substantias: quia sicut dicit Augu. 7. de trinitate. c. 4. Non aliter in 
+            ser<lb ed="#V" n="45" break="no"/>mone nostero id est latiuo essentia quam substantia solet intelligi: tamen 
+            conuenien<lb ed="#V" n="46" break="no"/>ter dicimus illos tres substantias.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e319">
+            ¶ Ad cuius intelligentiam 
+            no<lb ed="#V" n="47" break="no"/>tandum quod istis quatuor nomibus grecis. Usia Usiosis: 
+            <lb ed="#V" n="48"/>hypostasis prosopon respondent quattuor nomina latina scilicet 
+            essen<lb ed="#V" n="49" break="no"/>tia substantia subsistentia persona.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e328">
+            ¶ Essentia dicit ipsum quo est: 
+            <lb ed="#V" n="50"/>substantia ipsum quod est. Et hoc in re communicabili.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e333">
+            ¶ In re autem 
+            in<lb ed="#V" n="51" break="no"/>communicabili queritur pomus subsistentia nominat ipsam vt est quid 
+            distin<lb ed="#V" n="52" break="no"/>ctum persona vero vt quid distinctum notabili proprietate: eandem 
+            <lb ed="#V" n="53"/>rem ergo in diuinis nominat subsistentia et persona quamuis non 
+            sub<lb ed="#V" n="54" break="no"/>eadem ratione et quia antiquitus subsistere accipiebatur prout 
+            raesten<lb ed="#V" n="55" break="no"/>debat Usiosi: et ita prout significabat ipsum quod est rei communica 
+            <lb ed="#V" n="56"/>bilis et substantia prout respondebat hypostasi et ita prout significabat 
+            <lb ed="#V" n="57"/>rem in communicabilem quibusset proprietatibus distinguibilem vel 
+            di<lb ed="#V" n="58" break="no"/>stinctam ideo antiquitus in diuinis magis: dicebant tres 
+            <lb ed="#V" n="59"/>substantias quam tres subsistentias: quia tamen ex vsu nomen subiesistentie 
+            ac<lb ed="#V" n="60" break="no"/>cipitur prout respondet hypostasi: et substantia prout respondet Usio 
+            <lb ed="#V" n="61"/>Ion modo non licet nobis affirmare in diuis tres substantias cum liceat 
+            <lb ed="#V" n="62"/>nobis affirmar tres substantias coram simplicibus tamen minus prouectis 
+            <lb ed="#V" n="63"/>in theologia cum affirmantur tres substantiae in diuis expedit 
+            expo<lb ed="#V" n="64" break="no"/>nere quid intelligatur nomine subsistentie eo quod nomen 
+            subsisten<lb ed="#V" n="65" break="no"/>tie et substantie prime occursu videntur esse propinqua.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e368">
+            <lb ed="#V" n="66"/>Ad primum in oppositum cum dicitur secundum boetium vnam 
+            essen<lb ed="#V" n="67" break="no"/>tiam tres substantias etc. dico quod loquitur pro 
+            <lb ed="#V" n="68"/>illo tempore quo substantia respondebat hypostasi sed modo apud nos raseon¬ 
+            <!--00166.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>det Usiosi.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e385">
+            ¶ Ad 2m cum artrio per Aug. dico quod ibi accipit 
+            sub<lb ed="#V" n="70" break="no"/>stantiam prosubsistentia.
+          </p>
+          <p xml:id="kzz7yh-a51775-d1e390">
+            ¶ Ad 3m cum dicit quod greci non 
+            repre<lb ed="#V" n="71" break="no"/>hendutur qui dicunt tres substantias dico quod verum est quia apud eos 
+            <lb ed="#V" n="72"/>in communi vsu per substantiam hypostasis intelligitur apud nos aut nonsic: 
+            <lb ed="#V" n="73"/>sed per substantiam intelligimus in divinis ipsum quod est rei communicabitu.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a51775-Dd1e400">
+          <head xml:id="kzz7yh-a51775-Hd1e402">Quaestio 3</head>
+          <head xml:id="kzz7yh-a51775-Hd1e414" type="question-title">Utrum pater et filius et spiritus sanctus debeant dici tres essentiae</head>
+          <p xml:id="kzz7yh-a51775-d1e404">
+            Quaestio III. 
+            <lb ed="#V" n="74"/>Tertio quaerendum esset vtrum pater et filius et spiritus 
+            <lb ed="#V" n="75"/>sanctus debeant dici tres essentie nisi quia 
+            <lb ed="#V" n="76"/>hec questio virtualiter superius determinata est. Disti. 
+            <lb ed="#V" n="77"/>secunda vbi ostensum est non esse nisi vnam divinam essentiam tantum ex 
+            <lb ed="#V" n="78"/>quo sequitur quod pater et filius et spiritus sanctus non sunt tres essentia.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,218 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-10">September 10, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-10" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="174-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-f124277"><!-- l2d44a1 -->
-            <head xml:id="kzz7yh-f124277-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-f124277-d1e103">
-      ¶ Circa 
-      pri<lb ed="#V" n="50" break="no"/>mum queruntur duo.
-   </p>
-            <p xml:id="kzz7yh-f124277-d1e108">
-      ¶ Primo vtrum potentia peccandi 
-      <lb ed="#V" n="51"/>sit aliqua potentia.
-   </p>
-            <p xml:id="kzz7yh-f124277-d1e113">
-      ¶ Secundo vtrum sit a deo.
-   </p>
-            <div xml:id="kzz7yh-f124277-Dd1e115">
-               <head xml:id="kzz7yh-f124277-Hd1e117">Quaestio 1</head>
-               <head xml:id="kzz7yh-f124277-Hd1e122" type="question-title">Utrum potentia peccandi sit aliqua potentia</head>
-               <p xml:id="kzz7yh-f124277-d1e119">
-      ¶ Quaestio I. 
-      <lb ed="#V" n="52"/>PRimo ostendo quod potentia peccandi non sit 
-      <lb ed="#V" n="53"/>aliqua potentia. <ref xml:id="kzz7yh-f124277-Rd1e131">Ansel. in lib. de 
-      liber<lb ed="#V" n="54" break="no"/>tate arbitrii</ref>: parum post principium dicit quod potestas 
-      pec<lb ed="#V" n="55" break="no"/>candi: nec est libertas: nec pars libertatis. Sed si esset 
-      <lb ed="#V" n="56"/>aliqua potentia non esset nisi libertas: vel pars libertatis:
-      er<lb ed="#V" n="57" break="no"/>go non est aliqua potentia.
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e135">
-      ¶ Item in eodem libro parum post 
-      au<lb ed="#V" n="58" break="no"/>ctoritatem psallegatam: dicit Ansel. quod liberior est voluntas 
-      <lb ed="#V" n="59"/>que a rectitudine declinare nequit: quam que illam potest 
-      dese<lb ed="#V" n="60" break="no"/>rere. Sed si potentia peccandi esset aliqua potentia per eam non 
-      <lb ed="#V" n="61"/>esset voluntas minus libera: quia quanto voluntas est potentior: 
-      <lb ed="#V" n="62"/>tanto est nobilior: ergo potentia peccandi: non est aliqua poten¬ 
-      <!--00364.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="63"/>tia.
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e155">
-      ¶ Item posse deficere corporaliter: vt posse mori: non 
-      <lb ed="#V" n="64"/>est posse: ergo multo minus posse deficere spiritualiter: quod est 
-      pos<lb ed="#V" n="65" break="no"/>se peccare: non est posse: ergo nec potentia peccandi est potentia. 
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e162">
-                  <lb ed="#V" n="66"/>Contra <ref xml:id="kzz7yh-f124277-Rd1e176">Aug. I. libro retrac. ca. 8.</ref> voluntas est qua 
-      pec<lb ed="#V" n="67" break="no"/>catur et ratione viuitur. Sed voluntas est aliqua 
-      po<lb ed="#V" n="68" break="no"/>tentia: ergo potentia peccandi est aliqua potentia.
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e172">
-      ¶ Item scire 
-      <lb ed="#V" n="69"/>peccare est scire: et velle peccare est velle: ergo a simili posset 
-      <lb ed="#V" n="70"/>pecca re est posse. 
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e179">
-                  <lb ed="#V" n="71"/>Respondeo potentia peccandi est potentia 
-      defe<lb ed="#V" n="72" break="no"/>ctibilis: defectibilitas autem 
-      dimi<lb ed="#V" n="73" break="no"/>nuit de ratione potentie. Unum ratione ipsius defectibilitatis: non 
-      <lb ed="#V" n="74"/>est potentia: sed magis in potentia. Raitione vero essentie: cui 
-      <lb ed="#V" n="75"/>praedicta defectibilitas est annexa potentia est.
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e192">
-      ¶ 
-      Argumen<lb ed="#V" n="76" break="no"/>ta ad partem primam procedunt de ratione ipsius defectibilita 
-      <lb ed="#V" n="77"/>tis per quam ipsa in actu suo deficit: ipso defectu qui est 
-      <lb ed="#V" n="78"/>deformitas actus peccati. 
-    </p>
-               <p xml:id="kzz7yh-f124277-d1e201">
-                  <lb ed="#V" n="79"/>Ad primum in oppositum ad partem aliam: 
-      <lb ed="#V" n="80"/>dicendum quod non est idem quaerere: vtrum 
-      <lb ed="#V" n="81"/>voluntas sit potentia: et vtrum potentia peccandi sit potentia: 
-      <lb ed="#V" n="82"/>quamuis voluntas sit ipsa potentia peccandi: quia in sign ficato 
-      vo<lb ed="#V" n="83" break="no"/>luntatis illa defectibilitas no includitur. Uoluntas enim beata 
-      <lb ed="#V" n="84"/>est voluntas: non tamen dici potest quod in beato sit peccandi 
-      poten<lb ed="#V" n="85" break="no"/>tia: sed potentia peccandi nominat: et ipsam voluntatem: et eius 
-      <lb ed="#V" n="86"/>defectibilitatem per quam potest in actualem eius defectum 
-      pecca<lb ed="#V" n="87" break="no"/>ti: et ideo quamus ista non sit concedenda: potentia peccandi est 
-      <lb ed="#V" n="88"/>potentia sine distinctione: tamen hoc est simpliciter concedenda: 
-      volun<lb ed="#V" n="89" break="no"/>tas est potentia.
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e227">
-      ¶ Ad secundum dicendum: quod non est simile de 
-      sci<lb ed="#V" n="90" break="no"/>re: et velle peccare: et posse peccare: quia scire respicit suum 
-      <lb ed="#V" n="91"/>obictum: quantum ad suum esse representatum intellectui: et quia 
-      priua<lb ed="#V" n="92" break="no"/>tio boni debiti potest representari intellectui: per 
-      similitudi<lb ed="#V" n="93" break="no"/>nem illius boni: cuius est carentia. Ideo scire carentiam 
-      bo<lb ed="#V" n="94" break="no"/>ni debiti est scire: omne etiam cognitum potest esse obisctum 
-      vo<lb ed="#V" n="95" break="no"/>luntatis. Et ideo nolle carentiam illam est vere nolle: et 
-      vel<lb ed="#V" n="96" break="no"/>le illam per accidens caliter enim non potest voluntas ipsum 
-      <lb ed="#V" n="97"/>velle est velle: sed potentia respicit suum obicitum secundum esse 
-      rea<lb ed="#V" n="98" break="no"/>le: et quia deformitas peccati: nullum habet esse reale: ideo talem 
-      <lb ed="#V" n="99"/>posse deformitatem non est posse: sed non posse.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-f124277-Dd1e253">
-               <head xml:id="kzz7yh-f124277-Hd1e255">Quaestio 2</head>
-               <head xml:id="kzz7yh-f124277-Hd1e269" type="question-title">Utrum potentia peccandi sit a deo</head>
-               <p xml:id="kzz7yh-f124277-d1e257">
-      ¶ Quaestio II. 
-      <lb ed="#V" n="100"/>SEcundo queritur vtrum potentia 
-      <lb ed="#V" n="101"/>peccandi sit a deo. 
-      <lb ed="#V" n="102"/>Et videtur quod <ref xml:id="kzz7yh-f124277-Rd1e280">philosophus. 1. libro de somno et vigilia</ref>: cuius est 
-      <lb ed="#V" n="103"/>potentia eius est actus: ergo a simili a quo est 
-      poten<lb ed="#V" n="104" break="no"/>tia ab illo est actus. Sed peccare non est a deo: ergo potentia 
-      <lb ed="#V" n="105"/>peccandi non est a deo.
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e273">
-      ¶ Item Boe 2 li. Top. cuius vsus 
-      <lb ed="#V" n="106"/>bonus est ipsum quoque bonum: et econuerso: sed vsus potentie 
-      <lb ed="#V" n="107"/>peccandi non est bonus: quia ille vsus est peccare: ergo 
-      poten<lb ed="#V" n="108" break="no"/>tia peccandi non est bona ad quod sequitur quod non sit a deo. 
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e282">
-                  <lb ed="#V" n="109"/>¶ Item <ref xml:id="kzz7yh-f124277-Rd1e303">Deutero. 32</ref> dei perfecta sunt opera: sed potentia 
-      <lb ed="#V" n="110"/>peccandi non est perfecta potentia: quia vt superius habitum est 
-      <lb ed="#V" n="111"/>nominat defectibilitatem que diminuit de ratione potentie: 
-      <lb ed="#V" n="112"/>ergo potentia peccandi non est opus dei. 
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e293">
-                  <lb ed="#V" n="113"/>Contra <ref xml:id="kzz7yh-f124277-Rd1e317">philosophus. 4 Top.</ref> prauorum potestates sunt 
-      eligen<lb ed="#V" n="114" break="no"/>de: sed omne eligendum a deo est: ergo potentia 
-      <lb ed="#V" n="115"/>faciendi prauum opus a deo est.
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e303">
-      ¶ Item <ref xml:id="kzz7yh-f124277-Rd1e326">Aug. in libro de 
-      <lb ed="#V" n="116"/>natura boni</ref>: non multum ante medium dicit: quod nocendi 
-      po<lb ed="#V" n="117" break="no"/>testas non est nisi a deo: sed potestas nocendi est potestas 
-      <lb ed="#V" n="118"/>peccandi: ergo potestas peccandi non est nisi a deo. 
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e312">
-                  <lb ed="#V" n="119"/>Respondeo quod potentia peccandi non tantummodo 
-      <lb ed="#V" n="120"/>nominat principium deformitatis actus 
-      pecca<lb ed="#V" n="121" break="no"/>ti: sed etiam essentie actus substracti deformitati. Dico ergo 
-      <lb ed="#V" n="122"/>quod inquantum est principium essentie actus: sic dicit aliquid 
-      po<lb ed="#V" n="123" break="no"/>sitiuum et a deo est: et ideo essentia actus: ab ea principiata a deo 
-      <lb ed="#V" n="124"/>est. Inquantum autem est principium deformitatis actus a deo non est: 
-      <lb ed="#V" n="125"/>quia sicut dicit quandam defectibilitatem: que consequitur 
-      poten<lb ed="#V" n="126" break="no"/>tiam: eo ipso quod de nihilo est: vnde causam efficientem non habet 
-      <lb ed="#V" n="127"/>et ideo ipsa deformitas: que est in actu per ipsam 
-      defecti<lb ed="#V" n="128" break="no"/>bilitatem potentie a deo non est: nec causam habet 
-      efficien<lb ed="#V" n="129" break="no"/>tem: sed deficientem.
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e338">
-      ¶ Argumenta ad primam partem 
-      <lb ed="#V" n="130"/>procedunt de potentia peccandi ratione defectibilitatis per¬ 
-      <!--00365.xml-->
-      <pb ed="#V" n="175-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>quam est principium deformitatis in actu peccati: et sic verum 
-      <lb ed="#V" n="2"/>est quod a deo non est.
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e354">
-      ¶ Argumenta ad partem aliam 
-      proce<lb ed="#V" n="3" break="no"/>dunt de potentia peccandi: inquantum est principium essentie 
-      <lb ed="#V" n="4"/>actus substrcti deformitatis peccati: et sic verum est quod 
-      bo<lb ed="#V" n="5" break="no"/>na est et a deo est.
-   </p>
-               <p xml:id="kzz7yh-f124277-d1e363">
-      ¶ Posset tamen dici specialiter ad 
-      auctorita<lb ed="#V" n="6" break="no"/>tem philosophi quod intendit potestates prauorum eligendas esse: 
-      inquan<lb ed="#V" n="7" break="no"/>tum eedem potestates sunt etiam bonorum. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-10">September 10, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v2">Venice, 1509, v. 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="174-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-f124277"><!-- l2d44a1 -->
+        <head xml:id="kzz7yh-f124277-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-f124277-d1e103">
+          ¶ Circa 
+          pri<lb ed="#V" n="50" break="no"/>mum queruntur duo.
+        </p>
+        <p xml:id="kzz7yh-f124277-d1e108">
+          ¶ Primo vtrum potentia peccandi 
+          <lb ed="#V" n="51"/>sit aliqua potentia.
+        </p>
+        <p xml:id="kzz7yh-f124277-d1e113">
+          ¶ Secundo vtrum sit a deo.
+        </p>
+        <div xml:id="kzz7yh-f124277-Dd1e115">
+          <head xml:id="kzz7yh-f124277-Hd1e117">Quaestio 1</head>
+          <head xml:id="kzz7yh-f124277-Hd1e122" type="question-title">Utrum potentia peccandi sit aliqua potentia</head>
+          <p xml:id="kzz7yh-f124277-d1e119">
+            ¶ Quaestio I. 
+            <lb ed="#V" n="52"/>PRimo ostendo quod potentia peccandi non sit 
+            <lb ed="#V" n="53"/>aliqua potentia. <ref xml:id="kzz7yh-f124277-Rd1e131">Ansel. in lib. de 
+              liber<lb ed="#V" n="54" break="no"/>tate arbitrii</ref>: parum post principium dicit quod potestas 
+            pec<lb ed="#V" n="55" break="no"/>candi: nec est libertas: nec pars libertatis. Sed si esset 
+            <lb ed="#V" n="56"/>aliqua potentia non esset nisi libertas: vel pars libertatis:
+            er<lb ed="#V" n="57" break="no"/>go non est aliqua potentia.
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e135">
+            ¶ Item in eodem libro parum post 
+            au<lb ed="#V" n="58" break="no"/>ctoritatem psallegatam: dicit Ansel. quod liberior est voluntas 
+            <lb ed="#V" n="59"/>que a rectitudine declinare nequit: quam que illam potest 
+            dese<lb ed="#V" n="60" break="no"/>rere. Sed si potentia peccandi esset aliqua potentia per eam non 
+            <lb ed="#V" n="61"/>esset voluntas minus libera: quia quanto voluntas est potentior: 
+            <lb ed="#V" n="62"/>tanto est nobilior: ergo potentia peccandi: non est aliqua poten¬ 
+            <!--00364.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="63"/>tia.
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e155">
+            ¶ Item posse deficere corporaliter: vt posse mori: non 
+            <lb ed="#V" n="64"/>est posse: ergo multo minus posse deficere spiritualiter: quod est 
+            pos<lb ed="#V" n="65" break="no"/>se peccare: non est posse: ergo nec potentia peccandi est potentia. 
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e162">
+            <lb ed="#V" n="66"/>Contra <ref xml:id="kzz7yh-f124277-Rd1e176">Aug. I. libro retrac. ca. 8.</ref> voluntas est qua 
+            pec<lb ed="#V" n="67" break="no"/>catur et ratione viuitur. Sed voluntas est aliqua 
+            po<lb ed="#V" n="68" break="no"/>tentia: ergo potentia peccandi est aliqua potentia.
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e172">
+            ¶ Item scire 
+            <lb ed="#V" n="69"/>peccare est scire: et velle peccare est velle: ergo a simili posset 
+            <lb ed="#V" n="70"/>pecca re est posse. 
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e179">
+            <lb ed="#V" n="71"/>Respondeo potentia peccandi est potentia 
+            defe<lb ed="#V" n="72" break="no"/>ctibilis: defectibilitas autem 
+            dimi<lb ed="#V" n="73" break="no"/>nuit de ratione potentie. Unum ratione ipsius defectibilitatis: non 
+            <lb ed="#V" n="74"/>est potentia: sed magis in potentia. Raitione vero essentie: cui 
+            <lb ed="#V" n="75"/>praedicta defectibilitas est annexa potentia est.
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e192">
+            ¶ 
+            Argumen<lb ed="#V" n="76" break="no"/>ta ad partem primam procedunt de ratione ipsius defectibilita 
+            <lb ed="#V" n="77"/>tis per quam ipsa in actu suo deficit: ipso defectu qui est 
+            <lb ed="#V" n="78"/>deformitas actus peccati. 
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e201">
+            <lb ed="#V" n="79"/>Ad primum in oppositum ad partem aliam: 
+            <lb ed="#V" n="80"/>dicendum quod non est idem quaerere: vtrum 
+            <lb ed="#V" n="81"/>voluntas sit potentia: et vtrum potentia peccandi sit potentia: 
+            <lb ed="#V" n="82"/>quamuis voluntas sit ipsa potentia peccandi: quia in sign ficato 
+            vo<lb ed="#V" n="83" break="no"/>luntatis illa defectibilitas no includitur. Uoluntas enim beata 
+            <lb ed="#V" n="84"/>est voluntas: non tamen dici potest quod in beato sit peccandi 
+            poten<lb ed="#V" n="85" break="no"/>tia: sed potentia peccandi nominat: et ipsam voluntatem: et eius 
+            <lb ed="#V" n="86"/>defectibilitatem per quam potest in actualem eius defectum 
+            pecca<lb ed="#V" n="87" break="no"/>ti: et ideo quamus ista non sit concedenda: potentia peccandi est 
+            <lb ed="#V" n="88"/>potentia sine distinctione: tamen hoc est simpliciter concedenda: 
+            volun<lb ed="#V" n="89" break="no"/>tas est potentia.
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e227">
+            ¶ Ad secundum dicendum: quod non est simile de 
+            sci<lb ed="#V" n="90" break="no"/>re: et velle peccare: et posse peccare: quia scire respicit suum 
+            <lb ed="#V" n="91"/>obictum: quantum ad suum esse representatum intellectui: et quia 
+            priua<lb ed="#V" n="92" break="no"/>tio boni debiti potest representari intellectui: per 
+            similitudi<lb ed="#V" n="93" break="no"/>nem illius boni: cuius est carentia. Ideo scire carentiam 
+            bo<lb ed="#V" n="94" break="no"/>ni debiti est scire: omne etiam cognitum potest esse obisctum 
+            vo<lb ed="#V" n="95" break="no"/>luntatis. Et ideo nolle carentiam illam est vere nolle: et 
+            vel<lb ed="#V" n="96" break="no"/>le illam per accidens caliter enim non potest voluntas ipsum 
+            <lb ed="#V" n="97"/>velle est velle: sed potentia respicit suum obicitum secundum esse 
+            rea<lb ed="#V" n="98" break="no"/>le: et quia deformitas peccati: nullum habet esse reale: ideo talem 
+            <lb ed="#V" n="99"/>posse deformitatem non est posse: sed non posse.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-f124277-Dd1e253">
+          <head xml:id="kzz7yh-f124277-Hd1e255">Quaestio 2</head>
+          <head xml:id="kzz7yh-f124277-Hd1e269" type="question-title">Utrum potentia peccandi sit a deo</head>
+          <p xml:id="kzz7yh-f124277-d1e257">
+            ¶ Quaestio II. 
+            <lb ed="#V" n="100"/>SEcundo queritur vtrum potentia 
+            <lb ed="#V" n="101"/>peccandi sit a deo. 
+            <lb ed="#V" n="102"/>Et videtur quod <ref xml:id="kzz7yh-f124277-Rd1e280">philosophus. 1. libro de somno et vigilia</ref>: cuius est 
+            <lb ed="#V" n="103"/>potentia eius est actus: ergo a simili a quo est 
+            poten<lb ed="#V" n="104" break="no"/>tia ab illo est actus. Sed peccare non est a deo: ergo potentia 
+            <lb ed="#V" n="105"/>peccandi non est a deo.
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e273">
+            ¶ Item Boe 2 li. Top. cuius vsus 
+            <lb ed="#V" n="106"/>bonus est ipsum quoque bonum: et econuerso: sed vsus potentie 
+            <lb ed="#V" n="107"/>peccandi non est bonus: quia ille vsus est peccare: ergo 
+            poten<lb ed="#V" n="108" break="no"/>tia peccandi non est bona ad quod sequitur quod non sit a deo. 
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e282">
+            <lb ed="#V" n="109"/>¶ Item <ref xml:id="kzz7yh-f124277-Rd1e303">Deutero. 32</ref> dei perfecta sunt opera: sed potentia 
+            <lb ed="#V" n="110"/>peccandi non est perfecta potentia: quia vt superius habitum est 
+            <lb ed="#V" n="111"/>nominat defectibilitatem que diminuit de ratione potentie: 
+            <lb ed="#V" n="112"/>ergo potentia peccandi non est opus dei. 
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e293">
+            <lb ed="#V" n="113"/>Contra <ref xml:id="kzz7yh-f124277-Rd1e317">philosophus. 4 Top.</ref> prauorum potestates sunt 
+            eligen<lb ed="#V" n="114" break="no"/>de: sed omne eligendum a deo est: ergo potentia 
+            <lb ed="#V" n="115"/>faciendi prauum opus a deo est.
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e303">
+            ¶ Item <ref xml:id="kzz7yh-f124277-Rd1e326">Aug. in libro de 
+              <lb ed="#V" n="116"/>natura boni</ref>: non multum ante medium dicit: quod nocendi 
+            po<lb ed="#V" n="117" break="no"/>testas non est nisi a deo: sed potestas nocendi est potestas 
+            <lb ed="#V" n="118"/>peccandi: ergo potestas peccandi non est nisi a deo. 
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e312">
+            <lb ed="#V" n="119"/>Respondeo quod potentia peccandi non tantummodo 
+            <lb ed="#V" n="120"/>nominat principium deformitatis actus 
+            pecca<lb ed="#V" n="121" break="no"/>ti: sed etiam essentie actus substracti deformitati. Dico ergo 
+            <lb ed="#V" n="122"/>quod inquantum est principium essentie actus: sic dicit aliquid 
+            po<lb ed="#V" n="123" break="no"/>sitiuum et a deo est: et ideo essentia actus: ab ea principiata a deo 
+            <lb ed="#V" n="124"/>est. Inquantum autem est principium deformitatis actus a deo non est: 
+            <lb ed="#V" n="125"/>quia sicut dicit quandam defectibilitatem: que consequitur 
+            poten<lb ed="#V" n="126" break="no"/>tiam: eo ipso quod de nihilo est: vnde causam efficientem non habet 
+            <lb ed="#V" n="127"/>et ideo ipsa deformitas: que est in actu per ipsam 
+            defecti<lb ed="#V" n="128" break="no"/>bilitatem potentie a deo non est: nec causam habet 
+            efficien<lb ed="#V" n="129" break="no"/>tem: sed deficientem.
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e338">
+            ¶ Argumenta ad primam partem 
+            <lb ed="#V" n="130"/>procedunt de potentia peccandi ratione defectibilitatis per¬ 
+            <!--00365.xml-->
+            <pb ed="#V" n="175-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>quam est principium deformitatis in actu peccati: et sic verum 
+            <lb ed="#V" n="2"/>est quod a deo non est.
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e354">
+            ¶ Argumenta ad partem aliam 
+            proce<lb ed="#V" n="3" break="no"/>dunt de potentia peccandi: inquantum est principium essentie 
+            <lb ed="#V" n="4"/>actus substrcti deformitatis peccati: et sic verum est quod 
+            bo<lb ed="#V" n="5" break="no"/>na est et a deo est.
+          </p>
+          <p xml:id="kzz7yh-f124277-d1e363">
+            ¶ Posset tamen dici specialiter ad 
+            auctorita<lb ed="#V" n="6" break="no"/>tem philosophi quod intendit potestates prauorum eligendas esse: 
+            inquan<lb ed="#V" n="7" break="no"/>tum eedem potestates sunt etiam bonorum. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

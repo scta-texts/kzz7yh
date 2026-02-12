@@ -1,311 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 2</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 2</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="146-r"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 2</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 2</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="146-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k105970"><!-- l4d29a2 -->
+        <head xml:id="kzz7yh-k105970-Hd1e101">Articulus 2</head>
+        <p xml:id="kzz7yh-k105970-d1e103">
+          Distin. 
+          <lb ed="#V" n="99"/>Consequenter queritur de secundo 
+          <lb ed="#V" n="100"/>principali. Et circa 
+          <lb ed="#V" n="101"/>hoc quaeruntur quatuor.
+        </p>
+        <p xml:id="kzz7yh-k105970-d1e112">
+          ¶ Primo vtrum matrimonium 
+          <lb ed="#V" n="102"/>contractum per consensum metu coactum: ratificetur 
+          <lb ed="#V" n="103"/>per sequentem consensum tacitum
+        </p>
+        <p xml:id="kzz7yh-k105970-d1e119">
+          ¶ Secundo vtrum per 
+          car<lb ed="#V" n="104" break="no"/>nalem copulam sequentem.
+        </p>
+        <p xml:id="kzz7yh-k105970-d1e124">
+          ¶ Tertio vtrum ratificetur si 
+          fir<lb ed="#V" n="105" break="no"/>metur per iuramentum.
+        </p>
+        <p xml:id="kzz7yh-k105970-d1e130">
+          ¶ Quarto vtrum ille qui 
+          iura<lb ed="#V" n="106" break="no"/>uit aliquam ducere in vxorem: possit religionem intrare 
+          ma<lb ed="#V" n="107" break="no"/>trimonio non prius contracto. 
+        </p>
+        <div xml:id="kzz7yh-k105970-Dd1e137">
+          <head xml:id="kzz7yh-k105970-Hd1e139">Quaestio 1</head>
+          <p xml:id="kzz7yh-k105970-d1e141">
+            Quaestio I
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e143">
+            <lb ed="#V" n="108"/>Rimo ostendendo quod non ratificatur per 
+            sequen<lb ed="#V" n="109" break="no"/>tem consensum tacitum. si aliqua 
+            <lb ed="#V" n="110"/>duo requiruntur pro causa vnius effectus: non 
+            cau<lb ed="#V" n="111" break="no"/>sant effectum nisi simul coniuncta: si enim duo 
+            ho<lb ed="#V" n="112" break="no"/>mines requiruntur ad vnum nauis tractum nunquam eam traherent 
+            <lb ed="#V" n="113"/>diuisim: cum ergo ad contrahendum matrimonium requiratur 
+            <lb ed="#V" n="114"/>consensus de praesenti interior: et eius expressio exterior: non 
+            <lb ed="#V" n="115"/>efficient matrimonium diuisim: ergo sequens tacitus 
+            con<lb ed="#V" n="116" break="no"/>sensus cum expressione exteriori que praecessit non efficiunt 
+            <lb ed="#V" n="117"/>matrimonium.
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e167">
+            ¶ Item quod nihil est: non ratificatur: sed 
+            ma<lb ed="#V" n="118" break="no"/>trimonium contractum per consensum coactum nullum est. 
+            <lb ed="#V" n="119"/>ergo per sequentem consensum tacitum non ratisicatur. 
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e174">
+            <lb ed="#V" n="120"/>Contra si existens in etate debita contrahit cum 
+            perso<lb ed="#V" n="121" break="no"/>na non sufficientis etatis ad matrimonium: 
+            <lb ed="#V" n="122"/>quamuis matrimonium nondum sit: ratificatur tamen post consensum 
+            <lb ed="#V" n="123"/>illius qui fuerat minoris etatis cum ad annos nubiles 
+            per<lb ed="#V" n="124" break="no"/>uenerit extra de desponsatione impuberum. De illis primo: 
+            er<lb ed="#V" n="125" break="no"/>go a simili quamuis matrimonium contractum per consensum 
+            <lb ed="#V" n="126"/>coactum nullum sit: tamen per sequentem consensum 
+            libe<lb ed="#V" n="127" break="no"/>rum quamuis tacitum potest ratificari. 
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e195">
+            <lb ed="#V" n="128"/>Respondeo quod matrimonium contructum per 
+            ef<lb ed="#V" n="129" break="no"/>sensum coactum metu cadente in 
+            <lb ed="#V" n="130"/>constantem virum: aut est contractum per coactionem 
+            consen<lb ed="#V" n="131" break="no"/>sus viri vel mulleris tantum: aut vtriusque simul. si primo modo: 
+            <lb ed="#V" n="132"/>ille qui libere consensit ligatus est. aliter non si tamen postea 
+            taci<lb ed="#V" n="133" break="no"/>te consentiat et libere: persona ligata in consensu praestino 
+            persi<lb ed="#V" n="134" break="no"/>stente verum efficitur matrimonium: et tunc vterque ligatus est: 
+            <lb ed="#V" n="135"/>quia quamuis tacitus consensus per se non sufficeret. tamen sufficit 
+            <lb ed="#V" n="136"/>cum expressione exteriori que praecessit. Si autem persona lig¬ 
+            <!--00324.xml-->
+            <pb ed="#V" n="146-v"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ta resiluit a consensu ante sequentem confensum alterius: tunc 
+            <lb ed="#V" n="2"/>distinguo: quia aut contraxit matrimonium aliud: et tunc dico quod 
+            il<lb ed="#V" n="3" break="no"/>lud secundum matrimonium tenet quamuis peccauerit contrahendo 
+            si<lb ed="#V" n="4" break="no"/>congruo tempore non expectauit liberum consensum alterius tacitum 
+            <lb ed="#V" n="5"/>vel expressum. Aut non contraxit aliud matrimonium: et tunc secundum 
+            <lb ed="#V" n="6"/>iudicium ecclesie praesumetur in eodem consensu permanere: quia que 
+            <lb ed="#V" n="7"/>in aliquem semel consenserit amplius non poterit dissentire: 
+            si<lb ed="#V" n="8" break="no"/>alius non negauerit suum praestare consensum. extra de despositio. impu. De 
+            <lb ed="#V" n="9"/>illis primo. secundum tamen iudicium dei non est matrimonium verum: quia talis 
+            <lb ed="#V" n="10"/>non potest esse sine concursu mutui consensus interioris. Si autem vtra 
+            <lb ed="#V" n="11"/>quam persona fuit coacta. tunc ad hoc quod sit verum matrimonium requiritur 
+            <lb ed="#V" n="12"/>nouus consensum ex vtraque parte. sed non noua exterior expressio. 
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e250">
+            <lb ed="#V" n="13"/>Ad primum in oppositum dicendum: quod maior non est 
+            <lb ed="#V" n="14"/>vniversalie vera: si intelligatur de simultate 
+            con<lb ed="#V" n="15" break="no"/>iunctionis secundum essentias: plurles enim gutte requiruntur pro causa vnius 
+            <lb ed="#V" n="16"/>cauationis: nec tamen omnes simul sunt secundum essentias quando causatur 
+            ca<lb ed="#V" n="17" break="no"/>uatio: sed vna causat virtute praecedentium: quarum quilibet aliquam 
+            <lb ed="#V" n="18"/>fecit dispositionem. Aliqualiter dico a simili quod sequens consensus 
+            <lb ed="#V" n="19"/>tacitus cum virtute expressionis que praecessit efficit 
+            matrimo<lb ed="#V" n="20" break="no"/>nium.
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e270">
+            ¶ Ad 2m dicendum: quod proprie loquendo: melius dicitur illud 
+            <lb ed="#V" n="21"/>matrimonium per sequentem tacitum consensum perfici quam 
+            ratifica<lb ed="#V" n="22" break="no"/>ri: et consensus coactus qui consensus fuit quamuis non ratus per 
+            <lb ed="#V" n="23"/>sequentem consensum tacitum ratificari. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k105970-Dd1e280">
+          <head xml:id="kzz7yh-k105970-Hd1e282">Quaestio 2</head>
+          <p xml:id="kzz7yh-k105970-d1e284">
+            Quaestio II.
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e286">
+            <lb ed="#V" n="24"/>SEcundo queritur vtrum per carnalem 
+            copu<lb ed="#V" n="25" break="no"/>iam sequentem ratificetur. 
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e293">
+            <lb ed="#V" n="26"/>¶ Rspondeo quod mulier que contraxit per consensum 
+            <lb ed="#V" n="27"/>coactum metu cadente in mulierem constanteme si 
+            po<lb ed="#V" n="28" break="no"/>stea cum illo cum quo contraxit carnaliter copulatur: autem ad hoc 
+            <lb ed="#V" n="29"/>cogitur per vim absolutam: aut per sufficientem metum: aut per 
+            <lb ed="#V" n="30"/>leuem: primis duobus modis non ratificatur praedictum 
+            matrimo<lb ed="#V" n="31" break="no"/>nium: nec quantum ad iudicium fori: nec quantum ad iudicium 
+            <lb ed="#V" n="32"/>poli per copulam carnalem: sed tertio modo ratificatur per eam quantum 
+            <lb ed="#V" n="33"/>ad iudicium fori siue interius consentiat siue non: quia exquo 
+            <lb ed="#V" n="34"/>ad hoc inducitur per leuem metum: aut habita potestate 
+            reclinan<lb ed="#V" n="35" break="no"/>di permittit se cognosci praesumitur interius consentire: si tamen 
+            <lb ed="#V" n="36"/>interius non consentiat in matrimonium non efficitur 
+            matri<lb ed="#V" n="37" break="no"/>monium verum secundum iudicium poli. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k105970-Dd1e323">
+          <head xml:id="kzz7yh-k105970-Hd1e325">Quaestio 3</head>
+          <p xml:id="kzz7yh-k105970-d1e327">
+            Quaestio III.
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e329">
+            <lb ed="#V" n="38"/>TErtio queritur vtrum matrimonium 
+            con<lb ed="#V" n="39" break="no"/>tractum per consensum metu 
+            co<lb ed="#V" n="40" break="no"/>actum: ratificetur si firmetur per iuramentum. 
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e338">
+            <lb ed="#V" n="41"/>¶ Ad hoc dicunt quidam quod sic: saltem in foro 
+            conscien<lb ed="#V" n="42" break="no"/>tie: quandoque enim contractus qui non tenet si non per iuramentum firmetur 
+            <lb ed="#V" n="43"/>vel per interpositionem fidei: validus efficitur si firmetur per 
+            <lb ed="#V" n="44"/>alterum illorum extra de his que vi metusue causa fiunt. Ad aures. 
+            <lb ed="#V" n="45"/>vbi dicitur quod renunciatio electionis facta ad terrorem 
+            laico<lb ed="#V" n="46" break="no"/>rum non tenet nisi iuramento vel fide interposita firmetur. 
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e354">
+            <lb ed="#V" n="47"/>¶ Alii dicunt et probabiliter quod matrimonium contractum 
+            <lb ed="#V" n="48"/>coactione per metum cadentem in constantem virum: firmatum 
+            <lb ed="#V" n="49"/>per iuramentum non tenet nec in foro exteriori nec in 
+            foro<lb ed="#V" n="50" break="no"/>conscientie: quia aut illo iuramento iuratur aliquid praeteritum: autm 
+            ali<lb ed="#V" n="51" break="no"/>quid praesens: aut aliquid futurum: si primo modo planum est quod 
+            <lb ed="#V" n="52"/>non potest ratificare matrimonium quod alias esset nullum: quia 
+            <lb ed="#V" n="53"/>si coactus iurat quod vere conserit: tale iuramentum non potest 
+            fa<lb ed="#V" n="54" break="no"/>cere consensum iam praeteritum esse validum: si ante non 
+            va<lb ed="#V" n="55" break="no"/>luit. si secundo modo etiam ratificare non potest: quia si 
+            contrahen<lb ed="#V" n="56" break="no"/>do iuret quod in rei veritate consentit interius in corde: et non 
+            <lb ed="#V" n="57"/>consentiat periurus est. periurium autem matrimonium 
+            rati<lb ed="#V" n="58" break="no"/>ficare non potest. si autem vere consentit quamuis verum 
+            iu<lb ed="#V" n="59" break="no"/>ret. tamen illud iuramentum matrimonium non ratificat: 
+            <lb ed="#V" n="60"/>quia tale iuramentum est assertorium: vnde illo non fit nisi 
+            testi<lb ed="#V" n="61" break="no"/>ficatio de praesentia interioris consensus: vnde si interior 
+            com<lb ed="#V" n="62" break="no"/>sensus de se est inualidus et inefficax ad matrimonium 
+            con<lb ed="#V" n="63" break="no"/>trahendum: testificatio praesentie talis consensus nihil facit 
+            <lb ed="#V" n="64"/>ad matrimonium. Si autem iuretur aliquid de futuro sic. 
+            Iu<lb ed="#V" n="65" break="no"/>ro tibi quod consentiam in te. planum est quod tale iuramentum non 
+            <lb ed="#V" n="66"/>potest ratificare contractum per verba de praesenti qui praecessit: 
+            <lb ed="#V" n="67"/>quia tali iuramento non firmatur nisi promissio de 
+            con<lb ed="#V" n="68" break="no"/>trahendo.
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e405">
+            ¶ Utrum autem talis promissio iuramento fir¬ 
+            <!--00324.xml-->
             <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k105970"><!-- l4d29a2 -->
-            <head xml:id="kzz7yh-k105970-Hd1e101">Articulus 2</head>
-            <p xml:id="kzz7yh-k105970-d1e103">
-    Distin. 
-      <lb ed="#V" n="99"/>Consequenter queritur de secundo 
-      <lb ed="#V" n="100"/>principali. Et circa 
-      <lb ed="#V" n="101"/>hoc quaeruntur quatuor.
-   </p>
-            <p xml:id="kzz7yh-k105970-d1e112">
-      ¶ Primo vtrum matrimonium 
-      <lb ed="#V" n="102"/>contractum per consensum metu coactum: ratificetur 
-      <lb ed="#V" n="103"/>per sequentem consensum tacitum
-   </p>
-            <p xml:id="kzz7yh-k105970-d1e119">
-      ¶ Secundo vtrum per 
-      car<lb ed="#V" n="104" break="no"/>nalem copulam sequentem.
-   </p>
-            <p xml:id="kzz7yh-k105970-d1e124">
-      ¶ Tertio vtrum ratificetur si 
-      fir<lb ed="#V" n="105" break="no"/>metur per iuramentum.
-   </p>
-            <p xml:id="kzz7yh-k105970-d1e130">
-      ¶ Quarto vtrum ille qui 
-      iura<lb ed="#V" n="106" break="no"/>uit aliquam ducere in vxorem: possit religionem intrare 
-      ma<lb ed="#V" n="107" break="no"/>trimonio non prius contracto. 
-   </p>
-            <div xml:id="kzz7yh-k105970-Dd1e137">
-               <head xml:id="kzz7yh-k105970-Hd1e139">Quaestio 1</head>
-               <p xml:id="kzz7yh-k105970-d1e141">
-      Quaestio I
-    </p>
-               <p xml:id="kzz7yh-k105970-d1e143">
-                  <lb ed="#V" n="108"/>Rimo ostendendo quod non ratificatur per 
-      sequen<lb ed="#V" n="109" break="no"/>tem consensum tacitum. si aliqua 
-      <lb ed="#V" n="110"/>duo requiruntur pro causa vnius effectus: non 
-      cau<lb ed="#V" n="111" break="no"/>sant effectum nisi simul coniuncta: si enim duo 
-      ho<lb ed="#V" n="112" break="no"/>mines requiruntur ad vnum nauis tractum nunquam eam traherent 
-      <lb ed="#V" n="113"/>diuisim: cum ergo ad contrahendum matrimonium requiratur 
-      <lb ed="#V" n="114"/>consensus de praesenti interior: et eius expressio exterior: non 
-      <lb ed="#V" n="115"/>efficient matrimonium diuisim: ergo sequens tacitus 
-      con<lb ed="#V" n="116" break="no"/>sensus cum expressione exteriori que praecessit non efficiunt 
-      <lb ed="#V" n="117"/>matrimonium.
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e167">
-      ¶ Item quod nihil est: non ratificatur: sed 
-      ma<lb ed="#V" n="118" break="no"/>trimonium contractum per consensum coactum nullum est. 
-      <lb ed="#V" n="119"/>ergo per sequentem consensum tacitum non ratisicatur. 
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e174">
-                  <lb ed="#V" n="120"/>Contra si existens in etate debita contrahit cum 
-      perso<lb ed="#V" n="121" break="no"/>na non sufficientis etatis ad matrimonium: 
-      <lb ed="#V" n="122"/>quamuis matrimonium nondum sit: ratificatur tamen post consensum 
-      <lb ed="#V" n="123"/>illius qui fuerat minoris etatis cum ad annos nubiles 
-      per<lb ed="#V" n="124" break="no"/>uenerit extra de desponsatione impuberum. De illis primo: 
-      er<lb ed="#V" n="125" break="no"/>go a simili quamuis matrimonium contractum per consensum 
-      <lb ed="#V" n="126"/>coactum nullum sit: tamen per sequentem consensum 
-      libe<lb ed="#V" n="127" break="no"/>rum quamuis tacitum potest ratificari. 
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e195">
-                  <lb ed="#V" n="128"/>Respondeo quod matrimonium contructum per 
-      ef<lb ed="#V" n="129" break="no"/>sensum coactum metu cadente in 
-      <lb ed="#V" n="130"/>constantem virum: aut est contractum per coactionem 
-      consen<lb ed="#V" n="131" break="no"/>sus viri vel mulleris tantum: aut vtriusque simul. si primo modo: 
-      <lb ed="#V" n="132"/>ille qui libere consensit ligatus est. aliter non si tamen postea 
-      taci<lb ed="#V" n="133" break="no"/>te consentiat et libere: persona ligata in consensu praestino 
-      persi<lb ed="#V" n="134" break="no"/>stente verum efficitur matrimonium: et tunc vterque ligatus est: 
-      <lb ed="#V" n="135"/>quia quamuis tacitus consensus per se non sufficeret. tamen sufficit 
-      <lb ed="#V" n="136"/>cum expressione exteriori que praecessit. Si autem persona lig¬ 
-      <!--00324.xml-->
-      <pb ed="#V" n="146-v"/>
-                  <cb ed="#V" n="a"/>
-                  <lb ed="#V" n="1"/>ta resiluit a consensu ante sequentem confensum alterius: tunc 
-      <lb ed="#V" n="2"/>distinguo: quia aut contraxit matrimonium aliud: et tunc dico quod 
-      il<lb ed="#V" n="3" break="no"/>lud secundum matrimonium tenet quamuis peccauerit contrahendo 
-      si<lb ed="#V" n="4" break="no"/>congruo tempore non expectauit liberum consensum alterius tacitum 
-      <lb ed="#V" n="5"/>vel expressum. Aut non contraxit aliud matrimonium: et tunc secundum 
-      <lb ed="#V" n="6"/>iudicium ecclesie praesumetur in eodem consensu permanere: quia que 
-      <lb ed="#V" n="7"/>in aliquem semel consenserit amplius non poterit dissentire: 
-      si<lb ed="#V" n="8" break="no"/>alius non negauerit suum praestare consensum. extra de despositio. impu. De 
-      <lb ed="#V" n="9"/>illis primo. secundum tamen iudicium dei non est matrimonium verum: quia talis 
-      <lb ed="#V" n="10"/>non potest esse sine concursu mutui consensus interioris. Si autem vtra 
-      <lb ed="#V" n="11"/>quam persona fuit coacta. tunc ad hoc quod sit verum matrimonium requiritur 
-      <lb ed="#V" n="12"/>nouus consensum ex vtraque parte. sed non noua exterior expressio. 
-    </p>
-               <p xml:id="kzz7yh-k105970-d1e250">
-                  <lb ed="#V" n="13"/>Ad primum in oppositum dicendum: quod maior non est 
-      <lb ed="#V" n="14"/>vniversalie vera: si intelligatur de simultate 
-      con<lb ed="#V" n="15" break="no"/>iunctionis secundum essentias: plurles enim gutte requiruntur pro causa vnius 
-      <lb ed="#V" n="16"/>cauationis: nec tamen omnes simul sunt secundum essentias quando causatur 
-      ca<lb ed="#V" n="17" break="no"/>uatio: sed vna causat virtute praecedentium: quarum quilibet aliquam 
-      <lb ed="#V" n="18"/>fecit dispositionem. Aliqualiter dico a simili quod sequens consensus 
-      <lb ed="#V" n="19"/>tacitus cum virtute expressionis que praecessit efficit 
-      matrimo<lb ed="#V" n="20" break="no"/>nium.
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e270">
-      ¶ Ad 2m dicendum: quod proprie loquendo: melius dicitur illud 
-      <lb ed="#V" n="21"/>matrimonium per sequentem tacitum consensum perfici quam 
-      ratifica<lb ed="#V" n="22" break="no"/>ri: et consensus coactus qui consensus fuit quamuis non ratus per 
-      <lb ed="#V" n="23"/>sequentem consensum tacitum ratificari. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k105970-Dd1e280">
-               <head xml:id="kzz7yh-k105970-Hd1e282">Quaestio 2</head>
-               <p xml:id="kzz7yh-k105970-d1e284">
-      Quaestio II.
-    </p>
-               <p xml:id="kzz7yh-k105970-d1e286">
-                  <lb ed="#V" n="24"/>SEcundo queritur vtrum per carnalem 
-      copu<lb ed="#V" n="25" break="no"/>iam sequentem ratificetur. 
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e293">
-                  <lb ed="#V" n="26"/>¶ Rspondeo quod mulier que contraxit per consensum 
-      <lb ed="#V" n="27"/>coactum metu cadente in mulierem constanteme si 
-      po<lb ed="#V" n="28" break="no"/>stea cum illo cum quo contraxit carnaliter copulatur: autem ad hoc 
-      <lb ed="#V" n="29"/>cogitur per vim absolutam: aut per sufficientem metum: aut per 
-      <lb ed="#V" n="30"/>leuem: primis duobus modis non ratificatur praedictum 
-      matrimo<lb ed="#V" n="31" break="no"/>nium: nec quantum ad iudicium fori: nec quantum ad iudicium 
-      <lb ed="#V" n="32"/>poli per copulam carnalem: sed tertio modo ratificatur per eam quantum 
-      <lb ed="#V" n="33"/>ad iudicium fori siue interius consentiat siue non: quia exquo 
-      <lb ed="#V" n="34"/>ad hoc inducitur per leuem metum: aut habita potestate 
-      reclinan<lb ed="#V" n="35" break="no"/>di permittit se cognosci praesumitur interius consentire: si tamen 
-      <lb ed="#V" n="36"/>interius non consentiat in matrimonium non efficitur 
-      matri<lb ed="#V" n="37" break="no"/>monium verum secundum iudicium poli. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k105970-Dd1e323">
-               <head xml:id="kzz7yh-k105970-Hd1e325">Quaestio 3</head>
-               <p xml:id="kzz7yh-k105970-d1e327">
-      Quaestio III.
-    </p>
-               <p xml:id="kzz7yh-k105970-d1e329">
-                  <lb ed="#V" n="38"/>TErtio queritur vtrum matrimonium 
-      con<lb ed="#V" n="39" break="no"/>tractum per consensum metu 
-      co<lb ed="#V" n="40" break="no"/>actum: ratificetur si firmetur per iuramentum. 
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e338">
-                  <lb ed="#V" n="41"/>¶ Ad hoc dicunt quidam quod sic: saltem in foro 
-      conscien<lb ed="#V" n="42" break="no"/>tie: quandoque enim contractus qui non tenet si non per iuramentum firmetur 
-      <lb ed="#V" n="43"/>vel per interpositionem fidei: validus efficitur si firmetur per 
-      <lb ed="#V" n="44"/>alterum illorum extra de his que vi metusue causa fiunt. Ad aures. 
-      <lb ed="#V" n="45"/>vbi dicitur quod renunciatio electionis facta ad terrorem 
-      laico<lb ed="#V" n="46" break="no"/>rum non tenet nisi iuramento vel fide interposita firmetur. 
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e354">
-                  <lb ed="#V" n="47"/>¶ Alii dicunt et probabiliter quod matrimonium contractum 
-      <lb ed="#V" n="48"/>coactione per metum cadentem in constantem virum: firmatum 
-      <lb ed="#V" n="49"/>per iuramentum non tenet nec in foro exteriori nec in 
-      foro<lb ed="#V" n="50" break="no"/>conscientie: quia aut illo iuramento iuratur aliquid praeteritum: autm 
-      ali<lb ed="#V" n="51" break="no"/>quid praesens: aut aliquid futurum: si primo modo planum est quod 
-      <lb ed="#V" n="52"/>non potest ratificare matrimonium quod alias esset nullum: quia 
-      <lb ed="#V" n="53"/>si coactus iurat quod vere conserit: tale iuramentum non potest 
-      fa<lb ed="#V" n="54" break="no"/>cere consensum iam praeteritum esse validum: si ante non 
-      va<lb ed="#V" n="55" break="no"/>luit. si secundo modo etiam ratificare non potest: quia si 
-      contrahen<lb ed="#V" n="56" break="no"/>do iuret quod in rei veritate consentit interius in corde: et non 
-      <lb ed="#V" n="57"/>consentiat periurus est. periurium autem matrimonium 
-      rati<lb ed="#V" n="58" break="no"/>ficare non potest. si autem vere consentit quamuis verum 
-      iu<lb ed="#V" n="59" break="no"/>ret. tamen illud iuramentum matrimonium non ratificat: 
-      <lb ed="#V" n="60"/>quia tale iuramentum est assertorium: vnde illo non fit nisi 
-      testi<lb ed="#V" n="61" break="no"/>ficatio de praesentia interioris consensus: vnde si interior 
-      com<lb ed="#V" n="62" break="no"/>sensus de se est inualidus et inefficax ad matrimonium 
-      con<lb ed="#V" n="63" break="no"/>trahendum: testificatio praesentie talis consensus nihil facit 
-      <lb ed="#V" n="64"/>ad matrimonium. Si autem iuretur aliquid de futuro sic. 
-      Iu<lb ed="#V" n="65" break="no"/>ro tibi quod consentiam in te. planum est quod tale iuramentum non 
-      <lb ed="#V" n="66"/>potest ratificare contractum per verba de praesenti qui praecessit: 
-      <lb ed="#V" n="67"/>quia tali iuramento non firmatur nisi promissio de 
-      con<lb ed="#V" n="68" break="no"/>trahendo.
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e405">
-      ¶ Utrum autem talis promissio iuramento fir¬ 
-      <!--00324.xml-->
-      <cb ed="#V" n="b"/>
-                  <lb ed="#V" n="69"/>mata teneat: visum est questione secunda articuli 
-      preceden<lb ed="#V" n="70" break="no"/>tis.
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e416">
-      ¶ Et tenentes hanc secundam opinionem ad decretalem 
-      <lb ed="#V" n="71"/>allegatam pro alia opinione dicunt quod non est simile: quia 
-      ma<lb ed="#V" n="72" break="no"/>ior libertas requiritur in contrahendo matrimonium quam 
-      <lb ed="#V" n="73"/>in renunciando electioni. vnde extra eo. ti. Abbas. in glo. 
-      <lb ed="#V" n="74"/>dicitur quod matrimonium contractum per metum non tenet: 
-      <lb ed="#V" n="75"/>nec obligatus est qui hoc facit etiam si iurat: quia 
-      matrimo<lb ed="#V" n="76" break="no"/>nia libera esse debent: quia inuite nuptie difficiles exitus 
-      <lb ed="#V" n="77"/>consueuerunt habere: et parum post dicitur quod vbi metus vel coactio 
-      <lb ed="#V" n="78"/>intercedit: consensus liber dici non potest. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-k105970-Dd1e437">
-               <head xml:id="kzz7yh-k105970-Hd1e439">Quaestio 4</head>
-               <p xml:id="kzz7yh-k105970-d1e441">
-      Quaestio IIII
-    </p>
-               <p xml:id="kzz7yh-k105970-d1e443">
-                  <lb ed="#V" n="79"/>QUarto queritur vtrum ille qui iurauit 
-      <lb ed="#V" n="80"/>aliquam ducere in vxorem 
-      pos<lb ed="#V" n="81" break="no"/>sit religionem intrare matrimonio non prius 
-      con<lb ed="#V" n="82" break="no"/>tracto. Et videtur quod non: quia nullus potest 
-      face<lb ed="#V" n="83" break="no"/>re quin periurium sit peccatum: cum sit contra secundum praeceptum 
-      <lb ed="#V" n="84"/>prime tabule: sed si talis intraret religionem non prius 
-      con<lb ed="#V" n="85" break="no"/>tracto matrimonio periurat. ergo si talis intraret 
-      religio<lb ed="#V" n="86" break="no"/>nem matrimonio non prius contracto: peccaret. 
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e463">
-                  <lb ed="#V" n="87"/>Contra si contraheret autem intenderet explicite: vel 
-      <lb ed="#V" n="88"/>implicite se obligare ad carnalem copulam 
-      <lb ed="#V" n="89"/>si alter coniunx exigeret: aut non. Si sic. intenderet se 
-      obli<lb ed="#V" n="90" break="no"/>gare si alter coniunx vellet: ad illud quod sibi viam 
-      praeclude<lb ed="#V" n="91" break="no"/>ret ad maius bonum: ad talem autem obligationem nullus 
-      <lb ed="#V" n="92"/>tenetur. Si vero non: contractus ille nullus esset: quia ad 
-      <lb ed="#V" n="93"/>hoc quod vinculum matrimonii contrahatur: requiritur quod 
-      vter<lb ed="#V" n="94" break="no"/>quam coniugum explicite vel implicite consentiat in 
-      carna<lb ed="#V" n="95" break="no"/>lem copulam sub hac conditione: si alter coniunx eam 
-      <lb ed="#V" n="96"/>exigeret: ergo videtur quod ille licite potest religionem 
-      in<lb ed="#V" n="97" break="no"/>trare non contracto matrimonio. 
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e489">
-                  <lb ed="#V" n="98"/>Respondeo vt habetur extra de sponsalibus. 
-      Commis<lb ed="#V" n="99" break="no"/>sum. tutius est ei religione 
-      iuramen<lb ed="#V" n="100" break="no"/>ti seruata prius contrahere: et postea si elegerit ad religionem 
-      <lb ed="#V" n="101"/>migrare. Quod non sic est intelligendum secundum quosdam quod hoc sit 
-      <lb ed="#V" n="102"/>tutius secundum veritatem: sed quo ad opinionem: ne de facto 
-      di<lb ed="#V" n="103" break="no"/>catur iste contra suum iuramentum venisse: quia non videtur 
-      in<lb ed="#V" n="104" break="no"/>fringere iuramentum qui illud commutat in melius. extra de 
-      <lb ed="#V" n="105"/>iureiurando. Peruenit. 2o vnde si vult: potest absque peccato 
-      reli<lb ed="#V" n="106" break="no"/>gionem intrare matrimonio non conttacto.
-   </p>
-               <p xml:id="kzz7yh-k105970-d1e512">
-      ¶ Alii dicunt 
-      <lb ed="#V" n="107"/>contrarium: quia potest vtrumque facere: quia ante consumationem 
-      ma<lb ed="#V" n="108" break="no"/>trimonii cuilibet coniugum altero inuito licitum est 
-      reli<lb ed="#V" n="109" break="no"/>gionem intrare: non tenentur tamen contrahere nisi in 
-      loco<lb ed="#V" n="110" break="no"/>tuto vbi ad carnalem copulam cogi non possint. Uidetur 
-      <lb ed="#V" n="111"/>autem mihi magis adherendum opinioni prime maxime: quia sic 
-      <lb ed="#V" n="112"/>contrahens matrimonium non contraheret illa intentione qua 
-      <lb ed="#V" n="113"/>se contracturum iurauit: nec sub illa qua mulier recepit 
-      iu<lb ed="#V" n="114" break="no"/>ramentum. vnde si contraheret cum ea: ante redditionem 
-      <lb ed="#V" n="115"/>debiti religionem intrare intendens eam deludent. 
-      <lb ed="#V" n="116"/>Qui vult tenere primam opionem potest dicere quod 
-      ta<lb ed="#V" n="117" break="no"/>lis intrans religionem non contracto prius 
-      <lb ed="#V" n="118"/>matrimonio non periurat: quia iuramentum non infringit qui 
-      <lb ed="#V" n="119"/>illud in melius commutat vt patet per decre. allegatam pro 
-      pri<lb ed="#V" n="120" break="no"/>ma opinione. dicitur etiam in glo. quod non dicitur deiurare qui 
-      <lb ed="#V" n="121"/>ex iusta causa deserit iuramentum. Argumentum ad hoc. 22.q. 
-      <lb ed="#V" n="122"/>2. Beatus: et extra de voto et voti redemp. Sactipture. 
-      <lb ed="#V" n="123"/>Qui vult tenere secundam opionem potest dicere ad 
-      <lb ed="#V" n="124"/>argumentum ad partem primam: quod vt 
-      di<lb ed="#V" n="125" break="no"/>citur. extra de spon. Commissum. in textu. sed expressius in 
-      <lb ed="#V" n="126"/>glo. quia licet talis gerat in corde virginitatem: consentire potest 
-      <lb ed="#V" n="127"/>in matrimonium: et hoc rationabile est: quia talis consentit 
-      <lb ed="#V" n="128"/>implicite in carnalem copulam: si alter coniunx exegerit. 
-      <lb ed="#V" n="129"/>si non fecerit illud per quod altali debito absoluatur: et 
-      quan<lb ed="#V" n="130" break="no"/>uis hoc firmiter intendat facere.
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#V" n="69"/>mata teneat: visum est questione secunda articuli 
+            preceden<lb ed="#V" n="70" break="no"/>tis.
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e416">
+            ¶ Et tenentes hanc secundam opinionem ad decretalem 
+            <lb ed="#V" n="71"/>allegatam pro alia opinione dicunt quod non est simile: quia 
+            ma<lb ed="#V" n="72" break="no"/>ior libertas requiritur in contrahendo matrimonium quam 
+            <lb ed="#V" n="73"/>in renunciando electioni. vnde extra eo. ti. Abbas. in glo. 
+            <lb ed="#V" n="74"/>dicitur quod matrimonium contractum per metum non tenet: 
+            <lb ed="#V" n="75"/>nec obligatus est qui hoc facit etiam si iurat: quia 
+            matrimo<lb ed="#V" n="76" break="no"/>nia libera esse debent: quia inuite nuptie difficiles exitus 
+            <lb ed="#V" n="77"/>consueuerunt habere: et parum post dicitur quod vbi metus vel coactio 
+            <lb ed="#V" n="78"/>intercedit: consensus liber dici non potest. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-k105970-Dd1e437">
+          <head xml:id="kzz7yh-k105970-Hd1e439">Quaestio 4</head>
+          <p xml:id="kzz7yh-k105970-d1e441">
+            Quaestio IIII
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e443">
+            <lb ed="#V" n="79"/>QUarto queritur vtrum ille qui iurauit 
+            <lb ed="#V" n="80"/>aliquam ducere in vxorem 
+            pos<lb ed="#V" n="81" break="no"/>sit religionem intrare matrimonio non prius 
+            con<lb ed="#V" n="82" break="no"/>tracto. Et videtur quod non: quia nullus potest 
+            face<lb ed="#V" n="83" break="no"/>re quin periurium sit peccatum: cum sit contra secundum praeceptum 
+            <lb ed="#V" n="84"/>prime tabule: sed si talis intraret religionem non prius 
+            con<lb ed="#V" n="85" break="no"/>tracto matrimonio periurat. ergo si talis intraret 
+            religio<lb ed="#V" n="86" break="no"/>nem matrimonio non prius contracto: peccaret. 
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e463">
+            <lb ed="#V" n="87"/>Contra si contraheret autem intenderet explicite: vel 
+            <lb ed="#V" n="88"/>implicite se obligare ad carnalem copulam 
+            <lb ed="#V" n="89"/>si alter coniunx exigeret: aut non. Si sic. intenderet se 
+            obli<lb ed="#V" n="90" break="no"/>gare si alter coniunx vellet: ad illud quod sibi viam 
+            praeclude<lb ed="#V" n="91" break="no"/>ret ad maius bonum: ad talem autem obligationem nullus 
+            <lb ed="#V" n="92"/>tenetur. Si vero non: contractus ille nullus esset: quia ad 
+            <lb ed="#V" n="93"/>hoc quod vinculum matrimonii contrahatur: requiritur quod 
+            vter<lb ed="#V" n="94" break="no"/>quam coniugum explicite vel implicite consentiat in 
+            carna<lb ed="#V" n="95" break="no"/>lem copulam sub hac conditione: si alter coniunx eam 
+            <lb ed="#V" n="96"/>exigeret: ergo videtur quod ille licite potest religionem 
+            in<lb ed="#V" n="97" break="no"/>trare non contracto matrimonio. 
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e489">
+            <lb ed="#V" n="98"/>Respondeo vt habetur extra de sponsalibus. 
+            Commis<lb ed="#V" n="99" break="no"/>sum. tutius est ei religione 
+            iuramen<lb ed="#V" n="100" break="no"/>ti seruata prius contrahere: et postea si elegerit ad religionem 
+            <lb ed="#V" n="101"/>migrare. Quod non sic est intelligendum secundum quosdam quod hoc sit 
+            <lb ed="#V" n="102"/>tutius secundum veritatem: sed quo ad opinionem: ne de facto 
+            di<lb ed="#V" n="103" break="no"/>catur iste contra suum iuramentum venisse: quia non videtur 
+            in<lb ed="#V" n="104" break="no"/>fringere iuramentum qui illud commutat in melius. extra de 
+            <lb ed="#V" n="105"/>iureiurando. Peruenit. 2o vnde si vult: potest absque peccato 
+            reli<lb ed="#V" n="106" break="no"/>gionem intrare matrimonio non conttacto.
+          </p>
+          <p xml:id="kzz7yh-k105970-d1e512">
+            ¶ Alii dicunt 
+            <lb ed="#V" n="107"/>contrarium: quia potest vtrumque facere: quia ante consumationem 
+            ma<lb ed="#V" n="108" break="no"/>trimonii cuilibet coniugum altero inuito licitum est 
+            reli<lb ed="#V" n="109" break="no"/>gionem intrare: non tenentur tamen contrahere nisi in 
+            loco<lb ed="#V" n="110" break="no"/>tuto vbi ad carnalem copulam cogi non possint. Uidetur 
+            <lb ed="#V" n="111"/>autem mihi magis adherendum opinioni prime maxime: quia sic 
+            <lb ed="#V" n="112"/>contrahens matrimonium non contraheret illa intentione qua 
+            <lb ed="#V" n="113"/>se contracturum iurauit: nec sub illa qua mulier recepit 
+            iu<lb ed="#V" n="114" break="no"/>ramentum. vnde si contraheret cum ea: ante redditionem 
+            <lb ed="#V" n="115"/>debiti religionem intrare intendens eam deludent. 
+            <lb ed="#V" n="116"/>Qui vult tenere primam opionem potest dicere quod 
+            ta<lb ed="#V" n="117" break="no"/>lis intrans religionem non contracto prius 
+            <lb ed="#V" n="118"/>matrimonio non periurat: quia iuramentum non infringit qui 
+            <lb ed="#V" n="119"/>illud in melius commutat vt patet per decre. allegatam pro 
+            pri<lb ed="#V" n="120" break="no"/>ma opinione. dicitur etiam in glo. quod non dicitur deiurare qui 
+            <lb ed="#V" n="121"/>ex iusta causa deserit iuramentum. Argumentum ad hoc. 22.q. 
+            <lb ed="#V" n="122"/>2. Beatus: et extra de voto et voti redemp. Sactipture. 
+            <lb ed="#V" n="123"/>Qui vult tenere secundam opionem potest dicere ad 
+            <lb ed="#V" n="124"/>argumentum ad partem primam: quod vt 
+            di<lb ed="#V" n="125" break="no"/>citur. extra de spon. Commissum. in textu. sed expressius in 
+            <lb ed="#V" n="126"/>glo. quia licet talis gerat in corde virginitatem: consentire potest 
+            <lb ed="#V" n="127"/>in matrimonium: et hoc rationabile est: quia talis consentit 
+            <lb ed="#V" n="128"/>implicite in carnalem copulam: si alter coniunx exegerit. 
+            <lb ed="#V" n="129"/>si non fecerit illud per quod altali debito absoluatur: et 
+            quan<lb ed="#V" n="130" break="no"/>uis hoc firmiter intendat facere.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="142-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k102946"><!-- l4d27cl -->
-            <head xml:id="kzz7yh-k102946-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-k102946-d1e103">
-               <lb ed="#V" n="53"/>CIrca litteram. Si verbis 
-      expliu<lb ed="#V" n="54" break="no"/>cant: quod tamen 
-      corde<lb ed="#V" n="55" break="no"/>non volunt etc. hoc intelligendum est quantum ad 
-      iudi<lb ed="#V" n="56" break="no"/>cium ecclesie que per verba significantia praesentem et 
-      <lb ed="#V" n="57"/>interiorem consensum praesumit consensum interiorem affuisse. 
-      Ma<lb ed="#V" n="58" break="no"/>charius inter christi eremitas precipuus. Nota quod illi 
-      ere<lb ed="#V" n="59" break="no"/>mite monachi erant. alibus si solus vixisset in eremo: non 
-      pro<lb ed="#V" n="60" break="no"/>pter hoc solutum fuisset matrimonium. Talibus sponsis licm 
-      <lb ed="#V" n="61"/>sine communi consensu continentiam profiteri et monasterium 
-      elige<lb ed="#V" n="62" break="no"/>re: quamuis hoc dicatur de sponsis qui nondum sunt coniuges 
-      <lb ed="#V" n="63"/>tamen hoc etiam verum est de sponsis qui coniuges sunt ante 
-      <lb ed="#V" n="64"/>matrimonii consumationem. Uidue maritus: que supple 
-      co<lb ed="#V" n="65" break="no"/>gnita fuit ab alio. Eque sicut bigamus sacerdos fieri 
-      prohi<lb ed="#V" n="66" break="no"/>betur. supple si cum illa matrimonium consumauit. Si 
-      ve<lb ed="#V" n="67" break="no"/>ro talis sponsa inter quam et sponsum eius consensus de 
-      pre<lb ed="#V" n="68" break="no"/>senti intercessisset eo mortuo vidua remansisset cui 
-      copu<lb ed="#V" n="69" break="no"/>latus vlterius ad sacros ordines non accederet: hoc intel¬ 
-      <!--00315.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="70"/>ligi debet si non tantum fuit cognita a viro secundo: sed etiam 
-      <lb ed="#V" n="71"/>a primo. alius non esset verum quod hic dicit Magister: quod 
-      <lb ed="#V" n="72"/>patet per illud quod habetur. extra de biga. non ordi. 
-      De<lb ed="#V" n="73" break="no"/>bitum: et decre. dist. 34 Presbyteri. §. Uidua. et ca. 
-      imme<lb ed="#V" n="74" break="no"/>diate sequenti. Si quis alii se copulauerit est si carnis 
-      commix<lb ed="#V" n="75" break="no"/>tio illic sequatur ad priorem copulam reuocandus est. hoc 
-      expessum<lb ed="#V" n="76" break="no"/>est. exrra de spisito. duorum. Lcet. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="142-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k102946"><!-- l4d27cl -->
+        <head xml:id="kzz7yh-k102946-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-k102946-d1e103">
+          <lb ed="#V" n="53"/>CIrca litteram. Si verbis 
+          expliu<lb ed="#V" n="54" break="no"/>cant: quod tamen 
+          corde<lb ed="#V" n="55" break="no"/>non volunt etc. hoc intelligendum est quantum ad 
+          iudi<lb ed="#V" n="56" break="no"/>cium ecclesie que per verba significantia praesentem et 
+          <lb ed="#V" n="57"/>interiorem consensum praesumit consensum interiorem affuisse. 
+          Ma<lb ed="#V" n="58" break="no"/>charius inter christi eremitas precipuus. Nota quod illi 
+          ere<lb ed="#V" n="59" break="no"/>mite monachi erant. alibus si solus vixisset in eremo: non 
+          pro<lb ed="#V" n="60" break="no"/>pter hoc solutum fuisset matrimonium. Talibus sponsis licm 
+          <lb ed="#V" n="61"/>sine communi consensu continentiam profiteri et monasterium 
+          elige<lb ed="#V" n="62" break="no"/>re: quamuis hoc dicatur de sponsis qui nondum sunt coniuges 
+          <lb ed="#V" n="63"/>tamen hoc etiam verum est de sponsis qui coniuges sunt ante 
+          <lb ed="#V" n="64"/>matrimonii consumationem. Uidue maritus: que supple 
+          co<lb ed="#V" n="65" break="no"/>gnita fuit ab alio. Eque sicut bigamus sacerdos fieri 
+          prohi<lb ed="#V" n="66" break="no"/>betur. supple si cum illa matrimonium consumauit. Si 
+          ve<lb ed="#V" n="67" break="no"/>ro talis sponsa inter quam et sponsum eius consensus de 
+          pre<lb ed="#V" n="68" break="no"/>senti intercessisset eo mortuo vidua remansisset cui 
+          copu<lb ed="#V" n="69" break="no"/>latus vlterius ad sacros ordines non accederet: hoc intel¬ 
+          <!--00315.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="70"/>ligi debet si non tantum fuit cognita a viro secundo: sed etiam 
+          <lb ed="#V" n="71"/>a primo. alius non esset verum quod hic dicit Magister: quod 
+          <lb ed="#V" n="72"/>patet per illud quod habetur. extra de biga. non ordi. 
+          De<lb ed="#V" n="73" break="no"/>bitum: et decre. dist. 34 Presbyteri. §. Uidua. et ca. 
+          imme<lb ed="#V" n="74" break="no"/>diate sequenti. Si quis alii se copulauerit est si carnis 
+          commix<lb ed="#V" n="75" break="no"/>tio illic sequatur ad priorem copulam reuocandus est. hoc 
+          expessum<lb ed="#V" n="76" break="no"/>est. exrra de spisito. duorum. Lcet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

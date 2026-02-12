@@ -1,92 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="182-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k132223"><!-- l4d41cl -->
-            <head xml:id="kzz7yh-k132223-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-k132223-d1e103">
-               <lb ed="#V" n="110"/>CIrca litteram. Usque in septem 
-      genera<lb ed="#V" n="111" break="no"/>tionis gradum. hoc 
-      abro<lb ed="#V" n="112" break="no"/>gatum est. Relictam consanguineorum 
-      vxo<lb ed="#V" n="113" break="no"/>rem vxoris sue etc. hoc etiam abrogatum est. 
-      <lb ed="#V" n="114"/>Sed neque alterius coniunctionis soboles placet 
-      affinita<lb ed="#V" n="115" break="no"/>tis prioris iuris transire consortium hoc etiam 
-      abroga<lb ed="#V" n="116" break="no"/>tum est. Si duo viri vel tres consanguitatem 
-      iureiuran<lb ed="#V" n="117" break="no"/>do firmauerint etc. De modo procedendi ad accusatione 
-      <lb ed="#V" n="118"/>matrimonii propter impedimentum consanguinitatis 
-      <lb ed="#V" n="119"/>vel affinitatis tenet sicut in questionibus dictum est. 
-      Accu<lb ed="#V" n="120" break="no"/>sare autem matrimonium propter peccatum 
-      fornicatio<lb ed="#V" n="121" break="no"/>nis alterius coniugis non potest nisi alter coniunx. 
-      accu<lb ed="#V" n="122" break="no"/>sare autem quod matrimonium non est contractum non 
-      po<lb ed="#V" n="123" break="no"/>test pater vel mater nisi pater illius qui est honore et 
-      diui<lb ed="#V" n="124" break="no"/>tiis inferior: quia de tali presumitur quod nollet 
-      matrimo<lb ed="#V" n="125" break="no"/>nium separari si in rei veritate esset contractum: sed 
-      pa<lb ed="#V" n="126" break="no"/>ter illius qui est diuitiis et dignitate superior habetur 
-      suspe<lb ed="#V" n="127" break="no"/>ctus: quia presumeretur quod quereret matrimonium 
-      sepa<lb ed="#V" n="128" break="no"/>rari: eo quod proles sua non esset coniugi equali sibi in 
-      digni<lb ed="#V" n="129" break="no"/>tate et diuitiis coniuncta. Stuprum proprie est virginis 
-      <lb ed="#V" n="130"/>illicita defloratio: Adulterium alieni tori violatio.
-   </p>
-            <p xml:id="kzz7yh-k132223-d1e151">
-      ¶ 
-      No<lb ed="#V" n="131" break="no"/>ta quod simpliciter et omnibus pensatis grauius est 
-      adulte<lb ed="#V" n="132" break="no"/>rium quam stuprum: quia adulter peccat peccato luxurie et 
-      <lb ed="#V" n="133"/>iniustitie. magis etiam ledit rem publicam adulterium 
-      <lb ed="#V" n="134"/>quam stuprum. secundum quid tamen est econuerso: quia per 
-      <lb ed="#V" n="135"/>stuprum aufertur bonum aliquod irrecomperabile: scilicet 
-      <lb ed="#V" n="136"/>virginitatis integritas.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="182-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k132223"><!-- l4d41cl -->
+        <head xml:id="kzz7yh-k132223-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-k132223-d1e103">
+          <lb ed="#V" n="110"/>CIrca litteram. Usque in septem 
+          genera<lb ed="#V" n="111" break="no"/>tionis gradum. hoc 
+          abro<lb ed="#V" n="112" break="no"/>gatum est. Relictam consanguineorum 
+          vxo<lb ed="#V" n="113" break="no"/>rem vxoris sue etc. hoc etiam abrogatum est. 
+          <lb ed="#V" n="114"/>Sed neque alterius coniunctionis soboles placet 
+          affinita<lb ed="#V" n="115" break="no"/>tis prioris iuris transire consortium hoc etiam 
+          abroga<lb ed="#V" n="116" break="no"/>tum est. Si duo viri vel tres consanguitatem 
+          iureiuran<lb ed="#V" n="117" break="no"/>do firmauerint etc. De modo procedendi ad accusatione 
+          <lb ed="#V" n="118"/>matrimonii propter impedimentum consanguinitatis 
+          <lb ed="#V" n="119"/>vel affinitatis tenet sicut in questionibus dictum est. 
+          Accu<lb ed="#V" n="120" break="no"/>sare autem matrimonium propter peccatum 
+          fornicatio<lb ed="#V" n="121" break="no"/>nis alterius coniugis non potest nisi alter coniunx. 
+          accu<lb ed="#V" n="122" break="no"/>sare autem quod matrimonium non est contractum non 
+          po<lb ed="#V" n="123" break="no"/>test pater vel mater nisi pater illius qui est honore et 
+          diui<lb ed="#V" n="124" break="no"/>tiis inferior: quia de tali presumitur quod nollet 
+          matrimo<lb ed="#V" n="125" break="no"/>nium separari si in rei veritate esset contractum: sed 
+          pa<lb ed="#V" n="126" break="no"/>ter illius qui est diuitiis et dignitate superior habetur 
+          suspe<lb ed="#V" n="127" break="no"/>ctus: quia presumeretur quod quereret matrimonium 
+          sepa<lb ed="#V" n="128" break="no"/>rari: eo quod proles sua non esset coniugi equali sibi in 
+          digni<lb ed="#V" n="129" break="no"/>tate et diuitiis coniuncta. Stuprum proprie est virginis 
+          <lb ed="#V" n="130"/>illicita defloratio: Adulterium alieni tori violatio.
+        </p>
+        <p xml:id="kzz7yh-k132223-d1e151">
+          ¶ 
+          No<lb ed="#V" n="131" break="no"/>ta quod simpliciter et omnibus pensatis grauius est 
+          adulte<lb ed="#V" n="132" break="no"/>rium quam stuprum: quia adulter peccat peccato luxurie et 
+          <lb ed="#V" n="133"/>iniustitie. magis etiam ledit rem publicam adulterium 
+          <lb ed="#V" n="134"/>quam stuprum. secundum quid tamen est econuerso: quia per 
+          <lb ed="#V" n="135"/>stuprum aufertur bonum aliquod irrecomperabile: scilicet 
+          <lb ed="#V" n="136"/>virginitatis integritas.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

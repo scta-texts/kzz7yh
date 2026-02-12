@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="123-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a84816"><!-- l1d39cl -->
-            <head xml:id="kzz7yh-a84816-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-a84816-d1e103">
-               <lb ed="#V" n="58"/>CIrca litteram. Sciunt ergo 
-      inui<lb ed="#V" n="59" break="no"/>cem pater et filius: sed 
-      <lb ed="#V" n="60"/>iste gignendo: ille nascendo.) Hic hoc gerundiuum 
-      <lb ed="#V" n="61"/>gignendo notat concomitantiam: et non causam. 
-      <lb ed="#V" n="62"/>Gignere enim non est ratio vt pater sit sciens. (Scientia 
-      <lb ed="#V" n="63"/>eius non est nisi de his que sunt: vel fuerunt vel erunt): 
-      <lb ed="#V" n="64"/>quod intelligendum est de scientia visionis: quia scientia simplicis 
-      in<lb ed="#V" n="65" break="no"/>telligentie deus scit praesentia: preterita et futura: et possibilia 
-      <lb ed="#V" n="66"/>fieri: que numquam erant. (Culices. culex est paruum animal 
-      vola<lb ed="#V" n="67" break="no"/>tile aculeis permolestum. (SSpeaitualem prouidentium atque curam habet 
-      <!--00260.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="68"/>de rationalibus). Unde cum dicitur sapientia 6 quod equaliter cura est illi de 
-      <lb ed="#V" n="69"/>omnibus intelligendum est vel de equalitate proportionis: quia 
-      <lb ed="#V" n="70"/>secundum proportionem qua rationalia excellunt irrationalia 
-      <lb ed="#V" n="71"/>modus prouidendi quo prouidet rationalibus excellit 
-      mo<lb ed="#V" n="72" break="no"/>dum prouidendi: quo prouidet irrationalibus 
-      accipien<lb ed="#V" n="73" break="no"/>do prouidentia pro suo effectu qui est gubernatio: quam 
-      <lb ed="#V" n="74"/>forte sapiens nominauit nomine cure: vel potest dici quod 
-      <lb ed="#V" n="75"/>per illud verbum intendebat sapiens remouere a deo 
-      in<lb ed="#V" n="76" break="no"/>equalitatem acceptionis personarum non ordinis. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="123-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a84816"><!-- l1d39cl -->
+        <head xml:id="kzz7yh-a84816-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-a84816-d1e103">
+          <lb ed="#V" n="58"/>CIrca litteram. Sciunt ergo 
+          inui<lb ed="#V" n="59" break="no"/>cem pater et filius: sed 
+          <lb ed="#V" n="60"/>iste gignendo: ille nascendo.) Hic hoc gerundiuum 
+          <lb ed="#V" n="61"/>gignendo notat concomitantiam: et non causam. 
+          <lb ed="#V" n="62"/>Gignere enim non est ratio vt pater sit sciens. (Scientia 
+          <lb ed="#V" n="63"/>eius non est nisi de his que sunt: vel fuerunt vel erunt): 
+          <lb ed="#V" n="64"/>quod intelligendum est de scientia visionis: quia scientia simplicis 
+          in<lb ed="#V" n="65" break="no"/>telligentie deus scit praesentia: preterita et futura: et possibilia 
+          <lb ed="#V" n="66"/>fieri: que numquam erant. (Culices. culex est paruum animal 
+          vola<lb ed="#V" n="67" break="no"/>tile aculeis permolestum. (SSpeaitualem prouidentium atque curam habet 
+          <!--00260.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="68"/>de rationalibus). Unde cum dicitur sapientia 6 quod equaliter cura est illi de 
+          <lb ed="#V" n="69"/>omnibus intelligendum est vel de equalitate proportionis: quia 
+          <lb ed="#V" n="70"/>secundum proportionem qua rationalia excellunt irrationalia 
+          <lb ed="#V" n="71"/>modus prouidendi quo prouidet rationalibus excellit 
+          mo<lb ed="#V" n="72" break="no"/>dum prouidendi: quo prouidet irrationalibus 
+          accipien<lb ed="#V" n="73" break="no"/>do prouidentia pro suo effectu qui est gubernatio: quam 
+          <lb ed="#V" n="74"/>forte sapiens nominauit nomine cure: vel potest dici quod 
+          <lb ed="#V" n="75"/>per illud verbum intendebat sapiens remouere a deo 
+          in<lb ed="#V" n="76" break="no"/>equalitatem acceptionis personarum non ordinis. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

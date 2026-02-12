@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-02">September 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="50-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-k35802"><!-- l4d11cl -->
-            <head xml:id="kzz7yh-k35802-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-k35802-d1e103">
-               <lb ed="#V" n="125"/>CIrca litteram. Inuestigari salubriter non potest 
-      <lb ed="#V" n="126"/>hoc est intelligendum de inuestigatione 
-      <lb ed="#V" n="127"/>curiosa terios debitos transcendente: vel de 
-      inue<lb ed="#V" n="128" break="no"/>stigatione non fundata super fidem. Fit igitur substantia illa 
-      <lb ed="#V" n="129"/>ista: sermo est improprius: et resolui debet in istum: illa subsnta conuertitr 
-      <lb ed="#V" n="130"/>in istam id est panis in corpus. Nec tamen concedunt: et bene: quia subectia paesis 
-      <lb ed="#V" n="131"/>numquam est corpus christi: quamuis conuertatur in ipsum: ista tamene substantia 
-      pa<lb ed="#V" n="132" break="no"/>nis sit corpus christi: impropria est: sed hoc propria: substantia panis 
-      tran<lb ed="#V" n="133" break="no"/>substantiatur vel conuertitur: seu transit in corpus christi. Immolationis 
-      <lb ed="#V" n="134"/>hora ad vocem sacerdotis celos aperiri id est per illud quod verbo 
-      <lb ed="#V" n="135"/>sacerdotis consecratur aditum ad celestia fieri: vel panem et 
-      vi<lb ed="#V" n="136" break="no"/>num in id quod super celos est tranfire. In illo Ishecu christi 
-      <!--00130.xml-->
-      <pb ed="#V" n="50-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>mysterio angelorum choros adesse scilicet hominibus 
-      conse<lb ed="#V" n="2" break="no"/>crantibus siue sint boni siue mali: quia assistunt angeli non 
-      <lb ed="#V" n="3"/>propter hominem: sed propter reuerentiam sacramenti. Summa et ima 
-      so<lb ed="#V" n="4" break="no"/>ciari id est panem et vinum in corpus et sanguinem christi conuerti. 
-      <lb ed="#V" n="5"/>Unum quid ex visibilibus atque inuisibilibus fieri id est ex sacramento quod 
-      <lb ed="#V" n="6"/>est nobis visibile: et re sacrament id est corpore christi quod est nobis 
-      modo<lb ed="#V" n="7" break="no"/>inuisibile: nec intelligitur de vnitate per essentiam: sed eo 
-      modo<lb ed="#V" n="8" break="no"/>quo vnum dicuntur continens et contentum. Uel potest sic intelligi quod substantia 
-      <lb ed="#V" n="9"/>panis existens sub accidentibus visibilibus conuertitur in corpus christi 
-      <lb ed="#V" n="10"/>quod nobis modo est inuisibile. In celum rapitur ministerio 
-      ange<lb ed="#V" n="11" break="no"/>lorum: non quod panis de altari portetur in celum: et ibi conuertatur 
-      <lb ed="#V" n="12"/>in corpus christi: sed rapi in celu dicitur pro conuerti in corpus christi 
-      <lb ed="#V" n="13"/>quod est in celo. Nec intelligendum quod hec conuersio siat per 
-      ange<lb ed="#V" n="14" break="no"/>los: quia totum virtute divina sit. Sed quia conuersioni propter eius 
-      di<lb ed="#V" n="15" break="no"/>gnitatem angeli assistunt. Consociandum corpori christi id est transub 
-      <lb ed="#V" n="16"/>stantiandum in corpus christi: vel intelligitur de consociatione 
-      <lb ed="#V" n="17"/>speciei continentis: et corporis christi contenti. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-02">September 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve09v4">Venice, 1509, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="50-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-k35802"><!-- l4d11cl -->
+        <head xml:id="kzz7yh-k35802-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-k35802-d1e103">
+          <lb ed="#V" n="125"/>CIrca litteram. Inuestigari salubriter non potest 
+          <lb ed="#V" n="126"/>hoc est intelligendum de inuestigatione 
+          <lb ed="#V" n="127"/>curiosa terios debitos transcendente: vel de 
+          inue<lb ed="#V" n="128" break="no"/>stigatione non fundata super fidem. Fit igitur substantia illa 
+          <lb ed="#V" n="129"/>ista: sermo est improprius: et resolui debet in istum: illa subsnta conuertitr 
+          <lb ed="#V" n="130"/>in istam id est panis in corpus. Nec tamen concedunt: et bene: quia subectia paesis 
+          <lb ed="#V" n="131"/>numquam est corpus christi: quamuis conuertatur in ipsum: ista tamene substantia 
+          pa<lb ed="#V" n="132" break="no"/>nis sit corpus christi: impropria est: sed hoc propria: substantia panis 
+          tran<lb ed="#V" n="133" break="no"/>substantiatur vel conuertitur: seu transit in corpus christi. Immolationis 
+          <lb ed="#V" n="134"/>hora ad vocem sacerdotis celos aperiri id est per illud quod verbo 
+          <lb ed="#V" n="135"/>sacerdotis consecratur aditum ad celestia fieri: vel panem et 
+          vi<lb ed="#V" n="136" break="no"/>num in id quod super celos est tranfire. In illo Ishecu christi 
+          <!--00130.xml-->
+          <pb ed="#V" n="50-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>mysterio angelorum choros adesse scilicet hominibus 
+          conse<lb ed="#V" n="2" break="no"/>crantibus siue sint boni siue mali: quia assistunt angeli non 
+          <lb ed="#V" n="3"/>propter hominem: sed propter reuerentiam sacramenti. Summa et ima 
+          so<lb ed="#V" n="4" break="no"/>ciari id est panem et vinum in corpus et sanguinem christi conuerti. 
+          <lb ed="#V" n="5"/>Unum quid ex visibilibus atque inuisibilibus fieri id est ex sacramento quod 
+          <lb ed="#V" n="6"/>est nobis visibile: et re sacrament id est corpore christi quod est nobis 
+          modo<lb ed="#V" n="7" break="no"/>inuisibile: nec intelligitur de vnitate per essentiam: sed eo 
+          modo<lb ed="#V" n="8" break="no"/>quo vnum dicuntur continens et contentum. Uel potest sic intelligi quod substantia 
+          <lb ed="#V" n="9"/>panis existens sub accidentibus visibilibus conuertitur in corpus christi 
+          <lb ed="#V" n="10"/>quod nobis modo est inuisibile. In celum rapitur ministerio 
+          ange<lb ed="#V" n="11" break="no"/>lorum: non quod panis de altari portetur in celum: et ibi conuertatur 
+          <lb ed="#V" n="12"/>in corpus christi: sed rapi in celu dicitur pro conuerti in corpus christi 
+          <lb ed="#V" n="13"/>quod est in celo. Nec intelligendum quod hec conuersio siat per 
+          ange<lb ed="#V" n="14" break="no"/>los: quia totum virtute divina sit. Sed quia conuersioni propter eius 
+          di<lb ed="#V" n="15" break="no"/>gnitatem angeli assistunt. Consociandum corpori christi id est transub 
+          <lb ed="#V" n="16"/>stantiandum in corpus christi: vel intelligitur de consociatione 
+          <lb ed="#V" n="17"/>speciei continentis: et corporis christi contenti. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

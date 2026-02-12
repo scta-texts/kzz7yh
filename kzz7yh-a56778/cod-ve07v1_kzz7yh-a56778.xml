@@ -1,398 +1,398 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="83-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a56778"><!-- l1d26a1 -->
-            <head xml:id="kzz7yh-a56778-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-a56778-d1e103">
-      ¶ Circa 
-      <lb ed="#V" n="36"/>primum queruntur duo.
-   </p>
-            <p xml:id="kzz7yh-a56778-d1e108">
-      ¶ Primo vtrum in divinis sit aliqua 
-      <lb ed="#V" n="37"/>hypostasis constituta per proprietatem absolutam.
-   </p>
-            <p xml:id="kzz7yh-a56778-d1e113">
-      ¶ 2o vtrum nomen 
-      <lb ed="#V" n="38"/>hypostasis significet intentionem secundam.
-   </p>
-            <div xml:id="kzz7yh-a56778-Dd1e118">
-               <head xml:id="kzz7yh-a56778-Hd1e120">Quaestio 1</head>
-               <head xml:id="kzz7yh-a56778-Hd1e124" type="question-title">Utrum in divinis sit aliqua hypostasis constituta per proprietatem absolutam</head>
-               <p xml:id="kzz7yh-a56778-d1e122">
-     Quaestio I. 
-      <lb ed="#V" n="39"/>PRimo ostendo quod in diuinis sit aliqua 
-      hypo<lb ed="#V" n="40" break="no"/>stasis constituta per proprietatem 
-      absolu<lb ed="#V" n="41" break="no"/>tam: quia pater et filius et spiritus sanctus sunt vnus qui creat 
-      <lb ed="#V" n="42"/>quia sunt vnus creator sed non sunt aliquis vnus 
-      consti<lb ed="#V" n="43" break="no"/>tutus per proprietatem relatiuam: ergo aliquis vnus 
-      con<lb ed="#V" n="44" break="no"/>stitutus per proprietatem absolutam.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e138">
-      ¶ Item esse vt in se existens 
-      <lb ed="#V" n="45"/>habet rationem suppositi sed diuina essentia est in se existens: et 
-      <lb ed="#V" n="46"/>go habetur rationem suppositi sed essentie suppositum est 
-      hyposta<lb ed="#V" n="47" break="no"/>sis.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e147">
-      ¶ Item absolutum non existit in relatione: ergo cum 
-      diui<lb ed="#V" n="48" break="no"/>na essentia sit quid absolutum non existit in relationibus: 
-      exi<lb ed="#V" n="49" break="no"/>stit ergo in aliquo absoluto. Sed illud in quo existit 
-      essen<lb ed="#V" n="50" break="no"/>tia est hypostasis: ergo in divinis est aliqua hypostasis absc 
-      <lb ed="#V" n="51"/>luta.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e158">
-      ¶ Item generatio non determinatur immediate ad 
-      rela<lb ed="#V" n="52" break="no"/>tionem vt trahi potest ex verbis philosophi. 5. physi. ergo in filio est 
-      <lb ed="#V" n="53"/>aliqua res absoluta que generatur cui conuenit filiationis 
-      ha<lb ed="#V" n="54" break="no"/>bitudo: cum ergo essentia non generetur sequitur quod in diuinis 
-      <lb ed="#V" n="55"/>est aliqua res absoluta: que non significat essentiam nec 
-      rela<lb ed="#V" n="56" break="no"/>tionem: hoc autem non videtur esse nisi hypostasis.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e172">
-      ¶ Item 
-      abstra<lb ed="#V" n="57" break="no"/>ctis per intellectum emanationibus personarum adhuc intelligitur 
-      <lb ed="#V" n="58"/>diuina essentia in vna hypostasi existens. Sed constat quod illa 
-      <lb ed="#V" n="59"/>hypostasis non esset constituta per proprietatem relatiuam: 
-      er<lb ed="#V" n="60" break="no"/>go in diuinis est hypostasis aliqua constituta per proprietatem 
-      <lb ed="#V" n="61"/>absolutam.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e185">
-      ¶ Item prius est secundum rationem intelligendi ille 
-      quo<lb ed="#V" n="62" break="no"/>potest generare quam generet. Sed omnis res prior secundum rationem 
-      in<lb ed="#V" n="63" break="no"/>telligendi quam actus generandi res absoluta est: quia ex quo 
-      <lb ed="#V" n="64"/>prior est secundum rationem intelligendi generationem: prior est secundum 
-      <lb ed="#V" n="65"/>rationem intelligendi paternitatem et filiationem. Sed res 
-      absolu<lb ed="#V" n="66" break="no"/>ta potens generare non videtur esse nisi hypostasis: quia 
-      essen<lb ed="#V" n="67" break="no"/>tia non generat: vt superius dictum est: ergo in diuinis 
-      <lb ed="#V" n="68"/>est hypostasis constituta per proprietatem absolutam.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e203">
-      <!--00180.xml-->
-                  <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>Contra si in diuinis est aliqua hypostasis constitutm per 
-      <lb ed="#V" n="70"/>proprietatem absolutam communis est patri: et 
-      fi<lb ed="#V" n="71" break="no"/>lio et spiritui sancto: quia quicquid est absolutum in diuinis commune 
-      <lb ed="#V" n="72"/>est tribus: ergo pater et filius: et spiritus sanctus dicuntur vnum propter 
-      <lb ed="#V" n="73"/>vnam essentiam eis communem: ita posset dici vnus propter vnam 
-      <lb ed="#V" n="74"/>hypostasim eis communem quod tamen concedendum non videtur.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e223">
-      ¶ Item 
-      <lb ed="#V" n="75"/>cum persona sit hypostasis intellectualis nature distincta 
-      pro<lb ed="#V" n="76" break="no"/>prietate ad dignitatem pertinente: si esset in diuinis 
-      hypo<lb ed="#V" n="77" break="no"/>stasis constituta per proprietatem absolutam cum illa esset ad 
-      di<lb ed="#V" n="78" break="no"/>gnitatem pertinens in divinis esset persona constituta per 
-      proprie<lb ed="#V" n="79" break="no"/>tatem absolutam: ergo cum omne absolutum in diuinis sit 
-      <lb ed="#V" n="80"/>commune tribus: pater et filius et spiritus sanctus possent dici vna 
-      <lb ed="#V" n="81"/>persona quod non conceditur.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e241">
-      ¶ Item in tali hypostasi 
-      existe<lb ed="#V" n="82" break="no"/>ret diuina essentia: et cum vna hypostasis non habeat suum 
-      <lb ed="#V" n="83"/>existere in alia: divina essentia non existeret in persona per 
-      proprie<lb ed="#V" n="84" break="no"/>tatem relatiuam constitua quod falsum est. 
-    </p>
-               <p xml:id="kzz7yh-a56778-d1e250">
-                  <lb ed="#V" n="85"/>Ad hanc questionem dixerunt quidam quod in diuinis 
-      <lb ed="#V" n="86"/>est hypostasis constituta per proprietatem 
-      ab<lb ed="#V" n="87" break="no"/>solutam non vna communis tribus personis: sed tres secundum quod tres sunt 
-      <lb ed="#V" n="88"/>persone dicentes quod in persona patris est aliqua res constituta pen 
-      <lb ed="#V" n="89"/>proprietatem absolutam que generat: et quam secundum rationem 
-      intel<lb ed="#V" n="90" break="no"/>ligendi consequatur habitudo paternitatis. Similiter in filio 
-      <lb ed="#V" n="91"/>aliqua res absoluta que generatur: et quam secundum rationem 
-      intelli<lb ed="#V" n="92" break="no"/>gendi consequitur habitudo filiationis. Et in spiritu sancto 
-      ali<lb ed="#V" n="93" break="no"/>qua res absoluta que spiratur: et quam secundum rationem 
-      intelligen<lb ed="#V" n="94" break="no"/>di consequitur habitudo passiue spirationis innitentes  
-      rationi<lb ed="#V" n="95" break="no"/>bus quarte et sexte factis ad hanc partem: dicentes paternitatem 
-      <lb ed="#V" n="96"/>non esse constitutiuam patris sub ratione qua persona est 
-      sim<lb ed="#V" n="97" break="no"/>pliciter: sed tantummodo sub ratione qua persona ad alium se 
-      ha<lb ed="#V" n="98" break="no"/>bens. Similiter dicunt de filiatione respectu filii: et de illa 
-      <lb ed="#V" n="99"/>habitudine que secundum rationem intelligendi consequitur 
-      spira<lb ed="#V" n="100" break="no"/>tionem passiuam respectu spiritus sancti: et dicunt quod sicut 
-      pro<lb ed="#V" n="101" break="no"/>prietates relatiue comparate ad essentiam: idem sunt quod ipsa 
-      reali<lb ed="#V" n="102" break="no"/>ter: et tamen inter se distinguntur: sic ille res absolute quas 
-      hy<lb ed="#V" n="103" break="no"/>postases dicunt comperate ad essentiam idem sunt realiter 
-      <lb ed="#V" n="104"/>quod ipsa: et tamen inter se distincte sunt per aliquid absolutum scilicet 
-      <lb ed="#V" n="105"/>seipsis.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e299">
-      ¶ Sed contra hanc opinionem videtur esse summa 
-      <lb ed="#V" n="106"/>simplicitas que est in diuinis: qune non videtur compati 
-      in<lb ed="#V" n="107" break="no"/>diuinis esse distinctionem penes aliquid absolutum.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e306">
-      ¶ Ide 
-      <lb ed="#V" n="108"/>dixerunt alii in diuinis esse aliquam hypostasim constitutam 
-      <lb ed="#V" n="109"/>per proprietatem absolutam communem patri et filio et spiritui sancto: sicut et 
-      <lb ed="#V" n="110"/>ipsa essentia communis est. Dicunt enim quod illa hypostasis est ipsa divina 
-      <lb ed="#V" n="111"/>essentia vt in se existens: et dicunt quod ista est ratio queritur antiquit 
-      <lb ed="#V" n="112"/>nomen persone sigmbat essentiam. Omnis enim essentia 
-      intellectu<lb ed="#V" n="113" break="no"/>lis in se existens persona est.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e322">
-      ¶ Sed contra hanc opinionem videtur es 
-      <lb ed="#V" n="114"/>tertia ratio adducta ad partem aliam. Ideo dicunt alii quibus ego 
-      con<lb ed="#V" n="115" break="no"/>sentio quod in diuinis non est aliqua hypostasis constituta per 
-      propri<lb ed="#V" n="116" break="no"/>tatem absolutam sed: tantummodo per proprietatem rtam cum dina 
-      <lb ed="#V" n="117"/>essentia. Ipsa enim est de ratione persone: et hec opinio innititur 
-      <lb ed="#V" n="118"/>rationibus adductis contra praemissas opiniones duas. Qui tamen vult 
-      ue<lb ed="#V" n="119" break="no"/>nere secundam opinionem potest aliqualiter euadere argumenta quae sunt contra eam.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e338">
-                  <lb ed="#V" n="120"/>Ad primum in oppositum cum dicitur quod pater et filius et 
-      spiritus
-      <lb ed="#V" n="121"/>sanctus sunt vnus qua creat etc. Dico quod 
-      <lb ed="#V" n="122"/>verum est sub hoc sensu: quia sunt vnus deus qui creat non quia sint 
-      <lb ed="#V" n="123"/>aliqua vna hypostasis. Dicuntur autem vnus deus propter vnam 
-      <lb ed="#V" n="124"/>diuinam essentiam que est in eis.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e351">
-      ¶ Ad 2m cum dicitur quod 
-      <lb ed="#V" n="125"/>diuina essentia est in se existens etc. Dico quod non est verum 
-      <lb ed="#V" n="126"/>nisi intelligendo sic. quod diuina essentia existens est in per 
-      <lb ed="#V" n="127"/>sona vel in hypostasi que realiter idem est quod ipsa.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e360">
-                  <sic>¶ Ad</sic>
-                  <lb ed="#V" n="128"/>¶ Ad 3m cum dicitur quod absolutum non existit in relatione: 
-      <lb ed="#V" n="129"/>etc. dico quod verum est de relationibus que non existunt: sicut 
-      <lb ed="#V" n="130"/>sunt relationes creaturarum.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e372">
-      ¶ Relationes autem in divinis sunt 
-      <lb ed="#V" n="131"/>subsistentes.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e377">
-      ¶ Ad 4m cum dicitur quod generatio non 
-      termina<lb ed="#V" n="132" break="no"/>tur immediate ad rlauationem etc. dico quod si habet veritatem non 
-      <lb ed="#V" n="133"/>tamen verum est nisi in relationibus non subsistentibus: 
-      cuiusmo<lb ed="#V" n="134" break="no"/>sunt relationes inter creaturas. Rlusiones autem in diuinis sub 
-      <lb ed="#V" n="135"/>sistentes sunt.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e388">
-      ¶ Ad 5m dicitur quod abstractis per intellecti 
-      <lb ed="#V" n="136"/>emanationibus personarum adhuc intelligitur dina essentia in vna 
-      <!--00181.xml-->
-      <pb ed="#V" n="84-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>hypostasi existens etc. dico quod secundum hanc opinionem non est 
-      ve<lb ed="#V" n="2" break="no"/>rum. Unde gentiles intelligentes vel intelligere 
-      opinan<lb ed="#V" n="3" break="no"/>tes diuinam essentiam in vna hypostasi intellecta enaratione 
-      <lb ed="#V" n="4"/>personarum decipiuntur cum divina essentia non sit apta 
-      existe<lb ed="#V" n="5" break="no"/>re nisi in suppositis per relatiuas proprietates constitutis propter 
-      <lb ed="#V" n="6"/>summam eius simplicitatem.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e412">
-      ¶ Difficultas sexti arbro 
-      decla<lb ed="#V" n="7" break="no"/>rabitur inferius in illa questione qua queritur vtrum ideo 
-      <lb ed="#V" n="8"/>sit pater quia generat vel econuerso.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a56778-Dd1e421">
-               <head xml:id="kzz7yh-a56778-Hd1e423">Quaestio 2</head>
-               <head xml:id="kzz7yh-a56778-Hd1e431" type="question-title">Utrum nomen hypostasis significet intentionem secundam</head>
-               <p xml:id="kzz7yh-a56778-d1e425">
-      Quaestio ii. 
-      <lb ed="#V" n="9"/>Secundo queritur vtrum nomen 
-      hyposta<lb ed="#V" n="10" break="no"/>sis significet intentionem secundam et 
-      <lb ed="#V" n="11"/>videtur quod sic quia indiuiduum est nomen intentionis 
-      <lb ed="#V" n="12"/>secunde: sed hypostasis est indiuiduum: ergo est nomen 
-      <lb ed="#V" n="13"/>intentionis secunde.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e438">
-      ¶ Item particulare est nomen intentionis 
-      <lb ed="#V" n="14"/>secunde: quia particulare idem videtur quod pars subiectiua speciei. 
-      Subie<lb ed="#V" n="15" break="no"/>ctum aut et praedicatum secundum Auice. 3. Metaphi. c. vlti. 
-      impor<lb ed="#V" n="16" break="no"/>tant intentiones secundas sed hypostasis videtur esse quodda 
-      per<lb ed="#V" n="17" break="no"/>ticulare: quia est res incommunicabilis: ergo videtur quod sit nomen 
-      <lb ed="#V" n="18"/>intentionis secunde.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e451">
-      ¶ Item singulare est nomen secunde 
-      inten<lb ed="#V" n="19" break="no"/>tionis opponitur enim vniuersali: quod est nomen 
-      intenti<lb ed="#V" n="20" break="no"/>onis secunde. Sed hypostasis est res singularis: ergo est nomen 
-      <lb ed="#V" n="21"/>intentionis secunde.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e460">
-      ¶ Item suppositum nomen est secunde 
-      inten<lb ed="#V" n="22" break="no"/>tionis: sed hypostasis idem videtur significare quod 
-      supposi<lb ed="#V" n="23" break="no"/>tum. Dicitur enim ab hypos quod est sub: et thesis quod est 
-      po<lb ed="#V" n="24" break="no"/>sitio: ergo est nomen secunde intetionis. 
-    </p>
-               <p xml:id="kzz7yh-a56778-d1e470">
-                  <lb ed="#V" n="25"/>Contra persona non est nomen secunde intentonis: sed 
-      hy<lb ed="#V" n="26" break="no"/>postasis in substantia intellectuali idem est 
-      reali<lb ed="#V" n="27" break="no"/>ter quod persona: ergo hypostasis non est nomen secunde 
-      inten<lb ed="#V" n="28" break="no"/>tionis.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e481">
-      ¶ Item hypostasis idem videtur quod res nature: sed 
-      <lb ed="#V" n="29"/>res nature non videtur nomen secunde intentionis: ergo nec 
-      <lb ed="#V" n="30"/>nomen hypostasis.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e488">
-      ¶ Item substantia prima non videtur nomen 
-      <lb ed="#V" n="31"/>secunde intentionis. sed hypostasis se habet in divinis ad 
-      simi<lb ed="#V" n="32" break="no"/>litudinem substantiae prime in creaturis: ergo hypostasis non est 
-      no<lb ed="#V" n="33" break="no"/>men secunde intentionis.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e497">
-      ¶ Item hypostasis idem videtur 
-      si<lb ed="#V" n="34" break="no"/>gnificare quod subsistentia sed subsistentia non est nomen 
-      se<lb ed="#V" n="35" break="no"/>cunde intentiouis ergo nec hypostasis. 
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e504">
-                  <lb ed="#V" n="36"/>Respondeo quod hypostasis non est nomen secunde 
-      inte<lb ed="#V" n="37" break="no"/>ntionis. Est enim intentio prima res vt 
-      in<lb ed="#V" n="38" break="no"/>tellecta: seu conceptus eius. Intentio autem secunda est aliquid quod 
-      ac<lb ed="#V" n="39" break="no"/>cidit rei secundum suum esse intellectum tantum. Unde quia 
-      vniuer<lb ed="#V" n="40" break="no"/>salitas non accidit rei nisi inquantum intellecta est preter 
-      ra<lb ed="#V" n="41" break="no"/>tionem vnitatis vniuersalis et multitudinis. Ideo 
-      vni<lb ed="#V" n="42" break="no"/>uersalitas est nomen intentionis secunde. Et quia logica 
-      conside<lb ed="#V" n="43" break="no"/>rat rem secundum suum esse intellectum et ea que accidunt rebus 
-      <lb ed="#V" n="44"/>tantummodo inquantum intellecte sunt. Ideo benedicit Auice. i. 
-      <lb ed="#V" n="45"/>Meta. c. 2. quod logica est de intentionibus secundis intellectit que 
-      <lb ed="#V" n="46"/>apponuntur intentionibus primis intellectis. Cum ergo 
-      hy<lb ed="#V" n="47" break="no"/>postasis significet aliquid quod inuenitur in re extra: et non per 
-      <lb ed="#V" n="48"/>oppositum nostri intellectus: sequitur quod non est nomen intentionis secunde.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e535">
-                  <lb ed="#V" n="49"/>Ad primum in oppositum cum dicitur quod indiuiduum est 
-      no<lb ed="#V" n="50" break="no"/>men intentionis secunde etc. Dico quod si 
-      <lb ed="#V" n="51"/>indiuidum dicatur quod non diuiditur in plura talia vt in diuiduis 
-      <lb ed="#V" n="52"/>homo qui non diuiditur in plures homines: sed sicut dico quod non 
-      <lb ed="#V" n="53"/>est nomen intentionis secunde: sic nec vnum numero. Sed si 
-      ac<lb ed="#V" n="54" break="no"/>cipiatur indiuiduum pro eo quod est personale de vno solo: sic  
-      im<lb ed="#V" n="55" break="no"/>ponitur ad significandum ab intentione secunda: quia praedicabilitas 
-      <lb ed="#V" n="56"/>siue de vno solo: siue de pluribus non conuenit rei nisi secundum suum 
-      <lb ed="#V" n="57"/>esse intellectum. Cum aut dicis in minori quod hypostasis est 
-      <lb ed="#V" n="58"/>indiuiduum etc. dico quod hyopstasis in diuinis indiduum 
-      di<lb ed="#V" n="59" break="no"/>ci non debet: et quamuis hypostasis in creatura sit indiuiduu: non 
-      <lb ed="#V" n="60"/>tamen propter hoc est nomen intentionis secunde quia hoc dicendo 
-      <lb ed="#V" n="61"/>non aliud dicimus nisi quod est ipsa res cui secundum esse intellectum 
-      <lb ed="#V" n="62"/>accidit indiuidualitas: sicut vides cum dicimus animal est vni 
-      <lb ed="#V" n="63"/>uersale: non propter hoc includimus quod sit nomen intentionis 
-      se<lb ed="#V" n="64" break="no"/>cunde: sed signramus quod est illa res: cui secundum intellectum essentie 
-      <lb ed="#V" n="65"/>accidit vniuersalitas que est intentio secunda.
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e575">
-      ¶ Ad 2m cum 
-      <lb ed="#V" n="66"/>dicitur quod particulare est nomen intentionis secunde etc. Dico 
-      <lb ed="#V" n="67"/>quod verum est quia particulare secundum quod opponitur vniversali imponitur a 
-      per<lb ed="#V" n="68" break="no"/>ticularitate in subiiciendo. Talis autem particularitas non ac¬ 
-      <!--00181.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="69"/>cidit rei nisi secundum suum esse intellectum. Quod autem dicitur postea 
-      <lb ed="#V" n="70"/>quod hypostasis est quid particulare: dico quod non est verum de 
-      hy<lb ed="#V" n="71" break="no"/>postasi in divinis quamuis sit res incommunicabilis. Hypostasis aut 
-      <lb ed="#V" n="72"/>in creatura res particularis est inquantum est res cui secundum esse 
-      <lb ed="#V" n="73"/>intellectum accidit particularitas que est intentio secunda nec 
-      ex<lb ed="#V" n="74" break="no"/>hoc sequitur quod hypostasis sit nomen intentionis secunde
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e601">
-      ¶ Ad 
-      <lb ed="#V" n="75"/>3m cum dicitur quod singulare est nomen intentionis secunde etc. dico 
-      <lb ed="#V" n="76"/>quod singulare vagum bene est nomen secunde intentionis quia non 
-      <lb ed="#V" n="77"/>accidit rei nisi secundum suum esse intellectum. Singulare vero 
-      si<lb ed="#V" n="78" break="no"/>dicatur singulare: quia significatum etiam nomen secunde 
-      intentio<lb ed="#V" n="79" break="no"/>nis est: quia significari non competit Petro et Paulo: nisi secundum 
-      <lb ed="#V" n="80"/>suum esse intellectum. Si aut singularitas accipiatur pro 
-      nu<lb ed="#V" n="81" break="no"/>merali vnitate sic non est nomen secunde intentionis: quia 
-      conue<lb ed="#V" n="82" break="no"/>nit rei preter omnem operationem nostri intellectus. Cum autem 
-      <lb ed="#V" n="83"/>dicis in minori quod hypostasis est singularis sic intelligi dbet 
-      <lb ed="#V" n="84"/>quod hypostasis est ipsa res cui secundum esse intellectum accidit sign 
-      <lb ed="#V" n="85"/>ri: nec ex hoc sequitur quod significet illam signationem: vel 
-      signabi<lb ed="#V" n="86" break="no"/>litatem
-   </p>
-               <p xml:id="kzz7yh-a56778-d1e630">
-      ¶ Ad 4m cum dicitur quod suppositum est nomen secunde 
-      in<lb ed="#V" n="87" break="no"/>tentionis etc. Dico quod aliqui dicunt hanc esse falsam: cum 
-      sup<lb ed="#V" n="88" break="no"/>positum sit ipsa natura vt in se existens hoc nomen sibi 
-      compe<lb ed="#V" n="89" break="no"/>tit secundum suum esse reale nisi loquaris de suppositione secundum quod res 
-      <lb ed="#V" n="90"/>significata per terminum singularem supponitur a re vt 
-      significa<lb ed="#V" n="91" break="no"/>ta est per terminum vniversalem in oratione. Cum enim dicimus homo 
-      <lb ed="#V" n="92"/>currit. Iste terminus homo potest supponere Petrum et 
-      Ioan<lb ed="#V" n="93" break="no"/>nem et sic de aliis. Sic enim verum est quod esse suppositum non 
-      <lb ed="#V" n="94"/>conuenit rei nisi per comperationem intellectus: ex hoc tamen 
-      <lb ed="#V" n="95"/>non sequitur quod hypostasis sit nomen secunde intentionis: quia et 
-      <lb ed="#V" n="96"/>si significaret rem que est suppositum non tamen significat ipsam 
-      <lb ed="#V" n="97"/>intentionem suppositionis. Unde cum dicebas in 
-      argumento<lb ed="#V" n="98" break="no"/>quod dicitur ab hypos quod est sub: et thesis quod est positio 
-      fal<lb ed="#V" n="99" break="no"/>ium est: non enim idem significat hypostasis et hypothesis. 
-      <lb ed="#V" n="100"/>Argumenta ad aliam partem: gratia conclusionis essent 
-      conceden<lb ed="#V" n="101" break="no"/>da. tertium tamen in materia peccat. In haec quod dicit quod substantia 
-      pri<lb ed="#V" n="102" break="no"/>ma non est nomen secunde intentionis. Cum enim substantiae secundu 
-      <lb ed="#V" n="103"/>sint genera et species secundum philosophum libro praedicamentorum: et 
-      gene<lb ed="#V" n="104" break="no"/>ralitas et specialitas non competit rei nisi secundum suum esse 
-      intelle<lb ed="#V" n="105" break="no"/>ctum vt superius ostensum est. Et primum dicatur per comparationem 
-      <lb ed="#V" n="106"/>ad secundum sequitur quod primitas est in substantia per intellectum ex quo enim 
-      <lb ed="#V" n="107"/>sine operatione intellectus non est substantia secunda sine operatione 
-      in<lb ed="#V" n="108" break="no"/>tellectus non est substantia sub ratione qua prima. Quamuis ergo substantia 
-      <lb ed="#V" n="109"/>non sit nomen secunde intentionis: praemitas tamen in substantia et secundalitas 
-      in<lb ed="#V" n="110" break="no"/>substantia secundum quod dicimus quod secundalitas est prima substantia: et homo secunda nomina 
-      <lb ed="#V" n="111"/>sunt secunde intentionis. Quod autem dicitur in primo argumenus quod hypostasis 
-      <lb ed="#V" n="112"/>est persona et in secundo quod hypostasis est res nature: et in quarto 
-      <lb ed="#V" n="113"/>quod hypostasis est subsistentia dicendum quod illud quod signat sub 
-      <lb ed="#V" n="114"/>stentia sub ratione qua in se existens significat res nature secundum quod 
-      sup<lb ed="#V" n="115" break="no"/>ponitur nature communi: et hypostasis secundum quod supponitur proprietati 
-      <lb ed="#V" n="116"/>Et illud quod significant hec tria nomina in qualibet sub 
-      <lb ed="#V" n="117"/>stantia significat personam in substantia rationali vel 
-      intellectua<lb ed="#V" n="118" break="no"/>li tantum. Et sic patet ex dictis quomodo differnt ista nomina. Indiuiduum 
-      parti<lb ed="#V" n="119" break="no"/>culare singitirare: supisipium pers res nature hypo. substantia p et subsistentia. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="83-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a56778"><!-- l1d26a1 -->
+        <head xml:id="kzz7yh-a56778-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-a56778-d1e103">
+          ¶ Circa 
+          <lb ed="#V" n="36"/>primum queruntur duo.
+        </p>
+        <p xml:id="kzz7yh-a56778-d1e108">
+          ¶ Primo vtrum in divinis sit aliqua 
+          <lb ed="#V" n="37"/>hypostasis constituta per proprietatem absolutam.
+        </p>
+        <p xml:id="kzz7yh-a56778-d1e113">
+          ¶ 2o vtrum nomen 
+          <lb ed="#V" n="38"/>hypostasis significet intentionem secundam.
+        </p>
+        <div xml:id="kzz7yh-a56778-Dd1e118">
+          <head xml:id="kzz7yh-a56778-Hd1e120">Quaestio 1</head>
+          <head xml:id="kzz7yh-a56778-Hd1e124" type="question-title">Utrum in divinis sit aliqua hypostasis constituta per proprietatem absolutam</head>
+          <p xml:id="kzz7yh-a56778-d1e122">
+            Quaestio I. 
+            <lb ed="#V" n="39"/>PRimo ostendo quod in diuinis sit aliqua 
+            hypo<lb ed="#V" n="40" break="no"/>stasis constituta per proprietatem 
+            absolu<lb ed="#V" n="41" break="no"/>tam: quia pater et filius et spiritus sanctus sunt vnus qui creat 
+            <lb ed="#V" n="42"/>quia sunt vnus creator sed non sunt aliquis vnus 
+            consti<lb ed="#V" n="43" break="no"/>tutus per proprietatem relatiuam: ergo aliquis vnus 
+            con<lb ed="#V" n="44" break="no"/>stitutus per proprietatem absolutam.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e138">
+            ¶ Item esse vt in se existens 
+            <lb ed="#V" n="45"/>habet rationem suppositi sed diuina essentia est in se existens: et 
+            <lb ed="#V" n="46"/>go habetur rationem suppositi sed essentie suppositum est 
+            hyposta<lb ed="#V" n="47" break="no"/>sis.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e147">
+            ¶ Item absolutum non existit in relatione: ergo cum 
+            diui<lb ed="#V" n="48" break="no"/>na essentia sit quid absolutum non existit in relationibus: 
+            exi<lb ed="#V" n="49" break="no"/>stit ergo in aliquo absoluto. Sed illud in quo existit 
+            essen<lb ed="#V" n="50" break="no"/>tia est hypostasis: ergo in divinis est aliqua hypostasis absc 
+            <lb ed="#V" n="51"/>luta.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e158">
+            ¶ Item generatio non determinatur immediate ad 
+            rela<lb ed="#V" n="52" break="no"/>tionem vt trahi potest ex verbis philosophi. 5. physi. ergo in filio est 
+            <lb ed="#V" n="53"/>aliqua res absoluta que generatur cui conuenit filiationis 
+            ha<lb ed="#V" n="54" break="no"/>bitudo: cum ergo essentia non generetur sequitur quod in diuinis 
+            <lb ed="#V" n="55"/>est aliqua res absoluta: que non significat essentiam nec 
+            rela<lb ed="#V" n="56" break="no"/>tionem: hoc autem non videtur esse nisi hypostasis.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e172">
+            ¶ Item 
+            abstra<lb ed="#V" n="57" break="no"/>ctis per intellectum emanationibus personarum adhuc intelligitur 
+            <lb ed="#V" n="58"/>diuina essentia in vna hypostasi existens. Sed constat quod illa 
+            <lb ed="#V" n="59"/>hypostasis non esset constituta per proprietatem relatiuam: 
+            er<lb ed="#V" n="60" break="no"/>go in diuinis est hypostasis aliqua constituta per proprietatem 
+            <lb ed="#V" n="61"/>absolutam.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e185">
+            ¶ Item prius est secundum rationem intelligendi ille 
+            quo<lb ed="#V" n="62" break="no"/>potest generare quam generet. Sed omnis res prior secundum rationem 
+            in<lb ed="#V" n="63" break="no"/>telligendi quam actus generandi res absoluta est: quia ex quo 
+            <lb ed="#V" n="64"/>prior est secundum rationem intelligendi generationem: prior est secundum 
+            <lb ed="#V" n="65"/>rationem intelligendi paternitatem et filiationem. Sed res 
+            absolu<lb ed="#V" n="66" break="no"/>ta potens generare non videtur esse nisi hypostasis: quia 
+            essen<lb ed="#V" n="67" break="no"/>tia non generat: vt superius dictum est: ergo in diuinis 
+            <lb ed="#V" n="68"/>est hypostasis constituta per proprietatem absolutam.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e203">
+            <!--00180.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>Contra si in diuinis est aliqua hypostasis constitutm per 
+            <lb ed="#V" n="70"/>proprietatem absolutam communis est patri: et 
+            fi<lb ed="#V" n="71" break="no"/>lio et spiritui sancto: quia quicquid est absolutum in diuinis commune 
+            <lb ed="#V" n="72"/>est tribus: ergo pater et filius: et spiritus sanctus dicuntur vnum propter 
+            <lb ed="#V" n="73"/>vnam essentiam eis communem: ita posset dici vnus propter vnam 
+            <lb ed="#V" n="74"/>hypostasim eis communem quod tamen concedendum non videtur.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e223">
+            ¶ Item 
+            <lb ed="#V" n="75"/>cum persona sit hypostasis intellectualis nature distincta 
+            pro<lb ed="#V" n="76" break="no"/>prietate ad dignitatem pertinente: si esset in diuinis 
+            hypo<lb ed="#V" n="77" break="no"/>stasis constituta per proprietatem absolutam cum illa esset ad 
+            di<lb ed="#V" n="78" break="no"/>gnitatem pertinens in divinis esset persona constituta per 
+            proprie<lb ed="#V" n="79" break="no"/>tatem absolutam: ergo cum omne absolutum in diuinis sit 
+            <lb ed="#V" n="80"/>commune tribus: pater et filius et spiritus sanctus possent dici vna 
+            <lb ed="#V" n="81"/>persona quod non conceditur.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e241">
+            ¶ Item in tali hypostasi 
+            existe<lb ed="#V" n="82" break="no"/>ret diuina essentia: et cum vna hypostasis non habeat suum 
+            <lb ed="#V" n="83"/>existere in alia: divina essentia non existeret in persona per 
+            proprie<lb ed="#V" n="84" break="no"/>tatem relatiuam constitua quod falsum est. 
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e250">
+            <lb ed="#V" n="85"/>Ad hanc questionem dixerunt quidam quod in diuinis 
+            <lb ed="#V" n="86"/>est hypostasis constituta per proprietatem 
+            ab<lb ed="#V" n="87" break="no"/>solutam non vna communis tribus personis: sed tres secundum quod tres sunt 
+            <lb ed="#V" n="88"/>persone dicentes quod in persona patris est aliqua res constituta pen 
+            <lb ed="#V" n="89"/>proprietatem absolutam que generat: et quam secundum rationem 
+            intel<lb ed="#V" n="90" break="no"/>ligendi consequatur habitudo paternitatis. Similiter in filio 
+            <lb ed="#V" n="91"/>aliqua res absoluta que generatur: et quam secundum rationem 
+            intelli<lb ed="#V" n="92" break="no"/>gendi consequitur habitudo filiationis. Et in spiritu sancto 
+            ali<lb ed="#V" n="93" break="no"/>qua res absoluta que spiratur: et quam secundum rationem 
+            intelligen<lb ed="#V" n="94" break="no"/>di consequitur habitudo passiue spirationis innitentes  
+            rationi<lb ed="#V" n="95" break="no"/>bus quarte et sexte factis ad hanc partem: dicentes paternitatem 
+            <lb ed="#V" n="96"/>non esse constitutiuam patris sub ratione qua persona est 
+            sim<lb ed="#V" n="97" break="no"/>pliciter: sed tantummodo sub ratione qua persona ad alium se 
+            ha<lb ed="#V" n="98" break="no"/>bens. Similiter dicunt de filiatione respectu filii: et de illa 
+            <lb ed="#V" n="99"/>habitudine que secundum rationem intelligendi consequitur 
+            spira<lb ed="#V" n="100" break="no"/>tionem passiuam respectu spiritus sancti: et dicunt quod sicut 
+            pro<lb ed="#V" n="101" break="no"/>prietates relatiue comparate ad essentiam: idem sunt quod ipsa 
+            reali<lb ed="#V" n="102" break="no"/>ter: et tamen inter se distinguntur: sic ille res absolute quas 
+            hy<lb ed="#V" n="103" break="no"/>postases dicunt comperate ad essentiam idem sunt realiter 
+            <lb ed="#V" n="104"/>quod ipsa: et tamen inter se distincte sunt per aliquid absolutum scilicet 
+            <lb ed="#V" n="105"/>seipsis.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e299">
+            ¶ Sed contra hanc opinionem videtur esse summa 
+            <lb ed="#V" n="106"/>simplicitas que est in diuinis: qune non videtur compati 
+            in<lb ed="#V" n="107" break="no"/>diuinis esse distinctionem penes aliquid absolutum.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e306">
+            ¶ Ide 
+            <lb ed="#V" n="108"/>dixerunt alii in diuinis esse aliquam hypostasim constitutam 
+            <lb ed="#V" n="109"/>per proprietatem absolutam communem patri et filio et spiritui sancto: sicut et 
+            <lb ed="#V" n="110"/>ipsa essentia communis est. Dicunt enim quod illa hypostasis est ipsa divina 
+            <lb ed="#V" n="111"/>essentia vt in se existens: et dicunt quod ista est ratio queritur antiquit 
+            <lb ed="#V" n="112"/>nomen persone sigmbat essentiam. Omnis enim essentia 
+            intellectu<lb ed="#V" n="113" break="no"/>lis in se existens persona est.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e322">
+            ¶ Sed contra hanc opinionem videtur es 
+            <lb ed="#V" n="114"/>tertia ratio adducta ad partem aliam. Ideo dicunt alii quibus ego 
+            con<lb ed="#V" n="115" break="no"/>sentio quod in diuinis non est aliqua hypostasis constituta per 
+            propri<lb ed="#V" n="116" break="no"/>tatem absolutam sed: tantummodo per proprietatem rtam cum dina 
+            <lb ed="#V" n="117"/>essentia. Ipsa enim est de ratione persone: et hec opinio innititur 
+            <lb ed="#V" n="118"/>rationibus adductis contra praemissas opiniones duas. Qui tamen vult 
+            ue<lb ed="#V" n="119" break="no"/>nere secundam opinionem potest aliqualiter euadere argumenta quae sunt contra eam.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e338">
+            <lb ed="#V" n="120"/>Ad primum in oppositum cum dicitur quod pater et filius et 
+            spiritus
+            <lb ed="#V" n="121"/>sanctus sunt vnus qua creat etc. Dico quod 
+            <lb ed="#V" n="122"/>verum est sub hoc sensu: quia sunt vnus deus qui creat non quia sint 
+            <lb ed="#V" n="123"/>aliqua vna hypostasis. Dicuntur autem vnus deus propter vnam 
+            <lb ed="#V" n="124"/>diuinam essentiam que est in eis.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e351">
+            ¶ Ad 2m cum dicitur quod 
+            <lb ed="#V" n="125"/>diuina essentia est in se existens etc. Dico quod non est verum 
+            <lb ed="#V" n="126"/>nisi intelligendo sic. quod diuina essentia existens est in per 
+            <lb ed="#V" n="127"/>sona vel in hypostasi que realiter idem est quod ipsa.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e360">
+            <sic>¶ Ad</sic>
+            <lb ed="#V" n="128"/>¶ Ad 3m cum dicitur quod absolutum non existit in relatione: 
+            <lb ed="#V" n="129"/>etc. dico quod verum est de relationibus que non existunt: sicut 
+            <lb ed="#V" n="130"/>sunt relationes creaturarum.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e372">
+            ¶ Relationes autem in divinis sunt 
+            <lb ed="#V" n="131"/>subsistentes.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e377">
+            ¶ Ad 4m cum dicitur quod generatio non 
+            termina<lb ed="#V" n="132" break="no"/>tur immediate ad rlauationem etc. dico quod si habet veritatem non 
+            <lb ed="#V" n="133"/>tamen verum est nisi in relationibus non subsistentibus: 
+            cuiusmo<lb ed="#V" n="134" break="no"/>sunt relationes inter creaturas. Rlusiones autem in diuinis sub 
+            <lb ed="#V" n="135"/>sistentes sunt.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e388">
+            ¶ Ad 5m dicitur quod abstractis per intellecti 
+            <lb ed="#V" n="136"/>emanationibus personarum adhuc intelligitur dina essentia in vna 
+            <!--00181.xml-->
+            <pb ed="#V" n="84-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>hypostasi existens etc. dico quod secundum hanc opinionem non est 
+            ve<lb ed="#V" n="2" break="no"/>rum. Unde gentiles intelligentes vel intelligere 
+            opinan<lb ed="#V" n="3" break="no"/>tes diuinam essentiam in vna hypostasi intellecta enaratione 
+            <lb ed="#V" n="4"/>personarum decipiuntur cum divina essentia non sit apta 
+            existe<lb ed="#V" n="5" break="no"/>re nisi in suppositis per relatiuas proprietates constitutis propter 
+            <lb ed="#V" n="6"/>summam eius simplicitatem.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e412">
+            ¶ Difficultas sexti arbro 
+            decla<lb ed="#V" n="7" break="no"/>rabitur inferius in illa questione qua queritur vtrum ideo 
+            <lb ed="#V" n="8"/>sit pater quia generat vel econuerso.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a56778-Dd1e421">
+          <head xml:id="kzz7yh-a56778-Hd1e423">Quaestio 2</head>
+          <head xml:id="kzz7yh-a56778-Hd1e431" type="question-title">Utrum nomen hypostasis significet intentionem secundam</head>
+          <p xml:id="kzz7yh-a56778-d1e425">
+            Quaestio ii. 
+            <lb ed="#V" n="9"/>Secundo queritur vtrum nomen 
+            hyposta<lb ed="#V" n="10" break="no"/>sis significet intentionem secundam et 
+            <lb ed="#V" n="11"/>videtur quod sic quia indiuiduum est nomen intentionis 
+            <lb ed="#V" n="12"/>secunde: sed hypostasis est indiuiduum: ergo est nomen 
+            <lb ed="#V" n="13"/>intentionis secunde.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e438">
+            ¶ Item particulare est nomen intentionis 
+            <lb ed="#V" n="14"/>secunde: quia particulare idem videtur quod pars subiectiua speciei. 
+            Subie<lb ed="#V" n="15" break="no"/>ctum aut et praedicatum secundum Auice. 3. Metaphi. c. vlti. 
+            impor<lb ed="#V" n="16" break="no"/>tant intentiones secundas sed hypostasis videtur esse quodda 
+            per<lb ed="#V" n="17" break="no"/>ticulare: quia est res incommunicabilis: ergo videtur quod sit nomen 
+            <lb ed="#V" n="18"/>intentionis secunde.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e451">
+            ¶ Item singulare est nomen secunde 
+            inten<lb ed="#V" n="19" break="no"/>tionis opponitur enim vniuersali: quod est nomen 
+            intenti<lb ed="#V" n="20" break="no"/>onis secunde. Sed hypostasis est res singularis: ergo est nomen 
+            <lb ed="#V" n="21"/>intentionis secunde.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e460">
+            ¶ Item suppositum nomen est secunde 
+            inten<lb ed="#V" n="22" break="no"/>tionis: sed hypostasis idem videtur significare quod 
+            supposi<lb ed="#V" n="23" break="no"/>tum. Dicitur enim ab hypos quod est sub: et thesis quod est 
+            po<lb ed="#V" n="24" break="no"/>sitio: ergo est nomen secunde intetionis. 
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e470">
+            <lb ed="#V" n="25"/>Contra persona non est nomen secunde intentonis: sed 
+            hy<lb ed="#V" n="26" break="no"/>postasis in substantia intellectuali idem est 
+            reali<lb ed="#V" n="27" break="no"/>ter quod persona: ergo hypostasis non est nomen secunde 
+            inten<lb ed="#V" n="28" break="no"/>tionis.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e481">
+            ¶ Item hypostasis idem videtur quod res nature: sed 
+            <lb ed="#V" n="29"/>res nature non videtur nomen secunde intentionis: ergo nec 
+            <lb ed="#V" n="30"/>nomen hypostasis.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e488">
+            ¶ Item substantia prima non videtur nomen 
+            <lb ed="#V" n="31"/>secunde intentionis. sed hypostasis se habet in divinis ad 
+            simi<lb ed="#V" n="32" break="no"/>litudinem substantiae prime in creaturis: ergo hypostasis non est 
+            no<lb ed="#V" n="33" break="no"/>men secunde intentionis.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e497">
+            ¶ Item hypostasis idem videtur 
+            si<lb ed="#V" n="34" break="no"/>gnificare quod subsistentia sed subsistentia non est nomen 
+            se<lb ed="#V" n="35" break="no"/>cunde intentiouis ergo nec hypostasis. 
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e504">
+            <lb ed="#V" n="36"/>Respondeo quod hypostasis non est nomen secunde 
+            inte<lb ed="#V" n="37" break="no"/>ntionis. Est enim intentio prima res vt 
+            in<lb ed="#V" n="38" break="no"/>tellecta: seu conceptus eius. Intentio autem secunda est aliquid quod 
+            ac<lb ed="#V" n="39" break="no"/>cidit rei secundum suum esse intellectum tantum. Unde quia 
+            vniuer<lb ed="#V" n="40" break="no"/>salitas non accidit rei nisi inquantum intellecta est preter 
+            ra<lb ed="#V" n="41" break="no"/>tionem vnitatis vniuersalis et multitudinis. Ideo 
+            vni<lb ed="#V" n="42" break="no"/>uersalitas est nomen intentionis secunde. Et quia logica 
+            conside<lb ed="#V" n="43" break="no"/>rat rem secundum suum esse intellectum et ea que accidunt rebus 
+            <lb ed="#V" n="44"/>tantummodo inquantum intellecte sunt. Ideo benedicit Auice. i. 
+            <lb ed="#V" n="45"/>Meta. c. 2. quod logica est de intentionibus secundis intellectit que 
+            <lb ed="#V" n="46"/>apponuntur intentionibus primis intellectis. Cum ergo 
+            hy<lb ed="#V" n="47" break="no"/>postasis significet aliquid quod inuenitur in re extra: et non per 
+            <lb ed="#V" n="48"/>oppositum nostri intellectus: sequitur quod non est nomen intentionis secunde.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e535">
+            <lb ed="#V" n="49"/>Ad primum in oppositum cum dicitur quod indiuiduum est 
+            no<lb ed="#V" n="50" break="no"/>men intentionis secunde etc. Dico quod si 
+            <lb ed="#V" n="51"/>indiuidum dicatur quod non diuiditur in plura talia vt in diuiduis 
+            <lb ed="#V" n="52"/>homo qui non diuiditur in plures homines: sed sicut dico quod non 
+            <lb ed="#V" n="53"/>est nomen intentionis secunde: sic nec vnum numero. Sed si 
+            ac<lb ed="#V" n="54" break="no"/>cipiatur indiuiduum pro eo quod est personale de vno solo: sic  
+            im<lb ed="#V" n="55" break="no"/>ponitur ad significandum ab intentione secunda: quia praedicabilitas 
+            <lb ed="#V" n="56"/>siue de vno solo: siue de pluribus non conuenit rei nisi secundum suum 
+            <lb ed="#V" n="57"/>esse intellectum. Cum aut dicis in minori quod hypostasis est 
+            <lb ed="#V" n="58"/>indiuiduum etc. dico quod hyopstasis in diuinis indiduum 
+            di<lb ed="#V" n="59" break="no"/>ci non debet: et quamuis hypostasis in creatura sit indiuiduu: non 
+            <lb ed="#V" n="60"/>tamen propter hoc est nomen intentionis secunde quia hoc dicendo 
+            <lb ed="#V" n="61"/>non aliud dicimus nisi quod est ipsa res cui secundum esse intellectum 
+            <lb ed="#V" n="62"/>accidit indiuidualitas: sicut vides cum dicimus animal est vni 
+            <lb ed="#V" n="63"/>uersale: non propter hoc includimus quod sit nomen intentionis 
+            se<lb ed="#V" n="64" break="no"/>cunde: sed signramus quod est illa res: cui secundum intellectum essentie 
+            <lb ed="#V" n="65"/>accidit vniuersalitas que est intentio secunda.
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e575">
+            ¶ Ad 2m cum 
+            <lb ed="#V" n="66"/>dicitur quod particulare est nomen intentionis secunde etc. Dico 
+            <lb ed="#V" n="67"/>quod verum est quia particulare secundum quod opponitur vniversali imponitur a 
+            per<lb ed="#V" n="68" break="no"/>ticularitate in subiiciendo. Talis autem particularitas non ac¬ 
+            <!--00181.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="69"/>cidit rei nisi secundum suum esse intellectum. Quod autem dicitur postea 
+            <lb ed="#V" n="70"/>quod hypostasis est quid particulare: dico quod non est verum de 
+            hy<lb ed="#V" n="71" break="no"/>postasi in divinis quamuis sit res incommunicabilis. Hypostasis aut 
+            <lb ed="#V" n="72"/>in creatura res particularis est inquantum est res cui secundum esse 
+            <lb ed="#V" n="73"/>intellectum accidit particularitas que est intentio secunda nec 
+            ex<lb ed="#V" n="74" break="no"/>hoc sequitur quod hypostasis sit nomen intentionis secunde
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e601">
+            ¶ Ad 
+            <lb ed="#V" n="75"/>3m cum dicitur quod singulare est nomen intentionis secunde etc. dico 
+            <lb ed="#V" n="76"/>quod singulare vagum bene est nomen secunde intentionis quia non 
+            <lb ed="#V" n="77"/>accidit rei nisi secundum suum esse intellectum. Singulare vero 
+            si<lb ed="#V" n="78" break="no"/>dicatur singulare: quia significatum etiam nomen secunde 
+            intentio<lb ed="#V" n="79" break="no"/>nis est: quia significari non competit Petro et Paulo: nisi secundum 
+            <lb ed="#V" n="80"/>suum esse intellectum. Si aut singularitas accipiatur pro 
+            nu<lb ed="#V" n="81" break="no"/>merali vnitate sic non est nomen secunde intentionis: quia 
+            conue<lb ed="#V" n="82" break="no"/>nit rei preter omnem operationem nostri intellectus. Cum autem 
+            <lb ed="#V" n="83"/>dicis in minori quod hypostasis est singularis sic intelligi dbet 
+            <lb ed="#V" n="84"/>quod hypostasis est ipsa res cui secundum esse intellectum accidit sign 
+            <lb ed="#V" n="85"/>ri: nec ex hoc sequitur quod significet illam signationem: vel 
+            signabi<lb ed="#V" n="86" break="no"/>litatem
+          </p>
+          <p xml:id="kzz7yh-a56778-d1e630">
+            ¶ Ad 4m cum dicitur quod suppositum est nomen secunde 
+            in<lb ed="#V" n="87" break="no"/>tentionis etc. Dico quod aliqui dicunt hanc esse falsam: cum 
+            sup<lb ed="#V" n="88" break="no"/>positum sit ipsa natura vt in se existens hoc nomen sibi 
+            compe<lb ed="#V" n="89" break="no"/>tit secundum suum esse reale nisi loquaris de suppositione secundum quod res 
+            <lb ed="#V" n="90"/>significata per terminum singularem supponitur a re vt 
+            significa<lb ed="#V" n="91" break="no"/>ta est per terminum vniversalem in oratione. Cum enim dicimus homo 
+            <lb ed="#V" n="92"/>currit. Iste terminus homo potest supponere Petrum et 
+            Ioan<lb ed="#V" n="93" break="no"/>nem et sic de aliis. Sic enim verum est quod esse suppositum non 
+            <lb ed="#V" n="94"/>conuenit rei nisi per comperationem intellectus: ex hoc tamen 
+            <lb ed="#V" n="95"/>non sequitur quod hypostasis sit nomen secunde intentionis: quia et 
+            <lb ed="#V" n="96"/>si significaret rem que est suppositum non tamen significat ipsam 
+            <lb ed="#V" n="97"/>intentionem suppositionis. Unde cum dicebas in 
+            argumento<lb ed="#V" n="98" break="no"/>quod dicitur ab hypos quod est sub: et thesis quod est positio 
+            fal<lb ed="#V" n="99" break="no"/>ium est: non enim idem significat hypostasis et hypothesis. 
+            <lb ed="#V" n="100"/>Argumenta ad aliam partem: gratia conclusionis essent 
+            conceden<lb ed="#V" n="101" break="no"/>da. tertium tamen in materia peccat. In haec quod dicit quod substantia 
+            pri<lb ed="#V" n="102" break="no"/>ma non est nomen secunde intentionis. Cum enim substantiae secundu 
+            <lb ed="#V" n="103"/>sint genera et species secundum philosophum libro praedicamentorum: et 
+            gene<lb ed="#V" n="104" break="no"/>ralitas et specialitas non competit rei nisi secundum suum esse 
+            intelle<lb ed="#V" n="105" break="no"/>ctum vt superius ostensum est. Et primum dicatur per comparationem 
+            <lb ed="#V" n="106"/>ad secundum sequitur quod primitas est in substantia per intellectum ex quo enim 
+            <lb ed="#V" n="107"/>sine operatione intellectus non est substantia secunda sine operatione 
+            in<lb ed="#V" n="108" break="no"/>tellectus non est substantia sub ratione qua prima. Quamuis ergo substantia 
+            <lb ed="#V" n="109"/>non sit nomen secunde intentionis: praemitas tamen in substantia et secundalitas 
+            in<lb ed="#V" n="110" break="no"/>substantia secundum quod dicimus quod secundalitas est prima substantia: et homo secunda nomina 
+            <lb ed="#V" n="111"/>sunt secunde intentionis. Quod autem dicitur in primo argumenus quod hypostasis 
+            <lb ed="#V" n="112"/>est persona et in secundo quod hypostasis est res nature: et in quarto 
+            <lb ed="#V" n="113"/>quod hypostasis est subsistentia dicendum quod illud quod signat sub 
+            <lb ed="#V" n="114"/>stentia sub ratione qua in se existens significat res nature secundum quod 
+            sup<lb ed="#V" n="115" break="no"/>ponitur nature communi: et hypostasis secundum quod supponitur proprietati 
+            <lb ed="#V" n="116"/>Et illud quod significant hec tria nomina in qualibet sub 
+            <lb ed="#V" n="117"/>stantia significat personam in substantia rationali vel 
+            intellectua<lb ed="#V" n="118" break="no"/>li tantum. Et sic patet ex dictis quomodo differnt ista nomina. Indiuiduum 
+            parti<lb ed="#V" n="119" break="no"/>culare singitirare: supisipium pers res nature hypo. substantia p et subsistentia. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
