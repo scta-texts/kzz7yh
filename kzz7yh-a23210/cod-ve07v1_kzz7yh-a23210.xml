@@ -1,320 +1,320 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="34-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a23210"><!-- l1d9a1 -->
-            <head xml:id="kzz7yh-a23210-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-a23210-d1e103">
-      ¶ Primo vtrum 
-      genera<lb ed="#V" n="68" break="no"/>tioni filii dei vere conueniat perfecte generationis ratio. 
-   </p>
-            <p xml:id="kzz7yh-a23210-d1e108">
-               <lb ed="#V" n="69"/>¶ Secundo vtrum sit necessarium quod inter genitorem et 
-      <lb ed="#V" n="70"/>genitum sit realis distinctio.
-   </p>
-            <div xml:id="kzz7yh-a23210-Dd1e115">
-               <head xml:id="kzz7yh-a23210-Hd1e117">Quaestio 1</head>
-               <head xml:id="kzz7yh-a23210-Hd1e121" type="question-title">Utrum illi generationi vere non convenit perfecte generationis ratio</head>
-               <p xml:id="kzz7yh-a23210-d1e119">
-      ¶ Questio I. 
-      <lb ed="#V" n="71"/>PRimo ostendo quod illi generationi vere non 
-      <lb ed="#V" n="72"/>conuenit perfecte generationis ratio. 
-      <lb ed="#V" n="73"/>quia de ratione perfecte generationis est 
-      tramsmu<lb ed="#V" n="74" break="no"/>tatio. Sed secundum beatum Iacobum in canonica sua. c. i 
-      <lb ed="#V" n="75"/>apud deum non est transmutatio. ergo 
-      generatio<lb ed="#V" n="76" break="no"/>ni que est in diuinis vere non conuenit perfecte 
-      genera<lb ed="#V" n="77" break="no"/>tionis ratio.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e137">
-      ¶ Item esse acceptum per generationem 
-      per<lb ed="#V" n="78" break="no"/>fectam est receptum: sed nullum esse receptum est per se 
-      <lb ed="#V" n="79"/>subsistens. ergo diuinum esse non esset in filio per se sub 
-      <lb ed="#V" n="80"/>sistens: quod falsum videtur.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e146">
-      ¶ Item in nobis 
-      processio<lb ed="#V" n="81" break="no"/>ni verbi a mente nostra non vere competit perfecte 
-      gene<lb ed="#V" n="82" break="no"/>rationis ratio. ergo cum filius dei procedat sicut verbum 
-      <lb ed="#V" n="83"/>a mente paterna: illi productioni non vere competit 
-      perfe<lb ed="#V" n="84" break="no"/>cte generationis ratio.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e157">
-      ¶ Item perfecta generatio est 
-      qui<lb ed="#V" n="85" break="no"/>dam progressus a non esse in esse: sed hoc est habere 
-      ini<lb ed="#V" n="86" break="no"/>tium. ergo si productioni filii vere conueniret perfecte 
-      ge<lb ed="#V" n="87" break="no"/>nerationis ratio: filius dei haberet initium: quod falsum est. 
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e167">
-                  <lb ed="#V" n="88"/>¶ Item omne illud sine quo diuinum esse intelligitur 
-      <lb ed="#V" n="89"/>summe perfectum: non est de eius perfectione: sed sine 
-      <lb ed="#V" n="90"/>ratione generationis intelligitur esse diuinum summe 
-      per<lb ed="#V" n="91" break="no"/>fectum: quia in spiritu sancto est esse diuinum summe 
-      perfe<lb ed="#V" n="92" break="no"/>ctum. ergo perfectio diuini esse non requirit quod in deo sit generatio. 
-    </p>
-               <p xml:id="kzz7yh-a23210-d1e180">
-                  <lb ed="#V" n="93"/>Contra Psalmista in persona patris loquens ad filium ait. 
-      <lb ed="#V" n="94"/>Ege hodie genui te. Sed verbum 
-      generan<lb ed="#V" n="95" break="no"/>di simpliciter dictum intelligi debet de generatione 
-      per<lb ed="#V" n="96" break="no"/>fecta: que est generatio simpliciter. quia secundum philosophum. 2. thop 
-      <lb ed="#V" n="97"/>Simpliciter est quod nullo addito dicis. ergo generationi 
-      <lb ed="#V" n="98"/>que est in diuinis vere competit perfecte generationis 
-      ra<lb ed="#V" n="99" break="no"/>tio.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e198">
-      ¶ Item Isaie vlti. Si ego qui ceteris generationem 
-      <lb ed="#V" n="100"/>tribuo sterilis ero dicit dominus. q. d. non.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e203">
-      ¶ Item 
-      Tri<lb ed="#V" n="101" break="no"/>megistus de diuinitate ad Asclepium. Non solum 
-      deum<lb ed="#V" n="102" break="no"/>o Asclepi: sed animalia omnia: et animalia. impossibile enim 
-      <lb ed="#V" n="103"/>aliquid eorum que sunt infecundum esse: sed fecunditas 
-      <lb ed="#V" n="104"/>est maxime vbi est perfecta generatio. ergo generationi 
-      <lb ed="#V" n="105"/>filii dei vere conuenit perfecte generationis ratio. 
-    </p>
-               <p xml:id="kzz7yh-a23210-d1e216">
-                  <lb ed="#V" n="106"/>Respondeo quod generationi filii dei vere competit 
-      perfe<lb ed="#V" n="107" break="no"/>cte generationis ratio: quia secundum 
-      Damasce<lb ed="#V" n="108" break="no"/>num primo lib. c. 8. Ratio generationis est ista: 
-      generatio<lb ed="#V" n="109" break="no"/>est ex substantia generantis produci quod generatur secundum 
-      sub<lb ed="#V" n="110" break="no"/>stantiam: et paucis interpositis subdit. Quioa generatio est 
-      si<lb ed="#V" n="111" break="no"/>ne principio: et eterna opus nature existens. Ex istis 
-      col<lb ed="#V" n="112" break="no"/>ligo perfecte generationis rationem talem scilicet quod 
-      generatio<lb ed="#V" n="113" break="no"/>est eterna productio alicuius secundum substantiam per modum 
-      <lb ed="#V" n="114"/>nature de substantia generantis. Per hoc quod dicitur secundum 
-      <lb ed="#V" n="115"/>substantiam excluditur generatio secundum quid: que terminatur 
-      <lb ed="#V" n="116"/>ad esse accidentale. Per hoc quod dicitur per modum 
-      natu<lb ed="#V" n="117" break="no"/>re excluditur productio per modum voluntatis. Per hoc 
-      <lb ed="#V" n="118"/>quod dicitur de substantia generantis excluditur 
-      generatio<lb ed="#V" n="119" break="no"/>que non sit de substantia generantis: sed de aliena: vt cum 
-      <lb ed="#V" n="120"/>ex aere generatur ignis. Per hoc quod dicitur eterna 
-      exclu<lb ed="#V" n="121" break="no"/>ditur generatio que est cum transmutatione: quia talis 
-      <lb ed="#V" n="122"/>eterna esse non potest. Et generatio que est de parte 
-      sub<lb ed="#V" n="123" break="no"/>stantie generantis: et non de tota: quia non potest esse sine 
-      <lb ed="#V" n="124"/>transmutatione: et ex conseqenti nec sine initio. Et quia in generatione 
-      <lb ed="#V" n="125"/>que est de tota substantia generantis: genitum perfecte assimilatur 
-      geni<lb ed="#V" n="126" break="no"/>tori. Ideo per hoc vocabulum eterna excluditur generatio equiuoca: 
-      <!--00083.xml-->
-      <pb ed="#V" n="35-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>in qua genitum non perfecte assimilatur genitori. Per 
-      <lb ed="#V" n="2"/>rationem ergo generationis supradictam excluditur 
-      om<lb ed="#V" n="3" break="no"/>nis imperfectio que reperiri potest in generatione 
-      impe<lb ed="#V" n="4" break="no"/>fecta. Cum ergo supradicta ratio generationis vere 
-      repe<lb ed="#V" n="5" break="no"/>riatur in generatione filii dei vere sibi competit perfecte 
-      <lb ed="#V" n="6"/>generationis ratio.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e284">
-                  <lb ed="#V" n="7"/>Ad primum in oppositum cum dicitur quod de 
-      ra<lb ed="#V" n="8" break="no"/>tione perfecte generationis est 
-      trans<lb ed="#V" n="9" break="no"/>mutatio etc. Dico quod falsum est: immo hoc spectat ad 
-      im<lb ed="#V" n="10" break="no"/>perfectam generationem: que est de parte substantie 
-      ge<lb ed="#V" n="11" break="no"/>nerantis non de tota.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e298">
-      ¶ Ad secundum cum dicitur quod 
-      es<lb ed="#V" n="12" break="no"/>se acceptum per generationem perfectam est receptum etc. 
-      <lb ed="#V" n="13"/>Dico quod non omne acceptum est receptum in aliquo 
-      sub<lb ed="#V" n="14" break="no"/>iecto: alioquin non posset dici quod tota substantia rei 
-      crea<lb ed="#V" n="15" break="no"/>te esset accepta a deo: cum totius substantie non sit aliquod 
-      <lb ed="#V" n="16"/>subiectum receptiuum: potest ergo dici quod esse diuinum 
-      <lb ed="#V" n="17"/>per generationem est acceptum non receptum in aliquo 
-      <lb ed="#V" n="18"/>subiecto. Accipere autem esse diuinum per generationem 
-      <lb ed="#V" n="19"/>non est contra subsistentiam diuini esse.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e318">
-      ¶ Ad tertium 
-      <lb ed="#V" n="20"/>cum dicitur quod in nobis processioni verbi a mente nostra 
-      <lb ed="#V" n="21"/>non vere competit perfecta generationis ratio. Dico quod 
-      <lb ed="#V" n="22"/>verum est: quia verbum nostrum non est aliquid in se 
-      sub<lb ed="#V" n="23" break="no"/>sistens: neque eiusdem substantie cum mente generante 
-      <lb ed="#V" n="24"/>verbum autem diuinum est in se subsistens: et eiusdem sub 
-      <lb ed="#V" n="25"/>stantie cum patre generante.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e334">
-      ¶ Ad quartum cum 
-      dici<lb ed="#V" n="26" break="no"/>ur quod perfecta generatio est quidam progressus a non es 
-      <lb ed="#V" n="27"/>se in esse etc. Dico quod falsum est: immo hoc competit 
-      gene<lb ed="#V" n="28" break="no"/>rationi ratione alicuius imperfectionis existentis in 
-      ge<lb ed="#V" n="29" break="no"/>neratione. Hoc enim competit generationi in creaturis: 
-      <lb ed="#V" n="30"/>que importat quendam exitum de potentia in actum. 
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e347">
-                  <lb ed="#V" n="31"/>¶ Ad quintum cum dicitur quod sine ratione 
-      generatio<lb ed="#V" n="32" break="no"/>nis intelligitur esse diuinum summe perfectum etc. Dico quod 
-      quam<lb ed="#V" n="33" break="no"/>uis intelligatur esse diuinum summe perfectum in aliqua 
-      <lb ed="#V" n="34"/>persona: que non generat: sicut in persona patris et filii: et 
-      <lb ed="#V" n="35"/>in persona spiritus sancti: tamen perfectio diuini esse 
-      re<lb ed="#V" n="36" break="no"/>quirit quod communicetur per generationem: quamuis non 
-      <lb ed="#V" n="37"/>generetur.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a23210-Dd1e366">
-               <head xml:id="kzz7yh-a23210-Hd1e368">Quaestio 2</head>
-              <head xml:id="kzz7yh-a23210-Hd1e376" type="question-title">Utrum sit necessarium quod inter generantem et genitum sit realis distinctio</head> 
-               <p xml:id="kzz7yh-a23210-d1e370">
-      ¶ Questio. II. 
-      <lb ed="#V" n="38"/>Secundo queritur vtrum sit necessarium 
-      <lb ed="#V" n="39"/>quod inter generantem et genitum 
-      <lb ed="#V" n="40"/>sit realis distinctio. Et videtur quod non: quia idem 
-      <lb ed="#V" n="41"/>potest mouere seipsum: quia secundum Anselis libro de 
-      com<lb ed="#V" n="42" break="no"/>cordantia prescientie et liberi arbero longe ante finem. 
-      Uolun<lb ed="#V" n="43" break="no"/>tas est instrumentum seipsum mouens. ergo a simili idem 
-      <lb ed="#V" n="44"/>potest generare seipsum.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e388">
-      ¶ Item generare est a patre. nec 
-      <lb ed="#V" n="45"/>tamen a patre distinguitur realiter: quia generatio 
-      acti<lb ed="#V" n="46" break="no"/>ua est pater. ergo a simili non oportet quod quamuis genitum 
-      <lb ed="#V" n="47"/>sit a genitore quod ab ipso distinguatur realiter.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e397">
-      ¶ Item 
-      ge<lb ed="#V" n="48" break="no"/>neratio in diuinis est ad verbum: sed ipse pater habet 
-      ra<lb ed="#V" n="49" break="no"/>tionem verbi: vt videtur cum in seipso cognoscat illud 
-      <lb ed="#V" n="50"/>quod cognoscit: ergo videtur quod non sit realis 
-      distinctio<lb ed="#V" n="51" break="no"/>inter genitum et generantem. 
-    </p>
-               <p xml:id="kzz7yh-a23210-d1e408">
-                  <lb ed="#V" n="52"/>Contra Augustinus primo de trinitate. capitulo primo. 
-      <lb ed="#V" n="53"/>Nulla res est que seipsam gignat: vt sit. 
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e416">
-                  <lb ed="#V" n="54"/>¶ Item in humanis optime sequitur. Ioseph est filius 
-      <lb ed="#V" n="55"/>Iacob. ergo non est pater eiusdem. ergo a simili sequitur 
-      <lb ed="#V" n="56"/>in diuinis hic est genitus. ergo non est genitor illius qui 
-      <lb ed="#V" n="57"/>genuit eum: quod non esset verum: si non oporteret esse 
-      <lb ed="#V" n="58"/>realem distinctionem inter genitorem et genitum. 
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e429">
-                  <lb ed="#V" n="59"/>Respondeo quod necessarium est quod inter 
-      genito<lb ed="#V" n="60" break="no"/>rem et genitum sit realis distinctio: 
-      <lb ed="#V" n="61"/>quia generare est agere: sed agere radicatur in entitate 
-      a<lb ed="#V" n="62" break="no"/>gentis. ergo secundum rationem intelligendi prius est aliquis 
-      <lb ed="#V" n="63"/>quam generet. Sed si aliquis posset generare seipsum: cum 
-      <lb ed="#V" n="64"/>generans per generationem dat esse genito: posset esse quod 
-      <lb ed="#V" n="65"/>secundum rationem intelligendi prius aliquis generaret quam 
-      es<lb ed="#V" n="66" break="no"/>set. Sequitur ergo quod nullus potest generare seipsum. 
-      <lb ed="#V" n="67"/>Quapropter dicit Anselis in libro de proces. spiritus san¬ 
-      <!--00083.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="68"/>cti: longe post principium. Nec natura permittit: nec 
-      in<lb ed="#V" n="69" break="no"/>tellectus capit existentem de aliquo esse de quo existit. 
-      <lb ed="#V" n="70"/>Necessarium est ergo quod inter generantem et genitum sit 
-      <lb ed="#V" n="71"/>realis distinctio non in re essentiali: quia vna est essentia 
-      <lb ed="#V" n="72"/>in diuinis in tribus personis: sed in re personali et notio 
-      <lb ed="#V" n="73"/>nali. Et quia essentia dicit quid non distinctum nec 
-      di<lb ed="#V" n="74" break="no"/>stinguens: et persona dicit rem distinctam et per se 
-      subsi<lb ed="#V" n="75" break="no"/>stentem: et notio dicit quasi formalem distinetionis ratio 
-      <lb ed="#V" n="76"/>nem: Ideo propter distinctionem que est inter genitum 
-      <lb ed="#V" n="77"/>et genitorem non potest dici filius aliud a patre nec 
-      econ<lb ed="#V" n="78" break="no"/>uerso: quia neutrum genus significat per indifferentiam: 
-      <lb ed="#V" n="79"/>et per se sumptum substantiuatur. et ideo per se sumptum 
-      <lb ed="#V" n="80"/>notat alietatem in substantia: sed filius est alius a patre. 
-      <lb ed="#V" n="81"/>et econuerso. quia masculinum genus et femininum cum 
-      <lb ed="#V" n="82"/>per se sumuntur si sunt adiectiua: adiectiue retinentur. 
-      <lb ed="#V" n="83"/>Unde non dicunt distinctionem: nisi circa terminos 
-      per<lb ed="#V" n="84" break="no"/>sonales et notionales positos in locutione: et quia neutrum 
-      <lb ed="#V" n="85"/>genus cum alicui termino substantiuo adiungitur 
-      imme<lb ed="#V" n="86" break="no"/>diate: est adiectiuum adiectiue retentum: ideo quando 
-      <lb ed="#V" n="87"/>additur termino personali notat distinctionem in 
-      suppo<lb ed="#V" n="88" break="no"/>sito. Unde ista est vera. Pater est aliud suppositum a 
-      fi<lb ed="#V" n="89" break="no"/>lio: et quia alius importat alietatem secundum exigentiam 
-      ter<lb ed="#V" n="90" break="no"/>mini: cui immediate adiungitur: ideo hec est falsa. 
-      Pa<lb ed="#V" n="91" break="no"/>ter est alius deus a filio. et quia masculinum genus est 
-      per<lb ed="#V" n="92" break="no"/>fectius quam femininum. ideo per quandam 
-      appropriatio<lb ed="#V" n="93" break="no"/>nem alius per se sumptum dicit alietatem in persona. et 
-      <lb ed="#V" n="94"/>alia dicit alietatem in notione: quia persona significat 
-      rem<lb ed="#V" n="95" break="no"/>per se stantem: notio autem significat rem vt in alio 
-      existen<lb ed="#V" n="96" break="no"/>tem: quamuis idem sit re persona et proprietas: per quam persona distiguitur.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e518">
-                  <lb ed="#V" n="97"/>Ad primum in oppositum cum dicitur quia idem 
-      <lb ed="#V" n="98"/>potest mouere seipsum etc. Dico quod 
-      ve<lb ed="#V" n="99" break="no"/>rum est si ratione alterius mouet: et ratione alterius 
-      mo<lb ed="#V" n="100" break="no"/>uetur: quia mouet se ratione sui actiui: et mouetur 
-      ratio<lb ed="#V" n="101" break="no"/>ne passibilis sui. Et preterea ex hoc quod aliquid mouet se: 
-      <lb ed="#V" n="102"/>cum motor per motum non det mobili esse simpliciter: 
-      <lb ed="#V" n="103"/>non sequitur quod aliquis prius secundum rationem intelligendi 
-      <lb ed="#V" n="104"/>habeat agere quam esse: quod inconueniens sequeretur si aliquis 
-      <lb ed="#V" n="105"/>generaret seipsum: sicut fuit ostensum in corpore 
-      questio<lb ed="#V" n="106" break="no"/>nis.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e542">
-      ¶ Ad secundum cum dicitur quod generare est a 
-      pa<lb ed="#V" n="107" break="no"/>tre etc. Dico quod hoc non proprie dicitur: quia hec 
-      prepo<lb ed="#V" n="108" break="no"/>sitio aimportat habitudinem principii: et generare non 
-      <lb ed="#V" n="109"/>est aliquid principiatum a patre: sed debet dici quod 
-      genera<lb ed="#V" n="110" break="no"/>re est actus patris per potentiam generatiuam: nec 
-      vide<lb ed="#V" n="111" break="no"/>tur dicere vltra patrem et potentiam generatiuam ipsius 
-      pa<lb ed="#V" n="112" break="no"/>tris nisi relationem ad filium: vt ad illum qui per 
-      natu<lb ed="#V" n="113" break="no"/>ram de substantia eius est. Et potest poni aliquale 
-      exem<lb ed="#V" n="114" break="no"/>plum: quamuis multum remotum in nobis in productione 
-      <lb ed="#V" n="115"/>intellectionis formate que est verbum nostri intellectum 
-      <lb ed="#V" n="116"/>representans verbum eternum. Poducere enim 
-      intelle<lb ed="#V" n="117" break="no"/>ctionem non dicit vltra intellectum formatum: nisi 
-      quan<lb ed="#V" n="118" break="no"/>dam relationem ad ipsam intellectionem.
-   </p>
-               <p xml:id="kzz7yh-a23210-d1e571">
-      ¶ Ad 3m cum 
-      <lb ed="#V" n="119"/>dicitur quod pater habet rationem verbi etc. Dico quod falsum 
-      <lb ed="#V" n="120"/>est. De ratione enim verbi non tantum est quod in eo 
-      cogno<lb ed="#V" n="121" break="no"/>scatur aliquid: sed etiam quod sit productum per modum 
-      in<lb ed="#V" n="122" break="no"/>tellectus: quamuis autem pater cognoscat in seipso: quia tamen 
-      <lb ed="#V" n="123"/>productus non est: rationem verbi non habet. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="34-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a23210"><!-- l1d9a1 -->
+        <head xml:id="kzz7yh-a23210-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-a23210-d1e103">
+          ¶ Primo vtrum 
+          genera<lb ed="#V" n="68" break="no"/>tioni filii dei vere conueniat perfecte generationis ratio. 
+        </p>
+        <p xml:id="kzz7yh-a23210-d1e108">
+          <lb ed="#V" n="69"/>¶ Secundo vtrum sit necessarium quod inter genitorem et 
+          <lb ed="#V" n="70"/>genitum sit realis distinctio.
+        </p>
+        <div xml:id="kzz7yh-a23210-Dd1e115">
+          <head xml:id="kzz7yh-a23210-Hd1e117">Quaestio 1</head>
+          <head xml:id="kzz7yh-a23210-Hd1e121" type="question-title">Utrum illi generationi vere non convenit perfecte generationis ratio</head>
+          <p xml:id="kzz7yh-a23210-d1e119">
+            ¶ Questio I. 
+            <lb ed="#V" n="71"/>PRimo ostendo quod illi generationi vere non 
+            <lb ed="#V" n="72"/>conuenit perfecte generationis ratio. 
+            <lb ed="#V" n="73"/>quia de ratione perfecte generationis est 
+            tramsmu<lb ed="#V" n="74" break="no"/>tatio. Sed secundum beatum Iacobum in canonica sua. c. i 
+            <lb ed="#V" n="75"/>apud deum non est transmutatio. ergo 
+            generatio<lb ed="#V" n="76" break="no"/>ni que est in diuinis vere non conuenit perfecte 
+            genera<lb ed="#V" n="77" break="no"/>tionis ratio.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e137">
+            ¶ Item esse acceptum per generationem 
+            per<lb ed="#V" n="78" break="no"/>fectam est receptum: sed nullum esse receptum est per se 
+            <lb ed="#V" n="79"/>subsistens. ergo diuinum esse non esset in filio per se sub 
+            <lb ed="#V" n="80"/>sistens: quod falsum videtur.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e146">
+            ¶ Item in nobis 
+            processio<lb ed="#V" n="81" break="no"/>ni verbi a mente nostra non vere competit perfecte 
+            gene<lb ed="#V" n="82" break="no"/>rationis ratio. ergo cum filius dei procedat sicut verbum 
+            <lb ed="#V" n="83"/>a mente paterna: illi productioni non vere competit 
+            perfe<lb ed="#V" n="84" break="no"/>cte generationis ratio.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e157">
+            ¶ Item perfecta generatio est 
+            qui<lb ed="#V" n="85" break="no"/>dam progressus a non esse in esse: sed hoc est habere 
+            ini<lb ed="#V" n="86" break="no"/>tium. ergo si productioni filii vere conueniret perfecte 
+            ge<lb ed="#V" n="87" break="no"/>nerationis ratio: filius dei haberet initium: quod falsum est. 
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e167">
+            <lb ed="#V" n="88"/>¶ Item omne illud sine quo diuinum esse intelligitur 
+            <lb ed="#V" n="89"/>summe perfectum: non est de eius perfectione: sed sine 
+            <lb ed="#V" n="90"/>ratione generationis intelligitur esse diuinum summe 
+            per<lb ed="#V" n="91" break="no"/>fectum: quia in spiritu sancto est esse diuinum summe 
+            perfe<lb ed="#V" n="92" break="no"/>ctum. ergo perfectio diuini esse non requirit quod in deo sit generatio. 
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e180">
+            <lb ed="#V" n="93"/>Contra Psalmista in persona patris loquens ad filium ait. 
+            <lb ed="#V" n="94"/>Ege hodie genui te. Sed verbum 
+            generan<lb ed="#V" n="95" break="no"/>di simpliciter dictum intelligi debet de generatione 
+            per<lb ed="#V" n="96" break="no"/>fecta: que est generatio simpliciter. quia secundum philosophum. 2. thop 
+            <lb ed="#V" n="97"/>Simpliciter est quod nullo addito dicis. ergo generationi 
+            <lb ed="#V" n="98"/>que est in diuinis vere competit perfecte generationis 
+            ra<lb ed="#V" n="99" break="no"/>tio.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e198">
+            ¶ Item Isaie vlti. Si ego qui ceteris generationem 
+            <lb ed="#V" n="100"/>tribuo sterilis ero dicit dominus. q. d. non.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e203">
+            ¶ Item 
+            Tri<lb ed="#V" n="101" break="no"/>megistus de diuinitate ad Asclepium. Non solum 
+            deum<lb ed="#V" n="102" break="no"/>o Asclepi: sed animalia omnia: et animalia. impossibile enim 
+            <lb ed="#V" n="103"/>aliquid eorum que sunt infecundum esse: sed fecunditas 
+            <lb ed="#V" n="104"/>est maxime vbi est perfecta generatio. ergo generationi 
+            <lb ed="#V" n="105"/>filii dei vere conuenit perfecte generationis ratio. 
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e216">
+            <lb ed="#V" n="106"/>Respondeo quod generationi filii dei vere competit 
+            perfe<lb ed="#V" n="107" break="no"/>cte generationis ratio: quia secundum 
+            Damasce<lb ed="#V" n="108" break="no"/>num primo lib. c. 8. Ratio generationis est ista: 
+            generatio<lb ed="#V" n="109" break="no"/>est ex substantia generantis produci quod generatur secundum 
+            sub<lb ed="#V" n="110" break="no"/>stantiam: et paucis interpositis subdit. Quioa generatio est 
+            si<lb ed="#V" n="111" break="no"/>ne principio: et eterna opus nature existens. Ex istis 
+            col<lb ed="#V" n="112" break="no"/>ligo perfecte generationis rationem talem scilicet quod 
+            generatio<lb ed="#V" n="113" break="no"/>est eterna productio alicuius secundum substantiam per modum 
+            <lb ed="#V" n="114"/>nature de substantia generantis. Per hoc quod dicitur secundum 
+            <lb ed="#V" n="115"/>substantiam excluditur generatio secundum quid: que terminatur 
+            <lb ed="#V" n="116"/>ad esse accidentale. Per hoc quod dicitur per modum 
+            natu<lb ed="#V" n="117" break="no"/>re excluditur productio per modum voluntatis. Per hoc 
+            <lb ed="#V" n="118"/>quod dicitur de substantia generantis excluditur 
+            generatio<lb ed="#V" n="119" break="no"/>que non sit de substantia generantis: sed de aliena: vt cum 
+            <lb ed="#V" n="120"/>ex aere generatur ignis. Per hoc quod dicitur eterna 
+            exclu<lb ed="#V" n="121" break="no"/>ditur generatio que est cum transmutatione: quia talis 
+            <lb ed="#V" n="122"/>eterna esse non potest. Et generatio que est de parte 
+            sub<lb ed="#V" n="123" break="no"/>stantie generantis: et non de tota: quia non potest esse sine 
+            <lb ed="#V" n="124"/>transmutatione: et ex conseqenti nec sine initio. Et quia in generatione 
+            <lb ed="#V" n="125"/>que est de tota substantia generantis: genitum perfecte assimilatur 
+            geni<lb ed="#V" n="126" break="no"/>tori. Ideo per hoc vocabulum eterna excluditur generatio equiuoca: 
+            <!--00083.xml-->
+            <pb ed="#V" n="35-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>in qua genitum non perfecte assimilatur genitori. Per 
+            <lb ed="#V" n="2"/>rationem ergo generationis supradictam excluditur 
+            om<lb ed="#V" n="3" break="no"/>nis imperfectio que reperiri potest in generatione 
+            impe<lb ed="#V" n="4" break="no"/>fecta. Cum ergo supradicta ratio generationis vere 
+            repe<lb ed="#V" n="5" break="no"/>riatur in generatione filii dei vere sibi competit perfecte 
+            <lb ed="#V" n="6"/>generationis ratio.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e284">
+            <lb ed="#V" n="7"/>Ad primum in oppositum cum dicitur quod de 
+            ra<lb ed="#V" n="8" break="no"/>tione perfecte generationis est 
+            trans<lb ed="#V" n="9" break="no"/>mutatio etc. Dico quod falsum est: immo hoc spectat ad 
+            im<lb ed="#V" n="10" break="no"/>perfectam generationem: que est de parte substantie 
+            ge<lb ed="#V" n="11" break="no"/>nerantis non de tota.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e298">
+            ¶ Ad secundum cum dicitur quod 
+            es<lb ed="#V" n="12" break="no"/>se acceptum per generationem perfectam est receptum etc. 
+            <lb ed="#V" n="13"/>Dico quod non omne acceptum est receptum in aliquo 
+            sub<lb ed="#V" n="14" break="no"/>iecto: alioquin non posset dici quod tota substantia rei 
+            crea<lb ed="#V" n="15" break="no"/>te esset accepta a deo: cum totius substantie non sit aliquod 
+            <lb ed="#V" n="16"/>subiectum receptiuum: potest ergo dici quod esse diuinum 
+            <lb ed="#V" n="17"/>per generationem est acceptum non receptum in aliquo 
+            <lb ed="#V" n="18"/>subiecto. Accipere autem esse diuinum per generationem 
+            <lb ed="#V" n="19"/>non est contra subsistentiam diuini esse.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e318">
+            ¶ Ad tertium 
+            <lb ed="#V" n="20"/>cum dicitur quod in nobis processioni verbi a mente nostra 
+            <lb ed="#V" n="21"/>non vere competit perfecta generationis ratio. Dico quod 
+            <lb ed="#V" n="22"/>verum est: quia verbum nostrum non est aliquid in se 
+            sub<lb ed="#V" n="23" break="no"/>sistens: neque eiusdem substantie cum mente generante 
+            <lb ed="#V" n="24"/>verbum autem diuinum est in se subsistens: et eiusdem sub 
+            <lb ed="#V" n="25"/>stantie cum patre generante.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e334">
+            ¶ Ad quartum cum 
+            dici<lb ed="#V" n="26" break="no"/>ur quod perfecta generatio est quidam progressus a non es 
+            <lb ed="#V" n="27"/>se in esse etc. Dico quod falsum est: immo hoc competit 
+            gene<lb ed="#V" n="28" break="no"/>rationi ratione alicuius imperfectionis existentis in 
+            ge<lb ed="#V" n="29" break="no"/>neratione. Hoc enim competit generationi in creaturis: 
+            <lb ed="#V" n="30"/>que importat quendam exitum de potentia in actum. 
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e347">
+            <lb ed="#V" n="31"/>¶ Ad quintum cum dicitur quod sine ratione 
+            generatio<lb ed="#V" n="32" break="no"/>nis intelligitur esse diuinum summe perfectum etc. Dico quod 
+            quam<lb ed="#V" n="33" break="no"/>uis intelligatur esse diuinum summe perfectum in aliqua 
+            <lb ed="#V" n="34"/>persona: que non generat: sicut in persona patris et filii: et 
+            <lb ed="#V" n="35"/>in persona spiritus sancti: tamen perfectio diuini esse 
+            re<lb ed="#V" n="36" break="no"/>quirit quod communicetur per generationem: quamuis non 
+            <lb ed="#V" n="37"/>generetur.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a23210-Dd1e366">
+          <head xml:id="kzz7yh-a23210-Hd1e368">Quaestio 2</head>
+          <head xml:id="kzz7yh-a23210-Hd1e376" type="question-title">Utrum sit necessarium quod inter generantem et genitum sit realis distinctio</head> 
+          <p xml:id="kzz7yh-a23210-d1e370">
+            ¶ Questio. II. 
+            <lb ed="#V" n="38"/>Secundo queritur vtrum sit necessarium 
+            <lb ed="#V" n="39"/>quod inter generantem et genitum 
+            <lb ed="#V" n="40"/>sit realis distinctio. Et videtur quod non: quia idem 
+            <lb ed="#V" n="41"/>potest mouere seipsum: quia secundum Anselis libro de 
+            com<lb ed="#V" n="42" break="no"/>cordantia prescientie et liberi arbero longe ante finem. 
+            Uolun<lb ed="#V" n="43" break="no"/>tas est instrumentum seipsum mouens. ergo a simili idem 
+            <lb ed="#V" n="44"/>potest generare seipsum.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e388">
+            ¶ Item generare est a patre. nec 
+            <lb ed="#V" n="45"/>tamen a patre distinguitur realiter: quia generatio 
+            acti<lb ed="#V" n="46" break="no"/>ua est pater. ergo a simili non oportet quod quamuis genitum 
+            <lb ed="#V" n="47"/>sit a genitore quod ab ipso distinguatur realiter.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e397">
+            ¶ Item 
+            ge<lb ed="#V" n="48" break="no"/>neratio in diuinis est ad verbum: sed ipse pater habet 
+            ra<lb ed="#V" n="49" break="no"/>tionem verbi: vt videtur cum in seipso cognoscat illud 
+            <lb ed="#V" n="50"/>quod cognoscit: ergo videtur quod non sit realis 
+            distinctio<lb ed="#V" n="51" break="no"/>inter genitum et generantem. 
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e408">
+            <lb ed="#V" n="52"/>Contra Augustinus primo de trinitate. capitulo primo. 
+            <lb ed="#V" n="53"/>Nulla res est que seipsam gignat: vt sit. 
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e416">
+            <lb ed="#V" n="54"/>¶ Item in humanis optime sequitur. Ioseph est filius 
+            <lb ed="#V" n="55"/>Iacob. ergo non est pater eiusdem. ergo a simili sequitur 
+            <lb ed="#V" n="56"/>in diuinis hic est genitus. ergo non est genitor illius qui 
+            <lb ed="#V" n="57"/>genuit eum: quod non esset verum: si non oporteret esse 
+            <lb ed="#V" n="58"/>realem distinctionem inter genitorem et genitum. 
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e429">
+            <lb ed="#V" n="59"/>Respondeo quod necessarium est quod inter 
+            genito<lb ed="#V" n="60" break="no"/>rem et genitum sit realis distinctio: 
+            <lb ed="#V" n="61"/>quia generare est agere: sed agere radicatur in entitate 
+            a<lb ed="#V" n="62" break="no"/>gentis. ergo secundum rationem intelligendi prius est aliquis 
+            <lb ed="#V" n="63"/>quam generet. Sed si aliquis posset generare seipsum: cum 
+            <lb ed="#V" n="64"/>generans per generationem dat esse genito: posset esse quod 
+            <lb ed="#V" n="65"/>secundum rationem intelligendi prius aliquis generaret quam 
+            es<lb ed="#V" n="66" break="no"/>set. Sequitur ergo quod nullus potest generare seipsum. 
+            <lb ed="#V" n="67"/>Quapropter dicit Anselis in libro de proces. spiritus san¬ 
+            <!--00083.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="68"/>cti: longe post principium. Nec natura permittit: nec 
+            in<lb ed="#V" n="69" break="no"/>tellectus capit existentem de aliquo esse de quo existit. 
+            <lb ed="#V" n="70"/>Necessarium est ergo quod inter generantem et genitum sit 
+            <lb ed="#V" n="71"/>realis distinctio non in re essentiali: quia vna est essentia 
+            <lb ed="#V" n="72"/>in diuinis in tribus personis: sed in re personali et notio 
+            <lb ed="#V" n="73"/>nali. Et quia essentia dicit quid non distinctum nec 
+            di<lb ed="#V" n="74" break="no"/>stinguens: et persona dicit rem distinctam et per se 
+            subsi<lb ed="#V" n="75" break="no"/>stentem: et notio dicit quasi formalem distinetionis ratio 
+            <lb ed="#V" n="76"/>nem: Ideo propter distinctionem que est inter genitum 
+            <lb ed="#V" n="77"/>et genitorem non potest dici filius aliud a patre nec 
+            econ<lb ed="#V" n="78" break="no"/>uerso: quia neutrum genus significat per indifferentiam: 
+            <lb ed="#V" n="79"/>et per se sumptum substantiuatur. et ideo per se sumptum 
+            <lb ed="#V" n="80"/>notat alietatem in substantia: sed filius est alius a patre. 
+            <lb ed="#V" n="81"/>et econuerso. quia masculinum genus et femininum cum 
+            <lb ed="#V" n="82"/>per se sumuntur si sunt adiectiua: adiectiue retinentur. 
+            <lb ed="#V" n="83"/>Unde non dicunt distinctionem: nisi circa terminos 
+            per<lb ed="#V" n="84" break="no"/>sonales et notionales positos in locutione: et quia neutrum 
+            <lb ed="#V" n="85"/>genus cum alicui termino substantiuo adiungitur 
+            imme<lb ed="#V" n="86" break="no"/>diate: est adiectiuum adiectiue retentum: ideo quando 
+            <lb ed="#V" n="87"/>additur termino personali notat distinctionem in 
+            suppo<lb ed="#V" n="88" break="no"/>sito. Unde ista est vera. Pater est aliud suppositum a 
+            fi<lb ed="#V" n="89" break="no"/>lio: et quia alius importat alietatem secundum exigentiam 
+            ter<lb ed="#V" n="90" break="no"/>mini: cui immediate adiungitur: ideo hec est falsa. 
+            Pa<lb ed="#V" n="91" break="no"/>ter est alius deus a filio. et quia masculinum genus est 
+            per<lb ed="#V" n="92" break="no"/>fectius quam femininum. ideo per quandam 
+            appropriatio<lb ed="#V" n="93" break="no"/>nem alius per se sumptum dicit alietatem in persona. et 
+            <lb ed="#V" n="94"/>alia dicit alietatem in notione: quia persona significat 
+            rem<lb ed="#V" n="95" break="no"/>per se stantem: notio autem significat rem vt in alio 
+            existen<lb ed="#V" n="96" break="no"/>tem: quamuis idem sit re persona et proprietas: per quam persona distiguitur.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e518">
+            <lb ed="#V" n="97"/>Ad primum in oppositum cum dicitur quia idem 
+            <lb ed="#V" n="98"/>potest mouere seipsum etc. Dico quod 
+            ve<lb ed="#V" n="99" break="no"/>rum est si ratione alterius mouet: et ratione alterius 
+            mo<lb ed="#V" n="100" break="no"/>uetur: quia mouet se ratione sui actiui: et mouetur 
+            ratio<lb ed="#V" n="101" break="no"/>ne passibilis sui. Et preterea ex hoc quod aliquid mouet se: 
+            <lb ed="#V" n="102"/>cum motor per motum non det mobili esse simpliciter: 
+            <lb ed="#V" n="103"/>non sequitur quod aliquis prius secundum rationem intelligendi 
+            <lb ed="#V" n="104"/>habeat agere quam esse: quod inconueniens sequeretur si aliquis 
+            <lb ed="#V" n="105"/>generaret seipsum: sicut fuit ostensum in corpore 
+            questio<lb ed="#V" n="106" break="no"/>nis.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e542">
+            ¶ Ad secundum cum dicitur quod generare est a 
+            pa<lb ed="#V" n="107" break="no"/>tre etc. Dico quod hoc non proprie dicitur: quia hec 
+            prepo<lb ed="#V" n="108" break="no"/>sitio aimportat habitudinem principii: et generare non 
+            <lb ed="#V" n="109"/>est aliquid principiatum a patre: sed debet dici quod 
+            genera<lb ed="#V" n="110" break="no"/>re est actus patris per potentiam generatiuam: nec 
+            vide<lb ed="#V" n="111" break="no"/>tur dicere vltra patrem et potentiam generatiuam ipsius 
+            pa<lb ed="#V" n="112" break="no"/>tris nisi relationem ad filium: vt ad illum qui per 
+            natu<lb ed="#V" n="113" break="no"/>ram de substantia eius est. Et potest poni aliquale 
+            exem<lb ed="#V" n="114" break="no"/>plum: quamuis multum remotum in nobis in productione 
+            <lb ed="#V" n="115"/>intellectionis formate que est verbum nostri intellectum 
+            <lb ed="#V" n="116"/>representans verbum eternum. Poducere enim 
+            intelle<lb ed="#V" n="117" break="no"/>ctionem non dicit vltra intellectum formatum: nisi 
+            quan<lb ed="#V" n="118" break="no"/>dam relationem ad ipsam intellectionem.
+          </p>
+          <p xml:id="kzz7yh-a23210-d1e571">
+            ¶ Ad 3m cum 
+            <lb ed="#V" n="119"/>dicitur quod pater habet rationem verbi etc. Dico quod falsum 
+            <lb ed="#V" n="120"/>est. De ratione enim verbi non tantum est quod in eo 
+            cogno<lb ed="#V" n="121" break="no"/>scatur aliquid: sed etiam quod sit productum per modum 
+            in<lb ed="#V" n="122" break="no"/>tellectus: quamuis autem pater cognoscat in seipso: quia tamen 
+            <lb ed="#V" n="123"/>productus non est: rationem verbi non habet. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

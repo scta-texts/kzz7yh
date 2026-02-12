@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="52-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a35378"><!-- l1d15cl -->
-            <head xml:id="kzz7yh-a35378-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-a35378-d1e103">
-               <lb ed="#V" n="80"/>Circa litteram. Donum est inquantum datur. ides inquantum 
-      <lb ed="#V" n="81"/>est aptum dari. quia hanc aptitudinem habet ab 
-      <lb ed="#V" n="82"/>eterno: quamuis non detur nisi ex tempore. (Si seipsum dat a 
-      <lb ed="#V" n="83"/>seipso procedit et mittitur.) procedit scilicet a seipso 
-      processio<lb ed="#V" n="84" break="no"/>ne temporali eo quod semetipsum per effectum sibi 
-      appropria<lb ed="#V" n="85" break="no"/>tum actu vel habitu manifestat: nec propter hoc sequitur quod cum pater 
-      se<lb ed="#V" n="86" break="no"/>ipsum dat a seipso temporaliter procedat: quia processio temporalis includit 
-      <lb ed="#V" n="87"/>eternam processionem persone que temporaliter procedere dicitur. pater autem a 
-      <lb ed="#V" n="88"/>nullo est. (Nec vt esset angelus.) Contra Malach. 3. dicitur 
-      fi<lb ed="#V" n="89" break="no"/>lius angelus testamenti quem vos vultis.
-   </p>
-            <p xml:id="kzz7yh-a35378-d1e127">
-      ¶ Respondeo christus 
-      <lb ed="#V" n="90"/>fuit angelus offinitio non natura. Secundum quod aliquid eternum mente 
-      capi<lb ed="#V" n="91" break="no"/>mus non in hoc mundo sumus scilicet quia quamuis in hoc mundo per 
-      <lb ed="#V" n="92"/>praesentiam essentialem simus: tamen huic mundo per effectum non 
-      conforma<lb ed="#V" n="93" break="no"/>mur: et quantum ad conatum ad illud quod eternum est tendimus. 
-      <lb ed="#V" n="94"/>(Principium totius diuinitati) id est filii et spiritus sancti in quibus est tota 
-      <lb ed="#V" n="95"/>deitas. (Uel si melius dicitur deitas.)
-   </p>
-            <p xml:id="kzz7yh-a35378-d1e143">
-      ¶ Contra idem est 
-      diuini<lb ed="#V" n="96" break="no"/>tas et deitas.
-   </p>
-            <p xml:id="kzz7yh-a35378-d1e148">
-      ¶ Respondeo quamuis idem sint re: non tamen in modo 
-      si<lb ed="#V" n="97" break="no"/>gnificandi maxime quantum ad vsum. Unde de homine multum 
-      <lb ed="#V" n="98"/>eleuato per contemplationem dicitur quandoque in vsu quod 
-      <lb ed="#V" n="99"/>est homo diuinus: cum tamen non dicatur quod sit deus. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="52-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a35378"><!-- l1d15cl -->
+        <head xml:id="kzz7yh-a35378-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-a35378-d1e103">
+          <lb ed="#V" n="80"/>Circa litteram. Donum est inquantum datur. ides inquantum 
+          <lb ed="#V" n="81"/>est aptum dari. quia hanc aptitudinem habet ab 
+          <lb ed="#V" n="82"/>eterno: quamuis non detur nisi ex tempore. (Si seipsum dat a 
+          <lb ed="#V" n="83"/>seipso procedit et mittitur.) procedit scilicet a seipso 
+          processio<lb ed="#V" n="84" break="no"/>ne temporali eo quod semetipsum per effectum sibi 
+          appropria<lb ed="#V" n="85" break="no"/>tum actu vel habitu manifestat: nec propter hoc sequitur quod cum pater 
+          se<lb ed="#V" n="86" break="no"/>ipsum dat a seipso temporaliter procedat: quia processio temporalis includit 
+          <lb ed="#V" n="87"/>eternam processionem persone que temporaliter procedere dicitur. pater autem a 
+          <lb ed="#V" n="88"/>nullo est. (Nec vt esset angelus.) Contra Malach. 3. dicitur 
+          fi<lb ed="#V" n="89" break="no"/>lius angelus testamenti quem vos vultis.
+        </p>
+        <p xml:id="kzz7yh-a35378-d1e127">
+          ¶ Respondeo christus 
+          <lb ed="#V" n="90"/>fuit angelus offinitio non natura. Secundum quod aliquid eternum mente 
+          capi<lb ed="#V" n="91" break="no"/>mus non in hoc mundo sumus scilicet quia quamuis in hoc mundo per 
+          <lb ed="#V" n="92"/>praesentiam essentialem simus: tamen huic mundo per effectum non 
+          conforma<lb ed="#V" n="93" break="no"/>mur: et quantum ad conatum ad illud quod eternum est tendimus. 
+          <lb ed="#V" n="94"/>(Principium totius diuinitati) id est filii et spiritus sancti in quibus est tota 
+          <lb ed="#V" n="95"/>deitas. (Uel si melius dicitur deitas.)
+        </p>
+        <p xml:id="kzz7yh-a35378-d1e143">
+          ¶ Contra idem est 
+          diuini<lb ed="#V" n="96" break="no"/>tas et deitas.
+        </p>
+        <p xml:id="kzz7yh-a35378-d1e148">
+          ¶ Respondeo quamuis idem sint re: non tamen in modo 
+          si<lb ed="#V" n="97" break="no"/>gnificandi maxime quantum ad vsum. Unde de homine multum 
+          <lb ed="#V" n="98"/>eleuato per contemplationem dicitur quandoque in vsu quod 
+          <lb ed="#V" n="99"/>est homo diuinus: cum tamen non dicatur quod sit deus. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

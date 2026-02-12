@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="28-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a18921"><!-- l1d7cl -->
-            <head xml:id="kzz7yh-a18921-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-a18921-d1e103">
-               <lb ed="#V" n="47"/>CIrca itram co osse vel velle generare filium 
-      <lb ed="#V" n="48"/>non est pone ver velle aliquid 
-      subie<lb ed="#V" n="49" break="no"/>ctum voluntati vel potentie.) Quia generare non 
-      <lb ed="#V" n="50"/>dicit quid sed ad quid. (Neque generatio filii 
-      ali<lb ed="#V" n="51" break="no"/>quid eorum est que subiecta sunt diuine potentie et 
-      volunta<lb ed="#V" n="52" break="no"/>ti: neque est aliquid inter omnia vel de omnibus.) quia cum deus 
-      ni<lb ed="#V" n="53" break="no"/>hil habeat commune vniuocum cum creatura non cadit 
-      sub<lb ed="#V" n="54" break="no"/>distributione qua dicimus quod filius est omnipotens vel 
-      spi<lb ed="#V" n="55" break="no"/>ritus sanctus. Unde non sequitur filius est omnipotens et 
-      spi<lb ed="#V" n="56" break="no"/>ritus sanctus omnipotens: ergo possunt generare. (Esse 
-      pa<lb ed="#V" n="57" break="no"/>trem non est esse aliquid) quod sic est intelligendum quod esse 
-      <lb ed="#V" n="58"/>patrem non est esse aliquid secundum quod aliquid accipitur pro aliquo 
-      <lb ed="#V" n="59"/>absoluto. q. d. esse patrem non est esse aliquid. sed ad aliquid. 
-      <lb ed="#V" n="60"/>(Filius aut non genuit creatorem: neque enim non potuit. 
-   </p>
-            <p xml:id="kzz7yh-a18921-d1e136">
-               <lb ed="#V" n="61"/>¶ Contra due negationes equiualent vni affirmationi: 
-      <lb ed="#V" n="62"/>ergo si neque non potuit ipse potuit.
-   </p>
-            <p xml:id="kzz7yh-a18921-d1e143">
-      ¶ Respondeo quod cum 
-      <lb ed="#V" n="63"/>dicitur non potuit ita quod sit oratio negatiua: sic sequitur nec 
-      <lb ed="#V" n="64"/>non potuit: ergo potuit. sed secundum quod non potuit accipitur 
-      <lb ed="#V" n="65"/>quasi pro quadam dictione priuatiua sic non sequitur et 
-      <lb ed="#V" n="66"/>ita accipitur hoc. Unde cum hic dicitur nec non potuit 
-      sen<lb ed="#V" n="67" break="no"/>sus est quod nec ex impotentia fuit. (Pater est potens patu 
-      <!--00069.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="68"/>ra gignere filium.) Et nota quod magis proprie dicitur et 
-      me<lb ed="#V" n="69" break="no"/>lius quod pater potens est natura gignere filium quam pater 
-      <lb ed="#V" n="70"/>potens est essentia gignere filium: quia quamuis natura et 
-      <lb ed="#V" n="71"/>essentia idem sint secundum rem: tamen differunt secundum rationem: 
-      <lb ed="#V" n="72"/>quia essentia dicit absolute quod dicit: natura vero inquantum 
-      <lb ed="#V" n="73"/>est principium actionis naturalis: tamen cum dicit 
-      Ma<lb ed="#V" n="74" break="no"/>gister quia pater est potens natura gignere filium: debet 
-      <lb ed="#V" n="75"/>intelligi natura cum modo habendi eam non ab alio. (
-      fi<lb ed="#V" n="76" break="no"/>lius habet eandem potentiam quam pater: et qua pater 
-      po<lb ed="#V" n="77" break="no"/>tuit gignere filius potuit gigni.) quod intelligendum est 
-      quam<lb ed="#V" n="78" break="no"/>tum ad absolutum quod est de ratione potentie: non tamen quantum ad rtaliuum: 
-      <lb ed="#V" n="79"/>et hoc clarius potest exponi per illud quod in quaestionibus dictum est. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="28-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a18921"><!-- l1d7cl -->
+        <head xml:id="kzz7yh-a18921-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-a18921-d1e103">
+          <lb ed="#V" n="47"/>CIrca itram co osse vel velle generare filium 
+          <lb ed="#V" n="48"/>non est pone ver velle aliquid 
+          subie<lb ed="#V" n="49" break="no"/>ctum voluntati vel potentie.) Quia generare non 
+          <lb ed="#V" n="50"/>dicit quid sed ad quid. (Neque generatio filii 
+          ali<lb ed="#V" n="51" break="no"/>quid eorum est que subiecta sunt diuine potentie et 
+          volunta<lb ed="#V" n="52" break="no"/>ti: neque est aliquid inter omnia vel de omnibus.) quia cum deus 
+          ni<lb ed="#V" n="53" break="no"/>hil habeat commune vniuocum cum creatura non cadit 
+          sub<lb ed="#V" n="54" break="no"/>distributione qua dicimus quod filius est omnipotens vel 
+          spi<lb ed="#V" n="55" break="no"/>ritus sanctus. Unde non sequitur filius est omnipotens et 
+          spi<lb ed="#V" n="56" break="no"/>ritus sanctus omnipotens: ergo possunt generare. (Esse 
+          pa<lb ed="#V" n="57" break="no"/>trem non est esse aliquid) quod sic est intelligendum quod esse 
+          <lb ed="#V" n="58"/>patrem non est esse aliquid secundum quod aliquid accipitur pro aliquo 
+          <lb ed="#V" n="59"/>absoluto. q. d. esse patrem non est esse aliquid. sed ad aliquid. 
+          <lb ed="#V" n="60"/>(Filius aut non genuit creatorem: neque enim non potuit. 
+        </p>
+        <p xml:id="kzz7yh-a18921-d1e136">
+          <lb ed="#V" n="61"/>¶ Contra due negationes equiualent vni affirmationi: 
+          <lb ed="#V" n="62"/>ergo si neque non potuit ipse potuit.
+        </p>
+        <p xml:id="kzz7yh-a18921-d1e143">
+          ¶ Respondeo quod cum 
+          <lb ed="#V" n="63"/>dicitur non potuit ita quod sit oratio negatiua: sic sequitur nec 
+          <lb ed="#V" n="64"/>non potuit: ergo potuit. sed secundum quod non potuit accipitur 
+          <lb ed="#V" n="65"/>quasi pro quadam dictione priuatiua sic non sequitur et 
+          <lb ed="#V" n="66"/>ita accipitur hoc. Unde cum hic dicitur nec non potuit 
+          sen<lb ed="#V" n="67" break="no"/>sus est quod nec ex impotentia fuit. (Pater est potens patu 
+          <!--00069.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="68"/>ra gignere filium.) Et nota quod magis proprie dicitur et 
+          me<lb ed="#V" n="69" break="no"/>lius quod pater potens est natura gignere filium quam pater 
+          <lb ed="#V" n="70"/>potens est essentia gignere filium: quia quamuis natura et 
+          <lb ed="#V" n="71"/>essentia idem sint secundum rem: tamen differunt secundum rationem: 
+          <lb ed="#V" n="72"/>quia essentia dicit absolute quod dicit: natura vero inquantum 
+          <lb ed="#V" n="73"/>est principium actionis naturalis: tamen cum dicit 
+          Ma<lb ed="#V" n="74" break="no"/>gister quia pater est potens natura gignere filium: debet 
+          <lb ed="#V" n="75"/>intelligi natura cum modo habendi eam non ab alio. (
+          fi<lb ed="#V" n="76" break="no"/>lius habet eandem potentiam quam pater: et qua pater 
+          po<lb ed="#V" n="77" break="no"/>tuit gignere filius potuit gigni.) quod intelligendum est 
+          quam<lb ed="#V" n="78" break="no"/>tum ad absolutum quod est de ratione potentie: non tamen quantum ad rtaliuum: 
+          <lb ed="#V" n="79"/>et hoc clarius potest exponi per illud quod in quaestionibus dictum est. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,293 +1,293 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="50-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a33638"><!-- l1d15a1 -->
-            <head xml:id="kzz7yh-a33638-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-a33638-d1e103">
-      ¶ De primo 
-      <lb ed="#V" n="12"/>possunt queri duo.
-   </p>
-            <p xml:id="kzz7yh-a33638-d1e108">
-      ¶ Primo vtrum missio secundum 
-      <lb ed="#V" n="13"/>quod conuenit diuine persone sit persone emanantis per 
-      <lb ed="#V" n="14"/>aliquod donum sibi appropriatum manifestatio.
-   </p>
-            <p xml:id="kzz7yh-a33638-d1e115">
-      ¶ 
-      Se<lb ed="#V" n="15" break="no"/>cundo vtrum aliqua diuina persona missa fuerit ab eterno. 
-   </p>
-            <div xml:id="kzz7yh-a33638-Dd1e120">
-               <head xml:id="kzz7yh-a33638-Hd1e122">Quaestio 1</head>
-               <head xml:id="kzz7yh-a33638-Hd1e126" type="question-title">Utrum missio non sit persona emanantis per aliquod donum sibi appropriatum manfestatio</head>
-               <p xml:id="kzz7yh-a33638-d1e124">
-                  <lb ed="#V" n="16"/>¶ Questio prima. 
-      <lb ed="#V" n="17"/>PRimo igitur ostendo quod missio non sit 
-      per<lb ed="#V" n="18" break="no"/>sone emanantis per aliquod 
-      do<lb ed="#V" n="19" break="no"/>num sibi appropriatum manifestatio: quia 
-      ma<lb ed="#V" n="20" break="no"/>nifestatio persone emanantis per aliquod donum 
-      <lb ed="#V" n="21"/>sibi appropriatum quid creatum est: Sed 
-      missio<lb ed="#V" n="22" break="no"/>significat quid increatum: quia aliter de persona eterna 
-      <lb ed="#V" n="23"/>dici non posset. ergo missio non est per aliquod donum 
-      <lb ed="#V" n="24"/>appropriatum persone emananti eiusdem persone 
-      mani<lb ed="#V" n="25" break="no"/>festatio.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e148">
-      ¶ Item persona diuina mitti dicitur vere et 
-      pro<lb ed="#V" n="26" break="no"/>prie: sed manifestari personam per aliquod donum sibi 
-      ap<lb ed="#V" n="27" break="no"/>propriatum non est ipsam mitti nisi metaphorice. ergo 
-      mis<lb ed="#V" n="28" break="no"/>sio non est persone emanantis per aliquod donum sibi 
-      ap<lb ed="#V" n="29" break="no"/>propriatum manifestatio.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e159">
-      ¶ Item spiritus sanctus alicui 
-      <lb ed="#V" n="30"/>mittitur quandocunque donum charitatis sibi infunditur: 
-      <lb ed="#V" n="31"/>sed frequenter infunditur homini donum charitatis. et 
-      <lb ed="#V" n="32"/>illa infusio homini non manifestatur. ergo aliquando est 
-      <lb ed="#V" n="33"/>spiritus sancti mistio: cum tamen ipse spiritus sanctus non 
-      <lb ed="#V" n="34"/>manifestetur.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e172">
-      ¶ Item acquisitio doctrine non est 
-      missio<lb ed="#V" n="35" break="no"/>sed acquisitio doctrine est persone emanantis 
-      manifesta<lb ed="#V" n="36" break="no"/>tio. ergo missio non est persone emanantis per aliquod 
-      <lb ed="#V" n="37"/>donum sibi appropriatum manifestatio. 
-    </p>
-               <p xml:id="kzz7yh-a33638-d1e182">
-                  <lb ed="#V" n="38"/>Contra <ref xml:id="kzz7yh-a33638-Rxn1nx1" corresp="#kzz7yh-a33638-Qfgfghh">Aug. 4o de trinitate capitulo penultimo</ref>. <quote xml:id="kzz7yh-a33638-Qfgfghh" source="http://scta.info/resource/adt-l4-d1e643@51-68">Sicut 
-      <lb ed="#V" n="39"/>natum esse est filio a patre esse: ita mitti est 
-      co<lb ed="#V" n="40" break="no"/>gnosci quod ab alio sit</quote>. Missio ergo persone est sue 
-      emana<lb ed="#V" n="41" break="no"/>tionis cognitio: sed cognitio est per manifestationem. 
-      er<lb ed="#V" n="42" break="no"/>go missio est persone emanantis manifestatio ad 
-      cogno<lb ed="#V" n="43" break="no"/>scendum persone emanationem.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e198">
-      ¶ Item Aug. 2. de trinitate. 
-      <lb ed="#V" n="44"/>capi. 5. loquens de columba et de linguis que apparuerunt 
-      <lb ed="#V" n="45"/>in similitudinem ignis in die penthecostes. dicit sic. hec 
-      <lb ed="#V" n="46"/>operatio visibiliter expressa: et oculis mortalibus 
-      oblata<lb ed="#V" n="47" break="no"/>missio spiritus sancti dicta est: sed illa operatio fuit 
-      mani<lb ed="#V" n="48" break="no"/>festatio spiritus sancti per aliqua spiritui sancto appropria 
-      <lb ed="#V" n="49"/>ta. ergo missio est persone emanantis per aliquid sibi 
-      ap<lb ed="#V" n="50" break="no"/>propriatum manifestatio.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e216">
-      ¶ Item aut missio significat 
-      <lb ed="#V" n="51"/>persone emanationem: et connotat eius manifestationem: 
-      <lb ed="#V" n="52"/>aut econuerso. Si primo modo: tunc persona non mitte 
-      <lb ed="#V" n="53"/>retur a seipsa: quia non emanat a seipsa: et tamen persona mittit 
-      se<lb ed="#V" n="54" break="no"/>ipsam vt infra videbitur. Restat ergo quod missio significat 
-      per<lb ed="#V" n="55" break="no"/>ione emanantis manifestationem et connotat eius emanationem. 
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e229">
-                  <lb ed="#V" n="56"/>Respondeo quod missio persone diuine est persone 
-      ema<lb ed="#V" n="57" break="no"/>nantis: vel emanationis persone per 
-      <lb ed="#V" n="58"/>aliquod donum sibi appropriatum actu vel habitu 
-      mani<lb ed="#V" n="59" break="no"/>festatio: per quod ipsa persona secundum quid: vel simpliciter 
-      <lb ed="#V" n="60"/>habetur: vel magis habetur: vel haberi actu vel habitu 
-      <lb ed="#V" n="61"/>ostenditur. Et hec missionis descriptio omni missioni 
-      con<lb ed="#V" n="62" break="no"/>uenit siue visibili siue inuisibili: siue missioni simpliciter: 
-      <lb ed="#V" n="63"/>siue missioni secundum quid. hec autem manifestatio habet 
-      ra<lb ed="#V" n="64" break="no"/>tionem missionis propter hoc: quia sicut in creaturis 
-      ali<lb ed="#V" n="65" break="no"/>quando missum accipit essentiam a mittente: vt radius 
-      <lb ed="#V" n="66"/>a sole: aliquando virtutem vt iaculum a proiectore. 
-      ali<lb ed="#V" n="67" break="no"/>quando auctoritatem vt nuncius a preceptore: sic perso¬ 
-      <!--00113.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="68"/>na emanans ab alio accipit esse virtutem et auctoritatem. 
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e264">
-                  <lb ed="#V" n="69"/>¶ Item loco separationis missi a mittente est ipsius 
-      per<lb ed="#V" n="70" break="no"/>sone emanatio loco subiectionis missi ad mittentem est 
-      <lb ed="#V" n="71"/>in persona missa passiua principiatio. loco operis missi in 
-      <lb ed="#V" n="72"/>loco ad quem mittitur: est noui effectus productio.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e275">
-      ¶ Item 
-      <lb ed="#V" n="73"/>sicut missum per suam missionem manifestatur: vt patet: 
-      <lb ed="#V" n="74"/>cum per suam missionem sit presens. Et etiam quandoque 
-      <lb ed="#V" n="75"/>habetur: vt patet in missione doni: ita persona emanans 
-      <lb ed="#V" n="76"/>per effectum sibi appropriatum actu vel habitum 
-      manife<lb ed="#V" n="77" break="no"/>statur: et habetur simpliciter: si est gratia gratum faciens: 
-      <lb ed="#V" n="78"/>vel secundum quid si est gratia gratis data: vel haberi 
-      <lb ed="#V" n="79"/>ostenditur: vt patet in missione visibili.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e294">
-                  <lb ed="#V" n="80"/>Ad primum cum dicitur quod manifestatio 
-      perso<lb ed="#V" n="81" break="no"/>ne emanantis per aliquod donum 
-      <lb ed="#V" n="82"/>sibi appropriatum quid creatum est etc. Dico quod in 
-      mani<lb ed="#V" n="83" break="no"/>festatione persone emanantis quinque intelligo: effectum 
-      <lb ed="#V" n="84"/>creatum per quem persona manifestatur et relationem 
-      ef<lb ed="#V" n="85" break="no"/>fectus ad illam personam: et personam per quam 
-      manife<lb ed="#V" n="86" break="no"/>statur: et emanationem eiusdem: et in ipsa quendam 
-      respe<lb ed="#V" n="87" break="no"/>ctum secundum dici ad effectum per quem manifestatur. Et quia 
-      <lb ed="#V" n="88"/>e ffectus et eius relatio ad personam manifestatam quid 
-      <lb ed="#V" n="89"/>creatum dicunt: ideo dico quod manifestatio persone 
-      ema<lb ed="#V" n="90" break="no"/>nantis passiua significat quid creatum. et cum dicis in 
-      mi<lb ed="#V" n="91" break="no"/>nori quod missio significat quid increatum. dici potest de 
-      mis<lb ed="#V" n="92" break="no"/>sione passiua secundum quod dictum est de manifestatione passiua. 
-      <lb ed="#V" n="93"/>Nec est inconueniens per istum modum increatum 
-      de<lb ed="#V" n="94" break="no"/>nominari a creato. Uere enim dicitur quod deus diligitur a 
-      <lb ed="#V" n="95"/>creatura amore creato. hoc enim non est ponere aliquid 
-      <lb ed="#V" n="96"/>creatum in deo.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e333">
-      ¶ Ad 2m cum dicitur quod persona diuina mitti 
-      di<lb ed="#V" n="97" break="no"/>citur vere et proprie etc. Dico quod verum est loquendo de 
-      <lb ed="#V" n="98"/>missione que conuenire potest rei increate: quia 
-      missio<lb ed="#V" n="99" break="no"/>proprie dicta conueniens creature: et missio proprie dicta 
-      <lb ed="#V" n="100"/>inquantum est conueniens diuine persone non sunt 
-      eius<lb ed="#V" n="101" break="no"/>dem rationis vniuoce. Et cum dicis in minori quod 
-      perso<lb ed="#V" n="102" break="no"/>nam diuinam manifestari per effectum sibi appropriatum 
-      <lb ed="#V" n="103"/>non est mitti proprie. Dico quod hoc verum est loquendo 
-      <lb ed="#V" n="104"/>de missione propria que conuenit creature. sed aliqualem 
-      <lb ed="#V" n="105"/>similitudinem inter illas missiones ostendi in corpore 
-      que<lb ed="#V" n="106" break="no"/>stionis.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e357">
-      ¶ Ad 3m dico quod quandocumque donum charitatis 
-      ho<lb ed="#V" n="107" break="no"/>mini infunditur persona spiritus sancti actu vel 
-      habitu<lb ed="#V" n="108" break="no"/>manifestatur.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e364">
-      ¶ Ad 4m cum dicitur quod acquisitio 
-      doctri<lb ed="#V" n="109" break="no"/>ne non est missio etc. Dico quod verum est maxime cum est 
-      <lb ed="#V" n="110"/>per viam communem: sed ex hoc non sequitur quod 
-      missio<lb ed="#V" n="111" break="no"/>non sit persone emanantis manifestatio appositis illis 
-      con<lb ed="#V" n="112" break="no"/>ditionibus que facte sunt in corpore questionis: quia illa 
-      <lb ed="#V" n="113"/>manifestatio est per aliquem effectum persone 
-      emananti<lb ed="#V" n="114" break="no"/>appropriatum: et habitum per specialem et 
-      supernatura<lb ed="#V" n="115" break="no"/>lem inspirationem.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a33638-Dd1e384">
-               <head xml:id="kzz7yh-a33638-Hd1e386">Quaestio 2</head>
-               <head xml:id="kzz7yh-a33638-Hd1e394" type="question-title">Utrum aliqua persona missa fuerit ab eterno</head>
-               <p xml:id="kzz7yh-a33638-d1e388">
-      ¶ Questio. II. 
-      <lb ed="#V" n="116"/>SEcundo queritur. Utrum aliqua 
-      per<lb ed="#V" n="117" break="no"/>sona missa fuerit ab eterno. 
-      <lb ed="#V" n="118"/>Et videtur quod sic. quia secundum quod dicit Beda. et 
-      reci<lb ed="#V" n="119" break="no"/>tat Magister distinctio. 14. missio est ipsa 
-      pro<lb ed="#V" n="120" break="no"/>cessio. ergo cum diuine persone conueniat 
-      pro<lb ed="#V" n="121" break="no"/>cedere ab eterno: sibi conuenit mitti ab eterno.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e404">
-      ¶ Item 
-      <lb ed="#V" n="122"/>sicut missio dicit respectum ad creaturam ita donum. 
-      <lb ed="#V" n="123"/>Sed quamuis spiritus sanctus non sit datus nisi ex 
-      tempore<lb ed="#V" n="124" break="no"/>tamen esse donum sibi conuenit ab eterno.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e413">
-      ¶ Item amans 
-      <lb ed="#V" n="125"/>dicitur amorem suum mittere in amatum: sed spiritus 
-      san<lb ed="#V" n="126" break="no"/>ctus procedit a patre vt amor respectu filii: et a filio 
-      respe<lb ed="#V" n="127" break="no"/>ctu patris: et hoc ab eterno. ergo videtur quod pater ab eter 
-      <lb ed="#V" n="128"/>no misit spiritum sanctum ad filium. et econuerso. 
-    </p>
-               <p xml:id="kzz7yh-a33638-d1e424">
-                  <lb ed="#V" n="129"/>Contra missio autem significat nouum effectum: aut 
-      <lb ed="#V" n="130"/>nouum modum existendi in alio: sed 
-      neu<lb ed="#V" n="131" break="no"/>trum istorum est ab eterno. ergo nec missio.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e434">
-      ¶ Item 
-      <ref xml:id="kzz7yh-a33638-Rmmaa88" corresp="#kzz7yh-a33638-Qcn1199">Au<lb ed="#V" n="132" break="no"/>gustinus quarto libro de trinitate capitulo penultimo</ref>. 
-      <lb ed="#V" n="133"/><quote xml:id="kzz7yh-a33638-Qcn1199" source="http://scta.info/resource/adt-l4-d1e640@51-90">Non eo ipso quod de patre natus est missus dicitur filius: 
-      <lb ed="#V" n="134"/>sed vel eo quod apparuit huic mundo verbum caro factum. 
-      <!--00114.xml-->
-      <pb ed="#V" n="50-v"/>
-      <cb ed="#P" n="a"/>
-      <lb ed="#V" n="1"/>Unde dicit a patre exii et veni in mundum: veleo quod 
-      tem<lb ed="#V" n="2" break="no"/>pore cuiusquam mente percipitur</quote>: non mittitur ergo filius 
-      <lb ed="#V" n="3"/>nisi ex tempore. ergo a simili nec spiritus sanctus. 
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e456">
-                  <lb ed="#V" n="4"/>Respondeo quod sicut visum est ex questione 
-      pre<lb ed="#V" n="5" break="no"/>cedenti. missio est persone 
-      emanan<lb ed="#V" n="6" break="no"/>tis per aliquem effectum sibi appropriatum actu vel 
-      ha<lb ed="#V" n="7" break="no"/>bitu manifestatio cum aliis conditionibus appositis in 
-      <lb ed="#V" n="8"/>questione precedenti. Sed talis manifestatio non potest esse 
-      <lb ed="#V" n="9"/>nisi ex tempore. ergo nulli persone mitti conuenit ab eterno.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e472">
-                  <lb ed="#V" n="10"/>Ad primum in oppositum cum dicitur quod 
-      pro<lb ed="#V" n="11" break="no"/>cessio est missio etc. Dico quod verum 
-      <lb ed="#V" n="12"/>est de processione que est ex tempore tantum. et tamen est 
-      ali<lb ed="#V" n="13" break="no"/>qua differentia inter illam et missionem: vt supra visum 
-      <lb ed="#V" n="14"/>est dist. precedenti. vltima questione articuli primi.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e485">
-      ¶ Ad 
-      <lb ed="#V" n="15"/>2m cum dicitur quod spiritui sancto conuenit esse donum ab 
-      <lb ed="#V" n="16"/>eterno etc. dico quod verum est secundum quod donum dicitur ab 
-      apti<lb ed="#V" n="17" break="no"/>tudine donandi. Unde non connotat respectum in 
-      crea<lb ed="#V" n="18" break="no"/>tura nisi in aptitudine. Missio autem includit effectum 
-      <lb ed="#V" n="19"/>appropriatum persone que mittitur et actualem respectum 
-      <lb ed="#V" n="20"/>illius effectus ad ipsam personam.
-   </p>
-               <p xml:id="kzz7yh-a33638-d1e501">
-      ¶ Ad 3m cum dicitur 
-      <lb ed="#V" n="21"/>quod amans dicitur amorem suum mittere in amatum etc. 
-      <lb ed="#V" n="22"/>Dico quod hoc non habet veritatem proprie loquendo nisi 
-      <lb ed="#V" n="23"/>forte quantum ad conatum secundum quem modum loquendi 
-      <lb ed="#V" n="24"/>dicit Ber. de precepto et dispensatione versusi finem libro 
-      <lb ed="#V" n="25"/>quod spiritus noster non est presentior vbi animat quam vbi amat. 
-      <lb ed="#V" n="26"/>Amor ergo amantis quamuis in amatum tendat sicut in 
-      ob<lb ed="#V" n="27" break="no"/>iectum: non tamen amatum respicit tanquam subiectum. 
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="50-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a33638"><!-- l1d15a1 -->
+        <head xml:id="kzz7yh-a33638-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-a33638-d1e103">
+          ¶ De primo 
+          <lb ed="#V" n="12"/>possunt queri duo.
+        </p>
+        <p xml:id="kzz7yh-a33638-d1e108">
+          ¶ Primo vtrum missio secundum 
+          <lb ed="#V" n="13"/>quod conuenit diuine persone sit persone emanantis per 
+          <lb ed="#V" n="14"/>aliquod donum sibi appropriatum manifestatio.
+        </p>
+        <p xml:id="kzz7yh-a33638-d1e115">
+          ¶ 
+          Se<lb ed="#V" n="15" break="no"/>cundo vtrum aliqua diuina persona missa fuerit ab eterno. 
+        </p>
+        <div xml:id="kzz7yh-a33638-Dd1e120">
+          <head xml:id="kzz7yh-a33638-Hd1e122">Quaestio 1</head>
+          <head xml:id="kzz7yh-a33638-Hd1e126" type="question-title">Utrum missio non sit persona emanantis per aliquod donum sibi appropriatum manfestatio</head>
+          <p xml:id="kzz7yh-a33638-d1e124">
+            <lb ed="#V" n="16"/>¶ Questio prima. 
+            <lb ed="#V" n="17"/>PRimo igitur ostendo quod missio non sit 
+            per<lb ed="#V" n="18" break="no"/>sone emanantis per aliquod 
+            do<lb ed="#V" n="19" break="no"/>num sibi appropriatum manifestatio: quia 
+            ma<lb ed="#V" n="20" break="no"/>nifestatio persone emanantis per aliquod donum 
+            <lb ed="#V" n="21"/>sibi appropriatum quid creatum est: Sed 
+            missio<lb ed="#V" n="22" break="no"/>significat quid increatum: quia aliter de persona eterna 
+            <lb ed="#V" n="23"/>dici non posset. ergo missio non est per aliquod donum 
+            <lb ed="#V" n="24"/>appropriatum persone emananti eiusdem persone 
+            mani<lb ed="#V" n="25" break="no"/>festatio.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e148">
+            ¶ Item persona diuina mitti dicitur vere et 
+            pro<lb ed="#V" n="26" break="no"/>prie: sed manifestari personam per aliquod donum sibi 
+            ap<lb ed="#V" n="27" break="no"/>propriatum non est ipsam mitti nisi metaphorice. ergo 
+            mis<lb ed="#V" n="28" break="no"/>sio non est persone emanantis per aliquod donum sibi 
+            ap<lb ed="#V" n="29" break="no"/>propriatum manifestatio.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e159">
+            ¶ Item spiritus sanctus alicui 
+            <lb ed="#V" n="30"/>mittitur quandocunque donum charitatis sibi infunditur: 
+            <lb ed="#V" n="31"/>sed frequenter infunditur homini donum charitatis. et 
+            <lb ed="#V" n="32"/>illa infusio homini non manifestatur. ergo aliquando est 
+            <lb ed="#V" n="33"/>spiritus sancti mistio: cum tamen ipse spiritus sanctus non 
+            <lb ed="#V" n="34"/>manifestetur.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e172">
+            ¶ Item acquisitio doctrine non est 
+            missio<lb ed="#V" n="35" break="no"/>sed acquisitio doctrine est persone emanantis 
+            manifesta<lb ed="#V" n="36" break="no"/>tio. ergo missio non est persone emanantis per aliquod 
+            <lb ed="#V" n="37"/>donum sibi appropriatum manifestatio. 
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e182">
+            <lb ed="#V" n="38"/>Contra <ref xml:id="kzz7yh-a33638-Rxn1nx1" corresp="#kzz7yh-a33638-Qfgfghh">Aug. 4o de trinitate capitulo penultimo</ref>. <quote xml:id="kzz7yh-a33638-Qfgfghh" source="http://scta.info/resource/adt-l4-d1e643@51-68">Sicut 
+              <lb ed="#V" n="39"/>natum esse est filio a patre esse: ita mitti est 
+              co<lb ed="#V" n="40" break="no"/>gnosci quod ab alio sit</quote>. Missio ergo persone est sue 
+            emana<lb ed="#V" n="41" break="no"/>tionis cognitio: sed cognitio est per manifestationem. 
+            er<lb ed="#V" n="42" break="no"/>go missio est persone emanantis manifestatio ad 
+            cogno<lb ed="#V" n="43" break="no"/>scendum persone emanationem.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e198">
+            ¶ Item Aug. 2. de trinitate. 
+            <lb ed="#V" n="44"/>capi. 5. loquens de columba et de linguis que apparuerunt 
+            <lb ed="#V" n="45"/>in similitudinem ignis in die penthecostes. dicit sic. hec 
+            <lb ed="#V" n="46"/>operatio visibiliter expressa: et oculis mortalibus 
+            oblata<lb ed="#V" n="47" break="no"/>missio spiritus sancti dicta est: sed illa operatio fuit 
+            mani<lb ed="#V" n="48" break="no"/>festatio spiritus sancti per aliqua spiritui sancto appropria 
+            <lb ed="#V" n="49"/>ta. ergo missio est persone emanantis per aliquid sibi 
+            ap<lb ed="#V" n="50" break="no"/>propriatum manifestatio.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e216">
+            ¶ Item aut missio significat 
+            <lb ed="#V" n="51"/>persone emanationem: et connotat eius manifestationem: 
+            <lb ed="#V" n="52"/>aut econuerso. Si primo modo: tunc persona non mitte 
+            <lb ed="#V" n="53"/>retur a seipsa: quia non emanat a seipsa: et tamen persona mittit 
+            se<lb ed="#V" n="54" break="no"/>ipsam vt infra videbitur. Restat ergo quod missio significat 
+            per<lb ed="#V" n="55" break="no"/>ione emanantis manifestationem et connotat eius emanationem. 
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e229">
+            <lb ed="#V" n="56"/>Respondeo quod missio persone diuine est persone 
+            ema<lb ed="#V" n="57" break="no"/>nantis: vel emanationis persone per 
+            <lb ed="#V" n="58"/>aliquod donum sibi appropriatum actu vel habitu 
+            mani<lb ed="#V" n="59" break="no"/>festatio: per quod ipsa persona secundum quid: vel simpliciter 
+            <lb ed="#V" n="60"/>habetur: vel magis habetur: vel haberi actu vel habitu 
+            <lb ed="#V" n="61"/>ostenditur. Et hec missionis descriptio omni missioni 
+            con<lb ed="#V" n="62" break="no"/>uenit siue visibili siue inuisibili: siue missioni simpliciter: 
+            <lb ed="#V" n="63"/>siue missioni secundum quid. hec autem manifestatio habet 
+            ra<lb ed="#V" n="64" break="no"/>tionem missionis propter hoc: quia sicut in creaturis 
+            ali<lb ed="#V" n="65" break="no"/>quando missum accipit essentiam a mittente: vt radius 
+            <lb ed="#V" n="66"/>a sole: aliquando virtutem vt iaculum a proiectore. 
+            ali<lb ed="#V" n="67" break="no"/>quando auctoritatem vt nuncius a preceptore: sic perso¬ 
+            <!--00113.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="68"/>na emanans ab alio accipit esse virtutem et auctoritatem. 
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e264">
+            <lb ed="#V" n="69"/>¶ Item loco separationis missi a mittente est ipsius 
+            per<lb ed="#V" n="70" break="no"/>sone emanatio loco subiectionis missi ad mittentem est 
+            <lb ed="#V" n="71"/>in persona missa passiua principiatio. loco operis missi in 
+            <lb ed="#V" n="72"/>loco ad quem mittitur: est noui effectus productio.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e275">
+            ¶ Item 
+            <lb ed="#V" n="73"/>sicut missum per suam missionem manifestatur: vt patet: 
+            <lb ed="#V" n="74"/>cum per suam missionem sit presens. Et etiam quandoque 
+            <lb ed="#V" n="75"/>habetur: vt patet in missione doni: ita persona emanans 
+            <lb ed="#V" n="76"/>per effectum sibi appropriatum actu vel habitum 
+            manife<lb ed="#V" n="77" break="no"/>statur: et habetur simpliciter: si est gratia gratum faciens: 
+            <lb ed="#V" n="78"/>vel secundum quid si est gratia gratis data: vel haberi 
+            <lb ed="#V" n="79"/>ostenditur: vt patet in missione visibili.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e294">
+            <lb ed="#V" n="80"/>Ad primum cum dicitur quod manifestatio 
+            perso<lb ed="#V" n="81" break="no"/>ne emanantis per aliquod donum 
+            <lb ed="#V" n="82"/>sibi appropriatum quid creatum est etc. Dico quod in 
+            mani<lb ed="#V" n="83" break="no"/>festatione persone emanantis quinque intelligo: effectum 
+            <lb ed="#V" n="84"/>creatum per quem persona manifestatur et relationem 
+            ef<lb ed="#V" n="85" break="no"/>fectus ad illam personam: et personam per quam 
+            manife<lb ed="#V" n="86" break="no"/>statur: et emanationem eiusdem: et in ipsa quendam 
+            respe<lb ed="#V" n="87" break="no"/>ctum secundum dici ad effectum per quem manifestatur. Et quia 
+            <lb ed="#V" n="88"/>e ffectus et eius relatio ad personam manifestatam quid 
+            <lb ed="#V" n="89"/>creatum dicunt: ideo dico quod manifestatio persone 
+            ema<lb ed="#V" n="90" break="no"/>nantis passiua significat quid creatum. et cum dicis in 
+            mi<lb ed="#V" n="91" break="no"/>nori quod missio significat quid increatum. dici potest de 
+            mis<lb ed="#V" n="92" break="no"/>sione passiua secundum quod dictum est de manifestatione passiua. 
+            <lb ed="#V" n="93"/>Nec est inconueniens per istum modum increatum 
+            de<lb ed="#V" n="94" break="no"/>nominari a creato. Uere enim dicitur quod deus diligitur a 
+            <lb ed="#V" n="95"/>creatura amore creato. hoc enim non est ponere aliquid 
+            <lb ed="#V" n="96"/>creatum in deo.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e333">
+            ¶ Ad 2m cum dicitur quod persona diuina mitti 
+            di<lb ed="#V" n="97" break="no"/>citur vere et proprie etc. Dico quod verum est loquendo de 
+            <lb ed="#V" n="98"/>missione que conuenire potest rei increate: quia 
+            missio<lb ed="#V" n="99" break="no"/>proprie dicta conueniens creature: et missio proprie dicta 
+            <lb ed="#V" n="100"/>inquantum est conueniens diuine persone non sunt 
+            eius<lb ed="#V" n="101" break="no"/>dem rationis vniuoce. Et cum dicis in minori quod 
+            perso<lb ed="#V" n="102" break="no"/>nam diuinam manifestari per effectum sibi appropriatum 
+            <lb ed="#V" n="103"/>non est mitti proprie. Dico quod hoc verum est loquendo 
+            <lb ed="#V" n="104"/>de missione propria que conuenit creature. sed aliqualem 
+            <lb ed="#V" n="105"/>similitudinem inter illas missiones ostendi in corpore 
+            que<lb ed="#V" n="106" break="no"/>stionis.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e357">
+            ¶ Ad 3m dico quod quandocumque donum charitatis 
+            ho<lb ed="#V" n="107" break="no"/>mini infunditur persona spiritus sancti actu vel 
+            habitu<lb ed="#V" n="108" break="no"/>manifestatur.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e364">
+            ¶ Ad 4m cum dicitur quod acquisitio 
+            doctri<lb ed="#V" n="109" break="no"/>ne non est missio etc. Dico quod verum est maxime cum est 
+            <lb ed="#V" n="110"/>per viam communem: sed ex hoc non sequitur quod 
+            missio<lb ed="#V" n="111" break="no"/>non sit persone emanantis manifestatio appositis illis 
+            con<lb ed="#V" n="112" break="no"/>ditionibus que facte sunt in corpore questionis: quia illa 
+            <lb ed="#V" n="113"/>manifestatio est per aliquem effectum persone 
+            emananti<lb ed="#V" n="114" break="no"/>appropriatum: et habitum per specialem et 
+            supernatura<lb ed="#V" n="115" break="no"/>lem inspirationem.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a33638-Dd1e384">
+          <head xml:id="kzz7yh-a33638-Hd1e386">Quaestio 2</head>
+          <head xml:id="kzz7yh-a33638-Hd1e394" type="question-title">Utrum aliqua persona missa fuerit ab eterno</head>
+          <p xml:id="kzz7yh-a33638-d1e388">
+            ¶ Questio. II. 
+            <lb ed="#V" n="116"/>SEcundo queritur. Utrum aliqua 
+            per<lb ed="#V" n="117" break="no"/>sona missa fuerit ab eterno. 
+            <lb ed="#V" n="118"/>Et videtur quod sic. quia secundum quod dicit Beda. et 
+            reci<lb ed="#V" n="119" break="no"/>tat Magister distinctio. 14. missio est ipsa 
+            pro<lb ed="#V" n="120" break="no"/>cessio. ergo cum diuine persone conueniat 
+            pro<lb ed="#V" n="121" break="no"/>cedere ab eterno: sibi conuenit mitti ab eterno.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e404">
+            ¶ Item 
+            <lb ed="#V" n="122"/>sicut missio dicit respectum ad creaturam ita donum. 
+            <lb ed="#V" n="123"/>Sed quamuis spiritus sanctus non sit datus nisi ex 
+            tempore<lb ed="#V" n="124" break="no"/>tamen esse donum sibi conuenit ab eterno.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e413">
+            ¶ Item amans 
+            <lb ed="#V" n="125"/>dicitur amorem suum mittere in amatum: sed spiritus 
+            san<lb ed="#V" n="126" break="no"/>ctus procedit a patre vt amor respectu filii: et a filio 
+            respe<lb ed="#V" n="127" break="no"/>ctu patris: et hoc ab eterno. ergo videtur quod pater ab eter 
+            <lb ed="#V" n="128"/>no misit spiritum sanctum ad filium. et econuerso. 
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e424">
+            <lb ed="#V" n="129"/>Contra missio autem significat nouum effectum: aut 
+            <lb ed="#V" n="130"/>nouum modum existendi in alio: sed 
+            neu<lb ed="#V" n="131" break="no"/>trum istorum est ab eterno. ergo nec missio.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e434">
+            ¶ Item 
+            <ref xml:id="kzz7yh-a33638-Rmmaa88" corresp="#kzz7yh-a33638-Qcn1199">Au<lb ed="#V" n="132" break="no"/>gustinus quarto libro de trinitate capitulo penultimo</ref>. 
+            <lb ed="#V" n="133"/><quote xml:id="kzz7yh-a33638-Qcn1199" source="http://scta.info/resource/adt-l4-d1e640@51-90">Non eo ipso quod de patre natus est missus dicitur filius: 
+              <lb ed="#V" n="134"/>sed vel eo quod apparuit huic mundo verbum caro factum. 
+              <!--00114.xml-->
+              <pb ed="#V" n="50-v"/>
+              <cb ed="#P" n="a"/>
+              <lb ed="#V" n="1"/>Unde dicit a patre exii et veni in mundum: veleo quod 
+              tem<lb ed="#V" n="2" break="no"/>pore cuiusquam mente percipitur</quote>: non mittitur ergo filius 
+            <lb ed="#V" n="3"/>nisi ex tempore. ergo a simili nec spiritus sanctus. 
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e456">
+            <lb ed="#V" n="4"/>Respondeo quod sicut visum est ex questione 
+            pre<lb ed="#V" n="5" break="no"/>cedenti. missio est persone 
+            emanan<lb ed="#V" n="6" break="no"/>tis per aliquem effectum sibi appropriatum actu vel 
+            ha<lb ed="#V" n="7" break="no"/>bitu manifestatio cum aliis conditionibus appositis in 
+            <lb ed="#V" n="8"/>questione precedenti. Sed talis manifestatio non potest esse 
+            <lb ed="#V" n="9"/>nisi ex tempore. ergo nulli persone mitti conuenit ab eterno.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e472">
+            <lb ed="#V" n="10"/>Ad primum in oppositum cum dicitur quod 
+            pro<lb ed="#V" n="11" break="no"/>cessio est missio etc. Dico quod verum 
+            <lb ed="#V" n="12"/>est de processione que est ex tempore tantum. et tamen est 
+            ali<lb ed="#V" n="13" break="no"/>qua differentia inter illam et missionem: vt supra visum 
+            <lb ed="#V" n="14"/>est dist. precedenti. vltima questione articuli primi.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e485">
+            ¶ Ad 
+            <lb ed="#V" n="15"/>2m cum dicitur quod spiritui sancto conuenit esse donum ab 
+            <lb ed="#V" n="16"/>eterno etc. dico quod verum est secundum quod donum dicitur ab 
+            apti<lb ed="#V" n="17" break="no"/>tudine donandi. Unde non connotat respectum in 
+            crea<lb ed="#V" n="18" break="no"/>tura nisi in aptitudine. Missio autem includit effectum 
+            <lb ed="#V" n="19"/>appropriatum persone que mittitur et actualem respectum 
+            <lb ed="#V" n="20"/>illius effectus ad ipsam personam.
+          </p>
+          <p xml:id="kzz7yh-a33638-d1e501">
+            ¶ Ad 3m cum dicitur 
+            <lb ed="#V" n="21"/>quod amans dicitur amorem suum mittere in amatum etc. 
+            <lb ed="#V" n="22"/>Dico quod hoc non habet veritatem proprie loquendo nisi 
+            <lb ed="#V" n="23"/>forte quantum ad conatum secundum quem modum loquendi 
+            <lb ed="#V" n="24"/>dicit Ber. de precepto et dispensatione versusi finem libro 
+            <lb ed="#V" n="25"/>quod spiritus noster non est presentior vbi animat quam vbi amat. 
+            <lb ed="#V" n="26"/>Amor ergo amantis quamuis in amatum tendat sicut in 
+            ob<lb ed="#V" n="27" break="no"/>iectum: non tamen amatum respicit tanquam subiectum. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

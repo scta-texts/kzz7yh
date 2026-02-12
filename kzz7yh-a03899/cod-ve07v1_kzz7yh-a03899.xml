@@ -1,455 +1,455 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="5B-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a03899"><!-- l1d1a1 -->
-            <head xml:id="kzz7yh-a03899-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-a03899-d1e103">
-               <lb ed="#V" n="84"/>¶ Articulus primus. 
-      <lb ed="#V" n="85"/>CIrca hanc distinctionem primo querendum est de vti. 2o de
-      <lb ed="#V" n="86"/>frui. Circa primum queruntur quattuor. primo vtrum 
-      <lb ed="#V" n="87"/>sit actus voluntatis. 2o vtrum qualibet re sit vtendum. 3o 
-      <lb ed="#V" n="88"/>vtrum qualibet res habens voluntatem vtatur. 4o vtrum 
-      <lb ed="#V" n="89"/>vsus praecedat electionem.
-   </p>
-            <div xml:id="kzz7yh-a03899-Dd1e119">
-               <head xml:id="kzz7yh-a03899-Hd1e121">Quaestio 1</head>
-               <head xml:id="kzz7yh-a03899-Hd1e125" type="question-title">Utrum uti sit actus voluntatis</head>
-               <p xml:id="kzz7yh-a03899-d1e123">
-      ¶ Questio prima 
-      <lb ed="#V" n="90" break="no"/>PRimo ergo quero vtrum vti sit actus 
-      volun<lb ed="#V" n="91" break="no"/>tatis. Et videtur quod non. Dicit enim
-      <lb ed="#V" n="92"/>Augustinus primo de doc. xpi.o parum post principium: quod vti est 
-      <lb ed="#V" n="93"/>illud quod in vsum venit. Ad illud quod amas 
-      ob<lb ed="#V" n="94" break="no"/>tinendum referre: sed eius est referre cuius est conferre. Cum ergo 
-      <lb ed="#V" n="95"/>voluntatis non fit conferre sed rationis: videtur quod vti non sit actus 
-      <lb ed="#V" n="96"/>voluntatis sed rationis.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e141">
-      ¶ Item Augustinus libro 83. q. q. xxx. dicit sic 
-      <lb ed="#V" n="97"/>Omnia quae facta sunt in vsum hominis facta sunt. quia omnibus vtitur 
-      <lb ed="#V" n="98"/>ratio iudicando quae homini data est: videtur ergo quod vti sit rationis non 
-      <lb ed="#V" n="99"/>voluntatis.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e150">
-      ¶ Item vsus nihil aliud videtur dicem nisi actum 
-      <lb ed="#V" n="100"/>potentie frequentatum: sed quilibet pos potest actum suum frequenta<lb ed="#V" n="101" break="no"/>re: 
-      ergo vti non est actus voluntatis tantum.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e157">
-      ¶ Item vti re aliqua est 
-      <lb ed="#V" n="102"/>ipsam ad finem debitum realiter applicare. hoc autem fit per 
-      exterio<lb ed="#V" n="103" break="no"/>rem oppositionem. ergo vti non videtur esse actus nisi postio exequentis ipsam 
-      <lb ed="#V" n="104"/>oppositionem exteriorem: per quam res ad finem debitum applicatur. 
-    </p>
-               <p xml:id="kzz7yh-a03899-d1e167">
-                  <lb ed="#V" n="105"/>Contra Augustinum libro 2. de libero arbitrio versus finem: dicit quod ipsa 
-      <lb ed="#V" n="106"/>voluntas vtitur se et aliis: sicut ratio cognoscit se et 
-      <lb ed="#V" n="107"/>alia: ergo vti est actus ipsius voluntatis.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e176">
-      ¶ Item Augustinus x de trinitate. 
-      <lb ed="#V" n="108"/>c. xi. vti est aliquid assumens in facultatem voluntatis: ergo est 
-      <lb ed="#V" n="109"/>actus ipsius voluntatis.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e183">
-      ¶ Item Augustinus. x. de trinitate c. xi. non omnis quod 
-      <lb ed="#V" n="110"/>vtitur fruitur. sed id quod in facultatem voluntatis assumit non 
-      <lb ed="#V" n="111"/>propter ipsum sed propter aliud appetit: ergo vti est 
-      ip<lb ed="#V" n="112" break="no"/>sius voluntatis realiter ad aliquid aliud.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e192">
-                  <lb ed="#V" n="113"/>Respondeo quod vti re aliqui est ipsam referre ad finem 
-      de<lb ed="#V" n="114" break="no"/>bitum semel vel frequenter. Et dico ad  
-      fi<lb ed="#V" n="115" break="no"/>nem debitum: quia rem aliquam referre ad finem indebitum magi 
-      de<lb ed="#V" n="116" break="no"/>dici abuti quam vti. Unde Augustinus primo de doc. christii parum post principium 
-      <lb ed="#V" n="117"/>vti est quod in vsum venerit ad id quod amas obtinendum 
-      re<lb ed="#V" n="118" break="no"/>ferre si tamen amandum est. nam vsus illicitus abusus potius vel 
-      <lb ed="#V" n="119"/>abusio nominanda est: et posui ibi semel accipiendo vti 
-      in<lb ed="#V" n="120" break="no"/>quantum diuiditur contra ociositatem. posui est ibi frequenter 
-      acci<lb ed="#V" n="121" break="no"/>piendo vti secundum quod diuiditur contra dissuetudinem. rem autem referre 
-      <lb ed="#V" n="122"/>ad finem debitum potest aliquis dupliter scilicet aut realem 
-      applicatio<lb ed="#V" n="123" break="no"/>nem alicuius rei ad finem debitum exequendo: aut intendendo: 
-      <lb ed="#V" n="124"/>ita tamen quod intendens se moueat aute determinet ad illam 
-      in<lb ed="#V" n="125" break="no"/>tentionem. aliter enim intendens finem non refert proprie 
-      <lb ed="#V" n="126"/>loquendo aliquid ad finem intentionaliter: sed ille ipse qui ipsum 
-      <!--00025.xml-->
-      <pb ed="#V" n="6-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>determinauit ad talem intentionem. Primo modo vti est 
-      <lb ed="#V" n="2"/>actus cuiuslibet potentie actiue. quelibet enim potentia 
-      <lb ed="#V" n="3"/>actiua potest exequi realem applicationem alicuius rei ad 
-      <lb ed="#V" n="4"/>finem debitum: et sic natura vtitur semine: cum semen 
-      pro<lb ed="#V" n="5" break="no"/>ducit ad fructum. Fructus enim est finis seminis. et sic 
-      <lb ed="#V" n="6"/>etiam dici potest na vti nutrimento cum ipsum conuertit in 
-      <lb ed="#V" n="7"/>corpus nutriendum: hoc enim est finis nutrimenti et virtus 
-      gressi<lb ed="#V" n="8" break="no"/>ua pedibus cum eos applicat ad ambulandum: et ipsa 
-      volun<lb ed="#V" n="9" break="no"/>tas semetipsa cum semetipsam realiter applicat ad volendum. 
-      <lb ed="#V" n="10"/>velle enim finis est potentie volitiue. poso enim ordinatur ad 
-      <lb ed="#V" n="11"/>actum.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e255">
-      ¶ 2o modo vti est actus solius voluntatis vt elicientis: 
-      quam<lb ed="#V" n="12" break="no"/>uis sic intelligitur vt dirigenti dictando. Unde Aug. li. 83.q. 
-      <lb ed="#V" n="13"/>q. xxx. vti aliqua re non potest nisi animal: quod rationis est particeps 
-      <lb ed="#V" n="14"/>quia nulla poso irrationalis potest se mouem et determinare ad 
-      in<lb ed="#V" n="15" break="no"/>tendendum realem applicationem alicuius rei ad finem debitum. 
-      <lb ed="#V" n="16"/>quamuis enim naturalis appetitus appetat realem applicationem 
-      <lb ed="#V" n="17"/>rei ad finem. quia secundum quod dicit philosophus 2o phisi. na intendit finem: 
-      <lb ed="#V" n="18"/>tamen quia illum finem cognoscendo natura non praestituit: et quia talis 
-      appe<lb ed="#V" n="19" break="no"/>titus in re naturali non est ab ea sed ab instituente naturam est in ea. 
-      <lb ed="#V" n="20"/>ideo sic appetem realem applicationem rei ad finem debitum non 
-      <lb ed="#V" n="21"/>est vti illa re. Unde appetitus grauis existentis super trabem non 
-      <lb ed="#V" n="22"/>potest dici vti ipso graui: quamuis appetat ipsum graue esse de 
-      <lb ed="#V" n="23"/>orsum propter grauis naturam. similiter quamuis appetitus sensitiuus 
-      appe<lb ed="#V" n="24" break="no"/>tat realem applicationem alicuius rei ad finem debitum: sicut 
-      <lb ed="#V" n="25"/>cum brutum appetit aliquam perfectionem sui setus vtpote 
-      appe<lb ed="#V" n="26" break="no"/>tit quod hebeat plumas ad volandum: quia tamen ille appetitus non 
-      di<lb ed="#V" n="27" break="no"/>rigitur libera conitione considerante in ipso fine rationem finis et 
-      <lb ed="#V" n="28"/>rationem debiti et ratione ordis rei ad finem: sed dirigitur quodam 
-      <lb ed="#V" n="29"/>naturali instinctu nec ille appetitus libere mouetur: sed quadam naturali
-      <lb ed="#V" n="30"/>necessitate agitur: dicente Dam. libro 7. c. 2r. quod bruta aguntur 
-      <lb ed="#V" n="31"/>a naturali appetitu: ideo brutum appetendo setu suum deduci ad 
-      <lb ed="#V" n="32"/>perfectionem: non dicitur vti suo fetum: voluntas autem appetendo 
-      <lb ed="#V" n="33"/>creaturam realiter applicari ad finem suum: quia ad hoc appetendo 
-      <lb ed="#V" n="34"/>mouet se: dicitur vti illa re quia sic applicat rem ad finem suum in 
-      <lb ed="#V" n="35"/>intentione. Unde voluntas dicitur vti creatura quam diligit propter 
-      <lb ed="#V" n="36"/>deum: sic ergo patet ex his omnibus quod vti proprie et principaliter non est 
-      <lb ed="#V" n="37"/>alicutus postnisi ipsius appetitus rationalis qui est voluntas: quia 
-      vo<lb ed="#V" n="38" break="no"/>luntas est principaliter mouens et fuiipsius et omnium que sunt in 
-      <lb ed="#V" n="39"/>regno anime. Unde Anselmus in libro de concordia praescientie et liberi arbicri inter 
-      <lb ed="#V" n="40"/>medium et finem. voluntas mouet omnia alia insttera quibus sponte 
-      <lb ed="#V" n="41"/>vtimur et que sunt in nobis vt manus: ligua: visus: et quae 
-      <lb ed="#V" n="42"/>sunt extra nos: vt stilus et securis: et facit omnes voluntarios 
-      <lb ed="#V" n="43"/>motus: ipsa vero se suis affectionibus mouet: actiones autem non 
-      <lb ed="#V" n="44"/>attribuuntur proprie loquendo istis sed principali agenti.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e329">
-                  <lb ed="#V" n="45"/>Ad primum in oppositum cum dicis quod eius est referre
-      <lb ed="#V" n="46"/>cuius est conferre. Dico quod verum est 
-      loquen<lb ed="#V" n="47" break="no"/>do de referre per modum dictantis: sed non est verum loquendo 
-      <lb ed="#V" n="48"/>de referre per modum libere inclinantis vel mouentis. ratio autem 
-      <lb ed="#V" n="49"/>refert dictando. voluntas autem libere inclinando et mouendo: 
-      <lb ed="#V" n="50"/>et sic accipitur referre: cum ab Augo ponitur in diffinitione ipsius 
-      <lb ed="#V" n="51"/>vti.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e348">
-      ¶ Ad 2m cum dicis quod ratio vtitur omnibus iudicando etc. 
-      <lb ed="#V" n="52"/>Dico quod ibi accipitur vti non proprie sed pro actu primo ad actum 
-      <lb ed="#V" n="53"/>vtendi proprie dictu: vel accipitur ibi vti secundum quod dicit 
-      execu<lb ed="#V" n="54" break="no"/>tionem realis applicationis postrad actum suum.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e357">
-      ¶ Ad 3m 
-      di<lb ed="#V" n="55" break="no"/>co quod procedit secundum quod vti accipitur pro executione reali 
-      ap<lb ed="#V" n="56" break="no"/>plicationis alicuius rei ad suum actum frequentata.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e364">
-      ¶ Ad 4m 
-      <lb ed="#V" n="57"/>cum dicis quod vti re aliqua est ipsum realiter applicare ad finem 
-      <lb ed="#V" n="58"/>debitum etc. Dico quod executio istius realis applicationis bene 
-      <lb ed="#V" n="59"/>est cuiuslibet potentie actiue: quia tamen ista realis applicatio est 
-      <lb ed="#V" n="60"/>solius voluntatis: sicut principaliter sub deo mouentis: quamuis sit 
-      <lb ed="#V" n="61"/>ipsius intellectus sicut dirigentis: quia voluntas est principaliter 
-      <lb ed="#V" n="62"/>mouens alias potentias ad illam executionem et actiones 
-      ma<lb ed="#V" n="63" break="no"/>gis attribuuntur principali mouenti quam insttris. ideo vti non est 
-      <lb ed="#V" n="64"/>ita proprie aliarum potentiarum sic ipsius voluntatis.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a03899-Dd1e385">
-               <head xml:id="kzz7yh-a03899-Hd1e387">Quaestio 2</head>
-               <head xml:id="kzz7yh-a03899-Hd1e395" type="question-title">Utrum qualibet re sit utendum</head>
-               <p xml:id="kzz7yh-a03899-d1e389">
-      ¶ Quaestio ii. 
-      <lb ed="#V" n="65"/>Secundo quaeritur utrum qualibet re sit 
-      uten<lb ed="#V" n="66" break="no"/>dum. Et videtur quod sic deo vtendum
-      <lb ed="#V" n="67"/>est sicut ostendam: ergo multo fortius qualibet re alia est 
-      <!--00025.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="68"/>vtendum. Assumptum probatur. quia super illud Luc. 15. 
-      <lb ed="#V" n="69"/>quanti mercennarii etc. Dicit glo. quod licet deo seruire 
-      <lb ed="#V" n="70"/>intuitu mercedis: sed maxime seruitur deo ipsum amando: ergo 
-      <lb ed="#V" n="71"/>licitum est deum amare propter mercedem. hoc autem est vti deo: quia qui 
-      <lb ed="#V" n="72"/>deum amat propter mercedem deum refert ad mercedem in 
-      intentio<lb ed="#V" n="73" break="no"/>ne
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e415">
-      ¶ Item Augustinus. x. de tri. c. xi. omnis qui fruitur vtitur. sed sicut 
-      <lb ed="#V" n="74"/>ipse dicit de doc. christi libro primo parum post principium. Res quibus 
-      <lb ed="#V" n="75"/>fruendum est sunt pater et filius et spiritus sanctus. ergo vtendum est patre et 
-      <lb ed="#V" n="76"/>filio et spiritus sanctio. ergo multo fortius quacumque re alia.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e424">
-      ¶ Item 
-      li<lb ed="#V" n="77" break="no"/>citum est aliquid magis cognoscem quam summam veritatem. ergo similiter 
-      lici<lb ed="#V" n="78" break="no"/>tum est aliquid magis diligem quam summam bonitatem. sed quod licitum 
-      <lb ed="#V" n="79"/>est minus diligem licitum est referre in intentione ad magis 
-      <lb ed="#V" n="80"/>dilectum. hoc aut est vti. ergo vtendum est summa bonitate multo 
-      <lb ed="#V" n="81"/>fortius ergo quacumque re alia est vtendum.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e437">
-      ¶ Item Augustinus. x. de 
-      <lb ed="#V" n="82"/>tri. c. xi. vti est aliquid assumen in facultatem voluntatis. sed 
-      <lb ed="#V" n="83"/>peccata possunt assumi in facultatem voluntatis: ergo peccatis est 
-      vten<lb ed="#V" n="#2" break="no"/>dum multofortius ergo quacumque realia: cum peccata formaliter 
-      lo<lb ed="#V" n="85" break="no"/>quendo non debent dici res sed voluntarii defectus rerum. 
-    </p>
-               <p xml:id="kzz7yh-a03899-d1e449">
-                  <lb ed="#V" n="86"/>Contra Augustinum libro. 83. q. q xxx. omnis humana peruersio quod 
-                  <lb ed="#V" n="87"/>est vitium vocatur est fruendis vti velle atque 
-      <lb ed="#V" n="88"/>frui vtendis: sed deo fruendum est. Unde Augustinus per de doc. christi. 
-      <lb ed="#V" n="89"/>inter medium et finem. Hec summa merces est vt ipso 
-      perfru<lb ed="#V" n="90" break="no"/>amur: ergo re increata vtendum non est.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e462">
-      ¶ Item vti re aliqua est 
-      <lb ed="#V" n="91"/>ipsam applicare ad finem debitum in re vivel in intentione. sed 
-      pec<lb ed="#V" n="92" break="no"/>catu non est ordinatum ad aliquem finem debitum: quia est quedam 
-      <lb ed="#V" n="93"/>deordinatio a fine debito. ergo peccato non est vtendum. 
-    </p>
-               <p xml:id="kzz7yh-a03899-d1e471">
-                  <lb ed="#V" n="94"/>Respondeo quod re increata non est vtendum: quia vti re aliqua 
-      <lb ed="#V" n="95"/>vt iam dictum est ipsam referre ad finem 
-      debi<lb ed="#V" n="96" break="no"/>tum reali applicatione vel intentione: illa ergo re est vtendum que 
-      <lb ed="#V" n="97"/>ordinabilis est in finem: non illa que ad finem non ordinatur sed 
-      fi<lb ed="#V" n="98" break="no"/>nis est aliarum rerum: deus autem non ordinatur ad finem. sed est vltimus 
-      <lb ed="#V" n="99"/>finis creaturarum. et ideo non est vtendum re increata 
-      <lb ed="#V" n="100"/>sed qualibet creata re est vtendum.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e489">
-                  <lb ed="#V" n="101"/>Ad primum in oppositum cum dicis quod licet deo seruire 
-                  in<lb ed="#V" n="102" break="no"/>tuitu mercedis etc. dico quod intelligendum 
-      <lb ed="#V" n="103"/>est de mercede increata que deus est qui est summa merces 
-      di<lb ed="#V" n="104" break="no"/>ligentium se. Unde dixit ad Abraham Gen. 15 Noli timere 
-      <lb ed="#V" n="105"/>Abraham ego protector tuus sum et merces tua magna 
-      ni<lb ed="#V" n="106" break="no"/>mis: et hoc patet si legitur littera glo. primallegate que talis est: Qui 
-      <lb ed="#V" n="107"/>futur mercedis intuitu digna operari satagunt quotidianis 
-      <lb ed="#V" n="108"/>superne gratiae reficiuntur alimentis.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e509">
-      ¶ Ad 2m cum dicis quod omnis 
-      <lb ed="#V" n="109"/>qui fruitur vtitur etc. dico quod sumitur ibi: vti nimis improprie 
-      <lb ed="#V" n="110"/>et nimis large. extendit enim vti ad omnem actum volendi: quod 
-      <lb ed="#V" n="111"/>patet: quia postquam dixit Aug. omnis qui fruitur vtitur: statim subiciugit: 
-      <lb ed="#V" n="112"/>assumit enim aliquid in facultatem voluntatiss
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e520">
-      ¶ Ad 3m cum 
-      <lb ed="#V" n="113"/>dicis quod licitum est magis aliquid cognoscem quam summam 
-      verita<lb ed="#V" n="114" break="no"/>tem etc. dico quod si ita faciliter possemus magis cognoscem per gratiam 
-      <lb ed="#V" n="115"/>communem veritatem increatam quam creatam. Sicut possumus magis 
-      <lb ed="#V" n="116"/>diligem bonitatem increatam quam creatam: non esset nobis licitum 
-      <lb ed="#V" n="117"/>magis cognoscem veritatem creatam quam increatam: nunc autem ita non 
-      <lb ed="#V" n="118"/>est quia nostra dilectio plus ascendit quam nostra cognitio. vnde super 
-      <lb ed="#V" n="119"/>illudverbum ange. hierar. 7. c. calidum acntum et superferuidum. 
-      <lb ed="#V" n="120"/>Habetur in commento. dilectio supeminet scientie et maior est 
-      <lb ed="#V" n="121"/>intelligentia. plus enim diligitur quam intelligatur et appropinquant 
-      <lb ed="#V" n="122"/>dilectio et intrat vbi intellectus foris est. sed quia per gratiam 
-      communem<lb ed="#V" n="123" break="no"/>potest intellectus noster magis assentire primo veritati quam veritati 
-      crea<lb ed="#V" n="124" break="no"/>te: non est licitum nobis magis assentiter alicui veritati 
-      crea<lb ed="#V" n="125" break="no"/>te quam increate.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e552">
-      ¶ Ad quartum cum dicis quod peccata possunt 
-      <lb ed="#V" n="126"/>assumi in facultatem voluntatis. dico quod vti aliquo ad 
-      prae<lb ed="#V" n="127" break="no"/>sens potest accipi quaedrupliciter: aut sicut instro quo operamur: 
-      si<lb ed="#V" n="128" break="no"/>cut carpentarius vtitur securi et sic sola voluntate vtimur 
-      ac<lb ed="#V" n="129" break="no"/>cipiendo vti proprie et principaliter: autem sicut hitu quo 
-      regula<lb ed="#V" n="130" break="no"/>mur et sic vtimur hitu virtutis non vitii: et sic intelligitur 
-      <lb ed="#V" n="131"/>verbum Magistri libro 2. dis. 17. et accipitur ab Augo 2o de libero ar. 
-      <lb ed="#V" n="132"/>versus finem cum dicit quod nullus male vtitur virtute: aut sicut 
-      <lb ed="#V" n="133"/>actu quodo mouemur et sic non omni actu contingit bene vti: sic illo 
-      <lb ed="#V" n="134"/>qu mox nominatus coniunctus est malo vt mentiri et sic de consimilibus. 
-      <!--00026.xml-->
-      <pb ed="#V" n="6-v"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>Aut sicut obiecto circa quod mouemur: et sic omni alio a deo 
-      <lb ed="#V" n="2"/>vtendum est: vel accipiendo si bonum est: vel detestando si est 
-      <lb ed="#V" n="3"/>malum culpe: vel patienter sustinendo si est malum pene: tamen 
-      <lb ed="#V" n="4"/>quia vtile dicit aliquid quod in se hebet vnde ordinetur cuiusmodi 
-      <lb ed="#V" n="5"/>non est malitia: ideo non debet concedi quod vtendum sit malitia: quia 
-      to<lb ed="#V" n="6" break="no"/>ta ratio sue ordinationis est ex parte ordinantis qui bene vtitur 
-      ma<lb ed="#V" n="7" break="no"/>litia ipsum detestando propter deum. Unde non est concedendum quod quicquid 
-      <lb ed="#V" n="8"/>potest assumi in facultatem voluntatis cadat sub vsu proprie 
-      <lb ed="#V" n="9"/>dicto nisi intelligentia de hoc quod est assumptibile in 
-      faculta<lb ed="#V" n="#2" break="no"/>tem voluntatis acceptabile propter aliud.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a03899-Dd1e603">
-               <head xml:id="kzz7yh-a03899-Hd1e605">Quaestio 3</head>
-               <head xml:id="kzz7yh-a03899-Hd1e617" type="question-title">utrum quaelibet res habens voluntatem utatur</head> 
-               <p xml:id="kzz7yh-a03899-d1e607">
-      ¶ Questio. iii. 
-      <lb ed="#V" n="11"/>Tertio queritur vtrum quelibet res habens 
-      volu<lb ed="#V" n="12" break="no"/>tatem vtatur. Et videtur quod non. Augustinus primo de 
-      <lb ed="#V" n="13"/>doc. christi. inter medium et finem. Res quibus vtimur ad 
-      <lb ed="#V" n="14"/>idreferimus vt bonitate dei perfruamur. sed ipse non 
-      <lb ed="#V" n="15"/>refert aliquam rem ad se: vt per hoc ipse fruatur bonitate 
-      <lb ed="#V" n="16"/>sua. ergo deus nulla re vtitur.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e623">
-      ¶ Item qui vtitur aliqua re indiget ea. sed 
-      <lb ed="#V" n="17"/>secundum psalmistam. Deus bonorum nostrorum non eget: ergo deus nullo 
-      bo<lb ed="#V" n="18" break="no"/>no creato vtitur: cum ergo non vtatur seipso videtur quod ipse non 
-      vti<lb ed="#V" n="19" break="no"/>tur. Non est ergo verum quod quelibet res habens voluntatem vtatur. 
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e632">
-                  <lb ed="#V" n="20"/>¶ Item quelibet btus est res habens voluntatem: sed nullus 
-      <lb ed="#V" n="21"/>beatus vtitur cum ipsi sint in termino et motus cessat cum peruenitur 
-      <lb ed="#V" n="22"/>ad terminum: vti autem quaedam motus est ad terminum: ergo non est 
-      <lb ed="#V" n="23"/>verum qui quelibet res habens voluntatem vtatur. 
-    </p>
-               <p xml:id="kzz7yh-a03899-d1e643">
-                  <lb ed="#V" n="24"/>Contra. Prouerb. 16. uniuersa propter semetipsum operatus
-                 <lb ed="#V" n="25"/>est dicens: ergo omnia creata refert ad seipsum vt ad 
-      <lb ed="#V" n="26"/>finem. sed vti re aliqua est referre ipsum in debitu fine: ergo deus 
-      <lb ed="#V" n="27"/>vtitur omnibus creaturis: sed minus videbatur vti conuenire deo 
-      quae<lb ed="#V" n="28" break="no"/>alicui alii rei habenti voluntatem cum deus summe fruatur seipso. ergo 
-      <lb ed="#V" n="29"/>quelibet res habens voluntatem vtitur. 
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e660">
-                  <lb ed="#V" n="30"/>¶ Respondeo. Uti re aliqua est ipsum referre in debitum 
-      fi<lb ed="#V" n="31" break="no"/>nem. sed omnis res habens volutatem potest aliquam 
-      <lb ed="#V" n="32"/>creaturam referre in debitum finem siue sit creator nue 
-      cre<lb ed="#V" n="33" break="no"/>tura beatam: siue creatura viatrix: ergo quelibet res habens 
-      vo<lb ed="#V" n="34" break="no"/>luntatem vtitur excepta creatura damnata que voluntate sua 
-      <lb ed="#V" n="35"/>non vtitur sed abutitur illud quod refert non in finem debitum sed in 
-      <lb ed="#V" n="36"/>debitum referendo. sed ipsa creatura que vtitur re: qua vtitur 
-      <lb ed="#V" n="37"/>refert in finem debitum qui est aliuda referente. deus aut refert 
-      <lb ed="#V" n="38"/>ea quibus vtitur ad finem debitum qui est ipsemet. Quod autem deus vtatur 
-      <lb ed="#V" n="39"/>creatura testatur Augustinus primo de doc. christi. inter medium et finem: 
-      <lb ed="#V" n="40"/>dicens sic de deo. Non fruitur nobis sed vtitur. natura si neque fruitur 
-      <lb ed="#V" n="41"/>neque vtitur non inuenio quomodo diligat: sed neque sic vtitur vt nos 
-      <lb ed="#V" n="42"/>nam nos res quibus vtimur ad id referimus vt bonitate dei 
-      <lb ed="#V" n="43"/>perfruamur. deus autem ad suam bonitatem vsum nostrum refert.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e693">
-                  <lb ed="#V" n="44"/>Ad primum in oppositum cum dicis quod res quibus 
-      vti<lb ed="#V" n="45" break="no"/>mur ad id referimus vt bonitate 
-      <lb ed="#V" n="46"/>dei perfruamur etc. dico quod Augustinus ibi loquitur de nostro vti: quod 
-      <lb ed="#V" n="47"/>patet in hoc quod dicit res quibus vtimur etc.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e704">
-      ¶ Ad secundum cum 
-      di<lb ed="#V" n="48" break="no"/>cis quod qui aliqua re vtitur indiget ea. Dico quod non est verum quando 
-      il<lb ed="#V" n="49" break="no"/>le qui vtitur rem quam vtitur non refert in seipsm vt in finem propter 
-      sui<lb ed="#V" n="50" break="no"/>ipsius vtilitatem: sed bonitatem sic est vtitur deus.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e713">
-      ¶ Ad tertium 
-      <lb ed="#V" n="51"/>cum dicis quod motus cessat cum peruenitur ad terminum etc. Dico 
-      <lb ed="#V" n="52"/>quod verum est de illo motu qui est propter distantiam a termino: sed non 
-      <lb ed="#V" n="53"/>est verum de motu qui causatur ex coniunctione cum termino sius 
-      <lb ed="#V" n="54"/>cum fine perfectus autem vsus causatur ex coniunctione voluntatis cum 
-      <lb ed="#V" n="55"/>ipso fine. Unde beati propter hoc quod sunt coniuncti cum fine perfectius 
-      <lb ed="#V" n="56"/>diligendo referunt creaturas quas diligunt in finem quam cum 
-      <lb ed="#V" n="57"/>erant viatores adhuc non perfecte coniuncti cum fine.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a03899-Dd1e733">
-               <head xml:id="kzz7yh-a03899-Hd1e735">Quaestio 4</head>
-               <head xml:id="kzz7yh-a03899-Hd1e751" type="question-title">Utrum usus praecedat electione</head>
-               <p xml:id="kzz7yh-a03899-d1e737">
-      Quaestio iiii 
-      <lb ed="#V" n="58"/>QUarto queritur vtum vsus praecedat 
-      ele<lb ed="#V" n="#2" break="no"/>ctionem. Et videtur quod non. Dam. libro
-      <lb ed="#V" n="60"/>2 capitulo 21. post electionem mens impetu facit ad 
-      opera<lb ed="#V" n="61" break="no"/>tionem et postea vtitur. ergo vsus non praecedit sed sequitur 
-      <lb ed="#V" n="62"/>electionem.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e750">
-      ¶ Item eligem est praeoptare vnum 
-      alte<lb ed="#V" n="63" break="no"/>ri: vsus autem super hoc videtur addere relationem in finem. 
-      <lb ed="#V" n="64"/>Cum ergo illud quod se hebet per additionem ad aliquid sit 
-      po<lb ed="#V" n="65" break="no"/>sterius illo: videtur quod vsus sit posterior electione. 
-    </p>
-               <p xml:id="kzz7yh-a03899-d1e759">
-                  <lb ed="#V" n="66"/>Contra Absolutum prius est relatiuo ergo minus relatum 
-      <lb ed="#V" n="67"/>ante magis relatum. sed electio importat duas relatio
-      <!--00026.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="68" break="no"/>nes: quia importat relationem ad finem et relationem ad illud cui 
-      ali<lb ed="#V" n="#2" break="no"/>quid praeeligitur. Unde Dam. libro 2. c. 21. dicit quod electio ex 
-      duo<lb ed="#V" n="70" break="no"/>bus praeiacentibus eligem hoc est pram altero optare. vsus autem non 
-      impor<lb ed="#V" n="#2" break="no"/>tat rationem nisi ad finem. ergo vsus naturali ordine praecedit electionem. 
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e779">
-                  <lb ed="#V" n="72"/>Respondeo Dico quod si accipiatur vsus pro eo quod est 
-      re<lb ed="#V" n="73" break="no"/>ferre aliquid ad finem debitum in intentione tantum. 
-      <lb ed="#V" n="74"/>sic dico quod naturali ordine vsus praecedit electionem. sicut bene 
-      pro<lb ed="#V" n="75" break="no"/>bat ratio facta ad hanc partem. Si autem accipiatur vsus pro 
-      execu<lb ed="#V" n="76" break="no"/>tione realis applicationis alicuius rei ad finem debitum. sic 
-      <lb ed="#V" n="77"/>dico quod electio vsum praecedit: quia per electionem voluntatis est 
-      <lb ed="#V" n="78"/>incompleta dispositione ad imperandum executionem. 
-    </p>
-               <p xml:id="kzz7yh-a03899-d1e798">
-                  <lb ed="#V" n="79"/>Ad primum in oppositum cum arguis per auctoritatem 
-      <lb ed="#V" n="80"/>Damasceni. Dico quod Damascenus accipit ibi vsum 
-      <lb ed="#V" n="81"/>aut pro executione realis applicationis alicuius rei ad finem 
-      <lb ed="#V" n="82"/>debitum: aut pro consuetudine: et sic accipiendo vsum verum est 
-      <lb ed="#V" n="83"/>quod sequitur electionem.
-   </p>
-               <p xml:id="kzz7yh-a03899-d1e811">
-      ¶ Ad secundum cum dicis quod vsus videtur 
-      <lb ed="#V" n="84"/>addem super electionem relationem in finem etc. Dico quod tam vsus quam 
-      <lb ed="#V" n="85"/>electio important relationem ad illud cui aliud praeeligitur: et ita secundum 
-      <lb ed="#V" n="86"/>quod vti accipitur pro intentione realis applicationis alicuius 
-      <lb ed="#V" n="87"/>rei in finem debitum. sic vsus praecedit electionem. quia electio se 
-      <lb ed="#V" n="88"/>habet per additionem ad vsum: sicut cum voluntas amittit aliquid 
-      <lb ed="#V" n="89"/>ad hoc vt in finem debitum referatur.
-   </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="5B-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a03899"><!-- l1d1a1 -->
+        <head xml:id="kzz7yh-a03899-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-a03899-d1e103">
+          <lb ed="#V" n="84"/>¶ Articulus primus. 
+          <lb ed="#V" n="85"/>CIrca hanc distinctionem primo querendum est de vti. 2o de
+          <lb ed="#V" n="86"/>frui. Circa primum queruntur quattuor. primo vtrum 
+          <lb ed="#V" n="87"/>sit actus voluntatis. 2o vtrum qualibet re sit vtendum. 3o 
+          <lb ed="#V" n="88"/>vtrum qualibet res habens voluntatem vtatur. 4o vtrum 
+          <lb ed="#V" n="89"/>vsus praecedat electionem.
+        </p>
+        <div xml:id="kzz7yh-a03899-Dd1e119">
+          <head xml:id="kzz7yh-a03899-Hd1e121">Quaestio 1</head>
+          <head xml:id="kzz7yh-a03899-Hd1e125" type="question-title">Utrum uti sit actus voluntatis</head>
+          <p xml:id="kzz7yh-a03899-d1e123">
+            ¶ Questio prima 
+            <lb ed="#V" n="90" break="no"/>PRimo ergo quero vtrum vti sit actus 
+            volun<lb ed="#V" n="91" break="no"/>tatis. Et videtur quod non. Dicit enim
+            <lb ed="#V" n="92"/>Augustinus primo de doc. xpi.o parum post principium: quod vti est 
+            <lb ed="#V" n="93"/>illud quod in vsum venit. Ad illud quod amas 
+            ob<lb ed="#V" n="94" break="no"/>tinendum referre: sed eius est referre cuius est conferre. Cum ergo 
+            <lb ed="#V" n="95"/>voluntatis non fit conferre sed rationis: videtur quod vti non sit actus 
+            <lb ed="#V" n="96"/>voluntatis sed rationis.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e141">
+            ¶ Item Augustinus libro 83. q. q. xxx. dicit sic 
+            <lb ed="#V" n="97"/>Omnia quae facta sunt in vsum hominis facta sunt. quia omnibus vtitur 
+            <lb ed="#V" n="98"/>ratio iudicando quae homini data est: videtur ergo quod vti sit rationis non 
+            <lb ed="#V" n="99"/>voluntatis.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e150">
+            ¶ Item vsus nihil aliud videtur dicem nisi actum 
+            <lb ed="#V" n="100"/>potentie frequentatum: sed quilibet pos potest actum suum frequenta<lb ed="#V" n="101" break="no"/>re: 
+            ergo vti non est actus voluntatis tantum.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e157">
+            ¶ Item vti re aliqua est 
+            <lb ed="#V" n="102"/>ipsam ad finem debitum realiter applicare. hoc autem fit per 
+            exterio<lb ed="#V" n="103" break="no"/>rem oppositionem. ergo vti non videtur esse actus nisi postio exequentis ipsam 
+            <lb ed="#V" n="104"/>oppositionem exteriorem: per quam res ad finem debitum applicatur. 
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e167">
+            <lb ed="#V" n="105"/>Contra Augustinum libro 2. de libero arbitrio versus finem: dicit quod ipsa 
+            <lb ed="#V" n="106"/>voluntas vtitur se et aliis: sicut ratio cognoscit se et 
+            <lb ed="#V" n="107"/>alia: ergo vti est actus ipsius voluntatis.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e176">
+            ¶ Item Augustinus x de trinitate. 
+            <lb ed="#V" n="108"/>c. xi. vti est aliquid assumens in facultatem voluntatis: ergo est 
+            <lb ed="#V" n="109"/>actus ipsius voluntatis.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e183">
+            ¶ Item Augustinus. x. de trinitate c. xi. non omnis quod 
+            <lb ed="#V" n="110"/>vtitur fruitur. sed id quod in facultatem voluntatis assumit non 
+            <lb ed="#V" n="111"/>propter ipsum sed propter aliud appetit: ergo vti est 
+            ip<lb ed="#V" n="112" break="no"/>sius voluntatis realiter ad aliquid aliud.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e192">
+            <lb ed="#V" n="113"/>Respondeo quod vti re aliqui est ipsam referre ad finem 
+            de<lb ed="#V" n="114" break="no"/>bitum semel vel frequenter. Et dico ad  
+            fi<lb ed="#V" n="115" break="no"/>nem debitum: quia rem aliquam referre ad finem indebitum magi 
+            de<lb ed="#V" n="116" break="no"/>dici abuti quam vti. Unde Augustinus primo de doc. christii parum post principium 
+            <lb ed="#V" n="117"/>vti est quod in vsum venerit ad id quod amas obtinendum 
+            re<lb ed="#V" n="118" break="no"/>ferre si tamen amandum est. nam vsus illicitus abusus potius vel 
+            <lb ed="#V" n="119"/>abusio nominanda est: et posui ibi semel accipiendo vti 
+            in<lb ed="#V" n="120" break="no"/>quantum diuiditur contra ociositatem. posui est ibi frequenter 
+            acci<lb ed="#V" n="121" break="no"/>piendo vti secundum quod diuiditur contra dissuetudinem. rem autem referre 
+            <lb ed="#V" n="122"/>ad finem debitum potest aliquis dupliter scilicet aut realem 
+            applicatio<lb ed="#V" n="123" break="no"/>nem alicuius rei ad finem debitum exequendo: aut intendendo: 
+            <lb ed="#V" n="124"/>ita tamen quod intendens se moueat aute determinet ad illam 
+            in<lb ed="#V" n="125" break="no"/>tentionem. aliter enim intendens finem non refert proprie 
+            <lb ed="#V" n="126"/>loquendo aliquid ad finem intentionaliter: sed ille ipse qui ipsum 
+            <!--00025.xml-->
+            <pb ed="#V" n="6-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>determinauit ad talem intentionem. Primo modo vti est 
+            <lb ed="#V" n="2"/>actus cuiuslibet potentie actiue. quelibet enim potentia 
+            <lb ed="#V" n="3"/>actiua potest exequi realem applicationem alicuius rei ad 
+            <lb ed="#V" n="4"/>finem debitum: et sic natura vtitur semine: cum semen 
+            pro<lb ed="#V" n="5" break="no"/>ducit ad fructum. Fructus enim est finis seminis. et sic 
+            <lb ed="#V" n="6"/>etiam dici potest na vti nutrimento cum ipsum conuertit in 
+            <lb ed="#V" n="7"/>corpus nutriendum: hoc enim est finis nutrimenti et virtus 
+            gressi<lb ed="#V" n="8" break="no"/>ua pedibus cum eos applicat ad ambulandum: et ipsa 
+            volun<lb ed="#V" n="9" break="no"/>tas semetipsa cum semetipsam realiter applicat ad volendum. 
+            <lb ed="#V" n="10"/>velle enim finis est potentie volitiue. poso enim ordinatur ad 
+            <lb ed="#V" n="11"/>actum.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e255">
+            ¶ 2o modo vti est actus solius voluntatis vt elicientis: 
+            quam<lb ed="#V" n="12" break="no"/>uis sic intelligitur vt dirigenti dictando. Unde Aug. li. 83.q. 
+            <lb ed="#V" n="13"/>q. xxx. vti aliqua re non potest nisi animal: quod rationis est particeps 
+            <lb ed="#V" n="14"/>quia nulla poso irrationalis potest se mouem et determinare ad 
+            in<lb ed="#V" n="15" break="no"/>tendendum realem applicationem alicuius rei ad finem debitum. 
+            <lb ed="#V" n="16"/>quamuis enim naturalis appetitus appetat realem applicationem 
+            <lb ed="#V" n="17"/>rei ad finem. quia secundum quod dicit philosophus 2o phisi. na intendit finem: 
+            <lb ed="#V" n="18"/>tamen quia illum finem cognoscendo natura non praestituit: et quia talis 
+            appe<lb ed="#V" n="19" break="no"/>titus in re naturali non est ab ea sed ab instituente naturam est in ea. 
+            <lb ed="#V" n="20"/>ideo sic appetem realem applicationem rei ad finem debitum non 
+            <lb ed="#V" n="21"/>est vti illa re. Unde appetitus grauis existentis super trabem non 
+            <lb ed="#V" n="22"/>potest dici vti ipso graui: quamuis appetat ipsum graue esse de 
+            <lb ed="#V" n="23"/>orsum propter grauis naturam. similiter quamuis appetitus sensitiuus 
+            appe<lb ed="#V" n="24" break="no"/>tat realem applicationem alicuius rei ad finem debitum: sicut 
+            <lb ed="#V" n="25"/>cum brutum appetit aliquam perfectionem sui setus vtpote 
+            appe<lb ed="#V" n="26" break="no"/>tit quod hebeat plumas ad volandum: quia tamen ille appetitus non 
+            di<lb ed="#V" n="27" break="no"/>rigitur libera conitione considerante in ipso fine rationem finis et 
+            <lb ed="#V" n="28"/>rationem debiti et ratione ordis rei ad finem: sed dirigitur quodam 
+            <lb ed="#V" n="29"/>naturali instinctu nec ille appetitus libere mouetur: sed quadam naturali
+            <lb ed="#V" n="30"/>necessitate agitur: dicente Dam. libro 7. c. 2r. quod bruta aguntur 
+            <lb ed="#V" n="31"/>a naturali appetitu: ideo brutum appetendo setu suum deduci ad 
+            <lb ed="#V" n="32"/>perfectionem: non dicitur vti suo fetum: voluntas autem appetendo 
+            <lb ed="#V" n="33"/>creaturam realiter applicari ad finem suum: quia ad hoc appetendo 
+            <lb ed="#V" n="34"/>mouet se: dicitur vti illa re quia sic applicat rem ad finem suum in 
+            <lb ed="#V" n="35"/>intentione. Unde voluntas dicitur vti creatura quam diligit propter 
+            <lb ed="#V" n="36"/>deum: sic ergo patet ex his omnibus quod vti proprie et principaliter non est 
+            <lb ed="#V" n="37"/>alicutus postnisi ipsius appetitus rationalis qui est voluntas: quia 
+            vo<lb ed="#V" n="38" break="no"/>luntas est principaliter mouens et fuiipsius et omnium que sunt in 
+            <lb ed="#V" n="39"/>regno anime. Unde Anselmus in libro de concordia praescientie et liberi arbicri inter 
+            <lb ed="#V" n="40"/>medium et finem. voluntas mouet omnia alia insttera quibus sponte 
+            <lb ed="#V" n="41"/>vtimur et que sunt in nobis vt manus: ligua: visus: et quae 
+            <lb ed="#V" n="42"/>sunt extra nos: vt stilus et securis: et facit omnes voluntarios 
+            <lb ed="#V" n="43"/>motus: ipsa vero se suis affectionibus mouet: actiones autem non 
+            <lb ed="#V" n="44"/>attribuuntur proprie loquendo istis sed principali agenti.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e329">
+            <lb ed="#V" n="45"/>Ad primum in oppositum cum dicis quod eius est referre
+            <lb ed="#V" n="46"/>cuius est conferre. Dico quod verum est 
+            loquen<lb ed="#V" n="47" break="no"/>do de referre per modum dictantis: sed non est verum loquendo 
+            <lb ed="#V" n="48"/>de referre per modum libere inclinantis vel mouentis. ratio autem 
+            <lb ed="#V" n="49"/>refert dictando. voluntas autem libere inclinando et mouendo: 
+            <lb ed="#V" n="50"/>et sic accipitur referre: cum ab Augo ponitur in diffinitione ipsius 
+            <lb ed="#V" n="51"/>vti.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e348">
+            ¶ Ad 2m cum dicis quod ratio vtitur omnibus iudicando etc. 
+            <lb ed="#V" n="52"/>Dico quod ibi accipitur vti non proprie sed pro actu primo ad actum 
+            <lb ed="#V" n="53"/>vtendi proprie dictu: vel accipitur ibi vti secundum quod dicit 
+            execu<lb ed="#V" n="54" break="no"/>tionem realis applicationis postrad actum suum.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e357">
+            ¶ Ad 3m 
+            di<lb ed="#V" n="55" break="no"/>co quod procedit secundum quod vti accipitur pro executione reali 
+            ap<lb ed="#V" n="56" break="no"/>plicationis alicuius rei ad suum actum frequentata.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e364">
+            ¶ Ad 4m 
+            <lb ed="#V" n="57"/>cum dicis quod vti re aliqua est ipsum realiter applicare ad finem 
+            <lb ed="#V" n="58"/>debitum etc. Dico quod executio istius realis applicationis bene 
+            <lb ed="#V" n="59"/>est cuiuslibet potentie actiue: quia tamen ista realis applicatio est 
+            <lb ed="#V" n="60"/>solius voluntatis: sicut principaliter sub deo mouentis: quamuis sit 
+            <lb ed="#V" n="61"/>ipsius intellectus sicut dirigentis: quia voluntas est principaliter 
+            <lb ed="#V" n="62"/>mouens alias potentias ad illam executionem et actiones 
+            ma<lb ed="#V" n="63" break="no"/>gis attribuuntur principali mouenti quam insttris. ideo vti non est 
+            <lb ed="#V" n="64"/>ita proprie aliarum potentiarum sic ipsius voluntatis.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a03899-Dd1e385">
+          <head xml:id="kzz7yh-a03899-Hd1e387">Quaestio 2</head>
+          <head xml:id="kzz7yh-a03899-Hd1e395" type="question-title">Utrum qualibet re sit utendum</head>
+          <p xml:id="kzz7yh-a03899-d1e389">
+            ¶ Quaestio ii. 
+            <lb ed="#V" n="65"/>Secundo quaeritur utrum qualibet re sit 
+            uten<lb ed="#V" n="66" break="no"/>dum. Et videtur quod sic deo vtendum
+            <lb ed="#V" n="67"/>est sicut ostendam: ergo multo fortius qualibet re alia est 
+            <!--00025.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="68"/>vtendum. Assumptum probatur. quia super illud Luc. 15. 
+            <lb ed="#V" n="69"/>quanti mercennarii etc. Dicit glo. quod licet deo seruire 
+            <lb ed="#V" n="70"/>intuitu mercedis: sed maxime seruitur deo ipsum amando: ergo 
+            <lb ed="#V" n="71"/>licitum est deum amare propter mercedem. hoc autem est vti deo: quia qui 
+            <lb ed="#V" n="72"/>deum amat propter mercedem deum refert ad mercedem in 
+            intentio<lb ed="#V" n="73" break="no"/>ne
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e415">
+            ¶ Item Augustinus. x. de tri. c. xi. omnis qui fruitur vtitur. sed sicut 
+            <lb ed="#V" n="74"/>ipse dicit de doc. christi libro primo parum post principium. Res quibus 
+            <lb ed="#V" n="75"/>fruendum est sunt pater et filius et spiritus sanctus. ergo vtendum est patre et 
+            <lb ed="#V" n="76"/>filio et spiritus sanctio. ergo multo fortius quacumque re alia.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e424">
+            ¶ Item 
+            li<lb ed="#V" n="77" break="no"/>citum est aliquid magis cognoscem quam summam veritatem. ergo similiter 
+            lici<lb ed="#V" n="78" break="no"/>tum est aliquid magis diligem quam summam bonitatem. sed quod licitum 
+            <lb ed="#V" n="79"/>est minus diligem licitum est referre in intentione ad magis 
+            <lb ed="#V" n="80"/>dilectum. hoc aut est vti. ergo vtendum est summa bonitate multo 
+            <lb ed="#V" n="81"/>fortius ergo quacumque re alia est vtendum.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e437">
+            ¶ Item Augustinus. x. de 
+            <lb ed="#V" n="82"/>tri. c. xi. vti est aliquid assumen in facultatem voluntatis. sed 
+            <lb ed="#V" n="83"/>peccata possunt assumi in facultatem voluntatis: ergo peccatis est 
+            vten<lb ed="#V" n="#2" break="no"/>dum multofortius ergo quacumque realia: cum peccata formaliter 
+            lo<lb ed="#V" n="85" break="no"/>quendo non debent dici res sed voluntarii defectus rerum. 
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e449">
+            <lb ed="#V" n="86"/>Contra Augustinum libro. 83. q. q xxx. omnis humana peruersio quod 
+            <lb ed="#V" n="87"/>est vitium vocatur est fruendis vti velle atque 
+            <lb ed="#V" n="88"/>frui vtendis: sed deo fruendum est. Unde Augustinus per de doc. christi. 
+            <lb ed="#V" n="89"/>inter medium et finem. Hec summa merces est vt ipso 
+            perfru<lb ed="#V" n="90" break="no"/>amur: ergo re increata vtendum non est.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e462">
+            ¶ Item vti re aliqua est 
+            <lb ed="#V" n="91"/>ipsam applicare ad finem debitum in re vivel in intentione. sed 
+            pec<lb ed="#V" n="92" break="no"/>catu non est ordinatum ad aliquem finem debitum: quia est quedam 
+            <lb ed="#V" n="93"/>deordinatio a fine debito. ergo peccato non est vtendum. 
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e471">
+            <lb ed="#V" n="94"/>Respondeo quod re increata non est vtendum: quia vti re aliqua 
+            <lb ed="#V" n="95"/>vt iam dictum est ipsam referre ad finem 
+            debi<lb ed="#V" n="96" break="no"/>tum reali applicatione vel intentione: illa ergo re est vtendum que 
+            <lb ed="#V" n="97"/>ordinabilis est in finem: non illa que ad finem non ordinatur sed 
+            fi<lb ed="#V" n="98" break="no"/>nis est aliarum rerum: deus autem non ordinatur ad finem. sed est vltimus 
+            <lb ed="#V" n="99"/>finis creaturarum. et ideo non est vtendum re increata 
+            <lb ed="#V" n="100"/>sed qualibet creata re est vtendum.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e489">
+            <lb ed="#V" n="101"/>Ad primum in oppositum cum dicis quod licet deo seruire 
+            in<lb ed="#V" n="102" break="no"/>tuitu mercedis etc. dico quod intelligendum 
+            <lb ed="#V" n="103"/>est de mercede increata que deus est qui est summa merces 
+            di<lb ed="#V" n="104" break="no"/>ligentium se. Unde dixit ad Abraham Gen. 15 Noli timere 
+            <lb ed="#V" n="105"/>Abraham ego protector tuus sum et merces tua magna 
+            ni<lb ed="#V" n="106" break="no"/>mis: et hoc patet si legitur littera glo. primallegate que talis est: Qui 
+            <lb ed="#V" n="107"/>futur mercedis intuitu digna operari satagunt quotidianis 
+            <lb ed="#V" n="108"/>superne gratiae reficiuntur alimentis.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e509">
+            ¶ Ad 2m cum dicis quod omnis 
+            <lb ed="#V" n="109"/>qui fruitur vtitur etc. dico quod sumitur ibi: vti nimis improprie 
+            <lb ed="#V" n="110"/>et nimis large. extendit enim vti ad omnem actum volendi: quod 
+            <lb ed="#V" n="111"/>patet: quia postquam dixit Aug. omnis qui fruitur vtitur: statim subiciugit: 
+            <lb ed="#V" n="112"/>assumit enim aliquid in facultatem voluntatiss
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e520">
+            ¶ Ad 3m cum 
+            <lb ed="#V" n="113"/>dicis quod licitum est magis aliquid cognoscem quam summam 
+            verita<lb ed="#V" n="114" break="no"/>tem etc. dico quod si ita faciliter possemus magis cognoscem per gratiam 
+            <lb ed="#V" n="115"/>communem veritatem increatam quam creatam. Sicut possumus magis 
+            <lb ed="#V" n="116"/>diligem bonitatem increatam quam creatam: non esset nobis licitum 
+            <lb ed="#V" n="117"/>magis cognoscem veritatem creatam quam increatam: nunc autem ita non 
+            <lb ed="#V" n="118"/>est quia nostra dilectio plus ascendit quam nostra cognitio. vnde super 
+            <lb ed="#V" n="119"/>illudverbum ange. hierar. 7. c. calidum acntum et superferuidum. 
+            <lb ed="#V" n="120"/>Habetur in commento. dilectio supeminet scientie et maior est 
+            <lb ed="#V" n="121"/>intelligentia. plus enim diligitur quam intelligatur et appropinquant 
+            <lb ed="#V" n="122"/>dilectio et intrat vbi intellectus foris est. sed quia per gratiam 
+            communem<lb ed="#V" n="123" break="no"/>potest intellectus noster magis assentire primo veritati quam veritati 
+            crea<lb ed="#V" n="124" break="no"/>te: non est licitum nobis magis assentiter alicui veritati 
+            crea<lb ed="#V" n="125" break="no"/>te quam increate.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e552">
+            ¶ Ad quartum cum dicis quod peccata possunt 
+            <lb ed="#V" n="126"/>assumi in facultatem voluntatis. dico quod vti aliquo ad 
+            prae<lb ed="#V" n="127" break="no"/>sens potest accipi quaedrupliciter: aut sicut instro quo operamur: 
+            si<lb ed="#V" n="128" break="no"/>cut carpentarius vtitur securi et sic sola voluntate vtimur 
+            ac<lb ed="#V" n="129" break="no"/>cipiendo vti proprie et principaliter: autem sicut hitu quo 
+            regula<lb ed="#V" n="130" break="no"/>mur et sic vtimur hitu virtutis non vitii: et sic intelligitur 
+            <lb ed="#V" n="131"/>verbum Magistri libro 2. dis. 17. et accipitur ab Augo 2o de libero ar. 
+            <lb ed="#V" n="132"/>versus finem cum dicit quod nullus male vtitur virtute: aut sicut 
+            <lb ed="#V" n="133"/>actu quodo mouemur et sic non omni actu contingit bene vti: sic illo 
+            <lb ed="#V" n="134"/>qu mox nominatus coniunctus est malo vt mentiri et sic de consimilibus. 
+            <!--00026.xml-->
+            <pb ed="#V" n="6-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>Aut sicut obiecto circa quod mouemur: et sic omni alio a deo 
+            <lb ed="#V" n="2"/>vtendum est: vel accipiendo si bonum est: vel detestando si est 
+            <lb ed="#V" n="3"/>malum culpe: vel patienter sustinendo si est malum pene: tamen 
+            <lb ed="#V" n="4"/>quia vtile dicit aliquid quod in se hebet vnde ordinetur cuiusmodi 
+            <lb ed="#V" n="5"/>non est malitia: ideo non debet concedi quod vtendum sit malitia: quia 
+            to<lb ed="#V" n="6" break="no"/>ta ratio sue ordinationis est ex parte ordinantis qui bene vtitur 
+            ma<lb ed="#V" n="7" break="no"/>litia ipsum detestando propter deum. Unde non est concedendum quod quicquid 
+            <lb ed="#V" n="8"/>potest assumi in facultatem voluntatis cadat sub vsu proprie 
+            <lb ed="#V" n="9"/>dicto nisi intelligentia de hoc quod est assumptibile in 
+            faculta<lb ed="#V" n="#2" break="no"/>tem voluntatis acceptabile propter aliud.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a03899-Dd1e603">
+          <head xml:id="kzz7yh-a03899-Hd1e605">Quaestio 3</head>
+          <head xml:id="kzz7yh-a03899-Hd1e617" type="question-title">utrum quaelibet res habens voluntatem utatur</head> 
+          <p xml:id="kzz7yh-a03899-d1e607">
+            ¶ Questio. iii. 
+            <lb ed="#V" n="11"/>Tertio queritur vtrum quelibet res habens 
+            volu<lb ed="#V" n="12" break="no"/>tatem vtatur. Et videtur quod non. Augustinus primo de 
+            <lb ed="#V" n="13"/>doc. christi. inter medium et finem. Res quibus vtimur ad 
+            <lb ed="#V" n="14"/>idreferimus vt bonitate dei perfruamur. sed ipse non 
+            <lb ed="#V" n="15"/>refert aliquam rem ad se: vt per hoc ipse fruatur bonitate 
+            <lb ed="#V" n="16"/>sua. ergo deus nulla re vtitur.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e623">
+            ¶ Item qui vtitur aliqua re indiget ea. sed 
+            <lb ed="#V" n="17"/>secundum psalmistam. Deus bonorum nostrorum non eget: ergo deus nullo 
+            bo<lb ed="#V" n="18" break="no"/>no creato vtitur: cum ergo non vtatur seipso videtur quod ipse non 
+            vti<lb ed="#V" n="19" break="no"/>tur. Non est ergo verum quod quelibet res habens voluntatem vtatur. 
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e632">
+            <lb ed="#V" n="20"/>¶ Item quelibet btus est res habens voluntatem: sed nullus 
+            <lb ed="#V" n="21"/>beatus vtitur cum ipsi sint in termino et motus cessat cum peruenitur 
+            <lb ed="#V" n="22"/>ad terminum: vti autem quaedam motus est ad terminum: ergo non est 
+            <lb ed="#V" n="23"/>verum qui quelibet res habens voluntatem vtatur. 
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e643">
+            <lb ed="#V" n="24"/>Contra. Prouerb. 16. uniuersa propter semetipsum operatus
+            <lb ed="#V" n="25"/>est dicens: ergo omnia creata refert ad seipsum vt ad 
+            <lb ed="#V" n="26"/>finem. sed vti re aliqua est referre ipsum in debitu fine: ergo deus 
+            <lb ed="#V" n="27"/>vtitur omnibus creaturis: sed minus videbatur vti conuenire deo 
+            quae<lb ed="#V" n="28" break="no"/>alicui alii rei habenti voluntatem cum deus summe fruatur seipso. ergo 
+            <lb ed="#V" n="29"/>quelibet res habens voluntatem vtitur. 
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e660">
+            <lb ed="#V" n="30"/>¶ Respondeo. Uti re aliqua est ipsum referre in debitum 
+            fi<lb ed="#V" n="31" break="no"/>nem. sed omnis res habens volutatem potest aliquam 
+            <lb ed="#V" n="32"/>creaturam referre in debitum finem siue sit creator nue 
+            cre<lb ed="#V" n="33" break="no"/>tura beatam: siue creatura viatrix: ergo quelibet res habens 
+            vo<lb ed="#V" n="34" break="no"/>luntatem vtitur excepta creatura damnata que voluntate sua 
+            <lb ed="#V" n="35"/>non vtitur sed abutitur illud quod refert non in finem debitum sed in 
+            <lb ed="#V" n="36"/>debitum referendo. sed ipsa creatura que vtitur re: qua vtitur 
+            <lb ed="#V" n="37"/>refert in finem debitum qui est aliuda referente. deus aut refert 
+            <lb ed="#V" n="38"/>ea quibus vtitur ad finem debitum qui est ipsemet. Quod autem deus vtatur 
+            <lb ed="#V" n="39"/>creatura testatur Augustinus primo de doc. christi. inter medium et finem: 
+            <lb ed="#V" n="40"/>dicens sic de deo. Non fruitur nobis sed vtitur. natura si neque fruitur 
+            <lb ed="#V" n="41"/>neque vtitur non inuenio quomodo diligat: sed neque sic vtitur vt nos 
+            <lb ed="#V" n="42"/>nam nos res quibus vtimur ad id referimus vt bonitate dei 
+            <lb ed="#V" n="43"/>perfruamur. deus autem ad suam bonitatem vsum nostrum refert.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e693">
+            <lb ed="#V" n="44"/>Ad primum in oppositum cum dicis quod res quibus 
+            vti<lb ed="#V" n="45" break="no"/>mur ad id referimus vt bonitate 
+            <lb ed="#V" n="46"/>dei perfruamur etc. dico quod Augustinus ibi loquitur de nostro vti: quod 
+            <lb ed="#V" n="47"/>patet in hoc quod dicit res quibus vtimur etc.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e704">
+            ¶ Ad secundum cum 
+            di<lb ed="#V" n="48" break="no"/>cis quod qui aliqua re vtitur indiget ea. Dico quod non est verum quando 
+            il<lb ed="#V" n="49" break="no"/>le qui vtitur rem quam vtitur non refert in seipsm vt in finem propter 
+            sui<lb ed="#V" n="50" break="no"/>ipsius vtilitatem: sed bonitatem sic est vtitur deus.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e713">
+            ¶ Ad tertium 
+            <lb ed="#V" n="51"/>cum dicis quod motus cessat cum peruenitur ad terminum etc. Dico 
+            <lb ed="#V" n="52"/>quod verum est de illo motu qui est propter distantiam a termino: sed non 
+            <lb ed="#V" n="53"/>est verum de motu qui causatur ex coniunctione cum termino sius 
+            <lb ed="#V" n="54"/>cum fine perfectus autem vsus causatur ex coniunctione voluntatis cum 
+            <lb ed="#V" n="55"/>ipso fine. Unde beati propter hoc quod sunt coniuncti cum fine perfectius 
+            <lb ed="#V" n="56"/>diligendo referunt creaturas quas diligunt in finem quam cum 
+            <lb ed="#V" n="57"/>erant viatores adhuc non perfecte coniuncti cum fine.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a03899-Dd1e733">
+          <head xml:id="kzz7yh-a03899-Hd1e735">Quaestio 4</head>
+          <head xml:id="kzz7yh-a03899-Hd1e751" type="question-title">Utrum usus praecedat electione</head>
+          <p xml:id="kzz7yh-a03899-d1e737">
+            Quaestio iiii 
+            <lb ed="#V" n="58"/>QUarto queritur vtum vsus praecedat 
+            ele<lb ed="#V" n="#2" break="no"/>ctionem. Et videtur quod non. Dam. libro
+            <lb ed="#V" n="60"/>2 capitulo 21. post electionem mens impetu facit ad 
+            opera<lb ed="#V" n="61" break="no"/>tionem et postea vtitur. ergo vsus non praecedit sed sequitur 
+            <lb ed="#V" n="62"/>electionem.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e750">
+            ¶ Item eligem est praeoptare vnum 
+            alte<lb ed="#V" n="63" break="no"/>ri: vsus autem super hoc videtur addere relationem in finem. 
+            <lb ed="#V" n="64"/>Cum ergo illud quod se hebet per additionem ad aliquid sit 
+            po<lb ed="#V" n="65" break="no"/>sterius illo: videtur quod vsus sit posterior electione. 
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e759">
+            <lb ed="#V" n="66"/>Contra Absolutum prius est relatiuo ergo minus relatum 
+            <lb ed="#V" n="67"/>ante magis relatum. sed electio importat duas relatio
+            <!--00026.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="68" break="no"/>nes: quia importat relationem ad finem et relationem ad illud cui 
+            ali<lb ed="#V" n="#2" break="no"/>quid praeeligitur. Unde Dam. libro 2. c. 21. dicit quod electio ex 
+            duo<lb ed="#V" n="70" break="no"/>bus praeiacentibus eligem hoc est pram altero optare. vsus autem non 
+            impor<lb ed="#V" n="#2" break="no"/>tat rationem nisi ad finem. ergo vsus naturali ordine praecedit electionem. 
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e779">
+            <lb ed="#V" n="72"/>Respondeo Dico quod si accipiatur vsus pro eo quod est 
+            re<lb ed="#V" n="73" break="no"/>ferre aliquid ad finem debitum in intentione tantum. 
+            <lb ed="#V" n="74"/>sic dico quod naturali ordine vsus praecedit electionem. sicut bene 
+            pro<lb ed="#V" n="75" break="no"/>bat ratio facta ad hanc partem. Si autem accipiatur vsus pro 
+            execu<lb ed="#V" n="76" break="no"/>tione realis applicationis alicuius rei ad finem debitum. sic 
+            <lb ed="#V" n="77"/>dico quod electio vsum praecedit: quia per electionem voluntatis est 
+            <lb ed="#V" n="78"/>incompleta dispositione ad imperandum executionem. 
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e798">
+            <lb ed="#V" n="79"/>Ad primum in oppositum cum arguis per auctoritatem 
+            <lb ed="#V" n="80"/>Damasceni. Dico quod Damascenus accipit ibi vsum 
+            <lb ed="#V" n="81"/>aut pro executione realis applicationis alicuius rei ad finem 
+            <lb ed="#V" n="82"/>debitum: aut pro consuetudine: et sic accipiendo vsum verum est 
+            <lb ed="#V" n="83"/>quod sequitur electionem.
+          </p>
+          <p xml:id="kzz7yh-a03899-d1e811">
+            ¶ Ad secundum cum dicis quod vsus videtur 
+            <lb ed="#V" n="84"/>addem super electionem relationem in finem etc. Dico quod tam vsus quam 
+            <lb ed="#V" n="85"/>electio important relationem ad illud cui aliud praeeligitur: et ita secundum 
+            <lb ed="#V" n="86"/>quod vti accipitur pro intentione realis applicationis alicuius 
+            <lb ed="#V" n="87"/>rei in finem debitum. sic vsus praecedit electionem. quia electio se 
+            <lb ed="#V" n="88"/>habet per additionem ad vsum: sicut cum voluntas amittit aliquid 
+            <lb ed="#V" n="89"/>ad hoc vt in finem debitum referatur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,119 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="16-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a10834"><!-- l1d3p1cl -->
-            <head xml:id="kzz7yh-a10834-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-a10834-d1e103">
-               <lb ed="#V" n="14"/>CIRca litteram (a creatura mundi.) i. ab 
-      ho<lb ed="#V" n="15" break="no"/>mine: quia homo in aliquo communicat
-      <lb ed="#V" n="16"/>cum omni creatura habet commune esse cum 
-      ele<lb ed="#V" n="17" break="no"/>mentis lapidibus et aliis innaninatis: viuere cum 
-      <lb ed="#V" n="18"/>plantis: sentire cum brutis: apprehendere 
-      in<lb ed="#V" n="19" break="no"/>telligibilia cum angelis: quamuis alio modo. (Nam sicut 
-      Am<lb ed="#V" n="20" break="no"/>bro. ait.) Hic ponunt quatuor rationes ad ostendendum quod ex 
-      <lb ed="#V" n="21"/>consideratione creaturarum potest cognosci aliquid esse supra 
-      <lb ed="#V" n="22"/>omnem creaturam. Et hoc est deus.
-   </p>
-            <p xml:id="kzz7yh-a10834-d1e125">
-      ¶ Prima ratio 
-      proce<lb ed="#V" n="23" break="no"/>dit ex hac suppositione quod ad producendum aliquid de nihilo 
-      <lb ed="#V" n="24"/>exigitur potentia infinita. ideo nulla creatura hoc potest. 
-   </p>
-            <p xml:id="kzz7yh-a10834-d1e132">
-               <lb ed="#V" n="25"/>¶ Alie tres procedunt ex suppositione status in causis vt 
-      <lb ed="#V" n="26"/>quod supra omne mutabile sit aliquod immutabile: et supra 
-      <lb ed="#V" n="27"/>omne bonum et melius aliquod optimum: et supra omne 
-      pul<lb ed="#V" n="28" break="no"/>chrum aliquod pulcherrimum. (Ex perpetuitate namque creatu 
-      <lb ed="#V" n="29"/>rarum.) quia conditor creature fuit ante omnem creaturam 
-      dura<lb ed="#V" n="30" break="no"/>tione: et quod sic ante creaturam fuit: ab eterno fuit: quia cum 
-      <lb ed="#V" n="31"/>creatura ceperit ex tempore si conditor durytione 
-      creatu<lb ed="#V" n="32" break="no"/>ram non precessisset iam non creator sed creatura esset. 
-      <lb ed="#V" n="33"/>(Ex ordine et dispositione sapiens.) Nota quod est ordo rerum 
-      <lb ed="#V" n="34"/>inter se et iste per appropriationem idicat dei sapientiam et est 
-      ordo<lb ed="#V" n="35" break="no"/>rerum in fine et iste per appropriationem iudicat dei 
-      bonita<lb ed="#V" n="36" break="no"/>tem. (Unitatem quandam in se ostendunt et speciem et ordinem.) 
-      No<lb ed="#V" n="37" break="no"/>ta quod assignatur vestigium quandoque in modo specie et ordine et 
-      <lb ed="#V" n="38"/>quandoque in vnitate specie et ordine vt hoc. quandoque in mensura 
-      nume<lb ed="#V" n="39" break="no"/>ro et pondere. Sapent. xi. Et ad idem possunt referri. In hac 
-      <lb ed="#V" n="40"/>enim littera accipitur vnitas pro vnitate terminata quod refertur 
-      <lb ed="#V" n="41"/>ad modum mensura vt visum est in quaestione refertur ad modum 
-      <lb ed="#V" n="42"/>quia terminatum est mensuratum. Et quia secundum quod dicit Augustinus 22 
-      <lb ed="#V" n="43"/>de ci. dei. c. 19. Omnis corporis pulchritudo est partium 
-      con<lb ed="#V" n="44" break="no"/>gruentia cum quadam suauitate coloris. et in omni creatura 
-      <lb ed="#V" n="45"/>quantuncumque simplici est aliqua congruens pluralitas: saltem ex 
-      <lb ed="#V" n="46"/>actuali et potentiali vniversal absoluto et relatiuo quae loco suauis 
-      <lb ed="#V" n="47"/>hebet aliqualem consigntionem colors. Idon numerus refertur ad speciem per 
-      <lb ed="#V" n="48"/>quam intelligitur pulchritudo quam hebet creatura eo ipso quod 
-      <lb ed="#V" n="49"/>facta est ad pulcherrimum exemplar: et quia res per suum 
-      pon<lb ed="#V" n="50" break="no"/>dus ordinatur ad finem in quem tendit. ideo pondus refertur ad 
-      <lb ed="#V" n="51"/>ordinenc per quod factum est omne quod substantialiter et naturaliter est. Hoc dicit 
-      <lb ed="#V" n="52"/>ad excludendum peccatum: quia peccatum a deo non est: nec substantialiter 
-      <lb ed="#V" n="53"/>est. Unde glo. Aug. super illud verbum Io. i. (Sine ipso factum 
-      <lb ed="#V" n="54"/>est nihil.) Uult quod malum nihil est formaliter loquendo. et hoc 
-      <lb ed="#V" n="55"/>est quia defectus debiti boni est: nec est generaliter a causa: immo est a 
-      <lb ed="#V" n="56"/>causa deficiente. (In tertio signo.) 
-    </p>
-            <p xml:id="kzz7yh-a10834-d1e204">
-               <lb ed="#V" n="57"/>Contra precesserat conuersio maneo sane in leprosam. 
-      <lb ed="#V" n="58"/>Exo. 4. et vnge in serpentes: et atque in 
-      san<lb ed="#V" n="59" break="no"/>guinem. Exo. 7. Et eductio ranarum. Exod. 8. 
-   </p>
-            <p xml:id="kzz7yh-a10834-d1e214">
-               <lb ed="#V" n="60"/>Respondeo loquitur hoc de signo quod fuit signum 
-      <lb ed="#V" n="61"/>et plaga non signum tamen. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="16-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a10834"><!-- l1d3p1cl -->
+        <head xml:id="kzz7yh-a10834-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-a10834-d1e103">
+          <lb ed="#V" n="14"/>CIRca litteram (a creatura mundi.) i. ab 
+          ho<lb ed="#V" n="15" break="no"/>mine: quia homo in aliquo communicat
+          <lb ed="#V" n="16"/>cum omni creatura habet commune esse cum 
+          ele<lb ed="#V" n="17" break="no"/>mentis lapidibus et aliis innaninatis: viuere cum 
+          <lb ed="#V" n="18"/>plantis: sentire cum brutis: apprehendere 
+          in<lb ed="#V" n="19" break="no"/>telligibilia cum angelis: quamuis alio modo. (Nam sicut 
+          Am<lb ed="#V" n="20" break="no"/>bro. ait.) Hic ponunt quatuor rationes ad ostendendum quod ex 
+          <lb ed="#V" n="21"/>consideratione creaturarum potest cognosci aliquid esse supra 
+          <lb ed="#V" n="22"/>omnem creaturam. Et hoc est deus.
+        </p>
+        <p xml:id="kzz7yh-a10834-d1e125">
+          ¶ Prima ratio 
+          proce<lb ed="#V" n="23" break="no"/>dit ex hac suppositione quod ad producendum aliquid de nihilo 
+          <lb ed="#V" n="24"/>exigitur potentia infinita. ideo nulla creatura hoc potest. 
+        </p>
+        <p xml:id="kzz7yh-a10834-d1e132">
+          <lb ed="#V" n="25"/>¶ Alie tres procedunt ex suppositione status in causis vt 
+          <lb ed="#V" n="26"/>quod supra omne mutabile sit aliquod immutabile: et supra 
+          <lb ed="#V" n="27"/>omne bonum et melius aliquod optimum: et supra omne 
+          pul<lb ed="#V" n="28" break="no"/>chrum aliquod pulcherrimum. (Ex perpetuitate namque creatu 
+          <lb ed="#V" n="29"/>rarum.) quia conditor creature fuit ante omnem creaturam 
+          dura<lb ed="#V" n="30" break="no"/>tione: et quod sic ante creaturam fuit: ab eterno fuit: quia cum 
+          <lb ed="#V" n="31"/>creatura ceperit ex tempore si conditor durytione 
+          creatu<lb ed="#V" n="32" break="no"/>ram non precessisset iam non creator sed creatura esset. 
+          <lb ed="#V" n="33"/>(Ex ordine et dispositione sapiens.) Nota quod est ordo rerum 
+          <lb ed="#V" n="34"/>inter se et iste per appropriationem idicat dei sapientiam et est 
+          ordo<lb ed="#V" n="35" break="no"/>rerum in fine et iste per appropriationem iudicat dei 
+          bonita<lb ed="#V" n="36" break="no"/>tem. (Unitatem quandam in se ostendunt et speciem et ordinem.) 
+          No<lb ed="#V" n="37" break="no"/>ta quod assignatur vestigium quandoque in modo specie et ordine et 
+          <lb ed="#V" n="38"/>quandoque in vnitate specie et ordine vt hoc. quandoque in mensura 
+          nume<lb ed="#V" n="39" break="no"/>ro et pondere. Sapent. xi. Et ad idem possunt referri. In hac 
+          <lb ed="#V" n="40"/>enim littera accipitur vnitas pro vnitate terminata quod refertur 
+          <lb ed="#V" n="41"/>ad modum mensura vt visum est in quaestione refertur ad modum 
+          <lb ed="#V" n="42"/>quia terminatum est mensuratum. Et quia secundum quod dicit Augustinus 22 
+          <lb ed="#V" n="43"/>de ci. dei. c. 19. Omnis corporis pulchritudo est partium 
+          con<lb ed="#V" n="44" break="no"/>gruentia cum quadam suauitate coloris. et in omni creatura 
+          <lb ed="#V" n="45"/>quantuncumque simplici est aliqua congruens pluralitas: saltem ex 
+          <lb ed="#V" n="46"/>actuali et potentiali vniversal absoluto et relatiuo quae loco suauis 
+          <lb ed="#V" n="47"/>hebet aliqualem consigntionem colors. Idon numerus refertur ad speciem per 
+          <lb ed="#V" n="48"/>quam intelligitur pulchritudo quam hebet creatura eo ipso quod 
+          <lb ed="#V" n="49"/>facta est ad pulcherrimum exemplar: et quia res per suum 
+          pon<lb ed="#V" n="50" break="no"/>dus ordinatur ad finem in quem tendit. ideo pondus refertur ad 
+          <lb ed="#V" n="51"/>ordinenc per quod factum est omne quod substantialiter et naturaliter est. Hoc dicit 
+          <lb ed="#V" n="52"/>ad excludendum peccatum: quia peccatum a deo non est: nec substantialiter 
+          <lb ed="#V" n="53"/>est. Unde glo. Aug. super illud verbum Io. i. (Sine ipso factum 
+          <lb ed="#V" n="54"/>est nihil.) Uult quod malum nihil est formaliter loquendo. et hoc 
+          <lb ed="#V" n="55"/>est quia defectus debiti boni est: nec est generaliter a causa: immo est a 
+          <lb ed="#V" n="56"/>causa deficiente. (In tertio signo.) 
+        </p>
+        <p xml:id="kzz7yh-a10834-d1e204">
+          <lb ed="#V" n="57"/>Contra precesserat conuersio maneo sane in leprosam. 
+          <lb ed="#V" n="58"/>Exo. 4. et vnge in serpentes: et atque in 
+          san<lb ed="#V" n="59" break="no"/>guinem. Exo. 7. Et eductio ranarum. Exod. 8. 
+        </p>
+        <p xml:id="kzz7yh-a10834-d1e214">
+          <lb ed="#V" n="60"/>Respondeo loquitur hoc de signo quod fuit signum 
+          <lb ed="#V" n="61"/>et plaga non signum tamen. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

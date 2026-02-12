@@ -1,504 +1,504 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Articulus 1</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Articulus 1</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="42-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a28478"><!-- l1d12a1 -->
-            <head xml:id="kzz7yh-a28478-Hd1e101">Articulus 1</head>
-            <p xml:id="kzz7yh-a28478-d1e103">
-               <lb ed="#V" n="88"/>CIrca hanc distinctionem queruntur 
-      quar<lb ed="#V" n="89" break="no"/>usu ex sorim virum ipiritus 
-      san<lb ed="#V" n="90" break="no"/>ctus perprius procedat a patre quam a filio.
-   </p>
-            <p xml:id="kzz7yh-a28478-d1e112">
-      ¶ De 
-      <lb ed="#V" n="91"/>cundo vtrum plenius a patre quam a filio procedat. 
-   </p>
-            <p xml:id="kzz7yh-a28478-d1e117">
-               <lb ed="#V" n="92"/>¶ Tertio vtrum a patre mediante filio.
-   </p>
-            <p xml:id="kzz7yh-a28478-d1e122">
-      ¶ 
-      Quar<lb ed="#V" n="93" break="no"/>to vtrum generatio sit prior secundum formam intelligendi quam 
-      <lb ed="#V" n="94"/>spiratio.
-   </p>
-            <div xml:id="kzz7yh-a28478-Dd1e130">
-               <head xml:id="kzz7yh-a28478-Hd1e132">Quaestio 1</head>
-               <head xml:id="kzz7yh-a28478-Hd1e136" type="question-title">Utrum spiritus sanctus perprius procedat a payre quam a filio</head>
-               <p xml:id="kzz7yh-a28478-d1e134">
-      ¶ Questio prima. 
-      <lb ed="#V" n="95"/>PRimo ostendo quod spiritus sanctus perprius 
-      <lb ed="#V" n="96"/>procedit a patre quam a filio: quia 
-      cau<lb ed="#V" n="97" break="no"/>sa prior est que agit non supposita auia: quiam que 
-      <lb ed="#V" n="98"/>agit alia presupposita: sed pater spirat non 
-      pre<lb ed="#V" n="99" break="no"/>Dsupposito alio principio. filius spirat 
-      presuppo<lb ed="#V" n="100" break="no"/>sito alio principio scilicet patre. ergo pater perprius producit 
-      <lb ed="#V" n="101"/>spiritum sanctum quam filius.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e152">
-      ¶ Item quod habet aliquid 
-      <lb ed="#V" n="102"/>ex se perprius habet: quam ille qui hoc habet ab alio. Sed 
-      <lb ed="#V" n="103"/>producere spiritum sanctum habet pater ex se: filius habet 
-      <lb ed="#V" n="104"/>hoc a patre. ergo perprius habet hoc pater quam filius. 
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e161">
-                  <lb ed="#V" n="105"/>¶ Item non procedit a patre iam nato filio: quia tunc 
-      <lb ed="#V" n="106"/>esset filio posterior. ergo procedit a patre non nato filio: 
-      <lb ed="#V" n="107"/>et ita perprius a patre quam a filio. 
-    </p>
-               <p xml:id="kzz7yh-a28478-d1e170">
-                  <lb ed="#V" n="108"/>Contra Ansel. in libro de processione spiritus sancti 
-      qua<lb ed="#V" n="109" break="no"/>si in medio. In deo nihil aut natura aut 
-      tem<lb ed="#V" n="110" break="no"/>pore prius: vel posterius est.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e180">
-      ¶ Item Athanasius in trin. 
-      <lb ed="#V" n="111"/>Nihil prius aut posterius. 
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e185">
-                  <lb ed="#V" n="112"/>Respondeo quod spiritus sanctus non procedit 
-      per<lb ed="#V" n="113" break="no"/>prius a patre quam a filio proprie 
-      loquen<lb ed="#V" n="114" break="no"/>do de prioritate. Et hoc patet: quia non procedit 
-      pri<lb ed="#V" n="115" break="no"/>us a patre quam a filio duratione: quia ab vtroque procedit 
-      ab<lb ed="#V" n="116" break="no"/>eterno: nec causalitate: quia causa et causatum proprie 
-      lo<lb ed="#V" n="117" break="no"/>quendo non sunt nisi inter ea que sunt diuerse essentie: 
-      <lb ed="#V" n="118"/>quia causa est ad cuius esse sequitur aliud. nec etiam prius 
-      <!--00098.xml-->
-      <pb ed="#V" n="42-v"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>origine: quia procedit a patre et filio inquantum sunt 
-      spi<lb ed="#V" n="2" break="no"/>ritus sancti vnum originale principium: nec proprie 
-      lo<lb ed="#V" n="3" break="no"/>quendo potest dici quod spiritus sanctus per prius procedat 
-      <lb ed="#V" n="4"/>a patre quam a filio prioritate auctoritatis vel 
-      principalita<lb ed="#V" n="5" break="no"/>tis: nisi exponendo sic: quod potentiam per quam filius 
-      spi<lb ed="#V" n="6" break="no"/>rat habet a patre. Unde et Augustinus postquam dixerat 
-      <lb ed="#V" n="7"/>xv. de trinitate. cap. xviii. Quod spiritus sanctus 
-      principali<lb ed="#V" n="8" break="no"/>ter procedit a patre subiunxit sic. Ideo autem addidi 
-      prin<lb ed="#V" n="9" break="no"/>cipaliter: quia et de filio spiritus sanctus procedere 
-      repe<lb ed="#V" n="10" break="no"/>ritur: sed hoc quoque illi pater dedit.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e231">
-                  <lb ed="#V" n="11"/>Ad primum in oppositum cum dicitur quod 
-      cau<lb ed="#V" n="12" break="no"/>sa prior est que agit alia non 
-      suppo<lb ed="#V" n="13" break="no"/>sita quam econuerso etc.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e240">
-      ¶ Respondeo quod nomen cause 
-      pro<lb ed="#V" n="14" break="no"/>prie loquendo hic non habet locum: sed nomen 
-      princi<lb ed="#V" n="15" break="no"/>pii. Pater autem et filius sunt vnum principium spiritus 
-      <lb ed="#V" n="16"/>sancti. Unde non potest dici quod filius spiret spiritum 
-      san<lb ed="#V" n="17" break="no"/>ctum presupposito alio principio spiritus sancti.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e251">
-      ¶ Ad 
-      se<lb ed="#V" n="18" break="no"/>cundum cum dicitur quod ille qui habet aliquid ex se 
-      perpri<lb ed="#V" n="19" break="no"/>us habet illud quam ille qui hoc habet ab alio etc. Dico quod 
-      <lb ed="#V" n="20"/>verum est si perprius intelligamus principalius. Aliter 
-      <lb ed="#V" n="21"/>non oportet quod verum sit in diuinis. Accipiatur tamen 
-      <lb ed="#V" n="22"/>principalius secundum expositionem modificantem: que dicta 
-      <lb ed="#V" n="23"/>est in corpore questionis.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e267">
-      ¶ Ad tertium dico quod et si non 
-      <lb ed="#V" n="24"/>concedatur quod spiritus sanctus procedit a patre iam nato 
-      <lb ed="#V" n="25"/>filio: aut non nato filio. Dico tamen quod concedi debet quod 
-      <lb ed="#V" n="26"/>non procedit a patre iam nato filio: nec ex hoc potes 
-      con<lb ed="#V" n="27" break="no"/>cludere quod spiritus sanctus sit prior filio. Sed tantum 
-      po<lb ed="#V" n="28" break="no"/>tes concludere quod filius non est prior spiritu sancto. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a28478-Dd1e281">
-               <head xml:id="kzz7yh-a28478-Hd1e283">Quaestio 2</head>
-               <head xml:id="kzz7yh-a28478-Hd1e292" type="question-title">Utrum spiritus sanctus plenius procedat a patre quam a filio</head>
-               <p xml:id="kzz7yh-a28478-d1e285">
-                  <lb ed="#V" n="29"/>¶ Questio. II. 
-      <lb ed="#V" n="30"/>Secundo queritur vtrum spiritus sanctus 
-      <lb ed="#V" n="31"/>plenius procedat a patre quam a 
-      <lb ed="#V" n="32"/>filio. Et videtur quod sic: quia productum plenius 
-      <lb ed="#V" n="33"/>producitur a principio primario quam a secundario: 
-      <lb ed="#V" n="34"/>quod videtur posse probari per primam propositionem 
-      <lb ed="#V" n="35"/>de causis: vbi dicitur quod causa primaria plus influit super 
-      <lb ed="#V" n="36"/>causatum quam causa secundaria: sed pater est primum 
-      prin<lb ed="#V" n="37" break="no"/>cipium spiritus sancti: quia est principium non de 
-      princi<lb ed="#V" n="38" break="no"/>pio. filius autem secundarium principium: quia est 
-      prin<lb ed="#V" n="39" break="no"/>cipium de principio. ergo spiritus sanctus plenius 
-      proce<lb ed="#V" n="40" break="no"/>dit a patre quam a filio.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e314">
-      ¶ Item dicitur primo posteriorum 
-      <lb ed="#V" n="41"/>Quod propterquod vnuquodque tale et illud magis: sed 
-      fili<lb ed="#V" n="42" break="no"/>us spirat propter patrem: ergo magis spirat pater quam 
-      fili<lb ed="#V" n="43" break="no"/>us.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e323">
-      ¶ Item filius habet a patre quod spiret spiritum sanctum 
-      <lb ed="#V" n="44"/>pater vero a nullo. ergo magis spirat pater quam filius.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e328">
-      ¶ Item 
-      <lb ed="#V" n="45"/>a quo procedit res principalius: ab eo procedit plenius. 
-      <lb ed="#V" n="46"/>sed secundum Augustinum. xv. de trinitate. cap. xvii. Spiritus 
-      <lb ed="#V" n="47"/>sanctus procedit a patre principaliter. ergo plenius 
-      pro<lb ed="#V" n="48" break="no"/>cedit a patre quam a filio. 
-    </p>
-               <p xml:id="kzz7yh-a28478-d1e340">
-                  <lb ed="#V" n="49"/>Contra Ubi est vnitas non est magis et minus: sed 
-      pa<lb ed="#V" n="50" break="no"/>ter et filius sunt vnum in spirando. ergo vnus 
-      <lb ed="#V" n="51"/>non spirat alio plenius.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e349">
-      ¶ Item quauis filius habeat a 
-      <lb ed="#V" n="52"/>patre quod creatura sit ab eo: non tamen a patre plenius 
-      pro<lb ed="#V" n="53" break="no"/>cedit creatura quam a filio. ergo a simili quauis filius 
-      habe<lb ed="#V" n="54" break="no"/>at a patre quod producat spiritum sanctum: non propter hoc 
-      <lb ed="#V" n="55"/>sequitur quod spiritus sanctus plenius sit a patre quam a filio. 
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e360">
-                  <lb ed="#V" n="56"/>Respondeo Quamuis potentiam spiratiuam 
-      ha<lb ed="#V" n="57" break="no"/>beat filius a patre: quia tamen 
-      il<lb ed="#V" n="58" break="no"/>la eadem potentia spiratiua que est in patre: est in filio. et 
-      <lb ed="#V" n="59"/>ita nobiliter et ita plenarie sicut in patre. Ideo ita plene 
-      <lb ed="#V" n="60"/>procedit spiritus sanctus a filio: sicut a patre.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e373">
-                  <lb ed="#V" n="61"/>Ad primum in oppositum cum dicitur quod pater est 
-      <lb ed="#V" n="62"/>primum principium spiritus sancti etc 
-      <lb ed="#V" n="63"/>Potest dici quod cum pater et filius sint vnum principium 
-      <lb ed="#V" n="64"/>spiritus sancti. quod non bene dicitur: quod pater sit primum 
-      prin<lb ed="#V" n="65" break="no"/>cipium spiritus sancti.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e386">
-      ¶ Ad secundum cum dicitur quod 
-      <lb ed="#V" n="66"/>propter quod vnumquodque et illud magis etc. Dico quod hec 
-      <lb ed="#V" n="67"/>propositio intelligenda est vbi est vera ratio causalitatis: 
-      <!--00098.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="68"/>lius accipiat a patre vim spiratiuam. Non tamen vis 
-      spi<lb ed="#V" n="69" break="no"/>ratiua est causata a patre in filio: quamuis sibi sit a patre 
-      com<lb ed="#V" n="70" break="no"/>municata: et etiam eadem vis spiratiua in numero que est 
-      <lb ed="#V" n="71"/>in patre dante: est in filio accipiente.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e406">
-      ¶ Ad tertium cum 
-      <lb ed="#V" n="72"/>dicitur quod filius habet a patre quod spiret spiritum sanctum etc. 
-      <lb ed="#V" n="73"/>Dico quod verum est. sed ex hoc non sequitur quod pater 
-      ple<lb ed="#V" n="74" break="no"/>nius spiret quam filius: cum illa eadem potentia in 
-      nume<lb ed="#V" n="75" break="no"/>ro per quam spirat pater sit in filio ita plenarie: et ita 
-      no<lb ed="#V" n="76" break="no"/>biliter sicut in patre
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e420">
-      ¶ Ad 4m dicendum quod Augustinus 
-      <lb ed="#V" n="77"/>dicendo spiritum sanctum principaliter a patre 
-      procede<lb ed="#V" n="78" break="no"/>re: non per hoc intendebat quod plenius procederet a patre: 
-      <lb ed="#V" n="79"/>sed quia pater dedit filio potentiam spirat iuam: per quam 
-      <lb ed="#V" n="80"/>spiritus sanctus spiratur a filio sicut a patre. Sicut ipse. 
-      <lb ed="#V" n="81"/>met Augustinus exponit in eodem loco: vnde 
-      supradi<lb ed="#V" n="82" break="no"/>cta auctoritas sumpta est.
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a28478-Dd1e437">
-               <head xml:id="kzz7yh-a28478-Hd1e439">Quaestio 3</head>
-               <head xml:id="kzz7yh-a28478-Hd1e452" type="question-title">Utrum spiritus sanctus procedat a patre mediante filio</head>
-               <p xml:id="kzz7yh-a28478-d1e441">
-      ¶ Questio. III. 
-      <lb ed="#V" n="83"/>Tertio queritur vtrum spiritus sanctus 
-      pro<lb ed="#V" n="84" break="no"/>cedat a patre mediante filio. Et 
-      vi<lb ed="#V" n="85" break="no"/>detur quod non: quia sicut se habet per se ad per 
-      ac<lb ed="#V" n="86" break="no"/>cidens: ita immediatum ad mediatum. Sed 
-      ni<lb ed="#V" n="87" break="no"/>hil quod est a patre per se: est a patre per accidens 
-      <lb ed="#V" n="88"/>ergo similiter cum spiritus sanctus sit immediate a 
-      pa<lb ed="#V" n="89" break="no"/>tre: non est ab eo filio mediante.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e459">
-      ¶ Item spiritus sanctus 
-      <lb ed="#V" n="90"/>immediatius procedit a filio quam a patre: sed si spiritus 
-      san<lb ed="#V" n="91" break="no"/>ctus procederet a patre mediante filio immediatius 
-      vi<lb ed="#V" n="92" break="no"/>deretur procedere a filio quam a patre: quia immediatior 
-      vi<lb ed="#V" n="93" break="no"/>detur processio que medium non recipit: quam que recipit. 
-      <lb ed="#V" n="94"/>ergo spiritus sanctus non procedit a patre mediante 
-      fi<lb ed="#V" n="95" break="no"/>lio.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e475">
-      ¶ Item vbi non est nisi vnum principium non 
-      po<lb ed="#V" n="96" break="no"/>test vere dici principium mediatum et immediatum. 
-      er<lb ed="#V" n="97" break="no"/>go cum pater et filius sint vnum principium spiritus 
-      san<lb ed="#V" n="98" break="no"/>cti: non potest dici quod pater principiet spiritum sanctum 
-      <lb ed="#V" n="99"/>mediante filio: quia hoc includere videretur patrem 
-      es<lb ed="#V" n="100" break="no"/>se spiritus sancti principium mediatum et filium 
-      princi<lb ed="#V" n="101" break="no"/>pium immediatum. 
-    </p>
-               <p xml:id="kzz7yh-a28478-d1e491">
-                  <lb ed="#V" n="102"/>Contra In imagine actus voluntatis qui 
-      spiritum
-      <lb ed="#V" n="103"/>sanctum representat: procedit a memoriam quae 
-      <lb ed="#V" n="104"/>representat patrem mediante actu intelligentie: qui 
-      re<lb ed="#V" n="105" break="no"/>representat filium. ergo spiritus sanctus a patre procedit 
-      <lb ed="#V" n="106"/>mediante filio.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e505">
-      ¶ Item Richardus. 5 de trinitate. c. 8. 
-      <lb ed="#V" n="107"/>ostendit spiritum sanctum esse a patre mediante filio: et in 
-      <lb ed="#V" n="108"/>sequenti capitulo dicit. Inuenimus oportere esse vneam 
-      <lb ed="#V" n="109"/>aliquam existentiam innascibili quidem immediate tantum 
-      <lb ed="#V" n="110"/>coniunctam. Inuenimus et aliam eiusdem existentie tam 
-      <lb ed="#V" n="111"/>mediata quam immediata germanitate coherere. 
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e518">
-                  <lb ed="#V" n="112"/>Respondeo quod spiritussanctus procedit a patre 
-      <lb ed="#V" n="113"/>mediante filio: et cum hoc a patre 
-      <lb ed="#V" n="114"/>immediate. Unde secundum Richardum. 5 de trinita. c. d. et. 9. 
-      pro<lb ed="#V" n="115" break="no"/>cessio spiritus sancti a patre est mediata et immediata. 
-      Me<lb ed="#V" n="116" break="no"/>diata quidem inquantum procedit a filio: qui filius 
-      proce<lb ed="#V" n="117" break="no"/>dit a patre: immediata etiam quia ab ipso patre spiratur. et 
-      <lb ed="#V" n="118"/>potest poni exemplum aliquale quamuis remotum in 
-      crea<lb ed="#V" n="119" break="no"/>turis: quod ponit Richardus. 5 de trinitate cap. 6 in 
-      produ<lb ed="#V" n="120" break="no"/>ctione ipsius Seth ab Adam: quia ab Adam exiuit 
-      im<lb ed="#V" n="121" break="no"/>mediate: et mediate inquantum exiit ab Eua: que 
-      produ<lb ed="#V" n="122" break="no"/>cta fuit de substantia Ade. 
-    </p>
-               <p xml:id="kzz7yh-a28478-d1e544">
-                  <lb ed="#V" n="123"/>Ad primum in oppositum cum dicitur quod nihil quod 
-      <lb ed="#V" n="124"/>est a patre per se est a patre per 
-      acci<lb ed="#V" n="125" break="no"/>dens etc. Dico quod si accipiatur per accidens pro per aliud: 
-      <lb ed="#V" n="126"/>sic dico quod multa sunt a patre per se: que sunt ab eo par 
-      ali<lb ed="#V" n="127" break="no"/>ud: secuet quelibet actio non defectiua culpabiliter que est a 
-      <lb ed="#V" n="128"/>creatura: quia cuiuslibet talis actionis deus est causa 
-      me<lb ed="#V" n="129" break="no"/>diata: et mediante creatura. Sed si accipiatur per accidens 
-      <lb ed="#V" n="130"/>proprie secundum quod causa per accidens dicitur respectu effectus 
-      <lb ed="#V" n="131"/>quam non producit ex intentione: secundum quem modum 
-      for<lb ed="#V" n="132" break="no"/>tuna dicitur causa per accidens: vel dicatur causa per accidens: que 
-      <lb ed="#V" n="133"/>accidit cause per se secundum quem modum dicimus quod album edificat 
-      <!--00099.xml-->
-      <pb ed="#V" n="43-r"/>
-                  <cb ed="#P" n="a"/>
-                  <lb ed="#V" n="1"/>per accidens: sic dico quod esse causam per accidens 
-      conue<lb ed="#V" n="2" break="no"/>nire non potest dignitati cause prime. Unde hoc modo 
-      lo<lb ed="#V" n="3" break="no"/>quendo de causa per accidens non sequitur. Nihil quod 
-      <lb ed="#V" n="4"/>est a patre per se: est ab eo per accidens. ergo nihil quod 
-      <lb ed="#V" n="5"/>est ab eo immediate est ab eo mediate.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e588">
-      ¶ Ad secundum 
-      <lb ed="#V" n="6"/>cum dicitur quod immediatior videtur processio: que 
-      me<lb ed="#V" n="7" break="no"/>dium non recipit: quam que recipit etc. Dico quod falsum est: 
-      <lb ed="#V" n="8"/>vbi mediatio non repugnat immediationi: sic autem est 
-      <lb ed="#V" n="9"/>in proposito. Sicut videmus quod Seth non minus 
-      im<lb ed="#V" n="10" break="no"/>mediate processit ab Adam: quam si genuisset eum de vna 
-      mu<lb ed="#V" n="11" break="no"/>liere que non fuisset facta de substantia Adam: si deus 
-      <lb ed="#V" n="12"/>fecisset sibi aliquam talem. Uides ergo quod non quecunque 
-      <lb ed="#V" n="13"/>mediatio excludit immediationem.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e608">
-      ¶ Ad tertium cum 
-      <lb ed="#V" n="14"/>dicitur quod vbi non est nisi vnum principium non potest 
-      <lb ed="#V" n="15"/>dici mediatum vel immediatum etc. Dicendum quod cum 
-      <lb ed="#V" n="16"/>dico spiritum sanctum esse a patre mediante filio: non 
-      in<lb ed="#V" n="17" break="no"/>telligo ipsum esse a patre: sicut ab vno principio distincto 
-      <lb ed="#V" n="18"/>a filio in ratione principiandi spiritum sanctum: et a filio: 
-      <lb ed="#V" n="19"/>sicut ab alio principio: sed intelligo quod filius a quo est 
-      spi<lb ed="#V" n="20" break="no"/>ritus sanctus est a patre et ab ipso habet potentiam 
-      spirati<lb ed="#V" n="21" break="no"/>uam per quam pater et ipse sunt vnum principium spiritus sancti. 
-   </p>
-            </div>
-            <div xml:id="kzz7yh-a28478-Dd1e629">
-               <head xml:id="kzz7yh-a28478-Hd1e631">Quaestio 4</head>
-               <head xml:id="kzz7yh-a28478-Hd1e648" type="question-title">Utrum generatio sit prior secundum raionem intelligendi quam spiratio</head>
-               <p xml:id="kzz7yh-a28478-d1e633">
-                  <lb ed="#V" n="22"/>¶ Questio. IIII. 
-      <lb ed="#V" n="23"/>QUarto queritur. Utrum generatio sit
-      <lb ed="#V" n="24"/>prior secundum rationem intelligendi 
-      <lb ed="#V" n="25"/>quam spiratio. Et videtur quod non. Augustinus 9 de trinitate. 
-      <lb ed="#V" n="26"/>ca. vlti. partum mentis procedit appetitus: sed 
-      <lb ed="#V" n="27"/>partus mentis representat emanationem 
-      ver<lb ed="#V" n="28" break="no"/>bi in diuinis. appetitus vero emanationem spiritus sancti. 
-      <lb ed="#V" n="29"/>ergo prior est secundum rationem intelligendi spiratio spiritus. 
-      <lb ed="#V" n="30"/>sancti quam generatio verbi.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e655">
-      ¶ Item quanto aliquid 
-      commu<lb ed="#V" n="31" break="no"/>nius: tanto prius secundum rationem intelligendi: sed 
-      spiratio<lb ed="#V" n="32" break="no"/>actiua est communior: quam generatio actiua. ergo prior est secundum 
-      <lb ed="#V" n="33"/>rationem intelligendi.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e664">
-      ¶ Item generatio et spiratio eque 
-      <lb ed="#V" n="34"/>immediate sunt a patre: sed primum et immediate idem. 
-      <lb ed="#V" n="35"/>Unde propositio immediata est qua non est altera prior. 
-      pri<lb ed="#V" n="36" break="no"/>mo posteriorum. ergo eque prima secundum rationem intelligendi 
-      <lb ed="#V" n="37"/>est spiratio sicut generatio.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e675">
-      ¶ Item actus spirandi nihil 
-      <lb ed="#V" n="38"/>presupponit nisi potentiam spiratiuam: vel ea mediante: 
-      <lb ed="#V" n="39"/>quia inter potentiam et actum non est medium: sed 
-      poten<lb ed="#V" n="40" break="no"/>tia spiratiua non presupponit generationem: quia per 
-      ge<lb ed="#V" n="41" break="no"/>nerationem communicatur filio a patre. Rem autem 
-      com<lb ed="#V" n="42" break="no"/>municari presupponit ipsam prehaberi a communicante. ergo 
-      <lb ed="#V" n="43"/>spiratio secundum rationem intelligendi non presupponit generationem. 
-    </p>
-               <p xml:id="kzz7yh-a28478-d1e692">
-                  <lb ed="#V" n="44"/>Contra in imagine prior est emanatio notitie a 
-      memo<lb ed="#V" n="45" break="no"/>ria quam emanatio amoris. quia secundum Aug. x. de tri. 
-      <lb ed="#V" n="46"/>ca. primo, Incognita non possumus diligere. ergo a simii in 
-      <lb ed="#V" n="47"/>diuinis prior est emanatio verbi secundum rationem 
-      intelligen<lb ed="#V" n="48" break="no"/>di quam emanatio amoris qui est spiritus sanctus.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e705">
-      ¶ Item 
-      <lb ed="#V" n="49"/>cum spiritus sanctus procedat per modum mutui 
-      amo<lb ed="#V" n="50" break="no"/>ris qui secundum rationem intelligendi presupponit 
-      distinctio<lb ed="#V" n="51" break="no"/>nem amantium: eius spiratio presupponit secundum rationem 
-      <lb ed="#V" n="52"/>intelligendi distinctionem spirantium: sed spirantes scilicet pater et 
-      fi<lb ed="#V" n="53" break="no"/>lius distinguuntur per generare et generari. ergo spiratio 
-      presup<lb ed="#V" n="54" break="no"/>ponit secundum creationem intelligendi generationem. 
-    </p>
-               <p xml:id="kzz7yh-a28478-d1e721">
-                  <lb ed="#V" n="55"/>Respondeo quod generatio secundum rationem intelligendi prior 
-      <lb ed="#V" n="56"/>est quam spiratio: quia generatio est per modum 
-      <lb ed="#V" n="57"/>nature: spiratio per modum voluntatis. Actus vero 
-      vo<lb ed="#V" n="58" break="no"/>luntatis secundum rationem intelligendi presupponit actionem 
-      <lb ed="#V" n="59"/>nature. Unde et secundum nostram rationem intelligendi prius 
-      <lb ed="#V" n="60"/>occurrit nobis diuina natura quam eius voluntas.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e737">
-      ¶ 
-      Pre<lb ed="#V" n="61" break="no"/>terea dicere intellectualiter prius est secundum rationem 
-      intelli<lb ed="#V" n="62" break="no"/>gendi quam spirare: quia dicere intellectualiter est actio per 
-      <lb ed="#V" n="63"/>modum intellectus: et spirare est actio per modum 
-      volun<lb ed="#V" n="64" break="no"/>tatis. Actio autem que est per modum voluntatis 
-      presup<lb ed="#V" n="65" break="no"/>ponit actionem que est per modum intellectus. Unde et 
-      <lb ed="#V" n="66"/>nostre apprehensioni prius occurrit diuinum intelligere 
-      <lb ed="#V" n="67"/>quam diuinum velle. Cum ergo dicere non videatur esse pri¬ 
-      <!--00099.xml-->
-      <cb ed="#P" n="b"/>
-                  <lb ed="#V" n="68"/>us quam generare: quia intellectus non est prior secundum rationem 
-      <lb ed="#V" n="69"/>intelligendi quam natura. Sequitur quod prius est secundum rationem 
-      <lb ed="#V" n="70"/>intelligendi generare quam spirare.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e766">
-      ¶ Preterea generare 
-      <lb ed="#V" n="71"/>prius est secundum rationem intelligendi quam filius: sed filius 
-      pri<lb ed="#V" n="72" break="no"/>us est secundum rationem intelligendi quam spiret: secundum quod est 
-      <lb ed="#V" n="73"/>prius priore est prius posteriore. ergo prius est secundum 
-      <lb ed="#V" n="74"/>rationem intelligendi generare quam spirare.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e777">
-                  <lb ed="#V" n="75"/>Ad primum in oppositum cum dicitur quod 
-      par<lb ed="#V" n="76" break="no"/>tum mentis precedit appetitus etc. 
-      <lb ed="#V" n="77"/>Dico quod intelligendum est de partum mentis completus et 
-      <lb ed="#V" n="78"/>appetitu incompleto: quia appetitus completus presup 
-      <lb ed="#V" n="79"/>ponit partum mentis completum: et appetitus 
-      incom<lb ed="#V" n="80" break="no"/>pletus partum mentis incompletum. Spiratio autem 
-      <lb ed="#V" n="81"/>est per modum voluntatis complete cum in deo esse non 
-      <lb ed="#V" n="82"/>possit voluntas incompleta.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e798">
-      ¶ Ad 2m cum dicitur quod 
-      quan<lb ed="#V" n="83" break="no"/>to aliquid communius tanto prius secundum rationem 
-      intelli<lb ed="#V" n="84" break="no"/>gendi etc. Dico quod hec non est vniuersaliter vera 
-      proposi<lb ed="#V" n="85" break="no"/>tio: nisi de eo quod est communius per predicationem secundum 
-      <lb ed="#V" n="86"/>quem modum animal communius est quam homo. Commu 
-      <lb ed="#V" n="87"/>itas autem communis spirationis non est in 
-      predican<lb ed="#V" n="88" break="no"/>do de generatione et de aliqua alia emanatione: sicut 
-      vide<lb ed="#V" n="89" break="no"/>mus quod animal predicatur de homine et de asino: sed sua 
-      <lb ed="#V" n="90"/>communitas est in existendo in duobus: et talis existentia 
-      <lb ed="#V" n="91"/>presupponit secundum rationem intelligendi distinctionem 
-      il<lb ed="#V" n="92" break="no"/>lorum duorum.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e822">
-      ¶ Preterea nos videmus quod prius secundum 
-      <lb ed="#V" n="93"/>rationem intelligendi illud conuenit alicui: cui conuenit 
-      <lb ed="#V" n="94"/>per se quam illud quod sibi conuenit cum alio.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e829">
-      ¶ Ad 3m cum 
-      <lb ed="#V" n="95"/>dicitur quod generatio et spiratio eque immediate sunt a 
-      pa<lb ed="#V" n="96" break="no"/>tre etc. Potest dici quod si pater spiret immediate: spirat 
-      ta<lb ed="#V" n="97" break="no"/>men cum hoc mediante filio. et secundum hoc spiratio 
-      presup<lb ed="#V" n="98" break="no"/>ponit secundum rationem intelligendi generationem. Et 
-      pre<lb ed="#V" n="99" break="no"/>terea si poneretur per imcompossibile quod spiritus sanctus 
-      <lb ed="#V" n="100"/>non procederet a filio et quod pater generaret et spiraret 
-      ad<lb ed="#V" n="101" break="no"/>huc secundum rationem intelligendi esset prior generatio quam 
-      pri<lb ed="#V" n="102" break="no"/>uatio sicut natura et intellectus voluntate.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e849">
-      ¶ Ad 4m 
-      di<lb ed="#V" n="103" break="no"/>cendum quod maior est falsa. spiratio enim principaliter 
-      pre<lb ed="#V" n="104" break="no"/>supponit generationem non mediante potentia 
-      spirati<lb ed="#V" n="105" break="no"/>ua: quamuis ea mediante presupponat posse generare. Inter 
-      <lb ed="#V" n="106"/>actum enim et potentiam bene est dispositio media 
-      neces<lb ed="#V" n="107" break="no"/>saria ad hoc vt potentia exeat in actum: vt patet in nobis. 
-      <lb ed="#V" n="108"/>Uoluntas enim non potest exire in actum amandi nisi 
-      me<lb ed="#V" n="109" break="no"/>diante actu intelligendi. Nec tamen de necessitate 
-      presup<lb ed="#V" n="110" break="no"/>ponit actum intelligendi: quamuis presupponat potentiam 
-      <lb ed="#V" n="111"/>intellectiuam: quamuis tamen potentia spiratiua non presur 
-      <lb ed="#V" n="112"/>ponat simpliciter generationem: tamen ipsa sub ratione 
-      <lb ed="#V" n="113"/>qua existens in filio: vel inquantum existens in filio secundum 
-      <lb ed="#V" n="114"/>rationem intelligendi praesupponit generationem.
-   </p>
-               <p xml:id="kzz7yh-a28478-d1e878">
-      ¶ Alii dicunt quod quamuis 
-      <lb ed="#V" n="115"/>potentia spiratiua prius secundum rationem intelligendi sit in 
-      <lb ed="#V" n="116"/>patre quam eam communicet filio per generationem: tamen 
-      <lb ed="#V" n="117"/>quantum ad illum existendi modum qui de necessitate 
-      <lb ed="#V" n="118"/>requiritur ad hoc vt per ipsam possit esse actus spirandi: 
-      <lb ed="#V" n="119"/>non est ita: quia actus spirandi de necessitate 
-      presuppo<lb ed="#V" n="120" break="no"/>nit secundum rationem intelligendi conceptionem verbi a 
-      pa<lb ed="#V" n="121" break="no"/>tre tanquam necessariam ad hoc: vt per potentiam 
-      spirati<lb ed="#V" n="122" break="no"/>uam pater exeat in actum spirandi. Sed hec glosa parum 
-      <lb ed="#V" n="123"/>aut nihil videtur realiter differre a prima. 
- </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Articulus 1</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Articulus 1</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="42-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a28478"><!-- l1d12a1 -->
+        <head xml:id="kzz7yh-a28478-Hd1e101">Articulus 1</head>
+        <p xml:id="kzz7yh-a28478-d1e103">
+          <lb ed="#V" n="88"/>CIrca hanc distinctionem queruntur 
+          quar<lb ed="#V" n="89" break="no"/>usu ex sorim virum ipiritus 
+          san<lb ed="#V" n="90" break="no"/>ctus perprius procedat a patre quam a filio.
+        </p>
+        <p xml:id="kzz7yh-a28478-d1e112">
+          ¶ De 
+          <lb ed="#V" n="91"/>cundo vtrum plenius a patre quam a filio procedat. 
+        </p>
+        <p xml:id="kzz7yh-a28478-d1e117">
+          <lb ed="#V" n="92"/>¶ Tertio vtrum a patre mediante filio.
+        </p>
+        <p xml:id="kzz7yh-a28478-d1e122">
+          ¶ 
+          Quar<lb ed="#V" n="93" break="no"/>to vtrum generatio sit prior secundum formam intelligendi quam 
+          <lb ed="#V" n="94"/>spiratio.
+        </p>
+        <div xml:id="kzz7yh-a28478-Dd1e130">
+          <head xml:id="kzz7yh-a28478-Hd1e132">Quaestio 1</head>
+          <head xml:id="kzz7yh-a28478-Hd1e136" type="question-title">Utrum spiritus sanctus perprius procedat a payre quam a filio</head>
+          <p xml:id="kzz7yh-a28478-d1e134">
+            ¶ Questio prima. 
+            <lb ed="#V" n="95"/>PRimo ostendo quod spiritus sanctus perprius 
+            <lb ed="#V" n="96"/>procedit a patre quam a filio: quia 
+            cau<lb ed="#V" n="97" break="no"/>sa prior est que agit non supposita auia: quiam que 
+            <lb ed="#V" n="98"/>agit alia presupposita: sed pater spirat non 
+            pre<lb ed="#V" n="99" break="no"/>Dsupposito alio principio. filius spirat 
+            presuppo<lb ed="#V" n="100" break="no"/>sito alio principio scilicet patre. ergo pater perprius producit 
+            <lb ed="#V" n="101"/>spiritum sanctum quam filius.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e152">
+            ¶ Item quod habet aliquid 
+            <lb ed="#V" n="102"/>ex se perprius habet: quam ille qui hoc habet ab alio. Sed 
+            <lb ed="#V" n="103"/>producere spiritum sanctum habet pater ex se: filius habet 
+            <lb ed="#V" n="104"/>hoc a patre. ergo perprius habet hoc pater quam filius. 
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e161">
+            <lb ed="#V" n="105"/>¶ Item non procedit a patre iam nato filio: quia tunc 
+            <lb ed="#V" n="106"/>esset filio posterior. ergo procedit a patre non nato filio: 
+            <lb ed="#V" n="107"/>et ita perprius a patre quam a filio. 
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e170">
+            <lb ed="#V" n="108"/>Contra Ansel. in libro de processione spiritus sancti 
+            qua<lb ed="#V" n="109" break="no"/>si in medio. In deo nihil aut natura aut 
+            tem<lb ed="#V" n="110" break="no"/>pore prius: vel posterius est.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e180">
+            ¶ Item Athanasius in trin. 
+            <lb ed="#V" n="111"/>Nihil prius aut posterius. 
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e185">
+            <lb ed="#V" n="112"/>Respondeo quod spiritus sanctus non procedit 
+            per<lb ed="#V" n="113" break="no"/>prius a patre quam a filio proprie 
+            loquen<lb ed="#V" n="114" break="no"/>do de prioritate. Et hoc patet: quia non procedit 
+            pri<lb ed="#V" n="115" break="no"/>us a patre quam a filio duratione: quia ab vtroque procedit 
+            ab<lb ed="#V" n="116" break="no"/>eterno: nec causalitate: quia causa et causatum proprie 
+            lo<lb ed="#V" n="117" break="no"/>quendo non sunt nisi inter ea que sunt diuerse essentie: 
+            <lb ed="#V" n="118"/>quia causa est ad cuius esse sequitur aliud. nec etiam prius 
+            <!--00098.xml-->
+            <pb ed="#V" n="42-v"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>origine: quia procedit a patre et filio inquantum sunt 
+            spi<lb ed="#V" n="2" break="no"/>ritus sancti vnum originale principium: nec proprie 
+            lo<lb ed="#V" n="3" break="no"/>quendo potest dici quod spiritus sanctus per prius procedat 
+            <lb ed="#V" n="4"/>a patre quam a filio prioritate auctoritatis vel 
+            principalita<lb ed="#V" n="5" break="no"/>tis: nisi exponendo sic: quod potentiam per quam filius 
+            spi<lb ed="#V" n="6" break="no"/>rat habet a patre. Unde et Augustinus postquam dixerat 
+            <lb ed="#V" n="7"/>xv. de trinitate. cap. xviii. Quod spiritus sanctus 
+            principali<lb ed="#V" n="8" break="no"/>ter procedit a patre subiunxit sic. Ideo autem addidi 
+            prin<lb ed="#V" n="9" break="no"/>cipaliter: quia et de filio spiritus sanctus procedere 
+            repe<lb ed="#V" n="10" break="no"/>ritur: sed hoc quoque illi pater dedit.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e231">
+            <lb ed="#V" n="11"/>Ad primum in oppositum cum dicitur quod 
+            cau<lb ed="#V" n="12" break="no"/>sa prior est que agit alia non 
+            suppo<lb ed="#V" n="13" break="no"/>sita quam econuerso etc.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e240">
+            ¶ Respondeo quod nomen cause 
+            pro<lb ed="#V" n="14" break="no"/>prie loquendo hic non habet locum: sed nomen 
+            princi<lb ed="#V" n="15" break="no"/>pii. Pater autem et filius sunt vnum principium spiritus 
+            <lb ed="#V" n="16"/>sancti. Unde non potest dici quod filius spiret spiritum 
+            san<lb ed="#V" n="17" break="no"/>ctum presupposito alio principio spiritus sancti.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e251">
+            ¶ Ad 
+            se<lb ed="#V" n="18" break="no"/>cundum cum dicitur quod ille qui habet aliquid ex se 
+            perpri<lb ed="#V" n="19" break="no"/>us habet illud quam ille qui hoc habet ab alio etc. Dico quod 
+            <lb ed="#V" n="20"/>verum est si perprius intelligamus principalius. Aliter 
+            <lb ed="#V" n="21"/>non oportet quod verum sit in diuinis. Accipiatur tamen 
+            <lb ed="#V" n="22"/>principalius secundum expositionem modificantem: que dicta 
+            <lb ed="#V" n="23"/>est in corpore questionis.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e267">
+            ¶ Ad tertium dico quod et si non 
+            <lb ed="#V" n="24"/>concedatur quod spiritus sanctus procedit a patre iam nato 
+            <lb ed="#V" n="25"/>filio: aut non nato filio. Dico tamen quod concedi debet quod 
+            <lb ed="#V" n="26"/>non procedit a patre iam nato filio: nec ex hoc potes 
+            con<lb ed="#V" n="27" break="no"/>cludere quod spiritus sanctus sit prior filio. Sed tantum 
+            po<lb ed="#V" n="28" break="no"/>tes concludere quod filius non est prior spiritu sancto. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a28478-Dd1e281">
+          <head xml:id="kzz7yh-a28478-Hd1e283">Quaestio 2</head>
+          <head xml:id="kzz7yh-a28478-Hd1e292" type="question-title">Utrum spiritus sanctus plenius procedat a patre quam a filio</head>
+          <p xml:id="kzz7yh-a28478-d1e285">
+            <lb ed="#V" n="29"/>¶ Questio. II. 
+            <lb ed="#V" n="30"/>Secundo queritur vtrum spiritus sanctus 
+            <lb ed="#V" n="31"/>plenius procedat a patre quam a 
+            <lb ed="#V" n="32"/>filio. Et videtur quod sic: quia productum plenius 
+            <lb ed="#V" n="33"/>producitur a principio primario quam a secundario: 
+            <lb ed="#V" n="34"/>quod videtur posse probari per primam propositionem 
+            <lb ed="#V" n="35"/>de causis: vbi dicitur quod causa primaria plus influit super 
+            <lb ed="#V" n="36"/>causatum quam causa secundaria: sed pater est primum 
+            prin<lb ed="#V" n="37" break="no"/>cipium spiritus sancti: quia est principium non de 
+            princi<lb ed="#V" n="38" break="no"/>pio. filius autem secundarium principium: quia est 
+            prin<lb ed="#V" n="39" break="no"/>cipium de principio. ergo spiritus sanctus plenius 
+            proce<lb ed="#V" n="40" break="no"/>dit a patre quam a filio.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e314">
+            ¶ Item dicitur primo posteriorum 
+            <lb ed="#V" n="41"/>Quod propterquod vnuquodque tale et illud magis: sed 
+            fili<lb ed="#V" n="42" break="no"/>us spirat propter patrem: ergo magis spirat pater quam 
+            fili<lb ed="#V" n="43" break="no"/>us.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e323">
+            ¶ Item filius habet a patre quod spiret spiritum sanctum 
+            <lb ed="#V" n="44"/>pater vero a nullo. ergo magis spirat pater quam filius.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e328">
+            ¶ Item 
+            <lb ed="#V" n="45"/>a quo procedit res principalius: ab eo procedit plenius. 
+            <lb ed="#V" n="46"/>sed secundum Augustinum. xv. de trinitate. cap. xvii. Spiritus 
+            <lb ed="#V" n="47"/>sanctus procedit a patre principaliter. ergo plenius 
+            pro<lb ed="#V" n="48" break="no"/>cedit a patre quam a filio. 
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e340">
+            <lb ed="#V" n="49"/>Contra Ubi est vnitas non est magis et minus: sed 
+            pa<lb ed="#V" n="50" break="no"/>ter et filius sunt vnum in spirando. ergo vnus 
+            <lb ed="#V" n="51"/>non spirat alio plenius.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e349">
+            ¶ Item quauis filius habeat a 
+            <lb ed="#V" n="52"/>patre quod creatura sit ab eo: non tamen a patre plenius 
+            pro<lb ed="#V" n="53" break="no"/>cedit creatura quam a filio. ergo a simili quauis filius 
+            habe<lb ed="#V" n="54" break="no"/>at a patre quod producat spiritum sanctum: non propter hoc 
+            <lb ed="#V" n="55"/>sequitur quod spiritus sanctus plenius sit a patre quam a filio. 
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e360">
+            <lb ed="#V" n="56"/>Respondeo Quamuis potentiam spiratiuam 
+            ha<lb ed="#V" n="57" break="no"/>beat filius a patre: quia tamen 
+            il<lb ed="#V" n="58" break="no"/>la eadem potentia spiratiua que est in patre: est in filio. et 
+            <lb ed="#V" n="59"/>ita nobiliter et ita plenarie sicut in patre. Ideo ita plene 
+            <lb ed="#V" n="60"/>procedit spiritus sanctus a filio: sicut a patre.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e373">
+            <lb ed="#V" n="61"/>Ad primum in oppositum cum dicitur quod pater est 
+            <lb ed="#V" n="62"/>primum principium spiritus sancti etc 
+            <lb ed="#V" n="63"/>Potest dici quod cum pater et filius sint vnum principium 
+            <lb ed="#V" n="64"/>spiritus sancti. quod non bene dicitur: quod pater sit primum 
+            prin<lb ed="#V" n="65" break="no"/>cipium spiritus sancti.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e386">
+            ¶ Ad secundum cum dicitur quod 
+            <lb ed="#V" n="66"/>propter quod vnumquodque et illud magis etc. Dico quod hec 
+            <lb ed="#V" n="67"/>propositio intelligenda est vbi est vera ratio causalitatis: 
+            <!--00098.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="68"/>lius accipiat a patre vim spiratiuam. Non tamen vis 
+            spi<lb ed="#V" n="69" break="no"/>ratiua est causata a patre in filio: quamuis sibi sit a patre 
+            com<lb ed="#V" n="70" break="no"/>municata: et etiam eadem vis spiratiua in numero que est 
+            <lb ed="#V" n="71"/>in patre dante: est in filio accipiente.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e406">
+            ¶ Ad tertium cum 
+            <lb ed="#V" n="72"/>dicitur quod filius habet a patre quod spiret spiritum sanctum etc. 
+            <lb ed="#V" n="73"/>Dico quod verum est. sed ex hoc non sequitur quod pater 
+            ple<lb ed="#V" n="74" break="no"/>nius spiret quam filius: cum illa eadem potentia in 
+            nume<lb ed="#V" n="75" break="no"/>ro per quam spirat pater sit in filio ita plenarie: et ita 
+            no<lb ed="#V" n="76" break="no"/>biliter sicut in patre
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e420">
+            ¶ Ad 4m dicendum quod Augustinus 
+            <lb ed="#V" n="77"/>dicendo spiritum sanctum principaliter a patre 
+            procede<lb ed="#V" n="78" break="no"/>re: non per hoc intendebat quod plenius procederet a patre: 
+            <lb ed="#V" n="79"/>sed quia pater dedit filio potentiam spirat iuam: per quam 
+            <lb ed="#V" n="80"/>spiritus sanctus spiratur a filio sicut a patre. Sicut ipse. 
+            <lb ed="#V" n="81"/>met Augustinus exponit in eodem loco: vnde 
+            supradi<lb ed="#V" n="82" break="no"/>cta auctoritas sumpta est.
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a28478-Dd1e437">
+          <head xml:id="kzz7yh-a28478-Hd1e439">Quaestio 3</head>
+          <head xml:id="kzz7yh-a28478-Hd1e452" type="question-title">Utrum spiritus sanctus procedat a patre mediante filio</head>
+          <p xml:id="kzz7yh-a28478-d1e441">
+            ¶ Questio. III. 
+            <lb ed="#V" n="83"/>Tertio queritur vtrum spiritus sanctus 
+            pro<lb ed="#V" n="84" break="no"/>cedat a patre mediante filio. Et 
+            vi<lb ed="#V" n="85" break="no"/>detur quod non: quia sicut se habet per se ad per 
+            ac<lb ed="#V" n="86" break="no"/>cidens: ita immediatum ad mediatum. Sed 
+            ni<lb ed="#V" n="87" break="no"/>hil quod est a patre per se: est a patre per accidens 
+            <lb ed="#V" n="88"/>ergo similiter cum spiritus sanctus sit immediate a 
+            pa<lb ed="#V" n="89" break="no"/>tre: non est ab eo filio mediante.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e459">
+            ¶ Item spiritus sanctus 
+            <lb ed="#V" n="90"/>immediatius procedit a filio quam a patre: sed si spiritus 
+            san<lb ed="#V" n="91" break="no"/>ctus procederet a patre mediante filio immediatius 
+            vi<lb ed="#V" n="92" break="no"/>deretur procedere a filio quam a patre: quia immediatior 
+            vi<lb ed="#V" n="93" break="no"/>detur processio que medium non recipit: quam que recipit. 
+            <lb ed="#V" n="94"/>ergo spiritus sanctus non procedit a patre mediante 
+            fi<lb ed="#V" n="95" break="no"/>lio.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e475">
+            ¶ Item vbi non est nisi vnum principium non 
+            po<lb ed="#V" n="96" break="no"/>test vere dici principium mediatum et immediatum. 
+            er<lb ed="#V" n="97" break="no"/>go cum pater et filius sint vnum principium spiritus 
+            san<lb ed="#V" n="98" break="no"/>cti: non potest dici quod pater principiet spiritum sanctum 
+            <lb ed="#V" n="99"/>mediante filio: quia hoc includere videretur patrem 
+            es<lb ed="#V" n="100" break="no"/>se spiritus sancti principium mediatum et filium 
+            princi<lb ed="#V" n="101" break="no"/>pium immediatum. 
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e491">
+            <lb ed="#V" n="102"/>Contra In imagine actus voluntatis qui 
+            spiritum
+            <lb ed="#V" n="103"/>sanctum representat: procedit a memoriam quae 
+            <lb ed="#V" n="104"/>representat patrem mediante actu intelligentie: qui 
+            re<lb ed="#V" n="105" break="no"/>representat filium. ergo spiritus sanctus a patre procedit 
+            <lb ed="#V" n="106"/>mediante filio.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e505">
+            ¶ Item Richardus. 5 de trinitate. c. 8. 
+            <lb ed="#V" n="107"/>ostendit spiritum sanctum esse a patre mediante filio: et in 
+            <lb ed="#V" n="108"/>sequenti capitulo dicit. Inuenimus oportere esse vneam 
+            <lb ed="#V" n="109"/>aliquam existentiam innascibili quidem immediate tantum 
+            <lb ed="#V" n="110"/>coniunctam. Inuenimus et aliam eiusdem existentie tam 
+            <lb ed="#V" n="111"/>mediata quam immediata germanitate coherere. 
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e518">
+            <lb ed="#V" n="112"/>Respondeo quod spiritussanctus procedit a patre 
+            <lb ed="#V" n="113"/>mediante filio: et cum hoc a patre 
+            <lb ed="#V" n="114"/>immediate. Unde secundum Richardum. 5 de trinita. c. d. et. 9. 
+            pro<lb ed="#V" n="115" break="no"/>cessio spiritus sancti a patre est mediata et immediata. 
+            Me<lb ed="#V" n="116" break="no"/>diata quidem inquantum procedit a filio: qui filius 
+            proce<lb ed="#V" n="117" break="no"/>dit a patre: immediata etiam quia ab ipso patre spiratur. et 
+            <lb ed="#V" n="118"/>potest poni exemplum aliquale quamuis remotum in 
+            crea<lb ed="#V" n="119" break="no"/>turis: quod ponit Richardus. 5 de trinitate cap. 6 in 
+            produ<lb ed="#V" n="120" break="no"/>ctione ipsius Seth ab Adam: quia ab Adam exiuit 
+            im<lb ed="#V" n="121" break="no"/>mediate: et mediate inquantum exiit ab Eua: que 
+            produ<lb ed="#V" n="122" break="no"/>cta fuit de substantia Ade. 
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e544">
+            <lb ed="#V" n="123"/>Ad primum in oppositum cum dicitur quod nihil quod 
+            <lb ed="#V" n="124"/>est a patre per se est a patre per 
+            acci<lb ed="#V" n="125" break="no"/>dens etc. Dico quod si accipiatur per accidens pro per aliud: 
+            <lb ed="#V" n="126"/>sic dico quod multa sunt a patre per se: que sunt ab eo par 
+            ali<lb ed="#V" n="127" break="no"/>ud: secuet quelibet actio non defectiua culpabiliter que est a 
+            <lb ed="#V" n="128"/>creatura: quia cuiuslibet talis actionis deus est causa 
+            me<lb ed="#V" n="129" break="no"/>diata: et mediante creatura. Sed si accipiatur per accidens 
+            <lb ed="#V" n="130"/>proprie secundum quod causa per accidens dicitur respectu effectus 
+            <lb ed="#V" n="131"/>quam non producit ex intentione: secundum quem modum 
+            for<lb ed="#V" n="132" break="no"/>tuna dicitur causa per accidens: vel dicatur causa per accidens: que 
+            <lb ed="#V" n="133"/>accidit cause per se secundum quem modum dicimus quod album edificat 
+            <!--00099.xml-->
+            <pb ed="#V" n="43-r"/>
+            <cb ed="#P" n="a"/>
+            <lb ed="#V" n="1"/>per accidens: sic dico quod esse causam per accidens 
+            conue<lb ed="#V" n="2" break="no"/>nire non potest dignitati cause prime. Unde hoc modo 
+            lo<lb ed="#V" n="3" break="no"/>quendo de causa per accidens non sequitur. Nihil quod 
+            <lb ed="#V" n="4"/>est a patre per se: est ab eo per accidens. ergo nihil quod 
+            <lb ed="#V" n="5"/>est ab eo immediate est ab eo mediate.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e588">
+            ¶ Ad secundum 
+            <lb ed="#V" n="6"/>cum dicitur quod immediatior videtur processio: que 
+            me<lb ed="#V" n="7" break="no"/>dium non recipit: quam que recipit etc. Dico quod falsum est: 
+            <lb ed="#V" n="8"/>vbi mediatio non repugnat immediationi: sic autem est 
+            <lb ed="#V" n="9"/>in proposito. Sicut videmus quod Seth non minus 
+            im<lb ed="#V" n="10" break="no"/>mediate processit ab Adam: quam si genuisset eum de vna 
+            mu<lb ed="#V" n="11" break="no"/>liere que non fuisset facta de substantia Adam: si deus 
+            <lb ed="#V" n="12"/>fecisset sibi aliquam talem. Uides ergo quod non quecunque 
+            <lb ed="#V" n="13"/>mediatio excludit immediationem.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e608">
+            ¶ Ad tertium cum 
+            <lb ed="#V" n="14"/>dicitur quod vbi non est nisi vnum principium non potest 
+            <lb ed="#V" n="15"/>dici mediatum vel immediatum etc. Dicendum quod cum 
+            <lb ed="#V" n="16"/>dico spiritum sanctum esse a patre mediante filio: non 
+            in<lb ed="#V" n="17" break="no"/>telligo ipsum esse a patre: sicut ab vno principio distincto 
+            <lb ed="#V" n="18"/>a filio in ratione principiandi spiritum sanctum: et a filio: 
+            <lb ed="#V" n="19"/>sicut ab alio principio: sed intelligo quod filius a quo est 
+            spi<lb ed="#V" n="20" break="no"/>ritus sanctus est a patre et ab ipso habet potentiam 
+            spirati<lb ed="#V" n="21" break="no"/>uam per quam pater et ipse sunt vnum principium spiritus sancti. 
+          </p>
+        </div>
+        <div xml:id="kzz7yh-a28478-Dd1e629">
+          <head xml:id="kzz7yh-a28478-Hd1e631">Quaestio 4</head>
+          <head xml:id="kzz7yh-a28478-Hd1e648" type="question-title">Utrum generatio sit prior secundum raionem intelligendi quam spiratio</head>
+          <p xml:id="kzz7yh-a28478-d1e633">
+            <lb ed="#V" n="22"/>¶ Questio. IIII. 
+            <lb ed="#V" n="23"/>QUarto queritur. Utrum generatio sit
+            <lb ed="#V" n="24"/>prior secundum rationem intelligendi 
+            <lb ed="#V" n="25"/>quam spiratio. Et videtur quod non. Augustinus 9 de trinitate. 
+            <lb ed="#V" n="26"/>ca. vlti. partum mentis procedit appetitus: sed 
+            <lb ed="#V" n="27"/>partus mentis representat emanationem 
+            ver<lb ed="#V" n="28" break="no"/>bi in diuinis. appetitus vero emanationem spiritus sancti. 
+            <lb ed="#V" n="29"/>ergo prior est secundum rationem intelligendi spiratio spiritus. 
+            <lb ed="#V" n="30"/>sancti quam generatio verbi.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e655">
+            ¶ Item quanto aliquid 
+            commu<lb ed="#V" n="31" break="no"/>nius: tanto prius secundum rationem intelligendi: sed 
+            spiratio<lb ed="#V" n="32" break="no"/>actiua est communior: quam generatio actiua. ergo prior est secundum 
+            <lb ed="#V" n="33"/>rationem intelligendi.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e664">
+            ¶ Item generatio et spiratio eque 
+            <lb ed="#V" n="34"/>immediate sunt a patre: sed primum et immediate idem. 
+            <lb ed="#V" n="35"/>Unde propositio immediata est qua non est altera prior. 
+            pri<lb ed="#V" n="36" break="no"/>mo posteriorum. ergo eque prima secundum rationem intelligendi 
+            <lb ed="#V" n="37"/>est spiratio sicut generatio.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e675">
+            ¶ Item actus spirandi nihil 
+            <lb ed="#V" n="38"/>presupponit nisi potentiam spiratiuam: vel ea mediante: 
+            <lb ed="#V" n="39"/>quia inter potentiam et actum non est medium: sed 
+            poten<lb ed="#V" n="40" break="no"/>tia spiratiua non presupponit generationem: quia per 
+            ge<lb ed="#V" n="41" break="no"/>nerationem communicatur filio a patre. Rem autem 
+            com<lb ed="#V" n="42" break="no"/>municari presupponit ipsam prehaberi a communicante. ergo 
+            <lb ed="#V" n="43"/>spiratio secundum rationem intelligendi non presupponit generationem. 
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e692">
+            <lb ed="#V" n="44"/>Contra in imagine prior est emanatio notitie a 
+            memo<lb ed="#V" n="45" break="no"/>ria quam emanatio amoris. quia secundum Aug. x. de tri. 
+            <lb ed="#V" n="46"/>ca. primo, Incognita non possumus diligere. ergo a simii in 
+            <lb ed="#V" n="47"/>diuinis prior est emanatio verbi secundum rationem 
+            intelligen<lb ed="#V" n="48" break="no"/>di quam emanatio amoris qui est spiritus sanctus.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e705">
+            ¶ Item 
+            <lb ed="#V" n="49"/>cum spiritus sanctus procedat per modum mutui 
+            amo<lb ed="#V" n="50" break="no"/>ris qui secundum rationem intelligendi presupponit 
+            distinctio<lb ed="#V" n="51" break="no"/>nem amantium: eius spiratio presupponit secundum rationem 
+            <lb ed="#V" n="52"/>intelligendi distinctionem spirantium: sed spirantes scilicet pater et 
+            fi<lb ed="#V" n="53" break="no"/>lius distinguuntur per generare et generari. ergo spiratio 
+            presup<lb ed="#V" n="54" break="no"/>ponit secundum creationem intelligendi generationem. 
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e721">
+            <lb ed="#V" n="55"/>Respondeo quod generatio secundum rationem intelligendi prior 
+            <lb ed="#V" n="56"/>est quam spiratio: quia generatio est per modum 
+            <lb ed="#V" n="57"/>nature: spiratio per modum voluntatis. Actus vero 
+            vo<lb ed="#V" n="58" break="no"/>luntatis secundum rationem intelligendi presupponit actionem 
+            <lb ed="#V" n="59"/>nature. Unde et secundum nostram rationem intelligendi prius 
+            <lb ed="#V" n="60"/>occurrit nobis diuina natura quam eius voluntas.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e737">
+            ¶ 
+            Pre<lb ed="#V" n="61" break="no"/>terea dicere intellectualiter prius est secundum rationem 
+            intelli<lb ed="#V" n="62" break="no"/>gendi quam spirare: quia dicere intellectualiter est actio per 
+            <lb ed="#V" n="63"/>modum intellectus: et spirare est actio per modum 
+            volun<lb ed="#V" n="64" break="no"/>tatis. Actio autem que est per modum voluntatis 
+            presup<lb ed="#V" n="65" break="no"/>ponit actionem que est per modum intellectus. Unde et 
+            <lb ed="#V" n="66"/>nostre apprehensioni prius occurrit diuinum intelligere 
+            <lb ed="#V" n="67"/>quam diuinum velle. Cum ergo dicere non videatur esse pri¬ 
+            <!--00099.xml-->
+            <cb ed="#P" n="b"/>
+            <lb ed="#V" n="68"/>us quam generare: quia intellectus non est prior secundum rationem 
+            <lb ed="#V" n="69"/>intelligendi quam natura. Sequitur quod prius est secundum rationem 
+            <lb ed="#V" n="70"/>intelligendi generare quam spirare.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e766">
+            ¶ Preterea generare 
+            <lb ed="#V" n="71"/>prius est secundum rationem intelligendi quam filius: sed filius 
+            pri<lb ed="#V" n="72" break="no"/>us est secundum rationem intelligendi quam spiret: secundum quod est 
+            <lb ed="#V" n="73"/>prius priore est prius posteriore. ergo prius est secundum 
+            <lb ed="#V" n="74"/>rationem intelligendi generare quam spirare.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e777">
+            <lb ed="#V" n="75"/>Ad primum in oppositum cum dicitur quod 
+            par<lb ed="#V" n="76" break="no"/>tum mentis precedit appetitus etc. 
+            <lb ed="#V" n="77"/>Dico quod intelligendum est de partum mentis completus et 
+            <lb ed="#V" n="78"/>appetitu incompleto: quia appetitus completus presup 
+            <lb ed="#V" n="79"/>ponit partum mentis completum: et appetitus 
+            incom<lb ed="#V" n="80" break="no"/>pletus partum mentis incompletum. Spiratio autem 
+            <lb ed="#V" n="81"/>est per modum voluntatis complete cum in deo esse non 
+            <lb ed="#V" n="82"/>possit voluntas incompleta.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e798">
+            ¶ Ad 2m cum dicitur quod 
+            quan<lb ed="#V" n="83" break="no"/>to aliquid communius tanto prius secundum rationem 
+            intelli<lb ed="#V" n="84" break="no"/>gendi etc. Dico quod hec non est vniuersaliter vera 
+            proposi<lb ed="#V" n="85" break="no"/>tio: nisi de eo quod est communius per predicationem secundum 
+            <lb ed="#V" n="86"/>quem modum animal communius est quam homo. Commu 
+            <lb ed="#V" n="87"/>itas autem communis spirationis non est in 
+            predican<lb ed="#V" n="88" break="no"/>do de generatione et de aliqua alia emanatione: sicut 
+            vide<lb ed="#V" n="89" break="no"/>mus quod animal predicatur de homine et de asino: sed sua 
+            <lb ed="#V" n="90"/>communitas est in existendo in duobus: et talis existentia 
+            <lb ed="#V" n="91"/>presupponit secundum rationem intelligendi distinctionem 
+            il<lb ed="#V" n="92" break="no"/>lorum duorum.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e822">
+            ¶ Preterea nos videmus quod prius secundum 
+            <lb ed="#V" n="93"/>rationem intelligendi illud conuenit alicui: cui conuenit 
+            <lb ed="#V" n="94"/>per se quam illud quod sibi conuenit cum alio.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e829">
+            ¶ Ad 3m cum 
+            <lb ed="#V" n="95"/>dicitur quod generatio et spiratio eque immediate sunt a 
+            pa<lb ed="#V" n="96" break="no"/>tre etc. Potest dici quod si pater spiret immediate: spirat 
+            ta<lb ed="#V" n="97" break="no"/>men cum hoc mediante filio. et secundum hoc spiratio 
+            presup<lb ed="#V" n="98" break="no"/>ponit secundum rationem intelligendi generationem. Et 
+            pre<lb ed="#V" n="99" break="no"/>terea si poneretur per imcompossibile quod spiritus sanctus 
+            <lb ed="#V" n="100"/>non procederet a filio et quod pater generaret et spiraret 
+            ad<lb ed="#V" n="101" break="no"/>huc secundum rationem intelligendi esset prior generatio quam 
+            pri<lb ed="#V" n="102" break="no"/>uatio sicut natura et intellectus voluntate.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e849">
+            ¶ Ad 4m 
+            di<lb ed="#V" n="103" break="no"/>cendum quod maior est falsa. spiratio enim principaliter 
+            pre<lb ed="#V" n="104" break="no"/>supponit generationem non mediante potentia 
+            spirati<lb ed="#V" n="105" break="no"/>ua: quamuis ea mediante presupponat posse generare. Inter 
+            <lb ed="#V" n="106"/>actum enim et potentiam bene est dispositio media 
+            neces<lb ed="#V" n="107" break="no"/>saria ad hoc vt potentia exeat in actum: vt patet in nobis. 
+            <lb ed="#V" n="108"/>Uoluntas enim non potest exire in actum amandi nisi 
+            me<lb ed="#V" n="109" break="no"/>diante actu intelligendi. Nec tamen de necessitate 
+            presup<lb ed="#V" n="110" break="no"/>ponit actum intelligendi: quamuis presupponat potentiam 
+            <lb ed="#V" n="111"/>intellectiuam: quamuis tamen potentia spiratiua non presur 
+            <lb ed="#V" n="112"/>ponat simpliciter generationem: tamen ipsa sub ratione 
+            <lb ed="#V" n="113"/>qua existens in filio: vel inquantum existens in filio secundum 
+            <lb ed="#V" n="114"/>rationem intelligendi praesupponit generationem.
+          </p>
+          <p xml:id="kzz7yh-a28478-d1e878">
+            ¶ Alii dicunt quod quamuis 
+            <lb ed="#V" n="115"/>potentia spiratiua prius secundum rationem intelligendi sit in 
+            <lb ed="#V" n="116"/>patre quam eam communicet filio per generationem: tamen 
+            <lb ed="#V" n="117"/>quantum ad illum existendi modum qui de necessitate 
+            <lb ed="#V" n="118"/>requiritur ad hoc vt per ipsam possit esse actus spirandi: 
+            <lb ed="#V" n="119"/>non est ita: quia actus spirandi de necessitate 
+            presuppo<lb ed="#V" n="120" break="no"/>nit secundum rationem intelligendi conceptionem verbi a 
+            pa<lb ed="#V" n="121" break="no"/>tre tanquam necessariam ad hoc: vt per potentiam 
+            spirati<lb ed="#V" n="122" break="no"/>uam pater exeat in actum spirandi. Sed hec glosa parum 
+            <lb ed="#V" n="123"/>aut nihil videtur realiter differre a prima. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

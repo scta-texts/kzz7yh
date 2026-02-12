@@ -1,117 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="36-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a24585"><!-- l1d9cl -->
-            <head xml:id="kzz7yh-a24585-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-a24585-d1e103">
-               <lb ed="#V" n="40"/>CIrca litteram (Non est aliud pater: aliud 
-      fi<lb ed="#V" n="41" break="no"/>lius.) Contra videtur sequi 
-      <lb ed="#V" n="42"/>alius: ergo aliud. Respondeo. Uerum est in 
-      crea<lb ed="#V" n="43" break="no"/>turis: in quibus non est distinctio in persona sine 
-      <lb ed="#V" n="44"/>distinctione in essentia. In deo autem est 
-      distinctio<lb ed="#V" n="45" break="no"/>in persona sine distinctione in essentia. (Coeterne sibi sunt 
-      <lb ed="#V" n="46"/>tres persone.) Contra sequitur vt videtur. Tres 
-      coeter<lb ed="#V" n="47" break="no"/>ni: ergo tres eterni: sed vt dicitur in symbolo. Non sunt 
-      <lb ed="#V" n="48"/>tres eterni. Responsio quod in diuinis. Nomen significans 
-      <lb ed="#V" n="49"/>substantiam reperitur secundum triplicem modum. Quoddam 
-      <lb ed="#V" n="50"/>enim est significans substantiam per modum substantie: et 
-      <lb ed="#V" n="51"/>tale nullo modo debet dici in plurali siue sit substantiuum 
-      <lb ed="#V" n="52"/>vt hoc nomen deus: siue substantiuatum: vt hoc nomen 
-      <lb ed="#V" n="53"/>eternum. vnde tres persone non debent dici dii: nec 
-      plu<lb ed="#V" n="54" break="no"/>ra eterna. Quoddam significat per modum adiacentie: 
-      <lb ed="#V" n="55"/>sicut adiectiua adiectiue retenta: et quia talia trahunt 
-      nu<lb ed="#V" n="56" break="no"/>merum a suppositis possunt dici in plurali: et talia sunt 
-      ver<lb ed="#V" n="57" break="no"/>ba et participia. Aliud est nomen quod significat substantiam 
-      <lb ed="#V" n="58"/>in adiacentia connotando inter relationem mutuam: sicut 
-      <lb ed="#V" n="59"/>hoc nomen coeternus: et tale etiam potest dici in plurali. 
-   </p>
-            <p xml:id="kzz7yh-a24585-d1e149">
-               <lb ed="#V" n="60"/>¶ Unde bene dicitur tres persone sunt coeterne. 
-      Splen<lb ed="#V" n="61" break="no"/>dor qui gignitur ab igne atque diffunditur coeuus est illi. 
-      <lb ed="#V" n="62"/>Ex hoc videtur argui quod illuminatio medii sit in 
-      instan<lb ed="#V" n="63" break="no"/>ti. Et quia hoc aliquibus videtur dubium: et aliquibus 
-      <lb ed="#V" n="64"/>falsum: ideo glosant auctoritatem sic: vt per 
-      splendorem<lb ed="#V" n="65" break="no"/>intelligatur ipsa lux existens in sua radice: vel per 
-      splen<lb ed="#V" n="66" break="no"/>dorem intelligunt initium diffusionis ipsius lucis: quod 
-      <!--00086.xml-->
-      <cb ed="#P" n="b"/>
-               <lb ed="#V" n="67"/>quidem initium in instanti est siue illuminatio medum sit in 
-      <lb ed="#V" n="68"/>instanti: siue non. Utrum autem medium illuminetur in in 
-      <lb ed="#V" n="69"/>stanti vel non: in secundo libro declarare propono. (Quod ex 
-      <lb ed="#V" n="70"/>eo nascitur non potuit aliud esse quam viuens:) quia enim 
-      <lb ed="#V" n="71"/>deus est vita: et in vita nihil est nisi viuens non potuit 
-      pro<lb ed="#V" n="72" break="no"/>duci a deo in identitate substantie nisi viuens. (Quod ex 
-      <lb ed="#V" n="73"/>viuo viuum natum est. Habet natiuitatis perfectionem 
-      si<lb ed="#V" n="74" break="no"/>ne nouitate nature.) Uerum est de. viuo in quo nihil est 
-      <lb ed="#V" n="75"/>non viuens: et in quo nihil est in potentia. Et in hoc 
-      ex<lb ed="#V" n="76" break="no"/>cluditur generatio in creaturis: vbi aliquando de viuo 
-      <lb ed="#V" n="77"/>nascitur non viuum: et aliquando de viuo viuum: quod 
-      <lb ed="#V" n="78"/>non habet nature perfectionem: et quod nascitur de creatu 
-      <lb ed="#V" n="79"/>ra nascitur cum nouitate nature. (Sacramento 
-      natiuita<lb ed="#V" n="80" break="no"/>tis.) idest sacro secreto. (Pater enim generatione actor 
-      si<lb ed="#V" n="81" break="no"/>lii est. Nota quod actor proprie non dicit hic causalitatem 
-      <lb ed="#V" n="82"/>Unde debet glosari actor id est principium. (Ab eterno aucto 
-      <lb ed="#V" n="83"/>re eterna natiuitas est. Contra si illud argumentum ese 
-      <lb ed="#V" n="84"/>set bonum: videretur quod etiam sequeretur ab eterno 
-      eter<lb ed="#V" n="85" break="no"/>na creatio: quod falsum est. Respondeo. Non est simile: quia 
-      <lb ed="#V" n="86"/>natiuitas filii dei est de substantia generantis tota. Unde 
-      <lb ed="#V" n="87"/>filius nascendo non accepit nouum esse: sed idem esse ab 
-      <lb ed="#V" n="88"/>solutum: quod habet pater. Creatura autem non accepit idem 
-      <lb ed="#V" n="89"/>esse quod habet creator. Quapropter sequitur quod accepit 
-      <lb ed="#V" n="90"/>nouum esse. 
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="36-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a24585"><!-- l1d9cl -->
+        <head xml:id="kzz7yh-a24585-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-a24585-d1e103">
+          <lb ed="#V" n="40"/>CIrca litteram (Non est aliud pater: aliud 
+          fi<lb ed="#V" n="41" break="no"/>lius.) Contra videtur sequi 
+          <lb ed="#V" n="42"/>alius: ergo aliud. Respondeo. Uerum est in 
+          crea<lb ed="#V" n="43" break="no"/>turis: in quibus non est distinctio in persona sine 
+          <lb ed="#V" n="44"/>distinctione in essentia. In deo autem est 
+          distinctio<lb ed="#V" n="45" break="no"/>in persona sine distinctione in essentia. (Coeterne sibi sunt 
+          <lb ed="#V" n="46"/>tres persone.) Contra sequitur vt videtur. Tres 
+          coeter<lb ed="#V" n="47" break="no"/>ni: ergo tres eterni: sed vt dicitur in symbolo. Non sunt 
+          <lb ed="#V" n="48"/>tres eterni. Responsio quod in diuinis. Nomen significans 
+          <lb ed="#V" n="49"/>substantiam reperitur secundum triplicem modum. Quoddam 
+          <lb ed="#V" n="50"/>enim est significans substantiam per modum substantie: et 
+          <lb ed="#V" n="51"/>tale nullo modo debet dici in plurali siue sit substantiuum 
+          <lb ed="#V" n="52"/>vt hoc nomen deus: siue substantiuatum: vt hoc nomen 
+          <lb ed="#V" n="53"/>eternum. vnde tres persone non debent dici dii: nec 
+          plu<lb ed="#V" n="54" break="no"/>ra eterna. Quoddam significat per modum adiacentie: 
+          <lb ed="#V" n="55"/>sicut adiectiua adiectiue retenta: et quia talia trahunt 
+          nu<lb ed="#V" n="56" break="no"/>merum a suppositis possunt dici in plurali: et talia sunt 
+          ver<lb ed="#V" n="57" break="no"/>ba et participia. Aliud est nomen quod significat substantiam 
+          <lb ed="#V" n="58"/>in adiacentia connotando inter relationem mutuam: sicut 
+          <lb ed="#V" n="59"/>hoc nomen coeternus: et tale etiam potest dici in plurali. 
+        </p>
+        <p xml:id="kzz7yh-a24585-d1e149">
+          <lb ed="#V" n="60"/>¶ Unde bene dicitur tres persone sunt coeterne. 
+          Splen<lb ed="#V" n="61" break="no"/>dor qui gignitur ab igne atque diffunditur coeuus est illi. 
+          <lb ed="#V" n="62"/>Ex hoc videtur argui quod illuminatio medii sit in 
+          instan<lb ed="#V" n="63" break="no"/>ti. Et quia hoc aliquibus videtur dubium: et aliquibus 
+          <lb ed="#V" n="64"/>falsum: ideo glosant auctoritatem sic: vt per 
+          splendorem<lb ed="#V" n="65" break="no"/>intelligatur ipsa lux existens in sua radice: vel per 
+          splen<lb ed="#V" n="66" break="no"/>dorem intelligunt initium diffusionis ipsius lucis: quod 
+          <!--00086.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#V" n="67"/>quidem initium in instanti est siue illuminatio medum sit in 
+          <lb ed="#V" n="68"/>instanti: siue non. Utrum autem medium illuminetur in in 
+          <lb ed="#V" n="69"/>stanti vel non: in secundo libro declarare propono. (Quod ex 
+          <lb ed="#V" n="70"/>eo nascitur non potuit aliud esse quam viuens:) quia enim 
+          <lb ed="#V" n="71"/>deus est vita: et in vita nihil est nisi viuens non potuit 
+          pro<lb ed="#V" n="72" break="no"/>duci a deo in identitate substantie nisi viuens. (Quod ex 
+          <lb ed="#V" n="73"/>viuo viuum natum est. Habet natiuitatis perfectionem 
+          si<lb ed="#V" n="74" break="no"/>ne nouitate nature.) Uerum est de. viuo in quo nihil est 
+          <lb ed="#V" n="75"/>non viuens: et in quo nihil est in potentia. Et in hoc 
+          ex<lb ed="#V" n="76" break="no"/>cluditur generatio in creaturis: vbi aliquando de viuo 
+          <lb ed="#V" n="77"/>nascitur non viuum: et aliquando de viuo viuum: quod 
+          <lb ed="#V" n="78"/>non habet nature perfectionem: et quod nascitur de creatu 
+          <lb ed="#V" n="79"/>ra nascitur cum nouitate nature. (Sacramento 
+          natiuita<lb ed="#V" n="80" break="no"/>tis.) idest sacro secreto. (Pater enim generatione actor 
+          si<lb ed="#V" n="81" break="no"/>lii est. Nota quod actor proprie non dicit hic causalitatem 
+          <lb ed="#V" n="82"/>Unde debet glosari actor id est principium. (Ab eterno aucto 
+          <lb ed="#V" n="83"/>re eterna natiuitas est. Contra si illud argumentum ese 
+          <lb ed="#V" n="84"/>set bonum: videretur quod etiam sequeretur ab eterno 
+          eter<lb ed="#V" n="85" break="no"/>na creatio: quod falsum est. Respondeo. Non est simile: quia 
+          <lb ed="#V" n="86"/>natiuitas filii dei est de substantia generantis tota. Unde 
+          <lb ed="#V" n="87"/>filius nascendo non accepit nouum esse: sed idem esse ab 
+          <lb ed="#V" n="88"/>solutum: quod habet pater. Creatura autem non accepit idem 
+          <lb ed="#V" n="89"/>esse quod habet creator. Quapropter sequitur quod accepit 
+          <lb ed="#V" n="90"/>nouum esse. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

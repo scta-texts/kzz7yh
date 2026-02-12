@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Circa litteram</title>
-            <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Circa litteram</title>
-               <date when="2023-09-18">September 18, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-09-18" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="41-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="kzz7yh-a28073"><!-- l1d11cl -->
-            <head xml:id="kzz7yh-a28073-Hd1e101">Circa litteram</head>
-            <p xml:id="kzz7yh-a28073-d1e103">
-               <lb ed="#V" n="48"/>CIrca litteram Oego mitam vobis a 
-      pa<lb ed="#V" n="49" break="no"/>re.) Per hoc saluator 
-      de<lb ed="#V" n="50" break="no"/>dit intelligere spiritu sanctum a se procedere 
-      eter<lb ed="#V" n="51" break="no"/>naliter: quia in processione temporali includitur 
-      <lb ed="#V" n="52"/>eterna: et etiam dedit intelligere se habere a 
-      pa<lb ed="#V" n="53" break="no"/>tre potentiam per quam spirat spiritu sanctum. (In 
-      prin<lb ed="#V" n="54" break="no"/>cipalibus conciliis: que fuerunt quattuor: vt habetur 
-      De<lb ed="#V" n="55" break="no"/>cretorum dis. xvi. canones. Primum Nicenum sub 
-      Constan<lb ed="#V" n="56" break="no"/>tino Augusto imperante. Secundum 
-      Constantinopolita<lb ed="#V" n="57" break="no"/>num sub Theodosio seniore. Tertium Ephesinum sub 
-      iu<lb ed="#V" n="58" break="no"/>niore Theodosio Augusto. Quartum Calcedonense sub 
-      <lb ed="#V" n="59"/>Martiano principe. Alterum a latinis est additum scilicet filioque. 
-   </p>
-            <p xml:id="kzz7yh-a28073-d1e132">
-               <lb ed="#V" n="60"/>¶ Sed queritur quomodo hoc fuerit factum sine 
-      conuo<lb ed="#V" n="61" break="no"/>catione concilii.
-   </p>
-            <p xml:id="kzz7yh-a28073-d1e139">
-      ¶ Respondeo quia clare constabat ex 
-      <lb ed="#V" n="62"/>intellectu verborum euangelii quod procedebat a filio. Ideo ad 
-      <lb ed="#V" n="63"/>hoc exprimendum non erat necesse concilium 
-      conuoca<lb ed="#V" n="64" break="no"/>ri. (Qui aliter docuerit: vel aliter predicauerit) idest 
-      con<lb ed="#V" n="65" break="no"/>trarium docuerit: vel contrario modo predicauerit. Et 
-      <lb ed="#V" n="66"/>bene hoc exponitur: quia ibi non tota fidei plenitudo 
-      ex<lb ed="#V" n="67" break="no"/>primitur cum de descensu ad inferos nihil ibi exprimatur.
-   </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Circa litteram</title>
+        <author ref="#RicardusDeMediavilla">Ricardus de Mediavilla</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Circa litteram</title>
+          <date when="2023-09-18">September 18, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-ve07v1">Venice, 1507, v. 1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="41-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="kzz7yh-a28073"><!-- l1d11cl -->
+        <head xml:id="kzz7yh-a28073-Hd1e101">Circa litteram</head>
+        <p xml:id="kzz7yh-a28073-d1e103">
+          <lb ed="#V" n="48"/>CIrca litteram Oego mitam vobis a 
+          pa<lb ed="#V" n="49" break="no"/>re.) Per hoc saluator 
+          de<lb ed="#V" n="50" break="no"/>dit intelligere spiritu sanctum a se procedere 
+          eter<lb ed="#V" n="51" break="no"/>naliter: quia in processione temporali includitur 
+          <lb ed="#V" n="52"/>eterna: et etiam dedit intelligere se habere a 
+          pa<lb ed="#V" n="53" break="no"/>tre potentiam per quam spirat spiritu sanctum. (In 
+          prin<lb ed="#V" n="54" break="no"/>cipalibus conciliis: que fuerunt quattuor: vt habetur 
+          De<lb ed="#V" n="55" break="no"/>cretorum dis. xvi. canones. Primum Nicenum sub 
+          Constan<lb ed="#V" n="56" break="no"/>tino Augusto imperante. Secundum 
+          Constantinopolita<lb ed="#V" n="57" break="no"/>num sub Theodosio seniore. Tertium Ephesinum sub 
+          iu<lb ed="#V" n="58" break="no"/>niore Theodosio Augusto. Quartum Calcedonense sub 
+          <lb ed="#V" n="59"/>Martiano principe. Alterum a latinis est additum scilicet filioque. 
+        </p>
+        <p xml:id="kzz7yh-a28073-d1e132">
+          <lb ed="#V" n="60"/>¶ Sed queritur quomodo hoc fuerit factum sine 
+          conuo<lb ed="#V" n="61" break="no"/>catione concilii.
+        </p>
+        <p xml:id="kzz7yh-a28073-d1e139">
+          ¶ Respondeo quia clare constabat ex 
+          <lb ed="#V" n="62"/>intellectu verborum euangelii quod procedebat a filio. Ideo ad 
+          <lb ed="#V" n="63"/>hoc exprimendum non erat necesse concilium 
+          conuoca<lb ed="#V" n="64" break="no"/>ri. (Qui aliter docuerit: vel aliter predicauerit) idest 
+          con<lb ed="#V" n="65" break="no"/>trarium docuerit: vel contrario modo predicauerit. Et 
+          <lb ed="#V" n="66"/>bene hoc exponitur: quia ibi non tota fidei plenitudo 
+          ex<lb ed="#V" n="67" break="no"/>primitur cum de descensu ad inferos nihil ibi exprimatur.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
