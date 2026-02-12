@@ -55,10 +55,15 @@ jobs:
           # Determine files to check: all for manual, changed for push/pr
           if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
             files=$(ls */*.xml)
+          elif [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+            # On push, compare last commit to its parent
+            files=$(git diff --name-only HEAD^ HEAD | grep -E '^.*/.*\\.xml$' || true)
+            if [[ -z "$files" ]]; then
+              echo "No changed XML files to validate."; exit 0;
+            fi
           else
-            # Get changed XML files in PR or push (against default branch)
+            # For PRs, compare with default branch
             files=$(git diff --name-only origin/${{ github.event.repository.default_branch }}...HEAD | grep -E '^.*/.*\\.xml$' || true)
-            # Fallback: if none found, skip
             if [[ -z "$files" ]]; then
               echo "No changed XML files to validate."; exit 0;
             fi
